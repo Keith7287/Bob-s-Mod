@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="SmallAwards">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text"/>
+		<Column name="Civilopedia" type="text"/>
+		<Column name="Notification" type="text"/>
+		<Column name="TeamNotification" type="text"/>
+		<Column name="NumVictoryPoints" type="integer" default="0"/>
+		<Column name="NumCities" type="integer" default="0"/>
+		<Column name="CityPopulation" type="integer" default="0"/>
+	</Table>
+	<!-- Table data -->
+	<SmallAwards/>
+</GameData>

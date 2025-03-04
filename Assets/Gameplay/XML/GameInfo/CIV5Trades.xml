@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- Table definition -->
+    <Table name="Trades">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" notnull="true" unique="true" />
+        <Column name="Description" type="text" />
+        <Column name="InitialPercent" type="integer" default="0" />
+        <Column name="AIWeightPercent" type="integer" default="0" />
+    </Table>
+
+    <!-- Table data -->
+    <Trades>
+        <Row>
+            <ID>0</ID>
+            <Type>TRADE_GOLD</Type>
+            <Description>TXT_KEY_GOLD</Description>
+            <InitialPercent>100</InitialPercent>
+            <AIWeightPercent>100</AIWeightPercent>
+        </Row>
+        <Row>
+            <Type>TRADE_RESEARCH</Type>
+            <Description>TXT_KEY_TRADE_RESEARCH</Description>
+            <AIWeightPercent>125</AIWeightPercent>
+        </Row>
+        <Row>
+            <Type>TRADE_CULTURE</Type>
+            <Description>TXT_KEY_TRADE_CULTURE</Description>
+            <AIWeightPercent>1</AIWeightPercent>
+        </Row>
+    </Trades>
+</GameData>

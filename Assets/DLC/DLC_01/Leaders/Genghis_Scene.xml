@@ -1,0 +1,12 @@
+<LeaderScene FarClip="110000" lights="Genghis_Lights.gr2" camera="Genghis_Camera.fxsxml" camera_animation="Genghis_CAMERA_CAMERA_LOOP" cubemap_prefix ="Genghis" FallbackImage="Genghis.dds">
+
+<HackLightSettings color="255,255,255" direction="0.3,-1.0,-.3" intensity="0.2" />
+
+<DOFSettings max_width="5.48" blur_distance="2145.16" ramp_distance="674.40" ></DOFSettings>
+<BloomSettings max_width="16.27" scale="8.23" min="2.73" ></BloomSettings>
+  
+  <LeaderObject  model="Mongol_Genghis.fxsxml"></LeaderObject>
+  <BackgroundObject model="Genghis_Scene.fxsxml" ></BackgroundObject>
+  <BackgroundObject model="Genghis_Scene_VFX.fxsxml" ></BackgroundObject>
+
+</LeaderScene>

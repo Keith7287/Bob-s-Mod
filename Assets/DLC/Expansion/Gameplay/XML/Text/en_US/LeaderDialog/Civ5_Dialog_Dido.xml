@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+
+<GameData>
+	<Language_en_US>
+
+    <!--General phrases -->
+    <!--Greeting (first time meeting) -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_FIRSTGREETING_1">
+      <Text>Welcome, fair stranger, to the protected harbors of Carthage.  I am known as Dido, the wanderer of Tyre.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_FIRSTGREETING_2">
+      <Text>The Queen of Carthage welcomes you to her fair city.  While many know me as Elissa, you may call me Dido.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_FIRSTGREETING_3">
+      <Text>The Phoenicians welcome you to our fair nation.  I am Dido, Queen of Carthage and all her holdings.</Text>
+    </Row>
+    <!--Reacts to his bluff being called -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_WARBLUFF_1">
+      <Text>Ugh. I expected so much more from you.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_WARBLUFF_2">
+      <Text>A good move, but perhaps not good enough.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_WARBLUFF_3">
+      <Text>How foolish of you.</Text>
+    </Row>
+    <!--Gloats after winning a war -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_WINWAR_1">
+      <Text>My sword is true, and mighty as any hero's.  I hope you've learned your lesson, and to Carthage come no more.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_WINWAR_2">
+      <Text>Ring the bells, fly high the standard upon the Byrsa. My fair nation is adorned in victory - what say of yours?</Text>
+    </Row>
+    <!--Submissive after losing a war -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_LOSEWAR_1">
+      <Text>What witchery have you employed, what foul charm have you evoked against my army?  I shall be wary of you, next time.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_LOSEWAR_2">
+      <Text>I must have angered the fates, it is the only explanation.  No one like you could ever hope to defeat me, unless you were aided by others from above.</Text>
+    </Row>
+    <!--Defeated and removed from game -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_DEFEATED_1">
+      <Text>To Fate I sue, for now I see all the heavens and earth conspire against me.  Fate, the only refuge, the only counsel left.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_DEFEATED_2">
+      <Text>When I am laid to finally rest in earth, may I be remembered, even as my poor city is consumed in fire and torment.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_DEFEATED_3">
+      <Text>A pyre I think, one befitting of a goddess.  Its flames shall lick across the water's edge, dancing in concert with the stars above. Death is now my welcome guest.</Text>
+    </Row>
+    
+    <!--Neutral -->
+    <!--Greetings (subsequent meetings) -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_GREETING_1">
+      <Text>Well met.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_GREETING_2">
+      <Text>Greetings.</Text>
+    </Row>
+    <!--Goodbye -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_GOODBYE_1">
+      <Text>Until we meet again.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_GOODBYE_2">
+      <Text>Goodbye.</Text>
+    </Row>
+    <!--Trade offer from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADE_YES_NEUTRAL">
+      <Text>Very well.</Text>
+    </Row>
+    <!--Trade offer from player - sweeten the deal -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>I commend you on what you're trying to do, but you'll have to be better than this. Come, try again.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Can you do a little better?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>That's not quite good enough.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Almost...</Text>
+    </Row>
+    <!--Trade offer from player - no -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADE_NO_NEUTRAL">
+      <Text>I am not interested.</Text>
+    </Row>
+    <!--Demand for tribute from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRIBUTE_YES_NEUTRAL">
+      <Text>Whatever will you do with this?  I am intrigued by this bizarre notion, and would like to see it through.</Text>
+    </Row> 
+    <!--Demand for tribute from player - no -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRIBUTE_NO_NEUTRAL">
+      <Text>What a silly person you are!  You can't ever get something for nothing, not in this court.</Text>
+    </Row>
+    <!--Requests a trade -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADEREQUEST_NEUTRAL">
+      <Text>Come, let us play a game.  Perhaps I'll even let you win.</Text>
+    </Row>
+    <!--Demands tribute -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Yes, I believe your gold shall do nicely for this!  Come now, hand it over.</Text>
+    </Row>  
+    <!--Agrees -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_AGREE_SHORT_1">
+      <Text>All right.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_AGREE_SHORT_2">
+      <Text>Very Well.</Text>
+    </Row>
+    <!--Disagrees -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_DISAGREE_SHORT_1">
+      <Text>I must refuse.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_DISAGREE_SHORT_2">
+      <Text>No.</Text>
+    </Row>
+    <!--Let's hear it -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_LETSHEARIT_1">
+      <Text>Let's hear it.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_LETSHEARIT_2">
+      <Text>Go ahead.</Text>
+    </Row>
+    
+    <!--Happy -->
+    <!--Greetings (subsequent meetings) -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_GREETING_3">
+      <Text>Welcome.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_GREETING_4">
+      <Text>It's good to see you again.</Text>
+    </Row>
+    <!--Goodbye -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_GOODBYE_3">
+      <Text>Farewell.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_GOODBYE_4">
+      <Text>Goodbye.</Text>
+    </Row>
+    <!--Trade offer from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADE_YES_HAPPY">
+      <Text>Agreed.</Text>
+    </Row>
+    <!--Trade offer from player - sweeten the deal -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Why, I wouldn't even let dear Aeneas get away with such an offer.  Why don't you try that again, hmm?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADE_NEEDMORE_HAPPY_2">
+      <Text>Is that the best you can do?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADE_NEEDMORE_HAPPY_3">
+      <Text>You're almost there...</Text>
+    </Row>
+    <!--Trade offer from player - no -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADE_NO_HAPPY">
+      <Text>Thank you, but no.</Text>
+    </Row>
+    <!--Demand for tribute from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRIBUTE_YES_HAPPY">
+      <Text>Hrm... well, I suppose it wouldn't hurt this one time.  Take it quickly, lest my advisors find out.</Text>
+    </Row>
+    <!--Demand for tribute from player - no -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRIBUTE_NO_HAPPY">
+      <Text>That's completely out of the question - what have you been drinking today?</Text>
+    </Row>
+    <!--Requests a trade -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADEREQUEST_HAPPY">
+      <Text>I just had the marvelous idea, and I think you'll appreciate it too.</Text>
+    </Row>
+    <!--Demands tribute -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_DEMANDTRIBUTE_HAPPY">
+      <Text>I just had the marvelous idea, and I think you'll appreciate it too.</Text>
+    </Row>
+    <!--Agrees -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_AGREE_SHORT_3">
+      <Text>Excellent.</Text>
+    </Row> 
+    <!--Disagrees -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_DISAGREE_SHORT_3">
+      <Text>Certainly not.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_DISAGREE_SHORT_4">
+      <Text>We decline.</Text>
+    </Row> 
+    <!--Let's hear it -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_LETSHEARIT_3">
+      <Text>Proceed.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_LETSHEARIT_4">
+      <Text>I'm listening.</Text>
+    </Row>
+    
+    <!--Angry -->
+    <!--Greetings (subsequent meetings) -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_GREETING_5">
+      <Text>Well?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_GREETING_6">
+      <Text>What do you want now?</Text>
+    </Row>
+    <!--Goodbye -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_GOODBYE_5">
+      <Text>That is all.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_GOODBYE_6">
+      <Text>Go away.</Text>
+    </Row>
+    <!--Trade offer from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADE_YES_ANGRY">
+      <Text>Fine. Agreed.</Text>
+    </Row> 
+    <!--Trade offer from player - sweeten the deal -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADE_NEEDMORE_ANGRY_1">
+      <Text>I really don't see where this is going.  Stop sputtering and make a real offer already.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADE_NEEDMORE_ANGRY_2">
+      <Text>That's not good enough.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADE_NEEDMORE_ANGRY_3">
+      <Text>You must do better than that.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADE_NEEDMORE_ANGRY_4">
+      <Text>Almost...</Text>
+    </Row>
+    <!--Trade offer from player - no -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADE_NO_ANGRY">
+      <Text>You think to best me?  ME, who outwitted Pygmalion and the lords of Tyre?  Ugh, you disgust me.</Text>
+    </Row>  
+    <!--Demand for tribute from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRIBUTE_YES_ANGRY">
+      <Text>In the interest of returning to more pressing matters in a timely fashion, I'll agree to this ridiculousness.</Text>
+    </Row>
+    <!--Demand for tribute from player - no -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRIBUTE_NO_ANGRY">
+      <Text>You're no better than Iarbas, and by far his lesser in many ways.  Shall I count them?  Oh stay, I believe you will find this educational.</Text>
+    </Row>
+    <!--Requests a trade -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_TRADEREQUEST_ANGRY">
+      <Text>A fool's errand I'm sure, but I can at least say I tried - which is better than I can say of others in this room.</Text>
+    </Row>
+    <!--Demands tribute -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_DEMANDTRIBUTE_ANGRY">
+      <Text>These things I do require, and I grow tired of listening to your pathetic attempts at witty discourse.</Text>
+    </Row>
+    <!--Agrees -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_AGREE_SHORT_4">
+      <Text>I suppose I must.</Text>
+    </Row>
+    <!--Disagrees -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_DISAGREE_SHORT_5">
+      <Text>I beg your pardon?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_DISAGREE_SHORT_6">
+      <Text>That's unacceptable.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_DISAGREE_SHORT_7">
+      <Text>You cannot be serious!</Text>
+    </Row>
+    <!--Let's hear it -->
+    <Row Tag="TXT_KEY_LEADER_DIDO_LETSHEARIT_5">
+      <Text>And?</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_LEADER_DIDO_DECLAREWAR_1">
+      <Text>Peace and I are strangers grown; I can no longer abide the terrors you wreak upon this land.  Prepare, destiny comes for you tonight.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_DECLAREWAR_2">
+      <Text>Fate, it seems, has it out for you.  Fair Carthage's ire have you aroused in your mockery and measures. Your time has come.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_DECLAREWAR_3">
+      <Text>Tell me - do you know how my army numbers, my trains of elephant or fleets of ship?  No?  Well, you'll soon find out.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_LEADER_DIDO_ATTACKED_1">
+      <Text>Oh foul, treacherous man! No repentance shall reclaim mine injured self - your acts bring ill between our peoples forever more.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_ATTACKED_2">
+      <Text>What do you hope to gain from such a wretched act?  My elephants will realign your senses for you, free of charge.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_DIDO_ATTACKED_3">
+      <Text>With deceit you've come to my harbor - the hypocrite, the serpent. With the gods as my witnesses, you shall repay your debt in blood and toil.</Text>
+    </Row>
+
+
+  </Language_en_US>
+</GameData>

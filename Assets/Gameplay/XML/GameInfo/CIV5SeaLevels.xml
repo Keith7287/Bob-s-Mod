@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- Table definition -->
+    <Table name="SeaLevels">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" notnull="true" unique="true" />
+        <Column name="Description" type="text" />
+        <Column name="SeaLevelChange" type="integer" notnull="true" />
+    </Table>
+
+    <!-- Table data -->
+    <SeaLevels>
+        <Row>
+            <ID>0</ID>
+            <Type>SEALEVEL_LOW</Type>
+            <Description>TXT_KEY_SEALEVEL_LOW</Description>
+            <SeaLevelChange>-8</SeaLevelChange>
+        </Row>
+        <Row>
+            <ID>1</ID>
+            <Type>SEALEVEL_MEDIUM</Type>
+            <Description>TXT_KEY_SEALEVEL_MEDIUM</Description>
+            <SeaLevelChange>0</SeaLevelChange>
+        </Row>
+        <Row>
+            <ID>2</ID>
+            <Type>SEALEVEL_HIGH</Type>
+            <Description>TXT_KEY_SEALEVEL_HIGH</Description>
+            <SeaLevelChange>6</SeaLevelChange>
+        </Row>
+    </SeaLevels>
+</GameData>

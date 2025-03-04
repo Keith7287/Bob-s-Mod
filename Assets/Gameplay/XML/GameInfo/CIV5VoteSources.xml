@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- Table definition -->
+    <Table name="VoteSources">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" notnull="true" unique="true" />
+        <Column name="Description" type="text" />
+        <Column name="PopupText" type="text" />
+        <Column name="SecretaryGeneralText" type="text" />
+        <Column name="VoteInterval" type="integer" />
+        <Column name="FreeSpecialist" type="text" default="NULL" />
+        <Column name="Policy" type="text" default="NULL" />
+    </Table>
+
+    <!-- Table data -->
+    <VoteSources>
+        <Row>
+            <ID>0</ID>
+            <Type>DIPLOVOTE_UN</Type>
+            <Description>TXT_KEY_BUILDING_UNITED_NATIONS</Description>
+            <PopupText>TXT_KEY_POPUP_CHOOSE_ELECTION</PopupText>
+            <SecretaryGeneralText>TXT_KEY_SECRETARY_GENERAL</SecretaryGeneralText>
+            <VoteInterval>5</VoteInterval>
+        </Row>
+        <Row>
+            <Type>DIPLOVOTE_POPE</Type>
+            <Description>TXT_KEY_BUILDING_APOSTOLIC_PALACE</Description>
+            <PopupText>TXT_KEY_POPUP_POPE_ELECTION</PopupText>
+            <SecretaryGeneralText>TXT_KEY_APOSTOLIC_PALACE_RESIDENT</SecretaryGeneralText>
+            <VoteInterval>9</VoteInterval>
+        </Row>
+    </VoteSources>
+
+</GameData>

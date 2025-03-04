@@ -1,0 +1,12 @@
+<LeaderScene FarClip="600000" lights="Kamehameha_lights.gr2" camera="Kamehameha_Camera.fxsxml" ColorKey="Kamehameha_COLORKEY.tga" cubemap_prefix ="Kamehameha" FallbackImage="Kamehameha.dds">
+ 
+<HackLightSettings color="255,175,255" direction="-0.46,-1.1,-0.2" intensity="0.1" />
+
+<DOFSettings max_width="2.6" blur_distance="1296" ramp_distance="812" ></DOFSettings>
+<BloomSettings max_width="19" scale="1.5" min="1" ></BloomSettings>
+  
+  <LeaderObject  model="Polynesia_Kamehameha_the_Great.fxsxml"></LeaderObject>
+  <BackgroundObject model="Kamehameha_Scene.fxsxml" ></BackgroundObject>
+  <BackgroundObject model="Kamehameha_Scene_VFX.fxsxml" ></BackgroundObject>
+
+</LeaderScene>

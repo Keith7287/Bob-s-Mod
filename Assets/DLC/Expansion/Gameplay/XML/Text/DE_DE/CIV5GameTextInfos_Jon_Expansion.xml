@@ -1,0 +1,888 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_DE_DE>
+    <Row Tag="TXT_KEY_AFRAID">
+      <Text>Verängstigt</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALLIES_CSTATE_TT">
+      <Text>Ihr seid [COLOR_POSITIVE_TEXT]verbündet[ENDCOLOR] mit dem Stadtstaat {1_CityStateName:textkey}, da Ihr dort mehr [ICON_INFLUENCE] Einfluss habt als jeder andere Spieler.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ANGRY_CSTATE_TT">
+      <Text>Ihr habt den Stadtstaat {1_CityStateName:textkey} verärgert, indem Ihr zum Beispiel einen Tribut verlangt, seine Grenzen überschritten oder den Krieg erklärt habt. Ihr könnt als Wiedergutmachung Quests abschließen oder [ICON_GOLD] Gold verschenken.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CITADEL_HELP">
+      <Text>+100% [ICON_STRENGTH] Verteidigungsstärke für jede Einheit, die auf diesem Geländefeld stationiert ist. Jede gegnerische Einheit, die ihren Zug neben der Zitadelle beendet, erleidet 30 Schaden (Wirkung nicht kumulativ mit anderen Zitadellen). Bei der Errichtung der Zitadelle wird die Einheit verbraucht und die Grenzen Eurer Zivilisation werden um die Zitadelle herum erweitert. Werden dadurch Felder belegt, die bereits einer anderen Zivilisation gehören, zieht das einen diplomatischen Malus nach sich.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CULTURE_REC">
+      <Text>Erhöht die Menge an [ICON_CULTURE] Kultur, die von diesem Geländefeld erzeugt wird, weitet unsere Grenzen aus und ermöglicht uns, weitere Sozialpolitiken zu erhalten.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_HOLY_SITE">
+      <Text>Eine heilige Stätte bauen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_HOLY_SITE_HELP">
+      <Text>Einheit wird verbraucht.[NEWLINE][NEWLINE]Große Geländefeld-Modernisierungen verbinden strategische Ressourcen auf diesem Geländefeld mit dem Handelsnetz.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_POLDER">
+      <Text>Einen [LINK=IMPROVEMENT_POLDER]Koog[\LINK] bauen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_ALLY_ACTIVE_PLAYER_TT">
+      <Text>Ihr seid momentan mit diesem Stadtstaat verbündet. Ihr erhaltet zusätzliche Bonusse und außerdem die Luxusgüter oder strategischen Ressourcen, zu denen dieser Stadtstaat Zugang hat.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_ALLY_NOBODY_TT">
+      <Text>Momentan hat dieser Stadtstaat keinen Verbündeten. Ihr benötigt {1_NumInfluence} [ICON_INFLUENCE] Einfluss zusätzlich, um Euch mit ihm zu verbünden.[NEWLINE][NEWLINE]Wenn ein Spieler sich mit einem Stadtstaat verbündet, erhält er zusätzliche Bonusse, abhängig von dem betreffenden Stadtstaat. Außerdem erhält er die Luxusgüter oder strategischen Ressourcen, zu denen dieser Stadtstaat Zugang hat.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_ALLY_TT">
+      <Text>Momentan ist dieser Stadtstaat mit der Zivilisation {1_CivName:textkey} verbündet. Ihr benötigt {2_NumInfluence} [ICON_INFLUENCE] Einfluss zusätzlich, um die Zivilisation {1_CivName:textkey} auszustechen und Euch mit dem Stadtstaat zu verbünden.[NEWLINE][NEWLINE]Wenn ein Spieler sich mit einem Stadtstaat verbündet, erhält er zusätzliche Bonusse, abhängig von der Eigenschaft des betreffenden Stadtstaats. Außerdem erhält er die Luxusgüter oder strategischen Ressourcen, zu denen dieser Stadtstaat Zugang hat.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_ALLY_UNKNOWN_TT">
+      <Text>Momentan ist dieser Stadtstaat mit einem unbekannten Spieler verbündet. Ihr benötigt {1_NumInfluence} [ICON_INFLUENCE] Einfluss zusätzlich, um den unbekannten Spieler auszustechen und Euch mit dem Stadtstaat zu verbünden.[NEWLINE][NEWLINE]Wenn ein Spieler sich mit einem Stadtstaat verbündet, erhält er zusätzliche Bonusse, abhängig von der Eigenschaft des betreffenden Stadtstaats. Außerdem erhält er die Luxusgüter oder strategischen Ressourcen, zu denen dieser Stadtstaat Zugang hat.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_PEACE_PROTECTED">
+      <Text>Der Schutz, den Ihr weiterhin bietet, ist uns ein Trost. Was können wir für Euch tun?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_QUEST_MESSAGE">
+      <Text>Unsere Boten haben Euch also rechtzeitig erreicht, gut. Wir haben eine neue Quest, die Euch interessieren könnte.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_JUST_BULLIED">
+      <Text>Anscheinend haben wir keine Wahl. Nehmt Euer Gold, aber tut uns nichts.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_JUST_BULLIED_WORKER">
+      <Text>Was? Wie könnt Ihr es wagen? Eines Tages werdet Ihr dafür zahlen!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_JUST_REVOKED_PROTECTION">
+      <Text>Nun gut, wendet uns den Rücken zu, wenn Ihr meint.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_JUST_SUPPORTED">
+      <Text>Ah, genau danach haben wir gesucht. Vielen Dank für Eure Unterstützung.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GIFT_FAITH_FIRST">
+      <Text>Sie geben Euch ihre hochgeschätzten Götzenbilder, was Euch [COLOR_POSITIVE_TEXT]{1_NumFaith} [ICON_PEACE] Glauben[ENDCOLOR] einbringt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GIFT_FAITH_OTHER">
+      <Text>Sie teilen ihr Wissen um religiöse Rituale mit Euch, was Euch [COLOR_POSITIVE_TEXT]{1_NumFaith} [ICON_PEACE] Glauben[ENDCOLOR] einbringt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GREETING_MERCANTILE">
+      <Text>Wir sind ein [COLOR_POSITIVE_TEXT]kaufmännisches[ENDCOLOR] Volk und wir haben viele Luxusgüter, die Eure Zivilisation glücklich machen können.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GREETING_RELIGIOUS">
+      <Text>Wir sind ein [COLOR_POSITIVE_TEXT]religiöses[ENDCOLOR] Volk und können Euch in religiösen Dingen unterstützen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_MERCANTILE_TT">
+      <Text>Ein befreundeter [COLOR_POSITIVE_TEXT]kaufmännischer[ENDCOLOR] Stadtstaat bringt Eurem Reich zusätzliche [ICON_HAPPINESS_1] Zufriedenheit ein und stellt spezielle Luxusgüter her, die nur auf diesem Weg beschafft werden können.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_MILITARISTIC_NO_UU_TT">
+      <Text>Ein verbündeter [COLOR_POSITIVE_TEXT]militaristischer[ENDCOLOR] Stadtstaat schenkt Euch von Zeit zu Zeit fortschrittliche Militäreinheiten.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_MILITARISTIC_TT">
+      <Text>Ein befreundeter [COLOR_POSITIVE_TEXT]militaristischer[ENDCOLOR] Stadtstaat schenkt Euch von Zeit zu Zeit fortschrittliche Militäreinheiten.[NEWLINE][NEWLINE]Sie kennen die Geheimnisse der Einheit [COLOR_POSITIVE_TEXT]{@1_UniqueUnitName}[ENDCOLOR]. Wenn Ihr Verbündete seid und die Technologie {@2_PrereqTech} erforscht habt, erhaltet Ihr diese Einheit als Geschenk.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_BULLY_CITY_STATE">
+      <Text>Wir bitten Euch, unsere rivalisierenden Stadtstaaten zu drangsalieren, um ihnen Respekt beizubringen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_BULLY_CITY_STATE_FORMAL">
+      <Text>Sie wollen, dass Ihr vom Stadtstaat {1_TargetName:textkey} Tribut fordert.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE">
+      <Text>Unsere Künstler suchen nach einer aufgeklärten Kulturmacht, die sie inspirieren kann. Wenn Euer kulturelles Wachstum in den nächsten Jahren das der anderen uns bekannten Zivilisationen übersteigt, werden wir Euch belohnen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_FORMAL">
+      <Text>Sie belohnen den Spieler mit der wachstumsstärksten Kultur.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_LOSING_FORMAL">
+      <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_FORMAL} Bisher hat der führende Spieler [ICON_CULTURE]{1_LeaderScore} und Ihr habt [ICON_CULTURE][COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR]. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_WINNING_FORMAL">
+      <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_FORMAL} Bisher liegt Ihr in Führung mit [ICON_CULTURE][COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH">
+      <Text>Wir belohnen den Spieler, der am meisten Glauben ansammelt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL">
+      <Text>Sie belohnen den Spieler mit dem wachstumsstärksten Glauben.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_LOSING_FORMAL">
+      <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL} Bisher hat der führende Spieler [ICON_PEACE]{1_LeaderScore} und Ihr habt [ICON_PEACE][COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_WINNING_FORMAL">
+      <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL} Bisher liegt Ihr in Führung mit [ICON_PEACE][COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS">
+      <Text>Wir belohnen den Spieler, der die meisten Technologien entdeckt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL">
+      <Text>Sie belohnen den Spieler, der die meisten Technologien entdeckt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_LOSING_FORMAL">
+      <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL} Bisher hat der führende Spieler {1: plural 1?eine Technologie; other?{1_LeaderScore} Technologien;} und Ihr habt {2: plural 1?[COLOR_POSITIVE_TEXT]eine[ENDCOLOR]; other?[COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_WINNING_FORMAL">
+      <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL} Bisher liegt Ihr in Führung mit {1: plural 1?[COLOR_POSITIVE_TEXT]einer[ENDCOLOR] Technologie; other?[COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR] Technologien;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_DENOUNCE_MAJOR">
+      <Text>Wir verlangen, dass Ihr die Zivilisation denunziert, die uns kürzlich tyrannisiert hat, damit die Welt von ihren Verbrechen erfährt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_DENOUNCE_MAJOR_FORMAL">
+      <Text>Sie wollen, dass Ihr die Zivilisation {1_TargetName:textkey} denunziert.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_GIVE_GOLD">
+      <Text>Nachdem die Zivilisation {1_CivName:textkey} uns gezwungen hat, Tribut zu entrichten, geht es uns immer noch schlecht. Wenn Ihr uns mit etwas Gold aushelfen könntet, um wieder zu erstarken, wären wir sehr dankbar.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_GIVE_GOLD_FORMAL">
+      <Text>Sie wollen, dass Ihr ihnen Gold schenkt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_INVADING_BARBS">
+      <Text>Wir wollen, dass Ihr Barbaren besiegt, die in unser Territorium eindringen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_INVADING_BARBS_FORMAL">
+      <Text>Sie wollen, dass Ihr barbarische Einheiten besiegt, die in ihr Territorium eindringen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_INVEST">
+      <Text>Goldschenkungen sind zeitweilig effektiver.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_INVEST_FORMAL">
+      <Text>Goldschenkungen sind zeitweilig effektiver.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_KILL_CAMP_FORMAL">
+      <Text>Sie belohnen den Spieler, der ein Barbarenlager in der Nähe zerstört.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_NONE">
+      <Text>Keine</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_NONE_FORMAL">
+      <Text>Dieser Stadtstaat hat momentan keine Quest an Euch vergeben. Er wird Euch von Zeit zu Zeit Quests geben, es sei denn, Ihr habt ihn kürzlich tyrannisiert.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_PLEDGE_TO_PROTECT">
+      <Text>Wir haben es satt, von der Zivilisation {1_CivName:textkey} tyrannisiert zu werden. Wenn Ihr öffentlich versprecht, uns zu beschützen, können wir sie das nächste Mal vielleicht vertreiben. Es wird sich für Euch lohnen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_PLEDGE_TO_PROTECT_FORMAL">
+      <Text>Sie möchten, dass Ihr schwört, sie zu beschützen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_SPREAD_RELIGION">
+      <Text>Wir möchten, dass Ihr Eure Religion zu uns bringt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_SPREAD_RELIGION_FORMAL">
+      <Text>Sie möchten, dass die Religion {@1_ReligionName} die vorherrschende Religion in ihrer Stadt wird.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_TURNS_REMAINING_FORMAL">
+      <Text>(Noch {1: plural 1?eine Runde; other?{1_TurnsRemaining} Runden;})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_RELIGIOUS_TT">
+      <Text>Eine befreundeter [COLOR_POSITIVE_TEXT]religiöser[ENDCOLOR] Stadtstaat steigert Euren [ICON_PEACE] Glauben, sodass Ihr Eure Religion mit weiteren Glaubenssätzen ausbauen und neue Einheiten erlangen könnt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_HELP">
+      <Text>Ein Koog kann nur auf Schwemmland und Sumpf gebaut werden. Er steigert sofort die Nahrungsproduktion. Außerdem bietet er +1 [ICON_PRODUCTION] Produktion und +2 [ICON_GOLD] Gold, sobald das Wirtschaftswesen erforscht wurde.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_TEXT">
+      <Text>Ein Koog besteht aus flachem, durch Entwässerung gewonnenem Marschland, das durch Deiche geschützt wird. Köge sind für gewöhnlich Landflächen, die aus einem See, dem Meer, Schwemmland oder Sümpfen gewonnen wurden. Mit der Zeit sinkt das entwässerte Land, sodass der gesamte Koog irgendwann unter dem umgebenden Wasserspiegel liegt. Dann sickert Wasser in den Koog, das abgepumpt oder anderweitig abgeleitet werden muss. Die Deiche werden oft aus bereits vorhandenen Baustoffen der natürlichen Umgebung wie Erde oder Sand gebaut. In modernen Zeiten erhalten diese Barrieren eine Schutzschicht oder werden gleich aus Beton errichtet. Der entwässerte Boden ist überaus fruchtbar und bietet ausgezeichnetes Weide- oder Ackerland.[NEWLINE][NEWLINE]Die ersten Köge wurden im 11. Jahrhundert n. Chr. gebaut, obwohl schon die Römer Barrieren errichteten, um Wasser abzugrenzen. Die Niederlande gewinnen schon seit Langem Land aus Sümpfen, Feuchtgebieten und dem Meeresboden - die Hälfte der durch Köge gewonnenen Landflächen in Europa sind in den Niederlanden zu finden. Köge gibt es aber nicht nur in Europa, sondern auch in Asien und Nordamerika. Die Niederlande besitzen 3000 Köge, die 27% der Landfläche ausmachen. Amsterdam selbst wurde größtenteils auf Kögen gebaut. Ein niederländisches Sprichwort sagt: "Gott hat die Welt geschaffen, aber die Niederländer ihr eigenes Land".</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_BULLY">
+      <Text>Wollt Ihr wirklich Tribut fordern von dem Stadtstaat {1_MinorCivName:textkey}?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_BULLY_PROTECTED_CITY_STATE">
+      <Text>Wollt Ihr von dem Stadtstaat {@1_MinorCivName} wirklich Tribut fordern? Sie stehen derzeit unter dem Schutz der Zivilisation {@2_CivName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_BULLY_PROTECTED_CITY_STATE_MULTIPLE">
+      <Text>Wollt Ihr von dem Stadtstaat {@1_MinorCivName} wirklich Tribut fordern? Sie stehen derzeit unter dem Schutz der Zivilisationen: {2_ListOfCivs}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_CAN_BULLY">
+      <Text>Sie erkennen Eure militärische Macht und werden einer Tributforderung nachgeben.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_CANNOT_BULLY">
+      <Text>Sie fürchten Euer Militär nicht und werden nicht auf Tributforderungen eingehen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_CULTURE_BONUS">
+      <Text>Ihr erhaltet [COLOR_POSITIVE_TEXT]{1_CultureBonus} [ICON_CULTURE] Kultur[ENDCOLOR] pro Runde von ihnen, plus zusätzlich [COLOR_POSITIVE_TEXT]{2_PerBuildingBonus} [ICON_CULTURE]Kultur[ENDCOLOR] von Kulturgebäuden, die Ihr erbaut habt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_FAITH_BONUS">
+      <Text>Ihr bekommt [COLOR_POSITIVE_TEXT]{1_Num} [ICON_PEACE] Glauben[ENDCOLOR] pro Runde von ihnen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_HAPPINESS_BONUS">
+      <Text>Ihr bekommt [COLOR_POSITIVE_TEXT]{1_FlatBonus} [ICON_HAPPINESS_1] Zufriedenheit[ENDCOLOR] von ihnen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_INFLUENCE_RATE">
+      <Text>Mit jeder Runde ändert sich der [ICON_INFLUENCE] Einfluss auf sie um {1_InfluenceRate}, bis er bei {2_InfluenceAnchor} bleibt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ADOPTING_HIS_RELIGION">
+      <Text>[COLOR_POSITIVE_TEXT]Ihr habt ihren Glauben in der Mehrheit Eurer Städte angenommen.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ADOPTING_MY_RELIGION">
+      <Text>[COLOR_POSITIVE_TEXT]Sie haben Euren Glauben mit Freude in der Mehrheit ihrer Städte angenommen.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY">
+      <Text>BOTSCHAFT ANNEHMEN</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_HAVE">
+      <Text>[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Wir haben bereits eine Botschaft in ihrer Hauptstadt![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_TECH_OTHER_PLAYER">
+      <Text>[NEWLINE][NEWLINE]Sie haben nicht die Technologie, um eine Botschaft zu errichten (Schrift).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_TECH_PLAYER">
+      <Text>[NEWLINE][NEWLINE]Ihr habt nicht die Technologie, um eine Botschaft zu errichten (Schrift).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_THEY_HAVE">
+      <Text>[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]Sie haben bereits eine Botschaft in unserer Hauptstadt![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_TT">
+      <Text>Ermöglicht Offene Grenzen und Verteidigungsbündnisse. Zeigt auch die Lage der Hauptstadt des anderen Spielers.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BOTH_NEED_EMBASSY_TT">
+      <Text>[NEWLINE][NEWLINE]Beide Parteien benötigen eine Botschaft, um mit diesem Objekt zu handeln.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BULLY_CITY_STATE_PROMISE_BROKEN">
+      <Text>[COLOR_NEGATIVE_TEXT]Ihr habt das Versprechen gegeben, keinen Tribut mehr von einem Stadtstaat zu fordern, der von ihnen beschützt wird, und es dann gebrochen![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BULLY_CITY_STATE_PROMISE_IGNORED">
+      <Text>[COLOR_NEGATIVE_TEXT]Sie haben Euch gebeten, keinen Tribut mehr von einem Stadtstaat zu fordern, der von ihnen beschützt wird, und Ihr habt sie ignoriert![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CAUGHT_STEALING">
+      <Text>[COLOR_NEGATIVE_TEXT]Eure Spione wurden dabei ertappt, wie sie versucht haben, Technologien zu stehlen.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CITY_STATE_PROMISE_BROKEN_WITH_OTHERS">
+      <Text>[COLOR_NEGATIVE_TEXT]Ihr habt anderen Zivilisationen das Versprechen gegeben, einen von ihnen geschützten Stadtstaat nicht mehr anzugreifen, und es dann gebrochen![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEF_PACT_NO_TECH">
+      <Text>[NEWLINE][NEWLINE]Kein Spieler hat die Technologie, um mit diesem Objekt zu handeln (Ritterlichkeit).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DENOUNCED_BY_PEOPLE_WE_TRUST_MORE">
+      <Text>[COLOR_NEGATIVE_TEXT]Andere Zivilisationen, die wir lieber mögen als Euch, haben Euch denunziert![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DIFFERENT_LATE_POLICY_TREES">
+      <Text>[COLOR_NEGATIVE_TEXT]Ihr habt Euch entschlossen, die Politik {1_YourPolicyTree} einzuführen, doch sie glauben an die Politik {2_TheirPolicyTree}.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_CAUGHT_DECLARE_WAR">
+      <Text>{1_LeaderName} den Krieg erklären.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_CAUGHT_DEMAND_STOP_SPYING">
+      <Text>Wir verlangen, dass Ihr uns nicht mehr ausspioniert.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_CAUGHT_DENOUNCE_FOR_SPYING">
+      <Text>{1_LeaderName} öffentlich denunzieren.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_CAUGHT_FORGIVE_SPYING">
+      <Text>Wir haben uns entschlossen, Euch dieses Vergehen diesmal nachzusehen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_DONT_FORGIVE_SPYING">
+      <Text>Ich kann nicht über diese Beleidigung hinwegsehen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_DONT_STOP_CONVERSIONS">
+      <Text>Unsere Missionare und Propheten gehen, wohin sie wünschen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_FORGIVE_SPYING">
+      <Text>Ich vergebe Euch.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_SHARE_INTRIGUE">
+      <Text>Intrige {1_LeaderName} mitteilen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_SHARE_INTRIGUE_TT">
+      <Text>Teile der Intrige, die Eure Spione herausgefunden haben, {1_LeaderName} mitteilen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_STOP_SPREADING_RELIGION">
+      <Text>Hört auf, Missionare und Propheten in meine Städte zu schicken.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_STOP_SPYING">
+      <Text>Hört auf, mich auszuspionieren.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_NOT_SORRY_FOR_SPY_CAUGHT">
+      <Text>Meine Agenten gehen, wohin sie wünschen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_NOT_SORRY_FOR_SPY_KILLED">
+      <Text>Nicht einmal der Tod wird mich aufhalten!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_PROTECTED_MINOR_DISPUTE_TT">
+      <Text>Wenn Ihr Eure Verbindung mit dem Stadtstaat {2_MinorCivName:textkey} aufrecht erhaltet, verärgert Ihr die Zivilisation {1_CivName:textkey} und riskiert, dass es zu einem Krieg kommt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_PROTECTED_MINOR_FORGIVE_TT">
+      <Text>Erhaltet Eure Verbindung mit der Zivilisation {1_CivName:textkey} aufrecht, doch Ihr müsst Euren Schwur widerrufen, den Stadtstaat {2_MinorCivName:textkey} zu schützen, und Ihr verliert {3_InfluenceLoss} [ICON_INFLUENCE] Einfluss.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_FOR_BULLYING">
+      <Text>Entschuldigt bitte. Wir werden sie in Ruhe lassen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_FOR_SPY_CAUGHT">
+      <Text>Ich schwöre, dass ich Euch nicht mehr ausspionieren werde.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_FOR_SPY_KILLED">
+      <Text>Ich schwöre, dass ich Euch nicht mehr ausspionieren werde.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_STOP_CONVERSIONS">
+      <Text>Wir werden unsere Missionare und Propheten in andere Gebiete schicken.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_FORGAVE_FOR_SPYING">
+      <Text>[COLOR_POSITIVE_TEXT]Ihr habt ihnen die Spionage verziehen.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_HAS_EMBASSY">
+      <Text>[COLOR_POSITIVE_TEXT]Sie haben eine Botschaft in unserer Hauptstadt[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MILITARY_PROMISE_BROKEN_WITH_OTHERS">
+      <Text>[COLOR_NEGATIVE_TEXT]Ihr habt anderen Zivilisationen das Versprechen gegeben, Eure Truppen von ihren Grenzen abzuziehen, und es dann gebrochen![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NEED_DOF_TT">
+      <Text>[NEWLINE][NEWLINE]Es ist eine Freundschaftserklärung nötig, um mit diesem Objekt zu handeln.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_CONVERT_PROMISE_BROKEN">
+      <Text>[COLOR_NEGATIVE_TEXT]Ihr habt das Versprechen gegeben, ihre Städte nicht mehr zu konvertieren, und es dann gebrochen![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_CONVERT_PROMISE_IGNORED">
+      <Text>[COLOR_NEGATIVE_TEXT]Sie haben euch gebeten, ihre Städte nicht mehr zu konvertieren, und Ihr habt sie ignoriert![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_LAND_DISPUTE">
+      <Text>Ihr habt keine umstrittenen Grenzen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_NO_TECH">
+      <Text>[NEWLINE][NEWLINE]Kein Spieler hat die Technologie, um mit diesem Objekt zu handeln (Öffentliche Verwaltung).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PEACE_TREATY">
+      <Text>FRIEDENSVERTRAG ({1_Turns} Runden)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PEACE_TREATY_TURNS">
+      <Text>FRIEDENSVERTRAG ({1_Turns} Runden)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PROTECTED_MINORS_BULLIED">
+      <Text>[COLOR_NEGATIVE_TEXT]Ihr habt Tribut von Stadtstaaten unter ihrem Schutz gefordert![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELATION_EMBASSY_SHARED">
+      <Text>GETEILTE BOTSCHAFTEN</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELATION_EMBASSY_THEIR">
+      <Text>BOTSCHAFT IN IHRER HAUPTSTADT</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELATION_EMBASSY_YOUR">
+      <Text>BOTSCHAFT IN EURER HAUPTSTADT</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELATION_OPEN_BORDERS_SHARED">
+      <Text>GETEILTE OFFENE GRENZEN</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELATION_OPEN_BORDERS_THEIR">
+      <Text>IHRE GRENZEN SIND FÜR EUCH OFFEN</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELATION_OPEN_BORDERS_YOUR">
+      <Text>EURE GRENZEN SIND FÜR SIE OFFEN</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELIGIOUS_CONVERSIONS">
+      <Text>[COLOR_NEGATIVE_TEXT]Sie verbreiten ihre Religion, doch Ihr habt einige ihrer Städte zu Eurer Religion bekehrt.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_NO_TECH">
+      <Text>[NEWLINE][NEWLINE]Kein Spieler hat die Technologie, um mit diesem Objekt zu handeln (Bildungswissenschaft).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SAME_LATE_POLICY_TREES">
+      <Text>[COLOR_POSITIVE_TEXT]Ihr habt Euch beide dazu entschlossen, die Politik {1_PolicyTree} anzunehmen.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SHARED_INTRIGUE">
+      <Text>[COLOR_POSITIVE_TEXT]Ihr habt eine Intrige offenbart, die Eure Spione bei ihnen aufgedeckt haben.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SIDED_WITH_MINOR">
+      <Text>[COLOR_NEGATIVE_TEXT]Sie haben die von Euch geschützten Stadtstaaten schlecht behandelt und Ihr habt nicht weggesehen![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SPY_PROMISE_BROKEN">
+      <Text>[COLOR_NEGATIVE_TEXT]Ihr habt das Versprechen gegeben, sie nicht mehr auszuspionieren, und es dann gebrochen![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SPY_PROMISE_IGNORED">
+      <Text>[COLOR_NEGATIVE_TEXT]Sie haben Euch gebeten, sie nicht mehr auszuspionieren, und Ihr habt sie ignoriert![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_STOP_SPYING_ASKED">
+      <Text>[COLOR_NEGATIVE_TEXT]Ihr habt sie gebeten, Euch nicht mehr auszuspionieren.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_THEY_NEED_EMBASSY_TT">
+      <Text>[NEWLINE][NEWLINE]Sie benötigen eine Botschaft in Eurer Zivilisation, um mit diesem Objekt handeln zu können.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_YOU_NEED_EMBASSY_TT">
+      <Text>[NEWLINE][NEWLINE]Ihr benötigt eine Botschaft in dieser Zivilisation, um mit diesem Objekt handeln zu können.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FRIENDS_CSTATE_TT">
+      <Text>Ihr seid mit {1_CityStateName:textkey} [COLOR_POSITIVE_TEXT]befreundet[ENDCOLOR]. Um Verbündete zu werden, müsst Ihr mehr [ICON_INFLUENCE] Einfluss haben als jeder andere Spieler.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOODY_FAITH">
+      <Text>Ihr habt ein uraltes Orakel gefunden. Die Priesterin hat Euch mit einer göttlichen Offenbarung gesegnet. Ihr habt {1_Num} [ICON_PEACE] Glauben erhalten.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOODY_PROPHET_FAITH">
+      <Text>Ihr habt eine geheime Religionsgemeinschaft entdeckt. Deren Prediger sagt die Ankunft eines Großen Propheten vorher. Ihr habt {1_Num} [ICON_PEACE] Glauben erhalten.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_POLDER">
+      <Text>Koog</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_GIFT_TILE_IMPROVEMENT_HELP">
+      <Text>Baut eine Geländefeld-Modernisierung für dieses Geländefeld des Stadtstaats, was ihm Zugang zu der Ressource verleiht.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_ENHANCE_RELIGION_DISABLED_HELP">
+      <Text>Für diese Religion muss die Einheit in der heiligen Stadt sein.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_ENHANCE_RELIGION_HELP">
+      <Text>Dieser Befehl verbraucht die Große Persönlichkeit und ermöglicht Eurer Religion, zwei neue Glaubenssätze hinzuzufügen. Ihr habt auch die Möglichkeit, Inquisitoren zu erwerben, um Eure Religion zu verteidigen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_FOUND_RELIGION_DISABLED_HELP">
+      <Text>Die Einheit muss sich in einer Eurer Städte befinden.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_FOUND_RELIGION_HELP">
+      <Text>Dieser Befehl verbraucht die Große Persönlichkeit und bewirkt die Schaffung einer neuen Religion.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_MAJORITY_RELIGION">
+      <Text>[COLOR_POSITIVE_TEXT]{1_ReligionName}[ENDCOLOR] wird die Mehrheitsreligion in dieser Stadt sein.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_MAJORITY_RELIGION_NONE">
+      <Text>In dieser Stadt wird es keine Mehrheitsreligion geben.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_REMOVE_HERESY_DISABLED_HELP">
+      <Text>Die Einheit muss in oder direkt neben einer freundlich gesinnten Stadt sein.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_REMOVE_HERESY_HELP">
+      <Text>Dieser Befehl entfernt die Präsenz anderer Religionen aus der nahen, verbündeten Stadt. Diese Aktion verbraucht einen Inquisitor.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_REPAIR_FLEET_HELP">
+      <Text>Dieser Befehl verbraucht den Großen Admiral und heilt all Eure Marineeinheiten sowie die Einheiten zu Wasser auf diesem und allen angrenzenden Geländefeldern.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SPREAD_RELIGION_DISABLED_HELP">
+      <Text>Die Einheit muss in oder direkt neben einer Stadt sein. (Die Stadt muss nicht freundlich gesinnt sein.)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SPREAD_RELIGION_HELP">
+      <Text>Dieser Befehl konvertiert einige Bürger der nahe gelegenen Stadt zur Religion der Einheit. Diese Einheit wird verbraucht, wenn es ihre letzte Aktion zur Religionsverbreitung ist. Die Verbreitung durch Große Propheten entfernt auch den Einfluss anderer Religionen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SPREAD_RELIGION_RESULT">
+      <Text>Nach dieser Handlung {2_NumFollowers: plural 1?wird [COLOR_POSITIVE_TEXT]ein[ENDCOLOR]; other?werden [COLOR_POSITIVE_TEXT]{2_NumFollowers}[ENDCOLOR];} Bürger der Religion [COLOR_POSITIVE_TEXT]{1_ReligionName}[ENDCOLOR] angehören.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_START_GOLDENAGE_HELP">
+      <Text>Dieser Befehl verbraucht den Großen Künstler und leitet ein Goldenes Zeitalter (zusätzlich [ICON_PRODUCTION], [ICON_GOLD] und [ICON_CULTURE]) für {1_Num} Runde(n) ein.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEUTRAL_CSTATE_TT">
+      <Text>{1_CityStateName:textkey} steht Euch gleichgültig gegenüber. Durch die Erfüllung von Quests oder wenn ihr ihnen [ICON_GOLD] Gold gebt, verbessert Ihr Eure Beziehungen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_BORDER_PROMISE_EXPIRED">
+      <Text>Es ist viele Jahre her, seit Ihr versprochen habt, Eure Grenzen in der Nähe der Zivilisation {1_CivDesc} nicht auszuweiten. Betrachtet dieses Versprechen als erfüllt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_BORDER_PROMISE_EXPIRED_S">
+      <Text>Ihr habt Euer Grenzversprechen gehalten.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_EXPANSION_PROMISE_EXPIRED">
+      <Text>Es ist viele Jahre her, seit Ihr versprochen habt, Euch nicht in der Nähe der Zivilisation {1_CivDesc} anzusiedeln. Betrachtet dieses Versprechen als erfüllt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_EXPANSION_PROMISE_EXPIRED_S">
+      <Text>Ihr habt Euer Expansionsversprechen gehalten.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FAITH_GREAT_PERSON">
+      <Text>GROSSE PERSÖNLICHKEIT DES GLAUBENS!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FAITH_GREAT_PERSON_TT">
+      <Text>Ihr habt genügend Glauben gesammelt, um Euch eine Große Persönlichkeit Eurer Wahl zu verdienen!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GREAT_ARTIST_STOLE_PLOT">
+      <Text>{1_CivName:textkey} hat einen Großen General dazu eingesetzt, einen Teil Eures Landes zu stehlen!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MAYA_LONG_COUNT">
+      <Text>BONUS - LANGE ZÄHLUNG
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MAYA_LONG_COUNT_TT">
+      <Text>Das aktuelle b'ak'tun des Maya-Kalenders hat geendet. Wählt einen Bonus, um diesen Meilenstein der Maya-Geschichte zu feiern!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT">
+      <Text>{@2_MinorCivName} schließt sich{@1: plural 1?{@1: gender *:vowel? dem; feminine? der;other?;}; other? den;} {@1_CivName[2]} durch Ehe an!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT_TT_1">
+      <Text>Eine wunderschöne Prinzessin der Zivilisation {@1_CivName} wurde mit einem Adligen aus dem Stadtstaat {@2_MinorCivName} verheiratet. Mit diesen durch Ehe gefestigten diplomatischen Beziehungen ist der Stadtstaat {@2_MinorCivName} zum dauerhaften Teil der Zivilisation {@1_CivName} geworden.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT_TT_2">
+      <Text>Ein stattlicher Prinz der Zivilisation {@1_CivName} wurde mit einer Adligen aus dem Stadtstaat {@2_MinorCivName} verheiratet. Mit diesen durch Ehe gefestigten diplomatischen Beziehungen ist der Stadtstaat {@2_MinorCivName} zum dauerhaften Teil der Zivilisation {@1_CivName} geworden.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_MERCANTILE">
+      <Text>({1_NumHappiness} [ICON_HAPPINESS_1] Zufriedenheit)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_RELIGIOUS">
+      <Text>({1_NumFaith} [ICON_PEACE] Verlust an Glauben pro Runde)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MERCANTILE">
+      <Text>Als [COLOR_POSITIVE_TEXT]kaufmännischer[ENDCOLOR] Stadtstaat verbreiten ihre Märkte den Handel mit exotischen Gütern in Eurem ganzen Reich! (+{1_NumHappiness} [ICON_HAPPINESS_1] Zufriedenheit)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MILITARISTIC">
+      <Text>Als [COLOR_POSITIVE_TEXT]militaristischer[ENDCOLOR] Stadtstaat werden sie Euch regelmäßig Militäreinheiten überlassen. Manchmal geben sie Euch Spezialeinheiten, zu denen Ihr sonst keinen Zugang hättet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_RELIGIOUS">
+      <Text>Als [COLOR_POSITIVE_TEXT]religiöser[ENDCOLOR] Stadtstaat versorgen sie Euch mit ihren kostbarsten religiösen Reliquien! (+{1_NumFaith} [ICON_PEACE] Glauben pro Runde)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MERCANTILE">
+      <Text>Als [COLOR_POSITIVE_TEXT]kaufmännischer[ENDCOLOR] Stadtstaat bieten ihre Märkte Eurem Volk exotische Güter! (+{1_NumHappiness} [ICON_HAPPINESS_1] Zufriedenheit)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_RELIGIOUS">
+      <Text>Als [COLOR_POSITIVE_TEXT]religiöser[ENDCOLOR] Stadtstaat teilen sie ihr Wissen über Rituale mit Euch! (+{1_NumFaith} [ICON_PEACE] Glauben pro Runde)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINORS_NOW_WARY">
+      <Text>Stadtstaaten werden misstrauisch</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINORS_NOW_WARY_TT">
+      <Text>Eure Aggressionen gegen Euren schwächeren Nachbarn blieben nicht unbemerkt. Der Nullpunkt für [ICON_INFLUENCE] Einfluss ist um [COLOR_NEGATIVE_TEXT]{1_InfluenceMinimum}[ENDCOLOR] für diese Stadtstaaten gesunken. Dadurch wird es teurer, die Freundschaft zu erhalten:[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED">
+      <Text>Die Zivilisation {@1_CivName} hat begonnen, ein Götterpantheon zu verehren. Sie haben diesen Glaubenssatz gewählt: {2_BeliefName} ({@3_BeliefDesc})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED_ACTIVE_PLAYER">
+      <Text>Euer Volk hat begonnen, ein Götterpantheon zu verehren. Es hat folgenden Glaubenssatz gewählt: {1_BeliefName} ({@2_BeliefDesc})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED_S">
+      <Text>Pantheon gegründet</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED_UNKNOWN">
+      <Text>Eine unbekannte Zivilisation hat begonnen, ein Götterpantheon zu verehren. Sie hat diesen Glaubenssatz gewählt: {1_BeliefName} ({@2_BeliefDesc})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_BULLY_CITY_STATE">
+      <Text>Die Anführer des Stadtstaats {2_MinorCivName:textkey} haben ein Auge auf den Wohlstand anderer Stadtstaaten geworfen und bitten Euch, ihnen zu helfen, ihre Rivalen in Schach zu halten. Wenn Ihr von dem Stadtstaat {1_TargetName:textkey} Tribut verlangt, werden sie Euch belohnen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_BULLY_CITY_STATE">
+      <Text>Der Stadtstaat {2_MinorCivName:textkey} hat mit Freuden gesehen, wie der rivalisierende Stadtstaat {1_TargetName:textkey} sich windet und hart verdiente Güter abgegeben hat. Euer [ICON_INFLUENCE] Einfluss auf ihn ist um [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] gestiegen!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONNECT_RESOURCE">
+      <Text>Wie von {2_MinorCivName:textkey} erbeten, habt Ihr die Ressource {1_ResourceName} erfolgreich mit Eurem Handelsnetz verbunden! Die Händler des Stadtstaats sind erfreut und Euer [ICON_INFLUENCE] Einfluss auf sie ist um [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] gestiegen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONSTRUCT_WONDER">
+      <Text>Wie von {2_MinorCivName:textkey} erbeten, habt Ihr erfolgreich das Wunder {1_WonderName} erbaut! Euer [ICON_INFLUENCE] Einfluss auf sie ist um [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] gestiegen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_CULTURE">
+      <Text>Ihr habt den Stadtstaat {1_MinorCivName:textkey} mit Eurer Kultur beeindruckt! Er ist in Bezug auf die Kultur anderer Zivilisationen blind und Euer [ICON_INFLUENCE] Einfluss auf ihn ist um [COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR] gestiegen. Erfolgreiche Zivilisationen (Gleichstand ist erlaubt):[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_FAITH">
+      <Text>Die Priesterschaft des Stadtstaats {1_MinorCivName:textkey} ist von Eurer Frömmigkeit bewegt. Sie wendet sich vom schwächeren Glauben anderer Zivilisationen ab und Euer [ICON_INFLUENCE] Einfluss auf sie ist um [COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR] gestiegen. Erfolgreiche Zivilisationen (Gleichstand ist erlaubt):[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_TECHS">
+      <Text>Der Stadtstaat {1_MinorCivName:textkey} ist begeistert von Euren schnellen technologischen Fortschritten! Seine Wissenschaftler und Intellektuellen tun andere Zivilisationen als stagnierend ab und Euer [ICON_INFLUENCE] Einfluss auf ihn ist um [COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR] gestiegen. Erfolgreiche Zivilisationen (Gleichstand ist erlaubt):[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_DENOUNCE_MAJOR">
+      <Text>Der Stadtstaat {2_MinorCivName:textkey} ist erleichtert, dass die Ungerechtigkeit, die ihnen seitens der Zivilisation {1_TargetName:textkey} widerfahren ist, jetzt bei wichtigen Weltmächten bekannt ist. Euer [ICON_INFLUENCE] Einfluss auf ihn ist um [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] gestiegen!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_NATURAL_WONDER">
+      <Text>Eure Entdeckung eines neuen Naturwunders hat die Bürger des Stadtstaats {1_MinorCivName:textkey} inspiriert! Wegen Eurer Anstrengungen ist Euer [ICON_INFLUENCE] Einfluss auf sie um [COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR] gestiegen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_PLAYER">
+      <Text>Eure Entdeckung ({1_TargetName:textkey}) hat die Händler des Stadtstaats {2_MinorCivName:textkey} sehr erfreut. Euer [ICON_INFLUENCE] Einfluss auf sie ist um [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] gestiegen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_GIVE_GOLD">
+      <Text>Euer Goldgeschenk hat dem Stadtstaat {2_MinorCivName:textkey} geholfen, sich vom Tribut zu erholen, den er der Zivilisation {1_BullyName:textkey} bezahlte! Euer [ICON_INFLUENCE] Einfluss auf ihn ist um [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] gestiegen und er ist standhafter gegen zukünftige Tributforderungen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_GREAT_PERSON">
+      <Text>Wie vom Stadtstaat {2_MinorCivName:textkey} erbeten, habt Ihr erfolgreich die Einheit {1_UnitName} erstellt! Ihre Gelehrten sind erstaunt und Euer [ICON_INFLUENCE] Einfluss auf sie ist um [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] gestiegen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_INVEST">
+      <Text>Der Stadtstaat {1_MinorCivName:textkey} hat dieses Projekt abgeschlossen. Die Menge an [ICON_INFLUENCE] Einfluss, die durch Goldgeschenke erlangt wird, ist wieder auf Normalwert.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CAMP">
+      <Text>Ihr habt erfolgreich das Barbarenlager zerstört, wie es {1_MinorCivName:textkey} erbeten hat! Euer [ICON_INFLUENCE] Einfluss auf sie ist um [COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR] gestiegen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CITY_STATE">
+      <Text>{2_MinorCivName:textkey} freut sich außerordentlich darüber, dass {1_TargetName:textkey} von Euch eliminiert wurde! Sie sind Euch extrem dankbar für Eure Unterstützung in dieser Angelegenheit. Euer [ICON_INFLUENCE] Einfluss auf sie ist um [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] gestiegen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_PLEDGE_TO_PROTECT">
+      <Text>Euer Versprechen, den Stadtstaat {2_MinorCivName:textkey} zu beschützen, hat ihm geholfen, sich vom an die Zivilisation {1_BullyName:textkey} gezahlten Tribut zu erholen! Euer [ICON_INFLUENCE] Einfluss auf ihn ist um [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] gestiegen und er ist jetzt standhafter gegen zukünftige Tributforderungen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_SPREAD_RELIGION">
+      <Text>Die Bürger des Stadtstaats {@2_MinorCivName} sind froh, dass die Religion {@1_ReligionName} in ihrer Stadt zur führenden Religion geworden ist. Euer [ICON_INFLUENCE] Einfluss auf sie ist um [COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR] gestiegen!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONTEST_CULTURE">
+      <Text>Die Künste erblühen im Stadtstaat {3_MinorCivName:textkey} und er sucht kulturelle Führung. Wer die meiste [ICON_CULTURE] Kultur innerhalb {2_TurnsDuration} Runden produzieren kann, erhält [ICON_INFLUENCE] Einfluss auf den Stadtstaat. [COLOR_POSITIVE_TEXT]Noch {1_TurnsRemaining} Runden.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONTEST_FAITH">
+      <Text>Die Menschen des Stadtstaats {3_MinorCivName:textkey} suchen bei weltlichen Angelegenheiten religiöse Führung. Wer den meisten [ICON_PEACE] Glauben innerhalb {2_TurnsDuration} Runden erzeugen kann, erhält [ICON_INFLUENCE] Einfluss auf den Stadtstaat. [COLOR_POSITIVE_TEXT]Noch {1_TurnsRemaining} Runden.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONTEST_TECHS">
+      <Text>Die führenden Intellektuellen des Stadtstaats {3_MinorCivName:textkey} streben nach engeren Beziehungen zu Zivilisationen, die schnell neue wissenschaftliche Entdeckungen machen. Wer die meisten Technologien innerhalb {2_TurnsDuration} Runden entdeckt, erhält [ICON_INFLUENCE] Einfluss auf den Stadtstaat. [COLOR_POSITIVE_TEXT]Noch {1_TurnsRemaining} Runden.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_DENOUNCE_MAJOR">
+      <Text>Der Stadtstaat {2_MinorCivName:textkey} wurde kürzlich von der Zivilisation {1_TargetName:textkey} schikaniert. Jetzt sucht er eine Möglichkeit, um die wichtigen Weltmächte auf diese Ungerechtigkeit aufmerksam zu machen. Wenn Ihr die Zivilisation {1_TargetName:textkey} denunziert, wird der Stadtstaat euch sehr dankbar sein und euch belohnen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_CULTURE">
+      <Text>Eine andere Zivilisation hat den Stadtstaat {1_MinorCivName:textkey} mit seiner Kultur beeindruckt. Euer kulturelles Wachstum war nicht groß genug und Euer [ICON_INFLUENCE] Einfluss bleibt unverändert. Erfolgreiche Zivilisationen (Gleichstand ist erlaubt):[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_FAITH">
+      <Text>Eine andere Zivilisation hat den Stadtstaat {1_MinorCivName:textkey} mit seinem Glauben beeindruckt. Euer Wachstum beim Glauben war nicht groß genug und Euer [ICON_INFLUENCE] Einfluss bleibt unverändert. Erfolgreiche Zivilisationen (Gleichstand ist erlaubt):[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_TECHS">
+      <Text>Eine andere Zivilisation hat den Stadtstaat {1_MinorCivName:textkey} mit seinem technischen Fortschritt beeindruckt. Eure wissenschaftlichen Entdeckungen reichten nicht aus und Euer [ICON_INFLUENCE] Einfluss bleibt unverändert. Erfolgreiche Zivilisationen (Gleichstand ist erlaubt):[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_INVEST">
+      <Text>Der Stadtstaat {1_MinorCivName:textkey} hat dieses Projekt abgeschlossen. Die Menge an [ICON_INFLUENCE] Einfluss, die durch Goldgeschenke erlangt wird, ist wieder auf Normalwert.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_OTHER">
+      <Text>Nach langer Wartezeit haben die Herrscher des Stadtstaats {1_CivName:textkey} eine Quest abgebrochen, mit der man Euch zuvor beauftragt hatte.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_REVOKED">
+      <Text>Weil ihr von {1_MinorCivName:textkey} Tribut verlangt habt, haben sie zuvor angebotene Quests zurückgezogen. Es muss Zeit verstreichen, ehe sie Euch wieder Quests anbieten.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_GIVE_GOLD">
+      <Text>Der Stadtstaat {2_MinorCivName:textkey} war kürzlich gezwungen, an die Zivilisation {1_BullyName:textkey} Tribut zu zahlen, jetzt ist die Schatzkammer leer. Sie bitten um ein Goldgeschenk, um wieder auf die Beine zu kommen. Wenn Ihr ihnen helft, werden sie Euch belohnen und standhafter gegen zukünftige Tributforderungen sein.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_GIVEN_CONDENSED">
+      <Text>Neue Stadtstaaten-Quests verfügbar. Wenn Ihr eine Quest abschließt, erhaltet Ihr [ICON_INFLUENCE] Einfluss auf diesen Stadtstaat. (Einen Überblick über alle Quests findet Ihr im Bereich Stadtstaaten des Diplomatiemenüs.)[NEWLINE][NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_INVEST">
+      <Text>Der Stadtstaat {3_MinorCivName:textkey} unternimmt ein großes öffentliches Bauvorhaben. Jedes Goldgeschenk während der Bauphase ist effektiver und bringt [COLOR_POSITIVE_TEXT]{2_BoostPercentage}%[ENDCOLOR] mehr [ICON_INFLUENCE] Einfluss. [COLOR_POSITIVE_TEXT]Noch {1_TurnsRemaining} Runden.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_PLEDGE_TO_PROTECT">
+      <Text>Der Stadtstaat {2_MinorCivName:textkey} war kürzlich gezwungen, an die Zivilisation {1_BullyName:textkey} Tribut zu zahlen und sucht den Schutz einer größeren Macht. Wenn Ihr versprecht, sie zu schützen, werden sie Euch belohnen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_SPREAD_RELIGION">
+      <Text>Eine Gruppe Bürger des Stadtstaats {@2_MinorCivName} hat von den Lehren der Religion {@1_ReligionName} gehört und will, dass Ihr sie in ihrer Stadt verbreitet. Wenn die Religion {@1_ReligionName} zur führenden Religion wird, steigt Euer [ICON_INFLUENCE] Einfluss auf sie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_ENHANCED">
+      <Text>Die Zivilisation {1_CivName} hat ihre Religion {@2_ReligionName} mit neuen Glaubenssätzen verbessert.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_ENHANCED_ACTIVE_PLAYER">
+      <Text>Ihr habt die Religion {@1_ReligionName} mit neuen Glaubenssätzen verbessert.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_ENHANCED_S">
+      <Text>Religion verbessert</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_ENHANCED_UNKNOWN">
+      <Text>Eine unbekannte Zivilisation hat ihre Religion {@1_ReligionName} mit neuen Glaubenssätzen verbessert.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED">
+      <Text>Die Zivilisation {1_CivName} hat die neue Religion {@2_ReligionName} in der heiligen Stadt {@3_CityName} gegründet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED_ACTIVE_PLAYER">
+      <Text>Ihr habt die neue Religion {@1_ReligionName} in der heiligen Stadt {@2_CityName} gegründet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED_S">
+      <Text>Religion gegründet</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED_UNKNOWN">
+      <Text>Eine unbekannte Zivilisation hat die neue Religion {@1_ReligionName} in einer ihrer Städte gegründet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_SPREAD_ACTIVE_PLAYER">
+      <Text>{1_CityName} ist zu einer anderen Religion konvertiert worden.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_SPREAD_ACTIVE_PLAYER_S">
+      <Text>Eure Stadt ist konvertiert.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_SPREAD_INITIAL_CONVERSION">
+      <Text>{1_CityName} hat eine Religion angenommen!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_SPREAD_INITIAL_CONVERSION_S">
+      <Text>Eure Stadt wird religiös</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_BULLY_CITY_STATE">
+      <Text>{2_MinorCivName:textkey} will, dass {1_TargetName:textkey} schikaniert wird.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_BULLY_CITY_STATE">
+      <Text>{1_TargetName:textkey} für {2_MinorCivName:textkey} schikaniert!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONTEST_CULTURE">
+      <Text>{1_MinorCivName:textkey} ist in Ehrfurcht vor Euch!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONTEST_FAITH">
+      <Text>{1_MinorCivName:textkey} ist in Ehrfurcht vor Euch!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONTEST_TECHS">
+      <Text>{1_MinorCivName:textkey} ist in Ehrfurcht vor Euch!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_DENOUNCE_MAJOR">
+      <Text>{@1: gender feminine?Die ;*:vowel?Das ;other?{@1: plural 2?Die ;};}{1_TargetName:textkey} für {2_MinorCivName:textkey} denunziert!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_GIVE_GOLD">
+      <Text>Goldunterstützung an {1_MinorCivName:textkey} gegeben!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_INVEST">
+      <Text>Der Stadtstaat {1_MinorCivName:textkey} braucht keine Investoren mehr.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_PLEDGE_TO_PROTECT">
+      <Text>Schutzversprechen für {1_MinorCivName:textkey}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_SPREAD_RELIGION">
+      <Text>{@1_ReligionName} in {@2_MinorCivName} verbreitet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONTEST_CULTURE">
+      <Text>{1_MinorCivName:textkey} strebt nach Kultur!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONTEST_FAITH">
+      <Text>{1_MinorCivName:textkey} verlangt nach Glauben!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONTEST_TECHS">
+      <Text>{1_MinorCivName:textkey} sucht Wissenschaft!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_DENOUNCE_MAJOR">
+      <Text>{2_MinorCivName:textkey} sucht Gerechtigkeit gegen{@1: gender feminine? die;*:vowel? das;other?{@1: plural 2? die;};} {1_TargetName:textkey}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONTEST_CULTURE">
+      <Text>Der Stadtstaat {1_MinorCivName:textkey} sieht sich anderweitig um.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONTEST_FAITH">
+      <Text>Der Stadtstaat {1_MinorCivName:textkey} sieht sich anderweitig um.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONTEST_TECHS">
+      <Text>Der Stadtstaat {1_MinorCivName:textkey} sieht sich anderweitig um.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_INVEST">
+      <Text>Der Stadtstaat {1_MinorCivName:textkey} braucht keine Investoren mehr.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_OTHER">
+      <Text>{1_MinorCivName:textkey} bricht die Quest ab.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_REVOKED">
+      <Text>Der Stadtstaat {1_MinorCivName:textkey} widerruft Quests</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_GIVE_GOLD">
+      <Text>{1_MinorCivName:textkey} ist bankrott!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_GIVEN_CONDENSED">
+      <Text>Neue Stadtstaaten-Quests</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_INVEST">
+      <Text>{1_MinorCivName:textkey} sucht Investoren!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_PLEDGE_TO_PROTECT">
+      <Text>Der Stadtstaat {1_MinorCivName:textkey} sucht Schutz!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_SPREAD_RELIGION">
+      <Text>{@2_MinorCivName} will die Religion {@1_ReligionName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_CANCEL">
+      <Text>Euer Forschungsabkommen mit der Zivilisation {1_CivName:textkey} wurde beendet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_CANCEL_S">
+      <Text>Forschungsabkommen beendet!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_AESTHETICS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Ästhetik[ENDCOLOR][NEWLINE]Der Nullpunkt für [ICON_INFLUENCE] Einfluss auf alle Stadtstaaten ist um 20 gestiegen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Autokratie[ENDCOLOR] ist etwas für militaristische Zivilisationen, die davon träumen, die Welt zu erobern.[NEWLINE][NEWLINE]Bei Autokratie sinken die [ICON_GOLD] Gold-Unterhaltskosten für Einheiten um 33%, sodass das Reich ein größeres Militär unterhalten kann. Ergibt 10 [ICON_CULTURE] Kultur als Plündergut für jeden Punkt [ICON_CULTURE] Kultur, der in der eingenommenen Stadt produziert wird.[NEWLINE][NEWLINE]Bei Übernahme aller Politiken im Autokratie-Zweig wird allen Militäreinheiten 50 Runden lang ein Angriffsbonus von 25% gewährt.[NEWLINE][NEWLINE]Kann Große Generäle und Große Admirale mit [ICON_PEACE] Glauben kaufen.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Dieser Zweig kann nicht gleichzeitig mit Freiheit oder Ordnung aktiviert sein![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Wirtschaft[ENDCOLOR] verschafft Reichen, die eine Marine besitzen, einen Bonus, wie auch jenen, die auf [ICON_GOLD] Gold fokussiert sind.[NEWLINE][NEWLINE]Wenn man Wirtschaft wählt, erhöht sich der [ICON_GOLD] Goldertrag in der [ICON_CAPITAL] Hauptstadt um 25%.[NEWLINE][NEWLINE]Bei Übernahme aller Politiken im Wirtschaftszweig wird für jeden Handelsposten +1 [ICON_GOLD] Gold gewährt und doppeltes [ICON_GOLD] Gold aus Handelsmissionen von Großen Händlern.[NEWLINE][NEWLINE]Kann Große Händler mit [ICON_PEACE] Glauben kaufen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Freiheit[ENDCOLOR] eignet sich am besten für kleine, fokussierte Reiche. Es gibt dafür Bonusse auf [ICON_GREAT_PEOPLE] Große Persönlichkeiten und Spezialisten.[NEWLINE][NEWLINE]Wenn Freiheit eingeführt wird, steigt die Geburtenrate [ICON_GREAT_PEOPLE] Großer Persönlichkeiten um 25%.[NEWLINE][NEWLINE]Bei Übernahme aller Politiken im Freiheit-Zweig steigt der Grundertrag Großer Geländefeld-Modernisierungen um 100% und die Dauer von [ICON_GOLDEN_AGE] Goldenen Zeitaltern um 50%.[NEWLINE][NEWLINE]Kann Große Künstler mit [ICON_PEACE] Glauben kaufen.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Dieser Zweig kann nicht gleichzeitig mit Autokratie oder Ordnung aktiviert sein![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Ehre[ENDCOLOR] erhöht die Effektivität der Armee auf mehrere Arten.[NEWLINE][NEWLINE]Ehre führt zu einem Kampfbonus von +33% gegen Barbaren und Nachrichten werden übermittelt, wenn neue Barbarenlager in bereits erkundetem Gebiet entstehen. Das Reich erhält [ICON_CULTURE] Kultur für jeden getöteten Barbaren.[NEWLINE][NEWLINE]Bei Übernahme aller Politiken im Ehre-Zweig wird [ICON_GOLD] Gold für jede getötete Feindeinheit gewährt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_ORDER_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Ordnung[ENDCOLOR] ist die beste Wahl für große, ausgedehnte Reiche. Dabei wächst die Stärke des Reichs basierend auf der Anzahl der enthaltenen Städte.[NEWLINE][NEWLINE]Wenn Ordnung eingeführt wird, steigt die [ICON_HAPPINESS_1] Zufriedenheit der Städte um +1 pro Stadt.[NEWLINE][NEWLINE]Bei Übernahme aller Politiken im Ordnung-Zweig wird pro Stadt +2 [ICON_FOOD] Nahrung, [ICON_PRODUCTION] Produktion, [ICON_RESEARCH] Wissenschaft, [ICON_GOLD] Gold und [ICON_CULTURE] Kultur gewährt.[NEWLINE][NEWLINE]Kann Große Ingenieure mit [ICON_PEACE] Glauben kaufen.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Dieser Zweig kann nicht gleichzeitig mit Freiheit oder Autokratie aktiviert sein![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Frömmigkeit[ENDCOLOR] lässt den [ICON_PEACE] Glauben und die [ICON_CULTURE] Kultur eines Reiches florieren.[NEWLINE][NEWLINE]Frömmigkeit reduziert die Bauzeit von Schreinen und Tempeln um die Hälfte.[NEWLINE][NEWLINE]Bei Übernahme aller Politiken erhält man 20% Rabatt auf alle religiösen Einheiten und Gebäuden mit [ICON_PEACE] Glauben und Heilige Stätten produzieren +3 [ICON_GOLD] Gold und +3 [ICON_CULTURE] Kultur.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Dieser Zweig kann nicht gleichzeitig mit Rationalismus aktiviert sein![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Rationalismus[ENDCOLOR] erhöht die Fähigkeit, [ICON_RESEARCH] Wissenschaft zu verwenden und zu generieren.[NEWLINE][NEWLINE]Rationalismus erhöht die [ICON_RESEARCH] Wissenschaft um 15%, solange das Imperium [ICON_HAPPINESS_1] glücklich ist.[NEWLINE][NEWLINE]Bei Übernahme aller Politiken im Rationalismus-Zweig werden 2 kostenlose Technologien gewährt.[NEWLINE][NEWLINE]Kann Große Wissenschaftler mit [ICON_PEACE] Glauben kaufen.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Dieser Zweig kann nicht gleichzeitig mit Frömmigkeit aktiviert sein![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_TRADITION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Tradition[ENDCOLOR] ist eine gute Wahl für kleine Reiche.[NEWLINE][NEWLINE]Tradition beschleunigt die Grenzerweiterung in Städten und bietet 3 [ICON_CULTURE] Kultur in der [ICON_CAPITAL] Hauptstadt.[NEWLINE][NEWLINE]Bei Übernahme aller Politiken im Tradition-Zweig wird in jeder Stadt +15% [ICON_FOOD] Wachstum und ein kostenloses Aquädukt in den ersten 4 Städten gewährt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_COMMUNISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Kommunismus[ENDCOLOR][NEWLINE]+2 [ICON_PRODUCTION] Produktion pro Stadt und +1 [ICON_PRODUCTION] Produktion pro Mine oder Steinbruch.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DISCIPLINE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Disziplin[ENDCOLOR][NEWLINE]+15% [ICON_STRENGTH] Kampfstärke für Nahkampfeinheiten, wenn sich in einem benachbarten Geländefeld eine weitere Militäreinheit befindet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FASCISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Faschismus[ENDCOLOR][NEWLINE]Menge der im Reich produzierten strategischen Ressourcen um 100% erhöht. Alle Großen Generäle erhalten +2 [ICON_MOVES] Fortbewegung.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FREE_RELIGION">
+      <Text>Religiöse Toleranz</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FREE_RELIGION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Religiöse Toleranz[ENDCOLOR][NEWLINE]Senkt die [ICON_CULTURE] Kulturkosten für zukünftige Politiken um 10%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_HUMANISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Humanismus[ENDCOLOR][NEWLINE]+1 lokale [ICON_HAPPINESS_1] Stadt-Zufriedenheit pro Universität, Observatorium und Öffentlicher Schule.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCANTILISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Merkantilismus[ENDCOLOR][NEWLINE]Der Kauf von Objekten in Städten kostet 25% weniger [ICON_GOLD] Gold. +1 [ICON_RESEARCH] Wissenschaft pro Münzanstalt, Markt, Bank und Börse.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MILITARY_CASTE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Kriegerkaste[ENDCOLOR][NEWLINE]Für jede Garnisonsstadt steigt die lokale [ICON_HAPPINESS_1] Stadt-Zufriedenheit um 1 und die [ICON_CULTURE] Kultur um 2.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NAVAL_TRADITION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Marinetradition[ENDCOLOR][NEWLINE]+1 [ICON_MOVES] Fortbewegung für Marineeinheiten und +1 Sicht für Kampfeinheiten der Marine. Ein Großer Admiral erscheint. +2 [ICON_MOVES] Fortbewegung für alle Großen Admiräle.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_OLIGARCHY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Oligarchie[ENDCOLOR][NEWLINE]Stationierte Einheiten kosten keinen Unterhalt und Städte mit einer Garnison erhalten +50% [ICON_RANGE_STRENGTH] Fernkampfstärke.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ORGANIZED_RELIGION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Organisierte Religion[ENDCOLOR][NEWLINE]+1 [ICON_PEACE] Glauben für Schreine und Tempel.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PLANNED_ECONOMY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Planwirtschaft[ENDCOLOR][NEWLINE]Fabriken erhöhen den [ICON_RESEARCH] Wissenschaftsertrag einer Stadt um 25%. Fabriken werden doppelt so schnell gebaut.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_POLICE_STATE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Polizeistaat[ENDCOLOR][NEWLINE]+3 lokale [ICON_HAPPINESS_1] Stadt-Zufriedenheit pro Gerichtsgebäude. Gerichtsgebäude werden in der Hälfte der üblichen Zeit gebaut. Die Effektivität feindlicher Spione ist um 25% reduziert. Gegenspione haben eine 25% höhere Chance, feindliche Spione zu fangen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Berufsarmee[ENDCOLOR][NEWLINE]Reduziert die [ICON_GOLD] Goldkosten für die Modernisierung von Militäreinheiten um 33% und gewährt jedem Verteidigungsgebäude (Mauern, Burg, Arsenal, Militärstützpunkt) +1 lokale [ICON_HAPPINESS_1] Stadt-Zufriedenheit.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PROTECTIONISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Protektionismus[ENDCOLOR][NEWLINE]+2 [ICON_HAPPINESS_1] Zufriedenheit durch jedes Luxusgut.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Wissenschaftliche Revolution[ENDCOLOR][NEWLINE]Erhöht den [ICON_RESEARCH] Wissenschaftsertrag aus Forschungsabkommen um 50%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SOVEREIGNTY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Souveränität[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] Gold von [ICON_RESEARCH] Wissenschaftsgebäuden.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TOTAL_WAR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Absoluter Krieg[ENDCOLOR][NEWLINE]+25% [ICON_PRODUCTION] Produktion beim Bau von Militäreinheiten und neue Militäreinheiten beginnen mit 15 Erfahrung.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_ALLIED_WITH">
+      <Text>VERBÜNDETER:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY">
+      <Text>Tribut fordern</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_GOLD_TT">
+      <Text>Ihr könnt diesen Stadtstaat mit Eurer militärischen Macht einschüchtern und [ICON_GOLD] Gold fordern, aber Ihr verliert so [ICON_INFLUENCE] Einfluss. Der Stadtstaat lenkt ein, wenn: [NEWLINE][ICON_BULLET]Ihr verglichen mit anderen Zivilisationen ein starkes Militär habt.[NEWLINE][ICON_BULLET]Eure militärische Präsenz in der Nähe des Stadtstaates stark ist.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_TT">
+      <Text>Stadtstaaten können [ICON_GOLD] Gold und Einheiten liefern, aber wenn Ihr sie Euch mit Gewalt nehmt, sinkt Euer [ICON_INFLUENCE] Einfluss auf sie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_UNIT_TT">
+      <Text>Ihr könnt diesen Stadtstaat einschüchtern und eine Einheit {1_Unit:textkey} fordern, aber Ihr verliert so viel [ICON_INFLUENCE] Einfluss. Der Stadtstaat lenkt ein, wenn: [NEWLINE][ICON_BULLET]Der Stadtstaat mindestens {2_PopLimit} [ICON_CITIZEN] Bevölkerung hat.[NEWLINE][ICON_BULLET]Ihr verglichen mit anderen Zivilisationen ein starkes Militär habt.[NEWLINE][ICON_BULLET]Eure militärische Präsenz in der Nähe des Stadtstaates stark ist.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT">
+      <Text>Diplomatische Ehe</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT_DISABLED_ALLY_TT">
+      <Text>Ihr könnt {3_BuyoutCost} [ICON_GOLD] ausgeben, um Euch diese Stadt durch eine diplomatische Ehe anzueignen und sie und alle ihre Einheiten so zu einem Teil Eures Reiches zu machen. Dies verursacht nicht die diplomatischen Nachteile oder die Zufriedenheitseinbußen, die eine Eroberung des Stadtstaats verursachen würde. Der Bonus und die UN-Stimmen, die Ihr durch die Freundschaft mit diesem Stadtstaat erhaltet, gehen damit jedoch verloren.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Ihr müsst bereits {1_NumTurns} Runden lang verbündet sein (bisher {2_TurnsAllied} {2: plural 1?Runde; other?Runden;}) und {3_BuyoutCost} [ICON_GOLD] Gold besitzen, um Euch diesen Stadtstaat anzueignen.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT_DISABLED_TT">
+      <Text>Ihr könnt {2_BuyoutCost} [ICON_GOLD] ausgeben, um Euch diese Stadt durch eine diplomatische Ehe anzueignen und sie so zu einem Teil Eures Reiches zu machen. Dies verursacht nicht die diplomatischen Nachteile oder die Zufriedenheitseinbußen, die eine Eroberung des Stadtstaats verursachen würde. Der Bonus, den Ihr durch die Freundschaft mit diesem Stadtstaat erhaltet, endet damit jedoch.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Ihr müsst {1_NumTurns} Runden lang verbündet sein und benötigt {2_BuyoutCost} [ICON_GOLD] Gold, um Euch diesen Stadtstaat anzueignen.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT_TT">
+      <Text>Ihr könnt {1_BuyoutCost} [ICON_GOLD] ausgeben, um Euch diese Stadt durch eine diplomatische Ehe anzueignen und sie und alle ihre Einheiten so zu einem Teil Eures Reiches zu machen. Dies verursacht nicht die diplomatischen Nachteile oder die Zufriedenheitseinbußen, die eine Eroberung des Stadtstaats verursachen würde. Der Bonus und die UN-Stimmen, die Ihr durch die Freundschaft mit diesem Stadtstaat erhaltet, gehen damit jedoch verloren.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_FIND_ON_MAP">
+      <Text>Auf Karte finden</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GIFT_TILE_IMPROVEMENT_TT">
+      <Text>Wenn Ihr mit diesem Stadtstaat verbündet seid, könnt Ihr [ICON_GOLD] Gold bezahlen, um eine seiner strategischen Ressourcen oder Luxusgüter zu verbessern und darauf zugreifen zu können.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_INFLUENCE_TT">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Ihr müsst Euch im Frieden befinden und benötigt {1_InfluenceNeededToPledge} oder mehr [ICON_INFLUENCE] Einfluss für ein Schutzversprechen.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_MISTRUST_TT">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Weil Ihr Eurem letzten Schutzversprechen nicht nachgekommen seid, vertraut Euch dieser Stadtstaat nicht länger. Es müssen {1_TurnsUntilPledgeAvailable} Runden vergehen, bevor Ihr ein neues Schutzversprechen geben könnt.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_TT">
+      <Text>Wenn Ihr einem Stadtstaat ein Schutzversprechen gebt, wissen die anderen Großmächte im Spiel, dass Ihr den Stadtstaat vor Angriffen und Tributforderungen schützt. Dies kann Spieler abschrecken, die keinen Streit mit Euch haben möchten, aber im Gegenzug erwartet der Stadtstaat, dass Ihr für ihn Stellung bezieht, wenn er angegriffen oder tyrannisiert wird.[NEWLINE][NEWLINE]Während der Schutzphase ist der Nullpunkt für Euren [ICON_INFLUENCE] Einfluss auf diesen Stadtstaat um {1_InfluenceMinimum} erhöht. Es müssen mindestens {2_TurnsMinimum} Runden vergehen, bevor das Schutzversprechen widerrufen werden kann.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_QUESTS">
+      <Text>QUESTS:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_RESOURCES">
+      <Text>Ressourcen:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_REVOKE_PROTECTION">
+      <Text>Schutz aufheben</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_REVOKE_PROTECTION_DISABLED_COMMITTED_TT">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Ihr habt Euren Schutz für mindestens {1_TurnsRemaining} weitere Runden zugesagt und könnt Euer Versprechen vorher nicht widerrufen.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_REVOKE_PROTECTION_TT">
+      <Text>Ihr könnt Euer Schutzversprechen für diesen Stadtstaat aufheben. Andere wichtige Mächte werden dies erfahren und könnten als Folge ihr Verhalten gegenüber diesem Stadtstaat ändern.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES">
+      <Text>[ICON_FOOD] Nahrung, [ICON_CULTURE] Kultur und [ICON_PEACE] Glauben von freundlich gesinnten Stadtstaaten um 50% gesteigert.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
+      <Text>Alle Nahkampf-Marineeinheiten besitzen die Prisenschiffe-Beförderung, durch die sie besiegte Schiffe einnehmen können. Nur 33% der üblichen Kosten für den Marineunterhalt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT">
+      <Text>+2 [ICON_MOVES] Fortbewegung für Marineeinheiten. Erhält einen zusätzlichen Spion.</Text>
+    </Row>
+  </Language_DE_DE>
+</GameData>

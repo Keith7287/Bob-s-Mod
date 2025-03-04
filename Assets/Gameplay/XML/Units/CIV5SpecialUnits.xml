@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="SpecialUnits">
+		<!-- Basic info -->
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text"/>
+		<Column name="Description" type="text"/>
+		<Column name="Valid" type="boolean"/>
+		<Column name="CityLoad" type="boolean"/>
+	</Table>
+	<Table name="SpecialUnit_CarrierUnitAI">
+		<Column name="SpecialUnitType" type="text" reference="SpecialUnits(Type)"/>
+		<Column name="UnitAIType" type="text"/>
+	</Table>
+	<Table name="SpecialUnit_ProductionTraits">
+		<Column name="SpecialUnitType" type="text" reference="SpecialUnits(Type)"/>
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="Trait" type="integer"/>
+	</Table>
+	<!-- Table data -->
+	<SpecialUnits>
+		<Row>
+			<ID>0</ID>
+			<Type>SPECIALUNIT_FIGHTER</Type>
+			<Description>TXT_KEY_SPECIALUNIT_FIGHTER</Description>
+			<Valid>true</Valid>
+			<CityLoad>true</CityLoad>
+		</Row>
+		<Row>
+			<Type>SPECIALUNIT_PEOPLE</Type>
+			<Description>TXT_KEY_SPECIALUNIT_PEOPLE</Description>
+			<Valid>true</Valid>
+			<CityLoad>false</CityLoad>
+		</Row>
+		<Row>
+			<Type>SPECIALUNIT_MISSILE</Type>
+			<Description>TXT_KEY_SPECIALUNIT_MISSILE</Description>
+			<Valid>true</Valid>
+			<CityLoad>true</CityLoad>
+		</Row>
+    <Row>
+      <Type>SPECIALUNIT_STEALTH</Type>
+      <Description>TXT_KEY_SPECIALUNIT_FIGHTER</Description>
+      <Valid>true</Valid>
+      <CityLoad>true</CityLoad>
+    </Row>
+  </SpecialUnits>
+	<SpecialUnit_CarrierUnitAI>
+		<Row>
+			<SpecialUnitType>SPECIALUNIT_FIGHTER</SpecialUnitType>
+			<UnitAIType>UNITAI_CARRIER_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<SpecialUnitType>SPECIALUNIT_PEOPLE</SpecialUnitType>
+			<UnitAIType>UNITAI_MISSIONARY_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<SpecialUnitType>SPECIALUNIT_PEOPLE</SpecialUnitType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<SpecialUnitType>SPECIALUNIT_MISSILE</SpecialUnitType>
+			<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
+		</Row>
+	</SpecialUnit_CarrierUnitAI>
+</GameData>

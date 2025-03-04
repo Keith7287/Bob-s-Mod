@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="Routes">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text"/>
+		<Column name="AdvancedStartCost" type="integer" default="0"/>
+		<Column name="Value" type="integer" default="0"/>
+		<Column name="Movement" type="integer" default="0"/>
+		<Column name="FlatMovement" type="integer" default="0"/>
+		<Column name="GoldMaintenance" type="integer" default="0"/>
+		<Column name="Industrial" type="boolean" default="false"/>
+		<Column name="PortraitIndex" type="integer" default="-1"/>
+		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
+		<Column name="Civilopedia" type="text"/>
+	</Table>
+	<Table name="Route_Yields">
+		<Column name="RouteType" type="text" reference="Routes(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer" notnull="true"/>
+	</Table>
+	<Table name="Route_TechMovementChanges">
+		<Column name="RouteType" type="text" reference="Routes(Type)"/>
+		<Column name="TechType" type="text" reference="Technologies(Type)"/>
+		<Column name="MovementChange" type="integer" notnull="true"/>
+	</Table>
+	<Table name="Route_ResourceQuantityRequirements">
+		<Column name="RouteType" type="text" reference="Routes(Type)"/>
+		<Column name="ResourceType" type="text" reference="Resources(Type)"/>
+		<Column name="Cost" type="integer" notnull="true"/>
+	</Table>
+	<!-- Table data -->
+	<Routes>
+		<Row>
+			<ID>0</ID>
+			<Type>ROUTE_ROAD</Type>
+			<Description>TXT_KEY_ROUTE_ROAD</Description>
+			<Value>1</Value>
+			<AdvancedStartCost>12</AdvancedStartCost>
+			<Movement>30</Movement>
+			<FlatMovement>30</FlatMovement>
+			<GoldMaintenance>1</GoldMaintenance>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_ROAD_TEXT</Civilopedia>
+			<PortraitIndex>40</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>ROUTE_RAILROAD</Type>
+			<Description>TXT_KEY_ROUTE_RAILROAD</Description>
+			<Value>2</Value>
+			<AdvancedStartCost>18</AdvancedStartCost>
+			<Movement>20</Movement>
+			<FlatMovement>6</FlatMovement>
+			<GoldMaintenance>2</GoldMaintenance>
+			<Industrial>true</Industrial>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_RAILROAD_TEXT</Civilopedia>
+			<PortraitIndex>41</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+	</Routes>
+	<Route_TechMovementChanges>
+		<Row>
+			<RouteType>ROUTE_ROAD</RouteType>
+			<TechType>TECH_MACHINERY</TechType>
+			<MovementChange>-10</MovementChange>
+		</Row>
+	</Route_TechMovementChanges>
+	<Route_Yields>
+		<Row>
+			<RouteType>ROUTE_ROAD</RouteType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>0</Yield>
+		</Row>
+		<Row>
+			<RouteType>ROUTE_RAILROAD</RouteType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>0</Yield>
+		</Row>
+	</Route_Yields>
+</GameData>

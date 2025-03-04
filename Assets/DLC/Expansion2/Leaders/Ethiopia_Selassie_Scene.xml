@@ -1,0 +1,12 @@
+<LeaderScene lights="Ethiopia_Selassie_Lights.gr2" camera="Ethiopia_Selassie_Camera.fxsxml" ColorKey="Selassie_COLORKEY.tga" camera_animation="Ethiopia_Selassie_Camera_Camera_loop" cubemap_prefix ="Selassie" FallbackImage="Haile_Selassie.dds">
+
+<HackLightSettings color="255,255,255" direction="0.4,-1.0,-0.3" intensity="0.1" />
+
+<DOFSettings max_width="6" blur_distance="1142" ramp_distance="746" ></DOFSettings> 
+
+
+  <LeaderObject  model="Ethiopia_Selassie.fxsxml">  </LeaderObject>
+  <BackgroundObject model="Ethiopia_Selassie_Scene.fxsxml" ></BackgroundObject>
+ 
+  
+</LeaderScene>

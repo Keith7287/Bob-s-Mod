@@ -1,0 +1,2048 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<!-- Sid Meier's Civilization V -->
+<!-- Copyright Firaxis Games 2010 -->
+<!-- -->
+<!-- Game Text - New -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_GRAMMAR_A_AN">
+			<Text>{1: gender *:an?an {1}; *:the?the {1}; *:no_article?{1}; other?a {1};}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GRAMMAR_UPPER_A_AN">
+			<Text>{1: gender *:an?An {1}; *:the?The {1}; *:no_article?{1}; other?A {1};}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_ATTACK">
+			<Text>Attack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_ATTACK_DISABLED_HELP">
+			<Text>No valid adjacent enemy target.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_ATTACK_HELP">
+			<Text>Order the unit to attack the selected tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_PARADROP">
+			<Text>Paradrop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_PARADROP_HELP">
+			<Text>When inside friendly territory, this unit may Paradrop to another tile. After doing so, it will still have movement to perform other actions.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_PARADROP_HELP_WITH_RANGE">
+      <Text>When inside friendly territory, this unit may Paradrop up to {1_NumTiles} tiles away. After doing so, it will still have movement to perform other actions.</Text>
+    </Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_AIR_SWEEP">
+			<Text>Air Sweep</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_AIR_SWEEP_HELP">
+			<Text>Order the unit to sweep an area for air and ground-based interceptors, clearing the way for future air strikes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_RANGE_ATTACK">
+			<Text>Ranged Attack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_RANGE_ATTACK_HELP">
+			<Text>Order the unit to remotely attack the selected tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_PARADROP">
+			<Text>Paradrop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_PARADROP_HELP">
+			<Text>Paradrops to a specified location. The mission is subject to interception.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TURNS">
+			<Text>Turns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPGRADE_ERROR_HELP">
+			<Text>Upgrade the unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPGRADE_HELP">
+			<Text>Upgrade the unit to {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {@1_UnitName}}. This requires {2_Num} [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCRAP_HELP">
+			<Text>Performing this action within your territory will provide {1_Num} [ICON_GOLD] Gold.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_TERRITORY">
+      <Text>Your unit must be in friendly territory in order to upgrade.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_CITY">
+      <Text>Your unit must be in a city in order to upgrade.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_GOLD">
+			<Text>You lack the necessary funds to upgrade this Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_RESOURCES">
+			<Text>You need {1_ResourcesString} to upgrade this Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPGRADE_HELP_DISABLED_STACKING">
+			<Text>You need to move this unit to an empty tile to upgrade this Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AIR_PATROL_FOUND_NOTHING">
+			<Text>The air patrol with your {@1_UnitName} encountered no resistance!</Text>
+		</Row>
+		<!-- Great People -->
+		<Row Tag="TXT_KEY_GREAT_PERSON_ADAM_SMITH">
+			<Text>Adam Smith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AL_KHWARIZMI">
+			<Text>Al-Khwarizmi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AL_KINDI">
+			<Text>Al-Kindi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AL_RAZI">
+			<Text>Al-Razi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ALBERT_EINSTEIN">
+			<Text>Albert Einstein</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ALEXANDER_GRAHM_BELL">
+			<Text>Alexander Graham Bell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ALEXANDRE_GUSTAVE_EIFFEL">
+			<Text>Alexandre Gustave Eiffel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ALHAZEN">
+			<Text>Alhazen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AMIR_KHUSRO">
+			<Text>Amir Khusro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ANDREI_SAKHAROV">
+			<Text>Andrei Sakharov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ANDREW_CARNEGIE">
+			<Text>Andrew Carnegie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ANTOINE_LAURENT_LAVOISIER">
+			<Text>Antoine Laurent Lavoisier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ANTONY_VAN_DIEMEN">
+			<Text>Anthony van Diemen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ANTONY_VAN_LEEUWENHOEK">
+			<Text>Antony van Leeuwenhoek</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ARCHIMEDES">
+			<Text>Archimedes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ARETAS_III">
+			<Text>Aretas III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ARISTOTLE">
+			<Text>Aristotle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ARYABHATA">
+			<Text>Aryabhata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BENJAMIN_FRANKLIN">
+			<Text>Benjamin Franklin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BI_SHENG">
+			<Text>Bi Sheng</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BLAISE_PASCAL">
+			<Text>Blaise Pascal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CAI_LUN">
+			<Text>Cai Lun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CARL_FRIEDRICH_GAUSS">
+			<Text>Carl Friedrich Gauss</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CHARLES_AUGUSTIN_DE_COULOMB">
+			<Text>Charles Augustin de Coulomb</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CHARLES_DARWIN">
+			<Text>Charles Darwin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CHRISTOPHER_COLUMBUS">
+			<Text>Christopher Columbus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CLAUDE_MONET">
+			<Text>Claude Monet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_COCO_CHANEL">
+			<Text>Coco Chanel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CORNELIUS_VANDERBILT">
+			<Text>Cornelius Vanderbilt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_DANTE_ALIGHIERI">
+			<Text>Dante Alighieri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_DU_FU">
+			<Text>Du Fu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_DUKE_ELLINGTON">
+			<Text>Duke Ellington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_DVORAK">
+			<Text>Antonín Dvořák</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ENRICO_DANDOLO">
+			<Text>Enrico Dandolo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ENRICO_FERMI">
+			<Text>Enrico Fermi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ERNEST_RUTHERFORD">
+			<Text>Ernest Rutherford</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_EUCLID">
+			<Text>Euclid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FERDINAND_DE_LESSEPS">
+			<Text>Ferdinand de Lesseps</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FERDINAND_MAGELLAN">
+			<Text>Ferdinand Magellan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FRANCIS_BACON">
+			<Text>Francis Bacon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FRANK_KAFKA">
+			<Text>Frank Kafka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GALILEO_GALILEI">
+			<Text>Galileo Galilei</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GEORGE_WASHINGTON_GOETHALS">
+			<Text>George Washington Goethals</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GIOVANNI_DE_MEDICI">
+			<Text>Giovanni de Medici</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GOTTFRIED_LEIBNIZ">
+			<Text>Gottfried Leibniz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GUGLIELMO_MARCONI">
+			<Text>Guglielmo Marconi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HANNO">
+			<Text>Hanno</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HARKUF">
+			<Text>Harkuf</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HENRY_BESSEMER">
+			<Text>Henry Bessemer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HENRY_FORD">
+			<Text>Henry Ford</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HERON">
+			<Text>Heron</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HOMER">
+			<Text>Homer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HYPATIA">
+			<Text>Hypatia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_IBN_BATTUTA">
+			<Text>Ibn Battuta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_IBN_MUQLAH">
+			<Text>Ibn Muqlah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_IMHOTEP">
+			<Text>Imhotep</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ISAAC_NEWTON">
+			<Text>Isaac Newton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ISAMBARD_KINGDOM_BRUNEL">
+			<Text>Isambard Kingdom Brunel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JACQUES_CARTIER">
+			<Text>Jacques Cartier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JALAL_ALDIN_RUMI">
+			<Text>Jalal al-Din Rumi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JAMES_CLERK_MAXWELL">
+			<Text>James Clerk Maxwell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JAMES_COOK">
+			<Text>James Cook</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JAMES_WATT">
+			<Text>James Watt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOHANN_GOETHE">
+			<Text>Johann Wolfgang von Goethe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOHANNES_BRAHMS">
+			<Text>Johannes Brahms</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOHANNES_KEPLER">
+			<Text>Johannes Kepler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOHANNES_VERMEER">
+			<Text>Johannes Vermeer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOHN_D_ROCKEFELLER">
+			<Text>John D. Rockefeller</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOHN_DALTON">
+			<Text>John Dalton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOHN_MAYNARD_KEYNES">
+			<Text>John Maynard Keynes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOHN_ROEBLING">
+			<Text>John Roebling</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOHN_STUART_MILL">
+			<Text>John Stuart Mill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOSEPH_CONRAD">
+			<Text>Joseph Conrad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOSEPH_MARIE_JACQUARD">
+			<Text>Joseph Marie Jacquard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JS_BACH">
+			<Text>J. S. Bach</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_KALIDAS">
+			<Text>Kalidas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LEIF_ERICKSON">
+			<Text>Leif Erickson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LEONARDO_DA_VINCI">
+			<Text>Leonardo da Vinci</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LI_PO">
+			<Text>Li Po</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LING_LUN">
+			<Text>Ling Lun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LOUIS_ARMSTRONG">
+			<Text>Louis Armstrong</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LOUIS_DAGUERRE">
+			<Text>Louis Daguerre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LOUIS_PASTEUR">
+			<Text>Louis Pasteur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LUDWIG_VAN_BEETHOVEN">
+			<Text>Ludwig van Beethoven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MARCO_POLO">
+			<Text>Marco Polo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MARIE_CURIE">
+			<Text>Marie Curie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MARK_TWAIN">
+			<Text>Mark Twain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MERIT_PTAH">
+			<Text>Merit Ptah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MICHAEL_FARADAY">
+			<Text>Michael Faraday</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MICHAELANGELO">
+			<Text>Michaelangelo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MICHIEL_DE_RUYTER">
+			<Text>Michiel de Ruyter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MIGUEL_DE_CERVANTES">
+			<Text>Miguel de Cervantes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MIKHAIL_LOMONOSOV">
+			<Text>Mikhail Lomonosov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MILES_DAVIS">
+			<Text>Miles Davis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NABU_RIMANNI">
+			<Text>Nabu-rimanni</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NAIN_SINGH">
+			<Text>Nain Singh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NICHOLA_TESLA">
+			<Text>Nichola Tesla</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NICOLAUS_COPERNICUS">
+			<Text>Nicolaus Copernicus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NIELS_BOHR">
+			<Text>Niels Bohr</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NIKOLAUS_AUGUST_OTTO">
+			<Text>Nikolaus August Otto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_NOBERT_RILLIEUX">
+			<Text>Norbert Rillieux</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ORVILLE_WRIGHT">
+			<Text>Orville Wright</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PABLO_PICASSO">
+			<Text>Pablo Picasso</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PLATO">
+			<Text>Plato</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PTOLEMY">
+			<Text>Ptolemy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PYTHEAS">
+			<Text>Pytheas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_RAJA_TODAR_MAL">
+			<Text>Raja Todar Mal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_RAPHAEL">
+			<Text>Raphael</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_REMBRANDT">
+			<Text>Rembrandt van Rijn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_RENE_DESCARTES">
+			<Text>Rene Descartes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ROSALIND_FRANKLIN">
+			<Text>Rosalind Franklin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_RRICHARD_WHITTINGTON">
+			<Text>Richard Whittington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SHAH_JAHAN">
+			<Text>Shah Jahan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SINAN">
+			<Text>Sinan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SIR_ALEXANDER_MACKENZIE">
+			<Text>Sir Alexander Mackenzie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SIR_THOMAS_ROE">
+			<Text>Sir Thomas Roe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SOCRATES">
+			<Text>Socrates</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_THESPIS">
+			<Text>Thespis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_THOMAS_EDISON">
+			<Text>Thomas Edison</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TYCHO_BRAHE">
+			<Text>Tycho Brahe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_VALMIKI">
+			<Text>Valmiki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_VASCO_DA_GAMA">
+			<Text>Vasco da Gama</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_VICTOR_HUGO">
+			<Text>Victor Hugo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_VINCENT_VAN_GOGH">
+			<Text>Vincent van Gogh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_VIRGIL">
+			<Text>Virgil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WANG_ANSHI">
+			<Text>Wang Anshi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WANG_XIZHI">
+			<Text>Wang Xizhi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WERNER_HEISENBERG">
+			<Text>Werner Heisenberg</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WILBUR_WRIGHT">
+			<Text>Wilbur Wright</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WILHELM_SCHICKARD">
+			<Text>Wilhelm Schickard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WILLIAM_SHAKESPEARE">
+			<Text>William Shakespeare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WILLIAN_MORTON">
+			<Text>William T. G. Morton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WOLFGANG_MOZART">
+			<Text>Wolfgang Amadeus Mozart</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_XI_LING_SHI">
+			<Text>Xi Ling Shi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_YUNUS_EMRE">
+			<Text>Yunus Emre</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ZHANG_HENG">
+			<Text>Zhang Heng</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ZHANG_QIAN">
+			<Text>Zhang Qian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ZHENG_HE">
+			<Text>Zheng He</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ZU_CHONGZHI">
+			<Text>Zu Chongzhi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_SAVE">
+			<Text>Save</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DEFAULT_GAMENAME">
+			<Text>My Game</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOMACY">
+			<Text>Start Diplomacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ENTER_MINOR_CIV_LANDS_NO">
+			<Text>No, let's reconsider...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ENTER_MINOR_CIV_LANDS_YES">
+			<Text>Yes, proceed on through!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FORCE_CONTROL_HANDICAP">
+			<Text>Force Handicap</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FORCE_CONTROL_MAX_CITY_ELIMINATION">
+			<Text>Force Max City Elimination</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FORCE_CONTROL_MAX_TURNS">
+			<Text>Force Max Turns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FORCE_CONTROL_OPTIONS">
+			<Text>Force Game Options</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FORCE_CONTROL_SPEED">
+			<Text>Force Game Speed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FORCE_CONTROL_VICTORIES">
+			<Text>Force Victories</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_WON">
+			<Text>{1} has won a {2} Victory!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INFO_SCREEN">
+			<Text>Info Screen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INIT_ELAPSED_TIME">
+			<Text>Finishing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_GRIP">
+			<Text>Grip Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_BACKSPACE">
+			<Text>Backspace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_CAPS_LOCK">
+			<Text>Caps Lock</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_DELETE_KEY">
+			<Text>Delete</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_DOWN_ARROW">
+			<Text>Down Arrow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_END_KEY">
+			<Text>End Key</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_ENTER">
+			<Text>Enter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_ESCAPE">
+			<Text>Escape</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_HOME_KEY">
+			<Text>Home Key</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_INSERT_KEY">
+			<Text>Insert Key</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_LEFT_ALT_KEY">
+			<Text>Left Alt Key</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_LEFT_ARROW">
+			<Text>Left Arrow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_LEFT_CONTROL_KEY">
+			<Text>Left Control Key</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_LEFT_SHIFT_KEY">
+			<Text>Left Shift Key</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUM_LOCK">
+			<Text>Num Lock</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUM_PAD_STAR">
+			<Text>Num Pad *</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUMPAD_COMMA">
+			<Text>Numpad ,</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUMPAD_ENTER_KEY">
+			<Text>Numpad Enter Key</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUMPAD_EQUALS">
+			<Text>Numpad =</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUMPAD_MINUS">
+			<Text>Numpad Minus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER">
+			<Text>Numpad {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER1">
+			<Text>Numpad 1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER2">
+			<Text>Numpad 2</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER3">
+			<Text>Numpad 3</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER4">
+			<Text>Numpad 4</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER5">
+			<Text>Numpad 5</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER6">
+			<Text>Numpad 6</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER7">
+			<Text>Numpad 7</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER8">
+			<Text>Numpad 8</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER9">
+			<Text>Numpad 9</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUMPAD_NUMBER0">
+			<Text>Numpad 0</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUMPAD_PERIOD">
+			<Text>Numpad .</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUMPAD_PLUS">
+			<Text>Numpas Plus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_NUMPAD_SLASH">
+			<Text>Numpad /</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_PAGE_DOWN">
+			<Text>Page Down</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_PAGE_UP">
+			<Text>Page Up</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_PAUSE_KEY">
+			<Text>Pause Key</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_RIGHT_ALT_KEY">
+			<Text>Right Alt Key</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_RIGHT_ARROW">
+			<Text>Right Arrow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_RIGHT_CONTROL_KEY">
+			<Text>Right Control Key</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_RIGHT_SHIFT_KEY">
+			<Text>Right Shift Key</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_SCROLL_KEY">
+			<Text>Scroll Key</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_SPACE_KEY">
+			<Text>Space Key</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_SYSRQ">
+			<Text>SYSRQ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_UP_ARROW">
+			<Text>Up Arrow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_VOLUME_DOWN">
+			<Text>Volume Down</Text>
+		</Row>
+		<Row Tag="TXT_KEY_KEYBOARD_VOLUME_UP">
+			<Text>Volume Up</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CTRL">
+			<Text>Ctrl-</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SHIFT">
+			<Text>Shift-</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ALT">
+			<Text>Alt-</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAIN_MENU">
+			<Text>Open Main Menu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MEMORY_HIRED_TRADE_EMBARGO">
+			<Text>"You negotiated a trade embargo against us!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MEMORY_HIRED_WAR_ALLY">
+			<Text>"You brought in a war ally against us!"</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_COMPLETES_PROJECT">
+			<Text>{1_PlyrName} completes {@2_PrjctName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_CONSTRUCTED_BUILD_IN_LIMITED">
+			<Text>You have constructed {@1_BldgName} in {@2_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_CREATED_PROJECT_IN_LIMITED">
+			<Text>You have created {@1_PrjctName} in {@2_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_DEFEAT">
+			<Text>You have been defeated!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_PLAYERS_SIGN_DEFENSIVE_PACT">
+			<Text>{1} signs defensive pact with {2}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_RELOAD">
+			<Text>Session {1_number} starts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_TIME_SPENT">
+			<Text>Time spent: {1} hours, {2} minutes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_TRAINED_UNIT_IN_LIMITED">
+			<Text>You have trained {@1_UnitName} in {@2_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_WORK_HAS_BEGUN_LIMITED">
+			<Text>[SPACE]Work has now begun on {@1_ProdName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_MADE_PEACE_WITH">
+			<Text>You have made peace with {1_TeamName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MP_OPTION_SIMULTANEOUS_TURNS_HELP">
+			<Text>All civilizations conduct their turns at the same time</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MP_OPTION_TAKEOVER_AI_HELP">
+			<Text>Players can "hot-join" into an AI civilization's slot at any time</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MP_OPTION_TURN_TIMER_HELP">
+			<Text>Turns are limited by a timer which scales based on the size of the largest civilization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_ARE_YOU_SURE">
+			<Text>Are you sure?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_GAME_DETAILS">
+			<Text>Game Details</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TURNTIMER_BLAZING">
+			<Text>Blazing!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TURNTIMER_SNAIL">
+			<Text>Snail</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TURNTIMER_STATIC">
+			<Text>Static</Text>
+		</Row>
+		<Row Tag="TXT_KEY_USER_GAMENAME">
+			<Text>'s Game</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_DECLARED_WAR_ON">
+			<Text>You have declared war on {1_TeamName}!</Text>
+		</Row>
+    <Row Tag="TXT_KEY_MISSION_PILLAGE_HELP">
+      <Text>An improvement or route in this tile may not be used until repaired. Pillaging an improvement will earn [ICON_GOLD] Gold and heal your unit by 25 points.</Text>
+    </Row>
+		<Row Tag="TXT_KEY_TERRAIN_COAST">
+			<Text>Coast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_ARCHER">
+			<Text>Archery Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_GUN">
+			<Text>Gunpowder Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_HELICOPTER">
+			<Text>Helicopter Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_MELEE">
+			<Text>Melee Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_RECON">
+			<Text>Recon Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_CIRC_GLOBE">
+			<Text>{1_PlyrName} has proven that the world is round!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_CIRC_GLOBE">
+			<Text>Your maps have proven that the world is round! Your ships receive a {1_Change} Movement bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_OPTION_QUICK_MOVES_HELP">
+			<Text>All of the player's moves are accelerated</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_BUILD">
+			<Text>Build Improvements (Automated)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_EXPLORE">
+			<Text>Explore (Automated)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMOVES">
+			<Text>Triggers All Automated Moves</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_BARE_MAP">
+			<Text>Toggle Bare Map</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_CENTER_SELECTION">
+			<Text>Center on Selection</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_CYCLE_CAMERA_FLYING_MODES">
+			<Text>Cycle Camera Flying Modes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_CYCLE_UNITS">
+			<Text>Cycle Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_CYCLE_UNITS_ALT">
+			<Text>Cycle Units (Alt)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_CYCLE_WORKERS">
+			<Text>Cycle Builders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_ENDTURN">
+			<Text>End of Turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_ENDTURN_ALT">
+			<Text>End of Turn (Alt)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_FLYING_CAMERA">
+			<Text>Toggle Flying Camera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_FORCE_ENDTURN">
+			<Text>Force End of Turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_GRID">
+			<Text>Toggle Show Tiles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_ISOMETRIC_CAMERA_LEFT">
+			<Text>Turn Camera 45 Degrees Left</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_ISOMETRIC_CAMERA_RIGHT">
+			<Text>Turn Camera 45 Degrees Right</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_LASTUNIT">
+			<Text>Cycle Units (Backwards)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_LOAD">
+			<Text>Load</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_LOAD_GAME">
+			<Text>Load Game</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_MOUSE_FLYING_CAMERA">
+			<Text>Unlock Flying Camera Mouse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_NEXT_CITY">
+			<Text>Next City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_NEXT_UNIT">
+			<Text>Next Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_OPTIONS_SCREEN">
+			<Text>Options Screen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_ORTHO_CAMERA">
+			<Text>Orthographic Camera</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_PING">
+			<Text>Ping</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_PREVIOUS_CITY">
+			<Text>Previous City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_PREVIOUS_UNIT">
+			<Text>Previous Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_QUICK_LOAD">
+			<Text>Quick Load Game</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_QUICK_SAVE">
+			<Text>Quick Save Game</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_RESOURCE_ALL">
+			<Text>Toggle Show All Resource Display</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_RETIRE">
+			<Text>Retire from the game</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_SAVE_GROUP">
+			<Text>Save Game (Group)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_SAVE_NORMAL">
+			<Text>Save Game</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_SCORES">
+			<Text>Toggle Scores Display</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_SELECT_CAPITAL">
+			<Text>Select Capital</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_SELECT_CITY">
+			<Text>Select City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_SELECT_UNIT_ALL">
+			<Text>Select All Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_SELECT_UNIT_TYPE">
+			<Text>Select All Units (Same Type)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_SHOW_POLICIES_SCREEN">
+			<Text>Change Policies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_TOP_DOWN_CAMERA">
+			<Text>Toggle Camera Top Down View</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_YIELDS">
+			<Text>Toggle Yield Display</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ATTITUDE_ANNOYED">
+			<Text>Annoyed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ATTITUDE_CAUTIOUS">
+			<Text>Cautious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ATTITUDE_FRIENDLY">
+			<Text>Friendly</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ATTITUDE_FURIOUS">
+			<Text>Furious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ATTITUDE_PLEASED">
+			<Text>Pleased</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHAT_LOG">
+			<Text>Chat Log</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_RELIGION_TO_ADOPT">
+			<Text>By completing your empire's Shrine, you may now adopt a State Religion!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY">
+			<Text>City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLIMATE_ARID">
+			<Text>Arid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLIMATE_COLD">
+			<Text>Cold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLIMATE_ROCKY">
+			<Text>Rocky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLIMATE_TEMPERATE">
+			<Text>Temperate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLIMATE_TROPICAL">
+			<Text>Tropical</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMBAT_PLOT_EXTRA_STRENGTH">
+			<Text>[ICON_BULLET]{1_Resource}% Strength</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMBAT_PLOT_FORTIFY_MOD">
+			<Text>[ICON_BULLET]{1_Resource}% from Unit Fortify</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMBAT_PLOT_HILLS_MOD">
+			<Text>[ICON_BULLET]{1_Resource}% from Hills (Unit Ability)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMBAT_PLOT_MOD_VS_TYPE">
+			<Text>[ICON_BULLET]{1_Resource}% vs. {2_Type}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMBAT_PLOT_TILE_MOD">
+			<Text>[ICON_BULLET]{1_Resource}% from Tile Defense</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMBAT_PLOT_UNIT_MOD">
+			<Text>[ICON_BULLET]{1_Resource}% from {2_TerrOrFeat} (Unit Ability)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMMAND_AUTOMATE">
+			<Text>Automate the Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMMAND_CANCEL">
+			<Text>Cancel Last Mission</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMMAND_CANCEL_ALL">
+			<Text>Cancel All Missions</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMMAND_DELETE">
+			<Text>[COLOR_WARNING_TEXT]Delete the Unit[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMMAND_GIFT">
+			<Text>Gift the Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMMAND_PROMOTION">
+			<Text>Promote Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMMAND_STOP_AUTOMATION">
+			<Text>Stop Automation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMMAND_UPGRADE">
+			<Text>Upgrade Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMMAND_WAKE">
+			<Text>Wake the Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MP_OPTION_ALWAYS_PEACE">
+			<Text>Always Peace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MP_OPTION_ALWAYS_PEACE_HELP">
+			<Text>Players are not allowed to go to war with one another.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_ALWAYS_WAR">
+			<Text>Always War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_ALWAYS_WAR_HELP">
+			<Text>Players start at war with one another and may not go to peace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_COMPLETE_KILLS">
+			<Text>Complete Kills</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_COMPLETE_KILLS_HELP">
+			<Text>In order to be eliminated from the game, a player must have all of his Cities AND Units destroyed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_LOCK_MODS">
+			<Text>Lock Mods</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_LOCK_MODS_HELP">
+			<Text>Prevents this game from being loaded while mods are active. Useful for competitive games.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NEW_RANDOM_SEED">
+			<Text>New Random Seed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NEW_RANDOM_SEED_HELP">
+			<Text>Each time the game is loaded, the random number seed is regenerated. This means if you attack after loading, you might get a different result from the first time you played.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_BARBARIANS">
+			<Text>No Barbarians</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_BARBARIANS_HELP">
+			<Text>Barbarians and their Encampments do not appear on the map.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_CHANGING_WAR_PEACE">
+			<Text>Permanent War or Peace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_CHANGING_WAR_PEACE_HELP">
+			<Text>Whatever the state of war or peace the game begins with, the players may not change once the game is underway. Useful for mods, like World War II.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_CITY_RAZING">
+			<Text>No City Razing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_CITY_RAZING_HELP">
+			<Text>Players are not allowed to burn cities down after capturing them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_GOODY_HUTS">
+			<Text>No Ancient Ruins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_GOODY_HUTS_HELP">
+			<Text>Ancient Ruins do not appear on the map.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_ONE_CITY_CHALLENGE">
+			<Text>One-City Challenge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_ONE_CITY_CHALLENGE_HELP">
+			<Text>HUMAN players are only ever allowed to build or own one city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_PERMANENT_ALLIANCES">
+			<Text>Permanent Alliances</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_PERMANENT_ALLIANCES_HELP">
+			<Text>Players may make game-long permanent alliances with one another, allowing shared victory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_RAGING_BARBARIANS">
+			<Text>Raging Barbarians</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_RAGING_BARBARIANS_HELP">
+			<Text>The rate at which Barbarians spawn is greatly increased.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_RANDOM_PERSONALITIES">
+			<Text>Random Personalities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_RANDOM_PERSONALITIES_HELP">
+			<Text>Instead of acting as they normally do, a random personality will be picked for each AI leader, making the game more unpredictable.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_POLICY_SAVING">
+			<Text>Allow Policy Saving</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_POLICY_SAVING_HELP">
+			<Text>Players may choose to defer selecting a Social Policy until later, instead of needing to pick immediately.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_PROMOTION_SAVING">
+			<Text>Allow Promotion Saving</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_PROMOTION_SAVING_HELP">
+			<Text>Players may choose to defer selecting a Unit Promotion until later, instead of needing to pick immediately.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_START_BIAS">
+			<Text>Disable Start Bias</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_DISABLE_START_BIAS_HELP">
+			<Text>Disables matching Civilizations to certain map conditions. Starts will be totally random.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_NO_SCIENCE">
+      <Text>Disable Research</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_NO_SCIENCE_HELP">
+      <Text>Disables research system. Civilizations are locked at the starting technology level.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_NO_POLICIES">
+      <Text>Disable Policies</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_NO_POLICIES_HELP">
+      <Text>Disables policy system. No policies granted in the game.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_NO_HAPPINESS">
+      <Text>Disable Happiness</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_NO_HAPPINESS_HELP">
+      <Text>No penalties or benefits from happiness.</Text>
+    </Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TUTORIAL">
+			<Text>Disable Tutorial Popups</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_TUTORIAL_HELP">
+			<Text>Disables the tutorial popups for the duration of the game.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_BARBARIANS">
+			<Text>Lying in wait are treacherous Barbarians!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_EXPERIENCE">
+			<Text>Exploring the ruins reveals ancient scriptures which provide your Unit new combat training!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_GOLD">
+			<Text>In the ruins you find the treasures of an ancient empire! You have received {1_Num} [ICON_GOLD] Gold!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_HEALING">
+			<Text>Amongst the ruins you find ancient medicines which your Unit uses to heal its wounded.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_MAP">
+			<Text>You discover a crudely-drawn map which outlines the surrounding area!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_SCOUT">
+			<Text>You find survivors among the ruins, which agree to join your empire as Scouts!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_SETTLER">
+			<Text>You find survivors among the ruins, which agree to join your empire as Settlers!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_TECH">
+			<Text>Discovered in the ruins are the secrets of an advanced technology!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_WARRIOR">
+			<Text>You find a group of Warriors willing to join your civilization!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_WORKER">
+			<Text>You find survivors among the ruins, which agree to join your empire as Workers!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HURRY_GOLD">
+			<Text>Can Spend Gold to Finish Production in a City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HURRY_POPULATION">
+			<Text>Can Sacrifice Population to Finish Production in a City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_AIRLIFT">
+			<Text>Airlift Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_AIRSTRIKE">
+			<Text>Air Strike Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_CITY_PLOT_SELECTION">
+			<Text>City Plot Selection Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_DISEMBARK">
+			<Text>Disembark Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_EMBARK">
+			<Text>Embark Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_GIFT_UNIT">
+			<Text>Gift Unit Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_GLOBELAYER_INPUT">
+			<Text>Globe Input Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_MOVE_TO">
+			<Text>Move Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_MOVE_TO_ALL">
+			<Text>Move Mode (All Units)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_MOVE_TO_TYPE">
+			<Text>Move Mode (Same Unit Type)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_NUKE">
+			<Text>Nuke Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_PING">
+			<Text>Ping Teammates</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_REBASE">
+			<Text>Rebase Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_ROUTE_TO">
+			<Text>Route To Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_SELECTION">
+			<Text>Selection Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_DEBUG">
+			<Text>Debug Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_CAPTURED_CITY">
+			<Text>You have captured {@1_CityName}!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_CITY_CAPTURED_BY">
+			<Text>{@1_CityName} has been captured by {@2_ShortCivName}!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_CITY_HAS_BEEN_FOUNDED">
+			<Text>{@1_CityName} has been founded.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_CITY_HAS_BEEN_RAZED_BY">
+			<Text>{@2_CivName} has set the city of {@1_CityName} ablaze!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_CITY_IS_FOUNDED">
+			<Text>{@1_CityName} is founded.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_CITY_RAZED_BY">
+			<Text>{@1_CityName} was set ablaze by {@2_ShortCivName}!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_CITY_WAS_CAPTURED_BY">
+			<Text>{@1_CityName} was captured by {@2_ShortCivName}!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_CITY_WLTKD_ENDED_KNOWN_RESOURCE">
+			<Text>"We Love the King Day" has ended in the City of {@1_CityName}. It now demands [COLOR_HIGHLIGHT_TEXT]{@2_ResourceName}[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_CITY_WLTKD_ENDED_UNKNOWN_RESOURCE">
+			<Text>"We Love the King Day" has ended in the City of {@1_CityName}. It now demands a new Resource you've not yet discovered!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_CIV_DESTROYED">
+			<Text>The {@1_CivAdj} Civilization has been conquered!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_CIV_DESTROYED_SHORT">
+			<Text>{@1_CivName} Conquered!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_CLEARING_FEATURE_RESOURCE">
+			<Text>Clearing {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {@1_FeatName}} has created {2_Num} [ICON_PRODUCTION] for {@3_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_COMPLETED_WONDER_CHOOSE_TECH">
+			<Text>You have completed {@1_BldgName}! Choose a free technology...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_COMPLETES_WONDER">
+			<Text>{1_PlyrName} completes {@2_BldgName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_CONSTRUCTED_BUILD_IN">
+			<Text>You have constructed {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_BldgName}} in {@2_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_CREATED_PROJECT_IN">
+			<Text>You have created {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_PrjctName}} in {@2_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_DECLARED_WAR_ON_YOU">
+			<Text>[COLOR_NEGATIVE_TEXT]{1_PlyrName} has declared war on you![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_DEFENSES_IN_CITY_REDUCED_TO">
+			<Text>{3_player} has reduced your defenses in {@1_CityName} to {2_NewVal}%!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_DESTROYED_BARBARIAN_CAMP">
+			<Text>You have captured a Barbarian Encampment and recovered {1_Num} Gold!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_DESTROYED_CITY">
+			<Text>You have set the city of {@1_CityName} ablaze!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_DISCOVERED_NEW_RESOURCE">
+			<Text>You have discovered a source of [COLOR_HIGHLIGHT_TEXT]{@1_ResourceName}[ENDCOLOR] near {@2_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_ENEMY_DEFENSES_REDUCED_TO">
+			<Text>Your {1_UnitName} has reduced the defenses of {@2_CityName} to {3_Num}%!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_ENEMY_TROOPS_SPOTTED">
+			<Text>The enemy has been spotted near {@1_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_ENEMY_UNIT_SURRENDER">
+			<Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {1_Adjective}} {2_EnUName} surrendered to your {3_UnitName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_ENEMY_UNIT_WITHDRAW">
+			<Text>An enemy {@1_EnUName} ({2_Num} damage) attacked your {@3_UnitName} ({4_Num} damage)!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_ENEMY_UNIT_WITHDRAW_CITY">
+			<Text>An enemy {@1_EnUName} ({2_Num} damage) attacked your City of {@3_CityName} ({4_Num} damage)!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_FEATURE_GROWN_NEAR_CITY">
+			<Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {1_FeatName}} has grown near {@2_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_FIRST_TECH_CHOOSE_FREE">
+			<Text>Your Civilization is the first to discover [COLOR_TECH_TEXT]{@1_TechName}[ENDCOLOR]! Choose a free technology...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_GIFTED_UNIT_TO_YOU">
+			<Text>{1_PlyrName} has gifted you a group of {2_UnitName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_GP_BORN">
+			<Text>{1_GPName} has been born in {@2_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_GP_BORN_SOMEWHERE">
+			<Text>{1_GPName} has been born in a far away land!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_GREAT_PERSON">
+			<Text>Great Person: {1_Curr}/{2_Need} [ICON_GREATPEOPLE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_IMP_DESTROYED">
+			<Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {@1_ImpName}} has been destroyed by a marauding {@3_civ_adjective} {@2_UnitName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_LOST_WONDER_PROD_CONVERTED">
+			<Text>{@1_CityName} can no longer work on {@2_BldgName}. The lost [ICON_PRODUCTION] is converted into {3_NumGold}[ICON_GOLD]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_MELTDOWN_CITY">
+			<Text>A Nuclear Meltdown has occurred in {@1_CityName}!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_NUKE_INTERCEPTED">
+			<Text>{1_PlyrName} launches {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {2_UnitName}}, but it is shot down by {3_Plyr2Name}!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_NUKE_LAUNCHED">
+			<Text>{1_PlyrName} launches {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {2_UnitName}}, and it explodes!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_PILLAGED_CITY">
+			<Text>You have pillaged {1_Num} [ICON_GOLD] from the destruction of {@2_CityName}!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_PLAYER_ADOPTED_POLICY">
+			<Text>{@1_PlyrName} has adopted the {@2_PolicyName} Policy Branch!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_PLAYER_ADOPTED_POLICY_SUMMARY">
+			<Text>{@1_PlyrName} adopts {@2_PolicyName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_PLAYER_CONVERT_RELIGION">
+			<Text>{1_PlyrName} converts to [COLOR_HIGHLIGHT_TEXT]{2_RelName}[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_PLAYER_GOLDEN_AGE_BEGINS">
+			<Text>{1_PlyrName}: Golden Age begins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_PLAYER_GOLDEN_AGE_ENDED">
+			<Text>{1_PlyrName}: Golden Age has ended...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_PLAYER_GOLDEN_AGE_HAS_BEGUN">
+			<Text>{1_PlyrName}: Golden Age has begun!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_PLAYER_PERMANENT_ALLIANCE">
+			<Text>{1_PlyrName} has made a Permanent Alliance with {2_TeamName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_PLUNDERED_GOLD_FROM_IMP">
+			<Text>You have plundered {1_Num}[ICON_GOLD] from the {@2_ImpName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_RECEIVED_GOLD">
+			<Text>[SPACE]You have received {1_Num} gold!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_REL_FOUNDED">
+			<Text>{1_RelName} has been founded in {@2_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_REL_FOUNDED_UNKNOWN">
+			<Text>{1_RelName} has been founded in a distant land!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_RELIGION_ADOPTED_ANOTHER_PLAYER">
+			<Text>{1_PlyrName} has adopted {@2_ReligionName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_RELIGION_ADOPTED_UNKNOWN">
+			<Text>An unmet Player has adopted a Religion!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_RELIGION_ADOPTED_YOU">
+			<Text>You have completed a majestic Shrine in {@1_CityName} to honor {@2_ReligionName}!  You may now train Missionaries there to spread the faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_RELIGION_SPREAD">
+			<Text>[COLOR_HIGHLIGHT_TEXT]{1_RelName}[ENDCOLOR] has spread in {@2_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_RESOURCE_DISCOVERED_CITY_DEMANDS">
+			<Text>You have learned of [COLOR_HIGHLIGHT_TEXT]{@1_ResourceName}[ENDCOLOR], which the City of {@2_CityName} demands!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_REVOLT_IN_CITY">
+			<Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {1_CivAdj}} revolt has taken place in {@2_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_CREATED_UNIT">
+			<Text>{1_PlyrName} has created {2_UnitName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_DECLARED_WAR">
+			<Text>{1_PlyrName} has declared war on {2_PlyrName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_DECLARES_WAR">
+			<Text>{1_PlyrName} declares war on {2_PlyrName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_FIRST_TO_TECH">
+			<Text>{1_PlyrName} is the first to discover {@2_TechName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_HAS_COMPLETED">
+			<Text>{1_PlyrName} has completed {@2_PrjctName}!</Text>
+		</Row>
+    <Row Tag="TXT_KEY_MISC_SOMEONE_HAS_COMPLETED_UNKNOWN">
+      <Text>{@1_PrjctName} has been completed in a far away land!</Text>
+    </Row>
+		<Row Tag="TXT_KEY_MISC_SOMEONE_MADE_PEACE">
+			<Text>{1_PlyrName} has made peace with {2_PlyrName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_TRAINED_UNIT_IN">
+			<Text>You have trained {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {@1_UnitName}} in {@2_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_TURN_BEGINS">
+			<Text>Your turn has begun!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_UNIT_DISBANDED_NO_MONEY">
+			<Text>{@1_UnitName} was disbanded because of a lack of funds!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_UNITS_ON_STRIKE">
+			<Text>Your units are on strike!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_UNKNOWN_CIRC_GLOBE">
+			<Text>A distant Civilization has circumnavigated the Globe!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_UNKNOWN_CREATED_UNIT">
+			<Text>[COLOR_UNIT_TEXT]{1_UnitName}[ENDCOLOR] {1_UnitName: plural 1?has; other?have;} been created in a far away land!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_UNKNOWN_FIRST_TO_TECH">
+			<Text>A distant civilization is the first to discover {@1_TechName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_WHAT_TO_RESEARCH_NEXT">
+			<Text>What would you like to research next?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_WONDER_COMPLETED">
+			<Text>{@1_PlyrName} has completed {@2_WndrName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_WONDER_COMPLETED_UNKNOWN">
+			<Text>{@1_WndrName} {@1_WndrName: plural 1?has; other?have;} been built in a far away land!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_WORK_HAS_BEGUN">
+			<Text>[SPACE]Work has now begun on {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {@1_ProdName}}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_AIR_UNIT_HURT">
+			<Text>Your {@1_UnitName} was intercepted by an enemy {@2_EnUName}! ({3}% Damage)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR">
+			<Text>Your {@1_UnitName} ({3_Num} damage) was bombarded by an enemy {@2_EnUName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR_AND_DEATH">
+			<Text>Your {@1_UnitName} was destroyed after being bombarded by an enemy {@2_EnUName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_CITY">
+			<Text>Your {@1_UnitName} ({3_Num} damage) was bombarded by the enemy City of {@2_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_ATTACK_BY_AIR">
+			<Text>Your {@1_UnitName} bombarded an enemy {@2_EnUName}! ({3_Damage} damage)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_ATTACK_BY_AIR_AND_DEATH">
+			<Text>Your {@1_UnitName} bombarded an enemy {@2_EnUName} and destroyed it!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_CAPTURED_UNIT">
+			<Text>You have captured an enemy {@1_UnitName}</Text>
+		</Row>
+    <Row Tag="TXT_KEY_MISC_YOU_RECAPTURED_UNIT">
+      <Text>You have recaptured your {@1_UnitName}</Text>
+    </Row>
+		<Row Tag="TXT_KEY_MISC_YOU_CITY_RANSOMED_BY_BARBARIANS">
+			<Text>Your City of {@1_CityName} was raided by Barbarians, and {2_Num} Gold was stolen from the national treasury!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_CITY_WAS_CAPTURED">
+			<Text>While defending, your City of {@1_CityName} was captured by {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {@3_owner_adjective}} {@2_EnUName} ({4_Num} damage)!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_DEFENSES_REDUCED_TO">
+			<Text>Your defenses in {@1_CityName} have been reduced to {2_Num}% by {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {3_UnitName}}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_DISCOVERED_RESOURCE">
+			<Text>You have discovered a source of [COLOR_HIGHLIGHT_TEXT]{@1_ResourceName}[ENDCOLOR] near {@2_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_DISCOVERED_TECH">
+			<Text>You have discovered {@1_TechName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_HURT_ENEMY_AIR">
+			<Text>Your {@1_UnitName} has intercepted {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {4_owner_adjective}} {@2_EnUName}! ({3}% Damage)</Text>
+		</Row>
+    <Row Tag="TXT_KEY_MISC_ENEMY_AIR_UNIT_DESTROYED">
+      <Text>Thanks to your intercepting {@1_UnitName}, the {@2_owner_adjective} {@3_EnUName} attacking your {@4_DefUnitName} has been shot down!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_ENEMY_AIR_UNIT_INTERCEPTED">
+      <Text>Thanks to your intercepting {@1_UnitName}, we damaged the {@2_owner_adjective} {@3_EnUName} ({4_Num} damage) attacking your {@5_DefUnitName}.</Text>
+    </Row>
+		<Row Tag="TXT_KEY_MISC_YOU_KILLED_ENEMY_UNIT">
+			<Text>While defending, your {@1_UnitName} ({2_Num} damage) killed {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {@5_owner_adjective}} {@4_EnUName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_KILLED_ENEMY_UNIT_CITY">
+			<Text>While defending, your City of {@1_CityName} ({2_Num} damage) killed {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {@4_owner_adjective}} {3_EnUName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_REDUCE_CITY_DEFENSES">
+			<Text>Your {@1_UnitName} has reduced the defenses of {@2_CityName} to {3_NewVal}%!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_SHOT_DOWN_ENEMY">
+			<Text>Your {@1_UnitName} has shot down {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {3_owner_civ}} {@2_EnUName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_CAPTURED_ENEMY_CITY">
+			<Text>Your {@1_UnitName} ({2_Num} damage) captured the enemy City of {@3_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_DESTROYED_ENEMY">
+			<Text>Your {@1_UnitName} ({2_Num} damage) destroyed an enemy {@3_UnitName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_DIED_ATTACKING">
+			<Text>Your {@1_UnitName} died attacking an enemy {@2_EnUName} ({3_Num} damage)!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_DIED_ATTACKING_CITY">
+			<Text>Your {@1_UnitName} died attacking the enemy City of {@2_EnUName} ({3_Num} damage)!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_RANSOM_KILL_BY_BARBARIANS">
+			<Text>The Barbarians have killed your {@1_UnitName} because you refused to pay their ransom!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_SHOT_DOWN">
+			<Text>Your {@1_UnitName} was shot down by an enemy {@2_EnUName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_SURRENDER">
+			<Text>Your {@1_EnUName} surrendered to {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {@2_Adjective}} {@3_UnitName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DESTROYED">
+			<Text>While defending, your {@1_UnitName} was destroyed by {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {@3_owner_adjective}} {@2_EnUName} ({4_Num} damage)!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DESTROYED_UNKNOWN">
+			<Text>While defending, your {@1_UnitName} was destroyed by a disguised {@2_EnUName} ({3_Num} damage)!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DAMAGED_ATTRITION">
+			<Text>Attrition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WAS_DESTROYED_ATTRITION">
+			<Text>Your {@1_UnitName} was destroyed by attrition!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WITHDRAW">
+			<Text>Your {@1_UnitName} ({2_Num} damage) attacked an enemy {@3_EnUName} ({4_Num} damage)!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOU_UNIT_WITHDRAW_CITY">
+			<Text>Your {@1_UnitName} ({2_Num} damage) attacked the enemy City of {@3_CityName} ({4_Num} damage)!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_FRIENDLY_UNIT_WITHDREW">
+			<Text>Our {@1_Num} has withdrawn from enemy melee attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_ENEMY_UNIT_WITHDREW">
+			<Text>An enemy {@1_Num} has withdrawn from your melee attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOUR_CITY_ATTACKED_BY_AIR">
+			<Text>Your City of {@1_CityName} ({3_Num} damage) was bombarded by an enemy {@2_EnUName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOUR_CITY_RANGE_ATTACK">
+			<Text>{@1_Name} bombarded an enemy {@2_EnUName}! ({3_Damage} damage)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_AIRLIFT">
+			<Text>Airlift</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_ALERT">
+			<Text>Alert</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_BOMBARD">
+			<Text>Bombard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_BUILD_CITY">
+			<Text>Found City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_BUILD_IMPROVEMENT">
+			<Text>Build Improvement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_CONDUCT_TRADE_MISSION">
+			<Text>Conduct Trade Mission</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_CONSTRUCT">
+			<Text>Construct</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_CREATE_GREAT_WORK">
+			<Text>Create Great Work</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_DISCOVER_TECH">
+			<Text>Discover Technology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_FORTIFY">
+			<Text>Fortify</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_GARRISON">
+			<Text>Garrison in City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_SET_UP">
+			<Text>Set Up For Ranged Attack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_EMBARK">
+			<Text>Embark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_DISEMBARK">
+			<Text>Disembark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_HEAL">
+			<Text>Fortify Until Healed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_HURRY_PRODUCTION">
+			<Text>Hurry Production</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_INTERCEPT">
+			<Text>Intercept</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_JOIN_CITY">
+			<Text>Join City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_MOVE_TO">
+			<Text>Move</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_MOVE_TO_UNIT">
+			<Text>Move Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_NUKE">
+			<Text>Nuke</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_PILLAGE">
+			<Text>Pillage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_ROUTE_TO">
+			<Text>Route To</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_SKIP">
+			<Text>Do Nothing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_SLEEP">
+			<Text>Sleep</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_CULTURE_BOMB">
+			<Text>Culture Bomb</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_START_GOLDENAGE">
+			<Text>Start a Golden Age</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_BUILD_SPACESHIP">
+			<Text>Add to Spaceship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MP_OPTION_SIMULTANEOUS_TURNS">
+			<Text>Simultaneous Turns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MP_OPTION_TAKEOVER_AI">
+			<Text>Take over AI</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MP_OPTION_TURN_TIMER">
+			<Text>Turn Timer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MP_ENTER_PASSWORD">
+			<Text>Enter Password</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MP_OLD_PASSWORD">
+			<Text>Old Password</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MP_NEW_PASSWORD">
+			<Text>New Password</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MP_CHANGE_PASSWORD">
+			<Text>Change Password</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MP_ADD_PASSWORD">
+			<Text>Add Password</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MP_NEXT_PLAYER">
+			<Text>Next Player</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MP_PLAYER_CHANGE_CONTINUE">
+			<Text>Continue</Text>
+		</Row>		
+		<Row Tag="TXT_KEY_PLAYER_OPTION_ADVISOR_POPUPS">
+			<Text>Advisor Pop-Ups</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_OPTION_NO_UNIT_CYCLING">
+			<Text>No Unit Cycling</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_OPTION_NO_UNIT_CYCLING_HELP">
+			<Text>Do Not Automatically Select The Next Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_OPTION_NO_UNIT_RECOMMEND">
+			<Text>No Unit Action Recommendations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_OPTION_NUMPAD_HELP">
+			<Text>Numpad Help</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_OPTION_QUICK_COMBAT_DEFENSE">
+			<Text>Quick Combat (Defense)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_OPTION_QUICK_COMBAT_OFFENSE">
+			<Text>Quick Combat (Offense)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_OPTION_QUICK_MOVES">
+			<Text>Quick Moves</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_OPTION_SHOW_ENEMY_MOVES">
+			<Text>Show Enemy Moves</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_OPTION_SHOW_FRIENDLY_MOVES">
+			<Text>Show Friendly Moves</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_OPTION_WAIT_AT_END_OF_TURN">
+			<Text>Wait at End of Turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_OPTION_WORKERS_LEAVE_OLD_IMPS">
+			<Text>Automated Workers Leave Old Improvements</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLAYER_OPTION_WORKERS_START_AUTO">
+			<Text>Workers Start Automated</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_ARE_YOU_SURE_ACTION">
+			<Text>Are you sure you want to {@1_ActionName}?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_ARE_YOU_SURE_IMPROVEMENT_REBUILD">
+			<Text>Are you sure you want to {@1_ActionName}?[NEWLINE]The current Tile Improvement will be replaced.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_ARE_YOU_SURE_IMPROVEMENT_REBUILD_WARN_TRADE_ROUTE">
+			<Text>Are you sure you want to {@1_ActionName}?[NEWLINE]The current Tile Improvement will be replaced and a trade route may be disconnected.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_ARE_YOU_SURE_RAZE">
+			<Text>Are you sure you want to raze this City? (This can be undone)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BURNING">
+			<Text>Burning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_DETAILS_TITLE">
+			<Text>Your Details</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_DOES_THIS_MEAN_WAR">
+			<Text>Does this mean WAR?!? (vs. {1_Team})</Text>
+		</Row>
+    <Row Tag="TXT_KEY_POPUP_DOES_THIS_MEAN_WAR_PROTECTED_CITY_STATE">
+      <Text>Does this mean WAR against {1_Team}?!? They are under the protection of: </Text>
+    </Row>
+		<Row Tag="TXT_KEY_POPUP_ELECTION_OPTION">
+			<Text>{@1_VoteName} (Requires {2_ReqNum} of {3_TotNum} Total Votes)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_ENTER_LANDS_WAR">
+			<Text>Entering [COLOR_HIGHLIGHT_TEXT]{1_CivAdj}[ENDCOLOR] lands will trigger WAR! Are you sure?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_ENTER_CITY_STATE_WAR">
+			<Text>Entering [COLOR_HIGHLIGHT_TEXT]{1_CivAdj}[ENDCOLOR] will trigger WAR! Are you sure?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_ENTER_MINOR_CIV_LANDS">
+			<Text>Entering [COLOR_HIGHLIGHT_TEXT]{1_CivAdj}[ENDCOLOR] lands is an unfriendly act of bullying! Are you sure?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_ENTER_WITH_OPEN_BORDERS">
+			<Text>(You can peacefully enter if you sign an Open Borders Treaty.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_GOLD_CITY_CAPTURE">
+			<Text>You have pillaged {1_Num} [ICON_GOLD] from the capture of {@2_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_NO_GOLD_CITY_CAPTURE">
+			<Text>You have acquired {@1_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO">
+			<Text>What would you like to do with this City?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE">
+			<Text>This City was formerly owned by [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]. You have the opportunity to return it to them, for which they would be grateful.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_LIBERATE_RESURRECT">
+      <Text>This City was formerly owned by [COLOR_POSITIVE_TEXT]{@1_PlayerName}[ENDCOLOR]. You have the opportunity to return it to them, for which they would be eternally grateful.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_ANNEX">
+			<Text>[COLOR_POSITIVE_TEXT]Annexing[ENDCOLOR] the City into your empire causes it to become a normal City that produces quite a bit of extra [ICON_HAPPINESS_4] Unhappiness.[NEWLINE][NEWLINE]Annexing this City will increase [ICON_HAPPINESS_4] Unhappiness by {1_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_PUPPET">
+			<Text>By turning the City into a [COLOR_POSITIVE_TEXT]Puppet[ENDCOLOR], it will generate Gold, Science, Culture, etc. for you, but you [COLOR_POSITIVE_TEXT]may not choose what it produces[ENDCOLOR] or customize the City.[NEWLINE][NEWLINE]It will contribute much less [ICON_HAPPINESS_4] than an Annexed City, and will not increase the cost of your Social Policies and Great People. If you choose this, you may later Annex the City at any point.[NEWLINE][NEWLINE]Puppeting this City will increase [ICON_HAPPINESS_4] Unhappiness by {1_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_CITY_CAPTURE_INFO_RAZE">
+			<Text>The City will burn [ICON_RAZING] down by 1 population each turn until it reaches 0, and is removed from the game.  This produces quite a bit of extra [ICON_HAPPINESS_4] Unhappiness during the razing.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Razing[ENDCOLOR] this City will increase [ICON_HAPPINESS_4] Unhappiness by {1_Num}.  This [ICON_HAPPINESS_4] Unhappiness will decrease by one each turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_VIEW_CITY_DETAILS">
+			<Text>Go to the city screen. You may not change anything while inside.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_LIBERATE_CITY">
+			<Text>Liberate the City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_ANNEX_CITY">
+			<Text>Annex the City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_PUPPET_CAPTURED_CITY">
+			<Text>Create Puppet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_RAZE_CAPTURED_CITY">
+			<Text>Raze the City!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_VIEW_CITY">
+			<Text>View City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_DONT_ANNEX_CITY">
+			<Text>Leave City as a Puppet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_NO">
+			<Text>No</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_ANNEX_PUPPET">
+			<Text>Do you want to annex the puppet of {@1_CityName} into your empire? It will allow you to choose Production, but will increase your [ICON_HAPPINESS_4] Unhappiness and slow your acquisition of new Policies and Great People. You will not be able to reverse this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_NO_PUPPET">
+			<Text>No, Puppet the City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_VOTES_FOR">
+			<Text>{1_VtrName} votes for {2_PlyrName} ({3_Num} Total)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_VOTES_YES_NO">
+			<Text>{1_VtrName} votes {2_YesNo} ({3_Num} Total)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_WHAT_TO_BUILD">
+			<Text>What would you like to build in this city?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_WHAT_TO_PURCHASE">
+			<Text>What would you like to purchase in this city?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_YES">
+			<Text>Yes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION">
+			<!-- {1} = TXT_KEY_PROMOTION_ -->
+			<Text>{1} promotion awarded!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_SPREAD_TO_CITY">
+			<Text>You have spread {@1_ReligionName} to {@2_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGIOUS_BUILDING">
+			<Text>{@1_BuildingName} of {@2_ReligionName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REPAIR_IMPROVEMENT">
+			<Text>Repair an Improvement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REPAIR_IMPROVEMENT_REC">
+			<Text>It will restore functionality to the pillaged improvement on this tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REPAIR_IMPROVEMENT_HELP">
+			<Text>If a Tile Improvement has been pillaged, a Worker may repair it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REMOVE_ROUTE">
+			<Text>Remove a Road</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REMOVE_ROUTE_REC">
+			<Text>It is not needed for connecting our cities together, and is costing us [ICON_GOLD] Maintenance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_REMOVE_ROUTE_HELP">
+			<Text>You may remove a road or railroad that has been built in a tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SEALEVEL_HIGH">
+			<Text>High</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SEALEVEL_LOW">
+			<Text>Low</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SEALEVEL_MEDIUM">
+			<Text>Medium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TIME_AD">
+			<Text>{1_Date: number #} AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TIME_AD_SAVE">
+			<Text>{2} AD-{1_Date}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TIME_BC">
+			<Text>{1_Date: number #} BC</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TIME_BC_SAVE">
+			<Text>{2} BC-{1_Date}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TIME_TURN">
+			<Text>Turn: {1_TurnNum}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TIME_WEEK">
+			<Text>Week {1_WeekNum}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORKER_BUILD_PROGRESS">
+			<Text>{1_Num} {1_Num: plural 1?turn; other?turns;} to [COLOR_POSITIVE_TEXT]{2_WorkerBuildName}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_YES">
+			<Text>Yes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_NO">
+			<Text>No</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEGAL_CONTINUE">
+			<Text>Click to Continue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MULTIPLAYER_UNSUPPORTED_NUMBER_OF_PLAYERS">
+			<Text>WARNING: Unsupported number[NEWLINE]of players!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_STEAM_CONNECTED_NO">
+			<Text>To play internet games, the game needs to be launched with Steam active and with an active internet connection.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEGAL_BODY">
+			<Text>© 1991-2010 Take-Two Interactive Software and its subsidiaries.  Developed by Firaxis Games.  Sid Meier's Civilization V, Civ, Civilization, 2K Games, Firaxis Games, Take-Two Interactive Software and their respective logos are all trademarks of Take-Two interactive Software, Inc.  Fork Copyright © 2010 Fork Particle, Inc. Rapid XML Copyright © 2006-2010 Marcin Kalicinski. Lua Copyright © 1994-2010 Lua.org, PUC-Rio. Uses Granny Animation. Copyright © 1999-2010 by RAD Game Tools, Inc. Uses Miles Sound System. Copyright © 1991-2010 by RAD Game Tools, Inc. The ratings icon is a trademark of the Entertainment Software Association.  All other marks and trademarks are the property of their respective owners.  All rights reserved.  The content of this videogame is fictional and is not intended to represent or depict an actual record of the events, persons or entities in the game's historical setting.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_EARTH_TITLE">
+			<Text>Earth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ESRB_BODY">
+			<Text>Online Interactions Not Rated by the ESRB</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CREDIT_FORK">
+			<Text>VFX Powered by Fork Particle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CREDIT_GRANNY">
+			<Text>Uses Granny [RED]Animation[/RED]. Copyright (C) 1999-2010 by RAD Game Tools, Inc.</Text>
+		</Row>
+		
+		<!-- SINGLE PLAYER MAP PACK LOCALIZATION -->
+		<Row Tag="TXT_KEY_SP_MAP_PACK_BERING_TITLE">
+			<Text>Bering Strait</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_MAP_PACK_BERING_DESC">
+			<Text>The Bering Strait and lands surrounding, including the Russian Far East, Kamchatka, and Alaska.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_MAP_PACK_BRITISH_ISLES_TITLE">
+			<Text>British Isles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_MAP_PACK_BRITISH_ISLES_DESC">
+			<Text>Great Britain, Ireland, and countless smaller islands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_MAP_PACK_CARRIBEAN_TITLE">
+			<Text>Caribbean</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_MAP_PACK_CARRIBEAN_DESC">
+			<Text>Explore the Caribbean, in all its tropical splendor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_MAP_PACK_EUS_TITLE">
+			<Text>Eastern United States</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_MAP_PACK_EUS_DESC">
+			<Text>A map that spans the southern tip of Texas all the way up to the eastern tip of Nova Scotia.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_MAP_PACK_JAPAN_TITLE">
+			<Text>Japanese Mainland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SP_MAP_PACK_JAPAN_DESC">
+			<Text>This map focuses exclusively on Japan, with no surrounding countries in play.</Text>
+		</Row>
+		
+		<!-- GREAT PERSON UI PANEL TEXT -->
+		<Row Tag="TXT_KEY_IC_GP">
+			<Text>Great Person List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_CITY">
+			<Text>City Name</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_SORT_CITY">
+			<Text>Sort By City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_TURNS">
+			<Text>Remaining Turns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GG_PROGRESS">
+			<Text>Great General Progress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_SORT_TURNS">
+			<Text>Sort By Remaining Turns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_ARTIST_DETAILS">
+			<Text>[ICON_PLUS] Great Artists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_ARTIST_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] Great Artists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_ENGINEER_DETAILS">
+			<Text>[ICON_PLUS] Great Engineers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_ENGINEER_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] Great Engineers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_MERCHANT_DETAILS">
+			<Text>[ICON_PLUS] Great Merchants</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_MERCHANT_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] Great Merchants</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_SCIENTIST_DETAILS">
+			<Text>[ICON_PLUS] Great Scientists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_SCIENTIST_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] Great Scientists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GPLIST_TURNS">
+			<Text>+{1_Rate}</Text>
+		</Row>
+		<!--<Row Tag="TXT_KEY_GPLIST_TURNS">
+			<Text>+{1_Rate} [ICON_GREAT_PEOPLE], {2_Turns} Turn(s)</Text>
+		</Row>-->
+		<Row Tag="TXT_KEY_GPLIST_PROGRESS">
+			<Text>{1_Progress}/{2_Threshold}, {3_Turns} Turn(s) Remaining</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_GENERAL_PROGRESS">
+			<Text>{1_Progress}/{2_Threshold}</Text>
+		</Row>
+	
+		<Row Tag="TXT_KEY_PBEM_CHECKBOX">
+			<Text>Enable End-of-Turn Autosaves</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PBEM_CHECKBOX_PBEM">
+			<Text>Enable Play-by-Email Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PBEM_NOTICE">
+			<Text>Your turn has ended. Please email the save file to the next player in line. You can find the save file in your saves/pbem directory.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_MP_MAIN_MENU">
+      <Text>Main Menu</Text>
+    </Row>
+        
+    
+        
+        <Row Tag="TXT_KEY_TOUCH_CONTROLS">
+            <Text>Touch Controls</Text>
+        </Row>              
+        <Row Tag="TXT_KEY_ZOOM_TITLE">
+            <Text>Zoom Controls</Text>
+        </Row>       
+        <Row Tag="TXT_KEY_ZOOM_DETAILS">
+            <Text>PINCH 2 fingers on the screen to Zoom OUT and STRETCH 2 fingers apart on the screen to Zoom IN.</Text>
+        </Row>       
+        <Row Tag="TXT_KEY_TOOL_TIPS_TITLE">
+            <Text>Tool Tips and Movement</Text>
+        </Row>       
+        <Row Tag="TXT_KEY_TOOL_TIPS_DETAILS">
+            <Text>DRAG 1 finger over buttons or terrain to see tool tips.[NEWLINE]DRAG a unit out of its hex to enter movement mode.</Text>
+        </Row>       
+        <Row Tag="TXT_KEY_SCROLLING_TITLE">
+            <Text>Scrolling and Panning</Text>
+        </Row>       
+        <Row Tag="TXT_KEY_SCROLLING_DETAILS">
+            <Text>DRAG 2 fingers on the screen to pan the game camera and move scrollbar menus.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOVE_TITLE">
+            <Text>Moving Units</Text>
+        </Row>
+        <Row Tag="TXT_KEY_MOVE_DETAILS">
+            <Text>DOUBLE-TAP 1 finger on the screen to issue Move orders to the current unit.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_EXIT_MOVE_TITLE">
+            <Text>Exit Move Mode</Text>
+        </Row>
+        <Row Tag="TXT_KEY_EXIT_MOVE_DETAILS">
+            <Text>To exit Move Mode without issuing an order, tap a second finger.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ESCAPE_TITLE">
+            <Text>Escape</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ESCAPE_DETAILS">
+            <Text>TAP 3 fingers to close screens or open the game menu.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TOUCH_HIDE">
+            <Text>Show on startup</Text>
+        </Row>
+        <Row Tag="TXT_KEY_TOUCH_HELP">
+            <Text>Guide for Touch Controls</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ZOOM_OUT">
+            <Text>Zoom Out</Text>
+        </Row>
+        <Row Tag="TXT_KEY_ZOOM_IN">
+            <Text>Zoom In</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DRAG_SPEED">
+            <Text>Map Drag Speed: {1_Num}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_DRAG_SPEED_TT">
+            <Text>Accelerates/Decelerates movement when dragging the map.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PINCH_SPEED">
+            <Text>Map Zoom Speed: {1_Num}</Text>
+        </Row>
+        <Row Tag="TXT_KEY_PINCH_SPEED_TT">
+            <Text>Accelerates/Decelerates movement when zooming the map.</Text>
+        </Row>
+    </Language_en_US>
+</GameData>

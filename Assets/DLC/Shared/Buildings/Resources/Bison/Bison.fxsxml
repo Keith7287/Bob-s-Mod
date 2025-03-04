@@ -1,0 +1,30 @@
+<Asset>
+  <Mesh file="Bison.gr2" source="Max" />
+  <Animation file="Bison_Idle01.gr2" name="Idle01" ec="1000" source="Max" layer="None" />
+  <Animation file="Bison_Idle02.gr2" name="Idle02" ec="1001" source="Max" layer="None" />
+  <Animation file="Bison_Idle03.gr2" name="Idle03" ec="1002" source="Max" layer="None" />
+  <Animation file="Bison_Idle04.gr2" name="Idle04" ec="1003" source="Max" layer="None" />
+  <Texture file="Camp_MOD_SREF.dds" source="Max" />
+  <Texture file="Unit_Light.dds" source="Max" />
+  <Texture file="Unit_environment_Dull.dds" source="Max" />
+  <Texture file="Unit_environment_Sharp.dds" source="Max" />
+  <Texture file="Black_SREF.dds" source="Max" />
+  <Texture file="Unit_Environment_Dull.dds" source="Max" />
+  <Texture file="Unit_Environment_Sharp.dds" source="Max" />
+  <Texture file="Unit_Irradiance.dds" source="Max" />
+  <Texture file="Camp_MOD_Ivory_DIFF.dds" source="Max" />
+  <Texture file="Camp_HB_IND_DIFF.dds" source="Max" />
+  <Texture file="Camp_HB_IND_SREF.dds" source="Max" />
+  <Texture file="Camp_HB_SREF.dds" source="Max" />
+  <Texture file="Camp_MID_Deer_ground_D.dds" source="Max" />
+  <Texture file="Camp_MID_Deer_ground_H.dds" source="Max" />
+  <Texture file="Generic_Grey_8.dds" source="Max" />
+  <Texture file="PL_Camp_IND_DIFF.dds" source="Max" />
+  <Texture file="PL_Camp_MID_Deer_ground.dds" source="Max" />
+  <Texture file="Resource_Bison.dds" source="Max" />
+  <TimedTrigger file="FX_Triggers_Bison_PL.ftsxml" source="Tool" model="PL_Camp_IND_Ivory" state="3" />
+  <BoneUsage>
+    <Bone name="FX_PillagedSmoke" />
+  </BoneUsage>
+  <DecisionTree file="LandmarkDecisionTree4.ddtxml" source="Tool" />
+</Asset>

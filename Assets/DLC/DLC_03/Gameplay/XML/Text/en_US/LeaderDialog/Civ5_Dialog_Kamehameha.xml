@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+
+<GameData>
+	<Language_en_US>
+
+    <!--General phrases -->
+    <!--Greeting (first time meeting) -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_FIRSTGREETING_1">
+      <Text>Ah, a fellow Wayfarer! Welcome to the grand isles of Polynesia!  I, The Great Kamehameha, invite you to share my feast and fire.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_FIRSTGREETING_2">
+      <Text>Welcome, stranger! I am Kamehameha, King of Polynesia.  Come, we shall hold a grand hula to celebrate our meeting.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_FIRSTGREETING_3">
+      <Text>Greetings and blessings upon you, friend.  I am Kamehameha, Great King of Polynesia.  Let us share our resources and work together in harmony!</Text>
+    </Row>
+    <!--Reacts to his bluff being called -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_WARBLUFF_1">
+      <Text>Another time, perhaps.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_WARBLUFF_2">
+      <Text>Careful where you tread, friend.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_WARBLUFF_3">
+      <Text>You are wiser than my Kahunas give you credit for.</Text>
+    </Row>
+    <!--Gloats after winning a war -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_WINWAR_1">
+      <Text>The Great God Ku has sided with me in this dispute.  His will is spoken - let us end our quarrels and anger him no further.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_WINWAR_2">
+      <Text>You thought to take on the comet of Polynesia?  In the future, you should consult your Kahunas before undertaking such foolhardy actions.</Text>
+    </Row>
+    <!--Submissive after losing a war -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_LOSEWAR_1">
+      <Text>Perhaps the stars were mistaken...I must consult my Kahunas on the matter.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_LOSEWAR_2">
+      <Text>Pele honors you with her dance. You have won her favor, friend, but do not hope to enjoy her attentions forever.</Text>
+    </Row>
+    <!--Defeated and removed from game -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_DEFEATED_1">
+      <Text>The stars foretold that I would be the 'killer of chiefs'.  This is not the outcome I predicted, but prophecy must be fulfilled.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_DEFEATED_2">
+      <Text>My people shall write a hula about your victory.  Perhaps one day we will understand why the gods abandoned us.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_DEFEATED_3">
+      <Text>The hard-shelled crab yields, the comet's progeny grows dim.  Kanaloa comes for me now.</Text>
+    </Row>
+    
+    <!--Neutral -->
+    <!--Greetings (subsequent meetings) -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_GREETING_1">
+      <Text>A pleasant day to you.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_GREETING_2">
+      <Text>Greetings.</Text>
+    </Row>
+    <!--Goodbye -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_GOODBYE_1">
+      <Text>Until we meet again.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_GOODBYE_2">
+      <Text>Goodbye.</Text>
+    </Row>
+    <!--Trade offer from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADE_YES_NEUTRAL">
+      <Text>Most certainly!</Text>
+    </Row>
+    <!--Trade offer from player - sweeten the deal -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>I value our goodwill, but you must do better than that.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>That's not quite good enough.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>Almost...</Text>
+    </Row>
+   
+    <!--Trade offer from player - no -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADE_NO_NEUTRAL">
+      <Text>I am not interested.</Text>
+    </Row>
+    <!--Demand for tribute from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRIBUTE_YES_NEUTRAL">
+      <Text>While I wish you would ask nicer, it is always good to share wealth.</Text>
+    </Row> 
+    <!--Demand for tribute from player - no -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRIBUTE_NO_NEUTRAL">
+        <Text>I am afraid I have no bounty to part with. You will have to go empty-handed.”</Text>
+    </Row>
+    <!--Requests a trade -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADEREQUEST_NEUTRAL">
+      <Text>Perhaps you will find this as amiable as I do?</Text>
+    </Row>
+    <!--Demands tribute -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Friend, we are in need of your assistance!</Text>
+    </Row>  
+    <!--Agrees -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_AGREE_SHORT_1">
+      <Text>All right.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_AGREE_SHORT_2">
+      <Text>Very Well.</Text>
+    </Row>
+    <!--Disagrees -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_DISAGREE_SHORT_1">
+      <Text>No, not possible.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_DISAGREE_SHORT_2">
+      <Text>I refuse.</Text>
+    </Row>
+    <!--Let's hear it -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_LETSHEARIT_1">
+      <Text>Let's hear it.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_LETSHEARIT_2">
+      <Text>Go ahead.</Text>
+    </Row>
+    
+    <!--Happy -->
+    <!--Greetings (subsequent meetings) -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_GREETING_3">
+      <Text>Welcome, friend.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_GREETING_4">
+      <Text>It is always a pleasure.</Text>
+    </Row>
+    <!--Goodbye -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_GOODBYE_3">
+      <Text>Farewell, my friend.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_GOODBYE_4">
+      <Text>Goodbye.</Text>
+    </Row>
+    <!--Trade offer from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADE_YES_HAPPY">
+      <Text>But of course! Here!</Text>
+    </Row>
+    <!--Trade offer from player - sweeten the deal -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADE_NEEDMORE_HAPPY_1">
+      <Text>I count you as a brother, but even family cannot be so bold.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADE_NEEDMORE_HAPPY_2">
+      <Text>Is that the best you can do?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADE_NEEDMORE_HAPPY_3">
+      <Text>You're almost there...</Text>
+    </Row>
+    <!--Trade offer from player - no -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADE_NO_HAPPY">
+      <Text>A thousand thanks, but no.</Text>
+    </Row>
+    <!--Demand for tribute from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRIBUTE_YES_HAPPY">
+      <Text>Of course, what are friends for but to share wealth?</Text>
+    </Row>
+    <!--Demand for tribute from player - no -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRIBUTE_NO_HAPPY">
+      <Text>I see today is one made for jokes!</Text>
+    </Row>
+    <!--Demands tribute -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_DEMANDTRIBUTE_HAPPY">
+      <Text>My friend, you have not paid your fair share for the hula.</Text>
+    </Row>
+    <!--Requests a trade -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADEREQUEST_HAPPY">
+      <Text>Come, let our people feast together!</Text>
+    </Row> 
+    <!--Agrees -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_AGREE_SHORT_3">
+      <Text>Certainly.</Text>
+    </Row> 
+    <!--Disagrees -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_DISAGREE_SHORT_3">
+      <Text>Certainly not.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_DISAGREE_SHORT_4">
+      <Text>That's unacceptable.</Text>
+    </Row> 
+    <!--Let's hear it -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_LETSHEARIT_3">
+      <Text>Proceed.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_LETSHEARIT_4">
+      <Text>I'm listening.</Text>
+    </Row>
+    
+    <!--Angry -->
+    <!--Greetings (subsequent meetings) -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_GREETING_5">
+      <Text>Well?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_GREETING_6">
+      <Text>Did you want something?</Text>
+    </Row>
+    <!--Goodbye -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_GOODBYE_5">
+      <Text>That is all.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_GOODBYE_6">
+      <Text>Please go away now.</Text>
+    </Row>
+    <!--Trade offer from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADE_YES_ANGRY">
+      <Text>Agreed.</Text>
+    </Row> 
+    <!--Trade offer from player - sweeten the deal -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADE_NEEDMORE_ANGRY_1">
+      <Text>I do not see why you wish to swindle me.  Please improve your offer.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADE_NEEDMORE_ANGRY_2">
+      <Text>Sadly, that's not good enough.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADE_NEEDMORE_ANGRY_3">
+      <Text>You must do better than that.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADE_NEEDMORE_ANGRY_4">
+      <Text>Almost...</Text>
+    </Row>
+    <!--Trade offer from player - no -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADE_NO_ANGRY">
+      <Text>Do you think to bring the Kahunas down upon my head? This will not do.</Text>
+    </Row>  
+    <!--Demand for tribute from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRIBUTE_YES_ANGRY">
+      <Text>The stars say I should agree, but I do not understand their reasons.</Text>
+    </Row>
+    <!--Demand for tribute from player - no -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRIBUTE_NO_ANGRY">
+      <Text>The Kahunas would ask for my head were I to agree to these demands.</Text>
+    </Row>
+    <!--Demands tribute -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_DEMANDTRIBUTE_ANGRY">
+      <Text>A small donation for the upcoming feast is required by all.</Text>
+    </Row>
+    <!--Requests a trade -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_TRADEREQUEST_ANGRY">
+      <Text>We have had our differences in the past, but perhaps we can begin to make amends.</Text>
+    </Row> 
+    <!--Agrees -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_AGREE_SHORT_4">
+      <Text>Oh, very well.</Text>
+    </Row>
+    <!--Disagrees -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_DISAGREE_SHORT_5">
+      <Text>Of course not.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_DISAGREE_SHORT_6">
+      <Text>That's unacceptable.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_DISAGREE_SHORT_7">
+      <Text>You cannot be serious!</Text>
+    </Row>
+    <!--Let's hear it -->
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_LETSHEARIT_5">
+      <Text>You were saying?</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_DECLAREWAR_1">
+      <Text>The ancient fire flashing across the sky proclaimed that this day would come, but I had foolishly hoped it otherwise.  Prepare yourself for destruction, friend.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_DECLAREWAR_2">
+      <Text>I have lifted the ‘Naha Stone' and yet you stand against me.  Prophecy declares that I must unite the lands, and you are in my way.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_DECLAREWAR_3">
+      <Text>The Laws of the Splintered Paddle have been broken for the last time.  As a father disciplines his child, I shall weep as I destroy you.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_ATTACKED_1">
+      <Text>You dare ignore the sacred Laws of the Splintered Paddle? Our conflict saddens me greatly, but I must protect my people.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_ATTACKED_2">
+      <Text>I see now I foolishly trusted you in sharing our bounties and good fortune.  I will stop you from doing the same to others.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_KAMEHAMEHA_ATTACKED_3">
+      <Text>You have taken advantage of my hospitality and repaid it with deceit! I see now I misjudged you and your true intent.</Text>
+    </Row>
+
+
+  </Language_en_US>
+</GameData>

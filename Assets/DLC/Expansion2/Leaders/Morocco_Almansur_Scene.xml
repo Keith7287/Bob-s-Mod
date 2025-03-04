@@ -1,0 +1,10 @@
+<LeaderScene FarClip="100000" lights="Almansur_Lights.gr2" camera="Morocco_Almansur_Camera.fxsxml" cubemap_prefix="Almansur" FallbackImage="Almansur.dds">
+
+<DOFSettings max_width="4.24" blur_distance="4571" ramp_distance="1093" ></DOFSettings> 
+	
+<LeaderObject model="Morocco_Almansur.fxsxml"> </LeaderObject>
+<BackgroundObject model="Almansur_Scene.fxsxml" ></BackgroundObject>
+<BackgroundObject model="Almansur_Scene_VFX.fxsxml" ></BackgroundObject>
+
+</LeaderScene>
+

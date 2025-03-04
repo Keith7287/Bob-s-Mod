@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+
+<GameData>
+    <Language_en_US>
+        <!--General phrases -->
+        <!--Greeting (first time meeting) -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_FIRSTGREETING_1">
+            <Text>I am Pocatello of the Shoshone, I greet you in the hopes of a peaceful and prosperous relationship.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_FIRSTGREETING_2">
+            <Text>I am Chief Pocatello of the Shoshone, what brings you to the lands of my people?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_FIRSTGREETING_3">
+            <Text>Welcome! Let us remember this day when we met in peace.</Text>
+        </Row>
+        <!--Reacts to his bluff being called -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_WARBLUFF_1">
+            <Text>Your words are meaningless.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_WARBLUFF_2">
+            <Text>How very disappointing.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_WARBLUFF_3">
+            <Text>Ridiculous.</Text>
+        </Row>
+        <!--Gloats after winning a war -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_WINWAR_1">
+            <Text>It pleases me to see this conflict resolved.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_WINWAR_2">
+            <Text>It pleases me to see this conflict resolved.</Text>
+        </Row>
+        <!--Submissive after losing a war -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_LOSEWAR_1">
+            <Text>This loss will do little to dampen our spirit.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_LOSEWAR_2">
+            <Text>This loss will do little to dampen our spirit.</Text>
+        </Row>
+        <!--Defeated and removed from game -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_DEFEATED_1">
+            <Text>I am humbled by your victory.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_DEFEATED_2">
+            <Text>This will not be the end of my people, I assure you.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_DEFEATED_3">
+            <Text>This isn't over! I will find a way!</Text>
+        </Row>
+
+        <!--Neutral -->
+        <!--Greetings (subsequent meetings) -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_GREETING_1">
+            <Text>Welcome.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_GREETING_2">
+            <Text>Hail!</Text>
+        </Row>
+        <!--Goodbye -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_GOODBYE_1">
+            <Text>Be gone.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_GOODBYE_2">
+            <Text>That is all.</Text>
+        </Row>
+        <!--Trade offer from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADE_YES_NEUTRAL">
+            <Text>We have a deal.</Text>
+        </Row>
+        <!--Trade offer from player - sweeten the deal -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADE_NEEDMORE_NEUTRAL_1">
+            <Text>You still ask too much of me.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADE_NEEDMORE_NEUTRAL_2">
+            <Text>Can you do a little better?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADE_NEEDMORE_NEUTRAL_3">
+            <Text>Almost...</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADE_NEEDMORE_NEUTRAL_4">
+            <Text>That’s not quite good enough. </Text>
+        </Row>
+        <!--Trade offer from player - no -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADE_NO_NEUTRAL">
+            <Text>I cannot.</Text>
+        </Row>
+        <!--Demand for tribute from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRIBUTE_YES_NEUTRAL">
+            <Text>It my honors my people, helping those in need.</Text>
+        </Row>
+        <!--Demand for tribute from player - no -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRIBUTE_NO_NEUTRAL">
+            <Text>My people have greater concerns  than this pettiness.</Text>
+        </Row>
+        <!--Requests a trade -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADEREQUEST_NEUTRAL">
+            <Text>Would you listen to my proposal?</Text>
+        </Row>
+        <!--Demands tribute -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_DEMANDTRIBUTE_NEUTRAL">
+            <Text>Consider your answer carefully.</Text>
+        </Row>
+        <!--Agrees -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_AGREE_SHORT_1">
+            <Text>All right.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_AGREE_SHORT_2">
+            <Text>Very Well.</Text>
+        </Row>
+        <!--Disagrees -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_DISAGREE_SHORT_1">
+            <Text>We decline.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_DISAGREE_SHORT_2">
+            <Text>No, of course not.</Text>
+        </Row>
+        <!--Let's hear it -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_LETSHEARIT_1">
+            <Text>Go ahead.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_LETSHEARIT_2">
+            <Text>Proceed.</Text>
+        </Row>
+
+        <!--Happy -->
+        <!--Greetings (subsequent meetings) -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_GREETING_3">
+            <Text>Greetings.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_GREETING_4">
+            <Text>Well?</Text>
+        </Row>
+        <!--Goodbye -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_GOODBYE_3">
+            <Text>Our business here is done.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_GOODBYE_4">
+            <Text>Goodbye.</Text>
+        </Row>
+        <!--Trade offer from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADE_YES_HAPPY">
+            <Text>I'm sure this will benefit us both.</Text>
+        </Row>
+        <!--Trade offer from player - sweeten the deal -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADE_NEEDMORE_HAPPY_1">
+            <Text>I enjoy helping my friends, but you ask too much.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADE_NEEDMORE_HAPPY_2">
+            <Text>Is that the best you can do?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADE_NEEDMORE_HAPPY_3">
+            <Text>You're almost there...</Text>
+        </Row>
+        <!--Trade offer from player - no -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADE_NO_HAPPY">
+            <Text>I cannot agree, even for you.</Text>
+        </Row>
+        <!--Demand for tribute from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRIBUTE_YES_HAPPY">
+            <Text>Take what you need, friend.</Text>
+        </Row>
+        <!--Demand for tribute from player - no -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRIBUTE_NO_HAPPY">
+            <Text>Even my generosity has it's limits.</Text>
+        </Row>
+        <!--Requests a trade -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADEREQUEST_HAPPY">
+            <Text>An agreement would surely bring great honor to us both.</Text>
+        </Row>
+        <!--Demands tribute -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_DEMANDTRIBUTE_HAPPY">
+            <Text>This would surely strengthen our ongoing friendship.</Text>
+        </Row>
+        <!--Agrees -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_AGREE_SHORT_3">
+            <Text>Certainly.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_AGREE_SHORT_4">
+            <Text>It is agreed.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_AGREE_SHORT_5">
+            <Text>Excellent.</Text>
+        </Row>
+        <!--Disagrees -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_DISAGREE_SHORT_3">
+            <Text>Certainly not.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_DISAGREE_SHORT_4">
+            <Text>We must decline.</Text>
+        </Row>
+        <!--Let's hear it -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_LETSHEARIT_3">
+            <Text>I'm listening.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_LETSHEARIT_4">
+            <Text>Yes?</Text>
+        </Row>
+
+        <!--Angry -->
+        <!--Greetings (subsequent meetings) -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_GREETING_5">
+            <Text>What do you want?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_GREETING_6">
+            <Text>What do you want?</Text>
+        </Row>
+        <!--Goodbye -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_GOODBYE_5">
+            <Text>That is all.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_GOODBYE_6">
+            <Text>We are done here.</Text>
+        </Row>
+        <!--Trade offer from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADE_YES_ANGRY">
+            <Text>I have no other options.</Text>
+        </Row>
+        <!--Trade offer from player - sweeten the deal -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADE_NEEDMORE_ANGRY_1">
+            <Text>Do you think this is the first time I've traded with outsiders?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADE_NEEDMORE_ANGRY_2">
+            <Text>That will not be enough.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADE_NEEDMORE_ANGRY_3">
+            <Text>You must do better than that.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADE_NEEDMORE_ANGRY_4">
+            <Text>What an insulting proposal.</Text>
+        </Row>
+        <!--Trade offer from player - no -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADE_NO_ANGRY">
+            <Text>I have no patience for the likes of you!</Text>
+        </Row>
+        <!--Demand for tribute from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRIBUTE_YES_ANGRY">
+            <Text>I will comply, but I will never forget this slight against my people.</Text>
+        </Row>
+        <!--Demand for tribute from player - no -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRIBUTE_NO_ANGRY">
+            <Text>These are things my people need, I would never consider such a request.</Text>
+        </Row>
+        <!--Requests a trade -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_TRADEREQUEST_ANGRY">
+            <Text>As much as it pains me, I am forced to request this trade with you.</Text>
+        </Row>
+        <!--Demands tribute -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_DEMANDTRIBUTE_ANGRY">
+            <Text>Give me what I want, or I will take it from you by force!</Text>
+        </Row>
+        <!--Disagrees -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_DISAGREE_SHORT_5">
+            <Text>I beg your pardon?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_DISAGREE_SHORT_6">
+            <Text>That's unacceptable.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_DISAGREE_SHORT_7">
+            <Text>You cannot be serious!</Text>
+        </Row>
+        <!--Let's hear it -->
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_LETSHEARIT_5">
+            <Text>You were saying?</Text>
+        </Row>
+
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_DECLAREWAR_1">
+            <Text>Ready yourself...war is coming.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_DECLAREWAR_2">
+            <Text>The next time we meet, it will be on the field of battle!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_DECLAREWAR_3">
+            <Text>I think it is time we settle this once and for all!</Text>
+        </Row>
+
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_ATTACKED_1">
+            <Text>I will not kneel to unwarranted aggression!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_ATTACKED_2">
+            <Text>My people will rise to face any challenge!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_POCATELLO_ATTACKED_3">
+            <Text>I will fight you to my dying breath!</Text>
+        </Row>
+    </Language_en_US>
+</GameData>

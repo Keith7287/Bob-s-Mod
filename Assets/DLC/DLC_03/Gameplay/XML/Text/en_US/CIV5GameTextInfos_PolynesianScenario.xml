@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<!-- LocBuddy does not yet handle DLC scenarios so for now add the scenario text to the DLC package.-->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TITLE">
+			<Text>Paradise Found</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_DESC">
+			<Text>Sail the wide expanses of the Pacific in your double-hulled canoes to spread your island culture and dominate this paradise.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_SELECT_MAP">
+			<Text>Select Map</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_RANDOM_MAP">
+			<Text>Random Archipelago Map</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_FIXED_MAP">
+			<Text>South Pacific Map</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV5_DAWN_POLYNESIAN_TEXT">
+			<Text>Aloha, great Polynesian king!  You currently rule over one of the great islands of your people.  Though life on your lush, tropical paradise is an idyllic one, you thirst for even more greatness across the waves.  Your people have invented wayfinding, a sophisticated navigation system that relies on your knowledge of the stars, the birds, and the currents of the mighty Pacific Ocean.  Your bold navigators are ready to strike out hundreds of miles across the open ocean in their double-hulled canoes, questing for new islands to colonize.  Can you successfully traverse the deadly waves and find a foothold beyond your original coastal home?  Can you expand your island's culture and dominate the mighty Pacific?[NEWLINE][NEWLINE]VICTORY CONDITIONS[NEWLINE]Victory goes to the first civilization who can adopt all social policies to become the dominant culture in Polynesia.[NEWLINE][NEWLINE]SPECIAL RULES[NEWLINE]There are all new tech and social policy trees appropriate to the scenario's Pacific Ocean setting. Each of the four major civilizations starts with a unique trait and can gain the usual Polynesian unique bonuses (Moai improvement and Maori Warrior unit) through research. Grow your empire as large as you want; the cost of social policies does NOT increase based on number of cities in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TURNSREMAINING">
+			<Text>No turn limit in this scenario.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_BRIEFING">
+			<Text>Briefing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_POLYNESIA_SCENARIO_MAORI_HELP">
+			<Text>Strongest combat unit in Polynesia (prior to the arrival of Gunpowder).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_POLYNESIA_SCENARIO_MAORI_STRATEGY">
+			<Text>Maori Warriors are the big kahunas of the Polynesian battlefield.  These strong melee warriors strike fear into nearby enemies with their Haka War Dance, a promotion that drops the [ICON_STRENGTH] Combat Strength of nearby enemies.  They should be able to defeat Warriors and Spearmen with ease.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_UNIT_HELP_TRIREME">
+			<Text>Medieval Era Naval Unit used to wrest control of the seas.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_UNIT_TRIREME_STRATEGY">
+			<Text>The Trireme is the first naval unit available to civilizations in the game.  It is a ranged unit with a modest Ranged Combat Strength. It cannot initiate melee combat.  The Trireme is useful for clearing barbarian ships out of home waters and for attacking embarked enemy units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV5_IMPROVEMENTS_MOAI_HELP">
+			<Text>Moai can only be built on the coast.  If built next to another Moai, it provides additional [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_BUILD_MOAI_HELP">
+			<Text>Adds a Moai (+1 [ICON_CULTURE] Culture) to the tile. Create a line of Moai along the coast for additional culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_BUILD_MOAI_REC">
+			<Text>It will permit the tile to generate [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_BUILDING_HEROIC_EPIC_HELP">
+			<Text>All newly-trained Units in this City receive the [COLOR_POSITIVE_TEXT]Amphibious[ENDCOLOR] Promotion that eliminates the combat penalty for attacking from the sea or over a river.[NEWLINE][NEWLINE]Must have built a Barracks in all Cities.  The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_BUILDING_HEROIC_EPIC_STRATEGY">
+			<Text>This National Wonder gives all units built in this city the "Amphibious" promotion, allowing them to attack over water without penalty.  It also provides +1 culture. The Heroic Epic can be constructed when a civilization has a barracks in all of its cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_AQUACULTURE_DESC">
+			<Text>Aquaculture is the cultivation of aquatic plants and animals in much the same way that land-living plants and animals are cultivated by agriculture. Aquaculture is primarily a source of food for people living near bodies of water, but aquaculture also includes cultivation of luxury items such as pearls and ornamental fish.  Large-scale fishing in the wild is not considered aquaculture, nor is the worthy hobby of recreational angling. Aquaculture is often used by maritime people as a way to provide a more reliable supply of marine life for food, usually supplementing various means of gathering from the wild.[NEWLINE][NEWLINE]Aquaculture was discovered independently several times through the course of human history. The earliest archeological evidence for aquaculture may be from the indigenous Gunditjmara people of Australia, who captured and raised eels. The Polynesians created rock-walled fishponds along island shorelines, capturing fish that entered through sluice gates.  Though aquaculture never supplanted agriculture as a source of food, knowledge of aquacultural practices such as capturing wild adult fish, harvesting eggs, raising fry, and shellfish bedding spread widely across the world.  Aquaculture has also led to the introduction of many species to new environments, sometimes to the consternation of the animals and plants that were there already.[NEWLINE][NEWLINE]Since the Industrial Age, there has been increasing interest in the commercial possibilities of aquaculture.  As commercial fishing depletes wild stocks, aquaculture of popular food fish and shellfish has ensured a reliable supply to the world's table, where the butter sauce and lemon awaits.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_AQUACULTURE_HELP">
+			<Text>Improves [ICON_GOLD] Gold output from Fishing Boats.  Also allows you to build the [COLOR_POSITIVE_TEXT]Seaport[ENDCOLOR] in coastal cities, improving [ICON_PRODUCTION] Production output from water resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_AQUACULTURE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"Aquaculture is a risky business.  You don't go into aquaculture for the money. You do it because you love it."[NEWLINE][TAB][TAB] - Michael Matthews[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_ORNAMENTAL_CARVING_DESC">
+			<Text>One of the primary decorative arts of Polynesia is ornamental carving.  No matter the material, be it shell, bone, wood, or stone, the Polynesians turned what they had at hand into exceptional ornaments.  Carving was not reserved for ceremonial and religious implements; even simple daily tools from stools to spoons and house beams were carved, often in meticulous detail.[NEWLINE][NEWLINE]Though carving was common across all of Polynesia, local styles and preferred carving materials varied significantly.  For example, Hawaii boasted a ready supply of timber, and wood carving reached significant technical skill and detail, whereas the residents of tree-less Easter Island carved the island's volcanic stones into the awesome and justifiably famous Moai.[NEWLINE][NEWLINE]Tiki statues, stylized human figures, were among the most common carvings made.  The figures were to represent heroes or ancestors, and were believed to be imparted with the divine power of mana, with wide eyes representing awareness and bared teeth demonstrating power and defiance.  Only after World War II did "tiki" acquire its meaning as a lowbrow art form.[NEWLINE][NEWLINE]In addition to the ornamental carving of objects, the Polynesians left a variety of petroglyphs on the rocks of their islands.  These petroglyphs and the enigmatic proto-script of the Rongo-Rongo tablets are still today a subject of intense discussion and occasional conspiracy theory.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_ORNAMENTAL_CARVING_HELP">
+			<Text>Allows Workers to construct [COLOR_POSITIVE_TEXT]Moai[ENDCOLOR] on coastal tiles, improving the [ICON_CULTURE] Culture output of those tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_ORNAMENTAL_CARVING_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"I saw the angel in the marble and carved until I set him free."[NEWLINE][TAB][TAB] - Michelangelo[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_TATTOO_DESC">
+			<Text>Tattooing is the art of creating indelible patterns in ink on the body of a person, carried to a high degree of sophistication and meaning among the Polynesians. The first reference to the word is from the British naturalist Joseph Banks aboard the "Endeavor" in 1769, and derives from the Polynesian word "tatau."[NEWLINE][NEWLINE]Polynesian tattooing was extensive, often covering large expanses of the body. Maori and Western Polynesian tattooing often included elaborate facial tattoos. Tattoos were often tied to social rank and status, with the most intricate and involved tattoos being reserved for chiefs and leaders. The designs were predominately geometric patterns of lines and were thought to have spiritual meaning for the bearer. The Polynesian process of tattooing involved tapping a wide, sharp comb made of sharpened boar's teeth into the skin and a dye made of soot of burned lama nuts. Modern tattooing methods are considered the direct descendants of the Polynesian process for tattooing, with more sophisticated tools and absolutely no reduction in pain.[NEWLINE][NEWLINE]A young adult undergoing tattooing would have the process conducted over a number of sessions in a span of days. Men's tattooing was generally more ritualized than women's, and the subject could reject the tattoo or break off the session, though usually at the costs of significant social stigma.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_TATTOO_HELP">
+			<Text>Allows you to enhance your military with buildings such as the [COLOR_POSITIVE_TEXT]Barracks[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Heroic Epic[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_TATTOO_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"A man without tattoos is invisible to the Gods."[NEWLINE][TAB][TAB] - Iban Proverb[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_CEREMONIAL_DANCE_DESC">
+			<Text>Polynesian culture lacked a widespread indigenous written language, and was transmitted orally and through a variety of mnemonic methods, including ceremonial dance and singing. Dances varied from region to region in Polynesia. Ceremonial dances accompanied fertility rituals, were used to honor the gods, praise the chief and heroes, and greet esteemed visitors. Contact with the West often led to western instruments and musical styles being blended into existing dances.[NEWLINE][NEWLINE]The most famous Polynesian ceremonial dances are probably the Hula, developed on Hawaii, and the Maori Haka of New Zealand. Hula is famous for its undulating chants and gestures, and Haka for its energetic stamps, movement, and rhythmic chants. Hulas are classified into two broad categories: Ancient, referring to pre-Western contact, and called "kahiko", and a more modern style from the 19th and 20th centuries, called 'Auana. The Haka was danced by both Maori men and women, from occasions ranging from funerals to war.[NEWLINE][NEWLINE]Dancing is still an important part of Polynesian culture and taught throughout Polynesia, allowing future generations to experience the culture through the graceful motions and harmonies of its more peaceful manifestations, as well as the powerful, aggressive greetings of rugby teams.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_CEREMONIAL_DANCE_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Maori Warrior[ENDCOLOR], the most powerful Classical unit in the game. Also allows the [COLOR_POSITIVE_TEXT]National Epic[ENDCOLOR] to be constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_CEREMONIAL_DANCE_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"I would believe only in a God that knows how to Dance."[NEWLINE][TAB][TAB] - Friedrich Nietzsche[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_WAYFINDING_DESC">
+			<Text>Traditional Polynesian navigation, also called "wayfinding", was a highly sophisticated and orally-transmitted system of knowledge which allowed the Polynesians to cross immense expanses of the Pacific Ocean in open craft. It consisted of parts celestial navigation, awareness of oceanic currents, bird and fish behavioral sciences, dead reckoning and weather observations. Wayfinding was the exclusive and secret purview of the guilds of navigators, and allowed the Polynesians to travel across tens of thousands of square miles without use of compass or clock. An apprentice navigator would learn key facts about the motion of stars, the behavior of birds, and peculiarities of weather (such as clouds visibly forming over an island beyond the horizon) from his master in the form of chants, songs, and schematic maps created from simple materials.[NEWLINE][NEWLINE]As wayfinding was an orally-transmitted secret with much local variation, most knowledge of wayfinding has been lost in the present day. There are still schools of traditional Polynesian navigation in the Pacific area, such as Taumako in the Solomon Islands.[NEWLINE][NEWLINE]Given the comparatively small size of Polynesian sail craft and the feats of sailing accomplished by the Polynesians, the efficacy of wayfinding and the skill of Polynesian navigators have been highly praised by many, occasionally straying into romantic over-embellishment. Still, it is hard not to be struck with respect at the confidence and competence that led the Polynesians to sail off towards tiny, distant islands in an open boat scarcely the length of a city bus.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_WAYFINDING_HELP">
+			<Text>This technology has been researched by your civilization just prior to the start of the scenario, unlocking the mysteries of embarkation, even over Ocean tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_WAYFINDING_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"O'er the glad waters of the dark blue sea, Our thoughts as boundless, and our souls as free, Far as the breeze can bear, the billows foam, Survey our empire, and behold our home! "[NEWLINE][TAB][TAB] - Lord Byron[NEWLINE][TAB]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_ASTRONOMY_HELP">
+			<Text>Provides +1 Movement [ICON_MOVES] for embarked units. Allows you to build the [COLOR_POSITIVE_TEXT]Observatory[ENDCOLOR], the first building that improves Science output. Also allows you to build the [COLOR_POSITIVE_TEXT]Lighthouse[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Harbor[ENDCOLOR] buildings which improve your [ICON_FOOD] Food output from water tiles and connect trade routes over water.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_COMPASS_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Caravel[ENDCOLOR], the first Renaissance Naval Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_CONSTRUCTION_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Walls[ENDCOLOR], which greatly improve the defense of cities from attack. Also allows Workers to construct build [COLOR_POSITIVE_TEXT]Roads[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Forts[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_ECONOMICS_HELP">
+			<Text>Allows you to build the [ICON_GOLD] Gold-boosting [COLOR_POSITIVE_TEXT]Market[ENDCOLOR], allows you to improve tiles with [COLOR_POSITIVE_TEXT]Trading Posts[ENDCOLOR] and also allows your cities to convert [ICON_PRODUCTION] Production into [ICON_GOLD] Gold instead of working on units or buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_GUNPOWDER_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Musketman[ENDCOLOR], the first unit in the game which wields firearms. Also provides a number of economic benefits representing new technology gained from contact with Europeans.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_MASONRY_HELP">
+			<Text>Allows you to build [COLOR_POSITIVE_TEXT]Monuments[ENDCOLOR], which improve the cultural output of cities. Also allows Workers to construct Quarries on [ICON_RES_MARBLE] [COLOR_POSITIVE_TEXT]Marble[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Clear Marshes[ENDCOLOR], allowing other improvements to be constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_MINING_HELP">
+			<Text>Allows Workers to construct [COLOR_POSITIVE_TEXT]Mines[ENDCOLOR] to increase the [ICON_PRODUCTION] Production of map tiles, and [COLOR_POSITIVE_TEXT]Chop Forests[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Chop Jungles[ENDCOLOR], allowing the construction of other improvements.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_NAVIGATION_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Trireme[ENDCOLOR], the first warship in the scenario. Also allows embarked units to defend themselves when attacked by warships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_OPTICS_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Frigate[ENDCOLOR], the most powerful warship in the scenario.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_SAILING_HELP">
+			<Text>Allows you to build the Workboat, useful for harvesting resources in the water like [ICON_RES_FISH] [COLOR_POSITIVE_TEXT]Fish[ENDCOLOR] and [ICON_RES_PEARLS] [COLOR_POSITIVE_TEXT]Pearls[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_SCIENTIFIC_THEORY_HELP">
+			<Text>This technology does not provide any benefits.  It must be researched if you finish the rest of the Medieval tree prior to the arrival of the Europeans in the Pacific. It represents the stagnation of Polynesian technology before contact with more advanced civilizations. It will be awarded to each civilization as they gain contact with Captain James Cook's expedition.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_THEOLOGY_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Temple[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Library[ENDCOLOR] which improve your [ICON_CULTURE] Cultural and [ICON_RESEARCH] Scientific output respectively. Also allows you to build the [COLOR_POSITIVE_TEXT]Courthouse[ENDCOLOR], a building which reduces the [ICON_HAPPINESS_4] Unhappiness from [ICON_OCCUPIED] Occupied Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_TRAPPING_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Spearman[ENDCOLOR], a strong military unit. Also allows your Workers to construct [COLOR_POSITIVE_TEXT]Camps[ENDCOLOR] on sources of [ICON_RES_DEER] Deer, [ICON_RES_IVORY] Ivory and [ICON_RES_FUR] Fur.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_BUILDING_OBSERVATORY_HELP">
+			<Text>Boosts the  [ICON_RESEARCH] Science output of this city. Does not need to be near a Mountain in this scenario.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_CEREMONY">
+			<Text>Ceremony</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_CEREMONY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Ceremony[ENDCOLOR] improves the happiness of your empire allowing it to grow larger.[NEWLINE][NEWLINE]Adopting Ceremony reduces [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Population in the [ICON_CAPITAL] Capital by 33%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CEREMONY_TITLE">
+			<Text>Kahuna {1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_CEREMONY_CAP">
+			<Text>CEREMONY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_CEREMONY_TEXT">
+			<Text>Ceremonies are rituals a society uses to mark important events and reinforce social bonds. These can range from communal ceremonies, like Kava, to more personal ones, like Surfing. They can also range in their degree of sacredness, with some being highly Tapu, while others are far more informal. Regardless of the exact nature of the ceremony, it serves to reinforce the social bonds of the culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_THE_ARTS">
+			<Text>The Arts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_THE_ARTS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]The Arts[ENDCOLOR] improves the cultural output of your empire allowing you to adopt more policies.[NEWLINE][NEWLINE]Adopting The Arts increases [ICON_CULTURE] Culture from Monuments and Temples by 2 each.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_THE_ARTS_TITLE">
+			<Text>Tiki-{1_PlayerName:textkey} of {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_THE_ARTS_CAP">
+			<Text>THE ARTS</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_THE_ARTS_TEXT">
+			<Text>Art is an abstract expression of personal sentiment - a physical work of the artist's imagination. Almost any mundane object can be elevated to the level of art by investing the artist's effort into it. For example, simple bark cloth would do for clothing, but creating Tapa makes that same bark cloth become art. Art is also a way to sanctify objects with Mana, bringing the artist closer to the immortal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_HONOR_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Honor[ENDCOLOR] improves the effectiveness of one's army in a variety of ways.[NEWLINE][NEWLINE]Adopting Honor gives +15 XP to all land combat units constructed from this point forward in the game.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_KAVA">
+			<Text>Kava</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_KAVA_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Kava[ENDCOLOR][NEWLINE]Immediately gain +10 [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_KAVA_DESC">
+			<Text>The drink made from the prepared roots of the Kava plant (Piper methysticum) is central to certain Polynesian rituals and social gatherings. The drink has a mild sedative effect and is noteworthy for the sense of relaxed well-being it instills in the drinker. Because of this, kava is often served at the opening of Polynesian meetings where one would want relaxed and happy participants. Exact details of the kava rituals vary from island to island within Polynesia. In recent years the active ingredient of kava has been studied for potential pharmacological benefits, and there is a considerable amount of informal, non-scientific studies of the kava buzz among people who go in for that sort of thing.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HULA">
+			<Text>Hula</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HULA_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Hula[ENDCOLOR][NEWLINE]Amount of [ICON_HAPPINESS_1] Happiness required to start a [ICON_GOLDEN_AGE] Golden Age reduced by 25%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HULA_DESC">
+			<Text>The hula is a type of traditional Hawaiian dance which is accompanied by chants and instrumentation. There are several kinds of related dance across greater Polynesia. Since contact with the West, the instruments and chanting used in the hula have integrated new elements, including polyphonic singing and the ukulele. Hula was performed for a variety of reasons, from highest ritual to simple socialization. The hula dancer's hand motions are used to represent elements in the song, from the undulation of the sea to waving trees, to emotions of the characters. After hula nearly devolved into cultural kitsch, a serious effort to revive the ancient styles of hula began in earnest in Hawaii.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_STONECARVING">
+			<Text>Stone Carving</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_STONECARVING_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Stone Carving[ENDCOLOR][NEWLINE]+1 [ICON_CULTURE] Culture from each Moai.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_STONECARVING_DESC">
+			<Text>Polynesian's carving rose to one of their highest decorative arts, and though carving styles varied from island to island, each island focused on the material they had readily at hand. On islands without large forests, stone carving usually featured prominently. In addition to human tiki figures, many Polynesian islands feature petroglyphs of various styles. The most famous example of Polynesian stone carving is the massive Moai of Rapa Nui (Easter Island). These 887 stone statues were carved from the volcanic rock of Rapa Nui with simple lithic tools and moved for miles by scores of workers to their ahu platforms, from whence they could gaze inland at Rapa Nui in an awesome display of mana.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TIKI">
+			<Text>Tiki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TIKI_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Tiki[ENDCOLOR][NEWLINE]50% of excess [ICON_HAPPINESS_1] Happiness added each turn to the amount of [ICON_CULTURE] Culture that may be spent on Social Policies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TIKI_DESC">
+			<Text>Tiki is a Polynesian carving of the human form, usually representing chiefs, heroes, gods, and other figures of legend.  Tiki can either be tall and slender or short and powerful, with each style said to represent some virtuous, mana-infused aspect of the subject. For example, a leering tiki with its tongue protruding is said to have visible power and strength, and a broad forehead is said to represent wisdom. After World War II, the broad diffusion of Polynesian culture diluted the meaning of the word, and "tiki" has since been applied as an adjective for fun to a variety of products, most of which an ancient Polynesian hero would find devoid of mana.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_RONGO">
+			<Text>Rongo-Rongo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_RONGO_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Rongo-Rongo[ENDCOLOR][NEWLINE]increases [ICON_RESEARCH] Science output from Libraries and Observatories by 50%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_RONGO_DESC">
+			<Text>Easter Island's enigmatic Moai are not that island's only mystery. The rongo-rongo are a collection of glyphed tablets dating from the 18th century, covered in a sort of proto-language which defies decoding. There are approximately two dozen legitimate rongo-rongo objects with consistent characters across them, but even the most advanced statistical methods have failed to unlock their meaning. The leading theory at this time is that the rongo-rongo were mnemonic devices for priests or chanters, as the word "rongo-rongo" derives from the Rapa Nui for "to recite, to chant." A maddening twist to the mystery of the rongo-rongo are countless reports that there were once many more of these objects, but as the secrets of the language were lost, the wood of the rongo-rongo tablets were used for canoes, fishing reels, and even firewood by the islanders!
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_ARIKI">
+			<Text>Ariki</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_ARIKI_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Ariki[ENDCOLOR][NEWLINE]Rate at which Great Generals are born increased by 100%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_ARIKI_DESC">
+			<Text>Ariki was the title given to members of chieftain or noble rank in Polynesian society. Various minor and noble chiefs called "mataiapo" or "rangatira" would serve under the ariki. The chief's power over his people was said to arise from his mana, which was enriched by his noble birth and great deeds. Today in the Cook Islands there is a parliamentary body called the House of Ariki, a dignified advisory body, some of whose members attempted a coup in the early 21st century (to no effect, perhaps a result of diminished mana).
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HAKA">
+			<Text>Haka</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HAKA_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Haka[ENDCOLOR][NEWLINE]Gain [ICON_CULTURE] Culture for the empire equal to TRIPLE the [ICON_STRENGTH] Combat Strength of each enemy unit killed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HAKA_DESC">
+			<Text>The Haka is a traditional dance of the Maori of New Zealand, with distinctive strong, energetic movement and rhythmic and shouted chants. Haka was performed both by war parties and as a peaceful (albeit somewhat intimidating) greeting to dignitaries, both by men and women (though the dances differ between groups and occasion). Facial contortions performed during the course of the Haka, such as rictus-like grins and tongue protrusion, are supposed to demonstrate the powerful welling of mana within the dancer.[NEWLINE][NEWLINE]The haka is most famous today as the field greeting of the New Zealand All Blacks rugby team, but many other organizations (including the New Zealand military forces) have a signature haka of their own.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_POI">
+			<Text>Poi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_POI_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Poi[ENDCOLOR][NEWLINE]+1 [ICON_MOVES] Movement for embarked units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_POI_DESC">
+			<Text>Poi is a staple Polynesian food, made from the mashed, cooked tubers of the taro plant. Poi's consistency can range from a thick liquid to a dough-like mash, depending on cooking method used. Poi's flavor has been variously described as "glue-like" and "refined and delicate" and "defying description". Fermented, sour poi can also be used to prepare other foods.[NEWLINE][NEWLINE]In Hawaiian culture, the taro plant plays a prominent part in the creation myth of people, and so when poi was brought to the table, it was believed that the ancestral spirit of the Hawaiians came to be with the family.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_MANA">
+			<Text>Mana</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_MANA_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Mana[ENDCOLOR][NEWLINE]Rate at which [ICON_GREAT_PEOPLE] Great People are born increased by 100%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_MANA_DESC">
+			<Text>Mana is central to Polynesian spirituality - the mystical force or essence that pervades all of creation. The word, though rendered slightly differently across Polynesia, keeps its importance and central meaning. Great deeds and actions are the result of mana, and bring mana to the person who accomplishes them. Mana imparts authority, prestige, and power on the possessor, and to lose mana is to lose power. Also it is very hard to cast any spells once you've run out of mana.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HEALING">
+			<Text>Kahuna Healing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HEALING_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Kahuna Healing[ENDCOLOR][NEWLINE]Melee combat units gain the Medic promotion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HEALING_DESC">
+			<Text>Kahuna is a Hawaiian word for Polynesian priests or shamanistic healers, and these healers aided their people through herbal medicines and "Ho'oponopono," a process of reconciliation with ancestors, spirits, gods, and people wronged by the supplicant. Kahuna healing's emphasis on mutual, constructive resolution and restoration of the individual may be lauded as contributing to the harmony of Polynesian culture, and Kahuna healing today is undergoing something of a renaissance among Hawaiians and throughout Polynesia in general.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_LUAU">
+			<Text>Luau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_LUAU_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Luau[ENDCOLOR][NEWLINE]+2 [ICON_HAPPINESS_1] Happiness from each different type of Luxury resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_LUAU_DESC">
+			<Text>After King Kamehameha II abolished certain religious tapu in 1819, the Hawaiian Islands gave birth to the luau, a lavish spread of delicacies and feasting in a merry atmosphere, often with accompanied dances and singing.  The luau proper was a delicacy of taro leaves and chicken, baked in coconut milk, but soon came to represent the entire celebratory feast. Luaus of the kings could reach incredible sizes, with the famous "Merry Monarch" Kalakaua inviting so many guests that they had to be fed in shifts of hundreds. Luau today is synonymous with "party" in Hawaiian culture, and indeed throughout many cultures in the world.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_SURFING">
+			<Text>Surfing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_SURFING_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Surfing[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness for each City in your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_SURFING_DESC">
+			<Text>First described to the west as part of the record of Cook's voyage in HMS Endeavor, Ancient Hawaiians had long practiced the art of he'enalu - gliding on waves. Access to the best surfing spots and beaches was restricted by class, though skilled surfers of lower classes could earn the right to surf these waters. Hawaiian longboards could be up to 5.5 meters long, and weigh over a hundred pounds, and required considerable skill and prowess to use.[NEWLINE][NEWLINE]Surfing experienced several "waves" of popularity from the early 20th century to present, as new audiences quickly discovered the righteousness of carving sick pipes for themselves.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_POWHIRI">
+			<Text>Powhiri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_POWHIRI_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Powhiri[ENDCOLOR][NEWLINE][ICON_GOLD] Gold gifts to City-States produce 25% more [ICON_INFLUENCE] Influence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_POWHIRI_DESC">
+			<Text>The Maori greeting ceremony for dignitaries is a complex ritual. Traditionally it begins with a ceremonial threat to the visitor (this part is rightfully regarded as the most exciting part of the Powhiri), during which the visitor's steadfastness is judged and the host's martial prowess is displayed, lest there be any confusion about how things might go. The visitor accepts the rautapu, a token offering by the Atua of Peace, the two sides exchange a hongi by pressing their noses to each other and sharing breath, and the ceremony is concluded.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TAPU">
+			<Text>Tapu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TAPU_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Tapu[ENDCOLOR][NEWLINE][ICON_CULTURE] Culture cost of future Policies reduced by 10%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TAPU_DESC">
+			<Text>Inextricably linked to the concept of mana, tapu is loosely translated as "holiness" or "sacredness", and may also imply prohibition, and thus is the source of the loan word "taboo." Things that are tapu are sacrosanct and may not be disturbed or will suffer desecration and a loss of their mana. Breaking tapu was a serious matter and severely punished in most Polynesian cultures.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TAPACLOTH">
+			<Text>Tapa Cloth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TAPACLOTH_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Tapa Cloth[ENDCOLOR][NEWLINE]+2 [ICON_CULTURE] Culture in every City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TAPACLOTH_DESC">
+			<Text>Tapa is a traditional decorative Polynesian cloth made from pounded bark. Tapa reached its height of artistry in Fiji, Tonga, and Samoa, but was made elsewhere in Polynesia. Tapa is traditionally painted with complex, graphical geometric shapes in contrasting colors. The preparation of tapa is an important social and ritual gathering for the island's women. Tapa was synonymous with wealth, and a gift of tapa from a chief was a princely gift. Today, tapa cloth is still used for formal occasions such as weddings, but cotton has largely replaced it as a more durable substitute.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_TONGA">
+			<Text>Tonga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_TONGA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_TONGA_TEXT_1">
+			<Text>Tonga is one of the larger cultural groupings within Polynesia, and has vied with the other regions for supremacy of the Pacific islands. Tonga reached its zenith as a regional power in the 14th century, during which time it achieved something of a regional hegemony of chiefs and navigators. The archipelago of the Kingdom of Tonga consists of 176 islands scattered over 700,000 square miles of the Pacific Ocean, northeast of New Zealand and southwest of the Hawaiian Islands.[NEWLINE][NEWLINE]It is difficult to date the arrival of humans to the Tongan archipelago. The oldest unambiguous site is found in the village of Pea on Tongatapu, and is approximately 3,000 years old. Ceramic evidence from the Lapita period has been found in Tonga, but that would have represented a considerable feat of navigation for that civilization.[NEWLINE][NEWLINE]First contact with the West was recorded by the Dutch in 1616, though the most famous meeting would have been during James Cook's survey of the Pacific. Cook named Tonga "the Friendly Islands" for the hospitality of the Tongans. Curiously enough, the Tongans appear to have been planning to kill Cook, though they could not agree on a plan to do so and Cook departed unmolested and apparently oblivious to his near-miss. European missionaries extensively Christianized the Tongans during the end of the 18th and early 19th century.[NEWLINE][NEWLINE]Tonga was plunged into a fifty-year civil war following the assassination of a major chief in 1799. But in 1845, the warrior Taufa'ahau claimed the title of prime chief, and had himself baptized King George Tupou I. He then proceeded to emancipate the lowest social caste, create a code of laws, and limited the power of the other chiefs, signing an alliance with the British under the Treaty of Friendship. Tonga never became a full British colony, retaining autonomy and enjoying the military protection of the British. [NEWLINE][NEWLINE]Tonga's position as a crossroads of the South Pacific made it a region of strategic importance during World War II. Tongan soldiers fought in the Solomon Islands, and the island of Tongatapu became a critical stop for supplies crossing from North America to New Zealand and Australia. Today Tonga is an independent, constitutional monarchy (the only Polynesian group never to have abandoned the monarch), embracing democratic reform and modernizing its government.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TIU_TONGA_EMPIRE">
+			<Text>City-State [ICON_INFLUENCE] Influence degrades at two-thirds the usual rate and recovers 50% faster than normal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TIU_TONGA_EMPIRE_SHORT">
+			<Text>Tiu Tonga Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_SAMOA">
+			<Text>Samoa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_SAMOA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_SAMOA_TEXT_1">
+			<Text>Samoa is at the heart of traditional Polynesia, and has always been one of the major Polynesian cultural groups. In the nearly 3500 years the islands have been settled, they have been a focus of regional and international power struggles, emerging as a vanguard nation of the post-Colonial period.[NEWLINE][NEWLINE]Like most Polynesian islands, Samoa is blessed with warm, mild weather and a brief storm season. The Samoan archipelago covers approximately 1,100 square miles of the South Pacific, and Polynesians consider it the center of their cultural universe.[NEWLINE][NEWLINE]Samoa was probably settled by the Lapitans around 1500BC. The first Samoans erected extensive earthen mounds and stone structures. Samoa may have acted as a crossroads for Polynesian nations as they traded with each other.[NEWLINE][NEWLINE]In 1898, Samoa was divided up between Germany and the United States as a result of the Tripartite Convention, in the aftermath of a Samoan Civil War that was exacerbated by colonial interventions.  Although German Samoa was granted its independence in 1962, American Samoa is still a protectorate of the United States.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_HEART_OF_POLYNESIA">
+			<Text>[ICON_HAPPINESS_4] Unhappiness from number of [ICON_CITIZEN] Citizens reduced by 25%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_HEART_OF_POLYNESIA_SHORT">
+			<Text>Heart of Polynesia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_TAHITI">
+			<Text>Tahiti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_TAHITI_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_TAHITI_TEXT_1">
+			<Text>Tahiti is the largest island in the Society Island archipelago, and today is the undisputed center of the former French Polynesia. Tahiti has long been regarded as one of the most friendly and open of the Polynesian cultures.[NEWLINE][NEWLINE]Tahiti consists of two islands, Tahiti Nui (Big Tahiti) and Tahiti Iti (Little Tahiti). The relative size of these two islands is thus easily inferred. Weather is warm and mild year-round, and Tahiti sits near the Eastern edge of Polynesia.[NEWLINE][NEWLINE]As it is one of the Easternmost islands of Polynesia, Tahiti was not settled until relatively late - somewhere between 300 and 800 AD by the Polynesians, long after the decline of the Lapitan civilization.[NEWLINE][NEWLINE]The first undisputed westerners to visit Tahiti were the English, in 1767. The English were immediately impressed with the relaxed, open, and generous nature of the islanders. Introduced diseases nearly wiped out the Tahitians, and missionaries discouraged the practice of most traditional culture, though they did document and preserve the native dialect. Charles Darwin visited Tahiti as part of his voyage on HMS Beagle. The French annexed Tahiti in 1847, but the Tahitians were not granted full French citizenship until 1946. French remains the official language of Tahiti today.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TUPAIAS_NAVIGATION">
+			<Text>All land and naval military units (including Scouts) have +1 sight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_TUPAIAS_NAVIGATION_SHORT">
+			<Text>Tupaia's Navigation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_HIVA">
+			<Text>Hiva</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_HIVA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_HIVA_TEXT_1">
+			<Text>In their native language, the Hiva are called "The Land of Men." The Marquesas Islands are part of French Polynesia, at the Eastern edge of Polynesia.[NEWLINE][NEWLINE]These rough volcanic islands are geologically young, made of the hard basaltic hearts of extinct volcanoes. The weather is mild throughout the year, with one wet season, and makes the author wish he were there right now.[NEWLINE][NEWLINE]The Marquesas were probably settled around 100 AD by the Polynesians, and linguistic and anthropological evidence points to the settlers coming from Tonga and Samoa.[NEWLINE][NEWLINE]Hiva has the dubious honor of having been claimed and annexed multiple times by Western powers. They were first discovered and claimed by the Spanish explorer Alvaro de Mendana de Neira in 1595 (he named the Marquesas Islands for his patron), then Hiva was variously claimed by the Americans (who named them the Washington Islands) and the French in 1870. Hiva suffered the greatest population loss to disease of any Polynesian island group.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_HIGH_ISLANDERS">
+			<Text>Receive free Settler when you discover Astronomy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_HIGH_ISLANDERS_SHORT">
+			<Text>Hotu Matua's Colonists</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_AHOEITU_NAME">
+			<Text>'Aho'eitu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_AHOEITU_SUBTITLE">
+			<Text>Tu'i Tonga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_AHOEITU_LIVED">
+			<Text>10th Century AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_AHOEITU_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_AHOEITU_TEXT_1">
+			<Text>'Aho'eitu was the oldest son of 'Ilaheva Va'epopua, daughter of Niu, and Tangaloa 'Eitumatupua, a god of the sky. 'Aho'eitu had four older half-brothers, who were jealous of him because he was so handsome. The brothers cut off 'Aho'eitu's head in secret and hid it under a poisonous hoi bush. Then they roasted and ate 'Aho'eitu.[NEWLINE][NEWLINE]Later Tangaloa 'Eitumatupua came down from the sky and asked the four brothers what had become of 'Aho'eitu. The brothers were ashamed and repented, and asked to have 'Aho'eitu restored. Tangaloa 'Eitumatupua had the brothers regurgitate into a large bowl, then covered the bowl with a mat. Through magic, 'Aho'eitu was restored to life.[NEWLINE][NEWLINE]The four brothers of 'Aho'eitu were punished by Tangaloa 'Eitumatupua. They and their descendents were made to serve 'Aho'eitu on the island of Tonga, and that is how 'Aho'eitu became the first Tu'i Tonga.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_MALIETOASAVEA_NAME">
+			<Text>Malietoa Savea</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_MALIETOASAVEA_SUBTITLE">
+			<Text>King of Samoa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_MALIETOASAVEA_LIVED">
+			<Text>Unknown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_MALIETOASAVEA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_MALIETOASAVEA_TEXT_1">
+			<Text>The Tu'i Tonga's empire included the Samoan islands, and Tu'i Tonga Talakaifaiki was among the most ruthless of those kings, an oppressive tyrant who took up residence in the Samoas.[NEWLINE][NEWLINE]Three brothers, Savea, Tuna, Fata, and their nephew Ulumasui resisted the rule of Talakaifaiki. Samoan lore says that the campaign began with civil disobedience, but grew into a military campaign. Talakaifaiki was captured in the end, but Savea and his brothers and nephew spared the tyrant and sent him back to Tonga in canoes. Upon his departure, Savea gave a great oratory in honor of the occasion, and he was given the honorific "Malietoa," meaning "great warrior," and he became the first king of the Samoans. The title of Malietoa has since passed from king to king on the island of Samoa.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_POMARE_NAME">
+			<Text>Pomare I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_POMARE_SUBTITLE">
+			<Text>King of Tahiti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_POMARE_LIVED">
+			<Text>1742 - 1803 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_POMARE_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_POMARE_TEXT_1">
+			<Text>The founder of the Pomare dynasty, Tu-nui-ea-i-te-atua-i-Tarahoi Vairaatoa Taina Pomare I was born at Pare around 1742 or 1743, second son of the chief Teu Tunuieaiteatua. As he ascended to become chief, he united three different chiefdoms on the island Tahiti into a single kingdom. He remained king of the islands of Tahiti, Mo'orea, Meheti'a, and Teti'aroa until his abdication in 1791, but he was regent of Tahiti until his death in 1803.[NEWLINE][NEWLINE]The Pomare dynasty achieved close ties to the English missionaries and traders of the Pacific, and remained in power until the French abolished the Tahitian monarchy in the 1880s. Pretenders of the Pomare still live today.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_HOTUMATUA_NAME">
+			<Text>Hotu Matua</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_HOTUMATUA_SUBTITLE">
+			<Text>Explorer from Hiva</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_HOTUMATUA_LIVED">
+			<Text>c. 300 - 800 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_HOTUMATUA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_HOTUMATUA_TEXT_1">
+			<Text>Hotu Matua was the ariki mau of Rapa Nui (Easter Island). He led his people from Hiva to sail east from their homeland in a huge catamaran canoe. The land they discovered, they named "Te Pito O Te Kainga", literally "A little piece of land" - a very apt name when considering the island and its geographic context.[NEWLINE][NEWLINE]The navigator Hau Maka had a dream in which his spirit found a new land for his chief, Hotu. Hau Maka saw three islands, a great volcanic crater, and twenty-eight places on the island which were destined to be significant for Hotu and his people. When Hotu heard of the dream he ordered Hau Maka to find the land, taking a great canoe and sailing east. There Hau Maka found the land he had dreamed of.[NEWLINE][NEWLINE]But when Hotu Matua and his people sailed to Te Pito O Te Kainga, a deadly enemy sailed in secret with them - a man named Oroi, an enemy of Hotu who had killed some of his family in Hiva. Oroi was not discovered, and when he arrived on the island, he killed the grandchildren of Hotu Matua and set a trap for Hotu Matua. Hotu Matua allowed himself to be caught in the trap, and as Oroi fell upon him with a bone dagger, Hotu Matua chanted a magic spell and slew Oroi. Then Hotu Matua and his children ate the corpse of Oroi.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_FIJI_TEXT">
+			<Text>Fiji was first stettled about 3,500 years ago by the Lapitans. Melanesians from Southeast Asia and Indonesia arrived later, sometime between 900 and 600 BC. Fiji's location near the heart of Polynesia made it a crossroads for trade and culture, and this is borne out in the archeological finds of the island, with stones from thousands of miles away being found on Fiji, as well as trade goods and worked tools that were rare throughout Polynesia. At the height of the Tu'i Tongan power, Fiji was well within their sphere of influence.[NEWLINE][NEWLINE]During the 19th century, Fiji was rife with inter-tribal civil wars and invasions from nearby Tonga. The Fijian chief Seru Epenisa Cakobau tried to consolidate himself as king, and used Christian missionaries (he was Christian himself) to try to extend his power. Cakobau ran into trouble by provoking the US consul, selling lands to Australian cotton farmers, and racking up a number of debts. Cakobau eventually ceded his territory to the British in 1874.[NEWLINE][NEWLINE]The first interim British governor passed a series of uniquely enlightened rules, including a "Fiji for the Fijians" policy which resulted in natives retaining control of most of the island land. Indentured laborers from India came with British Colonial rule (until many, including Mahatma Ghandi agitated for the policy to end), adding a new dimension to the culture of the island that persists in Fiji to today.[NEWLINE][NEWLINE]Fiji was granted independence in 1970. It then experienced an economic boom which came to a grinding halt in 1987, followed by almost complete stagnation, as well as two military and a civilian coup.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_VANUATU_TEXT">
+			<Text>As a Western Polynesian island, Vanuatu was among the earliest settled by the Lapita, probably around 4,000 years ago, though the population of the island became largely Melanesian. The first westerner to find Vanuatu was the Portuguese explorer Pedro Fernandes de Queiros, who claimed the land for Spain and named it "Espirtu Santo." De Bougainville visited the island in 1768, and Cook named the island the New Hebrides in 1774.[NEWLINE][NEWLINE]As with many Polynesian islands, contact with the west resulted in massive deaths due to new diseases, and a crush of immigrants looking to get rich off the island's Sandalwood trade exacerbated the problems. After sandalwood, speculative plantations for cotton, coffee, cocoa, and bananas were thrown up, until some degree of economic stability was achieved in coconuts.[NEWLINE][NEWLINE]Colonialism had a heavy hand in Vanuatu until World War II, when the Americans arrived. The affluent, highly informal Americans made a huge impression on the Vanuatans, as did the constant stream of airplanes and ships that supplied the soldiers and sailors. Soon Vanuatans were waiting for the messiah John Frum to arrive with his magical Cargo to deliver the island to liberty and prosperty. The "cargo cult" is alive and well in Vanuatu even today!
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_KIRIBATI_TEXT">
+			<Text>Human beings  have lived on the Kiribati islands for at least 700 years, and possibly much longer - the exact dating of arrival is difficult due to incomplete archeological records and oral history. Probably settled by the Lapitans, Kiribati's location near the middle of the Pacific also brought it into contact with Melanesians from Fiji and Polynesians from Samoa and Tonga.[NEWLINE][NEWLINE]Contact with the West occurred sometime in the 16th century, and trade with the West precipitated local tribal wars that quickly became an excuse for colonial powers to gain control of the land. The bulk of the Kirabati islands became possessions of the British.[NEWLINE][NEWLINE]The Japanese seized Kiribati during World War II, and proceeded to fortify the island. The Battle of Tarawa was one of the bloodiest battles between the US and the Japanese in the Pacific, as 4,500 Japanese soldiers converted that tiny atoll into a massive fortress, inflicting huge losses on the invading US Marines before being all but annihilated.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_NAURU_TEXT">
+			<Text>Also called "Pleasant Island" (an appellative that would fit a thousand other islands), Nauru is in the western Pacific, and is now the world's smallest island nation at just over 8 square miles. It was settled by Micronesians and Polynesians, seized by the colonial powers of the world, and occupied by the Japanese during World War II, though this island fortress was bypassed by the Americans in the Pacific campaign.[NEWLINE][NEWLINE]Nauru's most abundant natural resource was its immense deposits of phosphates. When Nauru regained control of their mineral rights in the 1960s, the mining operation was nationalized and for a brief, shining moment, Nauru's citizens enjoyed the highest per-capita income in the world. But the phosphate reserves ran out, the money was invested in a series of failed ventures, and Nauru suddenly found itself out of money and with a devastated ecosystem. Since then, The Nauruese have experimented with making the island a tax haven and prison for other nations, in an effort to revive their flagging economy.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_NENDO_TEXT">
+			<Text>Nendo, or the Santa Cruz islands in Western Polynesian island were first settled about 3,000 years ago. In 1595, the Spanish attempted and failed to establish a colony there. On October 26th, 1942 the Japanese and Americans fought the fourth carrier battle of World War II near Santa Cruz, resulting in a pyrrhic victory for the Japanese. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_GUADALCANAL_TEXT">
+			<Text>Guadalcanal, the largest island in the Solomon Island chain, is best known now as the site of a long, bloody, difficult campaign between the US and Japan during World War II. Although known to the West since 1568, the island was of critical strategic importance during World War II, as the Japanese were prepared to use it as a base to threaten Allied shipping to and from Australia.[NEWLINE][NEWLINE]The Japanese began constructing a massive airfield on Lunga Point on Guadalcanal shortly after their defeat at Midway. Guadalcanal was to be part of an outer ring of defenses to consolidate the gains made during the earlier expansion. To counter this, the Allies launched an immense combined-arms operation to take the airfield and island, and then to hold their own gains after Japanese reinforcements began to stream into the theater.[NEWLINE][NEWLINE]Although the name of Guadalcanal is losing its prominence in history, there are many great stories and events of that campaign: The US Marine's tenacious defense of Lunga Field against superior odds, the Tokyo Express pouring down the slot, future US President John F. Kennedy's ill-fated PT-109 - all these are part of the story of Guadalcanal, and the interested student of history is eagerly encouraged to learn more about them!
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_POHNPEI_TEXT">
+			<Text>The largest of the Caroline Islands and one of the four states of Micronesia was unknown to Europeans until 1828, when it was discovered by Russian sailors. Pohnpei boasts the ruined stone city of Nan Madol, capital of the Saudeleur dynasty. This remarkable city was made of small artificial islands connected by a network of canals. The Saudeleurs ruled for nearly a thousand years, until they were conqured by a chief from another island.[NEWLINE][NEWLINE]Pohnpei was claimed by the Spanish and ceded in turn to the German Empire. During World War II, the island was occupied and fortified by the Japanese, but no battle was fought there as the US Navy passed it by on the way to invade Japan.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_MAJURO_TEXT">
+			<Text>Majuro is the largest island and the capital of the Marshall Islands. The main atoll has been occupied for at least 2 millenia. Majuro was a possession of the German Empire until it was captured by Japan in 1914. However, most colonial rulers largely left the islanders to fend for themselves.[NEWLINE][NEWLINE]On January 30th, 1944, the United States invaded Majuro in a huge naval invasion, only to find that the Japanese had evacuated the island and withdrawn to nearby Kwajalein and Enewetak.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_GREETING_POLITE_HELLO_1">
+			<Text>Hello again, dear friend. Samoa welcomes you with open arms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_GREETING_NEUTRAL_HELLO_1">
+			<Text>Samoa is always pleased to accept your visit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_GREETING_HOSTILE_HELLO_1">
+			<Text>While I do not enjoy speaking with you, my hope is that doing so will lead to a brighter future for Samoa.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_RESPONSE_REQUEST_1">
+			<Text>My dear friend, could you spare something for Samoa?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_OPEN_BORDERS_EXCHANGE_1">
+			<Text>Samoa hopes that our friendship might be further solidified by removing the artificial obstacles which divide us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_ATTACKED_1">
+			<Text>So be it. The Samoan people will not resist your attack. Except perhaps for the ones with all of the weapons.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_DECLAREWAR_2">
+			<Text>I am sending a contingent of Samoan warriors on a goodwill tour of your major cities. I trust that they will be received with open arms.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_DEFEATED_1">
+			<Text>You may have vanquished our armies, but you will never vanquish the Samoan spirit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_DEMANDTRIBUTE_ANGRY">
+			<Text>Samoa heartily thanks you for the following donation in the interests of world peace and tranquility.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_DEMANDTRIBUTE_NEUTRAL">
+			<Text>Samoa is poor; you are rich. Perhaps your considerable karmic burden could be eased by giving this to us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_FIRSTGREETING_1">
+			<Text>In the name of the peaceful Samoan people, I greet you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_FIRSTGREETING_3">
+			<Text>In the name of the Samoan people, I offer you my hand in friendship!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_TRADE_NEEDMORE_NEUTRAL_1">
+			<Text>This is not fair to the people of our island. Kindly improve your offer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_TRADE_NO_NEUTRAL">
+			<Text>Such an agreement would not be in the best interest of the Samoan people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_TRIBUTE_NO_NEUTRAL">
+			<Text>While I firmly believe in non-violence, the Samoan people are not yet so enlightened. They laugh heartily at your demands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_KAMEHAMEHA_FIRSTGREETING_1">
+			<Text>Ah, a fellow Wayfarer! Welcome to the grand isles of Polynesia!  I, The intrepid explorer Hotu Matua, invite you to share my feast and fire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_KAMEHAMEHA_FIRSTGREETING_2">
+			<Text>Welcome, stranger! I am Hotu Matua, leader of Hiva.  Come, we shall hold a grand hula to celebrate our meeting.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_KAMEHAMEHA_FIRSTGREETING_3">
+			<Text>Greetings and blessings upon you, friend.  I am Hotu Matua, King of Hiva.  Let us share our resources and work together in harmony!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_HIAWATHA_FIRSTGREETING_1">
+			<Text>Greetings, Stranger. I am Pomare, King of Tahiti.  We seek peace with all but we do not shrink from war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_HIAWATHA_FIRSTGREETING_2">
+			<Text>I am Pomare I, leader of the people of Tahiti. I bid you welcome, and I hope that our two great people shall be friends.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_HIAWATHA_FIRSTGREETING_3">
+			<Text>Greetings, Stranger to Tahiti. I am Pomare, but you can call me Tu-nui-ea-i-te-atua-i-Tarahoi Vairaatoa Taina Pomare I for short.  We seek peace with all but we do not shrink from war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_MONTEZUMA_FIRSTGREETING_3">
+			<Text>I am 'Aho'eitu, Ruler of the Tiu Tonga Empire! What manner of creature are you?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TP_CULTURE_CITY_COST">
+			<Text>Each city you own does not affect Social Policy costs. So feel free to expand to as many cities as desired.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_FOUND_HAWAII">
+			<Text>Congratulations, your explorers have discovered the Hawaiian Islands!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_FOUND_EASTER_ISLAND">
+			<Text>Congratulations, your explorers have discovered Rapa Nui (also known as Easter Island)!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_FOUND_NEW_ZEALAND">
+			<Text>Congratulations, your explorers have discovered New Zealand, the Land of the Long White Cloud!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_ENCOUNTER_CAPTAIN_COOK">
+			<Text>Your island paradise has been discovered by Captain James Cook on the HMS Endeavour. This traveler comes in peace on a voyage of scientific research for the British Empire. However his arrival spells the start of a new era for Polynesia. Gunpowder-based weapons will soon be available using the technologies of these strangers from afar. Use these new secrets wisely!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CAPTAIN_COOK">
+			<Text>Captain Cook</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICIES_TO_VICTORY">
+			<Text>Policies until Victory (You): {1_YourPoliciesRemaining}[NEWLINE]Policies until Victory ({2_LeaderName}): {3_LeaderPoliciesRemaining}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_DIPLO_RESCH_AGREEMENT_NO_TECH">
+			<Text>[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_DIPLO_DEF_PACT_NO_TECH">
+			<Text>[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_DIPLO_NEED_WRITING_TT">
+			<Text>[NEWLINE]</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

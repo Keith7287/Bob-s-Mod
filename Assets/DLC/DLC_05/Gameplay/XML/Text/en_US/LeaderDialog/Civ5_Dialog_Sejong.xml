@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+
+<GameData>
+	<Language_en_US>
+
+    <!--General phrases -->
+    <!--Greeting (first time meeting) -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_FIRSTGREETING_1">
+      <Text>Welcome to the Joseon Court, friend.  I have done much to help my people - can you say the same?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_FIRSTGREETING_2">
+      <Text>Greetings - I am Sejong of Korea.  Have you come seeking wisdom and enlightenment, enjoyed by many in my presence?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_FIRSTGREETING_3">
+      <Text>Welcome to the fair court of Korea, honored stranger.  I am Sejong, enlightened leader of these, my mighty people.</Text>
+    </Row>
+    <!--Reacts to his bluff being called -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_WARBLUFF_1">
+      <Text>This distasteful behavior is what I expect from Yangpyeong, not you.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_WARBLUFF_2">
+      <Text>It seems more goes on behind that vapid stare than I thought.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_WARBLUFF_3">
+      <Text>What a profound waste of time.</Text>
+    </Row>
+    <!--Gloats after winning a war -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_WINWAR_1">
+      <Text>Superior technology, planning, and wisdom triumphs yet again.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_WINWAR_2">
+      <Text>You cannot best the Hall of Worthies – my country’s best minds act in concert against you.</Text>
+    </Row>
+    <!--Submissive after losing a war -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_LOSEWAR_1">
+      <Text>A minor miscalculation.  It will not happen again.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_LOSEWAR_2">
+      <Text>How have you done this?  What manner of tactics do you employ?</Text>
+    </Row>
+    <!--Defeated and removed from game -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_DEFEATED_1">
+      <Text>Where to shall my people look for guidance now?  A time of darkness is yet upon us.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_DEFEATED_2">
+      <Text>My unwavering search for science has blinded me to the true threat to my nation, until it was much too late.  Leave me to my darkness.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_DEFEATED_3">
+      <Text>No, I had so much yet to do…so much yet to discover.  You have robbed the world of brilliance in your quest of greed.</Text>
+    </Row>
+    
+    <!--Neutral -->
+    <!--Greetings (subsequent meetings) -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_GREETING_1">
+      <Text>A pleasant day to you.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_GREETING_2">
+      <Text>Greetings.</Text>
+    </Row>
+    <!--Goodbye -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_GOODBYE_1">
+      <Text>Until we meet again.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_GOODBYE_2">
+      <Text>Goodbye.</Text>
+    </Row>
+    <!--Trade offer from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADE_YES_NEUTRAL">
+      <Text>Very well.</Text>
+    </Row>
+    <!--Trade offer from player - sweeten the deal -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>While you do much to peak my interest, you’ll need to first yet perfect your asking.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Can you do a little better?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>That's not quite good enough.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Almost...</Text>
+    </Row>
+    <!--Trade offer from player - no -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADE_NO_NEUTRAL">
+      <Text>I am not interested.</Text>
+    </Row>
+    <!--Demand for tribute from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRIBUTE_YES_NEUTRAL">
+      <Text>Greed does not become you, leading often to sadness. I hope this is for a more noble cause.</Text>
+    </Row> 
+    <!--Demand for tribute from player - no -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRIBUTE_NO_NEUTRAL">
+      <Text>You presume too much above your station.</Text>
+    </Row>
+    <!--Requests a trade -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADEREQUEST_NEUTRAL">
+      <Text>What better way to work towards friendship than by the sharing of material wealth?</Text>
+    </Row>
+    <!--Demands tribute -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_DEMANDTRIBUTE_NEUTRAL">
+      <Text>A gift bearing the weight of your station is required to enjoy the benefits of this court.</Text>
+    </Row>  
+    <!--Agrees -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_AGREE_SHORT_1">
+      <Text>All right.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_AGREE_SHORT_2">
+      <Text>Very Well.</Text>
+    </Row>
+    <!--Disagrees -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_DISAGREE_SHORT_1">
+      <Text>I must refuse.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_DISAGREE_SHORT_2">
+      <Text>No.</Text>
+    </Row>
+    <!--Let's hear it -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_LETSHEARIT_1">
+      <Text>Go on.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_LETSHEARIT_2">
+      <Text>Go ahead.</Text>
+    </Row>
+    
+    <!--Happy -->
+    <!--Greetings (subsequent meetings) -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_GREETING_3">
+      <Text>Greetings, friend.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_GREETING_4">
+      <Text>Welcome.</Text>
+    </Row>
+    <!--Goodbye -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_GOODBYE_3">
+      <Text>Farewell.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_GOODBYE_4">
+      <Text>Goodbye.</Text>
+    </Row>
+    <!--Trade offer from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADE_YES_HAPPY">
+      <Text>Happily agreed</Text>
+    </Row>
+    <!--Trade offer from player - sweeten the deal -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADE_NEEDMORE_HAPPY_1">
+      <Text>I would love to accept your offer as it stands, but I know the Hall wouldn’t approve of my logic.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADE_NEEDMORE_HAPPY_2">
+      <Text>Is that the best you can do?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADE_NEEDMORE_HAPPY_3">
+      <Text>You're almost there...</Text>
+    </Row>
+    <!--Trade offer from player - no -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADE_NO_HAPPY">
+      <Text>Thank you, but no.</Text>
+    </Row>
+    <!--Demand for tribute from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRIBUTE_YES_HAPPY">
+      <Text>You had but to ask! A wise man shares his bounty amongst his friends, so that all may prosper.</Text>
+    </Row>
+    <!--Demand for tribute from player - no -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRIBUTE_NO_HAPPY">
+      <Text>Words alone cannot express my sorrow for having to disappoint you.</Text>
+    </Row>
+    <!--Requests a trade -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADEREQUEST_HAPPY">
+      <Text>My friend, we have much to discuss and much to gain from each other.</Text>
+    </Row>
+    <!--Demands tribute -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_DEMANDTRIBUTE_HAPPY">
+      <Text>The Worthies kindly request the aid of your generosity in this, our time of need.</Text>
+    </Row>
+    <!--Agrees -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_AGREE_SHORT_3">
+      <Text>Certainly.</Text>
+    </Row> 
+    <!--Disagrees -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_DISAGREE_SHORT_3">
+      <Text>Certainly not.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_DISAGREE_SHORT_4">
+      <Text>We decline.</Text>
+    </Row> 
+    <!--Let's hear it -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_LETSHEARIT_3">
+      <Text>Proceed.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_LETSHEARIT_4">
+      <Text>I'm listening.</Text>
+    </Row>
+    
+    <!--Angry -->
+    <!--Greetings (subsequent meetings) -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_GREETING_5">
+      <Text>Well?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_GREETING_6">
+      <Text>What do you want?</Text>
+    </Row>
+    <!--Goodbye -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_GOODBYE_5">
+      <Text>That is all.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_GOODBYE_6">
+      <Text>Go away now.</Text>
+    </Row>
+    <!--Trade offer from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADE_YES_ANGRY">
+      <Text>Agreed.</Text>
+    </Row> 
+    <!--Trade offer from player - sweeten the deal -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Trained though you may be in the arts of negotiation, this insulting offer cannot stand as it is.  Improve it immediately.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADE_NEEDMORE_ANGRY_2">
+      <Text>That's not good enough.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADE_NEEDMORE_ANGRY_3">
+      <Text>You must do better than that.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADE_NEEDMORE_ANGRY_4">
+      <Text>Almost...</Text>
+    </Row>
+    <!--Trade offer from player - no -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADE_NO_ANGRY">
+      <Text>Even an uneducated street urchin would know he was being cheated by this debasing offer. Be gone!</Text>
+    </Row>  
+    <!--Demand for tribute from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRIBUTE_YES_ANGRY">
+      <Text>While this brings much shame upon me, I do what I must for my nation.</Text>
+    </Row>
+    <!--Demand for tribute from player - no -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRIBUTE_NO_ANGRY">
+      <Text>What kind of delusions do you suffer under, to think that such a ploy would work?</Text>
+    </Row>
+    <!--Requests a trade -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_TRADEREQUEST_ANGRY">
+      <Text>Although the sight of your face fills me with disgust, I shall momentarily persevere for the good of my people.</Text>
+    </Row>
+    <!--Demands tribute -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_DEMANDTRIBUTE_ANGRY">
+      <Text>You will pay for your multiple crimes and indiscretions, starting now with this.</Text>
+    </Row>
+    <!--Agrees -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_AGREE_SHORT_4">
+      <Text>Oh, very well.</Text>
+    </Row>
+    <!--Disagrees -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_DISAGREE_SHORT_5">
+      <Text>Of course not.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_DISAGREE_SHORT_6">
+      <Text>That's unacceptable.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_DISAGREE_SHORT_7">
+      <Text>You cannot be serious!</Text>
+    </Row>
+    <!--Let's hear it -->
+    <Row Tag="TXT_KEY_LEADER_SEJONG_LETSHEARIT_5">
+      <Text>And?</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_LEADER_SEJONG_DECLAREWAR_1">
+      <Text>The Hall grows weary of your tiresome antics.  We shall forcefully liberate your downtrodden, and lead them to enlightenment.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_DECLAREWAR_2">
+      <Text>Time waits for no man, and I feel its changeless march growing ever more urgent.  You stand in our way, and I have not the resources left for more diplomatic means.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_DECLAREWAR_3">
+      <Text>I’ve experiments to run, research to be done, and here you stand like an aging wall to block my path.  I shall remove you.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_LEADER_SEJONG_ATTACKED_1">
+      <Text>What cursed treachery is this?  Have you no honor, no shame?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_ATTACKED_2">
+      <Text>You sad little person.  Soon you shall feel the full weight of our mighty science bearing down upon you.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_SEJONG_ATTACKED_3">
+      <Text>Excellent, excellent!  I have been looking for a reason to try out my newly outfitted army, and you have provided me with just the occasion.</Text>
+    </Row>
+
+
+  </Language_en_US>
+</GameData>

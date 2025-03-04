@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Scott Lewis (Firaxis Games) -->
+<!-- Sid Meier's Civilization V -->
+<!-- Copyright Firaxis Games 2010 -->
+<!-- -->
+<!-- Game Text Infos -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_ADVISOR_FIRST_TURN_BUILD_CITY_BODY">
+			<Text>This is a good place to found a city. Food and resources are plentiful here. To found the city, press your Settler's [COLOR_ADVISOR_HIGHLIGHT_TEXT]Found City[/COLOR] button in the unit's action panel on the left side of the screen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_FIRST_TURN_BUILD_CITY_DISPLAY">
+			<Text>Found a City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_FIRST_TURN_BUILD_CITY_ACTIVATE_BUTTON">
+			<Text>Find Settler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_LATER_TURNS_BUILD_CITY_BODY">
+			<Text>You need to found a city - and soon! Click your Settler's [COLOR_ADVISOR_HIGHLIGHT_TEXT]Found City[/COLOR] button as soon as possible.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_LATER_TURNS_BUILD_CITY_DISPLAY">
+			<Text>Found a City!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_LATER_TURNS_BUILD_CITY_ACTIVATE_BUTTON">
+			<Text>Find Settler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_FIRST_TURN_UNIT_MOVE_BODY">
+			<Text>Consider sending your Warrior out to [COLOR_ADVISOR_HIGHLIGHT_TEXT]explore new territory[/COLOR]. When a unit is selected, right-click on a tile to have that unit move there.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_FIRST_TURN_UNIT_MOVE_DISPLAY">
+			<Text>Explore the World</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_FIRST_TURN_UNIT_MOVE_ACTIVATE_BUTTON">
+			<Text>Find Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_LATER_TURN_UNIT_MOVE_BODY">
+			<Text>You have a unit that hasn't moved for a while. Perhaps you should send it out to [COLOR_ADVISOR_HIGHLIGHT_TEXT]explore the world[/COLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_LATER_TURN_UNIT_MOVE_DISPLAY">
+			<Text>Explore the World!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_LATER_TURN_UNIT_MOVE_ACTIVATE_BUTTON">
+			<Text>Find Idle Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_GO_TO_GOODY_HUT_BODY">
+			<Text>Ancient Ruins hold secrets that may advance our civilization! [COLOR_ADVISOR_HIGHLIGHT_TEXT]Send a unit into an Ancient Ruin[/COLOR] to see what it holds. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_GO_TO_GOODY_HUT_DISPLAY">
+			<Text>Ancient Ruins!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_GO_TO_GOODY_HUT_ACTIVATE_BUTTON">
+			<Text>Find Ruin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_COMBAT_INTRO_BODY">
+			<Text>One of your military units is near an enemy unit. To attack, order a combat unit to move into a tile occupied by the enemy.  In combat, both the attacking and defending units may take damage, and one might be destroyed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_COMBAT_INTRO_DISPLAY">
+			<Text>Melee Combat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_COMBAT_INTRO_ACTIVATE_BUTTON">
+			<Text>Find Combat Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_LOST_ALL_MILITARY_BODY">
+			<Text>We have no military units defending our territory. It's useful to have one or more military units in our territory to fend off roving barbarians and to discourage other civilizations from attempting sneak attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_LOST_ALL_MILITARY_DISPLAY">
+			<Text>Need Military to Defend!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_WORKERS_TRAIN_BODY">
+			<Text>The land near your city could be made more productive. [COLOR_ADVISOR_HIGHLIGHT_TEXT]Build a Worker[/COLOR] to improve your territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_WORKERS_TRAIN_DISPLAY">
+			<Text>Build a Worker!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_WORKERS_INTRO_BODY">
+			<Text>Now that we have a Worker, we can order them to construct Improvements to boost the productivity of our territory. [COLOR_ADVISOR_HIGHLIGHT_TEXT]Move your Worker to a highlighted tile and construct an improvement.[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_WORKERS_INTRO_DISPLAY">
+			<Text>Workers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_WORKERS_INTRO_ACTIVATE_BUTTON">
+			<Text>Find Worker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_WORKERS_PROTECT_BODY">
+			<Text>Workers are defenseless, so use extreme caution when moving them outside our borders. Since we only have one city at the moment, we should [COLOR_ADVISOR_HIGHLIGHT_TEXT]keep our Workers within our territory[/COLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_WORKERS_PROTECT_DISPLAY">
+			<Text>Keep Your Workers Safe!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_WORKERS_PROTECT_ACTIVATE_BUTTON">
+			<Text>Find Worker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_WORKERS_NEED_WORK_BODY">
+			<Text>We have a Worker, but have not improved any tiles yet. [COLOR_ADVISOR_HIGHLIGHT_TEXT]Order your Worker to construct an improvement[/COLOR] on a tile near one of your cities to gain an economic benefit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_WORKERS_NEED_WORK_DISPLAY">
+			<Text>Worker Needs Work</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_WORKERS_NEED_WORK_ACTIVATE_BUTTON">
+			<Text>Find Worker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_WORKERS_STOP_TRAINING_BODY">
+			<Text>I think we have enough Workers for the moment. You may want to build something else in your city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_WORKERS_STOP_TRAINING_DISPLAY">
+			<Text>Stop Making Workers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_UNIT_HEAL_BODY">
+			<Text>We have a unit that is on the verge of being destroyed. Wounded units are much less effective in combat and are easily killed, so consider moving it to a safe location and ordering it to [COLOR_ADVISOR_HIGHLIGHT_TEXT]Fortify Until Healed[/COLOR]. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_UNIT_HEAL_DISPLAY">
+			<Text>Heal Your Unit!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_UNIT_HEAL_ACTIVATE_BUTTON">
+			<Text>Find Damaged Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_BUILD_MORE_MILITARY_BODY">
+			<Text>It is a dangerous world and we are vulnerable to attack. I suggest that you [COLOR_ADVISOR_HIGHLIGHT_TEXT]build additional military units[/COLOR] to explore and to defend our civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_BUILD_MORE_MILITARY_DISPLAY">
+			<Text>Need More Military</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_HAPPINESS_RESOURCE_BODY">
+			<Text>Your people are no longer happy. An [ICON_HAPPINESS_4]unhappy populace will not grow as fast as a content one. If you wish to make your citizens happier, [COLOR_ADVISOR_HIGHLIGHT_TEXT]order your Workers to build Improvements on resources[/COLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_HAPPINESS_RESOURCE_DISPLAY">
+			<Text>Your People are not Happy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_HAPPINESS_RESOURCE_ACTIVATE_BUTTON">
+			<Text>Find Resource</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_VERY_UNHAPPY_BODY">
+			<Text>Your people are very [ICON_HAPPINESS_4]unhappy. Our cities have drastically reduced [ICON_PRODUCTION]production and our units will not fight as well. Make your people happier by building happiness buildings, constructing improvements on resources, and trading for resources with other leaders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_VERY_UNHAPPY_DISPLAY">
+			<Text>Your People are Livid!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_BUILD_NEW_CITY_BODY">
+			<Text>Our capital has grown into a bustling city! It may be time to [COLOR_ADVISOR_HIGHLIGHT_TEXT]build a Settler[/COLOR] to found another city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_BUILD_NEW_CITY_DISPLAY">
+			<Text>New City?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_STATES_INTRO_BODY">
+			<Text>You have discovered a city-state! City-states are small countries that are not competing to win the game. You may interact with them diplomatically, or you may go to war with them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_STATES_INTRO_DISPLAY">
+			<Text>City-States</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_STATES_INTRO_ACTIVATE_BUTTON">
+			<Text>Find City-State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_STATES_QUEST_BODY">
+			<Text>A city-state has requested your assistance! If you provide help, you will gain Influence with the city-state. Once your Influence reaches a high enough level, the city-state will provide your civilization with various benefits. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_STATES_QUEST_DISPLAY">
+			<Text>A City-State Needs Help!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_STATES_QUEST_ACTIVATE_BUTTON">
+			<Text>Find City-State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SETTLER_INTRO_BODY">
+			<Text>You can found a new city with your Settler. In order to grow, a city requires a number of quality [ICON_FOOD] food tiles nearby, so found your city next to [ICON_FOOD] food resources. [COLOR_ADVISOR_HIGHLIGHT_TEXT]Move your Settler to a fertile location and found a new city.[/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SETTLER_INTRO_DISPLAY">
+			<Text>Where to Found a City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SETTLER_INTRO_ACTIVATE_BUTTON">
+			<Text>Find Settler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SETTLER_PROTECT_BODY">
+			<Text>Your Settler is alone outside your borders and could be captured. [COLOR_ADVISOR_HIGHLIGHT_TEXT]Order a military unit to escort your Settler[/COLOR] to protect them from barbarians and opportunistic enemy civilizations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SETTLER_PROTECT_DISPLAY">
+			<Text>Guard your Settler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SETTLER_PROTECT_ACTIVATE_BUTTON">
+			<Text>Find Settler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_UNDER_ATTACK_BODY">
+			<Text>Cities, like military units, defend against attackers. A city can only be captured when its strength is reduced to zero. Use military units to defeat the besiegers before our city falls!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_UNDER_ATTACK_DISPLAY">
+			<Text>Besieged!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_UNDER_ATTACK_ACTIVATE_BUTTON">
+			<Text>Find City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_FIRST_CONSTRUCTION_BODY">
+			<Text>Our capital city has finished building a unit. Cities can build units, buildings, and wonders of the world, but only one at a time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_FIRST_CONSTRUCTION_DISPLAY">
+			<Text>City Construction Complete</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ONE_UNIT_PER_TILE_BODY">
+			<Text>Only one military unit can occupy a tile at a time. During its turn a military unit can pass through other military units, but may not end its turn in an occupied space.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ONE_UNIT_PER_TILE_DISPLAY">
+			<Text>One Unit Per Tile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MILITARY_UPKEEP_BODY">
+			<Text>We have so many military units it is slowing our cities' [ICON_PRODUCTION]production. [COLOR_ADVISOR_HIGHLIGHT_TEXT]Stop building new military units[/COLOR] until our infrastructure can handle more.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MILITARY_UPKEEP_DISPLAY">
+			<Text>Military Upkeep</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_RANGED_UNIT_BODY">
+			<Text>You now have a ranged unit. Ranged units may attack enemies more than one tile away, but they are easily destroyed when attacked by melee units. Keep them safe behind your front line and they will serve you well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_RANGED_UNIT_DISPLAY">
+			<Text>Ranged Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_RANGED_UNIT_ACTIVATE_BUTTON">
+			<Text>Find Ranged Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_UPGRADING_UNITS_BODY">
+			<Text>You can upgrade obsolete units, turning them into more powerful units by spending [ICON_GOLD]gold. To upgrade a unit, move it into your territory and the upgrade unit button will appear. [COLOR_ADVISOR_HIGHLIGHT_TEXT]Press the upgrade button[/COLOR] to improve your obsolete unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_UPGRADING_UNITS_DISPLAY">
+			<Text>Upgrading Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_UPGRADING_UNITS_ACTIVATE_BUTTON">
+			<Text>Find Upgradable Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_EMBARKING_UNITS_BODY">
+			<Text>Thanks to your research, all of your future military units will possess the "Embark" promotion and can move across the water. To embark a land unit, simply order it to move into a water tile. Embarked units are defenseless, so consider escorting them with military vessels. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_EMBARKING_UNITS_DISPLAY">
+			<Text>Embarking Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_EMBARKING_UNITS_ACTIVATE_BUTTON">
+			<Text>Find Embarkable Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ATTACKING_FORTIFIED_UNITS_BODY">
+			<Text>The enemy unit you are near is fortified. This means that it has a special defensive bonus (indicated by a shield flag). Fortified units are extremely difficult to defeat one-on-one, so consider attacking with multiple units in the same turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ATTACKING_FORTIFIED_UNITS_DISPLAY">
+			<Text>Fortified Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ATTACKING_FORTIFIED_UNITS_ACTIVATE_BUTTON">
+			<Text>Find Combat Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ATTACKING_CITY_BODY">
+			<Text>Cities can be tough to capture. Not only are their defenses strong, but they fight back, damaging or destroying your attacking units. Attack with multiple strong units on the same turn to capture enemy cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ATTACKING_CITY_DISPLAY">
+			<Text>Besieging Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ATTACKING_CITY_ACTIVATE_BUTTON">
+			<Text>Find Combat Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_LOTS_OF_MONEY_BODY">
+			<Text>Our treasury has grown and we have money to spend. You can use money to purchase tiles to expand your territory, purchase influence over City-States, upgrade your units, or bribe other civilizations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_LOTS_OF_MONEY_DISPLAY">
+			<Text>Spend Some Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_BOMBARD_BODY">
+			<Text>Cities can bombard nearby enemies and damage or kill them. [COLOR_ADVISOR_HIGHLIGHT_TEXT]Order your city to bombard the enemy troops![/COLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_BOMBARD_DISPLAY">
+			<Text>City Bombard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_BOMBARD_ACTIVATE_BUTTON">
+			<Text>Find City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_RIGHT_CLICK_MOVE_BODY">
+			<Text>You can use the right mouse button to direct your units' movement. With a unit selected, right click on a tile and the unit will move to that tile. If you hold down the right mouse button, you'll see which tiles the unit can move to in a single turn. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_RIGHT_CLICK_MOVE_DISPLAY">
+			<Text>Right-Click Move</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_SCREEN_BODY">
+			<Text>This is the city screen. It allows you to change what this city is building. On this screen you can also spend [ICON_GOLD]gold to purchase tiles around the city to expand your territory, and you can tell the city's citizens which tiles to work. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_SCREEN_DISPLAY">
+			<Text>City Screen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MOVEMENT_FOREST_BODY">
+			<Text>Forests slow down unit movement. Moving into a tile with a forest will often consume all of a unit's movement points. Forests block the view of objects behind them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MOVEMENT_FOREST_DISPLAY">
+			<Text>Movement: Forests</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MOVEMENT_FOREST_ACTIVATE_BUTTON">
+			<Text>Find Forest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MOVEMENT_HILLS_BODY">
+			<Text>Hills slow down unit movement, but provide a sight advantage by allowing the unit to see over trees and other hills. Moving into a tile with a hill will often consume all of a unit's movement points. Hills block the view of objects behind them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MOVEMENT_HILLS_DISPLAY">
+			<Text>Movement: Hills</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MOVEMENT_HILLS_ACTIVATE_BUTTON">
+			<Text>Find Hill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MOVEMENT_MARSH_BODY">
+			<Text>Marshes slow down unit movement. Moving into a tile with a marsh will often consume all of a unit's movement points. Units have a difficult time defending when they are in a marsh, so be careful!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MOVEMENT_MARSH_DISPLAY">
+			<Text>Movement: Marshes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MOVEMENT_MARSH_ACTIVATE_BUTTON">
+			<Text>Find Marsh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MOVEMENT_MOUNTAIN_BODY">
+			<Text>Land units cannot move through mountains; you must move around them. Mountains can be seen from quite a distance away.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MOVEMENT_MOUNTAIN_DISPLAY">
+			<Text>Movement: Mountains</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MOVEMENT_MOUNTAIN_ACTIVATE_BUTTON">
+			<Text>Find Mountain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MOVEMENT_JUNGLE_BODY">
+			<Text>Jungles slow down unit movement. Moving into a tile with a jungle will often consume all of a unit's movement points. Jungles block the view of objects behind them. Jungles are often quite hot and humid, but that doesn't matter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MOVEMENT_JUNGLE_DISPLAY">
+			<Text>Movement: Jungles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MOVEMENT_JUNGLE_ACTIVATE_BUTTON">
+			<Text>Find Jungle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MOVEMENT_RIVER_BODY">
+			<Text>Moving across rivers slows down unit movement. Moving across a river will often consume all of a unit's movement points. It is extremely difficult for units to fight well when attacking across a river, so position your units carefully.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MOVEMENT_RIVER_DISPLAY">
+			<Text>Movement: Crossing Rivers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MOVEMENT_RIVER_ACTIVATE_BUTTON">
+			<Text>Find River</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_COMBAT_NAVAL_UNIT_BODY">
+			<Text>Having a strong Navy is the only way to defend and explore the oceans around our civilization. They can also wreak havoc among the enemy with their strong ranged attacks!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_COMBAT_NAVAL_UNIT_DISPLAY">
+			<Text>Naval Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_COMBAT_NAVAL_UNIT_ACTIVATE_BUTTON">
+			<Text>Find Naval Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_WORKER_NAVAL_UNIT_BODY">
+			<Text>Work boats allow you to improve fish and whale resources off your coast. Once you improve those locations, the work boats will be permanently converted.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_WORKER_NAVAL_UNIT_DISPLAY">
+			<Text>Work Boats</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_WORKER_NAVAL_UNIT_ACTIVATE_BUTTON">
+			<Text>Find Work Boat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SIEGE_UNIT_BODY">
+			<Text>Siege units are excellent at knocking out cities from range, but are defenseless if attacked by other units, so always defend them!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SIEGE_UNIT_DISPLAY">
+			<Text>Siege Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SIEGE_UNIT_ACTIVATE_BUTTON">
+			<Text>Find Siege Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_DISCOVERED_NATURAL_WONDER_BODY">
+			<Text>Natural Wonders are hidden around the world. Discovering them makes your civilization happier. If you build a city adjacent to them, you get a significant benefit. Explore the world to find more!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_DISCOVERED_NATURAL_WONDER_DISPLAY">
+			<Text>Natural Wonders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_DISCOVERED_NATURAL_WONDER_ACTIVATE_BUTTON">
+			<Text>Find Natural Wonder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_STATES_TRESPASSING_BODY">
+			<Text>While you can march military units in a city-state's territory, they certainly don't like it when you do. If you want to remain on good terms with a city-state, try to keep your military out of their borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_STATES_TRESPASSING_DISPLAY">
+			<Text>Trespassing!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_STATES_TRESPASSING_ACTIVATE_BUTTON">
+			<Text>Find Trespasser</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_BARBARIAN_CAMP_BODY">
+			<Text>Barbarian camps are vile places that are to be eradicated as soon as possible! Barbarian camps spawn more barbarians, and the sooner you destroy them the less trouble they'll be.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_BARBARIAN_CAMP_DISPLAY">
+			<Text>Barbarian Camp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_BARBARIAN_CAMP_ACTIVATE_BUTTON">
+			<Text>Find Barbarian Camp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_HAPPINESS_BODY">
+			<Text>Keeping your citizens happy is key to a productive civilization. Citizens produce  [ICON_HAPPINESS_4] unhappiness, while luxury resources and some buildings provide [ICON_HAPPINESS_1] happiness to counteract it. Try to keep your civilization happy to keep it healthy!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_HAPPINESS_DISPLAY">
+			<Text>Happiness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_EXCESS_LUXURY_RESOURCE_BODY">
+			<Text>We have more than one of the same luxury resource improved. Our civilization receives  [ICON_HAPPINESS_1]happiness for the first one but not for the others. We can trade the additional luxuries with other civilizations for their luxuries (or other resources) we don't have access to. Trade your excess luxuries with a friendly neighbor!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_EXCESS_LUXURY_RESOURCE_DISPLAY">
+			<Text>Trade Luxuries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_HOW_TO_ENGAGE_DIPLOMACY_BODY">
+			<Text>If you wish to communicate with a civilization or city-state again, you may click on their city banner as a shortcut to talk with them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_HOW_TO_ENGAGE_DIPLOMACY_DISPLAY">
+			<Text>Contact a Civ or City-State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_HOW_TO_ENGAGE_DIPLOMACY_ACTIVATE_BUTTON">
+			<Text>Find City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_HOW_TO_ENGAGE_DIPLOMACY_2_BODY">
+			<Text>Click on the diplomacy panel to learn more about our relationships with our neighbors. This provides us with all essential information regarding our diplomatic agreements and treaties.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_HOW_TO_ENGAGE_DIPLOMACY_2_DISPLAY">
+			<Text>Diplomacy Panel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_END_TURN_BODY">
+			<Text>All your units have orders and there is nothing else you can do this turn. Press the 'Next Turn' button to proceed to the next turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_END_TURN_DISPLAY">
+			<Text>Click Next Turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_GOOD_ATTACK_BODY">
+			<Text>This a clever move! This attack will do a lot of damage to your opponent without your units taking much damage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_GOOD_ATTACK_DISPLAY">
+			<Text>Smart Attack!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_BAD_ATTACK_BODY">
+			<Text>We may want to reconsider this attack; you will do marginal damage to your opponent and they will do considerable damage to you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_BAD_ATTACK_DISPLAY">
+			<Text>This Attack May Not End Well</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_NEUTRAL_ATTACK_BODY">
+			<Text>This attack will damage both sides evenly. It's a good idea to continue this attack if you have multiple units nearby to wear them down before they can do the same to you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_NEUTRAL_ATTACK_DISPLAY">
+			<Text>Even Battle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_GOOD_ATTACK_2_BODY">
+			<Text>Clever move! We crushed our opponents without taking much damage ourselves!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_GOOD_ATTACK_2_DISPLAY">
+			<Text>Smart Attack!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_BAD_ATTACK_2_BODY">
+			<Text>That battle didn't go our way. Perhaps with a little more planning we can reclaim our glory on the battlefield. Make sure to use the combat preview before attacking!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_BAD_ATTACK_2_DISPLAY">
+			<Text>Not Our Finest Hour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_NEUTRAL_ATTACK_2_BODY">
+			<Text>That battle was a wash. We neither gained an advantage, or critically injured our opponent. You'll need to bring another unit in to support our troops.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_NEUTRAL_ATTACK_2_DISPLAY">
+			<Text>Even Battle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_BANKRUPTCY_BODY">
+			<Text>Our treasury is depleted, and we need new sources of [ICON_GOLD]gold! Without [ICON_GOLD]gold, our research stagnates and we fall behind other civilizations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_BANKRUPTCY_DISPLAY">
+			<Text>Bankrupt!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_RECOMMEND_COURTHOUSE_BODY">
+			<Text>The city we recently occupied is not yet excited about being part of our civilization and is causing a great amount of [ICON_HAPPINESS_4]unhappiness. If we construct a courthouse in that city, the citizens will not be as [ICON_HAPPINESS_4]unhappy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_RECOMMEND_COURTHOUSE_DISPLAY">
+			<Text>Occupied City Needs Courthouse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_RECOMMEND_COURTHOUSE_ACTIVATE_BUTTON">
+			<Text>Find Occupied City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_RESEARCH_COURTHOUSE_BODY">
+			<Text>The city we recently occupied is causing a great amount of [ICON_HAPPINESS_4]unhappiness. Building a Courthouse in that city will address their discontent, but we lack the research to do so. Research Mathematics so we can construct the Courthouse and they can be happy members of our civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_RESEARCH_COURTHOUSE_DISPLAY">
+			<Text>Occupied City is Unhappy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_RESEARCH_COURTHOUSE_ACTIVATE_BUTTON">
+			<Text>Find Occupied City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_STATE_FRIEND_BODY">
+			<Text>We have built up enough [ICON_INFLUENCE] Influence with a city-state to become friends! To see what bonuses we receive from this, click on the city-state. Our [ICON_INFLUENCE] Influence will slowly decline over time, so continue to help the city-state or provide it with gifts of [ICON_GOLD] to maintain our friendship level.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_STATE_FRIEND_DISPLAY">
+			<Text>Look Who Made a Friend!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_STATE_FRIEND_ACTIVATE_BUTTON">
+			<Text>Find Friendly City-State</Text>
+		</Row>
+
+    <Row Tag="TXT_KEY_ADVISOR_ZONE_OF_CONTROL_BODY">
+      <Text>Our unit is within an enemy's Zone of Control. This means that when you move from one tile next to an enemy unit or city to another tile next to that same enemy, it will consume all movement for that turn.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ZONE_OF_CONTROL_DISPLAY">
+      <Text>Zone of Control</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ZONE_OF_CONTROL_ACTIVATE_BUTTON">
+      <Text>Find Unit</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_ADVISOR_GREAT_PERSON_BODY">
+      <Text>Congratulations, a great person has emerged from your civilization! These brilliant individuals can do a number of things for you: start a golden age, construct a unique tile improvement on the map, or use their special power to great effect!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GREAT_PERSON_DISPLAY">
+      <Text>Great People</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GREAT_PERSON_ACTIVATE_BUTTON">
+      <Text>Find Great Person</Text>
+    </Row>
+
+
+    <Row Tag="TXT_KEY_ADVISOR_WINNING_GAME_BODY">
+			<Text>There is more than one way to become the greatest civilization and win the game. In fact here are four routes: through military, technology, diplomacy, or culture!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_WINNING_GAME_DISPLAY">
+			<Text>How to Claim Victory!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_GREAT_GENERAL_BODY">
+			<Text>Thanks to your military victories, a Great General has come forth! Great Generals can stack with military units and provide a huge benefit to ones nearby!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_GREAT_GENERAL_DISPLAY">
+			<Text>Great General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_GREAT_GENERAL_ACTIVATE_BUTTON">
+			<Text>Find Great General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_ATTACK_BODY">
+			<Text>Cities are formidable targets that often require 4 or more units to capture. When you attack them in melee, the cities will damage your attacking unit. They also have a ranged bombard attack that will be used against any besiegers. Are you sure you want to proceed in the attack?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CITY_ATTACK_DISPLAY">
+			<Text>Attacking Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_TUTORIAL_BUILD_CITY_CHEAT_BODY">
+			<Text>Settlers require 2 [ICON_CITIZEN] population to build, so to speed you on your way we gave your first city an extra [ICON_CITIZEN] population. Don't get used to it; cities founded from here on out will start with only 1 [ICON_CITIZEN] population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_TUTORIAL_BUILD_CITY_CHEAT_DISPLAY">
+			<Text>Extra population</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_TUTORIAL_BUILD_CITY_CHEAT_ACTIVATE_BUTTON">
+			<Text>Find City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_CITY_SCREEN_BODY">
+			<Text>blah</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_CITY_SCREEN_DISPLAY">
+			<Text>City Screen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_PRODUCTION_CHOOSER_BODY">
+			<Text>In the Production Chooser a unit, building, or wonder is selected to be produced in a city. A city can only work on a single item at a time. Every time your city completes a production, you'll be prompted again to have it build something new.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_PRODUCTION_CHOOSER_DISPLAY">
+			<Text>Production Chooser</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_TECH_CHOOSER_BODY">
+			<Text>The Tech Chooser allows you to select a technology that your civilization will research. When a technology has been discovered, you'll be prompted to select a new one to research.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_TECH_CHOOSER_DISPLAY">
+			<Text>Tech Chooser</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_TECH_TREE_BODY">
+			<Text>The Tech Tree provides a birds-eye view of the technologies that may be discovered and how they are connected. Connections show the requirements needed to unlock new technologies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_TECH_TREE_DISPLAY">
+			<Text>Tech Tree</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_UNIT_LIST_BODY">
+			<Text>The Unit List shows all your units that you have under your command. You may select them to find where they are on the map and give them orders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_UNIT_LIST_DISPLAY">
+			<Text>Unit List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_MILITARY_OVERVIEW_BODY">
+			<Text>The Military Overview provides an in-depth look at all the units in your civilization, as well as how much supply your units are consuming and progress toward earning a Great General.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_MILITARY_OVERVIEW_DISPLAY">
+			<Text>Military Overview</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_CITY_LIST_BODY">
+			<Text>The City List displays all the cities in your civilization. You can use this list to get a quick overview of what your civilization is currently doing and to easily change production if you go to war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_CITY_LIST_DISPLAY">
+			<Text>City List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_ECONOMIC_OVERVIEW_BODY">
+			<Text>The Economic Overview provides an in-depth look at all your cities. You can also investigate your [ICON_GOLD]gold income and what you're spending [ICON_GOLD]gold on.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_ECONOMIC_OVERVIEW_DISPLAY">
+			<Text>Economic Overview</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_DIPLOMACY_LIST_BODY">
+			<Text>The Diplomacy List displays all the Civilizations and City-States that you've come in contact with and their score. Clicking on an entry will get you in contact with them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_DIPLOMACY_LIST_DISPLAY">
+			<Text>Diplomacy List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_DIPLOMACY_OVERVIEW_BODY">
+			<Text>The Diplomacy Overview is your gateway into all diplomatic information. You can see the diplomatic status between Civilizations, look at existing trade deals, and what resources are available for trade with other Civilizations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_DIPLOMACY_OVERVIEW_DISPLAY">
+			<Text>Diplomacy Overview</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_LEADER_TRADE_DIALOG_BODY">
+			<Text>The Diplomatic Trading screen allows civilizations to make diplomatic exchanges. Each side can build an offer from the list on their side, and then suggest it to the other side. Once both sides agree, the items in the trading screen are exchanged.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_LEADER_TRADE_DIALOG_DISPLAY">
+			<Text>Diplomatic Trading</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_SOCIAL_POLICY_BODY">
+			<Text>The Social Policy screen allows you to choose the Social Policies that will shape your civilization. You spend your accumulated [ICON_CULTURE]culture to unlock Social Policies. Some branches may not be selected until a technological era is reached. Also, some branches cannot be used together.  (Look at the mouseover text to determine which ones are mutually exclusive.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SCREEN_SOCIAL_POLICY_DISPLAY">
+			<Text>Social Policy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL0">
+			<Text>Tutorial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL0_TITLE_ONLY">
+			<Text>Learn as you play</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL0_DESC">
+			<Text>New to Civilization? Not sure where to start? Afraid the villainous Barbarians will overrun your fledgling civ before you even get your feet wet?  Let your Advisors guide you through the base concepts and stages of the game as you play!  This overarching tutorial will cover all the important base aspects of the game, including a runthrough all the sections listed below. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL1_TITLE">
+			<Text>Movement and Exploration</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL1">
+			<Text>Tutorial 1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL1_TITLE_ONLY">
+			<Text>Movement and Exploration</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL1_DESC">
+			<Text>Exploration is the act of searching or traveling a terrain (including space) for the purpose of discovery of resources or information. In human history, exploration of the physical world peaked during the Age of Discovery, spurred on by Europe's quest for contact with the rest of the world. In the more modern era, the pursuit of more advanced scientific concepts and information continues to drive exploration futher.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL2_TITLE">
+			<Text>Founding Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL2">
+			<Text>Tutorial 2</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL2_TITLE_ONLY">
+			<Text>Founding Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL2_DESC">
+			<Text>The heart of every civilization is found in its cities and the people who live there. Creating new cities to expand your empire's influence, wealth, and power is a core concept to grasp.  Not all sites are suitable locations for new cities, and a poorly placed city can drastically slow expansion down. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL3_TITLE">
+			<Text>Improving Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL3">
+			<Text>Tutorial 3</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL3_TITLE_ONLY">
+			<Text>Improving Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL3_DESC">
+			<Text>Cities need to expand and grow to be productive members of a civilization, and improving them with Workers can help build their influence. Improving your cities not only helps keep them current with the rest of the world, but also improves how much they get from the land they are working. Through history, cities which fail to grow and develop with the nations around them are quickly left behind and made into easy targets for conquest.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL4_TITLE">
+			<Text>Combat and Conquest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL4">
+			<Text>Tutorial 4</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL4_TITLE_ONLY">
+			<Text>Combat and Conquest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL4_DESC">
+			<Text>There may come a time when someone wants your stuff, and doesn't want to talk about it.  Combat, war, and conquests pepper the pages of human history, and civs unable to defend themselves from their foes won't often live to tell the tale. Even if you never find yourself on the offensive, understanding combat and how to wage effective war can save your civ from disaster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL5_TITLE">
+			<Text>Basic Diplomacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL5">
+			<Text>Tutorial 5</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL5_TITLE_ONLY">
+			<Text>Basic Diplomacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL5_DESC">
+			<Text>Diplomacy, trade, alliances, and agreements are more polite ways of dealing with your neighbors, and effective diplomacy skills can often save you from a long and costly war. Some of the most effective leaders in history were masters of the art of Diplomacy; a well placed remark can often be more powerful and deadly than any number of swords.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_TUTORIAL_1_INTRO_MOVEMENT_AND_EXPLORATION_BODY">
+			<Text>I am your science advisor. In this lesson I'll teach you how to move your units around the map. In the process you'll discover ancient ruins, Natural Wonders, and whole new continents!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_TUTORIAL_1_INTRO_MOVEMENT_AND_EXPLORATION_DISPLAY">
+			<Text>Movement and Exploration</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_TUTORIAL_2_INTRO_FOUND_CITIES_BODY">
+			<Text>I am your economic advisor. In this lesson I'll teach you how cities work, how to found new cities, and where the best places are to build them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_TUTORIAL_2_INTRO_FOUND_CITIES_DISPLAY">
+			<Text>Building Settlers and Founding Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_TUTORIAL_3_INTRO_IMPROVING_CITIES_WITH_WORKERS_BODY">
+			<Text>I am your economic advisor. In this lesson I'll teach you how to use Workers to enhance your cities. Under your command your Workers will build trade routes to collect [ICON_GOLD]gold, construct improvements to help your cities grow faster and build things quicker, and improve resources to make our people happier.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_TUTORIAL_3_INTRO_IMPROVING_CITIES_WITH_WORKERS_DISPLAY">
+			<Text>Using Workers to Improve Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_TUTORIAL_4_INTRO_COMBAT_AND_CONQUERING_BODY">
+			<Text>I'm your military advisor and you can guess why I'm here. In this lesson I'll teach you how to stomp out barbarians and destroy their camps, and how to conquer an enemy civilization's city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_TUTORIAL_4_INTRO_COMBAT_AND_CONQUERING_DISPLAY">
+			<Text>Combat and Conquering</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_TUTORIAL_5_INTRO_DIPLOMACY_BODY">
+			<Text>I'm your foreign advisor. In this lesson you'll learn the basics of diplomacy with other civilizations and city-states. This is a complicated subject, so for now we will concentrate upon two important concepts: developing influence over a city state and trading resources with a neighboring civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_TUTORIAL_5_INTRO_DIPLOMACY_DISPLAY">
+			<Text>Basic Diplomacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TASK_LIST">
+			<Text>*GOALS*</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_1_ANCIENT_RUINS">
+			<Text>Find all {1_Num} Ancient Ruins.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_1_ANCIENT_RUINS_PROGRESS">
+			<Text>Explore all {1_Num} Ancient Ruins. ({2_Num} explored, {3_Num} remaining)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_1_COMPLETE">
+			<Text>You Completed the Movement and Exploration tutorial! Nice job!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_2_FOUND_CITIES">
+			<Text>Found {1_Num} cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_2_FOUND_CITIES_PROGRESS">
+			<Text>Found {1_Num} cities. ({2_Num} founded, {3_Num} remaining)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_2_FOUND_CITIES_COMPLETE">
+			<Text>Found {1_Num} cities. Complete!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_2_DISCOVER_NATURAL_WONDERS">
+			<Text>Discover {1_Num} Natural Wonders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_2_DISCOVER_NATURAL_WONDERS_PROGRESS">
+			<Text>Discover {1_Num} Natural Wonders. ({2_Num} discovered, {3_Num} remaining)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_2_DISCOVER_NATURAL_WONDERS_COMPLETE">
+			<Text>Found {1_Num} Natural Wonders. Complete!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_2_COMPLETE">
+			<Text>You Completed the Found Cities tutorial! Nice job!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_3_CONNECT_ROADS">
+			<Text>Connect {1_Num} cities using roads to your capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_3_CONNECT_ROADS_PROGRESS">
+			<Text>Connect {1_Num} cities using roads to your capital. ({2_Num} connected, {3_Num} remaining)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_3_CONNECT_ROADS_COMPLETE">
+			<Text>Connect {1_Num} cities using roads to your capital. Complete!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_3_IMPROVE_RESOURCES">
+			<Text>Build improvements on {1_Num} resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_3_IMPROVE_RESOURCES_PROGRESS">
+			<Text>Build improvements on {1_Num} resources. ({2_Num} resources improved, {3_Num} remaining)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_3_IMPROVE_RESOURCES_COMPLETE">
+			<Text>Build improvements on {1_Num} resources. Complete!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_3_BUILD_FARMS">
+			<Text>Build {1_Num} farms that yield at least {2_Num} [ICON_FOOD] food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_3_BUILD_FARMS_PROGRESS">
+			<Text>Build {1_Num} farms that yield at least {2_Num} [ICON_FOOD] food. ({3_Num} farms that yield {2_Num} [ICON_FOOD] food constructed, {4_Num} remaining)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_3_BUILD_FARMS_COMPLETE">
+			<Text>Build {1_Num} farms that yield at least {2_Num} [ICON_FOOD] food. Complete!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_3_BUILD_MINES">
+			<Text>Build {1_Num} mines that yield at least {2_Num} [ICON_PRODUCTION] production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_3_BUILD_MINES_PROGRESS">
+			<Text>Build {1_Num} mines that yield at least {2_Num} [ICON_PRODUCTION] production. ({3_Num} mines that yield {2_Num} [ICON_PRODUCTION] production constructed, {4_Num} remaining)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_3_BUILD_MINES_COMPLETE">
+			<Text>Build {1_Num} mines that yield at least {2_Num} [ICON_PRODUCTION] production. Complete!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_3_COMPLETE">
+			<Text>You Completed the Improving Cities tutorial! Nice job!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_4_CONQUER_CITY">
+			<Text>Conquer enemy city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_4_CONQUER_CITY_COMPLETE">
+			<Text>Conquer enemy city. Complete!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_4_DESTROY_BARB_CAMPS">
+			<Text>Destroy {1_Num} barbarian camps.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_4_DESTROY_BARB_CAMPS_PROGRESS">
+			<Text>Destroy {1_Num} barbarian camps. ({2_Num} have been destroyed, {3_Num} remaining)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_4_DESTROY_BARB_CAMPS_COMPLETE">
+			<Text>Destroy {1_Num} barbarian camps. Complete!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_4_COMPLETE">
+			<Text>You Completed the Combat and Conquest tutorial! Nice job!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_5_TRADE_WITH_MAJOR">
+			<Text>Receive marble from a trade with a major civ.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_5_TRADE_WITH_MAJOR_COMPLETE">
+			<Text>Receive marble from a trade with a major civ. Complete!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_5_MOST_FAVORED_CIV">
+			<Text>Become allied with a City State by giving them [ICON_GOLD]gold and completing quests.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOAL_TUTORIAL_5_MOST_FAVORED_CIV_COMPLETE">
+			<Text>Become allied with a City State by giving them [ICON_GOLD]gold and completing quests. Complete!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TUTORIAL_5_COMPLETE">
+			<Text>You Completed the Basic Diplomacy tutorial! Nice job!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_UNITS_LIST">
+			<Text>Unit List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_TERRAIN_LIST">
+			<Text>Terrain and Feature List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_IMPROVEMENT_LIST">
+			<Text>Improvement List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_PROMOTIONS_LIST">
+			<Text>Promotion List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_RESOURCES_LIST">
+			<Text>Resource List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_SPECIALISTS_AND_GREAT_PEOPLE">
+			<Text>Specialists and Great People List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_MINOR_CIV_LIST">
+			<Text>City-State List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_TECHNOLOGY_LIST">
+			<Text>Technology List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_BUILDING_LIST">
+			<Text>Building List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_WONDER_LIST">
+			<Text>Wonder List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_SHORTCUT_SOCIAL_POLICIES">
+			<Text>Social Policy List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_COUNSEL_TITLE">
+			<Text>Advisor Counsel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_COUNSEL_ECONOMIC_NEXT">
+			<Text>Next</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_COUNSEL_ECONOMIC_PREV">
+			<Text>Previous</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_COUNSEL_MILITARY_NEXT">
+			<Text>Next</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_COUNSEL_MILITARY_PREV">
+			<Text>Previous</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_COUNSEL_FOREIGN_NEXT">
+			<Text>Next</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_COUNSEL_FOREIGN_PREV">
+			<Text>Previous</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_COUNSEL_SCIENCE_NEXT">
+			<Text>Next</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_COUNSEL_SCIENCE_PREV">
+			<Text>Previous</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_COUNSEL_PAGE_DISPLAY">
+			<Text>{1_Num}/{2_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MILITARYAISTRATEGY_ALONE">
+			<Text>We haven't found any nearby rivals, so we should continue exploring to find other civilizations and city-states.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MILITARYAISTRATEGY_EMPIRE_DEFENSE">
+			<Text>We need more military units to help defend our civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MILITARYAISTRATEGY_EMPIRE_DEFENSE_CRITICAL">
+			<Text>We are nearly defenseless! We need to train more units!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MILITARYAISTRATEGY_AT_WAR">
+			<Text>We're at war! Build military units and buildings to achieve victory!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MILITARYAISTRATEGY_ENOUGH_MILITARY_UNITS">
+			<Text>We're spending a lot on military maintenance. We should stop building more military units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MILITARYAISTRATEGY_ERADICATE_BARBARIANS">
+			<Text>It's time for our barbarian neighbors to go extinct. Build military units and use them to destroy the camps.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MILITARYAISTRATEGY_WINNING_WARS">
+			<Text>We're winning! Keep the pressure on and claim victory!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MILITARYAISTRATEGY_LOSING_WARS">
+			<Text>We're losing! We should consider negotiating a peace treaty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_NEED_RECON">
+			<Text>We should continue exploring the world to discover ancient ruins, natural wonders, and other civilizations!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_ENOUGH_RECON">
+			<Text>We have enough explorers to discover the world. We should not start building any new land exploration units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_NEED_RECON_SEA">
+			<Text>We need to continue exploring the seas to find new continents to settle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_ENOUGH_RECON_SEA">
+			<Text>We have explored enough coastal waters. We should not need to send more units to explore the seas.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_EARLY_EXPANSION">
+			<Text>We have room to expand, so let's train a settler and found a new city!</Text>
+		</Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_ENOUGH_EXPANSION">
+      <Text>We should focus on growing and improving what we have rather than founding new cities right now.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ECONOMICAISTRATEGY_NEED_HAPPINESS">
+			<Text>Our people's [ICON_HAPPINESS_1] happiness is becoming a concern. We need to connect luxury resources, build [ICON_HAPPINESS_1]happiness buildings and wonders, and adopt policies that help make our civilization happy!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_NEED_HAPPINESS_CRITICAL">
+			<Text>Our people are quite Unhappy! We need to connect luxury resources, build [ICON_HAPPINESS_1]happiness buildings and wonders, and adopt policies that help make our civilization happy quickly!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_CITIES_NEED_NAVAL_GROWTH">
+			<Text>We have a lot of coastal cities so we should focus on buildings that improve yields from our coastal tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_CITIES_NEED_NAVAL_TILE_IMPROVEMENT">
+			<Text>We have water resources that we're not using. Build workboats and deploy them to help our civilization!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_FOUND_CITY">
+			<Text>We have a settler, now find a good spot to found a city!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_NEED_IMPROVEMENT_FOOD">
+			<Text>We are having a [ICON_FOOD]food crisis! Use Workers to build improvements that increase the amount of [ICON_FOOD]food that a plot provides.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_NEED_IMPROVEMENT_PRODUCTION">
+			<Text>We are having a [ICON_PRODUCTION]production crisis! Use Workers to build improvements that increase the amount of [ICON_PRODUCTION]production that a plot provides.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_ONE_OR_FEWER_COASTAL_CITIES">
+			<Text>Avoid building harbors because we cannot use them without two coastal cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_ONE_OR_FEWER_COASTAL_CITIES_INVERSE">
+			<Text>We have cities on the coast that can be connected using Harbors. Build harbors in those cities to provide trade routes across the water and collect more [ICON_GOLD]gold!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_LOSING_MONEY">
+			<Text>We need to increase our [ICON_GOLD]gold income to stay competitive. Disband obsolete units to lower our unit maintenance, use our workers to construct improvements that increase the amount of [ICON_GOLD]gold from a tile, and construct buildings that increase our [ICON_GOLD]gold income.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_HALT_GROWTH_BUILDINGS">
+			<Text>We're working on the Great Pyramid, so we needn't build granaries in our other cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_TOO_MANY_UNITS">
+			<Text>Our [ICON_PRODUCTION]production is being diminished by the number of units that we have. We should disband any unneeded units so that our civilization can operate at full capacity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECONOMICAISTRATEGY_ISLAND_START">
+			<Text>Our homeland is a small continent without much room for expansion. We need to focus on naval technologies until we can embark units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AICITYSTRATEGY_SMALL_CITY">
+			<Text>Your city of {1_CityName:textkey} is too small at this point to undertake large constructions like wonders. Focus on growing {1_CityName:textkey} to a larger size before taking on big projects.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AICITYSTRATEGY_LANDLOCKED">
+			<Text>{1_CityName:textkey} is landlocked, which means it doesn't have access to the water. So you have to worry more about bears than sharks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AICITYSTRATEGY_NEED_TILE_IMPROVERS">
+			<Text>{1_CityName:textkey} needs Workers to improve nearby tiles. We should train a Worker in {1_CityName:textkey} and have them improve the nearby tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AICITYSTRATEGY_WANT_TILE_IMPROVERS">
+			<Text>{1_CityName:textkey} would benefit greatly from having the surrounding tiles improved. Consider getting a Worker to help it out.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AICITYSTRATEGY_ENOUGH_TILE_IMPROVERS">
+			<Text>I don't think {1_CityName:textkey} needs to build any more Workers right now.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AICITYSTRATEGY_NEED_NAVAL_GROWTH">
+			<Text>{1_CityName:textkey} has a considerable number of water tiles. We should focus on constructing buildings like the lighthouse that improve yield from those tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AICITYSTRATEGY_NEED_NAVAL_TILE_IMPROVEMENT">
+			<Text>{1_CityName:textkey} has unimproved resources in the water; we should get a work boat to improve the resource!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AICITYSTRATEGY_ENOUGH_NAVAL_TILE_IMPROVEMENT">
+			<Text>{1_CityName:textkey} has all of its naval resources improved.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AICITYSTRATEGY_NEED_IMPROVEMENT_FOOD">
+			<Text>{1_CityName:textkey} needs [ICON_FOOD]food to grow to be a larger city. Use your Workers to build farms nearby.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AICITYSTRATEGY_NEED_IMPROVEMENT_PRODUCTION">
+			<Text>{1_CityName:textkey} needs [ICON_PRODUCTION]production to build things faster. Use your Workers to build mines nearby.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AICITYSTRATEGY_HAVE_TRAINING_FACILITY">
+			<Text>{1_CityName:textkey} has buildings that enhance our military production. We should build new units for our army in {1_CityName:textkey} to be most effective.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AICITYSTRATEGY_CAPITAL_NEED_SETTLER">
+			<Text>{1_CityName:textkey} is primed and ready to build a settler to expand our empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AICITYSTRATEGY_CAPITAL_UNDER_THREAT">
+			<Text>Keep watch around {1_CityName:textkey}, our capital city. Enemies have been seen in the area and we should be prepared for an attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_AICITYSTRATEGY_UNDER_BLOCKADE">
+			<Text>Enemies have been trying to blockade {1_CityName:textkey}! Use ranged attacks by the city and nearby boats to drive off the enemy ships that may blockade you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECHSTRATEGY_CIV_BONUS">
+			<Text>We should research {1_TechName:textkey} to unlock a unique {2_Adjective:textkey} civilization bonus!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECHSTRATEGY_CIV_BONUS_UNIT">
+			<Text>We should research {1_TechName:textkey} so we can build a {@2_UnitName}, which is a unique unit for our {3_Adjective:textkey} civilization!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECHSTRATEGY_CIV_BONUS_BUILDING">
+			<Text>We should research {1_TechName:textkey} so we can build a {@2_BldgName}, which is a unique building for our {3_Adjective:textkey} civilization!</Text>
+		</Row>
+    <Row Tag="TXT_KEY_TECHSTRATEGY_CIV_BONUS_IMPROVEMENT">
+      <Text>We should research {1_TechName:textkey} so we can build a {@2_BldgName}, which is a unique improvement for our {3_Adjective:textkey} civilization!</Text>
+    </Row>
+		<Row Tag="TXT_KEY_TECHSTRATEGY_RESOURCE">
+			<Text>We should research {1_TechName:textkey} which allows us to improve the {2_ResourceName:textkey} within our borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_WARPROJECTION_DESTRUCTION_WAR">
+			<Text>I urge you to sue for peace immediately with the {1_LongCivName:textkey}; they threaten our very existence!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_WARPROJECTION_DESTRUCTION_PEACE">
+			<Text>We would be wise not to provoke the {1_LongCivName:textkey}. They are immensely more powerful than us, so step softly and leave them be.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_WARPROJECTION_DEFEAT_WAR">
+			<Text>Our war with the {1_LongCivName:textkey} is not going well. We should consider offering peace to end the hostilities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_WARPROJECTION_DEFEAT_PEACE">
+			<Text>The {1_LongCivName:textkey} has a much stronger military than us and it would be unwise to declare war at this point.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_WARPROJECTION_STALEMATE_WAR">
+			<Text>We are about as strong as the {1_LongCivName:textkey}; this war will test our mettle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_WARPROJECTION_GOOD_WAR">
+			<Text>Our war with the {1_LongCivName:textkey} is going well and we have a stronger fighting force than them. Keep the pressure on and let us claim victory!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_WARPROJECTION_GOOD_PEACE">
+			<Text>The {1_LongCivName:textkey} is weaker than us militarily. If they have anything we'd like, now would be an appropriate time to ask.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_WARPROJECTION_VERY_GOOD_WAR">
+			<Text>With our numbers, we should be able to absolutely crush the {1_LongCivName:textkey}! Act fast before they can weasel out using some flimsy diplomatic ploy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_WARPROJECTION_VERY_GOOD_PEACE">
+			<Text>Our military is vastly more powerful than the {1_LongCivName:textkey}. I'm not suggesting that we should bully them, but we should exert our force purposefully to sustain our glorious realm!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_AGGRESSIVE_POSTURE_MEDIUM">
+			<Text>Hmm, that's interesting. We have seen the {1_LongCivName:textkey} moving units near our borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_AGGRESSIVE_POSTURE_HIGH">
+			<Text>We have seen a number of the {1_LongCivName:textkey} units around our borders. This may be a prelude to an attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_AGGRESSIVE_POSTURE_INCREDIBLE">
+			<Text>This can't be good. The {1_LongCivName:textkey} has assembled a huge army on our borders! We should prepare ourselves for a sneak attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_EXPANSION_AGGRESSIVE_POSTURE_MEDIUM">
+			<Text>The {1_LongCivName:textkey} has expanded closer to our territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_EXPANSION_AGGRESSIVE_POSTURE_HIGH">
+			<Text>The {1_LongCivName:textkey} seem to be consuming much of the land near our cities. We may need to discuss this topic with them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_EXPANSION_AGGRESSIVE_POSTURE_INCREDIBLE">
+			<Text>The land-grabbing {1_CivName:textkey} appears to be trying to suffocate our cities with their borders! We must take action about this or we will have no recourse but war!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_WARMONGER_THREAT_NONE">
+			<Text>The {1_LongCivName:textkey} seems to be quite peaceful with other civilizations. I'm sure they're up to something though!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_WARMONGER_THREAT_MINOR">
+			<Text>The {1_LongCivName:textkey} has been aggressive with other civilizations. We should keep an eye on them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_WARMONGER_THREAT_MAJOR">
+			<Text>I feel like the {1_LongCivName:textkey} are bullies and revel in kicking smaller civilizations and city-states around. My mother told me the best thing for a bully is a quick punch in the nose!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_WARMONGER_THREAT_SEVERE">
+			<Text>The {1_LongCivName:textkey} is attacking everyone! Hide the women and children and protect our capital so they can't win a domination victory!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_WARMONGER_THREAT_CRITICAL">
+			<Text>The {1_LongCivName:textkey} is filled with blood lust! With their record of hostility toward all around them, it is only a matter of time before they attack us!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_STRENGTH_COMPARED_TO_US_PATHETIC">
+			<Text>I'm not sure if the {1_LongCivName:textkey} has an army at all. Any hostilites with them would be laughably one-sided.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_STRENGTH_COMPARED_TO_US_WEAK">
+			<Text>I think I saw the only unit the {1_LongCivName:textkey} had. It looked sad and lonely. It would be tragic for them if they got into a war with someone of our power.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_STRENGTH_COMPARED_TO_US_POOR">
+			<Text>The {1_LongCivName:textkey} doesn't have as strong a military as us, but we shouldn't make fun of them too much during diplomatic meetings; they may feel insecure.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_STRENGTH_COMPARED_TO_US_AVERAGE">
+			<Text>The {1_LongCivName:textkey} military is around the same strength as ours.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_STRENGTH_COMPARED_TO_US_STRONG">
+			<Text>The {1_LongCivName:textkey} is stronger than us militarily. We should not engage in combat with them without careful consideration and time spent growing and improving our military.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_STRENGTH_COMPARED_TO_US_POWERFUL">
+			<Text>The {1_LongCivName:textkey} is not to be trifled with. They have a stronger military than us and we should only consider aggression in the most dire of circumstances.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_MILITARY_STRENGTH_COMPARED_TO_US_IMMENSE">
+			<Text>The {1_LongCivName:textkey} wields an army that could wipe us off the planet. Do everything we can to remain at peace with them and build military as fast as possible to make our situation less perilous.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_MINOR_CIV_DISPUTE_LEVEL_WEAK">
+			<Text>The {1_LongCivName:textkey} has started competing with us for the alliance of {2_MinorCivName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_MINOR_CIV_DISPUTE_LEVEL_STRONG">
+			<Text>The {1_LongCivName:textkey} is competing strongly to have an alliance with {2_MinorCivName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_MINOR_CIV_DISPUTE_LEVEL_FIERCE">
+			<Text>The {1_LongCivName:textkey} is aggressively undermining our relationship with {2_MinorCivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_DOWN_UNIT_MAINTENANCE">
+			<Text>We are bankrupt and aren't making any money! We need to do everything we can to get out of debt! Our current greatest expense (costing us {1_Num} [ICON_GOLD]gold a turn) is unit maintenance. Delete any units that are not absolutely necessary!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_DOWN_UNIT_SUPPLY">
+			<Text>We are bankrupt and aren't making any money! We need to do everything we can to get out of debt! Our current greatest expense (costing us {1_Num} [ICON_GOLD]gold a turn) is unit supply, or paying for units outside our borders. Either move those units back into our borders or delete them; solving this financial problem is critical!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_DOWN_BUILDING_MAINTENANCE">
+			<Text>We are bankrupt and aren't making any money! We need to do everything we can to get out of debt! Our current greatest expense (costing us {1_Num} [ICON_GOLD]gold a turn) is building maintenance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_DOWN_IMPROVEMENT_MAINTENANCE">
+			<Text>We are bankrupt and aren't making any money! We need to do everything we can to get out of debt! Our current greatest expense (costing us {1_Num} [ICON_GOLD]gold a turn) is improvement maintenance. We should not build more improvements than we need, and destroy any ones that are not helping us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_DOWN_DIPLOMACY">
+			<Text>We are bankrupt and aren't making any money! We need to do everything we can to get out of debt! Our current greatest expense (costing us {1_Num} [ICON_GOLD]gold a turn) is diplomatic deals. We should not renew these deals if given a choice, or strike new deals that generate [ICON_GOLD]gold for us rather than losing it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_DOWN">
+			<Text>We are bankrupt and aren't making any money! We need to do everything we can to get our income positive so we have some hope of getting out of debt! Any cash that we could get from diplomatic means would certainly help out in the short-term.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_UP_UNIT_MAINTENANCE">
+			<Text>We are bankrupt but are still making money. Our current greatest expense (costing us {1_Num} [ICON_GOLD]gold a turn) is unit maintenance, so delete any units that are not absolutely necessary so we can make it back into the black!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_UP_UNIT_SUPPLY">
+			<Text>We are bankrupt but are still making money. Our current greatest expense (costing us {1_Num} [ICON_GOLD]gold a turn) is unit supply or paying for units outside our borders. Either move those units back into our borders or delete them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_UP_BUILDING_MAINTENANCE">
+			<Text>We are bankrupt but are still making money. Our current greatest expense (costing us {1_Num} [ICON_GOLD]gold a turn) is building maintenance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_UP_IMPROVEMENT_MAINTENANCE">
+			<Text>We are bankrupt but are still making money. Our current greatest expense (costing us {1_Num} [ICON_GOLD]gold a turn) is improvement maintenance. We should stop building improvements and remove any that are unnecessary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_UP_DIPLOMACY">
+			<Text>We are bankrupt but are still making money. Our current greatest expense (costing us {1_Num} [ICON_GOLD]gold a turn) is diplomatic deals. We should not renew these deals if given a choice, or strike new deals that generate [ICON_GOLD]gold for us rather than spending it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_BROKE_AND_GOING_UP">
+			<Text>We are bankrupt but are still making money. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_GOING_BROKE_UNIT_MAINTENANCE">
+			<Text>With our current [ICON_GOLD]gold spending, we will be bankrupt in a few turns. Our current greatest expense is unit maintenance, costing us {1_Num} [ICON_GOLD]gold a turn. Consider deleting any obsolete or unnecessary units to avoid bankrupcy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_GOING_BROKE_UNIT_SUPPLY">
+			<Text>With our current [ICON_GOLD]gold spending, we will be bankrupt in a few turns. Our current greatest expense is unit supply (paying for units outside our borders), costing us {1_Num} [ICON_GOLD]gold a turn. Consider moving units back into our territory or deleting unnecessary ones to avoid bankrupcy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_GOING_BROKE_BUILDING_MAINTENANCE">
+			<Text>With our current [ICON_GOLD]gold spending, we will be bankrupt in a few turns. Our current greatest expense is building maintenance, costing us {1_Num} [ICON_GOLD]gold a turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_GOING_BROKE_IMPROVEMENT_MAINTENANCE">
+			<Text>With our current [ICON_GOLD]gold spending, we will be bankrupt in a few turns. Our current greatest expense is improvement maintenance, costing us {1_Num} [ICON_GOLD]gold a turn. Consider building fewer improvements or removing ones that are not as useful.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_GOING_BROKE_DIPLOMACY">
+			<Text>With our current [ICON_GOLD]gold spending, we will be bankrupt in a few turns. Our current greatest expense is diplomatic deals, costing us {1_Num} [ICON_GOLD]gold a turn. We should not renew these deals if given a choice, or strike new deals that generate [ICON_GOLD]gold for us rather than spending it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_GOING_BROKE">
+			<Text>With our current [ICON_GOLD]gold spending, we will be bankrupt in a few turns. We need to focus on turning our economy around to avoid the shame of bankrupcy!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_LOSING_MONEY_UNIT_MAINTENANCE">
+			<Text>We have money, but are spending more than we are making.  Our current greatest expense is unit maintenance, costing us {1_Num} [ICON_GOLD]gold a turn. Consider deleting any obsolete or unnecessary units so we can start making money instead of losing it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_LOSING_MONEY_UNIT_SUPPLY">
+			<Text>We have money, but are spending more than we are making.  Our current greatest expense is unit supply, costing us {1_Num} [ICON_GOLD]gold a turn. Consider moving units back into our territory to reduce the amount of money we are spending.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_LOSING_MONEY_BUILDING_MAINTENANCE">
+			<Text>We have money, but are spending more than we are making.  Our current greatest expense is building maintenance, costing us {1_Num} [ICON_GOLD]gold a turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_LOSING_MONEY_IMPROVEMENT_MAINTENANCE">
+			<Text>We have money, but are spending more than we are making.  Our current greatest expense is improvement maintenance, costing us {1_Num} [ICON_GOLD]gold a turn. Consider building fewer improvements or removing the ones that are not as useful.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_LOSING_MONEY_DIPLOMACY">
+			<Text>We have money, but are spending more than we are making.  Our current greatest expense is diplomatic deals, costing us {1_Num} [ICON_GOLD]gold a turn. Consider declining these deals in the future or forming other diplomatic deals that bring some [ICON_GOLD]gold into our civilization!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_LOSING_MONEY">
+			<Text>We have money, but are spending more than we are making. We need to focus on turning our economy around to avoid the shame of bankrupcy!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_MAKING_MONEY_UNIT_MAINTENANCE">
+			<Text>We are making money! Our current greatest expense is unit maintenance, costing us {1_Num} [ICON_GOLD]gold a turn. Consider deleting any obsolete or unnecessary units if you want to turn an even greater profit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_MAKING_MONEY_UNIT_SUPPLY">
+			<Text>We are making money! Our current greatest expense is unit supply, costing us {1_Num} [ICON_GOLD]gold a turn. Consider moving units back into our territory to reduce the amount of money we are spending.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_MAKING_MONEY_BUILDING_MAINTENANCE">
+			<Text>We are making money! Our current greatest expense is building maintenance, costing us {1_Num} [ICON_GOLD]gold a turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_MAKING_MONEY_IMPROVEMENT_MAINTENANCE">
+			<Text>We are making money! Our current greatest expense is improvement maintenance, costing us {1_Num} [ICON_GOLD]gold a turn. Only improve the tiles that we must to continue growing, or this may cost may grow out of control.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_MAKING_MONEY_DIPLOMACY">
+			<Text>We are making money! Our current greatest expense is diplomatic deals, costing us {1_Num} [ICON_GOLD]gold a turn. Consider declining these deals in the future or forming other diplomatic deals that bring some [ICON_GOLD]gold into our civilization!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FINANCESTRATEGY_MAKING_MONEY">
+			<Text>We are making money! </Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY">
+			<Text>We are going to lose our alliance with {1_MinorCivName:textkey} if we don't do something soon. We have worked to develop this relationship, it would be sad to lose an ally due to neglect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_WAR_WITH_MAJOR">
+			<Text>We are going to lose our alliance with {1_MinorCivName:textkey} if we don't get some influence soon. They need help fighting against the {2_LongCivName:textkey}; if we declare war on that civlization we can keep our alliance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_ROUTE">
+			<Text>We are going to lose our alliance with {1_MinorCivName:textkey} if we don't get some influence soon. They want us to build a route from our capital to their city; if we do that we can keep our alliance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_KILL_CAMP">
+			<Text>We are going to lose our alliance with {1_MinorCivName:textkey} if we don't get some influence soon. They want us to destroy a nearby barbarian camp; if we do that we can keep our alliance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_CONNECT_RESOURCE">
+			<Text>We are going to lose our alliance with {1_MinorCivName:textkey} if we don't get some influence soon. They want us to connect {2_ResourceName:textkey}; if we do so we can get more influence to maintain our alliance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_CONSTRUCT_WONDER">
+			<Text>We are going to lose our alliance with {1_MinorCivName:textkey} if we don't get some influence soon. They want us to build the {@2_BldgName}; if we do so we can get more influence to maintain our alliance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_GREAT_PERSON">
+			<Text>We are going to lose our alliance with {1_MinorCivName:textkey} if we don't get some influence soon. They want us to get a {@2_UnitName}; if we do so we can get more influence to maintain our alliance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_KILL_CITY_STATE">
+			<Text>We are going to lose our alliance with {1_MinorCivName:textkey} if we don't get some influence soon. They want us to do their dirty work and defeat {2_MinorCivName:textkey}; doing so could aggrivate other parties, but it would sustain our alliance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_FIND_PLAYER">
+			<Text>We are going to lose our alliance with {1_MinorCivName:textkey} if we don't get some influence soon. If we want to maintain the alliance, we can explore and try to get in contact with the {2_LongCivName:textkey} to gain more influence.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_FIND_NATURAL_WONDER">
+			<Text>We are going to lose our alliance with {1_MinorCivName:textkey} if we don't get some influence soon. We can get some easy influence to maintain the relationship if we find a Natural Wonder, so let's get exploring!</Text>
+		</Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_ALLY_QUEST_CLEAR_BARBARIANS">
+      <Text>We are going to lose our alliance with {1_MinorCivName:textkey} if we don't get some influence soon. If we want to maintain the alliance, try killing barbarians in or adjacent to their territory.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP">
+			<Text>We are going to lose {1_MinorCivName:textkey} as a friend if we don't do something soon. If you think the relationship is worth maintaining, we should act to increase our influence over them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_WAR_WITH_MAJOR">
+			<Text>We are going to lose {1_MinorCivName:textkey} as a friend if we don't do something soon. They need help fighting against the {2_LongCivName:textkey}; if we declare war on that civlization we can remain friends.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_ROUTE">
+			<Text>We are going to lose {1_MinorCivName:textkey} as a friend if we don't do something soon. They want us to build a route from our capital to their city; if we do that we can remain friends.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_KILL_CAMP">
+			<Text>We are going to lose {1_MinorCivName:textkey} as a friend if we don't do something soon. They want us to destroy a nearby barbarian camp; if we do that we can keep remain friends.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_CONNECT_RESOURCE">
+			<Text>We are going to lose {1_MinorCivName:textkey} as a friend if we don't do something soon. They want us to connect {2_ResourceName:textkey}; if we do so we can get more influence to remain friends.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_CONSTRUCT_WONDER">
+			<Text>We are going to lose {1_MinorCivName:textkey} as a friend if we don't do something soon. They want us to build the {@2_BldgName}; if we do so we can get more influence to remain friends.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_GREAT_PERSON">
+			<Text>We are going to lose {1_MinorCivName:textkey} as a friend if we don't do something soon. They want us to get a {@2_UnitName}; if we do so we can get more influence to remain friends.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_KILL_CITY_STATE">
+			<Text>We are going to lose {1_MinorCivName:textkey} as a friend if we don't do something soon. They want us to do their dirty work and defeat {2_MinorCivName:textkey}; doing so could aggrivate other parties, but it would sustain our friendship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_FIND_PLAYER">
+			<Text>We are going to lose {1_MinorCivName:textkey} as a friend if we don't do something soon. If we want to maintain the friendship, we can explore and try to get in contact with the {2_LongCivName:textkey} to gain more influence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_FIND_NATURAL_WONDER">
+			<Text>We are going to lose {1_MinorCivName:textkey} as a friend if we don't do something soon. We can get some easy influence to maintain the relationship if we find a Natural Wonder, so let's get exploring!</Text>
+		</Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_ALMOST_LOST_CITY_STATE_FRIENDSHIP_QUEST_CLEAR_BARBARIANS">
+      <Text>We are going to lose {1_MinorCivName:textkey} as a friend if we don't get some influence soon. If we want to maintain the friendship, try killing barbarians in or adjacent to their territory.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE">
+			<Text>We can gain influence over {1_MinorCivName:textkey} if we gave them some money or a unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_WAR_WITH_MAJOR">
+			<Text>If we want to improve our relations with {1_MinorCivName:textkey}, they need help fighting against the {2_LongCivName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_ROUTE">
+			<Text>Using our Workers to build a route from our capital to {1_MinorCivName:textkey} would improve our relationship.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_KILL_CAMP">
+			<Text>We can gain influence over {1_MinorCivName:textkey} if we destroy a barbarian camp near them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_CONNECT_RESOURCE">
+			<Text>We can gain influence over {1_MinorCivName:textkey} if we connect {2_ResourceName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_CONSTRUCT_WONDER">
+			<Text>We can gain influence over {1_MinorCivName:textkey} if we build the {@2_BldgName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_GREAT_PERSON">
+			<Text>{1_MinorCivName:textkey} would be totally impressed if we got a {@2_UnitName}. We should do it!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_KILL_CITY_STATE">
+			<Text>{1_MinorCivName:textkey} wants us to wipe out {2_MinorCivName:textkey}! Why do they want that? Sounds cruel, but I'm sure it's for a perfectly valid reason.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_FIND_PLAYER">
+			<Text>{1_MinorCivName:textkey} wants to be in contact with {2_CivName:textkey}. If we find them in our exploration it would provide some easy influence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_FIND_NATURAL_WONDER">
+			<Text>Discovering a Natural Wonder would get us influence with {1_MinorCivName:textkey}.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_BEFRIEND_CITY_STATE_QUEST_CLEAR_BARBARIANS">
+      <Text>Killing barbarians in or adjacent to {1_MinorCivName:textkey} territory will provide us some influence over them.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_DIPLOSTRATEGY_LIBERATE_CITY_STATE">
+			<Text>{1_MinorCivName:textkey} has been captured by the {2_LongCivName:textkey}. If we were to capture the city and liberate it, we would restore the city-state of {3_MinorCivName:textkey} and we would get a tremendous amount of influence over them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCIENCESTRATEGY_INFO">
+			<Text>Our civilization is producing {1_Num} [ICON_RESEARCH]science with our {2_Num} [ICON_CITIZEN] population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCIENCESTRATEGY_INFO_DOING_POORLY">
+			<Text>Our civilization is producing {1_Num} [ICON_RESEARCH]science with our {2_Num} [ICON_CITIZEN] population. We should focus on improving our research by building research buildings like libraries and universities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCIENCESTRATEGY_INFO_DOING_WELL">
+			<Text>Our civilization is producing {1_Num} [ICON_RESEARCH]science with our {2_Num} [ICON_CITIZEN] population. Now that's efficiency!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCIENCESTRATEGY_BANKRUPT">
+			<Text>Our research is being crippled by our lack of [ICON_GOLD]gold. Without funds for research, we will fall hopelessly behind and will be but a quaint footnote in history.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCIENCESTRATEGY_TECH_THAT_PROVIDES_SCIENCE_BUILDING_1">
+			<Text>If we research {1_TechName:textkey}, we'll be able to construct the {@2_BldgName} in our cities. We can push our research to new heights!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCIENCESTRATEGY_TECH_THAT_PROVIDES_SCIENCE_BUILDING_2">
+			<Text>If we research {1_TechName:textkey}, we'll be able to construct the {@2_BldgName} and the {@3_BldgName} in our cities. We can push our research to new heights!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCIENCESTRATEGY_TECH_THAT_PROVIDES_SCIENCE_BUILDING_3">
+			<Text>If we research {1_TechName:textkey}, we'll be able to construct the {@2_BldgName}, the {@3_BldgName}, and the {@4_BldgName} in our cities. That's a lot of research buildings!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCIENCESTRATEGY_RESEARCH_BUILDING_IN_BIG_CITY">
+			<Text>{1_CityName:textkey} has grown to a large population and it lacks a {@2_BldgName}. If we build a {@3_BldgName} there, we will greatly increase our [ICON_RESEARCH]science output and make significant progress.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCIENCESTRATEGY_RESEARCH_MILITARY_UNITS">
+			<Text>If we research {1_TechName:textkey}, we get access to the {@2_UnitName}. Having a modern military is key to safety and effective attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCIENCESTRATEGY_RESEARCH_MILITARY_BUILDING">
+			<Text>If we research {1_TechName:textkey}, we get access to the {@2_BldgName}, which, when constructed, provides promotions to units built in that city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYIMPROVEMENTSTRATEGY_PLUG_UP_RESOURCES_HAVE_ZERO">
+			<Text>We don't have any {1_ResourceName:textkey} and there is a source near {2_CityName:textkey}. Send a Worker out to improve that tile so we can get access to that resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYIMPROVEMENTSTRATEGY_PLUG_UP_RESOURCES_HAVE_MORE">
+			<Text>There is a source of {1_ResourceName:textkey} near {2_CityName:textkey}. We already have this resource, but we could use any additional that we have in diplomatic trades.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCESTRATEGY_TRADE_LUXURIES">
+			<Text>We have additional {1_ResourceName:textkey} that we can use for trade and the {2_LongCivName:textkey} doesn't have any. We should try to strike a deal with them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCESTRATEGY_TRADE_STRATEGIC">
+			<Text>We have additional {1_ResourceName:textkey} that we can use for trade and the {2_LongCivName:textkey} doesn't have any. Carefully consider giving them this resource, because they can use it to train units that may eventually be used against us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BASESTRATEGY_NOTHING_TO_SAY_ECONOMIC">
+			<Text>Please excuse me; I regret that I don't have much useful counsel at this time. Perhaps you should build more cities?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BASESTRATEGY_NOTHING_TO_SAY_MILITARY">
+			<Text>Build more units! Or not. I don't have much advice at this point. I may think of something if you ask later.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BASESTRATEGY_NOTHING_TO_SAY_SCIENCE">
+			<Text>This well of wisdom is dry for the moment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BASESTRATEGY_NOTHING_TO_SAY_FOREIGN">
+			<Text>Consider what our enemies might be planning, but not too much. If you did that I wouldn't have a job!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_A_CITY_MCFLY_ECONOMIC">
+			<Text>I think it would help our civilization if we found a city since we currently don't have one.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_A_CITY_MCFLY_MILITARY">
+			<Text>Found a city so we can start building more military units!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_A_CITY_MCFLY_SCIENCE">
+			<Text>Can we please found a city so I can put down my equipment somewhere? My arms are killing me.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_A_CITY_MCFLY_FOREIGN">
+			<Text>To begin diplomatic relations, we should probably found a city so other civilizations will know where to find us if they want to talk.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MODAL_TITLE">
+			<Text>Combat Information</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MODAL_CONFIRM">
+			<Text>I want to attack anyway</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MODAL_CANCEL">
+			<Text>Let me reconsider</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_MODAL_DONT_SHOW_ME_AGAIN">
+			<Text>Thanks for the information, but don't remind me again.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_DONT_SHOW_AGAIN">
+			<Text>Please don't tell me this again.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_INFORMATION">
+			<Text>Advisor Information</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_COUNSEL">
+			<Text>Advisor Counsel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_CONSTRUCTION_ADVISOR_RECOMMENDATION_MILITARY">
+			<Text>Your Military Advisor recommends building this here.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_CONSTRUCTION_ADVISOR_RECOMMENDATION_ECONOMIC">
+			<Text>Your Economic Advisor recommends building this here.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_CONSTRUCTION_ADVISOR_RECOMMENDATION_FOREIGN">
+			<Text>Your Foreign Advisor recommends building this here.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_CONSTRUCTION_ADVISOR_RECOMMENDATION_SCIENCE">
+			<Text>Your Science Advisor recommends building this here.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CHOOSER_ADVISOR_RECOMMENDATION_MILITARY">
+			<Text>Your Military Advisor recommends researching this technology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CHOOSER_ADVISOR_RECOMMENDATION_ECONOMIC">
+			<Text>Your Economic Advisor recommends researching this technology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CHOOSER_ADVISOR_RECOMMENDATION_FOREIGN">
+			<Text>Your Foreign Advisor recommends researching this technology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_CHOOSER_ADVISOR_RECOMMENDATION_SCIENCE">
+			<Text>Your Science Advisor recommends researching this technology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BEGIN_GAME_BUTTON">
+			<Text>Begin Your Journey</Text>
+		</Row>
+    <Row Tag="TXT_KEY_BEGIN_GAME_BUTTON_CONTINUE">
+      <Text>Continue Your Journey</Text>
+    </Row>
+  </Language_en_US>
+</GameData>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="Projects">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text"/>
+		<Column name="Civilopedia" type="text"/>
+		<Column name="Strategy" type="text"/>
+		<Column name="Help" type="text"/>
+		<Column name="Requirements" type="text"/>
+		<Column name="MaxGlobalInstances" type="integer" default="0"/>
+		<Column name="MaxTeamInstances" type="integer" default="0"/>
+		<Column name="Cost" type="integer" default="0"/>
+		<Column name="NukeInterception" type="integer" default="0"/>
+		<Column name="CultureBranchesRequired" type="integer" default="0"/>
+		<Column name="TechShare" type="integer" default="0"/>
+		<Column name="VictoryDelayPercent" type="integer" default="0"/>
+		<Column name="Spaceship" type="boolean" default="false"/>
+		<Column name="Religious" type="boolean" default="false"/>
+		<Column name="AllowsNukes" type="boolean" default="false"/>
+		<Column name="MovieDefineTag" type="text" default="NULL"/>
+		<Column name="VictoryPrereq" type="text" default="NULL"/>
+		<Column name="TechPrereq" type="text" default="NULL"/>
+		<Column name="EveryoneSpecialUnit" type="text" default="NULL"/>
+		<Column name="CreateSound" type="text" default="NULL"/>
+		<Column name="AnyonePrereqProject" type="text" default="NULL"/>
+		<Column name="PortraitIndex" type="integer" default="-1"/>
+		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
+	</Table>
+	<Table name="Project_Flavors">
+		<Column name="ProjectType" type="text" reference="Projects(Type)"/>
+		<Column name="FlavorType" type="text" reference="Flavors(Type)"/>
+		<Column name="Flavor" type="integer" notnull="true"/>
+	</Table>
+	<Table name="Project_Prereqs">
+		<Column name="ProjectType" type="text" reference="Projects(Type)"/>
+		<Column name="PrereqProjectType" type="text" reference="Projects(Type)"/>
+		<Column name="AmountNeeded" type="integer" default="1"/>
+	</Table>
+	<Table name="Project_VictoryThresholds">
+		<Column name="ProjectType" type="text" reference="Projects(Type)"/>
+		<Column name="VictoryType" type="text" reference="Victories(Type)"/>
+		<Column name="Threshold" type="integer" notnull="true"/>
+		<Column name="MinThreshold" type="integer" default="0"/>
+	</Table>
+	<Table name="Project_ResourceQuantityRequirements">
+		<Column name="ProjectType" type="text" reference="Projects(Type)"/>
+		<Column name="ResourceType" type="text" reference="Resources(Type)"/>
+		<Column name="Quantity" type="integer" notnull="true"/>
+	</Table>
+	<!-- Table data -->
+	<Projects>
+		<Row>
+			<ID>0</ID>
+			<Type>PROJECT_MANHATTAN_PROJECT</Type>
+			<Description>TXT_KEY_PROJECT_MANHATTAN_PROJECT</Description>
+			<Help>TXT_KEY_PROJECT_MANHATTAN_PROJECT_HELP</Help>
+			<Civilopedia>TXT_KEY_PROJECT_MANHATTAN_PROJECT_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_MANHATTAN_PROJECT_STRATEGY</Strategy>
+			<TechPrereq>TECH_ATOMIC_THEORY</TechPrereq>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>1</MaxTeamInstances>
+			<Cost>750</Cost>
+			<AllowsNukes>true</AllowsNukes>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>41</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>PROJECT_APOLLO_PROGRAM</Type>
+			<Description>TXT_KEY_PROJECT_APOLLO_PROGRAM</Description>
+			<Help>TXT_KEY_PROJECT_APOLLO_PROGRAM_HELP</Help>
+			<Civilopedia>TXT_KEY_PROJECT_APOLLO_PROGRAM_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_APOLLO_PROGRAM_STRATEGY</Strategy>
+			<VictoryPrereq>VICTORY_SPACE_RACE</VictoryPrereq>
+			<TechPrereq>TECH_ROCKETRY</TechPrereq>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>1</MaxTeamInstances>
+			<Cost>750</Cost>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>33</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>PROJECT_SS_COCKPIT</Type>
+			<Description>TXT_KEY_SS_COCKPIT</Description>
+			<Help>TXT_KEY_UNIT_HELP_SS_PART</Help>
+			<Civilopedia>TXT_KEY_PROJECT_SS_COCKPIT_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_SS_COCKPIT_STRATEGY</Strategy>
+			<VictoryPrereq>VICTORY_SPACE_RACE</VictoryPrereq>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>1</MaxTeamInstances>
+			<Cost>-1</Cost>
+			<Spaceship>true</Spaceship>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>36</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>PROJECT_SS_STASIS_CHAMBER</Type>
+			<Description>TXT_KEY_SS_STASIS_CHAMBER</Description>
+			<Help>TXT_KEY_UNIT_HELP_SS_PART</Help>
+			<Civilopedia>TXT_KEY_PROJECT_SS_STASIS_CHAMBER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_SS_STASIS_CHAMBER_STRATEGY</Strategy>
+			<VictoryPrereq>VICTORY_SPACE_RACE</VictoryPrereq>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>1</MaxTeamInstances>
+			<Cost>-1</Cost>
+			<Spaceship>true</Spaceship>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>38</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>PROJECT_SS_ENGINE</Type>
+			<Description>TXT_KEY_SS_ENGINE</Description>
+			<Help>TXT_KEY_UNIT_HELP_SS_PART</Help>
+			<Civilopedia>TXT_KEY_PROJECT_SS_ENGINE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_SS_ENGINE_STRATEGY</Strategy>
+			<VictoryPrereq>VICTORY_SPACE_RACE</VictoryPrereq>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>1</MaxTeamInstances>
+			<Cost>-1</Cost>
+			<Spaceship>true</Spaceship>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>39</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>PROJECT_SS_BOOSTER</Type>
+			<Description>TXT_KEY_SS_BOOSTER</Description>
+			<Help>TXT_KEY_UNIT_HELP_SS_BOOSTER</Help>
+			<Civilopedia>TXT_KEY_PROJECT_SS_BOOSTER_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_SS_BOOSTER_STRATEGY</Strategy>
+			<VictoryPrereq>VICTORY_SPACE_RACE</VictoryPrereq>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>3</MaxTeamInstances>
+			<Cost>-1</Cost>
+			<Spaceship>true</Spaceship>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>35</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>PROJECT_UTOPIA_PROJECT</Type>
+			<Description>TXT_KEY_PROJECT_UTOPIA_PROJECT</Description>
+			<Help>TXT_KEY_PROJECT_UTOPIA_PROJECT_HELP</Help>
+			<Civilopedia>TXT_KEY_PROJECT_UTOPIA_PROJECT_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_PROJECT_UTOPIA_PROJECT_STRATEGY</Strategy>
+			<VictoryPrereq>VICTORY_CULTURAL</VictoryPrereq>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>1</MaxTeamInstances>
+			<Cost>1500</Cost>
+			<CultureBranchesRequired>5</CultureBranchesRequired>
+			<IconAtlas>BW_ATLAS_2</IconAtlas>
+			<PortraitIndex>43</PortraitIndex>
+		</Row>
+	</Projects>
+	<Project_Prereqs>
+		<Row>
+			<ProjectType>PROJECT_SS_COCKPIT</ProjectType>
+			<PrereqProjectType>PROJECT_APOLLO_PROGRAM</PrereqProjectType>
+			<AmountNeeded>1</AmountNeeded>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_SS_STASIS_CHAMBER</ProjectType>
+			<PrereqProjectType>PROJECT_APOLLO_PROGRAM</PrereqProjectType>
+			<AmountNeeded>1</AmountNeeded>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_SS_ENGINE</ProjectType>
+			<PrereqProjectType>PROJECT_APOLLO_PROGRAM</PrereqProjectType>
+			<AmountNeeded>1</AmountNeeded>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_SS_BOOSTER</ProjectType>
+			<PrereqProjectType>PROJECT_APOLLO_PROGRAM</PrereqProjectType>
+			<AmountNeeded>1</AmountNeeded>
+		</Row>
+	</Project_Prereqs>
+	<Project_VictoryThresholds>
+		<Row>
+			<ProjectType>PROJECT_SS_COCKPIT</ProjectType>
+			<VictoryType>VICTORY_SPACE_RACE</VictoryType>
+			<Threshold>1</Threshold>
+			<MinThreshold>1</MinThreshold>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_SS_STASIS_CHAMBER</ProjectType>
+			<VictoryType>VICTORY_SPACE_RACE</VictoryType>
+			<Threshold>1</Threshold>
+			<MinThreshold>1</MinThreshold>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_SS_ENGINE</ProjectType>
+			<VictoryType>VICTORY_SPACE_RACE</VictoryType>
+			<Threshold>1</Threshold>
+			<MinThreshold>1</MinThreshold>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_SS_BOOSTER</ProjectType>
+			<VictoryType>VICTORY_SPACE_RACE</VictoryType>
+			<Threshold>3</Threshold>
+			<MinThreshold>3</MinThreshold>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_UTOPIA_PROJECT</ProjectType>
+			<VictoryType>VICTORY_CULTURAL</VictoryType>
+			<Threshold>1</Threshold>
+		</Row>
+	</Project_VictoryThresholds>
+	<Project_Flavors>
+		<Row>
+			<ProjectType>PROJECT_APOLLO_PROGRAM</ProjectType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>250</Flavor>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_APOLLO_PROGRAM</ProjectType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_APOLLO_PROGRAM</ProjectType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+    <Row>
+      <ProjectType>PROJECT_UTOPIA_PROJECT</ProjectType>
+      <FlavorType>FLAVOR_CULTURE</FlavorType>
+      <Flavor>1000</Flavor>
+    </Row>
+    <Row>
+      <ProjectType>PROJECT_MANHATTAN_PROJECT</ProjectType>
+      <FlavorType>FLAVOR_NUKE</FlavorType>
+      <Flavor>250</Flavor>
+    </Row>
+    <Row>
+      <ProjectType>PROJECT_MANHATTAN_PROJECT</ProjectType>
+      <FlavorType>FLAVOR_OFFENSE</FlavorType>
+      <Flavor>20</Flavor>
+    </Row>
+    <Row>
+      <ProjectType>PROJECT_MANHATTAN_PROJECT</ProjectType>
+      <FlavorType>FLAVOR_DEFENSE</FlavorType>
+      <Flavor>20</Flavor>
+    </Row>
+  </Project_Flavors>
+</GameData>

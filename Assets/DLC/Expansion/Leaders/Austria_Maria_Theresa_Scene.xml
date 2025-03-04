@@ -1,0 +1,15 @@
+<LeaderScene FarClip="100000" lights ="Austria_Maria_Theresa_Lights.gr2" camera="Austria_Maria_Theresa_Camera.fxsxml" ColorKey="Maria_COLORKEY.tga" cubemap_prefix ="maria" FallbackImage="MariaTheresa.dds">
+
+ 
+<DOFSettings max_width="1.63" blur_distance="690" ramp_distance="350"  ></DOFSettings> 
+
+
+
+ <LeaderObject  model="Austria_Maria_Theresa.fxsxml"> </LeaderObject>
+<BackgroundObject model="Austria_Maria_Theresa_Scene.fxsxml" ></BackgroundObject>
+<BackgroundObject model="Austria_Maria_Theresa_Scene_VFX.fxsxml" ></BackgroundObject>
+
+</LeaderScene>
+
+
+

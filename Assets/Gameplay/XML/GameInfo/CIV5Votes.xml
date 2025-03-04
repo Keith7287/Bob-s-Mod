@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- Table definition -->
+    <Table name="Votes">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" notnull="true" unique="true" />
+        <Column name="Description" type="text" />
+        <Column name="PopulationThreshold" type="integer" default="0" />
+        <Column name="MinVoters" type="integer" default="0" />
+        <Column name="CityVoting" type="boolean" default="false" />
+        <Column name="CivVoting" type="boolean" default="false" />
+        <Column name="SecretaryGeneral" type="boolean" default="false" />
+        <Column name="Victory" type="boolean" default="false" />
+        <Column name="FreeTrade" type="boolean" default="false" />
+        <Column name="NoNukes" type="boolean" default="false" />
+        <Column name="DefensivePact" type="boolean" default="false" />
+        <Column name="OpenBorders" type="boolean" default="false" />
+        <Column name="ForcePeace" type="boolean" default="false" />
+        <Column name="ForceNoTrade" type="boolean" default="false" />
+        <Column name="ForceWar" type="boolean" default="false" />
+        <Column name="AssignCity" type="boolean" default="false" />
+    </Table>
+
+    <Table name="Vote_DiploVotes">
+        <Column name="VoteType" type="text" reference="Votes(Type)" />
+        <Column name="DiploVoteType" type="text" />
+    </Table>
+
+    <!-- Table data -->
+    <Votes>
+        <Row>
+            <ID>0</ID>
+            <Type>VOTE_SECRETARY_GENERAL</Type>
+            <Description>TXT_KEY_VOTE_SECRETARY_GENERAL</Description>
+            <PopulationThreshold>40</PopulationThreshold>
+            <MinVoters>3</MinVoters>
+            <SecretaryGeneral>true</SecretaryGeneral>
+        </Row>
+    </Votes>
+
+    <Vote_DiploVotes>
+        <Row>
+            <VoteType>VOTE_SECRETARY_GENERAL</VoteType>
+            <DiploVoteType>DIPLOVOTE_UN</DiploVoteType>
+        </Row>
+    </Vote_DiploVotes>
+</GameData>

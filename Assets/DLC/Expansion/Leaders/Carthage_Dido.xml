@@ -1,0 +1,11 @@
+<LeaderScene FarClip="100000" lights="Carthage_Dido_Lights.gr2" camera="Carthage_Dido_Camera.fxsxml" ColorKey="Dido_COLORKEY.tga" cubemap_prefix ="Dido" FallbackImage="Dido.dds" >
+
+
+<DOFSettings max_width="6.45" blur_distance="1800" ramp_distance="1500" ></DOFSettings>
+
+ 
+  <LeaderObject  model="Carthage_Dido.fxsxml"> </LeaderObject>
+  <BackgroundObject model="Carthage_Dido_Scene.fxsxml" ></BackgroundObject>
+  <BackgroundObject model="Carthage_Dido_Scene_VFX.fxsxml" ></BackgroundObject>
+
+</LeaderScene>

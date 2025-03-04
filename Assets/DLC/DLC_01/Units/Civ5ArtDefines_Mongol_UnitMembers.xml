@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GreatGeneral_Early_Khan ********************************************** -->
+<UnitMemberArtInfos>
+	<UnitMemberArtInfo>
+		<Type>ART_DEF_UNIT_MEMBER_GREATGENERAL_KHAN</Type>
+		<fScale>0.12</fScale>
+		<Granny>GreatGeneral_Early_Khan.fxsxml</Granny>
+		<Combat>
+			<Defaults>ART_DEF_TEMPLATE_DEFENSELESS_BASE</Defaults>
+		</Combat>
+		<MaterialTypeTag>CLOTH</MaterialTypeTag>
+		<MaterialTypeSoundOverrideTag>FLESH</MaterialTypeSoundOverrideTag>
+	</UnitMemberArtInfo>
+	<!-- U_Mongolian_Keshik ********************************************** -->
+	<UnitMemberArtInfo>
+		<Type>ART_DEF_UNIT_MEMBER_U_MONGOLIAN_KESHIK</Type>
+		<fScale>0.12</fScale>
+		<Granny>U_Mongolian_Keshik.fxsxml</Granny>
+		<Combat>
+			<Defaults>ART_DEF_TEMPLATE_MOUNTED_SINGLE</Defaults>
+			<bHasShortRangedAttack>1</bHasShortRangedAttack>
+			<bHasLongRangedAttack>1</bHasLongRangedAttack>
+			<bHasStationaryMelee>1</bHasStationaryMelee>
+			<bReformBeforeCombat>1</bReformBeforeCombat>
+			<Weapon>
+				<WeaponTypeTag>ARROW</WeaponTypeTag>
+				<WeaponTypeSoundOverrideTag>ARROW</WeaponTypeSoundOverrideTag>
+			</Weapon>
+			<Weapon>
+				<Usage>Vs_City</Usage>
+				<fVisKillStrengthMin>10.0</fVisKillStrengthMin>
+				<fVisKillStrengthMax>20.0</fVisKillStrengthMax>
+				<WeaponTypeTag>FLAMING_ARROW</WeaponTypeTag>
+			</Weapon>
+		</Combat>
+		<MaterialTypeTag>CLOTH</MaterialTypeTag>
+		<MaterialTypeSoundOverrideTag>FLESH</MaterialTypeSoundOverrideTag>
+	</UnitMemberArtInfo>
+</UnitMemberArtInfos>

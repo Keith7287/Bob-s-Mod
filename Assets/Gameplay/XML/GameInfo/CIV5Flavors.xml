@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="Flavors">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+	</Table>
+	<!-- Table data -->
+	<Flavors>
+		<Row>
+			<ID>0</ID>
+			<Type>FLAVOR_OFFENSE</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_DEFENSE</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_CITY_DEFENSE</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_MILITARY_TRAINING</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_RECON</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_RANGED</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_MOBILE</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_NAVAL</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_NAVAL_RECON</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_NAVAL_GROWTH</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_NAVAL_TILE_IMPROVEMENT</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_AIR</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_EXPANSION</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_GROWTH</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_TILE_IMPROVEMENT</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_INFRASTRUCTURE</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_PRODUCTION</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_GOLD</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_SCIENCE</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_CULTURE</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_HAPPINESS</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_GREAT_PEOPLE</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_WONDER</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_RELIGION</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_DIPLOMACY</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_SPACESHIP</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_WATER_CONNECTION</Type>
+		</Row>
+    <Row>
+      <Type>FLAVOR_NUKE</Type>
+    </Row>
+    <Row>
+      <Type>FLAVOR_ANTIAIR</Type>
+    </Row>
+    <Row>
+      <Type>FLAVOR_USE_NUKE</Type>
+    </Row>
+    <Row>
+      <Type>FLAVOR_AIR_CARRIER</Type>
+    </Row>
+  </Flavors>
+</GameData>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<!-- LocBuddy does not yet handle DLC scenarios so for now add the scenario text to the DLC package.-->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_1066_SCENARIO_TITLE">
+			<Text>1066: Year of Viking Destiny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_DESC">
+			<Text>King Edward the Confessor is dead. The throne of England is up for grabs. Can you lead your warriors to victory defeating the other Viking claimants to the throne?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_CIV5_DAWN_VIKING_TEXT">
+			<Text>SCENARIO DESCRIPTION[NEWLINE]Hail to thee, great Viking lord! King Edward the Confessor of England is dead. The Saxon Harold Godwinson, Under-king to Edward, has quickly seized the throne. But his claim is a tenuous one: William of Normandy, Harald Hardrada of Norway, and King Sweyn of Denmark are in line for the throne as well. Can you don the mantle of one of these Viking Lords and become the next great King of England? Board your ships and prove to the world your right to be Odin's chosen warrior.[NEWLINE][NEWLINE]VICTORY CONDITIONS[NEWLINE]You must complete the Domesday Book national wonder in London before time elapses to win the scenario. You must build 6 Domesday Shire Court buildings in cities originally controlled by Anglo-Saxon England before you can start the Domesday Book. These Shire Courts can only be constructed in cities 8 or more tiles from London.[NEWLINE][NEWLINE]SPECIAL RULES[NEWLINE]All 4 major powers are locked at war with each other for the entire scenario. The Science, Policy, and Happiness systems are all off. You will not gain any new technologies or social policies during the game. All cities you control or conquer can grow unchecked without worrying about Happiness. If you gain a city-state ally, their military units are placed under your control for the duration of the alliance. All units possess the Defensive Embarkation promotion.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_TURNSREMAINING">
+			<Text>Turns Left: {1_TurnsRemaining}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_HARDRADA_NAME">
+			<Text>Harald Hardrada</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_HARDRADA_SUBTITLE">
+			<Text>King of Norway</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_HARDRADA_LIVED">
+			<Text>c. 1015 - 1066 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_HARDRADA_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_HARDRADA_TEXT_1">
+			<Text>Harald Sigurdsson, also known as Harald "Hardrada" or Harald the Hard Ruler, was King of Norway from 1047 until 1066. Hardrada is remembered most notably for his invasion of England and his subsequent defeat at the Battle of Stamford Bridge in September 1066, which unofficially marks the end of the Viking Age. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_GODWINSON_NAME">
+			<Text>Harold Godwinson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_GODWINSON_SUBTITLE">
+			<Text>King of England</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_GODWINSON_LIVED">
+			<Text>c. 1022 - 1066 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_GODWINSON_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_GODWINSON_TEXT_1">
+			<Text>Harold Godwinson was briefly the King of England, ruling from January 1066 until his defeat at the Battle of Hastings in October of that same year, and was the last of the Anglo-Saxon kings. Despite having successfully warded off the invasion of Harald Hardrada in the north, Godwinson and his army would be obliterated in a day-long battle less than a month later by William the Conqueror. Godwinson, legend has it, fell to an arrow through the eye.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_WILLIAM_NAME">
+			<Text>William the Conqueror</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_WILLIAM_SUBTITLE">
+			<Text>Duke of Normandy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_WILLIAM_LIVED">
+			<Text>c. 1028 - 1087 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_WILLIAM_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_WILLIAM_TEXT_1">
+			<Text>William the Conqueror (also known as William I) was the leader of the Norman Conquest of England, and would rule as England's first Norman king. Having defeated the army of Harold Godwinson at the Battle of Hastings in October of 1066, William would eventually quash the English resistance and rule for over 20 years until his death in 1087.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_SWEYN_NAME">
+			<Text>Sweyn II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_SWEYN_SUBTITLE">
+			<Text>King of Denmark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_SWEYN_LIVED">
+			<Text>c. 1019 - c. 1075 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_SWEYN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LEADER_SWEYN_TEXT_1">
+			<Text>Sweyn II was King of Denmark from 1047 until 1074. During his rule, a longstanding feud with Harald Hardrada of Norway (who frequently attempted to conquer Sweyn) would lead to numerous battles between the two foes. During his lifetime Sweyn would father over 20 children, including 5 future kings of Denmark who would peacefully succeed one another for the next 60 years.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_CIV_ENGLAND_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_CIV_ENGLAND_TEXT_1">
+			<Text>With the death of Edward the Confessor in 1065, the English throne was quickly awarded to Harold Godwinson by the council of English noblemen known as the “Witenagemot”. Not long after, invasions by the Norwegian King Harald Hardrada and more importantly William, Duke of Normandy, would change the political landscape of England forever. Successfully defeating Harald at the Battle of Stamford Bridge in September of 1066, Godwinson would have to quickly regroup and head south to face William only a few short weeks later. However, the Norman armies led by William would prove too much for Godwinson. They would crush Harold's forces at the Battle of Hastings in 1066, leaving Harold dead and England open for the taking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_CIV_NORMANDY_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_CIV_NORMANDY_TEXT_1">
+			<Text>The Duchy of Normandy, formed in the region of France known as Rouen, was originally colonized by the Vikings of Scandinavia in the late 9th century AD.  Formally created by the signing of the Treaty of Saint-Clair-sur-Epte in 911, King Charles III of France would concede the territory to the Viking leader Rollo, creating the foundations of what came to be known as Normandy. William the Conqueror, the Duke of Normandy, would serve as its most famous leader, capturing the throne of England in 1066. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_CIV_NORWAY_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_CIV_NORWAY_TEXT_1">
+			<Text>Norway, under the rule of King Harald “Hard Ruler” Sigurdsson, would embark on numerous military campaigns against Denmark in an attempt to usurp the Danish throne during the 11th century. After the death of Magnus I in 1047, Harald disputed the notion that Sweyn II was the legitimate ruler of Denmark and the two became notorious rivals. Despite several attempts, Harald was never successful in conquering Sweyn, and instead set his sights on the English throne. In September of 1066, Harald would invade England, only to be killed at the Battle of Stamford Bridge by the armies of Harold Godwinson.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_CIV_DENMARK_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_CIV_DENMARK_TEXT_1">
+			<Text>The kingdom of Denmark, having thrived throughout the 8-11th centuries AD during the height of the Viking age, would become embroiled in an ongoing war with Norway during the early 11th century. Harald Hardrada, King of Norway, who disputed Sweyn's right to the Danish throne after the passing of King Magnus I in 1047, would become the primary rival of the Danish King Sweyn II.  For years the two would engage in military skirmishes, until finally reconciling after nearly 15 years when it became clear neither would be the victor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_TRAIT_CITY_STATE_FRIENDSHIP_SHORT">
+			<Text>Briton Allies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CASTLE_BUILDERS_SHORT">
+			<Text>Castle Builders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CASTLE_BUILDERS">
+			<Text>Swordsmen can construct the Motte and Bailey unique improvement in the same time it takes a Worker to build a Fort.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_SAXON_HUSCARL_TEXT">
+			<Text>The Anglo-Saxon Huscarls, the medieval equivalent of the modern bodyguard, were professionally trained and well-compensated soldiers who served the king and other nobility. Equipped with waist-length chainmail coats known as "Byrnies," and typically armed with battle-axes, the Huscarls were an intimidating defensive force throughout the 11th and 12th centuries. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SAXON_HUSCARL_STRATEGY">
+			<Text>The Huscarl is the Unique Unit for Anglo-Saxon England, replacing the Longswordsman. This Unit gains the Cover I and Bonus vs. Mounted (50) promotions for its ability to create shield walls when faced with attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SAXON_HUSCARL">
+			<Text>Powerful Medieval Melee Unit, strong against Mounted and Ranged Units. Possesses the Cover I and Bonus vs. Mounted (50) promotions.  Only the English may build it. Replaces the Longswordsman.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_UNITS_NORMAN_KNIGHT_TEXT">
+			<Text>The Knights of the Norman army who served during the conquest of England in the 11th century were equipped with knee-length shirts of chain-mail, known as "Hauberks," and typically wore a conical shaped helmet designed  (in theory) to deflect incoming arrows. Norman Knights were perhaps most famously known for carrying "Kite" shields, elongated shields designed to protect the mounted knight's leg while engaged in melee combat. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NORMAN_KNIGHT_STRATEGY">
+			<Text>The Norman Knight is the Norman Unique Unit, replacing the standard Knight. This Unit is the standard Knight augmented with the Blitz promotion, allowing it to attack more than once per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_NORMAN_KNIGHT">
+			<Text>Powerful Medieval Mounted Unit, weak to Pikemen. Possesses the Blitz promotion.  Only the Normans may build it. Replaces the standard Knight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_BUILDING_COURTHOUSE_HELP">
+			<Text>Provides 5 [ICON_GOLD] Gold per turn. Six of these must be built before the Domesday Book may be constructed in London. May only be built in a city 8 or more tiles from London that was originally controlled by Anglo-Saxon England.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_BUILDING_COURTHOUSE_STRATEGY">
+			<Text>Build Domesday Shire Courts to commission a survey of this shire of England. Once the building is complete you will gain tax revenue from the citizens of this region of England. When you have 6 of these courts completed, you are ready to build the Domesday Book in London and complete your conquest of England.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_BUILDING_COURTHOUSE_PEDIA">
+			<Text>The Domesday Shire Court, utilized during the reign of William the Conqueror for the purposes of tax assessment, was an assemblage of townspeople and local lords brought together for the Domesday survey. The Shire Court was loathed by the English populace, who begrudgingly reported their land and livestock holdings to the royal officers of the court. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_BUILDING_NATIONAL_COLLEGE_HELP">
+			<Text>Win the scenario by building this in London. May not be built until you have 6 Domesday Shire Courts in your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_BUILDING_NATIONAL_COLLEGE_STRATEGY">
+			<Text>The completion of the Domesday Book wonder means that your great survey of England is complete and you have become master of these lands. Build it to win the scenario.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_BUILDING_NATIONAL_COLLEGE_PEDIA">
+			<Text>The Domesday Book, documenting the livestock and land holdings of the people of England during the rule of William the Conqueror, was recorded during the Domesday survey in 1085 AD. Conceived of by William as a means to assess the unpaid taxes under Edward the Confessor, the Domesday would come to be known as "the Book of Judgement," as all entries made by the royal officers in the book were final. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_HADRIANS_WALL">
+			<Text>Hadrian's Wall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_HADRIANS_WALL_TEXT">
+			<Text>Hadrian's Wall, named for the Roman Emperor Hadrian who mandated its construction beginning in 122 AD, was a massive defensive fortification dividing the northern frontier of England. Roughly 73 miles long (117km), the wall extends from Bowness-on-Solway along the western coast, to Wallsend (once the location of the Roman fort Segedunum) on the eastern coast. Primarily built from limestone, over the course of several years following its construction, the defenses provided by the wall would be bolstered by more than a dozen full-size forts, housing up to 1,000 Roman soldiers each. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_MOTTE_BAILEY">
+			<Text>Motte and Bailey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_MOTTE_BAILEY_TEXT">
+			<Text>A design first attributed to the Normans in the 10th century, the motte-and-bailey was a type of elevated castle built on top of a raised earthwork mound. The Motte was formed by digging a trench around the prospective castle site. The leftover fill-dirt was then used to construct an artificial hill or mound, upon which the castle itself was built. The "Bailey" refers to the lower courtyard, typically enclosed by a large wall, containing a barracks, servants' quarters, and storage buildings. Any unit stationed within a Motte and Bailey receives a 100% defensive strength bonus. Additionally, any enemy unit which ends its turn next to a Motte and Bailey takes 3 damage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_MOTTE_BAILEY_HELP">
+			<Text>Built by Norman Swordsmen, the Motte and Bailey provides +100% [ICON_STRENGTH] Defensive Strength for any Unit stationed in this Tile. Any enemy unit which ends its turn next to the Motte and Bailey takes 3 damage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_MOTTE_BAILEY">
+			<Text>Construct a Motte and Bailey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_MOTTE_BAILEY_HELP">
+			<Text>+100% [ICON_STRENGTH] Defensive Strength for any Unit stationed in this Tile. Any enemy unit which ends its turn next to the Motte and Bailey takes 3 damage. Does NOT consume the unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_MOTTE_BAILEY_REC">
+			<Text>It will improve the [ICON_STRENGTH] Defense of any military unit stationed in this tile and cause damage to enemy units that end their turn adjacent.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_TAX_COLLECTION">
+			<Text>Tax collectors have returned from the shires of England.  {1_GoldCollected} [ICON_GOLD] Gold was collected from the townsfolk.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_NEW_RECRUITS">
+			<Text>New recruits have heard tales of the plunder and land available in England. You can find {1_NumUnits} new units near your capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_ALLY_GAINED">
+			<Text>Military units from the city state of {1_CityStateName} have joined your army!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_ALLY_LOST">
+			<Text>The units from the city state of {1_CityStateName} will now return home.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_BRIEFING">
+			<Text>Briefing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_LONDON_STATUS">
+			<Text>Control of London: {1_CivilizationName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_1066_SCENARIO_SHIRE_COURT_STATUS">
+			<Text>Shire Courts built: {1_NumBuildings}/6</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_ES_ES>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_CANNOT_BE_ADJACENT">
+      <Text>No puedes construir {1: plural 1?{1: gender masculine?un; feminine?una;}; other?{1: gender masculine?unos; other?unas;};} {1_ImprovementName} al lado de {1: plural 1?{1: gender masculine?otro; feminine?otra;}; other?{1: gender masculine?otros; other?otras;};} {1_ImprovementName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_NO_ADJACENT_LUXURY">
+      <Text>{@1_ImprovementName: plural 1?{1: gender masculine?Un {1} se debe; feminine?Una {1} se debe;}; other?{1: gender masculine?Unos {1} se deben; other?Unas {1} se deben;};} construir en una casilla adyacente a un recurso de lujo.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_NOT_IN_CITY_STATE_TERRITORY">
+      <Text>Solo se {1: plural 1?puede; other?pueden;} construir {1: plural 1?{1: gender masculine?un; feminine?una;}; other?{1: gender masculine?unos; other?unas;};} {1_ImprovementName} en el territorio de una ciudad-estado.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_CONNECTED">
+      <Text>La ciudad está comunicada [ICON_CONNECTED] con la capital [ICON_CAPITAL].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING1">
+      <Text>[COLOR_YELLOW]La intercepción por Caza o[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING2">
+      <Text>[COLOR_YELLOW]unidad antiaérea aumentará el daño[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_CITY_SAPPED">
+      <Text>Con apoyo de Torre de asedio</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EMPIRE_UNHAPPY_PENALTY">
+      <Text>Imperio Infeliz [ICON_HAPPINESS_3]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EMPIRE_VERY_UNHAPPY_PENALTY">
+      <Text>Imperio muy Infeliz [ICON_HAPPINESS_4]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_VISIBLE_AA_UNITS">
+      <Text>[COLOR_WARNING_TEXT]Unidades antiaéreas enemigas conocidas: {1_Number}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_ART_ARTIFACT_EMPTY_TOOLTIP">
+      <Text>Espacio de Gran obra de arte o Artefacto vacío</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_LITERATURE_EMPTY_TOOLTIP">
+      <Text>Espacio de Gran obra de la literatura vacío</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_MUSIC_EMPTY_TOOLTIP">
+      <Text>Espacio de Gran obra de la música vacío</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_TRADE_ROUTE">
+      <Text>Comunicación entre ciudades</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_TRADE_ROUTES">
+      <Text>Comunicaciones</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_ANARCHY">
+      <Text>[COLOR_NEGATIVE_TEXT]El imperio se encuentra sumido en la Anarquía debido a un cambio de ideología durante {1_Turns} {1: plural 1?turno; other?turnos;} más. Mientras se encuentre en este estado, el imperio no ganará nada de Ciencia [ICON_RESEARCH], Oro [ICON_GOLD], Cultura [ICON_CULTURE] o Fe [ICON_PEACE] y las ciudades no tendrán Producción [ICON_PRODUCTION] para construir nada[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CARNIVAL_EFFECT">
+      <Text>Gracias a tu bonificación única de Carnaval, el rendimiento de Turismo es del 100% con todas las civilizaciones y ganas Grandes escritores, artistas y músicos un 50% más rápido.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_CITY_COST">
+      <Text>Cada ciudad que tengas aumentará en un {1_Num}% el coste de las políticas sociales.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_FROM_BONUS_TURNS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] de un proyecto reciente del Congreso Mundial (turnos restantes: {2_TurnsLeft}).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY">
+      <Text>Como la Infelicidad [ICON_HAPPINESS_4] ha llegado a 20, ha estallado una rebelión en el imperio. Las ciudades pueden abandonar tu civilización y pasarse a la civilización que tenga más influencia cultural sobre tu pueblo.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_UNHAPPY">
+      <Text>Las ciudades solo crecerán a 1/4 de la velocidad normal mientras el imperio sea Infeliz [ICON_HAPPINESS_3].[NEWLINE]El rendimiento de Oro [ICON_GOLD] y Producción [ICON_PRODUCTION] se reduce un 2% por cada punto de Infelicidad. La misma penalización se aplica a las unidades en combate.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_VERY_UNHAPPY">
+      <Text>Como la Infelicidad [ICON_HAPPINESS_4] ha llegado a 10, hay malestar en el imperio. Pueden darse levantamientos y que unidades rebeldes (bárbaros) aparezcan en tu territorio. Esto ocurrirá cada pocos turnos hasta que arregles la situación.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_CITY_CONNECTIONS">
+      <Text>{1_Num} de comunicaciones [ICON_CONNECTED] entre tus ciudades y la capital [ICON_CAPITAL].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_ITR">
+      <Text>{1_Num} por rutas comerciales [ICON_TURNS_REMAINING] entre tus ciudades y ciudades de otras civilizaciones.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_TR">
+      <Text>{1_Num} de comunicaciones [ICON_CONNECTED] entre tus ciudades y la capital [ICON_CAPITAL].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_TRAITS">
+      <Text>{1_Num} de Tratados.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_LEAGUES">
+      <Text>{1_Happiness} del Congreso Mundial.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE_FROM_ITR">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] a [ICON_RESEARCH] por rutas comerciales [ICON_TURNS_REMAINING] entre tus ciudades y ciudades de otras civilizaciones.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TECH_CITY_COST">
+      <Text>Cada ciudad o ciudad títere [ICON_PUPPET] que tengas aumentará los costes de la tecnología en un {1_Num}%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_PUBLIC_OPINION">
+      <Text>{1_Num} de la opinión pública (el deseo de una nueva Ideología).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIQUE_GOLDEN_AGE_ANNOUNCE">
+      <Text>¡Carnaval!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CARGO_CAPACITY">
+      <Text>Capacidad de carga</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CARGO_CAPACITY_TT">
+      <Text>Número de unidades que puede transportar {1: gender masculine?el; feminine?la;} {1_UnitName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_TOURISM_STRENGTH_TT">
+      <Text>Esto indica la fuerza de la unidad cuando está dando una gira de conciertos. La fuerza va en base de la producción de Turismo [ICON_TOURISM] que tenía la civilización cuando nació el Músico.</Text>
+    </Row>
+  </Language_ES_ES>
+</GameData>

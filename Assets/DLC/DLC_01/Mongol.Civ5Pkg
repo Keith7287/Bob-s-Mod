@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Civ5Package>
+	<GUID>{293C1EE3-1176-44f6-AC1F-59663826DE74}</GUID>
+	<SteamApp>16865</SteamApp>
+	<Version>1</Version>
+	<Key>4f0c6ba9a124eb137f912cc47d88439e</Key>
+	<PTags>
+		<Tag>Version</Tag>
+	</PTags>
+	<Name>
+		<Value language="en_US">Mongolia</Value>
+	</Name>
+	<Description>
+		<Value language="en_US">Genghis Khan's Mongolia</Value>
+	</Description>
+	<TextData>Civ5_Dialog_GenghisKhan.xml</TextData>
+	<TextData>CIV5GameTextInfos_Units_Mongol.xml</TextData>
+	<TextData>CIV5GameTextInfos_Units_MongolScenario.xml</TextData>
+	<TextData>Civ5CivlopediaDLC_Mongolia.xml</TextData>
+	<TextData>CIV5GameTextInfos_Leaders_GenghisKhan.xml</TextData>
+	<TextData>CIV5GameTextInfos_Leaders_MongolScenario.xml</TextData>
+	<TextData>CIV5GameTextInfos_Civilizations_Mongol.xml</TextData>
+	<TextData>CIV5GameTextInfos_Civilizations_MongolScenario.xml</TextData>
+	<TextData>CIV5GameTextInfos_Mongol.xml</TextData>
+    	<TextData>CIV5GameTextInfos_MongolScenario.xml</TextData>
+	<TextData>CIV5GameText_Cities_Mongol.xml</TextData>
+	<TextData>CIV5GameText_Cities_MongolScenario.xml</TextData>
+	<TextData>CIV5GameTextInfos_CityStates_MongolScenario.xml</TextData>
+	<GameData>CIV5Leader_GenghisKhan.xml</GameData>
+	<GameData>CIV5Civilization_Mongol.xml</GameData>
+	<GameData>CIV5Traits_Mongol.xml</GameData>
+	<GameData>CIV5Units_Mongol.xml</GameData>
+	<GameData>CIV5UnitPromotions_Mongol.xml</GameData>
+	<GameData>Civ5ArtDefines_SV_Mongol_Units.xml</GameData>
+	<GameData>CIV5Diplomacy_Responses_GenghisKhan.xml</GameData>
+	<GameData>UnitUISounds_Mongol.xml</GameData>
+	
+	<AudioDefines>GenghisKhanAudioDefines.xml</AudioDefines>
+    	<AudioDefines>DawnOfMan_Speech_Mongolia_AudioDefines.xml</AudioDefines>
+	<AudioDefines>MongolScenarioAudioDefines.xml</AudioDefines>
+	<AudioScripts2D>GenghisKhanAudio2DScripts.xml</AudioScripts2D>
+	<AudioScripts2D>MongoliaAudio2DScripts.xml</AudioScripts2D>
+	<AudioScripts2D>MongolScenarioAudio2DScripts.xml</AudioScripts2D>
+    	<AudioScripts2D>DawnOfMan_Speech_Mongolia_Audio2DScripts.xml</AudioScripts2D>
+	<AudioScripts3D>U_Mongolian_Keshik3DScripts.xml</AudioScripts3D>
+	
+	<AudioGameData>MinorCivSounds_DLC01.xml</AudioGameData>
+	
+	<UnitArtDefines>Civ5ArtDefines_Mongol_Units.xml</UnitArtDefines>
+	<UnitArtDefines>Civ5ArtDefines_Mongol_UnitMembers.xml</UnitArtDefines>
+	
+	<Paks>
+		<File>MongolModels.fpk</File>
+		<File>MongolGehghis_KhanTextures.fpk</File>
+	</Paks>	
+</Civ5Package>

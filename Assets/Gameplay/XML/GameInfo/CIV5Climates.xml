@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- Table definition -->
+    <Table name="Climates">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" notnull="true" unique="true" />
+        <Column name="Description" type="text" />
+        <Column name="DesertPercentChange" type="integer" default="0" />
+        <Column name="JungleLatitude" type="integer" />
+        <Column name="HillRange" type="integer" />
+        <Column name="MountainPercent" type="integer" />
+        <Column name="SnowLatitudeChange" type="float" default="0.0" />
+        <Column name="TundraLatitudeChange" type="float" default="0.0" />
+        <Column name="GrassLatitudeChange" type="float" default="0.0" />
+        <Column name="DesertBottomLatitudeChange" type="float" default="0.0" />
+        <Column name="DesertTopLatitudeChange" type="float" default="0.0" />
+        <Column name="IceLatitude" type="float" />
+        <Column name="RandIceLatitude" type="float" />
+    </Table>
+
+    <!-- Table data -->
+    <Climates>
+        <Row>
+            <ID>0</ID>
+            <Type>CLIMATE_TEMPERATE</Type>
+            <Description>TXT_KEY_CLIMATE_TEMPERATE</Description>
+            <JungleLatitude>5</JungleLatitude>
+            <HillRange>5</HillRange>
+            <MountainPercent>25</MountainPercent>
+            <IceLatitude>0.95</IceLatitude>
+            <RandIceLatitude>0.25</RandIceLatitude>
+        </Row>
+        <Row>
+            <ID>1</ID>
+            <Type>CLIMATE_TROPICAL</Type>
+            <Description>TXT_KEY_CLIMATE_TROPICAL</Description>
+            <DesertPercentChange>-10</DesertPercentChange>
+            <JungleLatitude>2</JungleLatitude>
+            <HillRange>5</HillRange>
+            <MountainPercent>25</MountainPercent>
+            <SnowLatitudeChange>0.1</SnowLatitudeChange>
+            <TundraLatitudeChange>0.1</TundraLatitudeChange>
+            <GrassLatitudeChange>0</GrassLatitudeChange>
+            <IceLatitude>0.95</IceLatitude>
+            <RandIceLatitude>0.2</RandIceLatitude>
+        </Row>
+        <Row>
+            <ID>2</ID>
+            <Type>CLIMATE_ARID</Type>
+            <Description>TXT_KEY_CLIMATE_ARID</Description>
+            <DesertPercentChange>20</DesertPercentChange>
+            <JungleLatitude>6</JungleLatitude>
+            <HillRange>5</HillRange>
+            <MountainPercent>25</MountainPercent>
+            <DesertBottomLatitudeChange>-0.1</DesertBottomLatitudeChange>
+            <DesertTopLatitudeChange>0.1</DesertTopLatitudeChange>
+            <IceLatitude>0.95</IceLatitude>
+            <RandIceLatitude>0.2</RandIceLatitude>
+        </Row>
+        <Row>
+            <ID>3</ID>
+            <Type>CLIMATE_ROCKY</Type>
+            <Description>TXT_KEY_CLIMATE_ROCKY</Description>
+            <JungleLatitude>5</JungleLatitude>
+            <HillRange>7</HillRange>
+            <MountainPercent>35</MountainPercent>
+            <SnowLatitudeChange>-0.025</SnowLatitudeChange>
+            <TundraLatitudeChange>-0.05</TundraLatitudeChange>
+            <DesertTopLatitudeChange>-0.05</DesertTopLatitudeChange>
+            <IceLatitude>0.95</IceLatitude>
+            <RandIceLatitude>0.25</RandIceLatitude>
+        </Row>
+        <Row>
+            <ID>4</ID>
+            <Type>CLIMATE_COLD</Type>
+            <Description>TXT_KEY_CLIMATE_COLD</Description>
+            <DesertPercentChange>-10</DesertPercentChange>
+            <JungleLatitude>6</JungleLatitude>
+            <HillRange>5</HillRange>
+            <MountainPercent>25</MountainPercent>
+            <SnowLatitudeChange>-0.1</SnowLatitudeChange>
+            <TundraLatitudeChange>-0.15</TundraLatitudeChange>
+            <DesertBottomLatitudeChange>0</DesertBottomLatitudeChange>
+            <DesertTopLatitudeChange>-0.1</DesertTopLatitudeChange>
+            <IceLatitude>0.9</IceLatitude>
+            <RandIceLatitude>0.5</RandIceLatitude>
+        </Row>
+    </Climates>
+</GameData>

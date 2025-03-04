@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+
+<GameData>
+	<Language_en_US>
+
+    <!--General phrases -->
+    <!--Greeting (first time meeting) -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_FIRSTGREETING_1">
+      <Text>My, isn't this a pleasant surprise - what may I call you, oh mysterious stranger?  I am Theodora, beloved of Byzantium.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_FIRSTGREETING_2">
+      <Text>I am Theodora, mistress of all the world's wonders and beauties.  Impress me, stranger, and I may find you a fitting addition to my collection.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_FIRSTGREETING_3">
+      <Text>Although I have many admirers, you are among the most esteemed of my guests. You may call me Theodora, favored Empress of Byzantium.</Text>
+    </Row>
+    <!--Reacts to his bluff being called -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_WARBLUFF_1">
+      <Text>I like to see a little backbone in a person.  It's very encouraging.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_WARBLUFF_2">
+      <Text>I have underestimated you.  I find that ... exciting.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_WARBLUFF_3">
+      <Text>Never mind.  You will not always be so impervious to my charms.</Text>
+    </Row>
+    <!--Gloats after winning a war -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_WINWAR_1">
+      <Text>I'd say that was quite enjoyable, wouldn't you agree?  I do ever so much love winning.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_WINWAR_2">
+      <Text>I hope you've learned your lesson. I do dislike having to punish you so much.</Text>
+    </Row>
+    <!--Submissive after losing a war -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_LOSEWAR_1">
+      <Text>You may have won this round, but I wonder if you truly yet understand the game ...</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_LOSEWAR_2">
+      <Text>Tsk, life is boring if you always win.  Let's see what you do with this small opportunity.</Text>
+    </Row>
+    <!--Defeated and removed from game -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_DEFEATED_1">
+      <Text>The winds of change bring a frost which kills the delicate flower. You have destroyed what this nation held most dear.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_DEFEATED_2">
+      <Text>Like a child playing with toys you are.  My people will never love you, nor suffer this indignation gracefully.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_DEFEATED_3">
+      <Text>When the sun rises again it will weep for what it sees. The lifeblood of this civilization flows within me, and I am no more.</Text>
+    </Row>
+    
+    <!--Neutral -->
+    <!--Greetings (subsequent meetings) -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_GREETING_1">
+      <Text>Greetings, dear.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_GREETING_2">
+      <Text>Hello again.</Text>
+    </Row>
+    <!--Goodbye -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_GOODBYE_1">
+      <Text>Farewell.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_GOODBYE_2">
+      <Text>Goodbye.</Text>
+    </Row>
+    <!--Trade offer from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADE_YES_NEUTRAL">
+      <Text>We are agreed.</Text>
+    </Row>
+    <!--Trade offer from player - sweeten the deal -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>I am intrigued by your honeyed words, but I will need to hear more.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Can you do a little better?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>That's not quite good enough.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Almost ...</Text>
+    </Row>
+    <!--Trade offer from player - no -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADE_NO_NEUTRAL">
+      <Text>I am not interested.</Text>
+    </Row>
+    <!--Demand for tribute from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRIBUTE_YES_NEUTRAL">
+      <Text>You amuse me.  I see no reason to deny you this.</Text>
+    </Row> 
+    <!--Demand for tribute from player - no -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRIBUTE_NO_NEUTRAL">
+      <Text>My, you think yourself more important than you truly are. I think not.</Text>
+    </Row>
+    <!--Requests a trade -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADEREQUEST_NEUTRAL">
+      <Text>I have heard that you adept at certain kinds of ... interactions.  Show me.</Text>
+    </Row>
+    <!--Demands tribute -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_DEMANDTRIBUTE_NEUTRAL">
+      <Text>All of my suitors and courtiers are expected to grace my presence with gifts.</Text>
+    </Row>  
+    <!--Agrees -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_AGREE_SHORT_1">
+      <Text>But of course.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_AGREE_SHORT_2">
+      <Text>Very well then.</Text>
+    </Row>
+    <!--Disagrees -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_DISAGREE_SHORT_1">
+      <Text>I must refuse.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_DISAGREE_SHORT_2">
+      <Text>Sadly, no.</Text>
+    </Row>
+    <!--Let's hear it -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_LETSHEARIT_1">
+      <Text>Yes?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_LETSHEARIT_2">
+      <Text>Go ahead.</Text>
+    </Row>
+    
+    <!--Happy -->
+    <!--Greetings (subsequent meetings) -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_GREETING_3">
+      <Text>Welcome back.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_GREETING_4">
+      <Text>Darling!</Text>
+    </Row>
+    <!--Goodbye -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_GOODBYE_3">
+      <Text>Until we meet again.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_GOODBYE_4">
+      <Text>Farewell, dearest.</Text>
+    </Row>
+    <!--Trade offer from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADE_YES_HAPPY">
+      <Text>Agreed.</Text>
+    </Row>
+    <!--Trade offer from player - sweeten the deal -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Hmm ... I was too busy listening to your sonorous voice.  Try that again.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADE_NEEDMORE_HAPPY_2">
+      <Text>Is that the best you can do?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADE_NEEDMORE_HAPPY_3">
+      <Text>Almost, kitten.</Text>
+    </Row>
+    <!--Trade offer from player - no -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADE_NO_HAPPY">
+      <Text>Thank you, but not this time.</Text>
+    </Row>
+    <!--Demand for tribute from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRIBUTE_YES_HAPPY">
+      <Text>My, aren't you the forward one.  Perhaps you do deserve to be rewarded.</Text>
+    </Row>
+    <!--Demand for tribute from player - no -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRIBUTE_NO_HAPPY">
+      <Text>Alas, I have nothing of this kind to offer you.  Would you take something ... else in return?</Text>
+    </Row>
+    <!--Demands tribute -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_DEMANDTRIBUTE_HAPPY">
+      <Text>Darling, where's my gift?  You always bring one when you visit.</Text>
+    </Row>
+    <!--Requests a trade -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADEREQUEST_HAPPY">
+      <Text>Perhaps you would like to share in other activities as well.</Text>
+    </Row> 
+    <!--Agrees -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_AGREE_SHORT_3">
+      <Text>Of course, darling.</Text>
+    </Row> 
+    <!--Disagrees -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_DISAGREE_SHORT_3">
+      <Text>Certainly not.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_DISAGREE_SHORT_4">
+      <Text>That's unacceptable.</Text>
+    </Row> 
+    <!--Let's hear it -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_LETSHEARIT_3">
+      <Text>Yes, darling?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_LETSHEARIT_4">
+      <Text>I'm listening.</Text>
+    </Row>
+    
+    <!--Angry -->
+    <!--Greetings (subsequent meetings) -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_GREETING_5">
+      <Text>Well?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_GREETING_6">
+      <Text>What do you want?</Text>
+    </Row>
+    <!--Goodbye -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_GOODBYE_5">
+      <Text>That is all.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_GOODBYE_6">
+      <Text>Remove yourself.</Text>
+    </Row>
+    <!--Trade offer from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADE_YES_ANGRY">
+      <Text>Fine. Agreed.</Text>
+    </Row> 
+    <!--Trade offer from player - sweeten the deal -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Tsk.  I find your antics tiresome.  Improve your offer or go away.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADE_NEEDMORE_ANGRY_2">
+      <Text>That's not good enough.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADE_NEEDMORE_ANGRY_3">
+      <Text>You must do better than that.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADE_NEEDMORE_ANGRY_4">
+      <Text>Almost ...</Text>
+    </Row>
+    <!--Trade offer from player - no -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADE_NO_ANGRY">
+      <Text>No more.  I will not suffer your presence any longer.</Text>
+    </Row>  
+    <!--Demand for tribute from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRIBUTE_YES_ANGRY">
+      <Text>It galls me that I must agree to this ridiculousness.</Text>
+    </Row>
+    <!--Demand for tribute from player - no -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRIBUTE_NO_ANGRY">
+      <Text>You forget you are no longer in favor.  A thousand times no.</Text>
+    </Row>
+    <!--Demands tribute -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_DEMANDTRIBUTE_ANGRY">
+      <Text>If I must submit myself to your foolishness, I expect it to be made worthwhile.</Text>
+    </Row>
+    <!--Requests a trade -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_TRADEREQUEST_ANGRY">
+      <Text>I hope you disagree, so that I may offer this to more worthy individuals.</Text>
+    </Row> 
+    <!--Agrees -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_AGREE_SHORT_4">
+      <Text>Very well.</Text>
+    </Row>
+    <!--Disagrees -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_DISAGREE_SHORT_5">
+      <Text>Of course not.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_DISAGREE_SHORT_6">
+      <Text>That's unacceptable.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_DISAGREE_SHORT_7">
+      <Text>You cannot be serious!</Text>
+    </Row>
+    <!--Let's hear it -->
+    <Row Tag="TXT_KEY_LEADER_THEODORA_LETSHEARIT_5">
+      <Text>Out with it.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_LEADER_THEODORA_DECLAREWAR_1">
+      <Text>You have preyed upon my delicate senses. I would wallow in sorrow, but I think I shall find greater pleasure in destroying you.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_DECLAREWAR_2">
+      <Text>It is always a shame to destroy a thing of beauty.  Happily, you are not one.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_DECLAREWAR_3">
+      <Text>You don't return my gifts, and my messengers come back empty handed. I have come for that which is mine, with force.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_LEADER_THEODORA_ATTACKED_1">
+      <Text>Your true colors are shown at last. How dare you think you can do this to me?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_ATTACKED_2">
+      <Text>Now darling, tantrums are most unbecoming.  I shall have to teach you a lesson.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_THEODORA_ATTACKED_3">
+      <Text>What, did you think you were the only suitor?  Many will come to my aid - you are only one.</Text>
+    </Row>
+
+
+  </Language_en_US>
+</GameData>

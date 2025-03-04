@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    
+    <!-- Table definition -->
+    <Table name="Seasons">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" notnull="true" unique="true" />
+        <Column name="Description" type="text" notnull="true" />
+    </Table>
+    
+    <!-- Table data -->
+	<Seasons>
+		<Row>
+            <ID>0</ID>
+			<Type>SEASON_WINTER</Type>
+			<Description>TXT_KEY_SEASON_WINTER</Description>
+		</Row>
+		<Row>
+            <ID>1</ID>
+			<Type>SEASON_SPRING</Type>
+			<Description>TXT_KEY_SEASON_SPRING</Description>
+		</Row>
+		<Row>
+            <ID>2</ID>
+			<Type>SEASON_SUMMER</Type>
+			<Description>TXT_KEY_SEASON_SUMMER</Description>
+		</Row>
+		<Row>
+            <ID>3</ID>
+			<Type>SEASON_FALL</Type>
+			<Description>TXT_KEY_SEASON_FALL</Description>
+		</Row>
+	</Seasons>
+</GameData>

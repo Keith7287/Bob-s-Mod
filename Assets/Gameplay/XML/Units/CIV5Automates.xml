@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="Automates">
+		<!-- Basic info -->
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text"/>
+		<Column name="Description" type="text"/>
+		<Column name="Help" type="text" default=""/>
+		<Column name="DisabledHelp" type="text" default=""/>
+		<!-- Hotkey info -->
+		<Column name="HotKey" type="text"/>
+		<Column name="HotKeyAlt" type="text"/>
+		<Column name="HotKeyPriority" type="integer" default="0"/>
+		<Column name="HotKeyPriorityAlt" type="integer" default="0"/>
+		<Column name="OrderPriority" type="integer" default="0"/>
+		<Column name="AltDown" type="boolean" default="false"/>
+		<Column name="AltDownAlt" type="boolean" default="false"/>
+		<Column name="ShiftDown" type="boolean" default="false"/>
+		<Column name="ShiftDownAlt" type="boolean" default="false"/>
+		<Column name="CtrlDown" type="boolean" default="false"/>
+		<Column name="CtrlDownAlt" type="boolean" default="false"/>
+		<!-- Commands info -->
+		<Column name="Visible" type="boolean" default="false"/>
+		<Column name="ConfirmCommand" type="boolean" default="false"/>
+		<Column name="Automate" type="text"/>
+		<Column name="Command" type="text"/>
+		<Column name="IconIndex" type="integer" default="-1"/>
+		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
+	</Table>
+	<!-- Table data -->
+	<Automates>
+		<Row>
+			<ID>0</ID>
+			<Type>AUTOMATE_BUILD</Type>
+			<Description>TXT_KEY_ACTION_AUTOMATE_BUILD</Description>
+			<Help>TXT_KEY_ACTION_AUTOMATE_BUILD_HELP</Help>
+			<DisabledHelp/>
+			<HotKey>KB_A</HotKey>
+			<OrderPriority>1</OrderPriority>
+			<Command>COMMAND_AUTOMATE</Command>
+			<Automate>AUTOMATE_BUILD</Automate>
+			<Visible>true</Visible>
+			<IconIndex>6</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>AUTOMATE_EXPLORE</Type>
+			<Description>TXT_KEY_ACTION_AUTOMATE_EXPLORE</Description>
+			<Help>TXT_KEY_ACTION_AUTOMATE_EXPLORE_HELP</Help>
+      <DisabledHelp>TXT_KEY_ACTION_AUTOMATE_EXPLORE_DISABLED_HELP</DisabledHelp>>
+			<HotKey>KB_E</HotKey>
+			<OrderPriority>1</OrderPriority>
+			<Command>COMMAND_AUTOMATE</Command>
+			<Automate>AUTOMATE_EXPLORE</Automate>
+			<Visible>true</Visible>
+			<IconIndex>43</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+			
+		</Row>
+	</Automates>
+</GameData>

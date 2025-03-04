@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <ArtDefine_StrategicView>
+    <Row>
+      <StrategicViewType>ART_DEF_UNIT_U_SPANISH_CONQUISTADOR</StrategicViewType>
+      <TileType>Unit</TileType>
+      <Asset>SV_Conquistador.dds</Asset>
+    </Row>
+    <Row>
+      <StrategicViewType>ART_DEF_UNIT_U_SPANISH_TERCIO</StrategicViewType>
+      <TileType>Unit</TileType>
+      <Asset>SV_Tercio.dds</Asset>
+    </Row>
+    <Row>
+      <StrategicViewType>ART_DEF_UNIT_U_SPANISH_TREASURE_CART</StrategicViewType>
+      <TileType>Unit</TileType>
+      <Asset>SV_Treasure.dds</Asset>
+    </Row>
+    <Row>
+      <StrategicViewType>ART_DEF_UNIT_PRIVATEER</StrategicViewType>
+      <TileType>Unit</TileType>
+      <Asset>SV_Privateer.dds</Asset>
+    </Row>	
+	<Delete>
+      <StrategicViewType>ART_DEF_UNIT_U_INCAN_SLINGER</StrategicViewType>
+      <TileType>Unit</TileType>
+    </Delete>
+	<Row>
+      <StrategicViewType>ART_DEF_UNIT_U_INCAN_SLINGER</StrategicViewType>
+      <TileType>Unit</TileType>
+      <Asset>SV_Slinger.dds</Asset>
+    </Row>
+  </ArtDefine_StrategicView>
+</GameData>

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<!-- Sid Meier's Civilization V -->
+<!-- Copyright Firaxis Games 2010 -->
+<!-- -->
+<!-- Game Text Objects -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_UNIT_GREAT_PROPHET">
+			<Text>Great Prophet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MISSIONARY">
+			<Text>Missionary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INQUISITOR">
+			<Text>Inquisitor</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CELT_PICTISH_WARRIOR">
+			<Text>Pictish Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MAYAN_ATLATLIST">
+			<Text>Atlatlist</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BYZANTINE_DROMON">
+			<Text>Dromon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BYZANTINE_CATAPHRACT">
+			<Text>Cataphract</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGINIAN_FOREST_ELEPHANT">
+			<Text>African Forest Elephant</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARTHAGINIAN_QUINQUEREME">
+			<Text>Quinquereme</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HUN_HORSE_ARCHER">
+			<Text>Horse Archer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HUN_BATTERING_RAM">
+			<Text>Battering Ram</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AUSTRIAN_HUSSAR">
+			<Text>Hussar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MEHAL_SEFARI">
+			<Text>Mehal Sefari</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SWEDISH_CAROLEAN">
+			<Text>Carolean</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA">
+			<Text>Hakkapeliitta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COMPOSITE_BOWMAN">
+			<Text>Composite Bowman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GATLINGGUN">
+			<Text>Gatling Gun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GALLEASS">
+			<Text>Galleass</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_WAR_INFANTRY">
+			<Text>Great War Infantry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MARINE">
+			<Text>Marine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TRIPLANE">
+			<Text>Triplane</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WWI_BOMBER">
+			<Text>Great War Bomber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WWI_TANK">
+			<Text>Landship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MACHINE_GUN">
+			<Text>Machine Gun</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PRIVATEER">
+			<Text>Privateer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SEA_BEGGAR">
+			<Text>Sea Beggar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_ADMIRAL">
+			<Text>Great Admiral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_NAVALMELEE">
+			<Text>Naval Melee Units</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_NAVALRANGED">
+			<Text>Naval Ranged Units</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SPANISH_TERCIO">
+			<Text>Tercio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SPANISH_CONQUISTADOR">
+			<Text>Conquistador</Text>
+		</Row>
+		<!-- Great Admirals -->
+		<Row Tag="TXT_KEY_GREAT_PERSON_MATTHEW_PERRY">
+			<Text>Matthew Perry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_DAVID_FARRAGUT">
+			<Text>David Farragut</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GEORGE_DEWEY">
+			<Text>George Dewey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CHESTER_NIMITZ">
+			<Text>John Hawkins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FRANCIS_DRAKE">
+			<Text>Francis Drake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ANDREW_CUNNINGHAM">
+			<Text>Andrew Cunningham</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_COMTE_DE_GRASSE">
+			<Text>Comte de Grasse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ALFRED_VON_TIRPITZ">
+			<Text>Alfred von Tirpitz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ROGER_OF_LAURIA">
+			<Text>Roger of Lauria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ALVARO_DE_BAZAN">
+			<Text>Alvaro de Bazan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_DON_JOHN_OF_AUSTRIA">
+			<Text>Don John of Austria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FERNANDO_VILLAAMIL">
+			<Text>Fernando Villaamil</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PETER_TORDENSKJOLD">
+			<Text>Peter Tordenskjold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FYODOR_USHAKOV">
+			<Text>Fyodor Ushakov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOHN_PAUL_JONES">
+			<Text>John Paul Jones</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ZINOVY_ROZHESTVENSKI">
+			<Text>Zinovy Rozhestvenski</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_YI_SUN_SIN">
+			<Text>Yi Sun-sin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ERIK_THORVALDSSON">
+			<Text>Erik Thorvaldsson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LEIF_ERICSON">
+			<Text>Leif Ericson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HAYREDDIN_BARBAROSSA">
+			<Text>Hayreddin Barbarossa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TURGUT_REIS">
+			<Text>Turgut Reis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MURAT_REIS">
+			<Text>Murat Reis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HENRY_THE_NAVIGATOR">
+			<Text>Henry the Navigator</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AFONSO_DE_ALBUQUERQUE">
+			<Text>Afonso de Albuquerque</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ANREA_DORIA">
+			<Text>Andrea Doria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PHORMIO">
+			<Text>Phormio</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MARCUS_ATILLIUS_REGULUS">
+			<Text>Marcus Atilius Regulus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MARCUS_VIPSANIUS_AGRIPPA">
+			<Text>Marcus Vipsanius Agrippa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HIMILCO">
+			<Text>Himilco</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CALONYMUS_OF_ALEXANDRIA">
+			<Text>Calonymus of Alexandria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOHN_DOUKAS">
+			<Text>John Doukas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TOGO_HEIHACHIRO">
+			<Text>Togo Heihachiro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SHI_LANG">
+			<Text>Shi Lang</Text>
+		</Row>
+		<!-- Great Artists -->
+		<Row Tag="TXT_KEY_GREAT_PERSON_ANSEL_ADAMS">
+			<Text>Ansel Adams</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BARTOLOME_DE_LAS_CASAS">
+			<Text>Bartolomé de las Casas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SALVADOR_DALI">
+			<Text>Salvador Dali</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ARTHUR_CONAN_DOYLE">
+			<Text>Arthur Conan Doyle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ANTONI_GAUDI">
+			<Text>Antoni Gaudi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ERNEST_HEMMINGWAY">
+			<Text>Ernest Hemingway</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FRIEDENSREICH_HUNDERTWASSER">
+			<Text>Friedensreich Hundertwasser</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_OMAR_KHAYYAM">
+			<Text>Omar Khayyam</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_STANLEY_KUBRICK">
+			<Text>Stanley Kubrick</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PABLO_NERUDA">
+			<Text>Pablo Neruda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_RUMI">
+			<Text>Rumi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FRIEDRICH_SCHILLER">
+			<Text>Friedrich Schiller</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LEO_TOLSTOY">
+			<Text>Leo Tolstoy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FRANK_LLOYD_WRIGHT">
+			<Text>Frank Lloyd Wright</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WILLIAM_BUTLER_YEATS">
+			<Text>William Butler Yeats</Text>
+		</Row>
+		<!-- Great Scientists -->
+		<Row Tag="TXT_KEY_GREAT_PERSON_AL_DIN_AL_TUSI">
+			<Text>Al-Din al-Tusi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AL_QASIM_AL_ZAHRAWI">
+			<Text>Al-Qasim Al-Zahrawi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LEONARD_EULER">
+			<Text>Leonard Euler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_RICHARD_FEYNMAN">
+			<Text>Richard Feynman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ALEXANDER_VON_HUMBOLDT">
+			<Text>Alexander von Humboldt</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ANDREY_KOLMOGOROV">
+			<Text>Andrey Kolmogorov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MARY_LEAKEY">
+			<Text>Mary Leakey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CARL_LINNAEUS">
+			<Text>Carl Linnaeus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SHEN_KUO">
+			<Text>Shen Kuo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GREGOR_MENDEL">
+			<Text>Gregor Mendel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_DMITRY_MENDELEEV">
+			<Text>Dmitry Mendeleev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOHN_VON_NEUMANN">
+			<Text>John von Neumann</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CLAUDE_SHANNON">
+			<Text>Claude Shannon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ALAN_TURING">
+			<Text>Alan Turing</Text>
+		</Row>
+		<!-- GREAT MERCHANTS -->
+		<Row Tag="TXT_KEY_GREAT_PERSON_MARCUS_LICINIUS_CRASSUS">
+			<Text>Marcus Licinius Crassus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_EDWARD_HARRIMAN">
+			<Text>Edward Harriman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MILTON_S_HERSHEY">
+			<Text>Milton S. Hershey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SIR_JAMES_LANCASTER">
+			<Text>Sir James Lancaster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HENRI_NESTLE">
+			<Text>Henri Nestle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LEVI_STRAUSS">
+			<Text>Levi Strauss</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_THOMAS_TWINING">
+			<Text>Thomas Twining</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_STEVE_JOBS">
+			<Text>Steve Jobs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JAKOB_FUGGER">
+			<Text>Jakob Fugger</Text>
+		</Row>
+		<!-- GREAT ENGINEERS -->
+		<Row Tag="TXT_KEY_GREAT_PERSON_CARL_BENZ">
+			<Text>Carl Benz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GOTTLIEB_DAIMLER">
+			<Text>Gottlieb Daimler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CHARLES_STARK_DRAPER">
+			<Text>Charles Stark Draper</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GEORGE_EASTMAN">
+			<Text>George Eastman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ROBERT_GODDARD">
+			<Text>Robert Goddard</Text>
+		</Row>
+		<!-- GREAT GENERALS -->
+		<Row Tag="TXT_KEY_GREAT_PERSON_EPAMINONDAS">
+			<Text>Epaminondas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MAURICE_OF_NASSAU">
+			<Text>Maurice of Nassau</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_POMPEY">
+			<Text>Pompey</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PYRRHUS">
+			<Text>Pyrrhus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WINFIELD_SCOTT">
+			<Text>Winfield Scott</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SITTING_BULL">
+			<Text>Sitting Bull</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SPARTACUS">
+			<Text>Spartacus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JOHANN_TSERCLAES">
+			<Text>Johann Tserclaes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WALLENSTEIN">
+			<Text>Wallenstein</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HANNIBAL">
+			<Text>Hannibal</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

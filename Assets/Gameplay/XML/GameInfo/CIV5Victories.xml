@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Scott Lewis (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="Victories">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text"/>
+    <Column name="VictoryStatement" type="text"/>
+    <Column name="VictoryBackground" type="text"/>
+		<Column name="Civilopedia" type="text"/>
+		<Column name="WinsGame" type="boolean" default="false"/>
+		<Column name="TargetScore" type="boolean" default="false"/>
+		<Column name="EndScore" type="boolean" default="false"/>
+		<Column name="Conquest" type="boolean" default="false"/>
+		<Column name="DiploVote" type="boolean" default="false"/>
+		<Column name="Permanent" type="boolean" default="false"/>
+		<Column name="ReligionInAllCities" type="boolean" default="false"/>
+		<Column name="FindAllNaturalWonders" type="boolean" default="false"/>
+		<Column name="PopulationPercentLead" type="integer" default="0"/>
+		<Column name="LandPercent" type="integer" default="0"/>
+		<Column name="MinLandPercent" type="integer" default="0"/>
+		<Column name="NumCultureCities" type="integer" default="0"/>
+		<Column name="TotalCultureRatio" type="integer" default="0"/>
+		<Column name="VictoryDelayTurns" type="integer" default="0"/>
+		<Column name="VictoryMovie" type="text"/>
+		<Column name="CityCulture" type="text" default="NULL"/>
+		<Column name="Audio" type="text" default="NULL"/>
+	</Table>
+	<Table name="VictoryPointAwards">
+		<Column name="VictoryType" type="text" reference="Victories(Type)"/>
+		<Column name="VictoryPoints" type="integer" notnull="true"/>
+	</Table>
+  <Table name="HistoricRankings">
+    <Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+    <Column name="HistoricLeader" type="text"/>
+    <Column name="LeaderQuote" type="text" />
+    <Column name="LeaderScore" type="integer" default="0"/>
+  </Table>
+	<!-- Table data -->
+	<Victories>
+		<Row>
+			<ID>0</ID>
+			<Type>VICTORY_TIME</Type>
+			<Description>TXT_KEY_VICTORY_TIME</Description>
+      <VictoryStatement>TXT_KEY_VICTORY_TIME_BANG</VictoryStatement>
+      <VictoryBackground>Victory_Score.dds</VictoryBackground>
+			<Civilopedia>TXT_KEY_VICTORY_TIME_PEDIA</Civilopedia>
+			<EndScore>true</EndScore>
+			<Permanent>true</Permanent>
+			<WinsGame>true</WinsGame>
+			<Audio>AS2D_VICTORY_SPEECH_ALTERNATE_CONQUEST_VICTORY</Audio>
+		</Row>
+		<Row>
+			<Type>VICTORY_SPACE_RACE</Type>
+			<Description>TXT_KEY_VICTORY_SPACE_RACE</Description>
+      <VictoryStatement>TXT_KEY_VICTORY_TECHNOLOGY_BANG</VictoryStatement>
+      <VictoryBackground>Victory_Scientific.dds</VictoryBackground>
+			<Civilopedia>TXT_KEY_VICTORY_SPACE_RACE_READY</Civilopedia>
+			<WinsGame>true</WinsGame>
+			<Audio>AS2D_VICTORY_SPEECH_SCIENCE_VICTORY</Audio>
+		</Row>
+		<Row>
+			<Type>VICTORY_DOMINATION</Type>
+			<Description>TXT_KEY_VICTORY_DOMINATION</Description>
+      <VictoryStatement>TXT_KEY_VICTORY_DOMINATION_BANG</VictoryStatement>
+      <VictoryBackground>Victory_Military.dds</VictoryBackground>
+			<Civilopedia>TXT_KEY_VICTORY_DOMINATION_PEDIA</Civilopedia>
+			<WinsGame>true</WinsGame>
+			<Conquest>true</Conquest>
+			<Audio>AS2D_VICTORY_SPEECH_CONQUEST_VICTORY</Audio>
+		</Row>
+		<Row>
+			<Type>VICTORY_CULTURAL</Type>
+			<Description>TXT_KEY_VICTORY_CULTURAL</Description>
+      <VictoryStatement>TXT_KEY_VICTORY_CULTURE_BANG</VictoryStatement>
+      <VictoryBackground>Victory_Cultural.dds</VictoryBackground>
+			<Civilopedia>TXT_KEY_VICTORY_CULTURAL_PEDIA</Civilopedia>
+			<WinsGame>true</WinsGame>
+			<Audio>AS2D_VICTORY_SPEECH_CULTURE_VICTORY</Audio>
+		</Row>
+		<Row>
+			<Type>VICTORY_DIPLOMATIC</Type>
+			<Description>TXT_KEY_VICTORY_DIPLOMATIC</Description>
+      <VictoryStatement>TXT_KEY_VICTORY_ECONOMIC_BANG</VictoryStatement>
+      <VictoryBackground>Victory_Diplomatic.dds</VictoryBackground>
+			<Civilopedia>TXT_KEY_VICTORY_DIPLOMATIC_PEDIA</Civilopedia>
+			<WinsGame>true</WinsGame>
+			<DiploVote>true</DiploVote>
+			<Audio>AS2D_VICTORY_SPEECH_DIPLOMATIC_VICTORY</Audio>
+		</Row>
+	</Victories>
+
+  <!-- Rankings Table data -->
+  <HistoricRankings>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_1</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_1_QUOTE</LeaderQuote>
+      <LeaderScore>2500</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_2</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_2_QUOTE</LeaderQuote>
+      <LeaderScore>2250</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_3</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_3_QUOTE</LeaderQuote>
+      <LeaderScore>2000</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_4</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_4_QUOTE</LeaderQuote>
+      <LeaderScore>1900</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_5</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_5_QUOTE</LeaderQuote>
+      <LeaderScore>1800</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_6</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_6_QUOTE</LeaderQuote>
+      <LeaderScore>1700</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_7</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_7_QUOTE</LeaderQuote>
+      <LeaderScore>1600</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_8</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_8_QUOTE</LeaderQuote>
+      <LeaderScore>1500</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_9</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_9_QUOTE</LeaderQuote>
+      <LeaderScore>1400</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_10</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_10_QUOTE</LeaderQuote>
+      <LeaderScore>1300</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_11</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_11_QUOTE</LeaderQuote>
+      <LeaderScore>1200</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_12</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_12_QUOTE</LeaderQuote>
+      <LeaderScore>1100</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_13</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_13_QUOTE</LeaderQuote>
+      <LeaderScore>1000</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_14</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_14_QUOTE</LeaderQuote>
+      <LeaderScore>900</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_15</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_15_QUOTE</LeaderQuote>
+      <LeaderScore>800</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_16</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_16_QUOTE</LeaderQuote>
+      <LeaderScore>700</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_17</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_17_QUOTE</LeaderQuote>
+      <LeaderScore>600</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_18</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_18_QUOTE</LeaderQuote>
+      <LeaderScore>500</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_19</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_19_QUOTE</LeaderQuote>
+      <LeaderScore>400</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_20</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_20_QUOTE</LeaderQuote>
+      <LeaderScore>300</LeaderScore>
+    </Row>
+    <Row>
+      <HistoricLeader>TXT_KEY_DQ_LEADER_NAME_21</HistoricLeader>
+      <LeaderQuote>TXT_KEY_DQ_LEADER_NAME_21_QUOTE</LeaderQuote>
+      <LeaderScore>0</LeaderScore>
+    </Row>
+  </HistoricRankings>
+</GameData>

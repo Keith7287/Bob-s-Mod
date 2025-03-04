@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+  <Language_en_US>
+    <Row Tag="TXT_KEY_PEDIA_FAITH_LABEL">
+      <Text>Faith:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MINOR_TRAIT_MERCANTILE">
+      <Text>Mercantile City-States</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MINOR_TRAIT_RELIGIOUS">
+      <Text>Religious City-States</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALLOWS_EMBASSY">
+      <Text>Allows embassies to be established at other civilization's capitals.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_RELIGION_OFF">
+      <Text>Religion: OFF</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_RELIGION_OFF_TOOLTIP">
+      <Text>The Religion system is turned off in this game. No Faith earned. Pantheons and Religions may not be founded.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MO_GA_PROGRESS">
+      <Text>Great Admiral Progress</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MO_ADMIRAL_TT">
+      <Text>{1_current}/{2_needed}[NEWLINE]Progress towards the next Great Admiral is based on the XP earned by naval units in combat.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MO_GENERAL_TT">
+      <Text>{1_current}/{2_needed}[NEWLINE]Progress towards the next Great General is based on the XP earned by land units in combat.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_GP_MOD">
+      <Text>[ICON_BULLET] City Bonuses: +{1_num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLAYER_GP_MOD">
+      <Text>[ICON_BULLET] Empire Bonuses: +{1_num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_BUILDINGS">
+      <Text>[ICON_PLUS] Global Building Happiness</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_BUILDINGS_COLLAPSE">
+      <Text>[ICON_MINUS] Global Building Happiness</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_LOCAL_CITY">
+      <Text>[ICON_PLUS] Local City Happiness</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_LOCAL_CITY_COLLAPSE">
+      <Text>[ICON_MINUS] Local City Happiness</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_RELIGION">
+      <Text>Religion</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCOME_RELIGION">
+      <Text>Income From Religion</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INTRIGUE_TURN">
+      <Text>Turn</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INTRIGUE_FROM">
+      <Text>From</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INTRIGUE_MSG">
+      <Text>Message</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_22">
+      <Text>Espionage</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_23">
+      <Text>Religion</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EGI_TRADE_ROUTE_MOD_INFO">
+      <Text>{1_Num}% gold modifier</Text>
+    </Row>
+    <!-- Tech Tree buttons-->
+    <Row Tag="TXT_KEY_UNIT_FORTIFICATION_MOD">
+      <Text>Combat bonus from Fortification increases by [COLOR_POSITIVE_TEXT]{1_UnitFortificationPercent}%[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_BASE_HEAL_MOD">
+      <Text>Base unit healing rate increases by [COLOR_POSITIVE_TEXT]{1_UnitHealingPercent}%[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FREE_PROMOTION_FROM_TECH">
+      <Text>Grants the [COLOR_POSITIVE_TEXT]{@1_PromotionName}[ENDCOLOR] Promotion to allowed Units[NEWLINE][NEWLINE]({@2_PromotionHelp})</Text>
+    </Row>
+    <!-- Religion Overview -->
+    <Row Tag="TXT_KEY_RELIGION_OVERVIEW">
+      <Text>Religion Overview</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_TAB_YOUR_RELIGION">
+      <Text>Your Religion</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_TAB_WORLD_RELIGIONS">
+      <Text>World Religions</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_TAB_BELIEFS">
+      <Text>Beliefs</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_RELIGIOUS_STATUS">
+      <Text>Your Religious Status:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEFS">
+      <Text>Beliefs:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEFS_NONE">
+      <Text>None</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_FAITH">
+      <Text>[ICON_PEACE] FAITH: {1_NumFaith}/{2_MinFaithForProphet}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_FAITH_TOOLTIP">
+      <Text>Need minimum of {1_MinFaith} [ICON_PEACE] Faith for next Great Prophet</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_POSSIBLE_GP">
+      <Text>Possible Great People:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_PURCHASE">
+      <Text>Automatic [ICON_PEACE] Faith Purchase:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_MISSIONARY">
+      <Text>Purchase Missionary</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_INQUISITOR">
+      <Text>Purchase Inquisitor</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_BUILDING">
+      <Text>Purchase Building</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_PROPHET">
+      <Text>Save for Great Prophet</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_PURCHASE_PROPHET">
+      <Text>Purchase Great Prophet</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_GREAT_PERSON">
+      <Text>Save for {1_GreatPersonType}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_PURCHASE_GREAT_PERSON">
+      <Text>Purchase {1_GreatPersonType}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_PROMPT">
+      <Text>Remind me later</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_NO_WORLD_RELIGIONS">
+      <Text>There are no World Religions.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_RELIGION">
+      <Text>Religion</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_HOLY_CITY">
+      <Text>Holy City</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_FOUNDER">
+      <Text>Founder</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_NUMBER_OF_CITIES">
+      <Text>Number of Cities</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_OVERALL_STATUS">
+      <Text>OVERALL STATUS</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_NUM_AVAIL_RELIGIONS">
+      <Text>Number of Religions that can be founded: {1_NumAvailReligions}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_B_NO_BELIEFS">
+      <Text>There are no active Beliefs.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_B_BELIEFS">
+      <Text>Beliefs</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_B_TYPE">
+      <Text>Type</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_B_BONUS">
+      <Text>Bonus</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_B_RELIGION">
+      <Text>Religion</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_STATUS_FOUNDER">
+      <Text>Founder of {1_ReligionName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_STATUS_CREATED_PANTHEON">
+      <Text>Has created a Pantheon</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_STATUS_CAN_CREATE_PANTHEON">
+      <Text>Can create Pantheon now!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_STATUS_NEED_FAITH">
+      <Text>Need {1_NumFaith} [ICON_PEACE] Faith to create a Pantheon</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_STATUS_TOO_LATE">
+      <Text>Too late to create a Pantheon</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_TYPE_PANTHEON">
+      <Text>Pantheon</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_TYPE_FOUNDER">
+      <Text>Founder</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_TYPE_FOLLOWER">
+      <Text>Follower</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_TYPE_ENHANCER">
+      <Text>Enhancer</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_YR_NO_GREAT_PEOPLE">
+      <Text>None</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_UNKNOWN_CIV">
+      <Text>Unknown Civilization</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_UNKNOWN_HOLY_CITY">
+      <Text>Unknown City</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_PANTHEON">
+      <Text>{@1_CivAdj} Pantheon</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_UNKNOWN_PANTHEON">
+      <Text>Unknown Pantheon</Text>
+    </Row>
+    <!-- Espionage Overview-->
+    <Row Tag="TXT_KEY_EO_VIEW">
+      <Text>View</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_VIEW_TOOLTIP">
+      <Text>View City</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_RELOCATE">
+      <Text>Move</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_RELOCATE_TOOLTIP">
+      <Text>Relocate</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_TITLE">
+      <Text>Espionage Overview</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_AGENTS">
+      <Text>Agents</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_NAME_RANK">
+      <Text>Name/Rank</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_LOCATION">
+      <Text>Location</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_ACTIVITY">
+      <Text>Activity</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_YOUR_CITIES">
+      <Text>Your Cities</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_THEIR_CITIES">
+      <Text>Their Cities</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CIVILIZATION">
+      <Text>Civilization</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_NAME">
+      <Text>Name</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL">
+      <Text>Potential</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_RELOCATE_SPY_QUESTION">
+      <Text>Relocate Spy?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_HAS_SPY_TT">
+      <Text>{1_SpyName} is occupying this city.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_COUP">
+      <Text>Coup</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_COUP_TT">
+      <Text>The spy will attempt to stage a coup to become allies with the City-State. City-State must already be allies with another civilization.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_STAGE_COUP_QUESTION">
+      <Text>{1_SpyRank} {2_SpyName} may attempt to stage a coup in {3_CityName}, bringing into power a group that will be our ally. The leading faction of {4_CivShortDesc} supporters will be ousted and their influence diminished.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]This operation has a {5_PERCENT}% chance of success.[ENDCOLOR] If successful, you will become allies with {6_CityName} and the {7_CivShortDesc} will have their influence dropped. If you fail, your spy will be killed in the attempt and your influence over {8_CityName} will decrease.[NEWLINE][NEWLINE]Do you want {9_SpyRank} {10_SpyName} to attempt a coup in {11_CityName}?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_KIA">
+      <Text>KILLED IN ACTION</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_PANTHEON_TITLE">
+      <Text>Found a Pantheon</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_TITLE">
+      <Text>Found a Religion</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_TITLE_ENHANCE">
+      <Text>Enhance a Religion</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_ICON">
+      <Text>Select a Religion icon.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_PANTHEON_BELIEF">
+      <Text>Pantheon Belief</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_PANTHEON_BELIEF">
+      <Text>Please select a Pantheon Belief.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_FOUNDER_BELIEF">
+      <Text>Founder Belief</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_FOUNDER_BELIEF">
+      <Text>Select a Founder Belief (bonus for the founder's civilization).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_FOLLOWER_BELIEF">
+      <Text>Follower Belief</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_FOLLOWER_BELIEF">
+      <Text>Select a Follower Belief (bonus for each city following religion).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_FOLLOWER_BELIEF2">
+      <Text>2nd Follower Belief</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_FOLLOWER_BELIEF2">
+      <Text>Select a Follower Belief.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SPREAD_BELIEF">
+      <Text>Enhancer Belief</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_SPREAD_BELIEF">
+      <Text>Select an Enhancer Belief.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_BONUS_BELIEF">
+      <Text>Bonus Belief</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_BONUS_BELIEF">
+      <Text>Select a Bonus Belief.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_OK_BUTTON">
+      <Text>Found Religion</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_OK_BUTTON_ENHANCE">
+      <Text>Enhance Religion</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_CHANGE_NAME">
+      <Text>Change Name</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_ENTER_NAME">
+      <Text>Enter in a new name</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_ERROR_NAME_EMPTY">
+      <Text>Name must not be empty.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_ALREADY_FOUNDED">
+      <Text>{1_ReligionName} was already founded by {2_CivName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_UNMET_PLAYER">
+      <Text>an unmet player</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_AVAILABLE_LATER">
+      <Text>Available later when Religion enhanced.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_BYZANTINES_ONLY">
+      <Text>Available to Byzantines only.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_NAME_LABEL">
+      <Text>{1_ReligionName} [COLOR_GREEN](Click to customize name)[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_FOUNDED_IN">
+      <Text>Founded in {1_DateYear}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_CONFIRM">
+      <Text>Are you sure you wish to found {1_ReligionName}?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_CONFIRM_ENHANCE">
+      <Text>Are you ready to enhance {1_ReligionName}?</Text>
+    </Row>
+    <!-- =====================================-->
+    <!-- == BEGIN new Diplomacy Victory text keys ==-->
+    <!-- =====================================-->
+    <Row Tag="TXT_KEY_VP_DIPLO_SUBTITLE_ALT">
+      <Text>Projected Outcome of the next UN Election:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_ALT">
+      <Text>Projected Votes for You:</Text>
+    </Row>
+    <!-- Projected Votes column -->
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_TITLE_ALT">
+      <Text>Projected Votes</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_COL_TT_ALT">
+      <Text>The number of votes that each player is projected to receive in the next UN election.  The actual votes may differ depending on gameplay events that take place between now and the election.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_TT_SUMMARY_ALT">
+      <Text>{@1_CivName} has a projected {2_NumProjectedVotes} votes.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_TT_CIVS_ALT">
+      <Text>In the previous election, {@1_CivName} received {2_NumVotesFromCivs} votes from Civilizations.  This may change in the upcoming election based on international relations.  Civilizations will vote for the other Civilization they have the best relations with.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_TT_CITYSTATES_ALT">
+      <Text>{@1_CivName} will get {2_NumVotesFromMinorCivs} votes from City-States, if City-State relations remain the same as they are now.  City-States will vote for the Civilization that most recently liberated them, or their current ally if there is no liberator.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_TT_UN_ALT">
+      <Text>{@1_CivName} gets 1 vote from building the UN.</Text>
+    </Row>
+    <!-- Civilizations column-->
+    <Row Tag="TXT_KEY_VP_DIPLO_SELF_VOTES_TITLE_ALT">
+      <Text>Civilizations</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_SELF_VOTES_COL_TT_ALT">
+      <Text>In the previous election, the number of votes received from other Civilizations.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_SELF_VOTES_TT_ALT">
+      <Text>In the last UN election, {@1_CivName} received votes from the Civilizations that had the best relations with them:</Text>
+    </Row>
+    <!-- City-States column-->
+    <Row Tag="TXT_KEY_VP_DIPLO_CS_VOTES_COL_TT_ALT">
+      <Text>Current number of City-State allies.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_CS_VOTES_TT_ALT">
+      <Text>{@1_CivName} is currently allies with:</Text>
+    </Row>
+    <!-- Liberated City-States column-->
+    <Row Tag="TXT_KEY_VP_DIPLO_LIBERATED_VOTES_COL_TT_ALT">
+      <Text>Current number of City-States liberated.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_LIBERATED_VOTES_TT_ALT">
+      <Text>{@1_CivName} has most recently liberated:</Text>
+    </Row>
+    <!-- Last Vote column-->
+    <Row Tag="TXT_KEY_VP_DIPLO_LIBERATED_CIV_TITLE_ALT">
+      <Text>Last Vote</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_LIBERATED_CIV_COL_TT_ALT">
+      <Text>In the previous election, which Civilization was voted for.  (Cannot vote for self.)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_LIBERATED_CIV_TT_ALT">
+      <Text>{@1_VotingCivName} voted for {@2_RecipientCivName} in the last election, since they had the best relations.[NEWLINE][NEWLINE]Current mood of {@1_VotingCivName} towards you: {@3_MoodTowardsYou}</Text>
+    </Row>
+    <!-- ===================================-->
+    <!-- == END new Diplomacy Victory text keys ==-->
+    <!-- ===================================-->
+  </Language_en_US>
+</GameData>

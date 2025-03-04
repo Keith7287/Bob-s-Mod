@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Civ5Package>
+	<GUID>{BBB0D085-A0B1-4475-B007-3E549CF3ADC3}</GUID>
+	<SteamApp>99613</SteamApp>
+	<Version>1</Version>
+	<Key>1613f2abde9d9dd1029eb60e1cbe25c4</Key>
+	<PTags>
+		<Tag>Version</Tag>
+	</PTags>
+	<Name>
+		<Value language="en_US">Ancient Wonders</Value>
+	</Name>
+	<Description>
+		<Value language="en_US">Wonders of the Ancient World</Value>
+	</Description>
+
+	<TextData>CIV5GameTextInfos_Buildings_NewWonders.xml</TextData>
+	<TextData>CIV5GameTextInfos_Buildings_WonderScenario.xml</TextData>
+	<TextData>CIV5GameTextInfos_Cities_WonderScenario.xml</TextData>
+	<TextData>CIV5GameTextInfos_CityStates_WonderScenario.xml</TextData>
+	<TextData>CIV5GameTextInfos_Civilizations_WonderScenario.xml</TextData>
+	<TextData>CIV5GameTextInfos_Leaders_WonderScenario.xml</TextData>
+	<TextData>CIV5GameTextInfos_Objects_WonderScenario.xml</TextData>
+	<TextData>CIV5GameTextInfos_WonderScenario.xml</TextData>
+
+	<GameData>CIV5BuildingClasses_NewWonders.xml</GameData>
+	<GameData>CIV5Buildings_NewWonders.xml</GameData>
+	<GameData>CIV5Civilizations_NewWonders.xml</GameData>
+	<GameData>CIV5UnitPromotions_NewWonders.xml</GameData>
+	<GameData>Civ5ArtDefines_SV_WonderScenario.xml</GameData>
+	<WonderDefines>Civ5ArtDefines_DLC_AncientWonders_Wonders.xml</WonderDefines>
+
+	<UnitArtDefines>Civ5ArtDefines_Wonders_Units.xml</UnitArtDefines>
+	<UnitArtDefines>Civ5ArtDefines_Wonders_UnitMembers.xml</UnitArtDefines>
+
+	<AudioScripts3D>U_Hititte_War_Chariot3DScripts.xml</AudioScripts3D>
+	<AudioScripts3D>U_Sumerian_Phalanx3DScripts.xml</AudioScripts3D>
+	<AudioDefines>WondersScenarioAudioDefines.xml</AudioDefines>
+	<AudioScripts2D>WondersScenarioAudio2DScripts.xml</AudioScripts2D>
+	<AudioDefines>Wonder_SpeechAudioDefines_DLC06.xml</AudioDefines>
+	<AudioScripts2D>Wonder_SpeechAudio2DScripts_DLC06.xml</AudioScripts2D>
+
+	<AudioGameData>MinorCivSounds_DLC06.xml</AudioGameData>
+
+	<VisEffectInfoDefines>Civ5ArtDefines_VisEffects_DLC_Wonders.xml</VisEffectInfoDefines>
+	<VisEffectParticleDefines>Civ5ArtDefines_VisEffectParticles_DLC_Wonders.xml</VisEffectParticleDefines>
+	<VisEffectModelDefines>Civ5ArtDefines_VisEffectModels_DLC_Wonders.xml</VisEffectModelDefines>
+
+	<Paks>
+		<File>AncientWondersModels.fpk</File>
+		<File>AncientWondersTextures.fpk</File>
+	</Paks>
+	
+</Civ5Package>

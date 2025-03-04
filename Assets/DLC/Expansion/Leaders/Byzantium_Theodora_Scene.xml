@@ -1,0 +1,15 @@
+<LeaderScene FarClip="11000000000" lights="Byzantium_Empress_Theodora_Lights.gr2" camera="Byzantium_Theodora_Camera.fxsxml" ColorKey="Theodora_COLORKEY.tga" SkinAutoScale="0"
+cubemap_prefix ="Theodora" FallbackImage="Theodora.dds">
+
+<HackLightSettings intensity=".04" direction="0.9,-0.5,-0.5" color="255,255,255"/>
+
+<DOFSettings max_width="6.06" blur_distance="748" ramp_distance="680" ></DOFSettings>
+
+
+  <LeaderObject  model="Byzantium_Empress_Theodora.fxsxml"></LeaderObject>
+  <BackgroundObject model="Theodora_Scene.fxsxml" ></BackgroundObject>
+  <BackgroundObject model="Theodora_Scene_GAME_FX.fxsxml" ></BackgroundObject>
+
+
+
+</LeaderScene> 

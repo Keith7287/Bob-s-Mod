@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="Terrains">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text"/>
+		<Column name="Civilopedia" type="text"/>
+		<Column name="ArtDefineTag" type="text"/>
+		<Column name="Water" type="boolean" default="false"/>
+		<Column name="Impassable" type="boolean" default="false"/>
+		<Column name="Found" type="boolean" default="false"/>
+		<Column name="FoundCoast" type="boolean" default="false"/>
+		<Column name="FoundFreshWater" type="boolean" default="false"/>
+		<Column name="Movement" type="integer" default="1"/>
+		<Column name="SeeFrom" type="integer" default="1"/>
+		<Column name="SeeThrough" type="integer" default="1"/>
+		<Column name="BuildModifier" type="integer" default="0"/>
+		<Column name="Defense" type="integer" default="0"/>
+		<Column name="InfluenceCost" type="integer" default="0"/>
+		<Column name="Button" type="text"/>
+		<Column name="WorldSoundscapeAudioScript" type="text"/>
+		<Column name="GraphicalOnly" type="boolean" default="false"/>
+		<Column name="PortraitIndex" type="integer" default="-1"/>
+		<Column name="EffectTypeTag" type="text"/>
+		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
+	</Table>
+	<Table name="Terrain_Yields">
+		<Column name="TerrainType" type="text" reference="Terrains(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer" default="0"/>
+	</Table>
+	<Table name="Terrain_RiverYieldChanges">
+		<Column name="TerrainType" type="text" reference="Terrains(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer" default="0"/>
+	</Table>
+	<Table name="Terrain_HillsYieldChanges">
+		<Column name="TerrainType" type="text" reference="Terrains(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer" default="0"/>
+	</Table>
+	<!-- Table data -->
+	<Terrains>
+		<Row>
+			<ID>0</ID>
+			<Type>TERRAIN_GRASS</Type>
+			<Description>TXT_KEY_TERRAIN_GRASS</Description>
+			<Civilopedia>TXT_KEY_CIV5_TERRAIN_GRASSLAND_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_TERRAIN_GRASS</ArtDefineTag>
+			<Found>true</Found>
+			<InfluenceCost>1</InfluenceCost>
+			<Button>Art/Interface\Buttons\WorldBuilder\Terrain_Grass.dds</Button>
+			<WorldSoundscapeAudioScript>ASSS_AMBIENCE_GRASSLANDS</WorldSoundscapeAudioScript>
+			<EffectTypeTag>DIRT</EffectTypeTag>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TERRAIN_PLAINS</Type>
+			<Description>TXT_KEY_TERRAIN_PLAINS</Description>
+			<Civilopedia>TXT_KEY_CIV5_TERRAIN_PLAINS_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_TERRAIN_PLAINS</ArtDefineTag>
+			<Found>true</Found>
+			<InfluenceCost>1</InfluenceCost>
+			<Button>Art/Interface\Buttons\WorldBuilder\Terrain_Plains.dds</Button>
+			<WorldSoundscapeAudioScript>ASSS_AMBIENCE_GRASSLANDS</WorldSoundscapeAudioScript>
+			<EffectTypeTag>DIRT</EffectTypeTag>
+			<PortraitIndex>12</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TERRAIN_DESERT</Type>
+			<Description>TXT_KEY_TERRAIN_DESERT</Description>
+			<Civilopedia>TXT_KEY_CIV5_TERRAIN_DESERT_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_TERRAIN_DESERT</ArtDefineTag>
+			<Found>true</Found>
+			<InfluenceCost>2</InfluenceCost>
+			<Button>Art/Interface\Buttons\WorldBuilder\Terrain_Desert.dds</Button>
+			<WorldSoundscapeAudioScript>ASSS_AMBIENCE_DESERT</WorldSoundscapeAudioScript>
+			<EffectTypeTag>SAND</EffectTypeTag>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TERRAIN_TUNDRA</Type>
+			<Description>TXT_KEY_TERRAIN_TUNDRA</Description>
+			<Civilopedia>TXT_KEY_CIV5_TERRAIN_TUNDRA_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_TERRAIN_TUNDRA</ArtDefineTag>
+			<Found>true</Found>
+			<InfluenceCost>2</InfluenceCost>
+			<Button>Art/Interface\Buttons\WorldBuilder\Terrain_Tundra.dds</Button>
+			<WorldSoundscapeAudioScript>ASSS_AMBIENCE_TUNDRA</WorldSoundscapeAudioScript>
+			<EffectTypeTag>DIRT</EffectTypeTag>
+			<PortraitIndex>16</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TERRAIN_SNOW</Type>
+			<Description>TXT_KEY_TERRAIN_SNOW</Description>
+			<Civilopedia>TXT_KEY_CIV5_TERRAIN_SNOW_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_TERRAIN_SNOW</ArtDefineTag>
+			<Found>true</Found>
+			<InfluenceCost>2</InfluenceCost>
+			<Button>Art/Interface\Buttons\WorldBuilder\Terrain_Ice.dds</Button>
+			<WorldSoundscapeAudioScript>ASSS_AMBIENCE_TUNDRA</WorldSoundscapeAudioScript>
+			<EffectTypeTag>SNOW</EffectTypeTag>
+			<PortraitIndex>15</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TERRAIN_COAST</Type>
+			<Description>TXT_KEY_TERRAIN_COAST</Description>
+			<Civilopedia>TXT_KEY_CIV5_TERRAIN_COAST_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_TERRAIN_COAST</ArtDefineTag>
+			<Water>true</Water>
+			<SeeFrom>0</SeeFrom>
+			<SeeThrough>0</SeeThrough>
+			<InfluenceCost>2</InfluenceCost>
+			<Button>Art/Interface\Buttons\WorldBuilder\Terrain_Coast.dds</Button>
+			<WorldSoundscapeAudioScript>ASSS_AMBIENCE_COAST</WorldSoundscapeAudioScript>
+			<EffectTypeTag>WATER</EffectTypeTag>
+			<PortraitIndex>14</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TERRAIN_OCEAN</Type>
+			<Description>TXT_KEY_TERRAIN_OCEAN</Description>
+			<Civilopedia>TXT_KEY_CIV5_TERRAIN_OCEAN_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_TERRAIN_OCEAN</ArtDefineTag>
+			<Water>true</Water>
+			<SeeFrom>0</SeeFrom>
+			<SeeThrough>0</SeeThrough>
+			<InfluenceCost>3</InfluenceCost>
+			<Button>Art/Interface\Buttons\WorldBuilder\Terrain_Ocean.dds</Button>
+			<WorldSoundscapeAudioScript>ASSS_AMBIENCE_DEEP_OCEAN</WorldSoundscapeAudioScript>
+			<EffectTypeTag>WATER</EffectTypeTag>
+			<PortraitIndex>11</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TERRAIN_MOUNTAIN</Type>
+			<Description>TXT_KEY_TERRAIN_MOUNTAIN</Description>
+			<Civilopedia>TXT_KEY_CIV5_SPECIALTERRAIN_MOUNTAINS_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_TERRAIN_MOUNTAIN</ArtDefineTag>
+			<Water>true</Water>
+			<SeeFrom>0</SeeFrom>
+			<SeeThrough>0</SeeThrough>
+			<InfluenceCost>0</InfluenceCost>
+			<Button>Art/Interface\Buttons\WorldBuilder\Terrain_Mountain.dds</Button>
+			<GraphicalOnly>true</GraphicalOnly>
+			<WorldSoundscapeAudioScript>ASSS_AMBIENCE_GRASSLANDS</WorldSoundscapeAudioScript>
+			<EffectTypeTag>DIRT</EffectTypeTag>
+			<PortraitIndex>9</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>TERRAIN_HILL</Type>
+			<Description>TXT_KEY_TERRAIN_HILL</Description>
+			<Civilopedia>TXT_KEY_CIV5_SPECIALTERRAIN_HILLS_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_TERRAIN_HILL</ArtDefineTag>
+			<Water>true</Water>
+			<SeeFrom>0</SeeFrom>
+			<SeeThrough>0</SeeThrough>
+			<InfluenceCost>0</InfluenceCost>
+			<Button>Art/Interface\Buttons\WorldBuilder\Terrain_Hill.dds</Button>
+			<GraphicalOnly>true</GraphicalOnly>
+			<WorldSoundscapeAudioScript>ASSS_AMBIENCE_GRASSLANDS</WorldSoundscapeAudioScript>
+			<EffectTypeTag>DIRT</EffectTypeTag>
+			<PortraitIndex>5</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+	</Terrains>
+	<Terrain_Yields>
+		<Row>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TerrainType>TERRAIN_OCEAN</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TerrainType>TERRAIN_OCEAN</TerrainType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Terrain_Yields>
+	<Terrain_RiverYieldChanges>
+		<Row>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Terrain_RiverYieldChanges>
+	<Terrain_HillsYieldChanges>
+		<Row>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-2</Yield>
+		</Row>
+		<Row>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-1</Yield>
+		</Row>
+		<Row>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>-1</Yield>
+		</Row>
+		<Row>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Terrain_HillsYieldChanges>
+</GameData>

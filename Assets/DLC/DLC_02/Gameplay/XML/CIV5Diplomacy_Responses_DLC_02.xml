@@ -1,0 +1,20 @@
+<GameData>
+	<Diplomacy_Responses>
+    		<Row LeaderType="LEADER_PACHACUTI">
+      			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+      			<Response>TXT_KEY_LEADER_PACHACUTI_FIRSTGREETING_%</Response>
+    		</Row>
+    		<Row LeaderType="LEADER_ISABELLA">
+      			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+      			<Response>TXT_KEY_LEADER_ISABELLA_FIRSTGREETING_%</Response>
+    		</Row>
+    		<Row LeaderType="LEADER_PACHACUTI">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_PACHACUTI_DEFEATED_%</Response>
+		</Row>
+    		<Row LeaderType="LEADER_ISABELLA">
+      			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+      			<Response>TXT_KEY_LEADER_ISABELLA_DEFEATED_%</Response>
+    		</Row>
+  	</Diplomacy_Responses>
+</GameData>

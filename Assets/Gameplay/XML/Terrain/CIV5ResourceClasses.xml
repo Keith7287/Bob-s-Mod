@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="ResourceClasses">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="UniqueRange" type="integer"/>
+	</Table>
+	<!-- Table data -->
+	<ResourceClasses>
+		<Row>
+			<ID>0</ID>
+			<Type>RESOURCECLASS_BONUS</Type>
+			<UniqueRange>0</UniqueRange>
+		</Row>
+		<Row>
+			<Type>RESOURCECLASS_LUXURY</Type>
+			<UniqueRange>0</UniqueRange>
+		</Row>
+		<Row>
+			<Type>RESOURCECLASS_RUSH</Type>
+			<UniqueRange>4</UniqueRange>
+		</Row>
+		<Row>
+			<Type>RESOURCECLASS_MODERN</Type>
+			<UniqueRange>4</UniqueRange>
+		</Row>
+	</ResourceClasses>
+</GameData>

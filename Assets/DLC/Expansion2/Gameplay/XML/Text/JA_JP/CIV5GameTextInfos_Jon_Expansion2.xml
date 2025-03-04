@@ -1,0 +1,956 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_JA_JP>
+    <Row Tag="TXT_KEY_AESTHETICS_TITLE">
+      <Text>{2_CivName:textkey}の{@1: gender feminine?ミストレス; other?マスター;}・{1_PlayerName:textkey}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_ARCHAEOLOGY_DIG_HELP">
+      <Text>史跡が発掘現場に変化する。傑作文化遺産が出土したり、ランドマークに変化したりする可能性がある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_ARCHAEOLOGY_DIG_REC">
+      <Text>傑作文化遺産が出土したり、ランドマークに変化したりする可能性がある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BRAZILWOOD_CAMP_HELP">
+      <Text>ブラジルウッド伐採場を建設すると、ジャングルはそのままに、このタイルからもたらされる[ICON_GOLD]ゴールドだけが増える。また、音響学の研究が完了すると、[ICON_CULTURE]文化力ももたらされる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BRAZILWOOD_CAMP_REC">
+      <Text>ジャングルはそのままに、このタイルからもたらされる[ICON_GOLD]ゴールドだけが増える。また、音響学の研究が完了すると、[ICON_CULTURE]文化力ももたらされる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CHATEAU_HELP">
+      <Text>シャトーが建設され、タイルからもたらされる文化力とゴールドが増える。また、防御ボーナスももたらされる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CHATEAU_REC">
+      <Text>シャトーは高級資源に隣接していなければならず、別のシャトーに隣接した場所には建設できない。[NEWLINE][NEWLINE]タイルからもたらされる文化力とゴールドが増える。また、防御ボーナスももたらされる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_FEITORIA_HELP">
+      <Text>この都市国家の領土にフェイトリアが建設される。これにより、この都市国家との関係に関わらず、この都市国家と結びつきのある高級資源と同じものが、各種類1つずつもたらされる。また、防御ボーナスももたらされる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_FEITORIA_REC">
+      <Text>この都市国家との関係に関わらず、この都市国家と結びつきのある贅沢資源と同じものが、各種類1つずつもたらされる。また、防御ボーナスももたらされる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_KASBAH_HELP">
+      <Text>カスバが建設され、このタイルからもたらされる[ICON_FOOD]食物、[ICON_PRODUCTION]生産力、[ICON_GOLD]ゴールドが増える。また、防御ボーナスももたらされる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_KASBAH_REC">
+      <Text>このタイルからもたらされる[ICON_FOOD]食物、[ICON_PRODUCTION]生産力、[ICON_GOLD]ゴールドが増える。また、防御ボーナスももたらされる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_LANDMARK_HELP">
+      <Text>ユニットが消費される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AMPHITHEATER_STRATEGY">
+      <Text>円形競技場は都市の[ICON_CULTURE]文化力を高め、都市の領土拡大速度と文明の社会制度獲得速度を向上させる。円形競技場を築くには、その都市にモニュメント（またはステッレ）がなければならない。傑作書物のスロットを1つ備える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_HERMITAGE_HELP">
+      <Text>この都市の[ICON_CULTURE]文化力+50%。[NEWLINE]傑作芸術スロットを3つ備える。[NEWLINE][NEWLINE]すべての都市にオペラハウスが必要。国内に存在する都市が多ければ多いほどコストが増える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_HEROIC_EPIC_HELP">
+      <Text>この都市にいる、新たに訓練するすべての非航空ユニットの[COLOR_POSITIVE_TEXT]士気[ENDCOLOR]がレベルアップし、[ICON_STRENGTH]戦闘力が15%向上する。傑作書物のスロットを1つ備える。[NEWLINE][NEWLINE]すべての都市に兵舎が必要。国内に存在する都市が多ければ多いほどコストが増える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION_HELP">
+      <Text>科学者の[ICON_PRODUCTION]生産+1、技術者の[ICON_RESEARCH]科学力+1。大科学者を新しいテクノロジーの発見に用いた場合にもたらされる[ICON_RESEARCH]科学力が33%増える。築くには世界議会を通じて協力しなければならない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_HELP">
+      <Text>「飛行機」を研究すると、[ICON_TOURISM]観光力+2がもたらされる。[NEWLINE][NEWLINE]都市に防壁がなければならない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MUSEUM_STRATEGY">
+      <Text>博物館はゲーム中盤に登場する建造物であり、都市が生み出す[ICON_CULTURE]文化力を増やしてくれる。博物館はオペラハウス（またはケイリー・ホール）がある都市にのみ築ける。傑作芸術のスロットを2つ備える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_NATIONAL_EPIC_HELP">
+      <Text>この都市の[ICON_GREAT_PEOPLE]偉人誕生率を25%向上させる。傑作書物のスロットを1つ備える。[NEWLINE][NEWLINE]すべての都市にモニュメントが必要。国内に存在する都市が多ければ多いほどコストが増える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_OPERA_HOUSE_STRATEGY">
+      <Text>オペラハウスはルネサンス時代の建造物であり、都市が生み出す[ICON_GOLD]文化力を増やしてくれる。オペラハウスを建設するには、円形劇場がなければならない。傑作音楽のスロットを1つ備える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_OXFORD_UNIVERSITY_HELP">
+      <Text>無償のテクノロジー1。傑作書物スロットを2つ備える。[NEWLINE][NEWLINE]すべての都市に大学が必要。国内に存在する都市が多ければ多いほどコストが増える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PALACE_HELP">
+      <Text>この都市が国の[ICON_CAPITAL]首都であることを示す。傑作芸術のスロットを1つ備える。[NEWLINE][NEWLINE]他の都市と[ICON_CAPITAL]首都の道路による[ICON_CONNECTED]結びつきはさらなる[ICON_GOLD]ゴールドを生み出す。[NEWLINE][NEWLINE][ICON_PRODUCTION]生産力+3、[ICON_RESEARCH]科学力+3、[ICON_GOLD]ゴールド+3。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_PLAYER">
+      <Text>{1_CivName:textkey}と都市の結びつきを新たに築きたいと考えているのだが、力を貸してもらえまいか？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_GIFT_UNIT">
+      <Text>ユニットを派遣し、我が国の戦争遂行を支援してほしい。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_GIFT_UNIT_FORMAL">
+      <Text>彼らは我が国がユニットを派遣し、戦争遂行を支援することを望んでいる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_TRADE_ROUTE">
+      <Text>交易路を完成させるのです。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_TRADE_ROUTE_FORMAL">
+      <Text>かの国は陸上、あるいは海上の交易路を開設することを望んでおります。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_INFLUENCE_RATE">
+      <Text>かの国に対する[ICON_INFLUENCE]影響力は毎ターン{1_InfluenceRate}変わる。{2_InfluenceAnchor}で留まる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DIFFERENT_LATE_POLICY_TREES">
+      <Text>[COLOR_NEGATIVE_TEXT]あなたは{1_YourPolicyTree}の思想を採用することにしているが、彼らは{2_TheirPolicyTree}を信じている。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_STOP_DIGGING">
+      <Text>我が国の文化遺産を掘り出すのは止めてもらおう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISLIKED_OUR_PROPOSAL">
+      <Text>[COLOR_WARNING_TEXT]彼らは世界議会で我々が出した提案に好意的ではありません。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_FOILED_THEIR_PROPOSAL">
+      <Text>[COLOR_WARNING_TEXT]我々は世界議会において彼らの提案が棄却されるよう働きかけました。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_LANDMARKS_BUILT">
+      <Text>[COLOR_POSITIVE_TEXT]あなたは彼らの領土内にランドマークを建設しました。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_LIKED_OUR_PROPOSAL">
+      <Text>[COLOR_POSITIVE_TEXT]彼らは世界議会で我々が出した提案に好意的です。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_DIG_PROMISE_BROKEN">
+      <Text>[COLOR_NEGATIVE_TEXT]彼らの土地から文化遺産を発掘した！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_DIG_PROMISE_IGNORED">
+      <Text>[COLOR_NEGATIVE_TEXT]文化遺産の発掘を中止するよう求められたにもかかわらず、それを無視しました！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PLUNDERING_OUR_TRADE_ROUTES">
+      <Text>[COLOR_NEGATIVE_TEXT]彼らの交易路を略奪しました！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SAME_LATE_POLICY_TREES">
+      <Text>[COLOR_POSITIVE_TEXT]あなたがたはどちらも{1_PolicyTree}の思想の採用を決めました。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_HOSTING">
+      <Text>[COLOR_POSITIVE_TEXT]我々は彼らが次の世界議会の主催国となるよう力を貸しました。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_PROPOSAL">
+      <Text>[COLOR_POSITIVE_TEXT]我々は世界議会において彼らの提案が承認されるよう力を貸しました。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_CRITICAL">
+      <Text>[COLOR_NEGATIVE_TEXT]彼らは、あなたの好戦的な態度によって、世界が新たな暗黒時代を迎える日も近いと恐れています！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_MAJOR">
+      <Text>[COLOR_NEGATIVE_TEXT]彼らはあなたの好戦的な態度を危険な兆候として強く認識しています。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_MINOR">
+      <Text>[COLOR_WARNING_TEXT]彼らはあなたの好戦的な態度に懸念を抱き始めています。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_SEVERE">
+      <Text>[COLOR_NEGATIVE_TEXT]彼らはあなたの好戦的な態度が国際問題にまで発展したと考えています。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORATION_TITLE">
+      <Text>{2_CivName:textkey}の{1_PlayerName:textkey}船長</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FREE_TENETS_LABEL">
+      <Text>無償の教義の数: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_AIRLIFT_HELP">
+      <Text>この命令によって、ユニットを陸タイル、または空港のある友好都市に隣接するタイルに再配置できる。目標とするタイルは敵ユニットに占領されていたり、敵ユニットに隣接したりしていてはならない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIBERATION_PREVIEW_EXTREME">
+      <Text>この都市を解放すると、[COLOR_POSITIVE_TEXT]最大の[ENDCOLOR]解放ボーナスが得られる（これまでの好戦性ペナルティーは解除される）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIBERATION_PREVIEW_MAJOR">
+      <Text>この都市を解放すると、[COLOR_POSITIVE_TEXT]大きな[ENDCOLOR]解放ボーナスが得られる（これまでの好戦性ペナルティーは解除される）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIBERATION_PREVIEW_MINOR">
+      <Text>この都市を解放すると、[COLOR_POSITIVE_TEXT]小さな[ENDCOLOR]解放ボーナスが得られる（これまでの好戦性ペナルティーは解除される）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_DISCOVERED_ARTIFACTS_NEAR">
+      <Text>{@1_CityName}付近で[COLOR_HIGHLIGHT_TEXT]史跡[ENDCOLOR]を発見しました！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_DISCOVERED_HIDDEN_ARTIFACTS_NEAR">
+      <Text>{@1_CityName}付近で[COLOR_HIGHLIGHT_TEXT]隠された史跡[ENDCOLOR]を発見しました！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_CREATE_GREAT_WORK_DISABLED_HELP">
+      <Text>ユニットが自文明の都市内にいるか、あるいは隣接していなければならない。また、然るべきタイプの空き傑作スロットが国内になければならない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_CREATE_GREAT_WORK_HELP">
+      <Text>この命令は偉人を消費し、かわりに然るべきタイプの傑作スロットがある最も近くの都市において新たな傑作を誕生させる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_CREATE_GREAT_WORK_RESULT">
+      <Text>傑作は{2_CityName}の{1_BuildingName}に配置される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_GIVE_POLICIES_HELP">
+      <Text>この命令は偉人を消費し、かわりに大量の[ICON_CULTURE]文化力をもたらす。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_HEAL_DISABLED_HELP">
+      <Text>このユニットは、自友国領外にいるときや乗船中は回復できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_ONE_SHOT_TOURISM_DISABLED_HELP">
+      <Text>ユニットが他の主要文明が所有するタイルにいなければならない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_ONE_SHOT_TOURISM_HELP">
+      <Text>この命令は偉人を消費し、かわりに大量の[ICON_TOURISM]観光力をその音楽家がいた文明にもたらす。また、他の文明も、この[ICON_TOURISM]観光力の20%を得る。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_DISABLED_HELP">
+      <Text>交易路の所有者に対して宣戦を布告できなければならない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_HELP">
+      <Text>この交易路を破壊すると[ICON_GOLD]が得られる。[NEWLINE][NEWLINE]この交易路の所有者と戦争状態にない場合は、略奪する前に宣戦布告する必要がある。戦争状態になくても、他の文明の交易路を略奪すれば、その文明との関係は悪化する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SELL_EXOTIC_GOODS_DISABLED_HELP">
+      <Text>ユニットが他の文明や都市国家が所有するタイルかそれに隣接するタイルにいなければならない。また、この能力は一度しか使えない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SELL_EXOTIC_GOODS_HELP">
+      <Text>このユニットは積み荷を売って[ICON_GOLD]ゴールドとXPを得る。首都から離れるほど見返りは多くなる。このユニットを使ってこれを行えるのは1回に限られる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ARTIFACT_SWAP">
+      <Text>{1_LeaderName}があなたの文化遺産である「{2_Work1Name}」と文化遺産である「{3_Work2Name}」を交換した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CHOOSE_ARCHAEOLOGY">
+      <Text>史跡に発掘現場が築かれた。次は考古学者をここで働かせる方法を選ぶこと。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_ERA">
+      <Text>産業時代は過ぎ去り、今や「産業革命」という考え方が社会の隅々にまで浸透している。今、民衆が求めているのは、自文明のために思想を選択することだ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_FACTORIES">
+      <Text>3つの都市に工場がある。今や「産業革命」という考え方が社会の隅々にまで浸透している。今、民衆が求めているのは、自文明のために思想を選択することだ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_WONDER_MOD">
+      <Text>{2_ResourceName:textkey}が{1_CityName:textkey}で利用できるようになった！　この都市に太古または古典時代の遺産を建設すると[ICON_PRODUCTION]生産力が{3_Num}%向上する！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DIPLOMAT_EJECTED">
+      <Text>外交官が退避した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DIPLOMAT_EJECTED_TT">
+      <Text>宣戦布告が発せられたため、{1_SpyRank}{2_SpyName}は{3_CityName}を出て隠れ家に身を潜めた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FOUND_ARTIFACTS">
+      <Text>[COLOR_HIGHLIGHT_TEXT]史跡[ENDCOLOR]を発見しました！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FOUND_HIDDEN_ARTIFACTS">
+      <Text>[COLOR_HIGHLIGHT_TEXT]隠された史跡[ENDCOLOR]を発見しました！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FREE_POLICY">
+      <Text>無償の社会制度または思想的教義を選べる</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GREAT_WORK_ART_SWAP">
+      <Text>{1_LeaderName}があなたの傑作芸術である「{2_Work1Name}」と傑作である「{3_Work2Name}」を交換した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GREAT_WORK_MUSIC_SWAP">
+      <Text>{1_LeaderName}があなたの傑作音楽である「{2_Work1Name}」と傑作である「{3_Work2Name}」を交換した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GREAT_WORK_WRITING_SWAP">
+      <Text>{1_LeaderName}があなたの傑作書物である「{2_Work1Name}」と傑作である「{3_Work2Name}」を交換した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_HEATHEN_CONVERTS">
+      <Text>蛮族ユニットがあなたの軍に加わった！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_IDEOLOGY_CHANGE">
+      <Text>{1_CivName}の民が蜂起し、指導者に「{2_TheirPolicyTree}」の思想を採用するよう迫った！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_IDEOLOGY_CHANGE_UNMET">
+      <Text>未知の文明の民が蜂起し、指導者に「{1_TheirPolicyTree}」の思想を採用するよう迫った。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_IDEOLOGY_CHOSEN">
+      <Text>{1_CivName}が思想「{2_TheirPolicyTree}」を採用した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_IDEOLOGY_CHOSEN_UNMET">
+      <Text>未知の文明が思想「{1_TheirPolicyTree}」を採用した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_WAR_UNIT_HELP">
+      <Text>{@2_CivName}と戦争中の{@1_MinorCivName}が支援を求めている。戦争が続いている間は、彼らにユニットを贈ると通常より多くの[ICON_INFLUENCE]影響力を獲得できる。ユニットは離れた場所から贈ることが可能だ。都市国家の外交画面を利用するか、都市国家の領内に直接ユニットを移動させ、ユニットを贈るためのアクションを選択しよう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_TRADE_ROUTE">
+      <Text>{@1_MinorCivName}の市民は交易路の接続を喜んでいる。彼らに対する[ICON_INFLUENCE]影響力が[COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR]上がった！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_START_TRADE_ROUTE">
+      <Text>{@1_MinorCivName}の市民は、交易路が互いに繁栄をもたらすと信じている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED">
+      <Text>{1_CivName}が、信仰している{@2_ReligionName}に改革の信仰の証を加えた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED_ACTIVE_PLAYER">
+      <Text>自分が信仰している{@1_ReligionName}に改革の信仰の証を加えた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED_S">
+      <Text>改革の信仰の証の追加</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED_UNKNOWN">
+      <Text>未知の文明が、信仰している{@1_ReligionName}に改革の信仰の証を加えた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_ARCHAEOLOGY">
+      <Text>考古学を選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_IDEOLOGY">
+      <Text>思想を選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GREAT_WORK_SWAP">
+      <Text>傑作の交換</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_HEATHEN_CONVERTS">
+      <Text>改宗した異教徒</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_IDEOLOGY_CHANGE">
+      <Text>革命！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_IDEOLOGY_CHOSEN">
+      <Text>採用した思想</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_WAR_UNIT_HELP">
+      <Text>{@1_MinorCivName}がユニットの派遣を要請</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_TRADE_ROUTE">
+      <Text>{@1_MinorCivName}のために交易路が開設された！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_START_TRADE_ROUTE">
+      <Text>{@1_MinorCivName}が交易路を切望</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_TRADE_ROUTE_BROKEN">
+      <Text>[ICON_CONNECTED]都市の結びつきが断たれた！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_TRADE_ROUTE_ESTABLISHED">
+      <Text>[ICON_CONNECTED]都市の結びつきが生まれた！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TRADE_ROUTE_BROKEN">
+      <Text>{1_CityName:textkey}と首都である{2_CityName:textkey}の間の[ICON_CONNECTED]都市の結びつきが断たれた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TRADE_ROUTE_ESTABLISHED">
+      <Text>{1_CityName:textkey}と首都である{2_CityName:textkey}の間に[ICON_CONNECTED]都市の結びつきが生まれた！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES">
+      <Text>科学アカデミー</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]科学アカデミー[ENDCOLOR][NEWLINE]すべての天文台、公立学校、研究所から地方都市の[ICON_HAPPINESS_1]幸福度+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY">
+      <Text>民主主義の兵器廠</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]民主主義の兵器廠[ENDCOLOR][NEWLINE]軍事ユニット生産時に[ICON_PRODUCTION]生産力+15%。軍事ユニットを贈ることによって得られる都市国家への[ICON_INFLUENCE]影響力+15。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS">
+      <Text>巨匠</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]巨匠[ENDCOLOR][NEWLINE]大芸術家が1人出現する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS">
+      <Text>美学</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_CAP">
+      <Text>美学</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]美学[ENDCOLOR]は文明が[ICON_CULTURE]文化力を生み出す力を高める。[NEWLINE][NEWLINE]美学を採用すると、大著述家、大芸術家、大音楽家の獲得速度が25%上がる。ウフィツィ美術館が建設可能になる。[NEWLINE][NEWLINE]すべての制度を採用すると、博物館や遺産から得られるテーマ化ボーナスが2倍になる。また、産業時代からは[ICON_PEACE]信仰力を使って大著述家、大芸術家、大音楽家を購入できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_RELIGION">
+      <Text>[COLOR_WARNING_TEXT]宗教のないゲームでは、この制度分岐は選べない。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]商業[ENDCOLOR]は[ICON_GOLD]ゴールドを求める国に適したボーナスをもたらす。[NEWLINE][NEWLINE]商業を採用すると[ICON_CAPITAL]首都の生み出す[ICON_GOLD]ゴールドが25%増える。ビッグベンが建設可能になる。[NEWLINE][NEWLINE]商業ツリーの制度をすべて採用すると、すべての交易所から[ICON_GOLD]ゴールド+1がもたらされる。また、産業時代からは[ICON_PEACE]信仰力を使って大商人を購入できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION">
+      <Text>探検</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION_CAP">
+      <Text>探検</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]探検[ENDCOLOR]は海を越えて領土を拡大したい国家に向いている。[NEWLINE][NEWLINE]探検を採用すると、海軍ユニットに[ICON_MOVES]移動ポイント+1、海軍戦闘ユニットに視界+1が与えられる。ルーブル美術館が建設可能になる。[NEWLINE][NEWLINE]すべての制度を採用すると、隠された史跡が明らかになる。また、産業時代からは[ICON_PEACE]信仰力を使って大提督を購入できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]名誉[ENDCOLOR]は軍の能力をさまざまな面で強化する。[NEWLINE][NEWLINE]名誉を採用すると、対蛮族戦で+33%の戦闘ボーナスが与えられるうえ、探索済みの領土に新たな蛮族の野営地が出現すると、メッセージが表示される。さらに、蛮族を倒すたびに国家の[ICON_CULTURE]文化力が増える。ゼウス像が建設可能になる。[NEWLINE][NEWLINE]名誉ツリーの制度をすべて採用すると、敵ユニットを倒すたびに[ICON_GOLD]ゴールドが手に入る。また、産業時代からは[ICON_PEACE]信仰力を使って大将軍を購入できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]解放[ENDCOLOR]は迅速な領土拡大を望む文明に最適だ。[NEWLINE][NEWLINE]解放を採用すると全都市に[ICON_CULTURE]文化力1がもたらされるうえ、ピラミッドが建設可能になる。[NEWLINE][NEWLINE]解放ツリーの制度をすべて採用すると、無償の偉人（選択可能）1人が[ICON_CAPITAL]首都の近くに出現する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]文化後援[ENDCOLOR]は、都市国家との友好関係によるメリットを増やしてくれる。[NEWLINE][NEWLINE]文化後援を採用すると、都市国家に対する[ICON_INFLUENCE]影響力の低下速度が通常より25%緩やかになるとともに、紫禁城が建設可能になる。[NEWLINE][NEWLINE]文化後援ツリーの制度をすべて採用すると、同盟している都市国家からときおりに[ICON_GREAT_PEOPLE]偉人がもたらされる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]敬虔[ENDCOLOR]は国家の[ICON_PEACE]信仰力を高める。[NEWLINE][NEWLINE]敬虔を採用すると、神殿と寺院の建設時間が通常の半分になり、泥のモスクが建設可能になる。[NEWLINE][NEWLINE]敬虔ツリーの制度をすべて採用すると、大預言者が1人出現し、聖地が[ICON_CULTURE]文化力+3をもたらすようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]合理主義[ENDCOLOR]は[ICON_RESEARCH]科学力を生み出し、活用する力を高める。[NEWLINE][NEWLINE]合理主義を採用している文明は、[ICON_HAPPINESS_1]幸福状態にある限り[ICON_RESEARCH]科学力+10%を得られる。南京の陶塔が建設可能になる。[NEWLINE][NEWLINE]合理主義ツリーの制度をすべて採用すると、テクノロジーを無償で2つ獲得できる。また、産業時代からは[ICON_PEACE]信仰力を使って大科学者を購入できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_TRADITION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]伝統[ENDCOLOR]は小さな国に最適だ。[NEWLINE][NEWLINE]伝統を採用すると、都市の領土の拡張速度が大幅にアップし、[ICON_CAPITAL]首都に[ICON_CULTURE]文化力3が与えられる。空中庭園が建設可能になる。[NEWLINE][NEWLINE]伝統ツリーの制度をすべて採用すると、自文明の第4の都市までが[ICON_FOOD]成長+15%と無償の用水路1つを得る。また、産業時代からは[ICON_PEACE]信仰力を使って大技術者を購入できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CAPITALISM">
+      <Text>資本主義</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CAPITALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]資本主義[ENDCOLOR][NEWLINE]すべての造幣所、銀行、証券取引所から地方都市の[ICON_HAPPINESS_1]幸福度+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CARAVANS">
+      <Text>ほろ馬車隊</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CARAVANS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]ほろ馬車隊[ENDCOLOR][NEWLINE]所有するすべての陸上交易路から[ICON_GOLD]ゴールド+2。道路や鉄道にかかる維持費が50%軽減される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]直接民主制[ENDCOLOR][NEWLINE][ICON_CAPITAL]首都での[COLOR_POSITIVE_TEXT]開拓者[ENDCOLOR]の生産速度が50%上昇。無償の開拓者が[ICON_CAPITAL]首都近郊に出現する。（ヴェネツィアは開拓者の代わりにヴェニスの商人を獲得する。）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CONSULATES">
+      <Text>領事館</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CONSULATES_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]領事館[ENDCOLOR][NEWLINE]すべての都市国家に対する[ICON_INFLUENCE]影響力の基礎ポイントが20増える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_COVERT_ACTION">
+      <Text>秘密工作</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_COVERT_ACTION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]秘密工作[ENDCOLOR][NEWLINE]都市国家における選挙工作の成功率が2倍になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION">
+      <Text>創造的表現</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]創造的表現[ENDCOLOR][NEWLINE]傑作1つにつき[ICON_CULTURE]文化力+1（ただし[ICON_TOURISM]観光力は通常と同じ）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULT_PERSONALITY">
+      <Text>個人崇拝</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULT_PERSONALITY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]個人崇拝[ENDCOLOR][NEWLINE]共通の敵と戦っている文明に対する[ICON_TOURISM]観光力+50%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULTURAL_CENTERS">
+      <Text>文化的拠点</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULTURAL_CENTERS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]文化的拠点[ENDCOLOR][NEWLINE]モニュメント、円形競技場、オペラハウス、博物館、放送塔の建設速度が50%上がる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION">
+      <Text>文化大革命</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]文化大革命[ENDCOLOR][NEWLINE]「秩序」を採用している他文明に対する観光力[ICON_TOURISM]+34%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT">
+      <Text>プロレタリア独裁</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]プロレタリア独裁[ENDCOLOR][NEWLINE]自文明より[ICON_HAPPINESS_1]幸福度の低い文明に対する観光力[ICON_TOURISM]+34%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DOUBLE_AGENTS">
+      <Text>二重スパイ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DOUBLE_AGENTS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]二重スパイ[ENDCOLOR][NEWLINE]テクノロジーを盗もうとしている敵スパイを味方スパイが捕らえる確率が2倍になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ECONOMIC_UNION">
+      <Text>経済同盟</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ECONOMIC_UNION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]経済同盟[ENDCOLOR][NEWLINE]「自由」思想を選択している他文明への交易路1つにつき[ICON_GOLD]ゴールド+3。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ELITE_FORCES">
+      <Text>精鋭部隊</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ELITE_FORCES_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]精鋭部隊[ENDCOLOR][NEWLINE]損傷した軍事ユニットは通常より25%多くダメージを与える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP">
+      <Text>企業家精神</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]企業家精神[ENDCOLOR][NEWLINE]大商人の獲得速度が25%上がる。大商人の通商任務によって得られる[ICON_GOLD]ゴールドが2倍になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ETHICS">
+      <Text>文化交流</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ETHICS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]文化交流[ENDCOLOR][NEWLINE]共通の宗教、交易路、国境の開放に適用される観光力補正がそれぞれ15%上がる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FINE_ARTS">
+      <Text>純粋芸術</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FINE_ARTS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]純粋芸術[ENDCOLOR][NEWLINE][ICON_HAPPINESS_1]幸福度の余剰分の50%が、社会制度の採用に費やせる[ICON_CULTURE]文化力に毎ターン追加される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FIVE_YEAR_PLAN">
+      <Text>五か年計画</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FIVE_YEAR_PLAN_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]五か年計画[ENDCOLOR][NEWLINE]都市1つにつき[ICON_PRODUCTION]生産力+2。鉱山と採石場は1つにつき[ICON_PRODUCTION]生産力+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FLOURISHING_OF_ARTS">
+      <Text>芸術の開花</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FLOURISHING_OF_ARTS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]芸術の開花[ENDCOLOR][NEWLINE]世界遺産を建設済みの全都市の[ICON_CULTURE]文化力が33%増加し、国家がただちに[ICON_GOLDEN_AGE]黄金時代に突入する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FORTIFIED_BORDERS">
+      <Text>国境の防衛強化</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FORTIFIED_BORDERS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]国境の防衛強化[ENDCOLOR][NEWLINE]すべての城、兵器庫、軍事基地から地方都市の[ICON_HAPPINESS_1]幸福度+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FREE_RELIGION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]宗教的寛容[ENDCOLOR][NEWLINE]多数派宗教のある都市では、市内で2番目に人気のある宗教についても、パンテオンの信仰の証によるボーナスを獲得できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FUTURISM">
+      <Text>未来派</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FUTURISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]未来派[ENDCOLOR][NEWLINE]大著述家、大芸術家、大音楽家が誕生すると、これまでに接触しているすべての文明に対し[ICON_TOURISM]観光力+250を与える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_GUNBOAT_DIPLOMACY">
+      <Text>砲艦外交</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_GUNBOAT_DIPLOMACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]砲艦外交[ENDCOLOR][NEWLINE]貢ぎ物を要求できる都市国家へのターン毎に得られる[ICON_INFLUENCE]影響力が6増える（ゲーム速度がスタンダードの場合）。自国の軍隊が都市国家を脅迫する能力も50%向上する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE">
+      <Text>国民的英雄</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]国民的英雄[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE]偉人の誕生速度が25%上がる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_HUMANISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]人間主義[ENDCOLOR][NEWLINE]大科学者の獲得速度が25%上がる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE">
+      <Text>産業スパイ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]産業スパイ[ENDCOLOR][NEWLINE]スパイがテクノロジーを盗む速度が通常の2倍になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_IRON_CURTAIN">
+      <Text>鉄のカーテン</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_IRON_CURTAIN_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]鉄のカーテン[ENDCOLOR][NEWLINE]都市の占領時に裁判所が無償でもたらされる。国内交易路がもたらす[ICON_FOOD]食物や[ICON_PRODUCTION]生産力が50%増える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE">
+      <Text>電撃戦</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]電撃戦[ENDCOLOR][NEWLINE]大将軍の[ICON_MOVES]移動ポイント+3。装甲ユニットは攻撃力+15%、[ICON_MOVES]移動力+1、敵支配領域無視。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]天命[ENDCOLOR][NEWLINE][ICON_PEACE]信仰力よる宗教ユニットと宗教施設の購入コストが20%軽減される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE">
+      <Text>海運インフラ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]海運インフラ[ENDCOLOR][NEWLINE]すべての沿岸都市の[ICON_PRODUCTION]生産力+3。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MEDIA_CULTURE">
+      <Text>メディア文化</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MEDIA_CULTURE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]メディア文化[ENDCOLOR][NEWLINE]放送塔のある都市が生み出す[ICON_TOURISM]観光力+34%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY">
+      <Text>商人連合</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]商人連合[ENDCOLOR][NEWLINE]都市国家との交易路に対し[ICON_GOLD]ゴールド+2。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_TEXT">
+      <Text>商人連合は商業連盟や交易組合とも呼ばれ、交易路沿いの都市や国家の商人によって、経済的利益や外交特権を守るために結成される。商人連合は公的団体ではないが、長期にわたって強い経済的影響力を発揮し、特定の交易路を支配したものもある。ロンドン冒険商人会社（1407年創設）や、さらに大きな勢力を振るったハンザ同盟（1356年結成）などは特に有名である。ルネサンス初期には、ヴェネツィアやジェノヴァのような都市国家でも商人連合が結成された。商人が国外で取引する際、特定の商品に関する利益を守れるようにするためである。こうした商人連合は、15～16世紀に隆盛を誇ったが、その後は次第に衰勢に向かう。商人連合が行ってきた取り締まりや外交を、政府や勅許会社が担うようになったことがその原因であった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCHANT_NAVY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]商船隊[ENDCOLOR][NEWLINE]すべての港、港湾、灯台からの[ICON_GOLD]ゴールド+1。東インド会社のある都市の[ICON_PRODUCTION]生産力と[ICON_CULTURE]文化力がそれぞれ+4。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MILITARISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]軍事主義[ENDCOLOR][NEWLINE]すべての兵舎、武器庫、士官学校からの地方都市の[ICON_HAPPINESS_1]幸福度+2。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MOBILIZATION">
+      <Text>動員</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MOBILIZATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]動員[ENDCOLOR][NEWLINE]ユニットの購入に必要な[ICON_GOLD]ゴールドが33%軽減される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NATIONALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]ナショナリズム[ENDCOLOR][NEWLINE]ユニットの維持費として必要な[ICON_GOLD]ゴールドが33%減る。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NAVAL_TRADITION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]海軍の栄誉[ENDCOLOR][NEWLINE]すべての港、港湾、灯台からの[ICON_HAPPINESS_1]幸福度+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NAVIGATION_SCHOOL">
+      <Text>航海学校</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NAVIGATION_SCHOOL_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]航海学校[ENDCOLOR][NEWLINE]大提督が1人出現する。すべての大提督に[ICON_MOVES]移動ポイント+2。大提督の獲得速度が50%上がる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NEW_DEAL">
+      <Text>ニューディール政策</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NEW_DEAL_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]ニューディール政策[ENDCOLOR][NEWLINE]ランドマークおよび偉人の建設した資源活用施設の産出量が通常より4増える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NEW_ORDER">
+      <Text>クラウゼヴィッツの遺産</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NEW_ORDER_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]クラウゼヴィッツの遺産[ENDCOLOR][NEWLINE]この制度の採用後、50ターンにわたって全軍事ユニットが25%の攻撃ボーナスを得る。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_OPEN_SOCIETY">
+      <Text>アバンギャルド</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_OPEN_SOCIETY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]アバンギャルド[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE]偉人の誕生速度が25%上がる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP">
+      <Text>党執行部</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]党執行部[ENDCOLOR][NEWLINE]都市1つにつき[ICON_FOOD]食物、[ICON_PRODUCTION]生産力、[ICON_RESEARCH]科学力、[ICON_GOLD]ゴールド、および[ICON_CULTURE]文化力+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PATRIOTIC_WAR">
+      <Text>祖国戦争</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]祖国戦争[ENDCOLOR][NEWLINE]自友国領内での戦闘時に攻撃ボーナス+15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_POLICE_STATE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]警察国家[ENDCOLOR][NEWLINE]すべての裁判所から地方都市の[ICON_HAPPINESS_1]幸福度+3。裁判所の建設時間が通常の半分になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]軍隊の常備[ENDCOLOR][NEWLINE]軍事ユニットのアップグレードに必要な[ICON_GOLD]ゴールドが33%減る。兵舎、兵器庫、士官学校の建設速度が50%上がる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_REFORMATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]改革[ENDCOLOR][NEWLINE]宗教を創始するとボーナスで改革の信仰の証を1つ獲得。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_RESETTLEMENT">
+      <Text>移住</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]移住[ENDCOLOR][NEWLINE]新たに建設する都市に[ICON_CITIZEN]人口+3。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SKYSCRAPERS">
+      <Text>超高層建築</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SKYSCRAPERS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]超高層建築[ENDCOLOR][NEWLINE]建築物の購入にかかる[ICON_GOLD]ゴールドが33%減る。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SOCIALIST_REALISM">
+      <Text>社会主義リアリズム</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SOCIALIST_REALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]社会主義リアリズム[ENDCOLOR][NEWLINE]各モニュメントから地方都市の[ICON_HAPPINESS_1]幸福度+2。モニュメントの建設時間が通常の半分になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS">
+      <Text>宇宙関連資材の調達</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]宇宙関連資材の調達[ENDCOLOR][NEWLINE]宇宙船のパーツが[ICON_GOLD]ゴールドで購入できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SPACEFLIGHT_PIONEERS">
+      <Text>宇宙飛行の先駆者</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SPACEFLIGHT_PIONEERS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]宇宙飛行の先駆者[ENDCOLOR][NEWLINE]大技術者を使って宇宙船のパーツを完成させることができる。大技術者と大科学者が1人ずつ[ICON_CAPITAL]首都の外に出現する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_THEIR_FINEST_HOUR">
+      <Text>栄光の時代</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_THEIR_FINEST_HOUR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]栄光の時代[ENDCOLOR][NEWLINE]都市の[ICON_STRENGTH]戦闘力が33%向上する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_THEOCRACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]神権政治[ENDCOLOR][NEWLINE]寺院は都市の生み出す[ICON_GOLD]ゴールドを25%増やす。聖地のもたらす[ICON_GOLD]ゴールドも3増える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE">
+      <Text>第三の位置</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]第三の位置[ENDCOLOR][NEWLINE]戦略資源の産出量が100%増加。[ICON_CAPITAL]首都の[ICON_FOOD]食物+5、[ICON_RESEARCH]科学力+5。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TRADE_UNIONS">
+      <Text>傭兵団</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]傭兵軍[ENDCOLOR][NEWLINE]ランツクネヒトが購入可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TREASURE_FLEETS">
+      <Text>財宝艦隊</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TREASURE_FLEETS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]財宝艦隊[ENDCOLOR][NEWLINE]所有するすべての海上交易路からの[ICON_GOLD]ゴールド+4。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION">
+      <Text>条約機構</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]条約機構[ENDCOLOR][NEWLINE]交易路で結ばれた都市国家に対するターン毎に得られる[ICON_INFLUENCE]影響力が4増える（ゲーム速度がスタンダードの場合）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNITED_FRONT_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]統一戦線[ENDCOLOR][NEWLINE]共通の敵と戦争をしている場合、軍事都市国家がユニットを提供してくれる頻度が2倍になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE">
+      <Text>国民皆保険</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]国民皆保険[ENDCOLOR][NEWLINE]すべての国家遺産から地方都市の[ICON_HAPPINESS_1]幸福度+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNIVERSAL_SUFFRAGE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]普通選挙[ENDCOLOR][NEWLINE]都市の専門家が生み出す[ICON_HAPPINESS_4]不満度が通常の半分になる。[ICON_GOLDEN_AGE]黄金時代の期間が50%延長される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_URBANIZATION">
+      <Text>都市化</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_URBANIZATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]都市化[ENDCOLOR][NEWLINE]すべての水車小屋、病院、医学研究所から地方都市の[ICON_HAPPINESS_1]幸福度+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY">
+      <Text>志願制軍隊</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]志願制軍隊[ENDCOLOR][NEWLINE]6ユニットの維持費が不要になる。外国人部隊ユニットをただちに6つ獲得する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_WARRIOR_CODE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]戦士の掟[ENDCOLOR][NEWLINE]白兵ユニットの生産時は[ICON_PRODUCTION]生産力+15%。大将軍が1人[ICON_CAPITAL]首都の外に出現する。また、大将軍の獲得速度が50%上がる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_WORKERS_FACULTIES">
+      <Text>労働者の能力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]労働者の能力[ENDCOLOR][NEWLINE]工場は都市の生み出す[ICON_RESEARCH]科学力を25%増やす。工場の建設時間が通常の半分になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_YOUNG_PIONEERS">
+      <Text>ピオネール</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_YOUNG_PIONEERS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]ピオネール[ENDCOLOR][NEWLINE]すべての工房、工場、太陽熱/原子力/水力発電所から地方都市の[ICON_HAPPINESS_1]幸福度+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_ADD_TENET">
+      <Text>クリックで教義を追加</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_CHANGE_IDEOLOGY">
+      <Text>思想の変更</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_CHANGE_IDEOLOGY_DISABLED_TT">
+      <Text>国民が[COLOR_POSITIVE_TEXT]満足[ENDCOLOR]しているときは思想を変更できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_CHANGE_IDEOLOGY_TT">
+      <Text>このボタンで国民の好む思想に変更できる:[COLOR_POSITIVE_TEXT]{1_IdeologyName}[ENDCOLOR][NEWLINE][NEWLINE][ICON_HAPPINESS_1]幸福度が{2_HappinessGain}上昇するが、新しいツリーの教義は{3_TenetLoss}減少する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_CHOOSE_TENET">
+      <Text>教義を選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_CONFIRM_CHANGE_IDEOLOGY">
+      <Text>思想を変更すると、{1_AnarchyTurns}ターンの間、国内の全都市が無政府状態に陥る。無政府状態の都市は、[ICON_PRODUCTION]生産力、[ICON_GOLD]ゴールド、[ICON_RESEARCH]科学力、[ICON_CULTURE]文化力、 [ICON_PEACE]信仰力を一切生み出さない。また、現在採用している「{3_CurrentIdeologyTree}」思想では{2_CurrentIdeologyTenets}つの思想的教義を所有しているが、「{5_NewIdeologyTree}」思想では{4_NewIdeologyTenets}つに減ってしまう。[NEWLINE][NEWLINE]一方、思想を変更すると、世論の改善により、[ICON_HAPPINESS_1]幸福度{6_HappinessGain}を獲得できる。[NEWLINE]（注:「{3_CurrentIdeologyTree}」思想の教義を失うことにより、[ICON_HAPPINESS_1]幸福度が一時的に下がってしまうこともある。その場合、新たな思想の教義を選択すると回復する。）[NEWLINE][NEWLINE]本当に[COLOR_GREEN]{5_NewIdeologyName}[ENDCOLOR]思想に切り替えてよろしいですか？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_CONFIRM_TENET">
+      <Text>[COLOR_GREEN]{1_TenetName}[ENDCOLOR]を採用してよろしいですか？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGIES_TAB">
+      <Text>思想的教義</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_DISABLED">
+      <Text>このシナリオでは思想が無効になっています。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_L1TENETS">
+      <Text>レベル1の教義：[COLOR_GREEN]{1_NumTenets}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_L2TENETS">
+      <Text>レベル2の教義：[COLOR_GREEN]{1_NumTenets}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_L3TENETS">
+      <Text>レベル3の教義：[COLOR_GREEN]{1_NumTenets}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_LEVEL1">
+      <Text>レベル1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_LEVEL2">
+      <Text>レベル2</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_LEVEL3">
+      <Text>レベル3</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_NOT_STARTED">
+      <Text>思想的教義は、思想を選択するまで購入できない。3つめの工場を建てるか、時代を現代まで進めると思想を選択できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_TITLE">
+      <Text>{1_CivAdjective}{2_IdeologyName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGYPANEL_TITLE">
+      <Text>思想</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_L1_TENET">
+      <Text>レベル1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_L2_TENET">
+      <Text>レベル2</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_L3_TENET">
+      <Text>レベル3</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_NEED_L1_TENETS_TOOLTIP">
+      <Text>[COLOR_NEGATIVE_TEXT]レベル2のこの教義を獲得可能にするには、レベル1の教義があと1つ必要。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_NEED_L2_TENETS_TOOLTIP">
+      <Text>[COLOR_NEGATIVE_TEXT]レベル3のこの教義を獲得可能にするには、レベル2の教義があと1つ必要。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_SOCIAL_POLICIES_TAB">
+      <Text>社会制度</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_TENETS">
+      <Text>思想的教義</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_TO_IDEOLOGY_BUTTON">
+      <Text>思想へ[ICON_ARROW_RIGHT]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_AFRAID">
+      <Text>彼らは現在[COLOR_POSITIVE_TEXT]恐れている[ENDCOLOR] （+{1_FactorScore}）：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_ALLIES">
+      <Text>同盟国がいる</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_BASE_RELUCTANCE">
+      <Text>嫌悪感の基本値</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_RECENTLY">
+      <Text>最近貢ぎ物をくれた</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_VERY_RECENTLY">
+      <Text>つい最近貢ぎ物をくれた</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_GLOBAL_MILITARY">
+      <Text>総軍事力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_GUNBOAT_DIPLOMACY">
+      <Text>砲艦外交教義</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_HOSTILE">
+      <Text>敵対的な性格</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_LOW_INFLUENCE">
+      <Text>[ICON_INFLUENCE]影響力が非常に低い</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_LOW_POPULATION">
+      <Text>人口が少ない</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_MILITARISTIC">
+      <Text>軍国主義的</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_MILITARY_PRESENCE">
+      <Text>都市国家の近くに軍が存在</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_NEGATIVE">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]（{1_FactorScore}） {@2_FactorDescription}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_PLEDGES_TO_PROTECT">
+      <Text>庇護下にある</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_POSITIVE">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]（+{1_FactorScore}） {@2_FactorDescription}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_UNIT_RELUCTANCE">
+      <Text>ユニットを提供中</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_GOLD_TT">
+      <Text>この都市国家のあなたに対する[COLOR_POSITIVE_TEXT]恐れ[ENDCOLOR]が[COLOR_WARNING_TEXT]反抗心[ENDCOLOR]を上回っていれば、貢ぎ物として[ICON_GOLD]ゴールドを要求できる。これには[ICON_INFLUENCE]影響力を消費する。{1_FearLevel}{2_FactorDetails}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_RESILIENT">
+      <Text>彼らは現在[COLOR_WARNING_TEXT]反抗的[ENDCOLOR] ({1_FactorScore}):</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_UNIT_TT">
+      <Text>この都市国家のあなたに対する[COLOR_POSITIVE_TEXT]恐れ[ENDCOLOR]が[COLOR_WARNING_TEXT]反抗心[ENDCOLOR]を上回っていれば、貢ぎ物として{@3_Unit}を要求できる。これには[ICON_INFLUENCE]影響力を消費する。{1_FearLevel}{2_FactorDetails}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GIFT_TILE_IMPROVEMENT_TT">
+      <Text>この都市国家の戦略資源か高級資源を活用するため、[ICON_GOLD]ゴールドを支払うことができる。すると、この都市国家はその資源を利用できるようになり、利用権を（存在するなら）同盟国に与える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GIFT_UNIT">
+      <Text>ユニットを贈る - [ICON_INFLUENCE]影響力{1_Influence}を獲得できる</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GIFT_UNIT_TT">
+      <Text>この都市国家に戦闘ユニットを贈れる（マップのどこにいるユニットでも可）。ユニットが到着する{1_TurnsUntilArrival}ターン後まで、他の贈り物をすることはできない。ユニットが到着すると、[ICON_INFLUENCE]影響力{2_Influence}を獲得できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POPUP_ARE_YOU_SURE_FOUND_ON_DIG_SITE">
+      <Text>本当に{@1_ActionName}しますか？[NEWLINE]現在の史跡は完全に撤去されます。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESS_INTERNATIONAL_SPACE_STATION_HELP">
+      <Text>国際宇宙ステーションプロジェクトの完成のため、この都市の[ICON_PRODUCTION]生産力を寄付する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESS_WORLD_FAIR_HELP">
+      <Text>万国博覧会プロジェクトの完成のため、この都市の[ICON_PRODUCTION]生産力を寄付する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESS_WORLD_GAMES_HELP">
+      <Text>国際大会プロジェクトの完成のため、この都市の[ICON_PRODUCTION]生産力を寄付する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_ARTIFACTS_HELP">
+      <Text>発掘現場を築いて史跡を活用すると、傑作芸術スロットに配置可能な文化遺産が出土したり、ランドマークに変化したりする可能性がある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_CLOVES_HELP">
+      <Text>インドネシアの都市に固有の高級品として登場。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_HIDDEN_ARTIFACTS_HELP">
+      <Text>発掘現場を築いて隠された史跡を活用すると、文化遺産が出土したり、ランドマークに変化したりする可能性がある。出土した文化遺産は、傑作芸術スロットに配置することができる。隠された史跡は、「探検」ツリーの社会制度をすべて獲得している文明にしか見ることができない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_NUTMEG_HELP">
+      <Text>インドネシアの都市に固有の高級品として登場。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_PEPPER_HELP">
+      <Text>インドネシアの都市に固有の高級品として登場。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST">
+      <Text>自友国領内を移動するユニットは、森林やジャングルを道路と同じように通り抜けられる。また、「車輪」を研究すると都市が結ばれる。隊商は森林やジャングルを道路と同じように移動できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD">
+      <Text>[ICON_CONNECTED]都市の結びつき1つあたり[ICON_GOLD]ゴールド+1。[ICON_RES_OIL]石油資源による石油の産出量が2倍になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_HATE_HIGH">
+      <Text>(彼らは好戦的な文明を憎んでいる！）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_HATE_LOW">
+      <Text>（彼らは好戦的な態度にもある程度まで目をつぶる。）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_HATE_MID">
+      <Text>（彼らは好戦的な文明を好いていない）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_PREVIEW_EXTREME">
+      <Text>この都市を占領すると[COLOR_NEGATIVE_TEXT]最大の[ENDCOLOR]好戦性ペナルティーが課される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_PREVIEW_MAJOR">
+      <Text>この都市を占領すると[COLOR_NEGATIVE_TEXT]大きな[ENDCOLOR]好戦性ペナルティーが課される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_PREVIEW_MINOR">
+      <Text>この都市を占領すると[COLOR_NEGATIVE_TEXT]小さな[ENDCOLOR]好戦性ペナルティーが課される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_BIG_BEN_HELP">
+      <Text>「商業」が必要。[ICON_GOLD]ゴールドによる購入コストが全都市で15%下がる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_BROADWAY_HELP">
+      <Text>この遺産を建てた都市の近くに無償の大音楽家が1人出現する。傑作音楽スロットを3つ備える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_CHICHEN_ITZA_HELP">
+      <Text>「解放」が必要。資源活用施設の建設速度が25%上がり、都市の近くに労働者が2人出現する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_EIFFEL_TOWER_HELP">
+      <Text>エッフェル塔は[ICON_HAPPINESS_1]幸福度と[ICON_CULTURE]文化力を向上させるだけでなく、[ICON_TOURISM]観光力+12をもたらす。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_FORBIDDEN_PALACE_HELP">
+      <Text>「文化後援」が必要。世界議会で代表が2人増える。占領されていない都市の[ICON_CITIZEN]市民が生み出す[ICON_HAPPINESS_4]不満度-10%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_GLOBE_THEATER_HELP">
+      <Text>この遺産を建てた都市の近くに無償の大著述家が1人出現する。傑作書物スロットを2つ備える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_GREAT_LIBRARY_HELP">
+      <Text>無償のテクノロジーを1つ獲得。この遺産を建てた都市に無償の図書館が1つもたらされる。傑作書物スロットを2つ備える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_HANGING_GARDEN_HELP">
+      <Text>「伝統」が必要。この遺産を建てた都市に無償の庭園が1つもたらされる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_LOUVRE_HELP">
+      <Text>「探検」が必要。この遺産を建てた都市の近くに無償の大芸術家が1人出現する。傑作芸術スロットを4つ備える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_MACHU_PICHU_HELP">
+      <Text>[ICON_CONNECTED]都市の結びつきがもたらす[ICON_GOLD]ゴールド+25%。[NEWLINE][NEWLINE]自国領内の山岳から2タイル以内にある都市にしか建設できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP">
+      <Text>「敬虔」が必要。この都市で誕生したすべての伝道師と預言者は、通常より1回多く布教を行える。この遺産を建てた都市には、無償のモスクが1つもたらされる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_PORCELAIN_TOWER_HELP">
+      <Text>「合理主義」が必要。この遺産を建てた都市の近くに大科学者が1人出現する。研究協定の生み出す[ICON_RESEARCH]科学力が50%増える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_SISTINE_CHAPEL_HELP">
+      <Text>全都市の[ICON_CULTURE]文化力+25%。傑作芸術スロットを2つ備える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP">
+      <Text>無償の社会制度を1つ獲得。この都市の[ICON_CULTURE]文化力+50%。傑作音楽スロットを2つ備える。沿岸都市にしか建設できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_UFFIZI_HELP">
+      <Text>「美学」が必要。この遺産を建設した都市の近くに無償の大芸術家が1人出現する。傑作芸術スロットを3つ備える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_UNITED_NATIONS_HELP">
+      <Text>世界議会が国連になり、外交による勝利のための投票が始まる。国連の所有者には3人の代表が追加で与えられる。</Text>
+    </Row>
+  </Language_JA_JP>
+</GameData>

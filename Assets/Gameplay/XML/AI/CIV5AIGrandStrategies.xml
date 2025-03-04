@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<!-- Sid Meier's Civilization 5                                 -->
+<!-- Copyright Firaxis Games 2010                               -->
+<!-- AI Player Grand Strategy Infos                             -->
+<!-- Entries in this file define the attributes of various      -->
+<!-- AI Player Grand Strategies, which focus the AI player      -->
+<!-- on the different Victory Competitions.  Entries can        -->
+<!-- be completely removed safely if you don't want the AI      -->
+<!-- to pursue a particular Grand Strategy/Victory              -->
+<!-- Competition.  Defines which also help shape use of AI      -->
+<!-- Player Grand Strategies are located in the                 -->
+<!-- GlobalAIDefines.xml file inside the XML\AI\ directory.     -->
+<!-- Flavors determine how likely an AI Player (with            -->
+<!-- intrinsic Personality Flavors) is to adopt a               -->
+<!-- particular Grand Strategy.  For more information on how    -->
+<!-- these Grand Strategies work, reference                     -->
+<!-- CvPlayerGrandStrategyAI.cpp in the GameCoreDLL project.    -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="AIGrandStrategies">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+	</Table>
+	<Table name="AIGrandStrategy_Flavors">
+		<Column name="AIGrandStrategyType" type="text" reference="AIGrandStrategies(Type)"/>
+		<Column name="FlavorType" type="text" reference="Flavors(Type)"/>
+		<Column name="Flavor" type="integer"/>
+	</Table>
+	<Table name="AIGrandStrategy_Yields">
+		<Column name="AIGrandStrategyType" type="text" reference="AIGrandStrategies(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
+  <Table name="AIGrandStrategy_FlavorMods">
+    <Column name="AIGrandStrategyType" type="text" reference="AIGrandStrategies(Type)"/>
+    <Column name="FlavorType" type="text" reference="Flavors(Type)"/>
+    <Column name="Flavor" type="integer"/>
+  </Table>
+  <AIGrandStrategies>
+		<Row>
+			<ID>0</ID>
+			<Type>AIGRANDSTRATEGY_CULTURE</Type>
+		</Row>
+		<Row>
+			<Type>AIGRANDSTRATEGY_UNITED_NATIONS</Type>
+		</Row>
+		<Row>
+			<Type>AIGRANDSTRATEGY_SPACESHIP</Type>
+		</Row>
+		<Row>
+			<Type>AIGRANDSTRATEGY_CONQUEST</Type>
+		</Row>
+	</AIGrandStrategies>
+	<!--WARNING: These flavor values determine how LIKELY the strategy is to be chosen, and do not have an effect on the player's behavior (see CIV5AIEconomicStrategies for that)-->
+	<AIGrandStrategy_Flavors>
+		<Row>
+			<AIGrandStrategyType>AIGRANDSTRATEGY_CONQUEST</AIGrandStrategyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>9</Flavor>
+		</Row>
+		<Row>
+			<AIGrandStrategyType>AIGRANDSTRATEGY_CULTURE</AIGrandStrategyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIGrandStrategyType>AIGRANDSTRATEGY_UNITED_NATIONS</AIGrandStrategyType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIGrandStrategyType>AIGRANDSTRATEGY_SPACESHIP</AIGrandStrategyType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>13</Flavor>
+		</Row>
+	</AIGrandStrategy_Flavors>
+	<AIGrandStrategy_Yields>
+		<Row>
+			<AIGrandStrategyType>AIGRANDSTRATEGY_CONQUEST</AIGrandStrategyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>200</Yield>
+		</Row>
+		<Row>
+			<AIGrandStrategyType>AIGRANDSTRATEGY_CULTURE</AIGrandStrategyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>50</Yield>
+		</Row>
+		<Row>
+			<AIGrandStrategyType>AIGRANDSTRATEGY_CULTURE</AIGrandStrategyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>50</Yield>
+		</Row>
+		<Row>
+			<AIGrandStrategyType>AIGRANDSTRATEGY_UNITED_NATIONS</AIGrandStrategyType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>100</Yield>
+		</Row>
+		<Row>
+			<AIGrandStrategyType>AIGRANDSTRATEGY_SPACESHIP</AIGrandStrategyType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>100</Yield>
+		</Row>
+		<Row>
+			<AIGrandStrategyType>AIGRANDSTRATEGY_SPACESHIP</AIGrandStrategyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>100</Yield>
+		</Row>
+	</AIGrandStrategy_Yields>
+  <!-- These flavor values are added to the personality levels (with no other considerations) for many of the checks that do NOT use the current flavor -->
+  <!-- since these are direct mods to the raw personality, keep the numbers small (-2 -> +2) -->
+  <AIGrandStrategy_FlavorMods>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_CONQUEST</AIGrandStrategyType>
+      <FlavorType>FLAVOR_OFFENSE</FlavorType>
+      <Flavor>2</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_CONQUEST</AIGrandStrategyType>
+      <FlavorType>FLAVOR_EXPANSION</FlavorType>
+      <Flavor>1</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_CONQUEST</AIGrandStrategyType>
+      <FlavorType>FLAVOR_PRODUCTION</FlavorType>
+      <Flavor>1</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_CONQUEST</AIGrandStrategyType>
+      <FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+      <Flavor>1</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_CONQUEST</AIGrandStrategyType>
+      <FlavorType>FLAVOR_AIR</FlavorType>
+      <Flavor>1</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_CONQUEST</AIGrandStrategyType>
+      <FlavorType>FLAVOR_NUKE</FlavorType>
+      <Flavor>1</Flavor>
+    </Row>
+
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_CULTURE</AIGrandStrategyType>
+      <FlavorType>FLAVOR_CULTURE</FlavorType>
+      <Flavor>2</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_CULTURE</AIGrandStrategyType>
+      <FlavorType>FLAVOR_EXPANSION</FlavorType>
+      <Flavor>-2</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_CULTURE</AIGrandStrategyType>
+      <FlavorType>FLAVOR_GROWTH</FlavorType>
+      <Flavor>2</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_CULTURE</AIGrandStrategyType>
+      <FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+      <Flavor>1</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_CULTURE</AIGrandStrategyType>
+      <FlavorType>FLAVOR_GOLD</FlavorType>
+      <Flavor>1</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_CULTURE</AIGrandStrategyType>
+      <FlavorType>FLAVOR_RELIGION</FlavorType>
+      <Flavor>1</Flavor>
+    </Row>
+	<Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_CULTURE</AIGrandStrategyType>
+      <FlavorType>FLAVOR_SPACESHIP</FlavorType>
+      <Flavor>-2</Flavor>
+    </Row>
+	<Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_CULTURE</AIGrandStrategyType>
+      <FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+      <Flavor>1</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_CULTURE</AIGrandStrategyType>
+      <FlavorType>FLAVOR_WONDER</FlavorType>
+      <Flavor>2</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_CULTURE</AIGrandStrategyType>
+      <FlavorType>FLAVOR_DEFENSE</FlavorType>
+      <Flavor>1</Flavor>
+    </Row>
+
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_UNITED_NATIONS</AIGrandStrategyType>
+      <FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+      <Flavor>3</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_UNITED_NATIONS</AIGrandStrategyType>
+      <FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+      <Flavor>1</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_UNITED_NATIONS</AIGrandStrategyType>
+      <FlavorType>FLAVOR_GOLD</FlavorType>
+      <Flavor>2</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_UNITED_NATIONS</AIGrandStrategyType>
+      <FlavorType>FLAVOR_NUKE</FlavorType>
+      <Flavor>-1</Flavor>
+    </Row>
+
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_SPACESHIP</AIGrandStrategyType>
+      <FlavorType>FLAVOR_SPACESHIP</FlavorType>
+      <Flavor>2</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_SPACESHIP</AIGrandStrategyType>
+      <FlavorType>FLAVOR_EXPANSION</FlavorType>
+      <Flavor>1</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_SPACESHIP</AIGrandStrategyType>
+      <FlavorType>FLAVOR_SCIENCE</FlavorType>
+      <Flavor>2</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_SPACESHIP</AIGrandStrategyType>
+      <FlavorType>FLAVOR_PRODUCTION</FlavorType>
+      <Flavor>1</Flavor>
+    </Row>
+    <Row>
+      <AIGrandStrategyType>AIGRANDSTRATEGY_SPACESHIP</AIGrandStrategyType>
+      <FlavorType>FLAVOR_RELIGION</FlavorType>
+      <Flavor>-5</Flavor>
+    </Row>
+  </AIGrandStrategy_FlavorMods>
+
+</GameData>

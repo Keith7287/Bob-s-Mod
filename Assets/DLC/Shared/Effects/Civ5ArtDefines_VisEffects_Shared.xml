@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisEffectArtInfos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Civ5ArtDefines_VisEffects.xsd">
+   
+  <!-- Fountain of youth waterfall -->
+  <VisEffectArtInfo>
+    <Name>ART_DEF_VEFFECT_FOUNTAIN_OF_YOUTH_WATERFALL</Name>
+    <Transform>
+      <Translation x="2.0" y="-1.0" z=".0"/>
+      <Rotation x="0.0" y="0.0" z="-30.0"/>
+      <Scale>0.98</Scale>
+    </Transform>	
+    <fBaseDuration>0.1</fBaseDuration>
+    <fBaseDurationScale>1.0</fBaseDurationScale>      
+	<ModelEffects>
+      <ModelEffect>
+        <Name>ART_DEF_MEFFECT_FOUNTAIN_OF_YOUTH_WATERFALL</Name>        
+      </ModelEffect>
+    </ModelEffects>
+  </VisEffectArtInfo> 
+  <!-- El Dorado Glittering Gold -->
+  <VisEffectArtInfo>
+    <Name>ART_DEF_VEFFECT_FOUNTAIN_MIST</Name>
+    <Transform>
+      <Translation x="2.0" y="-4.0" z="2.0"/>
+      <Rotation x="0.0" y="0.0" z="-135.0"/>
+      <Scale>0.1</Scale>
+    </Transform>	
+    <fBaseDuration>0.1</fBaseDuration>
+    <fBaseDurationScale>1.0</fBaseDurationScale>      
+	<ParticleEffects>
+      <ParticleEffect>
+        <Name>ART_DEF_PEFFECT_FOUNTAIN_MIST</Name>        
+      </ParticleEffect>
+    </ParticleEffects>
+  </VisEffectArtInfo>  
+  <!-- El Dorado Glittering Gold -->
+  <VisEffectArtInfo>
+    <Name>ART_DEF_VEFFECT_EL_DORADO_GLITTER</Name>
+    <Transform>
+      <Translation x="-4.0" y="-4.0" z="2.0"/>
+      <Rotation x="90.0" y="0.0" z="0.0"/>
+      <Scale>0.7</Scale>
+    </Transform>	
+    <fBaseDuration>0.1</fBaseDuration>
+    <fBaseDurationScale>1.0</fBaseDurationScale>      
+	<ParticleEffects>
+      <ParticleEffect>
+        <Name>ART_DEF_PEFFECT_EL_DORADO_GLITTER</Name>        
+      </ParticleEffect>
+    </ParticleEffects>
+  </VisEffectArtInfo>
+  <!-- El Dorado Glittering Gold Small-->
+  <VisEffectArtInfo>
+    <Name>ART_DEF_VEFFECT_EL_DORADO_GLITTER_SM</Name>
+    <Transform>
+      <Translation x="10.0" y="-0.0" z="3.0"/>
+      <Rotation x="90.0" y="0.0" z="0.0"/>
+      <Scale>0.5</Scale>
+    </Transform>	
+    <fBaseDuration>0.1</fBaseDuration>
+    <fBaseDurationScale>1.0</fBaseDurationScale>      
+	<ParticleEffects>
+      <ParticleEffect>
+        <Name>ART_DEF_PEFFECT_EL_DORADO_GLITTER_SM</Name>        
+      </ParticleEffect>
+    </ParticleEffects>
+  </VisEffectArtInfo>
+  <!-- Cerro de Potosi Glittering Silver -->
+  <VisEffectArtInfo>
+    <Name>ART_DEF_VEFFECT_CERRO_DE_POTOSI_GLITTER</Name>
+    <Transform>
+      <Translation x="0.0" y="0.0" z="-35.0"/>
+      <Rotation x="90.0" y="0.0" z="0.0"/>
+      <Scale>1.1</Scale>
+    </Transform>	
+    <fBaseDuration>0.1</fBaseDuration>
+    <fBaseDurationScale>1.0</fBaseDurationScale>      
+	<ParticleEffects>
+      <ParticleEffect>
+        <Name>ART_DEF_PEFFECT_CERRO_DE_POTOSI_GLITTER</Name>        
+      </ParticleEffect>
+    </ParticleEffects>
+  </VisEffectArtInfo>
+  <!--  _______ Pillaged Smoke _______   -->
+  <VisEffectArtInfo>
+    <Name>ART_DEF_VEFFECT_PILLAGED_SMOKE_01</Name>
+    <Transform>
+      <Translation x="0.0" y="-0.4" z="0.3"/>
+      <Rotation x="360.0" y="0.0" z="0.0"/>
+      <Scale>0.3</Scale>
+    </Transform>
+    <fBaseDuration>0.01</fBaseDuration>
+    <fBaseDurationScale>1.0</fBaseDurationScale>
+    <ModelEffects>
+      <ModelEffect>
+        <Name>ART_DEF_MEFFECT_PILLAGED_SMOKE_NEW_2</Name>
+      </ModelEffect>
+    </ModelEffects>
+  </VisEffectArtInfo>
+  <!--  _______ Pasture Pillaged Smoke MD _______   -->
+  <VisEffectArtInfo>
+    <Name>ART_DEF_VEFFECT_PASTURE_PILLAGED_SMOKE_01</Name>
+    <Transform>
+      <Translation x="0.0" y="-0.4" z="0.3"/>
+      <Rotation x="360.0" y="0.0" z="0.0"/>
+      <Scale>3.7</Scale>
+    </Transform>
+    <fBaseDuration>0.01</fBaseDuration>
+    <fBaseDurationScale>1.0</fBaseDurationScale>
+    <ModelEffects>
+      <ModelEffect>
+        <Name>ART_DEF_MEFFECT_PILLAGED_SMOKE_NEW_2</Name>
+      </ModelEffect>
+    </ModelEffects>
+  </VisEffectArtInfo>
+  <!--  _______ Pasture Pillaged Smoke SM _______   -->
+  <VisEffectArtInfo>
+    <Name>ART_DEF_VEFFECT_PASTURE_PILLAGED_SMOKE_02</Name>
+    <Transform>
+      <Translation x="0.0" y="-0.4" z="0.3"/>
+      <Rotation x="360.0" y="0.0" z="0.0"/>
+      <Scale>2.35</Scale>
+    </Transform>
+    <fBaseDuration>0.01</fBaseDuration>
+    <fBaseDurationScale>1.0</fBaseDurationScale>
+    <ModelEffects>
+      <ModelEffect>
+        <Name>ART_DEF_MEFFECT_PILLAGED_SMOKE_NEW_2</Name>
+      </ModelEffect>
+    </ModelEffects>
+  </VisEffectArtInfo>
+  <!--  _______ Pasture Pillaged Smoke LG _______   -->
+  <VisEffectArtInfo>
+    <Name>ART_DEF_VEFFECT_PASTURE_PILLAGED_SMOKE_03</Name>
+    <Transform>
+      <Translation x="0.0" y="-0.4" z="0.3"/>
+      <Rotation x="360.0" y="0.0" z="0.0"/>
+      <Scale>4.0</Scale>
+    </Transform>
+    <fBaseDuration>0.01</fBaseDuration>
+    <fBaseDurationScale>1.0</fBaseDurationScale>
+    <ModelEffects>
+      <ModelEffect>
+        <Name>ART_DEF_MEFFECT_PILLAGED_SMOKE_NEW_2</Name>
+      </ModelEffect>
+    </ModelEffects>
+  </VisEffectArtInfo>
+  <!--  _______ Farm Pillaged Smoke _______   -->
+  <VisEffectArtInfo>
+    <Name>ART_DEF_VEFFECT_FARM_PILLAGED_SMOKE_01</Name>
+    <Transform>
+      <Translation x="0.0" y="-0.4" z="0.3"/>
+      <Rotation x="360.0" y="0.0" z="0.0"/>
+      <Scale>0.28</Scale>
+    </Transform>
+    <fBaseDuration>0.01</fBaseDuration>
+    <fBaseDurationScale>1.0</fBaseDurationScale>
+    <ModelEffects>
+      <ModelEffect>
+        <Name>ART_DEF_MEFFECT_PILLAGED_FARM_SMOKE_NEW_2</Name>
+      </ModelEffect>
+    </ModelEffects>
+    <SoundEffects>
+      <SoundEffect>
+        <Name>AS2D_INTERFACE_PILLAGE</Name>
+      </SoundEffect>
+    </SoundEffects>
+  </VisEffectArtInfo>
+  <!--  _______ Oil Rig Pillaged Smoke _______   -->
+  <VisEffectArtInfo>
+    <Name>ART_DEF_VEFFECT_OIL_RIG_PILLAGED_SMOKE_01</Name>
+    <Transform>
+      <Translation x="-14.0" y="10.4" z="0.3"/>
+      <Rotation x="360.0" y="0.0" z="0.0"/>
+      <Scale>0.3</Scale>
+    </Transform>
+    <fBaseDuration>0.01</fBaseDuration>
+    <fBaseDurationScale>1.0</fBaseDurationScale>
+    <ModelEffects>
+      <ModelEffect>
+        <Name>ART_DEF_MEFFECT_PILLAGED_SMOKE_NEW_2</Name>
+      </ModelEffect>
+    </ModelEffects>
+  </VisEffectArtInfo> 
+  <!--  ============ Atomic Bomb ============  -->
+  <!--  _______ Atomic Bomb Explosion animated Bones_______ -->
+  <VisEffectArtInfo>
+    <Name>ART_DEF_VEFFECT_ATOMIC_BOMB_01</Name>
+    <Transform>
+      <Translation x="0.0" y="-4.0" z="14.5"/>
+      <Rotation x="90.0" y="0.0" z="0.0"/>
+      <Scale>2.7</Scale>
+    </Transform>
+    <fBaseDuration>9.3</fBaseDuration>
+    <fBaseDurationScale>1.0</fBaseDurationScale>
+    <ModelEffects>
+      <ModelEffect>
+        <Name>ART_DEF_MEFFECT_ATOMIC_BOMB_DOME_BONES</Name>
+        <Animation>1000</Animation>
+      </ModelEffect>
+    </ModelEffects>
+    <SoundEffects>
+      <SoundEffect>
+        <Name>AS3D_UNIT_ATOMIC_BOMB_ATOMIC_BOMB_ATTACK_KABOOM</Name>
+      </SoundEffect>
+    </SoundEffects>
+  </VisEffectArtInfo> 
+<!--  _______ Trebuchet Fiery Rock Projectile  _______   -->
+  <VisEffectArtInfo>
+    <Name>ART_DEF_VEFFECT_TREBUCHET_FIERY_ROCK_PROJECTILE</Name>
+    <Transform>
+      <Translation x="0.0" y="-0.4" z="-0.6"/>
+      <Rotation x="0.0" y="90.0" z="-90.0"/>
+      <Scale>0.7</Scale>
+    </Transform>
+    <fBaseDuration>0.01</fBaseDuration>
+    <fBaseDurationScale>1.0</fBaseDurationScale>
+    <fMovementSpeed>3.3</fMovementSpeed>
+    <ParticleEffects>
+      <ParticleEffect>
+        <Name>ART_DEF_PEFFECT_TRAIL_TREBUCHET_FIERY_ROCK_PROJ</Name>
+      </ParticleEffect>
+    </ParticleEffects>
+    <ModelEffects>
+      <ModelEffect>
+        <Name>ART_DEF_MEFFECT_PROJ_FIERY_ROCK</Name>
+        <!--<Animation>1000</Animation>-->
+      </ModelEffect>
+    </ModelEffects>
+    <ChildEffects>
+      <ChildEffect trigger="ProjectileEnd">
+        <Name>ART_DEF_VEFFECT_FIERY_CATAPULTROCKHIT_$(TERRAIN)</Name>
+      </ChildEffect>
+    </ChildEffects>
+  </VisEffectArtInfo>  
+</VisEffectArtInfos>

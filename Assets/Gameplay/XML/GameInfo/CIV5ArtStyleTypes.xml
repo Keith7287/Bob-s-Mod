@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Table definition -->
+	<Table name="ArtStyleTypes">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+	</Table>
+
+	<!-- Table data -->
+	<ArtStyleTypes>
+		<Row>
+			<ID>0</ID>
+			<Type>ARTSTYLE_SOUTH_AMERICA</Type>
+		</Row>
+		<Row>
+			<Type>ARTSTYLE_ASIAN</Type>
+		</Row>
+		<Row>
+			<Type>ARTSTYLE_MIDDLE_EAST</Type>
+		</Row>
+		<Row>
+			<Type>ARTSTYLE_EUROPEAN</Type>
+		</Row>
+		<Row>
+			<Type>ARTSTYLE_GRECO_ROMAN</Type>
+		</Row>
+    <Row>
+      <Type>ARTSTYLE_POLYNESIAN</Type>
+    </Row>
+		<Row>
+			<Type>ARTSTYLE_BARBARIAN</Type>
+		</Row>
+	</ArtStyleTypes>
+</GameData>

@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_CITY_SPY_CITY_STATE_TT">
+      <Text>{1_SpyRank} {2_SpyName} находится в{@1: gender masculine? ; feminine? ; neuter? ; other? городе ;}{3_CityName[6]}. Находясь в этом городе-государстве, шпион может установить наблюдение, а затем попытаться подтасовать результаты выборов, чтобы увеличить ваше влияние на город. Однако если в городе окажутся другие шпионы, не все фальсификации могут закончиться успехом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_SPY_OTHER_CIV_TT">
+      <Text>{1_SpyRank} {2_SpyName} находится в городе {3_CityName}. Здесь шпион может установить наблюдение, а затем попытаться украсть неизвестную вашей державе технологию. Также {6_SpyRank: lower} {@7_SpyName} {@7: plural 1?сообщит; 2?сообщат; other?сообщит;} вам сведения обо всех заговорах, о которых сможет узнать во время операции.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_SPY_YOUR_CITY_TT">
+      <Text>{1_SpyRank} {2_SpyName} находится в городе {3_CityName}. Находясь в вашем городе, шпион может заниматься контрразведкой, захватывая и убивая всех вражеских шпионов, которые попытаются украсть у вас технологии.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_CIV_CITY_STATE_TT">
+      <Text>{1_CityName} - [COLOR_POSITIVE_TEXT]{2_CityStateTraitAdj}[ENDCOLOR] город-государство.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_CIV_TT">
+      <Text>{@1: gender masculine? ; feminine? ; neuter? ; other?Город ;}{@1_CityName} {@1: plural 1?находится; 2?находятся; other?находится;} под контролем державы {@2_CivShortDesc}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_NAME_CITY_STATE_TT">
+      <Text>{1_CityName} - [COLOR_POSITIVE_TEXT]{2_CityStateTraitAdj}[ENDCOLOR] город-государство.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_NAME_TT">
+      <Text>{@1: gender masculine? ; feminine? ; neuter? ; other?Город ;}{@1_CityName} {@1: plural 1?находится; 2?находятся; other?находится;} под контролем державы {@2_CivShortDesc}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_ONCE_KNOWN_POTENTIAL_TT">
+      <Text>По последним отчетам, потенциал города {1_CityName} был равен {2_Num}.[NEWLINE][NEWLINE]Эти данные могли устареть. Чтобы получить более точные сведения, отправьте в город шпионов. [NEWLINE][NEWLINE]Потенциал отражает привлекательность города для промышленного шпионажа. Чем выше потенциал, тем быстрее можно украсть технологии. За исходный показатель при расчете потенциала берется уровень развития науки. Защитные постройки, такие как жандармерия и полицейский участок, снижают потенциал города. Потенциал повышается, когда вы поручаете работу агенту более высокого уровня. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_POPULATION_TT">
+      <Text>Население города {1_CityName} равно {2_Num}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_POTENTIAL_CANNOT_STEAL_TT">
+      <Text>{1_SpyRank} {2_SpyName} не {2: plural 1?может; 2?могут; other?может;} ничего украсть у державы {3_CityName} - у нее нет технологий, которые были бы вам интересны. [NEWLINE][NEWLINE]Базовый потенциал города {4_CityName} равен {5_Num}. [NEWLINE][NEWLINE]Потенциал отражает привлекательность для промышленного шпионажа. Чем выше потенциал города, тем быстрее можно украсть его технологии. За исходный показатель берется уровень развития науки. Защитные постройки, такие как жандармерия и полицейский участок, снижают потенциал города. Потенциал повышается, когда вы поручаете работу агенту более высокого уровня. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_POTENTIAL_TT">
+      <Text>{1_SpyRank} {2_SpyName} {2: plural 1?крадет; 2?крадут; other?крадет;} {3_Num} единиц потенциала из города {4_CityName}.[NEWLINE]Базовый потенциал города {5_CityName} равен {6_Num}.[NEWLINE][NEWLINE]Потенциал отражает привлекательность для промышленного шпионажа. Чем выше потенциал города, тем быстрее можно украсть его технологии. За исходный показатель берется уровень развития науки. Защитные постройки, такие как жандармерия и полицейский участок, снижают потенциал города. Потенциал повышается, когда вы поручаете шпионаж агенту более высокого уровня. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_SORT_TT">
+      <Text>Показывает название города.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать список городов по названию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_STATE_ELECTION">
+      <Text>Все города-государства мира проводят выборы одновременно, каждый {1_Num}-й ход. Следующие выборы состоятся через {2_Num} {2_Num: plural 1?ход; 2?хода; 3?ходов;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_STATE_POTENTIAL_TT">
+      <Text>Города-государства не обладают потенциалом, поскольку у них нельзя украсть технологии.[NEWLINE][NEWLINE]Вместо промышленного шпионажа секретные агенты в городах-государствах занимаются подтасовкой результатов голосования. Если несколько агентов действуют одновременно, шансы на успех выше у шпиона более высокого уровня, который дольше других пробыл в этом городе-государстве.[NEWLINE][NEWLINE]Кроме того, шпион может устроить государственный переворот в городе-государстве, вступившем в союз с другой цивилизацией.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_NO_CITY_TT">
+      <Text>Чтобы увидеть экран города, шпиона сначала необходимо переместить в этот город.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_TT">
+      <Text>Вы не можете видеть экран города {1_CityName}.[NEWLINE][NEWLINE]Чтобы увидеть экран чужого города, переместите туда шпиона и установите наблюдение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_WAIT_TT">
+      <Text>Вы не можете видеть экран города {1_CityName}.[NEWLINE][NEWLINE]В этом городе уже находится ваш шпион, но чтобы увидеть экран города, следует подождать, пока шпион установит наблюдение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_YOUR_CITY_TT">
+      <Text>Вам не нужно получать информацию о городе  {1_CityName} от шпионов. [NEWLINE][NEWLINE]Этот город принадлежит вам, так что вы сами можете узнать все, что вас интересует.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_ENABLED_TT">
+      <Text>Нажмите, чтобы увидеть экран города {1_CityName}.[NEWLINE][NEWLINE]Вы можете видеть экран чужого города, если в нем находится ваш шпион, успешно установивший наблюдение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_ENABLED_YOUR_CITY_TT">
+      <Text>Нажмите, чтобы увидеть экран города {1_CityName}.[NEWLINE][NEWLINE]Вы всегда можете видеть экран любого вашего города.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CIVILIZATION_SORT_TT">
+      <Text>Показывает, какая держава контролирует город.[NEWLINE][NEWLINE]Нажмите, чтобы отсортировать список городов по государствам.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY_THEM">
+      <Text>{@1_PlayerName} {@1: plural 1?{@1: gender masculine?принял; feminine?приняла; neuter?приняло;}; 2?приняли; other?принимает;} институт {2_SocialPolicyName}, что на {3_Num}% увеличивает их шансы поймать вражеского шпиона.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY_YOU">
+      <Text>Вы приняли институт {1_SocialPolicyName}, что на {2_Num}% увеличивает ваши шансы поймать вражеского шпиона.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INTRIGUE">
+      <Text>Заговоры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INTRIGUE_TT">
+      <Text>В окне заговоров вы можете узнать, что планируют другие державы. Эти сведения предоставляют ваши шпионы, а также другие цивилизации.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_MOVE_SPY_TO_HIDEOUT_CHECK">
+      <Text>Вы действительно хотите, чтобы {1_SpyRank:lower} {2_SpyName} {@2: plural 1?{@2: gender masculine?отправился; feminine?отправилась; neuter?отправилось;}; 2?отправились; other?отправился;} в убежище?[NEWLINE][NEWLINE]Шпион бросит все, чем он сейчас занимается, и укроется в надежном месте. В убежище ваши агенты не приносят никакой пользы государству, зато там их не смогут убить.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_NO_INTRIGUE_AVAILABLE">
+      <Text>Сейчас заговоров нет</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_OVERVIEW">
+      <Text>Обзор шпионажа</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_OVERVIEW_TT">
+      <Text>В окне обзора шпионажа вы можете видеть своих шпионов и назначать им различные задания в городах по всему миру, например: установить наблюдение, украсть технологию, собрать информацию о заговорах, подтасовать выборы в городе-государстве и многое другое.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_OWN_CITY_POTENTIAL_TT">
+      <Text>Потенциал города {1_CityName} равен {2_Num}.[NEWLINE][NEWLINE]Потенциал собственных городов известен всегда. Если ваша держава обгоняет других в технологическом развитии, подумайте о том, как защититься от промышленного шпионажа. Есть два способа защиты. Активный способ - контрразведка. Разместите своих шпионов в городе с высоким потенциалом, чтобы они выслеживали и убивали чужих агентов, не давая им украсть технологии. Второй способ защиты - пассивный. Постройте полицейский участок, жандармерию и чудо Золотой щит - все эти технологии замедляют кражу технологий.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POPULATION_SORT_TT">
+      <Text>Показывает население города. Чем выше население, тем выше при прочих равных и научный потенциал. Чем выше научный потенциал, тем быстрее можно украсть из города технологию. [NEWLINE][NEWLINE]Нажмите, чтобы отсортировать список городов по населению.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_BUILDING_MOD_ENTRY">
+      <Text>{1_BuildingName}: {2_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_BUILDING_MOD_TITLE">
+      <Text>Изменение от зданий и чудес:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_POLICY_MOD_ENTRY">
+      <Text>{1_SocialPolicyName}: {2_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_POLICY_MOD_TITLE">
+      <Text>Изменение от институтов:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_SORT_TT">
+      <Text>Потенциал отражает привлекательность для промышленного шпионажа. Чем выше потенциал города, тем быстрее можно украсть его технологии. За исходный показатель берется уровень развития науки. Защитные постройки (жандармерия, полицейский участок) снижают потенциал города. Потенциал повышается, когда вы поручаете шпионаж агенту более высокого уровня. [NEWLINE][NEWLINE]Щелкните, чтобы отсортировать города по потенциалу. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_WONDER_MOD_ENTRY">
+      <Text>{1_WonderName}: {2_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_WONDER_MOD_TITLE">
+      <Text>Изменение от чудес в других городах:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_BUTTON_DISABLED_SPY_DEAD_TT">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?мертв; feminine?мертва; neuter?мертво;}; 2?мертвы; other?умирает;}. Пусть {@2: plural 1?покоится; 2?покоятся; other?покоится;} с миром.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_POLICY_TT">
+      <Text>Благодаря институту "Полицейское государство" шансы убить вражеского шпиона выросли на {1_Num}%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_SPY_RANK_TT">
+      <Text>{2_RankName} {3_SpyName} - чрезвычайно талантливый агент. Шансы убить вражеского шпиона повышаются на {1_Num}%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_SUM_TT">
+      <Text>У вас {1_Num}%-ный шанс убить вражеского шпиона.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_TT">
+      <Text>{1_RankName} {@2_SpyName} {@2: plural 1?проводит; 2?проводят; other?проводит;} операцию по поимке шпионов в городе {3_CityName}. [NEWLINE][NEWLINE]Если вражеский агент попытается украсть технологию в городе, где находится ваш шпион, тот вскроет планы противника. Есть вероятность, что вы сможете определить, кто пытается совершить кражу, и даже убить вражеского шпиона. Чем выше ранг вашего шпиона, тем выше шансы на поимку чужого агента при попытке украсть технологию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_NO_ALLY_TT">
+      <Text>{1_SpyRank} {@2_SpyName} не {@2: plural 1?может; 2?могут; other?может;} совершить переворот в{@3: gender masculine? ; feminine? ; neuter? ; other? городе ;}{@3_CityName[6]}, поскольку ни одна держава не является союзником этого города.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_WAIT_TT">
+      <Text>{1_SpyRank} {@2_SpyName} не {@2: plural 1?может; 2?могут; other?может;} совершить переворот в{@3: gender masculine? ; feminine? ; neuter? ; other? городе ;}{@3_CityName[6]}, поскольку наблюдение еще не установлено.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_YOU_ALLY_TT">
+      <Text>{1_SpyRank} {@2_SpyName} не {@2: plural 1?может; 2?могут; other?может;} совершить переворот в{@3: gender masculine? ; feminine? ; neuter? ; other? городе ;}{@3_CityName[6]}, поскольку вы и являетесь союзником этого города!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUP_ENABLED_TT">
+      <Text>Нажмите, чтобы {1_SpyRank: lower} {2_SpyName} {@2: plural 1?{@2: gender masculine?попытался; feminine?попыталась; neuter?попыталось;}; 2?попытались; other?попытался;} устроить переворот в{@1: gender masculine? ; feminine? ; neuter? ; other? городе ;}{@3_CityName[6]}, дабы уничтожить {4_CivAdjective: lower} влияние в этом городе.[NEWLINE][NEWLINE]Ваши шансы на успех равны {5_Num}%. Если вашему агенту будет сопутствовать удача, вы станет новым союзником{@1: gender masculine? ; feminine? ; neuter? ; other? города ;}{@8_CityName[2]}, а влияние державы {9_CivShortDesc} снизится до вашего текущего уровня влияния. Влияние всех остальных игроков также уменьшится. Если же {10_SpyRank: lower} {11_SpyName} {@11: plural 1?потерпит; 2?потерпят; other?потерпит;} неудачу, то {@11: plural 1?{@11: gender masculine?его; feminine?ее; neuter?его;}; 2?их; other?его;} ждет смерть, а ваше влияние на этот город-государство резко уменьшится. [NEWLINE][NEWLINE]Чтобы повысить шансы на успех, вы можете увеличить свое влияние в городе, использовать для акции шпиона высокого ранга или подождать, пока снизится влияние нынешнего союзника города.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_GATHERING_INTEL_TT">
+      <Text>{1_RankName} {2_SpyName} {@2: plural 1?собирает; 2?собирают; other?собирает;} сведения в городе {3_CityName}, готовясь к краже технологии. [NEWLINE][NEWLINE]Можно попытаться украсть только ту технологию, которая пока не доступна цивилизации шпиона. [NEWLINE][NEWLINE]Если в городе есть свои собственные шпионы, ваш агент при попытке украсть технологию может быть обнаружен или убит.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_LOCATION_TT">
+      <Text>{1_SpyRank} {2_SpyName} {@2: plural 1?находится; 2?находятся; other?находится;} в городе {3_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_MOVE_TT">
+      <Text>Нажмите, если хотите, чтобы {1_SpyRank: lower} {@2_SpyName} {@2: plural 1?{@2: gender masculine?переместился; feminine?переместилась; neuter?переместилось;}; 2?переместились; other?переместился;} в другой город. [NEWLINE][NEWLINE]Если шпион переместится в другой город, потребуется несколько ходов, чтобы он смог снова приступить к работе. [NEWLINE][NEWLINE]Если шпион переедет в город своей державы, он займется контрразведкой - будет выявлять и ловить вражеских агентов. [NEWLINE][NEWLINE]Если шпион переместится в город другой державы, то начнет готовиться к похищению технологии. Можно попытаться украсть только ту технологию, которая пока не доступна цивилизации шпиона. Если город защищен контрразведкой, ваш агент при попытке похищения может быть обнаружен или убит! [NEWLINE][NEWLINE]Если шпион переместится в город-государство, он попытается подтасовать результаты выборов, чтобы увеличить ваше влияние в этом городе.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_NAMEPLATE_TT">
+      <Text>Это ваш шпион, {1_SpyRank} {2_SpyName}.[NEWLINE][NEWLINE]Чтобы начать действовать, шпион должен оказаться в каком-либо городе. [NEWLINE][NEWLINE]В ваших городах ваш шпион будет заниматься контрразведкой: искать и ловить вражеских агентов, которые попытаются украсть ваши технологии. [NEWLINE][NEWLINE]В городах другой державы он сам попытается украсть технологию. Кроме того, он может сообщать вам о заговорах, которые готовит другая держава, например о попытке провести скрытую атаку против вас или другой цивилизации. [NEWLINE][NEWLINE]В городе-государстве шпион попытается подтасовать результаты выборов, чтобы увеличить ваше влияние в этом городе.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_NEEDS_ASSIGNMENT_TT">
+      <Text>Переместите шпиона в город, чтобы он приступил к работе.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_RANK_TT">
+      <Text>{@1_SpyName} {@1: plural 1?получает; 2?получают; other?получает;} повышение. Теперь {@1: plural 1?{@1: gender masculine?его; feminine?ее; neuter?его;}; 2?их; other?его;} новый ранг - {2_RankName}. [NEWLINE][NEWLINE]У шпионов есть три ранга: новичок, агент и спецагент. Чем выше ранг, тем эффективнее шпион выполняет задания: быстрее крадет технологии, чаще раскрывает и убивает вражеских шпионов, эффективнее подтасовывает результаты выборов в городах-государствах и имеет больше шансов на успешный переворот в городе-государстве. [NEWLINE][NEWLINE]Шпионы получают повышение, если успешно крадут технологию у другой державы или убивают вражеского агента при попытке украсть технологию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_RIGGING_ELECTIONS_TT">
+      <Text>{1_RankName} {@2_SpyName} {@2: plural 1?пытается; 2?пытаются; other?пытается;} подтасовать результаты выборов в{@3: gender masculine? ; feminine? ; neuter? ; other? городе ;}{@3_CityName[6]}, дабы увеличить ваше влияние на город-государство.[NEWLINE][NEWLINE]Только одна держава может успешно сфальсифицировать выборы. Если в городе-государстве находится несколько шпионов разных держав, больше шансов у того агента, чей ранг выше и кто дольше находится в этом городе.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_SURVEILLANCE_TT">
+      <Text>{1_RankName} {@2_SpyName} {@2: plural 1?устанавливает; 2?устанавливают; other?устанавливает;} наблюдение в городе {3_CityName}. [NEWLINE][NEWLINE]Установив наблюдение, шпион сможет проводить в городе более сложные операции. Кроме того, это позволит вам рассматривать экран чужого города (но не города-государства). [NEWLINE][NEWLINE]Наблюдение также дает возможность узнавать вражеские намерения: раскрывать планы о внезапном нападении на другую державу и так далее. Такая информация может оказаться чрезвычайно полезной!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_TRAVELLING_TT">
+      <Text>{1_RankName} {@2_SpyName} сейчас {@2: plural 1?направляется; 2?направляются; other?направляется;} в город {3_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_UNASSIGNED_TT">
+      <Text>{1_RankName} {@2_SpyName} сейчас без дела {@2: plural 1?сидит; 2?сидят; other?сидит;} в убежище. [NEWLINE][NEWLINE]Переместите {@2: plural 1?{@2: gender masculine?его; feminine?ее; neuter?его;}; 2?их; other?его;} в город, чтобы {@2: plural 1?{@2: gender masculine?он начал; feminine?она начала; neuter?оно начало;}; 2?они начали; other?ваш шпион начал;} выполнять свои обязанности!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_UNASSIGNED_SPIES_TT">
+      <Text>У вас есть {1_Num} {1_Num: plural 1?шпион; 2?шпиона; 3?шпионов;}, {1_Num: plural 1?который сидит; 2?которые сидят;} без дела. [NEWLINE][NEWLINE]Шпионы могут похищать технологии других держав, раскрывать заговоры, увеличивать ваше влияние в городах-государствах, фальсифицируя результаты выборов, и многое другое. Чтобы отправить шпиона на выполнение задания, воспользуйтесь окном обзора шпионажа.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_UNKNOWN_POTENTIAL">
+      <Text>?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_UNKNOWN_POTENTIAL_TT">
+      <Text>Потенциал этого города неизвестен. Чтобы узнать его, отправьте туда шпиона - он установит наблюдение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ESPIONAGE_NOT_STARTED_YET">
+      <Text>Шпионы появятся, когда хотя бы одна держава войдет в Новейшее время.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_BUILDING_AMPHIBIOUS_ARMY">
+      <Text>{@1_PlayerName} {@1: plural 1?создает; 2?создают; other?создает;} армию и {@1: plural 1?собирает; 2?собирают; other?собирает;} флот для ее прикрытия. Они готовят внезапное нападение на другую державу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_BUILDING_ARMY">
+      <Text>{@1_PlayerName} {@1: plural 1?создает; 2?создают; other?создает;} армию. Они готовят внезапное нападение на другую державу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_CONSTRUCT_WONDER">
+      <Text>{@1_PlayerName} {@1: plural 1?работает; 2?работают; other?работает;} над созданием {2_WonderOrProject[2]} в городе {3_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_CONSTRUCT_WONDER_WO_CITY">
+      <Text>{@1_PlayerName} {@1: plural 1?работает; 2?работают; other?работает;} над созданием {2_WonderOrProject[2]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_PLOTTING_AGAINST_KNOWN">
+      <Text>{1_PlayerName} {@1: plural 1?готовит; 2?готовят; other?готовит;} заговор против державы {2_PlayerName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_PLOTTING_AGAINST_UNKNOWN">
+      <Text>{1_PlayerName} {@1: plural 1?готовит; 2?готовят; other?готовит;} заговор против державы, с которой вы еще не встречались.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_PLOTTING_AGAINST_YOU">
+      <Text>{1_PlayerName} {@1: plural 1?готовит; 2?готовят; other?готовит;} заговор против вас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_KNOWN">
+      <Text>{@1_PlayerName} {@1: plural 1?начинает; 2?начинают; other?начинает;} тайную десантную операцию против {2_CivAdj: lower} города {3_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_UNKNOWN">
+      <Text>{@1_PlayerName} {@1: plural 1?начинает; 2?начинают; other?начинает;} тайную десантную операцию против державы {2_PlayerName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_SOMEONE">
+      <Text>{@1_PlayerName} {@1: plural 1?начинает; 2?начинают; other?начинает;} тайную десантную операцию против другого игрока.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_UNKNOWN">
+      <Text>{@1_PlayerName} {@1: plural 1?начинает; 2?начинают; other?начинает;} тайную десантную операцию против неизвестный державы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_KNOWN">
+      <Text>{@1_PlayerName} {@1: plural 1?начинает; 2?начинают; other?начинает;} тайную десантную операцию против вашего города {2_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_UNKNOWN">
+      <Text>{@1_PlayerName} {@1: plural 1?начинает; 2?начинают; other?начинает;} тайную десантную операцию против вас!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_KNOWN">
+      <Text>{@1_PlayerName} {@1: plural 1?начинает; 2?начинают; other?начинает;} внезапное нападение на {2_CivAdj: lower} город {3_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_UNKNOWN">
+      <Text>{@1_PlayerName} {@1: plural 1?начинает; 2?начинают; other?начинает;} внезапное нападение на державу {2_PlayerName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_SOMEONE">
+      <Text>{@1_PlayerName} {@1: plural 1?начинает; 2?начинают; other?начинает;} внезапное нападение на другую державу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_UNKNOWN">
+      <Text>{@1_PlayerName} {@1: plural 1?начинает; 2?начинают; other?начинает;} внезапное нападение на неизвестную державу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_KNOWN">
+      <Text>{@1_PlayerName} {@1: plural 1?начинает; 2?начинают; other?начинает;} внезапную атаку на ваш город {2_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_UNKNOWN">
+      <Text>{@1_PlayerName} внезапно {@1: plural 1?нападает; 2?нападают; other?нападает;} на вас!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_CANCEL">
+      <Text>Отменить</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_CANCEL_TT">
+      <Text>Этот приказ отменит передвижение шпиона - он останется там, где находится сейчас.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_HIDEOUT_BUTTON">
+      <Text>Укрыться</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_HIDEOUT_BUTTON_TT">
+      <Text>Этот приказ отзовет шпиона с нелегальной работы в укрытие. Там, ожидая дальнейших приказаний, он будет играть в дартс своими превосходно отточенными ножами.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_INSTRUCTIONS">
+      <Text>Выберите город, в котором {1_SpyRank: lower} {2_SpyName} приступит к первому заданию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_MORE_SPIES">
+      <Text>Все ваши шпионы были убиты. [NEWLINE]Сейчас им ищут замену.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_AMPHIBIOUS_ARMY">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?обнаружил; feminine?обнаружила; neuter?обнаружило;}; 2?обнаружили; other?обнаружил;}, что {@3_PlayerName} {@3: plural 1?создает; 2?создают; other?создает;} армию и флот прикрытия для внезапной атаки другой цивилизации.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_AMPHIBIOUS_ARMY_S">
+      <Text>{@1_PlayerName} {@1: plural 1?готовит; 2?готовят; other?готовит;} внезапное нападение с моря.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_ARMY">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?обнаружил; feminine?обнаружила; neuter?обнаружило;}; 2?обнаружили; other?обнаружил;}, что {@3_PlayerName} {@3: plural 1?создает; 2?создают; other?создает;} армию для внезапной атаки другой цивилизации.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_ARMY_S">
+      <Text>{@1_PlayerName} {@1: plural 1?готовит; 2?готовят; other?готовит;} внезапное нападение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_CONSTRUCT_WONDER">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?обнаружил; feminine?обнаружила; neuter?обнаружило;}; 2?обнаружили; other?обнаружил;}, что {@3_PlayerName} {@3: plural 1?создает; 2?создают; other?создает;} в городе {5_CityName} новый проект. Это {4_WonderOrProject}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_CONSTRUCT_WONDER_S">
+      <Text>{1_PlayerName} {1_PlayerName: plural 1?создает; 2?создают; other?создает;} новый проект. Это {2_WonderOrProject}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_KNOWN">
+      <Text>В городе {3_CityName} {1_SpyRank: lower} {@2_SpyName} {@2: plural 1?{@2: gender masculine?обнаружил; feminine?обнаружила; neuter?обнаружило;}; 2?обнаружили; other?обнаружил;}, что {@4_PlayerName} тайно {@4: plural 1?готовит; 2?готовят; other?готовит;} заговор. {5_PlayerName} в опасности!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_KNOWN_S">
+      <Text>{@1_PlayerName} {@1: plural 1?готовит; 2?готовят; other?готовит;} заговор против державы {2_PlayerName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_UNKNOWN">
+      <Text>В городе {3_CityName} {1_SpyRank: lower} {@2_SpyName} {@2: plural 1?{@2: gender masculine?обнаружил; feminine?обнаружила; neuter?обнаружило;}; 2?обнаружили; other?обнаружил;}, что {@4_PlayerName} тайно {@4: plural 1?готовит; 2?готовят; other?готовит;} заговор против неизвестной державы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_UNKNOWN_S">
+      <Text>{@1_PlayerName} {@1: plural 1?готовит; 2?готовят; other?готовит;} против кого-то заговор.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_YOU">
+      <Text>В городе {3_CityName} {1_SpyRank: lower} {@2_SpyName} {@2: plural 1?{@2: gender masculine?обнаружил; feminine?обнаружила; neuter?обнаружило;}; 2?обнаружили; other?обнаружил;}, что {@4_PlayerName} тайно {@4: plural 1?готовит; 2?готовят; other?готовит;} заговор против нас!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_YOU_S">
+      <Text>{@1_PlayerName} {@1: plural 1?готовит; 2?готовят; other?готовит;} заговор против вас!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_KNOWN">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?обнаружил; feminine?обнаружила; neuter?обнаружило;}; 2?обнаружили; other?обнаружил;}, что {3_CivAdj: lower} армия под прикрытием флота плывет к {4_CivAdj: lower} городу {5_CityName}, готовя неожиданное нападение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_KNOWN_S">
+      <Text>{@1_PlayerName} {@1: plural 1?ведет; 2?ведут; other?ведет;} корабли с войсками для внезапной атаки города {2_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_UNKNOWN">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?обнаружил; feminine?обнаружила; neuter?обнаружило;}; 2?обнаружили; other?обнаружил;}, что {3_CivAdj: lower} армия под прикрытием флота плывет к берегам державы {4_CivDesc}, собираясь внезапно ее атаковать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_UNKNOWN_S">
+      <Text>{@1_PlayerName} {@1: plural 1?ведет; 2?ведут; other?ведет;} корабли с войсками для внезапного нападения на державу {2_PlayerName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_SOMEONE">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?обнаружил; feminine?обнаружила; neuter?обнаружило;}; 2?обнаружили; other?обнаружил;}, что {3_CivAdj: lower} армия под прикрытием флота готовится нанести внезапный удар. Мы не знаем, на кого они собираются напасть.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_SOMEONE_S">
+      <Text>{1_PlayerName} {1_PlayerName: plural 1?{@2: gender masculine?погрузил; feminine?погрузила; neuter?погрузило;}; 2?погрузили; other?погружает;} войска на корабли, чтобы нанести внезапный удар по другой державе.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_UNKNOWN">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?обнаружил; feminine?обнаружила; neuter?обнаружило;}; 2?обнаружили; other?обнаружил;}, что {3_CivAdj: lower} армия под прикрытием флота плывет к берегам неизвестной вам державы, собираясь внезапно ее атаковать.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_UNKNOWN_S">
+      <Text>{@1_PlayerName} {@1: plural 1?ведет; 2?ведут; other?ведет;} корабли с армией, чтобы внезапно атаковать неизвестную вам державу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_KNOWN">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?обнаружил; feminine?обнаружила; neuter?обнаружило;}; 2?обнаружили; other?обнаружил;}, что {3_CivAdj: lower} армия под прикрытием флота плывет к вашему городу {4_CityName}, собираясь внезапно атаковать его!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_KNOWN_S">
+      <Text>{@1_PlayerName} {@1: plural 1?ведет; 2?ведут; other?ведет;} корабли с армией для внезапной атаки вашего города {2_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_UNKNOWN">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?обнаружил; feminine?обнаружила; neuter?обнаружило;}; 2?обнаружили; other?обнаружил;}, что {3_CivAdj: lower} армия под прикрытием флота плывет к вашим берегам, собираясь внезапно атаковать их!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_UNKNOWN_S">
+      <Text>{@1_PlayerName} {@1: plural 1?ведет; 2?ведут; other?ведет;} армию и флот для внезапного нападения на вас!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_KNOWN">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?обнаружил; feminine?обнаружила; neuter?обнаружило;}; 2?обнаружили; other?обнаружил;}, что {3_CivAdj: lower} армия идет к {4_CivAdj: lower} городу {5_CityName}, собираясь внезапно атаковать его.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_KNOWN_S">
+      <Text>{@1_PlayerName} {@1: plural 1?ведет; 2?ведут; other?ведет;} армию для внезапной атаки города {2_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_UNKNOWN">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?обнаружил; feminine?обнаружила; neuter?обнаружило;}; 2?обнаружили; other?обнаружил;}, что {3_CivAdj: lower} армия идет к границам державы {4_CivDesc}, собираясь внезапно атаковать ее.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_UNKNOWN_S">
+      <Text>{@1_PlayerName} {@1: plural 1?ведет; 2?ведут; other?ведет;} армию для внезапной атаки державы {2_PlayerName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_SOMEONE">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?обнаружил; feminine?обнаружила; neuter?обнаружило;}; 2?обнаружили; other?обнаружил;}, что {3_CivAdj: lower} армия готовит внезапное нападение на другую державу. Кому именно грозит война, нам не известно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_SOMEONE_S">
+      <Text>{1_PlayerName} {@1: plural 1?готовится; 2?готовятся; other?готовится;} к внезапному нападению на другую державу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_UNKNOWN">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?обнаружил; feminine?обнаружила; neuter?обнаружило;}; 2?обнаружили; other?обнаружил;}, что {3_CivAdj: lower} войска идут к границам неизвестной вам державы, готовя внезапное нападение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_UNKNOWN_S">
+      <Text>{@1_PlayerName} {@1: plural 1?ведет; 2?ведут; other?ведет;} корабли с армией для внезапной атаки неизвестной державы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_KNOWN">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?обнаружил; feminine?обнаружила; neuter?обнаружило;}; 2?обнаружили; other?обнаружил;}, что {3_CivAdj: lower} армия идет к вашему городу {4_CityName}, собираясь внезапно атаковать его!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_KNOWN_S">
+      <Text>{@1_PlayerName} {@1: plural 1?ведет; 2?ведут; other?ведет;} войска для внезапной атаки вашего города {2_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_UNKNOWN">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?обнаружил; feminine?обнаружила; neuter?обнаружило;}; 2?обнаружили; other?обнаружил;}, что {3_CivAdj: lower} армия идет к вашим границам, собираясь напасть на вас без предупреждения!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_UNKNOWN_S">
+      <Text>{@1_PlayerName} {@1: plural 1?ведет; 2?ведут; other?ведет;} войска, чтобы напасть на вас без предупреждения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY">
+      <Text>Ваш {1_SpyRank: lower} {@2_SpyName} в городе {4_CityName} {@2: plural 1?{@2: gender masculine?убил; feminine?убила; neuter?убило;}; 2?убили; other?убил;} {@3_CivAdj: lower} шпиона при попытке украсть технологию!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY_S">
+      <Text>Убит {@1_CivAdj: lower} шпион!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_TECH">
+      <Text>{1_SpyRank} {2_SpyName} не может украсть технологию у державы {@3_CivShortName}, поскольку ваша наука продвинулась гораздо дальше их!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_TECH_S">
+      <Text>У державы {@1_CivShortName} ничего нельзя украсть.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_CREATED">
+      <Text>Нанят новый шпион: {1_SpyName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_CONQUEST">
+      <Text>Ваш {1_SpyRank: lower} {@2_SpyName} {@2: plural 1?{@2: gender masculine?покинул; feminine?покинула; neuter?покинуло;}; 2?покинули; other?покинул;} город {3_CityName}, захваченный державой {@4_CivShortName}. Вы можете снова дать {@2: plural 1?{@2: gender masculine?ему; feminine?ей; neuter?ему;}; 2?им; other?ему;} задание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_CONQUEST_S">
+      <Text>Шпион покинул захваченный город.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_CONQUEST_YOU">
+      <Text>Ваш {1_SpyRank: lower} {@2_SpyName} {@2: plural 1?{@2: gender masculine?покинул; feminine?покинула; neuter?покинуло;}; 2?покинули; other?покинул;} захваченный вами город {3_CityName}. Вы можете снова дать {@2: plural 1?{@2: gender masculine?ему; feminine?ей; neuter?ему;}; 2?им; other?ему;} задание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_TRADE">
+      <Text>Ваш {1_SpyRank: lower} {@2_SpyName} {@2: plural 1?{@2: gender masculine?вернулся; feminine?вернулась; neuter?вернулось;}; 2?вернулись; other?вернулся;} из города {3_CityName}, поскольку тот был передан державе {@4_CivShortName}. Вы можете снова дать {@2: plural 1?{@2: gender masculine?ему; feminine?ей; neuter?ему;}; 2?им; other?ему;} задание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_TRADE_S">
+      <Text>Шпион покинул город.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_TRADE_YOU">
+      <Text>Ваш {1_SpyRank: lower} {@2_SpyName} {@2: plural 1?{@2: gender masculine?вернулся; feminine?вернулась; neuter?вернулось;}; 2?вернулись; other?вернулся;} из города {3_CityName}, поскольку тот был передан вам. Вы можете снова дать {@2: plural 1?{@2: gender masculine?ему; feminine?ей; neuter?ему;}; 2?им; other?ему;} задание.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_PROMOTED">
+      <Text>{1_SpyName} {@1: plural 1?{@1: gender masculine?получил; feminine?получила; neuter?получило;}; 2?получили; other?получил;} повышение в ранге c {@2_RankName[2]} до {@3_RankName[3]}.[NEWLINE]Чем выше ранг шпиона, там быстрее он сможет украсть технологию и тем лучше он будет ловить вражеских шпионов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_REVIVED">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?был нанят; feminine?была нанята; neuter?было нанято;}; 2?были наняты; other?был нанят;} на замену убитому шпиону.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_REVIVED_S">
+      <Text>Нанят шпион, который заменит прежнего</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_ALERT">
+      <Text>После недавних выборов ваше влияние на{@1: gender masculine? ; feminine? ; neuter? ; other? город ;}{@1_CityName[4]} внезапно уменьшилось. Вероятно, это произошло из-за действий вражеских шпионов, подтасовавших результаты голосования.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_ALERT_S">
+      <Text>Фальсификации на выборах в{@1: gender masculine? ; feminine? ; neuter? ; other? городе ;}{1_CityName[6]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_FAILURE">
+      <Text>{1_SpyRank} {@2_SpyName} не {@2: plural 1?{@2: gender masculine?сумел; feminine?сумела; neuter?сумело;}; 2?сумели; other?сумел;} подтасовать результаты выборов в{@3: gender masculine? ; feminine? ; neuter? ; other? городе ;}{@3_CityName[6]}.{@4: gender masculine? ; feminine? ; neuter? ; other? Держава ;}{@4_CivShortDesc} {@4: plural 1?{@4: gender masculine?преуспел; feminine?преуспела; neuter?преуспело;}; 2?преуспели; other?преуспела;} в фальсификациях и {@4: plural 1?{@4: gender masculine?увеличил; feminine?увеличила; neuter?увеличило;}; 2?увеличили; other?увеличила;} влияние на город.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_FAILURE_S">
+      <Text>Неудача на выборах в{@1: gender masculine? ; feminine? ; neuter? ; other? городе ;}{@1_CityName[6]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_SUCCESS">
+      <Text>{1_SpyRank} {@2_SpyName} успешно {@2: plural 1?{@2: gender masculine?подтасовал; feminine?подтасовала; neuter?подтасовало;}; 2?подтасовали; other?подтасовал;} результаты выборов в{@3: gender masculine? ; feminine? ; neuter? ; other? городе ;}{@3_CityName[6]}. Ваше влияние в городе выросло, а влияние остальных держав уменьшилось.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_SUCCESS_S">
+      <Text>Выборы в{@1: gender masculine? ; feminine? ; neuter? ; other? городе ;}{@1_CityName[6]} были нечестными!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_FAILURE">
+      <Text>{@1: gender masculine? ; feminine? ; neuter? ; other? Держава ;}{@1_CivShortDesc} {@1: plural 1?{@1: gender masculine?попытался; feminine?попыталась; neuter?попыталось;}; 2?попытались; other?попыталась;} устроить переворот в{@2: gender masculine? ; feminine? ; neuter? ; other? городе ;}{@2_CityName[6]}, но не {@1: plural 1?{@1: gender masculine?смог; feminine?смогла; neuter?смогло;}; 2?смогли; other?смогла;} преодолеть влияние {3_CivAdj: lower} представителей в этом городе-государстве.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_FAILURE_S">
+      <Text>Провал {1_CivAdj: lower} переворота в{@2: gender masculine? ; feminine? ; neuter? ; other? городе ;}{@2_CityName[6]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_SUCCESS">
+      <Text>{@1: gender masculine? ; feminine? ; neuter? ; other? Держава ;}{@1_CivShortDesc} {@1: plural 1?{@1: gender masculine?устроил; feminine?устроила; neuter?устроило;}; 2?устроили; other?устроила;} переворот в{@2: gender masculine? ; feminine? ; neuter? ; other? городе ;}{@2_CityName[6]} и {@1: plural 1?{@1: gender masculine?вытеснил; feminine?вытеснила; neuter?вытеснило;}; 2?вытеснили; other?вытеснила;} {3_CivAdj: lower} сторонников из города. Теперь {1_CivShortDesc} - новый союзник это города-государства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_SUCCESS_S">
+      <Text>{1_CivAdj} переворот в{@2: gender masculine? ; feminine? ; neuter? ; other? городе ;}{@2_CityName[6]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_BLOCKING">
+      <Text>Кража технологии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_BLOCKING_TT">
+      <Text>Ваш шпион собрал достаточно информации, чтобы похитить чужую технологию. Выберите, что вы хотите украсть.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_TECH">
+      <Text>{1_SpyRank} {@2_SpyName} в городе {3_CityName} {@2: plural 1?{@2: gender masculine?собрал; feminine?собрала; neuter?собрало;}; 2?собрали; other?собрал;} достаточно информации, чтобы украсть технологию у державы {@4_CivShortName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_TECH_S">
+      <Text>Кража технологии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED">
+      <Text>Ваш {1_SpyRank: lower} {2_SpyName} {@2: plural 1?{@2: gender masculine?был убит; feminine?была убита; neuter?было убито;}; 2?были убиты; other?был убит;} {@3_CivAdj: lower} контрразведкой города {4_CityName} при попытке украсть технологию!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_S">
+      <Text>{@1_SpyName} {@1: plural 1?{@1: gender masculine?был убит; feminine?была убита; neuter?было убито;}; 2?были убиты; other?был убит;}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_FAILURE">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?попытался; feminine?попыталась; neuter?попыталось;}; 2?попытались; other?попытался;} устроить переворот в{@3: gender masculine? ; feminine? ; neuter? ; other? городе ;}{@3_CityName[6]}, но не {@2: plural 1?{@2: gender masculine?смог; feminine?смогла; neuter?смогло;}; 2?смогли; other?смог;} преодолеть {4_CivShortDesc: lower} влияние в этом городе-государстве, и {@2: plural 1?{@2: gender masculine?был убит; feminine?была убита; neuter?было убито;}; 2?были убиты; other?был убит;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_FAILURE_S">
+      <Text>Попытка переворота в{@1: gender masculine? ; feminine? ; neuter? ; other? городе ;}{@1_CityName[6]} провалилась!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_SUCCESS">
+      <Text>{1_SpyRank} {@2_SpyName} {@2: plural 1?{@2: gender masculine?устроил; feminine?устроила; neuter?устроило;}; 2?устроили; other?устроил;} успешный переворот в{@3: gender masculine? ; feminine? ; neuter? ; other? городе ;}{@3_CityName[6]}, преодолев сопротивление {4_CivShortDesc: lower} приспешников. Теперь этот город-государство - ваш союзник.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_SUCCESS_S">
+      <Text>Успешный переворот в{@1: gender masculine? ; feminine? ; neuter? ; other? городе ;}{@1_CityName[6]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SPY_CREATED">
+      <Text>Нанят шпион!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SPY_PROMOTED">
+      <Text>{@1_SpyName} {@1: plural 1?{@1: gender masculine?получил; feminine?получила; neuter?получило;}; 2?получили; other?получил;} повышение!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED">
+      <Text>Неизвестный шпион украл в городе {2_CityName} секрет {@1_Tech[2]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_S">
+      <Text>Украден секрет {@1_Tech[2]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_W_TIP">
+      <Text>Неизвестный шпион украл в городе {2_CityName} секрет {@1_Tech[2]} [NEWLINE]Для защиты города вы можете разместить в нем своего шпиона.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_WO_TECH">
+      <Text>Неизвестный шпион украл технологию в городе {1_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_WO_TECH_S">
+      <Text>Украдена технология!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_WO_TECH_W_TIP">
+      <Text>Неизвестный шпион украл технологию в городе {1_CityName}![NEWLINE]Для защиты города вы можете разместить в нем своего шпиона.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED">
+      <Text>{1_CivAdj} шпион украл в городе {3_CityName} секрет {@2_Tech[2]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_S">
+      <Text>{@1: gender masculine? ; feminine? ; neuter? ; other?Держава ;}{@1_CivShortDesc} {@1: plural 1?{@1: gender masculine?совершил; feminine?совершила; neuter?совершило;}; 2?совершили; other?совершила;} кражу в городе {2_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_W_TIP">
+      <Text>{1_CivAdj} шпион украл в городе {3_CityName} секрет {@2_Tech[2]}![NEWLINE]Для защиты этого города вы можете разместить в нем одного из своих шпионов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_WO_TECH">
+      <Text>{1_CivAdj} шпион украл технологию в городе {2_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_WO_TECH_S">
+      <Text>{@1: gender masculine? ; feminine? ; neuter? ; other?Держава ;}{@1_CivShortDesc} {@1: plural 1?крадет; 2?крадут; other?крадет;} технологию!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_WO_TECH_W_TIP">
+      <Text>{1_CivAdj} шпион украл технологию в городе {2_CityName}![NEWLINE]Для защиты этого города вы можете разместить в нем одного из своих шпионов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_FULL_NAME">
+      <Text>{1_RankName} {2_AgentName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_LOCATION_UNASSIGNED">
+      <Text>Нужно назначение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_OCCUPYING_CITY">
+      <Text>{1_AgentName} находится в этом городе.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_RANK_0">
+      <Text>Новичок</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_RANK_1">
+      <Text>Агент</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_RANK_2">
+      <Text>Спецагент</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_COUNTER_INTEL">
+      <Text>Ведет контрразведку</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_DEAD">
+      <Text>Смерть в бою</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_ESTABLISHED_SURVEILLANCE">
+      <Text>Наблюдает</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_ESTABLISHED_SURVEILLANCE_PROGRESS_BAR">
+      <Text>Нечего красть</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_GATHERING_INTEL">
+      <Text>Собирает сведения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_RIGGING_ELECTION">
+      <Text>Подтасовать выборы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_SURVEILLANCE">
+      <Text>Устанавливает наблюдение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_TRAVELLING">
+      <Text>Перемещается</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_UNASSIGNED">
+      <Text>Нет</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

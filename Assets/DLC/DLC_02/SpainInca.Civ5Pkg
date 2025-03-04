@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Civ5Package>
+	<GUID>{B685D5DE-7CCA-4e75-81B4-2F60754E6330}</GUID>
+	<SteamApp>16867</SteamApp>
+	<Version>1</Version>
+	<Key>18a803810eab894a76b375455a42f966</Key>
+	<PTags>
+		<Tag>Version</Tag>
+	</PTags>
+	<Name>
+		<Value language="en_US">Spain and Inca</Value>
+	</Name>
+	<Description>
+		<Value language="en_US">Isabella's Spain and Pachacuti's Incan Empire</Value>
+	</Description>
+	
+	<TextData>CIV5GameTextInfos_DLC_02.xml</TextData>
+	<TextData>CIV5GameTextInfos_Leaders_DLC_02.xml</TextData>
+	<TextData>CIV5GameTextInfos_Civilizations_DLC_02.xml</TextData>
+	<TextData>CIV5GameText_Cities_DLC_02.xml</TextData>
+	<TextData>CIV5GameText_Cities_DLC_02_Scenario.xml</TextData>
+  <TextData>CIV5GameTextInfos_Objects_DLC_02.xml</TextData>
+	<TextData>CIV5GameTextInfos_Units_DLC_02.xml</TextData>
+	<TextData>CIV5GameTextInfos_NewWorldScenario.xml</TextData>
+	<TextData>CIV5GameTextInfos_CityStates_NewWorldScenario.xml</TextData>
+	<TextData>Civ5CivlopediaDLC_Inca.xml</TextData>
+	<TextData>Civ5CivlopediaDLC_Spain.xml</TextData>
+	<TextData>Civ5_Dialog_Isabella.xml</TextData>
+	<TextData>Civ5_Dialog_Pachacuti.xml</TextData>
+	<TextData>CIV5GameTextInfos_Civilizations_NewWorldScenario.xml</TextData>
+	<TextData>CIV5GameTextInfos_Leaders_NewWorldScenario.xml</TextData>
+	<TextData>CIV5GameTextInfos_Techs_NewWorldScenario.xml</TextData>
+
+	<GameData>CIV5Civilization_DLC_02.xml</GameData>
+	<GameData>CIV5Builds_DLC_02.xml</GameData>
+	<GameData>CIV5Improvements_DLC_02.xml</GameData>
+	<GameData>CIV5Units_DLC_02.xml</GameData>
+	<GameData>CIV5Traits_DLC_02.xml</GameData>
+	<GameData>CIV5UnitPromotions_DLC_02.xml</GameData>
+	<GameData>CIV5Leader_Isabella.xml</GameData>
+	<GameData>CIV5Leader_Pachacuti.xml</GameData>
+	<GameData>CIV5Diplomacy_Responses_DLC_02.xml</GameData>
+	<GameData>Civ5ArtDefines_SV_DLC02_Units.xml</GameData>
+	<GameData>Civ5ArtDefines_SV_DLC02_Improvements.xml</GameData>
+	<GameData>UnitUISounds_SpainInca.xml</GameData>
+
+	<AudioGameData>MinorCivSounds_DLC02.xml</AudioGameData>
+	
+	<AudioDefines>PachacutiAudioDefines.xml</AudioDefines>
+	<AudioDefines>ConquestScenarioAudioDefines.xml</AudioDefines>
+	<AudioDefines>DawnOfMan_Speech_Spain_AudioDefines.xml</AudioDefines>
+	<AudioDefines>DawnOfMan_Speech_Inca_AudioDefines.xml</AudioDefines>
+	<AudioDefines>Tech_SpeechAudioDefinesDLC02.xml</AudioDefines>
+	<AudioDefines>AudioDefinesDLC02.xml</AudioDefines>
+    <AudioDefines>IsabellaAudioDefines.xml</AudioDefines>
+	<AudioScripts2D>IsabellaAudio2DScripts.xml</AudioScripts2D>
+	<AudioScripts2D>Tech_SpeechAudio2DScriptsDLC02.xml</AudioScripts2D>
+	<AudioScripts2D>ConquestScenarioAudio2DScripts.xml</AudioScripts2D>
+	<AudioScripts2D>DawnOfMan_Speech_Spain_Audio2DScripts.xml</AudioScripts2D>
+	<AudioScripts2D>PachacutiAudio2DScripts.xml</AudioScripts2D>
+	<AudioScripts2D>DawnOfMan_Speech_Inca_Audio2DScripts.xml</AudioScripts2D>
+	<AudioScripts3D>U_Incan_Slinger3DScripts.xml</AudioScripts3D>
+	<AudioScripts3D>U_Spanish_Tercio_Piquero3DScripts.xml</AudioScripts3D>
+	<AudioScripts3D>U_Spanish_Tercio_Arbacucero3DScripts.xml</AudioScripts3D>
+	<AudioScripts3D>U_Spanish_Conquistador3DScripts.xml</AudioScripts3D>
+	<AudioScripts3D>U_Spanish_Galleon3DScripts.xml</AudioScripts3D>
+	<AudioScripts3D>U_Spanish_Treasure_Cart3DScripts.xml</AudioScripts3D>
+	<AudioScripts2D>SpainAudio2DScripts.xml</AudioScripts2D>
+	<AudioScripts2D>IncaAudio2DScripts.xml</AudioScripts2D>
+	
+	<UnitArtDefines>Civ5ArtDefines_SpainInca_Units.xml</UnitArtDefines>
+	<UnitArtDefines>Civ5ArtDefines_SpainInca_UnitMembers.xml</UnitArtDefines>
+	
+	<VisEffectInfoDefines>Civ5ArtDefines_VisEffects_DLC_02.xml</VisEffectInfoDefines>
+	<VisEffectParticleDefines>Civ5ArtDefines_VisEffectParticles_DLC_02.xml</VisEffectParticleDefines>
+	<VisEffectModelDefines>Civ5ArtDefines_VisEffectModels_DLC_02.xml</VisEffectModelDefines>
+	
+	<LandmarkDefines>Civ5ArtDefines_LandmarkTypes_DLC_02.xml</LandmarkDefines>
+	<LandmarkDefines>Civ5ArtDefines_Landmarks_DLC_02.xml</LandmarkDefines>
+	
+	<Paks>
+		<File>SpanishModels.fpk</File>
+		<File>IncanModels.fpk</File>
+		<File>IncanPachacutiTextures.fpk</File>
+		<File>SpainIsabellaTextures.fpk</File>
+	</Paks>	
+</Civ5Package>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<UnitPromotions>
+		<!--Earnable Promotions-->
+		<Row>
+			<Type>PROMOTION_WITHDRAW_BEFORE_MELEE</Type>
+			<Description>TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE</Description>
+			<Help>TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<ExtraWithdrawal>80</ExtraWithdrawal>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE</PediaEntry>
+		</Row>
+	</UnitPromotions>
+</GameData>

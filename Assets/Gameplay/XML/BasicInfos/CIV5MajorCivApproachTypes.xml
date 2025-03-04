@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="MajorCivApproachTypes">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+	</Table>
+	<!-- Table data -->
+	<MajorCivApproachTypes>
+		<Row>
+			<ID>0</ID>
+			<Type>MAJOR_CIV_APPROACH_WAR</Type>
+		</Row>
+		<Row>
+			<Type>MAJOR_CIV_APPROACH_HOSTILE</Type>
+		</Row>
+		<Row>
+			<Type>MAJOR_CIV_APPROACH_DECEPTIVE</Type>
+		</Row>
+		<Row>
+			<Type>MAJOR_CIV_APPROACH_GUARDED</Type>
+		</Row>
+		<Row>
+			<Type>MAJOR_CIV_APPROACH_AFRAID</Type>
+		</Row>
+		<Row>
+			<Type>MAJOR_CIV_APPROACH_FRIENDLY</Type>
+		</Row>
+		<Row>
+			<Type>MAJOR_CIV_APPROACH_NEUTRAL</Type>
+		</Row>
+	</MajorCivApproachTypes>
+</GameData>

@@ -1,0 +1,12 @@
+<LeaderScene lights="Netherlands_William_of_Orange_Lights.gr2" camera="William_of_Orange_Camera.fxsxml" ColorKey="William_COLORKEY.tga" cubemap_prefix ="William" FallbackImage="William_of_Orange.dds">
+
+<HackLightSettings color="255,255,255" direction="0.4,-1.0,-0.3" intensity="0.1" />
+
+<DOFSettings max_width="0" blur_distance="950" ramp_distance="810" ></DOFSettings> 
+
+
+  <LeaderObject  model="Netherlands_William_of_Orange.fxsxml">  </LeaderObject>
+  <BackgroundObject model="William_Scene.fxsxml" ></BackgroundObject>
+  <BackgroundObject model="William_Scene_VFX.fxsxml" ></BackgroundObject>
+  
+</LeaderScene>

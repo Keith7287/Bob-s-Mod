@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by MBeach (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="Traits">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text" reference="Language_en_US(Tag)"/>
+		<Column name="ShortDescription" type="text" reference="Language_en_US(Tag)"/>
+		<Column name="LevelExperienceModifier" type="integer" default="0"/>
+		<Column name="GreatPeopleRateModifier" type="integer" default="0"/>
+		<Column name="GreatScientistRateModifier" type="integer" default="0"/>
+		<Column name="GreatGeneralRateModifier" type="integer" default="0"/>
+		<Column name="GreatGeneralExtraBonus" type="integer" default="0"/>
+		<Column name="GreatPersonGiftInfluence" type="integer" default="0"/>
+		<Column name="MaxGlobalBuildingProductionModifier" type="integer" default="0"/>
+		<Column name="MaxTeamBuildingProductionModifier" type="integer" default="0"/>
+		<Column name="MaxPlayerBuildingProductionModifier" type="integer" default="0"/>
+		<Column name="CityUnhappinessModifier" type="integer" default="0"/>
+		<Column name="PopulationUnhappinessModifier" type="integer" default="0"/>
+		<Column name="CityStateBonusModifier" type="integer" default="0"/>
+		<Column name="CityStateFriendshipModifier" type="integer" default="0"/>
+		<Column name="CityStateCombatModifier" type="integer" default="0"/>
+		<Column name="LandBarbarianConversionPercent" type="integer" default="0"/>
+		<Column name="LandBarbarianConversionExtraUnits" type="integer" default="0"/>
+		<Column name="SeaBarbarianConversionPercent" type="integer" default="0"/>
+		<Column name="LandUnitMaintenanceModifier" type="integer" default="0"/>
+		<Column name="NavalUnitMaintenanceModifier" type="integer" default="0"/>
+		<Column name="CapitalBuildingModifier" type="integer" default="0"/>
+		<Column name="PlotBuyCostModifier" type="integer" default="0"/>
+		<Column name="PlotCultureCostModifier" type="integer" default="0"/>
+		<Column name="CultureFromKills" type="integer" default="0"/>
+		<Column name="FaithFromKills" type="integer" default="0"/>
+		<Column name="CityCultureBonus" type="integer" default="0"/>
+		<Column name="CapitalThemingBonusModifier" type="integer" default="0"/>
+		<Column name="PolicyCostModifier" type="integer" default="0"/>
+		<Column name="CityConnectionTradeRouteChange" type="integer" default="0"/>
+		<Column name="WonderProductionModifier" type="integer" default="0"/>
+		<Column name="PlunderModifier" type="integer" default="0"/>
+		<Column name="ImprovementMaintenanceModifier" type="integer" default="0"/>
+		<Column name="GoldenAgeDurationModifier" type="integer" default="0"/>
+		<Column name="GoldenAgeMoveChange" type="integer" default="0"/>
+		<Column name="GoldenAgeCombatModifier" type="integer" default="0"/>
+		<Column name="GoldenAgeTourismModifier" type="integer" default="0"/>
+		<Column name="GoldenAgeGreatArtistRateModifier" type="integer" default="0"/>
+		<Column name="GoldenAgeGreatMusicianRateModifier" type="integer" default="0"/>
+		<Column name="GoldenAgeGreatWriterRateModifier" type="integer" default="0"/>
+		<Column name="ExtraEmbarkMoves" type="integer" default="0"/>
+		<Column name="NaturalWonderFirstFinderGold" type="integer" default="0"/>
+		<Column name="NaturalWonderSubsequentFinderGold" type="integer" default="0"/>
+		<Column name="NaturalWonderYieldModifier" type="integer" default="0"/>
+		<Column name="NaturalWonderHappinessModifier" type="integer" default="0"/>
+		<Column name="NearbyImprovementCombatBonus" type="integer" default="0"/>
+		<Column name="NearbyImprovementBonusRange" type="integer" default="0"/>
+		<Column name="CultureBuildingYieldChange" type="integer" default="0"/>
+		<Column name="CombatBonusVsHigherTech" type="integer" default="0"/>
+		<Column name="CombatBonusVsLargerCiv" type="integer" default="0"/>
+		<Column name="RazeSpeedModifier" type="integer" default="0"/>
+		<Column name="DOFGreatPersonModifier" type="integer" default="0"/>
+		<Column name="LuxuryHappinessRetention" type="integer" default="0"/>
+		<Column name="ExtraSpies" type="integer" default="0"/>
+		<Column name="UnresearchedTechBonusFromKills" type="integer" default="0"/>
+		<Column name="ExtraFoundedCityTerritoryClaimRange" type="integer" default="0"/>
+		<Column name="FreeSocialPoliciesPerEra" type="integer" default="0"/>
+		<Column name="NumTradeRoutesModifier" type="integer" default="0"/>
+		<Column name="TradeRouteResourceModifier" type="integer" default="0"/>
+		<Column name="UniqueLuxuryCities" type="integer" default="0"/>
+		<Column name="UniqueLuxuryQuantity" type="integer" default="0"/>
+		<Column name="WorkerSpeedModifier" type="integer" default="0"/>
+		<Column name="AfraidMinorPerTurnInfluence" type="integer" default="0"/>
+		<Column name="LandTradeRouteRangeBonus" type="integer" default="0"/>
+		<Column name="TradeReligionModifier" type="integer" default="0"/>
+		<Column name="TradeBuildingModifier" type="integer" default="0"/>
+		<Column name="FightWellDamaged" type="boolean" default="false"/>
+		<Column name="MoveFriendlyWoodsAsRoad" type="boolean" default="false"/>
+		<Column name="FasterAlongRiver" type="boolean" default="false"/>
+		<Column name="FasterInHills" type="boolean" default="false"/>
+		<Column name="EmbarkedAllWater" type="boolean" default="false"/>
+		<Column name="EmbarkedToLandFlatCost" type="boolean" default="false"/>
+		<Column name="NoHillsImprovementMaintenance" type="boolean" default="false"/>
+		<Column name="TechBoostFromCapitalScienceBuildings" type="boolean" default="false"/>
+		<Column name="StaysAliveZeroCities" type="boolean" default="false"/>
+		<Column name="FaithFromUnimprovedForest" type="boolean" default="false"/>
+		<Column name="BonusReligiousBelief" type="boolean" default="false"/>
+		<Column name="AbleToAnnexCityStates" type="boolean" default="false"/>
+		<Column name="CrossesMountainsAfterGreatGeneral" type="boolean" default="false"/>
+		<Column name="MayaCalendarBonuses" type="boolean" default="false"/>
+		<Column name="NoAnnexing" type="boolean" default="false"/>
+		<Column name="TechFromCityConquer" type="boolean" default="false"/>
+		<Column name="UniqueLuxuryRequiresNewArea" type="boolean" default="false"/>
+		<Column name="RiverTradeRoad" type="boolean" default="false"/>
+		<Column name="AngerFreeIntrusionOfCityStates" type="boolean" default="false"/>
+		<Column name="FreeUnit" type="text" reference="UnitClasses(Type)" default="NULL"/>
+		<Column name="FreeUnitPrereqTech" type="text" reference="Technologies(Type)" default="NULL"/>
+		<Column name="CombatBonusImprovement" type="text" reference="Improvements(Type)" default="NULL"/>
+		<Column name="FreeBuilding" type="text" reference="Buildings(Type)" default="NULL"/>
+		<Column name="FreeBuildingOnConquest" type="text" reference="Buildings(Type)" default="NULL"/>
+		<Column name="ObsoleteTech" type="text" reference="Technologies(Type)" default="NULL"/>
+		<Column name="PrereqTech" type="text" reference="Technologies(Type)" default="NULL"/>
+	</Table>
+	<Table name="Trait_ExtraYieldThresholds">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
+	<Table name="Trait_YieldChanges">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
+	<Table name="Trait_YieldChangesStrategicResources">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
+	<Table name="Trait_YieldChangesNaturalWonder">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
+	<Table name="Trait_YieldChangesPerTradePartner">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
+	<Table name="Trait_YieldChangesIncomingTradeRoute">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
+	<Table name="Trait_YieldModifiers">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
+	<Table name="Trait_FreePromotions">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="PromotionType" type="text" reference="UnitPromotions(Type)"/>
+	</Table>
+	<Table name="Trait_FreePromotionUnitCombats">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="UnitCombatType" type="text" reference="UnitCombatInfos(Type)"/>
+		<Column name="PromotionType" type="text" reference="UnitPromotions(Type)"/>
+	</Table>
+	<Table name="Trait_MovesChangeUnitCombats">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="UnitCombatType" type="text" reference="UnitCombatInfos(Type)"/>
+		<Column name="MovesChange" type="int"/>
+	</Table>
+	<Table name="Trait_MaintenanceModifierUnitCombats">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="UnitCombatType" type="text" reference="UnitCombatInfos(Type)"/>
+		<Column name="MaintenanceModifier" type="int"/>
+	</Table>
+	<Table name="Trait_Terrains">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="TerrainType" type="text"/>
+		<Column name="StrategicResourceQuantityModifier" type="integer" default="0"/>
+	</Table>
+	<Table name="Trait_ResourceQuantityModifiers">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="ResourceType" type="text" reference="Resources(Type)"/>
+		<Column name="ResourceQuantityModifier" type="integer" default="0"/>
+	</Table>
+	<Table name="Trait_FreeResourceFirstXCities">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="ResourceType" type="text" reference="Resources(Type)"/>
+		<Column name="ResourceQuantity" type="integer"/>
+		<Column name="NumCities" type="integer"/>
+	</Table>
+	<Table name="Trait_ImprovementYieldChanges">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
+	<Table name="Trait_SpecialistYieldChanges">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="SpecialistType" type="text" reference="Specialists(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
+	<Table name="Trait_UnimprovedFeatureYieldChanges">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="FeatureType" type="text" reference="Features(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
+	<Table name="Trait_NoTrain">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="UnitClassType" type="text" notnull="true" reference="UnitClasses(Type)"/>
+	</Table>
+	<!-- Table data -->
+	<Traits>
+		<Row>
+			<ID>0</ID>
+			<Type>TRAIT_PHILOSOPHICAL</Type>
+			<Description/>
+			<ShortDescription/>
+			<GreatPeopleRateModifier>100</GreatPeopleRateModifier>
+		</Row>
+		<Row>
+			<Type>TRAIT_INDUSTRIOUS</Type>
+			<Description/>
+			<ShortDescription/>
+			<MaxGlobalBuildingProductionModifier>50</MaxGlobalBuildingProductionModifier>
+			<MaxTeamBuildingProductionModifier>50</MaxTeamBuildingProductionModifier>
+			<MaxPlayerBuildingProductionModifier>50</MaxPlayerBuildingProductionModifier>
+		</Row>
+		<Row>
+			<Type>TRAIT_CREATIVE</Type>
+			<Description/>
+			<ShortDescription/>
+		</Row>
+		<Row>
+			<Type>TRAIT_FINANCIAL</Type>
+			<Description/>
+			<ShortDescription/>
+		</Row>
+		<Row>
+			<Type>TRAIT_CHARISMATIC</Type>
+			<Description/>
+			<ShortDescription/>
+			<LevelExperienceModifier>-25</LevelExperienceModifier>
+		</Row>
+		<Row>
+			<Type>TRAIT_ART_OF_WAR</Type>
+			<Description>TXT_KEY_TRAIT_ART_OF_WAR</Description>
+			<ShortDescription>TXT_KEY_TRAIT_ART_OF_WAR_SHORT</ShortDescription>
+			<GreatGeneralRateModifier>50</GreatGeneralRateModifier>
+			<GreatGeneralExtraBonus>15</GreatGeneralExtraBonus>
+		</Row>
+		<Row>
+			<Type>TRAIT_POPULATION_GROWTH</Type>
+			<Description>TXT_KEY_TRAIT_POPULATION_GROWTH</Description>
+			<ShortDescription>TXT_KEY_TRAIT_POPULATION_GROWTH_SHORT</ShortDescription>
+			<CityUnhappinessModifier>100</CityUnhappinessModifier>
+			<PopulationUnhappinessModifier>-50</PopulationUnhappinessModifier>
+		</Row>
+		<Row>
+			<Type>TRAIT_STRATEGIC_RICHES</Type>
+			<Description>TXT_KEY_TRAIT_STRATEGIC_RICHES</Description>
+			<ShortDescription>TXT_KEY_TRAIT_STRATEGIC_RICHES_SHORT</ShortDescription>
+		</Row>
+		<Row>
+			<Type>TRAIT_OCEAN_MOVEMENT</Type>
+			<Description>TXT_KEY_TRAIT_OCEAN_MOVEMENT</Description>
+			<ShortDescription>TXT_KEY_TRAIT_OCEAN_MOVEMENT_SHORT</ShortDescription>
+			<ExtraEmbarkMoves>2</ExtraEmbarkMoves>
+			<ExtraSpies>1</ExtraSpies>
+		</Row>
+		<Row>
+			<Type>TRAIT_CITY_STATE_BONUSES</Type>
+			<Description>TXT_KEY_TRAIT_CITY_STATE_BONUSES</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CITY_STATE_BONUSES_SHORT</ShortDescription>
+			<CityStateBonusModifier>50</CityStateBonusModifier>
+		</Row>
+		<Row>
+			<Type>TRAIT_CITY_STATE_FRIENDSHIP</Type>
+			<Description>TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP_SHORT</ShortDescription>
+			<CityStateFriendshipModifier>100</CityStateFriendshipModifier>
+		</Row>
+		<Row>
+			<Type>TRAIT_FIGHT_WELL_DAMAGED</Type>
+			<Description>TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED</Description>
+			<ShortDescription>TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT</ShortDescription>
+			<FightWellDamaged>true</FightWellDamaged>
+		</Row>
+		<Row>
+			<Type>TRAIT_CONVERTS_LAND_BARBARIANS</Type>
+			<Description>TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS_SHORT</ShortDescription>
+			<LandBarbarianConversionPercent>67</LandBarbarianConversionPercent>
+			<LandUnitMaintenanceModifier>-25</LandUnitMaintenanceModifier>
+		</Row>
+		<Row>
+			<Type>TRAIT_CONVERTS_SEA_BARBARIANS</Type>
+			<Description>TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT</ShortDescription>
+			<NavalUnitMaintenanceModifier>-66</NavalUnitMaintenanceModifier>
+		</Row>
+		<Row>
+			<Type>TRAIT_IGNORE_TERRAIN_IN_FOREST</Type>
+			<Description>TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST</Description>
+			<ShortDescription>TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST_SHORT</ShortDescription>
+			<MoveFriendlyWoodsAsRoad>true</MoveFriendlyWoodsAsRoad>
+		</Row>
+		<Row>
+			<Type>TRAIT_CAPITAL_BUILDINGS_CHEAPER</Type>
+			<Description>TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER_SHORT</ShortDescription>
+			<CapitalBuildingModifier>25</CapitalBuildingModifier>
+		</Row>
+		<Row>
+			<Type>TRAIT_RIVER_EXPANSION</Type>
+			<Description>TXT_KEY_TRAIT_RIVER_EXPANSION</Description>
+			<ShortDescription>TXT_KEY_TRAIT_RIVER_EXPANSION_SHORT</ShortDescription>
+			<PlotBuyCostModifier>-50</PlotBuyCostModifier>
+		</Row>
+		<Row>
+			<Type>TRAIT_CULTURE_FROM_KILLS</Type>
+			<Description>TXT_KEY_TRAIT_CULTURE_FROM_KILLS</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CULTURE_FROM_KILLS_SHORT</ShortDescription>
+			<CultureFromKills>100</CultureFromKills>
+		</Row>
+		<Row>
+			<Type>TRAIT_ENHANCED_CULTURE</Type>
+			<Description>TXT_KEY_TRAIT_ENHANCED_CULTURE</Description>
+			<ShortDescription>TXT_KEY_TRAIT_ENHANCED_CULTURE_SHORT</ShortDescription>
+			<CapitalThemingBonusModifier>100</CapitalThemingBonusModifier>
+		</Row>
+		<Row>
+			<Type>TRAIT_LAND_TRADE_GOLD</Type>
+			<Description>TXT_KEY_TRAIT_LAND_TRADE_GOLD2</Description>
+			<ShortDescription>TXT_KEY_TRAIT_LAND_TRADE_GOLD2_SHORT</ShortDescription>
+			<LandTradeRouteRangeBonus>5</LandTradeRouteRangeBonus>
+			<TradeReligionModifier>100</TradeReligionModifier>
+		</Row>
+		<Row>
+			<Type>TRAIT_WONDER_BUILDER</Type>
+			<Description>TXT_KEY_TRAIT_WONDER_BUILDER</Description>
+			<ShortDescription>TXT_KEY_TRAIT_WONDER_BUILDER_SHORT</ShortDescription>
+			<WonderProductionModifier>20</WonderProductionModifier>
+		</Row>
+		<Row>
+			<Type>TRAIT_AMPHIB_WARLORD</Type>
+			<Description>TXT_KEY_TRAIT_AMPHIB_WARLORD</Description>
+			<ShortDescription>TXT_KEY_TRAIT_AMPHIB_WARLORD_SHORT</ShortDescription>
+			<PlunderModifier>200</PlunderModifier>
+		</Row>
+		<Row>
+			<Type>TRAIT_ENHANCED_GOLDEN_AGES</Type>
+			<Description>TXT_KEY_TRAIT_ENHANCED_GOLDEN_AGES</Description>
+			<ShortDescription>TXT_KEY_TRAIT_ENHANCED_GOLDEN_AGES_SHORT</ShortDescription>
+			<GoldenAgeDurationModifier>50</GoldenAgeDurationModifier>
+			<GoldenAgeMoveChange>1</GoldenAgeMoveChange>
+			<GoldenAgeCombatModifier>10</GoldenAgeCombatModifier>
+		</Row>
+	</Traits>
+	<Trait_ExtraYieldThresholds>
+		<Row>
+			<TraitType>TRAIT_FINANCIAL</TraitType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_ExtraYieldThresholds>
+	<Trait_YieldChanges>
+		<Row>
+			<TraitType>TRAIT_FINANCIAL</TraitType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_YieldChanges>
+	<Trait_YieldChangesStrategicResources>
+		<Row>
+			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_YieldChangesStrategicResources>
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+			<PromotionType>PROMOTION_PRIZE_SHIPS</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OCEAN_MOVEMENT</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+			<PromotionType>PROMOTION_OCEAN_MOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OCEAN_MOVEMENT</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+			<PromotionType>PROMOTION_OCEAN_MOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OCEAN_MOVEMENT</TraitType>
+			<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+			<PromotionType>PROMOTION_OCEAN_MOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_OCEAN_MOVEMENT</TraitType>
+			<UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
+			<PromotionType>PROMOTION_OCEAN_MOVEMENT</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_SENTRY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_SENTRY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_SENTRY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_SENTRY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_SENTRY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_SENTRY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_RIVER_EXPANSION</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_SENTRY</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AMPHIB_WARLORD</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AMPHIB_WARLORD</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AMPHIB_WARLORD</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AMPHIB_WARLORD</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AMPHIB_WARLORD</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AMPHIB_WARLORD</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AMPHIB_WARLORD</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AMPHIB_WARLORD</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AMPHIB_WARLORD</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AMPHIB_WARLORD</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AMPHIB_WARLORD</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AMPHIB_WARLORD</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AMPHIB_WARLORD</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_AMPHIB_WARLORD</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+	<Trait_ResourceQuantityModifiers>
+		<Row>
+			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_STRATEGIC_RICHES</TraitType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LAND_TRADE_GOLD</TraitType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+	</Trait_ResourceQuantityModifiers>
+	<Trait_ImprovementYieldChanges>
+		<Row>
+			<TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+	<Trait_UnimprovedFeatureYieldChanges>
+		<Row>
+			<TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+			<FeatureType>FEATURE_ATOLL</FeatureType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Trait_UnimprovedFeatureYieldChanges>
+</GameData>

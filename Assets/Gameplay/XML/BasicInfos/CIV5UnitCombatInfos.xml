@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- Table definition -->
+    <Table name="UnitCombatInfos">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" notnull="true" unique="true" />
+        <Column name="Description" type="text" />
+    </Table>
+
+    <!-- Table data -->
+	<UnitCombatInfos>
+		<Row>
+            <ID>0</ID>
+			<Type>UNITCOMBAT_RECON</Type>
+			<Description>TXT_KEY_UNITCOMBAT_RECON</Description>
+		</Row>
+		<Row>
+			<Type>UNITCOMBAT_ARCHER</Type>
+			<Description>TXT_KEY_UNITCOMBAT_ARCHER</Description>
+		</Row>
+		<Row>
+			<Type>UNITCOMBAT_MOUNTED</Type>
+			<Description>TXT_KEY_UNITCOMBAT_MOUNTED</Description>
+		</Row>
+		<Row>
+			<Type>UNITCOMBAT_MELEE</Type>
+			<Description>TXT_KEY_UNITCOMBAT_MELEE</Description>
+		</Row>
+		<Row>
+			<Type>UNITCOMBAT_SIEGE</Type>
+			<Description>TXT_KEY_UNITCOMBAT_SIEGE</Description>
+		</Row>
+		<Row>
+			<Type>UNITCOMBAT_GUN</Type>
+			<Description>TXT_KEY_UNITCOMBAT_GUN</Description>
+		</Row>
+		<Row>
+			<Type>UNITCOMBAT_ARMOR</Type>
+			<Description>TXT_KEY_UNITCOMBAT_ARMOR</Description>
+		</Row>
+		<Row>
+			<Type>UNITCOMBAT_HELICOPTER</Type>
+			<Description>TXT_KEY_UNITCOMBAT_HELICOPTER</Description>
+		</Row>
+		<Row>
+			<Type>UNITCOMBAT_NAVAL</Type>
+			<Description>TXT_KEY_UNITCOMBAT_NAVAL</Description>
+		</Row>
+		<Row>
+			<Type>UNITCOMBAT_FIGHTER</Type>
+			<Description>TXT_KEY_UNITCOMBAT_FIGHTER</Description>
+		</Row>
+		<Row>
+			<Type>UNITCOMBAT_BOMBER</Type>
+			<Description>TXT_KEY_UNITCOMBAT_BOMBER</Description>
+		</Row>
+	</UnitCombatInfos>
+</GameData>

@@ -1,0 +1,18 @@
+<LeaderScene FarClip="100000" lights ="Maya_Pacal_Lights.gr2" camera="Pacal_Camera.fxsxml" ColorKey="Pacal_COLORKEY.tga" cubemap_prefix ="Pacal" FallbackImage="Pacal_the_Great.dds" >
+
+ 
+<HackLightSettings intensity=".4" direction=".7,1,0" color="255,255,255"/>
+
+ 
+<DOFSettings max_width="3" blur_distance="8000" ramp_distance="665" ></DOFSettings> 
+
+
+
+ <LeaderObject  model="Maya_Pacal.fxsxml"> </LeaderObject>
+<BackgroundObject model="Pacal_Scene.fxsxml" ></BackgroundObject>
+<BackgroundObject model="Pacal_Scene_VFX.fxsxml" ></BackgroundObject>
+
+</LeaderScene>
+
+
+

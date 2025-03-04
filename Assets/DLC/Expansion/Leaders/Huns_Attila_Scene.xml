@@ -1,0 +1,11 @@
+<LeaderScene lights ="Huns_Attila_Lights.fxsxml" camera="Huns_Attila_Camera.fxsxml" ColorKey="Attila_COLORKEY.tga"  cubemap_prefix ="Attila" FallbackImage="Attila.dds">
+
+
+	<DOFSettings max_width="0" blur_distance="8000" ramp_distance="0"  ></DOFSettings>
+
+	<LeaderObject  model="Huns_Attila.fxsxml"> </LeaderObject>	
+<BackgroundObject model="Huns_Attila_Scene.fxsxml" ></BackgroundObject>
+<BackgroundObject model="Huns_Attila_Scene_VFX.fxsxml" ></BackgroundObject>
+
+</LeaderScene>
+

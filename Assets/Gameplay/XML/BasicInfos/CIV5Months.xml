@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    
+    <!-- Table definition -->
+    <Table name="Months">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" notnull="true" unique="true" />
+        <Column name="Description" type="text" />
+    </Table>
+    
+    <!-- Table data -->
+    <Months>
+        <Row>
+            <ID>0</ID>
+            <Type>MONTH_JANUARY</Type>
+            <Description>TXT_KEY_MONTH1</Description>
+        </Row>
+        <Row>
+            <ID>1</ID>
+            <Type>MONTH_FEBRUARY</Type>
+            <Description>TXT_KEY_MONTH2</Description>
+        </Row>
+        <Row>
+            <ID>2</ID>
+            <Type>MONTH_MARCH</Type>
+            <Description>TXT_KEY_MONTH3</Description>
+        </Row>
+        <Row>
+            <ID>3</ID>
+            <Type>MONTH_APRIL</Type>
+            <Description>TXT_KEY_MONTH4</Description>
+        </Row>
+        <Row>
+            <ID>4</ID>
+            <Type>MONTH_MAY</Type>
+            <Description>TXT_KEY_MONTH5</Description>
+        </Row>
+        <Row>
+            <ID>5</ID>
+            <Type>MONTH_JUNE</Type>
+            <Description>TXT_KEY_MONTH6</Description>
+        </Row>
+        <Row>
+            <ID>6</ID>
+            <Type>MONTH_JULY</Type>
+            <Description>TXT_KEY_MONTH7</Description>
+        </Row>
+        <Row>
+            <ID>7</ID>
+            <Type>MONTH_AUGUST</Type>
+            <Description>TXT_KEY_MONTH8</Description>
+        </Row>
+        <Row>
+            <ID>8</ID>
+            <Type>MONTH_SEPTEMBER</Type>
+            <Description>TXT_KEY_MONTH9</Description>
+        </Row>
+        <Row>
+            <ID>9</ID>
+            <Type>MONTH_OCTOBER</Type>
+            <Description>TXT_KEY_MONTH10</Description>
+        </Row>
+        <Row>
+            <ID>10</ID>
+            <Type>MONTH_NOVEMBER</Type>
+            <Description>TXT_KEY_MONTH11</Description>
+        </Row>
+        <Row>
+            <ID>11</ID>
+            <Type>MONTH_DECEMBER</Type>
+            <Description>TXT_KEY_MONTH12</Description>
+        </Row>
+    </Months>
+</GameData>

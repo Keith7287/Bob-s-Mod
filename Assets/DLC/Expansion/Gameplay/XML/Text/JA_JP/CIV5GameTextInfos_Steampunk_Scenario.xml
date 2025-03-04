@@ -1,0 +1,1145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_JA_JP>
+    <Row Tag="TXT_KEY_BUILDING_AERODROME_HELP">
+      <Text>ロザラム固有の建造物。[NEWLINE][NEWLINE]航空ユニットに経験値+15を付与。航空ユニット生産時に[ICON_PRODUCTION]生産力+10%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AERODROME_STRATEGY">
+      <Text>飛行場はロザラムのみが建設できる。飛行船格納庫に代わる施設で、フライヤー、飛行船、空中要塞の作成時に[ICON_PRODUCTION]生産力ボーナスを得ることができる。飛行船格納庫と同様に、作成した航空ユニットに経験値を付与する。飛行場を作成すれば、短時間で熟練の航空機隊を編成することができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AETHERIUM_FABRICATOR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT][ICON_RES_ALUMINUM]エイセリウムを2つ[ENDCOLOR]供給。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AETHERIUM_FABRICATOR_STRATEGY">
+      <Text>タイル上の資源の有無を問わず、[ICON_RES_ALUMINUM]エイセリウムを供給する。エイセリウムがあれば、さらに多くの飛行船を自軍に加えることができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AETHERIUM_FACTORY_HELP">
+      <Text>カトラー固有の建造物であり、[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT][ICON_RES_ALUMINUM]エイセリウムを2つ[ENDCOLOR]供給する。[NEWLINE][NEWLINE]この都市によって活用されたエイセリウム1つにつき[ICON_GOLD]ゴールド+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AETHERIUM_FACTORY_STRATEGY">
+      <Text>エイセリウム工場はカトラーのみが建設できる。代替元のエイセリウム加工所とは異なり、[ICON_GOLD]ゴールドにボーナスを付与する。この施設を持つ都市によって活用された[ICON_RES_ALUMINUM]エイセリウムの数に伴い、ゴールドの量が増加する。このボーナスはカトラーが持つ特色とは重複しない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AIRSHIP_HANGAR_HELP">
+      <Text>航空ユニットに経験値+15。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AIRSHIP_HANGAR_STRATEGY">
+      <Text>フライヤー、飛行船、空中要塞に経験値ボーナスを付与する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_ANALYTICAL_ENGINE_HELP">
+      <Text>すべての都市に階差機関が建設されていなければならない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_ANALYTICAL_ENGINE_STRATEGY">
+      <Text>解析機関は各都市に階差機関がある場合にのみ建設できる。また、帝国全体で1つしか建設できない。解析機関を建設すると[ICON_PRODUCTION]生産力が大幅に増大する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AUTOMATED_FACTORY_HELP">
+      <Text>すべての都市に建設されると、永久運動機関が選択可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AUTOMATED_FACTORY_STRATEGY">
+      <Text>[ICON_HAPPINESS_1]幸福度を上昇させ、[ICON_PRODUCTION]生産力を大幅に向上させる。すべての都市に建設されると、永久運動機関の国家遺産が選択可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BILTMORE_HOUSE_HELP">
+      <Text>すべての都市に大邸宅が建設されていなければならない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BILTMORE_HOUSE_STRATEGY">
+      <Text>ビルトモア邸は各都市に大邸宅がある場合にのみ建設できる。また、帝国全体で1つしか建設できない。ビルトモア邸を建設すると [ICON_GOLD]ゴールドが増加し、[ICON_CULTURE]文化力が向上する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CARNEGIE_HALL_HELP">
+      <Text>すべての都市に博愛の殿堂を建設しなければならない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CARNEGIE_HALL_STRATEGY">
+      <Text>カーネギー・ホールは各都市に博愛の殿堂がある場合にのみ建設できる。また、帝国全体で1つしか建設できない。カーネギー・ホールを建設すると [ICON_CULTURE]文化力が大きく向上し、[ICON_HAPPINESS_1]幸福度が若干上昇する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_DIFFERENCE_ENGINE_HELP">
+      <Text>すべての都市に建設されると、解析機関が選択可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_DIFFERENCE_ENGINE_STRATEGY">
+      <Text>[ICON_PRODUCTION]生産力と[ICON_RESEARCH]科学力を向上させる。すべての都市に建設されると、解析機関の国家遺産の建設が可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GRAND_MANSION_HELP">
+      <Text>すべての都市に建設されると、ビルトモア邸が選択可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GRAND_MANSION_STRATEGY">
+      <Text>[ICON_GOLD]ゴールドを増加させ、[ICON_CULTURE]文化力を向上させる。各都市に建設されると、ビルトモア邸の国家遺産が選択可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GRANDSTAND_HELP">
+      <Text>アルダーディスにしか建設できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GRANDSTAND_STRATEGY">
+      <Text>特別観覧席はアルダーディスのみが建設でき、スタジアムに取って代わる。スタジアムと異なり、[ICON_CULTURE]文化力をもたらし、領土の拡張や新しい社会制度の獲得を促す。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_INVENTORS_HALL_HELP">
+      <Text>すべての都市に特許局が建設されていなければならない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_INVENTORS_HALL_STRATEGY">
+      <Text>発明家の殿堂は、各都市に特許局がある場合にのみ建設できる。また、帝国全体で1つしか建設できない。発明家の殿堂を建設すると [ICON_GOLD]ゴールドが増加し、[ICON_RESEARCH]科学力が向上する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_LUBORIC_FACTORY_HELP">
+      <Text>カーナウのみが建設できる。[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT][ICON_RES_URANIUM]ルボリックを2つ[ENDCOLOR]もたらす。[NEWLINE][NEWLINE]都市が活用している[ICON_RES_URANIUM]ルボリック1つにつき、[ICON_PRODUCTION]生産力+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_LUBORIC_FACTORY_STRATEGY">
+      <Text>ルボリック工場はカーナウのみが建設できる。代替元であるルボリック精錬所とは異なり、ルボリック工場のある都市が活用している[ICON_RES_URANIUM]ルボリックの数に応じて[ICON_PRODUCTION]生産力にボーナスが加わる。このボーナスはカーナウが持つ特色とは重複しない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_LUBORIC_REFINERY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT][ICON_RES_URANIUM]ルボリックを2つ[ENDCOLOR]もたらす。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_LUBORIC_REFINERY_STRATEGY">
+      <Text>資源のあるタイルを所有していなくても[ICON_RES_URANIUM]ルボリックが供給される。このようなルボリックがあれば、自軍の陸上船を増やすことができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PATENT_OFFICE_HELP">
+      <Text>すべての都市に建設されると、発明家の殿堂が選択可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PATENT_OFFICE_STRATEGY">
+      <Text>[ICON_GOLD]ゴールドが増加し、[ICON_PRODUCTION]生産力が向上する。また、科学者を1人持てるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PERPETUAL_MOTION_ENGINE_HELP">
+      <Text>すべての都市にオートメーション工場が建設されていなければならない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PERPETUAL_MOTION_ENGINE_STRATEGY">
+      <Text>永久運動機関は、各都市にオートメーション工場がある場合にのみ建設できる。また、帝国全体で1つしか建設できない。永久運動機関は[ICON_PRODUCTION]生産力を大幅に増大させ、[ICON_GOLD]ゴールドに若干のボーナスを付与する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PHILANTHROPORIUM_HELP">
+      <Text>すべての都市に建設されると、カーネギー・ホールが選択可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PHILANTHROPORIUM_STRATEGY">
+      <Text>[ICON_CULTURE]文化力を大幅に向上させ、さらに[ICON_HAPPINESS_1]幸福度も向上させる。すべての都市に建設されると、カーネギー・ホールの国家遺産が選択可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SUBTERRANEAN_COLONY_HELP">
+      <Text>すべての都市に地底基地が建設されていなければならない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SUBTERRANEAN_COLONY_STRATEGY">
+      <Text>地底コロニーは各都市に地底基地がある場合にのみ建設できる。また、帝国全体で1つしか建設できない。地底コロニーは[ICON_PRODUCTION]生産力と[ICON_CULTURE]文化力を大幅に向上させる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SUBTERRANEAN_OUTPOST_HELP">
+      <Text>すべての都市に建設されると、地底コロニーが選択可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SUBTERRANEAN_OUTPOST_STRATEGY">
+      <Text>[ICON_PRODUCTION]生産力を大幅に向上させ、[ICON_RESEARCH]科学力を若干上昇させる。各都市に建設されると、地底コロニーの国家遺産が選択可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TESLA_COIL_HELP">
+      <Text>[ICON_RESEARCH]科学力と[ICON_GOLD]ゴールドをもたらす。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TESLA_COIL_STRATEGY">
+      <Text>[ICON_RESEARCH]科学力を大幅に向上させ、 若干の[ICON_GOLD]ゴールドをもたらす。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TORUS_DYNAMO_HELP">
+      <Text>グリッグズにしか建設できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TORUS_DYNAMO_STRATEGY">
+      <Text>トーラス発電機はグリッグズのみが建設できる。テスラコイルに取って代わり、都市の[ICON_RESEARCH]科学力を大幅に向上させるが、その効果はテスラコイルの比ではない。 このボーナスは、取り逃した古いテクノロジーの入手や未来の高価なテクノロジーの獲得に非常に役立つ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TRADE_COLLEGE_HELP">
+      <Text>[ICON_RESEARCH]科学力と[ICON_CULTURE]文化力をもたらす。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TRADE_COLLEGE_STRATEGY">
+      <Text>[ICON_RESEARCH]科学力を大幅に向上させ、[ICON_CULTURE] 文化力を若干向上させる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_AERODROME_TEXT">
+      <Text>有名なエリッヒの飛行場は、飛行船の製造工場と訓練所を兼ねる。乗組員が飛行船の組み立て作業に直接関わることで、乗組員にとって訓練となるだけでなく、組み立て効率も上がるという仕掛けだ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_AETHERIUM_FABRICATOR_TEXT">
+      <Text>エイセリウムの謎の解明が進む中、少量でも大量に使用したときと同様の効果を得られる方法が発見された。さらに、エイセリウムと同様の効果を発揮する物質を人工的に合成する方法も考え出された。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_AETHERIUM_FACTORY_TEXT">
+      <Text>エイセリウムの謎の解明が進む中、少量でも大量に使用したときと同様の効果を得られる方法が発見された。さらに、エイセリウムと同様の効果を発揮する物質を人工的に合成する方法も考え出された。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_AIRSHIP_HANGAR_TEXT">
+      <Text>フライヤーと飛行船は、平らな地面が続く場所であればどこにでも着陸できる。しかし、作戦基地として使用できる専用のスペースがあれば、乗組員の士気が大きく高まり、新人を採用して訓練することも容易になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_ANALYTICAL_ENGINE_TEXT">
+      <Text>階差機関よりもはるかに優れた能力を持つ解析機関は、帝国の頭脳の役割を担う。解析機関は専門家のチームによって運用され、その貴重な稼働時間の配分が慎重に定められる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_AUTOMATED_FACTORY_TEXT">
+      <Text>庶民の苦しみの元凶とは、劣悪な環境の工場で何時間も奴隷のように働かされることである。オートメーション機器の知識を応用すれば、こうした苦しみを軽減でき、おまけに生産効率も上がる。機械は不眠不休で働くことができるからだ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_BILTMORE_HOUSE_TEXT">
+      <Text>ビルトモア邸は洗練を極めた商館である。客人をもてなし、重要な商取引がこの上なく順調かつ快適にまとまるよう、どの部屋も手入れが行き届いている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_CARNEGIE_HALL_TEXT">
+      <Text>カーネギー・ホールは文化の殿堂である。そこでは、文化の高低を問わず、最も才能のある芸術家たちが晴れの舞台で至芸を披露し、客席の人々と感動を分かち合う。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_DIFFERENCE_ENGINE_TEXT">
+      <Text>最初の階差機関は、商売や研究につきものの、込み入った計算をこなすだけの、高価で小さな道具にすぎなかった。しかし、計算論理の有用性が認識されてからはしだいに大型化し、今やその用途は些細な金融取引から国政上の統計分析に至るまで多岐にわたっている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_GRAND_MANSION_TEXT">
+      <Text>帝国の運営は、成功の機会をふんだんに用意した。交易や発明、産業などの手段を通じて成り上がった大勢の新参貴族は、私財を投じ退廃的で広壮な邸宅を建設した。やがて、こうした大邸宅には文化人や財界人が集まるようになった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_GRANDSTAND_TEXT">
+      <Text>ダルマスの人々は、日常生活と成長において公共の場がいかに重要かを理解している。特別観覧席は娯楽と文化の殿堂として機能し、遠方から大勢の人々を招き寄せる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_INVENTORS_HALL_TEXT">
+      <Text>発明家の殿堂は、目新しさに溢れたびっくり箱である。発明家の殿堂は、発明家が集い、そこに用意された様々な道具を使って科学の枠を押し広げる有益な仕掛けを考案する場である。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_LUBORIC_FACTORY_TEXT">
+      <Text>陸上船に積むエンジンの製造にルボリックが役立つことを認めない帝国はないが、オーリンの産業界の首脳はこの資源の別の可能性に目をつけた。彼らはルボリック専用の工場を建設したが、その目的は微量のルボリックを精製して使用に耐えうる量を入手し、それによって種々の製品の生産効率を高めるというものだった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_LUBORIC_REFINERY_TEXT">
+      <Text>貴重なルボリックの鉱床は稀にしか発見されないが、その組成が明らかになってからは、科学者はそこかしこに微量のルボリックを発見できるようになった。こうした微量のルボリックは、複雑な化学的過程を経ることで、純粋なルボリックと同様の効果を発揮する合成物へと精製することができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_PATENT_OFFICE_TEXT">
+      <Text>科学が驚異的な発達を遂げた現代では、自分が開発した商品を売り歩く発明家が通りにあふれている。彼らの優秀さは、ともすれば熾烈な競争と空約束の山に埋もれてしまいがちだ。特許は発明の過程を簡素化し、偽発明家を排除して真の天才が報われるようにする。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_PERPETUAL_MOTION_ENGINE_TEXT">
+      <Text>科学者たちは何世紀にもわたって永久運動の秘密を解き明かそうとしてきたが、ロボット工学と電磁力研究の進歩によって、ついにそれが実現可能になった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_PHILANTHROPORIUM_TEXT">
+      <Text>博愛の殿堂は、国際貿易が盛んなこの時代ならではの、慈善事業と巨大商業施設の融合といえる建造物である。博愛の殿堂は、良い品を格安で庶民に提供する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_SUBTERRANEAN_COLONY_TEXT">
+      <Text>各帝国は地中深くに基地を建設すると、こぞって民間人を募り、入植させた。進んだテクノロジーを持ち、信頼の置ける補給線を敷くことができれば、地下に小規模な都市を維持することは可能だった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_SUBTERRANEAN_OUTPOST_TEXT">
+      <Text>「蒸気機関の時代」に高度な発達を遂げた輸送力によって、陸は言うに及ばず、空さえも容易に移動できるようになった。しかし、恐れを知らない科学者達が地底の探索を思い立つまでには、さらに数十年の歳月を要した。適切な居住施設と装備があれば、地底基地は原材料の供給施設として価値を持ちうる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_TESLA_COIL_TEXT">
+      <Text>電気は当初、扱いが難しく、正体が十分に解明されていないエネルギーだった。その力をどうにか制御しようと考案されたのが、テスラコイルである。テスラコイルはすぐに、科学の探究に不可欠な道具となった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_TORUS_DYNAMO_TEXT">
+      <Text>ヴェディラの科学者たちは電磁力に魅せられ、電磁力を研究するために専用の施設をいくつも建設した。こうした研究所の中央に鎮座したのが、電流でバチバチと音をたてるトーラス発電機である。トーラス発電機は研究の対象でもあり、また研究に必要なエネルギーの供給源でもあった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_TRADE_COLLEGE_TEXT">
+      <Text>科学の可能性が拡大し続けるにつれ、諸帝国は、若い科学者や発明家、探検家、起業家といった人々を育成することの価値に気づき、教育を積極的に助成するようになった。少しでも自国が優位に立てるような材料を探すためである。帝国同士の競争では、どんなものでもライバルに差をつけるための武器になりえた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOVE_ALL_TERRAIN">
+      <Text>全地形上を移動</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOVE_ALL_TERRAIN_HELP">
+      <Text>陸上と海上の両方を移動できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_BRIEFING_BUTTON">
+      <Text>概要</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_BUILDING_POLICE_STATION_HELP">
+      <Text>敵スパイが盗むスピードを25%減少させる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_BUILDING_POLICE_STATION_STRATEGY">
+      <Text>警察署は敵スパイが都市からテクノロジーを盗む速度を低下させる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_ENGLAND_HEADING_1">
+      <Text>歴史</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_ENGLAND_TEXT_1">
+      <Text>プリアスの起源は今も謎に包まれたままである。どこからともなく急に現れ出たようではあるが、誰にも知られずにいたにしては随分と大きな力と富を持った国であった。プリアスに関する手がかりのほとんどは1人の指導者の存在を示しており、その指導者は新たな科学や商業の発見、そして何よりも政略に好機を見いだし、陰で暗躍していたとされる。またこの指導者は、大金と引き替えに機密情報を敵対国に売り払い、受け取った金を使用してプリアスの事業を促進させた。初期の帝国間の争いでは、敵対国が目先の利益のみを追求したため、多くの好機がプリアスにもたらされた。未知の土地に初めて調査隊を派遣したのはプリアスであり、貿易取引を確立させたことで、国民に富をもたらした。プリアスは世界中の重要都市にスパイを置き、情報収集を進めながら行動を起こす機会を探っている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_FRANCE_HEADING_1">
+      <Text>歴史</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_FRANCE_TEXT_1">
+      <Text>ダルマスは必要に迫られて誕生した国家である。古王国の崩壊と新たな帝国の誕生による混乱は、多くの下・中層階級の人々を置き去りにした。その一部は母国に残ったものの、多くの人は行く当てもなく難民として国を逃れた。難民達は貴族が所有する田舎の屋敷に集まった。貴族は彼らに情けを掛けはしなかったが、一方で拒否もしなかったからだ。やがて難民の中から先頭に立つ者たちが現れ始め、自治や保護、さらには食料や資源を求めるようになった。これを好機と見た一部の貴族たちは、この集団の支配層に加わり、その財産を共有した。貴族の求めに応じなかった者たちの屋敷は略奪を受けた。これらがダルマスの最初の集落となり、後には帝国としのぎを削る都市へと成長した。理想に基礎を置くダルマスは、慎ましい民の強固な友愛とその文化の発展を活力にしている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_GERMANY_HEADING_1">
+      <Text>歴史</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_GERMANY_TEXT_1">
+      <Text>エーリヒ帝国は、歴史ある貴族たちの間で巻き起こった一連の苛烈な議論に端を発する。議論は拡大する世界の混乱を止める方法に関するものだったが、それは貴族たちが不確実な未来を恐れて自らの財産の保護を望んだことにより増幅され、すぐに大規模な行動へと移された。その後、秘密会議によって、前世代の遺産である指導力と軍事的能力の活用が決定される。動員した軍は小規模であったが、装備は十分に整っていた。こうして貴族たちは後にエーリヒの中心となる巨大な領土を勝ち取り、古王国からの離脱を果たす。エーリヒの指導者たちは市民生活の向上を明言し、最果ての地まで領土を拡大すべく軍を進めている。彼らは外交に関しては紳士的に振る舞うが、即座に動かすことのできる非常に強固な軍を常備してもいる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_RUSSIA_HEADING_1">
+      <Text>歴史</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_RUSSIA_TEXT_1">
+      <Text>安定した科学の発展は、製品の製造、輸送、売買の過程に大きな変化をもたらした。洞察力を欠いた人々の多くはこの変化について行けず、柔軟に対応した人々にその市場を奪われた。政治組織が存在しなかった初期のオーリンは、互いの利益のために結束した野心ある資本家の一団にすぎず、帝国となることを望んではいなかった。彼らは市場を領土のように分割し、さらに古王国の産業をいくつも独占していった。古王国が消滅の道をたどり始めると、オーリンの実力者たちは権力を巡って衝突するようになった。互いの市場を奪い合うだけでなく、恐喝や暗殺までもが計画された。そして、厳格な寡頭政治の台頭によってほぼ全ての製品が管理されるようになった。その後オーリンは、その生産力と生産力がもたらす富により、帝国として正式に世界の舞台に立つ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_SWEDEN_HEADING_1">
+      <Text>歴史</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_SWEDEN_TEXT_1">
+      <Text>古王国が弱体化すると、台頭を始めていた学者と発明家がその好機を生かし、科学的発見を取り入れ理性を原則とする新たな国家を誕生させた。その後、自らの影響力を保持する術を探っていた多くの古王国と同盟を結び、ヴェディラが誕生する。国民たちはすぐに混じり合い、しだいに指導者層には(自らは研究を行わないとしても)科学の素養が求められるようになった。ヴェディラは未来に対して楽観的であることで知られており、国民たちは科学の優れた研究によって未来が開かれると信じている。ヴェディラでは科学者たちが国事を取り仕切るとともに、その研究には莫大な資金が投じられている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV5_DAWN_TEXT">
+      <Text>シナリオ内容[NEWLINE]科学と産業の名高い指導者よ、よくぞ来てくれた！　蒸気機関の登場は世界に変革をもたらした。この発見の時代に拍車をかけるのは、新たな資源と素晴らしい発明である。偉大なる飛行船は黒煙で航跡を描きながら雄大に空を横切っていき、文明は輝かしい未来に向けて歩みを進めている。しかし、その競争は生やさしいものではない。資源は限られており、また技術情報は厳重に守られているからだ。発展の名の下に増加し続ける国民の要求に応えるには、どの国も世界中に領土を広げる以外に方法はない。はたして、蒸気機関技術を活用し、国民を栄光へと導くことができるだろうか？[NEWLINE][NEWLINE]勝利条件[NEWLINE]文明は、軍事、文化、産業、商業、労働の各分野で競い合う。それぞれの分野で最も優れた成績を収めた国に名誉ある称号が贈られる。各称号の詳細と進捗状況は帝国連盟画面で確認することができる。最初に称号を3つ以上獲得した文明が勝利となる。[NEWLINE][NEWLINE]特別ルール[NEWLINE]プレイヤーは蒸気機関までのテクノロジーを最初から所持している。また、蒸気機関以降のテクノロジーツリーが大幅に変更されており、飛行船や陸上船、新たに登場する建造物などを作成できる。蛮族(ラッダイト)が出現するようになるが、高度なユニットを作成することはできない。社会制度が再編成され、宗教は無効となり、宗教都市国家と軍事都市国家は登場しない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_DESC">
+      <Text>蒸気機関の出現が世界に革命をもたらした。新たな資源と素晴らしい発明の数々による発見の時代が今、幕を開ける。蒸気機関の力を活用し、民を栄光へと導け。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_FIXED_MAP">
+      <Text>固定マップ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ALDERDICE_NAME">
+      <Text>クリントン・アルダーディス</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_DECLAREWAR_1">
+      <Text>貴公との戦いを存分に楽しむとしよう。この戦いでは、我が国の飛行船がそちらの領土に影を落とすだろう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_DECLAREWAR_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_DECLAREWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_DEFEATED_1">
+      <Text>降参だ。貴公は我が敵として不足のない人物であった。勝利を味わうがよい。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_DEFEATED_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_DEFEATED_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_DEMANDTRIBUTE_HAPPY">
+      <Text>{TXT_KEY_LEADER_MONTEZUMA_DEMANDTRIBUTE_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_DEMANDTRIBUTE_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_WILLIAM_DEMANDTRIBUTE_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_FIRSTGREETING_1">
+      <Text>これはこれは。まずは自己紹介をさせてもらおう。私は軍事大国として知られるエーリヒのサイラス・ロザラムだ。貴国が貴重な同盟国となることを望んでいるが、場合によっては好敵手と判断することになるかもしれんな。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_FIRSTGREETING_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_FIRSTGREETING_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_FIRSTGREETING_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_FIRSTGREETING_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_HEADING_1">
+      <Text>歴史</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_LIVED">
+      <Text>紀元1815年 - 1872年</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_LOSEWAR_3">
+      <Text>{TXT_KEY_LEADER_BISMARCK_LOSEWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_NAME">
+      <Text>サイラス・ロザラム</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_QUOTE_1">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_QUOTE_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_QUOTE_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_QUOTE_4">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_SUBTITLE">
+      <Text>エーリヒの指導者</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TEXT_1">
+      <Text>「軍事学が難解であることには変わりないが、現在、我々は歴史に類を見ないほど多くの武器を使用できるようになった。それほど古くない時代、遠隔地の敵を制圧するには、防備の強化に加えて補給路と資源の確保が必要であった。馬には餌と休息を与えねばならず、補給路の寸断は名誉ある軍事行動の終了を意味した。そして兵士には、冷静に武器を使用して、命を奪う瞬間も敵から目をそらさぬようにする訓練が必要であった。だが、今や兵士は前世紀のように残忍にならずとも、名誉ある戦いに身を投じることができる。また、新たに陸上船が開発されたことで、歩兵と騎兵は時代遅れとなった。陸上船が必要とするのはそれを建造するための資源のみであり、しかも休むことなく数日で国を横断することができる。かつて侵略に莫大な資金を必要とした遠方の土地も、現在は手の届く位置にある。難攻不落とも言える装甲とカノン砲を持つ陸上船ならば、決して屈しない野蛮な国の人間たちを除いて、どんな敵に対しても容易に対応することができる」[NEWLINE][NEWLINE] - サイラス・ロザラムがエーリヒ議会で行った演説</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TRADE_NEEDMORE_HAPPY_1">
+      <Text>{TXT_KEY_LEADER_BISMARCK_TRADE_NEEDMORE_HAPPY_4}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TRADE_NO_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_ASKIA_TRADE_NO_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TRADEREQUEST_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_ASKIA_TRADEREQUEST_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TRIBUTE_NO_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_BOUDICCA_TRIBUTE_NO_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_TRIBUTE_YES_HAPPY">
+      <Text>{TXT_KEY_LEADER_ASKIA_TRIBUTE_YES_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_WINWAR_1">
+      <Text>{TXT_KEY_LEADER_ASKIA_WINWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_BISMARCK_WINWAR_3">
+      <Text>{TXT_KEY_LEADER_BISMARCK_WINWAR_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_ATTACKED_1">
+      <Text>{TXT_KEY_LEADER_CATHERINE_ATTACKED_3}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_ATTACKED_2">
+      <Text>{TXT_KEY_LEADER_CATHERINE_ATTACKED_4}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_DECLAREWAR_2">
+      <Text>我が国の工場はこの時に備えて長らく準備を進めてきたのだ。我が国の産業力の進化に貴公の付け入る隙などない！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_DECLAREWAR_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_DECLAREWAR_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_DEFEATED_1">
+      <Text>悪党め。我が国の工場を好きにするがいい。だが貴公ではその産業力を生かすことはできないであろう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_DEFEATED_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_DEFEATED_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_FIRSTGREETING_1">
+      <Text>産業機械たるこの世の最も優れた歯車、オーリンに刮目せよ！　このイグナス・カーナウはいかなる愚行も厳罰をもって処すつもりだ。貴重なる我が時を無駄にしたくないのでな。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_FIRSTGREETING_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_FIRSTGREETING_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_FIRSTGREETING_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_FIRSTGREETING_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_HEADING_1">
+      <Text>歴史</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_LIVED">
+      <Text>紀元1781年 - 1836年</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_LOSEWAR_1">
+      <Text>{TXT_KEY_LEADER_SULEIMAN_LOSEWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_LOSEWAR_2">
+      <Text>{TXT_KEY_LEADER_MARIA_LOSEWAR_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_LOSEWAR_3">
+      <Text>{TXT_KEY_LEADER_WILLIAM_LOSEWAR_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_NAME">
+      <Text>イグナス・カーナウ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_QUOTE_1">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_QUOTE_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_QUOTE_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_SUBTITLE">
+      <Text>オーリンの指導者</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TEXT_1">
+      <Text>「ボタンを押すと水蒸気が装置に入り、振動を起こす。歯車から動力を得た装置が熱せられた鋼をプレスし、新たな歯車が作り出される。つまり、1つの工場がまた新たな工場を生み出すのである。それによって製品をより効率よく製造することもできれば、製品を誰かに販売して大きな利益を上げることもできる。この時代の産業の役割というものは、この単純な工程の中に隠されている。我々は、飛行船、陸上船、階差機関、衣服、そして工場さえも作ることができる。産業部門を効率よく回して出力を最大にすれば、望むものは何でも作ることができるし、この分野で頂点に立つこともできる。[NEWLINE][NEWLINE] - イグナス・カーナウ『鋼と蒸気:経営者ガイド』からの抜粋</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRADE_NO_ANGRY">
+      <Text>{TXT_KEY_LEADER_WILLIAM_TRADE_NO_ANGRY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRADE_NO_HAPPY">
+      <Text>{TXT_KEY_LEADER_SELASSIE_TRADE_NO_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRADE_YES_ANGRY">
+      <Text>{TXT_KEY_LEADER_WILLIAM_TRADE_YES_ANGRY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRADE_YES_HAPPY">
+      <Text>{TXT_KEY_LEADER_WILLIAM_TRADE_YES_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRADE_YES_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_WILLIAM_TRADE_YES_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRADEREQUEST_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_SULEIMAN_TRADEREQUEST_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRIBUTE_NO_ANGRY">
+      <Text>{TXT_KEY_LEADER_NAPOLEON_TRIBUTE_NO_ANGRY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRIBUTE_NO_HAPPY">
+      <Text>{TXT_KEY_LEADER_WILLIAM_TRIBUTE_NO_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRIBUTE_YES_HAPPY">
+      <Text>{TXT_KEY_LEADER_WILLIAM_TRIBUTE_YES_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_TRIBUTE_YES_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_WILLIAM_TRIBUTE_YES_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CATHERINE_WINWAR_1">
+      <Text>{TXT_KEY_LEADER_SULEIMAN_WINWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CURNOW_NAME">
+      <Text>イグナス・カーナウ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_CUTLER_NAME">
+      <Text>オクタヴィウス・カトラー</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_DECLAREWAR_1">
+      <Text>すぐに終わらせると約束しよう。その敗北がプリアスの力となると分かれば、貴公も安心して休めるであろう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_DECLAREWAR_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_DECLAREWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_DEFEATED_1">
+      <Text>降参する。貴公の圧倒的勝利だ。我が国は静かに復興を果たすだろうが、そのときには今回のようにはいかんぞ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_DEFEATED_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_DEFEATED_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_DEMANDTRIBUTE_HAPPY">
+      <Text>{TXT_KEY_LEADER_BOUDICCA_DEMANDTRIBUTE_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_DEMANDTRIBUTE_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_WUZETIAN_DEMANDTRIBUTE_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_FIRSTGREETING_2">
+      <Text>そこの者、こちらに来て少し話をせぬか？　私はプリアスのオクタヴィウス・カトラーである。貴公もこの名を耳にしたことくらいはあるだろう？　まあよい。貴公自身と貴公が成し遂げた偉業について聞かせてくれ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_FIRSTGREETING_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_FIRSTGREETING_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_FIRSTGREETING_4">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_FIRSTGREETING_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_HEADING_1">
+      <Text>歴史</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_LIVED">
+      <Text>紀元1809年 - 1888年</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_NAME">
+      <Text>オクタヴィウス・カトラー</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_QUOTE_1">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_QUOTE_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_SUBTITLE">
+      <Text>プリアスの指導者</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TEXT_1">
+      <Text>「力は科学から生まれ、研究はさらに大きな力を生み出すと言う者がいる。陸上船を乗り回して資源を貯め込み、軍事兵器を新たに考案することに力を見いだす者もいる。だが、真の力はそのどちらでもない。それを作り出す人々こそが力なのだ。彼らの知っていることを我々が知っていれば、彼らの持っているものを我々も持つことができる。彼らには頂点を目指して競わせ、新たな発見のために尽力させておけばよい。我々がやるべきことは、陰に潜みながらあらゆる段階で彼らに追いつくことだ。そうすれば、我々が集めた力はどの国よりも強大なものとなるだろう。上手くやれば ―いや、上手くやらねばならないが― 彼らには一切気付かれないはずだ」[NEWLINE][NEWLINE] - オクタヴィウス・カトラーが新任の情報局長官に宛てた私信</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRADE_NEEDMORE_ANGRY_1">
+      <Text>{TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_ANGRY_3}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRADE_NEEDMORE_HAPPY_1">
+      <Text>{TXT_KEY_LEADER_ELIZABETH_TRADE_NEEDMORE_HAPPY_4}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRADE_NO_ANGRY">
+      <Text>{TXT_KEY_LEADER_BOUDICCA_TRADE_NO_ANGRY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRADE_NO_HAPPY">
+      <Text>{TXT_KEY_LEADER_BOUDICCA_TRADE_NO_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRADE_NO_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_DARIUS_TRADE_NO_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRADE_YES_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_DARIUS_TRADE_YES_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRADEREQUEST_ANGRY">
+      <Text>{TXT_KEY_LEADER_HARUN_TRADEREQUEST_ANGRY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRADEREQUEST_HAPPY">
+      <Text>{TXT_KEY_LEADER_HIAWATHA_TRADEREQUEST_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRIBUTE_NO_ANGRY">
+      <Text>{TXT_KEY_LEADER_HIAWATHA_TRIBUTE_NO_ANGRY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRIBUTE_YES_ANGRY">
+      <Text>{TXT_KEY_LEADER_BOUDICCA_TRIBUTE_YES_ANGRY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_TRIBUTE_YES_HAPPY">
+      <Text>{TXT_KEY_LEADER_HIAWATHA_TRIBUTE_YES_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ELIZABETH_WINWAR_1">
+      <Text>{TXT_KEY_LEADER_DARIUS_WINWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GRIGGS_NAME">
+      <Text>ルーサー・グリッグズ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_ATTACKED_1">
+      <Text>{TXT_KEY_LEADER_ALEXANDER_ATTACKED_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_ATTACKED_2">
+      <Text>{TXT_KEY_LEADER_ALEXANDER_ATTACKED_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_ATTACKED_3">
+      <Text>{TXT_KEY_LEADER_ALEXANDER_ATTACKED_3}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_DECLAREWAR_1">
+      <Text>我らの機械が奏でる音楽は貴国の門前まで迫っている。貴公の手法から知識を得るために、そちらの都市はできる限り破壊しないつもりだ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_DECLAREWAR_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_DECLAREWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_DECLAREWAR_3">
+      <Text>{TXT_KEY_LEADER_CATHERINE_DECLAREWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_DEFEATED_1">
+      <Text>私が席を外している間も、貴公は知識と新しい発見を探求し続けてくれ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_DEFEATED_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_DEFEATED_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_DEFEATED_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_DEFEATED_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_FIRSTGREETING_1">
+      <Text>貴公と会えたことを嬉しく思うぞ！　我はルーサー・グリッグズ、非凡な発明家であり、ヴェディラの指導者である！　科学と友情の精神の下に知識を共有しようではないか。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_FIRSTGREETING_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_FIRSTGREETING_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_FIRSTGREETING_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_FIRSTGREETING_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_HEADING_1">
+      <Text>歴史</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_LIVED">
+      <Text>紀元1842年 - 1910年</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_LOSEWAR_2">
+      <Text>{TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_LOSEWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_NAME">
+      <Text>ルーサー・グリッグズ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_SUBTITLE">
+      <Text>ヴェディラの指導者</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_TEXT_1">
+      <Text>「技術の進歩は我々の生活に機械の功績による驚きをもたらすとともに、格調と安らぎを与えてくれるようになった。階差機関のうなりや真鍮製歯車のきしみ、そして突進前の雄牛の呼吸のごとく揺るぎない蒸気の排出音は我々の世界に規則をもたらした。そして、科学や計算の驚異 ―自然界を説明するだけでなく、その屈強な双肩に人間の規則までもが堅固に当てはまること― に触れる機会を与えてくれた。飛行船は我々の重い体を持ち上げ、重力に縛られていた人間を空の旅へと誘った。空を飛ぶという永遠の夢は鋭敏な頭脳により現実のものとなったのだ。それも、移り気な自然の選択によって与えられた翼ではなく、人間の努力と鍛錬によって作り出した翼でそれをやり遂げたのである」[NEWLINE][NEWLINE] - ルーサー・グリッグズ『知識の翼』からの抜粋</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_ANGRY_1">
+      <Text>{TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_ANGRY_4}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_HAPPY_1">
+      <Text>{TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_HAPPY_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_TRIBUTE_NO_ANGRY">
+      <Text>{TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NO_ANGRY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_TRIBUTE_NO_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_ALEXANDER_TRIBUTE_NO_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_WARBLUFF_3">
+      <Text>{TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_WARBLUFF_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_WINWAR_1">
+      <Text>{TXT_KEY_LEADER_ALEXANDER_WINWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_GUSTAVUS_ADOLPHUS_WINWAR_2">
+      <Text>{TXT_KEY_LEADER_WUZETIAN_WINWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_FIRSTGREETING_1">
+      <Text>よくぞ来てくれた！　栄誉ある紳士と見受ける貴公とは、長く穏やかな関係を望んでいる。だが、戦場で相まみえるようなことがあれば、優れた方が勝利を挙げることになるだろう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_FIRSTGREETING_2">
+      <Text>これはどうも。すまないが、ここで何をしているのか教えてくれ。当然、何か理由があってのことであろうな。警告しておくが、我々を敵に回すとやっかいなことになるぞ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_NEGATIVE_1">
+      <Text>駄目だ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_NEGATIVE_2">
+      <Text>ふざけているのか！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_NEGATIVE_3">
+      <Text>無礼な奴め。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_POSITIVE_1">
+      <Text>いいだろう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_POSITIVE_2">
+      <Text>分かった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_POSITIVE_3">
+      <Text>申し分ない提案だ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_POSITIVE_4">
+      <Text>公平な取引だ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_POSITIVE_5">
+      <Text>これ以上ない提案だ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_POSITIVE_6">
+      <Text>この提案であれば納得できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_DECLAREWAR_1">
+      <Text>我が友よ、このような暴力行為に至ったことを許してくれ。残念ながら他に方法がないのだ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_DECLAREWAR_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_DECLAREWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_DEFEATED_2">
+      <Text>何ということだ！　このような不公平など望んではおらんぞ！　ダルマスという国そのものは消えるかもしれぬが、人々の記憶には残り続けるであろう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_DEFEATED_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_DEFEATED_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_DEMANDTRIBUTE_HAPPY">
+      <Text>{TXT_KEY_LEADER_WILLIAM_DEMANDTRIBUTE_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_DEMANDTRIBUTE_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_HIAWATHA_DEMANDTRIBUTE_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_1">
+      <Text>貴公と会えたことを心より嬉しく思うぞ！　我が名はクリントン・アルダーディス。この粗末なダルマスによくぞ来てくれた。友好の証に握手を交わそうではないか。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_4">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_MISC_FIRSTGREETING_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_HEADING_1">
+      <Text>歴史</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_LIVED">
+      <Text>紀元1799年 - 1855年</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_LOSEWAR_1">
+      <Text>{TXT_KEY_LEADER_HIAWATHA_LOSEWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_NAME">
+      <Text>クリントン・アルダーディス</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_QUOTE_1">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_QUOTE_2">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_QUOTE_3">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_QUOTE_4">
+      <Text>{TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TEXT_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_SUBTITLE">
+      <Text>ダルマスの指導者</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TEXT_1">
+      <Text>「秘書官殿、何よりも次の事を忘れないでもらいたい。蒸気機関時代の訪れにより権力者たちの生活は改善したが、それは民衆の犠牲の上に成り立っているのだ。この数十年の間に成し遂げられたさまざまな出来事は、少数の権力者が多数の平民を搾取するという人類史の暗部を一層際立たせた。我々は彼らが抱える問題を取るに足らないものとして片付け、自分たちの紳士的な振る舞いと生産的事業を理由に、自らの力を正当化し続けてきたのだ。結果として我々の生活は向上したが、平民の生活の質は悪化の一途をたどった。この問題を放置し続ければ格差は広がり、やがて平民は奴隷と何ら変わらない存在となるだろう。道徳的見地からでは伝わらないのであれば ―ここまで耳を貸さないことから考えれば、そのようであるが― あなたと連盟にこう警告しよう。このままでは、我々の社会はますます不安定になる。平民は我々と同様の教育を受けておらず、洗練もされていないだろうが、彼らには目も耳も思考力もある。そんな彼らが我々の退廃的な生活に気付かぬはずがない。平民たちは自分の生活と我々の生活を比較し、隣人と陰謀を企むようになるだろう。やがてそういった人々が増加し、不満を抱えた一団が形成されれば、来世紀を迎える前には我々の手には負えないような反乱が勃発する。そうなれば、階差機関で何度計算しようと、飛行船でいくら爆撃を行おうと、その反乱を止めることはできないだろう。なぜならその一団は、我々に嫌悪感を抱き続けてきた労働者たちが作ったものだからだ」[NEWLINE][NEWLINE] - クリントン・アルダーディスが帝国連盟の秘書官長に宛てた手紙</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRADE_NEEDMORE_ANGRY_1">
+      <Text>{TXT_KEY_LEADER_NAPOLEON_TRADE_NEEDMORE_ANGRY_2}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRADE_NEEDMORE_HAPPY_1">
+      <Text>{TXT_KEY_LEADER_NAPOLEON_TRADE_NEEDMORE_HAPPY_3}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>{TXT_KEY_LEADER_NAPOLEON_TRADE_NEEDMORE_NEUTRAL_3}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRADE_NO_HAPPY">
+      <Text>{TXT_KEY_LEADER_ODA_TRADE_NO_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRADE_NO_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_WILLIAM_TRADE_NO_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRADE_YES_HAPPY">
+      <Text>{TXT_KEY_LEADER_ODA_TRADE_YES_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRADEREQUEST_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_BOUDICCA_TRADEREQUEST_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRIBUTE_NO_ANGRY">
+      <Text>{TXT_KEY_LEADER_WASHINGTON_TRIBUTE_NO_ANGRY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRIBUTE_NO_HAPPY">
+      <Text>{TXT_KEY_LEADER_HIAWATHA_TRIBUTE_NO_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRIBUTE_YES_HAPPY">
+      <Text>{TXT_KEY_LEADER_RAMKHAMHAENG_TRIBUTE_YES_HAPPY}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_TRIBUTE_YES_NEUTRAL">
+      <Text>{TXT_KEY_LEADER_BOUDICCA_TRIBUTE_YES_NEUTRAL}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_NAPOLEON_WINWAR_1">
+      <Text>{TXT_KEY_LEADER_HARUN_WINWAR_1}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_LEADER_ROFFENBURG_NAME">
+      <Text>サイラス・ロザラム</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_PEDIA_PROMOTION_ANTI_AIR">
+      <Text>対戦闘機および対飛行船ボーナス(150)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_PEDIA_PROMOTION_ANTI_TANK">
+      <Text>対陸上船ボーナス(100)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_POLICY_UNITED_FRONT">
+      <Text>統一戦線</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_POLICY_UNITED_FRONT_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]統一戦線[ENDCOLOR][NEWLINE]遺産建設時に[ICON_PRODUCTION]生産力+10%。新しく建てた都市に[ICON_CITIZEN]人口+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_PROMOTION_ANTI_AIR">
+      <Text>対戦闘機および対飛行船ボーナス(150)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_PROMOTION_ANTI_AIR_II">
+      <Text>対飛行船ボーナス(150)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_PROMOTION_ANTI_TANK">
+      <Text>対陸上船ボーナス(100)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_RANDOM_MAP">
+      <Text>ランダムマップ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_RESOURCE_ALUMINUM_HELP">
+      <Text>飛行船が使用する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_RESOURCE_ALUMINUM_TEXT">
+      <Text>エイセリウムは、これを銀と間違えた探索隊によって発見された。採掘作業を進めていた探索隊が、大きな袋にこの鉱石の破片や塊を詰めて輸送しようとしたとき、非常に奇妙なことが起こった。鉱石を詰めた袋が空中に浮き始めたのである。科学者たちによってこの奇妙な石の分析が始まると、ある程度の塊になると重力に対して反作用を起こすことが明らかになった。この反重力物質は慎重に手を加えることで、船を空に浮かべるための安定したエネルギー源として活用できるようになる。帝国が抱える問題においてもエイセリウムの重要性は増大し続けているが、その性質はいまだにはっきりとは分かっていない。あるとき発明家の器具によってエイセリウムに予期せぬ通電が起こり、その塊が真上に打ち出されて屋根に穴を開けるという事故が起こった。このサンプル(実験の検証のためにあらかじめその発明家の印が付けられていた)は数週間後、打ち出された場所から数キロ離れた地点で発見された。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_RESOURCE_URANIUM_HELP">
+      <Text>陸上船が使用する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_RESOURCE_URANIUM_TEXT">
+      <Text>ルボリックは高温下で鮮やかに輝く一方、自然界では特徴のない深緑色の鉱石として見ることができる。前身の資源である石炭に比べてはるかにエネルギー量が高く、爆発しやすいことから、工場や車両の究極のエネルギー源として利用されている。この物質の活用に必要な連鎖反応と手順は、エネルギー科学の分野では前例がないほど複雑なものとなっている。燃料と名の付くもののほとんどは燃焼時にエネルギーを生み出すが、ルボリックは熱には反応せず、緑色の光を放つだけである。ルボリックの塊が秘めている巨大な潜在エネルギーを引き出すには、さまざまな酵素を含む溶液に浸し、熱と圧力を加える必要がある。その主反応は燃焼ではなく分解である。ルボリックから出る毒性のガスは慎重に誘導する必要がある。というのも、この煙がバルブや角に溜まると、数秒で鉄を腐食させて穴を開けてしまうからである。過去に類を見ないこのエネルギーは、慎重を期して初めてその化学結合から解き放たれる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_SPECIFIC_DIPLO_STRING_1">
+      <Text>称号を2つ所持してしているあなたを連盟は驚異に感じている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_SPECIFIC_DIPLO_STRING_2">
+      <Text>称号を2つ以上所持している。あと少しで連盟の主導権を握ることができる！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_SPECIFIC_DIPLO_STRING_3">
+      <Text>同じ称号を巡って争っている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_AIRSHIPS_HELP">
+      <Text>陸上と海上を同じように移動できる[COLOR_POSITIVE_TEXT]飛行船[ENDCOLOR]の製造が可能となる。また、国家遺産の[COLOR_POSITIVE_TEXT]発明家の殿堂[ENDCOLOR]の建設が可能となる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_ANALOG_COMPUTATION_HELP">
+      <Text>都市の[ICON_PRODUCTION]生産力と[ICON_RESEARCH]科学力を向上させる[COLOR_POSITIVE_TEXT]階差機関[ENDCOLOR]と[COLOR_POSITIVE_TEXT]解析機関[ENDCOLOR]の作成が可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_ANALOG_COMPUTATION_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「複雑なことを行っている数百万の人々の詳細な作業には、計算で解決できる事柄がいつも山ほどあるのだ」[NEWLINE] - ヴァニーヴァー・ブッシュ[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_ANALYTICAL_ENGINE_HELP">
+      <Text>[ICON_PRODUCTION]生産力を大きく向上させる国家遺産の[COLOR_POSITIVE_TEXT]解析機関[ENDCOLOR]を作成できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_ANALYTICAL_ENGINE_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「今では構造を理解するために、あらゆる計算が用いられるようになった」[NEWLINE] - チャールズ・バベッジ[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_AUTOMATA_HELP">
+      <Text>資源の[ICON_RES_ALUMINUM]エイセリウムを産出する[COLOR_POSITIVE_TEXT]エイセリウム加工所[ENDCOLOR]を建設できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_AUTOMATA_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「頭を働かせずに行える重要な作業が増えることで文明は発展する」[NEWLINE] - アルフレッド・ノース・ホワイトヘッド[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_CIVIL_DEFENSE_HELP">
+      <Text>強力な対航空兵器である[COLOR_POSITIVE_TEXT]対空砲[ENDCOLOR]と、都市の防御力を上昇させる[COLOR_POSITIVE_TEXT]軍事基地[ENDCOLOR]を作成できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_CIVIL_DEFENSE_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「防衛は富よりも優先される」[NEWLINE] - アダム・スミス[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_ECONOMIC_IMPERIALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]大邸宅[ENDCOLOR]と、国家遺産の[COLOR_POSITIVE_TEXT]ビルトモア邸[ENDCOLOR]の建設が可能となる。どちらの施設も[ICON_GOLD]ゴールドと[ICON_CULTURE]文化力を産出する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_ECONOMIC_IMPERIALISM_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「欲が産業の推進力となる」[NEWLINE] - デビッド・ヒューム[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_ERUPTIVES_HELP">
+      <Text>[ICON_RES_URANIUM]ルボリックを発見できるようになる。また、[COLOR_POSITIVE_TEXT]戦艦[ENDCOLOR]の建造が可能となる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_ERUPTIVES_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「自然とは、これに従わなければ征服できないものである」[NEWLINE] - フランシス・ベーコン[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_EXPEDITIONARY_SCIENCE_HELP">
+      <Text>[ICON_RES_ALUMINUM]エイセリウムを発見できるようになる。また、[COLOR_POSITIVE_TEXT]潜水艦[ENDCOLOR]の建造が可能となる。また、都市の[ICON_RESEARCH]科学力と[ICON_CULTURE]文化力を向上させる[COLOR_POSITIVE_TEXT]貿易大学[ENDCOLOR]の建設が可能となる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_EXPEDITIONARY_SCIENCE_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「自然界に息づく生命の奇跡の前では、我々が科学によって達成したことなど取るに足らないものになる」[NEWLINE] - チャールズ・リンドバーグ[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_GALVANOMAGNETISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]テスラコイル[ENDCOLOR]の作成が可能となる。これによって都市の[ICON_RESEARCH]科学力が大幅に上昇し、[ICON_GOLD]ゴールドの産出量がやや増加する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_GOSPEL_OF_WEALTH_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]博愛の殿堂[ENDCOLOR]の建設が可能となる。これによって都市の[ICON_CULTURE]文化力と[ICON_HAPPINESS_1]幸福度が上昇する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_GOSPEL_OF_WEALTH_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「貯めることをやめ、賢い分配という、より重大で困難な仕事に取り掛かることにした」[NEWLINE] - アンドリュー・カーネギー[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_INFERNAL_COMBUSTION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]ルボリック精錬所[ENDCOLOR]の建設が可能となる。その結果、[ICON_RES_URANIUM]ルボリックが産出される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_INFERNAL_COMBUSTION_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「目に見える謎の中で最も明らかなものは火である」[NEWLINE] -  ジェームズ・ヘンリー・リー・ハント[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_LAND_LEVIATHAN_HELP">
+      <Text>最も強力な陸上船ユニットである[COLOR_POSITIVE_TEXT]陸のリヴァイアサン[ENDCOLOR]の建造が可能となる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_LAND_LEVIATHAN_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「言葉は穏やかに、手には大きな棍棒を。それで成功する」[NEWLINE] - セオドア・ルーズベルト[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_LANDSHIPS_HELP">
+      <Text>強力な陸上ユニットである[COLOR_POSITIVE_TEXT]陸上船[ENDCOLOR]の建造が可能となる。また、[COLOR_POSITIVE_TEXT]特許局[ENDCOLOR]が利用できるようになり、これによって都市の[ICON_PRODUCTION]生産力と[ICON_GOLD]ゴールドの産出量が増加する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_LANDSHIPS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「陸上装甲艦の船首が塹壕から現れるなり、防衛に当たっていた者たちが右へ左へと吹き飛ばされた」[NEWLINE] - H.G.ウェルズ[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_NOBLESSE_OBLIGE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]スタジアム[ENDCOLOR]の建設が可能となる。これによって帝国の[ICON_HAPPINESS_1]幸福度が上昇する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_NOBLESSE_OBLIGE_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「真の高潔さは徳の高さにある」[NEWLINE] - ミゲル・デ・セルバンテス[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_PERPETUAL_MOTION_HELP">
+      <Text>国家遺産の[COLOR_POSITIVE_TEXT]永久運動機関[ENDCOLOR]が作成できるようになる。永久運動機関は[ICON_PRODUCTION]生産力を大きく向上させる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_PERPETUAL_MOTION_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「立つ場所と長い棒を用意せよ。そうすれば地球を移動してみせよう」[NEWLINE] - アルキメデス[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_PROPULSION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]駆逐艦[ENDCOLOR]と初の航空ユニットである[COLOR_POSITIVE_TEXT]フライヤー[ENDCOLOR]を生産できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_PROPULSION_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「飛行機の開発には何も必要ない。飛行機を作るには何かが必要だ。そしてそれを飛ばすには全てが必要だ」 [NEWLINE] - フェルディナン・フェルベール[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_RADIO_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]放送塔[ENDCOLOR]の建設が可能となる。これによって都市の[ICON_CULTURE]文化力の産出量が大幅に増加する。また、[ICON_CULTURE]文化力を大量に産出する国家遺産である[COLOR_POSITIVE_TEXT]カーネギーホール[ENDCOLOR]を利用できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_RAILROAD_HELP">
+      <Text>初の陸上船である[COLOR_POSITIVE_TEXT]陸上装甲艦[ENDCOLOR]の建造が可能となる。また、労働者がマップのタイル上に[COLOR_POSITIVE_TEXT]鉄道[ENDCOLOR]を敷設できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_REPLACEABLE_PARTS_HELP">
+      <Text>この世界の最先端歩兵ユニットである[COLOR_POSITIVE_TEXT]第1次大戦歩兵[ENDCOLOR]の作成が可能となる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_ROBOTICS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]オートメーション工場[ENDCOLOR]を建設できるようになる。オートメーション工場は都市の[ICON_PRODUCTION]生産力を大幅に向上させる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_SKY_FORTRESS_HELP">
+      <Text>最強の飛行船ユニットである[COLOR_POSITIVE_TEXT]空中要塞[ENDCOLOR]の生産が可能となる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_SKY_FORTRESS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「高度に発展した技術は魔法と見分けがつかない」[NEWLINE] - アーサー・C・クラーク[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_SUBTERRANEAN_EXPLORATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]地底基地[ENDCOLOR]の建設が可能になる。また、国家遺産である[COLOR_POSITIVE_TEXT]地底コロニー[ENDCOLOR]の建造が可能となる。どちらの施設も都市の[ICON_PRODUCTION]生産力を大幅に向上させる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_SUBTERRANEAN_EXPLORATION_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「洞窟の奥底にあるたった1つの原理が、軍隊よりも強い力を持つのである」 [NEWLINE] - ホセ・マルティ[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_TECHNOCRACY_HELP">
+      <Text>ゲーム後半の遺産である[COLOR_POSITIVE_TEXT]CNタワー[ENDCOLOR]の建設が可能となる。これによって全都市に放送塔を供給することができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_TECHNOCRACY_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「理念のある政治は力のある政治に勝る」[NEWLINE] - トーマス・ジェファーソン[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_THE_GRAND_IDEA_HELP">
+      <Text>2回以上研究することができるテクノロジー。このテクノロジーの研究を完了するたびに[ICON_CULTURE]文化力が贈られる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_THE_GRAND_IDEA_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「人間は不思議なものに興味を抱く。それこそが科学の種なのだ」 [NEWLINE] - ラルフ・ワルド・エマーソン[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_URANOGRAPHY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]飛行船格納庫[ENDCOLOR]の建設が可能となる。これによって作成したユニットに経験値が付与される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_URANOGRAPHY_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「私が空を飛ぶのは、下らない事柄による支配から精神を解放するためだ」[NEWLINE] - アントワーヌ・ド・サン・テグジュペリ[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_VERTICAL_INTEGRATION_HELP">
+      <Text>[ICON_GOLD]ゴールドの産出量を増加させる[COLOR_POSITIVE_TEXT]証券取引所[ENDCOLOR]の建設が可能となる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TECH_VERTICAL_INTEGRATION_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「競争は罪である」[NEWLINE] - ジョン・D・ロックフェラー[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TITLE">
+      <Text>曇り空の帝国</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TRAIT_INTELLIGENCE_NETWORK">
+      <Text>スパイが2人供給される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TRAIT_INTELLIGENCE_NETWORK_SHORT">
+      <Text>情報網</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_TURNS_REMAINING">
+      <Text>{1_TokensOwned}/{2_TokensAvailable}タイトル</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_UNIT_GREAT_WAR_INFANTRY_STRATEGY">
+      <Text>このゲームでは第1次大戦歩兵が最強の歩兵ユニットとなる。都市を占領することはできるが、陸上船や飛行船との戦いでは苦労を強いられる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_UNIT_HELP_ANTI_AIRCRAFT_GUN">
+      <Text>近くにいるユニットを敵のフライヤーが攻撃しようとした場合、その攻撃を妨害する。飛行船に対しても有効である。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_UNIT_HELP_BATTLESHIP">
+      <Text>このゲームで最強の遠隔攻撃海軍ユニット。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_UNIT_HELP_GREAT_WAR_INFANTRY">
+      <Text>このゲームで最強の歩兵ユニット。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_UNIT_HELP_SUBMARINE">
+      <Text>駆逐艦と他の潜水艦以外からは不可視のユニット。敵に察知されることなく射程内に入れば、敵の艦船に大ダメージを与えることができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_UNIT_SUBMARINE_STRATEGY">
+      <Text>潜水艦は艦船を撃沈させることに特化したユニットである。攻撃を仕掛けたり他のユニットに隣接されたりしなければ、ほとんどのユニット(駆逐艦と他国の潜水艦は除く)に見つかることがない。また、氷河タイルの下を通過することもできる。潜水艦は、敵国の領海内での偵察や敵戦艦への攻撃、敵の潜水艦から友軍の船を守る場合などに使用すると良い。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_UNITCOMBAT_HELICOPTER">
+      <Text>飛行船ユニット</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_COMMERCE">
+      <Text>商業</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_COMMERCE_HELP">
+      <Text>総収入</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_COMMERCE_TITLE">
+      <Text>富の支配者</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_COMMERCE_TT">
+      <Text>ゲーム中に獲得したゴールドの総量。純粋にゴールドの獲得量だけで判断されるため、維持費などの支出があってもスコアが減ることはない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_CULTURE">
+      <Text>文化</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_CULTURE_HELP">
+      <Text>採用した社会制度</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_CULTURE_TITLE">
+      <Text>改革卿</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_CULTURE_TT">
+      <Text>他国より多く社会制度を採用する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_HELP_TT">
+      <Text>引き分けにより、このタイルの獲得者なし。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_INDUSTRY">
+      <Text>産業</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_INDUSTRY_HELP">
+      <Text>生産力が最も高い都市</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_INDUSTRY_TITLE">
+      <Text>産業大君</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_INDUSTRY_TT">
+      <Text>世界で最も[ICON_PRODUCTION]生産力の高い都市を持つ文明にこの称号が贈られる。[NEWLINE][NEWLINE]世界最高の生産力を持つ都市:{@1_WorldBestCity}[NEWLINE]あなたの国で最高の生産力を持つ都市: {@2_YourBestCity}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_LABOR">
+      <Text>労働</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_LABOR_HELP">
+      <Text>世界遺産と国家遺産</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_LABOR_TITLE">
+      <Text>大博愛主義者</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_LABOR_TT">
+      <Text>世界遺産や国家遺産を1つ入手するごとに、一定のポイントがスコアに加算される。敵が先に世界遺産を建設したとしても、国家遺産を建設することで遅れを取り戻すことができる。また、敵の都市を侵略するとその都市にある遺産を奪うことができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_MILITARY">
+      <Text>軍事</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_MILITARY_HELP">
+      <Text>最新の陸上船と飛行船の数</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_MILITARY_TITLE">
+      <Text>発展の守護者</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_MILITARY_TT">
+      <Text>上位モデルとなるユニットを誰かが生産すると、それ以前のモデルは陳腐化し、ポイントとして加算されなくなる。ただし、陳腐化したユニットもアップグレードすることで上位モデルと同等の力を得ることができる。他のプレイヤーのスコアが自分を上回っていても、新しいユニットを生産(または陳腐化したユニットをアップグレード)してその国に攻撃を仕掛ければ、その国のスコアを削ることができる。[NEWLINE][NEWLINE]最新の陸上船: {@1_LandshipUnitType}[NEWLINE]最新の飛行船: {@2_AirshipUnitType}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_NOTIF_SUMMARY">
+      <Text>{@1_CivName}が{@2_TitleName}になった！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_NOTIF_TT">
+      <Text>{@1_CivName}は名誉の称号として[COLOR_POSITIVE_TEXT]{@2_TitleName}[ENDCOLOR]を与えられ、帝国連盟での権限をより確かなものとし、勝利に近づいた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_TECH_UNLOCK">
+      <Text>誰か1人が{1_Technology:textkey}を習得することで利用できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_TURN_UNLOCK">
+      <Text>{1_UnlockTurn}ターンで利用できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_UNLOCK_TT">
+      <Text>[COLOR_POSITIVE_TEXT]{@1_TitleName}[ENDCOLOR]の称号を全てのプレイヤーが獲得可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_CATEGORY_VALUE_UNLOCK">
+      <Text>誰か1人がこの土地にある{1_UnlockValue}に到達することで利用できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_COUNTDOWN">
+      <Text>{@2_CivAboutToWin}の勝利まであと{1_NumTurnsUntilVictory}ターン！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_FLAVOR_TIME">
+      <Text>帝国連盟を屈服させた。今や最も尊敬される文明となったあなたの国は、人類を未来へと導いていくことだろう。あなたはこの空の支配者となった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_HELP">
+      <Text>帝国連盟は毎年、最も優秀な指導者を選出して名誉の称号を与えている。最初に称号を{1_NumTokensNeededForVictory}以上獲得して{2_NumTurnsNeededForVictory}ターン保持し続けた文明が、帝国連盟を掌握し、勝者となる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_LOCKED">
+      <Text>まだ勝利条件を満たしていない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_POSSIBLE">
+      <Text>{1_YearUpdated : number #}年現在:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_TIME">
+      <Text>帝国</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VICTORY_TIME_BANG">
+      <Text>帝国の勝利！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_VSCREEN_BUTTON">
+      <Text>帝国連盟</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_FRONTIER_MARKETS">
+      <Text>戦略資源がもたらす[ICON_GOLD]ゴールド+1。また、[ICON_RES_ALUMINUM]アルミニウムの産出量が2倍になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_FRONTIER_MARKETS_SHORT">
+      <Text>新興国市場</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_INVENTORS_GUILD">
+      <Text>大科学者の出現速度が50%上昇する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_INVENTORS_GUILD_SHORT">
+      <Text>発明家ギルド</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_LABOR_CASTES">
+      <Text>[ICON_CITIZEN]人口の増加がもたらす[ICON_HAPPINESS_4]不満度を20%軽減する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_LABOR_CASTES_SHORT">
+      <Text>労働者階級</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_NEW_WORLD_ORDER">
+      <Text>[ICON_CULTURE]文化力による社会制度獲得の獲得コストを10%軽減する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_NEW_WORLD_ORDER_SHORT">
+      <Text>新世界秩序</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_OPTIMIZED_EXTRACTORS">
+      <Text>戦略資源の[ICON_PRODUCTION]生産力+1。また、[ICON_RES_URANIUM]ルボリックの産出量が2倍になる。 </Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_OPTIMIZED_EXTRACTORS_SHORT">
+      <Text>最適化された換気システム</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_TIRELESS_WATCH">
+      <Text>飛行船ユニットの[ICON_MOVES]移動ポイント+2。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_TIRELESS_WATCH_SHORT">
+      <Text>不断の観察者</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_AIRSHIP_HELP">
+      <Text>最初に登場する飛行船ユニットであり、陸上と海上を移動することができる。陸上ユニットに大きなダメージを与えることができるが、フライヤーを苦手としている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_AIRSHIP_STRATEGY">
+      <Text>飛行船は陸上と海上を移動できるため、戦場までの移動時間を短縮して奇襲攻撃のチャンスを生み出す。また、その巨大なカノン砲を用いれば、近くを飛行する敵の飛行船を砲撃したり、地上の目標を空から破壊したりすることができる。フライヤーと対空砲を苦手としているため、これらのユニットを見つけたら早めに破壊するか、タイプの違うユニットをサポートに付けると良い。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_AIRSHIP_TEXT">
+      <Text>エイセリウムが発見されるまでは、軽量で機動力のある飛行機(フライヤーなど)でなければ空を飛ぶことは不可能だと考えられていた。つまり、飛行船は一風変わった素晴らしい発明品なのである。のちに飛行船を開発する技術者や発明家は、この新発見の物質を利用して、それまでその分野の法であった科学に逆らうかのように、ほとんど何でも思いのままに宙に浮かせた。そして彼らが生み出したものは、必然的に、過去から慣れ親しんだ形である船を模していた。それにはデッキが作られ、両側面には武器が装備され、そして帆があるべき場所には気球が取り付けられた。また、初期の飛行船の乗組員には海軍の伝統である階級制度が採用された。飛行船はやがて長時間飛行できるという特性を持つようになり、時代とともに実験的要素が強いデザインへと変化していった。それに伴い、飛行船の操縦士と乗組員は独自の文化を形成したが、それは上品ぶった風変わりなものだった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_FLYER_HELP">
+      <Text>飛行船に対して非常に大きな力を発揮するが、陸上ユニットとの戦いはあまり得意ではない。射程距離が短く、基地となる都市や空中要塞が必要なユニットでもある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_FLYER_STRATEGY">
+      <Text>フライヤーは射程距離が短く、ほどほどの攻撃力を持つユニットである。ヒット&amp;ラン攻撃を得意としており、特に飛行船や空中要塞に対して力を発揮する。飛行船や空中要塞は巨大すぎて、フライヤーの攻撃を上手く回避できないからである。射程距離が短いため最初は防衛が主な任務となるが、移動基地である空中要塞の登場後は戦場に直接送り込まれることもある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_FLYER_TEXT">
+      <Text>フライヤーは発明家の斬新なアイデアから生み出されたものであり、幅広い分野が科学に関与したことで達成された蒸気機関時代の成果に数えられる。推進力の改善が陸上と海上の乗り物に驚くべき効果をもたらすと、その力は当然、人間の永遠の夢である飛行に応用された。胴体に取り付けられたエンジンがあまりにも巨大であったため、可能な部分には鉄の代わりに布を使用するといったように、飛行のためにありとあらゆる軽量化が行われた。やがて技術力の向上に伴い、フライヤーには武器が搭載され、独自のデザインが施されるようになった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LAND_IRONCLAD_HELP">
+      <Text>初の陸上船ユニット。陸上ユニットに対して力を発揮するが、飛行船には弱い。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LAND_IRONCLAD_STRATEGY">
+      <Text>最も基本的な陸上船ユニット。陸上装甲艦は装甲が厚く、陸上戦でその力を発揮する。時代遅れの陸上ユニットを手軽に一掃したい時や、都市の占拠に向けて防御力を削りたいときに使用すると良い。フライヤーの小型武器であればその装甲で何とか持ちこたえることができるが、飛行船と空中要塞のカノン砲に砲撃されると大ダメージを受ける。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LAND_IRONCLAD_TEXT">
+      <Text>鉄道という「鉄の馬」の建造からは、非常に多くの教訓がもたらされた。開発者たちはその後まもなく、蒸気機関車のエンジンを利用した、線路のいらない車両の開発に取り掛かる。だが、不格好な鉄の怪物(最初の試作品)の動力となる機械の設計は困難をきわめ、やがてこの作業は、以前より単純化された車両の開発と統合された。車両の装甲は以前に比べてかなり薄くなっていたが、それでも砲撃や雨風に耐えるには十分であった。開発初期にこれを操縦した者たちは、機動力のある車両の方が、重装備で固めたものよりもはるかに効果的であることに気付いていた。機動力があれば戦闘で機敏に動けるだけでなく、少ない燃料で戦地を移動することができるからである。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LAND_LEVIATHAN_HELP">
+      <Text>最先端の陸上船ユニット。他の陸上船ユニットに対して力を発揮するが、飛行船ユニットを苦手としている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LAND_LEVIATHAN_STRATEGY">
+      <Text>最強の陸上船ユニットである陸のリヴァイアサンは、他の陸上船ユニットに破滅をもたらす。このユニットで防御力の低い対空砲を破壊すれば、味方の航空ユニットの安全を確保することができる。フライヤーの小型武器であればその装甲で持ちこたえることができるが、飛行船と空中要塞のカノン砲に砲撃されると大ダメージを受ける。高価なこのユニットには、フライヤーや対空砲などの対航空ユニットを同行させておくと良い。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LAND_LEVIATHAN_TEXT">
+      <Text>陸のリヴァイアサンは陸上戦最強のユニットである。空想上の海の怪物からその名を取ったこのユニットは、非常に強力な火力を誇り、ほぼ全方向への攻撃が可能である。また、非常に速い速度で大地を移動することができる。陸のリヴァイアサンには16人の乗組員が配備され、あるグループがカノン砲、別のグループがルボリックエンジン、そして残りの2人が操縦士とナビゲーターを担当している。複雑な命令を素早く伝えるための省略語が考案されており、訓練では一丸となってユニットを動かす術を学ぶ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LANDSHIP_HELP">
+      <Text>陸上装甲艦の強化版である。陸上ユニットに対して力を発揮するが、飛行船ユニットを苦手としている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LANDSHIP_STRATEGY">
+      <Text>陸上船は非常に装甲が厚く、陸上戦で優れた力を発揮する。他の陸上船の破壊や、都市の占拠に向けて防御を削りたい時に使用すると良い。フライヤーの小型武器であればその装甲で持ちこたえることができるが、飛行船と空中要塞のカノン砲に攻撃されると大ダメージを受ける。最も効果的な延命策は、フライヤーや対空砲などの対航空ユニットを同行させておくことである。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LANDSHIP_TEXT">
+      <Text>陸上船は陸上装甲艦が備えられなかった能力を備えたユニットである。ルボリックの発見によって車両に使用できるエネルギーが増加し、機動力を落とすことなく装甲や武器を強化できるようになった。戦場に不可欠な存在となった陸上船は、ほとんどすべての陸上ユニットを破壊することができる。陸上船が複数あれば、敵軍の排除や都市の包囲も容易になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SKY_FORTRESS_HELP">
+      <Text>最先端の飛行船ユニット。フライヤーの基地となる。攻撃は強力だが、フライヤーを苦手としている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SKY_FORTRESS_STRATEGY">
+      <Text>空中要塞は強力な火力を誇る最先端の飛行船ユニットである。カノン砲を備えており、陸上の目標や飛行船ユニットを攻撃することができる。また、フライヤーの移動基地としての役割も果たす。フライヤーを搭載して近くの飛行船ユニットを攻撃できるため、空中要塞はさまざまなユニットにとって大きな脅威となる。ただし、敵のフライヤーと対空砲を苦手としている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SKY_FORTRESS_TEXT">
+      <Text>雄大な空中要塞は、壮観で人目を引くユニットである。飛行船よりもはるかに巨大なこのユニットは、真下の大地に大きな暗影を投じて敵の心臓部に恐怖をもたらす。空中要塞は強力な兵器を備えているが、このユニットが空中に浮かんでいられるのはエイセリウムの浮揚力を応用した先進技術のおかげである。要塞の内部にはさまざまな設備があり、将軍が使用する戦場上空の作戦室、フライヤー部隊を受け入れる小規模な格納庫、さらには気晴らしのための休憩室まである。空中要塞は移動司令部として飛行船部隊の中核を成し、地上の敵に死をもたらし、空の飛行船を撃墜することができる。</Text>
+    </Row>
+  </Language_JA_JP>
+</GameData>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Table definition -->
+	<Table name="ReplayDataSets">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Name" type="text"/>
+		<Column name="Description" type="text"/>
+	</Table>
+
+	<!-- Table data -->
+	<ReplayDataSets>
+		<Row>
+			<Type>REPLAYDATASET_SCORE</Type>
+			<Description>TXT_KEY_REPLAY_VIEWER_GRAPHBY_SCORE</Description>
+		</Row>
+
+		<Row>
+			<Type>REPLAYDATASET_PRODUCTIONPERTURN</Type>
+			<Description>TXT_KEY_REPLAY_DATA_PRODUCTIONPERTURN</Description>
+		</Row>
+		<Row>
+			<Type>REPLAYDATASET_TOTALGOLD</Type>
+			<Description>TXT_KEY_REPLAY_DATA_TOTALGOLD</Description>
+		</Row>
+		<Row>
+			<Type>REPLAYDATASET_GOLDPERTURN</Type>
+			<Description>TXT_KEY_REPLAY_DATA_GOLDPERTURN</Description>
+		</Row>
+		<Row>
+			<Type>REPLAYDATASET_CITYCOUNT</Type>
+			<Description>TXT_KEY_REPLAY_DATA_CITYCOUNT</Description>
+		</Row>
+
+		<Row>
+			<Type>REPLAYDATASET_TECHSKNOWN</Type>
+			<Description>TXT_KEY_REPLAY_DATA_TECHSKNOWN</Description>
+		</Row>
+
+		<Row>
+			<Type>REPLAYDATASET_SCIENCEPERTURN</Type>
+			<Description>TXT_KEY_REPLAY_DATA_SCIENCEPERTURN</Description>
+		</Row>
+
+		<Row>
+			<Type>REPLAYDATASET_TOTALCULTURE</Type>
+			<Description>TXT_KEY_REPLAY_DATA_TOTALCULTURE</Description>
+		</Row>
+
+		<Row>
+			<Type>REPLAYDATASET_CULTUREPERTURN</Type>
+			<Description>TXT_KEY_REPLAY_DATA_CULTUREPERTURN</Description>
+		</Row>
+
+		<Row>
+			<Type>REPLAYDATASET_EXCESSHAPINESS</Type>
+			<Description>TXT_KEY_REPLAY_DATA_EXCESSHAPPINESS</Description>
+		</Row>
+		<Row>
+			<Type>REPLAYDATASET_HAPPINESS</Type>
+			<Description>TXT_KEY_REPLAY_DATA_HAPPINESS</Description>
+		</Row>
+		<Row>
+			<Type>REPLAYDATASET_UNHAPPINESS</Type>
+			<Description>TXT_KEY_REPLAY_DATA_UNHAPPINESS</Description>
+		</Row>
+
+		<Row>
+			<Type>REPLAYDATASET_GOLDENAGETURNS</Type>
+			<Description>TXT_KEY_REPLAY_DATA_GOLDAGETURNS</Description>
+		</Row>
+
+		<Row>
+			<Type>REPLAYDATASET_POPULATION</Type>
+			<Description>TXT_KEY_REPLAY_DATA_TOTALPOPULATION</Description>
+		</Row>
+		<Row>
+			<Type>REPLAYDATASET_FOODPERTURN</Type>
+			<Description>TXT_KEY_REPLAY_DATA_FOODPERTURN</Description>
+		</Row>
+
+		<Row>
+			<Type>REPLAYDATASET_TOTALLAND</Type>
+			<Description>TXT_KEY_REPLAY_DATA_TOTALLAND</Description>
+		</Row>
+		<Row>
+			<Type>REPLAYDATASET_GPTCITYCONNECTIONS</Type>
+			<Description>TXT_KEY_REPLAY_DATA_GPTCITYCONNECTIONS</Description>
+		</Row>
+		<Row>
+			<Type>REPLAYDATASET_GPTDEALS</Type>
+			<Description>TXT_KEY_REPLAY_DATA_GPTDEALS</Description>
+		</Row>
+		<Row>
+			<Type>REPLAYDATASET_UNITMAINTENANCE</Type>
+			<Description>TXT_KEY_REPLAY_DATA_UNITMAINTENANCE</Description>
+		</Row>
+		<Row>
+			<Type>REPLAYDATASET_BUILDINGMAINTENANCE</Type>
+			<Description>TXT_KEY_REPLAY_DATA_BUILDINGMAINTENANCE</Description>
+		</Row>
+		<Row>
+			<Type>REPLAYDATASET_IMPROVEMENTMAINTENANCE</Type>
+			<Description>TXT_KEY_REPLAY_DATA_IMPROVEMENTMAINTENANCE</Description>
+		</Row>
+		<Row>
+			<Type>REPLAYDATASET_NUMBEROFPOLICIES</Type>
+			<Description>TXT_KEY_REPLAY_DATA_NUMBEROFPOLICIES</Description>
+		</Row>
+		<Row>
+			<Type>REPLAYDATASET_NUMBEROFWORKERS</Type>
+			<Description>TXT_KEY_REPLAY_DATA_NUMBEROFWORKERS</Description>
+		</Row>
+		<Row>
+			<Type>REPLAYDATASET_IMPROVEDTILES</Type>
+			<Description>TXT_KEY_REPLAY_DATA_IMPROVEDTILES</Description>
+		</Row>
+		<Row>
+			<Type>REPLAYDATASET_WORKEDTILES</Type>
+			<Description>TXT_KEY_REPLAY_DATA_WORKEDTILES</Description>
+		</Row>
+		<Row>
+			<Type>REPLAYDATASET_MILITARYMIGHT</Type>
+			<Description>TXT_KEY_REPLAY_DATA_MILITARYMIGHT</Description>
+		</Row>
+	</ReplayDataSets>
+</GameData>

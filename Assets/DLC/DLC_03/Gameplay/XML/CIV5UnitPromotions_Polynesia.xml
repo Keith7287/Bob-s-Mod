@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_HAKA_WAR_DANCE</Type>
+			<Description>TXT_KEY_PROMOTION_HAKA_WAR_DANCE</Description>
+			<Help>TXT_KEY_PROMOTION_HAKA_WAR_DANCE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<NearbyEnemyCombatMod>-10</NearbyEnemyCombatMod>
+			<NearbyEnemyCombatRange>1</NearbyEnemyCombatRange>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_HAKA_WAR_DANCE</PediaEntry>
+		</Row>
+	</UnitPromotions>
+</GameData>

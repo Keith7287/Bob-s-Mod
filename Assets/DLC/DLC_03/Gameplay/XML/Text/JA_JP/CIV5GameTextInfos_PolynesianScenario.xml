@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_JA_JP>
+    <Row Tag="TXT_KEY_CIV5_POLYNESIA_SCENARIO_MAORI_HELP">
+      <Text>火薬伝来以前のポリネシア最強の戦闘ユニット。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_POLYNESIA_SCENARIO_MAORI_STRATEGY">
+      <Text>マオリの戦士は、ポリネシアの戦士の中でも非常に能力の高い戦闘ユニットである。この強力な近接攻撃ユニットは、出陣の踊り「ハカ」により近くにいる敵に恐怖を与えることができる。このレベルアップを使用すると、近接する敵ユニットの[ICON_STRENGTH]戦闘力を下げることができる。マオリの戦士であれば、戦士や槍兵などはいとも簡単に倒すことができるはずだ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_BRIEFING">
+      <Text>概要</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_BUILD_MOAI_HELP">
+      <Text>このタイルにモアイ([ICON_CULTURE]文化+1)を建てる。海岸沿いにモアイを並べて建てると文化ポイントが加算される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_BUILD_MOAI_REC">
+      <Text>タイルが[ICON_CULTURE]文化ポイントを産出するようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_BUILDING_HEROIC_EPIC_HELP">
+      <Text>この都市で新たに訓練を受けたユニットに[COLOR_POSITIVE_TEXT]上陸作戦[ENDCOLOR]のレベルアップが付与される。 このレベルアップは、海上から、もしくは川を越えて攻撃した際の、戦闘ペナルティを無効にする。[NEWLINE][NEWLINE]すべての都市に兵舎が必要。 自文明の都市数が多いほど建設コストが増す。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_BUILDING_HEROIC_EPIC_STRATEGY">
+      <Text>この国家遺産は、この都市で生産された全ユニットに「上陸作戦」のレベルアップを付与する。水が含まれるタイル越しの攻撃でペナルティを受けなくなる。文化力を1ポイント生み出す。全都市が兵舎を持っている場合のみ、英雄叙事詩の建設が可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_BUILDING_OBSERVATORY_HELP">
+      <Text>この都市の[ICON_RESEARCH]科学力の産出量を増加させる。このシナリオでは山岳タイルに近接させなくてもよい。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CAPTAIN_COOK">
+      <Text>クック船長</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CEREMONY_TITLE">
+      <Text>{2_CivName:textkey}の祈祷師{1_PlayerName:textkey}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_HIVA">
+      <Text>ヒバ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_HIVA_HEADING_1">
+      <Text>歴史</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_HIVA_TEXT_1">
+      <Text>現地の言葉でヒバは「人間の大地」という意味である。マルケサス諸島はフランス領ポリネシアの一部で、ポリネシアの東端に位置している。[NEWLINE][NEWLINE]ゴツゴツとしたこの火山島は地質学上まだ若い島であり、現在は死火山となっている火山が噴出した硬質な玄武岩からできている。年に一度雨期が来るものの、気候は一年を通して穏やかで、今そこに居られればと著者が妄想を膨らませるような場所でもある。[NEWLINE][NEWLINE]マルケサスにポリネシア人が住み始めたのは紀元100年頃であると言われており、言語と考古学的証拠から、移動経路はトンガとサモアからであることが分かっている。[NEWLINE][NEWLINE]当事者にとっては不名誉なことだが、ヒバは西欧の様々な国から支配を受けてきた。1595年、スペインの探検家であるアルバロ・デ・メンダーニャ・デ・ネイラ(パトロンの名を取ってマルケサス諸島と名付けた)により発見されたヒバは、初めて併合を経験する。その後ヒバはアメリカ人(ワシントン諸島と名付けた)の支配を受け、1870年にはフランスに併合される。疫病がポリネシア諸島で蔓延した時には、ヒバが最も大きく人口を減少させた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_SAMOA">
+      <Text>サモア</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_SAMOA_HEADING_1">
+      <Text>歴史</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_SAMOA_TEXT_1">
+      <Text>サモアは古来からポリネシアの中心であり、常にポリネシア文化圏の主要な島であった。人類が住み始めてからおよそ3500年になるサモア諸島は、常に宗教や国際紛争の焦点となっており、ポスト・コロニアル時代には前線拠点として発展を遂げた。[NEWLINE][NEWLINE]サモアも他のポリネシア諸島と同じように、暖かく心地の良い気候であり、短いながらも台風が活発になる季節もある。南太平洋にあるサモア諸島は、全体で2,800平方キロメートルほどの範囲に広がっており現地の人々がポリネシア文化圏の中心であると考えている島々である。[NEWLINE][NEWLINE]サモアに初めて定住した人間は紀元前1500年頃のラピタ人であるとされている。この最初のサモア人たちは、土で広大なマウンド状の山を作り、石製の建造物を作成している。ポリネシアでは島同士で取引を行っていたことから、サモアはポリネシア人の交差点のような役割を担っていたのかもしれない。[NEWLINE][NEWLINE]1898年、サモア内戦が植民地政策国家による介入でさらに悪化した後、サモアは三国間の協定によりドイツとアメリカによって分断支配されるようになった。1962年にドイツ領サモアは独立を認められたが、アメリカ領サモアは今もなおアメリカの保護国のままである。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_TAHITI">
+      <Text>タヒチ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_TAHITI_HEADING_1">
+      <Text>歴史</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_TAHITI_TEXT_1">
+      <Text>タヒチはソシエテ諸島最大の島で、現在では誰もが認める元フランス領ポリネシアの中心地となっている。タヒチは長い間、ポリネシア文化圏の島で最もフレンドリーでオープンな島として名を馳せてきた。[NEWLINE][NEWLINE]タヒチは、タヒチ・ヌイ(大タヒチ)とタヒチ・イティ(小タヒチ)の2つの島からなっている。その名から島の相対的な大きさについては簡単に推測できる。温暖で一年中穏やかな気候を持つタヒチは、ポリネシアの東端付近に座している。[NEWLINE][NEWLINE]タヒチもポリネシアの東端に位置している島々の例に漏れずに、比較的最近になって人々が住むようになった島である。ラピタ文化が衰えてからずっと後の紀元300年から800年頃にポリネシア人が定住し始めたと言われている。[NEWLINE][NEWLINE]今のところ、1767年にタヒチを訪れたイギリス人が初めてこの島に来た西欧人だと言われている。このイギリス人はすぐに、島民の穏やかでオープンな、そして思いやりのある振る舞いに感銘を受けたとされている。タヒチ人たちは病気が伝わったことで絶滅しかけ、宣教師によって伝統文化の習慣を止めさせられたが、記録と言語を後世に残すことに成功している。ビーグル号での航行先の1つとしてチャールズ・ダーウィンもタヒチを訪れている。1847年にフランスがタヒチを併合するが、タヒチ人に与えられた市民権は1946年になるまで制限付きのものだった。フランス語はタヒチの公用語として現在も使われている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_TONGA">
+      <Text>トンガ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_TONGA_HEADING_1">
+      <Text>歴史</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV_TONGA_TEXT_1">
+      <Text>トンガはポリネシア文化圏では比較的大きい国で、ポリネシア諸島の覇権を巡って他の地域と競い合っている。地域大国として最も栄えていた14世紀には、首長と航海士の分野で地域覇権を握っていた。トンガ王国は太平洋上の176の群島からなっており、北東はニュージーランドから南西はハワイ諸島まで[NEWLINE]1,800,000平方キロメートルにも及ぶ範囲に広がっている。 [NEWLINE][NEWLINE]トンガ群島に初めて人間が訪れた時期についてはいまだによく分かっていない。一番古いもので存在がはっきりしているのはトンガタプにあるペアという村で、約3,000年前に建てられたものだと言われている。ラピタ時代の陶磁器がトンガで見つかっているが、これは年代を特定するものではなく、トンガが素晴らしい航海術を持っていたという証明にしかならないだろう。[NEWLINE][NEWLINE]彼らに初めて接触した西欧人は、1616年の記録に残されているオランダ人だが、最も有名なのはジェームズ・クックによる太平洋調査の時のものだろう。手厚いもてなしを受けたクックは、トンガを「フレンドリー諸島」と名付けた。おかしなことに、どうやらトンガ人たちはクックを殺害しようとしていたようである。しかし仲間内で意見がまとまらず実行には移されなかっため、クックは自分の命が間一髪で救われたことにも気付かずに、難なくトンガから出航している。[NEWLINE]18世紀の終わりから19世紀にかけて、西欧の宣教師によってトンガ中にキリスト教が広められた。 [NEWLINE][NEWLINE]1779年に高位の首長が暗殺されたことで、トンガは50年にわたる内戦へと突入する。そして1845年、最上位の首長の座に就いた戦士タウファアハウが、自ら洗礼を受け、国王ジョージ・トゥポウ1世となった。その後トゥポウ1世は最下位のカーストを解放すると、法を制定し他の首長の力に制限をかけ、友好条約によりイギリスと同盟を結んだ。一度も完全なイギリスの植民地になっていないトンガは、自治権を確保しながら、イギリス軍による保護を受け続けた。[NEWLINE][NEWLINE]トンガは南太平洋交通網の中心地にあるため、第2次世界大戦では戦略的に重要な地点となった。トンガの戦士たちはソロモン島で戦いを繰り広げ、北アメリカからニュージーランドとオーストラリアへ物資を供給する際にはトンガタプが非常に重要な拠点となった。現在、独立した立憲君主国(ポリネシアで唯一君主制を捨てなかった)であるトンガには、民主化運動と政府の近代化の波が訪れている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV5_DAWN_POLYNESIAN_TEXT">
+      <Text>アロハ！　偉大なるポリネシアの王よ！　そなたは現在、偉大な島々の1つを支配下に置いている。その熱帯の楽園の素朴さに相反し、そなたの栄光への渇きは太平洋の大きな波をも越える。そなたの民は、星と鳥の動き、そして力強い太平洋の潮流を基に、「ウェイファインディング」という見事な航海術をつくり上げた。勇敢なる航海士たちは、二重構造のカヌーで外海を越え、数百キロ先の新たな植民地を探す航海を望んでいる。荒れ狂う高波をくぐり抜け、故郷の浜辺のその向こうに、新たな礎を築くことができるだろうか？島の文化を世界に広め、太平洋をその手中に収めるのだ。[NEWLINE][NEWLINE]勝利条件[NEWLINE]社会制度を全て獲得し、ポリネシア全域における支配権を得た国が勝利となる。[NEWLINE][NEWLINE]特別ルール[NEWLINE]ここで使用する技術ツリーと社会制度ツリーは、このシナリオに合わせた全く新しいものになっている。4つの文明国は最初からそれぞれ固有の特色を持っており、研究を行うことでポリネシア専用のボーナス(モアイとマオリの戦士)を獲得することもできる。都市の所持数が増えても社会制度の獲得コストは増加しないため、自分の帝国を好きなだけ大きくすることができる</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIV5_IMPROVEMENTS_MOAI_HELP">
+      <Text>モアイは沿岸タイルにしか建設できない。モアイを並べて建設すると[ICON_CULTURE]文化ポイントの産出量が多くなる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_AHOEITU_HEADING_1">
+      <Text>歴史</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_AHOEITU_LIVED">
+      <Text>紀元10世紀</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_AHOEITU_NAME">
+      <Text>アホエツ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_AHOEITU_SUBTITLE">
+      <Text>ツイ・トンガ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_AHOEITU_TEXT_1">
+      <Text>アホエツは、ヌイの娘イラヘバ・ヴァエポプアと空の神であるタンガロア・エイツマツプアの長男として生まれた。アホエツの上には腹違いの兄弟が4人おり、皆がアホエツの端麗な容姿に嫉妬していた。兄弟たちは秘密裏にアホエツの首を切り落とすと、有毒なホイの茂みの下に隠し、体はあぶって平らげた。[NEWLINE][NEWLINE]その後、タンガロア・エイツマツプアが空から降りてきて4人の兄弟たちにアホエツのことを訪ねた。兄弟たちは自分たちの行為を恥じ入ると、後悔の念に駆られながらアホエツの復活を懇願した。タンガロア・エイツマツプアは兄弟たちの吐しゃ物を大きなお椀に入れると、布でそれを覆った。そして魔法によって、アホエツは復活を遂げたのであった。[NEWLINE][NEWLINE]4人の兄弟たちはタンガロア・エイツマツプアによって罰せられた。4人の兄弟とその子孫たちはトンガという島でアホエツに仕えることになり、アホエツはツイ・トンガの初代国王となった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_HOTUMATUA_HEADING_1">
+      <Text>歴史</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_HOTUMATUA_LIVED">
+      <Text>紀元300-800年頃</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_HOTUMATUA_NAME">
+      <Text>ホツ・マツア</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_HOTUMATUA_SUBTITLE">
+      <Text>ヒバからの探検家</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_HOTUMATUA_TEXT_1">
+      <Text>ホツ・マツアはラパ・ヌイ(イースター島)の大首長である。ホツ・マツアは民たちと共に、母島であるヒバから巨大ないかだ船で東へと向かった。彼らは発見した島を「テ・ピト・オ・テ・カインガ」と名付けた。これは「島の小さな一部」という意味で、この島とその地勢を考えると実に適切な名前である。[NEWLINE][NEWLINE]航海士のハウ・マカは睡眠中に、自分の魂が首長ホツのための新しい島を発見する夢を見た。ハウ・マカが見た3つの島々には巨大な火山クレーターがあり、目的地である島の28カ所の地域は、ホツとその民が暮らすには十分な広さであった。その夢の話を耳にしたホツから、その島を発見するよう命じられたハウ・マカは、大きなカヌーに乗り込み東へと船を進めた。そしてハウ・マカは夢で見た島を発見するのである。[NEWLINE][NEWLINE]しかし、ホツ・マツアが民たちとテ・ピト・オ・テ・カインガに向かっていた時、その中には恐ろしい敵も混じっていた。オロイという名のその男は、これまでにもヒバでホツの家族を殺していた。オロイは誰にも見つかることなく島に辿り着くと、ホツ・マツアの孫を殺し、ホツ・マツアに罠を仕掛けた。罠に捕らえられたホツ・マツアは、ボーンダガーを持ったオロイに襲われるが、魔法を唱えてオロイを殺害する。そしてホツ・マツアと子供たちはオロイの死体を食したのである。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_MALIETOASAVEA_HEADING_1">
+      <Text>歴史</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_MALIETOASAVEA_LIVED">
+      <Text>不明</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_MALIETOASAVEA_NAME">
+      <Text>マリエトア・サヴェア</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_MALIETOASAVEA_SUBTITLE">
+      <Text>サモアの王</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_MALIETOASAVEA_TEXT_1">
+      <Text>サモア諸島にまで広がっていたツイ・トンガ帝国には、ツイ・トンガ・タラカイファイキという王がいた。歴代の王の中でも最も冷酷なタラカイファイキは、サモア諸島にあった住居を没収するような暴君であった。[NEWLINE][NEWLINE]3人の兄弟、サヴェア、ツナ、ファタと、その甥ウルマスイは、タラカイファイキの統治に対し反対運動を起こしていた。サモアの伝承によれば、これは非暴力の市民不服従運動として始まったが、後に軍事を用いた行動に発展したようである。ついにタラカイファイキを捕らえたサヴェアたちは、この暴君を処刑せず、カヌーでトンガへと送り返した。タラカイファイキの船出に敬意を示して雄弁をふるったサヴェアは、「偉大な戦士」という意味を持つ「マリエトア」という敬称で呼ばれるようになり、ついにサモア諸島の最初の国王となった。その後マリエトアという称号はサモア島の王から王へと引き継がれるようになった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_POMARE_HEADING_1">
+      <Text>歴史</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_POMARE_LIVED">
+      <Text>紀元1742-1803年</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_POMARE_NAME">
+      <Text>ポマレ1世</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_POMARE_SUBTITLE">
+      <Text>タヒチの王</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVILOPEDIA_LEADERS_POMARE_TEXT_1">
+      <Text>ポマレ王朝の創始者であるツ・ヌイ・エア・イ・テ・アツア・イ・タラホイ・ヴァイラアトア・タイナ・ポマレ1世は、首長テウ・ツヌイエアイテアツアの次男として1742年もしくは1743年に誕生した。ポマレは首長になると、タヒチ島の3つの首長自治体を統合して1つの王国を築き上げた。ポマレは1791年に退位するまで、タヒチ、モオレア、メヘチアを統治し、その後は1803年に逝去するまでタヒチの摂政を務めた。[NEWLINE][NEWLINE]ポマレ王朝は、太平洋のイギリス人宣教師や商人たちと緊密な関係を結ぶことに成功し、1880年代にフランスによってタヒチの君主制が廃止されるまで、力を保持し続けた。また、自称ではあるが、ポマレの子孫は現在も生存している。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_FIJI_TEXT">
+      <Text>フィジーに初めて住み着いた人類はラピタ人で、約3500年前のことだった。その後は、紀元前900年頃から紀元前600年の間に、東南アジアとインドネシアからメラネシア人が移動してきている。フィジーはポリネシアの中心部に近いことから、商業や文化の中心地となっていたらしく、数千キロ離れた場所にある石や、ポリネシアではほとんど見ることのできない貿易品や加工された道具が見つかっている事実がそれを裏付けている。ツイ・トンガの最盛期には、フィジーもその影響下に置かれていた。[NEWLINE][NEWLINE]19世紀のフィジーでは、部族間で内戦が起こり、近くのトンガから侵攻を受けている。フィジーの首長セル・エペニサ・カコバウは、自身の王としての地位の強化を図り、影響力を拡大するためにキリスト教宣教師(自身もキリスト教徒だった)を利用した。その後カコバウは、アメリカ領事館を怒らせたことでトラブルに見舞われる。カコバウはこの時に命じられた賠償金を支払うために、オーストラリア人綿農場主たちに土地を売却している。しかし1874年、カコバウはついに自分の領土をイギリスに譲渡することになった。[NEWLINE][NEWLINE]最初のイギリス人暫定長官が、「フィジー人のためのフィジー」をはじめとする独特な分別ある法を制定したことで、現地人たちは島の大部分の自治権を保持し続けることができた。イギリス植民地法(廃案にしようとガンジーなどが運動を起こした)と共にインドからの契約労働者も島に訪れ、フィジーの文化に新たな側面をもたらした。この時の文化的影響は、現在のフィジーにも色濃く残されている。[NEWLINE][NEWLINE]1970年、フィジーは独立を果たす。その後、急激な経済成長を経験するものの、1987年に成長が落ち込んだことでそれも帳消しとなり、その後は経済の完全な停滞と、軍部と市民による2度のクーデターを経験することとなった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_GUADALCANAL_TEXT">
+      <Text>ソロモン諸島最大の島であるガダルカナルは、第2次世界大戦でアメリカと日本が、血なまぐさい厳しい戦いを長期にわたって繰り広げたことで有名である。西洋には1568年から知られていた島だが、ガダルカナルが戦略的に重要な島となったのは、オーストラリアを拠点とする連合軍の物資の輸出入を邪魔するために、日本が基地として利用した第2次世界大戦の時のことだった。[NEWLINE][NEWLINE]日本はミッドウェー海戦で敗れた直後、ガダルカナルのルンガ岬に巨大な飛行場を建設し始める。事前の拡張で獲得した土地を保護するために、防衛拠点の外輪の1つにしようとしたのである。連合軍はこれに応じる形で連合部隊を大量に投入し、空港と島の奪取に取り掛かる。その後、日本側に増援部隊が到着したことで、今度は確保した土地の守備を行った。[NEWLINE][NEWLINE]ガダルカナルの名は歴史の中に埋もれつつあるが、この大戦の最中には注目すべき逸話や出来事がたくさんあった。アメリカ海兵隊が劣勢にありながらも懸命にルンガ岬を守った話や、東京急行が行き来した話、そして後の大領領ジョン・F・ケネディに率いられた悲運のPT-109の話など、全てガダルカナルで起きたことである。それに、このガダルカナルでの出来事をもっと知りたいという歴史好きな人間もいるのである。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_KIRIBATI_TEXT">
+      <Text>キリバス諸島に人間が住み始めたのは、今から700年以上前のことだが、考古学的な記録と口述歴史が不完全であるため、正確な年代の特定は困難となっている。最初に定住したのはラピタ人であるとされている。キリバスは太平洋の中央付近にあるため、フィジーのメラネシア人や、サモアとトンガのポリネシア人とも接触があった。[NEWLINE][NEWLINE]西洋と初めて接触したのは16世紀だった。西洋と取引を開始したことで部族間の争いが頻発するようになり、これがすぐに彼らによる植民地化の口実となった。その後キリバス諸島の大部分がイギリスの植民地になった。[NEWLINE][NEWLINE]第2次世界大戦では日本がキリバスを奪取し、続けて土地の要塞化に取り掛かった。太平洋の日米戦の中でも最も激しかったものに数えられるタラワの戦いでは、後に全滅してしまったものの、4,500人の日本兵がこの小さな環礁島を強固な要塞に変え、侵攻してきたアメリカ海兵隊に大損害を与えた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_MAJURO_TEXT">
+      <Text>マジュロはマーシャル諸島最大の島であり、首都が置かれている島でもある。環礁島であるマジュロには2000年以上前から人が住んでいる。1914年に日本の手に落ちるまで、マジュロはドイツ帝国の支配を受けていた。しかし、この島を支配した指導者のほとんどが、自治に関する大部分を島民の手にゆだねていた。 [NEWLINE][NEWLINE]1944年1月30日、大艦隊を引き連れたアメリカがマジュロを占領するが日本軍はすでにそこにはおらず近くのクワジャリンとエニウェトクに撤退していた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_NAURU_TEXT">
+      <Text>「プレザント島(快適な島)」 (この島以外の数千の島にも当てはまる呼称だろう)とも呼ばれるナウルは、西太平洋に位置する、20平方キロメートル程度の国土しかない世界最小の島国である。ミクロネシア人とポリネシア人が住んでいたナウルは、植民地政策を推し進める国家から支配を受け、第2次世界大戦時には日本に占領されたが、太平洋で戦争を行っていたアメリカには無視された。[NEWLINE][NEWLINE]ナウルに最も多く埋蔵されている天然資源はリン酸塩である。1960年代に自国の資源の採掘権を取り戻したナウルは、公共事業として採掘作業を開始し、ほんの短期間ではあるが、1人当たりの国民所得で世界一を達成した。しかしリン酸塩が枯渇すると、投機的事業にも次々と失敗し、ナウルの資金はあっという間に底をついた。後には、壊滅的なダメージを負った生態系が残されていた。それ以来ナウルは低迷した経済を復活させようと、 実験的にタックスヘイブンを作ったり他国のための刑務所を作ったりしている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_NENDO_TEXT">
+      <Text>ネンドもしくはサンタクルーズ島は、西ポリネシアに位置する島で、およそ3000年前から人間が住み始めた。1595年にはスペインが植民地化を試みるも失敗に終わっている。第2次世界大戦時の1942年10月26日には、4度目の日米による空母戦がサンタクルーズの近くで行われており、この時は日本が大損害と引き替えに勝利を挙げている。 </Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_POHNPEI_TEXT">
+      <Text>ミクロネシアにある4連邦の1つでありながら、1828年にロシア人船員に発見されるまで西洋に知られていなかった、カロリン諸島最大の島である。ポンペイには、サウテロール王朝時代の首都である、石造りの都市遺跡ナン・マトールがある。見る者を惹きつけるこの都市は、運河網でつなげられた小さな人口島で構築されている。サウテロール王朝は約1000年間力を保持し続け、最後には他の島からやってきた首長によって滅ぼされた。[NEWLINE][NEWLINE]ポンペイはスペインから支配を受けた後、ドイツ帝国へと譲渡された。第2次世界大戦時には日本の支配を受け、要塞化もされたが、アメリカ海軍が日本侵攻時に近くを通っただけで、この島で戦闘が起こることはなかった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_CIVLOPEDIA_VANUATU_TEXT">
+      <Text>西ポリネシアの島であるバヌアツには、およそ4000年前から人間が住んでいる。ラピタ人が居着いた島々の中でも、最も早い時期に定住が行われた島の1つだが、島の人口比を見るとメラネシア人が大半を占めている。バヌアツを初めて見つけた西洋人は、ポルトガル人探検家のペドロ・フェルナンデス・デ・キロスで、この島をスペイン領とした後「エスピリトゥサント」と名付けた。1768年にはデ・ブーゲンビルが訪れ、1774年にはクックによりニューヘブリディーズと命名された。[NEWLINE][NEWLINE]ポリネシアの他の島々と同じように、西洋との出会いは新たな病気の蔓延を引き起こし、多くの死者を出した。さらに、島の白檀で財産を築こうと多数の移民が訪れたことで、状態はますます悪化した。白檀の後は、綿やコーヒー、ココア、そしてバナナを投機的に栽培し、ようやくココナッツ栽培によって経済が安定するようになった。[NEWLINE][NEWLINE]第2次世界大戦でアメリカが訪れるまで、バヌアツは植民地主義国家から強い圧力を受け続けていた。裕福で全く形式ばらず、飛行機や船で兵士や船員に物資を供給し続けるアメリカ人の姿に、バヌアツ人たちは大きな感銘を受けるようになる。その直後バヌアツ人たちは、救世主のジョン・フラムが魔法の積み荷と共に、島に自由と繁栄をもたらしてくれると信じるようになった。この「カーゴ・カルト」は現在も生き続け、バヌアツでは深く信じられている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_DESC">
+      <Text>広大な太平洋で二重構造のカヌーを走らせて、自分の島の文化を世界に広めながら太平洋の楽園を手に入れろ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_DIPLO_DEF_PACT_NO_TECH">
+      <Text>[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_DIPLO_NEED_WRITING_TT">
+      <Text>[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_DIPLO_RESCH_AGREEMENT_NO_TECH">
+      <Text>[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_ENCOUNTER_CAPTAIN_COOK">
+      <Text>あなたの楽園が、エンデバー号のジェームズ・クック船長により発見された。イギリス帝国の命令で、科学研究を行うためにこの地を訪れたのである。しかしクック船長の来訪によって、ポリネシアに新たな時代が訪れる。はるか彼方からもたらされた西洋技術によって、火薬を利用した武器がこの地で急速に拡大していくことだろう。この新たな技術を賢く利用せよ！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_FIXED_MAP">
+      <Text>南太平洋マップ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_FOUND_EASTER_ISLAND">
+      <Text>おめでとう！　あなたの国の探検家がラパ・ヌイ(イースター島)を発見した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_FOUND_HAWAII">
+      <Text>おめでとう！　あなたの国の探検家がハワイ諸島を発見した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_FOUND_NEW_ZEALAND">
+      <Text>おめでとう！　あなたの国の探検家が「白く長い雲のたなびく大地」ニュージーランドを発見した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_ATTACKED_1">
+      <Text>好きにするがよい。サモアの民は貴公の攻撃を拒みはせん。だが武装した相手となれば話は別だ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_DECLAREWAR_2">
+      <Text>貴国の主要都市と親善を深めるために我がサモアの戦士たちを派遣した。彼らが諸手を上げて歓迎されると信じているぞ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_DEFEATED_1">
+      <Text>我が軍勢を壊滅させたところで、サモア人の魂は永遠に奪えんぞ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_DEMANDTRIBUTE_ANGRY">
+      <Text>次のものを寄付して世界に平和と安定をもたらさんとする貴公に、サモアは心から感謝しよう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_DEMANDTRIBUTE_NEUTRAL">
+      <Text>サモアは貧しいが、貴国は豊かだ。我々にこれを恵んでくれれば、そなたの業もいくぶん軽くなるかもしれんぞ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_FIRSTGREETING_1">
+      <Text>平和を愛するサモアの民を代表して、そなたを歓迎しよう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_FIRSTGREETING_3">
+      <Text>サモアの民の名のもとに、友好の握手を交わそうではないか！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_GREETING_HOSTILE_HELLO_1">
+      <Text>貴公との会談は楽しいものではないが、これがサモアの未来に光をもたらしてくれると願っておる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_GREETING_NEUTRAL_HELLO_1">
+      <Text>サモアはいつでも貴公の来訪を歓迎する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_GREETING_POLITE_HELLO_1">
+      <Text>親愛なる友よ、サモアは両手を広げて貴公を迎え入れよう</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_OPEN_BORDERS_EXCHANGE_1">
+      <Text>我々を隔てている障害を取り除けば、この友好関係もより強力なものになると思うのだ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_RESPONSE_REQUEST_1">
+      <Text>我が親愛なる友よ、何かサモアに譲れるものはないか？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>これでは我が島民に公平とは言えまい。すまないが、もっと条件を良くしてくれ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_TRADE_NO_NEUTRAL">
+      <Text>そのような条件では、サモアの民の注意は惹きつけられんぞ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_GANDHI_TRIBUTE_NO_NEUTRAL">
+      <Text>私は非暴力を固く信じているが、サモアの民はまだそれほど啓蒙されていないのだ。貴公の要求に皆が腹を抱えて笑っている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_HIAWATHA_FIRSTGREETING_1">
+      <Text>ようこそ異国の者よ。我が名はポマレ、タヒチの王である。我々は平和を望んでいるが、必要とあれば戦いも厭わぬ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_HIAWATHA_FIRSTGREETING_2">
+      <Text>我が名はポマレ1世、タヒチの民の王である。貴公を歓迎しよう。両国の民が友となることを望んでいる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_HIAWATHA_FIRSTGREETING_3">
+      <Text>異国の者よ、タヒチへようこそ。私の名はポマレだが、ツ・ヌイ・エア・イ・テ・アツア・イ・タラホイ・ヴァイラアトア・タイナ・ポマレ1世と略して呼んでもらっても構わんぞ。我々は平和を望んでいるが、必要とあれば戦いも厭わぬ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_KAMEHAMEHA_FIRSTGREETING_1">
+      <Text>おお、旅の者か！　ポリネシアの雄大な島によくぞ来てくれた！　このホツ・マツアが、ご馳走と炎で貴公を歓迎しよう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_KAMEHAMEHA_FIRSTGREETING_2">
+      <Text>ようこそ、異国の者よ！　我が名はホツ・マツア、ヒバの指導者である。こちらに来てくれ、この出会いを祝して壮大なフラダンスをお見せしよう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_KAMEHAMEHA_FIRSTGREETING_3">
+      <Text>友よ、貴公に神の祝福あれ。我が名はホツ・マツア、ヒバの王である。資源と労働を分け合って、協力体制を築いていこうではないか！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_LEADER_MONTEZUMA_FIRSTGREETING_3">
+      <Text>我はアホエツ、ティウ・トンガ帝国の指導者である！　貴公は一体何者だ？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICIES_TO_VICTORY">
+      <Text>勝利に必要な社会制度(あなた): {1_YourPoliciesRemaining}[NEWLINE]勝利に必要な社会制度 ({2_LeaderName}): {3_LeaderPoliciesRemaining}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_ARIKI">
+      <Text>大首長</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_ARIKI_DESC">
+      <Text>大首長「アリキ」とは、ポリネシア文化の指導者もしくは貴族階級の人々に与えられていた称号である。その下位には大首長に仕えていた、「マタイアポ」や「ランガティラ」と呼ばれる首長たちがいた。首長が人々を統べる力は、その者のマナに起因するものであり、生まれの良さと偉業を達成することで高められると信じられていた。現代のクック諸島には大首長院と呼ばれる議会があり、21世紀の初期には、この高貴な諮問機関の一員がクーデターを企てたこともあった。クーデターが失敗に終わったのは、マナが減少していたからであろうか。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_ARIKI_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]大首長[ENDCOLOR][NEWLINE]大将軍の出現速度+100%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_CEREMONY">
+      <Text>儀式</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_CEREMONY_CAP">
+      <Text>儀式</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_CEREMONY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]儀式[ENDCOLOR]は帝国の幸福度を上げる。これにより帝国の巨大化が可能になる。[NEWLINE][NEWLINE]儀式を採用すると、[ICON_CAPITAL]首都の[ICON_CITIZEN]人口が生み出す[ICON_HAPPINESS_4]不満が33%減少する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_HONOR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]名誉[ENDCOLOR]は軍隊に様々なボーナスをもたらす。[NEWLINE][NEWLINE]名誉を採用すると、今後生産する全陸上戦闘ユニットに経験値15が付与される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_THE_ARTS">
+      <Text>芸術</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_THE_ARTS_CAP">
+      <Text>芸術</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_BRANCH_THE_ARTS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]芸術[ENDCOLOR]は帝国の文化ポイントの産出量を増加させる。これにより社会制度が獲得しやすくなる。[NEWLINE][NEWLINE]芸術を採用すると、モニュメントと寺院が産出する[ICON_CULTURE]文化ポイントが1つにつき2増加する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_CEREMONY_TEXT">
+      <Text>儀式とは伝統行事であり、重要な行事であることを示す時や地域の絆を深める時に執り行われる。その種類は、民族全体によるカワカワを使用したものから、個人的なものであるサーフィンなど幅が広い。神聖度にも差があり、上位に位置するタプから全く形式ばらないものまで存在している。儀式はその本来の意味にかかわらず、1つの文化圏に住む人々の絆を深める力を持っている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HAKA">
+      <Text>ハカ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HAKA_DESC">
+      <Text>ハカはニュージーランドに住むマオリ族の伝統的な踊りで、その力強さや激しい動きとリズム、そして声を張り上げて歌う歌などが特徴として挙げられる。ハカは(部族間や目的によって違いはあったが)男女問わずに踊られた踊りで、戦士団によるものだけではなく、高位の人間を(若干、威圧的だが)平和的に迎える際にも踊られた。ハカでは、しかめ面をして歯をむいたり舌を出したりなど、顔をゆがめることがあるが、これは踊っている人間のマナが力強く噴出している様子を表したものであるとされている。[NEWLINE][NEWLINE]現在、ハカと言えば、ニュージーランドのラグビーチームであるオールブラックスが歓迎の挨拶としてフィールドで踊るものであると認識されがちだが、他にも多くの団体(ニュージーランド軍など)も独自のハカを持っている。 </Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HAKA_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]ハカ[ENDCOLOR][NEWLINE]倒した敵ユニットが持つ[ICON_STRENGTH]戦闘力の3倍のポイントが、[ICON_CULTURE]文化ポイントとして帝国に与えられる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HEALING">
+      <Text>祈祷師の癒し</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HEALING_DESC">
+      <Text>ハワイ語でポリネシアの司祭、もしくはシャーマンの治療師を意味する祈祷師「カフナ」は、 相談を持ちかけてきた人間によって不当な扱いを受けた、人々や祖先、精霊、そして神の関係を整える「ホ・オポノポノ」や薬草を用いて、民の治療を行っていた。祈祷師による治療は、関係の修復や前向きな意志の回復、そして個人の治癒に重点を置いていたため、ポリネシア文化の調和に寄与したとして賞賛されてもよい種のものである。現在、祈祷師による治療は、そのほとんどが、文芸復興のような形で、ハワイ人やポリネシア人の間で行われている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HEALING_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]祈祷師の癒し[ENDCOLOR][NEWLINE]白兵戦ユニットに衛生兵のレベルアップが付与される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HULA">
+      <Text>フラ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HULA_DESC">
+      <Text>フラは伝統的なハワイアンダンスの一種で、踊りには歌と楽器が伴う。大ポリネシア圏にはフラの親戚筋に当たるダンスがいくつか存在している。西洋との接触後、フラで使われていた楽器や歌は、多声音楽やウクレレといった西洋の音楽的要素と融合していった。フラは、荘厳な儀式の場から簡素な社交場にいたるまで、様々な事由で踊られていた。フラのダンサーの手の動きは、歌詞を表すための一番重要な部分であり、海のうねりや揺らぐ木々、そして登場人物の感情を表現している。俗受けを狙った文化遺産になりかけたフラだったが、ハワイではその後、古代式のフラを復活させるべく、本格的な対策が取られるようになった。  
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_HULA_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]フラ[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE]黄金時代の発動に必要な[ICON_HAPPINESS_1]幸福度が通常より25%少なくて済む。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_KAVA">
+      <Text>カワカワ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_KAVA_DESC">
+      <Text>これは、カワカワ(ピパーメチシクム)の根を加工したものを原料とする飲み物で、いくつかのポリネシアの儀式や集会には無くてはならないものであった。この飲み物には軽い鎮静作用があり、飲んだ者をリラックスした幸福な感情に浸らせるという、注目すべき作用を持っている。こういった作用を持っていることから、ポリネシアの集まりでは、参加者にリラックスした楽しい気分になってもらうために、開会時に振る舞われることが多い。カワカワの儀式的な事由についての正確な詳細は、ポリネシアの島ごとでまちまちである。最近では、薬理学的に有効である可能性があるとして、カワカワの活性成分が研究対象になっており、そういったことに夢中になる人々の間では、 非公式の非科学的な研究が無数に行われるといった、カワカワブームも起きてる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_KAVA_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]カワカワ[ENDCOLOR][NEWLINE]即座に[ICON_HAPPINESS_1]幸福度+10。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_LUAU">
+      <Text>ルーアウ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_LUAU_DESC">
+      <Text>1819年にカメハメハ大王2世が死去した後、いくつかの宗教上の禁忌が廃止された。ハワイの島々はその後、陽気な雰囲気の中で山盛りのご馳走と饗宴を楽しみ、踊りや歌なども併せて行われることが多かった、ルーアウを生み出した。ルーアウとは、タロイモの葉と鶏肉をココナッツミルクで焼いた料理を指す言葉であったが、すぐに祝宴そのものを示すようになった。王が主催するルーアウとなると非常に大規模なものとなり、「陽気な王様」として有名なカラカウア王の場合には、招待客を呼びすぎたために、数百人で交代交代で食事を取らなけらばならぬほどであった。ルーアウは現在、ハワイの文化圏では、「パーティー」の類語として使用されており、 世界の他の文化圏でも同じような意味で用いられている。  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_LUAU_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]ルーアウ[ENDCOLOR][NEWLINE]高級資源1種類につき[ICON_HAPPINESS_1]幸福度+2。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_MANA">
+      <Text>マナ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_MANA_DESC">
+      <Text>マナとは、万物が持つ神秘的な力や要素のことであり、ポリネシアの霊的な側面の中核をなすものである。この呼び名はポリネシアの地域によって 若干異なっているが、その重要性と根本的な意味に差異は見られない。偉大な功績や行いはマナに起因するものであり、偉業を成し遂げた人間にはマナがもたらされる。マナはその保持者に、権威や名声、力を授け、マナを失うことは力を失うことを意味する。一度マナを失ってしまえば、どのような呪文であっても唱えるのが非常に難しくなる。
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_MANA_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]マナ[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE]偉人の出現速度+100%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_POI">
+      <Text>ポイ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_POI_DESC">
+      <Text>ポリネシア人の主食であるポイは、タロイモを調理して潰したものから作られる。ポイには、調理法によってペースト状のものからマッシュポテト状のものまである。その風味は、「ノリみたい」、「上品で繊細」、そして「形容不可能」など様々な言葉で表される。発酵させた酸味のあるポイが、他の料理に使用されることもある。[NEWLINE][NEWLINE]タロイモは、ハワイ文化の創世神話の中でも特別な存在であるため、ポイがテーブルに置かれると祖先の霊魂が家族のもとにやってくると信じられていた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_POI_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]ポイ[ENDCOLOR][NEWLINE]出航したユニットの[ICON_MOVES]移動ポイント+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_POWHIRI">
+      <Text>ポフィリ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_POWHIRI_DESC">
+      <Text>高位の人間を迎えるための歓迎式、ポフィリは、マオリの複雑な儀式の1つである。ポフィリでは、訪問者に対する儀式的な脅し(ポフィリで最も興奮するパートであるとされる)から始まり、訪問者の胆力を試しながら迎える側が自身の武勇を示すことで、この後に齟齬を生まぬようにする、というのが一般的である。平和の精霊からの贈り物であるルアタプを訪問者が受け入れ、呼吸を共有するために両側がお互いの鼻を接触せさ合うホンギを行うことで、歓迎式は終わりを迎える。      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_POWHIRI_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]ポフィリ[ENDCOLOR][NEWLINE][ICON_GOLD]ゴールド贈呈によって得られる都市国家への[ICON_INFLUENCE]影響力+25%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_RONGO">
+      <Text>ロンゴロンゴ文字</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_RONGO_DESC">
+      <Text>イースター島にはモアイという謎めいたものが存在しているが、この島の謎はこれだけではない。ロンゴロンゴ文字とは、平板に刻まれた記号のようなもののことで、18世紀を起源とするものである。平板全体が、解読不能な祖語の一種で覆われている。ロンゴロンゴが刻まれた物体で、公式に認められているものは約20個あり、どれにも同様の文字が残されてはいるものの、現代の如何なる統計的方法を用いても意味を把握するまでには至っていない。現在の最も有力な説は、ロンゴロンゴは司祭や詠唱者が記憶を助けるために用いたものであり、「ロンゴロンゴ」という言葉はラパヌイの「暗唱する、詠唱する」からきたものである、という説である。ロンゴロンゴの謎を酷く複雑なものにしている原因は、かつてはロンゴロンゴが刻まれた平板はもっとたくさんあったものの、言葉を読み解くカギが失われていくにつれ、島の住人たちが、カヌーやリール、さらには薪として平板を消費してしまったためである、との報告が数多く存在する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_RONGO_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]ロンゴロンゴ文字[ENDCOLOR][NEWLINE]図書館と天文台が産出する[ICON_RESEARCH]科学力が50%増加する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_STONECARVING">
+      <Text>石彫刻</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_STONECARVING_DESC">
+      <Text>ポリネシアの彫刻は、彼らの至高の装飾芸術の1つとして発展を遂げており、島ごとにその彫刻スタイルは異なるものの、どの島でも身近にある物をその芸術の対象物に選んでいる。大きな森のない島では、石彫刻が有名である場合が多い。また、人間を模したティキに加え、ポリネシアの島々の多くが様々なスタイルの岩面彫刻を残している。ポリネシアの石彫刻としては、ラパヌイ(イースター島)の巨大モアイが何よりも有名であろう。887の石像は、ごく普通の石器でラパヌイの火山岩を彫って作られた後、マナを象徴する荘厳な証として、ラパヌイを一望できるアフと呼ばれる土台へと数十の人々によって運ばれた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_STONECARVING_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]石彫刻[ENDCOLOR][NEWLINE]モアイ１体につき[ICON_CULTURE]文化ポイント+１。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_SURFING">
+      <Text>サーフィン</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_SURFING_DESC">
+      <Text>太古のハワイ人によって長い間行われていた、ヘエナルと呼ばれる波乗りの技術は、エンデバー号のクックの記録によって初めて西洋に伝えられた。最高のサーフィンスポットやビーチへのアクセスは、地位によって制限されていたが、地位が低くても技術のあるサーファーはそこを利用することが許された。ハワイアンロングボードは長さが最大で5.5メートル、重さは45キロ以上もあり、乗りこなすにはかなりの腕前が必要である。[NEWLINE][NEWLINE]サーフィンを目の当たりにした人間は、すぐに自分も波を乗りこなしてみたくなるため、20世紀初期から現在にわたって、何度もブームの「波」が起こっている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_SURFING_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]サーフィン[ENDCOLOR][NEWLINE]各都市の[ICON_HAPPINESS_1]幸福度+１。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TAPACLOTH">
+      <Text>タパ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TAPACLOTH_DESC">
+      <Text>タパはポリネシアの伝統的な装飾布で、叩いて伸ばした樹皮を原料にしている。フィジーやトンガ、そしてサモアでは、これを芸術にまで昇華させたが、タパ自体はポリネシアの至る所で作られていた。伝統的なタパには、色のコントラストを用いた複雑な幾何学模様が描かれる。島の女性にとっては、集会や儀式で使うタパの準備は欠かせぬものであった。タパは富を表わすものであり、首長から贈られるタパは非常に価値のあるものであった。現在でもタパ布は、結婚式などの公式の場で用いられているが、もっと丈夫な素材である綿にその地位を奪われつつある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TAPACLOTH_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]タパ[ENDCOLOR][NEWLINE]各都市の[ICON_CULTURE]文化ポイント+2。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TAPU">
+      <Text>タプ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TAPU_DESC">
+      <Text>マナの考えに密接に関係しているタプは、大まかに言えば「神聖」を意味する言葉であり、禁止という意味も含蓄していると考えられている。この意味から、「タブー」という言葉の起源にもなっている。事物であるタプは極めて神聖なものであるため、それを侵害することは許されず、それに反してしまえばその神聖さが消失し、その事物はマナを失うことになる。ポリネシアの文化では、タプを破ることは非常に重大なことであると考えられていたため、破った者には重い罰が与えられた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TAPU_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]タプ[ENDCOLOR][NEWLINE][ICON_CULTURE]文化ポイントによる社会制度の獲得コスト-10%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_THE_ARTS_TEXT">
+      <Text>芸術とは、個人の感情を抽象的に表現したものであり、芸術家の想像力を具現化したものである。ごく平凡な対象でも、芸術家の手にかかれば、そのほとんどが芸術へと昇華される。 服に利用されていた樹皮製の布も、タパという装飾布になることで芸術へと変貌を遂げている。芸術とは、マナを利用して物体を神聖化し、芸術家を不死へと近づけるものでもある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TIKI">
+      <Text>ティキ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TIKI_DESC">
+      <Text>ティキは人間の形をしたポリネシアの彫刻で、通常は、首長や英雄、そして神のほか、伝説上の存在などを表現していた。ティキには、背が高く細身なものと、背が低く体躯がしっかりしたものがあり、両形とも、マナを持ちうるある種の高潔さを表わす一面を持っているとされる。例えば、ニヤニヤ笑いながら舌を出しているティキは、力と体力を表わしたものであるとされ、広い額は知恵を表現したものだと言われている。第2次世界大戦後、ポリネシアの文化が世界中に広まったことで、本来の意味から言葉が一人歩きするようになり、「ティキ」はそれ以来、様々な物品に楽しい響き与える形容詞として使用されるようになった。ポリネシアの古代の英雄たちがそれを見たら、ティキの名のつく物のほとんどにはマナが宿っていないことに気付くであろう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_POLICY_TIKI_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]ティキ[ENDCOLOR][NEWLINE]毎ターン産出される[ICON_CULTURE]文化ポイントに[ICON_HAPPINESS_1]幸福度の余剰分の50%が加算される。加算されたポイントは社会制度の獲得に使用することができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_RANDOM_MAP">
+      <Text>ランダム群島マップ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_SELECT_MAP">
+      <Text>マップ選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_AQUACULTURE_DESC">
+      <Text>水産養殖とは、陸上で植物や動物を栽培・畜産するように、水産植物や水生動物を栽培・養殖することである。水産養殖は、水辺に住む人々の食物獲得の主要な手段であるが、真珠や観賞用の魚といった贅沢品の養殖にも用いられている。自然界の中で行う大規模な漁などは、水産養殖には当てはまらないもので、娯楽で行う趣味の釣りとも異なるものである。海洋民族は、自然界から獲得したさまざまな栄養物を補助として摂取しながら、安定した水生動物の供給を確保する目的で水産養殖を利用することが多い。[NEWLINE][NEWLINE]人類の歴史において、人々が水産養殖を行っていた証拠は数多く発見されている。考古学的な証拠に基づく人類初の水産養殖は、オーストラリアのグンジュマラ族によるウナギの捕獲と養殖であるとされている。ポリネシア人は、岩で囲んだ養魚池を島の海岸線沿いに作り、水門から入ってきた魚を捕まえていた。水産養殖が食物の獲得手段として農業に取って代わるようなことはなかったが、天然の成魚の捕獲や卵の収穫、幼魚の飼育、貝の養殖方法といった知識は世界中に広まることになった。 また、水産養殖は、それまでに地域に存在していなかった種をもたらすようにもなったため、在来の生物たちに大きな影響を与えることもあった。[NEWLINE][NEWLINE]産業時代に入ると、水産養殖が持つ商業的価値に注目が集まるようになった。漁業の乱獲によって野生の魚介類が減少するにつれ、人気のある魚介類を、バターソースやレモンが並ぶ世界の食卓に安定供給する手段として、養殖が確立されるようになっていった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_AQUACULTURE_HELP">
+      <Text>漁船が産出する[ICON_GOLD]ゴールドの量が増加する。沿岸都市に[COLOR_POSITIVE_TEXT]港湾[ENDCOLOR]の建設が可能になる。港湾は水資源の[ICON_PRODUCTION]産出量を増加させる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_AQUACULTURE_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「水産養殖はリスクの大きいビジネスだ。金のためにやるんじゃない。好きだからやるんだ」[NEWLINE][TAB][TAB] - マイケル・マシューズ[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_ASTRONOMY_HELP">
+      <Text>出航を行ったユニットに[ICON_MOVES]移動+1。科学力の産出量を増加させる初の建造物、[COLOR_POSITIVE_TEXT]天文台[ENDCOLOR]の建設が可能になる。水タイルの食料産出量を増加させる[COLOR_POSITIVE_TEXT]灯台[ENDCOLOR]と、海上交易路が使用できるようになる[COLOR_POSITIVE_TEXT]港[ENDCOLOR]の建設が可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_CEREMONIAL_DANCE_DESC">
+      <Text>ポリネシアでは、広く使われる特有の文字といったものが発明されなかったため、文化は儀式的踊りや歌といった方法によって口承で伝えられていった。踊り方は地域ごとに異なっていた。儀式的踊りは豊作の儀式を兼ねており、神を崇め、首長と英雄を称え、尊敬すべき来訪者を歓迎する際にも踊られた。西洋文明の楽器や音楽スタイルが現地の踊りと融合する例も少なくなかった。[NEWLINE][NEWLINE]ポリネシアの儀式的踊りで最も有名なのは、ハワイのフラと、ニュージーランドの原住民マオリ族によるハカであろう。フラは波のようにうねる歌と動作で知られており、ハカは力強い足の踏み鳴らしや動作、リズミカルな歌で有名である。フラは、西洋文明との接触前から存在する古典フラ「カヒコ」と、19世紀から20世紀にかけて発達した近代的なフラ「アウアナ」に分類することができる。ハカは、マオリの男女が戦死者を弔うために踊っていたものである。[NEWLINE][NEWLINE]踊りは現在でもポリネシアの文化にとって重要なものであるため、ポリネシア中で教えられている。この踊りは、ラグビーチームの力強く攻撃的な歓迎の踊りとしてだけではなく、子孫たちに、平和的な意味を持つ優美な動きと歌を通して、ポリネシアの文化を経験させるための手段としても利用されている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_CEREMONIAL_DANCE_HELP">
+      <Text>古典時代最強のユニット、[COLOR_POSITIVE_TEXT]マオリの戦士[ENDCOLOR]の生産が可能になる。[COLOR_POSITIVE_TEXT]民族叙情詩[ENDCOLOR]の建設が可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_CEREMONIAL_DANCE_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「私が唯一その存在を信じる神とは、ダンスの踊り方を知っている神である」[NEWLINE][TAB][TAB] - フリードリヒ・ニーチェ[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_COMPASS_HELP">
+      <Text>ルネサンス時代初の海軍ユニット、[COLOR_POSITIVE_TEXT]キャラベル船[ENDCOLOR]の造船が可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_CONSTRUCTION_HELP">
+      <Text>都市の防御力を大幅に向上させる[COLOR_POSITIVE_TEXT]防壁[ENDCOLOR]の建設が可能になる。労働者が[COLOR_POSITIVE_TEXT]道路[ENDCOLOR]と[COLOR_POSITIVE_TEXT]要塞[ENDCOLOR]を建設できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_ECONOMICS_HELP">
+      <Text>[ICON_GOLD]ゴールドの産出量を増加させる[COLOR_POSITIVE_TEXT]市場[ENDCOLOR]の建設が可能になる。資源を活用するための施設、[COLOR_POSITIVE_TEXT]交易所[ENDCOLOR]の建設が可能になる。[ICON_PRODUCTION]生産力をユニットや建造物に費やす代わりに[ICON_GOLD]ゴールドに変換できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_GUNPOWDER_HELP">
+      <Text>本ゲームで一番目に登場する火器ユニット、[COLOR_POSITIVE_TEXT]マスケット銃兵[ENDCOLOR]の生産が可能になる。ヨーロッパとの接触でもたらされる新しいテクノロジーなど、数種類の経済的利益も享受できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_MASONRY_HELP">
+      <Text>都市の文化力の産出量を増加させる、[COLOR_POSITIVE_TEXT]モニュメント[ENDCOLOR]の建設が可能になる。労働者が[ICON_RES_MARBLE][COLOR_POSITIVE_TEXT]大理石[ENDCOLOR]上に採石場を建設できるようになり、資源活用施設を建設するための整地作業、[COLOR_POSITIVE_TEXT]湿原の埋め立て[ENDCOLOR]を行えるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_MINING_HELP">
+      <Text>タイルの[ICON_PRODUCTION]生産力を増加させる[COLOR_POSITIVE_TEXT]鉱山[ENDCOLOR]の建設が可能になる。資源活用施設を建設するための整地作業、[COLOR_POSITIVE_TEXT]森林の伐採[ENDCOLOR]と[COLOR_POSITIVE_TEXT]ジャングルの伐採[ENDCOLOR]が行えるようになる。.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_NAVIGATION_HELP">
+      <Text>このシナリオ初の軍艦、[COLOR_POSITIVE_TEXT]三段櫂船[ENDCOLOR]の造船が可能になる。 出航を行ったユニットが自分で軍艦から身を守れるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_OPTICS_HELP">
+      <Text>このシナリオ最強の軍艦、[COLOR_POSITIVE_TEXT]フリゲート鑑[ENDCOLOR]の造船が可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_ORNAMENTAL_CARVING_DESC">
+      <Text>ポリネシア人の装飾芸術として最も有名なものの1つが装飾彫刻である。ポリネシア人は貝殻や骨、木、そして石といった手近なものを、並外れた装飾品に変えることができた。彫刻は祝い事や儀式の用途だけでなく、椅子やスプーン、そして家屋の梁といった日用品の中にも当たり前のように用いられており、時には非常に細かい彫刻が施されることもあった。[NEWLINE][NEWLINE]彫刻はポリネシア中で日常的に行われていたが、彫刻のスタイルや好みなどは地域によって大きく異なっていた。例えば、材木資源が非常に豊富だった[NEWLINE]ハワイでは、非常に技巧的で細かい木彫り技術が育まれ、木がないイースター島の住人たちは、島の火山岩を威厳ある名高いモアイへと変貌させた。[NEWLINE][NEWLINE]人間の姿を模したティキ像は、彫刻の中でも最も多く作られた作品である。この像は、英雄か祖先を表現したものであると言われており、大きく見開いた目は「監視」を意味し、むき出しになった歯は「力」と「反抗」を意味し、マナの聖なる力を授かっていると信じられていた。ティキが、教養のない人の芸術、という意味を持つようになったのは、第二次世界大戦以降のことである。[NEWLINE][NEWLINE]ポリネシア人は自分たちの島の岩にもさまざまな岩面彫刻を残した。この岩面彫刻と、謎めいた原始文字であるロンゴロンゴについては現在も激しい論争が続いており、陰謀説が飛び交うことも珍しくない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_ORNAMENTAL_CARVING_HELP">
+      <Text>労働者が沿岸タイルに[COLOR_POSITIVE_TEXT]モアイ[ENDCOLOR]を建てられるようになる。モアイを建てたタイルは[ICON_CULTURE]文化ポイントを通常より多く産出する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_ORNAMENTAL_CARVING_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「大理石の中に天使を見た。自由にしてやろうと掘り続けた」[NEWLINE][TAB][TAB]- ミケランジェロ[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_SAILING_HELP">
+      <Text>[ICON_RES_FISH][COLOR_POSITIVE_TEXT]魚[ENDCOLOR]や[ICON_RES_PEARLS][COLOR_POSITIVE_TEXT]真珠[ENDCOLOR]などの水資源が活用できる、作業船の造船が可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_SCIENTIFIC_THEORY_HELP">
+      <Text>このテクノロジーからは何も得られない。太平洋に西洋人が現れる前に、これ以外の中世テクノロジーを全て獲得した場合には、このテクノロジーの研究を行うことになる。これは、西洋との接触がなければ、ポリネシアのテクノロジーが停滞するということを意味している。各文明は探検中のジェームズ・クック船長と接触することで、このテクノロジーを獲得することができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_TATTOO_DESC">
+      <Text>タトゥーは、永久に消えない模様をインクで人体に彫り込む技術で、ポリネシア人の間では非常に洗練されたもの、大きな意味を持つものとされている。最初にこの言葉を使ったのは、1769年にエンデバー号で海を渡ったイギリス人博物学者のジョセフ・バンクスで、タトゥーの呼称はポリネシア人の言葉「タタウ」に由来している。[NEWLINE][NEWLINE]ポリネシアのタトゥーは非常に大きく、人体の大部分を覆うほどの大きさになることも珍しくなかった。マオリと西ポリネシアでは、精巧なタトゥーを顔にまで彫り込むことも多かった。また、タトゥーが階級や地位と結びついている場合も多く、最も複雑で手の込んだタトゥーは首長や指導者のみに施された。デザインは、線で幾何学模様を描いたものが主で、タトゥーを施された者の霊的意味合いを持つと考えられていた。ポリネシアのタトゥーは、焼いたラマの睾丸から取れた染料を、鋭く研いだイノシシの牙で作られた幅広の櫛を使って刻み込む形で行われる。現代のタトゥーの彫り方は、ポリネシアの技術を直接受け継いだものと考えられており、最新の道具を使ってはいても、タトゥーを彫られる痛みは当時と全く変わらない。[NEWLINE][NEWLINE]若い成人にタトゥーを施す際には、いくつかの段階に分け、数日かけて行われていた。男性のタトゥーは、女性のものに比べて儀式的意味合いを持つ場合が多かった。タトゥーの拒否は社会的汚名に繋がることが多かったが、それでもタトゥーを拒否したり、途中で中止したりする人間もいたようである。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_TATTOO_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]兵舎[ENDCOLOR]や[COLOR_POSITIVE_TEXT]英雄叙事詩[ENDCOLOR]などの建造物により軍隊の能力が上がるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_TATTOO_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「タトゥーのない男は、神の目には映らない」[NEWLINE][TAB][TAB]- イバン族の諺[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_THEOLOGY_HELP">
+      <Text>[ICON_CULTURE]文化力の産出量を増加させる[COLOR_POSITIVE_TEXT]寺院[ENDCOLOR]と、[ICON_RESEARCH]科学力の産出量を増加させる[COLOR_POSITIVE_TEXT]図書館[ENDCOLOR]の建設が可能になる。[ICON_OCCUPIED]占領した都市の[ICON_HAPPINESS_4]不満を減少させる[COLOR_POSITIVE_TEXT]裁判所[ENDCOLOR]の建設が可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_TRAPPING_HELP">
+      <Text>強力な軍事ユニット、[COLOR_POSITIVE_TEXT]槍兵[ENDCOLOR]の生産が可能になる。労働者が、[ICON_RES_DEER]鹿、[ICON_RES_IVORY]象牙、[ICON_RES_FUR]毛皮の上に[COLOR_POSITIVE_TEXT]キャンプ[ENDCOLOR]を建設できるようになる。 </Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_WAYFINDING_DESC">
+      <Text>ポリネシアの伝統的な航海術である「ウェイファインディング」は、知識に基づく優れたシステムで、口承によって代々伝えられてきた。この航海術があったため、ポリネシア人は広大な太平洋でもカヌーによる航海が可能だった。 この航海術は、天文航法や海流の観測、鳥や魚の行動科学、 そして推測航法や気象観測といった要素から成り立っていた。ウェイファインディングはポリネシアの航海士集団のみに許された門外不出の技術で、羅針盤や時計なしに数万平方キロメートルに及ぶ範囲の航海を可能にした。 見習いは熟練の航海士から、歌や簡単な素材で作られた地図、星の動きや鳥の行動、そして天候の異常(地平線の彼方にある島が雲に覆われているなど)といった、主要な要素を学んだ。[NEWLINE][NEWLINE]ウェイファインディングは口承により伝えられてきた秘密の技術で、地域によって違いがあった。現在では、その知識の大部分は失われている。現在でも、ソロモン諸島のタウマコといった太平洋地域には、伝統的なポリネシアの航海術を教えている学校がある。 [NEWLINE][NEWLINE]ポリネシア人が比較的小さな船を使っていたことと、彼らが成し遂げた航海の偉業の数々から、多くの人が、ウェイファインディングの実用性とポリネシア人の航海術を非常に高く評価している。だたし、現実離れした過剰な評価を受けることも少なくない。とはいえ、市バス程度の大きさしかないポリネシアのカヌーを、遠くの小さな島々にまで導いたその信頼性と技術水準には、敬意を払わずにはいられないであろう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_WAYFINDING_HELP">
+      <Text>最初から取得しているテクノロジー。「出航」のロックが解除され、外海を航行できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TECH_WAYFINDING_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]「濃紺の海の波を越え、我らの意識は無限となり、魂は解き放たれる。そして、そよ風の届く彼方から、渦巻くあぶくよ、我らの帝国を見渡し故郷を見守れ！」[NEWLINE][TAB][TAB]- バイロン卿[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_THE_ARTS_TITLE">
+      <Text>{2_CivName:textkey}のティキ-{1_PlayerName:textkey}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TITLE">
+      <Text>未開の楽園</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TP_CULTURE_CITY_COST">
+      <Text>所持している都市の数が社会制度の獲得コストに影響を与えないため、好きなだけ都市を建てて領土を拡大することができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_TURNSREMAINING">
+      <Text>ターン制限なしのシナリオ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_UNIT_HELP_TRIREME">
+      <Text>制海権を握るために利用できる中世の海軍ユニット。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLYNESIAN_SCENARIO_UNIT_TRIREME_STRATEGY">
+      <Text>三段櫂船は、本ゲームにおいて文明が最初に使用できるようになる海軍ユニットである。あまり高くない遠隔戦闘力を持つ遠隔攻撃ユニットで、白兵戦は行えない。領海内にいる蛮族船を撃破するのに役立ち、出航を行っている敵ユニットにも攻撃できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_HEART_OF_POLYNESIA">
+      <Text>[ICON_CITIZEN]市民の数が生み出す[ICON_HAPPINESS_4]不満-25%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_HEART_OF_POLYNESIA_SHORT">
+      <Text>ポリネシアの心臓</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_HIGH_ISLANDERS">
+      <Text>天文学を発見すると無償で開拓者を獲得できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_HIGH_ISLANDERS_SHORT">
+      <Text>ホツ・マツアの入植者たち</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_TIU_TONGA_EMPIRE">
+      <Text>都市国家に対する[ICON_INFLUENCE]影響力の低下速度が3分の2になり、回復速度が50%増加する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_TIU_TONGA_EMPIRE_SHORT">
+      <Text>ティウ・トンガ帝国</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_TUPAIAS_NAVIGATION">
+      <Text>全陸海軍ユニットと斥候の視界+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_TUPAIAS_NAVIGATION_SHORT">
+      <Text>ツパイアの航海術</Text>
+    </Row>
+  </Language_JA_JP>
+</GameData>

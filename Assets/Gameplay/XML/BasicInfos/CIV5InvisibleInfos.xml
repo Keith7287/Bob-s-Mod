@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<!--
+	Very Important: If you change this at all you will need to change
+	NUM_INVISIBLE_TYPES in CvPlot and recompile (this was done for memory allocation efficiency)
+	-->
+
+	<!-- Table definition -->
+    <Table name="InvisibleInfos">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" notnull="true" unique="true" />
+        <Column name="Description" type="text" />
+    </Table>
+
+    <!-- Table data -->
+    <InvisibleInfos>
+        <Row>
+            <ID>0</ID>
+            <Type>INVISIBLE_SUBMARINE</Type>
+            <Description>TXT_KEY_INVISIBLE_SUBMARINE</Description>
+        </Row>
+    </InvisibleInfos>
+	
+</GameData>
+
+

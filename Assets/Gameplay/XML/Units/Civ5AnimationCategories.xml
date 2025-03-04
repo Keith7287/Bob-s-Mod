@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- This table is deprecated and may be removed in a future release.-->
+    <!-- It was carried over from Civ4 and never used in Civ5.-->
+  
+    <!-- Table definition -->
+    <Table name="AnimationCategories">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" notnull="true" unique="true" />
+        <Column name="DefaultTo" type="text" />
+        <Column name="BaseID" type="integer" default="-1" />
+    </Table>
+  
+</GameData>

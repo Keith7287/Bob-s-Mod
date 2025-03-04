@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="Specialists">
+		<!-- Basic info -->
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text"/>
+		<Column name="Help" type="text"/>
+		<Column name="Civilopedia" type="text"/>
+		<Column name="Strategy" type="text"/>
+		<Column name="GreatPeopleTitle" type="text"/>
+		<Column name="PortraitIndex" type="integer" default="-1"/>
+		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
+		<!-- Hotkey info -->
+		<!--<Column name="HotKey" type="text"/>
+		<Column name="HotKeyAlt" type="text"/>
+		<Column name="HotKeyPriority" type="integer" default="0"/>
+		<Column name="HotKeyPriorityAlt" type="integer" default="0"/>
+		<Column name="AltDown" type="boolean" default="false"/>
+		<Column name="AltDownAlt" type="boolean" default="false"/>
+		<Column name="ShiftDown" type="boolean" default="false"/>
+		<Column name="ShiftDownAlt" type="boolean" default="false"/>
+		<Column name="CtrlDown" type="boolean" default="false"/>
+		<Column name="CtrlDownAlt" type="boolean" default="false"/>-->
+		<!-- Specialists info -->
+		<Column name="Visible" type="boolean" default="false"/>
+		<Column name="Cost" type="integer" default="0"/>
+		<Column name="Experience" type="integer" default="0"/>
+		<Column name="GreatPeopleRateChange" type="integer" default="0"/>
+		<Column name="CulturePerTurn" type="integer" default="0"/>
+		<Column name="GreatPeopleUnitClass" type="text" default="NULL"/>
+	</Table>
+	<Table name="SpecialistFlavors">
+		<Column name="SpecialistType" type="text" reference="Specialists(Type)"/>
+		<Column name="FlavorType" type="text" reference="Flavors(Type)"/>
+		<Column name="Flavor" type="integer"/>
+	</Table>
+	<Table name="SpecialistYields">
+		<Column name="SpecialistType" type="text" reference="Specialists(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
+	<!-- Table data -->
+	<Specialists>
+		<Row>
+			<ID>0</ID>
+			<Type>SPECIALIST_CITIZEN</Type>
+			<Description>TXT_KEY_SPECIALIST_CITIZEN</Description>
+			<Strategy>TXT_KEY_SPECIALIST_CITIZEN_STRATEGY</Strategy>
+			<Visible>true</Visible>
+			<IconAtlas>CITIZEN_ATLAS</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>SPECIALIST_ARTIST</Type>
+			<Description>TXT_KEY_SPECIALIST_ARTIST</Description>
+			<Strategy>TXT_KEY_SPECIALIST_ARTIST_STRATEGY</Strategy>
+			<GreatPeopleTitle>TXT_KEY_SPECIALIST_ARTIST_TITLE</GreatPeopleTitle>
+			<Visible>true</Visible>
+			<Cost>0</Cost>
+			<GreatPeopleUnitClass>UNITCLASS_ARTIST</GreatPeopleUnitClass>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>
+			<CulturePerTurn>3</CulturePerTurn>
+			<IconAtlas>CITIZEN_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>SPECIALIST_SCIENTIST</Type>
+			<Description>TXT_KEY_SPECIALIST_SCIENTIST</Description>
+			<Strategy>TXT_KEY_SPECIALIST_SCIENTIST_STRATEGY</Strategy>
+			<GreatPeopleTitle>TXT_KEY_SPECIALIST_SCIENTIST_TITLE</GreatPeopleTitle>
+			<Visible>true</Visible>
+			<Cost>0</Cost>
+			<GreatPeopleUnitClass>UNITCLASS_SCIENTIST</GreatPeopleUnitClass>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>
+			<IconAtlas>CITIZEN_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>SPECIALIST_MERCHANT</Type>
+			<Description>TXT_KEY_SPECIALIST_MERCHANT</Description>
+			<Strategy>TXT_KEY_SPECIALIST_MERCHANT_STRATEGY</Strategy>
+			<GreatPeopleTitle>TXT_KEY_SPECIALIST_MERCHANT_TITLE</GreatPeopleTitle>
+			<Visible>true</Visible>
+			<Cost>0</Cost>
+			<GreatPeopleUnitClass>UNITCLASS_MERCHANT</GreatPeopleUnitClass>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>
+			<IconAtlas>CITIZEN_ATLAS</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>SPECIALIST_ENGINEER</Type>
+			<Description>TXT_KEY_SPECIALIST_ENGINEER</Description>
+			<Strategy>TXT_KEY_SPECIALIST_ENGINEER_STRATEGY</Strategy>
+			<GreatPeopleTitle>TXT_KEY_SPECIALIST_ENGINEER_TITLE</GreatPeopleTitle>
+			<Visible>true</Visible>
+			<Cost>0</Cost>
+			<GreatPeopleUnitClass>UNITCLASS_ENGINEER</GreatPeopleUnitClass>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>
+			<IconAtlas>CITIZEN_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+	</Specialists>
+	<SpecialistYields>
+		<Row>
+			<SpecialistType>SPECIALIST_CITIZEN</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</SpecialistYields>
+</GameData>

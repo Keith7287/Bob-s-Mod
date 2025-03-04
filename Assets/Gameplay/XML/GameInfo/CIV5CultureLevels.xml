@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- Table definition -->
+    <Table name="CultureLevels">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" notnull="true" unique="true" />
+        <Column name="Description" type="text" />
+        <Column name="CityDefenseModifier" type="integer" default="0" />
+    </Table>
+
+    <Table name="CultureLevel_SpeedThresholds">
+        <Column name="CultureLevelType" type="text" reference="CultureLevels(Type)" />
+        <Column name="GameSpeedType" type="text" reference="GameSpeeds(Type)" />
+        <Column name="Threshold" type="integer" default="0" />
+    </Table>
+
+    <!-- Table data -->
+    <CultureLevels>
+		<Row>
+            <ID>0</ID>
+			<Type>CULTURELEVEL_NONE</Type>
+			<Description>TXT_KEY_CULTURELEVEL_NONE</Description>
+		</Row>
+		<Row>
+			<Type>CULTURELEVEL_POOR</Type>
+			<Description>TXT_KEY_CULTURELEVEL_POOR</Description>
+		</Row>
+		<Row>
+			<Type>CULTURELEVEL_FLEDGLING</Type>
+			<Description>TXT_KEY_CULTURELEVEL_FLEDGLING</Description>
+			<CityDefenseModifier>20</CityDefenseModifier>
+		</Row>
+		<Row>
+			<Type>CULTURELEVEL_DEVELOPING</Type>
+			<Description>TXT_KEY_CULTURELEVEL_DEVELOPING</Description>
+			<CityDefenseModifier>40</CityDefenseModifier>
+		</Row>
+		<Row>
+			<Type>CULTURELEVEL_REFINED</Type>
+			<Description>TXT_KEY_CULTURELEVEL_REFINED</Description>
+			<CityDefenseModifier>60</CityDefenseModifier>
+		</Row>
+		<Row>
+			<Type>CULTURELEVEL_INFLUENTIAL</Type>
+			<Description>TXT_KEY_CULTURELEVEL_INFLUENTIAL</Description>
+			<CityDefenseModifier>80</CityDefenseModifier>
+		</Row>
+		<Row>
+			<Type>CULTURELEVEL_LEGENDARY</Type>
+			<Description>TXT_KEY_CULTURELEVEL_LEGENDARY</Description>
+			<CityDefenseModifier>100</CityDefenseModifier>
+		</Row>
+	</CultureLevels>
+
+    <CultureLevel_SpeedThresholds>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_FLEDGLING</CultureLevelType>
+            <GameSpeedType>GAMESPEED_MARATHON</GameSpeedType>
+            <Threshold>30</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_FLEDGLING</CultureLevelType>
+            <GameSpeedType>GAMESPEED_EPIC</GameSpeedType>
+            <Threshold>15</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_FLEDGLING</CultureLevelType>
+            <GameSpeedType>GAMESPEED_STANDARD</GameSpeedType>
+            <Threshold>10</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_FLEDGLING</CultureLevelType>
+            <GameSpeedType>GAMESPEED_QUICK</GameSpeedType>
+            <Threshold>5</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_DEVELOPING</CultureLevelType>
+            <GameSpeedType>GAMESPEED_MARATHON</GameSpeedType>
+            <Threshold>300</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_DEVELOPING</CultureLevelType>
+            <GameSpeedType>GAMESPEED_EPIC</GameSpeedType>
+            <Threshold>150</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_DEVELOPING</CultureLevelType>
+            <GameSpeedType>GAMESPEED_STANDARD</GameSpeedType>
+            <Threshold>100</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_DEVELOPING</CultureLevelType>
+            <GameSpeedType>GAMESPEED_QUICK</GameSpeedType>
+            <Threshold>50</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_REFINED</CultureLevelType>
+            <GameSpeedType>GAMESPEED_MARATHON</GameSpeedType>
+            <Threshold>1500</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_REFINED</CultureLevelType>
+            <GameSpeedType>GAMESPEED_EPIC</GameSpeedType>
+            <Threshold>750</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_REFINED</CultureLevelType>
+            <GameSpeedType>GAMESPEED_STANDARD</GameSpeedType>
+            <Threshold>500</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_REFINED</CultureLevelType>
+            <GameSpeedType>GAMESPEED_QUICK</GameSpeedType>
+            <Threshold>250</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_INFLUENTIAL</CultureLevelType>
+            <GameSpeedType>GAMESPEED_MARATHON</GameSpeedType>
+            <Threshold>15000</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_INFLUENTIAL</CultureLevelType>
+            <GameSpeedType>GAMESPEED_EPIC</GameSpeedType>
+            <Threshold>7500</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_INFLUENTIAL</CultureLevelType>
+            <GameSpeedType>GAMESPEED_STANDARD</GameSpeedType>
+            <Threshold>5000</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_INFLUENTIAL</CultureLevelType>
+            <GameSpeedType>GAMESPEED_QUICK</GameSpeedType>
+            <Threshold>2500</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_LEGENDARY</CultureLevelType>
+            <GameSpeedType>GAMESPEED_MARATHON</GameSpeedType>
+            <Threshold>150000</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_LEGENDARY</CultureLevelType>
+            <GameSpeedType>GAMESPEED_EPIC</GameSpeedType>
+            <Threshold>75000</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_LEGENDARY</CultureLevelType>
+            <GameSpeedType>GAMESPEED_STANDARD</GameSpeedType>
+            <Threshold>50000</Threshold>
+        </Row>
+        <Row>
+            <CultureLevelType>CULTURELEVEL_LEGENDARY</CultureLevelType>
+            <GameSpeedType>GAMESPEED_QUICK</GameSpeedType>
+            <Threshold>25000</Threshold>
+        </Row>
+    </CultureLevel_SpeedThresholds>
+</GameData>

@@ -1,0 +1,16 @@
+<LeaderScene FarClip="100000" lights ="Boudicca_Lights.gr2" camera="Celts_Boudicca_Camera.fxsxml" cubemap_prefix ="Boudicca" FallbackImage="Boudicca.dds">
+
+<HackLightSettings intensity="100" direction="-1.1,-0.7,1.3" color="255,255,255"/> 
+
+<DOFSettings max_width="4" blur_distance="1261" ramp_distance="653" ></DOFSettings> 
+
+
+
+ <LeaderObject  model="Celts_Boudicca.fxsxml"> </LeaderObject>
+<BackgroundObject model="Boudicca_Scene.fxsxml" ></BackgroundObject>
+<BackgroundObject model="Boudicca_Scene_VFX.fxsxml" ></BackgroundObject>
+
+</LeaderScene>
+
+
+

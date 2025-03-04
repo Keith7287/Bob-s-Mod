@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<!-- Sid Meier's Civilization 5 -->
+<!-- Copyright Firaxis Games 2010 -->
+<!-- -->
+<!-- Leader Table Definitions -->
+<GameData>
+	<Table name="Leaders">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text"/>
+		<Column name="Civilopedia" type="text"/>
+		<Column name="CivilopediaTag" type="text"/>
+		<Column name="ArtDefineTag" type="text"/>
+		<Column name="VictoryCompetitiveness" type="integer" default="0" />
+		<Column name="WonderCompetitiveness" type="integer" default="0"/>
+		<Column name="MinorCivCompetitiveness" type="integer" default="0"/>
+		<Column name="Boldness" type="integer" default="0"/>
+		<Column name="DiploBalance" type="integer" default="0"/>
+		<Column name="WarmongerHate" type="integer" default="0"/>
+		
+		<!-- This column has been deprecated. -->
+		<Column name="WorkAgainstWillingness" type="integer" default="0"/>
+		
+		<!-- This column has been deprecated. -->
+		<Column name="WorkWithWillingness" type="integer" default="0"/>
+		
+		<Column name="DenounceWillingness" type="integer" default="0"/>
+		<Column name="DoFWillingness" type="integer" default="0"/>
+		<Column name="Loyalty" type="integer" default="0"/>
+		<Column name="Neediness" type="integer" default="0"/>
+		<Column name="Forgiveness" type="integer" default="0"/>
+		<Column name="Chattiness" type="integer" default="0"/>
+		<Column name="Meanness" type="integer" default="0"/>
+		<Column name="PortraitIndex" type="integer" default="-1"/>
+		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
+    <Column name="PackageID" type="text" default="NULL"/>
+  </Table>
+	<Table name="Leader_MajorCivApproachBiases">
+		<Column name="LeaderType" type="text" reference="Leaders(Type)"/>
+		<Column name="MajorCivApproachType" type="text" reference="MajorCivApproachTypes(Type)"/>
+		<Column name="Bias" type="integer"/>
+	</Table>
+	<Table name="Leader_MinorCivApproachBiases">
+		<Column name="LeaderType" type="text" reference="Leaders(Type)"/>
+		<Column name="MinorCivApproachType" type="text" reference="MinorCivApproachTypes(Type)"/>
+		<Column name="Bias" type="integer"/>
+	</Table>
+	<Table name="Leader_Flavors">
+		<Column name="LeaderType" type="text" reference="Leaders(Type)"/>
+		<Column name="FlavorType" type="text" reference="Flavors(Type)"/>
+		<Column name="Flavor" type="integer"  default="-1"/>
+	</Table>
+	<Table name="Leader_Traits">
+		<Column name="LeaderType" type="text" reference="Leaders(Type)"/>
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+	</Table>
+</GameData>

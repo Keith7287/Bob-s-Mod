@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="Improvements">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text"/>
+		<Column name="Civilopedia" type="text"/>
+		<Column name="Help" type="text"/>
+		<Column name="ArtDefineTag" type="text"/>
+		<Column name="WorldSoundscapeAudioScript" type="text"/>
+		<Column name="ImprovementPillage" type="text" reference="Improvements(Type)" default="NULL"/>
+		<Column name="ImprovementUpgrade" type="text" reference="Improvements(Type)" default="NULL"/>
+		<Column name="SpecificCivRequired" type="boolean" default="false"/>
+		<Column name="CivilizationType" type="text" reference="Civilizations(Type)" default="NULL"/>
+		<Column name="HillsMakesValid" type="boolean" default="false"/>
+		<Column name="FreshWaterMakesValid" type="boolean" default="false"/>
+		<Column name="RiverSideMakesValid" type="boolean" default="false"/>
+		<Column name="NoFreshWater" type="boolean" default="false"/>
+		<Column name="RequiresFlatlands" type="boolean" default="false"/>
+		<Column name="RequiresFlatlandsOrFreshWater" type="boolean" default="false"/>
+		<Column name="RequiresFeature" type="boolean" default="false"/>
+		<Column name="Coastal" type="boolean" default="false"/>
+		<Column name="Water" type="boolean" default="false"/>
+		<Column name="DestroyedWhenPillaged" type="boolean" default="false"/>
+		<Column name="BuildableOnResources" type="boolean" default="false"/>
+		<Column name="BarbarianCamp" type="boolean" default="false"/>
+		<Column name="Goody" type="boolean" default="false"/>
+		<Column name="Permanent" type="boolean" default="false"/>
+		<Column name="OutsideBorders" type="boolean" default="false"/>
+		<Column name="GraphicalOnly" type="boolean" default="false"/>
+		<Column name="CreatedByGreatPerson" type="boolean" default="false"/>
+		<Column name="Culture" type="integer" default="0"/>
+		<Column name="CultureAdjacentSameType" type="integer" default="0"/>
+		<Column name="TilesPerGoody" type="integer" default="0"/>
+		<Column name="GoodyRange" type="integer" default="0"/>
+		<Column name="FeatureGrowth" type="integer" default="0"/>
+		<Column name="UpgradeTime" type="integer" default="0"/>
+		<Column name="RiverSideUpgradeMod" type="integer" default="0"/>
+		<Column name="CoastalLandUpgradeMod" type="integer" default="0"/>
+		<Column name="HillsUpgradeMod" type="integer" default="0"/>
+		<Column name="FreshWaterUpgradeMod" type="integer" default="0"/>
+		<Column name="DefenseModifier" type="integer" default="0"/>
+		<Column name="NearbyEnemyDamage" type="integer" default="0"/>
+		<Column name="PillageGold" type="integer" default="0"/>
+		<Column name="ResourceExtractionMod" type="integer" default="0"/>
+		<Column name="GoldMaintenance" type="integer" default="0"/>
+		<Column name="PortraitIndex" type="integer" default="-1"/>
+		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
+	</Table>
+	<Table name="Improvement_Flavors">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="FlavorType" type="text" reference="Flavors(Type)"/>
+		<Column name="Flavor" type="integer" notnull="true"/>
+	</Table>
+	<Table name="Improvement_Yields">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer" default="0"/>
+	</Table>
+	<Table name="Improvement_AdjacentCityYields">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer" default="0"/>
+	</Table>
+	<Table name="Improvement_CoastalLandYields">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer" default="0"/>
+	</Table>
+	<Table name="Improvement_FreshWaterYields">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer" default="0"/>
+	</Table>
+	<Table name="Improvement_HillsYields">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer" default="0"/>
+	</Table>
+	<Table name="Improvement_AdjacentMountainYieldChanges">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer" default="0"/>
+	</Table>
+	<Table name="Improvement_PrereqNatureYields">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer" default="0"/>
+	</Table>
+	<Table name="Improvement_RiverSideYields">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer" default="0"/>
+	</Table>
+	<Table name="Improvement_ValidTerrains">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="TerrainType" type="text" reference="Terrains(Type)"/>
+	</Table>
+	<Table name="Improvement_ValidFeatures">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="FeatureType" type="text" reference="Features(Type)"/>
+	</Table>
+	<Table name="Improvement_ResourceTypes">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="ResourceType" type="text" reference="Resources(Type)"/>
+		<Column name="ResourceMakesValid" type="boolean" default="true"/>
+		<Column name="ResourceTrade" type="boolean" default="true"/>
+		<Column name="DiscoveryRand" type="integer" default="0"/>
+		<Column name="QuantityRequirement" type="integer" default="0"/>
+	</Table>
+	<Table name="Improvement_ResourceType_Yields">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="ResourceType" type="text" reference="Resources(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer" default="0"/>
+	</Table>
+	<Table name="Improvement_RouteYieldChanges">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="RouteType" type="text" reference="Routes(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
+	<Table name="Improvement_TechYieldChanges">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="TechType" type="text" reference="Technologies(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
+	<Table name="Improvement_TechNoFreshWaterYieldChanges">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="TechType" type="text" reference="Technologies(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
+	<Table name="Improvement_TechFreshWaterYieldChanges">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="TechType" type="text" reference="Technologies(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
+	<!-- Table data -->
+	<Improvements>
+		<Row>
+			<ID>0</ID>
+			<Type>IMPROVEMENT_CITY_RUINS</Type>
+			<Description>TXT_KEY_IMPROVEMENT_CITY_RUINS</Description>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_CITY_RUINS_PEDIA</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_CITY_RUINS</ArtDefineTag>
+			<PortraitIndex>39</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_BARBARIAN_CAMP</Type>
+			<Description>TXT_KEY_IMPROVEMENT_ENCAMPMENT</Description>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_BARBARIAN_CAMP_PEDIA</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_BARBARIAN_CAMP</ArtDefineTag>
+			<BarbarianCamp>true</BarbarianCamp>
+			<PortraitIndex>21</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_GOODY_HUT</Type>
+			<Description>TXT_KEY_IMPROVEMENT_GOODY_HUT</Description>
+			<Civilopedia>TXT_KEY_IMPROVEMENT_GOODY_HUT_PEDIA</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_GOODY_HUT</ArtDefineTag>
+			<Goody>true</Goody>
+			<TilesPerGoody>40</TilesPerGoody>
+			<GoodyRange>3</GoodyRange>
+			<IconAtlas>NW_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_FARM</Type>
+			<Description>TXT_KEY_IMPROVEMENT_FARM</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_FARM_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_FARM</ArtDefineTag>
+			<FreshWaterMakesValid>true</FreshWaterMakesValid>
+			<RequiresFlatlandsOrFreshWater>true</RequiresFlatlandsOrFreshWater>
+			<PillageGold>18</PillageGold>
+			<PortraitIndex>22</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_MINE</Type>
+			<Description>TXT_KEY_IMPROVEMENT_MINE</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_MINE_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_MINE</ArtDefineTag>
+			<HillsMakesValid>true</HillsMakesValid>
+			<PillageGold>20</PillageGold>
+			<PortraitIndex>26</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_QUARRY</Type>
+			<Description>TXT_KEY_IMPROVEMENT_QUARRY</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_QUARRY_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_QUARRY</ArtDefineTag>
+			<PillageGold>20</PillageGold>
+			<PortraitIndex>31</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_TRADING_POST</Type>
+			<Description>TXT_KEY_IMPROVEMENT_TRADING_POST</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_TRADING_POST_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_TRADING_POST</ArtDefineTag>
+			<PillageGold>20</PillageGold>
+			<PortraitIndex>32</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_LUMBERMILL</Type>
+			<Description>TXT_KEY_IMPROVEMENT_LUMBERMILL</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_LUMBERMILL_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_LUMBERMILL</ArtDefineTag>
+			<RequiresFeature>true</RequiresFeature>
+			<PillageGold>10</PillageGold>
+			<PortraitIndex>25</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_PASTURE</Type>
+			<Description>TXT_KEY_IMPROVEMENT_PASTURE</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_PASTURE_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_PASTURE</ArtDefineTag>
+			<PillageGold>10</PillageGold>
+			<PortraitIndex>29</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_FISHING_BOATS</Type>
+			<Description>TXT_KEY_IMPROVEMENT_FISHING_BOATS</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_FISHINGBOATS_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_FISHING_BOATS</ArtDefineTag>
+			<Water>true</Water>
+			<PillageGold>10</PillageGold>
+			<DestroyedWhenPillaged>true</DestroyedWhenPillaged>
+			<PortraitIndex>23</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_PLANTATION</Type>
+			<Description>TXT_KEY_IMPROVEMENT_PLANTATION</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_PLANTATION_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_PLANTATION</ArtDefineTag>
+			<PillageGold>10</PillageGold>
+			<PortraitIndex>30</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_CAMP</Type>
+			<Description>TXT_KEY_IMPROVEMENT_CAMP</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_CAMP_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_CAMP</ArtDefineTag>
+			<PillageGold>10</PillageGold>
+			<PortraitIndex>19</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_WELL</Type>
+			<Description>TXT_KEY_IMPROVEMENT_WELL</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_WELL_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_WELL</ArtDefineTag>
+			<PillageGold>20</PillageGold>
+			<PortraitIndex>28</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_OFFSHORE_PLATFORM</Type>
+			<Description>TXT_KEY_IMPROVEMENT_OFFSHORE_PLATFORM</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_OFFSHOREPLATFORM_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_OFFSHORE_PLATFORM</ArtDefineTag>
+			<Water>true</Water>
+			<PillageGold>20</PillageGold>
+			<DestroyedWhenPillaged>true</DestroyedWhenPillaged>
+			<PortraitIndex>27</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_FORT</Type>
+			<Description>TXT_KEY_IMPROVEMENT_FORT</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_FORT_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_FORT</ArtDefineTag>
+			<DestroyedWhenPillaged>true</DestroyedWhenPillaged>
+			<BuildableOnResources>true</BuildableOnResources>
+			<DefenseModifier>50</DefenseModifier>
+			<OutsideBorders>true</OutsideBorders>
+			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_LANDMARK</Type>
+			<Description>TXT_KEY_IMPROVEMENT_LANDMARK</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_LANDMARK_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_MONOLITH_EURO</ArtDefineTag>
+			<Culture>6</Culture>
+			<BuildableOnResources>true</BuildableOnResources>
+			<PillageGold>20</PillageGold>
+			<CreatedByGreatPerson>true</CreatedByGreatPerson>
+			<PortraitIndex>36</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_ACADEMY</Type>
+			<Description>TXT_KEY_IMPROVEMENT_ACADEMY</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_ACADEMY_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_ACADEMY</ArtDefineTag>
+			<BuildableOnResources>true</BuildableOnResources>
+			<PillageGold>20</PillageGold>
+			<CreatedByGreatPerson>true</CreatedByGreatPerson>
+			<PortraitIndex>38</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_CUSTOMS_HOUSE</Type>
+			<Description>TXT_KEY_IMPROVEMENT_CUSTOMS_HOUSE</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_CUSTOMS_HOUSE_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_CUSTOMS_HOUSE</ArtDefineTag>
+			<BuildableOnResources>true</BuildableOnResources>
+			<PillageGold>20</PillageGold>
+			<CreatedByGreatPerson>true</CreatedByGreatPerson>
+			<PortraitIndex>33</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_MANUFACTORY</Type>
+			<Description>TXT_KEY_IMPROVEMENT_MANUFACTORY</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_MANUFACTORY_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_MANUFACTORY</ArtDefineTag>
+			<BuildableOnResources>true</BuildableOnResources>
+			<PillageGold>20</PillageGold>
+			<CreatedByGreatPerson>true</CreatedByGreatPerson>
+			<PortraitIndex>37</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>IMPROVEMENT_CITADEL</Type>
+			<Description>TXT_KEY_IMPROVEMENT_CITADEL</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_CITADEL_TEXT</Civilopedia>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_CITADEL</ArtDefineTag>
+			<BuildableOnResources>true</BuildableOnResources>
+			<DefenseModifier>100</DefenseModifier>
+			<CreatedByGreatPerson>true</CreatedByGreatPerson>
+			<NearbyEnemyDamage>3</NearbyEnemyDamage>
+			<PortraitIndex>35</PortraitIndex>
+			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
+		</Row>
+	</Improvements>
+	<Improvement_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Improvement_Yields>
+	<Improvement_HillsYields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>0</Yield>
+		</Row>
+	</Improvement_HillsYields>
+	<Improvement_ValidTerrains>
+		<Row>
+			<ImprovementType>IMPROVEMENT_BARBARIAN_CAMP</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_BARBARIAN_CAMP</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_BARBARIAN_CAMP</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_BARBARIAN_CAMP</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_GOODY_HUT</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_GOODY_HUT</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_GOODY_HUT</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_GOODY_HUT</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<TerrainType>TERRAIN_HILL</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidFeatures>
+		<Row>
+			<ImprovementType>IMPROVEMENT_BARBARIAN_CAMP</ImprovementType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_BARBARIAN_CAMP</ImprovementType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_GOODY_HUT</ImprovementType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_GOODY_HUT</ImprovementType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<FeatureType>FEATURE_FOREST</FeatureType>
+		</Row>
+	</Improvement_ValidFeatures>
+	<Improvement_ResourceTypes>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<ResourceType>RESOURCE_WHEAT</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<ResourceType>RESOURCE_PEARLS</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_SPICES</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WELL</ImprovementType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>							
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>					
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+		</Row>					
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>		
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>			
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>	
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CITADEL</ImprovementType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+		</Row>
+	</Improvement_ResourceTypes>
+	<Improvement_ResourceType_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_URANIUM</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
+			<ResourceType>RESOURCE_STONE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<ResourceType>RESOURCE_DEER</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<ResourceType>RESOURCE_FISH</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<ResourceType>RESOURCE_PEARLS</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_BANANA</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>-1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_SPICES</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WELL</ImprovementType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
+			<ResourceType>RESOURCE_OIL</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Improvement_ResourceType_Yields>
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
+			<TechType>TECH_SCIENTIFIC_THEORY</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<TechType>TECH_ECONOMICS</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<TechType>TECH_CHEMISTRY</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_QUARRY</ImprovementType>
+			<TechType>TECH_CHEMISTRY</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PLANTATION</ImprovementType>
+			<TechType>TECH_FERTILIZER</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
+			<TechType>TECH_COMPASS</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+			<TechType>TECH_FERTILIZER</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+			<TechType>TECH_ECONOMICS</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
+			<TechType>TECH_SCIENTIFIC_THEORY</TechType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
+			<TechType>TECH_ECONOMICS</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
+			<TechType>TECH_CHEMISTRY</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+	<Improvement_TechNoFreshWaterYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<TechType>TECH_FERTILIZER</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechNoFreshWaterYieldChanges>
+	<Improvement_TechFreshWaterYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_FARM</ImprovementType>
+			<TechType>TECH_CIVIL_SERVICE</TechType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_TechFreshWaterYieldChanges>
+</GameData>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<!-- Table data -->
+	<BuildingClasses>
+		<!-- Wonders -->
+		<Row>
+			<Type>BUILDINGCLASS_STATUE_ZEUS</Type>
+			<DefaultBuilding>BUILDING_STATUE_ZEUS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_STATUE_ZEUS</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TEMPLE_ARTEMIS</Type>
+			<DefaultBuilding>BUILDING_TEMPLE_ARTEMIS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TEMPLE_ARTEMIS</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MAUSOLEUM_HALICARNASSUS</Type>
+			<DefaultBuilding>BUILDING_MAUSOLEUM_HALICARNASSUS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MAUSOLEUM_HALICARNASSUS</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+</GameData>

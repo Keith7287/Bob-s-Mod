@@ -1,0 +1,9 @@
+<LeaderScene FarClip="110000" lights ="Isabella_Lights.gr2" camera="Isabella_Camera.fxsxml" ColorKey="Isabella_COLORKEY.tga" cubemap_prefix ="Isabella" FallbackImage="Isabella.dds">
+  
+<DOFSettings max_width="1.98" blur_distance="1834" ramp_distance="1452" ></DOFSettings>
+<BloomSettings max_width="14.64" scale="1.48" min="1.11" ></BloomSettings>
+
+  <LeaderObject  model="Spain_Isabella.fxsxml"></LeaderObject>
+  <BackgroundObject model="Isabella_Scene.fxsxml" ></BackgroundObject>
+
+</LeaderScene>

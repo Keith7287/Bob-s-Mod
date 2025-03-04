@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<!-- Global Defines -->
+<GameData>
+	<Table name="Defines">
+		<Column name="Name" type="text" primarykey="true"/>
+		<Column name="Value" type="variant"/>
+	</Table>
+	<Table name="PostDefines">
+		<Column name="Name" type="text" primarykey="true"/>
+		<Column name="Key" type="text"/>
+		<Column name="Table" type="text"/>
+	</Table>
+	<Defines>
+		<Row Name="CAN_WORK_WATER_FROM_GAME_START">
+			<Value>1</Value>
+		</Row>
+		<Row Name="NAVAL_PLOT_BLOCKADE_RANGE">
+			<Value>2</Value>
+		</Row>
+		<Row Name="EVENT_MESSAGE_TIME">
+			<Value>10</Value>
+		</Row>
+		<Row Name="START_YEAR">
+			<Value>-4000</Value>
+		</Row>
+		<Row Name="WEEKS_PER_MONTHS">
+			<Value>4</Value>
+		</Row>
+		<Row Name="RECON_VISIBILITY_RANGE">
+			<Value>6</Value>
+		</Row>
+		<Row Name="PLOT_VISIBILITY_RANGE">
+			<Value>1</Value>
+		</Row>
+		<Row Name="UNIT_VISIBILITY_RANGE">
+			<Value>1</Value>
+		</Row>
+		<Row Name="AIR_UNIT_REBASE_RANGE_MULTIPLIER">
+			<Value>200</Value>
+		</Row>
+		<Row Name="MOUNTAIN_SEE_FROM_CHANGE">
+			<Value>2</Value>
+		</Row>
+		<Row Name="MOUNTAIN_SEE_THROUGH_CHANGE">
+			<Value>2</Value>
+		</Row>
+		<Row Name="HILLS_SEE_FROM_CHANGE">
+			<Value>1</Value>
+		</Row>
+		<Row Name="HILLS_SEE_THROUGH_CHANGE">
+			<Value>1</Value>
+		</Row>
+		<Row Name="SEAWATER_SEE_FROM_CHANGE">
+			<Value>1</Value>
+		</Row>
+		<Row Name="SEAWATER_SEE_THROUGH_CHANGE">
+			<Value>1</Value>
+		</Row>
+		<Row Name="MAX_YIELD_STACK">
+			<Value>5</Value>
+		</Row>
+		<Row Name="MOVE_DENOMINATOR">
+			<Value>60</Value>
+		</Row>
+		<Row Name="STARTING_DISTANCE_PERCENT">
+			<Value>12</Value>
+		</Row>
+		<Row Name="MIN_CIV_STARTING_DISTANCE">
+			<Value>10</Value>
+		</Row>
+		<Row Name="MIN_CITY_RANGE">
+			<Value>3</Value>
+		</Row>
+		<Row Name="OWNERSHIP_SCORE_DURATION_THRESHOLD">
+			<Value>20</Value>
+		</Row>
+		<Row Name="NUM_POLICY_BRANCHES_ALLOWED">
+			<Value>2</Value>
+		</Row>
+		<Row Name="VICTORY_POINTS_NEEDED_TO_WIN">
+			<Value>20</Value>
+		</Row>
+		<Row Name="NUM_VICTORY_POINT_AWARDS">
+			<Value>5</Value>
+		</Row>
+		<Row Name="NUM_OR_TECH_PREREQS">
+			<Value>3</Value>
+		</Row>
+		<Row Name="NUM_AND_TECH_PREREQS">
+			<Value>4</Value>
+		</Row>
+		<Row Name="NUM_UNIT_AND_TECH_PREREQS">
+			<Value>3</Value>
+		</Row>
+		<Row Name="NUM_BUILDING_AND_TECH_PREREQS">
+			<Value>3</Value>
+		</Row>
+		<Row Name="NUM_BUILDING_RESOURCE_PREREQS">
+			<Value>5</Value>
+		</Row>
+		<Row Name="BASE_RESEARCH_RATE">
+			<Value>1</Value>
+		</Row>
+		<Row Name="MAX_WORLD_WONDERS_PER_CITY">
+			<Value>-1</Value>
+		</Row>
+		<Row Name="MAX_TEAM_WONDERS_PER_CITY">
+			<Value>-1</Value>
+		</Row>
+		<Row Name="MAX_NATIONAL_WONDERS_PER_CITY">
+			<Value>-1</Value>
+		</Row>
+		<Row Name="MAX_NATIONAL_WONDERS_PER_CITY_FOR_OCC">
+			<Value>-1</Value>
+		</Row>
+		<Row Name="MAX_BUILDINGS_PER_CITY">
+			<Value>-1</Value>
+		</Row>
+		<Row Name="INITIAL_CITY_POPULATION">
+			<Value>1</Value>
+		</Row>
+		<Row Name="CITY_CAPTURE_POPULATION_PERCENT">
+			<Value>50</Value>
+		</Row>
+		<!-- Growth and Happiness -->
+		<Row Name="BASE_CITY_GROWTH_THRESHOLD">
+			<Value>15</Value>
+		</Row>
+		<Row Name="CITY_GROWTH_MULTIPLIER">
+			<Value>8</Value>
+		</Row>
+		<Row Name="CITY_GROWTH_EXPONENT">
+			<Value>1.5</Value>
+		</Row>
+		<Row Name="FOOD_CONSUMPTION_PER_POPULATION">
+			<Value>2</Value>
+		</Row>
+		<Row Name="HAPPINESS_PER_CITY_WITH_STATE_RELIGION">
+			<Value>0</Value>
+		</Row>
+		<Row Name="HAPPINESS_PER_NATURAL_WONDER">
+			<Value>1</Value>
+		</Row>
+		<Row Name="HAPPINESS_PER_EXTRA_LUXURY">
+			<Value>0</Value>
+		</Row>
+		<Row Name="UNHAPPINESS_PER_POPULATION">
+			<Value>1</Value>
+		</Row>
+		<Row Name="UNHAPPINESS_PER_OCCUPIED_POPULATION">
+			<Value>1.34</Value>
+		</Row>
+		<Row Name="UNHAPPINESS_PER_CITY">
+			<Value>3</Value>
+		</Row>
+		<Row Name="UNHAPPINESS_PER_CAPTURED_CITY">
+			<Value>5</Value>
+		</Row>
+		<Row Name="UNHAPPY_GROWTH_PENALTY">
+			<Value>-75</Value>
+		</Row>
+		<Row Name="VERY_UNHAPPY_GROWTH_PENALTY">
+			<Value>-100</Value>
+		</Row>
+		<Row Name="VERY_UNHAPPY_CANT_TRAIN_SETTLERS">
+			<Value>1</Value>
+		</Row>
+		<Row Name="VERY_UNHAPPY_THRESHOLD">
+			<Value>-10</Value>
+		</Row>
+		<Row Name="VERY_UNHAPPY_COMBAT_PENALTY">
+			<Value>-33</Value>
+		</Row>
+		<Row Name="STRATEGIC_RESOURCE_EXHAUSTED_PENALTY">
+			<Value>-50</Value>
+		</Row>
+		<Row Name="VERY_UNHAPPY_PRODUCTION_PENALTY">
+			<Value>-50</Value>
+		</Row>
+		<Row Name="SUPER_UNHAPPY_THRESHOLD">
+			<Value>-20</Value>
+		</Row>
+		<Row Name="REVOLT_COUNTER_MIN">
+			<Value>4</Value>
+		</Row>
+		<Row Name="REVOLT_COUNTER_POSSIBLE">
+			<Value>3</Value>
+		</Row>
+		<Row Name="REVOLT_NUM_BASE">
+			<Value>100</Value>
+		</Row>
+		<Row Name="REVOLT_NUM_CITY_COUNT">
+			<Value>20</Value>
+		</Row>
+		<Row Name="WLTKD_GROWTH_MULTIPLIER">
+			<Value>25</Value>
+		</Row>
+		<Row Name="INDUSTRIAL_ROUTE_PRODUCTION_MOD">
+			<Value>25</Value>
+		</Row>
+		<Row Name="RESOURCE_DEMAND_COUNTDOWN_BASE">
+			<Value>15</Value>
+		</Row>
+		<Row Name="RESOURCE_DEMAND_COUNTDOWN_CAPITAL_ADD">
+			<Value>25</Value>
+		</Row>
+		<Row Name="RESOURCE_DEMAND_COUNTDOWN_RAND">
+			<Value>10</Value>
+		</Row>
+		<!-- END Growth and Happiness -->
+		<Row Name="NEW_HURRY_MODIFIER">
+			<Value>50</Value>
+		</Row>
+		<Row Name="GREAT_GENERAL_RANGE">
+			<Value>2</Value>
+		</Row>
+		<Row Name="GREAT_GENERAL_STRENGTH_MOD">
+			<Value>20</Value>
+		</Row>
+		<Row Name="BONUS_PER_ADJACENT_FRIEND">
+			<Value>10</Value>
+		</Row>
+		<Row Name="POLICY_ATTACK_BONUS_MOD">
+			<Value>20</Value>
+		</Row>
+		<Row Name="CONSCRIPT_MIN_CITY_POPULATION">
+			<Value>5</Value>
+		</Row>
+		<Row Name="CONSCRIPT_POPULATION_PER_COST">
+			<Value>60</Value>
+		</Row>
+		<Row Name="MIN_TIMER_UNIT_DOUBLE_MOVES">
+			<Value>32</Value>
+		</Row>
+		<Row Name="COMBAT_DAMAGE">
+			<Value>20</Value>
+		</Row>
+		<Row Name="NONCOMBAT_UNIT_RANGED_DAMAGE">
+			<Value>4</Value>
+		</Row>
+		<Row Name="NAVAL_COMBAT_DEFENDER_STRENGTH_MULTIPLIER">
+			<Value>40</Value>
+		</Row>
+		<Row Name="QUICKSAVE">
+			<Value>QuickSave</Value>
+		</Row>
+		<Row Name="LAKE_PLOT_RAND">
+			<Value>160</Value>
+		</Row>
+		<Row Name="PLOTS_PER_RIVER_EDGE">
+			<Value>12</Value>
+		</Row>
+		<Row Name="RIVER_SOURCE_MIN_RIVER_RANGE">
+			<Value>4</Value>
+		</Row>
+		<Row Name="RIVER_SOURCE_MIN_SEAWATER_RANGE">
+			<Value>2</Value>
+		</Row>
+		<Row Name="LAKE_MAX_AREA_SIZE">
+			<Value>9</Value>
+		</Row>
+		<!-- Gold Stuff -->
+		<Row Name="INITIAL_GOLD_PER_UNIT_TIMES_100">
+			<Value>50</Value>
+		</Row>
+		<Row Name="INITIAL_FREE_OUTSIDE_UNITS">
+			<Value>3</Value>
+		</Row>
+		<Row Name="INITIAL_OUTSIDE_UNIT_GOLD_PERCENT">
+			<Value>0</Value>
+		</Row>
+		<Row Name="UNIT_MAINTENANCE_GAME_MULTIPLIER">
+			<Value>8</Value>
+		</Row>
+		<Row Name="UNIT_MAINTENANCE_GAME_EXPONENT_DIVISOR">
+			<Value>7</Value>
+		</Row>
+		<Row Name="FREE_UNIT_HAPPINESS">
+			<Value>0</Value>
+		</Row>
+		<Row Name="TRADE_ROUTE_BASE_GOLD">
+			<Value>-100</Value>
+		</Row>
+		<Row Name="TRADE_ROUTE_CAPITAL_POP_GOLD_MULTIPLIER">
+			<Value>15</Value>
+		</Row>
+		<Row Name="TRADE_ROUTE_CITY_POP_GOLD_MULTIPLIER">
+			<Value>110</Value>
+		</Row>
+		<Row Name="DEFICIT_UNIT_DISBANDING_THRESHOLD">
+			<Value>-5</Value>
+		</Row>
+		<Row Name="BUILDING_SALE_DIVISOR">
+			<Value>4</Value>
+		</Row>
+		<Row Name="DISBAND_UNIT_REFUND_PERCENT">
+			<Value>25</Value>
+		</Row>
+		<!-- Other Stuff -->
+		<Row Name="GOLDEN_AGE_BASE_THRESHOLD_HAPPINESS">
+			<Value>500</Value>
+		</Row>
+		<Row Name="GOLDEN_AGE_THRESHOLD_CITY_MULTIPLIER">
+			<Value>0.01</Value>
+		</Row>
+		<Row Name="GOLDEN_AGE_EACH_GA_ADDITIONAL_HAPPINESS">
+			<Value>250</Value>
+		</Row>
+		<Row Name="GOLDEN_AGE_VISIBLE_THRESHOLD_DIVISOR">
+			<Value>5</Value>
+		</Row>
+		<Row Name="BASE_GOLDEN_AGE_UNITS">
+			<Value>1</Value>
+		</Row>
+		<Row Name="GOLDEN_AGE_UNITS_MULTIPLIER">
+			<Value>1</Value>
+		</Row>
+		<Row Name="GOLDEN_AGE_LENGTH">
+			<Value>10</Value>
+		</Row>
+		<Row Name="GOLDEN_AGE_GREAT_PEOPLE_MODIFIER">
+			<Value>100</Value>
+		</Row>
+		<Row Name="MIN_UNIT_GOLDEN_AGE_TURNS">
+			<Value>3</Value>
+		</Row>
+		<Row Name="HILLS_EXTRA_MOVEMENT">
+			<Value>1</Value>
+		</Row>
+		<Row Name="RIVER_EXTRA_MOVEMENT">
+			<Value>10</Value>
+		</Row>
+		<Row Name="FEATURE_GROWTH_MODIFIER">
+			<Value>25</Value>
+		</Row>
+		<Row Name="ROUTE_FEATURE_GROWTH_MODIFIER">
+			<Value>-50</Value>
+		</Row>
+		<Row Name="EXTRA_YIELD">
+			<Value>1</Value>
+		</Row>
+		<Row Name="FORTIFY_MODIFIER_PER_TURN">
+			<Value>25</Value>
+		</Row>
+		<Row Name="MAX_FORTIFY_TURNS">
+			<Value>2</Value>
+		</Row>
+		<Row Name="NUKE_FALLOUT_PROB">
+			<Value>50</Value>
+		</Row>
+		<Row Name="NUKE_UNIT_DAMAGE_BASE">
+			<Value>3</Value>
+		</Row>
+		<Row Name="NUKE_UNIT_DAMAGE_RAND_1">
+			<Value>4</Value>
+		</Row>
+		<Row Name="NUKE_UNIT_DAMAGE_RAND_2">
+			<Value>4</Value>
+		</Row>
+		<Row Name="NUKE_NON_COMBAT_DEATH_THRESHOLD">
+			<Value>6</Value>
+		</Row>
+		<Row Name="NUKE_LEVEL1_POPULATION_DEATH_BASE">
+			<Value>30</Value>
+		</Row>
+		<Row Name="NUKE_LEVEL1_POPULATION_DEATH_RAND_1">
+			<Value>20</Value>
+		</Row>
+		<Row Name="NUKE_LEVEL1_POPULATION_DEATH_RAND_2">
+			<Value>20</Value>
+		</Row>
+		<Row Name="NUKE_LEVEL2_POPULATION_DEATH_BASE">
+			<Value>60</Value>
+		</Row>
+		<Row Name="NUKE_LEVEL2_POPULATION_DEATH_RAND_1">
+			<Value>10</Value>
+		</Row>
+		<Row Name="NUKE_LEVEL2_POPULATION_DEATH_RAND_2">
+			<Value>10</Value>
+		</Row>
+		<Row Name="NUKE_LEVEL2_ELIM_POPULATION_THRESHOLD">
+			<Value>5</Value>
+		</Row>
+		<Row Name="NUKE_CITY_HIT_POINT_DAMAGE">
+			<Value>50</Value>
+		</Row>
+		<Row Name="NUKE_BLAST_RADIUS">
+			<Value>2</Value>
+		</Row>
+		<Row Name="TECH_COST_EXTRA_TEAM_MEMBER_MODIFIER">
+			<Value>50</Value>
+		</Row>
+		<Row Name="TECH_COST_TOTAL_KNOWN_TEAM_MODIFIER">
+			<Value>30</Value>
+		</Row>
+		<Row Name="TECH_COST_KNOWN_PREREQ_MODIFIER">
+			<Value>20</Value>
+		</Row>
+		<Row Name="PEACE_TREATY_LENGTH">
+			<Value>10</Value>
+		</Row>
+		<Row Name="COOP_WAR_LOCKED_LENGTH">
+			<Value>15</Value>
+		</Row>
+		<Row Name="BASE_FEATURE_PRODUCTION_PERCENT">
+			<Value>67</Value>
+		</Row>
+		<Row Name="FEATURE_PRODUCTION_PERCENT_MULTIPLIER">
+			<Value>0</Value>
+		</Row>
+		<Row Name="DIFFERENT_TEAM_FEATURE_PRODUCTION_PERCENT">
+			<Value>67</Value>
+		</Row>
+		<Row Name="DEFAULT_WAR_VALUE_FOR_UNIT">
+			<Value>100</Value>
+		</Row>
+		<Row Name="UNIT_PRODUCTION_PERCENT">
+			<Value>100</Value>
+		</Row>
+		<Row Name="MAX_UNIT_SUPPLY_PRODMOD">
+			<Value>70</Value>
+		</Row>
+		<Row Name="BUILDING_PRODUCTION_PERCENT">
+			<Value>100</Value>
+		</Row>
+		<Row Name="PROJECT_PRODUCTION_PERCENT">
+			<Value>100</Value>
+		</Row>
+		<Row Name="MAXED_UNIT_GOLD_PERCENT">
+			<Value>100</Value>
+		</Row>
+		<Row Name="MAXED_BUILDING_GOLD_PERCENT">
+			<Value>100</Value>
+		</Row>
+		<Row Name="MAXED_PROJECT_GOLD_PERCENT">
+			<Value>300</Value>
+		</Row>
+		<Row Name="MAX_CITY_DEFENSE_DAMAGE">
+			<Value>100</Value>
+		</Row>
+		<Row Name="CIRCUMNAVIGATE_FREE_MOVES">
+			<Value>0</Value>
+		</Row>
+		<Row Name="BASE_CAPTURE_GOLD">
+			<Value>20</Value>
+		</Row>
+		<Row Name="CAPTURE_GOLD_PER_POPULATION">
+			<Value>10</Value>
+		</Row>
+		<Row Name="CAPTURE_GOLD_RAND1">
+			<Value>20</Value>
+		</Row>
+		<Row Name="CAPTURE_GOLD_RAND2">
+			<Value>20</Value>
+		</Row>
+		<Row Name="CAPTURE_GOLD_MAX_TURNS">
+			<Value>50</Value>
+		</Row>
+		<Row Name="BARBARIAN_CITY_ATTACK_MODIFIER">
+			<Value>-25</Value>
+		</Row>
+		<Row Name="BUILDING_PRODUCTION_DECAY_TIME">
+			<Value>50</Value>
+		</Row>
+		<Row Name="BUILDING_PRODUCTION_DECAY_PERCENT">
+			<Value>99</Value>
+		</Row>
+		<Row Name="UNIT_PRODUCTION_DECAY_TIME">
+			<Value>10</Value>
+		</Row>
+		<Row Name="UNIT_PRODUCTION_DECAY_PERCENT">
+			<Value>98</Value>
+		</Row>
+		<Row Name="BASE_UNIT_UPGRADE_COST">
+			<Value>10</Value>
+		</Row>
+		<Row Name="UNIT_UPGRADE_COST_PER_PRODUCTION">
+			<Value>2</Value>
+		</Row>
+		<Row Name="UNIT_UPGRADE_COST_MULTIPLIER_PER_ERA">
+			<Value>0.0</Value>
+		</Row>
+		<Row Name="UNIT_UPGRADE_COST_EXPONENT">
+			<Value>1.0</Value>
+		</Row>
+		<Row Name="UNIT_UPGRADE_COST_VISIBLE_DIVISOR">
+			<Value>5</Value>
+		</Row>
+		<Row Name="UNIT_UPGRADE_COST_DISCOUNT_MAX">
+			<Value>-75</Value>
+		</Row>
+		<Row Name="WAR_SUCCESS_UNIT_CAPTURING">
+			<Value>1</Value>
+		</Row>
+		<Row Name="WAR_SUCCESS_CITY_CAPTURING">
+			<Value>10</Value>
+		</Row>
+		<Row Name="DIPLO_VOTE_SECRETARY_GENERAL_INTERVAL">
+			<Value>4</Value>
+		</Row>
+		<Row Name="TEAM_VOTE_MIN_CANDIDATES">
+			<Value>2</Value>
+		</Row>
+		<Row Name="RESEARCH_AGREEMENT_TIMER">
+			<Value>20</Value>
+		</Row>
+		<Row Name="SCORE_POPULATION_FACTOR">
+			<!--Score you get if you have the 'maximum' population possible on the current map-->
+			<Value>5000</Value>
+		</Row>
+		<Row Name="SCORE_LAND_FACTOR">
+			<!--Score you get if you have all the land on the current map-->
+			<Value>2000</Value>
+		</Row>
+		<Row Name="SCORE_WONDER_FACTOR">
+			<!--Score you get if you have all the wonders-->
+			<Value>1000</Value>
+		</Row>
+		<Row Name="SCORE_TECH_FACTOR">
+			<!--Score you get if you have all the techs-->
+			<Value>2000</Value>
+		</Row>
+		<Row Name="SCORE_FREE_PERCENT">
+			<!--Percentage of the maximum score you get for free-->
+			<Value>0</Value>
+		</Row>
+		<Row Name="SCORE_VICTORY_PERCENT">
+			<!--Percentage of your score that gets added if you win the game-->
+			<Value>0</Value>
+		</Row>
+		<Row Name="SCORE_HANDICAP_PERCENT_OFFSET">
+			<!--Offset to the score handicap modifier-->
+			<Value>-60</Value>
+		</Row>
+		<Row Name="SCORE_HANDICAP_PERCENT_PER">
+			<!--The amount of the score modifier per handicap level-->
+			<Value>20</Value>
+		</Row>
+		<Row Name="MINIMAP_RENDER_SIZE">
+			<!--Minimap size in pixels-->
+			<Value>512</Value>
+		</Row>
+		<Row Name="MAX_INTERCEPTION_PROBABILITY">
+			<Value>100</Value>
+		</Row>
+		<Row Name="MAX_EVASION_PROBABILITY">
+			<Value>90</Value>
+		</Row>
+		<Row Name="PLAYER_ALWAYS_RAZES_CITIES">
+			<Value>0</Value>
+		</Row>
+		<Row Name="MIN_WATER_SIZE_FOR_OCEAN">
+			<Value>10</Value>
+		</Row>
+		<Row Name="CITY_SCREEN_CLICK_WILL_EXIT">
+			<Value>0</Value>
+		</Row>
+		<Row Name="WATER_POTENTIAL_CITY_WORK_FOR_AREA">
+			<Value>0</Value>
+		</Row>
+		<Row Name="LAND_UNITS_CAN_ATTACK_WATER_CITIES">
+			<Value>0</Value>
+		</Row>
+		<Row Name="CITY_MAX_NUM_BUILDINGS">
+			<Value>1</Value>
+		</Row>
+		<Row Name="CITY_MIN_SIZE_FOR_SETTLERS">
+			<Value>2</Value>
+		</Row>
+		<Row Name="RANGED_ATTACKS_USE_MOVES">
+			<Value>0</Value>
+		</Row>
+		<Row Name="ADVANCED_START_ALLOW_UNITS_OUTSIDE_CITIES">
+			<Value>0</Value>
+		</Row>
+		<Row Name="ADVANCED_START_MAX_UNITS_PER_CITY">
+			<Value>2</Value>
+		</Row>
+		<Row Name="ADVANCED_START_CITY_COST">
+			<Value>84</Value>
+		</Row>
+		<Row Name="ADVANCED_START_CITY_COST_INCREASE">
+			<Value>0</Value>
+		</Row>
+		<Row Name="ADVANCED_START_POPULATION_COST">
+			<Value>150</Value>
+		</Row>
+		<Row Name="ADVANCED_START_POPULATION_COST_INCREASE">
+			<Value>0</Value>
+		</Row>
+		<Row Name="ADVANCED_START_VISIBILITY_COST">
+			<Value>2</Value>
+		</Row>
+		<Row Name="ADVANCED_START_VISIBILITY_COST_INCREASE">
+			<Value>3</Value>
+		</Row>
+		<Row Name="ADVANCED_START_CITY_PLACEMENT_MAX_RANGE">
+			<Value>6</Value>
+		</Row>
+		<Row Name="NEW_CITY_BUILDING_VALUE_MODIFIER">
+			<Value>-60</Value>
+		</Row>
+		<Row Name="PATH_DAMAGE_WEIGHT">
+			<Value>0</Value>
+		</Row>
+		<!-- Policy Cost -->
+		<!-- Mod for city count is in Worlds.xml -->
+		<Row Name="BASE_POLICY_COST">
+			<Value>25</Value>
+		</Row>
+		<Row Name="POLICY_COST_INCREASE_TO_BE_EXPONENTED">
+			<Value>3</Value>
+		</Row>
+		<Row Name="POLICY_COST_EXPONENT">
+			<Value>2.01</Value>
+		</Row>
+		<Row Name="POLICY_COST_VISIBLE_DIVISOR">
+			<Value>5</Value>
+		</Row>
+		<Row Name="SWITCH_POLICY_BRANCHES_ANARCHY_TURNS">
+			<Value>1</Value>
+		</Row>
+		<Row Name="POLICY_COST_DISCOUNT_MAX">
+			<Value>-75</Value>
+		</Row>
+		<!-- END Policy Stuff -->
+		<Row Name="GOLD_PURCHASE_GOLD_PER_PRODUCTION">
+			<Value>30</Value>
+		</Row>
+		<Row Name="HURRY_GOLD_PRODUCTION_EXPONENT">
+			<Value>0.75</Value>
+		</Row>
+		<Row Name="GOLD_PURCHASE_VISIBLE_DIVISOR">
+			<Value>10</Value>
+		</Row>
+		<Row Name="PROJECT_PURCHASING_DISABLED">
+			<Value>1</Value>
+		</Row>
+		<Row Name="HURRY_GOLD_TECH_EXPONENT">
+			<Value>1.10</Value>
+		</Row>
+		<Row Name="HURRY_GOLD_CULTURE_EXPONENT">
+			<Value>1.10</Value>
+		</Row>
+		<Row Name="INFLUENCE_MOUNTAIN_COST">
+			<Value>3</Value>
+		</Row>
+		<Row Name="INFLUENCE_HILL_COST">
+			<Value>2</Value>
+		</Row>
+		<Row Name="INFLUENCE_RIVER_COST">
+			<Value>1</Value>
+		</Row>
+		<Row Name="USE_FIRST_RING_INFLUENCE_TERRAIN_COST">
+			<Value>0</Value>
+		</Row>
+		<Row Name="NUM_RESOURCE_QUANTITY_TYPES">
+			<Value>4</Value>
+		</Row>
+		<Row Name="SPECIALISTS_DIVERT_POPULATION_ENABLED">
+			<Value>0</Value>
+		</Row>
+		<Row Name="SCIENCE_PER_POPULATION">
+			<Value>1</Value>
+		</Row>
+		<Row Name="RESEARCH_AGREEMENT_MOD">
+			<Value>0</Value>
+		</Row>
+		<Row Name="BARBARIAN_CAMP_FIRST_TURN_PERCENT_OF_TARGET_TO_ADD">
+			<Value>33</Value>
+		</Row>
+		<Row Name="BARBARIAN_CAMP_ODDS_OF_NEW_CAMP_SPAWNING">
+			<Value>2</Value>
+		</Row>
+		<Row Name="BARBARIAN_CAMP_MINIMUM_DISTANCE_CAPITAL">
+			<Value>4</Value>
+		</Row>
+		<Row Name="BARBARIAN_CAMP_MINIMUM_DISTANCE_ANOTHER_CAMP">
+			<Value>7</Value>
+		</Row>
+		<Row Name="BARBARIAN_CAMP_COASTAL_SPAWN_ROLL">
+			<Value>6</Value>
+		</Row>
+		<Row Name="BARBARIAN_EXTRA_RAGING_UNIT_SPAWN_CHANCE">
+			<Value>10</Value>
+		</Row>
+		<Row Name="BARBARIAN_NAVAL_UNIT_START_TURN_SPAWN">
+			<Value>30</Value>
+		</Row>
+		<Row Name="MAX_BARBARIANS_FROM_CAMP_NEARBY">
+			<Value>2</Value>
+		</Row>
+		<Row Name="MAX_BARBARIANS_FROM_CAMP_NEARBY_RANGE">
+			<Value>4</Value>
+		</Row>
+		<Row Name="GOLD_FROM_BARBARIAN_CONVERSION">
+			<Value>25</Value>
+		</Row>
+		<Row Name="BARBARIAN_CITY_GOLD_RANSOM">
+			<Value>200</Value>
+		</Row>
+		<Row Name="BARBARIAN_UNIT_GOLD_RANSOM">
+			<Value>100</Value>
+		</Row>
+		<Row Name="EMBARKED_UNIT_COMBAT_STRENGTH">
+			<Value>0</Value>
+		</Row>
+		<Row Name="EMBARKED_NOT_CIVILIAN_COMBAT_STRENGTH">
+			<Value>500</Value>
+		</Row>
+		<Row Name="EMBARKED_UNIT_MOVEMENT">
+			<Value>2</Value>
+		</Row>
+		<Row Name="EMBARKED_VISIBILITY_RANGE">
+			<Value>0</Value>
+		</Row>
+		<Row Name="DEFAULT_MAX_NUM_BUILDERS">
+			<Value>-1</Value>
+		</Row>
+		<Row Name="BARBARIAN_TECH_PERCENT">
+			<Value>75</Value>
+		</Row>
+		<Row Name="CITY_RESOURCE_WLTKD_TURNS">
+			<Value>20</Value>
+		</Row>
+		<Row Name="MAX_SPECIALISTS_FROM_BUILDING">
+			<Value>4</Value>
+		</Row>
+		<Row Name="GREAT_PERSON_THRESHOLD_BASE">
+			<Value>100</Value>
+		</Row>
+		<Row Name="GREAT_PERSON_THRESHOLD_INCREASE">
+			<Value>100</Value>
+		</Row>
+		<Row Name="CULTURE_BOMB_COOLDOWN">
+			<Value>10</Value>
+		</Row>
+		<Row Name="CULTURE_BOMB_MINOR_FRIENDSHIP_CHANGE">
+			<Value>-50</Value>
+		</Row>
+		<Row Name="POST_COMBAT_TEXT_DELAY">
+			<Value>1.0</Value>
+		</Row>
+		<Row Name="UNIT_AUTO_EXPLORE_DISABLED">
+			<!--Is auto-explore disabled for units? (but not hidden)-->
+			<Value>0</Value>
+		</Row>
+		<Row Name="UNIT_WORKER_AUTOMATION_DISABLED">
+			<!--Is worker automation disabled for units? (but the button not hidden)-->
+			<Value>0</Value>
+		</Row>
+		<Row Name="UNIT_DELETE_DISABLED">
+			<!--Are units allowed to blow themselves up? (but the button not hidden)-->
+			<Value>0</Value>
+		</Row>
+		<!-- Starting Location Defines -->
+		<Row Name="MIN_START_AREA_TILES">
+			<Value>4</Value>
+		</Row>
+		<Row Name="MIN_DISTANCE_OTHER_AREA_PERCENT">
+			<Value>75</Value>
+		</Row>
+		<Row Name="MINOR_CIV_FOOD_REQUIREMENT">
+			<Value>2</Value>
+		</Row>
+		<Row Name="MAJOR_CIV_FOOD_REQUIREMENT">
+			<Value>2</Value>
+		</Row>
+		<Row Name="MIN_START_FOUND_VALUE_AS_PERCENT_OF_BEST">
+			<Value>50</Value>
+		</Row>
+		<Row Name="START_AREA_FOOD_MULTIPLIER">
+			<Value>6</Value>
+		</Row>
+		<Row Name="START_AREA_HAPPINESS_MULTIPLIER">
+			<Value>12</Value>
+		</Row>
+		<Row Name="START_AREA_PRODUCTION_MULTIPLIER">
+			<Value>8</Value>
+		</Row>
+		<Row Name="START_AREA_GOLD_MULTIPLIER">
+			<Value>2</Value>
+		</Row>
+		<Row Name="START_AREA_SCIENCE_MULTIPLIER">
+			<Value>1</Value>
+		</Row>
+		<Row Name="START_AREA_RESOURCE_MULTIPLIER">
+			<Value>1</Value>
+		</Row>
+		<Row Name="START_AREA_STRATEGIC_MULTIPLIER">
+			<Value>1</Value>
+		</Row>
+		<Row Name="START_AREA_BUILD_ON_COAST_PERCENT">
+			<Value>20</Value>
+		</Row>
+		<Row Name="SETTLER_FOOD_MULTIPLIER">
+			<Value>15</Value>
+		</Row>
+		<Row Name="SETTLER_HAPPINESS_MULTIPLIER">
+			<Value>8</Value>
+		</Row>
+		<Row Name="SETTLER_PRODUCTION_MULTIPLIER">
+			<Value>3</Value>
+		</Row>
+		<Row Name="SETTLER_GOLD_MULTIPLIER">
+			<Value>2</Value>
+		</Row>
+		<Row Name="SETTLER_SCIENCE_MULTIPLIER">
+			<Value>1</Value>
+		</Row>
+		<Row Name="SETTLER_RESOURCE_MULTIPLIER">
+			<Value>3</Value>
+		</Row>
+		<Row Name="SETTLER_STRATEGIC_MULTIPLIER">
+			<Value>1</Value>
+		</Row>
+		<Row Name="SETTLER_BUILD_ON_COAST_PERCENT">
+			<Value>25</Value>
+		</Row>
+		<Row Name="CITY_RING_1_MULTIPLIER">
+			<Value>12</Value>
+		</Row>
+		<Row Name="CITY_RING_2_MULTIPLIER">
+			<Value>6</Value>
+		</Row>
+		<Row Name="CITY_RING_3_MULTIPLIER">
+			<Value>2</Value>
+		</Row>
+		<Row Name="SETTLER_EVALUATION_DISTANCE">
+			<Value>20</Value>
+		</Row>
+		<Row Name="SETTLER_DISTANCE_DROPOFF_MODIFIER">
+			<Value>75</Value>
+		</Row>
+		<Row Name="BUILD_ON_RESOURCE_PERCENT">
+			<Value>-50</Value>
+		</Row>
+		<Row Name="BUILD_ON_RIVER_PERCENT">
+			<Value>50</Value>
+		</Row>
+		<Row Name="CHOKEPOINT_STRATEGIC_VALUE">
+			<Value>3</Value>
+		</Row>
+		<Row Name="HILL_STRATEGIC_VALUE">
+			<Value>2</Value>
+		</Row>
+		<Row Name="ALREADY_OWNED_STRATEGIC_VALUE">
+			<Value>-1000</Value>
+		</Row>
+		<!-- Minor Civ Defines -->
+		<Row Name="MINOR_CIV_CONTACT_GOLD_FIRST">
+			<Value>30</Value>
+		</Row>
+		<Row Name="MINOR_CIV_CONTACT_GOLD_OTHER">
+			<Value>15</Value>
+		</Row>
+		<Row Name="MINOR_CIV_GROWTH_PERCENT">
+			<Value>150</Value>
+		</Row>
+		<Row Name="MINOR_CIV_PRODUCTION_PERCENT">
+			<Value>150</Value>
+		</Row>
+		<Row Name="MINOR_CIV_GOLD_PERCENT">
+			<Value>200</Value>
+		</Row>
+		<Row Name="MINOR_CIV_TECH_PERCENT">
+			<Value>40</Value>
+		</Row>
+		<Row Name="MINOR_POLICY_RESOURCE_MULTIPLIER">
+			<Value>200</Value>
+		</Row>
+		<Row Name="MINOR_POLICY_RESOURCE_HAPPINESS_MULTIPLIER">
+			<Value>150</Value>
+		</Row>
+		<Row Name="MINOR_GOLD_GIFT_LARGE">
+			<Value>1000</Value>
+		</Row>
+		<Row Name="MINOR_GOLD_GIFT_MEDIUM">
+			<Value>500</Value>
+		</Row>
+		<Row Name="MINOR_GOLD_GIFT_SMALL">
+			<Value>250</Value>
+		</Row>
+		<Row Name="MINOR_FRIENDSHIP_FROM_TRADE_MISSION">
+			<Value>30</Value>
+		</Row>
+		<!-- Unit/Combat Defines -->
+		<Row Name="PLOT_UNIT_LIMIT">
+			<Value>1</Value>
+		</Row>
+		<Row Name="ZONE_OF_CONTROL_ENABLED">
+			<Value>1</Value>
+		</Row>
+		<Row Name="FIRE_SUPPORT_DISABLED">
+			<Value>1</Value>
+		</Row>
+		<Row Name="MAX_HIT_POINTS">
+			<Value>10</Value>
+		</Row>
+		<Row Name="MAX_CITY_HIT_POINTS">
+			<Value>25</Value>
+		</Row>
+		<Row Name="CITY_HIT_POINTS_HEALED_PER_TURN">
+			<Value>2</Value>
+		</Row>
+		<Row Name="FLAT_LAND_EXTRA_DEFENSE">
+			<Value>-10</Value>
+		</Row>
+		<Row Name="HILLS_EXTRA_DEFENSE">
+			<Value>25</Value>
+		</Row>
+		<Row Name="RIVER_ATTACK_MODIFIER">
+			<Value>-20</Value>
+		</Row>
+		<Row Name="AMPHIB_ATTACK_MODIFIER">
+			<Value>-50</Value>
+		</Row>
+		<Row Name="ENEMY_HEAL_RATE">
+			<Value>1</Value>
+		</Row>
+		<Row Name="NEUTRAL_HEAL_RATE">
+			<Value>1</Value>
+		</Row>
+		<Row Name="FRIENDLY_HEAL_RATE">
+			<Value>2</Value>
+		</Row>
+		<Row Name="CITY_HEAL_RATE">
+			<Value>3</Value>
+		</Row>
+		<Row Name="ATTACK_SAME_STRENGTH_MIN_DAMAGE">
+			<Value>400</Value>
+		</Row>
+		<Row Name="RANGE_ATTACK_RANGED_DEFENDER_MOD">
+			<Value>125</Value>
+		</Row>
+		<!-- Note: this will actually produce between 0.00 and 3.99 damage (rounded down to 0-3 typically) -->
+		<Row Name="ATTACK_SAME_STRENGTH_POSSIBLE_EXTRA_DAMAGE">
+			<Value>400</Value>
+		</Row>
+		<Row Name="RANGE_ATTACK_SAME_STRENGTH_MIN_DAMAGE">
+			<Value>200</Value>
+		</Row>
+		<!-- Note: this will actually produce between 0.00 and 3.99 damage (rounded down to 0-2 typically) -->
+		<Row Name="RANGE_ATTACK_SAME_STRENGTH_POSSIBLE_EXTRA_DAMAGE">
+			<Value>400</Value>
+		</Row>
+		<Row Name="AIR_STRIKE_SAME_STRENGTH_MIN_DEFENSE_DAMAGE">
+			<Value>200</Value>
+		</Row>
+		<!-- Note: this will actually produce between 0.00 and 1.99 damage (rounded down to 0-1 typically) -->
+		<Row Name="AIR_STRIKE_SAME_STRENGTH_POSSIBLE_EXTRA_DEFENSE_DAMAGE">
+			<Value>200</Value>
+		</Row>
+		<Row Name="INTERCEPTION_SAME_STRENGTH_MIN_DAMAGE">
+			<Value>400</Value>
+		</Row>
+		<!-- Note: this will actually produce between 0.00 and 2.99 damage (rounded down to 0-2 typically) -->
+		<Row Name="INTERCEPTION_SAME_STRENGTH_POSSIBLE_EXTRA_DAMAGE">
+			<Value>300</Value>
+		</Row>
+		<Row Name="AIR_SWEEP_INTERCEPTION_DAMAGE_MOD">
+			<Value>75</Value>
+		</Row>
+		<Row Name="WOUNDED_DAMAGE_MULTIPLIER">
+			<Value>50</Value>
+		</Row>
+		<Row Name="TRAIT_WOUNDED_DAMAGE_MOD">
+			<Value>-50</Value>
+		</Row>
+		<!-- City Combat Defines -->
+		<Row Name="CITY_STRENGTH_DEFAULT">
+			<Value>600</Value>
+		</Row>
+		<Row Name="CITY_STRENGTH_POPULATION_CHANGE">
+			<Value>25</Value>
+		</Row>
+		<Row Name="CITY_STRENGTH_UNIT_DIVISOR">
+			<Value>500</Value>
+		</Row>
+		<Row Name="CITY_STRENGTH_TECH_BASE">
+			<Value>5</Value>
+		</Row>
+		<Row Name="CITY_STRENGTH_TECH_EXPONENT">
+			<Value>2.0</Value>
+		</Row>
+		<Row Name="CITY_STRENGTH_TECH_MULTIPLIER">
+			<Value>2</Value>
+		</Row>
+		<Row Name="CITY_STRENGTH_HILL_MOD">
+			<Value>15</Value>
+		</Row>
+		<Row Name="CITY_ATTACKING_DAMAGE_MOD">
+			<Value>50</Value>
+		</Row>
+		<Row Name="ATTACKING_CITY_MELEE_DAMAGE_MOD">
+			<Value>100</Value>
+		</Row>
+		<Row Name="CITY_ATTACK_RANGE">
+			<Value>2</Value>
+		</Row>
+		<Row Name="CAN_CITY_USE_INDIRECT_FIRE">
+			<Value>1</Value>
+		</Row>
+		<Row Name="CITY_RANGED_ATTACK_STRENGTH_MULTIPLIER">
+			<Value>50</Value>
+		</Row>
+		<Row Name="MIN_CITY_STRIKE_DAMAGE">
+			<Value>1</Value>
+		</Row>
+		<Row Name="CITY_CAPTURE_DAMAGE_PERCENT">
+			<Value>50</Value>
+		</Row>
+		<!--Experience & Promotion Defines-->
+		<Row Name="EXPERIENCE_PER_LEVEL">
+			<Value>10</Value>
+		</Row>
+		<Row Name="EXPERIENCE_ATTACKING_UNIT_MELEE">
+			<Value>5</Value>
+		</Row>
+		<Row Name="EXPERIENCE_DEFENDING_UNIT_MELEE">
+			<Value>4</Value>
+		</Row>
+		<Row Name="EXPERIENCE_ATTACKING_UNIT_AIR">
+			<Value>4</Value>
+		</Row>
+		<Row Name="EXPERIENCE_DEFENDING_UNIT_AIR">
+			<Value>2</Value>
+		</Row>
+		<Row Name="EXPERIENCE_ATTACKING_UNIT_RANGED">
+			<Value>2</Value>
+		</Row>
+		<Row Name="EXPERIENCE_DEFENDING_UNIT_RANGED">
+			<Value>2</Value>
+		</Row>
+		<Row Name="EXPERIENCE_ATTACKING_AIR_SWEEP">
+			<Value>5</Value>
+		</Row>
+		<Row Name="EXPERIENCE_DEFENDING_AIR_SWEEP_AIR">
+			<Value>5</Value>
+		</Row>
+		<Row Name="EXPERIENCE_DEFENDING_AIR_SWEEP_GROUND">
+			<Value>2</Value>
+		</Row>
+		<Row Name="EXPERIENCE_ATTACKING_CITY_MELEE">
+			<Value>5</Value>
+		</Row>
+		<Row Name="EXPERIENCE_ATTACKING_CITY_RANGED">
+			<Value>3</Value>
+		</Row>
+		<Row Name="EXPERIENCE_ATTACKING_CITY_AIR">
+			<Value>4</Value>
+		</Row>
+		<Row Name="BARBARIAN_MAX_XP_VALUE">
+			<Value>30</Value>
+		</Row>
+		<Row Name="COMBAT_EXPERIENCE_IN_BORDERS_PERCENT">
+			<Value>100</Value>
+		</Row>
+		<Row Name="GREAT_GENERALS_THRESHOLD_INCREASE">
+			<Value>50</Value>
+		</Row>
+		<Row Name="GREAT_GENERALS_THRESHOLD_INCREASE_TEAM">
+			<Value>50</Value>
+		</Row>
+		<Row Name="GREAT_GENERALS_THRESHOLD">
+			<Value>200</Value>
+		</Row>
+		<Row Name="UNIT_DEATH_XP_GREAT_GENERAL_LOSS">
+			<Value>50</Value>
+		</Row>
+		<!--Deprecated (?) Experience & Promotion Defines-->
+		<Row Name="MIN_EXPERIENCE_PER_COMBAT">
+			<Value>1</Value>
+		</Row>
+		<Row Name="MAX_EXPERIENCE_PER_COMBAT">
+			<Value>10</Value>
+		</Row>
+		<!-- Player Proximity and Cramped Status Defines -->
+		<Row Name="CRAMPED_RANGE_FROM_CITY">
+			<Value>5</Value>
+		</Row>
+		<Row Name="CRAMPED_USABLE_PLOT_PERCENT">
+			<Value>25</Value>
+		</Row>
+		<Row Name="PROXIMITY_NEIGHBORS_CLOSEST_CITY_REQUIREMENT">
+			<Value>7</Value>
+		</Row>
+		<Row Name="PROXIMITY_CLOSE_CLOSEST_CITY_POSSIBILITY">
+			<Value>11</Value>
+		</Row>
+		<Row Name="PROXIMITY_CLOSE_DISTANCE_MAP_MULTIPLIER">
+			<Value>25</Value>
+		</Row>
+		<Row Name="PROXIMITY_CLOSE_DISTANCE_MAX">
+			<Value>20</Value>
+		</Row>
+		<Row Name="PROXIMITY_CLOSE_DISTANCE_MIN">
+			<Value>10</Value>
+		</Row>
+		<Row Name="PROXIMITY_FAR_DISTANCE_MAP_MULTIPLIER">
+			<Value>45</Value>
+		</Row>
+		<Row Name="PROXIMITY_FAR_DISTANCE_MAX">
+			<Value>50</Value>
+		</Row>
+		<Row Name="PROXIMITY_FAR_DISTANCE_MIN">
+			<Value>20</Value>
+		</Row>
+		<!-- Cost of acquiring new Plots -->
+		<Row Name="PLOT_BASE_COST">
+			<Value>50</Value>
+		</Row>
+		<Row Name="PLOT_ADDITIONAL_COST_PER_PLOT">
+			<Value>5</Value>
+		</Row>
+		<Row Name="PLOT_COST_APPEARANCE_DIVISOR">
+			<Value>5</Value>
+		</Row>
+		<Row Name="CULTURE_COST_FIRST_PLOT">
+			<Value>15</Value>
+		</Row>
+		<Row Name="CULTURE_COST_LATER_PLOT_MULTIPLIER">
+			<Value>10</Value>
+		</Row>
+		<Row Name="CULTURE_COST_LATER_PLOT_EXPONENT">
+			<Value>1.1</Value>
+		</Row>
+		<Row Name="CULTURE_COST_VISIBLE_DIVISOR">
+			<Value>5</Value>
+		</Row>
+		<Row Name="CULTURE_PLOT_COST_MOD_MINIMUM">
+			<Value>-85</Value>
+		</Row>
+		<Row Name="MINOR_CIV_PLOT_CULTURE_COST_MULTIPLIER">
+			<Value>150</Value>
+		</Row>
+		<Row Name="MAXIMUM_BUY_PLOT_DISTANCE">
+			<Value>3</Value>
+		</Row>
+		<Row Name="MAXIMUM_ACQUIRE_PLOT_DISTANCE">
+			<Value>5</Value>
+		</Row>
+		<Row Name="PLOT_INFLUENCE_DISTANCE_MULTIPLIER">
+			<Value>100</Value>
+		</Row>
+		<Row Name="PLOT_INFLUENCE_RING_COST">
+			<Value>100</Value>
+		</Row>
+		<Row Name="PLOT_INFLUENCE_WATER_COST">
+			<Value>25</Value>
+		</Row>
+		<Row Name="PLOT_INFLUENCE_IMPROVEMENT_COST">
+			<Value>-5</Value>
+		</Row>
+		<Row Name="PLOT_INFLUENCE_ROUTE_COST">
+			<Value>0</Value>
+		</Row>
+		<Row Name="PLOT_INFLUENCE_RESOURCE_COST">
+			<Value>-105</Value>
+		</Row>
+		<Row Name="PLOT_INFLUENCE_NW_COST">
+			<Value>-105</Value>
+		</Row>
+		<Row Name="PLOT_BUY_RESOURCE_COST">
+			<Value>-100</Value>
+		</Row>
+		<Row Name="PLOT_BUY_YIELD_COST">
+			<Value>10</Value>
+		</Row>
+		<Row Name="PLOT_INFLUENCE_YIELD_POINT_COST">
+			<Value>-1</Value>
+		</Row>
+		<Row Name="PLOT_INFLUENCE_NO_ADJACENT_OWNED_COST">
+			<Value>1000</Value>
+		</Row>
+		<!-- DIPLOMACY VICTORY -->
+		<Row Name="UNITED_NATIONS_COUNTDOWN_TURNS">
+			<Value>10</Value>
+		</Row>
+		<Row Name="OWN_UNITED_NATIONS_VOTE_BONUS">
+			<Value>1</Value>
+		</Row>
+		<Row Name="DIPLO_VICTORY_ALGORITHM_THRESHOLD">
+			<Value>28</Value>
+		</Row>
+		<Row Name="DIPLO_VICTORY_BEYOND_ALGORITHM_MULTIPLIER">
+			<Value>35</Value>
+		</Row>
+		<Row Name="DIPLO_VICTORY_TEAM_MULTIPLIER">
+			<Value>1.1</Value>
+		</Row>
+		<Row Name="DIPLO_VICTORY_DEFAULT_VOTE_PERCENT">
+			<Value>67</Value>
+		</Row>
+		<!-- Civ 5 Score -->
+		<Row Name="SCORE_CITY_MULTIPLIER">
+			<Value>8</Value>
+		</Row>
+		<Row Name="SCORE_POPULATION_MULTIPLIER">
+			<Value>4</Value>
+		</Row>
+		<Row Name="SCORE_LAND_MULTIPLIER">
+			<Value>1</Value>
+		</Row>
+		<Row Name="SCORE_WONDER_MULTIPLIER">
+			<Value>25</Value>
+		</Row>
+		<Row Name="SCORE_TECH_MULTIPLIER">
+			<Value>4</Value>
+		</Row>
+		<Row Name="SCORE_FUTURE_TECH_MULTIPLIER">
+			<Value>10</Value>
+		</Row>
+		<!-- NEW STUFF WITH NO CATEGORY -->
+		<Row Name="VICTORY_POINTS_PER_ERA">
+			<Value>1</Value>
+		</Row>
+		<Row Name="MIN_GAME_TURNS_ELAPSED_TO_TEST_VICTORY">
+			<Value>10</Value>
+		</Row>
+		<Row Name="ZERO_SUM_COMPETITION_WONDERS_VICTORY_POINTS">
+			<Value>5</Value>
+		</Row>
+		<Row Name="ZERO_SUM_COMPETITION_POLICIES_VICTORY_POINTS">
+			<Value>5</Value>
+		</Row>
+		<Row Name="ZERO_SUM_COMPETITION_GREAT_PEOPLE_VICTORY_POINTS">
+			<Value>5</Value>
+		</Row>
+		<Row Name="MAX_CITY_DIST_HIGHWATER_MARK">
+			<Value>3</Value>
+		</Row>
+		<Row Name="CITY_ZOOM_LEVEL_1">
+			<Value>500.0</Value>
+		</Row>
+		<Row Name="CITY_ZOOM_LEVEL_2">
+			<Value>700.0</Value>
+		</Row>
+		<Row Name="CITY_ZOOM_LEVEL_3">
+			<Value>800.0</Value>
+		</Row>
+		<Row Name="CITY_ZOOM_OFFSET">
+			<Value>20.0</Value>
+		</Row>
+		<Row Name="HEAVY_RESOURCE_THRESHOLD">
+			<Value>3</Value>
+		</Row>
+		<Row Name="PROGRESS_POPUP_TURN_FREQUENCY">
+			<Value>25</Value>
+		</Row>
+		<Row Name="SETTLER_PRODUCTION_SPEED">
+			<Value>0</Value>
+		</Row>
+		<Row Name="BUY_PLOTS_DISABLED">
+			<Value>0</Value>
+		</Row>
+		<Row Name="WARLORD_EXTRA_EXPERIENCE_PER_UNIT_PERCENT">
+			<Value>0</Value>
+		</Row>
+		<Row Name="MINOR_CIV_ROUTE_QUEST_WEIGHT">
+			<Value>1000</Value>
+		</Row>
+		<Row Name="WITHDRAW_MOD_ENEMY_MOVES">
+			<Value>-20</Value>
+		</Row>
+		<Row Name="WITHDRAW_MOD_BLOCKED_TILE">
+			<Value>-20</Value>
+		</Row>
+		<Row Name="ALLOW_EXTENDED_PLAY">
+			<Value>1</Value>
+		</Row>
+	</Defines>
+	<!-- Post defines are references to rows in tables after everything has been loaded. -->
+	<!-- The Type of the post define and the ROWID it points to is added to Defines. -->
+	<PostDefines>
+		<Row Name="LAND_TERRAIN">
+			<Key>TERRAIN_GRASS</Key>
+			<Table>Terrains</Table>
+		</Row>
+		<Row Name="DEEP_WATER_TERRAIN">
+			<Key>TERRAIN_OCEAN</Key>
+			<Table>Terrains</Table>
+		</Row>
+		<Row Name="SHALLOW_WATER_TERRAIN">
+			<Key>TERRAIN_COAST</Key>
+			<Table>Terrains</Table>
+		</Row>
+		<Row Name="RUINS_IMPROVEMENT">
+			<Key>IMPROVEMENT_CITY_RUINS</Key>
+			<Table>Improvements</Table>
+		</Row>
+		<Row Name="NUKE_FEATURE">
+			<Key>FEATURE_FALLOUT</Key>
+			<Table>Features</Table>
+		</Row>
+		<Row Name="CAPITAL_BUILDINGCLASS">
+			<Key>BUILDINGCLASS_PALACE</Key>
+			<Table>BuildingClasses</Table>
+		</Row>
+		<Row Name="DEFAULT_SPECIALIST">
+			<Key>SPECIALIST_CITIZEN</Key>
+			<Table>Specialists</Table>
+		</Row>
+		<Row Name="SPACE_RACE_TRIGGER_PROJECT">
+			<Key>PROJECT_APOLLO_PROGRAM</Key>
+			<Table>Projects</Table>
+		</Row>
+		<Row Name="SPACESHIP_CAPSULE">
+			<Key>PROJECT_SS_COCKPIT</Key>
+			<Table>Projects</Table>
+		</Row>
+		<Row Name="SPACESHIP_BOOSTER">
+			<Key>PROJECT_SS_BOOSTER</Key>
+			<Table>Projects</Table>
+		</Row>
+		<Row Name="SPACESHIP_STASIS">
+			<Key>PROJECT_SS_STASIS_CHAMBER</Key>
+			<Table>Projects</Table>
+		</Row>
+		<Row Name="SPACESHIP_ENGINE">
+			<Key>PROJECT_SS_ENGINE</Key>
+			<Table>Projects</Table>
+		</Row>
+		<Row Name="MANHATTAN_PROJECT">
+			<Key>PROJECT_MANHATTAN_PROJECT</Key>
+			<Table>Projects</Table>
+		</Row>
+		<Row Name="INITIAL_CITY_ROUTE_TYPE">
+			<Key>ROUTE_ROAD</Key>
+			<Table>Routes</Table>
+		</Row>
+		<Row Name="STANDARD_HANDICAP">
+			<Key>HANDICAP_CHIEFTAIN</Key>
+			<Table>HandicapInfos</Table>
+		</Row>
+		<Row Name="MULTIPLAYER_HANDICAP">
+			<Key>HANDICAP_PRINCE</Key>
+			<Table>HandicapInfos</Table>
+		</Row>
+		<Row Name="STANDARD_HANDICAP_QUICK">
+			<Key>HANDICAP_CHIEFTAIN</Key>
+			<Table>HandicapInfos</Table>
+		</Row>
+		<Row Name="STANDARD_GAMESPEED">
+			<Key>GAMESPEED_STANDARD</Key>
+			<Table>GameSpeeds</Table>
+		</Row>
+		<Row Name="STANDARD_TURNTIMER">
+			<Key>TURNTIMER_MEDIUM</Key>
+			<Table>TurnTimers</Table>
+		</Row>
+		<Row Name="STANDARD_CLIMATE">
+			<Key>CLIMATE_TEMPERATE</Key>
+			<Table>Climates</Table>
+		</Row>
+		<Row Name="STANDARD_WORLD_SIZE">
+			<Key>WORLDSIZE_STANDARD</Key>
+			<Table>Worlds</Table>
+		</Row>
+		<Row Name="STANDARD_SEALEVEL">
+			<Key>SEALEVEL_MEDIUM</Key>
+			<Table>Sealevels</Table>
+		</Row>
+		<Row Name="STANDARD_ERA">
+			<Key>ERA_ANCIENT</Key>
+			<Table>Eras</Table>
+		</Row>
+		<Row Name="LAST_EMBARK_ART_ERA">
+			<Key>ERA_INDUSTRIAL</Key>
+			<Table>Eras</Table>
+		</Row>
+		<Row Name="LAST_UNIT_ART_ERA">
+			<Key>ERA_INDUSTRIAL</Key>
+			<Table>Eras</Table>
+		</Row>
+		<Row Name="LAST_BRIDGE_ART_ERA">
+			<Key>ERA_MODERN</Key>
+			<Table>Eras</Table>
+		</Row>
+		<Row Name="STANDARD_CALENDAR">
+			<Key>CALENDAR_DEFAULT</Key>
+			<Table>Calendars</Table>
+		</Row>
+		<Row Name="BARBARIAN_HANDICAP">
+			<Key>HANDICAP_CHIEFTAIN</Key>
+			<Table>HandicapInfos</Table>
+		</Row>
+		<Row Name="BARBARIAN_CIVILIZATION">
+			<Key>CIVILIZATION_BARBARIAN</Key>
+			<Table>Civilizations</Table>
+		</Row>
+		<Row Name="BARBARIAN_LEADER">
+			<Key>LEADER_BARBARIAN</Key>
+			<Table>Leaders</Table>
+		</Row>
+		<Row Name="MINOR_CIV_HANDICAP">
+			<Key>HANDICAP_PRINCE</Key>
+			<Table>HandicapInfos</Table>
+		</Row>
+		<Row Name="MINOR_CIVILIZATION">
+			<Key>CIVILIZATION_MINOR</Key>
+			<Table>Civilizations</Table>
+		</Row>
+		<Row Name="PROMOTION_EMBARKATION">
+			<Key>PROMOTION_EMBARKATION</Key>
+			<Table>UnitPromotions</Table>
+		</Row>		
+		<Row Name="PROMOTION_DEFENSIVE_EMBARKATION">
+			<Key>PROMOTION_DEFENSIVE_EMBARKATION</Key>
+			<Table>UnitPromotions</Table>
+		</Row>
+		<Row Name="PROMOTION_ALLWATER_EMBARKATION">
+			<Key>PROMOTION_ALLWATER_EMBARKATION</Key>
+			<Table>UnitPromotions</Table>
+		</Row>
+		<Row Name="PROMOTION_OCEAN_IMPASSABLE">
+			<Key>PROMOTION_OCEAN_IMPASSABLE</Key>
+			<Table>UnitPromotions</Table>
+		</Row>
+		<Row Name="PROMOTION_OCEAN_IMPASSABLE_UNTIL_ASTRONOMY">
+			<Key>PROMOTION_OCEAN_IMPASSABLE_UNTIL_ASTRONOMY</Key>
+			<Table>UnitPromotions</Table>
+		</Row>
+		<Row Name="PROMOTION_ONLY_DEFENSIVE">
+			<Key>PROMOTION_ONLY_DEFENSIVE</Key>
+			<Table>UnitPromotions</Table>
+		</Row>
+    <Row Name="PROMOTION_UNWELCOME_EVANGELIST">
+      <Key>PROMOTION_UNWELCOME_EVANGELIST</Key>
+      <Table>UnitPromotions</Table>
+    </Row>
+		<Row Name="BARBARIAN_CAMP_IMPROVEMENT">
+			<Key>IMPROVEMENT_BARBARIAN_CAMP</Key>
+			<Table>Improvements</Table>
+		</Row>
+		<Row Name="WALLS_BUILDINGCLASS">
+			<Key>BUILDINGCLASS_WALLS</Key>
+			<Table>BuildingClasses</Table>
+		</Row>
+	</PostDefines>
+</GameData>

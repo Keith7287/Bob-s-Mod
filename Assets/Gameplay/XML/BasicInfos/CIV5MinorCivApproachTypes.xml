@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="MinorCivApproachTypes">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+	</Table>
+	<!-- Table data -->
+	<MinorCivApproachTypes>
+		<Row>
+			<ID>0</ID>
+			<Type>MINOR_CIV_APPROACH_IGNORE</Type>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_APPROACH_FRIENDLY</Type>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_APPROACH_PROTECTIVE</Type>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_APPROACH_CONQUEST</Type>
+		</Row>
+	</MinorCivApproachTypes>
+</GameData>

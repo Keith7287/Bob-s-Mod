@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<!--Links diplomacy responses to TXT_KEYs.  LeaderType is pretty self-explanatory.  "GENERIC" in this field will allow the entry to be used by any player.  "ResponseType" is a tag called from the Diplomacy AI when it needs to grab a string.  "Response" is a text key, with some extra rules.  "%" serves as a wildcard, allowing any TXT_KEY that matches everything else in the field to be added to the list to picked from randomly (most entries use this for the sake of variety).  The TXT_KEYs are located in the Text\LeaderDialogue\ directory.-->
+<GameData>
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_BOUDICCA">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_BOUDICCA_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ATTILA">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_ATTILA_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GUSTAVUS_ADOLPHUS">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_MARIA_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_THEODORA">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_THEODORA_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DIDO">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_DIDO_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WILLIAM">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_WILLIAM_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SELASSIE">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_SELASSIE_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PACAL">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_PACAL_FIRSTGREETING%</Response>
+		</Row>
+		<Delete LeaderType="LEADER_ISABELLA"/>
+		<Replace LeaderType="LEADER_ISABELLA">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_ISABELLA_FIRSTGREETING_%</Response>
+		</Replace>
+		<Row LeaderType="LEADER_BOUDICCA">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_BOUDICCA_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ATTILA">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_ATTILA_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GUSTAVUS_ADOLPHUS">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_MARIA_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_THEODORA">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_THEODORA_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DIDO">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_DIDO_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WILLIAM">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_WILLIAM_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SELASSIE">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_SELASSIE_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PACAL">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_PACAL_DEFEATED%</Response>
+		</Row>
+		<Replace LeaderType="LEADER_ISABELLA">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_ISABELLA_DEFEATED_%</Response>
+		</Replace>
+		<Row LeaderType="LEADER_BOUDICCA">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_BOUDICCA_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ATTILA">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ATILLA_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GUSTAVUS_ADOLPHUS">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_MARIA_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_THEODORA">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_THEODORA_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DIDO">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_DIDO_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WILLIAM">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_WILLIAM_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SELASSIE">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SELASSIE_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PACAL">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_PACAL_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_BOUDICCA">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_BOUDICCA_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ATTILA">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ATILLA_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GUSTAVUS_ADOLPHUS">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_MARIA_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_THEODORA">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_THEODORA_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DIDO">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_DIDO_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WILLIAM">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_WILLIAM_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SELASSIE">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SELASSIE_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PACAL">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_PACAL_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_BOUDICCA">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_BOUDICCA_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ATTILA">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ATTILA_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GUSTAVUS_ADOLPHUS">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_MARIA_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_THEODORA">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_THEODORA_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DIDO">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_DIDO_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WILLIAM">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_WILLIAM_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SELASSIE">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SELASSIE_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PACAL">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_PACAL_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SAME_POLICIES_FREEDOM</ResponseType>
+			<Response>TXT_KEY_GENERIC_SAME_POLICIES_FREEDOM%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SAME_POLICIES_ORDER</ResponseType>
+			<Response>TXT_KEY_GENERIC_SAME_POLICIES_ORDER%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SAME_POLICIES_AUTOCRACY</ResponseType>
+			<Response>TXT_KEY_GENERIC_SAME_POLICIES_AUTOCRACY%</Response>
+		</Row>
+		<Row LeaderType="LEADER_BOUDICCA">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_BOUDICCA_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ATTILA">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_ATTILA_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GUSTAVUS_ADOLPHUS">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_GUSTAVUS_ADOLPHUS_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_MARIA_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_THEODORA">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_THEODORA_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DIDO">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_DIDO_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WILLIAM">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_WILLIAM_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SELASSIE">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_SELASSIE_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PACAL">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_PACAL_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_BULLIED_PROTECTED_CITY_STATE</ResponseType>
+			<Response>TXT_KEY_BULLIED_PROTECTED_CITY_STATE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_BOUDICCA">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_BOUDICCA_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ATTILA">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_ATTILA_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GUSTAVUS_ADOLPHUS">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_GUSTAVUS_ADOLPHUS_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_MARIA_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_THEODORA">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_THEODORA_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DIDO">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_DIDO_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WILLIAM">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_WILLIAM_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SELASSIE">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_SELASSIE_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PACAL">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_PACAL_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HOSTILE_WE_BULLIED_YOUR_MINOR</ResponseType>
+			<Response>TXT_KEY_HOSTILE_WE_BULLIED_YOUR_MINOR%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_WE_BULLIED_YOUR_MINOR</ResponseType>
+			<Response>TXT_KEY_WE_BULLIED_YOUR_MINOR%</Response>
+		</Row>
+		<Row LeaderType="LEADER_BOUDICCA">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_BOUDICCA_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ATTILA">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_ATTILA_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GUSTAVUS_ADOLPHUS">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_MARIA_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_THEODORA">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_THEODORA_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DIDO">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_DIDO_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WILLIAM">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_WILLIAM_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SELASSIE">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_SELASSIE_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PACAL">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_PACAL_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_BOUDICCA">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_BOUDICCA_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ATTILA">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_ATTILA_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GUSTAVUS_ADOLPHUS">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_MARIA_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_THEODORA">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_THEODORA_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DIDO">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_DIDO_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WILLIAM">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_WILLIAM_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SELASSIE">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_SELASSIE_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PACAL">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_PACAL_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_EMBASSY_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_GENERIC_EMBASSY_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_EMBASSY_OFFER</ResponseType>
+			<Response>TXT_KEY_GENERIC_EMBASSY_OFFER%</Response>
+		</Row>
+		<Row LeaderType="LEADER_BOUDICCA">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_BOUDICCA_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ATTILA">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_ATTILA_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GUSTAVUS_ADOLPHUS">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_MARIA_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_THEODORA">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_THEODORA_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_DIDO">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_DIDO_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_WILLIAM">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_WILLIAM_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SELASSIE">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_SELASSIE_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PACAL">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_PACAL_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_RENEW_DEAL</ResponseType>
+			<Response>TXT_KEY_GENERIC_RENEW_DEAL%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_WANT_MORE_RENEW_DEAL</ResponseType>
+			<Response>TXT_KEY_GENERIC_WANT_MORE_RENEW_DEAL%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HOSTILE_WE_BULLIED_MINOR_BAD</ResponseType>
+			<Response>TXT_KEY_GENERIC_HOSTILE_WE_BULLIED_MINOR_BAD%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HOSTILE_WE_BULLIED_MINOR_GOOD</ResponseType>
+			<Response>TXT_KEY_GENERIC_HOSTILE_WE_BULLIED_MINOR_GOOD%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_WE_BULLIED_MINOR_BAD</ResponseType>
+			<Response>TXT_KEY_GENERIC_WE_BULLIED_MINOR_BAD%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_WE_BULLIED_MINOR_GOOD</ResponseType>
+			<Response>TXT_KEY_GENERIC_HUMAN_RESPONSE_PLEASED%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_BULLIED_MINOR_BAD</ResponseType>
+			<Response>TXT_KEY_GENERIC_HUMAN_RESPONSE_BAD%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_BULLIED_MINOR_GOOD</ResponseType>
+			<Response>TXT_KEY_GENERIC_HUMAN_BULLIED_MINOR_GOOD%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_GREETING_WILL_ACCEPT_SURRENDER</ResponseType>
+			<Response>TXT_KEY_GENERIC_GREETING_WILL_ACCEPT_SURRENDER%</Response>
+		</Row>
+		<!--Espionage-->
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_CAUGHT_YOUR_SPY</ResponseType>
+			<Response>TXT_KEY_GENERIC_CAUGHT_YOUR_SPY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_KILLED_YOUR_SPY</ResponseType>
+			<Response>TXT_KEY_GENERIC_KILLED_YOUR_SPY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_KILLED_MY_SPY</ResponseType>
+			<Response>TXT_KEY_GENERIC_KILLED_MY_SPY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_CONFRONT_YOU_KILLED_MY_SPY</ResponseType>
+			<Response>TXT_KEY_GENERIC_CONFRONT_YOU_KILLED_MY_SPY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SUSPECT_YOU_OF_SPYING</ResponseType>
+			<Response>TXT_KEY_GENERIC_KILLED_MY_SPY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_CAUGHT_YOUR_SPY_GOOD</ResponseType>
+			<Response>TXT_KEY_GENERIC_HUMAN_CAUGHT_YOUR_SPY_GOOD%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_CAUGHT_YOUR_SPY_BAD</ResponseType>
+			<Response>TXT_KEY_GENERIC_HUMAN_CAUGHT_YOUR_SPY_BAD%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_STOP_SPYING_YES</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_STOP_SPYING_YES%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_STOP_SPYING_NO</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_STOP_SPYING_NO%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_WARNED_ABOUT_INTRIGUE</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_WARNED_ABOUT_INTRIGUE%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SHARE_INTRIGUE_DECEPTION</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_SHARE_INTRIGUE_DECEPTION%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SHARE_INTRIGUE_ARMY_SNEAK_ATTACK_KNOWN_CITY</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_SHARE_INTRIGUE_ARMY_SNEAK_ATTACK_KNOWN_CITY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SHARE_INTRIGUE_ARMY_SNEAK_ATTACK_UNKNOWN_CITY</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_SHARE_INTRIGUE_ARMY_SNEAK_ATTACK_UNKNOWN_CITY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SHARE_INTRIGUE_AMPHIBIOUS_SNEAK_ATTACK_KNOWN_CITY</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_SHARE_INTRIGUE_AMPHIBIOUS_SNEAK_ATTACK_KNOWN_CITY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SHARE_INTRIGUE_AMPHIBIOUS_SNEAK_ATTACK_UNKNOWN_CITY</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_SHARE_INTRIGUE_AMPHIBIOUS_SNEAK_ATTACK_UNKNOWN_CITY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_KILLED_MY_SPY_UNFORGIVEN</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_HUMAN_KILLED_MY_SPY_UNFORGIVEN%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_KILLED_MY_SPY_FORGIVEN</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_HUMAN_KILLED_MY_SPY_FORGIVEN%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_STOP_CONVERSIONS</ResponseType>
+			<Response>TXT_KEY_GENERIC_STOP_CONVERSIONS%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_STOP_CONVERSIONS_GOOD</ResponseType>
+			<Response>TXT_KEY_GENERIC_HUMAN_STOP_CONVERSIONS_GOOD%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_STOP_CONVERSIONS_BAD</ResponseType>
+			<Response>TXT_KEY_GENERIC_HUMAN_STOP_CONVERSIONS_BAD%</Response>
+		</Row>
+    <Row LeaderType="GENERIC">
+      <ResponseType>RESPONSE_TRADE_CANT_MATCH_OFFER</ResponseType>
+      <Response>TXT_KEY_GENERIC_TRADE_CANT_MATCH_OFFER%</Response>
+    </Row>
+    <Row LeaderType="GENERIC">
+      <ResponseType>RESPONSE_HUMAN_STOP_CONVERSIONS_AGREE</ResponseType>
+      <Response>TXT_KEY_GENERIC_RESPONSE_HUMAN_STOP_CONVERSIONS_AGREE%</Response>
+    </Row>
+    <Row LeaderType="GENERIC">
+      <ResponseType>RESPONSE_HUMAN_STOP_CONVERSIONS_DISAGREE</ResponseType>
+      <Response>TXT_KEY_GENERIC_RESPONSE_HUMAN_STOP_CONVERSIONS_DISAGREE%</Response>
+    </Row>
+  </Diplomacy_Responses>
+</GameData>

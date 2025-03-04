@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Scott Lewis (Firaxis Games) -->
+<GameData>
+	<Language_en_US>
+		<!-- Enemy Unit Panel-->
+		<Row Tag="TXT_KEY_EUPANEL_SUPPORT_DMG">
+			<Text>Support DMG: ~{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ATTACK_CITIES">
+			<Text>Bonus VS Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ATTACK_CITIES_PENALTY">
+			<Text>Penalty VS Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ATTACK_OVER_RIVER">
+			<Text>Attacking over River</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_AMPHIBIOUS_ATTACK">
+			<Text>Amphibious Attack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_GG_NEAR">
+			<Text>Near Great General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_REVERSE_GG_NEAR">
+			<Text>Near Enemy War Dance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_IMPROVEMENT_NEAR">
+			<Text>Near Combat Bonus Improvement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_POLICY_ATTACK_BONUS">
+			<Text>Temp Attack Bonus ({1_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_FLANKING_BONUS">
+			<Text>Flanking Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_EXTRA_PERCENT">
+			<Text>Combat Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_FIGHT_AT_HOME_BONUS">
+			<Text>Bonus in Friendly Lands</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ATTACK_IN_FRIEND_LANDS">
+			<Text>Attacking into Friendly Lands</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_OUTSIDE_HOME_BONUS">
+			<Text>Bonus outside Friendly Lands</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_EMPIRE_UNHAPPY_PENALTY">
+			<Text>[ICON_HAPPINESS_4] Very Unhappy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_STRATEGIC_RESOURCE">
+			<Text>Strategic Resource Penalty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ADJACENT_FRIEND_UNIT_BONUS">
+			<Text>Adjacent Friendly Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ATTACK_MOD_BONUS">
+			<Text>Attack Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_VS_CLASS">
+			<Text>Bonus VS {1_UnitType}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_VS_DOMAIN">
+			<Text>Bonus VS Domain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_VS_FORT_UNITS">
+			<Text>Bonus VS Fortified Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_VS_WOUND_UNITS">
+			<Text>Bonus VS Wounded Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_HILL_ATTACK_BONUS">
+			<Text>Hill Attack Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_OPEN_TERRAIN_BONUS">
+			<Text>Open Terrain Attack Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_OPEN_TERRAIN_RANGE_BONUS">
+			<Text>Open Terrain Ranged Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ROUGH_TERRAIN_BONUS">
+			<Text>Rough Terrain Attack Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ROUGH_TERRAIN_RANGED_BONUS">
+			<Text>Rough Terrain Ranged Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ATTACK_INTO_BONUS">
+			<Text>Bonus Attacking Into {1_TerrainType}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_VS_BARBARIANS_BONUS">
+			<Text>Bonus VS Barbarians</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_GARRISONED_CITY_RANGE_BONUS">
+			<Text>Garrisoned Unit Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_UNIT_YOUR_APPROXIMATE_DAMAGE">
+			<Text>Approx DMG Inflicted :</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_UNIT_THEIR_APPROXIMATE_DAMAGE">
+			<Text>: Approx DMG Inflicted</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_UNIT_STRENGTH">
+			<Text>TOTAL STRENGTH</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_UNIT_YOUR_STRENGTH">
+			<Text>[ICON_STRENGTH] YOUR STRENGTH :</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_UNIT_THEIR_STRENGTH">
+			<Text>: THEIR STRENGTH [ICON_STRENGTH]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_TERRAIN_MODIFIER">
+			<Text>Terrain Modifier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_RANGED_ATTACK_MODIFIER">
+			<Text>Ranged Attack Modifier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_FORTIFICATION_BONUS">
+			<Text>Fortification Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_DEFENSE_BONUS">
+			<Text>Defense Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_HILL_DEFENSE_BONUS">
+			<Text>Hill Defense Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_OPEN_TERRAIN_DEF_BONUS">
+			<Text>Open Terrain Defense Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_ROUGH_TERRAIN_DEF_BONUS">
+			<Text>Rough Terrain Defense Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_DEFENSE_TERRAIN">
+			<Text>Bonus Defending in {1_TerrainType}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_GOLDEN_AGE">
+			<Text>Golden Age Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_CITY_STATE">
+			<Text>City State Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_BONUS_RELIGIOUS_BELIEF">
+			<Text>Religious Belief Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_MY_COMBAT_INFO">
+			<Text>MY COMBAT INFO!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_THEIR_COMBAT_INFO">
+			<Text>THEIR COMBAT INFO!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_SAFE_ATTACK">
+			<Text>SAFE ATTACK</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_RISKY_ATTACK">
+			<Text>COSTLY ATTACK</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_TOTAL_VICTORY">
+			<Text>DECISIVE VICTORY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_MAJOR_VICTORY">
+			<Text>MAJOR VICTORY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_MINOR_VICTORY">
+			<Text>MINOR VICTORY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_MINOR_DEFEAT">
+			<Text>MINOR DEFEAT</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_MAJOR_DEFEAT">
+			<Text>MAJOR DEFEAT</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_TOTAL_DEFEAT">
+			<Text>TOTAL DEFEAT</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_STALEMATE">
+			<Text>STALEMATE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_MOVEMENT">
+			<Text>Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_LOWER_STRENGTH">
+			<Text>Strength</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_RANGED_ATTACK">
+			<Text>Ranged Attack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_CURRENT_STATUS">
+			<Text>Current Status</Text>
+		</Row>
+		<!-- Plot Rollover Help Text-->
+		<Row Tag="TXT_KEY_PLOTROLL_EMBARKED">
+			<Text>(embarked)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLOTROLL_MIL_UNIT_STRENGTH">
+			<Text>{1_CivName} ({2_Player}), {3_Num}[ICON_STRENGTH], {4_Num}HP {5_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLOTROLL_UNIT_DESCRIPTION_CIV">
+			<Text>{@1_CivAdjective} {@2_UnitName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLOTROLL_UNIT_DESCRIPTION_PLAYER">
+			<Text>{1_PlayerName}: {2_UnitName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLOTROLL_UNIT_HP">
+			<Text>{1_Num} HP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLOTROLL_OWNED_CIV">
+			<Text>Tile owned by {1_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLOTROLL_OWNED_PLAYER">
+			<Text>Tile owned by {1_PlayerName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLOTROLL_FRESH_WATER">
+			<Text>Fresh Water</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLOTROLL_REQUIRES_TECH_TO_USE">
+			<Text>[COLOR_WARNING_TEXT](Requires {@1_TechName} to use)[ENDCOLOR] </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLOTROLL_REQUIRES_TECH">
+			<Text>[COLOR_WARNING_TEXT](Requires {@1_TechName})[ENDCOLOR] </Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLOTROLL_PILLAGED">
+			<Text>(Pillaged!)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLOTROLL_TRADE_ROUTE">
+			<Text>Trade Route</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLOTROLL_MOUNTAIN">
+			<Text>Mountain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLOTROLL_HILL">
+			<Text>Hill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLOTROLL_LAKE">
+			<Text>Lake</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLOTROLL_OCEAN">
+			<Text>Ocean</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLOTROLL_RIVER">
+			<Text>River</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OUTPUT">
+			<Text>Output</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE">
+			<Text>Resource</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT">
+			<Text>Improvement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_OF">
+			<Text>The {1_CivAdjective:textkey} City of {2_CityName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_BARB_QUEST_SHORT">
+			<Text>City-State Quest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_BARB_QUEST_LONG">
+			<Text>The City-State of {1_CivName:textkey} wants you to destroy the barbarian encampment in this tile.</Text>
+		</Row>
+		<!-- Unit Panel Texts -->
+		<Row Tag="TXT_KEY_UPANEL_HEALTH">
+			<Text>Health</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_RECOMMENDED">
+			<Text>Recommended:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_REPAIR_TILE">
+			<Text>Repair Tile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_REPAIR_TILE_3">
+			<Text>Repair Tile (3)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_UNIT_PROMOTED">
+			<Text>UNIT PROMOTED!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_UNIT_PROMOTED_TT">
+			<Text>Reveals promotions your Unit may select.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_UNIT_NAME">
+			<Text>UNIT NAME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_CYCLELEFT">
+			<Text>Cycle to the NEXT Unit which doesn't yet have orders this turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_CYCLERIGHT">
+			<Text>Cycle to the PREVIOUS Unit which doesn't yet have orders this turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_MOVEMENT">
+			<Text>Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_MOVEMENT_TT">
+			<Text>The number of tiles this Unit may move in a turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_RANGEMOVEMENT">
+			<Text>Range</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_RANGEMOVEMENT_TT">
+			<Text>The number of tiles this Unit may fly in a turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_UNIT_NO_MOVES">
+			<Text>UNIT IS OUT OF MOVES</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_STRENGTH">
+			<Text>Strength</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_STRENGTH_TT">
+			<Text>This indicates the combat strength of the Unit.  The higher this number the better the Unit will perform in combat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_RANGED_ATTACK">
+			<Text>Ranged Attack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_RANGED_ATTACK_TT">
+			<Text>This indicates the ranged attack strength of the Unit.  The higher this number the better the Unit will perform in combat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_UNIT_MAY_MOVE">
+			<Text>Your Unit may move {1_Num} more tile(s) this turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_UNIT_MAY_STRIKE_REBASE">
+			<Text>Your Unit may strike within {1_Num} tile(s) or rebase within {2_Num} tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_SET_HITPOINTS_TT">
+			<Text>{1_Num}/{2_Num} Hit Points</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_CLICK_TO_SELECT">
+			<Text>[NEWLINE][COLOR_YELLOW]Click to select this unit.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UN_VOTES_TO_WIN">
+			<Text>UN Votes Needed to Win</Text>
+		</Row>
+		<!--Strategic View Options-->
+		<Row Tag="TXT_KEY_SV_OVERLAY_NONE">
+			<Text>No Overlay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SV_OVERLAY_CULTURE">
+			<Text>Political Map</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SV_OVERLAY_PASSABLE_TERRAIN">
+			<Text>Passable Terrain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SV_OVERLAY_UNIT_CULTURE">
+			<Text>Unit Owner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SV_OVERLAY_UNIT_TYPE">
+			<Text>Unit Type</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SV_OVERLAY_UNIT_DOMAIN">
+			<Text>Unit Domain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SV_OVERLAY_UNIT_COMBAT_TYPE">
+			<Text>Unit Combat Type</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SV_OVERLAY_RESOURCES">
+			<Text>Resources</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SV_OVERLAY_TRADE_ROUTES">
+			<Text>Trade Routes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SV_ICONS_ALL">
+			<Text>All</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SV_ICONS_NONE">
+			<Text>None</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SV_ICONS_UNITS">
+			<Text>Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SV_ICONS_RESOURCES">
+			<Text>Resources</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SV_ICONS_IMPROVEMENTS">
+			<Text>Improvements</Text>
+		</Row>
+		<!-- Info Corner -->
+		<Row Tag="TXT_KEY_IC_CHOOSE">
+			<Text>Change Info Panel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IC_NONE">
+			<Text>Close</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IC_DIPLO">
+			<Text>Diplomacy Info</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IC_UNIT">
+			<Text>Unit List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IC_CITY">
+			<Text>City List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IC_RESEARCH">
+			<Text>Research Info</Text>
+		</Row>
+		<!-- Top Panel Text-->
+		<Row Tag="TXT_KEY_RETURN">
+			<Text>Return</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_SCREEN_EXIT_TOOLTIP">
+			<Text>Exit the City Screen and return to the world map.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HELP_CAPS">
+			<Text>HELP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HELP">
+			<Text>Help</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_TOOLTIP">
+			<Text>Open the Civilopedia, which explains a variety of game elements.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MENU_CAPS">
+			<Text>MENU</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MENU">
+			<Text>Menu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MENU_TOOLTIP">
+			<Text>Brings up the game menu where you may save the game, exit to the main menu, etc.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_SCIENCE">
+			<Text>No Science!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOLDEN_AGE_ANNOUNCE">
+			<Text>Golden Age!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE">
+			<Text>{1_Num} [ICON_RESEARCH] Science being produced empire-wide towards the current research project.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_CITIES">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] from Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_MINORS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] from City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_HAPPINESS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] from excess Happiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_RESEARCH_AGREEMENTS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] from Research Agreements with other players.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_BUDGET_DEFICIT">
+			<Text>[ICON_BULLET][COLOR_NEGATIVE_TEXT]{1_Num} [ICON_RESEARCH] from [ICON_GOLD] budget deficit![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_AVAILABLE_GOLD">
+			<Text>{1_Num} total [ICON_GOLD] Gold available to spend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TOTAL_INCOME">
+			<Text>{1_Num} in total income.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CITY_OUTPUT">
+			<Text>{1_Num} from the output of all Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_FROM_TR">
+			<Text>{1_Num} from [ICON_CONNECTED] Trade Routes between your Cities and your [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_FROM_OTHERS">
+			<Text>{1_Num} from other Civilizations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TOTAL_EXPENSES">
+			<Text>{1_Num} in total expenses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNIT_MAINT">
+			<Text>{1_Num} spent on Unit Maintenance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_UNIT_SUPPLY">
+			<Text>{1_Num} spent on supplying Units outside your territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_BUILDING_MAINT">
+			<Text>{1_Num} spent on Building Maintenance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_TILE_MAINT">
+			<Text>{1_Num} spent on Tile Improvement Maintenance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_TO_OTHERS">
+			<Text>{1_Num} to other Civilizations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_LOSING_SCIENCE_FROM_DEFICIT">
+			<Text>Expenses that can't be paid for will be taken out of your Science Rate!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_EXPLANATION">
+			<Text>With [ICON_GOLD] Gold you may purchase land, units and buildings in your cities, or provide gifts to city-states to make them like you more.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TOTAL_HAPPINESS">
+			<Text>Total [ICON_HAPPINESS_1] Happiness Level of the empire is {1_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TOTAL_UNHAPPINESS">
+			<Text>Total {1_Icon} Unhappiness Level of the empire is {2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY">
+			<Text>Because [ICON_HAPPINESS_4] Unhappiness has reached 20, the Empire is is in revolt! Rebels will appear in your territory every few turns until you correct this situation!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_EMPIRE_VERY_UNHAPPY">
+			<Text>Because [ICON_HAPPINESS_4] Unhappiness has reached 10, the Empire is [ICON_HAPPINESS_4] VERY unhappy! Cities stop growing, Settlers may not be trained, [ICON_PRODUCTION] Production is greatly diminished and Units are less effective in combat!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_EMPIRE_UNHAPPY">
+			<Text>Cities will only grow at 1/4 normal speed while empire is [ICON_HAPPINESS_3] unhappy!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_SOURCES">
+			<Text>{1_Num} total [ICON_HAPPINESS_1] Happiness from all sources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_FROM_RESOURCES">
+			<Text>{1_Num} from having AT LEAST ONE source of the following Luxury Resources:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_EACH_RESOURCE">
+			<Text>{1_Num} from {2_ResourceIcon} {3_ResourceName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_RESOURCE_VARIETY">
+			<Text>{1_Num} for having a variety of Luxury Resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_EXTRA_PER_RESOURCE">
+			<Text>{1_Num} extra Happiness added per Luxury Resource ({2_NumResources} total).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_OTHER_SOURCES">
+			<Text>{1_Num} from other sources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_POLICIES">
+			<Text>{1_Num} from Social Policies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_BUILDINGS">
+			<Text>{1_Num} from Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_GARRISONED_UNITS">
+			<Text>{1_Num} from Garrisoned Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_CONNECTED_CITIES">
+			<Text>{1_Num} from Cities [ICON_CONNECTED] connected to [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_STATE_RELIGION">
+			<Text>{1_Num} from Religious Beliefs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_NATURAL_WONDERS">
+			<Text>{1_Num} from discovery of Natural Wonders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_CITY_COUNT">
+			<Text>{1_Num} from number of Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_CITY_STATE_FRIENDSHIP">
+			<Text>{1_Num} from [ICON_INFLUENCE] Influence with City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_DIFFICULTY_LEVEL">
+			<Text>{1_Num} from Difficulty Level.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_TOTAL">
+			<Text>{1_Num} total [ICON_HAPPINESS_4] Unhappiness from all sources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_CITY_COUNT">
+			<Text>{1_Num} generated from number of Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_CAPTURED_CITY_COUNT">
+			<Text>{1_Num} from number of [ICON_OCCUPIED] Occupied Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_POPULATION">
+			<Text>{1_Num} generated by [ICON_CITIZEN] Population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_SPECIALISTS">
+			<Text>{1_Num : number "#.##"} generated by [ICON_CITIZEN] Specialists.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_PUPPET_CITIES">
+			<Text>{1_Num : number "#.##"} generated by [ICON_CITIZEN] Population of [ICON_PUPPET] Puppet Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_OCCUPIED_POPULATION">
+			<Text>{1_Num} from [ICON_CITIZEN] Population in [ICON_OCCUPIED] Occupied Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_UNITS">
+			<Text>{1_Num} generated by Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_EXPLANATION">
+			<Text>[ICON_HAPPINESS_1] Happiness is necessary to keep your cities growing. It is used to counter [ICON_HAPPINESS_4] Unhappiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLDEN_AGE_NOW">
+			<Text>The empire is in a [ICON_GOLDEN_AGE] GOLDEN AGE for {1_Num} more turns!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLDEN_AGE_PROGRESS">
+			<Text>[ICON_BULLET]{1_NumCurrent}/{2_NumNeeded} progress towards the next [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLDEN_AGE_ADDITION">
+			<Text>[ICON_BULLET]{1_Num} is added per turn from excess [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLDEN_AGE_LOSS">
+			<Text>[ICON_BULLET]{1_Num} is LOST per turn from [ICON_HAPPINESS_4] Unhappiness!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLDEN_AGE_EFFECT">
+			<Text>While in a [ICON_GOLDEN_AGE] Golden Age, every tile in your empire that produces at least 1 [ICON_GOLD] Gold produces 1 extra and cities gain +20% [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_ACCUMULATED">
+			<Text>{1_Num} [ICON_CULTURE] Culture has been accumulated empire-wide.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_NEXT_POLICY">
+			<Text>{1_NumNeeded} [ICON_CULTURE] Culture needed to adopt a new Social Policy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_FOR_FREE">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] for free.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_FROM_CITIES">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] produced by Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_FROM_HAPPINESS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from excess [ICON_HAPPINESS_1] Happiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_FROM_TRAITS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from Traits.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_FROM_MINORS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from City-States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_CITY_COST">
+			<Text>Each city you own will increase Social Policy costs by {1_Num}%! If you wish to play culturally, don't expand too much!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_NO_RESOURCES_DISCOVERED">
+			<Text>No Resources discovered yet!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_RESOURCE_NONE">
+			<Text>None connected</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_RESOURCE_INFO">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num} Total[ENDCOLOR], [COLOR_WARNING_TEXT]{2_Num} Used[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TURN_COUNTER">
+			<Text>Turn: {1_Nim}</Text>
+		</Row>
+		<!-- City Banner Text-->
+		<Row Tag="TXT_KEY_CITY_CONNECTED">
+			<Text>City has a [ICON_CONNECTED] Trade Route with the [ICON_CAPITAL] Capital!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_BLOCKADED">
+			<Text>City is [ICON_BLOCKADED] Blockaded by an enemy unit!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_BURNING">
+			<Text>City will be [ICON_RAZING] Razed to the ground in {1_Num} turn(s)!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_RESISTANCE">
+			<Text>City is in [ICON_RESISTANCE] Resistance for {1_Num} turn(s)! While in Resistance, a City cannot do anything useful.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_PUPPET">
+			<Text>City is a [ICON_PUPPET] Puppet! You may not make decisions for it while it remains in this state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_PUPPET_OTHER">
+			<Text>City is a [ICON_PUPPET] Puppet!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_OCCUPIED">
+			<Text>City is [ICON_OCCUPIED] Occupied! It will produce extra [ICON_HAPPINESS_4] Unhappiness until a Courthouse is built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_ANNEX_TT">
+			<Text>Click to annex this City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STOPPED_GROWING_TT">
+			<Text>{1_CityName} has stopped growing and will remain at size {2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STARVING_TT">
+			<Text>{1_CityName} [COLOR_WARNING_TEXT]is starving![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_WILL_GROW_TT">
+			<Text>{1_CityName} will grow from size [COLOR_YELLOW]{2_Num}[ENDCOLOR] to size [COLOR_YELLOW]{3_Num}[ENDCOLOR] in [COLOR_GREEN]{4_NumTurns}[ENDCOLOR] {4_NumTurns: plural 1?turn; other?turns;}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NOT_PRODUCING">
+			<Text>{1_CityName} is not currently producing anything.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_CURRENTLY_PRODUCING_99PLUS_TT">
+			<Text>{1_CityName} will produce {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {2_BldgName}} in more than 99 turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_CURRENTLY_PRODUCING_TT">
+			<Text>{1_CityName} will produce {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {2_BldgName}} in {3_Num} {3_Num: plural 1?turn; other?turns;}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_ENTER_CITY_SCREEN">
+			<Text>[COLOR_YELLOW]Click here to enter the city screen.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_MAKE_RANGED_ATTACK">
+			<Text>[COLOR_YELLOW]Click on this to have the city conduct a ranged attack.[ENDCOLOR]</Text>
+		</Row>
+		<!-- Map Options -->
+		<Row Tag="TXT_KEY_MAP_OPTIONS">
+			<Text>Map Options</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTIONS_UNIT_FLAGS">
+			<Text>Unit Flags</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTIONS_UNIT_FLAGS_TT">
+			<Text>Hide all unit flags.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTIONS_HEX_GRID">
+			<Text>Hex Grid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTIONS_HEX_GRID_TT">
+			<Text>Display the grid.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTIONS_TRADE_ROUTES">
+			<Text>Trade Routes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTIONS_TRADE_ROUTES_TT">
+			<Text>Display the trade routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTIONS_YIELD_ICONS">
+			<Text>Yield Icons</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTIONS_YIELD_ICONS_TT">
+			<Text>Display all yield icons.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTIONS_RESOURCE_ICONS">
+			<Text>Resource Icons</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTIONS_RESOURCE_ICONS_TT">
+			<Text>Display all resource icons.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTIONS_RECOMMENDATIONS">
+			<Text>Hide Recommendations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_OPTIONS_RECOMMENDATIONS_TT">
+			<Text>Hide Civilian Recommendations</Text>
+		</Row>
+		<!-- City View -->
+		<Row Tag="TXT_KEY_CITYVIEW_CITIZEN_ICON_TT">
+			<Text>Citizen Symbol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED_TT">
+			<Text>Connecting this Resource to your trade network will cause this City to go into "We Love the King Day", which increases [ICON_FOOD] growth!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_FULFILLED_TT">
+			<Text>This City is in "We Love the King Day", which increases [ICON_FOOD] growth!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RAZE_BUTTON_TT">
+			<Text>Burn, baby, burn!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RAZE_BUTTON_DISABLED_BECAUSE_CAPITAL_TT">
+			<Text>Cannot raze a city that was once a capital</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RAZE_BUTTON_TEXT">
+			<Text>Raze City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_TOGGLE_FOCUS_TT">
+			<Text>Toggle City Focus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_UNRAZE_BUTTON_TT">
+			<Text>Halt the razing process</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_UNRAZE_BUTTON_TEXT">
+			<Text>Stop City Razing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_FOOD_TEXT">
+			<Text>[ICON_FOOD] Food Focus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_PROD_TEXT">
+			<Text>[ICON_PRODUCTION] Production Focus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_GOLD_TEXT">
+			<Text>[ICON_GOLD] Gold Focus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_RESEARCH_TEXT">
+			<Text>[ICON_RESEARCH] Science Focus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_CULTURE_TEXT">
+			<Text>[ICON_CULTURE] Culture Focus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_GREAT_PERSON_TEXT">
+			<Text>[ICON_GREAT_PEOPLE] Great Person Focus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_FOOD_TT">
+			<Text>Click here to have this city emphasize production of [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_PROD_TT">
+			<Text>Click here to have this city emphasize production of [ICON_PRODUCTION] Production.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_GOLD_TT">
+			<Text>Click here to have this city emphasize production of [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_RESEARCH_TT">
+			<Text>Click here to have this city emphasize production of [ICON_RESEARCH] Science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_CULTURE_TT">
+			<Text>Click here to have this city emphasize production of [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_GREAT_PERSON_TT">
+			<Text>Click here to have this city emphasize production of [ICON_GREAT_PEOPLE] Great People.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_BALANCED_TT">
+			<Text>Click here to have this city use the default citizen allocation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_BALANCED_TEXT">
+			<Text>Default Focus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_RESET_TEXT">
+			<Text>Reset Tiles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_RESET_TT">
+			<Text>Click here to remove all user locked tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_AVOID_GROWTH_TEXT">
+			<Text>Avoid Growth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_AVOID_GROWTH_TT">
+			<Text>Click here to have the city attempt to stay the same population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_BUTTON_C_TEXT">
+			<Text>Close City Focus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_BUTTON_TT">
+			<Text>Manage City Focus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOCUS_BUTTON_O_TEXT">
+			<Text>Open City Focus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_PLACEHOLDER_TT">
+			<Text>Placeholder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOOD_TEXT">
+			<Text>Food</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_EMPTY_SLOT">
+			<Text>Empty Specialist Slot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_UNEMPLOYED_TEXT">
+			<Text>Unemployed Citizens</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_UNEMPLOYED_TOOLTIP">
+			<Text>Click here to have governor reassign the workforce.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_PERTURN_TEXT">
+			<Text>+{1_perTurn:number "#.##"}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_PERTURN_TEXT_NEGATIVE">
+			<Text>[COLOR_WARNING_TEXT]{1_perTurn:number "#.##"}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_OFF">
+			<Text>OFF</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_Q_UP_TEXT">
+			<Text>Move up in the production queue.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_Q_DOWN_TEXT">
+			<Text>Move down in the production queue.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_Q_X_TEXT">
+			<Text>Remove from the production queue.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CITYINFO_TEXT">
+			<Text>City Information</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_TURNS_TILL_TILE_TEXT">
+			<Text>{1_NumTurns:number} {1_NumTurns: plural 1?turn; other?turns;} until Border Growth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_STARVATION_TEXT">
+			<Text>[COLOR_WARNING_TEXT]STARVATION[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_STAGNATION_TEXT">
+			<Text>[COLOR_YELLOW]STAGNATION[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_TURNS_TILL_CITIZEN_TEXT">
+			<Text>{1_Turns:number} {1_Turns: plural 1?Turn; other?Turns;} until a New Citizen is Born</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_QUEUE_O_TT">
+			<Text>Open the Production Queue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_QUEUE_C_TT">
+			<Text>Close the Production Queue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_QUEUE_C">
+			<Text>Hide Queue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_QUEUE_O">
+			<Text>Show Queue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_PROD_METER_TT">
+			<Text>Right-Click for more information</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CHANGE_PROD_TT">
+			<Text>Change what this City's current construction project is.  Only one item at a time may be produced.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CHANGE_PROD">
+			<Text>CHANGE PRODUCTION</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CHOOSE_PROD">
+			<Text>CHOOSE PRODUCTION</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CHOOSE_PROD_TT">
+			<Text>Choose what this City's current construction project is.  Only one item at a time may be produced.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_QUEUE_PROD">
+			<Text>ADD TO QUEUE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_QUEUE_PROD_TT">
+			<Text>Add an additional item to the end of the production queue (up to six items).  Only one item at a time will be produced.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_PURCHASE_TT">
+			<Text>When you have enough [ICON_GOLD] Gold, buy a unit or building immediately.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_PRODUCE_BUTTON">
+			<Text>PRODUCE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_PURCHASE_BUTTON">
+			<Text>PURCHASE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_OTHER">
+			<Text>OTHER</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RETURN_TT">
+			<Text>Return</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_PRODUCE_WEALTH">
+			<Text>Produce Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_PRODUCE_RESEARCH">
+			<Text>Produce Research</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_BUYPLOT_TT">
+			<Text>When you have enough [ICON_GOLD] Gold, this will purchase one of the highlighted tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_SPECIALISTCONTROL_TT">
+			<Text>Toggle between manual and AI control of Building Specialists.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_MAINTENANCE">
+			<Text>Maintenance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CITIZEN_ALLOCATION">
+			<Text>Citizen Management</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_EACH">
+			<Text>each</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_QUEUE_SELECTION">
+			<Text>Queue Selection</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_GG_PROGRGRESS">
+			<Text>Great General Progress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_GP_PROGRGRESS">
+			<Text>Great Person Progress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RETURN_TO_MAP">
+			<Text>Return to Map</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_BUY_PLOT_TEXT">
+			<Text>Buy Plot Text</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_BUILDING_LIST">
+			<Text>Building List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_MANUAL_SPEC_CONTROL">
+			<Text>Manual Specialist Control</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CLAIM_NEW_LAND">
+			<Text>Buy this plot of land for {1_Num}[ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOOD_IN_TURNS">
+			<Text>{1_Num} [ICON_FOOD]/Turn, {2_Num} Turns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FOOD_IN_TURNS_TT">
+			<Text>In {1_Num} turns your City will grow and an additional citizen will be able to collect resources from a tile near your City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_BUY_TILE_TT">
+			<Text>Spend [ICON_GOLD] Gold to fund your citizens' settlement of a tile adjacent to your borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_BUY_TILE">
+			<Text>Buy a Tile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_NEED_MONEY_BUY_TILE">
+			<Text>You need {1_Num} [ICON_GOLD] Gold to buy this land.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_NEED_MONEY_BUY_TILE_TT">
+			<Text>When you have enough [ICON_GOLD]Gold to do so, this will fund your citizens' settlement of one of the tiles highlighted in white.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESOURCE_DEMANDED">
+			<Text>Resource Demanded: {1_ResourceName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CITY_COMB_STRENGTH_TT">
+			<Text>City Combat Strength</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_WLTKD_COUNTER">
+			<Text>We Love The King Day! ({1_Num})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CITY_CENTER">
+			<Text>The City Center is automatically worked for free.  Click here to have governor reassign the workforce.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_FORCED_WORK_TILE">
+			<Text>You have selected this tile to work.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_GUVNA_WORK_TILE">
+			<Text>Your governor has selected this tile to work.  You may click here to override this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_NUTHA_CITY_TILE">
+			<Text>This tile is being worked by another city in your nation.  You may click here to work it, but the other city will no longer be working it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_BLOCKADED_CITY_TILE">
+			<Text>This tile is being blockaded by an enemy.  You may not work it until the blockading enemy is removed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_ENEMY_UNIT_CITY_TILE">
+			<Text>This tile has an enemy on it.  You may not work it until the enemy unit is removed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_UNWORKED_CITY_TILE">
+			<Text>This tile is not currently being worked.  You may click here to work it, but doing so may override what the AI has already chosen for you.</Text>
+		</Row>
+		<!-- Disabled Unit actions -->
+		<Row Tag="TXT_KEY_BUILD_BLOCKED_PREREQ_TECH">
+			<Text>{1_TechName:textkey} (Technology) is required to construct a {2_ImprovementName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_BLOCKED_BY_FEATURE">
+			<Text>{1_TechName:textkey} (Technology) is required to clear the {2_FeatureName:textkey} from this tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_BLOCKED_OUTSIDE_TERRITORY">
+			<Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {@1_ImprovementName}} cannot be constructed outside of your territory.</Text>
+		</Row>
+		<!-- Worker Actions -->
+		<Row Tag="TXT_KEY_BUILD_NUM_TURNS">
+			<Text>{1_Num} Turns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CONNECTS_RESOURCE">
+			<Text>Will connect the {1_Icon} [COLOR_POSITIVE_TEXT]{2_ResouceName:textkey}[ENDCOLOR] in this tile to the empire's trade network.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_FEATURE_CLEARED">
+			<Text>The {1_FeatureName:textkey} on this tile will be removed</Text>
+		</Row>
+		<!-- Misc -->
+		<Row Tag="TXT_KEY_ACPANEL_END_TURN">
+			<Text>END TURN</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STATUS">
+			<Text>Unit Status</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOVES_LEFT">
+			<Text>Remaining Moves</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NAME">
+			<Text>Unit Name</Text>
+		</Row>
+		<Row Tag="TXT_KEY_STATUS">
+			<Text>Status</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NAME">
+			<Text>Name</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOMACY_OVERVIEW">
+			<Text>Diplomacy Overview</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ECONOMIC_OVERVIEW">
+			<Text>Economic Overview</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GENERAL_INFORMATION">
+			<Text>General Information</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_AND_RESOURCES">
+			<Text>Resources &amp; Happiness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_CIVILIZATION">
+			<Text>Civilization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MILITARY_OVERVIEW">
+			<Text>Military Overview</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_NOTIFICATION_LOG">
+			<Text>Notification Log</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESSING_TURN_FOR">
+			<Text>Processing Turn For {1_CivilizationName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESSING_MINOR_CIVS">
+			<Text>Processing Turn For City States</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESSING_TURN_FOR_UNMET_PLAYER">
+			<Text>Processing Turn For Player {1_PlayerCount}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING1">
+			<Text>[COLOR_YELLOW]Interception by fighter or[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING2">
+			<Text>[COLOR_YELLOW]anti-air will boost damage[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_VISIBLE_AA_UNITS">
+			<Text>[COLOR_WARNING_TEXT]Known Enemy Anti-Air Units: {1_Number}[ENDCOLOR]</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

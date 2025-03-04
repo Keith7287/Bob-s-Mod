@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<!--Links diplomacy responses to TXT_KEYs.  LeaderType is pretty self-explanatory.  "GENERIC" in this field will allow the entry to be used by any player.  "ResponseType" is a tag called from the Diplomacy AI when it needs to grab a string.  "Response" is a text key, with some extra rules.  "%" serves as a wildcard, allowing any TXT_KEY that matches everything else in the field to be added to the list to picked from randomly (most entries use this for the sake of variety).  The TXT_KEYs are located in the Text\LeaderDialogue\ directory.-->
+<GameData>
+	<Diplomacy_Responses>
+		<Row LeaderType="LEADER_AHMAD_ALMANSUR">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_AHMAD_ALMANSUR_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AHMAD_ALMANSUR">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_AHMAD_ALMANSUR_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AHMAD_ALMANSUR">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_AHMAD_ALMANSUR_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AHMAD_ALMANSUR">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_AHMAD_ALMANSUR_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AHMAD_ALMANSUR">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_AHMAD_ALMANSUR_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ASHURBANIPAL">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_ASHURBANIPAL_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ASHURBANIPAL">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_ASHURBANIPAL_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ASHURBANIPAL">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ASHURBANIPAL_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ASHURBANIPAL">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ASHURBANIPAL_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ASHURBANIPAL">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ASHURBANIPAL_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CASIMIR">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_CASIMIR_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CASIMIR">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_CASIMIR_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CASIMIR">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_CASIMIR_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CASIMIR">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_CASIMIR_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CASIMIR">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_CASIMIR_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ENRICO_DANDOLO">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_ENRICO_DANDOLO_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ENRICO_DANDOLO">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_ENRICO_DANDOLO_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ENRICO_DANDOLO">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ENRICO_DANDOLO_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ENRICO_DANDOLO">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ENRICO_DANDOLO_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ENRICO_DANDOLO">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_ENRICO_DANDOLO_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GAJAH_MADA">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_GAJAH_MADA_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GAJAH_MADA">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_GAJAH_MADA_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GAJAH_MADA">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_GAJAH_MADA_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GAJAH_MADA">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_GAJAH_MADA_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GAJAH_MADA">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_GAJAH_MADA_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA_I">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_MARIA_I_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA_I">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_MARIA_I_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA_I">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_MARIA_I_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA_I">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_MARIA_I_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA_I">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_MARIA_I_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PEDRO">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_PEDRO_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PEDRO">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_PEDRO_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PEDRO">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_PEDRO_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PEDRO">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_PEDRO_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PEDRO">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_PEDRO_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_POCATELLO">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_POCATELLO_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_POCATELLO">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_POCATELLO_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_POCATELLO">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_POCATELLO_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_POCATELLO">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_POCATELLO_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_POCATELLO">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_POCATELLO_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHAKA">
+			<ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+			<Response>TXT_KEY_LEADER_SHAKA_FIRSTGREETING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHAKA">
+			<ResponseType>RESPONSE_DEFEATED</ResponseType>
+			<Response>TXT_KEY_LEADER_SHAKA_DEFEATED%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHAKA">
+			<ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SHAKA_GREETING_POLITE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHAKA">
+			<ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SHAKA_GREETING_NEUTRAL_HELLO%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHAKA">
+			<ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+			<Response>TXT_KEY_LEADER_SHAKA_GREETING_HOSTILE_HELLO%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SAME_POLICIES_FREEDOM</ResponseType>
+			<Response>TXT_KEY_GENERIC_SAME_POLICIES_FREEDOM%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SAME_POLICIES_ORDER</ResponseType>
+			<Response>TXT_KEY_GENERIC_SAME_POLICIES_ORDER%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SAME_POLICIES_AUTOCRACY</ResponseType>
+			<Response>TXT_KEY_GENERIC_SAME_POLICIES_AUTOCRACY%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AHMAD_ALMANSUR">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_AHMAD_ALMANSUR_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ASHURBANIPAL">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_ASHURBANIPAL_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CASIMIR">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_CASIMIR_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ENRICO_DANDOLO">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_ENRICO_DANDOLO_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GAJAH_MADA">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_GAJAH_MADA_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA_I">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_MARIA_I_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PEDRO">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_PEDRO_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_POCATELLO">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_POCATELLO_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHAKA">
+			<ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+			<Response>TXT_KEY_SHAKA_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_BULLIED_PROTECTED_CITY_STATE</ResponseType>
+			<Response>TXT_KEY_BULLIED_PROTECTED_CITY_STATE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AHMAD_ALMANSUR">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_AHMAD_ALMANSUR_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ASHURBANIPAL">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_ASHURBANIPAL_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CASIMIR">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_CASIMIR_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ENRICO_DANDOLO">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_ENRICO_DANDOLO_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GAJAH_MADA">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_GAJAH_MADA_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA_I">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_MARIA_I_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PEDRO">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_PEDRO_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_POCATELLO">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_POCATELLO_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHAKA">
+			<ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+			<Response>TXT_KEY_SHAKA_EXPANSION_SERIOUS_WARNING%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HOSTILE_WE_BULLIED_YOUR_MINOR</ResponseType>
+			<Response>TXT_KEY_HOSTILE_WE_BULLIED_YOUR_MINOR%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_WE_BULLIED_YOUR_MINOR</ResponseType>
+			<Response>TXT_KEY_WE_BULLIED_YOUR_MINOR%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AHMAD_ALMANSUR">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_AHMAD_ALMANSUR_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ASHURBANIPAL">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_AASHURBANIPAL_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CASIMIR">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_CASIMIR_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ENRICO_DANDOLO">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_ENRICO_DANDOLO_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GAJAH_MADA">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_GAJAH_MADA_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA_I">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_MARIA_I_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PEDRO">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_PEDRO_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_POCATELLO">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_POCATELLO_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHAKA">
+			<ResponseType>RESPONSE_REQUEST</ResponseType>
+			<Response>TXT_KEY_LEADER_SHAKA_RESPONSE_REQUEST%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AHMAD_ALMANSUR">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_AHMAD_ALMANSUR_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ASHURBANIPAL">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_ASHURBANIPAL_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CASIMIR">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_CASIMIR_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ENRICO_DANDOLO">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_ENRICO_DANDOLO_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GAJAH_MADA">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_GAJAH_MADA_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA_I">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_MARIA_I_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PEDRO">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_PEDRO_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_POCATELLO">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_POCATELLO_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHAKA">
+			<ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+			<Response>TXT_KEY_LEADER_SHAKA_LUXURY_TRADE%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_EMBASSY_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_GENERIC_EMBASSY_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_EMBASSY_OFFER</ResponseType>
+			<Response>TXT_KEY_GENERIC_EMBASSY_OFFER%</Response>
+		</Row>
+		<Row LeaderType="LEADER_AHMAD_ALMANSUR">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_AHMAD_ALMANSUR_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ASHURBANIPAL">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_ASHURBANIPAL_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_CASIMIR">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_CASIMIR_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_ENRICO_DANDOLO">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_ENRICO_DANDOLO_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_GAJAH_MADA">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_GAJAH_MADA_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_MARIA_I">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_MARIA_I_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_PEDRO">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_PEDRO_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_POCATELLO">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_POCATELLO_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="LEADER_SHAKA">
+			<ResponseType>RESPONSE_OPEN_BORDERS_EXCHANGE</ResponseType>
+			<Response>TXT_KEY_LEADER_SHAKA_OPEN_BORDERS_EXCHANGE%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_RENEW_DEAL</ResponseType>
+			<Response>TXT_KEY_GENERIC_RENEW_DEAL%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_WANT_MORE_RENEW_DEAL</ResponseType>
+			<Response>TXT_KEY_GENERIC_WANT_MORE_RENEW_DEAL%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HOSTILE_WE_BULLIED_MINOR_BAD</ResponseType>
+			<Response>TXT_KEY_GENERIC_HOSTILE_WE_BULLIED_MINOR_BAD%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HOSTILE_WE_BULLIED_MINOR_GOOD</ResponseType>
+			<Response>TXT_KEY_GENERIC_HOSTILE_WE_BULLIED_MINOR_GOOD%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_WE_BULLIED_MINOR_BAD</ResponseType>
+			<Response>TXT_KEY_GENERIC_WE_BULLIED_MINOR_BAD%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_WE_BULLIED_MINOR_GOOD</ResponseType>
+			<Response>TXT_KEY_GENERIC_HUMAN_RESPONSE_PLEASED%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_BULLIED_MINOR_BAD</ResponseType>
+			<Response>TXT_KEY_GENERIC_HUMAN_RESPONSE_BAD%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_BULLIED_MINOR_GOOD</ResponseType>
+			<Response>TXT_KEY_GENERIC_HUMAN_BULLIED_MINOR_GOOD%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_GREETING_WILL_ACCEPT_SURRENDER</ResponseType>
+			<Response>TXT_KEY_GENERIC_GREETING_WILL_ACCEPT_SURRENDER%</Response>
+		</Row>
+		<!--Espionage-->
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_CAUGHT_YOUR_SPY</ResponseType>
+			<Response>TXT_KEY_GENERIC_CAUGHT_YOUR_SPY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_KILLED_YOUR_SPY</ResponseType>
+			<Response>TXT_KEY_GENERIC_KILLED_YOUR_SPY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_KILLED_MY_SPY</ResponseType>
+			<Response>TXT_KEY_GENERIC_KILLED_MY_SPY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_CONFRONT_YOU_KILLED_MY_SPY</ResponseType>
+			<Response>TXT_KEY_GENERIC_CONFRONT_YOU_KILLED_MY_SPY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SUSPECT_YOU_OF_SPYING</ResponseType>
+			<Response>TXT_KEY_GENERIC_KILLED_MY_SPY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_CAUGHT_YOUR_SPY_GOOD</ResponseType>
+			<Response>TXT_KEY_GENERIC_HUMAN_CAUGHT_YOUR_SPY_GOOD%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_CAUGHT_YOUR_SPY_BAD</ResponseType>
+			<Response>TXT_KEY_GENERIC_HUMAN_CAUGHT_YOUR_SPY_BAD%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_STOP_SPYING_YES</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_STOP_SPYING_YES%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_STOP_SPYING_NO</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_STOP_SPYING_NO%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_WARNED_ABOUT_INTRIGUE</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_WARNED_ABOUT_INTRIGUE%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SHARE_INTRIGUE_DECEPTION</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_SHARE_INTRIGUE_DECEPTION%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SHARE_INTRIGUE_ARMY_SNEAK_ATTACK_KNOWN_CITY</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_SHARE_INTRIGUE_ARMY_SNEAK_ATTACK_KNOWN_CITY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SHARE_INTRIGUE_ARMY_SNEAK_ATTACK_UNKNOWN_CITY</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_SHARE_INTRIGUE_ARMY_SNEAK_ATTACK_UNKNOWN_CITY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SHARE_INTRIGUE_AMPHIBIOUS_SNEAK_ATTACK_KNOWN_CITY</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_SHARE_INTRIGUE_AMPHIBIOUS_SNEAK_ATTACK_KNOWN_CITY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SHARE_INTRIGUE_AMPHIBIOUS_SNEAK_ATTACK_UNKNOWN_CITY</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_SHARE_INTRIGUE_AMPHIBIOUS_SNEAK_ATTACK_UNKNOWN_CITY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_KILLED_MY_SPY_UNFORGIVEN</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_HUMAN_KILLED_MY_SPY_UNFORGIVEN%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_KILLED_MY_SPY_FORGIVEN</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_HUMAN_KILLED_MY_SPY_FORGIVEN%</Response>
+		</Row>
+		<!--Miscellaneous-->
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_STOP_CONVERSIONS</ResponseType>
+			<Response>TXT_KEY_GENERIC_STOP_CONVERSIONS%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_STOP_CONVERSIONS_GOOD</ResponseType>
+			<Response>TXT_KEY_GENERIC_HUMAN_STOP_CONVERSIONS_GOOD%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_STOP_CONVERSIONS_BAD</ResponseType>
+			<Response>TXT_KEY_GENERIC_HUMAN_STOP_CONVERSIONS_BAD%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_TRADE_CANT_MATCH_OFFER</ResponseType>
+			<Response>TXT_KEY_GENERIC_TRADE_CANT_MATCH_OFFER%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_STOP_CONVERSIONS_AGREE</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_HUMAN_STOP_CONVERSIONS_AGREE%</Response>
+		</Row>
+    <Row LeaderType="GENERIC">
+      <ResponseType>RESPONSE_HUMAN_STOP_CONVERSIONS_DISAGREE</ResponseType>
+      <Response>TXT_KEY_GENERIC_RESPONSE_HUMAN_STOP_CONVERSIONS_DISAGREE%</Response>
+    </Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_STOP_DIGGING_AGREE</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_STOP_DIGGING_AGREE%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_STOP_DIGGING</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_STOP_DIGGINGX%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_STOP_DIGGING_DISAGREE</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_STOP_DIGGING_DISAGREE%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_STOP_DIGGING_BAD</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_HUMAN_STOP_DIGGING_BAD%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_STOP_DIGGING_GOOD</ResponseType>
+			<Response>TXT_KEY_GENERIC_RESPONSE_HUMAN_STOP_DIGGING_GOOD%</Response>
+		</Row>
+		<!--Ideologies-->
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_CIVIL_RESISTANCE_ON_AI_BY_FREEDOM</ResponseType>
+			<Response>TXT_KEY_GENERIC_CIVIL_RESISTANCE_ON_AI_BY_FREEDOM%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_CIVIL_RESISTANCE_ON_AI_BY_ORDER</ResponseType>
+			<Response>TXT_KEY_GENERIC_CIVIL_RESISTANCE_ON_AI_BY_ORDER%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_CIVIL_RESISTANCE_ON_AI_BY_AUTOCRACY</ResponseType>
+			<Response>TXT_KEY_GENERIC_CIVIL_RESISTANCE_ON_AI_BY_AUTOCRACY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_CIVIL_RESISTANCE_ON_HUMAN_BY_FREEDOM</ResponseType>
+			<Response>TXT_KEY_GENERIC_CIVIL_RESISTANCE_ON_HUMAN_BY_FREEDOM%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_CIVIL_RESISTANCE_ON_HUMAN_BY_ORDER</ResponseType>
+			<Response>TXT_KEY_GENERIC_CIVIL_RESISTANCE_ON_HUMAN_BY_ORDER%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_CIVIL_RESISTANCE_ON_HUMAN_BY_AUTOCRACY</ResponseType>
+			<Response>TXT_KEY_GENERIC_CIVIL_RESISTANCE_ON_HUMAN_BY_AUTOCRACY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SWITCHED_TO_FREEDOM</ResponseType>
+			<Response>TXT_KEY_GENERIC_SWITCHED_TO_FREEDOM%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SWITCHED_TO_ORDER</ResponseType>
+			<Response>TXT_KEY_GENERIC_SWITCHED_TO_ORDER%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_SWITCHED_TO_AUTOCRACY</ResponseType>
+			<Response>TXT_KEY_GENERIC_SWITCHED_TO_AUTOCRACY%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_INFLUENTIAL_ON_AI</ResponseType>
+			<Response>TXT_KEY_GENERIC_INFLUENTIAL_ON_AI%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_INFLUENTIAL_ON_HUMAN</ResponseType>
+			<Response>TXT_KEY_GENERIC_INFLUENTIAL_ON_HUMAN%</Response>
+		</Row>
+		<!--Leagues-->
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_WE_LIKE_HUMAN_PROPOSAL</ResponseType>
+			<Response>TXT_KEY_GENERIC_WE_LIKE_HUMAN_PROPOSAL%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_WE_DISLIKE_HUMAN_PROPOSAL</ResponseType>
+			<Response>TXT_KEY_GENERIC_WE_DISLIKE_HUMAN_PROPOSAL%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_SUPPORTED_OUR_PROPOSAL</ResponseType>
+			<Response>TXT_KEY_GENERIC_HUMAN_SUPPORTED_OUR_PROPOSAL%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_FOILED_OUR_PROPOSAL</ResponseType>
+			<Response>TXT_KEY_GENERIC_HUMAN_FOILED_OUR_PROPOSAL%</Response>
+		</Row>
+		<Row LeaderType="GENERIC">
+			<ResponseType>RESPONSE_HUMAN_SUPPORTED_OUR_HOSTING</ResponseType>
+			<Response>TXT_KEY_GENERIC_HUMAN_SUPPORTED_OUR_HOSTING%</Response>
+		</Row>
+	</Diplomacy_Responses>
+</GameData>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="PolicyBranchTypes">
+		<!-- Basic info -->
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" unique="true" notnull="true"/>
+		<Column name="Description" type="text" reference="Language_en_US(Tag)"/>
+		<Column name="Civilopedia" type="text" reference="Language_en_US(Tag)"/>
+		<Column name="Strategy" type="text" reference="Language_en_US(Tag)"/>
+		<Column name="Help" type="text" reference="Language_en_US(Tag)"/>
+		<Column name="Title" type="text" reference="Language_en_US(Tag)"/>
+		<Column name="EraPrereq" type="text" reference="Eras(Type)" default="NULL"/>
+		<Column name="FreePolicy" type="text" reference="Policies(Type)" default="NULL"/>
+		<Column name="FreeFinishingPolicy" type="text" reference="Policies(Type)" default="NULL"/>
+		<Column name="AIMutuallyExclusive" type="boolean" default="false"/>
+	</Table>
+	<Table name="PolicyBranch_Disables">
+		<Column name="PolicyBranchType" type="text" reference="PolicyBranchTypes(Type)"/>
+		<Column name="PolicyBranchDisable" type="text" reference="PolicyBranchTypes(Type)"/>
+	</Table>
+	<!-- Table data -->
+	<PolicyBranchTypes>
+		<Row>
+			<ID>0</ID>
+			<Type>POLICY_BRANCH_TRADITION</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_TRADITION</Description>
+			<Help>TXT_KEY_POLICY_BRANCH_TRADITION_HELP</Help>
+			<Title>TXT_KEY_TRADITION_TITLE</Title>
+			<FreePolicy>POLICY_TRADITION</FreePolicy>
+			<FreeFinishingPolicy>POLICY_TRADITION_FINISHER</FreeFinishingPolicy>
+		</Row>
+		<Row>
+			<Type>POLICY_BRANCH_LIBERTY</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_LIBERTY</Description>
+			<Help>TXT_KEY_POLICY_BRANCH_LIBERTY_HELP</Help>
+			<Title>TXT_KEY_LIBERTY_TITLE</Title>
+			<FreePolicy>POLICY_LIBERTY</FreePolicy>
+			<FreeFinishingPolicy>POLICY_LIBERTY_FINISHER</FreeFinishingPolicy>
+		</Row>
+		<Row>
+			<Type>POLICY_BRANCH_HONOR</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_HONOR</Description>
+			<Help>TXT_KEY_POLICY_BRANCH_HONOR_HELP</Help>
+			<Title>TXT_KEY_HONOR_TITLE</Title>
+			<FreePolicy>POLICY_HONOR</FreePolicy>
+			<FreeFinishingPolicy>POLICY_HONOR_FINISHER</FreeFinishingPolicy>
+		</Row>
+		<Row>
+			<Type>POLICY_BRANCH_PIETY</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_PIETY</Description>
+			<Help>TXT_KEY_POLICY_BRANCH_PIETY_HELP</Help>
+			<Title>TXT_KEY_PIETY_TITLE</Title>
+			<EraPrereq>ERA_CLASSICAL</EraPrereq>
+			<FreePolicy>POLICY_PIETY</FreePolicy>
+			<FreeFinishingPolicy>POLICY_PIETY_FINISHER</FreeFinishingPolicy>
+		</Row>
+		<Row>
+			<Type>POLICY_BRANCH_PATRONAGE</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_PATRONAGE</Description>
+			<Help>TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP</Help>
+			<Title>TXT_KEY_PATRONAGE_TITLE</Title>
+			<EraPrereq>ERA_MEDIEVAL</EraPrereq>
+			<FreePolicy>POLICY_PATRONAGE</FreePolicy>
+			<FreeFinishingPolicy>POLICY_PATRONAGE_FINISHER</FreeFinishingPolicy>
+		</Row>
+		<Row>
+			<Type>POLICY_BRANCH_COMMERCE</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_COMMERCE</Description>
+			<Help>TXT_KEY_POLICY_BRANCH_COMMERCE_HELP</Help>
+			<Title>TXT_KEY_COMMERCE_TITLE</Title>
+			<EraPrereq>ERA_MEDIEVAL</EraPrereq>
+			<FreePolicy>POLICY_COMMERCE</FreePolicy>
+			<FreeFinishingPolicy>POLICY_COMMERCE_FINISHER</FreeFinishingPolicy>
+		</Row>
+		<Row>
+			<Type>POLICY_BRANCH_RATIONALISM</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_RATIONALISM</Description>
+			<Help>TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP</Help>
+			<Title>TXT_KEY_RATIONALISM_TITLE</Title>
+			<EraPrereq>ERA_RENAISSANCE</EraPrereq>
+			<FreePolicy>POLICY_RATIONALISM</FreePolicy>
+			<FreeFinishingPolicy>POLICY_RATIONALISM_FINISHER</FreeFinishingPolicy>
+		</Row>
+		<Row>
+			<Type>POLICY_BRANCH_FREEDOM</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_FREEDOM</Description>
+			<Help>TXT_KEY_POLICY_BRANCH_FREEDOM_HELP</Help>
+			<Title>TXT_KEY_FREEDOM_TITLE</Title>
+			<EraPrereq>ERA_RENAISSANCE</EraPrereq>
+			<FreePolicy>POLICY_FREEDOM</FreePolicy>
+			<FreeFinishingPolicy>POLICY_FREEDOM_FINISHER</FreeFinishingPolicy>
+			<AIMutuallyExclusive>true</AIMutuallyExclusive>
+		</Row>
+		<Row>
+			<Type>POLICY_BRANCH_ORDER</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_ORDER</Description>
+			<Help>TXT_KEY_POLICY_BRANCH_ORDER_HELP</Help>
+			<Title>TXT_KEY_ORDER_TITLE</Title>
+			<EraPrereq>ERA_INDUSTRIAL</EraPrereq>
+			<FreePolicy>POLICY_ORDER</FreePolicy>
+			<FreeFinishingPolicy>POLICY_ORDER_FINISHER</FreeFinishingPolicy>
+			<AIMutuallyExclusive>true</AIMutuallyExclusive>
+		</Row>
+		<Row>
+			<Type>POLICY_BRANCH_AUTOCRACY</Type>
+			<Description>TXT_KEY_POLICY_BRANCH_AUTOCRACY</Description>
+			<Help>TXT_KEY_POLICY_BRANCH_AUTOCRACY_HELP</Help>
+			<Title>TXT_KEY_AUTOCRACY_TITLE</Title>
+			<EraPrereq>ERA_INDUSTRIAL</EraPrereq>
+			<FreePolicy>POLICY_AUTOCRACY</FreePolicy>
+			<FreeFinishingPolicy>POLICY_AUTOCRACY_FINISHER</FreeFinishingPolicy>
+			<AIMutuallyExclusive>true</AIMutuallyExclusive>
+		</Row>
+	</PolicyBranchTypes>
+	<!-- MODDERS:The default game rules are designed to support simple, mirrored relationships (e.g. Piety blocks Rationalism, and Rationalism blocks Piety). The Further from this you stray the less likely it is to work. You have been warned!-->
+	<PolicyBranch_Disables>
+		<Row>
+			<PolicyBranchType>POLICY_BRANCH_PIETY</PolicyBranchType>
+			<PolicyBranchDisable>POLICY_BRANCH_RATIONALISM</PolicyBranchDisable>
+		</Row>
+		<Row>
+			<PolicyBranchType>POLICY_BRANCH_RATIONALISM</PolicyBranchType>
+			<PolicyBranchDisable>POLICY_BRANCH_PIETY</PolicyBranchDisable>
+		</Row>
+		<Row>
+			<PolicyBranchType>POLICY_BRANCH_FREEDOM</PolicyBranchType>
+			<PolicyBranchDisable>POLICY_BRANCH_AUTOCRACY</PolicyBranchDisable>
+		</Row>
+		<Row>
+			<PolicyBranchType>POLICY_BRANCH_FREEDOM</PolicyBranchType>
+			<PolicyBranchDisable>POLICY_BRANCH_ORDER</PolicyBranchDisable>
+		</Row>		
+		<Row>
+			<PolicyBranchType>POLICY_BRANCH_AUTOCRACY</PolicyBranchType>
+			<PolicyBranchDisable>POLICY_BRANCH_FREEDOM</PolicyBranchDisable>
+		</Row>
+		<Row>
+			<PolicyBranchType>POLICY_BRANCH_AUTOCRACY</PolicyBranchType>
+			<PolicyBranchDisable>POLICY_BRANCH_ORDER</PolicyBranchDisable>
+		</Row>
+		<Row>
+			<PolicyBranchType>POLICY_BRANCH_ORDER</PolicyBranchType>
+			<PolicyBranchDisable>POLICY_BRANCH_AUTOCRACY</PolicyBranchDisable>
+		</Row>
+		<Row>
+			<PolicyBranchType>POLICY_BRANCH_ORDER</PolicyBranchType>
+			<PolicyBranchDisable>POLICY_BRANCH_FREEDOM</PolicyBranchDisable>
+		</Row>				
+	</PolicyBranch_Disables>
+</GameData>

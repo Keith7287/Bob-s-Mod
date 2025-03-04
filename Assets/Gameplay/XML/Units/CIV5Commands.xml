@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="Commands">
+		<!-- Basic info -->
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text"/>
+		<Column name="Help" type="text" default=""/>
+		<Column name="DisabledHelp" type="text" default=""/>
+		<!-- Hotkey info -->
+		<Column name="HotKey" type="text"/>
+		<Column name="HotKeyAlt" type="text"/>
+		<Column name="HotKeyPriority" type="integer" default="0"/>
+		<Column name="HotKeyPriorityAlt" type="integer" default="0"/>
+		<Column name="OrderPriority" type="integer" default="0"/>
+		<Column name="AltDown" type="boolean" default="false"/>
+		<Column name="AltDownAlt" type="boolean" default="false"/>
+		<Column name="ShiftDown" type="boolean" default="false"/>
+		<Column name="ShiftDownAlt" type="boolean" default="false"/>
+		<Column name="CtrlDown" type="boolean" default="false"/>
+		<Column name="CtrlDownAlt" type="boolean" default="false"/>
+		<!-- Commands info -->
+		<Column name="Visible" type="boolean" default="false"/>
+		<Column name="All" type="boolean" default="false"/>
+		<Column name="ConfirmCommand" type="boolean" default="false"/>
+		<Column name="Automate" type="text"/>
+		<Column name="IconIndex" type="integer" default="-1"/>
+		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
+	</Table>
+	<!-- Table data -->
+	<Commands>
+		<Row>
+			<ID>0</ID>
+			<Type>COMMAND_PROMOTION</Type>
+			<Description>TXT_KEY_COMMAND_PROMOTION</Description>
+			<Help/>
+			<DisabledHelp/>
+			<OrderPriority>198</OrderPriority>
+		</Row>
+		<Row>
+			<Type>COMMAND_UPGRADE</Type>
+			<Description>TXT_KEY_COMMAND_UPGRADE</Description>
+			<Help/>
+			<DisabledHelp/>
+			<HotKey>KB_U</HotKey>
+			<HotKeyPriority>2</HotKeyPriority>
+			<OrderPriority>150</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>44</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>COMMAND_AUTOMATE</Type>
+			<Description>TXT_KEY_COMMAND_AUTOMATE</Description>
+			<Help/>
+			<DisabledHelp/>
+		</Row>
+		<Row>
+			<Type>COMMAND_WAKE</Type>
+			<Description>TXT_KEY_COMMAND_WAKE</Description>
+			<Help>TXT_KEY_COMMAND_WAKE_HELP</Help>
+			<DisabledHelp/>
+			<HotKey>KB_F</HotKey>
+			<AltDown>0</AltDown>
+			<ShiftDown>0</ShiftDown>
+			<CtrlDown>0</CtrlDown>
+			<HotKeyPriority>0</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+			<OrderPriority>101</OrderPriority>
+			<Visible>1</Visible>
+			<All>1</All>
+			<IconIndex>5</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>COMMAND_CANCEL</Type>
+			<Description>TXT_KEY_COMMAND_CANCEL</Description>
+			<Help>TXT_KEY_COMMAND_CANCEL_HELP</Help>
+			<DisabledHelp/>
+			<HotKey>KB_BACKSPACE</HotKey>
+			<AltDown>0</AltDown>
+			<ShiftDown>0</ShiftDown>
+			<CtrlDown>0</CtrlDown>
+			<HotKeyPriority>1</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+			<OrderPriority>199</OrderPriority>
+			<Visible>1</Visible>
+			<All>1</All>
+			<IconIndex>39</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>COMMAND_CANCEL_ALL</Type>
+			<Description>TXT_KEY_COMMAND_CANCEL_ALL</Description>
+			<Help>TXT_KEY_COMMAND_CANCEL_ALL_HELP</Help>
+			<DisabledHelp/>
+			<HotKey>KB_BACKSPACE</HotKey>
+			<AltDown>0</AltDown>
+			<ShiftDown>1</ShiftDown>
+			<CtrlDown>0</CtrlDown>
+			<HotKeyPriority>1</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+			<OrderPriority>199</OrderPriority>
+			<Visible>0</Visible>
+			<All>1</All>
+			<IconIndex>39</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>COMMAND_STOP_AUTOMATION</Type>
+			<Description>TXT_KEY_COMMAND_STOP_AUTOMATION</Description>
+			<Help>TXT_KEY_COMMAND_STOP_AUTOMATION_HELP</Help>
+			<DisabledHelp/>
+			<HotKey>KB_BACKSPACE</HotKey>
+			<AltDown>0</AltDown>
+			<ShiftDown>0</ShiftDown>
+			<CtrlDown>0</CtrlDown>
+			<HotKeyPriority>0</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+			<OrderPriority>101</OrderPriority>
+			<Visible>1</Visible>
+			<All>1</All>
+			<IconIndex>39</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>COMMAND_DELETE</Type>
+			<Description>TXT_KEY_COMMAND_DELETE</Description>
+			<Help>TXT_KEY_COMMAND_DELETE_HELP</Help>
+			<DisabledHelp/>
+			<HotKey>KB_DELETE</HotKey>
+			<AltDown>0</AltDown>
+			<ShiftDown>0</ShiftDown>
+			<CtrlDown>0</CtrlDown>
+			<HotKeyPriority>0</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+			<OrderPriority>-1</OrderPriority>
+			<ConfirmCommand>1</ConfirmCommand>
+			<Visible>1</Visible>
+			<IconIndex>11</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>COMMAND_GIFT</Type>
+			<Description>TXT_KEY_COMMAND_GIFT</Description>
+			<Help>TXT_KEY_COMMAND_GIFT_HELP</Help>
+			<DisabledHelp/>
+			<HotKey/>
+			<AltDown>0</AltDown>
+			<ShiftDown>0</ShiftDown>
+			<CtrlDown>0</CtrlDown>
+			<HotKeyPriority>0</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+			<OrderPriority>1</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>7</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>COMMAND_HOTKEY</Type>
+			<Description>TXT_KEY_COMMAND_HOTKEY</Description>
+			<Help>TXT_KEY_COMMAND_HOTKEY_HELP</Help>
+			<DisabledHelp/>
+		</Row>
+	</Commands>
+</GameData>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<Language_en_US>
+    <!-- American Civil War -->
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_BARRACKS">
+			<Text>Barracks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_ARMY_BASE">
+			<Text>Army Base</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_ARSENAL">
+			<Text>Arsenal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_IRON_WORKS">
+			<Text>Iron Works</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_NAVY_YARD">
+			<Text>Navy Yard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_STABLE">
+			<Text>Stable</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_WALLS">
+			<Text>Capital Defenses</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_BARRACKS_STRATEGY">
+			<Text>Each Barracks provides 1 [ICON_RES_MANPOWER] Manpower. Cannot be constructed. Capture enemy cities to boost your [ICON_RES_MANPOWER] Manpower levels.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_ARMY_BASE_STRATEGY">
+			<Text>Each Army Base provides 2 [ICON_RES_MANPOWER] Manpower. Cannot be constructed. Capture enemy cities to boost your [ICON_RES_MANPOWER] Manpower levels.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_ARSENAL_STRATEGY">
+			<Text>Allows Infantry units to be constructed in this city. Cannot be constructed. Capture enemy cities to seize new production centers for your nation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_IRON_WORKS_STRATEGY">
+			<Text>Allows Artillery units to be constructed in this city. Cannot be constructed. Capture enemy cities to seize new production centers for your nation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_NAVY_YARD_STRATEGY">
+			<Text>Allows Naval units to be constructed in this city. Cannot be constructed. Capture enemy cities to seize new production centers for your nation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_STABLE_STRATEGY">
+			<Text>Allows Mounted units to be constructed in this city. Cannot be constructed. Capture enemy cities to seize new production centers for your nation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_BARRACKS_HELP">
+			<Text>Provides 1 [ICON_RES_MANPOWER] Manpower. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_ARMY_BASE_HELP">
+			<Text>Provides 2 [ICON_RES_MANPOWER] Manpower. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_ARSENAL_HELP">
+			<Text>Allows Infantry units to be constructed in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_IRON_WORKS_HELP">
+			<Text>Allows Artillery units to be constructed in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_NAVY_YARD_HELP">
+			<Text>Allows Naval units to be constructed in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_STABLE_HELP">
+			<Text>Allows Mounted units to be constructed in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILDING_WALLS_STRATEGY">
+			<Text>Capital Defenses are a ring of earthen forts that increase a city's Defense Strength by 10 and Hit Points by 100, making the city significantly more difficult to capture.</Text>
+		</Row>
+    
+    <!-- Scramble for Africa -->
+    <Row Tag="TXT_KEY_SCRAMBLE_AFRICA_FEATURE_FOUNTAIN_YOUTH">
+      <Text>Source of the Nile</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_STAATSMUSEUM">
+      <Text>Staatsmuseum</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TURKISH_BATH_DESC">
+      <Text>Turkish Bath</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SUEZ_CANAL">
+      <Text>Suez Canal</Text>
+    </Row>
+
+  </Language_en_US>
+</GameData>

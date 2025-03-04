@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Civ5Package>
+	<GUID>{8871E748-29A4-4910-8C57-8C99E32D0167}</GUID>
+	<SteamApp>99999</SteamApp>
+	<Version>1</Version>
+	<Ownership>FREE</Ownership>
+	<Key>e818fa28902977b42ee5e3426f5112e6</Key>
+	<PTags>
+		<Tag>Version</Tag>
+		<Tag>Ownership</Tag>
+	</PTags>
+	<Name>
+		<Value language="en_US">Upgrade 1</Value>
+	</Name>
+	<Description>
+		<Value language="en_US">Upgrade Data 1</Value>
+	</Description>
+
+  <TextData>CIV5GameTextInfos_Civilopedia_NaturalWonders.xml</TextData>
+	<TextData>CIV5GameTextInfos_Objects_NaturalWonders.xml</TextData>
+  <TextData>CIV5GameTextInfos_DLC_SP_Maps.xml</TextData>
+  <TextData>CIV5GameTextInfos_DLC_SP_Maps_2.xml</TextData>
+  <TextData>CIV5GameTextInfos_DLC_SP_Maps_3.xml</TextData>
+
+	<GameData>Civ5ArtDefines_SV_Shared_Features.xml</GameData>
+  <GameData>Civ5ArtDefines_SV_Shared_Resources.xml</GameData>  
+	
+	<VisEffectInfoDefines>Civ5ArtDefines_VisEffects_Shared.xml</VisEffectInfoDefines>
+	<VisEffectParticleDefines>Civ5ArtDefines_VisEffectParticles_Shared.xml</VisEffectParticleDefines>
+	<VisEffectModelDefines>Civ5ArtDefines_VisEffectModels_Shared.xml</VisEffectModelDefines>
+
+	<AudioScripts3D>Audio3DScriptsDLCShared.xml</AudioScripts3D>
+	<AudioDefines>AudioDefinesDLCShared.xml</AudioDefines>
+	
+	<LandmarkDefines>Civ5ArtDefines_LandmarkTypes_Upgrade1.xml</LandmarkDefines>
+	<LandmarkDefines>Civ5ArtDefines_Landmarks_Upgrade1.xml</LandmarkDefines>
+
+	<Paks>
+		<File>Upgrade1Models.fpk</File>
+		<File>Upgrade1Textures.fpk</File>
+	</Paks>
+
+</Civ5Package>

@@ -1,0 +1,13 @@
+<LeaderScene FarClip="100000" lights="Casimir_lights.fxsxml" camera="Poland_Casimir_Cam.fxsxml" cubemap_prefix ="Casimir" FallbackImage="Casimir.dds" >
+
+ 
+<HackLightSettings intensity=".4" direction=".7,1,0" color="255,255,255"/>
+ 
+<DOFSettings max_width="3" blur_distance="8000" ramp_distance="665" ></DOFSettings> 
+
+
+<LeaderObject  model="Poland_Casimir.fxsxml"> </LeaderObject>
+<BackgroundObject  model="Poland_Scene.fxsxml" ></BackgroundObject>
+<BackgroundObject  model="Poland_Scene_VFX.fxsxml" ></BackgroundObject>
+
+</LeaderScene>

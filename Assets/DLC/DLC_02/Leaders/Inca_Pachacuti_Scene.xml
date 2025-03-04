@@ -1,0 +1,12 @@
+<LeaderScene FarClip="600000" lights="Pachacuti_Lights.gr2" camera="Inca_Pachacuti_Camera.fxsxml" camera_animation="Inca_Pachacuti_CAMERA_CAMERA_LOOP" ColorKey="Pachacuti_COLORKEY.tga" cubemap_prefix ="Pachacuti" FallbackImage="Pachacuti.dds">
+ 
+<HackLightSettings color="255,175,255" direction="-0.46,-1.1,-0.2" intensity="0.1" />
+
+<DOFSettings max_width="3.04" blur_distance="1059" ramp_distance="729" ></DOFSettings>
+<BloomSettings max_width="13.04" scale="1.60" min="1.11" ></BloomSettings>
+  
+  <LeaderObject  model="Inca_Pachacuti.fxsxml"></LeaderObject>
+  <BackgroundObject model="Pachacuti_Scene.fxsxml" ></BackgroundObject>
+  <BackgroundObject model="Pachacuti_Scene_VFX.fxsxml" ></BackgroundObject>
+
+</LeaderScene>

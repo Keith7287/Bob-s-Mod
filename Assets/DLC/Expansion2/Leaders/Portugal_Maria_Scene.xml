@@ -1,0 +1,16 @@
+<LeaderScene FarClip="100000" lights ="MariaI_Lights.gr2" camera="Portugal_Maria_Camera.fxsxml" cubemap_prefix ="MariaI" FallbackImage="Maria_I.dds" >
+
+ 
+<HackLightSettings color="192,195,255" direction="-0.2,-1.0,-0.2" intensity="0.1" />
+
+ 
+<DOFSettings max_width="2.45" blur_distance="1773" ramp_distance="984" ></DOFSettings> 
+
+
+<LeaderObject  model="Portugal_Maria.fxsxml"> </LeaderObject>
+<BackgroundObject  model="Portugal_Maria_Scene.fxsxml" ></BackgroundObject>
+<BackgroundObject  model="Portugal_Maria_Scene_VFX.fxsxml" ></BackgroundObject>
+</LeaderScene>
+
+
+

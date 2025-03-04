@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- Table definition -->
+    <Table name="EmphasizeInfos">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" notnull="true" unique="true" />
+        <Column name="Description" type="text" />
+        <Column name="Strategy" type="text" />
+        <Column name="AvoidGrowth" type="boolean" />
+        <Column name="GreatPeople" type="boolean" />
+    </Table>
+
+    <Table name="EmphasizeInfo_Yields">
+        <Column name="EmphasizeType" type="text" reference="EmphasizeInfos(Type)" />
+        <Column name="YieldType" type="text" reference="Yields(Type)" />
+        <Column name="Yield" type="integer" notnull="true" />
+    </Table>
+
+    <!-- Table data -->
+    <EmphasizeInfos>
+        <Row>
+            <ID>0</ID>
+            <Type>EMPHASIZE_FOOD</Type>
+            <Description>TXT_KEY_EMPHASIZE_FOOD</Description>
+            <Strategy>TXT_KEY_EMPHASIZE_FOOD_STRATEGY</Strategy>
+        </Row>
+        <Row>
+            <Type>EMPHASIZE_PRODUCTION</Type>
+            <Description>TXT_KEY_EMPHASIZE_PRODUCTION</Description>
+            <Strategy>TXT_KEY_EMPHASIZE_PRODUCTION_STRATEGY</Strategy>
+        </Row>
+        <Row>
+            <Type>EMPHASIZE_RESEARCH</Type>
+            <Description>TXT_KEY_EMPHASIZE_RESEARCH</Description>
+            <Strategy>TXT_KEY_EMPHASIZE_RESEARCH_STRATEGY</Strategy>
+        </Row>
+        <Row>
+            <Type>EMPHASIZE_GREAT_PEOPLE</Type>
+            <Description>TXT_KEY_EMPHASIZE_GREAT_PEOPLE</Description>
+            <Strategy>TXT_KEY_EMPHASIZE_GREAT_PEOPLE_STRATEGY</Strategy>
+            <GreatPeople>1</GreatPeople>
+        </Row>
+        <Row>
+            <Type>EMPHASIZE_AVOID_GROWTH</Type>
+            <Description>TXT_KEY_EMPHASIZE_AVOID_GROWTH</Description>
+            <Strategy>TXT_KEY_EMPHASIZE_AVOID_GROWTH_STRATEGY</Strategy>
+            <AvoidGrowth>1</AvoidGrowth>
+        </Row>
+    </EmphasizeInfos>
+
+    <EmphasizeInfo_Yields>
+        <Row>
+            <EmphasizeType>EMPHASIZE_FOOD</EmphasizeType>
+            <YieldType>YIELD_FOOD</YieldType>
+            <Yield>1</Yield>
+        </Row>
+        <Row>
+            <EmphasizeType>EMPHASIZE_PRODUCTION</EmphasizeType>
+            <YieldType>YIELD_PRODUCTION</YieldType>
+            <Yield>1</Yield>
+        </Row>
+    </EmphasizeInfo_Yields>
+</GameData>

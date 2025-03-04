@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="GoodyHuts">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" unique="true"/>
+		<Column name="Description" type="text"/>
+		<Column name="Sound" type="text"/>
+		<Column name="Gold" type="integer" default="0"/>
+		<Column name="NumGoldRandRolls" type="integer" default="0"/>
+		<Column name="GoldRandAmount" type="integer" default="0"/>
+		<Column name="MapOffset" type="integer" default="0"/>
+		<Column name="MapRange" type="integer" default="0"/>
+		<Column name="MapProb" type="integer" default="0"/>
+		<Column name="Experience" type="integer" default="0"/>
+		<Column name="Healing" type="integer" default="0"/>
+		<Column name="DamagePrereq" type="integer" default="0"/>
+		<Column name="Population" type="integer" default="0"/>
+		<Column name="Culture" type="integer" default="0"/>
+		<Column name="RevealNearbyBarbariansRange" type="integer" default="0"/>
+		<Column name="Tech" type="boolean" default="false"/>
+		<Column name="RevealUnknownResource" type="boolean" default="false"/>
+		<Column name="UpgradeUnit" type="boolean" default="false"/>
+		<Column name="Bad" type="boolean" default="false"/>
+		<Column name="UnitClass" type="text" default="NULL"/>
+		<Column name="BarbarianUnitClass" type="text" default="NULL"/>
+		<Column name="BarbarianUnitProb" type="integer" default="0"/>
+		<Column name="MinBarbarians" type="integer" default="0"/>
+	</Table>
+	<!-- Table data -->
+	<GoodyHuts>
+		<Row>
+			<ID>0</ID>
+			<Type>GOODY_WARRIOR</Type>
+			<Description>TXT_KEY_GOODY_WARRIOR</Description>
+			<Sound>AS2D_GOODY_WARRIOR</Sound>
+			<UnitClass>UNITCLASS_WARRIOR</UnitClass>
+		</Row>
+		<Row>
+			<Type>GOODY_POPULATION</Type>
+			<Description>TXT_KEY_GOODY_POPULATION</Description>
+			<Sound/>
+			<Population>1</Population>
+		</Row>
+		<Row>
+			<Type>GOODY_CULTURE</Type>
+			<Description>TXT_KEY_GOODY_CULTURE</Description>
+			<Sound/>
+			<Culture>20</Culture>
+		</Row>
+		<Row>
+			<Type>GOODY_REVEAL_NEARBY_BARBS</Type>
+			<Description>TXT_KEY_GOODY_REVEAL_NEARBY_BARBS</Description>
+			<Sound/>
+			<RevealNearbyBarbariansRange>10</RevealNearbyBarbariansRange>
+		</Row>
+		<Row>
+			<Type>GOODY_GOLD</Type>
+			<Description>TXT_KEY_GOODY_GOLD</Description>
+			<Sound>AS2D_GOODY_GOLD</Sound>
+			<Gold>50</Gold>
+			<NumGoldRandRolls>5</NumGoldRandRolls>
+			<GoldRandAmount>11</GoldRandAmount>
+		</Row>
+		<Row>
+			<Type>GOODY_MAP</Type>
+			<Description>TXT_KEY_GOODY_MAP</Description>
+			<Sound>AS2D_GOODY_MAP</Sound>
+			<MapOffset>4</MapOffset>
+			<MapRange>4</MapRange>
+			<MapProb>80</MapProb>
+		</Row>
+		<Row>
+			<Type>GOODY_TECH</Type>
+			<Description>TXT_KEY_GOODY_TECH</Description>
+			<Sound/>
+			<Tech>true</Tech>
+		</Row>
+		<Row>
+			<Type>GOODY_REVEAL_RESOURCE</Type>
+			<Description>TXT_KEY_GOODY_REVEAL_RESOURCE</Description>
+			<Sound/>
+			<RevealUnknownResource>true</RevealUnknownResource>
+		</Row>
+		<Row>
+			<Type>GOODY_UPGRADE_UNIT</Type>
+			<Description>TXT_KEY_GOODY_UPGRADE_UNIT</Description>
+			<Sound/>
+			<UpgradeUnit>true</UpgradeUnit>
+		</Row>
+		<Row>
+			<Type>GOODY_BARBARIANS_WEAK</Type>
+			<Description>TXT_KEY_GOODY_BARBARIANS</Description>
+			<Sound>AS2D_GOODY_HOSTILE</Sound>
+			<Bad>true</Bad>
+			<BarbarianUnitClass>UNITCLASS_WARRIOR</BarbarianUnitClass>
+			<MinBarbarians>1</MinBarbarians>
+		</Row>
+		<Row>
+			<Type>GOODY_BARBARIANS_STRONG</Type>
+			<Description>TXT_KEY_GOODY_BARBARIANS</Description>
+			<Sound>AS2D_GOODY_HOSTILE</Sound>
+			<Bad>true</Bad>
+			<BarbarianUnitClass>UNITCLASS_WARRIOR</BarbarianUnitClass>
+			<MinBarbarians>2</MinBarbarians>
+		</Row>
+		<Row>
+			<Type>GOODY_LOW_GOLD</Type>
+			<Description>TXT_KEY_GOODY_GOLD</Description>
+			<Sound>AS2D_GOODY_GOLD</Sound>
+			<Gold>50</Gold>
+			<NumGoldRandRolls>5</NumGoldRandRolls>
+			<GoldRandAmount>11</GoldRandAmount>
+		</Row>
+		<Row>
+			<Type>GOODY_HIGH_GOLD</Type>
+			<Description>TXT_KEY_GOODY_GOLD</Description>
+			<Sound>AS2D_GOODY_GOLD</Sound>
+			<Gold>100</Gold>
+			<NumGoldRandRolls>10</NumGoldRandRolls>
+			<GoldRandAmount>11</GoldRandAmount>
+		</Row>
+		<Row>
+			<Type>GOODY_SETTLER</Type>
+			<Description>TXT_KEY_GOODY_SETTLER</Description>
+			<Sound>AS2D_GOODY_SETTLER</Sound>
+			<UnitClass>UNITCLASS_SETTLER</UnitClass>
+		</Row>
+		<Row>
+			<Type>GOODY_SCOUT</Type>
+			<Description>TXT_KEY_GOODY_SCOUT</Description>
+			<Sound>AS2D_GOODY_SCOUT</Sound>
+			<UnitClass>UNITCLASS_SCOUT</UnitClass>
+		</Row>
+		<Row>
+			<Type>GOODY_WORKER</Type>
+			<Description>TXT_KEY_GOODY_WORKER</Description>
+			<Sound>AS2D_GOODY_WORKER</Sound>
+			<UnitClass>UNITCLASS_WORKER</UnitClass>
+		</Row>
+		<Row>
+			<Type>GOODY_EXPERIENCE</Type>
+			<Description>TXT_KEY_GOODY_EXPERIENCE</Description>
+			<Sound>AS2D_GOODY_XP</Sound>
+			<Experience>9</Experience>
+		</Row>
+		<Row>
+			<Type>GOODY_HEALING</Type>
+			<Description>TXT_KEY_GOODY_HEALING</Description>
+			<Sound>AS2D_GOODY_HEAL</Sound>
+			<Healing>100</Healing>
+			<DamagePrereq>60</DamagePrereq>
+		</Row>
+	</GoodyHuts>
+</GameData>

@@ -1,0 +1,16 @@
+<Asset>
+  <Mesh file="PL_MED_Trading_Post2.gr2" source="Max" />
+  <Texture file="Trading_Post_GRND_SREF_early.dds" source="Max" />
+  <Texture file="Trading_Post_GRND_early_PIL.dds" source="Max" />
+  <Texture file="Trading_Post_H.dds" source="Max" />
+  <Texture file="Trading_post_DIFF_early_PIL.dds" source="Max" />
+  <Texture file="Trading_post_SREF_early.dds" source="Max" />
+  <Texture file="Unit_Environment_Dull.dds" source="Max" />
+  <Texture file="Unit_Environment_Sharp.dds" source="Max" />
+  <Texture file="Unit_Irradiance.dds" source="Max" />
+  <TimedTrigger file="FX_Triggers_PL_MED_Trading_Post.ftsxml" source="Tool" model="Object02" state="0,1,2,3" />
+  <BoneUsage>
+    <Bone name="FX_PillagedSmoke" />
+  </BoneUsage>
+  <DecisionTree file="StaticLandmarkDecisionTree.ddtxml" source="Tool" />
+</Asset>

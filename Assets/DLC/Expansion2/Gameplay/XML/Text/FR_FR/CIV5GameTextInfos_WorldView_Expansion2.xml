@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_FR_FR>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_CANNOT_BE_ADJACENT">
+      <Text>{1: plural 1?{1: gender m?Un ; f?Une ;}; 2?Des ;}{@1_ImprovementName} ne {1: plural 1?{1: gender m?peut être construit; f?peut être construite;}; 2?{1: gender m?peuvent être construits; f?peuvent être construites;};} sur une case adjacente à un aménagement similaire, que sa construction soit en cours ou terminée.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_NO_ADJACENT_LUXURY">
+      <Text>{1: plural 1?{1: gender m?Un ; f?Une ;}; 2?Des ;}{@1_ImprovementName} {1: plural 1?{1: gender m?doit être construit; f?doit être construite;}; 2?{1: gender m?doivent être construits; f?doivent être construites;};} sur une case adjacente à une ressource de luxe.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_NOT_IN_CITY_STATE_TERRITORY">
+      <Text>{1: plural 1?{1: gender m?Un ; f?Une ;}; 2?Des ;}{@1_ImprovementName} ne {1: plural 1?{1: gender m?peut être construit; f?peut être construite;}; 2?{1: gender m?peuvent être construits; f?peuvent être construites;};} que sur le territoire d'une cité-état.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_CONNECTED">
+      <Text>La ville dispose d'une [ICON_CONNECTED] connexion urbaine avec la [ICON_CAPITAL] capitale !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING1">
+      <Text>[COLOR_YELLOW]Interception par avion de chasse ou[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING2">
+      <Text>[COLOR_YELLOW]augmentation des dégâts par les unités[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_CITY_SAPPED">
+      <Text>Soutenu par tour de siège</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EMPIRE_UNHAPPY_PENALTY">
+      <Text>Empire [ICON_HAPPINESS_3] mécontent</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EMPIRE_VERY_UNHAPPY_PENALTY">
+      <Text>Empire [ICON_HAPPINESS_4] très mécontent</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_VISIBLE_AA_UNITS">
+      <Text>[COLOR_WARNING_TEXT]Ennemi connu des unités antiaériennes : {1_Number}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_ART_ARTIFACT_EMPTY_TOOLTIP">
+      <Text>Emplacement vide pour chef-d'oeuvre artistique ou artefact</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_LITERATURE_EMPTY_TOOLTIP">
+      <Text>Emplacement vide pour chef-d'oeuvre littéraire</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_MUSIC_EMPTY_TOOLTIP">
+      <Text>Emplacement vide pour chef-d'oeuvre musical</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_TRADE_ROUTE">
+      <Text>Connexion urbaine</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_TRADE_ROUTES">
+      <Text>Connexions urbaines</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_ANARCHY">
+      <Text>[COLOR_NEGATIVE_TEXT]L'empire restera en proie à l'anarchie pendant encore {1_Turns} tour(s) suite à un changement idéologique. Pendant l'anarchie, l'empire ne gagne ni [ICON_RESEARCH] science, ni [ICON_GOLD] or, ni [ICON_CULTURE] culture, ni [ICON_PEACE] foi, et les villes n'ont pas de [ICON_PRODUCTION] production pour procéder à des constructions.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CARNIVAL_EFFECT">
+      <Text>Grâce à votre bonus exclusif du carnaval, votre production de tourisme augmente actuellement de 100% pour toutes les civilisations et vous générez des écrivains, artistes et musiciens illustres 50% plus vite.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_CITY_COST">
+      <Text>Chaque ville en votre possession augmente le coût des doctrines sociales de {1_Num}%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_FROM_BONUS_TURNS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] suite à un projet récent du Congrès mondial (tour(s) restant(s) : {2_TurnsLeft}).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY">
+      <Text>L'empire a plus de 20 points de [ICON_HAPPINESS_4] mécontentement, une révolte a éclaté ! Des villes risquent d'abandonner votre empire pour rejoindre la civilisation exerçant la plus grande influence culturelle sur votre peuple.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_UNHAPPY">
+      <Text>Les villes croissent 75% moins vite lorsque l'empire est [ICON_HAPPINESS_3] mécontent ! [NEWLINE]La génération d'[ICON_GOLD] or et de [ICON_PRODUCTION] production diminue de 2% par point de mécontentement. Les unités au combat reçoivent la même pénalité !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_VERY_UNHAPPY">
+      <Text>L'empire a plus de 10 points de [ICON_HAPPINESS_4] mécontentement, l'agitation gronde ! Des révoltes pourraient se produire ponctuellement, avec l'apparition de rebelles barbares sur votre territoire, et ce jusqu'à ce que vous ayez résolu ce problème.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_CITY_CONNECTIONS">
+      <Text>{1_Num} suite aux [ICON_CONNECTED] connexions urbaines entre vos villes et votre [ICON_CAPITAL] capitale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_ITR">
+      <Text>{1_Num} suite aux [ICON_TURNS_REMAINING] routes commerciales établies entre vos villes et celles d'autres civilisations.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_TR">
+      <Text>{1_Num} suite aux [ICON_CONNECTED] connexions urbaines entre vos villes et votre [ICON_CAPITAL] capitale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_TRAITS">
+      <Text>{1_Num} liés aux traits de caractère.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_LEAGUES">
+      <Text>{1_Happiness} suite au Congrès mondial.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE_FROM_ITR">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR] [ICON_RESEARCH] suite aux [ICON_TURNS_REMAINING] routes commerciales établies entre vos villes et celles d'autres civilisations.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TECH_CITY_COST">
+      <Text>Chaque ville ou [ICON_PUPPET] ville fantoche que vous possédez augmente les coûts technologiques de {1_Num}%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_PUBLIC_OPINION">
+      <Text>{1_Num} par l'opinion publique (désir d'une nouvelle idéologie).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIQUE_GOLDEN_AGE_ANNOUNCE">
+      <Text>Carnaval !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CARGO_CAPACITY">
+      <Text>Capacité de chargement</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CARGO_CAPACITY_TT">
+      <Text>Nombre d'unités transportables par{@1: plural 1?{@1: gender *:no_article? ; *:vowel? l'; m? le ; f? la ;}; 2? les ;}{1_UnitName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_TOURISM_STRENGTH_TT">
+      <Text>Indique la puissance de l'unité lors d'une série de concerts. Cette puissance est calculée en fonction de la production de [ICON_TOURISM] tourisme de la civilisation à la naissance du musicien illustre.</Text>
+    </Row>
+  </Language_FR_FR>
+</GameData>

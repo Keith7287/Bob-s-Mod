@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="HurryInfos">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text"/>
+		<Column name="PolicyPrereq" type="text" reference="Policies(Type)"/>
+		<Column name="GoldPerProduction" type="integer" default="0"/>
+		<Column name="ProductionPerPopulation" type="integer" default="0"/>
+		<Column name="GoldPerBeaker" type="integer" default="0"/>
+		<Column name="GoldPerCulture" type="integer" default="0"/>
+	</Table>
+	<!-- Table data -->
+	<HurryInfos>
+		<Row>
+			<ID>0</ID>
+			<Type>HURRY_POPULATION</Type>
+			<Description>TXT_KEY_HURRY_POPULATION</Description>
+			<PolicyPrereq>NULL</PolicyPrereq>
+			<ProductionPerPopulation>60</ProductionPerPopulation>
+		</Row>
+		<Row>
+			<Type>HURRY_GOLD</Type>
+			<Description>TXT_KEY_HURRY_GOLD</Description>
+			<PolicyPrereq>NULL</PolicyPrereq>
+			<GoldPerProduction>6</GoldPerProduction>
+		</Row>
+	</HurryInfos>
+</GameData>

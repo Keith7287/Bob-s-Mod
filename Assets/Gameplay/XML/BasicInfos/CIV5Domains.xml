@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- Table definition -->
+    <Table name="Domains">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" notnull="true" unique="true" />
+        <Column name="Description" type="text" />
+    </Table>
+
+    <!-- Table data -->
+	<Domains>
+		<Row>
+            <ID>0</ID>
+			<Type>DOMAIN_SEA</Type>
+			<Description>TXT_KEY_DOMAIN_SEA</Description>
+		</Row>
+        <Row>
+            <ID>1</ID>
+            <Type>DOMAIN_AIR</Type>
+            <Description>TXT_KEY_DOMAIN_AIR</Description>
+        </Row>
+        <Row>
+            <ID>2</ID>
+            <Type>DOMAIN_LAND</Type>
+            <Description>TXT_KEY_DOMAIN_LAND</Description>
+        </Row>
+        <Row>
+            <ID>3</ID>
+            <Type>DOMAIN_IMMOBILE</Type>
+            <Description>TXT_KEY_DOMAIN_IMMOBILE</Description>
+        </Row>
+	</Domains>
+</GameData>

@@ -1,0 +1,3382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<Language_en_US>
+		<!-- If your name is not Jon Shafer, please don't add anything to this file. -->
+		<!-- This is used to format numbers easily... nothing to translate here! -->
+		<Row Tag="TXT_KEY_FORMAT_NUMBER">
+			<Text>{1_Number: number #.##}</Text>
+		</Row>
+		<!-- Processes -->
+		<Row Tag="TXT_KEY_PROCESS_RESEARCH_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Research[ENDCOLOR] converts 25% of the [ICON_PRODUCTION] Production of this City into [ICON_RESEARCH] Science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_WEALTH_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Wealth[ENDCOLOR] converts 25% of the [ICON_PRODUCTION] Production of this City into [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_NO_PRODUCTION">
+			<Text>No Production</Text>
+		</Row>
+		<!-- City-State Text -->
+		<Row Tag="TXT_KEY_CITY_STATE_HAS_MESSAGE">
+			<Text>The City-State of {1_CivName:textkey} has a Message.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_MET">
+			<Text>You have met the City-State of {1_CivName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_RELATIONSHIP_NEUTRAL">
+			<Text>They are Neutral.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_RELATIONSHIP_FRIENDS">
+			<Text>You are Friends.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_RELATIONSHIP_ALLIES">
+			<Text>You are Allies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_RELATIONSHIP_WAR">
+			<Text>You are at War.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_RELATIONSHIP_WARMONGER">
+			<Text>They hate you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_TITLE_TOOL_TIP_CURRENT">
+			<Text>You currently have {1_Num} [ICON_INFLUENCE] Influence with {2_CityStateName:textkey}. {3_DetailString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_TITLE_TOOL_TIP_FRIENDS">
+			<Text>{1_Num} is required to become [COLOR_POSITIVE_TEXT]FRIENDS[ENDCOLOR]. Once Friends, you may pass through their borders without consequence. You also receive a bonus relating to this City-State's specialty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_TITLE_TOOL_TIP_ALLIES">
+			<Text>{1_Num} is required to become [COLOR_POSITIVE_TEXT]ALLIES[ENDCOLOR]. As Allies, {2_CityStateName:textkey} will donate all of its Resources to you. You also receive an additional bonus relating to this City-State's specialty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_TITLE_TOOL_TIP_MAXED">
+			<Text>More will not confer greater benefits, but will make it harder for other major powers to become the most favored nation of this City-State.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_TITLE_TOOL_TIP_WAR">
+			<Text>While at war this value is locked at its present level.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_TITLE_TOOL_TIP_WARMONGER">
+			<Text>You are either at war with this City-State's ally, or you have attacked so many City-States that none of them will ever deal with you again!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_GREETING_FRIENDLY">
+			<Text>Greetings great leader. We represent {1_CivName:textkey}. We earnestly hope that we can forge a strong and lasting peace with your mighty empire. {2_DetailsString} We trust that you will lend us assistance should we call upon you in the future.[NEWLINE][NEWLINE]{3_GiftString}[NEWLINE][NEWLINE]{4_SpeakAgainString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_GREETING_NEUTRAL">
+			<Text>Greetings. We are the people of {1_CivName:textkey}. Treat us fairly and we shall have peace. {2_DetailsString} We seek mutually supportive relations with our neighbors: if we call upon you for assistance we hope that you will provide it, and of course we shall do the same for you.[NEWLINE][NEWLINE]{3_GiftString}[NEWLINE][NEWLINE]{4_SpeakAgainString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_GREETING_HOSTILE">
+			<Text>Halt, Stranger! We are the mighty people of {1_CivName:textkey}. Trifle with us at your peril! {2_DetailsString} If you earn the privilege. We are of course self-sufficient but if we ask for assistance we expect you to provide it promptly.[NEWLINE][NEWLINE]{3_GiftString}[NEWLINE][NEWLINE]{4_SpeakAgainString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_GREETING_IRRATIONAL">
+			<Text>Ahhhh... An omen told {1_CivName:textkey} that you would one day arrive. {2_DetailsString} We shall do great things together - your empire and ours. We have seen it in the stars![NEWLINE][NEWLINE]{3_GiftString}[NEWLINE][NEWLINE]{4_SpeakAgainString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MINOR_SPEAK_AGAIN">
+			<Text>(If you wish to speak with {1_CivName:textkey} again you may click on their City.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_GREETING_CULTURED">
+			<Text>We are a [COLOR_POSITIVE_TEXT]Cultured[ENDCOLOR] people and we can help improve your [ICON_CULTURE] [COLOR_POSITIVE_TEXT]Culture[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_GREETING_MILITARISTIC">
+			<Text>We are a [COLOR_POSITIVE_TEXT]Militaristic[ENDCOLOR] people and we can increase the strength of your [COLOR_POSITIVE_TEXT]Army[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_GREETING_MARITIME">
+			<Text>We are a [COLOR_POSITIVE_TEXT]Maritime[ENDCOLOR] people and we can help accelerate your civilization's [ICON_FOOD] [COLOR_POSITIVE_TEXT]Growth[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_PEACE_FRIENDLY">
+			<Text>Greetings great leader. What brings you to our court today?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_PEACE_NEUTRAL">
+			<Text>Hello again. What are you here to discuss?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_PEACE_HOSTILE">
+			<Text>What business do you have here?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_PEACE_IRRATIONAL">
+			<Text>Ahhh, it's you again... excellent.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_DIPLO_PEACE_JUST_MADE">
+			<Text>We are glad to see the return of peace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_WAR">
+			<Text>We hope that you have come to end this conflict.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_WARMONGER">
+			<Text>We have no business with bloodthirsty tyrants such as yourself. Begone.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_WAR_WITH_PLAYERS">
+			<Text>We ask your assistance in our battle against the evil forces of {1_PlayerNames}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_WAR_WITH_PLAYERS_FORMAL">
+			<Text>They want you to go to war with {1_PlayerNames}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_BARBARIANS">
+			<Text>Sadly, we remain plagued by Barbarians.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_ROUTE">
+			<Text>It would greatly benefit both of our civilizations if you constructed a Road between our [ICON_CAPITAL] Capitals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_ROUTE_FORMAL">
+			<Text>They want a Road constructed between our [ICON_CAPITAL] Capitals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_KILL_CAMP">
+			<Text>There's still that Barbarian Encampment nearby that we'd like someone to take care of.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_KILL_CAMP_FORMAL">
+			<Text>They want a nearby Barbarian Encampment destroyed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONNECT_RESOURCE">
+			<Text>If you can find a source of {1_ResourceName:textkey} and connect it to your trade network it will make our merchants very happy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONNECT_RESOURCE_FORMAL">
+			<Text>They want you to connect {1_ResourceName:textkey} to your trade network.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONSTRUCT_WONDER">
+			<Text>If you are able to build {1_WonderName:textkey} our scholars and artists will be in awe of your accomplishments.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_CONSTRUCT_WONDER_FORMAL">
+			<Text>They want you to build {1_WonderName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_GREAT_PERSON">
+			<Text>We seek the wisdom of a {1_UnitName:textkey}. We would be delighted if you could attract one to your lands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_GREAT_PERSON_FORMAL">
+			<Text>They want you to generate a {1_UnitName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_KILL_CITY_STATE">
+			<Text>Our dispute with {1_CityStateName:textkey} remains an issue. If you could ... take care of them, we would make it worth your while.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_KILL_CITY_STATE_FORMAL">
+			<Text>They want you to destroy the City-State of {1_CityStateName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_PLAYER">
+			<Text>We are still in search of new trade routes to {1_CivName:textkey}. Perhaps you can assist us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_PLAYER_FORMAL">
+			<Text>They want you to find the lands of {1_CivName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_NATURAL_WONDER">
+			<Text>We still yearn to discover more of the Natural Wonders of this world.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_NATURAL_WONDER_FORMAL">
+			<Text>They want you to discover a Natural Wonder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_QUEST_ONE_MORE_THING">
+			<Text>One more request.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_PLEDGE_RESPONSE">
+			<Text>We are appreciative of your dedication. Let us hope that your pledge is ultimately unnecessary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_PLEDGE_RESPONSE_HOSTILE">
+			<Text>If that's what you want to worry about, we won't stop you. We can take care of ourselves though.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_TURN_SPAWNING_ON">
+			<Text>Resume Unit Spawning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_TURN_SPAWNING_OFF">
+			<Text>Stop Unit Spawning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_TT">
+			<Text>Pledging to protect a City State lets the other major powers in the game know that you will protect the City-State should it be attacked. This may deter attacks upon it by players who don't want to risk a conflict with you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_STOP_UNITS_TT">
+			<Text>Clicking this will tell the Militaristic City State to either stop or resume gifting Units to you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_GIFT_GOLD_TT">
+			<Text>You may spend [ICON_GOLD] Gold to improve your [ICON_INFLUENCE] Influence with this City-State.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_GIFT_UNIT_TT">
+			<Text>You may gift this City-State a unit from anywhere on the map (it will disappear and arrive in 3 turns). The first few times this is done it will earn you a small amount of [ICON_INFLUENCE] Influence. You may not gift non-combat units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_MAKE_PEACE">
+			<Text>Make Peace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_PROVIDE_GOLD_GIFT">
+			<Text>Provide Gift of [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_GOLD_TT">
+			<Text>Over time, the amount of [ICON_INFLUENCE] Influence earned from gifts of [ICON_GOLD] Gold goes down. Additionally, the more Gold you give in a single gift, the more Influence is earned - making larger gifts is more efficient!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_GOLD_STATUS_TT">
+			<Text>{1_Num} [ICON_INFLUENCE] Influence is needed to be Friends, and {2_Num} is needed to be Allies. You currently have {3_Num} [ICON_INFLUENCE].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_GIFT_UNIT">
+			<Text>Gift a Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_DECLARE_WAR">
+			<Text>Declare War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_TO_PROTECT">
+			<Text>Pledge to Protect</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_STOP_UNIT_SPAWNING">
+			<Text>Stop Unit Spawning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_MEETING">
+			<Text>You have met the City-State of {1_CivName:textkey}.[NEWLINE][NEWLINE]{2_GiftString}[NEWLINE][NEWLINE]{3_SpeakAgainString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_NOBODY">
+			<Text>Nobody</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_CULTURED_TT">
+			<Text>A befriended [COLOR_POSITIVE_TEXT]Cultured[ENDCOLOR] City-State will provide you gifts of [ICON_CULTURE] Culture, allowing you to obtain Social Policies more quickly.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_MILITARISTIC_TT">
+			<Text>A befriended [COLOR_POSITIVE_TEXT]Militaristic[ENDCOLOR] City-State will provide you occasional gifts of advanced military units. They will also make requests that are more militaristic in nature (e.g. destroying a Barbarian Encampment, or capturing a neighboring City-State).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_MARITIME_TT">
+			<Text>A befriended [COLOR_POSITIVE_TEXT]Maritime[ENDCOLOR] City-State will boost the [ICON_FOOD] Food of your [ICON_CAPITAL] Capital when Friends, and all of your cities when Allies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_FRIENDLY_TT">
+			<Text>A befriended [COLOR_POSITIVE_TEXT]Friendly[ENDCOLOR] City-State will usually make requests that require some peaceful action, like building a Wonder or constructing a Road to them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_NEUTRAL_TT">
+			<Text>[COLOR_POSITIVE_TEXT]Neutral[ENDCOLOR] City-States are fairly even-keel, and try to mind their own business.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_HOSTILE_TT">
+			<Text>[ICON_INFLUENCE] Influence with a [COLOR_POSITIVE_TEXT]Hostile[ENDCOLOR] City-State drops more quickly than normal. They will also make requests to capture neighboring City-States more often.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_IRRATIONAL_TT">
+			<Text>Compared with other City-States, an [COLOR_POSITIVE_TEXT]Irrational[ENDCOLOR] City-State is more random with the requests it makes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_ALLY_TT">
+			<Text>If a player becomes the Ally of a City-State, they receive extra bonuses relating to that City-State's trait, and they will also receive any luxury and strategic Resources the City-State has connected.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_RESOURCES_TT">
+			<Text>If a player becomes the [COLOR_POSITIVE_TEXT]Ally[ENDCOLOR] of this City-State, these are the nearby Resources which the player will receive once the City-State has connected them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_GIFT_FIRST">
+			<Text>You are the first great empire they have met, so they provide you a gift of [COLOR_POSITIVE_TEXT]{1_NumGold} [ICON_GOLD] Gold[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_GIFT_OTHER">
+			<Text>They provide you with a gift of [COLOR_POSITIVE_TEXT]{1_NumGold} [ICON_GOLD] Gold[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_STATUS">
+			<Text>STATUS:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_TRAIT">
+			<Text>Trait:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_PERSONALITY">
+			<Text>Personality:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_ALLIED_WITH">
+			<Text>Allied With:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POP_CSTATE_RESOURCES">
+			<Text>Nearby Resources:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ALLIES">
+			<Text>Allies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ALLIES_CSTATE_TT">
+			<Text>You are [COLOR_POSITIVE_TEXT]Allies[ENDCOLOR] with {1_CityStateName:textkey}. Each turn, your [ICON_INFLUENCE] Influence with them will change by {2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRIENDS">
+			<Text>Friends</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FRIENDS_CSTATE_TT">
+			<Text>You are [COLOR_POSITIVE_TEXT]Friends[ENDCOLOR] with {1_CityStateName:textkey}. Each turn, your [ICON_INFLUENCE] Influence with them will change by {2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CSTATE_OPEN_BORDERS_FRIENDS">
+			<Text>Because you are at least Friends, you are allowed to freely pass through their borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CSTATE_OPEN_BORDERS_TRAIT">
+			<Text>Because of your leader's special trait, you are allowed to freely pass through their borders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CSTATE_CULTURE_BONUS">
+			<Text>You are receiving [COLOR_POSITIVE_TEXT]{1_Num} [ICON_CULTURE] Culture[ENDCOLOR] per turn from them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CSTATE_FOOD_BONUS">
+			<Text>You are receiving [COLOR_POSITIVE_TEXT]{1_Num} [ICON_FOOD] Food[ENDCOLOR] per turn in your [ICON_CAPITAL] Capital, and [COLOR_POSITIVE_TEXT]{2_Num} [ICON_FOOD] Food[ENDCOLOR] in all your other Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CSTATE_MILITARY_BONUS">
+			<Text>You will receive a [COLOR_POSITIVE_TEXT]new military unit[ENDCOLOR] from them approximately every {1_Num} turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CSTATE_SCIENCE_BONUS">
+			<Text>You are receiving [COLOR_POSITIVE_TEXT]{1_Num} [ICON_RESEARCH] Science[ENDCOLOR] per turn from them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CSTATE_RESOURCES_RECEIVED">
+			<Text>They are granting you {1_ResourcesStringSeparatedByCommas}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PERMANENT_WAR">
+			<Text>Permanent War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PERMANENT_WAR_CSTATE_TT">
+			<Text>You have attacked so many City-States that {1_CityStateName:textkey} will never make peace with you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEACE_BLOCKED">
+			<Text>Peace Blocked</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEACE_BLOCKED_CSTATE_TT">
+			<Text>You are at war with the ally of {1_CityStateName:textkey}, which means it will not make peace with you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EMOTIONLESS">
+			<Text>Emotionless</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR">
+			<Text>War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_CAPS">
+			<Text>WAR</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_DECLARED">
+			<Text>WAR DECLARED!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WAR_CSTATE_TT">
+			<Text>You are at war with {1_CityStateName:textkey}. Unless they are allied with another player you are at war with, you may make peace at any time. While at war, your [ICON_INFLUENCE] Influence is locked at -60.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANGRY">
+			<Text>Angry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANGRY_CSTATE_TT">
+			<Text>You have done something to anger {1_CityStateName:textkey}. Perhaps walking through their borders, or going to war recently.[NEWLINE][NEWLINE]Your [ICON_INFLUENCE] Influence with them recovers {2_Num} per turn. You may provide them a gift of [ICON_GOLD] Gold to speed things along.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEUTRAL_CSTATE_TT">
+			<Text>{1_CityStateName:textkey} neither likes nor dislikes you. If you have enough [ICON_GOLD] Gold, you may provide it a gift to increase your [ICON_INFLUENCE] Influence.</Text>
+		</Row>
+		<!-- Notifications -->
+		<Row Tag="TXT_KEY_NTFN_DOF">
+			<Text>{1_PlayerName} has made a Declaration of Friendship with {2_PlayerName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_DOF_S">
+			<Text>{1_PlayerName} and {2_PlayerName} declare Friendship!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_DENOUNCED">
+			<Text>{1_PlayerName} has publicly Denounced {2_PlayerName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_DENOUNCED_S">
+			<Text>{1_PlayerName} Denounced {2_PlayerName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_DENOUNCED_US">
+			<Text>{1_PlayerName} has publicly Denounced us!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_DENOUNCED_US_S">
+			<Text>Denounced by {1_PlayerName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_CITY_STARVING">
+			<Text>The City of {1_CityName:textkey} is starving! If it runs out of stored [ICON_FOOD] Food, a [ICON_CITIZEN] Citizen will die!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_CITY_STARVING_S">
+			<Text>{1_CityName:textkey} is Starving!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_UNIT_DISBANDED">
+			<Text>A Unit was disbanded because your empire is running a negative budget and has no treasury!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_UNIT_DISBANDED_S">
+			<Text>Unit Disbanded!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_INCOME_DEFICIT">
+			<Text>Your treasury is empty and your economy is now producing 0 [ICON_GOLD] Gold per turn or less! If the empire reaches {1_Num} GPT some of your units will be forced to disband!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_INCOME_DEFICIT_S">
+			<Text>Losing Gold!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_PLAYER_ERA">
+			<Text>{1_PlayerName} has entered the {2_EraString:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_RA_FREE_TECH">
+			<Text>Your Research Agreement with {1_CivName:textkey} is now completed, and grants you a technology boost!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_S">
+			<Text>Research Agreement Complete!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_WAR_CANCEL">
+			<Text>Your Research Agreement with {1_CivName:textkey} has been cancelled because you are now at war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_WAR_CANCEL_S">
+			<Text>Research Agreement Cancelled!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_OVER_RESOURCE_LIMIT">
+			<Text>You are currently using more {1_Resource:textkey} than you have! All units which require it will [COLOR_NEGATIVE_TEXT]fight much less effectively[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_OVER_RESOURCE_LIMIT">
+			<Text>You Need {1_Resource:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_WLTKD">
+			<Text>Your acquisition of {1_Resource:textkey} causes the city of {2_CityName:textkey} to enter "We Love the King Day", giving the city a [ICON_FOOD] growth bonus!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_WLTKD">
+			<Text>{1_CityName:textkey} loves the king!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_DEMAND">
+			<Text>The City of {1_CityName:textkey} wants {2_ResourceName:textkey}! Connecting that resource to your trade network will cause the city to enter "We Love the King Day," increasing its [ICON_FOOD] growth rate!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_RESOURCE_DEMAND">
+			<Text>{1_CityName:textkey} demands {2_ResourceName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_WONDER_MOD">
+			<Text>{2_ResourceName:textkey} is now available in {1_CityName:textkey}! This increases [ICON_PRODUCTION] Production when building Wonders in this city by {3_Num}%!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_WONDER_MOD_SUMMARY">
+			<Text>{1_CityName:textkey} has {2_ResourceName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_CAN_SHOOT">
+			<Text>The City of {1_CityName:textkey} can attack a nearby enemy!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_CAN_SHOOT">
+			<Text>{1_CityName:textkey} can fire upon an enemy!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_BEST_IN_GREAT_PEOPLE_ANOTHER">
+			<Text>{1_CivName:textkey} is recognized as the civilization with the most Great People, earning {1_CivName:textkey} {2_Num} Civilization Points. Another player will need at least {3_Num} Great People to win this title.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_BEST_IN_GREAT_PEOPLE_UNMET">
+			<Text>An unmet civilization has the most Great People in the world! This title provides {1_Num} Civilization Points. Another player will need at least {2_Num} Great People to win this title.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_BEST_IN_GREAT_PEOPLE_YOU">
+			<Text>Your civilization has the most Great People in the entire world, earning you {1_Num} Civilization Points! Another player will need at least {2_Num} Great People to take this title away from you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_BEST_IN_POLICIES_ANOTHER">
+			<Text>{1_CivName:textkey} is honored as the civilization with the most Social Policies, earning {2_Num} Civilization Points. Another player will need at least {3_Num} Social Policies to win this title.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_BEST_IN_POLICIES_UNMET">
+			<Text>An unmet player is now honored as the civilization with the most Social Policies, earning {1_Num} Civilization Points. Another player will need at least {2_Num} Social Policies to claim this title.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_BEST_IN_POLICIES_YOU">
+			<Text>Your civilization has the most Social Policies in the world, earning you {1_Num} Civilization Points! Another player will need at least {2_Num} Social Policies to take this title from you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_BEST_IN_WONDERS_ANOTHER">
+			<Text>{1_CivName:textkey} is recognized as the civilization with the most World Wonders, earning {2_Num} Civilization Points. Another player will need at least {3_Num} World Wonders to claim this title.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_BEST_IN_WONDERS_UNMET">
+			<Text>An unmet civilization now possesses the most World Wonders, earning {1_Num} Civilization Points! Another player will need at least {2_Num} World Wonders to take this title.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_BEST_IN_WONDERS_YOU">
+			<Text>Your civilization now possesses the most World Wonders, earning {1_Num} Civilization Points! Another player will need at least {2_Num} World Wonders to take this title.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_CULTURE_ACQUIRED_NEW_PLOT">
+			<Text>The City of {1_CityName:textkey} has built up enough Culture to claim a new Tile!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_GROWTH">
+			<Text>The City of {1_CityName:textkey} now has {2_Population} [ICON_CITIZEN] Citizens! The new Citizen will automatically work the land near the City for additional [ICON_FOOD] Food, [ICON_PRODUCTION] Production or [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_DEFENSIVE_PACT_FROM_US">
+			<Text>Our Defensive Pact with {1_CivName:textkey} has ended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_DEFENSIVE_PACT_TO_US">
+			<Text>A deal where {1_CivName:textkey} had a Defensive Pact with us has ended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_GPT_FROM_US">
+			<Text>A deal where we provided Gold every turn to {1_CivName:textkey} has ended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_GPT_TO_US">
+			<Text>A deal where {1_CivName:textkey} provided Gold every turn to us has ended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_OPEN_BORDERS_FROM_US">
+			<Text>A deal where we provided Open Borders to {1_CivName:textkey} has ended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_OPEN_BORDERS_TO_US">
+			<Text>A deal where {1_CivName:textkey} provided us Opened Borders has ended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_RESEARCH_AGREEMENT_FROM_US">
+			<Text>Our Research Agreement with {1_CivName:textkey} has ended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_RESEARCH_AGREEMENT_TO_US">
+			<Text>A deal where {1_CivName:textkey} had a Research Agreement with us has ended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_RESOURCE_FROM_US">
+			<Text>A deal where we provided {2_Resource} to {1_CivName:textkey} has ended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_RESOURCE_TO_US">
+			<Text>A deal where {1_CivName:textkey} provided {2_Resource} to us has ended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_TRADE_AGREEMENT_FROM_US">
+			<Text>Our Trade Agreement with {1_CivName:textkey} has ended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_TRADE_AGREEMENT_TO_US">
+			<Text>A deal where {1_CivName:textkey} had a Trade Agreement with us has ended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DEAL_EXPIRED_PEACE">
+			<Text>A peace treaty with {1_CivName:textkey} has ended. Either civilization may now declare war on the other.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_PEACE">
+			<Text>Peace Treaty Expired</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_ENOUGH_CULTURE_FOR_POLICY">
+			<Text>You have accumulated enough Culture to adopt a new Social Policy!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_ENOUGH_CULTURE_FOR_POLICY_DISMISS">
+			<Text>You have accumulated enough Culture to adopt a new Social Policy![NEWLINE][NEWLINE]Right-Click to dismiss without choosing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_FREE_POLICY">
+			<Text>You may choose a free Social Policy!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_FREE_POLICY_SUMMARY">
+			<Text>Free Social Policy!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_ENOUGH_GOLD_TO_BUY_PLOT">
+			<Text>You have accumulated enough Gold to purchase a new Tile in one of your Cities!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_ERA_VICTORY_POINTS">
+			<Text>You have gained {1_Num} Civilization Point for advancing to a new Era!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_FOUND_BARB_CAMP">
+			<Text>A Barbarian Encampment has been discovered! It will create Barbarian units until dispersed!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_BARB_CAMP_CONVERTS">
+			<Text>The barbarians in this Encampment have joined your army and given you [ICON_GOLD]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_BARB_NAVAL_UNIT_CONVERTS">
+			<Text>A barbarian naval unit has joined your forces and given you [ICON_GOLD]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_FOUND_GOODY_HUT">
+			<Text>You have discovered Ancient Ruins! Sending a Unit into the Ruins may uncover hidden secrets!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_FOUND_NATURAL_WONDER">
+			<Text>You have discovered {@2_NaturalWonder}! You have {1_Num} Natural Wonders still to find.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_FOUND_RESOURCE">
+			<Text>You have discovered a source of {1_ResourceName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_REMOVED_UNIT">
+			<Text>No room for new unit!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_REMOVED_UNIT">
+			<Text>{1_CityName:textkey} tried to place {2_UnitName:textkey}, but there was no tile for it to move into.</Text>
+		</Row>
+		<!-- Notifications relating to Minor Civs -->
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_BARB_KILLED">
+			<Text>You have killed a group of Barbarians near {1_CivName:textkey}! They are grateful, and your [ICON_INFLUENCE] Influence with them has increased by 12!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SM_MINOR_BARB_KILLED">
+			<Text>Barbarian killed near {1_CivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MET_MINOR_CIV">
+			<Text>You have met the City-State of {1_CivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_INTRUSION">
+			<Text>You are trespassing in the lands of {1_CivName:textkey}! As long as you have Units in their territory, [ICON_INFLUENCE] Influence with them will decrease!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_LIBERATION_YOU">
+			<Text>You have liberated {1_CivName:textkey}! They are indebted to you for their survival.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_LIBERATION">
+			<Text>{1_MinorCivName:textkey} has been liberated by {2_MajorCivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_AGGRESSOR">
+			<Text>Your aggression against your weaker neighbors has not gone unnoticed. They have begun banding together for mutual defense, and will fight to the death. Should you continue attacking City-States, more will join the alliance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_AGGRESSOR">
+			<Text>City-States Grow Worried</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_WARMONGER">
+			<Text>Your pattern of preying upon the City-States of the world has caused a great deal of alarm. The alliance to thwart you continues to grow.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_WARMONGER">
+			<Text>City-States Become Hostile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_WARMONGER_OTHER">
+			<Text>Because {1_NameKey:textkey} has shown continued aggression, several of the City-States of the world are banding together to fight this common foe! Any military support you can provide would be very welcome. (Click on one of their Cities to give them Units.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_WARMONGER_OTHER">
+			<Text>City-States Unite Against {1_NameKey:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_WARMONGER_REMINDER">
+			<Text>Many of the City-States of the world remain at war with {1_NameKey:textkey}. They welcome assistance in any form, particularly military Units. (Click on one of their Cities to give them Units.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_WARMONGER_REMINDER">
+			<Text>City-States Request Assistance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_MINOR_BONUSES_CHANGED">
+			<Text>Because you've entered a new era, the bonuses you receive from some City-States have increased in value!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_MINOR_BONUSES_CHANGED_SM">
+			<Text>City-State Bonuses Changed!</Text>
+		</Row>
+		<!-- City-State Quest Notifications -->
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_WAR_QUEST">
+			<Text>{1_CivName:textkey} is under attack from {2_CivName:textkey}! If you don't help them they might be wiped out. They've requested the help of all major powers. If you are able to kill at least {3_NumUnits} enemy Units, {1_CivName:textkey} will be indebted to you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_WAR_QUEST">
+			<Text>{1_CivName:textkey} attacked by {2_CivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_WAR_QUEST_COMPLETED">
+			<Text>You have fulfilled {1_CivName:textkey} request to weaken their vile enemy, {2_CivName:textkey}! Your [ICON_INFLUENCE] Influence with them has grown.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_WAR_QUEST_COMPLETED">
+			<Text>{1_CivName:textkey} War complete</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_WAR_UNIT_HELP">
+			<Text>{1_CivName:textkey} is looking for assistance against {2_CivName:textkey}. While they would prefer your active participation in the war, you may also help them by secretly giving them military Units. (Click on their City to do this.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_WAR_UNIT_HELP">
+			<Text>{1_CivName:textkey} requests Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_WAR_QUEST_LOST_CHANCE">
+			<Text>{1_CivName:textkey} no longer needs your assistance against {2_CivName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_WAR_QUEST_LOST_CHANCE">
+			<Text>{1_CivName:textkey} no longer at War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_BARBS_QUEST">
+			<Text>{1_CivName:textkey} requests your assistance against invading Barbarians! Each Barbarian you kill will earn you [ICON_INFLUENCE] Influence over the City-State.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_BARBS_QUEST">
+			<Text>{1_CivName:textkey} under attack!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_BARBS_QUEST_LOST_CHANCE">
+			<Text>{1_CivName:textkey} no longer needs your assistance against the Barbarians.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_BARBS_QUEST_LOST_CHANCE">
+			<Text>{1_CivName:textkey} cancels request</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_START_ROUTE">
+			<Text>{1_CivName:textkey} would like you to construct a Road between your [ICON_CAPITAL] Capital and theirs!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_START_ROUTE">
+			<Text>{1_CivName:textkey} requests a Road</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_ROUTE_CONNECTION">
+			<Text>You have successfully [ICON_CONNECTED] connected your [ICON_CAPITAL] Capital with {1_CivName:textkey}! Your [ICON_INFLUENCE] Influence with them has grown.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_ROUTE_CONNECTION">
+			<Text>Road to {1_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_KILL_CAMP">
+			<Text>The citizens of {1_CivName:textkey} have become uneasy at the presence of a nearby Barbarian Encampment, and they'd like someone to destroy it. They will amply reward whoever accomplishes this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_KILL_CAMP">
+			<Text>{1_CivName:textkey} Targets Nearby Encampment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CAMP">
+			<Text>You have successfully destroyed the Barbarian Encampment as requested by {1_CivName:textkey}! Your [ICON_INFLUENCE] Influence over them has increased.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_KILL_CAMP">
+			<Text>Encampment Cleared for {1_CivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_QUEST_ENDED_KILL_CAMP">
+			<Text>The Barbarian Encampment {1_MinorName:textkey} wanted you to eliminate has been destroyed by someone else!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_QUEST_ENDED_KILL_CAMP_S">
+			<Text>{1_MinorName:textkey} No Longer Needs Your Help</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONNECT_RESOURCE">
+			<Text>The merchants of {@2_CivName} seek new riches. They have heard rumors of {@1_ResourceName} and {@1_ResourceName: plural 1?its; other?their;} great value. You will be rewarded if you are able to connect this resource to your trade network.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONNECT_RESOURCE">
+			<Text>{@2_CivName} desires {@1_ResourceName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONNECT_RESOURCE">
+			<Text>As {@2_CivName} requested, you have successfully connected {@1_ResourceName} to your trade network! Their merchants are pleased, and your level of [ICON_INFLUENCE] Influence with them has increased.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONNECT_RESOURCE">
+			<Text>{@1_ResourceName} Connected for {@2_CivName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONSTRUCT_WONDER">
+			<Text>The cultural elite of {@2_CivName} yearn for something to dazzle them. They believe if {@1_WonderName} is built it will lead to great enlightenment. Should you be the one to accomplish this they will see to it that you are amply rewarded.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONSTRUCT_WONDER">
+			<Text>{@2_CivName} desires {@1_WonderName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONSTRUCT_WONDER">
+			<Text>As {@2_CivName} requested, you have successfully constructed {@1_WonderName}! Your [ICON_INFLUENCE] Influence with them has increased.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONSTRUCT_WONDER">
+			<Text>{@1_WonderName} Constructed for {@2_CivName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONSTRUCT_WONDER">
+			<Text>Another player has constructed {@1_WonderName}, meaning you can no longer fulfill the request of {@2_CivName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONSTRUCT_WONDER">
+			<Text>Can no longer Construct {@1_WonderName} for {@2_CivName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_KILL_CITY_STATE">
+			<Text>{2_CivName:textkey} has had a serious dispute with {1_TargetName:textkey}. {2_CivName:textkey} is now looking for a major power willing to help resolve the issue by destroying their foe. Anyone willing to take up this offer will be handsomely rewarded.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_KILL_CITY_STATE">
+			<Text>{2_CivName:textkey} wants {1_TargetName:textkey} eliminated.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CITY_STATE">
+			<Text>Much to the delight of {2_CivName:textkey}, you have eliminated {1_TargetName:textkey}! They are extremely grateful for your assistance in this matter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_KILL_CITY_STATE">
+			<Text>{1_TargetName:textkey} Eliminated for {2_CivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_KILL_CITY_STATE">
+			<Text>Another player has destroyed {1_TargetName:textkey}, preventing you from fulfilling the request of {2_CivName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_KILL_CITY_STATE">
+			<Text>Can no longer eliminate {1_TargetName:textkey} for {2_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_GREAT_PERSON">
+			<Text>The scholars of {2_CivName:textkey} seek the wisdom of a {1_UnitName}. If you are able to attract one to your empire they shall reward you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_GREAT_PERSON">
+			<Text>{2_CivName:textkey} Seeks a {1_UnitName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_GREAT_PERSON">
+			<Text>As {2_CivName:textkey} requested, you have successfully created a {1_UnitName}! Their scholars are in awe, and your [ICON_INFLUENCE] Influence over them has increased.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_GREAT_PERSON">
+			<Text>{2_CivName:textkey} Recognizes Your {1_UnitName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_FIND_PLAYER">
+			<Text>{2_CivName:textkey} is looking for new trade opportunities. They have heard of a distant empire named "{1_TargetName:textkey}." If you are able to find territory belonging to {1_TargetName:textkey} you will be rewarded.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_FIND_PLAYER">
+			<Text>{2_CivName:textkey} seeks {1_TargetName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_PLAYER">
+			<Text>Your discovery of {1_TargetName:textkey} has greatly pleased the merchants of {2_CivName:textkey}. Your [ICON_INFLUENCE] Influence over them has increased.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_FIND_PLAYER">
+			<Text>{1_TargetName:textkey} Discovered for {2_CivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_FIND_NATURAL_WONDER">
+			<Text>Well-to-do citizens of {1_CivName:textkey} have heard rumors that there are incredible Natural Wonders in the world which remain undiscovered. They hope that someone can investigate this claim.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_FIND_NATURAL_WONDER">
+			<Text>{1_CivName:textkey} seeks a new Natural Wonder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_NATURAL_WONDER">
+			<Text>Your discovery of a new Natural Wonder has inspired the citizens of {1_CivName:textkey}! Because of your efforts, your [ICON_INFLUENCE] Influence over them has increased.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_FIND_NATURAL_WONDER">
+			<Text>Natural Wonder discovered for {1_CivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_STATE_UNIT_SPAWN">
+			<Text>The City-State of {1_CivName:textkey} has given you a new Unit!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_STATE_UNIT_SPAWN">
+			<Text>New Unit from {1_CivName:textkey}!</Text>
+		</Row>
+		<!-- Minor Civ Relations Notifications -->
+		<Row Tag="TXT_KEY_NTFN_SMMRY_MINOR_BEST_RELATIONS_ALL">
+			<Text>{1_MinorName:textkey} has a new Ally!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_MINOR_NEW_BEST_RELATIONS_ALL">
+			<Text>{1_NewCivName:textkey} has replaced {2_OldCivName:textkey} as the Ally of {3_MinorName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_MINOR_NOW_BEST_RELATIONS_ALL">
+			<Text>{1_NewCivName:textkey} is now the Ally of {2_MinorName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_SMMRY_MINOR_BEST_RELATIONS_LOST_ALL">
+			<Text>{1_MinorName:textkey} and {2_NewCivName:textkey} no longer Allies!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_MINOR_BEST_RELATIONS_LOST_ALL">
+			<Text>{@1_NewCivName} {@1_NewCivName: plural 1?is; 2?are;} no longer the Ally of {@2_MinorName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_MINOR_NOW_ALLIES_ALL">
+			<Text>{1_MajorCivName:textkey}: [ICON_INFLUENCE] Influence over {2_MinorName:textkey} has increased: they are now Allies!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_SMMRY_MINOR_NOW_ALLIES_ALL">
+			<Text>{1_MinorName:textkey} and {2_NewCivName:textkey} now Allies!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_MINOR_WERE_ALLIES_NOW_FRIENDS_ALL">
+			<Text>{1_MajorCivName:textkey}: [ICON_INFLUENCE] Influence over {2_MinorName:textkey} has decreased. They are no longer Allies and are now Friends.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_SMMRY_MINOR_NOW_FRIENDS_ALL">
+			<Text>{1_MinorName:textkey} and {2_NewCivName:textkey} Friends</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_MINOR_NOW_FRIENDS_ALL">
+			<Text>{1_MajorCivName:textkey}: [ICON_INFLUENCE] Influence over {2_MinorName:textkey} has increased: they are now Friends.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_MINOR_WERE_FRIENDS_ALL">
+			<Text>{1_MajorCivName:textkey}: [ICON_INFLUENCE] Influence over {2_MinorName:textkey} has decreased and they are no longer Friends!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_SMMRY_MINOR_WERE_FRIENDS_ALL">
+			<Text>{1_MinorName:textkey} and {2_NewCivName:textkey} not Friends!</Text>
+		</Row>
+		<!-- Notifications relating to Minor Civ bonuses being granted/taken away -->
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_BASE">
+			<Text>[ICON_INFLUENCE] Influence over {1_CivName:textkey} has increased to the point where you are now [COLOR_POSITIVE_TEXT]FRIENDS[ENDCOLOR].[NEWLINE][NEWLINE]{2_DetailsString} They have also given you permission to move Units through their territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_CULTURE">
+			<Text>As a [COLOR_POSITIVE_TEXT]Cultural[ENDCOLOR] City-State, they give you rare works of art! (+{1_NumCulture} [ICON_CULTURE] Culture per turn)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MILITARISTIC">
+			<Text>As a [COLOR_POSITIVE_TEXT]Militaristic[ENDCOLOR] City-State, they will occasionally give you military Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MARITIME">
+			<Text>As a [COLOR_POSITIVE_TEXT]Maritime[ENDCOLOR] City-State, they will export Food to your empire (+{1_NumCapitalFood}[ICON_FOOD]in [ICON_CAPITAL] Capital, +{2_NumCitiesFood}[ICON_FOOD]in all other Cities).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_FRIENDS_LOST_BASE">
+			<Text>[ICON_INFLUENCE] Influence over {1_CivName:textkey} has decreased to the point where you are no longer [COLOR_POSITIVE_TEXT]FRIENDS[ENDCOLOR]...[NEWLINE][NEWLINE]{2_DetailsString} Also, your Units no longer have permission to move through their territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_CULTURE">
+			<Text>({1_NumCulture} [ICON_CULTURE] Culture per turn lost)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_FRIENDS_MILITARISTIC">
+			<Text>They will no longer give you military Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_MARITIME">
+			<Text>({1_NumCapitalFood}[ICON_FOOD]in [ICON_CAPITAL] Capital, {2_NumCitiesFood}[ICON_FOOD]in all other Cities)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_BASE">
+			<Text>[ICON_INFLUENCE] Influence over {2_MinorCivName:textkey} has increased to the point where you are now their [COLOR_POSITIVE_TEXT]ALLY[ENDCOLOR].[NEWLINE][NEWLINE]{3_DetailsString}[NEWLINE][NEWLINE]{1_ResourceDetailsString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_BASE_PASSED">
+			<Text>[ICON_INFLUENCE] Influence over {3_MinorCivName:textkey} has increased to the point where you have [COLOR_POSITIVE_TEXT]Supplanted {1_CivName:textkey} as their ALLY[ENDCOLOR].[NEWLINE][NEWLINE]{4_DetailsString}[NEWLINE][NEWLINE]{2_ResourceDetailsString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_CULTURE">
+			<Text>As a [COLOR_POSITIVE_TEXT]Cultural[ENDCOLOR] City-State, they give you their finest cultural artifacts! (+{1_NumCulture} [ICON_CULTURE] Culture per turn)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MILITARISTIC">
+			<Text>As a [COLOR_POSITIVE_TEXT]Militaristic[ENDCOLOR] City-State, they will regularly give you military Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MARITIME">
+			<Text>As a [COLOR_POSITIVE_TEXT]Maritime[ENDCOLOR] City-State, they now make large Food exports to your empire (additional +{1_NumCapitalFood}[ICON_FOOD]in [ICON_CAPITAL] Capital, +{2_NumCitiesFood}[ICON_FOOD]in all other Cities).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_SCIENCE">
+			<Text>They now share all of their Wise Men's knowledge with you! (You receive a [ICON_RESEARCH] Science bonus equivalent to their empire's output)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_ALLIES_LOST">
+			<Text>[ICON_INFLUENCE] Influence over {1_CivName:textkey} has decreased to the point where you are no longer their [COLOR_POSITIVE_TEXT]ALLY[ENDCOLOR].[NEWLINE][NEWLINE]{2_DetailsString}[NEWLINE][NEWLINE]As such, they no longer grant you their Strategic and Luxury Resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_ALLIES_PASSED">
+			<Text>[COLOR_NEGATIVE_TEXT]{1_CivName:textkey}[ENDCOLOR] now has more [ICON_INFLUENCE] Influence over {2_MinorCivName:textkey} than you, making them the [COLOR_NEGATIVE_TEXT]New Ally[ENDCOLOR] of the City-State![NEWLINE][NEWLINE]{3_DetailsString}[NEWLINE][NEWLINE]As such, they no longer grant you their Strategic and Luxury Resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_ALLIES_MILITARISTIC">
+			<Text>They will contribute fewer Units to your military.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_ALLIES_LOST_SCIENCE">
+			<Text>they have withdrawn their Wise Men from your lands... ([ICON_RESEARCH] Science bonus lost)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_GAINED_BEST_RELATIONS_BONUS_NONE">
+			<Text>As long as you retain this status they will grant your empire all of the future [COLOR_POSITIVE_TEXT]Strategic and Luxury Resources[ENDCOLOR] they connect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_GAINED_BEST_RELATIONS_BONUS_SOME">
+			<Text>As long as you retain this status they will grant you their [COLOR_POSITIVE_TEXT]{1_ResourceNames}[ENDCOLOR] and all future Resources they connect.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_BFF_NEW_RESOURCE">
+			<Text>Because you are the Ally of {1_CivName:textkey}, they grant you their newly-acquired [COLOR_POSITIVE_TEXT]{2_ResourceNames}[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_BFF_NEW_RESOURCE">
+			<Text>{2_ResourceNames} from {1_CivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_BFF_LOST_RESOURCE">
+			<Text>{1_CivName:textkey} has lost access to the [COLOR_POSITIVE_TEXT]{2_ResourceNames}[ENDCOLOR] it was providing you! No new shipments can be made until it is reconnected.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_BFF_LOST_RESOURCE">
+			<Text>Lost {2_ResourceNames} from {1_CivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_BEST_RELATIONS_BONUS">
+			<Text>You are no longer the most favored nation of {1_CivName:textkey}... As such, they no longer grant you their Strategic and Luxury Resources.</Text>
+		</Row>
+		<!-- Other Notifications -->
+		<Row Tag="TXT_KEY_NOTIFICATION_NEW_RESEARCH">
+			<Text>You may select a new research project.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_NEW_CONSTRUCTION">
+			<Text>{1_CivName} {1_CivName: plural 1?is; other?are;} ready for a new construction project.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PLAYER_LOST_CAPITAL">
+			<Text>{@1_CivName} {@1_CivName: plural 1?has; other?have;} lost {@1_CivName: plural 1?its; other?their;} [ICON_CAPITAL] Capital City! {2_NumPlayers} Civilizations remain in possession of their [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PLAYER_RECOVERED_CAPITAL">
+			<Text>{@1_CivName} {@1_CivName: plural 1?has; other?have;} recovered {@1_CivName: plural 1?its; other?their;} [ICON_CAPITAL] Capital City!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SOMEONE_LOST_CAPITAL">
+			<Text>An unmet civilization has lost their [ICON_CAPITAL] Capital City! {1_NumPlayers} Civilizations remain in possession of their [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SOMEONE_RECOVERED_CAPITAL">
+			<Text>An unmet civilization has recovered their [ICON_CAPITAL] Capital City!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_WONDER_STARTED">
+			<Text>{1_CivName} has begun construction of {2_BldgName} in {3_CityName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_WONDER_STARTED_UNKNOWN_LOCATION">
+			<Text>{1_CivName} has begun construction of {2_BldgName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_WONDER_STARTED_UNMET">
+			<Text>An unmet civilization has begun construction of {1_BldgName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_GOLDEN_AGE_BEGUN">
+			<Text>A golden age begins for the {1_LongCivName:textkey} civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_GOLDEN_AGE_BEGUN_ACTIVE_PLAYER">
+			<Text>A golden age begins for you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_GOLDEN_AGE_ENDED">
+			<Text>The {1_LongCivName:textkey} golden age has ended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_GOLDEN_AGE_ENDED_ACTIVE_PLAYER">
+			<Text>Your golden age has ended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_UNIT_CAN_GET_PROMOTION">
+			<Text>A Unit has gained enough experience to be promoted!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_VICTORY_CATEGORY_FIRST_PLACE">
+			<Text>{1_CivName:textkey} has won FIRST place in the {2_Era:textkey} Era with {3_Victory:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_VICTORY_CATEGORY_FIRST_PLACE_YOU">
+			<Text>You have won FIRST place in the {2_Era:textkey} Era with {3_Victory:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_VICTORY_CATEGORY_FOURTH_PLACE">
+			<Text>{1_CivName:textkey} has won FOURTH place in the {2_Era:textkey} Era with {3_Victory:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_VICTORY_CATEGORY_FOURTH_PLACE_YOU">
+			<Text>You have won FOURTH place in the {2_Era:textkey} Era with {3_Victory:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_VICTORY_CATEGORY_SECOND_PLACE">
+			<Text>{1_CivName:textkey} has won SECOND place in the {2_Era:textkey} Era with {3_Victory:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_VICTORY_CATEGORY_SECOND_PLACE_YOU">
+			<Text>You have won SECOND place in the {2_Era:textkey} Era with {3_Victory:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_VICTORY_CATEGORY_THIRD_PLACE">
+			<Text>{1_CivName:textkey} has won THIRD place in the {2_Era:textkey} Era with {3_Victory:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_VICTORY_CATEGORY_THIRD_PLACE_YOU">
+			<Text>You have won THIRD place in the {2_Era:textkey} Era with {3_Victory:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_VICTORY_RACE_WON_SOMEBODY">
+			<Text>{1_CivName:textkey} has ranked #{2_Rank} in the Victory Competition for {3_Victory:textkey}, and earned {4_Num} Civilization Points!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_VICTORY_RACE_WON_UNMET">
+			<Text>An umet player has ranked #{1_Rank} in the Victory Competition for {2_Victory:textkey}, and earned {3_Num} Civilization Points!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_VICTORY_RACE_WON_YOU">
+			<Text>You have ranked #{1_Rank} in the Victory Competition for {2_Victory:textkey}, and earned {3_Num} Civilization Points!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_VICTORY_WINNER">
+			<Text>{1_CivName:textkey} has won the game through a {2_Victory:textkey} Victory!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_YOU_LOST_CAPITAL">
+			<Text>You have lost your [ICON_CAPITAL] Capital City! {1_NumPlayers} other players remain in possession of their [ICON_CAPITAL] Capitals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_YOU_RECOVERED_CAPITAL">
+			<Text>You have recovered your [ICON_CAPITAL] Capital City!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DOF">
+			<Text>{1_CivName:textkey} and {2_CivName:textkey} have made a public Declaration of Friendship, forging a strong bond between the two empires.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DOF_S">
+			<Text>{1_CivName:textkey} and {2_CivName:textkey} Now Friends!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE">
+			<Text>{1_CivName:textkey} {@1_CivName: plural 1?has; other?have;} publicly denounced {2_CivName:textkey}, warning the world they are not to be trusted!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE_S">
+			<Text>{1_CivName:textkey} {@1_CivName: plural 1?has; other?have;} denounced {2_CivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_YOU_DENOUNCE">
+			<Text>You have publicly denounced {1_CivName:textkey}, warning the world they are not to be trusted!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_YOU_DENOUNCE_S">
+			<Text>You have Denounced {1_CivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DENOUNCE_YOU">
+			<Text>{1_CivName:textkey} {@1_CivName: plural 1?has; other?have;} publicly denounced YOU, warning the world you are not to be trusted!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DENOUNCED_YOU_S">
+			<Text>{1_CivName:textkey} {@1_CivName: plural 1?has; other?have;} Denounced You!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_THEIR_DENUNCIATION_EXPIRED">
+			<Text>The fact that you were denounced by {1_LeaderName} no longer holds any sway with other leaders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_THEIR_DENUNCIATION_EXPIRED_S">
+			<Text>Enemy Denunciation of You Has Expired</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_FRIENDSHIP_EXPIRED">
+			<Text>Your Declaration of Friendship with {1_LeaderName} has run its course and will need to be renewed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_FRIENDSHIP_EXPIRED_S">
+			<Text>Declaration of Friendship Has Expired</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_DIPLOMACY_DECLARATION">
+			<Text>Public Declaration from {1_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_RESEARCH_AGREEMENT">
+			<Text>{1_CivName:textkey} and {2_CivName:textkey} have signed a Research Agreement!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_PERSON">
+			<Text>A Great Person has been born in {1_CivName:textkey}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_PERSON_ACTIVE_PLAYER">
+			<Text>A Great Person has been born in your civilization!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_PERSON_UNMET">
+			<Text>A Great Person has been born in a distant land!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_LOST">
+			<Text>{1_CityName:textkey} was captured by {@2_CivName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BEST_IN_GREAT_PEOPLE_ANOTHER">
+			<Text>{1_CivName:textkey} has the most Great People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BEST_IN_GREAT_PEOPLE_UNMET">
+			<Text>Unmet Player has the most Great People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BEST_IN_GREAT_PEOPLE_YOU">
+			<Text>Most Great People!</Text>-
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BEST_IN_POLICIES_ANOTHER">
+			<Text>{1_CivName:textkey} has the most Policies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BEST_IN_POLICIES_UNMET">
+			<Text>Unmet Player has the most Policies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BEST_IN_POLICIES_YOU">
+			<Text>Most Social Policies!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BEST_IN_WONDERS_ANOTHER">
+			<Text>{1_CivName:textkey} has the most Wonders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BEST_IN_WONDERS_UNMET">
+			<Text>Unmet Player has the most Wonders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BEST_IN_WONDERS_YOU">
+			<Text>Most World Wonders!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_CULTURE_ACQUIRED_NEW_PLOT">
+			<Text>Borders of {1_CityName:textkey} have grown</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_GROWTH">
+			<Text>{1_CityName:textkey} has Grown!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_DEFENSIVE_PACT_FROM_US">
+			<Text>Defensive Pact with {1_CivName:textkey} ended</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_DEFENSIVE_PACT_TO_US">
+			<Text>Defensive Pact with {1_CivName:textkey} ended</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_GPT_FROM_US">
+			<Text>GPT to {1_CivName:textkey} ended</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_GPT_TO_US">
+			<Text>GPT from {1_CivName:textkey} ended</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_OPEN_BORDERS_FROM_US">
+			<Text>Open Borders to {1_CivName:textkey} ended</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_OPEN_BORDERS_TO_US">
+			<Text>Open Borders from {1_CivName:textkey} ended</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_RESEARCH_AGREEMENT_FROM_US">
+			<Text>Research Agreement with {1_CivName:textkey} ended</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_RESEARCH_AGREEMENT_TO_US">
+			<Text>Research Agreement with {1_CivName:textkey} ended</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_RESOURCE_FROM_US">
+			<Text>{2_Resource} to {1_CivName:textkey} ended</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_RESOURCE_TO_US">
+			<Text>{2_Resource} from {1_CivName:textkey} ended</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_TRADE_AGREEMENT_FROM_US">
+			<Text>Trade Agreement with {1_CivName:textkey} ended</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DEAL_EXPIRED_TRADE_AGREEMENT_TO_US">
+			<Text>Trade Agreement with {1_CivName:textkey} ended</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ENOUGH_CULTURE_FOR_POLICY">
+			<Text>May adopt Policy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ENOUGH_GOLD_TO_BUY_PLOT">
+			<Text>May purchase land</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ERA_VICTORY_POINTS">
+			<Text>New Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_FOUND_BARB_CAMP">
+			<Text>Barbarian Encampment discovered</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BARB_CAMP_CONVERTS">
+			<Text>Barbarian Encampment joins you</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_BARB_NAVAL_UNIT_CONVERTS">
+			<Text>Barbarian Naval Unit joins you</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_FOUND_GOODY_HUT">
+			<Text>Ruins discovered</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_FOUND_NATURAL_WONDER">
+			<Text>Natural Wonder discovered</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_FOUND_RESOURCE">
+			<Text>{1_ResourceName:textkey} discovered</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MET_MINOR_CIV">
+			<Text>You have met {1_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_FRIENDS_STATUS">
+			<Text>Now Friends with {1_CivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_FRIENDS_STATUS_LOST">
+			<Text>No longer Friends with {1_CivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_ALLIES_STATUS">
+			<Text>Now Ally of {1_CivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_ALLIES_STATUS_LOST">
+			<Text>No longer Ally of {1_CivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_ALLIES_STATUS_PASSED">
+			<Text>{1_CivName:textkey} now Ally of {2_MinorCivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_GAINED_BEST_RELATIONS_BONUS">
+			<Text>Favored status with {1_CivName:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_INTRUSION">
+			<Text>Trespassing in {1_CivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_LIBERATION">
+			<Text>{1_CivName:textkey} liberated!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_LOST_BEST_RELATIONS_BONUS">
+			<Text>Favored Status with {1_CivName:textkey} lost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_CITY_STATE_ALMOST_NOT_FRIENDS">
+			<Text>Your [ICON_INFLUENCE] Influence with {1_CivName:textkey} has nearly decayed to the point where you are no longer Friends!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_CITY_STATE_ALMOST_NOT_ALLIES">
+			<Text>Your [ICON_INFLUENCE] Influence with {1_CivName:textkey} has nearly decayed to the point where you are no longer their Ally!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_CITY_STATE_ALMOST_SM">
+			<Text>Losing Grasp on {1_CivName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_NEW_RESEARCH">
+			<Text>Choose Research</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_PLAYER_LOST_CAPITAL">
+			<Text>{1_CivName:textkey} lost its [ICON_CAPITAL] Capital</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_PLAYER_RECOVERED_CAPITAL">
+			<Text>{1_CivName:textkey} recovered their [ICON_CAPITAL] Capital</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SOMEONE_LOST_CAPITAL">
+			<Text>Unmet player lost its [ICON_CAPITAL] Capital</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SOMEONE_RECOVERED_CAPITAL">
+			<Text>Unmet player recovered its [ICON_CAPITAL] Capital</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_UNIT_CAN_GET_PROMOTION">
+			<Text>Unit Promotion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_CATEGORY_FIRST_PLACE">
+			<Text>{1_CivName:textkey} 1st Place in Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_CATEGORY_FIRST_PLACE_YOU">
+			<Text>1st Place in Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_CATEGORY_FOURTH_PLACE">
+			<Text>{1_CivName:textkey} 4th Place in Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_CATEGORY_FOURTH_PLACE_YOU">
+			<Text>4th Place in Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_CATEGORY_SECOND_PLACE">
+			<Text>{1_CivName:textkey} 2nd Place in Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_CATEGORY_SECOND_PLACE_YOU">
+			<Text>2nd Place in Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_CATEGORY_THIRD_PLACE">
+			<Text>{1_CivName:textkey} 3rd Place in Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_CATEGORY_THIRD_PLACE_YOU">
+			<Text>3rd Place in Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_RACE_WON_SOMEBODY">
+			<Text>{1_CivName:textkey} #{2_Rank} in {3_Victory:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_RACE_WON_UNMET">
+			<Text>Unmet Player #{1_Rank} in {2_Victory:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_RACE_WON_YOU">
+			<Text>#{1_Rank} in {2_Victory:textkey}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_VICTORY_WINNER">
+			<Text>{1_CivName:textkey} has Won!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_YOU_LOST_CAPITAL">
+			<Text>[ICON_CAPITAL] Capital City lost!</Text>
+		</Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_LOST_CAPITAL_YOU_WINNING">
+      <Text>You lost your original [ICON_CAPITAL] Capital City! You control the most original [ICON_CAPITAL] Capitals. ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_LOST_CAPITAL_OTHER_PLAYER_WINNING">
+      <Text>You lost your original [ICON_CAPITAL] Capital City! {1_PlayerName} controls the most original [ICON_CAPITAL] Capitals. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_LOST_CAPITAL_TEAM_WINNING">
+      <Text>You lost your original [ICON_CAPITAL] Capital City! Team {1_Num} controls the most original [ICON_CAPITAL] Capitals. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_LOST_CAPITAL_UNMET_WINNING">
+      <Text>You lost your original [ICON_CAPITAL] Capital City! An unmet player controls the most original [ICON_CAPITAL] Capitals ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_LOST_CAPITAL_YOU_WINNING">
+      <Text>{1_PlayerName} lost their original [ICON_CAPITAL] Capital. You control the most original [ICON_CAPITAL] Capitals. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_LOST_CAPITAL_OTHER_WINNING">
+      <Text>{1_PlayerName} lost their original [ICON_CAPITAL] Capital. {2_PlayerName} controls the most original [ICON_CAPITAL] Capitals. ({3_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_LOST_CAPITAL_TEAM_WINNING">
+      <Text>{1_PlayerName} lost their original [ICON_CAPITAL] Capital. Team {2_TeamNum} controls the most original [ICON_CAPITAL] Capitals. ({3_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_LOST_CAPITAL_UNMET_WINNING">
+      <Text>{1_PlayerName} lost their original [ICON_CAPITAL] Capital. An unmet player controls the most original [ICON_CAPITAL] Capitals. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_LOST_CAPITAL">
+      <Text>{1_PlayerName} lost their original [ICON_CAPITAL] Capital.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_LOST_CAPITAL_YOU_WINNING">
+      <Text>An unmet player lost their original [ICON_CAPITAL] Capital. You control the most original [ICON_CAPITAL] Capitals. ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_LOST_CAPITAL_OTHER_WINNING">
+      <Text>An unmet player lost their original [ICON_CAPITAL] Capital. {1_PlayerName} controls the most original [ICON_CAPITAL] Capitals. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_LOST_CAPITAL_TEAM_WINNING">
+      <Text>An unmet player lost their original [ICON_CAPITAL] Capital. Team {1_TeamNum} controls the most original [ICON_CAPITAL] Capitals. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_LOST_CAPITAL_UNMET_WINNING">
+      <Text>An unmet player lost their original [ICON_CAPITAL] Capital. An unmet player controls the most original [ICON_CAPITAL] Capitals. ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_LOST_CAPITAL">
+      <Text>An unmet player lost their original [ICON_CAPITAL] Capital.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_REGAINED_CAPITAL_YOU_WINNING">
+      <Text>You regained your original [ICON_CAPITAL] Capital City! You control the most original [ICON_CAPITAL] Capitals. ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_REGAINED_CAPITAL_OTHER_PLAYER_WINNING">
+      <Text>You regained your [ICON_CAPITAL] Capital City! {1_PlayerName} controls the most original [ICON_CAPITAL] Capitals. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_REGAINED_CAPITAL_TEAM_WINNING">
+      <Text>You regained your [ICON_CAPITAL] Capital City! Team {1_Num} controls the most original [ICON_CAPITAL] Capitals. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_YOU_REGAINED_CAPITAL_UNMET_WINNING">
+      <Text>You regained your [ICON_CAPITAL] Capital City! An unmet player controls the most original [ICON_CAPITAL] Capitals ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_REGAINED_CAPITAL_YOU_WINNING">
+      <Text>{1_PlayerName} regained their original [ICON_CAPITAL] Capital. You control the most original [ICON_CAPITAL] Capitals. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_REGAINED_CAPITAL_OTHER_WINNING">
+      <Text>{1_PlayerName} regained their original [ICON_CAPITAL] Capital. {2_PlayerName} controls the most original [ICON_CAPITAL] Capitals. ({3_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_REGAINED_CAPITAL_TEAM_WINNING">
+      <Text>{1_PlayerName} regained their original [ICON_CAPITAL] Capital. Team {2_TeamNum} controls the most original [ICON_CAPITAL] Capitals. ({3_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_REGAINED_CAPITAL_UNMET_WINNING">
+      <Text>{1_PlayerName} regained their original [ICON_CAPITAL] Capital. An unmet player controls the most original [ICON_CAPITAL] Capitals. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_REGAINED_CAPITAL">
+      <Text>{1_PlayerName} regained their original [ICON_CAPITAL] Capital.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_REGAINED_CAPITAL_YOU_WINNING">
+      <Text>An unmet player regained their original [ICON_CAPITAL] Capital. You control the most original [ICON_CAPITAL] Capitals. ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_REGAINED_CAPITAL_OTHER_WINNING">
+      <Text>An unmet player regained their original [ICON_CAPITAL] Capital. {1_PlayerName} controls the most original [ICON_CAPITAL] Capitals. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_REGAINED_CAPITAL_TEAM_WINNING">
+      <Text>An unmet player regained their original [ICON_CAPITAL] Capital. Team {1_TeamNum} controls the most original [ICON_CAPITAL] Capitals. ({2_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_REGAINED_CAPITAL_UNMET_WINNING">
+      <Text>An unmet player regained their original [ICON_CAPITAL] Capital. An unmet player controls the most original [ICON_CAPITAL] Capitals. ({1_Num})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_UNMET_REGAINED_CAPITAL">
+      <Text>An unmet player regained their original [ICON_CAPITAL] Capital.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_YOU_RECOVERED_CAPITAL">
+			<Text>[ICON_CAPITAL] Capital City recovered!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_RESEARCH_AGREEMENT">
+			<Text>New Research Agreement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GREAT_PERSON">
+			<Text>Great Person born</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_WONDER_STARTED">
+			<Text>{1_CivName} started building {2_BldgName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_WONDER_STARTED_UNKNOWN">
+			<Text>Unmet player started building {1_BldgName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GOLDEN_AGE_BEGUN">
+			<Text>{1_CivName:textkey} Golden Age began.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GOLDEN_AGE_BEGUN_ACTIVE_PLAYER">
+			<Text>A Golden Age dawns!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GOLDEN_AGE_ENDED">
+			<Text>{1_CivName:textkey} Golden Age ended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GOLDEN_AGE_ENDED_ACTIVE_PLAYER">
+			<Text>Your Golden Age ends.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CITY_LOST">
+			<Text>{1_CityName:textkey} captured!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_MINOR_FRIENDSHIP_DECAY">
+			<Text>{1_PlayerName:textkey} has adopted a Social Policy which causes your [ICON_INFLUENCE] Influence with City-States to drop more rapidly!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_FRIENDSHIP_DECAY">
+			<Text>City-State [ICON_INFLUENCE] Influence Change!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GREAT_ARTIST_STOLE_PLOT">
+			<Text>{1_CivName:textkey} stole some of your land!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_GREAT_ARTIST_STOLE_PLOT">
+			<Text>{1_CivName:textkey} used a Great Artist to steal some of your land!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ROUTE_TO_CANCELLED">
+			<Text>Route to cancelled!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_ROUTE_TO_CANCELLED">
+			<Text>Your worker that was ordered to build a route to a destination is blocked and cancelled his order.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_TRADE_ROUTE_ESTABLISHED">
+			<Text>[ICON_CONNECTED] Trade route established!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_ROUTE_ESTABLISHED">
+			<Text>A [ICON_CONNECTED] trade route between {1_CityName:textkey} and your capital, {2_CityName:textkey}, has been established!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_TRADE_ROUTE_BROKEN">
+			<Text>[ICON_CONNECTED] Trade route broken!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_ROUTE_BROKEN">
+			<Text>A [ICON_CONNECTED] trade route between {1_CityName:textkey} and your capital, {2_CityName:textkey}, has been broken.</Text>
+		</Row>
+		<!-- Policies Stuff -->
+		<Row Tag="TXT_KEY_POLICIES_CULTURAL_VICTORY">
+			<Text>Upon completing 5 Policy branches, you may construct the [COLOR_POSITIVE_TEXT]Utopia Project[ENDCOLOR] in one of your Cities, triggering a [COLOR_POSITIVE_TEXT]Cultural Victory[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_LIBERTY">
+			<Text>Liberty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_TRADITION">
+			<Text>Tradition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_HONOR">
+			<Text>Honor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_PIETY">
+			<Text>Piety</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE">
+			<Text>Patronage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_COMMERCE">
+			<Text>Commerce</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM">
+			<Text>Rationalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_FREEDOM">
+			<Text>Freedom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_ORDER">
+			<Text>Order</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY">
+			<Text>Autocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_CAP">
+			<Text>LIBERTY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_TRADITION_CAP">
+			<Text>TRADITION</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_HONOR_CAP">
+			<Text>HONOR</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_PIETY_CAP">
+			<Text>PIETY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE_CAP">
+			<Text>PATRONAGE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_CAP">
+			<Text>COMMERCE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_CAP">
+			<Text>RATIONALISM</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_CAP">
+			<Text>FREEDOM</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_ORDER_CAP">
+			<Text>ORDER</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_CAP">
+			<Text>AUTOCRACY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Liberty[ENDCOLOR] is best for civilizations which desire rapid expansion.[NEWLINE][NEWLINE]Adopting Liberty will provide 1 [ICON_CULTURE] Culture in every city.[NEWLINE][NEWLINE]Adopting all policies in the Liberty tree will grant a free Great Person of your choice near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_TRADITION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Tradition[ENDCOLOR] is best for small empires.[NEWLINE][NEWLINE]Adopting Tradition greatly increases the rate of border expansion in cities and also grants 3 [ICON_CULTURE] Culture in the [ICON_CAPITAL] Capital.[NEWLINE][NEWLINE]Adopting all Policies in the Tradition tree will grant +15% [ICON_FOOD] Growth and +2 [ICON_FOOD] in each city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Honor[ENDCOLOR] improves the effectiveness of one's army in a variety of ways.[NEWLINE][NEWLINE]Adopting Honor gives a +25% combat bonus VS Barbarians, and notifications will be provided when new Barbarian Encampments spawn in revealed territory. Gain [ICON_CULTURE] Culture for the empire from each barbarian killed.[NEWLINE][NEWLINE]Adopting all policies in the Honor tree will grant [ICON_GOLD] Gold for each enemy unit killed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Piety[ENDCOLOR] increases the [ICON_CULTURE] Culture of empires.[NEWLINE][NEWLINE]Adopting Piety reduces the time to build [ICON_CULTURE] Culture buildings by 15%.[NEWLINE][NEWLINE]Adopting all policies in the Piety tree will reduce the [ICON_CULTURE] Culture cost of future Policies by 10%.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Rationalism.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Patronage[ENDCOLOR] enhances the benefits of City-State friendship.[NEWLINE][NEWLINE][ICON_INFLUENCE] Influence with City-States degrades 25% slower than normal.[NEWLINE][NEWLINE]Adopting all policies in the Patronage tree will make other players' [ICON_INFLUENCE] Influence with City-States decrease 33% more per turn than usual.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Commerce[ENDCOLOR] provides bonuses to naval empires, and those focused on [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Adopting Commerce will boost [ICON_GOLD] Gold output in [ICON_CAPITAL] Capital City by 25%.[NEWLINE][NEWLINE]Adopting all Policies in the Commerce tree will grant +1 [ICON_GOLD] Gold from every Specialist.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Rationalism[ENDCOLOR] improves the ability to use and generate [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Adopting Rationalism boosts [ICON_RESEARCH] Science gained from research agreements by 50%.[NEWLINE][NEWLINE]Adopting all Policies in the Rationalism tree will grant +1 [ICON_GOLD] Gold from [ICON_RESEARCH] Science buildings.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Piety.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Freedom[ENDCOLOR] is best for small, focused empires. In particular, it provides bonuses for [ICON_GREAT_PEOPLE] Great People and Specialists.[NEWLINE][NEWLINE]Upon adopting Freedom, the rate at which [ICON_GREAT_PEOPLE] Great People are born is increased by 25%.[NEWLINE][NEWLINE]Adopting all Policies in the Freedom tree will increase the base yield from Great Tile Improvements by 100% and length of [ICON_GOLDEN_AGE] Golden Ages increased by 50%.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Autocracy or Order.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_ORDER_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Order[ENDCOLOR] is best for large, sprawling empires, increasing the strength of the empire based on the number of Cities it contains.[NEWLINE][NEWLINE]Adopting Order will increase [ICON_HAPPINESS_1] Happiness by +1 per City.[NEWLINE][NEWLINE]Adopting all Policies in the Order tree will grant +1 [ICON_FOOD] Food, [ICON_PRODUCTION] Production, [ICON_RESEARCH] Science, [ICON_GOLD] Gold, and [ICON_CULTURE] Culture per city.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Freedom or Autocracy.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Autocracy[ENDCOLOR] is for militaristic civilizations, dreaming of world conquest.[NEWLINE][NEWLINE]Adopting Autocracy reduces Unit [ICON_GOLD] Gold Maintenance costs by 33%, allowing an empire to field a larger military.[NEWLINE][NEWLINE]Adopting all Policies in the Autocracy tree will grant a 20% attack bonus to all Military Units for 30 turns.[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]This branch cannot be active at the same time as Freedom or Order.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_COLLECTIVE_RULE">
+			<Text>Collective Rule</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_CITIZENSHIP">
+			<Text>Citizenship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_REPUBLIC">
+			<Text>Republic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_REPRESENTATION">
+			<Text>Representation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MERITOCRACY">
+			<Text>Meritocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARISTOCRACY">
+			<Text>Aristocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_OLIGARCHY">
+			<Text>Oligarchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_LEGALISM">
+			<Text>Legalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_LANDED_ELITE">
+			<Text>Landed Elite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MONARCHY">
+			<Text>Monarchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_WARRIOR_CODE">
+			<Text>Warrior Code</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_DISCIPLINE">
+			<Text>Discipline</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MILITARY_TRADITION">
+			<Text>Military Tradition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MILITARY_CASTE">
+			<Text>Military Caste</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY">
+			<Text>Professional Army</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ORGANIZED_RELIGION">
+			<Text>Organized Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN">
+			<Text>Mandate of Heaven</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_THEOCRACY">
+			<Text>Theocracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_REFORMATION">
+			<Text>Reformation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_FREE_RELIGION">
+			<Text>Free Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_PHILANTHROPY">
+			<Text>Philanthropy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_AESTHETICS">
+			<Text>Aesthetics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SCHOLASTICISM">
+			<Text>Scholasticism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_CULTURAL_DIPLOMACY">
+			<Text>Cultural Diplomacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_EDUCATED_ELITE">
+			<Text>Educated Elite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_TRADE_UNIONS">
+			<Text>Trade Unions</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MERCHANT_NAVY">
+			<Text>Merchant Navy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MERCANTILISM">
+			<Text>Mercantilism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_NAVAL_TRADITION">
+			<Text>Naval Tradition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_PROTECTIONISM">
+			<Text>Protectionism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SECULARISM">
+			<Text>Secularism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SOVEREIGNTY">
+			<Text>Sovereignty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_FREE_THOUGHT">
+			<Text>Free Thought</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_HUMANISM">
+			<Text>Humanism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION">
+			<Text>Scientific Revolution</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_CONSTITUTION">
+			<Text>Constitution</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_SUFFRAGE">
+			<Text>Universal Suffrage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_CIVIL_SOCIETY">
+			<Text>Civil Society</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_FREE_SPEECH">
+			<Text>Free Speech</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_DEMOCRACY">
+			<Text>Democracy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNITED_FRONT">
+			<Text>United Front</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SOCIALISM">
+			<Text>Socialism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_NATIONALISM">
+			<Text>Nationalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_PLANNED_ECONOMY">
+			<Text>Planned Economy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_COMMUNISM">
+			<Text>Communism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_POPULISM">
+			<Text>Populism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MILITARISM">
+			<Text>Militarism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_FASCISM">
+			<Text>Fascism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_POLICE_STATE">
+			<Text>Police State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_TOTAL_WAR">
+			<Text>Total War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Collective Rule[ENDCOLOR][NEWLINE]Speeds the training of [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR] by 50% in the [ICON_CAPITAL] Capital and a free Settler appears near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_CITIZENSHIP_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Citizenship[ENDCOLOR][NEWLINE]Tile improvement construction rate increased by 25% and a Worker appears near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_REPUBLIC_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Republic[ENDCOLOR][NEWLINE]+1 [ICON_PRODUCTION] Production in every City and +5% [ICON_PRODUCTION] Production in cities when constructing Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_REPRESENTATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Representation[ENDCOLOR][NEWLINE]Each city you found will increase the [ICON_CULTURE] Culture cost of policies by 33% less than normal.  Also starts a [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MERITOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Meritocracy[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness for each City you own [ICON_CONNECTED] connected to the [ICON_CAPITAL] Capital and -5% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in non-occupied Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ARISTOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Aristocracy[ENDCOLOR][NEWLINE]+15% [ICON_PRODUCTION] Production when building Wonders and +1 [ICON_HAPPINESS_1] Happiness for every 10 [ICON_CITIZEN] Citizens in a City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_OLIGARCHY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Oligarchy[ENDCOLOR][NEWLINE]Garrisoned units cost no maintenance and cities with a garrison gain +100% [ICON_RANGE_STRENGTH] Ranged Combat Strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_LEGALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Legalism[ENDCOLOR][NEWLINE]Provides a free culture building in your first 4 cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_LANDED_ELITE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Landed Elite[ENDCOLOR][NEWLINE]+10% [ICON_FOOD] Growth and +2 [ICON_FOOD] Food in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MONARCHY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Monarchy[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] Gold and -1 [ICON_HAPPINESS_4] Unhappiness for every 2 [ICON_CITIZEN] Citizens in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_WARRIOR_CODE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Warrior Code[ENDCOLOR][NEWLINE]+15% [ICON_PRODUCTION] Production when training Melee units and a Great General appears outside the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_DISCIPLINE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Discipline[ENDCOLOR][NEWLINE]+10% [ICON_STRENGTH] combat strength for military Units which have another military Unit in an adjacent tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MILITARY_TRADITION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Military Tradition[ENDCOLOR][NEWLINE]Military Units gain 50% more Experience from combat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MILITARY_CASTE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Military Caste[ENDCOLOR][NEWLINE]Each City with a garrison increases empire [ICON_HAPPINESS_1] Happiness by 1 and [ICON_CULTURE] Culture by 2.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Professional Army[ENDCOLOR][NEWLINE][ICON_GOLD] Gold cost of upgrading Military Units reduced by 33% and +1 [ICON_HAPPINESS_1] Happiness from every defensive building (Walls, Castle, Arsenal, Military Base).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_ORGANIZED_RELIGION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Organized Religion[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from every Monument, Temple and Monastery.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Mandate of Heaven[ENDCOLOR][NEWLINE]50% of excess [ICON_HAPPINESS_1] Happiness added each turn to the amount of [ICON_CULTURE] Culture that may be spent on Social Policies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_THEOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Theocracy[ENDCOLOR][NEWLINE]Temples increase a city's [ICON_GOLD] Gold output by 10%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_REFORMATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Reformation[ENDCOLOR][NEWLINE][ICON_CULTURE] Culture increased by 33% in all cities which have built a World Wonder and the empire immediately enters a [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_FREE_RELIGION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Free Religion[ENDCOLOR][NEWLINE]+1 [ICON_CULTURE] Culture for each Monument, Temple and Monastery.  Also gives 1 free Policy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_PHILANTHROPY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Philanthropy[ENDCOLOR][NEWLINE][ICON_GOLD] Gold gifts to City-States produce 25% more [ICON_INFLUENCE] Influence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_AESTHETICS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Aesthetics[ENDCOLOR][NEWLINE]Minimum [ICON_INFLUENCE] Influence level with all City-States is 20.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SCHOLASTICISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Scholasticism[ENDCOLOR][NEWLINE]All City-States which are [COLOR_POSITIVE_TEXT]Allies[ENDCOLOR] provide a [ICON_RESEARCH] Science bonus equal to 25% of what they produce for themselves.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_CULTURAL_DIPLOMACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Cultural Diplomacy[ENDCOLOR][NEWLINE]Quantity of Resources gifted by City-States increased by 100%. [ICON_HAPPINESS_1] Happiness from gifted Luxuries increased by 50%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_EDUCATED_ELITE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Educated Elite[ENDCOLOR][NEWLINE]Allied City-States will occasionally gift you [ICON_GREAT_PEOPLE] Great People.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Trade Unions[ENDCOLOR][NEWLINE][ICON_GOLD] Maintenance paid on Roads and Railroads reduced by 33%. Harbors and Seaports gain +1 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MERCHANT_NAVY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Merchant Navy[ENDCOLOR][NEWLINE]+3 [ICON_PRODUCTION] Production in all coastal Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MERCANTILISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Mercantilism[ENDCOLOR][NEWLINE]Purchasing items in Cities requires 25% less [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_NAVAL_TRADITION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Naval Tradition[ENDCOLOR][NEWLINE]+1 [ICON_MOVES] Movement for Naval units and +1 Sight for Naval combat units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_PROTECTIONISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Protectionism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from each Luxury resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SECULARISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Secularism[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Specialist.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SOVEREIGNTY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Sovereignty[ENDCOLOR][NEWLINE]+15% [ICON_RESEARCH] Science while the empire is [ICON_HAPPINESS_1] Happy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_FREE_THOUGHT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Free Thought[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from every Trading Post and +17% [ICON_RESEARCH] Science from Universities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_HUMANISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Humanism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from every University, Observatory and Public School.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Scientific Revolution[ENDCOLOR][NEWLINE]2 free Technologies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_CONSTITUTION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Constitution[ENDCOLOR][NEWLINE]+2 [ICON_CULTURE] Culture from each World Wonder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_SUFFRAGE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Universal Suffrage[ENDCOLOR][NEWLINE][ICON_STRENGTH] Combat Strength of Cities increased by 33%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_CIVIL_SOCIETY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Civil Society[ENDCOLOR][NEWLINE]Specialists consume only half the normal amount of [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_FREE_SPEECH_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Free Speech[ENDCOLOR][NEWLINE]8 units are maintenance free.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_DEMOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Democracy[ENDCOLOR][NEWLINE]Specialist Population in Cities produce half the normal amount of [ICON_HAPPINESS_4] Unhappiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_UNITED_FRONT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]United Front[ENDCOLOR][NEWLINE]Militaristic city states grant units twice as often when you are at war with a common foe.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_SOCIALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Socialism[ENDCOLOR][NEWLINE][ICON_GOLD] Gold maintenance costs of Buildings reduced by 15%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_NATIONALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Nationalism[ENDCOLOR][NEWLINE]15% attack bonus when fighting in friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_PLANNED_ECONOMY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Planned Economy[ENDCOLOR][NEWLINE]Factories increase a city's [ICON_RESEARCH] Science output by 25%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_COMMUNISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Communism[ENDCOLOR][NEWLINE]+2 [ICON_PRODUCTION] Production per City and +10% [ICON_PRODUCTION] Production when constructing Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_POPULISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Populism[ENDCOLOR][NEWLINE]Wounded Military Units inflict 25% more damage than normal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_MILITARISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Militarism[ENDCOLOR][NEWLINE][ICON_GOLD] Gold cost of purchasing units reduced by 33%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_FASCISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Fascism[ENDCOLOR][NEWLINE]Quantity of Strategic Resources produced by the empire increased by 100%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_POLICE_STATE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Police State[ENDCOLOR][NEWLINE]+3 [ICON_HAPPINESS_1] Happiness from every Courthouse. Build Courthouses in half the usual time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_TOTAL_WAR_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Total War[ENDCOLOR][NEWLINE]+15% [ICON_PRODUCTION] Production when building Military Units and new Military Units start with +15 Experience.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOCIAL_POLICIES_SCREEN_TITLE">
+			<Text>SOCIAL POLICIES</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_CANNOT_UNLOCK">
+			<Text>[COLOR_WARNING_TEXT]This Policy may not be adopted yet because prerequisite Policies have not been acquired.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK">
+			<Text>[COLOR_WARNING_TEXT]This Branch may not be unlocked right now.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_CULTURE">
+			<Text>[COLOR_WARNING_TEXT]You need {1_Num}[ICON_CULTURE] Culture to spend.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_ERA">
+			<Text>[COLOR_WARNING_TEXT]You need to be in the {1_EraString:textkey} before it can be adopted.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_UNLOCK_SPEND">
+			<Text>[COLOR_POSITIVE_TEXT]This Branch can be unlocked! Click here to spend {1_Num}[ICON_CULTURE] Culture and open this Social Policy Branch.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_BRANCH_BLOCKED">
+			<Text>[COLOR_WARNING_TEXT]Inactive because there are other branches you have chosen which block its effects.[ENDCOLOR][NEWLINE]Click here to switch.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CURRENT_CULTURE_LABEL">
+			<Text>Current Culture: {1_Num} [ICON_CULTURE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_PER_TURN_LABEL">
+			<Text>Culture Per Turn: {1_Num} [ICON_CULTURE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEXT_POLICY_TURN_LABEL">
+			<Text>Next Policy: {1_Num: number #} Turn(s)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NEXT_POLICY_COST_LABEL">
+			<Text>Next Policy Cost: {1_Num} [ICON_CULTURE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FREE_POLICIES_LABEL">
+			<Text># of Free Policies: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SOCIAL_POLICY_DIRECTIONS">
+			<Text>Social Policies allow you to customize your empire in various ways. Will you be a guardian of liberty, or perhaps instead a tyrant feared worldwide?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANARCHY">
+			<Text>ANARCHY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANARCHY_FOLLOW">
+			<Text>You must wait for the citizens to calm down before changing your policies any further.</Text>
+		</Row>
+		<!-- Recommendations -->
+		<Row Tag="TXT_KEY_FOUND_NATURAL_WONDER">
+			<Text>You've found {@1_Name}![NEWLINE][NEWLINE][ICON_HAPPINESS_1] [COLOR_POSITIVE_TEXT]Happiness[ENDCOLOR] has increased!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RECOMMEND_SETTLER_BASE">
+			<Text>I recommend you build a City here!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RECOMMEND_SETTLER_FOOD">
+			<Text>This location has a good deal of [ICON_FOOD] Food nearby. A city built here will grow quickly, increasing the number of [ICON_CITIZEN] Citizens present!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RECOMMEND_SETTLER_PRODUCTION">
+			<Text>This location will provide a city with strong [ICON_PRODUCTION] Production, allowing it to build new items quickly!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RECOMMEND_SETTLER_GOLD">
+			<Text>This location will produce a city with a high output of [ICON_GOLD] Gold, increasing our national treasury!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RECOMMEND_SETTLER_LUXURIES">
+			<Text>This location provides good access to Luxury Resources, which, when improved, will improve the [ICON_HAPPINESS_1] Happiness of our empire!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RECOMMEND_SETTLER_STRATEGIC">
+			<Text>This location provides good access to Strategic Resources, which, when improved, will allow us to train more powerful military units!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RECOMMEND_WORKER">
+			<Text>I recommend you [COLOR_POSITIVE_TEXT]{@1_WorkerActionString}[ENDCOLOR] here!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RECOMMEND_WORKER_LUXURY">
+			<Text>It will connect the [COLOR_POSITIVE_TEXT]Luxury Resource[ENDCOLOR] in this tile to our trade network, improving our empire's [ICON_HAPPINESS_1] Happiness!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RECOMMEND_WORKER_STRATEGIC">
+			<Text>It will connect the [COLOR_POSITIVE_TEXT]Strategic Resource[ENDCOLOR] in this tile to our trade network, allowing you to build advanced units!</Text>
+		</Row>
+		<!-- Dan Quayle Screen -->
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_1">
+			<Text>Augustus Caesar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_1_QUOTE">
+			<Text>I found Rome a city of bricks and left it a city of marble.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_2">
+			<Text>Hammurabi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_2_QUOTE">
+			<Text>When Marduk sent me to rule over men, to give the protection of right to the land, I did right and righteousness, and brought about the well-being of the oppressed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_3">
+			<Text>Abraham Lincoln</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_3_QUOTE">
+			<Text>Always bear in mind that your own resolution to succeed is more important than any other.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_4">
+			<Text>Charlemagne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_4_QUOTE">
+			<Text>Let my armies be the rocks and the trees, and the birds in the sky.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_5">
+			<Text>Winston Churchill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_5_QUOTE">
+			<Text>A pessimist sees the difficulty in every opportunity; an optimist sees the opportunity in every difficulty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_6">
+			<Text>Nelson Mandela</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_6_QUOTE">
+			<Text>It always seems impossible until it's done.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_7">
+			<Text>Marcus Aurelius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_7_QUOTE">
+			<Text>Because a thing seems difficult for you, do not think it impossible for anyone to accomplish.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_8">
+			<Text>Joan of Arc</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_8_QUOTE">
+			<Text>I am not afraid... I was born to do this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_9">
+			<Text>Charles de Gaulle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_9_QUOTE">
+			<Text>Faced with crisis, the man of character falls back on himself. He imposes his own stamp of action, takes responsibility for it, makes it his own.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_10">
+			<Text>Simon Bolivar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_10_QUOTE">
+			<Text>Judgement comes from experience, and experience comes from bad judgement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_11">
+			<Text>Lech Walesa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_11_QUOTE">
+			<Text>He who puts out his hand to stop the wheel of history will have his fingers crushed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_12">
+			<Text>Ivan the Terrible</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_12_QUOTE">
+			<Text>Withal, I concern myself greatly regarding the affairs of state, constant wars against hostile nations, and the welfare of my poor people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_13">
+			<Text>Henry VIII</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_13_QUOTE">
+			<Text>My Lord, if it were not to satisfy the world, and my Realm, I would not do that I must do this day for none earthly thing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_14">
+			<Text>Herbert Hoover</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_14_QUOTE">
+			<Text>Blessed are the young for they shall inherit the national debt.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_15">
+			<Text>Louis XVI</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_15_QUOTE">
+			<Text>Listeners never hear any good of themselves.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_16">
+			<Text>Neville Chamberlain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_16_QUOTE">
+			<Text>In war, whichever side may call itself the victor, there are no winners, but all are losers.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_17">
+			<Text>Andrew Jackson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_17_QUOTE">
+			<Text>There is no pleasure in having nothing to do; the fun is having lots to do and not doing it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_18">
+			<Text>Nero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_18_QUOTE">
+			<Text>So great an artist, I die!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_19">
+			<Text>Warren G. Harding</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_19_QUOTE">
+			<Text>Somewhere there must be a book that tells all about it, where I could go to straighten it out in my mind. But I don't know where the book is, and maybe I couldn't read it if I found it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_20">
+			<Text>Ethelred the Unready</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_20_QUOTE">
+			<Text>Yeah, just five minutes, all right?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_21">
+			<Text>Dan Quayle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DQ_LEADER_NAME_21_QUOTE">
+			<Text>If we don't succeed, we run the risk of failure.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_TITLE">
+			<Text>{1_Name:textkey} has completed his greatest work, the list of:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_1">
+			<Text>Pliny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_2">
+			<Text>Ibn Battuta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_3">
+			<Text>Goethe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_4">
+			<Text>Alberti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_5">
+			<Text>Ptolemy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_6">
+			<Text>Boethius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DUDE_7">
+			<Text>Pythagoras</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_FOOD">
+			<Text>The World's Most Well Fed People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_FOOD_TT">
+			<Text>Ranks players by the average [ICON_FOOD] Food surplus in all of their cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_PRODUCTION">
+			<Text>The World's Busiest People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_PRODUCTION_TT">
+			<Text>Ranks players by the amount of [ICON_PRODUCTION] Production generated by all of their cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_GOLD">
+			<Text>The People Who Like Shiny Things the Most</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_NUMBERING">
+			<Text>{1_number}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_GOLD_TT">
+			<Text>Ranks players by the amount of [ICON_GOLD] Gold in their treasury.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_SCIENCE">
+			<Text>The Mostest Literate People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_SCIENCE_TT">
+			<Text>Ranks players by the number of Technologies they possess.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_CULTURE">
+			<Text>The World's Most Progressive People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_CULTURE_TT">
+			<Text>Ranks players by the number of Social Policies they've adopted.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_HAPPINESS">
+			<Text>The People that Like to Smile the Most</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_HAPPINESS_TT">
+			<Text>Ranks players by how [ICON_HAPPINESS_1] Happy their people are.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_WONDERS">
+			<Text>The World's Most Wonderful People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_WONDERS_TT">
+			<Text>Ranks players by the number of Wonders they've constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_POWER">
+			<Text>The People with the Pointiest Sticks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_POWER_TT">
+			<Text>Ranks players by their military power.</Text>
+		</Row>
+		<!-- Leaderhead Diplomacy-->
+		<Row Tag="TXT_KEY_DIPLO_CURRENT_GOLD">
+			<Text>Player has {1_Num} [ICON_GOLD] Gold not included in this deal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_CURRENT_GPT">
+			<Text>Player has {1_Num} [ICON_GOLD] Gold Per Turn not included in this deal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TURNS">
+			<Text>{1_num} Turns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_CANCEL">
+			<Text>BACK</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MODIFY">
+			<Text>MODIFY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_ACCEPT">
+			<Text>ACCEPT</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_REFUSE">
+			<Text>REFUSE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WITHDRAW">
+			<Text>WITHDRAW</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MODIFY_DEAL">
+			<Text>Modify Deal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_IRON_LABEL_PH">
+			<Text>[ICON_RES_IRON] IRON</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MAKE_PEACE">
+			<Text>MAKE PEACE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DECLARE_WAR">
+			<Text>DECLARE WAR</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_EMBARGO">
+			<Text>EMBARGO</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_GOLD">
+			<Text>[ICON_GOLD] GOLD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_LEADER_SAYS">
+			<Text>{1_LeaderName} says:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_HERE_OFFER">
+			<Text>Let's hear your offer...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_GOLD_PER_TURN">
+			<Text>[ICON_GOLD] GOLD PER TURN</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS">
+			<Text>OPEN BORDERS</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_TT">
+			<Text>Allows the other player's military or civilian Units to pass through one's territory (lasts {1_Num} turns)[NEWLINE][NEWLINE]Note: Units belonging to different players may never stack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NEED_WRITING_TT">
+			<Text>[NEWLINE][NEWLINE]Neither player yet has the Technology to trade this item (Writing).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_HAVE">
+			<Text>[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]We are already allowing Open Borders![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_THEY_HAVE">
+			<Text>[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]They are already allowing Open Borders![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEF_PACT_TT">
+			<Text>If this player is attacked, the other will immediately and automatically declare war on his enemies (lasts {1_Num} turns). NOTE: If either player declares war the agreement is cancelled.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEF_PACT">
+			<Text>DEFENSIVE PACT</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEF_PACT_NO_TECH">
+			<Text>[NEWLINE][NEWLINE]Neither player yet has the Technology to trade this item (Chivalry).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEF_PACT_EXISTS">
+			<Text>[NEWLINE][NEWLINE]Defensive Pact is already in place!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEF_PACT_NO_AGREEMENT">
+			<Text>[NEWLINE][NEWLINE]Unable to make agreement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT">
+			<Text>RESEARCH AGREEMENT</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_TT">
+			<Text>After {2_Num} turns, both players receive a boost to their research. Requires each player to spend {1_Num} [ICON_GOLD] Gold when the agreement is made.[NEWLINE][NEWLINE](The cost goes up based on the tech progress of the most advanced player.)</Text>
+		</Row>
+    <Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_SCIENCE_OFF">
+      <Text>[NEWLINE][NEWLINE]The Science system is off in this scenario.</Text>
+    </Row>
+		<Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_NO_TECH">
+			<Text>[NEWLINE][NEWLINE]Neither player yet has the Technology to trade this item (Philosophy).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_EXISTS">
+			<Text>[NEWLINE][NEWLINE]Research Agreement is already in place!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_NO_AGREEMENT">
+			<Text>[NEWLINE][NEWLINE]Both players do not have the required funds to complete this agreement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_ALL_TECHS_RESEARCHED">
+			<Text>[NEWLINE][NEWLINE]One or more of these players have already researched all technologies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_AGREEMENT">
+			<Text>TRADE AGREEMENT</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_AGREEMENT_TT">
+			<Text>Provides a small bonus to Gold income for both civilizations (20 turns).  Costs each player 250 [ICON_GOLD].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_AGREEMENT_NO_TECH">
+			<Text>[NEWLINE][NEWLINE]Neither player yet has the Technology to trade this item (Writing).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_AGREEMENT_EXISTS">
+			<Text>[NEWLINE][NEWLINE]Trade Agreement is already in place!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_AGREEMENT_NO_AGREEMENT">
+			<Text>[NEWLINE][NEWLINE]Both players do not have the required funds to complete this agreement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_OTHER_PLAYERS">
+			<Text>OTHER PLAYERS</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_OTHER_PLAYERS_NO_PLAYERS">
+			<Text>We haven't met any third party players.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_OTHER_PLAYERS_OPEN">
+			<Text>Deal options relating to third party players.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_OTHER_PLAYERS_NO_PLAYERS_THEM">
+			<Text>The other leader hasn't met any third party players.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_LUX_RESCR_TRADE_YES">
+			<Text>We have Luxury Resources available to trade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_LUX_RESCR_TRADE_NO">
+			<Text>We have no Luxury Resources available to trade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_LUX_RESCR_TRADE_YES_THEM">
+			<Text>The other leader has Luxury Resources available to trade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_LUX_RESCR_TRADE_NO_THEM">
+			<Text>The other leader has no Luxury Resources available to trade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_STRAT_RESCR_TRADE_YES">
+			<Text>We have Strategic Resources available to trade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_STRAT_RESCR_TRADE_NO">
+			<Text>We have no Strategic Resources available to trade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_STRAT_RESCR_TRADE_YES_THEM">
+			<Text>The other leader has Strategic Resources available to trade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_STRAT_RESCR_TRADE_NO_THEM">
+			<Text>The other leader has no Strategic Resources available to trade.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MAKE_PEACE_WITH">
+			<Text>MAKE PEACE WITH</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DECLARE_WAR_ON">
+			<Text>DECLARE WAR ON</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_EMBARGO_AGAINST">
+			<Text>EMBARGO AGAINST</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_STRATEGIC_RESOURCES">
+			<Text>STRATEGIC RESOURCES</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_LUXURY_RESOURCES">
+			<Text>LUXURY RESOURCES</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PEACE_TREATY">
+			<Text>PEACE TREATY (10 turns)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_US">
+			<Text>RESEARCH AGREEMENT ({1_Num}[ICON_GOLD])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PEACE_TREATY_TURNS">
+			<Text>PEACE TREATY (10 turns)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WHAT_WANT_FOR_THIS">
+			<Text>What do you want for this?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WHAT_GIVE_FOR_THIS">
+			<Text>What will you give me for this?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MAKE_DEAL_WORK">
+			<Text>What will make this deal work?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_END_CONFLICT">
+			<Text>What deal will end this conflict?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WHAT_WANT">
+			<Text>What do you want?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PROPOSE">
+			<Text>PROPOSE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_ALREADY_AT_WAR">
+			<Text>These players are already at war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_FORCE_PEACE">
+			<Text>A peace treaty prevents these players from going to war for a period of time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NOT_AT_WAR">
+			<Text>These players are not at war.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NO_WAR_ALLIES">
+			<Text>These players are allies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MINOR_PERMANENT_WAR">
+			<Text>City-State has declared a permanent war against this player.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MINOR_ALLY_AT_WAR">
+			<Text>City-State is allied with a player at war with the leader you're speaking with.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MINOR_THIS_GUY_WANTS_WAR">
+			<Text>The leader you're speaking with has no desire to go to peace with this player.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MINOR_OTHER_GUY_WANTS_WAR">
+			<Text>This player has no desire to go to peace with the leader you're speaking with.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DONT_SETTLE">
+			<Text>Don't settle new Cities near us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_WORK_WITH_US">
+			<Text>Do you want to form a Pact of Cooperation?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_WORK_WITH_US_TT">
+			<Text>A Pact of Cooperation will improve relations with this leader.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DEC_FRIENDSHIP">
+			<Text>Shall we make a joint Declaration of Friendship?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DEC_FRIENDSHIP_TT">
+			<Text>Announces to the world that your empires are now friends. Both players must want to make the declaration.[NEWLINE][NEWLINE]Making this declaration will often deter aggressors, and promote friendly relations with this empire - but they will also expect you to come to their aid when necessary. Failure to do so may make them very upset.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_END_WORK_WITH_US">
+			<Text>I'm done working with you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_WORK_AGAINST">
+			<Text>Will you form a Pact of Secrecy against...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_WORK_AGAINST_TT">
+			<Text>A Pact of Secrecy is a covert agreement to undermine another player. It will make the other leader less friendly towards the target, and more likely to want to go to war with him or her.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_DENOUNCE">
+			<Text>Publicly denounce {1_LeaderName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_DENOUNCE_TT">
+			<Text>Announces to the world that this leader is not to be trusted, and a menace to the rest of civilization. Doing so will anger this leader, but may earn you the trust and friendship of his or her enemies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DECLARE_WAR">
+			<Text>Shall we declare war against...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_SORRY">
+			<Text>We're sorry this has caused a divide between us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_DEAL">
+			<Text>Get over it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_OKAY">
+			<Text>Very well.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_YOULL_PAY">
+			<Text>You'll pay for this in time.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_TIME_TO_DIE">
+			<Text>You're right to worry, and it's time for you to die. (DECLARE WAR)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_WE_MEAN_NO_HARM">
+			<Text>We mean no harm. Our units are merely passing through the area.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_YOU_WILL_PAY">
+			<Text>You will pay for this.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_NO_DIVIDE">
+			<Text>Very well. I won't let this create a divide between us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_NOT_YOUR_BUSINESS">
+			<Text>Our affairs are none of your business.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_WILL_WITHDRAW">
+			<Text>Our apologies. We will withdraw immediately.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_DONT_CARE">
+			<Text>I don't care what you think.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_OFFER_TO_APPEASE">
+			<Text>Perhaps we can offer you something to keep this from getting out of hand.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_MAKE_US">
+			<Text>If you want us to leave you'll have to make us.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_SETTLE_WHAT_WE_PLEASE">
+			<Text>We'll settle what lands we please.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_FOR_SETTLING">
+			<Text>Our apologies, we'll refrain from settling near you in the future.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_CLAIM_WHAT_WE_WANT">
+			<Text>We'll claim whatever lands we like.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_FOR_CLAIMING">
+			<Text>Our apologies, we'll refrain from claiming land near you in the future.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_YES_LET_US_PREPARE">
+			<Text>Yes, let us begin preparations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_OTHER_PLANS">
+			<Text>Sorry, we have other plans.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_YES_WORK_TOGETHER">
+			<Text>Yes, let us work together.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_NO_GO_IT_ALONE">
+			<Text>Sorry, we prefer to go it alone.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_DO_WHAT_WE_CAN">
+			<Text>Yes, let us do what we can.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_NO_INTEREST">
+			<Text>Sorry, we have no interest in this arrangement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_HOW_DARE_YOU">
+			<Text>How dare you?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_COOP_WAR_YES">
+			<Text>Yes, let's get this started. (Declares War)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_COOP_WAR_SOON">
+			<Text>Give us 10 turns to prepare.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_COOP_WAR_NOW">
+			<Text>Let's get this started. (Declares War)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_CHANGED_MIND">
+			<Text>Sorry, I've changed my mind.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISUCSS_ANOTHER_LEADER">
+			<Text>Let us discuss another leader...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISUCSS_STRONG_FRIENDSHIP">
+			<Text>I hope that our friendship remains strong.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISUCSS_STAY_AWAY">
+			<Text>If you're smart, you'll stay away from me.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISUCSS_OFFER_TO_STOP">
+			<Text>Perhaps we can offer you something to keep this from getting out of hand.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISUCSS_LIKE_LEADER">
+			<Text>I like this leader.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISUCSS_DISLIKE_LEADER">
+			<Text>I dislike this leader.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISUCSS_ATTACK_LEADER">
+			<Text>I'm considering attacking this leader.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISUCSS_OPINION_OF_LEADER">
+			<Text>What do you think of this leader?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NEGOTIATE_PEACE">
+			<Text>Negotiate Peace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NEGOTIATE_PEACE_TT">
+			<Text>Negotiate peace with this player.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NEGOTIATE_PEACE_BLOCKED_TT">
+			<Text>You cannot negotiate peace with this player for another {1_Num} turn(s) because of a deal you made with another player.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MAY_NOT_ATTACK">
+			<Text>May not attack this player until current Peace Treaty expires.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MAY_NOT_ATTACK_MOD">
+			<Text>May not attack this player due to a scenario special rule.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DECLARES_WAR_TT">
+			<Text>Declares war on this player!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_BUTTON">
+			<Text>Trade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEMAND_BUTTON">
+			<Text>Demand</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DISCUSS_BUTTON">
+			<Text>Discuss</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DEFAULT_STATUS">
+			<Text>There haven't been any major incidents which have shaped your relationship.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_AT_WAR">
+			<Text>[COLOR_NEGATIVE_TEXT]You are at war![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PAST_WAR_BAD">
+			<Text>[COLOR_NEGATIVE_TEXT]You have gone to war in the past.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PAST_WAR_NEUTRAL">
+			<Text>You have been at war in the past, but they do not seem to hold a grudge.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_AFRAID">
+			<Text>They fear our great might!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_FRIENDLY">
+			<Text>[COLOR_POSITIVE_TEXT]They desire friendly relations with our empire.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_GUARDED">
+			<Text>[COLOR_NEGATIVE_TEXT]They suspect we might be a threat to them.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_HOSTILE">
+			<Text>[COLOR_NEGATIVE_TEXT]They don't want anything to do with us right now.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_LAND_DISPUTE">
+			<Text>[COLOR_NEGATIVE_TEXT]They covet lands that you currently own![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_VICTORY_DISPUTE">
+			<Text>[COLOR_NEGATIVE_TEXT]They believe you are trying to win the game in a similar manner to them, and they don't like it![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WONDER_DISPUTE">
+			<Text>[COLOR_NEGATIVE_TEXT]You built wonders that they coveted![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MINOR_CIV_DISPUTE">
+			<Text>[COLOR_NEGATIVE_TEXT]You are competing for the favor of the same City-States![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT">
+			<Text>[COLOR_NEGATIVE_TEXT]They believe you are a warmongering menace to the world![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NO_SETTLE_ASKED">
+			<Text>[COLOR_NEGATIVE_TEXT]You demanded they not settle near your lands![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_DEMAND">
+			<Text>[COLOR_NEGATIVE_TEXT]You made a trade demand of them![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_CIVILIANS_RETURNED">
+			<Text>[COLOR_POSITIVE_TEXT]You freed their captured citizens![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_CULTURE_BOMB">
+			<Text>[COLOR_NEGATIVE_TEXT]You stole their territory with a Great Artist![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MILITARY_PROMISE">
+			<Text>[COLOR_NEGATIVE_TEXT]You made a promise to move your troops from their borders, and then broke it![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MILITARY_PROMISE_IGNORED">
+			<Text>[COLOR_NEGATIVE_TEXT]You refused to move your troops away from their borders when they asked![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_EXPANSION_PROMISE">
+			<Text>[COLOR_NEGATIVE_TEXT]You made a promise to stop expanding near them, and then broke it![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_EXPANSION_PROMISE_IGNORED">
+			<Text>[COLOR_NEGATIVE_TEXT]They asked you to stop settling near them, and you ignored them![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BORDER_PROMISE">
+			<Text>[COLOR_NEGATIVE_TEXT]You made a promise to stop buying land near them, and then broke it![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BORDER_PROMISE_IGNORED">
+			<Text>[COLOR_NEGATIVE_TEXT]They asked you to stop buying land near them, and you ignored them![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_CITY_STATE_PROMISE">
+			<Text>[COLOR_NEGATIVE_TEXT]You made a promise to stop attacking a City-State friendly to them, and then broke it![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_CITY_STATE_PROMISE_IGNORED">
+			<Text>[COLOR_NEGATIVE_TEXT]They asked you to stop attacking a City-State friendly to them, and you ignored them![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_COOP_WAR_PROMISE">
+			<Text>[COLOR_NEGATIVE_TEXT]You made a promise to join in a cooperative war against another empire, and then broke it![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PROTECTED_MINORS_KILLED">
+			<Text>[COLOR_NEGATIVE_TEXT]You have killed City-States under their protection![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PROTECTED_MINORS_ATTACKED">
+			<Text>[COLOR_NEGATIVE_TEXT]You have attacked City-States under their protection![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DOF">
+			<Text>[COLOR_POSITIVE_TEXT]We have made a public Declaration of Friendship![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MUTUAL_DOF">
+			<Text>[COLOR_POSITIVE_TEXT]We have made Declarations of Friendship with the same leaders![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MUTUAL_ENEMY">
+			<Text>[COLOR_POSITIVE_TEXT]We have Denounced the same leaders![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DENOUNCED_BY_US">
+			<Text>[COLOR_NEGATIVE_TEXT]We have denounced them![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DENOUNCED_BY_THEM">
+			<Text>[COLOR_NEGATIVE_TEXT]They have denounced us![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_HUMAN_DOF_WITH_ENEMY">
+			<Text>[COLOR_NEGATIVE_TEXT]You have made a Declaration of Friendship with one of their enemies![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_HUMAN_DENOUNCED_FRIEND">
+			<Text>[COLOR_NEGATIVE_TEXT]You have Denounced a leader they made a Declaration of Friendship with![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_RECKLESS_EXPANDER">
+			<Text>[COLOR_NEGATIVE_TEXT]They believe we are building new cities too aggressively![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_HUMAN_FRIEND_DECLARED_WAR">
+			<Text>[COLOR_NEGATIVE_TEXT]We made a Declarations of Friendship and then declared war on them![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_HUMAN_FRIEND_DENOUNCED">
+			<Text>[COLOR_NEGATIVE_TEXT]We made a Declarations of Friendship and then denounced them![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_HUMAN_DECLARED_WAR_ON_FRIENDS">
+			<Text>[COLOR_NEGATIVE_TEXT]You have Declared War on leaders you've made Declarations of Friendship with![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_HUMAN_DENOUNCED_FRIENDS">
+			<Text>[COLOR_NEGATIVE_TEXT]You have Denounced leaders you've made Declarations of Friendship with![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_HUMAN_DENOUNCED_BY_FRIENDS">
+			<Text>[COLOR_NEGATIVE_TEXT]Your friends found reason to Denounce you![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_REFUSED_REQUESTS">
+			<Text>[COLOR_NEGATIVE_TEXT]You refused a request made by this player after making a Declaration of Friendship![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_TRADE_PARTNER">
+			<Text>[COLOR_POSITIVE_TEXT]We've traded recently.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_COMMON_FOE">
+			<Text>[COLOR_POSITIVE_TEXT]We fought together against a common foe.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_ASSISTANCE_TO_THEM">
+			<Text>[COLOR_POSITIVE_TEXT]They asked for help and you provided it.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_LIBERATED_CAPITAL">
+			<Text>[COLOR_POSITIVE_TEXT]You liberated their capital.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_LIBERATED_CITY">
+			<Text>[COLOR_POSITIVE_TEXT]You liberated one of their cities.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_ASSISTANCE_FROM_THEM">
+			<Text>[COLOR_NEGATIVE_TEXT]You asked them for help and they provided it.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_PAID_TRIBUTE">
+			<Text>[COLOR_NEGATIVE_TEXT]You forced them to pay tribute.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_NUKED">
+			<Text>[COLOR_NEGATIVE_TEXT]You nuked them![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_CAPTURED_CAPITAL">
+			<Text>[COLOR_NEGATIVE_TEXT]You captured their original capital.[ENDCOLOR]</Text>
+		</Row>
+    <Row Tag="TXT_KEY_DIPLO_RESURRECTED">
+      <Text>[COLOR_POSITIVE_TEXT]You restored their civilization after they were annihilated![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CITIES_LIBERATED">
+      <Text>[COLOR_POSITIVE_TEXT]You have liberated some of their people![ENDCOLOR]</Text>
+    </Row>
+    <!-- Resource World Anchor Text -->
+		<Row Tag="TXT_KEY_RESOURCE_TOOLTIP_IMPROVED_WORKED">
+			<Text>When worked by a City:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_TOOLTIP_IMPROVED">
+			<Text>When improved:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_IRON_HELP">
+			<Text>Used by powerful early-game Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_HORSES_HELP">
+			<Text>Used by Mounted Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_COAL_HELP">
+			<Text>Used by Factories and Ironclads.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_OIL_HELP">
+			<Text>Used by powerful late-game Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_ALUMINUM_HELP">
+			<Text>Used by powerful late-game Units and Buildings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_URANIUM_HELP">
+			<Text>Used by Nukes, Nuclear Plants and Giant Death Robots.</Text>
+		</Row>
+		<!-- Worker Build Action Text -->
+		<Row Tag="TXT_KEY_BUILD_CONSUMED_HELP">
+			<Text>Unit will be consumed.[NEWLINE][NEWLINE]Great Tile Improvements will connect Strategic Resources on this tile to the trade network.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CAMP">
+			<Text>Construct a [LINK=IMPROVEMENT_CAMP]Camp[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_FARM">
+			<Text>Construct a [LINK=IMPROVEMENT_FARM]Farm[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_FOOD_REC">
+			<Text>It will increase the amount of [ICON_FOOD] Food provided by this tile, speeding up the birth of new [ICON_CITIZEN] Citizens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_FISHING_BOATS">
+			<Text>Create [LINK=IMPROVEMENT_FISHING_BOATS]Fishing Boats[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_FISHING_BOATS_REC">
+			<Text>It will connect the sea resource on this tile to our trade network, and improve its productivity when worked by a nearby city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_FORT">
+			<Text>Construct a [LINK=IMPROVEMENT_FORT]Fort[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_FORT_REC">
+			<Text>It will improve the [ICON_STRENGTH] Defense of any military unit stationed in this tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_FORT_HELP">
+			<Text>+50% [ICON_STRENGTH] Defensive Strength for any Unit stationed in this Tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CITADEL_HELP">
+			<Text>+100% [ICON_STRENGTH] Defensive Strength for any Unit stationed in this Tile. Any enemy unit which ends its turn next to the Citadel takes 3 damage. Constructing the Citadel will consume this unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_LUMBERMILL">
+			<Text>Construct a [LINK=IMPROVEMENT_LUMBERMILL]Lumber Mill[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_LUMBERMILL_REC">
+			<Text>It will increase the amount of [ICON_PRODUCTION] Production provided by this tile, while keeping the Forest intact.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_MINE">
+			<Text>Construct a [LINK=IMPROVEMENT_MINE]Mine[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_PROD_REC">
+			<Text>It will increase the amount of [ICON_PRODUCTION] Production provided by this tile, increasing the speed a nearby city will build things.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_OFFSHORE_PLATFORM">
+			<Text>Create [LINK=IMPROVEMENT_OFFSHORE_PLATFORM]Offshore Platform[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_OFFSHORE_PLATFORM_REC">
+			<Text>It will connect the [ICON_RES_OIL] Oil on this tile to our trade network, allowing us to build advanced units!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_PASTURE">
+			<Text>Construct a [LINK=IMPROVEMENT_PASTURE]Pasture[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_PLANTATION">
+			<Text>Construct a [LINK=IMPROVEMENT_PLANTATION]Plantation[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_QUARRY">
+			<Text>Construct a [LINK=IMPROVEMENT_QUARRY]Quarry[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_QUARRY_REC">
+			<Text>It will connect the [ICON_RES_MARBLE] Marble on this tile to our trade network, improving [ICON_HAPPINESS_1] Happiness in the empire!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_RAILROAD">
+			<Text>Construct a [LINK=CONCEPT_MOVEMENT]Railroad[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_RAILROAD_REC">
+			<Text>It will allow units to move more quickly across the terrain, and connecting other cities to your [ICON_CAPITAL] Capital will grant them additional [ICON_PRODUCTION] Production!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_RAILROAD_HELP">
+			<Text>[COLOR_NEGATIVE_TEXT]Costs[ENDCOLOR] 2 [ICON_GOLD] Gold per turn to maintain.[NEWLINE][NEWLINE]An unbroken chain of Railroads allows Units to move extremely quickly through Tiles.[NEWLINE][NEWLINE]Connecting Cities to your capital by Railroad will give them a 25% [ICON_PRODUCTION] Production bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_REMOVE_FOREST">
+			<Text>Chop Down a [LINK=FEATURE_FOREST]Forest[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_REMOVE_FEATURE_HELP">
+			<Text>Allows for another Improvement to be constructed on this Tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_REMOVE_JUNGLE">
+			<Text>Remove [LINK=FEATURE_JUNGLE]Jungle[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_REMOVE_MARSH">
+			<Text>Clear a [LINK=FEATURE_FOREST]Marsh[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_ROAD">
+			<Text>Construct a [LINK=CONCEPT_MOVEMENT]Road[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_ROAD_HELP">
+			<Text>[COLOR_NEGATIVE_TEXT]Costs[ENDCOLOR] 1 [ICON_GOLD] Gold per turn to maintain.[NEWLINE][NEWLINE]An unbroken chain of Roads allows Units to move more quickly across the map.[NEWLINE][NEWLINE]Connecting Cities to your capital will provide a large amount of [ICON_GOLD] Gold per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_ROAD_REC">
+			<Text>It will allow units to move more quickly across the terrain, and connecting other cities to your [ICON_CAPITAL] Capital will produce additional [ICON_GOLD] Gold!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_TRADING_POST">
+			<Text>Construct a [LINK=IMPROVEMENT_TRADING_POST]Trading Post[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_GOLD_REC">
+			<Text>It will increase the amount of [ICON_GOLD] Gold provided by this tile, boosting the amount of money we will have to spend!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_SCRUB_FALLOUT">
+			<Text>Scrub [LINK=FEATURE_FALLOUT]Fallout[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_SCRUB_FALLOUT_HELP">
+			<Text>Removes the nuclear waste present in this Tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_WELL">
+			<Text>Construct a [LINK=IMPROVEMENT_WELL]Well[\LINK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_WELL_REC">
+			<Text>It will connect the [ICON_RES_OIL] Oil on this tile to our trade network, allowing us to build advanced units!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_LANDMARK">
+			<Text>Construct a Landmark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_LANDMARK_HELP">
+			<Text>Unit will be consumed.[NEWLINE][NEWLINE]+6 [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]Great Tile Improvements will connect Strategic Resources on this tile to the trade network.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_ACADEMY">
+			<Text>Construct an Academy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CUSTOMS_HOUSE">
+			<Text>Construct a Customs House</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_MANUFACTORY">
+			<Text>Construct a Manufactory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_CITADEL">
+			<Text>Construct a Citadel</Text>
+		</Row>
+		<!-- Unit Action Help Text -->
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_BUILD_HELP">
+			<Text>Automate all [COLOR_UNIT_TEXT]Worker[ENDCOLOR] actions. The unit will continue working until you cancel its automation.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_EXPLORE_DISABLED_HELP">
+			<Text>No reachable areas to explore at the moment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_EXPLORE_HELP">
+			<Text>This order tells the unit to explore the uncharted regions on the map. The unit will continue to move until it has run out of places to explore.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMMAND_CANCEL_ALL_HELP">
+			<Text>This will cancel all queued orders for the currently selected unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMMAND_CANCEL_HELP">
+			<Text>This will cancel the last order in the unit's mission queue. You will find this to be very useful if you accidentally queue the wrong order.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMMAND_DELETE_HELP">
+			<Text>Click on this order to remove the unit from play.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMMAND_GIFT_HELP">
+			<Text>This will give the currently selected unit to the player who controls the land the unit is standing on. To give the unit to a different player you must first move the unit into their territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMMAND_HOTKEY_HELP">
+			<Text>Allows you to assign a hot-key to this unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMMAND_STOP_AUTOMATION_HELP">
+			<Text>This will cancel the order for the unit to automate itself. It will then rely on you for all orders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMMAND_WAKE_HELP">
+			<Text>This will wake the unit up so that it can be issued orders. Waking a unit does not remove its fortification bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMESPEED_MARATHON_HELP">
+			<Text>This extremely long game speed will allow almost an entire normal game's worth of turns for each era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMESPEED_EPIC_HELP">
+			<Text>Production, Research, etc. all take a fair amount longer than when playing on Standard Speed. The game is balanced to take longer but still feel like a normal game.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMESPEED_STANDARD_HELP">
+			<Text>The default game pace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMESPEED_QUICK_HELP">
+			<Text>The number of turns required to complete various tasks is compressed. Good for players who don't like to wait around too much.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_AIRBOMB_HELP">
+			<Text>Order the air unit to bomb the city or improvement in the selected tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_AIRLIFT_HELP">
+			<Text>Order the unit airlifted to the selected tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_AIRSTRIKE_HELP">
+			<Text>Order the air unit to attack enemy units in the selected tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_CITY_PLOT_SELECTION_HELP">
+			<Text>Order selection of which plots are worked in a city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_DISEMBARK_HELP">
+			<Text>Order the unit to move from the water to the land.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_EMBARK_HELP">
+			<Text>Order the unit to move from the land to the water.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_GIFT_UNIT_HELP">
+			<Text>Order the unit to be part of the city-state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_MOVE_TO_ALL_HELP">
+			<Text>Order all units on the currently selected unit's tile to move.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_MOVE_TO_HELP">
+			<Text>Order the selected unit to move to a tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_MOVE_TO_TYPE_HELP">
+			<Text>Orders all units of the currently selected unit's type to move.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_NUKE_HELP">
+			<Text>Order a nuclear attack on the selected tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_REBASE_HELP">
+			<Text>Order the air unit to rebase to another city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTERFACEMODE_ROUTE_TO_HELP">
+			<Text>Order the unit to build roads or railroads to the selected tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_AIRLIFT_HELP">
+			<Text>Airlifts the unit to another city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_ALERT_HELP">
+			<Text>The Unit will wake upon seeing an enemy. The unit receives a defensive bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_ALERT_NO_FORTIFY_HELP">
+			<Text>The Unit will wake upon seeing an enemy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_BOMBARD_HELP">
+			<Text>Destroys fortifications and reduces the cities defensive resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_BUILD_CITY_HELP">
+			<Text>This order causes the [COLOR_UNIT_TEXT]Settler[ENDCOLOR] to found a city in its current location. The [COLOR_UNIT_TEXT]Settler[ENDCOLOR] is consumed in the process.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_BUILD_CITY_DISABLED_HELP">
+			<Text>Cannot found a City within 4 Tiles of another City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_BUILD_CITY_DISABLED_UNHAPPY">
+			<Text>Cannot found a City when the empire is [ICON_HAPPINESS_4] Very Unhappy. Improve unclaimed Luxury Resources or construct [ICON_HAPPINESS_1] Buildings to exit this state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_CULTURE_BOMB_DISABLED_COOLDOWN">
+			<Text>You have performed a Culture Bomb recently, and may not do so again for another {1_Num} turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_HELP">
+			<Text>If the unit is inside a City State's territory that you're not at war with, this order will have the Great Merchant conduct a trade mission, giving you a large amount of [ICON_GOLD] Gold and improving relations with the City State. It consumes the Great Person.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_CONDUCT_TRADE_MISSION_DISABLED_HELP">
+			<Text>Unit must be in a City State's territory that you're not at war with.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_CONSTRUCT_HELP">
+			<Text>This will have the Great Person create their special building. It consumes the Great Person.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_CREATE_GREAT_WORK_HELP">
+			<Text>This order will have the Great Artist create a Great Work in the city they are currently in. It consumes the Great Person.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_DISCOVER_TECH_HELP">
+			<Text>This will have the Great Person help research a technology. It consumes the Great Person.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_DISCOVER_TECH_DISABLED_HELP">
+			<Text>You must control a city before you can discover new technology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_FORTIFY_HELP">
+			<Text>The Unit remains inactive until the player provides it new orders. The unit receives a defensive bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_GARRISON_HELP">
+			<Text>Garrison a unit in this city, improving its [ICON_STRENGTH] Combat Strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_GARRISON_DISABLED_HELP">
+			<Text>Unit cannot Garrison if already garrisoned or if another Unit is garrisoned in this City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_SET_UP_HELP">
+			<Text>Required before this Unit can Range Attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_EMBARK_HELP">
+			<Text>Loads Unit onto boats, allowing them to cross water tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_DISEMBARK_HELP">
+			<Text>Unloads Unit from boats back onto a land tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_HEAL_HELP">
+			<Text>The unit remains inactive until it heals back to full strength. The unit receives a defensive bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_HEAL_HELP_2">
+			<Text>The unit remains inactive for {1_Num} turns until it heals back to full strength. The unit receives a defensive bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_HEAL_DISABLED_HELP">
+			<Text>This Unit cannot Heal outside friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_HURRY_PRODUCTION_HELP">
+			<Text>This order will hurry production on the city's current effort. It consumes the Great Person.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_INTERCEPT_HELP">
+			<Text>This air unit order will tell the craft to attempt interception with any incoming air attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_JOIN_CITY_HELP">
+			<Text>This order will make the Great Person join the city as a super specialist. It will consume the Great Person.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_MOVE_TO_HELP">
+			<Text>Order your unit to move to a specific Tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_MOVE_TO_UNIT_HELP">
+			<Text>Set your unit to move to another unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_NUKE_HELP">
+			<Text>Launches a nuclear weapon upon the chosen Tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_ROUTE_TO_HELP">
+			<Text>Tells a Worker to construct a Road (or Railroad) to the chosen location. The Worker will follow the shortest path to the location. The Worker wakes when it has completed the assignment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_SKIP_HELP">
+			<Text>The Unit will perform no action this turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_SLEEP_HELP">
+			<Text>Order the Unit to remain inactive until the player provides it new orders.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_CULTURE_BOMB_HELP">
+			<Text>This order will consume the Great Person and cause all tiles this unit is on and adjacent to become part of your borders, even if they belong to another player. This will have diplomatic repercussions!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_CULTURE_BOMB_DISABLED_HELP">
+			<Text>Unit must be in or next to a tile owned by you, and may not be in another player's territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_START_GOLDENAGE_HELP">
+			<Text>This order will consume the Great Person and initiate a [ICON_GOLDEN_AGE] Golden Age (extra [ICON_PRODUCTION] and [ICON_GOLD]) for {1_Num} turns. Each time a Great Person starts a Golden Age, the length of the next will shorten (to a minimum of 3 turns).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_START_GOLDENAGE_DISABLED_HELP">
+			<Text>Unit must be in your territory to start a Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_BUILD_SPACESHIP_HELP">
+			<Text>Contribute a part to the Alpha Centauri Spaceship.[NEWLINE][NEWLINE]Unit will be consumed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_BUILD_SPACESHIP_DISABLED_HELP">
+			<Text>Unit must be in your Capital City.</Text>
+		</Row>
+		<!-- Some Front-End Help text -->
+		<Row Tag="TXT_KEY_HANDICAP_DEITY_HELP">
+			<Text>Only the best players in the world will beat this level.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_IMMORTAL_HELP">
+			<Text>Extremely Difficult. The AI players receive large advantages to improve their play.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_EMPEROR_HELP">
+			<Text>Very Hard. The AI players receive advantages to improve their play.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_KING_HELP">
+			<Text>Hard. The AI players receive small advantages to improve their play.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_PRINCE_HELP">
+			<Text>Normal Difficulty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_WARLORD_HELP">
+			<Text>Easy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_CHIEFTAIN_HELP">
+			<Text>Beginner</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_SETTLER_HELP">
+			<Text>For learning the game.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_DEBUG_HELP">
+			<Text>For Testing Only.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_DUEL_HELP">
+			<Text>2 players with 4 City States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_TINY_HELP">
+			<Text>4 players with 8 City States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_SMALL_HELP">
+			<Text>6 players with 12 City States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_STANDARD_HELP">
+			<Text>8 players with 16 City States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_LARGE_HELP">
+			<Text>10 players with 20 City States.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_HUGE_HELP">
+			<Text>12 players with 24 City States.</Text>
+		</Row>
+		<!-- Goody Hut Results Text -->
+		<Row Tag="TXT_KEY_BARB_CAMP_CLEARED">
+			<Text>You have dispersed a villainous Barbarian Encampment and recovered {1_NumGold} [ICON_GOLD] Gold from it!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_REWARD">
+			<Text>A {1_UnitName:textkey} has been born in the City of {2_CityName:textkey}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_UPGRADE_UNIT">
+			<Text>Your Unit equips itself with advanced weapons found in the ruins!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_REVEAL_RESOURCE">
+			<Text>You find crudely-drawn maps which lead you to the location of an unknown Resource! (You will still need to learn the proper Technology to utilize the new resource.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_REVEAL_NEARBY_BARBS">
+			<Text>Evidence of recent activity reveals the location of nearby Barbarian Encampments!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CULTURE">
+			<Text>You have found cultural artifacts which awe your citizens! You have received {1_Num} [ICON_CULTURE] Culture!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_POPULATION">
+			<Text>You find survivors lost in the ruins! In gratitude they settle in one of your Cities, increasing its [ICON_CITIZEN] population!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MERCHANT_RESULT">
+			<Text>You have gained {1_Num} [ICON_GOLD] Gold and {2_Num} [ICON_INFLUENCE] Influence from the Trade Mission!</Text>
+		</Row>
+		<!-- Building Help Text -->
+		<Row Tag="TXT_KEY_BUILDING_PALACE_HELP">
+			<Text>Indicates this City is the [ICON_CAPITAL] Capital of the empire.[NEWLINE][NEWLINE][ICON_CONNECTED] Connecting other Cities to the [ICON_CAPITAL] Capital by Road will produce additional [ICON_GOLD] Gold.[NEWLINE][NEWLINE]+3 [ICON_PRODUCTION] Production, +3 [ICON_RESEARCH] Science, +3 [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STABLE_HELP">
+			<Text>+15% [ICON_PRODUCTION] Production when building Mounted Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_HORSE] Horses [ICON_RES_SHEEP] Sheep and [ICON_RES_COW] Cattle worked by this City produce +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Pasture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LIGHTHOUSE_HELP">
+			<Text>+1 [ICON_FOOD] Food from Ocean Tiles.[NEWLINE][NEWLINE]Each source of [ICON_RES_FISH] Fish worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FLOATING_GARDENS_HELP">
+			<Text>+15% [ICON_FOOD] Food. Each worked Lake tile provides +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must be built next to a River or Lake.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HARBOR_HELP">
+			<Text>Forms a [ICON_CONNECTED] Trade Route with the [ICON_CAPITAL] Capital over water (if they're not already [ICON_CONNECTED] connected by land). +1 [ICON_PRODUCTION] Production from Sea Resources worked by this City.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SEAPORT_HELP">
+			<Text>+1 [ICON_PRODUCTION] Production and [ICON_GOLD] Gold from Sea Resources worked by this City.  +15% [ICON_PRODUCTION] Production when building Naval Units.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BARRACKS_HELP">
+			<Text>+15 XP for all Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARMORY_HELP">
+			<Text>+15 XP for all Units.[NEWLINE][NEWLINE]City must have a Barracks or Krepost.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MILITARY_ACADEMY_HELP">
+			<Text>+15 XP for all Units.[NEWLINE][NEWLINE]City must have an Armory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARSENAL_HELP">
+			<Text>City must have a Castle or Mughal Fort.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CASTLE_HELP">
+			<Text>City must have Walls.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_HELP">
+			<Text>Provides [ICON_GOLD] Gold after Flight is researched.[NEWLINE][NEWLINE]City must have Walls.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MILITARY_BASE_HELP">
+			<Text>City must have an Arsenal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_KREPOST_HELP">
+			<Text>+15 XP for all Units. [ICON_CULTURE] Culture and [ICON_GOLD] Gold costs of acquiring new tiles reduced by 25% in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WATERMILL_HELP">
+			<Text>City must be built next to a River.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CIRCUS_HELP">
+			<Text>City must have an improved source of [ICON_RES_HORSE] Horses or [ICON_RES_IVORY] Ivory nearby.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_THEATRE_HELP">
+			<Text>It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city. City must have a Colosseum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STADIUM_HELP">
+			<Text> It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city. City must have a Theatre.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_COURTHOUSE_HELP">
+			<Text>Eliminates extra [ICON_HAPPINESS_4] Unhappiness from an [ICON_OCCUPIED] Occupied City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LONGHOUSE_HELP">
+			<Text>+1 [ICON_PRODUCTION] Production from each worked Forest tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FORGE_HELP">
+			<Text>+15% [ICON_PRODUCTION] Production when building Land Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_IRON] Iron worked by this City produces +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have a mined source of Iron nearby.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WINDMILL_HELP">
+			<Text>+10% [ICON_PRODUCTION] Production when constructing Buildings.[NEWLINE][NEWLINE]City must not be built on Hills.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FACTORY_HELP">
+			<Text>Requires 1 [ICON_RES_COAL] Coal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HYDRO_PLANT_HELP">
+			<Text>+1 [ICON_PRODUCTION] Production in every tile next to a River. Requires 1 [ICON_RES_ALUMINUM] Aluminum.[NEWLINE][NEWLINE]City must be built next to a River.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SOLAR_PLANT_HELP">
+			<Text>City must be built on or next to Desert and must not contain a Nuclear Plant.[NEWLINE][NEWLINE]City must have a Factory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NUCLEAR_PLANT_HELP">
+			<Text>Requires 1 [ICON_RES_URANIUM] Uranium.  City must not contain a Solar Plant.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SPACESHIP_FACTORY_HELP">
+			<Text>+50% [ICON_PRODUCTION] Production when building Spaceship Parts. Requires 1 [ICON_RES_ALUMINUM] Aluminum.[NEWLINE][NEWLINE]City must have a Factory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BAZAAR_HELP">
+			<Text>Provides 1 extra copy of each improved luxury resource near this City.  Each source of [ICON_RES_OIL] Oil and each Oasis provides +2 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BANK_HELP">
+			<Text>City must have a Market.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SATRAPS_COURT_HELP">
+			<Text>City must have a Market.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MINT_HELP">
+			<Text>Each source of [ICON_RES_GOLD] Gold and [ICON_RES_SILVER] Silver worked by this City produces +2 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources mined nearby.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STOCK_EXCHANGE_HELP">
+			<Text>City must have a Bank.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LIBRARY_HELP">
+			<Text>+1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in this City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PAPER_MAKER_HELP">
+			<Text>+1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in this City. +2[ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OBSERVATORY_HELP">
+			<Text>City must be built next to a Mountain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UNIVERSITY_HELP">
+			<Text>+2 [ICON_RESEARCH] Science from Jungle tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WAT_HELP">
+			<Text>+2 [ICON_RESEARCH] Science from Jungle tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PUBLIC_SCHOOL_HELP">
+			<Text>+1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in this City.[NEWLINE][NEWLINE]City must have a University.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LABORATORY_HELP">
+			<Text>City must have a Public School.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_HELP">
+			<Text>Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BURIAL_TOMB_HELP">
+			<Text>Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]Should this city be captured, the amount of [ICON_GOLD] Gold plundered by the enemy is doubled.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MONASTERY_HELP">
+			<Text>+2 [ICON_CULTURE] Culture per turn from [ICON_RES_INCENSE] Incense and +2 from [ICON_RES_WINE] Wine nearby.[NEWLINE][NEWLINE]City must have an improved source of at least one of these resources nearby.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BROADCAST_TOWER_HELP">
+			<Text>+33% [ICON_CULTURE] Culture in this City.[NEWLINE][NEWLINE]City must have a Museum.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GARDEN_HELP">
+			<Text>+25% [ICON_GREAT_PEOPLE] Great People generation in this City.[NEWLINE][NEWLINE]City must be built next to a River or Lake.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_AQUEDUCT_HELP">
+			<Text>40% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRANARY_HELP">
+			<Text>Each source of [ICON_RES_WHEAT] Wheat [ICON_RES_BANANA] Bananas and [ICON_RES_DEER] Deer worked by this City produce +1 [ICON_FOOD] Food.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MEDICAL_LAB_HELP">
+			<Text>25% of [ICON_FOOD] Food is carried over after a new [ICON_CITIZEN] Citizen is born (effect stacks with Aqueduct).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_UTOPIA_PROJECT_HELP">
+			<Text>Building the Utopia Project triggers a [COLOR_POSITIVE_TEXT]Cultural Victory[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_MANHATTAN_PROJECT_HELP">
+			<Text>Allows your Cities to build Atomic Bombs and Nuclear Missiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_APOLLO_PROGRAM_HELP">
+			<Text>Signals the start of the space race, allowing your Cities to build spaceship parts. When the spaceship is completed, you win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR]!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HEROIC_EPIC_HELP">
+			<Text>All newly-trained non-air Units in this City receive the [COLOR_POSITIVE_TEXT]Morale[ENDCOLOR] Promotion, improving [ICON_STRENGTH] combat strength by 15%.[NEWLINE][NEWLINE]Must have built a Barracks in all Cities. The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NATIONAL_EPIC_HELP">
+			<Text>+25% [ICON_GREAT_PEOPLE] Great People generation in this City.[NEWLINE][NEWLINE]Must have built a Monument in all Cities. The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CIRCUS_MAXIMUS_HELP">
+			<Text>Must have built a Colosseum in all Cities. The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NATIONAL_TREASURY_HELP">
+			<Text>Must have built a Market in all Cities. The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NATIONAL_COLLEGE_HELP">
+			<Text>Must have built a Library in all Cities. The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_IRONWORKS_HELP">
+			<Text>Must have built a Workshop in all Cities. The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_OXFORD_UNIVERSITY_HELP">
+			<Text>1 Free Technology.[NEWLINE][NEWLINE]Must have built a University in all Cities. The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HERMITAGE_HELP">
+			<Text>+50% [ICON_CULTURE] Culture in this City. [NEWLINE][NEWLINE]Must have built an Opera House in all Cities. The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_PYRAMIDS_HELP">
+			<Text>The empire enters a [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GREAT_LIBRARY_HELP">
+			<Text>1 Free Technology. Provides a free Library in the city in which it is built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_HANGING_GARDEN_HELP">
+			<Text>+1 [ICON_CITIZEN] Population in all Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_COLOSSUS_HELP">
+			<Text>+1 [ICON_GOLD] Gold from water tiles worked by this City.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GREAT_LIGHTHOUSE_HELP">
+			<Text>All military naval units receive +1 [ICON_MOVES] movement and +1 sight. Provides a free Lighthouse in the city in which it is built.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_ORACLE_HELP">
+			<Text>1 Free Social Policy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_ANGKOR_WAT_HELP">
+			<Text>[ICON_CULTURE] Culture and [ICON_GOLD] Gold costs of acquiring new tiles reduced by 25% in every city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CHICHEN_ITZA_HELP">
+			<Text>Tile improvement construction speed increased by 25% and two Workers appear near the City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_GREAT_WALL_HELP">
+			<Text>Enemy land Units must expend 1 extra [ICON_MOVES] movement per Tile inside your territory. Provides Walls for free in the city in which it is built. Upon discovering Dynamite, The Great Wall becomes obsolete.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_HAGIA_SOPHIA_HELP">
+			<Text>+25% generation of [ICON_GREAT_PEOPLE] Great People in all Cities. A free Great Person of your choice appears near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_MACHU_PICHU_HELP">
+			<Text>+25% [ICON_GOLD] Gold from [ICON_CONNECTED] Trade Routes.[NEWLINE][NEWLINE]City must be built within 2 tiles of a Mountain that is inside your territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_KREMLIN_HELP">
+			<Text>Defensive Buildings in all Cities are 25% more effective.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_FORBIDDEN_PALACE_HELP">
+			<Text>-10% [ICON_HAPPINESS_4] Unhappiness from [ICON_CITIZEN] Citizens in non-occupied Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_SISTINE_CHAPEL_HELP">
+			<Text>+25% [ICON_CULTURE] Culture in all Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_HIMEJI_CASTLE_HELP">
+			<Text>+15% [ICON_STRENGTH] combat strength for units fighting in friendly territory. Provides a free Castle in the city in which it is built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_PORCELAIN_TOWER_HELP">
+			<Text>A Great Scientist appears near the City where the Wonder was built. 50% more [ICON_RESEARCH] Science generated from Research Agreements.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_TAJ_MAHAL_HELP">
+			<Text>Length of [ICON_GOLDEN_AGE] Golden Ages increased by 50%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_BIG_BEN_HELP">
+			<Text>Cost of [ICON_GOLD] Gold purchasing in all cities reduced by 15%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_BRANDENBURG_GATE_HELP">
+			<Text>A Great General appears near the City where the Wonder was built and +15 XP for all Units built in this City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_LOUVRE_HELP">
+			<Text>2 free Great Artists appear near the City where the Wonder was built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_STATUE_OF_LIBERTY_HELP">
+			<Text>+1 [ICON_PRODUCTION] Production from Specialists in every city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CRISTO_REDENTOR_HELP">
+			<Text>[ICON_CULTURE] Culture cost of adopting new Policies reduced by 10%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_EIFFEL_TOWER_HELP">
+			<Text>In addition to the +5 [ICON_HAPPINESS_1] Happiness, the Eiffel Tower also provides +1 more [ICON_HAPPINESS_1] Happiness for every 2 Policies you have adopted.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_PENTAGON_HELP">
+			<Text>[ICON_GOLD] Gold cost of upgrading military units reduced by 33%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_UNITED_NATIONS_HELP">
+			<Text>Triggers voting for the Diplomatic Victory. Possession of the UN gives the owner an additional vote.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP">
+			<Text>1 Free Social Policy and +50% [ICON_CULTURE] Culture in this city. Must be constructed in a coastal city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STONE_WORKS_HELP">
+			<Text>Each source of [ICON_RES_MARBLE] Marble and [ICON_RES_STONE] Stone worked by this City produce +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Quarry.[NEWLINE][NEWLINE]City must not be in Plains.</Text>
+		</Row>
+		<!-- Civ Trait Stuff -->
+		<Row Tag="TXT_KEY_TRAIT_ART_OF_WAR_SHORT">
+			<Text>Art of War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_ART_OF_WAR">
+			<Text>The Great General combat bonus is increased by 15%, and their spawn rate is increased by 50%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_POPULATION_GROWTH_SHORT">
+			<Text>Population Growth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_POPULATION_GROWTH">
+			<Text>[ICON_HAPPINESS_4] Unhappiness from number of Cities doubled, [ICON_HAPPINESS_4] Unhappiness from number of [ICON_CITIZEN] Citizens halved.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES_SHORT">
+			<Text>Siberian Riches</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES">
+			<Text>Strategic Resources provide +1 [ICON_PRODUCTION] Production and Horse, Iron and Uranium Resources provide double quantity.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT_SHORT">
+			<Text>Sun Never Sets</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT">
+			<Text>+2 [ICON_MOVES] Movement for all naval units.  </Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES_SHORT">
+			<Text>Father Governs Children</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES">
+			<Text>[ICON_FOOD] Food and [ICON_CULTURE] Culture from friendly City-States increased by 50%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP_SHORT">
+			<Text>Hellenic League</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP">
+			<Text>City-State [ICON_INFLUENCE] Influence degrades at half and recovers at twice the normal rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT">
+			<Text>Bushido</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED">
+			<Text>Units fight as though they were at full strength even when damaged.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS_SHORT">
+			<Text>Furor Teutonicus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS">
+			<Text>Upon defeating a Barbarian unit inside an encampment, there is a 50% chance you earn 25 [ICON_GOLD] Gold and they join your side. Pay 25% less for land unit maintenance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT">
+			<Text>Barbary Corsairs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
+			<Text>50% chance of converting an adjacent Barbarian naval unit to your side and earning 25 [ICON_GOLD] Gold. Pay only one-third the usual cost for naval unit maintenance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST_SHORT">
+			<Text>The Great Warpath</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST">
+			<Text>Units move through Forest and Jungle in friendly territory as if it is Road. These tiles can be used to establish [ICON_CONNECTED] Trade Routes upon researching The Wheel.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER_SHORT">
+			<Text>The Glory of Rome</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER">
+			<Text>+25% [ICON_PRODUCTION] Production towards any buildings that already exist in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_ENHANCED_GOLDEN_AGES_SHORT">
+			<Text>Achaemenid Legacy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_ENHANCED_GOLDEN_AGES">
+			<Text>[ICON_GOLDEN_AGE] Golden Ages last 50% longer. During a Golden Age, units receive +1 [ICON_MOVES] Movement and a +10% [ICON_STRENGTH] Combat Strength bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_RIVER_EXPANSION_SHORT">
+			<Text>Manifest Destiny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_RIVER_EXPANSION">
+			<Text>All land military units have +1 sight. 50% discount when purchasing tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS_SHORT">
+			<Text>Sacrificial Captives</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS">
+			<Text>Gains [ICON_CULTURE] Culture for the empire from each enemy unit killed. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_WONDER_BUILDER_SHORT">
+			<Text>Monument Builders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_WONDER_BUILDER">
+			<Text>+20% [ICON_PRODUCTION] Production towards Wonder construction. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_AMPHIB_WARLORD_SHORT">
+			<Text>River Warlord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_AMPHIB_WARLORD">
+			<Text>Receive triple [ICON_GOLD] Gold from Barbarian encampments and pillaging Cities. Embarked units can defend themselves.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD_SHORT">
+			<Text>Trade Caravans</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD">
+			<Text>+1 [ICON_GOLD] Gold from each [ICON_CONNECTED] Trade Route and [ICON_RES_OIL] Oil Resources provide double quantity.</Text>
+		</Row>
+		<!-- Make sure we keep the French spelling for "Ancien" below. -->
+		<Row Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE_SHORT">
+			<Text>Ancien Régime</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE">
+			<Text>+2 [ICON_CULTURE] Culture per turn from Cities before discovering Steam Power.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_CITYVIEW_BUILDING_SPECIALIST_YIELD">
+      <Text>{1_NumSpecialists} {2_SpecialistDesc * {1_NumSpecialists}}... {3_YieldString} each</Text>
+    </Row>
+		<Row Tag="TXT_KEY_CLICK_TO_SELL">
+			<Text>Click to Sell Building</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SELL_BUILDING_INFO">
+			<Text>Are you sure you want to sell this building? You will receive {1_Num} [ICON_GOLD] Gold and it will save you {2_Num} [ICON_GOLD] Gold per turn in maintenance. (Note: you may only sell one building per turn)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRADE_ROUTE_INCOME_INFO">
+			<Text>{1_Num} base [ICON_GOLD] Gold per route[NEWLINE]{2_Num} [ICON_GOLD] Gold per [ICON_CITIZEN] Citizen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MAINTENANCE_TT">
+			<Text>{1_Num} [ICON_GOLD] Gold per turn spent on Building maintenance in this City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RETIRE">
+			<Text>Retire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_FRIENDS_WITH">
+			<Text>[COLOR_POSITIVE_TEXT]Friends with {1_CivName:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DENOUNCED">
+			<Text>[COLOR_NEGATIVE_TEXT]Denounced {1_CivName:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_BACKSTABBED">
+			<Text>[COLOR_NEGATIVE_TEXT]Backstabbed {1_CivName:textkey}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_YOU_HAVE_DENOUNCED">
+			<Text>[COLOR_NEGATIVE_TEXT]DENOUNCED[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_YOU_HAVE_BACKSTABBED">
+			<Text>[COLOR_NEGATIVE_TEXT]BACKSTABBED[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DECLARATION_OF_FRIENDSHIP">
+			<Text>DECLARATION OF FRIENDSHIP</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DECLARATION_OF_FRIENDSHIP_ALREADY_EXISTS">
+			<Text>A Declaration of Friendship already exists between players.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_DECLARATION_OF_FRIENDSHIP_AT_WAR">
+			<Text>Players are at war, a peace treaty must first be agreed to.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_CANCEL">
+			<Text>Your Research Agreement with {1_CivName:textkey} has been cancelled.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_CANCEL_S">
+			<Text>Research Agreement Cancelled!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

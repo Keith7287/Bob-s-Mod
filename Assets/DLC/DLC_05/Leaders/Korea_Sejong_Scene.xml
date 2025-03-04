@@ -1,0 +1,10 @@
+<LeaderScene FarClip="2500" lights ="Sejong_lights.gr2" camera="Sejong_Camera.fxsxml"  ColorKey="Sejong_Colorkey.tga"  cubemap_prefix ="Sejong" FallbackImage="Sejong.dds">
+
+  <DOFSettings max_width="3" blur_distance="870" ramp_distance="500" ></DOFSettings>
+
+  <LeaderObject  model="Korean_Sejong.fxsxml" ></LeaderObject>
+  <BackgroundObject model="Sejong_Scene.fxsxml" ></BackgroundObject>
+  <BackgroundObject model="Sejong_Scene_VFX.fxsxml" ></BackgroundObject>
+
+
+</LeaderScene>

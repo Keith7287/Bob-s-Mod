@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+
+<GameData>
+	<Language_en_US>
+
+    <!--General phrases -->
+    <!--Greeting (first time meeting) -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_FIRSTGREETING_1">
+      <Text>Be it known that you are now in the land of the Celts.  I am Boudicca, their chosen Queen.  Do not underestimate me.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_FIRSTGREETING_2">
+      <Text>Well met, fellow warrior.  I am Boudicca, leader of the Celtic peoples.  May we be allies in this turbulent world.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_FIRSTGREETING_3">
+      <Text>Hail, foreign leader.  I am Boudicca, Queen of the Celts, chosen of Prasutagus.  In me lives the will of my people and the soul of a King.</Text>
+    </Row>
+    <!--Reacts to his bluff being called -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_WARBLUFF_1">
+      <Text>Ah, I see you have more wits about you than the average man. I cede you this victory.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_WARBLUFF_2">
+      <Text>Be wary of contemptuous actions, lest you forget who you're dealing with.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_WARBLUFF_3"> 
+      <Text>Pray you do not anger me any further - my hounds have not hunted in quite some time.</Text>
+    </Row>
+    <!--Gloats after winning a war -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_WINWAR_1">
+      <Text>Didn't you know that I was named for the goddess of Victory?  Andraste's will is done today.</Text>
+    </Row> 
+    <!--Submissive after losing a war -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_LOSEWAR_1">
+      <Text>It appears that you are superior to your fellow kindred. I shall not underestimate you again.</Text>
+    </Row>
+    <!--Defeated and removed from game -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_DEFEATED_1">
+      <Text>You may have won our land and wealth, but my people are a proud one.  Our legacy will live on, and be hard forgotten.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_DEFEATED_2">
+      <Text>Vile ruler, know you have won this war in name alone.  Your cities lie buried and your troops defeated.  I have my own victory.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_DEFEATED_3">
+      <Text>I take some small pleasure that it was you who bested my people on this field of battle.  Another time, I would have proudly called you my peer.</Text>
+    </Row>
+    
+    <!--Neutral -->
+    <!--Greetings (subsequent meetings) -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_GREETING_1">
+      <Text>Good day upon you.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_GREETING_2">
+      <Text>Greetings.</Text>
+    </Row>
+    <!--Goodbye -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_GOODBYE_1">
+      <Text>Fare thee well.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_GOODBYE_2">
+      <Text>Goodbye.</Text>
+    </Row>
+    <!--Trade offer from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADE_YES_NEUTRAL">
+      <Text>We are in agreement.</Text>
+    </Row>
+    <!--Trade offer from player - sweeten the deal -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>You will find that I am not some simple woman.  You must improve your offer.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Can you do a little better?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>That's not quite good enough.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Almost...</Text>
+    </Row>
+    <!--Trade offer from player - no -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADE_NO_NEUTRAL">
+      <Text>We are not interested. Leave.</Text>
+    </Row>
+    <!--Demand for tribute from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRIBUTE_YES_NEUTRAL">
+      <Text>You may have this bit of material wealth, yes.  But such indiscretions are not easily forgotten.</Text>
+    </Row> 
+    <!--Demand for tribute from player - no -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRIBUTE_NO_NEUTRAL">
+      <Text>What do you take me for, a fool?</Text>
+    </Row>
+    <!--Requests a trade -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADEREQUEST_NEUTRAL">
+      <Text>I believe we can both benefit from a mutual sharing of goods.</Text>
+    </Row>
+    <!--Demands tribute -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_DEMANDTRIBUTE_NEUTRAL">
+      <Text>We are willing to overlook your questionable deeds in return for fair compensation.</Text>
+    </Row>  
+    <!--Agrees -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_AGREE_SHORT_1">
+      <Text>All right.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_AGREE_SHORT_2">
+      <Text>Very Well.</Text>
+    </Row>
+    <!--Disagrees -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_DISAGREE_SHORT_1">
+      <Text>I must refuse.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_DISAGREE_SHORT_2">
+      <Text>No.</Text>
+    </Row>
+    <!--Let's hear it -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_LETSHEARIT_1">
+      <Text>Let's hear it.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_LETSHEARIT_2">
+      <Text>Go ahead.</Text>
+    </Row>
+    
+    <!--Happy -->
+    <!--Greetings (subsequent meetings) -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_GREETING_3">
+      <Text>Welcome.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_GREETING_4">
+      <Text>Ah, it's good to see you again.</Text>
+    </Row>
+    <!--Goodbye -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_GOODBYE_3">
+      <Text>Until we meet again.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_GOODBYE_4">
+      <Text>Farewell.</Text>
+    </Row>
+    <!--Trade offer from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADE_YES_HAPPY">
+      <Text>It is agreed.</Text>
+    </Row>
+    <!--Trade offer from player - sweeten the deal -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADE_NEEDMORE_HAPPY_1">
+      <Text>In happier times I would heartily agree, but I'm afraid you will have to do a little better.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADE_NEEDMORE_HAPPY_2">
+      <Text>Come now, you'll need to improve your offer.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADE_NEEDMORE_HAPPY_3">
+      <Text>You're almost there...</Text>
+    </Row>
+    <!--Trade offer from player - no -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADE_NO_HAPPY">
+      <Text>Thank you, but we decline.</Text>
+    </Row>
+    <!--Demand for tribute from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRIBUTE_YES_HAPPY">
+      <Text>We are always ready to assist an ally in need.</Text>
+    </Row>
+    <!--Demand for tribute from player - no -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRIBUTE_NO_HAPPY">
+      <Text>Do not play upon our friendship and forget who you are dealing with.</Text>
+    </Row>
+    <!--Demands tribute -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_DEMANDTRIBUTE_HAPPY">
+      <Text>Hardship is upon us, and we request your aid.</Text>
+    </Row>
+    <!--Requests a trade -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADEREQUEST_HAPPY">
+      <Text>Let us join our forces together and reap the rewards.</Text>
+    </Row> 
+    <!--Agrees -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_AGREE_SHORT_3">
+      <Text>Certainly.</Text>
+    </Row> 
+    <!--Disagrees -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_DISAGREE_SHORT_3">
+      <Text>I'm afraid not.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_DISAGREE_SHORT_4">
+      <Text>We decline.</Text>
+    </Row> 
+    <!--Let's hear it -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_LETSHEARIT_3">
+      <Text>Proceed.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_LETSHEARIT_4">
+      <Text>I'm listening.</Text>
+    </Row>
+    
+    <!--Angry -->
+    <!--Greetings (subsequent meetings) -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_GREETING_5">
+      <Text>Oh, it's you.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_GREETING_6">
+      <Text>What do you want?</Text>
+    </Row>
+    <!--Goodbye -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_GOODBYE_5">
+      <Text>That is all.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_GOODBYE_6">
+      <Text>Go away now.</Text>
+    </Row>
+    <!--Trade offer from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADE_YES_ANGRY">
+      <Text>Agreed.</Text>
+    </Row> 
+    <!--Trade offer from player - sweeten the deal -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADE_NEEDMORE_ANGRY_1">
+      <Text>Even mad Nero wouldn't accept this offer.  Improve it, or be gone.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADE_NEEDMORE_ANGRY_2">
+      <Text>That's not good enough.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADE_NEEDMORE_ANGRY_3">
+      <Text>You must do better than that.</Text>
+    </Row>
+    
+    <!--Trade offer from player - no -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADE_NO_ANGRY">
+      <Text>Do you take me for a simpleton? Leave this place.</Text>
+    </Row>  
+    <!--Demand for tribute from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRIBUTE_YES_ANGRY">
+      <Text>I see your impudence knows no bounds.  This will not be easily forgiven.</Text>
+    </Row>
+    <!--Demand for tribute from player - no -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRIBUTE_NO_ANGRY">
+      <Text>Your senseless bleatings have fallen on deaf ears.  Be gone, and waste not my time any further.</Text>
+    </Row>
+    <!--Demands tribute -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_DEMANDTRIBUTE_ANGRY">
+      <Text>My loans are due, and I believe I should like to pay them with your gold instead of mine.</Text>
+    </Row>
+    <!--Requests a trade -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_TRADEREQUEST_ANGRY">
+      <Text>As much as I wish for your destruction, I believe we can set aside our differences for a small amount of time.</Text>
+    </Row> 
+    <!--Agrees -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_AGREE_SHORT_4">
+      <Text>Ugh, very well.</Text>
+    </Row>
+    <!--Disagrees -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_DISAGREE_SHORT_5">
+      <Text>A thousand times no.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_DISAGREE_SHORT_6">
+      <Text>That's unacceptable.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_DISAGREE_SHORT_7">
+      <Text>Never.</Text>
+    </Row>
+    <!--Let's hear it -->
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_LETSHEARIT_5">
+      <Text>Continue, before I change my mind.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_DECLAREWAR_1">
+      <Text>Our chariots are ready and the torches burn bright. My daughters shall know the taste of your blood!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_DECLAREWAR_2">
+      <Text>The Great Hunt rides once more, but this time our target is not the lowly hare.  I have been more than fair in giving you this warning - Run.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_DECLAREWAR_3">
+      <Text>You shall stain this land no longer with your vileness! To arms, my countrymen. We ride to war!</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_ATTACKED_1">
+      <Text>Traitorous man! The Celtic peoples will not stand for such wanton abuse and slander - I shall have your head!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_ATTACKED_2">
+      <Text>You dare?! Have you forgotten the price paid by Londinium? Your streets will ring with the battle cries of my people.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_BOUDICCA_ATTACKED_3">
+      <Text>What treachery is this? By Andraste's might, the lamentation of your defeated peoples will be a sweet lullaby to my daughters' ears.</Text>
+    </Row>
+
+
+  </Language_en_US>
+</GameData>

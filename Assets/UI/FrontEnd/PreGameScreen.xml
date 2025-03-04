@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+  <Instance Name="LeaderButtonInstance" >
+    <GridButton Size="234,50"  Offset="-5,5" StateOffsetIncrement="0,0" ID="LeaderButton">
+      <GridData Style="GridBlue8" />
+      <Image Anchor="R,C" Offset="40,0" Texture="assets\UI\Art\WorldView\TechAtlasSmall.dds" Size="64.64">
+        <Image Anchor="C,C" TextureOffset="0,0" Texture="assets\UI\Art\Icons\LeaderPortraits512.dds" Size="64.64" ID="LeaderPortrait"/>
+        <Label Anchor="L,C" AnchorSide="o,i" Offset="-3,-14" Font="TwCenMT16" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="TXT_KEY_PGSCREEN_LEADERNAME" ID="LeaderName"/>
+        <Label Anchor="L,C" AnchorSide="o,i" Offset="-3,0" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" FontStyle="Base" String="TXT_KEY_PGSCREEN_CIVNAME" ID="CivName"/>
+        <Label Anchor="L,C" AnchorSide="o,i" Offset="-3,14" Font="TwCenMT14" ColorSet="Beige_Black_Alpha" FontStyle="Base" String="TXT_KEY_PGSCREEN_DIPLOSTATUS" ID="DiploState"/>
+      </Image>
+      <Label Anchor="R,C" Offset="10,0" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Base" String="00" ID="Score"/>
+      <Image Anchor="L,C" TextureOffset="0,0" Offset="6,0"  Color="0,0,0,128" Texture="assets\UI\Art\Icons\CivSymbolAtlas32.dds" Size="32.32" ID="CivSymbolShadow">
+        <Image Anchor="C,C" TextureOffset="0,0" Offset="1,1"  Texture="assets\UI\Art\Icons\CivSymbolAtlas32.dds" Size="32.32" ID="CivSymbol"/>
+      </Image>
+      <ShowOnMouseOver>
+        <Grid Anchor="C,C"  Size="234,50" Offset="0,0" Padding="0,0" Style="GridBlue8" >
+        </Grid>
+      </ShowOnMouseOver>
+    </GridButton>
+  </Instance>
+
+  <!-- Overall Screen Container -->
+  <Container Anchor="C,C" ID="PreGameScreenUI">
+
+    <!-- Menu Panel -->
+    <Grid Anchor="C,C" Size="475,450" Padding="50,50" Style="GridBlue">
+
+      <Button Anchor="C,B" ID="BackButton" String="TXT_KEY_BACK_BUTTON" Style="Button_256L" ColorSet="Beige_Black"/>
+      <Stack Anchor="L,T" Offset="50,35" Padding="10" StackGrowth="Bottom">
+        <Label Anchor="C,C" String="TXT_KEY_PGSCREEN_MAPTYPE" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black"/>
+        <RadioButton String="TXT_KEY_PGSCREEN_CONTINENTS" ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" TextAnchorSide="O,O" IsChecked="0" RadioGroup="mapselect" />
+        <RadioButton String="TXT_KEY_PGSCREEN_FRACTAL" ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" TextAnchorSide="O,O" IsChecked="1" RadioGroup="mapselect" />
+        <RadioButton String="TXT_KEY_PGSCREEN_HUB" ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" TextAnchorSide="O,O" IsChecked="0" RadioGroup="mapselect" />
+        <RadioButton String="TXT_KEY_PGSCREEN_WHEEL" ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" TextAnchorSide="O,O" IsChecked="0" RadioGroup="mapselect" />
+      </Stack>
+
+      <Stack Anchor="L,T" Offset="50,235" Padding="10" StackGrowth="Bottom">
+        <Label Anchor="C,C" String="TXT_KEY_PGSCREEN_MAPSIZE" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black"/>
+        <RadioButton String="TXT_KEY_PGSCREEN_DEBUG_MICRO" ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" TextAnchorSide="O,O" IsChecked="0" RadioGroup="sizeselect" />
+        <RadioButton String="TXT_KEY_PGSCREEN_TINY" ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" TextAnchorSide="O,O" IsChecked="1" RadioGroup="sizeselect" />
+        <RadioButton String="TXT_KEY_PGSCREEN_SMALL" ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" TextAnchorSide="O,O" IsChecked="0" RadioGroup="sizeselect" />
+        <RadioButton String="TXT_KEY_PGSCREEN_STANDARD" ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" TextAnchorSide="O,O" IsChecked="0" RadioGroup="sizeselect" />
+      </Stack>
+
+      <Stack Anchor="L,T" Offset="250,35" Padding="10" StackGrowth="Bottom">
+        <Label Anchor="C,C" String="TXT_KEY_PGSCREEN_GAME_SPEED" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black"/>
+        <RadioButton String="TXT_KEY_PGSCREEN_SPEED_QUICK" ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" TextAnchorSide="O,O" IsChecked="0" RadioGroup="speedselect" />
+        <RadioButton String="TXT_KEY_PGSCREEN_SPEED_STANDARD" ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" TextAnchorSide="O,O" IsChecked="1" RadioGroup="speedselect" />
+        <RadioButton String="TXT_KEY_PGSCREEN_SPEED_EPIC" ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" TextAnchorSide="O,O" IsChecked="0" RadioGroup="speedselect" />
+      </Stack>
+
+      <Stack Anchor="L,T" Offset="250,235" Padding="10" StackGrowth="Bottom">
+        <Label Anchor="C,C" String="TXT_KEY_PGSCREEN_DIFFICULTY" Font="TwCenMT20" FontStyle="Shadow" ColorSet="Beige_Black"/>
+        <RadioButton String="TXT_KEY_PGSCREEN_CHIEFTAN" ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" TextAnchorSide="O,O" IsChecked="0" RadioGroup="difficultyselect" />
+        <RadioButton String="TXT_KEY_PGSCREEN_EMPEROR" ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" TextAnchorSide="O,O" IsChecked="1" RadioGroup="difficultyselect" />
+        <RadioButton String="TXT_KEY_PGSCREEN_IMMORTAL" ButtonTexture="Assets/UI/Art/Controls/CheckBox.dds" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="R,C" TextAnchorSide="O,O" IsChecked="0" RadioGroup="difficultyselect" />
+      </Stack>
+
+
+
+
+      <Grid Size="300,481" Anchor="R,T" Offset="0,68" Padding="0,0" Style="GridBlue8" Hidden="True" ID="DiplomacyPanel">
+        <Grid Size="300,481" Anchor="R,T" Offset="0,0" Padding="0,0" Style="GridBlue8" >
+          <Grid Size="256,451" Anchor="L,C" Offset="15,0" Padding="0,0" Style="GridBlackIndent8" >
+            <Label Anchor="L,T" Offset="15,15" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Base" String="TXT_KEY_PGSCREEN_CIVILIZATION_POINTS"/>
+            <Label Anchor="R,T" Offset="20,15" Font="TwCenMT22" ColorSet="Beige_Black_Alpha" FontStyle="Base" String="00" ID="MyScore"/>
+            <ScrollPanel Anchor="R,T" Offset="0,40" Size="260,440" ID="BuildingScrollPanel" Vertical="1" >
+              <Stack Anchor="R,T"  Offset="0,0" Size="0,0" StackGrowth="Bottom" Padding="4" ID="ButtonStack" />
+              <ScrollBar  Offset="4,0" Style="VertSlider" Anchor="R,C" AnchorSide="O,I" Length="390" />
+              <UpButton Offset="-5,0"  Style="Button_16" Anchor="R,T" AnchorSide="O,I" />
+              <DownButton Offset="-5,0" Style="Button_16"  Anchor="R,B" AnchorSide="O,I" />
+            </ScrollPanel>
+          </Grid>
+        </Grid>
+      </Grid>
+
+    </Grid>
+
+  </Container>
+
+</Context>

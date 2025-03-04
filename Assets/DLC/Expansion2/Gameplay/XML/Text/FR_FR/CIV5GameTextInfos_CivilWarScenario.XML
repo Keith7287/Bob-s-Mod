@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_FR_FR>
+    <Row Tag="TXT_KEY_BUILD_PONTOON_BRIDGE">
+      <Text>Construire un [LINK=IMPROVEMENT_PONTOON_BRIDGE]pont flottant[\LINK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_PONTOON_BRIDGE_HELP">
+      <Text>Permet aux unités terrestres de traverser cette case côtière. Ne peut être construit que sur une case côtière adjacente à au moins 4 cases terrestres. Le pont flottant est bâti par un ingénieur militaire embarqué, qui disparaît au terme de sa construction.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_PONTOON_BRIDGE_REC">
+      <Text>Les unités terrestres pourront traverser cette case.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_AMBROSE_BURNSIDE">
+      <Text>Ambrose Burnside</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BLOCKADE_RUNNER_THEIRS">
+      <Text>{@1: plural 1?{@1: gender m?Un ; f?Une ;}; 2?Des ;}{1_UnitName} {@1: plural 1?{@1: gender m?confédéré; f?confédérée;}; 2?{@1: gender m?confédérés; f?confédérées;};} {@1: plural 1?a; 2?ont;} réussi à franchir les sécurités côtières et {@1: plural 1?est; 2?sont;} en route pour l'Europe. {@1: plural 1?Sa; 2?Leur;} cargaison de coton rapportera {2_GoldAmount} [ICON_GOLD] aux Confédérés.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BLOCKADE_RUNNER_YOURS">
+      <Text>{@1: plural 1?Votre; 2?Vos;} {1_UnitName} {@1: plural 1?a; 2?ont;} esquivé le blocus de l'Union, {@1: plural 1?est; 2?sont;} arrivés en Europe et {@1: plural 1?a; 2?ont;} vendu {@1: plural 1?sa; 2?leur;} cargaison de coton pour {2_GoldAmount} [ICON_GOLD].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BRIEFING_BUTTON">
+      <Text>Info</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILD_RAILROAD_HELP">
+      <Text>Un réseau ininterrompu de voies ferrées permet aux unités de se déplacer extrêmement rapidement. [NEWLINE][NEWLINE]Les villes reliées à votre capitale par une voie de chemin de fer bénéficient d'un bonus de [ICON_PRODUCTION] production de 25%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_BUILD_ROAD_HELP">
+      <Text>Un réseau ininterrompu de routes permet aux unités de se déplacer plus rapidement sur la carte.[NEWLINE][NEWLINE]Les villes reliées à votre capitale par des routes vous rapportent une importante quantité [ICON_GOLD] d'Or par tour.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_CIV_ENGLAND_HEADING_1">
+      <Text>Histoire</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_CIV_ENGLAND_TEXT_1">
+      <Text>Les États confédérés d'Amérique, ou la Confédération, est le nom retenu par les états du Sud ayant choisi de faire sécession des États-Unis après l'élection d'Abraham Lincoln à la présidence en 1860. Considérant que les idées de Lincoln sur l'esclavage menaçaient les droits individuels de chaque État, les états sudistes décidèrent, en toute logique, d'exercer leur droit de rejeter la Constitution et de faire sécession. [NEWLINE][NEWLINE]Le président de la Confédération, Jefferson Davis, avait pour ambition de superviser directement non seulement les questions logistiques posées par l'effort de guerre, mais aussi les stratégies militaires et les nominations au sein des armées sudistes (comme le faisait son homologue du Nord). La Confédération était confrontée à un ennemi mieux armé, supérieur en termes de main d'oeuvre et affectant davantage de matières premières au conflit. Toutefois, ces considérations pesaient peu sur le moral des troupes sudistes, qui voyaient dans cette guerre un moyen de défendre leur mode de vie et les droits individuels de chaque état face au gouvernement fédéral.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_CIV_UNITEDSTATES_HEADING_1">
+      <Text>Histoire</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_CIV_UNITEDSTATES_TEXT_1">
+      <Text>Lors de la guerre de Sécession, l'Union était le nom donné aux états fidèles au gouvernement fédéral des États-Unis. Essentiellement composé des vingt états ayant déjà choisi d'abolir l'esclavage sans obligation fédérale, le Nord comptait aussi cinq États frontaliers esclavagistes. L'Union était dirigée par le président Abraham Lincoln, qui conduisait aussi bien les manoeuvres logistiques que tactiques de la guerre contre le Sud. [NEWLINE][NEWLINE]Quand le conflit éclata, le Nord était bien plus industrialisé que le Sud, et les états de l'Union disposaient par conséquent de bien plus de ressources et de main d'oeuvre pour alimenter leur effort de guerre. L'Union comptait également sur une population plus importante pour recruter ses soldats, à peu près quatre fois plus nombreux que ceux du Sud. Mais en dépit de cette supériorité, il était très difficile pour l'Union de reconquérir les états du Sud ; les armées de la Confédération étaient dirigées par des officiers qualifiés et combattaient pour défendre leurs états, ce qui leur laissait l'avantage du terrain.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_CIV5_DAWN_TEXT">
+      <Text>DESCRIPTION DU SCÉNARIO[NEWLINE]12 avril 1861. Les mortiers des Confédérés ouvrent le feu sur le fort Sumter, près du port de Charleston et sonnent le début de la guerre de Sécession américaine. Le président Abraham Lincoln demande aux volontaires de s'enrôler dans l'armée pour une durée de 90 jours, convaincu que la révolte pourra être écrasée rapidement. Jefferson Davis, le nouveau président des États confédérés d'Amérique, partage cet optimisme. Dans un élan d'audace, Davis installe son gouvernement à Richmond, en Virginie, à 160 km à peine de Washington, D.C. Réussirez-vous à faire vôtre la victoire rapide tant attendue par les deux camps, ou la guerre mettra-t-elle à rude épreuve les idéaux de liberté à l'origine même de la jeune nation ? [NEWLINE][NEWLINE]CONDITIONS DE VICTOIRE[NEWLINE]Prenez le contrôle de la capitale de votre adversaire avant la fin du temps imparti. [NEWLINE][NEWLINE]RÈGLES SPÉCIALES[NEWLINE]Création de colons et rasage de ville désactivés. Pour créer des unités, les villes doivent disposer d'un bâtiment de production : arsenal (infanterie), écurie (cavalerie), aciérie (artillerie) ou chantier naval (unités navales). Capturez les villes ennemies pour contrôler les centres de prod. et leurs ressources en main d'œuvre pour l'infanterie. 1er tour : 1/2 des points de déplac. pour unités du joueur se déplaçant en 1er. Pas d'attaque à distance pour les villes. Défense limitée, légèrement sup. à la puissance de combat d'une garnison. Généraux illustres : portée +5, renvoi à une ville à proximité plutôt que d'être tués.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_CIV5_IMPROVEMENTS_CITADEL_TEXT">
+      <Text>Une citadelle est une place forte qui ne peut être construite que par un ingénieur. Une fois la citadelle construite, vos frontières culturelles s'étendent d'une case, tout autour de la citadelle. La puissance défensive de toute unité présente sur cette case augmentera alors de 100%. De plus, toute unité ennemie qui termine son tour sur une case adjacente à la citadelle perdra 30 PV (les dégâts ne se cumulent pas d'une citadelle à l'autre).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_DESC">
+      <Text>De 1861 à 1865, l'Amérique connaît une guerre civile sanglante dont l'action se déroule essentiellement entre Washington et Richmond, les deux capitales. Parviendrez-vous à mener l'une de ces deux nations naissantes à la victoire ?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_EO_EX_IMPROVEMENTS">
+      <Text>Coût total pour l'entretien des routes et des voies ferrées que vous avez construites, ou dont vous êtes responsable.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_EVENT_BURNSIDE">
+      <Text>NOUVEAU COMMANDANT DE L'UNION : Joe Hooker [NEWLINE][NEWLINE]Après la défaite à {1_CityName}, Lincoln estime qu'il est temps de changer de commandant de l'Union et nomme Joe Hooker à ce poste. Ce dernier octroie un modificateur de combat de 20%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_EVENT_CALL_VOLUNTEERS">
+      <Text>ÉVÉNEMENT PRO-UNION : appel aux volontaires [NEWLINE][NEWLINE]L'appel pressant d'Abraham Lincoln aux volontaires de l'Union n'est pas resté sans réponse. Grâce au chemin de fer, {1_Num} divisions d'infanterie de l'Union arrivent du nord-est !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_EVENT_CLARA_BARTON">
+      <Text>ÉVÉNEMENT PRO-UNION : Clara Barton [NEWLINE][NEWLINE]L'humanitaire Clara Barton a été nommée à la tête des hôpitaux de campagne de l'Union de ce côté-ci du théâtre des opérations. Grâce aux efforts de cet "ange du champ de bataille", la main d'oeuvre de l'Union augmente de {1_Num}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_EVENT_COTTON_PRICES">
+      <Text>ÉVÉNEMENT PRO-CONFÉDÉRÉS : prix du coton [NEWLINE][NEWLINE]Flambée du prix du coton en Europe ! Les profits générés par les Confédérés en forçant les blocus grimpent en flèche. La cause confédérée gagne {1_Num} unités d'[ICON_GOLD] or.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_EVENT_CSA_INFLATION">
+      <Text>ÉVÉNEMENT PRO-UNION : inflation dans la Confédération [NEWLINE][NEWLINE]La monnaie confédérée a été dévaluée ! La quantité d'[ICON_GOLD] or présente dans les coffres de la Confédération diminue de {1_Num}%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_EVENT_EMANCIPATION">
+      <Text>ÉVÉNEMENT PRO-UNION : Proclamation d'émancipation [NEWLINE][NEWLINE]Abraham Lincoln a signé un décret déclarant libre tout esclave résidant en territoire confédéré. La main d'oeuvre de l'Union augmente de {1_Num}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_EVENT_GEORGE_RAINS">
+      <Text>ÉVÉNEMENT PRO-CONFÉDÉRÉS : George W. Rains [NEWLINE][NEWLINE]Aidé de son frère Gabriel, George Washington Rains multiplie les travaux sur les explosifs. Ce scientifique illustre pourra peut-être aider les Confédérés à développer de nouvelles technologies, par exemple en améliorant son artillerie !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_EVENT_GRANT">
+      <Text>NOUVEAU COMMANDANT DE L'UNION : Ulysses Grant [NEWLINE][NEWLINE]Lincoln a enfin trouvé le soldat qu'il lui fallait ! Ulysses Grant, après plusieurs victoires à l'ouest, arrive à l'est pour prendre la tête de l'armée. Il octroie un modificateur de combat de 30% et toutes les unités commençant leur tour dans un rayon de 5 cases profitent d'un point de [ICON_MOVES] mouvement supplémentaire.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_EVENT_HOOKER">
+      <Text>NOUVEAU COMMANDANT DE L'UNION : Ambrose Burnside [NEWLINE][NEWLINE]Après la défaite à {1_CityName}, Lincoln estime qu'il est temps de changer de commandant de l'Union et nomme Ambrose Burnside à ce poste. S'il n'octroie qu'un modificateur de combat de 10%, Burnside est bien décidé à faire avancer l'armée du Potomac, et toutes les unités commençant leur tour dans un rayon de 5 cases profitent d'un point de [ICON_MOVES] mouvement supplémentaire.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_EVENT_JOHN_ERICSSON">
+      <Text>ÉVÉNEMENT PRO-UNION : John Ericsson [NEWLINE][NEWLINE]John Ericsson, un inventeur originaire de Suède, a rejoint les rangs de l'Union. Ce scientifique illustre pourra peut-être aider l'Union à développer de nouvelles technologies, comme le cuirassé à vapeur Monitor !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_EVENT_LEE_ARRIVES">
+      <Text>ÉVÉNEMENT PRO-CONFÉDÉRÉS : Robert E. Lee prend le commandement [NEWLINE][NEWLINE]Joe Johnston ayant été blessé au combat, Robert E. Lee est promu à la tête de l'armée de Virginie du Nord. En conséquence, le modificateur de combat des généraux illustres confédérés passent de +20% à +30%, et toutes les unités commençant leur tour dans un rayon de 5 cases profitent d'un point de [ICON_MOVES] mouvement supplémentaire.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_EVENT_MCCLELLAN">
+      <Text>NOUVEAU COMMANDANT DE L'UNION : George McClellan [NEWLINE][NEWLINE]Après la défaite à {1_CityName}, Lincoln estime qu'il est temps de changer de commandant de l'Union et nomme George McClellan à ce poste. S'il n'octroie qu'un modificateur de combat de 10%, McClellan n'a pas son pareil pour entraîner les nouvelles recrues. Lorsqu'une unité d'infanterie est en cours de formation dans la ville où il se trouve, une deuxième unité est instantanément formée en même temps.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_EVENT_MEADE">
+      <Text>NOUVEAU COMMANDANT DE L'UNION : George Meade [NEWLINE][NEWLINE]Après la défaite à {1_CityName}, Lincoln se voit à nouveau dans l'obligation de trouver un nouveau commandant. George Meade est nommé au poste, une véritable révolution par comparaison avec son prédécesseur. Il octroie un modificateur de combat conséquent de +30%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_EVENT_MOSBYS_RAIDERS">
+      <Text>ÉVÉNEMENT PRO-CONFÉDÉRÉS : pillards de Mosby [NEWLINE][NEWLINE]Un bataillon de partisans confédérés, avec à sa tête John S. Mosby, a pris le contrôle de plusieurs grands trains de l'Union dans le nord de la Virginie. Les Confédérés se sont emparés de {1_Num}% de l'[ICON_GOLD] or présent dans les caisses de l'Union !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_EVENT_NYC_DRAFT_RIOTS">
+      <Text>ÉVÉNEMENT PRO-CONFÉDÉRÉS : émeutes de la conscription à New York [NEWLINE][NEWLINE]Des émeutes civiles ravagent New York suite aux nouvelles lois sur la conscription adoptées par l'Union ! Des troupes vont devoir être envoyées pour étouffer la révolte. La main d'oeuvre de l'Union diminue de {1_Num}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_EVENT_WESTERN_CRISIS">
+      <Text>ÉVÉNEMENT PRO-UNION : crise à l'ouest [NEWLINE][NEWLINE]La victoire de l'Union à Vicksburg a semé le trouble dans les rangs des forces confédérées à l'ouest. Des renforts vont devoir être déployés dans le Mississippi. La main d'oeuvre confédérée diminue de {1_Num}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_EVENT_WESTERN_RAIL">
+      <Text>ÉVÉNEMENT PRO-CONFÉDÉRÉS : renforts venus de l'ouest [NEWLINE][NEWLINE]{1_Num} divisions d'infanterie confédérée viennent d'arriver en chemin de fer depuis le front ouest. Ces troupes seront bien plus utiles à l'est pour le moment !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_GEORGE_MEADE">
+      <Text>George Meade</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_IRVIN_MCDOWELL">
+      <Text>Irvin McDowell</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_JOE_HOOKER">
+      <Text>Joe Hooker</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_JOE_JOHNSTON">
+      <Text>Joe Johnston</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_HEADING_1">
+      <Text>Histoire</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_HEADING_2">
+      <Text>Sécession</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_HEADING_3">
+      <Text>Fort Sumter</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_HEADING_4">
+      <Text>Ressources limitées</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_HEADING_5">
+      <Text>Invasion du Nord</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_HEADING_6">
+      <Text>Reddition</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_HEADING_7">
+      <Text>Capture</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_HEADING_8">
+      <Text>Le jugement de l'Histoire</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_LIVED">
+      <Text>1808 - 1889</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_NAME">
+      <Text>Jefferson Davis</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_SUBTITLE">
+      <Text>Président provisoire de la Confédération</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_TEXT_1">
+      <Text>Né en 1808, Jefferson Davis était un homme politique et officier militaire américain, élu à la tête des États confédérés d'Amérique après la sécession des états du Sud en 1861. Davis étudia à l'Académie militaire de West Point, avant d'être affecté à Fort Crawford, puis finalement de s'installer dans le Mississippi où il prit les rênes d'une plantation. Il servit brièvement lors de la Guerre américano-mexicaine, avant de retrouver le Mississippi où le gouverneur le nomma pour siéger au Sénat américain en 1848. Propriétaire d'esclaves et vétéran de l'armée, Davis était considéré comme le plus pur représentant des valeurs sudistes, une image qui l'aida dans sa carrière politique naissante.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_TEXT_2">
+      <Text>En 1853, Davis fut nommé secrétaire à la Guerre sous le gouvernement du président nouvellement élu, Franklin Pierce. En 1857, à la fin de son mandat, il retourna au Sénat où il invita à la retenue les mouvements sécessionnistes qui couvaient dans les états du Sud. Mais suite à la victoire de Lincoln à l'élection présidentielle de 1860, le Mississippi s'allia à six autres États qui se séparaient de l'Union, et Davis démissionna de son siège au Sénat pour rentrer chez lui. Si Davis avait initialement prévu d'occuper un poste de commandement militaire au sein de la nouvelle formation des États confédérés d'Amérique, il fut élu par acclamation président provisoire de la Confédération en 1861.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_TEXT_3">
+      <Text>En tant que président des États confédérés, Davis tenta de négocier l'acquisition de plusieurs forts situés sur le territoire de la nouvelle Confédération, mais contrôlés par l'Union. Le président Lincoln n'avait pas l'intention de céder des terres au Sud et ordonna le réapprovisionnement en vivres et en matériel de Fort Sumter, en Caroline du Sud. Considérant qu'il s'agissait d'un acte de guerre, les troupes de la Confédération, menées par le général P.G.T. Beauregard, bombardèrent le fort, marquant ainsi le début officiel de la guerre de Sécession.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_TEXT_4">
+      <Text>Jefferson Davis eut à coeur de superviser directement la plupart des stratégies déployées par les armées sudistes. Il comprit rapidement que les ressources et l'équipement de la Confédération étaient limités par rapport à ceux de la grande armée de l'Union ; il préféra donc s'appuyer sur une défense vigoureuse plutôt que sur une approche agressive. Pourtant, alors que cette stratégie avait porté ses fruits et protégé Richmond, la capitale de la Confédération en Virginie, Davis et son conseiller principal, le général Robert E. Lee, décidèrent de passer à l'offensive et d'envahir le Nord.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_TEXT_5">
+      <Text>Le général Lee était certes un fin tacticien militaire et un dirigeant brillant, mais la campagne d'invasion des états du Nord par la Confédération rencontrait une résistance féroce à chaque confrontation. La bataille d'Antietam, en septembre 1862, fit plus de 10 000 morts dans les rangs sudistes, et lors de la bataille de Gettysburg, largement considérée comme un tournant de la guerre, plus de 20 000 hommes périrent ou furent blessés.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_TEXT_6">
+      <Text>En 1865, la Confédération se trouvait dans une situation désastreuse. Au mois d'avril, le commandant en chef des armées nordistes, Ulysses S. Grant, était sur le point de prendre Richmond, la capitale du Sud. Le général Robert E. Lee et l'armée de Virginie du Nord se rendirent quelques jours plus tard, tandis que Jefferson Davis et son gouvernement fuirent plus au sud. Le 5 mai 1865, le gouvernement de la Confédération fut officiellement dissout à Washington, en Géorgie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_TEXT_7">
+      <Text>Le 10 mai, Davis fut arrêté par les troupes de l'Union et passa un peu plus de deux ans en prison. Finalement libéré sous caution, Davis se retira pendant une dizaine d'années, évitant autant que possible les apparitions publiques ou les discours sur le dénouement de la guerre.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_ELIZABETH_TEXT_8">
+      <Text>Jefferson Davis mourut en 1889 à l'âge de 81 ans, atteint d'une maladie inconnue qui l'obligea à rester alité de longs mois. Après sa mort, on construisit de nombreux mémoriaux en son honneur et son héritage tient encore une place particulière chez les historiens et les descendants de ceux qui ont combattu et sont morts pour la Confédération.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_GEORGE_HEADING_1">
+      <Text>Histoire</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_GEORGE_HEADING_2">
+      <Text>Élection</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_GEORGE_HEADING_3">
+      <Text>Fort Sumter</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_GEORGE_HEADING_4">
+      <Text>Proclamation d'émancipation</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_GEORGE_HEADING_5">
+      <Text>Discours de Gettysburg</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_GEORGE_HEADING_6">
+      <Text>Le jugement de l'Histoire</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_GEORGE_LIVED">
+      <Text>1809 - 1865</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_GEORGE_NAME">
+      <Text>Abraham Lincoln</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_GEORGE_SUBTITLE">
+      <Text>Président des États-Unis d'Amérique</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_GEORGE_TEXT_1">
+      <Text>Né en 1809 dans une petite cabane au beau milieu du Kentucky, Abraham Lincoln s'éleva au-dessus de ses origines pour le moins modestes pour devenir l'un des plus grands hommes d'état de l'histoire des États-Unis. Il occupa différents postes mineurs au sein du gouvernement avant d'être élu à l'Assemblée générale de l'Illinois en 1834. Il devint juriste en 1836 et se fit rapidement une réputation d'avocat habile, acceptant de plaider dans des affaires très variées. Après plusieurs mandats successifs à la Chambre des représentants de l'Illinois, suivis d'un mandat unique à la Chambre des représentants des États-Unis, Lincoln se fit connaître pour son opposition au développement de l'esclavage dans les nouveaux territoires américains, une question majeure qui restera au centre de sa carrière politique. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_GEORGE_TEXT_2">
+      <Text>En 1860, Lincoln remporta la campagne présidentielle et devint le seizième président des États-Unis. Le spectre de la sécession sudiste menaça pour la première fois lors des désormais célèbres débats Lincoln-Douglas, où Lincoln n'eut de cesse de critiquer l'idée d'une extension de l'esclavage dans les territoires de l'Ouest des États-Unis. Les états du Sud, unis par leur soutien continu à l'esclavage, étaient prêts à abandonner les États-Unis dans le cas de l'élection de Lincoln.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_GEORGE_TEXT_3">
+      <Text>Peu après la victoire de Lincoln, les sept premiers états à faire sécession, menés par la Caroline du Sud, furent l'Alabama, la Floride, la Géorgie, la Louisiane, le Mississippi et le Texas. Ils déclarèrent leur souveraineté et formèrent les États confédérés d'Amérique en 1861. En nommant Jefferson Davis président, les états du Sud mirent leur menace de sécession à exécution. L'attaque de Fort Sumter par les Confédérés en avril 1861 mit le feu aux poudres et marqua le début de la guerre de Sécession américaine, l'un des conflits les plus dévastateurs de l'histoire du pays.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_GEORGE_TEXT_4">
+      <Text>Lincoln assura le rôle de commandant en chef de l'Union, prenant des décisions sans précédent pour faire emprisonner les sympathisants des Confédérés, bloquer tous les ports sudistes et arrêter et libérer tout esclave participant à l'effort de guerre des États confédérés. Son décret le plus radical et le plus marquant, la Proclamation d'émancipation, fut signé le 1er janvier 1863. Elle libérait tous les esclaves de la Confédération, sans toutefois leur octroyer la pleine citoyenneté américaine au sein des États-Unis.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_GEORGE_TEXT_5">
+      <Text>Quelques mois plus tard, Lincoln prononça le discours de Gettysburg, qui allait devenir l'un des plus mémorables de l'histoire. Il s'ouvre sur ces mots célèbres, qui rappellent encore aujourd'hui l'empreinte d'Abraham Lincoln dans l'histoire américaine : "Il y a quatre-vingt-sept ans, nos pères ont, sur ce continent, mis au monde une nouvelle nation, conçue en liberté et vouée à cette idée que tous les hommes naissent égaux."</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_LEADERS_GEORGE_TEXT_6">
+      <Text>Après près de cinq années de combats, où plus de 500 000 Américains trouvèrent la mort, la guerre de Sécession prit fin avec la reddition du général Robert E. Lee en avril 1865. Seulement cinq jours plus tard, alors qu'il assistait à une représentation au théâtre Ford à Washington D.C., Lincoln fut assassiné par un sympathisant sudiste, John Wilkes Booth. Même s'il n'a pas survécu pour assister à l'aboutissement de ses efforts en faveur de la réconciliation de la nation et de l'abolition de l'esclavage, la portée de son action fait qu'il est depuis longtemps reconnu comme l'un des plus grands présidents américains.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PONTOON_BRIDGE">
+      <Text>Pont flottant</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PONTOON_BRIDGE_HELP">
+      <Text>Permet aux unités terrestres de traverser cette case côtière. Ne peut être construit que sur une case côtière adjacente à au moins 4 cases terrestres. Le pont flottant est bâti par un ingénieur militaire embarqué, qui disparaît au terme de sa construction.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PONTOON_BRIDGE_TEXT">
+      <Text>Pendant la guerre, les ponts flottants étaient utilisés dans les deux camps afin de permettre à l'infanterie, à l'artillerie et aux chariots de traverser rapidement les cours d'eau. Un modèle de pont flottant révolutionnaire et léger, appelé "Cumberland", se révéla tout particulièrement crucial lors des campagnes de l'Union au plus profond du Sud.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_BALLOON_RECON">
+      <Text>Reconnaissance en ballon</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_BALLOON_RECON_HELP">
+      <Text>Champ de vision +2 pour les généraux illustres.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_IGNORES_GREAT_GENERAL">
+      <Text>Généraux illustres ignorés</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_IGNORES_GREAT_GENERAL_HELP">
+      <Text>Les généraux illustres à proximité n'octroient aucun bonus.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_MORALE">
+      <Text>Hurlement rebelle</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_PROMOTION_MORALE_HELP">
+      <Text>[ICON_STRENGTH] Puissance de combat +10%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_RESOURCE_MANPOWER_HELP">
+      <Text>La main d'oeuvre est produite dans les casernes et est indispensable à l'entretien de votre infanterie. De la protection de vos casernes dépend votre victoire, tout particulièrement dans le Sud où la main d'oeuvre est limitée. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_RESOURCE_MANPOWER_TEXT">
+      <Text>Les États-Unis sont le premier pays à avoir adopté la conscription dans le but d'augmenter la main d'oeuvre militaire lors de la guerre de Sécession, en promulguant un acte autorisant le gouvernement à réquisitionner des citoyens pour grossir les rangs des volontaires. Le président des États confédérés, Jefferson Davis, proposa la première loi de conscription (Conscription Act) des États du Sud en mars 1862, à l'approche d'une vague de permissions au sein des volontaires. Cette loi fut promulguée par le Congrès confédéré le mois suivant. Les lois sur la conscription visaient à répondre aux pénuries de main d'oeuvre engendrées par de nombreuses pertes sur le champ de bataille, mais elles devinrent de plus en plus impopulaires à mesure que la guerre continuait.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_ROBERT_E_LEE">
+      <Text>Robert E. Lee</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_SCENARIO_TECH_BUTTON_1">
+      <Text>Permet à la cavalerie de piller des cases.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_SCENARIO_TECH_BUTTON_2">
+      <Text>Permet à l'infanterie de piller des cases.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_BALLOON_RECONNAISSANCE_DESC">
+      <Text>Avec le déclenchement de la guerre, le Département de la Guerre américain créa le "Balloon Corps". Le civil Thaddeus Lowe fut nommé premier commandant, avec le titre d'aéronaute en chef. C'est lors de la première bataille de Bull Run que le général de l'Union McDowell fit appel au corps aéronautique afin d'observer depuis le ciel les campements et mouvements de l'ennemi.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_BALLOON_RECONNAISSANCE_HELP">
+      <Text>Augmente le champ de vision de tous les généraux.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_BALLOON_RECONNAISSANCE_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"J'ai le plaisir de vous envoyer ce premier ordre du jour, jamais télégraphié depuis une station aérienne."[NEWLINE][TAB][TAB] - Thaddeus S. C. Lowe[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_CAVALRY_RAIDS_DESC">
+      <Text>La Confédération, luttant contre une guerre défensive, fut la première à lancer des raids de cavalerie à grande échelle, allant de quelques centaines à deux mille soldats montés, franchissant les lignes ennemies pour y semer le trouble. Certains généraux de la cavalerie confédérée, comme J.E.B. Stuart, John Hunt Morgan et "Jo" Shelby, devinrent tristement célèbres pour leurs raids particulièrement violents, au cours desquels ils brûlaient des ponts, des entrepôts et des villes entières, dispersaient le bétail et détruisaient les récoltes. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_CAVALRY_RAIDS_HELP">
+      <Text>Permet aux unités de cavalerie de piller les cases ennemies. Tant que cette technologie n'est pas découverte, les unités sont incapables de piller le territoire ennemi.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_CAVALRY_RAIDS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"Jeb Stuart est mon modèle en matière de chef de cavalerie : rapide, vigilant et audacieux."[NEWLINE][TAB][TAB] - Thomas J. Jackson[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_ENGINEERING_DESC">
+      <Text>Même si les ingénieurs de l'Union possédaient des matériaux et de la main d'oeuvre en abondance, et que ceux du Sud avaient de l'imagination et des produits de première nécessité, les deux camps étaient confrontés à l'évolution des technologies de guerre massive : la télégraphie, les chemins de fer, les fils barbelés, les ponts flottants, les montgolfières et plus encore. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_ENGINEERING_HELP">
+      <Text>Vous permet de former l'[COLOR_POSITIVE_TEXT]ingénieur militaire[ENDCOLOR], une unité civile pouvant réparer les aménagements et construire des routes ainsi que des voies ferrées. Vous pouvez également utiliser l'unité pour construire une citadelle ou un pont flottant, mais elle disparaîtra dans l'action.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_ENGINEERING_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"Arrêtez de penser à ce que Bobby Lee nous réserve, et pensez plutôt à ce que nous allons lui faire."[NEWLINE][TAB][TAB] - Ulysses S. Grant[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_ENTRENCHMENT_DESC">
+      <Text>Une fortification, telle une tranchée, a pour but de protéger l'infanterie de la cavalerie et des tirs en temps de guerre. Pendant la guerre de Sécession, des tranchées temporaires furent creusées lors des batailles, comme à Gettysburg, tandis que des tranchées plus vastes et plus élaborées protégeaient des villes stratégiques telles que Washington et Richmond.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_ENTRENCHMENT_HELP">
+      <Text>Multiplie par deux le bonus de combat en cas de retranchement.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_ENTRENCHMENT_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"J'ai toujours regretté le dernier assaut à Cold Harbor."[NEWLINE][TAB][TAB] - Ulysses S. Grant[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_FIELD_HOSPITALS_DESC">
+      <Text>Avant la guerre de Sécession, les armées avaient tendance à être réduites, notamment pour des questions de logistique et de mobilisation. Mais quand les armées devinrent plus importantes, plus rapides et mieux équipées, il y eut une forte demande de la part des civils comme des officiers pour une meilleure prise en charge des blessés. Du côté de l'Union, après la bataille de Bull Run, le général McClellan nomma le chirurgien Charles Tipler premier directeur médical de l'Armée du Potomac. En 1862, William Hammond fut nommé chirurgien général de l'armée américaine et lança plusieurs réformes concernant les procédures d'évacuation, de traitement et de guérison des blessés, en intégrant notamment des hôpitaux de campagne directement sur le front.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_FIELD_HOSPITALS_HELP">
+      <Text>Multiplie par deux la vitesse de soin de toutes vos unités.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_FIELD_HOSPITALS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"J'ai toujours attendu ce conflit. Je suis bien portante, forte et jeune... assez jeune pour partir au front. Si je ne peux pas combattre, j'aiderai les soldats."[NEWLINE][TAB][TAB] - Clara Barton[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_INDUSTRIALIZATION_DESC">
+      <Text>L'Union, déjà industrialisée, s'est attachée durant toute la guerre à peaufiner et à perfectionner ses méthodes de production de masse et de transport des armes, des vêtements et du matériel militaire de toute sorte en grandes quantités. Les États du Sud, a contrario, étaient en grande partie des États agraires au début de la guerre et importaient la plupart des produits manufacturés du Nord ou de l'Europe.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_INDUSTRIALIZATION_HELP">
+      <Text>Vous permet de construire la [COLOR_POSITIVE_TEXT]mitrailleuse Gatling[ENDCOLOR], une puissante unité d'une portée d'une case.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_INDUSTRIALIZATION_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"Cette année nous a apporté beaucoup de changements que nous pensions pourtant impossibles lorsqu'elle a débuté."[NEWLINE][TAB][TAB] - Christian Fleetwood[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_IRONCLADS_DESC">
+      <Text>Cherchant à forcer le blocus de l'Union, la Confédération fut la première, durant la guerre de Sécession, à construire un cuirassé à vapeur. En octobre 1861, le CSS Manassas devint le premier cuirassé à vapeur à attaquer les navires de guerre de l'Union lors du Combat de Head of Passes, une bataille éclipsée quelques mois plus tard par le tout premier combat de cuirassés à vapeur opposant le CSS Merrimack et l'USS Monitor.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_IRONCLADS_HELP">
+      <Text>Vous permet de construire le [COLOR_POSITIVE_TEXT]cuirassé à vapeur[ENDCOLOR], une puissante unité navale qui dominera les vaisseaux en bois.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_IRONCLADS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"Les tourelles et d'autres parties du navire furent gravement touchés, mais les tirs ne pénétrèrent pas l'armature. La tour était intacte, et elle tournait encore. On pouvait lire la confiance sur le visage des hommes, et nous pensions que le Merrimac ne réitérerait pas le travail accompli la veille."[NEWLINE][TAB][TAB] - Samuel Dana Greene[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_MILITARY_RAILROADS_DESC">
+      <Text>L'United States Military Railroad fut créée par le Département de la Guerre américain en 1862 pour gérer les lignes de chemin de fer saisies par le gouvernement fédéral, après le vote du Congrès autorisant la président Lincoln à réquisitionner les lignes ferroviaires et télégraphiques pour l'armée. À la fin de la guerre, l'USMRR contrôlait plus de 3 000 km de voies au Nord et s'était emparé des lignes ferroviaires au Sud.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_MILITARY_RAILROADS_HELP">
+      <Text>Divise par deux le temps nécessaire à la construction des voies ferrées et multiplie par deux votre vitesse de déplacement sur les voies ferrées.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_MILITARY_RAILROADS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"Les Nordistes savent produire des moteurs à vapeur, des locomotives ou des wagons ; c'est à peine si vous pouvez fabriquer un bout de tissu ou une paire de chaussures. Vous partez précipitamment en guerre alors que l'un des peuples les plus puissants, mécaniquement inspirés et déterminés au monde est à votre porte."[NEWLINE][TAB][TAB] - William Tecumseh Sherman[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_MILITARY_SCIENCE_DESC">
+      <Text>Au début de la guerre de Sécession, plusieurs académies militaires se consacrèrent à l'éducation des jeunes hommes en science militaire, et plus particulièrement l'Académie militaire de West Point. Les États du Sud, en revanche, comptaient un plus grand nombre d'académies privées (et sans doute d'un meilleur niveau) respectant les traditions du Sud : l'Institut militaire de Virginie, l'Académie militaire de Caroline du Sud ou Citadelle, les Académies militaires du Mississippi, et bien d'autres.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_MILITARY_SCIENCE_HELP">
+      <Text>Vous permet de former le [COLOR_POSITIVE_TEXT]régiment d'infanterie[ENDCOLOR], une amélioration de la division d'infanterie nécessitant plus d'hommes, mais surtout bien plus [ICON_STRENGTH] puissante au combat.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_MILITARY_SCIENCE_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"Pourquoi parle-t-on de guerres civiles alors qu'elle sont extraordinairement inciviles ?"[NEWLINE][TAB][TAB] - Elizabeth Fitch[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_REPEATING_RIFLES_DESC">
+      <Text>La guerre de Sécession est souvent citée comme la première guerre "moderne" de l'histoire en raison, notamment, de l'utilisation d'armes innovantes. L'une des plus décisives sur le plan tactique était le fusil à répétition, capable de tirer plusieurs coups avant d'être rechargé. Le rechargement du fusil à répétition permettait par ailleurs de le réarmer. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_REPEATING_RIFLES_HELP">
+      <Text>Vous permet de former la [COLOR_POSITIVE_TEXT]cavalerie à carabines[ENDCOLOR], une amélioration de la division de cavalerie dont la [ICON_STRENGTH] puissance de combat est multipliée par deux.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_REPEATING_RIFLES_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"Nos meilleurs officiers estiment qu'un homme équipé d'une carabine Spencer en vaut trois équipés de n'importe quelle autre arme."[NEWLINE][TAB][TAB] - Général James H. Wilson[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_RIFLED_ARTILLERY_DESC">
+      <Text>La cannelure vient ajouter des rainures à l'intérieur du cylindre de l'arme afin d'en améliorer la portée et la précision, au détriment des coûts de fabrication et de la longueur du canon, nécessairement plus importants. À l'est, les armées de l'Union et de la Confédération utilisaient toutes deux des batteries de canons rayés, ainsi que des batteries mêlant les deux types de canons, lisses et rayés.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_RIFLED_ARTILLERY_HELP">
+      <Text>Vous permet de construire le [COLOR_POSITIVE_TEXT]canon rayé[ENDCOLOR], une unité d'artillerie dont la portée est de 3 cases.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_RIFLED_ARTILLERY_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"Le canon 76 mm des Yankees ne ratait jamais sa cible à moins d'1,5 km. Ils pouvaient toucher un sac de farine à coup sûr, à moins que le tireur ne sursaute."[NEWLINE][TAB][TAB] - Artilleur confédéré lors de la bataille d'Atlanta[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_SCORCHED_EARTH_DESC">
+      <Text>Une ancienne tactique de guerre, que l'on appelle "terre brûlée", consiste à détruire tout ce qui pourrait être utile à l'ennemi, y compris les biens des civils. Durant la guerre de Sécession, qui dura suffisamment longtemps pour être très impopulaire sur le front intérieur, les États-Unis usèrent de cette tactique. La marche de Sherman vers la mer et la campagne de Sheridan dans la vallée de Shenandoah en sont les exemples les plus connus. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_SCORCHED_EARTH_HELP">
+      <Text>Permet aux unités d'infanterie de piller les cases ennemies.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TECH_SCORCHED_EARTH_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"La guerre, c'est l'enfer."[NEWLINE][TAB][TAB] - William Tecumseh Sherman[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TITLE">
+      <Text>Guerre de Sécession</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_TURNS_REMAINING">
+      <Text>Tours restants : {1_TurnsRemaining}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_ULYSSES_GRANT">
+      <Text>Ulysses Grant</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_BLOCKADE_RUNNER_TEXT">
+      <Text>Les forceurs de blocus confédérés étaient des navires de commerce légers et rapides, commissionnés pour distancer ou passer discrètement devant les navires de guerre de l'Union qui tentaient d'appliquer le plan Anaconda, une stratégie destinée à priver les états du Sud de leur commerce du coton avec les nations européennes. Si exporter du coton et importer des réserves médicales et militaires était un marché lucratif pour les capitaines sudistes, il était aussi diablement dangereux ; à la fin de la guerre, l'Union avaient capturé 1 100 forceurs de blocus et en avaient détruit 355 autres.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_CARBINE_CAVALRY_TEXT">
+      <Text>La carabine, dotée d'un canon plus court que celui du fusil, était moins précise que celui-ci, mais plus simple d'utilisation pour les soldats à cheval. La plupart des régiments de cavalerie de l'Union, ainsi que quelques-uns parmi ceux des Confédérés, étaient équipés de carabines vers la fin de la guerre de Sécession, et elles purent montrer toute leur valeur lors des affrontements de cavalerie de Brandy Station et de Yellow Tavern.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_HELP_WORKER">
+      <Text>Unité civile capable de réparer des aménagements, et de construire des routes et des voies ferrées. Peut également être utilisée pour bâtir des citadelles ou des ponts flottants, mais l'unité disparaît dans l'opération.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_INFANTRY_CORPS_TEXT">
+      <Text>Dans les deux camps, les régiments d'infanterie constituaient la forme principale d'organisation militaire. Au sein de l'armée confédérée, ils comprenaient deux à quatre divisions et recevaient le nom de leur commandant (régiment de Longstreet, par exemple). Les régiments d'infanterie de l'Union suivaient, quant à eux, un schéma fixe de 3 divisions et étaient simplement numérotés. Un régiment d'infanterie était composé de 10 000 à 25 000 hommes en moyenne. Ils étaient commandés par un lieutenant général du côté sudiste et par un major général dans les armées de l'Union.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_INFANTRY_DIVISION_TEXT">
+      <Text>Une division d'infanterie était généralement constituée de deux à quatre brigades, chacune comprenant entre 1 200 et 2 500 soldats. Commandée par un général, la division était l'unité de base des manoeuvres pendant le combat. En théorie, ces généraux avaient pour mission de gérer la puissance de frappe de leur division jusqu'à ce qu'elle soit capable de frapper un grand coup plutôt que de lancer une série d'attaques moindres contre l'adversaire.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_IRONCLAD_TEXT">
+      <Text>Le premier navire de guerre à vapeur recouvert de fer ou d'acier fut lancé par la marine française en 1859, mais les premières batailles faisant appel aux cuirassés à vapeur n'eurent cependant lieu qu'en 1862, au cours de la guerre de Sécession. Le cuirassé à vapeur s'imposa rapidement comme successeur du navire de ligne, devenant par la même occasion le bateau de guerre le plus puissant de la flotte. À la fin de la guerre, la marine confédérée, qui avait commandé la construction de 59 cuirassés à vapeur, n'était parvenue à en lancer que 24 ; un grand nombre d'entre eux furent en effet détruits avant même que leur construction ne soit achevée. L'Union, quant à elle, avait commissionné 52 cuirassés à vapeur côtiers.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_MILITARY_ENGINEER_TEXT">
+      <Text>L'ingénierie militaire est librement définie comme l'art de concevoir et de construire des fortifications militaires, et de maintenir les lignes de transport et de communications de l'armée. Pendant la guerre de Sécession, et grâce aux progrès technologiques, les ingénieurs militaires étaient non seulement responsables des fortifications, des bases et des ponts permanents sur le champ de bataille, mais ils étaient aussi dépêchés pour construire et réparer les lignes de voies ferrées et de télégraphe, ce qui changea considérablement la physionomie de la guerre.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_MONITOR_TEXT">
+      <Text>Pendant la guerre de Sécession, le monitor était un navire de guerre à vapeur blindé à la hauteur de franc-bord très basse (environ 30 centimètres entre la ligne de flottaison et le pont). Il était équipé de plusieurs canons lourds, montés sur une ou plusieurs tourelles. Conçue à l'origine pour naviguer sur les rivières qui traversaient les états confédérés du Sud, l'embarcation, qui ne répondait pas aux normes de l'époque, était utilisée comme renfort aux forces terrestres, pour protéger les positions sur les berges et contrôler la traversée de la rivière. Les monitors se révélèrent décisives dans les victoires de l'Union, en particulier le long du fleuve Mississippi.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARIO_UNIT_RIFLED_CANNON_TEXT">
+      <Text>La cannelure vient ajouter des rainures à l'intérieur du cylindre de l'arme afin d'en améliorer la portée et la précision, au détriment des coûts de fabrication et de la longueur du canon, nécessairement plus importants. Bien que les armées de la guerre de Sécession aient été équipées de différents modèles de canons rayés, le plus célèbre reste sans doute le canon Parrott, utilisé dans les deux camps sous diverses tailles, depuis le canon de 10 livres tel qu'on pouvait le voir sur le champ de bataille jusqu'à celui de 300 livres, partie intégrante des fortifications.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVIL_WAR_SCENARO_GEORGE_MCCLELLAN">
+      <Text>George McClellan</Text>
+    </Row>
+  </Language_FR_FR>
+</GameData>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- Table definition -->
+    <Table name="TurnTimers">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" notnull="true" unique="true" />
+        <Column name="Description" type="text" />
+        <Column name="BaseTime" type="integer" />
+        <Column name="CityResource" type="integer" />
+        <Column name="UnitResource" type="integer" />
+        <Column name="FirstTurnMultiplier" type="integer" />
+    </Table>
+
+    <!-- Table data -->
+    <TurnTimers>
+        <Row>
+            <ID>0</ID>
+            <Type>TURNTIMER_STATIC</Type>
+            <Description>TXT_KEY_TURNTIMER_STATIC</Description>
+            <BaseTime>60</BaseTime>
+            <CityResource>3</CityResource>
+            <UnitResource>1</UnitResource>
+            <FirstTurnMultiplier>4</FirstTurnMultiplier>
+        </Row>
+        <Row>
+            <ID>1</ID>
+            <Type>TURNTIMER_SNAIL</Type>
+            <Description>TXT_KEY_TURNTIMER_SNAIL</Description>
+            <BaseTime>90</BaseTime>
+            <CityResource>36</CityResource>
+            <UnitResource>12</UnitResource>
+            <FirstTurnMultiplier>6</FirstTurnMultiplier>
+        </Row>
+        <Row>
+            <ID>2</ID>
+            <Type>TURNTIMER_SLOW</Type>
+            <Description>TXT_KEY_TURNTIMER_SLOW</Description>
+            <BaseTime>45</BaseTime>
+            <CityResource>18</CityResource>
+            <UnitResource>6</UnitResource>
+            <FirstTurnMultiplier>5</FirstTurnMultiplier>
+        </Row>
+        <Row>
+            <ID>3</ID>
+            <Type>TURNTIMER_MEDIUM</Type>
+            <Description>TXT_KEY_TURNTIMER_MEDIUM</Description>
+            <BaseTime>30</BaseTime>
+            <CityResource>12</CityResource>
+            <UnitResource>4</UnitResource>
+            <FirstTurnMultiplier>4</FirstTurnMultiplier>
+        </Row>
+        <Row>
+            <ID>4</ID>
+            <Type>TURNTIMER_FAST</Type>
+            <Description>TXT_KEY_TURNTIMER_FAST</Description>
+            <BaseTime>25</BaseTime>
+            <CityResource>9</CityResource>
+            <UnitResource>3</UnitResource>
+            <FirstTurnMultiplier>3</FirstTurnMultiplier>
+        </Row>
+        <Row>
+            <ID>5</ID>
+            <Type>TURNTIMER_BLAZING</Type>
+            <Description>TXT_KEY_TURNTIMER_BLAZING</Description>
+            <BaseTime>20</BaseTime>
+            <CityResource>6</CityResource>
+            <UnitResource>2</UnitResource>
+            <FirstTurnMultiplier>2</FirstTurnMultiplier>
+        </Row>
+    </TurnTimers>
+</GameData>

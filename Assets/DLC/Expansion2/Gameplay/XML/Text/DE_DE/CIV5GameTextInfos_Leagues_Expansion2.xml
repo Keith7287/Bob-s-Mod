@@ -1,0 +1,889 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_DE_DE>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_ALREADY_COMMITTED">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Abgeordnete für diese Sitzung des Weltkongresses bereits mit einer Zivilisation gehandelt.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_ALREADY_USED_VOTES">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Ihr habt bereits Abgeordnete für diese Sitzung des Weltkongresses zugewiesen.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_ENACT_TT">
+      <Text>Bei der nächsten Sitzung des Weltkongresses wird dieses Staatsoberhaupt seine Hauptdelegation von [COLOR_POSITIVE_TEXT]{1_NumVotes}[ENDCOLOR] Abgeordneten nutzen, um das Votum "{2_ChoiceText}" über den Vorschlag zur [COLOR_POSITIVE_TEXT]Durchsetzung[ENDCOLOR] folgender Veränderungen abzugeben:[NEWLINE][NEWLINE]{3_ProposalText}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_IN_SESSION">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Handel ist nicht möglich, wenn der Weltkongress tagt.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO">
+      <Text>Wir haben keine Abgeordneten-Unterstützung zum Handel.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_LEAGUE">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Der Weltkongress wurde noch nicht gegründet.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_PROPOSALS">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Es wurden noch keine Vorschläge für diese Sitzung des Weltkongresses gemacht.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_SPY">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Wir brauchen einen Spion als [ICON_DIPLOMAT] Diplomat in ihrer [ICON_CAPITAL] Hauptstadt.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_SPY_ACTIVE_PLAYER">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Sie brauchen einen Spion als [ICON_DIPLOMAT] Diplomat in unserer [ICON_CAPITAL] Hauptstadt.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_THEM">
+      <Text>Sie haben keine Abgeordneten-Unterstützung zum Handel.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NOT_MEMBER">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Kein Mitglied des Weltkongresses.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_REPEAL_TT">
+      <Text>Bei der nächsten Sitzung des Weltkongresses wird dieses Staatsoberhaupt seine Hauptdelegation von [COLOR_POSITIVE_TEXT]{1_NumVotes}[ENDCOLOR] Abgeordneten nutzen, um das {2_ChoiceText}-Votum über den Vorschlag zur [COLOR_WARNING_TEXT]Aufhebung[ENDCOLOR] folgender Effekte abzugeben:[NEWLINE][NEWLINE]{3_ProposalText}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_YES">
+      <Text>Wir haben Abgeordneten-Unterstützung zum Handel.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_YES_THEM">
+      <Text>Sie haben Abgeordneten-Unterstützung zum Handel.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_ALWAYS">
+      <Text>Überwältigende Vorliebe</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_DISLIKE">
+      <Text>Moderate Abneigung</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_LIKE">
+      <Text>Moderate Vorliebe</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_NEUTRAL">
+      <Text>Neutralität</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_NEVER">
+      <Text>Überwältigende Abneigung</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_STRONG_DISLIKE">
+      <Text>Starke Abneigung</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_STRONG_LIKE">
+      <Text>Starke Vorliebe</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_WEAK_DISLIKE">
+      <Text>Schwache Abneigung</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_WEAK_LIKE">
+      <Text>Schwache Vorliebe</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_NOT_FOUNDED">
+      <Text>Der Weltkongress wurde noch nicht gegründet. Er wird beginnen, sobald eine Zivilisation die Technologie {@1_TechName} entdeckt und alle anderen Zivilisationen im Spiel getroffen hat.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_NOT_FOUNDED_GAME_SETTINGS">
+      <Text>Der Weltkongress ist für dieses Spiel deaktiviert.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_1">
+      <Text>1.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_10">
+      <Text>10.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_2">
+      <Text>2.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_3">
+      <Text>3.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_4">
+      <Text>4.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_5">
+      <Text>5.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_6">
+      <Text>6.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_7">
+      <Text>7.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_8">
+      <Text>8.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_9">
+      <Text>9.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW">
+      <Text>Weltkongress</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_ACTIVE_RESOLUTIONS">
+      <Text>Erlassene Resolutionen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_ACTIVE_RESOLUTIONS_TT">
+      <Text>Derzeit aktive Resolutionen, die Zivilisationen aufzuheben versuchen können.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CHANGE_NAME">
+      <Text>Namen ändern</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_COMMIT_PROPOSALS">
+      <Text>Vorschlag übergeben</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_COMMIT_VOTES">
+      <Text>Abgeordnete einsetzen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CONFIRM">
+      <Text>Seid Ihr sicher?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CONFIRM_MISSING_VOTES">
+      <Text>[COLOR_WARNING_TEXT]Einige Eurer Abgeordneten sind nicht zugewiesen.[ENDCOLOR] Möchtet Ihr trotzdem fortfahren?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CURRENT_PROPOSALS">
+      <Text>Aktuelle Vorschläge</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CURRENT_PROPOSALS_TT">
+      <Text>Resolutionen, über die bei der nächsten Sitzung entschieden wird. Das Ergebnis hängt von der Wahl der Abgeordneten aus den Zivilisationen ab. Bei einem Unentschieden scheitert die Resolution und nichts ändert sich.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_ACTIVE_PROJECTS">
+      <Text>Begonnene Projekte: {1_ProjectsList}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_ACTIVE_PROJECTS_ENTRY">
+      <Text>{@1_ProjectName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_CULTURE_FROM_NATURAL_WONDERS">
+      <Text>+{1_CulturePerWorldWonder} [ICON_CULTURE] Kultur für Naturwunder</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_CULTURE_FROM_WONDERS">
+      <Text>+{1_CulturePerWorldWonder} [ICON_CULTURE] Kultur für Weltwunder</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_DISCOVERED_TECH_MODIFIER">
+      <Text>-{1_ResearchCostPercent}% [ICON_RESEARCH] Forschungskosten für Technologien, die bereits von anderen Zivilisationen entdeckt wurden</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_CITY_STATES">
+      <Text>Kein [ICON_INTERNATIONAL_TRADE] Handel mit Stadtstaaten</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_PLAYERS">
+      <Text>Kein [ICON_INTERNATIONAL_TRADE] Handel mit: {1_CivsList}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_PLAYERS_ENTRY">
+      <Text>{@1_CivName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_GPT">
+      <Text>[ICON_GOLD] Gold pro Runde: {1_GoldPerTurn}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_GREAT_PERSON_RATE_ENTRY">
+      <Text>{@1_GreatPersonType}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_GREAT_PERSON_TILE_IMPROVEMENT_CULTURE">
+      <Text>+{1_NumCulture} [ICON_CULTURE] Kultur für jede Große Persönlichkeiten-Modernisierung</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_HOST">
+      <Text>Gastgeber: {@1_CivName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_LANDMARK_CULTURE">
+      <Text>+{1_NumCulture} [ICON_CULTURE] Kultur für jedes archäologische Wahrzeichen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NEGATIVE_GREAT_PERSON_RATE">
+      <Text>{1_GreatPersonRateMod}% Generationsrate für {2_GreatPersonList}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NO_NUCLEAR_WEAPONS">
+      <Text>Kein Bau von Atomwaffen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NO_RESOURCE_HAPPINESS">
+      <Text>Keine [ICON_HAPPINESS_1] Zufriedenheit für: {1_ResourceList}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NO_RESOURCE_HAPPINESS_ENTRY">
+      <Text>{@1_ResourceName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NONE">
+      <Text>Keine Effekte</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_POSITIVE_GREAT_PERSON_RATE">
+      <Text>+{1_GreatPersonRateMod}% Generationsrate für {2_GreatPersonList}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_RESOURCE_QUANTITIES">
+      <Text>Zusätzliche Ressourcen: {1_ResourcesList}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_RESOURCE_QUANTITIES_ENTRY">
+      <Text>{@1_ResourceName} ({2_ResourceQuantity})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_TITLE">
+      <Text>Aktuelle Effekte</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_TT">
+      <Text>Dies sind die aktuellen Effekte aufgrund des Weltkongresses. Sie verändern sich, wenn neue Resolutionen erlassen oder alte aufgehoben werden.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_UNIT_MAINTENANCE">
+      <Text>+{1_UnitMaintenancePercent}% [ICON_GOLD] Goldkosten für Einheiten-Unterhalt</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WORLD_IDEOLOGY">
+      <Text>Weltideologie: {@1_IdeologyName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WORLD_RELIGION">
+      <Text>Weltreligion: {1_IconString} {@2_ReligionName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_ENTER_NAME">
+      <Text>Gebt einen neuen Namen ein</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_ERROR_NAME_EMPTY">
+      <Text>Das Namensfeld darf nicht leer sein.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_IN_SESSION">
+      <Text>IN SITZUNG</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_IN_SPECIAL_SESSION">
+      <Text>[COLOR_POSITIVE_TEXT]SONDERSITZUNG[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INACTIVE_RESOLUTIONS">
+      <Text>Mögliche Resolutionen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INACTIVE_RESOLUTIONS_TT">
+      <Text>Resolutionen, die Zivilisationen zu aktivieren versuchen können.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_ALREADY_ENACTED">
+      <Text>Bereits in Kraft.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_ALREADY_PROPOSED">
+      <Text>Bereits vorgeschlagen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_BUTTON_TT">
+      <Text>[COLOR_GREY]Ihr könnt diesen Vorschlag zurzeit nicht einbringen.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_CHOICE_BUTTON_TT">
+      <Text>[COLOR_GREY]Diese Auswahl für den Vorschlag wird bereits erwägt und kann nicht erneut vorgeschlagen werden.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_GAMEOPTION">
+      <Text>Durch Spieloptionen nicht möglich.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_NO_CHOICES">
+      <Text>Keine verfügbaren Auswahlmöglichkeiten für diese Resolution.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_NO_PLAYER_PROPOSAL">
+      <Text>Kann nicht von einer Zivilisation vorgeschlagen werden.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_NO_TECH">
+      <Text>{@1_TechName} wurde noch von keiner Zivilisation erforscht.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS">
+      <Text>{@1_LeaderName} {@2: plural 1?{@2: gender *:vowel?vom; feminine?von der; other?von;}; other?von den;} {@2_CivName[2]} bestimmt über insgesamt {3_VotesRemaining} {3_VotesRemaining: plural 1?Abgeordneten; other?Abgeordnete;}. Hat die Sitzung begonnen, bleibt der Wert bestehen, bis die Sitzung endet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_BASE_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} für Mitgliedschaft</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_CS_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} für Stadtstaaten ({2_VotesPerCityState} pro Verbündetem)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_DIPLOMAT_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} durch Erforschung von Globalisierung ({2_VotesPerDiplomat} pro Spion als [ICON_DIPLOMAT] Diplomat)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_EXTRA_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} aus vorherigen Weltherrscher-Versuchen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_HOST_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} für Gastgeber-Zivilisation</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_WONDER_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} durch Weltwunder</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_WORLD_IDEOLOGY_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} durch Anhängerschaft der Weltideologie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_WORLD_RELIGION_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} durch Anhängerschaft der Weltreligion</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_DOF">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Wir haben eine Freundschaftserklärung[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_IDEOLOGY">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Wir haben dieselbe Ideologie[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_INTIMATE">
+      <Text>[NEWLINE][NEWLINE]Wir haben genaues Wissen über ihre Agenda.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_NO_DOF">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]Wir haben keine Freundschaftserklärung.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_NO_IDEOLOGY">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]Wir teilen keine Ideologie[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_NO_SPY">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]Wir haben keinen [ICON_SPY] Spion als [ICON_DIPLOMAT] Diplomat in ihrer [ICON_CAPITAL] Hauptstadt[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_NONE">
+      <Text>[NEWLINE][NEWLINE]Ihre Interessen sind zum Großteil ein Rätsel.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_PARTIAL">
+      <Text>[NEWLINE][NEWLINE]Wir kennen ihre Ziele teilweise.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_SPY">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Wir haben einen [ICON_SPY] Spion als [ICON_DIPLOMAT] Diplomat in ihrer [ICON_CAPITAL] Hauptstadt[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTE_COMMITMENT">
+      <Text>[NEWLINE][NEWLINE]Aufgrund eines Handelsabkommens haben sie zugestimmt, dass {3_NumDelegates} ihrer Abgeordneten mit "{2_VoteChoice}" zum Vorschlag "{1_Proposal}" {3_NumDelegates: plural 1?stimmen wird; other?stimmen werden;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTE_INTIMATE">
+      <Text>[NEWLINE][ICON_BULLET]{3_DesireLevel} für {2_VoteChoice} bezüglich: {1_Proposal}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTE_NONE">
+      <Text>[NEWLINE][ICON_BULLET]Unbekannt bezüglich: {1_Proposal}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTE_PARTIAL">
+      <Text>[NEWLINE][ICON_BULLET]{2_VoteChoice} bezüglich: {1_Proposal}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTES">
+      <Text>[NEWLINE][NEWLINE]Ihre Top-Auswahl für die aktuellen Vorschläge:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_VOTES">
+      <Text>{1_VotesRemaining} Abgeordnete</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_OTHER_RESOLUTIONS">
+      <Text>Andere Resolutionen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_OTHER_RESOLUTIONS_TT">
+      <Text>Derzeit können keine Resolutionen vorgeschlagen werden.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PREFIX_ENACT">
+      <Text>[COLOR_POSITIVE_TEXT]ERLASSEN: [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PREFIX_REPEAL">
+      <Text>[COLOR_WARNING_TEXT]AUFHEBEN: [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_ON_HOLD_TT">
+      <Text>Dieser Vorschlag ist ausstehend, bis der Weltkongress seine Sondersitzung beendet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINION">
+      <Text>[NEWLINE][ICON_BULLET]{@1_CivName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_NEGATIVE">
+      <Text>[NEWLINE][NEWLINE]Zivilisationen, die über diesen Vorschlag verärgert wären:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_POSITIVE">
+      <Text>[NEWLINE][NEWLINE]Zivilisationen, die für diesen Vorschlag dankbar wären:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSE_BUTTON">
+      <Text>Klicken zum Vorschlagen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSE_BUTTON_TT">
+      <Text>Hier klicken, um eine Resolution vorzuschlagen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSE_RESOLUTION">
+      <Text>RESOLUTION VORSCHLAGEN</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSER_BY_DELEGATION_SIZE">
+      <Text>Die Zivilisation wird in der nächsten Sitzung einen Vorschlag machen können, weil sie die Nicht-Gastgeber-Zivilisation mit den meisten Abgeordneten ist. Wenn sich das bis zum Ende dieser Sitzung ändert, kann stattdessen der neue Nicht-Gastgeber mit den meisten Abgeordneten einen Vorschlag machen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSER_BY_HOSTING">
+      <Text>Die Zivilisation wird in der nächsten Sitzung einen Vorschlag machen können, weil sie Gastgeber ist. Wenn sich das bis zum Ende dieser Sitzung ändert, kann stattdessen der neue Gastgeber einen Vorschlag machen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSER_BY_ROTATION">
+      <Text>Die Zivilisation wird in der nächsten Sitzung einen Vorschlag machen können, weil das Privileg rotiert und sie an der Reihe ist.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSERS_LIST">
+      <Text>Es warten Vorschläge von:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_RENAME">
+      <Text>Umbenennen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_RENAME_TT">
+      <Text>Wählt einen neuen Namen für den Weltkongress</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_RESET_PROPOSALS">
+      <Text>Vorschlag zurücksetzen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_RESET_VOTES">
+      <Text>Abgeordnete zurücksetzen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_TURNS_UNTIL_SESSION">
+      <Text>Runden bis Sitzung: {1_NumTurnsUntilNextVote}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VIEW_ALL_RESOLUTIONS">
+      <Text>Alle Resolutionen ansehen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_ABSTAIN">
+      <Text>Enthalten</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_NAY">
+      <Text>[COLOR_RED]Nein[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS">
+      <Text>[NEWLINE][NEWLINE]Basierend auf unserem Wissen über die Wünsche anderer Zivilisationen steht unsere Zählung für diesen Vorschlag bei:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_CHOICE">
+      <Text>[NEWLINE][ICON_BULLET]{3_VoteChoice}: {1_NumDelegates} {1_NumDelegates: plural 1?Abgeordneter; other?Abgeordnete;} ({2_NumCivs} {2_NumCivs: plural 1?Zivilisation; other?Zivilisationen;})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_COMMITMENTS">
+      <Text>[NEWLINE][ICON_BULLET]{3_VoteChoice}: {2_NumCivs} {2_NumCivs: plural 1?Zivilisation stellt; other?Zivilisationen stellen;} aufgrund von Handelsabkommen {1_NumDelegates} {1_NumDelegates: plural 1?Abgeordneten; other?Abgeordnete;} ab.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_OURS">
+      <Text>[NEWLINE][ICON_BULLET]Unsere Zivilisation kontrolliert {1_NumDelegates} {1_NumDelegates: plural 1?Abgeordneten; other?Abgeordnete;}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_UNACCOUNTED">
+      <Text>[NEWLINE][ICON_BULLET]{2_NumCivs} {2_NumCivs: plural 1?Zivilisation; other?Zivilisationen;} mit Kontrolle über {1_NumDelegates} {1_NumDelegates: plural 1?Abgeordneten; other?Abgeordnete;} ohne bisherige Stimmabgabe</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_YAY">
+      <Text>[COLOR_GREEN]Ja[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTES_REMAINING">
+      <Text>Abgeordnete übrig: {1_VotesRemaining}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_WORLD_LEADER_INFO_SESSION">
+      <Text>Runden bis zum Weltherrscher-Vorschlag: [COLOR_POSITIVE_TEXT]{1_DelegatesForWin}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_WORLD_LEADER_INFO_TT">
+      <Text>Da aus dem Weltkongress die Vereinten Nationen hervorgegangen sind, ist ein Diplomatiesieg jetzt möglich. Um ihn für sich zu entscheiden, braucht eine Zivilisation die Unterstützung von {1_DelegatesForWin} oder mehr Abgeordneten für den Weltherrscher-Vorschlag. Diese Zahl hängt von der Anzahl der Zivilisationen und Stadtstaaten im Spiel ab.[NEWLINE][NEWLINE]Die Weltherrscher-Resolution wird der Versammlung bei jeder zweiten Sitzung vorgeschlagen, die mit den regulären Sitzungen abwechselnd abgehalten werden.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_WORLD_LEADER_INFO_VOTES">
+      <Text>Abgeordnete zum Gewinnen durch Weltherrschaft: [COLOR_POSITIVE_TEXT]{1_DelegatesForWin}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_COST_PER_PLAYER">
+      <Text>{1_ProductionCostPerPlayer} [ICON_PRODUCTION] pro Zivilisation</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_INTERNATIONAL_SPACE_STATION">
+      <Text>Internationale Raumstation</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_INTERNATIONAL_SPACE_STATION_SPLASH">
+      <Text>Die Internationale Raumstation wurde fertiggestellt und in den Orbit befördert. Damit hat sich die Grenze menschlicher Errungenschaften erneut verschoben.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_POPUP_COMPLETE">
+      <Text>ABGESCHLOSSEN!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_POPUP_PROGRESS_COST">
+      <Text>Dieses Projekt ist zu {1_PercentComplete}% abgeschlossen. Bisher hat Eure Zivilisation [ICON_PRODUCTION] [COLOR_POSITIVE_TEXT]{2_PlayerContribution}[ENDCOLOR] beigetragen. Höhere Beiträge bringen mehr Belohnungen:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_POPUP_TOTAL_COST">
+      <Text>Dieses Projekt erfordert insgesamt [ICON_PRODUCTION] {1_TotalCost} Produktion von allen Zivilisationen, um abgeschlossen werden zu können. Höhere Beiträge bringen mehr Belohnungen:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_DESC">
+      <Text>{1_RewardIconString} {2_RewardDescription} {3_Contribution}: {4_RewardDetails}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1">
+      <Text>Gebaute Teile</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1_HELP">
+      <Text>Einmaliger Forschungsbonus.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2">
+      <Text>Besatzung an Bord</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2_HELP">
+      <Text>Kostenloser Großer Wissenschaftler.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3">
+      <Text>Kontrollzentrum</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3_HELP">
+      <Text>Das Wunder Internationale Raumstation erscheint in der [ICON_CAPITAL] Hauptstadt. ({TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION_HELP})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_NONE">
+      <Text>Keine Belohnung</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_NONE_HELP">
+      <Text>Hat nicht genug zum Projekt beigetragen, um eine Belohnung zu erhalten.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TIER_1">
+      <Text>([ICON_PRODUCTION] {1_ContributionThreshold} oder mehr)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TIER_2">
+      <Text>([ICON_PRODUCTION] {1_ContributionThreshold} oder mehr)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TIER_3">
+      <Text>(Meiste Beiträge)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_1">
+      <Text>Aussteller</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_1_HELP">
+      <Text>500 Punkte zum nächsten [ICON_GOLDEN_AGE] Goldenen Zeitalter.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_2">
+      <Text>Bahnbrechende Erfindung</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_2_HELP">
+      <Text>Freie Sozialpolitik.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3">
+      <Text>Ausgerichtete Ausstellung</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP">
+      <Text>[ICON_CULTURE] Kultur erhöht um 100%, hält 20 Runden an.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_1">
+      <Text>Parade der Nationen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_1_HELP">
+      <Text>+3 [ICON_HAPPINESS_1] Zufriedenheit.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_2">
+      <Text>Gewonnene Medaillen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_2_HELP">
+      <Text>+3 [ICON_HAPPINESS_1] Zufriedenheit. Einmalige Erhöhung von 30 [ICON_INFLUENCE] Einfluss bei Stadtstaaten.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3">
+      <Text>Ausgerichtete Spiele</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP">
+      <Text>[ICON_TOURISM] Tourismus erhöht um 100%, hält 20 Runden an. Freie Sozialpolitik.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_FAIR">
+      <Text>Weltausstellung</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_FAIR_SPLASH">
+      <Text>Denker und Erfinder aus der ganzen Welt sind zusammengekommen, um ihre Ideen auf der extravaganten Weltausstellung zu präsentieren.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_GAMES">
+      <Text>Internationale Spiele</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_GAMES_SPLASH">
+      <Text>Athleten aus aller Welt, die ihre Zivilisationen vertreten, haben sich versammelt, um Kraft, Geschick und Anmut zu vergleichen. Die ganze Welt sieht ihnen zu und mit jeder gewonnenen Medaille gewinnen die Zivilisationen bei den Internationalen Spielen an Ruhm.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_LEADERSHIP_COUNCIL">
+      <Text>Weltkongress weitet Infrastruktur aus</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_LEADERSHIP_COUNCIL_HELP">
+      <Text>Die Stimmen kleiner und großer Nationen kämpfen darum, gehört zu werden, und internationale Beziehungen werden immer komplexer. Eine Sondersitzung wurde einberufen, um den nächsten Gastgeber zu bestimmen, der den Weltkongress in die Zukunft führt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_START_UNITED_NATIONS">
+      <Text>Weltkongress wird zu Vereinten Nationen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_START_UNITED_NATIONS_HELP">
+      <Text>Die neue Idee eines permanenten Friedens schlägt im Weltkongress Wurzeln, der als Vereinte Nationen neu geboren wurde. Eine Sondersitzung wurde einberufen, um den Gastgeber zu bestimmen. Die Vereinten Nationen werden über die gleichen Angelegenheiten wie bisher entscheiden, doch die regulären Sitzungen werden sich mit Sondersitzungen abwechseln, um einen Weltherrscher zu wählen. Damit ist der [COLOR_POSITIVE_TEXT]Diplomatiesieg[ENDCOLOR] möglich.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_START_WORLD_CONGRESS">
+      <Text>Weltkongress gegründet</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_START_WORLD_CONGRESS_HELP">
+      <Text>Staatsoberhäupter aus aller Welt kommen im Weltkongress zusammen, um internationale Angelegenheiten zu besprechen. Der erste Tagesordnungspunkt ist es zu bestimmen, wer Gastgeber des Kongresses sein wird.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_WELCOME_CITY_STATES">
+      <Text>Weltkongress heißt Stadtstaaten willkommen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_WELCOME_CITY_STATES_HELP">
+      <Text>Stadtstaaten erhalten einen Platz auf der Weltbühne und treten formell in die internationale Diplomatie ein. Zivilisationen erhalten nun zusätzliche Abgeordnete, wenn sie Stadtstaaten-Verbündete haben. Im Rahmen dieser Veränderung beruft der Weltkongress eine Sondersitzung ein, um den nächsten Gastgeber des Kongresse zu bestimmen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_CITYSTATE_DELEGATES">
+      <Text>[ICON_BULLET]+{1_NumDelegates} {1_NumDelegates: plural 1?Abgeordneter; other?Abgeordnete;} pro Stadtstaaten-Verbündeten</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_CIV_DELEGATES">
+      <Text>[ICON_BULLET]{1_NumDelegates} {1_NumDelegates: plural 1?Abgeordneter; other?Abgeordnete;} für andere Zivilisationen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_DIPLO_VICTORY_POSSIBLE">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]Weltherrscher[ENDCOLOR]-Vorschlag in jeder zweiten Sitzung</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_HOST_DELEGATES">
+      <Text>[ICON_BULLET]{1_NumDelegates} {1_NumDelegates: plural 1?Abgeordneter; other?Abgeordnete;} für gastgebende Zivilisation</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_NO_CHANGE">
+      <Text>[ICON_BULLET]Keine Veränderung</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_FOUNDED">
+      <Text>Die Zivilisation {@1_CivName} hat alle anderen Zivilisationen der Welt entdeckt. Zur Feier dieser Errungenschaft kommen Anführer aus aller Welt zu {2: plural 1?{2: gender masculine?dem; feminine?der; neuter?dem;}; 2?den;} {@2_LeagueName[2]} in {3_TurnsUntilSession} Runden zusammen, um über internationale Diplomatie zu verhandeln. Wenn Zivilisationen in spätere Zeitalter eintreten, wird sich der Kongress verändern und ein Gastgeber kann gewählt werden.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_GAME_ERA">
+      <Text>Die Welt ist in das Zeitalter "{@1_EraName}" eingetreten, da die Hälfte der Zivilisationen dieses erreicht hat oder eine Zivilisation das darauffolgende.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_NEXT_ERA">
+      <Text>Nächstes Zeitalter:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_THIS_ERA">
+      <Text>Dieses Zeitalter:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_TITLE_FOUNDED">
+      <Text>Weltkongress gegründet</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_UNITED_NATIONS">
+      <Text>Vereinte Nationen|Vereinten Nationen</Text>
+      <Gender>feminine</Gender>
+      <Plurality>2</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_WORLD_CONGRESS_1">
+      <Text>{@1_Ordinal} Kongress von {@2_CityName}</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_WORLD_CONGRESS_2">
+      <Text>{@1_Ordinal} Gipfel in {@2_CityName}</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_WORLD_CONGRESS_3">
+      <Text>{@1_Ordinal} Konvent von {@2_CityName}</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_WORLD_CONGRESS_GENERIC">
+      <Text>Weltkongress</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROJECT_COMPLETE">
+      <Text>{@1_ProjectName} abgeschlossen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROJECT_COMPLETE_TT">
+      <Text>Das Projekt "{@1_ProjectName}" ist abgeschlossen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROJECT_PROGRESS">
+      <Text>{@1_ProjectName}-Update</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROJECT_PROGRESS_TT">
+      <Text>Das Projekt {@1_ProjectName} ist nun zu [COLOR_POSITIVE_TEXT]{2_PercentComplete}[ENDCOLOR]% abgeschlossen. Um zum Abschluss beizutragen und Belohnungen zu verdienen, wählt das Projekt in der Stadt-Produktionsliste.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROPOSALS_NEEDED">
+      <Text>EINEN VORSCHLAG MACHEN</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROPOSALS_NEEDED_TT">
+      <Text>Ihr seid am Zug, einen Vorschlag zu machen, der bei {1: plural 1?{1: gender masculine?dem; feminine?der; neuter?dem;}; 2?den;} {@1_LeagueName[2]} diskutiert wird. Ihr könnt eine neue Resolution erlassen oder bereits erlassene Resolutionen aufheben. Ihr und andere Mitglieder von {1: plural 1?{1: gender masculine?dem; feminine?der; neuter?dem;}; 2?den;} {@1_LeagueName[2]} entscheiden in der nächsten Sitzung über das Ergebnis Eures Vorschlags.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTES_NEEDED">
+      <Text>ABGEORDNETE EINSETZEN</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTES_NEEDED_TT">
+      <Text>Auf der aktuellen Tagung von {1: plural 1?{1: gender masculine?dem; feminine?der; neuter?dem;}; 2?den;} {@1_LeagueName[2]} warten Eure Abgeordneten auf die aktuellen vorgeschlagenen Resolutionen, um die Ergebnisse zu unterstützen, die für Eure Zivilisation am günstigsten sind.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_DONE">
+      <Text>Sitzung geschlossen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_DONE_TT">
+      <Text>Über die Vorschläge bei {1: plural 1?{1: gender masculine?dem; feminine?der; neuter?dem;}; 2?den;} {@1_LeagueName[2]} wurde entschieden.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_ENACT_FAIL">
+      <Text>Die Resolution "{1_ResolutionName}" wurde nicht verabschiedet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_ENACT_PASS">
+      <Text>Die Resolution "{1_ResolutionName}" wurde verabschiedet. Die Effekte sind [COLOR_POSITIVE_TEXT]jetzt aktiv[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_FAIL_SUMMARY">
+      <Text>"{1_ResolutionName}" gescheitert</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_HOST_CHANGED_SUMMARY">
+      <Text>Die Zivilisation {@1_CivName} wird Gastgeber</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_HOST_DETAILS">
+      <Text>Die Sondersitzung von {1: plural 1?{1: gender masculine?dem; feminine?der; neuter?dem;}; 2?den;} {@1_LeagueName[2]} hat bestimmt, dass die Zivilisation {@2_CivName} der nächste Gastgeber wird.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_HOST_SAME_SUMMARY">
+      <Text>Die Zivilisation {@1_CivName} bleibt Gastgeber</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_MEMBER_VOTE">
+      <Text>[ICON_BULLET]{1_NumVotes} für: {2_ResolutionChoiceText} der Zivilisation {@3_CivName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_PASS_SUMMARY">
+      <Text>"{1_ResolutionName}" wird erlassen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_REPEAL_FAIL">
+      <Text>Die Resolution "{1_ResolutionName}" wurde nicht verabschiedet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_REPEAL_PASS">
+      <Text>Die Resolution "{1_ResolutionName}" wurde verabschiedet. Die Bestimmungen sind [COLOR_WARNING_TEXT]nicht mehr aktiv[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_FAIL">
+      <Text>Kein Weltherrscher gewählt</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_FAIL_DETAILS">
+      <Text>Ohne einen klaren Gewinner, der die erforderliche Anzahl von {1_NumDelegates} Abgeordneten gewinnen konnte, ist der Weltherrscher-Vorschlag gescheitert. Die {2_NumCivilizations: plural 1?beste Zivilisation erhält; other?{2_NumCivilizations} besten Zivilisationen erhalten;} stattdessen zusätzliche Abgeordnete.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_PASS">
+      <Text>Zivilisation {@1_CivName} wird Weltherrscher</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_PASS_DETAILS">
+      <Text>Mit der erforderlichen Unterstützung von mindestens {1_NumDelegates} Abgeordneten wurde die Zivilisation {@2_CivName} zum Weltherrscher erkoren.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_SOON">
+      <Text>Anstehende Sitzung</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_SOON_TT">
+      <Text>Die Zusammenkunft von {1: plural 1?{1: gender masculine?dem; feminine?der; neuter?dem;}; 2?den;} {@1_LeagueName[2]} findet in {2_TurnsUntilSession} Runden statt, um folgende vorgeschlagene Resolutionen zu diskutieren:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_ALL_CITY_STATES_EMBARGO">
+      <Text>Stadtstaat-Embargo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_ALL_CITY_STATES_EMBARGO_HELP">
+      <Text>Keine [ICON_INTERNATIONAL_TRADE] Handelswege können zwischen Stadtstaaten eingerichtet werden. Sämtliche Handelswege werden beendet und müssen neu initiiert werden.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_ARTS_FUNDING">
+      <Text>Kunstfinanzierung</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_ARTS_FUNDING_HELP">
+      <Text>Steigert die Generierung Großer Schriftsteller, Künstler und Musiker um 33%. Verringert die Generierung Großer Wissenschaftler, Ingenieure und Händler um 33%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_BAN_LUXURY_HAPPINESS">
+      <Text>Luxusgut verbieten</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_BAN_LUXURY_HAPPINESS_HELP">
+      <Text>Ein Luxusgut gilt als unmoralisch, gefährdet oder anderweitig unangemessen für den Allgemeingebrauch. Solange das Verbot gilt, erhalten Zivilisationen keinen [ICON_HAPPINESS_1] Zufriedenheitsvorteil durch dieses Luxusgut.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHANGE_LEAGUE_HOST">
+      <Text>Gastgeber wählen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHANGE_LEAGUE_HOST_HELP">
+      <Text>Bestimmt die Zivilisation, die den Kongress abhält. Der Gastgeber erhält zusätzliche Abgeordnete und die Fähigkeit, Resolutionen vorzuschlagen.[NEWLINE][NEWLINE]Kann nicht von einer Zivilisation vorgeschlagen werden. Wenn Zivilisationen in spätere Zeitalter eintreten, wird automatisch ein Vorschlag unterbreitet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_CITY">
+      <Text>(PLACEHOLDER)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_IDEOLOGY">
+      <Text>{@1_IdeologyName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_IDEOLOGY_YOU">
+      <Text>{@1_IdeologyName} (Eure)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_NO">
+      <Text>Nein</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_PLAYER">
+      <Text>{@1_CivName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_PLAYER_YOU">
+      <Text>{@1_CivName} (Ihr)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_RELIGION">
+      <Text>{1_IconString} {@2_ReligionName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_RELIGION_YOU">
+      <Text>{1_IconString} {@2_ReligionName} (Eure)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_RESOURCE">
+      <Text>{1_IconString} {@2_ResourceName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_YES">
+      <Text>Ja</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CITY_STATE_AID">
+      <Text>Stadtstaaten unterstützen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CITY_STATE_AID_HELP">
+      <Text>Alle Mitglieder, die keine Stadtstaaten sind, tragen 20% ihrer [ICON_GOLD] Goldreserven bei, um Stadtstaaten-Mitglieder zu unterstützen. Negative Beziehungen zu Stadtstaaten werden auf 0 [ICON_INFLUENCE] Einfluss zurückgesetzt. Aufhebung hat keine Wirkung.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CULTURAL_HERITAGE_SITES">
+      <Text>Kulturerbestätten</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CULTURAL_HERITAGE_SITES_HELP">
+      <Text>Jedes Weltwunder bringt +3 [ICON_CULTURE] Kultur in der Stadt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_ANY_LUXURY_RESOURCE">
+      <Text>Wählt ein Luxusgut, das die Resolution betreffen soll</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_ANY_MEMBER">
+      <Text>Wählt ein Mitglied, das die Resolution betreffen soll</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_CITY">
+      <Text>Wählt eine Stadt, die die Resolution betreffen soll</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_HIGH_DELEGATE_MEMBER">
+      <Text>Wählt eine Zivilisation mit einer großen Delegation ({1_NumDelegates} Abgeordnete oder mehr)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_IDEOLOGY">
+      <Text>Wählt eine Ideologie, die die Resolution betreffen soll</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_MAJOR_CIV_MEMBER">
+      <Text>Wählt eine Zivilisation, die die Resolution betreffen soll</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_NONE">
+      <Text>Kein Beschluss</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_OTHER_MAJOR_CIV_MEMBER">
+      <Text>Wählt eine andere Zivilisation als Eure, die die Resolution betreffen soll</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_RELIGION">
+      <Text>Wählt eine Religion, die die Resolution betreffen soll</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_REPEAL">
+      <Text>Wählt, ob diese Resolution aufgehoben werden soll</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_YES_OR_NO">
+      <Text>Stimmt mit Ja oder Nein ab</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DIPLO_VICTORY">
+      <Text>Weltherrscher</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DIPLO_VICTORY_HELP">
+      <Text>Bestimmt einen Weltherrscher. Erhält eine Zivilisation ausreichend Unterstützung im Kongress, erringt der Anführer einen [COLOR_POSITIVE_TEXT]Diplomatiesieg[ENDCOLOR]. Die benötigte Zahl der Abgeordneten hängt von der Anzahl der Zivilisationen und Stadtstaaten im Spiel ab und ist auf dem Weltkongress-Bildschirm ersichtlich.[NEWLINE][NEWLINE]Hat keine Zivilisation genug Unterstützung für einen Sieg erlangt, erhalten die beiden Zivilisationen mit der meisten Unterstützung dauerhaft [COLOR_POSITIVE_TEXT]2 zusätzliche Abgeordnete[ENDCOLOR] für zukünftige Sitzungen.[NEWLINE][NEWLINE]Kann nicht von einer Zivilisation vorgeschlagen werden. Sobald der Weltkongress zu den Vereinten Nationen geworden ist, werden in regelmäßigen Abständen automatisch Vorschläge unterbreitet.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_GOLD_FOR_EVERYONE">
+      <Text>Gold für alle</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_GOLD_FOR_EVERYONE_HELP">
+      <Text>Alle Mitglieder erhalten einmalig 100 [ICON_GOLD] Gold zusätzlich. Aufhebung hat keine Wirkung.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_GPT_FOR_EVERYONE">
+      <Text>Stadtstaaten-Steuern</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_GPT_FOR_EVERYONE_HELP">
+      <Text>Der [ICON_INFLUENCE] Stadtstaaten-Einfluss nimmt schneller ab, aber [ICON_INTERNATIONAL_TRADE] Handelswege mit Stadtstaaten generieren zusätzliches [ICON_GOLD].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_HISTORICAL_LANDMARKS">
+      <Text>Historische Wahrzeichen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_HISTORICAL_LANDMARKS_HELP">
+      <Text>Große Persönlichkeiten-Modernisierungen und Wahrzeichen, die von Archäologen gebaut wurden, bringen +4 [ICON_CULTURE] Kultur, wenn sie bewirtschaftet werden.[NEWLINE][NEWLINE]Verfügbar, sobald eine Zivilisation Archäologie entdeckt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION">
+      <Text>Internationale Raumstation</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION_HELP">
+      <Text>Beginnt das Projekt Internationale Raumstation. Ermöglicht nach dem Start Zivilisationen, [ICON_PRODUCTION] Produktion zur Fertigstellung beizutragen, indem sie es in der Produktionsliste einer Stadt wählen. Bei Fertigstellung erhalten die Zivilisationen Bonusse in Abhängigkeit von der Höhe ihres Beitrags.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1_HELP}[NEWLINE][NEWLINE]Verfügbar, wenn eine beliebige Zivilisation Satellitentechnologie entdeckt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT">
+      <Text>Gelehrte vor Ort</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP">
+      <Text>Zivilisationen erforschen eine Technologie 20% schneller, wenn sie bereits von mindestens einer anderen Zivilisation entdeckt wurde.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_NATURAL_HERITAGE_SITES">
+      <Text>Naturerbestätten</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_NATURAL_HERITAGE_SITES_HELP">
+      <Text>Jedes Naturwunder bringt +5 [ICON_CULTURE] Kultur, wenn es bewirtschaftet wird.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION">
+      <Text>Atomwaffensperrvertrag</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION_HELP">
+      <Text>Alle Zivilisationen werden daran gehindert, neue Atomwaffen (Atombombe und Atomrakete) zu bauen. Bereits gebaute Waffen werden jedoch nicht entschärft.[NEWLINE][NEWLINE]Verfügbar, wenn eine beliebige Zivilisation Fortgeschrittene Ballistik entdeckt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_PLAYER_EMBARGO">
+      <Text>Embargo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_PLAYER_EMBARGO_HELP">
+      <Text>Keine [ICON_INTERNATIONAL_TRADE] Handelswege können zwischen der gewählten und einer anderen Zivilisation eingerichtet werden. Sämtliche Handelswege werden beendet und müssen neu initiiert werden.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_RESOURCE_FOR_EVERYONE">
+      <Text>Ressourcen für alle</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_RESOURCE_FOR_EVERYONE_HELP">
+      <Text>Solange diese Resolution gilt, erhalten alle Mitglieder 2 Einheiten einer Ressource.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_SCIENCES_FUNDING">
+      <Text>Wissenschaftsfinanzierung</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_SCIENCES_FUNDING_HELP">
+      <Text>Steigert die Generierung Großer Wissenschaftler, Ingenieure und Händler um 33%. Verringert die Generierung Großer Schriftsteller, Künstler und Musiker um 33%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_STANDING_ARMY_TAX">
+      <Text>Stehendes Heer besteuern</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_STANDING_ARMY_TAX_HELP">
+      <Text>Unterhaltskosten für Einheiten steigen um 25% [ICON_GOLD] Gold.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_FAIR">
+      <Text>Weltausstellung</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_FAIR_HELP">
+      <Text>Beginnt das Projekt Weltausstellung. Ermöglicht nach dem Start Zivilisationen, [ICON_PRODUCTION] Produktion zur Fertigstellung beizutragen, indem sie es in der Produktionsliste einer Stadt wählen. Bei Fertigstellung erhalten die Zivilizationen Bonusse in Abhängigkeit von der Höhe ihres Beitrags.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_1_HELP}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_GAMES">
+      <Text>Internationale Spiele</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_GAMES_HELP">
+      <Text>Beginnt das Projekt Internationale Spiele. Ermöglicht nach dem Start Zivilisationen, [ICON_PRODUCTION] Produktion zur Fertigstellung beizutragen, indem sie es in der Produktionsliste einer Stadt wählen. Bei Fertigstellung erhalten die Zivilizationen Bonusse in Abhängigkeit von der Höhe ihres Beitrags.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_1_HELP}[NEWLINE][NEWLINE]Verfügbar, wenn eine beliebige Zivilisation Funkwesen entdeckt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_IDEOLOGY">
+      <Text>Weltideologie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_IDEOLOGY_HELP">
+      <Text>Legt eine Ideologie als offizielle Weltideologie fest. Zivilisationen, die dieser Ideologie folgen, erhalten 2 zusätzliche Abgeordnete. Die Öffentliche Meinung für diese Ideologie wird für alle Zivilisationen erhöht. Es kann nicht mehr als eine Weltideologie gleichzeitig geben.[NEWLINE][NEWLINE]Verfügbar, sobald eine Zivilisation das Funkwesen entdeckt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_RELIGION">
+      <Text>Weltreligion</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_RELIGION_HELP">
+      <Text>Legt eine Religion als offizielle Weltreligion fest. Zivilisationen, in denen die Mehrheit der Städte ihres Reiches dieser Religion folgt, erhalten 2 zusätzliche Abgeordnete. Die Religion breitet sich 25% schneller aus und ihre heilige Stadt erhält +50% [ICON_TOURISM] Tourismus. Es kann nicht mehr als eine Weltreligion gleichzeitig geben.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_ITEM_VOTES">
+      <Text>WELTKONGRESS</Text>
+    </Row>
+  </Language_DE_DE>
+</GameData>

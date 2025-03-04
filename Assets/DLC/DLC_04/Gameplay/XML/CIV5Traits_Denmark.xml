@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<!-- Table data -->
+	<Traits>
+		<Row>
+			<Type>TRAIT_VIKING_FURY</Type>
+			<Description>TXT_KEY_TRAIT_VIKING_FURY</Description>
+			<ShortDescription>TXT_KEY_TRAIT_VIKING_FURY_SHORT</ShortDescription>
+			<ExtraEmbarkMoves>1</ExtraEmbarkMoves>
+			<EmbarkedToLandFlatCost>true</EmbarkedToLandFlatCost>
+		</Row>
+	</Traits>
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_VIKING_FURY</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_FREE_PILLAGE_MOVES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_VIKING_FURY</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_FREE_PILLAGE_MOVES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_VIKING_FURY</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_FREE_PILLAGE_MOVES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_VIKING_FURY</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_FREE_PILLAGE_MOVES</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+</GameData>

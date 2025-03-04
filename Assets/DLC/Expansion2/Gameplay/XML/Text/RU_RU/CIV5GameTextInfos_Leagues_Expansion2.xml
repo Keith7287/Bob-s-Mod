@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_ALREADY_COMMITTED">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Уже продавали голоса делегатов державы на этой сессии Всемирного конгресса.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_ALREADY_USED_VOTES">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Уже направили делегатов на эту сессию Всемирного конгресса.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_ENACT_TT">
+      <Text>На следующей сессии Всемирного конгресса этот лидер использует свою делегацию из [COLOR_POSITIVE_TEXT]{1_NumVotes}[ENDCOLOR] {1_NumVotes: plural 1?делегата; 2?делегатов; 3?делегатов;} за [COLOR_POSITIVE_TEXT]принятие[ENDCOLOR] резолюции {2_ChoiceText}. Следующие изменения:[NEWLINE][NEWLINE]{3_ProposalText}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_IN_SESSION">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Вы не можете торговать голосами во время сессии конгресса.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO">
+      <Text>Нам нечего продавать, нет поддержки делегатов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_LEAGUE">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Всемирный конгресс еще не учрежден.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_PROPOSALS">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Пока для этой сессии Всемирного конгресса не сделано никаких предложений.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_SPY">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Нам нужен шпион в качестве [ICON_DIPLOMAT] дипломата в их [ICON_CAPITAL] столице.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_SPY_ACTIVE_PLAYER">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Им нужен шпион в качестве [ICON_DIPLOMAT] дипломата в нашей [ICON_CAPITAL] столице.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_THEM">
+      <Text>Им нечего продавать, нет поддержки делегатов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NOT_MEMBER">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]Не член Всемирного конгресса.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_REPEAL_TT">
+      <Text>На следующей сессии Всемирного конгресса этот лидер использует свою делегацию из [COLOR_POSITIVE_TEXT]{1_NumVotes}[ENDCOLOR] {1_NumVotes: plural 1?делегат; 2?делегата; 3?делегатов;} в поддержку [COLOR_WARNING_TEXT]отмены[ENDCOLOR] резолюции {2_ChoiceText}. Следующие изменения [NEWLINE][NEWLINE]{3_ProposalText}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_YES">
+      <Text>У нас есть поддержка делегатов для продажи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_YES_THEM">
+      <Text>У них есть поддержка делегатов для продажи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_ALWAYS">
+      <Text>Полная поддержка</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_DISLIKE">
+      <Text>Недоверие</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_LIKE">
+      <Text>Приятие</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_NEUTRAL">
+      <Text>Нейтралитет</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_NEVER">
+      <Text>Ненависть</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_STRONG_DISLIKE">
+      <Text>Резкое неприятие</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_STRONG_LIKE">
+      <Text>Резкое приятие</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_WEAK_DISLIKE">
+      <Text>Слабое неприятие</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_WEAK_LIKE">
+      <Text>Слабое приятие</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_NOT_FOUNDED">
+      <Text>Всемирный конгресс пока еще не создан.  Это произойдет, когда одна из держав изучит {@1_TechName} и познакомится со всеми державами в игре.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_NOT_FOUNDED_GAME_SETTINGS">
+      <Text>Всемирный конгресс в этой игре отключен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_1">
+      <Text>Первый</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_10">
+      <Text>Десятый</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_2">
+      <Text>Второй</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_3">
+      <Text>Третий</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_4">
+      <Text>Четвертый</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_5">
+      <Text>Пятый</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_6">
+      <Text>Шестой</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_7">
+      <Text>Седьмой</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_8">
+      <Text>Восьмой</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_9">
+      <Text>Девятый</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW">
+      <Text>Всемирный конгресс</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_ACTIVE_RESOLUTIONS">
+      <Text>Принятые резолюции</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_ACTIVE_RESOLUTIONS_TT">
+      <Text>Действующие резолюции, которые держава может попытаться отменить.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CHANGE_NAME">
+      <Text>Изменить название</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_COMMIT_PROPOSALS">
+      <Text>Внести предложение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_COMMIT_VOTES">
+      <Text>Направить делегатов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CONFIRM">
+      <Text>Вы уверены?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CONFIRM_MISSING_VOTES">
+      <Text>[COLOR_WARNING_TEXT]Некоторые из ваших делегатов еще не назначены.[ENDCOLOR]  Все равно направить? </Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CURRENT_PROPOSALS">
+      <Text>Текущие предложения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CURRENT_PROPOSALS_TT">
+      <Text>Резолюции, которые будут рассматриваться в следующей сессии.  Резолюция будет принята, если большинство делегатов от мировых держав поддержат ее.  В случае ничьей резолюция не будет принята, и ничего не изменится.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_ACTIVE_PROJECTS">
+      <Text>Текущие проекты: {1_ProjectsList}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_ACTIVE_PROJECTS_ENTRY">
+      <Text>{@1_ProjectName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_CULTURE_FROM_NATURAL_WONDERS">
+      <Text>+{1_CulturePerWorldWonder} [ICON_CULTURE] к культуре от чудес природы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_CULTURE_FROM_WONDERS">
+      <Text>+{1_CulturePerWorldWonder} [ICON_CULTURE] к культуре от чудес света</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_DISCOVERED_TECH_MODIFIER">
+      <Text>-{1_ResearchCostPercent}% [ICON_RESEARCH] к стоимости изучения технологий, уже изученных другими державами</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_CITY_STATES">
+      <Text>Нет [ICON_INTERNATIONAL_TRADE] торговли со следующими городами-государствами</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_PLAYERS">
+      <Text>Нет [ICON_INTERNATIONAL_TRADE] торговли со следующими державами: {1_CivsList}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_PLAYERS_ENTRY">
+      <Text>{@1_CivName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_GPT">
+      <Text>[ICON_GOLD] ед. золота за ход {1_GoldPerTurn}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_GREAT_PERSON_RATE_ENTRY">
+      <Text>{@1_GreatPersonType}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_GREAT_PERSON_TILE_IMPROVEMENT_CULTURE">
+      <Text>+{1_NumCulture} [ICON_CULTURE] к культуре от всех улучшений клеток великими людьми</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_HOST">
+      <Text>Принимающая сторона: {@1_CivName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_LANDMARK_CULTURE">
+      <Text>+{1_NumCulture} [ICON_CULTURE] к культуре от всех археологических памятников</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NEGATIVE_GREAT_PERSON_RATE">
+      <Text>{2_GreatPersonList} возникают со скоростью {1_GreatPersonRateMod}%  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NO_NUCLEAR_WEAPONS">
+      <Text>Нет построек, связанных с ядерным оружием</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NO_RESOURCE_HAPPINESS">
+      <Text>Нет [ICON_HAPPINESS_1] настроения от: {1_ResourceList}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NO_RESOURCE_HAPPINESS_ENTRY">
+      <Text>{@1_ResourceName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NONE">
+      <Text>Нет эффектов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_POSITIVE_GREAT_PERSON_RATE">
+      <Text>{2_GreatPersonList} возникают теперь со скоростью +{1_GreatPersonRateMod}%  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_RESOURCE_QUANTITIES">
+      <Text>Дополнительные ресурсы: {1_ResourcesList}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_RESOURCE_QUANTITIES_ENTRY">
+      <Text>{@1_ResourceName} ({2_ResourceQuantity})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_TITLE">
+      <Text>Текущие эффекты</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_TT">
+      <Text>Здесь перечислены текущие результаты деятельности Всемирного конгресса.  Они могу измениться, если будут приняты новые резолюции, или отменены старые.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_UNIT_MAINTENANCE">
+      <Text>+{1_UnitMaintenancePercent}% [ICON_GOLD] к стоимости содержания юнитов в единицах золота</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WORLD_IDEOLOGY">
+      <Text>Мировая идеология: {@1_IdeologyName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WORLD_RELIGION">
+      <Text>Мировая религия: {1_IconString} {@2_ReligionName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_ENTER_NAME">
+      <Text>Введите новое название</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_ERROR_NAME_EMPTY">
+      <Text>Поле с названием не может оставаться пустым.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_IN_SESSION">
+      <Text>ТЕКУЩАЯ СЕССИЯ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_IN_SPECIAL_SESSION">
+      <Text>[COLOR_POSITIVE_TEXT]СПЕЦИАЛЬНАЯ СЕССИЯ[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INACTIVE_RESOLUTIONS">
+      <Text>Возможные резолюции</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INACTIVE_RESOLUTIONS_TT">
+      <Text>Резолюции, которые державы могут попытаться принять.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_ALREADY_ENACTED">
+      <Text>Уже действует.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_ALREADY_PROPOSED">
+      <Text>Вынесено на рассмотрение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_BUTTON_TT">
+      <Text>[COLOR_GREY]В настоящее время вы не можете внести такое предложение.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_CHOICE_BUTTON_TT">
+      <Text>[COLOR_GREY]Это предложение уже рассматривается, внести его повторно нельзя.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_GAMEOPTION">
+      <Text>Не допускается игровыми настройками.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_NO_CHOICES">
+      <Text>Нет областей применения для такой резолюции</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_NO_PLAYER_PROPOSAL">
+      <Text>Не может быть предложено державой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_NO_TECH">
+      <Text>Пока что {@1_TechName} - тайна для всех держав.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS">
+      <Text>{@1_LeaderName} ({@2_CivName}) распоряжается голосами {3_VotesRemaining} {3_VotesRemaining: plural 1?делегата; other?делегатов;}.  После начала сессии количество фиксируется до конца сессии.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_BASE_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} {@1_NumVotes: plural 1?голос; 2?голоса; 3?голосов;} в Конгрессе</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_CS_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} {@1_NumVotes: plural 1?голос; 2?голоса; 3?голосов;} городов-государств[NEWLINE]{2_VotesPerCityState} для каждого союзника</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_DIPLOMAT_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} {@1_NumVotes: plural 1?голос; 2?голоса; 3?голосов;} за изучение глобализации ({2_VotesPerDiplomat} за каждого шпиона в качестве [ICON_DIPLOMAT] дипломата)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_EXTRA_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} {@1_NumVotes: plural 1?голос; 2?голоса; 3?голосов;} за предыдущие выборы мирового лидера</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_HOST_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} {@1_NumVotes: plural 1?голос; 2?голоса; 3?голосов;} как принимающая сторона</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_WONDER_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} {@1_NumVotes: plural 1?голос; 2?голоса; 3?голосов;} за чудеса света</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_WORLD_IDEOLOGY_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} {@1_NumVotes: plural 1?голос; 2?голоса; 3?голосов;}  за принятие мировой идеологии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_WORLD_RELIGION_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumVotes} {@1_NumVotes: plural 1?голос; 2?голоса; 3?голосов;} за принятие мировой религии</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_DOF">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Мы подписали декларацию о дружбе[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_IDEOLOGY">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]Мы разделяем общую идеологию[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_INTIMATE">
+      <Text>[NEWLINE][NEWLINE]Мы хорошо знакомы с их программой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_NO_DOF">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]Мы не подписывали декларацию о дружбе[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_NO_IDEOLOGY">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]Мы не разделяем общую идеологию[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_NO_SPY">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]У нас нет шпиона в качестве [ICON_DIPLOMAT] дипломата в их [ICON_CAPITAL] столице.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_NONE">
+      <Text>[NEWLINE][NEWLINE]Их интересы для нас загадка.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_PARTIAL">
+      <Text>[NEWLINE][NEWLINE]Мы примерно представляем себе их цели.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_SPY">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]У нас есть шпион в качестве [ICON_DIPLOMAT] дипломата в их [ICON_CAPITAL] столице.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTE_COMMITMENT">
+      <Text>[NEWLINE][NEWLINE]В результате вашей сделки они согласились назначить {3_NumDelegates} {@3_NumDelegates: plural 1?делегата; 2?делегатов; 3?делегатов;} в поддержку державы {2_VoteChoice} по резолюции {1_Proposal}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTE_INTIMATE">
+      <Text>[NEWLINE][ICON_BULLET]{3_DesireLevel} из {2_VoteChoice} по предложению {1_Proposal}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTE_NONE">
+      <Text>[NEWLINE][ICON_BULLET]Нет данных по предложению: {1_Proposal}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTE_PARTIAL">
+      <Text>[NEWLINE][ICON_BULLET]{2_VoteChoice} по предложению: {1_Proposal}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTES">
+      <Text>[NEWLINE][NEWLINE]Их выбор по текущим предложениям:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_VOTES">
+      <Text>{1_VotesRemaining} {@1_NumDelegates: plural 1?голос; 2?голоса; other?голосов;}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_OTHER_RESOLUTIONS">
+      <Text>Другие резолюции</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_OTHER_RESOLUTIONS_TT">
+      <Text>Резолюции, которые сейчас нельзя внести на рассмотрение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PREFIX_ENACT">
+      <Text>[COLOR_POSITIVE_TEXT]ПРИНЯТЬ: [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PREFIX_REPEAL">
+      <Text>[COLOR_WARNING_TEXT]ОТМЕНИТЬ: [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_ON_HOLD_TT">
+      <Text>Это предложение отложено до специальной сессии Всемирного конгресса.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINION">
+      <Text>[NEWLINE][ICON_BULLET]{@1_CivName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_NEGATIVE">
+      <Text>[NEWLINE][NEWLINE]Следующие державы рассердятся, если мы внесем это предложение:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_POSITIVE">
+      <Text>[NEWLINE][NEWLINE]Следующие державы будут благодарны, если мы внесем это предложение:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSE_BUTTON">
+      <Text>Щелкните, чтобы внести предложение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSE_BUTTON_TT">
+      <Text>Щелкните, чтобы предложить резолюцию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSE_RESOLUTION">
+      <Text>ПРЕДЛОЖИТЬ РЕЗОЛЮЦИЮ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSER_BY_DELEGATION_SIZE">
+      <Text>Они смогут внести предложение на следующей сессии, поскольку являются не-принимающей державой с большинством делегатов.  Если к концу сессии положение изменится, предложение внесет новая не-принимающая держава с большинством делегатов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSER_BY_HOSTING">
+      <Text>Они смогут внести предложение на следующей сессии, поскольку являются принимающей державой.  Если к концу сессии положение изменится, предложение внесет новая принимающая держава.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSER_BY_ROTATION">
+      <Text>Они смогут внести предложение на следующей сессии, поскольку привилегии сменились, а сейчас их ход.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSERS_LIST">
+      <Text>Ожидаются предложения от следующих держав:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_RENAME">
+      <Text>Переименовать</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_RENAME_TT">
+      <Text>Выбрать новое название для Всемирного конгресса.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_RESET_PROPOSALS">
+      <Text>Заново внести предложение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_RESET_VOTES">
+      <Text>Заново назначить делегатов</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_TURNS_UNTIL_SESSION">
+      <Text>Ходов осталось до начала сессии: {1_NumTurnsUntilNextVote}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VIEW_ALL_RESOLUTIONS">
+      <Text>Просмотреть все резолюции</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_ABSTAIN">
+      <Text>Воздержаться</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_NAY">
+      <Text>[COLOR_RED]Против[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS">
+      <Text>[NEWLINE][NEWLINE]Основываясь на наших знаниях о пожеланиях других держав, мы предполагаем такой расклад по голосам:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_CHOICE">
+      <Text>[NEWLINE][ICON_BULLET]{3_VoteChoice}: {1_NumDelegates} {1_NumDelegates: plural 1?делегат; 2?делегата; 3?делегатов;} ({2_NumCivs} {2_NumCivs: plural 1?держава; 2?державы; 3?держав;})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_COMMITMENTS">
+      <Text>[NEWLINE][ICON_BULLET]{3_VoteChoice}: {2_NumCivs} {2_NumCivs: plural 1?держава; 2?державы; 3?держав;} назначили {1_NumDelegates} {1_NumDelegates: plural 1?делегата; 2?делегата; 3?делегатов;} в результате договоренностей</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_OURS">
+      <Text>[NEWLINE][ICON_BULLET]Наша держава контролирует {1_NumDelegates} {1_NumDelegates: plural 1?делегата; 2?делегата; 3?делегатов;}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_UNACCOUNTED">
+      <Text>[NEWLINE][ICON_BULLET]{2_NumCivs} {2_NumCivs: plural 1?держава контролирует; 2?державы контролируют; 3?держав контролируют;} {1_NumDelegates} {1_NumDelegates: plural 1?делегата; 2?делегата; 3?делегатов;}. {@1_NumDelegates: plural 1?Его голос не учтен; 2?Их голоса не учтены; 3?Их голоса не учтены;}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_YAY">
+      <Text>[COLOR_GREEN]За[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTES_REMAINING">
+      <Text>Осталось голосов: {1_VotesRemaining}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_WORLD_LEADER_INFO_SESSION">
+      <Text>Ходов до выборов мирового лидера: [COLOR_POSITIVE_TEXT]{1_DelegatesForWin}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_WORLD_LEADER_INFO_TT">
+      <Text>Поскольку Всемирный конгресс превратился в ООН, возможна дипломатическая победа.  Чтобы одержать дипломатическую победу, держава должна получить голоса {1_DelegatesForWin} или более делегатов на выборах  мирового лидера.  Это число базируется на количестве цивилизаций и городов-государств в игре.[NEWLINE][NEWLINE]Резолюция об избрании мирового лидера предлагается конгрессу на каждой специальной сессии. Специальные и обычные сессии сменяют друг друга.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_WORLD_LEADER_INFO_VOTES">
+      <Text>Требуется голосов для избрания: [COLOR_POSITIVE_TEXT]{1_DelegatesForWin}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_COST_PER_PLAYER">
+      <Text>{1_ProductionCostPerPlayer} [ICON_PRODUCTION] за державу</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_INTERNATIONAL_SPACE_STATION">
+      <Text>Международная космическая станция</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_INTERNATIONAL_SPACE_STATION_SPLASH">
+      <Text>Строительство международной космической станции завершено. Станция запущена в космос. Человечество преодолело еще один важный рубеж.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_POPUP_COMPLETE">
+      <Text>ЗАВЕРШЕНО!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_POPUP_PROGRESS_COST">
+      <Text>Этот проект готов на {1_PercentComplete}%.  До сих пор ваша держава вложила в проект [ICON_PRODUCTION] [COLOR_POSITIVE_TEXT]{2_PlayerContribution}[ENDCOLOR].  Чем больше вложения, тем выше отдача:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_POPUP_TOTAL_COST">
+      <Text>Для завершения проекта требуется в общей сложности [ICON_PRODUCTION] {1_TotalCost} ОП от всех держав.  Чем больше вложения, тем выше отдача:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_DESC">
+      <Text>{1_RewardIconString} {2_RewardDescription} {3_Contribution}: {4_RewardDetails}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1">
+      <Text>Уже построенные части</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1_HELP">
+      <Text>Единовременное ускорение изучения.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2">
+      <Text>Экипаж на борту</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2_HELP">
+      <Text>Великий ученый бесплатно.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3">
+      <Text>Управление миссией</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3_HELP">
+      <Text>Чудо "Международная космическая станция" появляется в [ICON_CAPITAL] столице. ({TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION_HELP})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_NONE">
+      <Text>Нет вознаграждения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_NONE_HELP">
+      <Text>Вы недостаточно вложили в проект, чтобы получить вознаграждение.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TIER_1">
+      <Text>([ICON_PRODUCTION] {1_ContributionThreshold} или больше)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TIER_2">
+      <Text>([ICON_PRODUCTION] {1_ContributionThreshold} или больше)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TIER_3">
+      <Text>(самый крупный взнос)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_1">
+      <Text>Экспонент</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_1_HELP">
+      <Text>500 очков к следующему [ICON_GOLDEN_AGE] золотому веку.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_2">
+      <Text>Революционное изобретение</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_2_HELP">
+      <Text>Бесплатный общественный институт.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3">
+      <Text>Проведение выставки</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP">
+      <Text>[ICON_CULTURE] культура возрастает на 100% на 20 ходов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_1">
+      <Text>Участник парада</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_1_HELP">
+      <Text>+3 [ICON_HAPPINESS_1] к настроению.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_2">
+      <Text>Призер Игр</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_2_HELP">
+      <Text>+3 [ICON_HAPPINESS_1] к настроению.  Однократное увеличение на 30 [ICON_INFLUENCE] влияния на города-государства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3">
+      <Text>Проведение игр</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP">
+      <Text>[ICON_TOURISM] Показатели туризма возрастают на 100% на 20 ходов.  Бесплатный общественный институт</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_FAIR">
+      <Text>Всемирная выставка</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_FAIR_SPLASH">
+      <Text>Мыслители и изобретатели со всего мира съезжаются в одно место, чтобы поделиться своими идеями на Всемирной выставке.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_GAMES">
+      <Text>Международные игры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_GAMES_SPLASH">
+      <Text>Атлеты со всего мира, представляющие разные мировые державы, собираются в одном месте, чтобы посостязаться в силе, мастерстве и ловкости.  Под восхищенными взглядами всего мира, державы выигрывают одну медаль за другой, купаясь в лучах славы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_LEADERSHIP_COUNCIL">
+      <Text>Всемирный конгресс расширяет инфраструктуру</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_LEADERSHIP_COUNCIL_HELP">
+      <Text>Большие и малые государства борются за то, чтобы быть услышанными, международная политика становится все более сложной.  Созвана специальная сессия, чтобы выбрать новую принимающую державу для Всемирного конгресса.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_START_UNITED_NATIONS">
+      <Text>Всемирный конгресс становится Организацией Объединенных наций</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_START_UNITED_NATIONS_HELP">
+      <Text>Всемирный конгресс превратился в ООН, чтобы спасти человечество от ядерной войны. На специальной сессии ООН выберет принимающую державу. ООН будет решать вопросы международной политики, как и раньше, но между обычными сессиями будут проводиться выборы мирового лидера. Такой лидер одержит [COLOR_POSITIVE_TEXT]дипломатическую победу[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_START_WORLD_CONGRESS">
+      <Text>Основан Всемирный конгресс</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_START_WORLD_CONGRESS_HELP">
+      <Text>Лидеры держав всего мира съезжаются на Всемирный конгресс, чтобы обсудить международные проблемы.  Первым делом они должны определить, какая держава будет принимать конгресс у себя.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_WELCOME_CITY_STATES">
+      <Text>Всемирный конгресс приветствует города-государства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_WELCOME_CITY_STATES_HELP">
+      <Text>Города-государства занимают свои места на мировой сцене и начинают участвовать в международной политике.  Отныне у держав, имеющих союзные города-государства, будут дополнительные делегаты.  Кроме того, на Всемирном конгрессе будет проведена специальная сессия для избрания новой принимающей державы.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_CITYSTATE_DELEGATES">
+      <Text>[ICON_BULLET]+{1_NumDelegates} {1_NumDelegates: plural 1?делегат; 2?делегата; 3?делегатов;} за каждый союзный ГГ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_CIV_DELEGATES">
+      <Text>[ICON_BULLET]{1_NumDelegates} {1_NumDelegates: plural 1?делегат; 2?делегата; 3?делегатов;} за другие державы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_DIPLO_VICTORY_POSSIBLE">
+      <Text>[ICON_BULLET]Периодические выборы [COLOR_POSITIVE_TEXT]мирового лидера[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_HOST_DELEGATES">
+      <Text>[ICON_BULLET]{1_NumDelegates} {1_NumDelegates: plural 1?делегат; 2?делегата; 3?делегатов;} за прием конгресса</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_NO_CHANGE">
+      <Text>[ICON_BULLET]Нет изменений</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_FOUNDED">
+      <Text>{@1_CivName} [@1_CivName: plural 1?находится; other?находятся;} в контакте со всеми державами. Чтобы отметить это событие, лидеры государств со всего мира собирают {2_LeagueName} через {3_TurnsUntilSession} 3_TurnsUntilSession: plural 1?ход; 2?хода; 3?ходов;}, чтобы обсудить международную политику. По мере вступления в новые эпохи может быть избрана новая принимающая держава.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_GAME_ERA">
+      <Text>Мир вступил в {@1_EraName[4]}. Либо этой эпохи уже достигла половина всех держав, либо одна из держав достигла следующей за ней эпохи.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_NEXT_ERA">
+      <Text>Следующая эпоха:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_THIS_ERA">
+      <Text>Эта эпоха:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_TITLE_FOUNDED">
+      <Text>Основан Всемирный конгресс</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_UNITED_NATIONS">
+      <Text>ООН|ООН|ООН|ООН|ООН|ООН</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_WORLD_CONGRESS_1">
+      <Text>{@1_Ordinal} конгресс в г. {@2_CityName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_WORLD_CONGRESS_2">
+      <Text>{@1_Ordinal} съезд в г. {@2_CityName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_WORLD_CONGRESS_3">
+      <Text>{@1_Ordinal} совет в г. {@2_CityName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_WORLD_CONGRESS_GENERIC">
+      <Text>Всемирный конгресс</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROJECT_COMPLETE">
+      <Text>{@1_ProjectName} {@1_ProjectName: plural 1?{@1_ProjectName: gender masculine?завершен; feminine?завершена; neuter?завершено;}; 2?завершены; other?завершен;}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROJECT_COMPLETE_TT">
+      <Text>Проект {@1_ProjectName} завершен.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROJECT_PROGRESS">
+      <Text>{@1_ProjectName}: обновления</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROJECT_PROGRESS_TT">
+      <Text>Проект  {@1_ProjectName} завершен на [COLOR_POSITIVE_TEXT]{2_PercentComplete}[ENDCOLOR]%.  Чтобы внести свой вклад в его развитие и впоследствии получить премию, выберите проект в городском списке производства.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROPOSALS_NEEDED">
+      <Text>ВНЕСТИ ПРЕДЛОЖЕНИЕ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROPOSALS_NEEDED_TT">
+      <Text>Идет {1_LeagueName}. Ваша очередь вносить предложение на рассмотрение.  Вы можете предложить принять новые резолюции или отменить действие старых.  {1_LeagueName} решит судьбу предложения во время следующей сессии.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTES_NEEDED">
+      <Text>НАПРАВИТЬ ДЕЛЕГАТОВ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTES_NEEDED_TT">
+      <Text>Идет {1_LeagueName}, и ваша делегация ждет ваших распоряжений.  Распределите голоса делегатов между предложенными резолюциями, чтобы добиться наилучшего исхода.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_DONE">
+      <Text>Сессия окончена</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_DONE_TT">
+      <Text>{1_LeagueName} вынес решение по проектам резолюций.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_ENACT_FAIL">
+      <Text>Резолюция {1_ResolutionName} не принята.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_ENACT_PASS">
+      <Text>Резолюция {1_ResolutionName} принята.  Эффект от резолюции [COLOR_POSITIVE_TEXT]теперь действует[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_FAIL_SUMMARY">
+      <Text>Резолюция {1_ResolutionName} не проходит</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_HOST_CHANGED_SUMMARY">
+      <Text>{@1_CivName} {@1_CivName: plural 1?становится; 2?становятся; other?становится;} принимающей державой</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_HOST_DETAILS">
+      <Text>Во время специальной сессии {1_LeagueName} избрал новую принимающую державу: {@2_CivName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_HOST_SAME_SUMMARY">
+      <Text>{@1_CivName} {@1_CivName: plural 1?остается; 2?остаются; other?остается;} принимающей державой</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_MEMBER_VOTE">
+      <Text>[ICON_BULLET]{2_ResolutionChoiceText}: {@3_CivName} отдает {1_NumVotes} {1_NumVotes: plural 1?голос; 2?голоса; 3?голосов;}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_PASS_SUMMARY">
+      <Text>Резолюция {1_ResolutionName} проходит</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_REPEAL_FAIL">
+      <Text>Резолюция {1_ResolutionName} не принята.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_REPEAL_PASS">
+      <Text>{1_ResolutionName} была отменена.  Эффект от резолюции [COLOR_WARNING_TEXT]больше не действует[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_FAIL">
+      <Text>Мировой лидер не избран</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_FAIL_DETAILS">
+      <Text>Поскольку ни одна держава не набрала необходимые {1_NumDelegates} {1_NumDelegates: plural 1?голос; 2?голоса; 3?голосов;}, мировой лидер не избран. {2_NumCivilizations} {2_NumCivilizations: plural 1?держава, за которую; 2?державы, за которые; 3?держав, за которые;} было отдано наибольшее количество голосов, {2_NumCivilizations: plural 1?получает; 2?получают; 3?получают;} дополнительных делегатов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_PASS">
+      <Text>{@1_CivName} становится мировым лидером</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_PASS_DETAILS">
+      <Text>Одна из держав набрала необходимые для избрания мирового лидера {1_NumDelegates} {1_NumDelegates: plural 1?голос; 2?голоса; other?голосов;}, {@2_CivName} становится мировым лидером.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_SOON">
+      <Text>Предстоящая сессия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_SOON_TT">
+      <Text>{1_LeagueName} соберется через {2_TurnsUntilSession} ходов. На обсуждение вынесены следующие предложения:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_ALL_CITY_STATES_EMBARGO">
+      <Text>Эмбарго для городов-государств</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_ALL_CITY_STATES_EMBARGO_HELP">
+      <Text>Нельзя прокладывать [ICON_INTERNATIONAL_TRADE] торговые пути в города-государства. Любые существующие торговые пути должны быть перепроложены.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_ARTS_FUNDING">
+      <Text>Субсидирование искусства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_ARTS_FUNDING_HELP">
+      <Text>Ускоряет появление великих писателей, художников и музыкантов на 33%.  Замедляет появление великих ученых, инженеров и торговцев на 33%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_BAN_LUXURY_HAPPINESS">
+      <Text>Запрет на редкие ресурсы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_BAN_LUXURY_HAPPINESS_HELP">
+      <Text>Использование редких ресурсов признается аморальным или по какой-либо иной причине неприемлемым для населения.  Пока запрет действует, державы не получают бонусов [ICON_HAPPINESS_1] настроения от редких ресурсов.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHANGE_LEAGUE_HOST">
+      <Text>Принимающая сторона</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHANGE_LEAGUE_HOST_HELP">
+      <Text>Выборы державы, которая примет у себя конгресс. Принимающая держава получает дополнительные голоса и право предлагать резолюции.[NEWLINE][NEWLINE]Не может быть предложено державой. Автоматически предлагается, когда державы переходят в следующую эпоху.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_CITY">
+      <Text>(PLACEHOLDER)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_IDEOLOGY">
+      <Text>{@1_IdeologyName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_IDEOLOGY_YOU">
+      <Text>{@1_IdeologyName} (ваша)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_NO">
+      <Text>Против</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_PLAYER">
+      <Text>{@1_CivName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_PLAYER_YOU">
+      <Text>{@1_CivName} (вы)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_RELIGION">
+      <Text>{1_IconString} {@2_ReligionName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_RELIGION_YOU">
+      <Text>{1_IconString} {@2_ReligionName} (ваша)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_RESOURCE">
+      <Text>{1_IconString} {@2_ResourceName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_YES">
+      <Text>За</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CITY_STATE_AID">
+      <Text>Помощь города-государства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CITY_STATE_AID_HELP">
+      <Text>Все члены, не являющиеся городами-государствами, вносят 20% их [ICON_GOLD] резервов на помощь городам-государствам.  Негативные отношения с городами-государствами сбрасываются до 0 [ICON_INFLUENCE] влияния.  Отмена не имеет эффекта.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CULTURAL_HERITAGE_SITES">
+      <Text>Памятники культуры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CULTURAL_HERITAGE_SITES_HELP">
+      <Text>Каждое чудо света приносит +3 [ICON_CULTURE] единицы культуры своему городу.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_ANY_LUXURY_RESOURCE">
+      <Text>Выбрать редкий ресурс для резолюции</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_ANY_MEMBER">
+      <Text>Выбрать члена для резолюции</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_CITY">
+      <Text>Выбрать город для резолюции</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_HIGH_DELEGATE_MEMBER">
+      <Text>Выбрать державу с большой делегацией ({1_NumDelegates} или более делегатов)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_IDEOLOGY">
+      <Text>Выбрать идеологию для резолюции</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_MAJOR_CIV_MEMBER">
+      <Text>Выбрать державу для резолюции</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_NONE">
+      <Text>Нет решения</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_OTHER_MAJOR_CIV_MEMBER">
+      <Text>Выбрать цивилизацию кроме собственной для резолюции</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_RELIGION">
+      <Text>Выбрать религию для резолюции</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_REPEAL">
+      <Text>Выбрать, отменять резолюцию или нет</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_YES_OR_NO">
+      <Text>Выбрать Да или Нет</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DIPLO_VICTORY">
+      <Text>Мировой лидер</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DIPLO_VICTORY_HELP">
+      <Text>Назначить мирового лидера.  Если держава наберет большинство голосов делегатов на конгрессе, лидер одержит [COLOR_POSITIVE_TEXT]дипломатическую победу[ENDCOLOR].  Количество голосов, необходимое для победы, зависит от количества держав и городов-государств в игре, это можно посмотреть на экране Всемирного конгресса.[NEWLINE][NEWLINE]Если ни одна цивилизация не набирает достаточного количества голосов, две державы, набирающие наибольшее количество голосов, получат [COLOR_POSITIVE_TEXT]2 дополнительных делегатов[ENDCOLOR] для дальнейших сессий.[NEWLINE][NEWLINE]Не может быть предложено державой.  Автоматически предлагается с регулярными интервалами после того, как Всемирный конгресс станет Организацией Объединенных Наций.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_GOLD_FOR_EVERYONE">
+      <Text>Золото для всех</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_GOLD_FOR_EVERYONE_HELP">
+      <Text>Все члены однократно получают 100 [ICON_GOLD] единиц золота.  Отмена не имеет эффекта.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_GPT_FOR_EVERYONE">
+      <Text>Пошлины города-государства</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_GPT_FOR_EVERYONE_HELP">
+      <Text>[ICON_INFLUENCE]Влияние на города-государства сокращается быстрее, но [ICON_INTERNATIONAL_TRADE] торговые пути, проложенные в города-государства, приносят дополнительное [ICON_GOLD].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_HISTORICAL_LANDMARKS">
+      <Text>Исторические памятники</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_HISTORICAL_LANDMARKS_HELP">
+      <Text>Улучшения, созданные  великими людьми дают +2 [ICON_CULTURE] к культуре после обработки, а памятники, созданные археологами, дают +4 [ICON_CULTURE] к культуре после обработки.[NEWLINE][NEWLINE]Доступно после того, как любая держава откроет археологию.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION">
+      <Text>Строительство МКС</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION_HELP">
+      <Text>Запускает проект строительства международной космической станции.  Пока проект не закончен, державы могут вносить очки [ICON_PRODUCTION] производства для его завершения, при условии, что проект отмечен в списке производства.  В результате все державы-участники получат разные бонусы в зависимости от того, сколько они вложили.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1_HELP}[NEWLINE][NEWLINE]Доступна после того, как любая цивилизация откроет спутники.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT">
+      <Text>Научные стажировки</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP">
+      <Text>Державы на 20% быстрее изучают технологии, уже открытые хотя бы одной другой державой.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_NATURAL_HERITAGE_SITES">
+      <Text>Памятники природы</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_NATURAL_HERITAGE_SITES_HELP">
+      <Text>Каждое чудо природы дает +5 [ICON_CULTURE] к культуре.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION">
+      <Text>Нераспространение ЯО</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION_HELP">
+      <Text>Всем державам запрещено создавать новое ядерное оружие (атомные бомбы и ядерные ракеты). Однако уже имеющееся оружие не уничтожается.[NEWLINE][NEWLINE]Доступно после того, как хотя бы одна держава изучит современную баллистику.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_PLAYER_EMBARGO">
+      <Text>Эмбарго</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_PLAYER_EMBARGO_HELP">
+      <Text>Нельзя прокладывать [ICON_INTERNATIONAL_TRADE] торговые пути между выбранной державой и другими державами. Любые существующие торговые пути должны быть перепроложены.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_RESOURCE_FOR_EVERYONE">
+      <Text>Ресурсы для всех</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_RESOURCE_FOR_EVERYONE_HELP">
+      <Text>Все члены получают по два ресурса на протяжении всего срока действия резолюции.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_SCIENCES_FUNDING">
+      <Text>Субсидирование науки</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_SCIENCES_FUNDING_HELP">
+      <Text>Ускоряет появление великих ученых, инженеров и торговцев на 33%.  Замедляет появление великих писателей, художников и музыкантов на 33%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_STANDING_ARMY_TAX">
+      <Text>Налог на регулярную армию</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_STANDING_ARMY_TAX_HELP">
+      <Text>Стоимость юнитов повышается на 25% [ICON_GOLD] золота.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_FAIR">
+      <Text>Всемирная выставка</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_FAIR_HELP">
+      <Text>Запускает проект всемирной выставки.  Пока проект не закончен, державы могут вносить очки [ICON_PRODUCTION] производства для его завершения, при условии, что проект отмечен в списке производства.  В результате все державы-участники получат разные бонусы в зависимости от того, сколько они вложили.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_1_HELP}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_GAMES">
+      <Text>Международные игры</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_GAMES_HELP">
+      <Text>Запускает проект международных игр.  Пока проект не закончен, державы могут вносить очки [ICON_PRODUCTION] производства для его завершения, при условии, что проект отмечен в списке производства.  В результате все державы-участники получат разные бонусы в зависимости от того, сколько они вложили.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_1_HELP}[NEWLINE][NEWLINE]Доступно после того, как любая держава откроет радио.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_IDEOLOGY">
+      <Text>Мировая идеология</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_IDEOLOGY_HELP">
+      <Text>Назначить идеологию основной идеологией мира.  Державы, принявшие эту идеологию, получают 2 дополнительных делегатов.  Общественное мнение во всех державах склоняется к этой идеологии.  В один момент времени может существовать только одна мировая идеология.[NEWLINE][NEWLINE]Доступно после того, как любая держава откроет радио.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_RELIGION">
+      <Text>Мировая религия</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_RELIGION_HELP">
+      <Text>Назначить религию основной религией мира.  Державы, в большинстве городов которых принята данная религия, получают дополнительно 2 делегатов.  Религия распространяется на 25% быстрее, ее святыни получают +50% [ICON_TOURISM] к туризму.  В один момент времени может существовать только одна мировая религия.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_ITEM_VOTES">
+      <Text>ВСЕМИРНЫЙ КОНГРЕСС</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

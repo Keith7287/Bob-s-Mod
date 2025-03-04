@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_JA_JP>
+    <Row Tag="TXT_KEY_CITY_SPY_CITY_STATE_TT">
+      <Text>{1_SpyRank}{2_SpyName}は{3_CityName}にいる。{4_SpyRank}{5_SpyName}がその都市国家にいる間、彼らは内偵を進め、あなたの影響力を高めるために選挙を操作しようとする。他文明のスパイがいる場合は、操作できない選挙も出てくる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_SPY_OTHER_CIV_TT">
+      <Text>{1_SpyRank}{2_SpyName}は{3_CityName}にいる。{4_SpyRank}{5_SpyName}がその都市国家にいる間、彼らは内偵を進め、未知のテクノロジーを盗み出そうとする。{6_SpyRank}{7_SpyName}はまた、活動中に探り当てた陰謀をすべて報告してくる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_SPY_YOUR_CITY_TT">
+      <Text>{1_SpyRank}{2_SpyName}は{3_CityName}にいる。{4_SpyRank}{5_SpyName}があなたの都市国家にいる間、彼らはテクノロジーを盗もうとする敵スパイを捕らえて抹殺するための防諜活動を展開する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_CIV_CITY_STATE_TT">
+      <Text>{1_CityName}は[COLOR_POSITIVE_TEXT]{2_CityStateTraitAdj}[ENDCOLOR]都市国家である。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_CIV_TT">
+      <Text>{1_CityName}は{@2_CivShortDesc}に支配されている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_NAME_CITY_STATE_TT">
+      <Text>{1_CityName}は[COLOR_POSITIVE_TEXT]{2_CityStateTraitAdj}[ENDCOLOR]都市国家である。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_NAME_TT">
+      <Text>{1_CityName}は{@2_CivShortDesc}に支配されている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_ONCE_KNOWN_POTENTIAL_TT">
+      <Text>{1_CityName}のポテンシャルは{2_Num}。[NEWLINE][NEWLINE]これは最後にこの都市に潜入したスパイによって確認された情報である。情報を更新するには、スパイを再びこの都市に潜入させる必要がある。[NEWLINE][NEWLINE]ポテンシャルはその都市からどれだけ素早くテクノロジーを盗めるかを示しており、値が高いほど、より素早くテクノロジーを盗むことができる。ポテンシャルの基本値はその都市が産出する科学力の総量に基づく。ポテンシャルはその都市に警察庁や警察署などの防御施設があると低下し、テクノロジーを盗むスパイのランクが高くなると上昇する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_POPULATION_TT">
+      <Text>{1_CityName}の人口は{2_Num}である。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_POTENTIAL_CANNOT_STEAL_TT">
+      <Text>{3_CityName} にはあなたが所有していないテクノロジーが存在しないため、{1_SpyRank} {2_SpyName}はテクノロジーを盗むことができない。[NEWLINE][NEWLINE]{4_CityName}e}のポテンシャルの基本値は{5_Num}である。[NEWLINE][NEWLINE]ポテンシャルはその都市からどれだけ素早くテクノロジーを盗めるかを示しており、値が高いほど、より素早くテクノロジーを盗むことができる。ポテンシャルの基本値はその都市が産出する科学力の総量に基づく。ポテンシャルはその都市に警察庁や警察署などの防御施設があると低下し、テクノロジーを盗むスパイのランクが高くなると上昇する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_POTENTIAL_TT">
+      <Text>{1_SpyRank}{2_SpyName}が{4_CityName}からポテンシャルを{3_Num}盗もうとしている。[NEWLINE]{5_CityName}のポテンシャルの基本値は{6_Num}である。[NEWLINE][NEWLINE]ポテンシャルはその都市からどれだけ素早くテクノロジーを盗めるかを示しており、値が高いほど、テクノロジーをより素早く盗むことができる。ポテンシャルの基本値はその都市が産出する科学力の総量に基づく。ポテンシャルはその都市に警察庁や警察署などの防御施設があると低下し、テクノロジーを盗むのにより高いランクのスパイを使用すると上昇する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_SORT_TT">
+      <Text>都市の名前。[NEWLINE][NEWLINE]クリックすると名前の順に都市を並べ替えることができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_STATE_ELECTION">
+      <Text>全世界の都市国家は{1_Num}ターンごとに同時に選挙を行う。次の選挙まであと{2_Num}ターン。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_STATE_POTENTIAL_TT">
+      <Text>都市国家からテクノロジーを盗むことはできないため、都市国家にはポテンシャルという指標はない。[NEWLINE][NEWLINE]都市国家にスパイを潜入させて選挙を操作すると、その都市国家に対する影響力が増加する。都市に複数のスパイを潜入させている場合、選挙の操作に成功する可能性が最も高いのは、最もランクが高く、なおかつその都市への滞在期間が最も長いスパイである。他文明と同盟を結んでいる都市国家にいるスパイは、政変を仕掛けることもできる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_NO_CITY_TT">
+      <Text>都市画面を見るには、スパイをその都市に移動させなければならない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_TT">
+      <Text>{1_CityName}の都市画面を見ることはできない。[NEWLINE][NEWLINE]都市画面を見るには、スパイをその都市に移動させ、内偵を終了させる必要がある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_WAIT_TT">
+      <Text>{1_CityName}の都市画面を見ることはできない。[NEWLINE][NEWLINE]その都市にスパイはいるが、内偵が終了するまでは都市画面を見ることができない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_YOUR_CITY_TT">
+      <Text>{1_CityName}の都市画面はスパイを使わなくても見ることができる。[NEWLINE][NEWLINE]自分の文明に属する都市なので、スパイは必要ない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_ENABLED_TT">
+      <Text>クリックすると{1_CityName}の都市画面を見ることができる。[NEWLINE][NEWLINE]他プレイヤーの都市にスパイを潜入させて内偵を終了させると、その都市の都市画面を見ることができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_ENABLED_YOUR_CITY_TT">
+      <Text>クリックすると{1_CityName}の都市画面を見ることができる。[NEWLINE][NEWLINE]自分の文明に属する都市の都市画面はいつでも見ることができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CIVILIZATION_SORT_TT">
+      <Text>どの文明に属しているかを示している。[NEWLINE][NEWLINE]クリックすると、属している文明の順に都市を並べ替える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY_THEM">
+      <Text>{1_PlayerName}は{2_SocialPolicyName}を採用した。これにより、敵スパイを捕らえる確率が{3_Num}%向上する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY_YOU">
+      <Text>{1_SocialPolicyName}を採用した。これにより、敵スパイを捕らえる確率が{2_Num}%向上する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INTRIGUE">
+      <Text>陰謀</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INTRIGUE_TT">
+      <Text>陰謀画面には、スパイや他文明を通じて入手した他文明の陰謀が示される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_MOVE_SPY_TO_HIDEOUT_CHECK">
+      <Text>本当に{1_SpyRank}{2_SpyName}を隠れ家に移動させますか？ [NEWLINE][NEWLINE]この命令を出すと、スパイは現在の作業を中断して身を隠します。スパイは隠れ家にいる間はなにもできませんが、敵に排除されることもありません。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_NO_INTRIGUE_AVAILABLE">
+      <Text>選択できる陰謀なし</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_OVERVIEW">
+      <Text>概要</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_OVERVIEW_TT">
+      <Text>概要画面を使用すると、スパイを世界中の都市に配置し、内偵、テクノロジーの奪取、陰謀の探知、選挙の操作を行わせることができる。また、そうしたスパイ活動の状況を把握することもできる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_OWN_CITY_POTENTIAL_TT">
+      <Text>{1_CityName}のポテンシャルは{2_Num}である。[NEWLINE][NEWLINE]自分の文明に属する都市のポテンシャルはいつでも知ることができる。テクノロジー獲得競争で他国よりリードしている場合は、ポテンシャルの高い都市の防衛を考えたほうが良い。防衛には2つの方法がある。1つは、防衛したい都市にスパイを移動させ、敵のスパイ行為に対抗するスパイとして活動させる方法である。こうすれば、テクノロジーを盗まれる前に敵スパイを捕らえて排除することもできるようになる。もう1つは、警察庁や警察署、グレート・ファイアウォールといった建造物を建設して、敵スパイがテクノロジーを盗む効率を低下させる方法である。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POPULATION_SORT_TT">
+      <Text>都市の人口。一般に、人口が多い都市ほど科学力の産出量が多い。また、科学力の産出量が多いほど、ポテンシャルの値も大きくなる。[NEWLINE][NEWLINE]クリックすると、人口の多い順に都市を並べ替えることができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_BUILDING_MOD_ENTRY">
+      <Text>{1_BuildingName}:{2_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_BUILDING_MOD_TITLE">
+      <Text>建造物と遺産による変化:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_POLICY_MOD_ENTRY">
+      <Text>{1_SocialPolicyName}:{2_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_POLICY_MOD_TITLE">
+      <Text>社会制度による変化:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_SORT_TT">
+      <Text>ポテンシャルはその都市からどれだけ素早くテクノロジーを盗めるかを示しており、値が高いほど、テクノロジーをより素早く盗むことができる。ポテンシャルの基本値はその都市が産出する科学力の総量に基づく。ポテンシャルはその都市に警察庁や警察署などの防御施設があると低下し、テクノロジーを盗むのにより高いランクのスパイを使用すると上昇する。[NEWLINE][NEWLINE]クリックすると、ポテンシャルの高い順に都市を並べ替えることができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_WONDER_MOD_ENTRY">
+      <Text>{1_WonderName}:{2_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_WONDER_MOD_TITLE">
+      <Text>他都市にある遺産による変化:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_BUTTON_DISABLED_SPY_DEAD_TT">
+      <Text>{1_SpyRank}{2_SpyName}は死亡した。冥福を祈ろう。 </Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_POLICY_TT">
+      <Text>警察国家制度により敵スパイを排除できる確率が{1_Num}%向上。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_SPY_RANK_TT">
+      <Text>{2_RankName} {3_SpyName}のランクにより敵スパイを排除できる確率が{1_Num}%向上。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_SUM_TT">
+      <Text>敵スパイを排除できる確率が合計で{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_TT">
+      <Text>{1_RankName}{2_SpyName}が{3_CityName}で防諜活動を行っている。[NEWLINE][NEWLINE]敵スパイがテクノロジーを盗もうとしている場合でも、その都市に味方のスパイがいれば、盗みを確実に探知できる。上手くいけば、テクノロジーを盗んだ相手を突き止めて敵スパイを排除することも可能だ。テクノロジーを盗もうする敵スパイを排除する確率は、味方スパイのランクの高さに比例して上昇する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_NO_ALLY_TT">
+      <Text>現在{4_CityName}は誰とも同盟を結んでいないので、{1_SpyRank}{2_SpyName}が{3_CityName}で政変を仕掛けることはできない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_WAIT_TT">
+      <Text>まだ内偵が終了していないため、{1_SpyRank}{2_SpyName}が{3_CityName}で政変を仕掛けることはできない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_YOU_ALLY_TT">
+      <Text>この都市国家とすでに同盟を結んでいるため、{1_SpyRank}{2_SpyName}が{3_CityName}で政変を仕掛けることはできない！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUP_ENABLED_TT">
+      <Text>クリックすると、{1_SpyRank}{2_SpyName}が{3_CityName}で政変を仕掛け、{4_CivAdjective}支持者を打倒しようとする。[NEWLINE][NEWLINE]成功確率は{5_Num}%。{6_SpyRank}{7_SpyName}の試みが成功した場合、あなたは{8_CityName}と同盟関係になり、{9_CivShortDesc}の影響力はあなたの現在の影響力の水準にまで低下する。また、他のプレイヤー全員の影響力が低下する。{10_SpyRank}{11_SpyName}の試みが失敗した場合、味方スパイは排除され、{12_CityName}に対するあなたの影響力は大幅に低下する。[NEWLINE][NEWLINE]成功確率を高めるには、その都市国家に対する影響力を上昇させたり、よりランクの高いスパイを使用したりすると良い。さらに、現在その都市国家と同盟を結んでいる相手の影響力が低下するのを待つという手もある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_GATHERING_INTEL_TT">
+      <Text>{1_RankName}{2_SpyName}が{3_CityName}で情報収集を進め、テクノロジーを盗もうとしている。[NEWLINE][NEWLINE]スパイがテクノロジーを盗むには、相手の文明がこちらにとって未知のテクノロジーを有している必要がある。[NEWLINE][NEWLINE]その都市を所有するプレイヤーがその都市にスパイを配置している場合、テクノロジーを盗もうとするスパイが発見され、排除される恐れがある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_LOCATION_TT">
+      <Text>{1_SpyRank}{2_SpyName}は現在{3_CityName}にいる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_MOVE_TT">
+      <Text>クリックすると{1_SpyRank}{2_SpyName}を別の場所に移動させることができる。[NEWLINE][NEWLINE]新たな都市への移動を命じられたスパイが十分に機能を発揮するまでには数ターンかかる。[NEWLINE][NEWLINE]自文明の都市に移動させた場合、スパイは敵スパイを探知して排除すべく防諜活動を始める。[NEWLINE][NEWLINE]他文明の都市に移動させた場合、スパイはその文明からテクノロジーを盗むための活動を始める。ただし、スパイがテクノロジーを盗むことができるのは、相手が自文明にとって未知のテクノロジーを所有している場合に限られる。都市の所有者が自分のスパイに防諜活動を行わせている場合、こちらのスパイが発見されて排除される恐れがある。そうなれば、外交関係の緊張は避けられない。[NEWLINE][NEWLINE]都市国家に移動させた場合、スパイは選挙を操作してその都市国家に対する影響力を上昇させようとする。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_NAMEPLATE_TT">
+      <Text>これは味方スパイの{2_SpyName}である。現在のランクは{1_SpyRank}。[NEWLINE][NEWLINE]スパイに何らかの効果を発揮させるには都市に移動させなければならない。[NEWLINE][NEWLINE]自文明の都市にいるスパイは、テクノロジーを盗もうとする敵スパイを捕らえて排除しようとする。[NEWLINE][NEWLINE]他文明の都市にいるスパイは、その文明からテクノロジーを盗もうとする。また、その文明の陰謀(他の文明に対する奇襲攻撃の計画など)を探り当てた場合は、それも報告してくる。[NEWLINE][NEWLINE]都市国家にいるスパイは、選挙を操作して自文明の影響力を上昇させようとする。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_NEEDS_ASSIGNMENT_TT">
+      <Text>スパイが隠密任務を始められるよう、都市に移動させてください。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_RANK_TT">
+      <Text>{1_SpyName}の現在のランクは{2_RankName}である。[NEWLINE][NEWLINE]スパイには新米、中堅、熟練という3つのランクがある。ランクが上がるほどスパイの腕も上がる。すなわち、スパイのランクが高くなるほどテクノロジーを盗む速度が上昇し、またテクノロジーを盗もうとする敵スパイを発見して排除する確率も上昇する。さらに、都市国家での選挙の操作や、他文明と同盟を結んでいる都市国家に対する政変に成功しやすくなる。[NEWLINE][NEWLINE]スパイは他文明からテクノロジーを盗むのに成功したり、テクノロジーを盗もうとする敵スパイを排除したりするとレベルアップする。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_RIGGING_ELECTIONS_TT">
+      <Text>{3_CityName}にいる{1_RankName}{2_SpyName}が、こちらの影響力を上昇させるため、現地の選挙の操作を試みている。[NEWLINE][NEWLINE]1度の選挙で操作できる文明は1つだけである。都市国家に複数のスパイがいる場合、選挙の操作に成功する確率が最も高いのは、最もランクが高く、なおかつその都市国家に最も長い期間滞在しているスパイである。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_SURVEILLANCE_TT">
+      <Text>{1_RankName}{2_SpyName}が{3_CityName}で内偵を進めている。[NEWLINE][NEWLINE]内偵を終了すると、スパイは次の作戦段階に進むことができる。また、他文明の都市の都市画面をのぞき見ることができるようになる(ただし、都市国家の都市画面をのぞき見ることはできない)。[NEWLINE][NEWLINE]内偵によって、その文明が企んでいる陰謀(奇襲攻撃の計画など)を探り当てることも可能。このような情報は、重要となる場合がある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_TRAVELLING_TT">
+      <Text>{1_RankName}{2_SpyName}は現在{3_CityName}に向かっている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_UNASSIGNED_TT">
+      <Text>{1_RankName}{2_SpyName}は隠れ家で無為に過ごしている。[NEWLINE][NEWLINE]どこかの都市に移動させて、隠密任務に就かせましょう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_UNASSIGNED_SPIES_TT">
+      <Text>任務に就いていないスパイが{1_Num}人いる。[NEWLINE][NEWLINE]スパイを使用すると、他文明からテクノロジーを盗んだり、他文明の陰謀を探り当てたり、選挙を操作して都市国家に対する影響力を上昇させたりすることができる。｢スパイ活動の概要｣画面でスパイたちに任務を割り振り、仕事を開始させましょう！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_UNKNOWN_POTENTIAL">
+      <Text>？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_UNKNOWN_POTENTIAL_TT">
+      <Text>この都市のポテンシャルは不明。スパイをこの都市に移動させ、内偵を終了させると判明。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ESPIONAGE_NOT_STARTED_YET">
+      <Text>誰かがルネサンス時代に入るまでスパイ活動はできません</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_BUILDING_AMPHIBIOUS_ARMY">
+      <Text>{1_PlayerName}が他文明に奇襲攻撃をかけるため、護衛艦をつけた軍隊を編成している。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_BUILDING_ARMY">
+      <Text>{1_PlayerName}が他文明に奇襲攻撃をかけるため、軍隊を編成している。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_CONSTRUCT_WONDER">
+      <Text>{1_PlayerName}が{2_WonderOrProject}を{3_CityName}に建設している。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_CONSTRUCT_WONDER_WO_CITY">
+      <Text>{1_PlayerName}が{2_WonderOrProject}を建設している。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_PLOTTING_AGAINST_KNOWN">
+      <Text>{1_PlayerName}が{2_PlayerName}に対して陰謀を企てている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_PLOTTING_AGAINST_UNKNOWN">
+      <Text>{1_PlayerName}が未知の文明に対して陰謀を企てている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_PLOTTING_AGAINST_YOU">
+      <Text>{1_PlayerName}があなたに対して陰謀を企てている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_KNOWN">
+      <Text>{1_PlayerName}が{2_CivAdj}都市{3_CityName}に対して上陸奇襲攻撃を仕掛けた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_UNKNOWN">
+      <Text>{1_PlayerName}が{2_PlayerName}に対して上陸奇襲攻撃を仕掛けた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_SOMEONE">
+      <Text>{1_PlayerName}が他のプレイヤーに対して上陸奇襲攻撃を仕掛けた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_UNKNOWN">
+      <Text>{1_PlayerName}が未知のプレイヤーに対して上陸奇襲攻撃を仕掛けた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_KNOWN">
+      <Text>{1_PlayerName}があなたの都市{2_CityName}に対して上陸奇襲攻撃を仕掛けた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_UNKNOWN">
+      <Text>{1_PlayerName}があなたに対して上陸奇襲攻撃を仕掛けた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_KNOWN">
+      <Text>{1_PlayerName}が{2_CivAdj}都市{3_CityName}に対して奇襲攻撃を仕掛けた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_UNKNOWN">
+      <Text>{1_PlayerName}が{2_PlayerName}に対して奇襲攻撃を仕掛けた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_SOMEONE">
+      <Text>{1_PlayerName}が他の都市に対して奇襲攻撃を仕掛けた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_UNKNOWN">
+      <Text>{1_PlayerName}が未知の文明に対して奇襲攻撃を仕掛けた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_KNOWN">
+      <Text>{1_PlayerName}があなたの{2_CityName}に対して奇襲を仕掛けた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_UNKNOWN">
+      <Text>{1_PlayerName}があたなに奇襲を仕掛けた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_CANCEL">
+      <Text>キャンセル</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_CANCEL_TT">
+      <Text>移動をキャンセルし、スパイを現在の位置にとどまらせます。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_HIDEOUT_BUTTON">
+      <Text>身を隠す</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_HIDEOUT_BUTTON_TT">
+      <Text>スパイを任務から外します。スパイは次の任務まで、隠れ家で鋭いステーキナイフでダーツをしながら待機します。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_INSTRUCTIONS">
+      <Text>{1_SpyRank}{2_SpyName}を任務に就かせるために、移動先の都市を選択してください。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_MORE_SPIES">
+      <Text>自国のスパイは全て排除されました。[NEWLINE]代わりとなるスパイを補充しています。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_AMPHIBIOUS_ARMY">
+      <Text>{1_SpyRank}{2_SpyName}の調査により、{3_PlayerName}が海軍で構成された部隊を組織し、他国に奇襲をかけようとしていることが明らかになった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_AMPHIBIOUS_ARMY_S">
+      <Text>{1_PlayerName}は海軍による奇襲の準備を進めている！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_ARMY">
+      <Text>{1_SpyRank}{2_SpyName}の調査により、{3_PlayerName}が部隊を組織して、他国に奇襲をかけようとしていることが明らかになった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_ARMY_S">
+      <Text>{1_PlayerName}は奇襲の準備を進めている！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_CONSTRUCT_WONDER">
+      <Text>{1_SpyRank}{2_SpyName}の調査により、{3_PlayerName}が{5_CityName}に{4_WonderOrProject}を建設していることが明らかになった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_CONSTRUCT_WONDER_S">
+      <Text>{1_PlayerName}が{2_WonderOrProject}を建設している。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_KNOWN">
+      <Text>{1_SpyRank}{2_SpyName}が{3_CityName}で入手した情報により、{4_PlayerName}が{5_PlayerName}に対して陰謀を企てていることが明らかになった！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_KNOWN_S">
+      <Text>{1_PlayerName}は{2_PlayerName}に対して陰謀を企てている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_UNKNOWN">
+      <Text>{1_SpyRank}{2_SpyName}が{3_CityName}で入手した情報により、{4_PlayerName}が未知の文明に対して陰謀を企てていることが明らかになった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_UNKNOWN_S">
+      <Text>{1_PlayerName}は未知の文明に対して陰謀を企てている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_YOU">
+      <Text>{1_SpyRank}{2_SpyName}が{3_CityName}で入手した情報により、{4_PlayerName}があなたに対して陰謀を企てていることが明らかになった！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_YOU_S">
+      <Text>{1_PlayerName}はあなたに対して陰謀を企てている！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_KNOWN">
+      <Text>{1_SpyRank}{2_SpyName}の調査により、海軍で構成された{3_CivAdj}奇襲部隊が、{4_CivAdj}{5_CityName}に向けて進軍を開始したことが明らかになった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_KNOWN_S">
+      <Text>{1_PlayerName}の奇襲部隊が、{2_CityName}に向けて航行を開始した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_UNKNOWN">
+      <Text>{1_SpyRank}{2_SpyName}の調査により、海軍で構成された{3_CivAdj}奇襲部隊が、{4_CivDesc}に向けて進軍を開始したことが明らかになった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_UNKNOWN_S">
+      <Text>{1_PlayerName}の奇襲部隊が、{2_PlayerName}に向けて航行を開始した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_SOMEONE">
+      <Text>{1_SpyRank}{2_SpyName}の調査により、海軍で構成された{3_CivAdj}奇襲部隊が進軍を開始したことが明らかになった。どの文明に向けたものかは不明。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_SOMEONE_S">
+      <Text>{1_PlayerName}の奇襲部隊が、他の文明に向けて航行を開始した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_UNKNOWN">
+      <Text>{1_SpyRank}{2_SpyName}の調査により、海軍で構成された{3_CivAdj}奇襲部隊が、未知の文明に向けて進軍を開始したことが明らかになった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_UNKNOWN_S">
+      <Text>{1_PlayerName}の奇襲部隊が、未知の文明に向けて航行を開始した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_KNOWN">
+      <Text>{1_SpyRank}{2_SpyName}の調査により、海軍で構成された{3_CivAdj}奇襲部隊が、あなたの国の都市{4_CityName}に向けて進軍を開始したことが明らかになった！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_KNOWN_S">
+      <Text>{1_PlayerName}の奇襲部隊が、あなたの国の都市{2_CityName}に向けて航行を開始した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_UNKNOWN">
+      <Text>{1_SpyRank}{2_SpyName}の調査により、海軍で構成された{3_CivAdj}奇襲部隊が、あなたの国に向けて進軍を開始したことが明らかになった！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_UNKNOWN_S">
+      <Text>{1_PlayerName}の奇襲部隊が、あなたの国に向けて航行を開始した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_KNOWN">
+      <Text>{1_SpyRank}{2_SpyName}の調査により、{3_CivAdj}奇襲部隊が、{4_CivAdj}{5_CityName}に向けて進軍を開始したことが明らかになった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_KNOWN_S">
+      <Text>{1_PlayerName}の奇襲部隊が、{2_CityName}に向けて進軍を開始した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_UNKNOWN">
+      <Text>{1_SpyRank}{2_SpyName}の調査により、{3_CivAdj}奇襲部隊が、{4_CivDesc}に向けて進軍を開始したことが明らかになった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_UNKNOWN_S">
+      <Text>{1_PlayerName}の奇襲部隊が、{2_PlayerName}に向けて進軍を開始した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_SOMEONE">
+      <Text>{1_SpyRank}{2_SpyName}の調査により、{3_CivAdj}奇襲部隊が進軍を開始したことが明らかになった。どの文明に向けたものかは不明。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_SOMEONE_S">
+      <Text>{1_PlayerName}の奇襲部隊が、他の文明に向けて進軍を開始した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_UNKNOWN">
+      <Text>{1_SpyRank}{2_SpyName}の調査により、{3_CivAdj}奇襲部隊が、未知の文明に向けて進軍を開始したことが明らかになった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_UNKNOWN_S">
+      <Text>{1_PlayerName}の奇襲部隊が、未知の文明に向けて進軍を開始した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_KNOWN">
+      <Text>{1_SpyRank}{2_SpyName}の調査により、{3_CivAdj}奇襲部隊が、あなたの国の都市{4_CityName}に向けて進軍を開始したことが明らかになった！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_KNOWN_S">
+      <Text>{1_PlayerName}の奇襲部隊が、あなたの国の都市{2_CityName}に向けて進軍を開始した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_UNKNOWN">
+      <Text>{1_SpyRank}{2_SpyName}の調査により、{3_CivAdj}奇襲部隊が、あなたの国に向けて進軍を開始したことが明らかになった！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_UNKNOWN_S">
+      <Text>{1_PlayerName}の奇襲部隊が、あなたの国に向けて進軍を開始した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY">
+      <Text>自国のスパイの{1_SpyRank}{2_SpyName}が、{4_CityName}でテクノロジーを盗もうとしていた{3_CivAdj}スパイを始末した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY_S">
+      <Text>{1_CivAdj}スパイを始末した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_TECH">
+      <Text>こちらのテクノロジーの方が進んでいるため、{1_SpyRank}{2_SpyName}を使っても{@3_CivShortName}から技術を盗むことはできない！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_TECH_S">
+      <Text>{@1_CivShortName}からは技術を盗めない</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_CREATED">
+      <Text>{1_SpyName}をスパイとして雇用した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_CONQUEST">
+      <Text>{3_CityName}による占領に乗じて、{@4_CivShortName}に捕らえられていたあなたのスパイの{1_SpyRank}{2_SpyName}が脱走した。スパイに再び任務を割り当てられるようになった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_CONQUEST_S">
+      <Text>スパイの脱走</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_CONQUEST_YOU">
+      <Text>{3_CityName}を占領したことで、この都市に捕らえられていたあなたのスパイ{1_SpyRank}{2_SpyName}が自由の身になった。スパイに再び任務を割り当てられるようになった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_TRADE">
+      <Text>{@4_CivShortName}に{3_CityName}が譲渡されたことで、あなたのスパイの{1_SpyRank}{2_SpyName}が自由の身になった。スパイに再び任務を割り当てられるようになった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_TRADE_S">
+      <Text>スパイの釈放</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_TRADE_YOU">
+      <Text>あなたに{3_CityName}が譲渡されたことで、あなたのスパイの{1_SpyRank}{2_SpyName}が自由の身になった。スパイに再び任務を割り当てられるようになった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_PROMOTED">
+      <Text>{1_SpyName}のランクが{@2_RankName}から{@3_RankName}に上がった。[NEWLINE]スパイのランクが高いほどテクノロジーを盗むのが早くなり、敵のスパイを捕まえる確率も高くなる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_REVIVED">
+      <Text>任務中に始末されたスパイの代わりに、{1_SpyRank}{2_SpyName}を雇用した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_REVIVED_S">
+      <Text>新しいスパイの雇用</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_ALERT">
+      <Text>前回の選挙により、{1_CityName}に対する影響力が急激に低下した。敵のスパイが選挙を不正に操作した可能性がある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_ALERT_S">
+      <Text>{1_CityName}での選挙工作！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_FAILURE">
+      <Text>{1_SpyRank}{2_SpyName}は{3_CityName}での選挙工作に失敗した。{4_CivShortDesc}が選挙を不正に操作し、彼らに対する影響力を上昇させた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_FAILURE_S">
+      <Text>{1_CityName}での選挙工作に失敗した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_SUCCESS">
+      <Text>{1_SpyRank}{2_SpyName}は{3_CityName}での選挙工作に成功した。この都市国家に対する他文明の影響力が低下し、あなたの文明の影響力が上昇した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_SUCCESS_S">
+      <Text>{1_CityName}での選挙工作に成功した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_FAILURE">
+      <Text>{1_CivShortDesc}が{2_CityName}に政変を仕掛けたが、この都市国家と同盟を結ぶ{3_CivAdj}関係者を排除できなかった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_FAILURE_S">
+      <Text>{2_CityName}での{1_CivAdj}政変に失敗</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_SUCCESS">
+      <Text>{1_CivShortDesc}が{2_CityName}に政変を仕掛け、この都市国家と同盟を結ぶ{3_CivAdj}関係者を排除した。自国の関係者を潜り込ませることに成功した{1_CivShortDesc}が、この都市国家の新たな同盟国となった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_SUCCESS_S">
+      <Text>{2_CityName}での{1_CivAdj}政変に成功</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_BLOCKING">
+      <Text>テクノロジーを盗む</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_BLOCKING_TT">
+      <Text>スパイの内偵が完了し、敵国からテクノロジーを盗む準備が整った。盗むテクノロジーを選択してください。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_TECH">
+      <Text>{3_CityName}での{1_SpyRank}{2_SpyName}による内偵が完了し、{@4_CivShortName}からテクノロジーを盗む準備が整った！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_TECH_S">
+      <Text>テクノロジーを盗む</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED">
+      <Text>{4_CityName}でテクノロジーを盗もうとしていたあなたのスパイの{1_SpyRank}{2_SpyName}が、スパイに始末された！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_S">
+      <Text>{1_SpyName}が始末された！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_FAILURE">
+      <Text>{1_SpyRank}{2_SpyName}が{3_CityName}に政変を仕掛けたが、この都市を統治する{4_CivShortDesc}の関係者を排除できなかった。クーデターの失敗により、{1_SpyRank}{2_SpyName}は殉職した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_FAILURE_S">
+      <Text>{1_CityName}での政変に失敗！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_SUCCESS">
+      <Text>{1_SpyRank}{2_SpyName}が{3_CityName}に政変を仕掛け、{4_CivShortDesc}の関係者を排除した。自国の関係者を政府内に潜り込ませることに成功したあなたの国が、この都市国家の新たな同盟国となった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_SUCCESS_S">
+      <Text>{1_CityName}での政変に成功！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SPY_CREATED">
+      <Text>スパイが雇用された！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SPY_PROMOTED">
+      <Text>{1_SpyName}が昇進した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED">
+      <Text>身元不明のスパイによって{2_CityName}から{1_Tech}の情報が盗まれた！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_S">
+      <Text>{1_Tech}が盗まれた！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_W_TIP">
+      <Text>身元不明のスパイによって{2_CityName}から{1_Tech}の情報が盗まれた！[NEWLINE]この都市にスパイを配置すれば、今後この都市からは情報を盗まれにくくなる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_WO_TECH">
+      <Text>身元不明のスパイによって{1_CityName}から技術情報が盗まれた！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_WO_TECH_S">
+      <Text>テクノロジーが盗まれた！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_WO_TECH_W_TIP">
+      <Text>身元不明のスパイによって{1_CityName}から技術情報が盗まれた！[NEWLINE]この都市にスパイを配置すれば、今後この都市からは技術を盗まれにくくなる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED">
+      <Text>{1_CivAdj}スパイによって{3_CityName}から{2_Tech}の情報が盗まれた！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_S">
+      <Text>{1_CivShortDesc}が{2_CityName}を盗んだ！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_W_TIP">
+      <Text>{1_CivAdj}スパイによって{3_CityName}から{2_Tech}の情報が盗まれた！[NEWLINE]この都市にスパイを配置しておけば、今後この都市からは情報を盗まれにくくなる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_WO_TECH">
+      <Text>{1_CivAdj}スパイによって{2_CityName}から技術情報が盗まれた！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_WO_TECH_S">
+      <Text>{1_CivShortDesc}にテクノロジーを盗まれた！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_WO_TECH_W_TIP">
+      <Text>{1_CivAdj}スパイによって{2_CityName}から技術情報が盗まれた！[NEWLINE]この都市にスパイを配置すれば、今後この都市からは技術を盗まれにくくなる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_FULL_NAME">
+      <Text>{1_RankName}{2_AgentName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_LOCATION_UNASSIGNED">
+      <Text>任務割当が必要</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_OCCUPYING_CITY">
+      <Text>この都市では{1_AgentName}が内偵を行っている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_RANK_0">
+      <Text>新米</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_RANK_1">
+      <Text>中堅</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_RANK_2">
+      <Text>熟練</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_COUNTER_INTEL">
+      <Text>防諜活動</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_DEAD">
+      <Text>殉職</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_ESTABLISHED_SURVEILLANCE">
+      <Text>監視活動中</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_ESTABLISHED_SURVEILLANCE_PROGRESS_BAR">
+      <Text>盗める技術なし</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_GATHERING_INTEL">
+      <Text>情報の収集中</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_RIGGING_ELECTION">
+      <Text>選挙介入</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_SURVEILLANCE">
+      <Text>内偵中</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_TRAVELLING">
+      <Text>移動中</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_UNASSIGNED">
+      <Text>任務の割り当てなし</Text>
+    </Row>
+  </Language_JA_JP>
+</GameData>

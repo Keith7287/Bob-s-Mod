@@ -1,0 +1,12 @@
+<LeaderScene FarClip="110000" lights="Bluetooth_Lights.gr2" camera="Bluetooth_Camera.fxsxml" ColorKey="Bluetooth_Colorkey.tga" cubemap_prefix ="Bluetooth" FallbackImage="Harald.dds">
+
+<HackLightSettings color="255,175,255" direction="-0.3,-0.7,0.1" intensity="2.0" />
+
+<DOFSettings max_width="0" blur_distance="8000" ramp_distance="0" ></DOFSettings>
+<BloomSettings max_width="16.27" scale="8.23" min="2.73" ></BloomSettings>
+  
+  <LeaderObject  model="Bluetooth_Harald.fxsxml"></LeaderObject>
+  <BackgroundObject model="Bluetooth_Scene.fxsxml" ></BackgroundObject>
+ 
+
+</LeaderScene>

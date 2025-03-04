@@ -1,0 +1,11 @@
+<LeaderScene lights="Sweden_Gustavus_Lights.fxsxml" camera="Sweden_Gustavus_Camera.fxsxml" ColorKey="Gustavus_COLORKEY.tga" camera_animation="Sweden_Gustavus_Camera_State.fsmxml" cubemap_prefix ="Gustavus" FallbackImage="Gustavus Adolphus.dds">
+
+<HackLightSettings color="255,255,255" direction="0.4,-1.0,-0.3" intensity="0.1" />
+
+<DOFSettings max_width="8" blur_distance="950" ramp_distance="810" ></DOFSettings> 
+
+
+  <LeaderObject  model="Sweden_Gustavus.fxsxml">  </LeaderObject>
+  <BackgroundObject model="Sweden_Gustavus_Scene.fxsxml" ></BackgroundObject>
+  <BackgroundObject model="Sweden_Gustavus_Scene_VFX.fxsxml" ></BackgroundObject>
+</LeaderScene>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ColorAtlas>
+    <Color Name="Beige"  Color="255,255,200,255" />
+    <Color Name="Black"  Color="0,0,0,255" />
+    <Color Name="White"  Color="255,255,255,255" />
+    <Color Name="Gray"   Color="164,164,164,255" />
+	<Color Name="Dark_Gray"   Color="70,70,70,255" />
+
+	<Color Name="Red"    Color="255,0,0,255" />
+    <Color Name="Green"  Color="0,200,0,255" />
+    <Color Name="Blue"   Color="0,0,255,255" />
+
+    <Color Name="Science"       Color="33,190,247,255" />
+    <Color Name="Gold"          Color="231,213,0,255" />
+    <Color Name="Production"    Color="198,136,50,255" />
+    <Color Name="Food"          Color="166,230,75,255" />
+    <Color Name="Culture"       Color="231,0,231,255" />
+
+	<Color Name="Gold_Medal"          Color="231,213,0,255" />
+	<Color Name="Silver_Medal"          Color="198,226,255,255" />
+	<Color Name="Bronze_Medal"          Color="166,125,61,255" />
+	<Color Name="Iron_Medal"          Color="84,84,84,255" />
+
+	<ColorSet Name="Beige_Black" Color0="Beige" Color1="Black" />
+    <ColorSet Name="Beige_Black_Alpha" Color0="Beige" Color1="Black,200" />
+    <ColorSet Name="White_Black" Color0="White" Color1="Black" />
+    <ColorSet Name="Gray_Black" Color0="Gray" Color1="Black" />
+    <ColorSet Name="Dark_Gray_Black" Color0="Dark_Gray" Color1="Black" />
+
+	<ColorSet Name="Gold_Medal" Color0="Gold_Medal" Color1="Black" />
+	<ColorSet Name="Silver_Medal" Color0="Silver_Medal" Color1="Black" />
+	<ColorSet Name="Bronze_Medal" Color0="Bronze_Medal" Color1="Black" />
+	<ColorSet Name="Iron_Medal" Color0="Iron_Medal" Color1="Black" />
+
+	<ColorSet Name="Green_Black" Color0="Green" Color1="Black" />
+	<ColorSet Name="Red_Black" Color0="Red" Color1="Black" />
+    
+    <ColorSet Name="Gray_Chat" Color0="200,200,150,255" Color1="Black" />
+    <ColorSet Name="Magenta_Chat" Color0="200,80,200,255" Color1="Black,200" />
+    <ColorSet Name="Green_Chat" Color0="80,200,80,255" Color1="Black,200" />
+	
+	<ColorSet Name="MenuTitleColors" Color0="30.50.80.255" Color1="133.184.186.255" Color2="133.184.186.255" />
+
+</ColorAtlas>

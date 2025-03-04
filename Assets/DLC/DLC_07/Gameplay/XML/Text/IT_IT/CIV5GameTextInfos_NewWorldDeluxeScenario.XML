@@ -1,0 +1,698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_IT_IT>
+    <Row Tag="TXT_KEY_AMERICAN_TITLE">
+      <Text>Capo {1_PlayerName:textkey} {@2_CivName[2]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ANASAZI_TEXT">
+      <Text>Quella degli Anasazi, precursori dei moderni popoli dei Pueblo, è una cultura antichissima. Gli Anasazi sono famosi per aver costruito le abitazioni sulla rupe a strapiombo di Mesa Verde.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_NEWWORLD_SCENARIO_CONQUISTADOR_HELP">
+      <Text>Unità di epoca rinascimentale specializzata nell'esplorazione e nella colonizzazione di terre al di là del mare. Può essere costruita da qualsiasi civiltà.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_NEWWORLD_SCENARIO_CONQUISTADOR_STRATEGY">
+      <Text>Il Conquistador è un'unità polivalente, utile sia sulla terra che in mare. Sulla terra è un esploratore eccezionale, dotato di un raggio di visione più ampio e dell'abilità di fondare nuove città. Sull'acqua il Conquistador gode della promozione Imbarco con difesa, che gli permette di difendersi dagli attacchi delle unità navali. Inoltre, a differenza del Cavaliere, non subisce alcuna penalità quando attacca le città.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_NEWWORLD_SCENARIO_MUSKETEER_HELP">
+      <Text> Quest'unità ha una [ICON_STRENGTH] Forza di combattimento superiore rispetto al Soldato con moschetto, cosa che ne fa l'unità da mischia più potente del gioco. Può essere costruita da qualsiasi civiltà.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_NEWWORLD_SCENARIO_MUSKETEER_STRATEGY">
+      <Text>Il Moschettiere è molto più potente del Soldato con moschetto e rappresenta il soldato a piedi più forte di tutto gioco.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_NEWWORLD_SCENARIO_TERCIO_HELP">
+      <Text>Unità militare dominante di epoca rinascimentale. Quest'unità possiede una notevole [ICON_STRENGTH] Forza di combattimento e per di più gode di un bonus contro unità a cavallo (100). Può essere costruita da qualsiasi civiltà.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_NEWWORLD_SCENARIO_TERCIO_STRATEGY">
+      <Text>Quest'unità è più potente in combattimento del Soldato con moschetto; inoltre la sua forza raddoppia contro unità a cavallo.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUROPEAN_CITYSTATE_FOUND">
+      <Text>Hai ottenuto {1_AdmiralPoints} punti Grande Ammiraglio per aver scoperto una città-stato. Usali per raggiungere la Cina o per intraprendere una "Missione commerciale".</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUROPEAN_MAJOR_CIV_FOUND">
+      <Text>Hai ottenuto {1_AdmiralPoints} punti Grande Ammiraglio per aver scoperto un'altra civiltà. Usali per raggiungere la Cina o per intraprendere una "Missione commerciale".</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUROPEAN_NATURAL_WONDER_FOUNDFIRST">
+      <Text>Hai ottenuto {1_AdmiralPoints} punti Grande Ammiraglio per aver scoperto una Meraviglia naturale prima di tutte le altre nazioni europee. Usali per raggiungere la Cina o per intraprendere una "Missione commerciale".</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUROPEAN_TITLE">
+      <Text>{@1: gender feminine?Regina; other?Re;} {1_PlayerName:textkey} {@2_CivName[2]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MARIA_I_FIRSTGREETING_1">
+      <Text>Sono Caterina, regina e reggente del Portogallo. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MARIA_I_FIRSTGREETING_3">
+      <Text>Sono Caterina, hai una proposta di matrimonio per i nostri figli?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_MARIA_I_TRIBUTE_NO_HAPPY">
+      <Text>Come pensi che il mio impero coloniale possa svilupparsi se do prova di tanta generosità?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_ABLTY_DECLARE_WAR_ALL">
+      <Text>Permette di dichiarare guerra a qualsiasi nazione</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_AUTO_FAITH_PURCHASE_DISABLED">
+      <Text>[COLOR_NEGATIVE_TEXT]Azione disattivata nello scenario breve.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_BELIEF_MONASTERIES">
+      <Text>Usa la [ICON_PEACE] Fede per acquisire Monasteri (+3 [ICON_PEACE] Fede, +2 [ICON_CULTURE] Cultura, di più con [ICON_RES_WINE] Vino o [ICON_RES_INCENSE] Incenso a disp.)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_BRIEFING">
+      <Text>Introduzione</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_BUILDING_MONASTERY_HELP">
+      <Text>Il costo in [ICON_CULTURE] Cultura dell'acquisizione di nuove caselle è ridotto del 75% in questa città.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CHOOSE_BELIEF_1">
+      <Text>Scegli la prima credenza</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CHOOSE_BELIEF_2">
+      <Text>Scegli la seconda credenza</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_ALGONQUIN_TEXT">
+      <Text>Gli Algonchini sono un gruppo di abitanti indigeni del Quebec. Divennero acerrimi nemici degli Irochesi a causa dell'aspra competizione nel mercato delle pellicce.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_ARAWAK_TEXT">
+      <Text>Gli Arawak sono un gruppo di abitanti indigeni delle Indie Occidentali. Sono stati i primi nativi incontrati da Cristoforo Colombo.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_CARIB_TEXT">
+      <Text>I Carib sono un gruppo di abitanti indigeni delle Indie Occidentali. Contro di loro la Spagna combattè alcune delle prime guerre nel Nuovo Mondo.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_CHEROKEE_TEXT">
+      <Text>I Cherokee sono un gruppo di abitanti indigeni del sud-est degli Stati Uniti. Sono strettamente imparentati con gli Irochesi, tanto che si pensa siano migrati a sud dalla regione dei Grandi Laghi in epoca preistorica.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_DAWN_AZTECS_TEXT">
+      <Text>
+			  DESCRIZIONE DELLO SCENARIO[NEWLINE]L'anno è il fatidico 1492. Le corti d'Inghilterra, Francia e Spagna sono meta di intrepidi esploratori ansiosi di attraversare l'Atlantico per raggiungere da oriente la Cina e le Indie. Riusciranno a tracciare nuove rotte commerciali e a riportare ricchezze inimmaginabili dalle coste dell'Asia? O forse gli capiterà addirittura di scoprire nuove terre lungo la strada? E i nativi apprezzeranno l'opportunità di conoscere nuove culture e stringere accordi commerciali o combatteranno gli invasori della loro terra natìa? Quali ricchezze, opportunità e fama attendono i coraggiosi che sfidano le acque sconosciute? Che via sceglieranno? Chi prevarrà, nella lotta per la supremazia nel Nuovo Mondo?[NEWLINE][NEWLINE]CONDIZIONI DI VITTORIA[NEWLINE]La vittoria va alla prima civiltà che raggiunge un punteggio di 1000 PV. Si possono ottenere PV bonus raggiungendo la Cina con una Caravella e inviando unità di Tesoro nella propria capitale. Rigioca lo scenario quante volte vuoi, provando tutte e sei le civiltà: la mappa dell'America cambia ogni volta che cominci una nuova partita.[NEWLINE][NEWLINE]REGOLE SPECIALI[NEWLINE]Le unità navali e imbarcate sono afflitte dallo Scorbuto, una "promozione" che può causare danni ogni volta che le navi concludono il turno all'esterno dei territori amici. Costruisci la Meraviglia nazionale Scuola di navigazione per combattere questa malattia. Le potenze europee non possono dichiararsi guerra tra loro fino alla scoperta della tecnologia Pirateria. Le unità di Tesoro si possono ottenere radendo al suolo le città o scoprendo le Meraviglie naturali El Dorado e Cerro de Potosí (se esistono sulla mappa). Conduci queste unità civili fino alla tua capitale per guadagnare oro e PV.
+		  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_DAWN_ENGLAND_TEXT">
+      <Text>
+			  DESCRIZIONE DELLO SCENARIO[NEWLINE]L'anno è il fatidico 1492. Le corti d'Inghilterra, Francia e Spagna sono meta di intrepidi esploratori ansiosi di attraversare l'Atlantico per raggiungere da oriente la Cina e le Indie. Riusciranno a tracciare nuove rotte commerciali e a riportare ricchezze inimmaginabili dalle coste dell'Asia? O forse gli capiterà addirittura di scoprire nuove terre lungo la strada? E i nativi apprezzeranno l'opportunità di conoscere nuove culture e stringere accordi commerciali o combatteranno gli invasori della loro terra natìa? Quali ricchezze, opportunità e fama attendono i coraggiosi che sfidano le acque sconosciute? Che via sceglieranno? Chi prevarrà, nella lotta per la supremazia nel Nuovo Mondo?[NEWLINE][NEWLINE]CONDIZIONI DI VITTORIA[NEWLINE]La vittoria va alla prima civiltà che raggiunge un punteggio di 1000 PV. Si possono ottenere PV bonus raggiungendo la Cina con una Caravella e inviando unità di Tesoro nella propria capitale. Rigioca lo scenario quante volte vuoi, provando tutte e sei le civiltà: la mappa dell'America cambia ogni volta che cominci una nuova partita.[NEWLINE][NEWLINE]REGOLE SPECIALI[NEWLINE]Le unità navali e imbarcate sono afflitte dallo Scorbuto, una "promozione" che può causare danni ogni volta che le navi concludono il turno all'esterno dei territori amici. Costruisci la Meraviglia nazionale Scuola di navigazione per combattere questa malattia. Le potenze europee non possono dichiararsi guerra tra loro fino alla scoperta della tecnologia Pirateria. Le unità di Tesoro si possono ottenere radendo al suolo le città o scoprendo le Meraviglie naturali El Dorado e Cerro de Potosí (se esistono sulla mappa). Conduci queste unità civili fino alla tua capitale per guadagnare oro e PV.
+		  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_DAWN_FRANCE_TEXT">
+      <Text>
+			  DESCRIZIONE DELLO SCENARIO[NEWLINE]L'anno è il fatidico 1492. Le corti d'Inghilterra, Francia e Spagna sono meta di intrepidi esploratori ansiosi di attraversare l'Atlantico per raggiungere da oriente la Cina e le Indie. Riusciranno a tracciare nuove rotte commerciali e a riportare ricchezze inimmaginabili dalle coste dell'Asia? O forse gli capiterà addirittura di scoprire nuove terre lungo la strada? E i nativi apprezzeranno l'opportunità di conoscere nuove culture e stringere accordi commerciali o combatteranno gli invasori della loro terra natìa? Quali ricchezze, opportunità e fama attendono i coraggiosi che sfidano le acque sconosciute? Che via sceglieranno? Chi prevarrà, nella lotta per la supremazia nel Nuovo Mondo?[NEWLINE][NEWLINE]CONDIZIONI DI VITTORIA[NEWLINE]La vittoria va alla prima civiltà che raggiunge un punteggio di 1000 PV. Si possono ottenere PV bonus raggiungendo la Cina con una Caravella e inviando unità di Tesoro nella propria capitale. Rigioca lo scenario quante volte vuoi, provando tutte e sei le civiltà: la mappa dell'America cambia ogni volta che cominci una nuova partita.[NEWLINE][NEWLINE]REGOLE SPECIALI[NEWLINE]Le unità navali e imbarcate sono afflitte dallo Scorbuto, una "promozione" che può causare danni ogni volta che le navi concludono il turno all'esterno dei territori amici. Costruisci la Meraviglia nazionale Scuola di navigazione per combattere questa malattia. Le potenze europee non possono dichiararsi guerra tra loro fino alla scoperta della tecnologia Pirateria. Le unità di Tesoro si possono ottenere radendo al suolo le città o scoprendo le Meraviglie naturali El Dorado e Cerro de Potosí (se esistono sulla mappa). Conduci queste unità civili fino alla tua capitale per guadagnare oro e PV.
+		  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_DAWN_INCA_TEXT">
+      <Text>
+			  DESCRIZIONE DELLO SCENARIO[NEWLINE]L'anno è il fatidico 1492. Le corti d'Inghilterra, Francia e Spagna sono meta di intrepidi esploratori ansiosi di attraversare l'Atlantico per raggiungere da oriente la Cina e le Indie. Riusciranno a tracciare nuove rotte commerciali e a riportare ricchezze inimmaginabili dalle coste dell'Asia? O forse gli capiterà addirittura di scoprire nuove terre lungo la strada? E i nativi apprezzeranno l'opportunità di conoscere nuove culture e stringere accordi commerciali o combatteranno gli invasori della loro terra natìa? Quali ricchezze, opportunità e fama attendono i coraggiosi che sfidano le acque sconosciute? Che via sceglieranno? Chi prevarrà, nella lotta per la supremazia nel Nuovo Mondo?[NEWLINE][NEWLINE]CONDIZIONI DI VITTORIA[NEWLINE]La vittoria va alla prima civiltà che raggiunge un punteggio di 1000 PV. Si possono ottenere PV bonus raggiungendo la Cina con una Caravella e inviando unità di Tesoro nella propria capitale. Rigioca lo scenario quante volte vuoi, provando tutte e sei le civiltà: la mappa dell'America cambia ogni volta che cominci una nuova partita.[NEWLINE][NEWLINE]REGOLE SPECIALI[NEWLINE]Le unità navali e imbarcate sono afflitte dallo Scorbuto, una "promozione" che può causare danni ogni volta che le navi concludono il turno all'esterno dei territori amici. Costruisci la Meraviglia nazionale Scuola di navigazione per combattere questa malattia. Le potenze europee non possono dichiararsi guerra tra loro fino alla scoperta della tecnologia Pirateria. Le unità di Tesoro si possono ottenere radendo al suolo le città o scoprendo le Meraviglie naturali El Dorado e Cerro de Potosí (se esistono sulla mappa). Conduci queste unità civili fino alla tua capitale per guadagnare oro e PV.
+		  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_DAWN_INCA_TITLE">
+      <Text>Inca</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_DAWN_IROQUOIS_TEXT">
+      <Text>
+			  DESCRIZIONE DELLO SCENARIO[NEWLINE]L'anno è il fatidico 1492. Le corti d'Inghilterra, Francia e Spagna sono meta di intrepidi esploratori ansiosi di attraversare l'Atlantico per raggiungere da oriente la Cina e le Indie. Riusciranno a tracciare nuove rotte commerciali e a riportare ricchezze inimmaginabili dalle coste dell'Asia? O forse gli capiterà addirittura di scoprire nuove terre lungo la strada? E i nativi apprezzeranno l'opportunità di conoscere nuove culture e stringere accordi commerciali o combatteranno gli invasori della loro terra natìa? Quali ricchezze, opportunità e fama attendono i coraggiosi che sfidano le acque sconosciute? Che via sceglieranno? Chi prevarrà, nella lotta per la supremazia nel Nuovo Mondo?[NEWLINE][NEWLINE]CONDIZIONI DI VITTORIA[NEWLINE]La vittoria va alla prima civiltà che raggiunge un punteggio di 1000 PV. Si possono ottenere PV bonus raggiungendo la Cina con una Caravella e inviando unità di Tesoro nella propria capitale. Rigioca lo scenario quante volte vuoi, provando tutte e sei le civiltà: la mappa dell'America cambia ogni volta che cominci una nuova partita.[NEWLINE][NEWLINE]REGOLE SPECIALI[NEWLINE]Le unità navali e imbarcate sono afflitte dallo Scorbuto, una "promozione" che può causare danni ogni volta che le navi concludono il turno all'esterno dei territori amici. Costruisci la Meraviglia nazionale Scuola di navigazione per combattere questa malattia. Le potenze europee non possono dichiararsi guerra tra loro fino alla scoperta della tecnologia Pirateria. Le unità di Tesoro si possono ottenere radendo al suolo le città o scoprendo le Meraviglie naturali El Dorado e Cerro de Potosí (se esistono sulla mappa). Conduci queste unità civili fino alla tua capitale per guadagnare oro e PV.
+		  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_DAWN_NEWWORLD_TEXT">
+      <Text>
+			  DESCRIZIONE DELLO SCENARIO[NEWLINE]L'anno è il fatidico 1492. Le corti d'Inghilterra, Francia e Spagna sono meta di intrepidi esploratori ansiosi di attraversare l'Atlantico per raggiungere da oriente la Cina e le Indie. Riusciranno a tracciare nuove rotte commerciali e a riportare ricchezze inimmaginabili dalle coste dell'Asia? O forse gli capiterà addirittura di scoprire nuove terre lungo la strada? E i nativi apprezzeranno l'opportunità di conoscere nuove culture e stringere accordi commerciali o combatteranno gli invasori della loro terra natìa? Quali ricchezze, opportunità e fama attendono i coraggiosi che sfidano le acque sconosciute? Che via sceglieranno? Chi prevarrà, nella lotta per la supremazia nel Nuovo Mondo?[NEWLINE][NEWLINE]CONDIZIONI DI VITTORIA[NEWLINE]La vittoria va alla prima civiltà che raggiunge un punteggio di 1000 PV. Si possono ottenere PV bonus raggiungendo la Cina con una Caravella e inviando unità di Tesoro nella propria capitale. Rigioca lo scenario quante volte vuoi, provando tutte e sei le civiltà: la mappa dell'America cambia ogni volta che cominci una nuova partita.[NEWLINE][NEWLINE]REGOLE SPECIALI[NEWLINE]Le unità navali e imbarcate sono afflitte dallo Scorbuto, una "promozione" che può causare danni ogni volta che le navi concludono il turno all'esterno dei territori amici. Costruisci la Meraviglia nazionale Scuola di navigazione per combattere questa malattia. Le potenze europee non possono dichiararsi guerra tra loro fino alla scoperta della tecnologia Pirateria. Le unità di Tesoro si possono ottenere radendo al suolo le città o scoprendo le Meraviglie naturali El Dorado e Cerro de Potosí (se esistono sulla mappa). Conduci queste unità civili fino alla tua capitale per guadagnare oro e PV.
+		  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_DAWN_SPAIN_TEXT">
+      <Text>
+			  DESCRIZIONE DELLO SCENARIO[NEWLINE]L'anno è il fatidico 1492. Le corti d'Inghilterra, Francia e Spagna sono meta di intrepidi esploratori ansiosi di attraversare l'Atlantico per raggiungere da oriente la Cina e le Indie. Riusciranno a tracciare nuove rotte commerciali e a riportare ricchezze inimmaginabili dalle coste dell'Asia? O forse gli capiterà addirittura di scoprire nuove terre lungo la strada? E i nativi apprezzeranno l'opportunità di conoscere nuove culture e stringere accordi commerciali o combatteranno gli invasori della loro terra natìa? Quali ricchezze, opportunità e fama attendono i coraggiosi che sfidano le acque sconosciute? Che via sceglieranno? Chi prevarrà, nella lotta per la supremazia nel Nuovo Mondo?[NEWLINE][NEWLINE]CONDIZIONI DI VITTORIA[NEWLINE]La vittoria va alla prima civiltà che raggiunge un punteggio di 1000 PV. Si possono ottenere PV bonus raggiungendo la Cina con una Caravella e inviando unità di Tesoro nella propria capitale. Rigioca lo scenario quante volte vuoi, provando tutte e sei le civiltà: la mappa dell'America cambia ogni volta che cominci una nuova partita.[NEWLINE][NEWLINE]REGOLE SPECIALI[NEWLINE]Le unità navali e imbarcate sono afflitte dallo Scorbuto, una "promozione" che può causare danni ogni volta che le navi concludono il turno all'esterno dei territori amici. Costruisci la Meraviglia nazionale Scuola di navigazione per combattere questa malattia. Le potenze europee non possono dichiararsi guerra tra loro fino alla scoperta della tecnologia Pirateria. Le unità di Tesoro si possono ottenere radendo al suolo le città o scoprendo le Meraviglie naturali El Dorado e Cerro de Potosí (se esistono sulla mappa). Conduci queste unità civili fino alla tua capitale per guadagnare oro e PV.
+		  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_DAWN_SPAIN_TITLE">
+      <Text>Spagna|della Spagna|alla Spagna|la Spagna|dalla Spagna</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_HOPI_TEXT">
+      <Text>Gli Hopi sono un popolo indigeno del sud-ovest degli Stati Uniti, il primo con cui la spedizione europea di Coronado giunse a contatto nel 1540.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_HURON_TEXT">
+      <Text>Gli Uroni sono un gruppo di abitanti indigeni del Canada. Quando giunsero a contatto con gli europei vivevano principalmente sulla riva nord del lago Ontario.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_INUIT_TEXT">
+      <Text>Gli Inuit sono un popolo indigeno che abita le regioni artiche della Groenlandia e del Nordamerica.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_LAKOTA_TEXT">
+      <Text>I Lakota sono un gruppo di abitanti indigeni delle grandi pianure nordamericane.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_MAPUCHE_TEXT">
+      <Text>I Mapuche sono un gruppo di abitanti indigeni della regione corrispondente agli odierni Cile e Argentina. I coloni spagnoli li chiamavano Araucaniani.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_MAYA_TEXT">
+      <Text>I Maya sono gli abitanti indigeni della penisola dello Yucatan. Era una civiltà esperta di matematica e astronomia, capace di costruire grandi piramidi di pietra.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_MAYAN_ATLATLIST_TEXT">
+      <Text>Gli atlatlisti erano lanciatori altamente specializzati che utilizzavano un lungo bastone di legno simile a una lancia per scagliare dardi ad altissima velocità contro i loro bersagli. Il loro attrezzo, chiamato atlatl, era dotato di un alloggiamento a un'estremità in cui posizionare il dardo e di un canale che correva per tutta la sua lunghezza. Un atlatlista poteva lanciare fino a una distanza di 100 metri a una velocità di 100 km/h: molto più lontano e con molta più potenza di un semplice proiettile scagliato a mano. A patto di avere una buona linea di tiro, gli atlatlisti maya erano in grado di devastare da lontano le linee di un esercito nemico.[NEWLINE][NEWLINE]Alcuni degli atlatl più antichi, risalenti a circa 400.000 anni fa, sono stati costruiti dall'estinto Homo Heidelbergensis. L'Homo sapiens ha cominciato a usare una prima versione dell'atlatl a partire dall'alto Paleolitico, intorno al 15.500 a.C.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_MUISCA_TEXT">
+      <Text>I Muisca sono un gruppo di abitanti indigeni degli altopiani centrali della Colombia. Il loro primo contatto con gli spagnoli risale al 1537; probabilmente si deve a loro l'origine della leggenda di El Dorado.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_MUSCOGEE_TEXT">
+      <Text>I Muskogee sono un popolo indigeno del sud-est degli Stati Uniti; la loro cultura discende dagli antichi Mississippi (Paleo-indiani).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_SEMINOLE_TEXT">
+      <Text>I Seminole sono un popolo indigeno della Florida e sono strettamente imparentati con i Muskogee (entrambi i gruppi fanno parte della nazione Creek).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_WABANAKI_TEXT">
+      <Text>I Wabanaki, "popolo dell'alba", sono abitanti indigeni delle coste del Canada.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_YANOMAMI_TEXT">
+      <Text>Gli Yanomamo sono una tribù indigena del bacino amazzonico. La loro cultura risale all'età della pietra e fino al 1929 non avevano avuto alcun contatto col resto del mondo.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIVILOPEDIA_LEADERS_MARIA_I_HEADING_1">
+      <Text>Storia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIVILOPEDIA_LEADERS_MARIA_I_LIVED">
+      <Text>dal 1507 al 1578 d.C.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIVILOPEDIA_LEADERS_MARIA_I_SUBTITLE">
+      <Text>Regina del Portogallo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIVILOPEDIA_LEADERS_MARIA_I_TEXT_1">
+      <Text>Infanta di Castiglia, Caterina era la figlia di Giovanna di Castiglia e di Filippo d'Asburgo. Nel 1525, all'età di 18 anni, fu data in sposa a Giovanni III del Portogallo, suo primo cugino: gli darà nove figli, di cui due sopravvivranno fino all'età adulta. Dopo la morte di Giovanni, nel 1557, divenne reggente in luogo dell'erede, suo nipote Sebastiano. Nel 1562 lasciò la reggenza al cardinale Enrico, fratello minore di Giovanni. Come regina, e più tardi reggente, Caterina sostenne la necessità che il Portogallo estendesse la sua influenza in Brasile e si dedicasse alla colonizzazione dell'Africa. Morì a 71 anni nel febbraio del 1578, pochi mesi prima della scomparsa dello stesso re Sebastiano in Marocco.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIVILOPEDIA_LEADERS_NAPOLEON_HEADING_1">
+      <Text>Storia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIVILOPEDIA_LEADERS_NAPOLEON_LIVED">
+      <Text>dal 1494 al 1547 d.C.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIVILOPEDIA_LEADERS_NAPOLEON_SUBTITLE">
+      <Text>Re di Francia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIVILOPEDIA_LEADERS_NAPOLEON_TEXT_1">
+      <Text>Francesco I è stato re di Francia dal 1515 al 1547. Durante questo periodo collaborò con Solimano I per stabilire un'alleanza franco-ottomana. Carlo V, allora a capo del Sacro Romano Impero, fu l'arcinemico di Francesco: i due si scontrarono in parecchie campagne militari. Alla Battaglia di Pavia, nel 1525, Francesco fu catturato da Carlo e tenuto prigioniero per un anno. Alla fine in cambio della libertà dovette consegnare i suoi due figli, Enrico e Francesco.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_DESC">
+      <Text>Naviga verso ovest in cerca di un passaggio per l'Oriente e preparati a nuove scoperte; oppure mettiti al comando di una civiltà nativa dell'America e affronta l'inattesa minaccia che arriva dal mare.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_DIPLO_MAY_NOT_ATTACK_MOD">
+      <Text>Non potrai attaccare questo giocatore finché non ricercherai la tecnologia Pirateria.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_DIPLO_MY_SCORE_FUTURE_TECH">
+      <Text>{1_Num} dai Tesori</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_DIPLO_MY_SCORE_SCENARIO1">
+      <Text>{1_Num} per la scoperta della Cina</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_DIPLO_MY_SCORE_SCENARIO2">
+      <Text>{1_Num} per la Fede accumulata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_DIPLO_MY_SCORE_SCENARIO3">
+      <Text>{1_Num} per l'Oro guadagnato</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_DIPLO_MY_SCORE_WONDERS">
+      <Text>{1_Num} per le Meraviglie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_DIPLO_RESCH_AGREEMENT_NO_TECH">
+      <Text>In questo scenario non è possibile stabilire Accordi di ricerca.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_ERA_0">
+      <Text>Epoca arcaica</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_ERA_1">
+      <Text>Epoca formativa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_ERA_2">
+      <Text>Epoca di sviluppo regionale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_ERA_3">
+      <Text>Epoca classica</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_ERA_4">
+      <Text>Epoca dell'Orizzonte Tardo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_ERA_5">
+      <Text>Epoca delle esplorazioni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_ERA_6">
+      <Text>Epoca dell'Illuminismo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_FIRST_CIRCUMNAVIGATION">
+      <Text>{@1_UnitName} ha raggiunto la Cina! Per questa prima impresa di circumnavigazione ricevi {3_VPAmount} Punti Vittoria. Altri due Grandi Ammiragli possono ottenere una ricompensa raggiungendo la Cina.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_FIRST_ENGLISH_EXPLORER">
+      <Text>Caboto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_FIRST_FRENCH_EXPLORER">
+      <Text>Verrazzano</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_FIRST_SPANISH_EXPLORER">
+      <Text>Colombo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_1">
+      <Text>Ti do il benvenuto. Io sono Francesco I, grande patrono dell'arte del Rinascimento!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_2">
+      <Text>Ti do il benvenuto! Sono Francesco I, re di Francia! Sono leale con gli amici, mortale con i nemici. Tu che cosa sarai?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_3">
+      <Text>Ah. Ci incontriamo, alla fine. Sono Francesco I, re di Francia. Vieni: discutiamo insieme la divisione delle terre al di là del mare tra le nostre due grandi nazioni.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_LEADER_NAPOLEON_FIRSTGREETING_4">
+      <Text>Salve. Sono Francesco I, signore dei Valois e re di Francia. Vuoi ammirare il mio ultimo chateau?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_MAYA_PANTHEON_CONFIRM">
+      <Text>Confermi che vuoi adottare queste credenze?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_MAYA_PANTHEON_PARTIAL">
+      <Text>Prima credenza</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_MISC_YOU_UNIT_WAS_DAMAGED_ATTRITION">
+      <Text>Scorbuto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_MISC_YOU_UNIT_WAS_DESTROYED_ATTRITION">
+      <Text>{@1_UnitName[5]} è stata distrutta dallo Scorbuto!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_NAU_CHINA">
+      <Text>La tua Nau ha raggiunto la Cina! Hai ricevuto {1_Num} [ICON_GOLD] Oro e la Nau è uscita dal gioco.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_OTHER_CIRCUMNAVIGATION">
+      <Text>Un esploratore di {@1_PlyrName} ha raggiunto la Cina. {2_Num} {2: plural 1?altro Grande Ammiraglio può;other?altri Grandi Ammiragli possono;} ricevere Punti Vittoria raggiungendo la Cina.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_PROMOTION_WITHDRAW_BEFORE_MELEE">
+      <Text>Ritirata dalla mischia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_RO_STATUS_CAN_CREATE_PANTHEON">
+      <Text>Può creare una religione minore un turno dopo aver fondato la capitale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_SECOND_CIRCUMNAVIGATION">
+      <Text>{@1_UnitName} ha raggiunto la Cina! Per questa seconda impresa di circumnavigazione ricevi {3_VPAmount} Punti Vittoria. Un altro Grande Ammiraglio può ottenere una ricompensa raggiungendo la Cina.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_IMPERIALISM_DESC">
+      <Text>
+			  Nella sua forma base, l'imperialismo descrive una relazione impari tra due nazioni, in cui la prima (solitamente un impero) dispone di un certo grado di controllo sulla seconda. Nella storia del mondo se ne possono trovare molti casi, dalla Cina a Roma all'Inghilterra. Si può dire che il concetto esista da migliaia di anni, essendo nato in pratica insieme all'idea stessa di governo. Il termine preciso "imperialismo", tuttavia, è stato coniato solo nel XVI secolo, quando è stato usato per descrivere la politica estera e le azioni di paesi come Spagna, Inghilterra, Belgio e Olanda, a quei tempi impegnate nella colonizzazione delle Americhe.[NEWLINE][NEWLINE]Tradizionalmente l'imperialismo è associato a vaste nazioni militaristiche, ma può esistere in forme molto più sottili. Non è necessario esercitare un controllo formale sul governo di uno stato più debole: una civiltà potente può influenzarne un'altra manovrando esclusivamente leve indirette, di natura economica, politica o religiosa.
+		  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_IMPERIALISM_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"L'imperialismo è una tigre di carta."[NEWLINE][TAB][TAB] - Mao Tse Tung[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_MATHEMATICS_HELP">
+      <Text>Permette la costruzione della[COLOR_POSITIVE_TEXT]Catapulta[ENDCOLOR], una potente arma d'assedio.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_NAVAL_TRADITION_DESC">
+      <Text>
+			  Con "tradizione navale" si indica la dedizione di una civiltà ai viaggi per mare e alla costruzione di una flotta permanente, così come le particolari tradizioni e costumi dei marinai. Nazioni come l'Inghilterra, che è un'isola, o la Spagna, che ha moltissime coste, hanno un'antichissima tradizione navale: l'oceano ha giocato un ruolo fondamentale nel loro sviluppo economico e politico. Mentre i paesi circondati da terraferma impiegavano mercenari professionisti per la difesa e la guerra, le civiltà con una tradizione navale preferivano mantenere flottiglie di navi con cui solcare le onde per avvistare i nemici e tenere lontani i pirati.[NEWLINE][NEWLINE]Al giorno d'oggi i marinai seguono ancora usi e tradizioni antichissime, che in certi casi si sono estese fino a influenzare la popolazione sulla terraferma. Due esempi sono i bottoni decorativi applicati al fondo delle maniche delle giacche e i pantaloni a zampa d'elefante.
+		  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_NAVAL_TRADITION_HELP">
+      <Text>L'ascesa del Nuovo Mondo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_NAVAL_TRADITION_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"Non venitemi a parlare di tradizione navale. Non è altro che rum, sodomia e sferzate."[NEWLINE][TAB][TAB] - Sir Winston Churchill[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_NAVIGATION_HELP">
+      <Text>Permette di costruire la [COLOR_POSITIVE_TEXT]Scuola di navigazione[ENDCOLOR], un edificio che elimina la Scorbuto dalle unità navali e imbarcate. Inoltre permette alle città costiere di costruire un [COLOR_POSITIVE_TEXT]Cantiere navale[ENDCOLOR], che aumenta la [ICON_PRODUCTION] Produzione delle risorse marine.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_PIRACY_DESC">
+      <Text>
+			  Incursioni, saccheggi, violenza indescrivibile tra i flutti: la vita del pirata è certamente eccitante. Grazie ai film e agli altri media i pirati godono di un'aura romantica, ma in realtà erano persone ben diverse dai sagaci capitani come Jack Sparrow e compagnia. Si trattava in realtà di veri e propri criminali, che razziavano il carico delle altre navi, saccheggiavano le coste e in generale minacciavano ogni forma di società civilizzata. La pirateria probabilmente è nata insieme alla navigazione stessa: una delle fonti storiche più antiche ne parla già nel XIII secolo a.C.[NEWLINE][NEWLINE]Tra i pirati più famosi ricordiamo i vichinghi scandinavi, che hanno terrorizzato i villaggi costieri di tutta Europa, e i pirati dei Caraibi, che davano la caccia alle navi spagnole cariche dell'oro predato nelle Americhe. Questa, tra il 1560 e il 1720, è l'epoca che potremmo definire "classica" della pirateria, quella illustrata più spesso da film e libri. Oggi il pirata spiritoso con la sciabola e il cappello a tricorno è un caposaldo della letteratura, ma molte acque sono ancora infestate da predatori meno simpatici, specialmente vicino alle coste della penisola araba. In ogni caso i pirati non devono essere confusi con i corsari, le cui azioni di attacco alle altre navi erano regolate da un legittimo contratto con un governo, solitamente durante una guerra.
+		  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_PIRACY_HELP">
+      <Text>Permette di costruire la [COLOR_POSITIVE_TEXT]Nave corsara[ENDCOLOR] e consente alle potenze europee di dichiararsi guerra.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_PIRACY_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"Sono solo due le regole che contano davvero: quello che un uomo può e quello che un uomo non può! Prendi me: posso lasciarti affogare, ma non posso portare la nave fino a Tortuga solo soletto, comprendi? Quindi, puoi navigare sotto il comando di un pirata o no?"[NEWLINE][TAB][TAB] - Capitano Jack Sparrow[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_PROSOLDIERS_DESC">
+      <Text>
+			  I soldati professionisti rappresentano un netto miglioramento rispetto alle milizie raffazzonate e alle forze improvvisate caratteristiche delle prime civiltà. Ben equipaggiato e ben addestrato, un soldato di mestiere è decisamente più efficace di un contadino con un giustacuore di cuoio e un forcone. L'impero romano ha creato uno dei primi eserciti permanenti, formato da soldati professionisti, e questo è stato un aspetto cruciale delle grandi vittorie militari di Roma. Dopo la caduta dell'impero, uno dei primi sovrani a utilizzare un esercito professionale è stato Carlo VII di Francia nel 1445, seguito da Giacomo II d'Inghilterra nel 1685.[NEWLINE][NEWLINE]Oggi la maggior parte dei paesi utilizzano per la difesa un esercito composto da professionisti.
+		  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_PROSOLDIERS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"Per quanto sia un soldato di professione, non ho mai provato alcuna passione per la guerra, e non ne ho mai sostenuto la causa, se non come mezzo per arrivare alla pace."[NEWLINE][TAB][TAB] - Ulysses S. Grant[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_RELIGIOUS_ORDERS_DESC">
+      <Text>
+			  Molte religioni mondiali prevedono l'esistenza di comunità speciali e organizzazioni di persone devote che vivono fuori dalla società per seguire con totale perfezione i precetti spirituali in cui credono. Questi ordini religiosi prendono spesso la forma fisica di monasteri, cioè di edifici o complessi in cui i fedeli possono vivere e lavorare.[NEWLINE][NEWLINE]Molti ordini religiosi si sono accontentati di restare nel paese natio, mentre altri sono stati fondati con lo scopo preciso di espandere la religione portando la fede tra le popolazioni straniere. Un esempio di quest'ultimo approccio è rappresentato dall'evangelizzazione delle Americhe per opera dei Gesuiti. I monaci attraversarono l'Atlantico e fondarono monasteri e missioni sul suolo americano, per poi insegnare alla popolazione locale i precetti della loro fede e le basi dell'istruzione occidentale.
+		  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_RELIGIOUS_ORDERS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"Conosco gesuiti che sono morti dopo aver dedicato tutta la loro vita a essere grandi insegnanti, e sono le persone meno ricordate."[NEWLINE][TAB][TAB] - Daniel Berrigan[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_ROYAL_GUARDS_DESC">
+      <Text>
+			  Solitamente formata da un gruppo ristretto di seguaci scelti uno per uno, una guardia reale è un'unità militare o cerimoniale che tradizionalmente accompagna e protegge i monarchi o i membri più importanti del clero. Storicamente questi corpi hanno avuto un doppio scopo politico, dato che per la loro posizione peculiare potevano influenzare profondamente le azioni di un monarca e giocare un ruolo fondamentale in ogni sorta di complotto o colpo di stato.[NEWLINE][NEWLINE]Alcuni reggimenti di guardie reali sono diventati così famosi da valicare i confini della loro nazione: due esempi sono le Tropas de la Casa Real spagnole e i moschettieri francesi. Tecnicamente i moschettieri erano solo un'unità di giovani cadetti della guardia reale francese: sopra di loro c'era la Garde de Corpe, che svolgeva effettivamente la maggior parte dei compiti di sicurezza. Tuttavia, grazie anche al famoso romanzo di Alexandre Dumas, i moschettieri sono diventati la guardia reale per antonomasia.
+		  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_ROYAL_GUARDS_HELP">
+      <Text>Permette la costruzione del [COLOR_POSITIVE_TEXT]Moschettiere[ENDCOLOR], una versione potenziata del normale Soldato con moschetto.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_ROYAL_GUARDS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"Questo è un mondo incerto, pieno di pericoli. La brama di potere indebolisce l'onore, la libertà è sacrificata là dove i deboli sono oppressi dai forti. Ma ci sono persone che si oppongono a questi potenti, che dedicano la loro vita alla verità, all'onore e alla libertà. Questi uomini sono noti come moschettieri. Levatevi."[NEWLINE][TAB][TAB] - Re Luigi[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_TRAPPING_HELP">
+      <Text>Permette ai tuoi Lavoratori di costruire [COLOR_POSITIVE_TEXT]Campi[ENDCOLOR] sulle fonti di [ICON_RES_DEER] Cervi, [ICON_RES_IVORY] Avorio e [ICON_RES_FUR] Pellicce[ENDCOLOR], incrementando così la rendita d'[ICON_GOLD] Oro delle relative caselle.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_TREASURE_FLEET_DESC">
+      <Text>
+			  Durante la colonizzazione delle Americhe, la Spagna ha cominciato ad accumulare grandi tesori da inviare in Europa, tanto che presto ha dovuto sviluppare nuove tecniche di navigazione per contrastare la pressione sempre più alta dei pirati. La risposta ha preso la forma della Flotta del tesoro, uno speciale sistema di convogli con pratiche di navigazione e di approdo meticolosamente regolate. Le navi che partivano dalle coste vicino ai Caraibi avevano l'ordine di navigare riunite e seguire sempre la stessa rotta, cosa che ne facilitava la protezione da parte di una piccola forza armata. Le navi poi si avvicinavano solo a porti specifici e ben protetti, come Siviglia, per minimizzare ulteriormente il rischio di incursioni.[NEWLINE][NEWLINE]La Flotta del tesoro fu utilizzata con molto successo dal XVI al XVIII secolo, e ancor oggi viene ricordata come una delle operazioni navali più efficaci e redditizie della storia. Nel corso del Settecento, però, la perdita di alcune città di importanza fondamentale sulle coste dei Caraibi arrivò a minacciare l'esistenza stessa della flotta. Per combatterne il declino, nel 1765 re Carlo III rilassò le rigide regole del sistema, e nei decenni successivi permise che un numero maggiore di colonie utilizzasse la flotta. Nonostante i suoi sforzi l'ultima flotta salpò nel 1790: da allora i trasporti fra i due continenti furono affidati a convogli più piccoli, organizzati di volta in volta al momento del bisogno.
+		  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_TREASURE_FLEET_HELP">
+      <Text>Conferisce la promozione [COLOR_POSITIVE_TEXT]Imbarco con difesa[ENDCOLOR] a tutte le unità terrestri, permettendo loro di difendersi dagli attacchi navali.  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_TREASURE_FLEET_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"L'oro è un tesoro, e chi lo possiede fa tutto ciò che vuole a questo mondo, e riesce ad aiutare le anime a entrare in paradiso."[NEWLINE][TAB][TAB] - Cristoforo Colombo[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_WARSHIPS_DESC">
+      <Text>
+			  Laddove molte navi sono progettate per attraversare rapidamente gli oceani o per trasportare la maggior quantità possibile di carico, le navi da guerra hanno un solo scopo: distruggere gli altri vascelli. Oltre a essere munite di qualche forma di arma (tradizionalmente cannoni o, in epoca antica, un rostro), le navi da guerra possono subire più danni senza affondare e sono molto più manovrabili degli scafi concepiti per trasportare merci o passeggeri.[NEWLINE][NEWLINE]Lo sviluppo della tecnologia navale è sempre andato di pari passo con le applicazioni militari. Galee e triremi erano in grado di speronare i nemici, ma il grosso del combattimento coinvolgeva i soldati trasportati a bordo. Una volta sviluppata la ricarica veloce dei cannoni, si cominciarono a usare grandi navi a vela che trasportavano batterie di cannoni su ogni fiancata. A un certo punto il fasciame di legno fu abbandonato in favore di scafi di ferro e d'acciaio e le vele furono sostituite da motori a vapore e, successivamente, nucleari. Le navi da guerra moderne non hanno più nulla in comune con le vecchie galee, ma il principio è sempre lo stesso: riuscire a distruggere il nemico prima che lui faccia lo stesso con te.
+		  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TECH_WARSHIPS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"Al diavolo i siluri, avanti tutta!"[NEWLINE][TAB][TAB] - Ammiraglio David Glasgow Farragut[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_THIRD_CIRCUMNAVIGATION">
+      <Text>{@1_UnitName} ha raggiunto la Cina! Per questa terza impresa di circumnavigazione ricevi {3_VPAmount} Punti Vittoria. Non si otterranno altre ricompense raggiungendo la Cina.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TITLE">
+      <Text>Conquista del Nuovo Mondo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TP_RELIGION_TOOLTIP">
+      <Text>Ogni civiltà europea inizia lo scenario come cattolica o protestante. Anche se la Città santa non si trova all'interno dei loro confini, le nazioni europee ottengono i bonus specificati nella Credenza del Fondatore per la diffusione della loro forma di cristianità nel maggior numero di città possibile. Queste potenze cristiane possono creare Missionari e Inquisitori spendendo Fede.[NEWLINE] [NEWLINE]Le civiltà americane hanno tutte la facoltà di istituire una religione minore nel turno successivo alla fondazione della loro capitale. Queste religioni minori consistono in una singola, potente Credenza del Pantheon e vengono diffuse in ogni nuova città creata. Ogni civiltà americana può acquistare Colossei e le sue unità esclusive in cambio di Fede, ma non può mai ricevere Missionari e Inquisitori.[NEWLINE][NEWLINE]In questo scenario non ci sono Grandi Profeti e la pressione religiosa è disattivata: la religione si diffonde solo attraverso l'attività dei Missionari.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TRAIT_CITY_STATE_FRIENDSHIP_SHORT">
+      <Text>Alleati nativi</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TRAIT_GREAT_ANDEAN_ROAD">
+      <Text>Entrando in una casella di Collina le unità ignorano i costi di movimento. I costi di manutenzione dei miglioramenti sono zero in collina e dimezzati altrove.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TRAIT_GREAT_ANDEAN_ROAD_SHORT">
+      <Text>Grande strada delle Ande</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TRAIT_IGNORE_TERRAIN_IN_FOREST">
+      <Text>Foreste e Giungle in territorio amico sono considerate strade. +1 [ICON_PEACE] Fede per ogni città vicina a una foresta senza miglioramenti. Il bonus passa a +2 [ICON_PEACE] Fede nelle città con 3 o più caselle adiacenti di Foresta non migliorate.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TRAIT_LONG_COUNT">
+      <Text>All'inizio del gioco, quando stabilisce la propria religione minore, riceve una seconda Credenza del Pantheon.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TRAIT_LONG_COUNT_SHORT">
+      <Text>Eroi gemelli</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TRAIT_LUXURY_RETENTION">
+      <Text>+50% (arrotondato per difetto) al numero di Rotte commerciali disponibili.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TRAIT_LUXURY_RETENTION_SHORT">
+      <Text>Compagnia Olandese delle Indie Occidentali</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TRAIT_OCEAN_MOVEMENT">
+      <Text>+2 al [ICON_MOVES] movimento di tutte le unità navali. Le [ICON_GOLDEN_AGE] Età dell'Oro durano il 50% in più.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TRAIT_SEVEN_CITIES">
+      <Text>Bonus in [ICON_GOLD] Oro per la scoperta di una Meraviglia naturale (maggiorato se sei il primo a scoprirla). [ICON_CULTURE] Cultura, [ICON_HAPPINESS_1] Felicità e resa delle caselle che contengono una Meraviglia naturale sono tutte raddoppiate.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TRAIT_SEVEN_CITIES_SHORT">
+      <Text>Sette Città d'Oro</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TREASURE_CAPTURED_CITY">
+      <Text>La cattura di {@1_CityName} ha generato 3 tesori.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TREASURE_FOUND">
+      <Text>Trovato tesoro</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TREASURE_NATURAL_WONDER">
+      <Text>Vicino alla Meraviglia naturale {@1_NWName} è stato trovato un tesoro.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TREASURE_RAZED_CITY">
+      <Text>Radere al suolo la città di {@1_CityName} ha generato un tesoro.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TREASURE_RETURNED">
+      <Text>Riportare un tesoro a {@1_CityName} ti ha fatto guadagnare {2_GoldAmount} [ICON_GOLD] Oro e {3_VPAmount} Punti Vittoria.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TREASURE_RETURNED_SHORT">
+      <Text>Tesoro recuperato</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_TURNSREMAINING">
+      <Text>Turni restanti: {1_TurnsRemaining}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_HELP_MAYAN_ATLATLIST">
+      <Text>Quest'unità è più economica e viene resa disponibile prima dell'Arciere, che sostituisce. Solo i Maya possono costruirla.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_MAYAN_ATLATLIST_STRATEGY">
+      <Text>L'Atlatlista è un'unità esclusiva maya e sostituisce l'Arciere. Gli Atlatlisti costano meno del tradizionale Arciere e sono disponibili prima, non richiedendo di aver scoperto il Tiro con l'arco. All'inizio della partita questo permette di concentrare la ricerca su altri obiettivi scientifici.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_TREASURE_STRATEGY">
+      <Text>Unità civile esclusiva di questo scenario, sulla terra rappresenta una carovana di muli, una volta imbarcata una flotta del tesoro. In entrambi i casi trasporta oro e argento raccolto nel Nuovo Mondo.  Riportala nella tua capitale per guadagnare oro e Punti Vittoria.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_UNITS_TREASURE_TEXT">
+      <Text>Le unità Tesoro rappresentano l'intero sistema di trasporto dei metalli preziosi sudamericani prelevati nel Nuovo Mondo dalla miniera alla destinazione. L'oro e l'argento estratti nelle miniere sparse per le Americhe venivano trasportati a dorso di mulo (e di lama) lungo itinerari noti fino a raggiungere le città portuali lungo la costa dei Caraibi. In questi porti il tesoro veniva caricato su galeoni e navi mercantili, che poi partivano insieme in un enorme convoglio per attraversare l'Oceano Atlantico. Le navi seguivano una rotta precisa fino alla Spagna, per facilitare la difesa da ladri e pirati.  Queste unità Tesoro hanno contribuito a rendere la Spagna una delle nazioni più ricche del tempo ed ebbero un'importanza cruciale nella creazione di una delle operazioni navali più impressionanti di sempre.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_VP_FUTURE_TECH">
+      <Text>Tesori</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_VP_SCENARIO1">
+      <Text>Scoperta della Cina</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_VP_SCENARIO2">
+      <Text>Fede ottenuta</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_VP_SCENARIO3">
+      <Text>Oro accumulato</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLD_SCENARIO_VP_WONDERS">
+      <Text>Meraviglie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLDDLX_SCENARIO_CIV5_DAWN_AMERICAN_NEWWORLD_TEXT">
+      <Text>DESCRIZIONE DELLO SCENARIO[NEWLINE]L'anno è il fatidico 1492. Le corti d'Inghilterra, Francia e Spagna sono meta di intrepidi esploratori ansiosi di attraversare l'Atlantico per raggiungere da oriente la Cina e le Indie. Riusciranno a tracciare nuove rotte commerciali e a riportare ricchezze inimmaginabili dalle coste dell'Asia? O forse gli capiterà addirittura di scoprire nuove terre lungo la strada? E i nativi apprezzeranno l'opportunità di conoscere nuove culture e stringere accordi commerciali o combatteranno gli invasori della loro terra natìa? Quali ricchezze, opportunità e fama attendono i coraggiosi che sfidano le acque sconosciute? Che via sceglieranno? Chi prevarrà, nella lotta per la supremazia nel Nuovo Mondo?[NEWLINE]CONDIZIONI DI VITTORIA[NEWLINE]La vittoria va a chi ha il punteggio più alto dopo 150 turni. Ottieni PV bonus raggiungendo la Cina con un Grande Ammiraglio. Gli americani guadagnano PV in base alla [ICON_PEACE] Fede, gli europei in base all'[ICON_GOLD] Oro. Gioca con tutte e dieci le civiltà: la mappa dell'America è casuale.[NEWLINE]REGOLE SPECIALI[NEWLINE]Si ottengono unità di Tesoro radendo al suolo le città o scoprendo El Dorado e Cerro de Potosí. Tutte le città possono essere [ICON_RAZING] rase al suolo, tranne quelle europee e l'ultima città di una civiltà americana. Le civiltà americane possono istituire una religione minore nel turno dopo la fondazione della capitale. Le religioni minori consistono in una singola, forte Credenza del Pantheon e vengono diffuse in ogni nuova città creata. Per maggiori informazioni consulta la schermata INTRODUZIONE.
+		  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLDDLX_SCENARIO_CIV5_DAWN_NEWWORLDLOAD_TEXT">
+      <Text>DESCRIZIONE DELLO SCENARIO[NEWLINE]L'anno è il fatidico 1492. Le corti d'Inghilterra, Francia e Spagna sono meta di intrepidi esploratori ansiosi di attraversare l'Atlantico per raggiungere da oriente la Cina e le Indie. Riusciranno a tracciare nuove rotte commerciali e a riportare ricchezze inimmaginabili dalle coste dell'Asia? O forse gli capiterà addirittura di scoprire nuove terre lungo la strada? E i nativi apprezzeranno l'opportunità di conoscere nuove culture e stringere accordi commerciali o combatteranno gli invasori della loro terra natìa? Quali ricchezze, opportunità e fama attendono i coraggiosi che sfidano le acque sconosciute? Che via sceglieranno? Chi prevarrà, nella lotta per la supremazia nel Nuovo Mondo?[NEWLINE]CONDIZIONI DI VITTORIA[NEWLINE]La vittoria va a chi ha il punteggio più alto dopo 150 turni. Si ottengono PV bonus raggiungendo la Cina con un Grande Ammiraglio. Gli americani guadagnano PV in base alla [ICON_PEACE] Fede, gli europei in base all'[ICON_GOLD] Oro. Gioca con ciascuna delle dieci civiltà: la mappa dell'America cambia ogni volta.[NEWLINE]REGOLE SPECIALI[NEWLINE]Le potenze europee non possono dichiararsi guerra prima della scoperta della Pirateria. Si ottengono unità di Tesoro radendo al suolo le città o scoprendo l'El Dorado e il Cerro de Potosí. Le unità navali e quelle imbarcate sono colpite dallo Scorbuto, una "promozione" automatica. Per combattere questa malattia devi costruire la Meraviglia nazionale Scuola di navigazione. Le civiltà europee vogliono diffondere la loro religione nel Nuovo Mondo. Per maggiori informazioni consulta la schermata INTRODUZIONE.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLDDLX_SCENARIO_CIV5_NEWWORLD_BRIEFING_TEXT">
+      <Text>
+			  CONDIZIONI DI VITTORIA[NEWLINE]La vittoria va alla civiltà che ha il punteggio più alto dopo 150 turni. Si possono ottenere PV bonus raggiungendo la Cina con un Grande Ammiraglio inviato in esplorazione.[NEWLINE][NEWLINE]Le nazioni americane guadagnano 1 PV per ogni 2 punti [ICON_PEACE] Fede, così ottenuti:[NEWLINE][ICON_BULLET]Fede acquisita all'inizio del turno[NEWLINE][ICON_BULLET]Fede ottenuta dalle unità sconfitte in combattimento[NEWLINE][ICON_BULLET]Fede guadagnata dall'unità Pathfinder degli Shoshoni[NEWLINE][NEWLINE]Le nazioni europee guadagnano 1 PV ogni 12 [ICON_GOLD] Oro, così ottenuto:[NEWLINE][ICON_BULLET]Entrate totali in Oro all'inizio del turno[NEWLINE][ICON_BULLET]Oro acquisito dalle unità sconfitte in combattimento[NEWLINE][ICON_BULLET]Oro ricevuto dai tesori trasportati nella capitale[NEWLINE][ICON_BULLET]Oro guadagnato con le missioni commerciali[NEWLINE][ICON_BULLET]Oro ottenuto raggiungendo la Cina con una Nau[NEWLINE][ICON_BULLET]Oro acquisito con l'abilità speciale della Spagna[NEWLINE][NEWLINE]REGOLE SPECIALI[NEWLINE]Le unità navali e imbarcate sono colpite dallo Scorbuto, una "promozione" automatica. Per combattere questa malattia devi costruire la Meraviglia nazionale Scuola di navigazione. Le potenze europee non possono dichiararsi guerra tra loro prima della scoperta della tecnologia Pirateria. È possibile ottenere unità di Tesoro radendo al suolo le città o scoprendo le Meraviglie naturali El Dorado e Cerro de Potosí (se esistono sulla mappa). Tutte le città possono essere [ICON_RAZING] rase al suolo, tranne quelle europee e l'ultima città di una civiltà americana. Tutte le unità navali hanno una penalità di -1 al raggio di visione tranne i Grandi Ammiragli, che hanno un bonus di +2. In ogni turno vengono generati automaticamente punti Grande Ammiraglio, che si possono acquisire anche compiendo grandi imprese di esplorazione. Per ottenere informazioni sulle religioni delle nazioni europee e americane tieni il mouse sull'icona della Fede nella barra delle informazioni, nella parte superiore dello schermo.
+		  </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLDDLX_SCENARIO_DESC">
+      <Text>Naviga verso ovest in cerca di un passaggio per l'Oriente o mettiti al comando di una civiltà nativa dell'America e affronta l'inattesa minaccia che arriva dal mare. Basato sullo scenario originale Conquista del Nuovo Mondo, vivi l'età delle grandi esplorazioni come mai prima.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEWWORLDDLX_SCENARIO_TITLE">
+      <Text>Conquista del Nuovo Mondo Deluxe</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTION_SCURVY">
+      <Text>Perde salute quando si trova all'esterno del territorio amico</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_AMERICAN">
+      <Text>Americana</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_AMERICAN_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Americana[ENDCOLOR][NEWLINE]Può costruire Grandi Meraviglie. +1 [ICON_HAPPINESS_1] Felicità da ogni Tempio.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ARISTOCRACY_NWS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Aristocrazia[ENDCOLOR][NEWLINE]+15% alla [ICON_PRODUCTION] Produzione quando costruisci una Meraviglia e +1 [ICON_PEACE] Fede per ogni Bottega.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BARTER_SYSTEM">
+      <Text>Sistema di baratto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BARTER_SYSTEM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Sistema di baratto[ENDCOLOR][NEWLINE]+1 [ICON_GOLD] Oro da ogni Base commerciale e Campo di pernambuco. +2 [ICON_HAPPINESS_1] Felicità da ogni Risorsa di lusso.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BARTER_SYSTEM_TEXT">
+      <Text>Nel Nuovo Mondo prevaleva un sistema di baratto con scambio reciproco di beni o servizi tra i nativi, fra i nativi e i coloni europei e tra gli stessi coloni. Il baratto restò alla base dell'economia locale fino alla coniazione della prima moneta delle Americhe: il maravedì di rame, battuto per la prima volta a Santo Domingo nel 1502. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_AMERICAN">
+      <Text>Americana</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_EUROPEAN">
+      <Text>Europea</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CITIZENSHIP_NWS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Cittadinanza[ENDCOLOR][NEWLINE]Il costo in [ICON_GOLD] Oro dell'acquisto degli edifici è ridotto del 33%. +1 [ICON_PEACE] Fede da ogni edificio che richiede una risorsa migliorata (Cioccolateria, Circo, Forgia, Zecca e Scalpellino).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CITY_SACK">
+      <Text>Sacco delle città</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CITY_SACK_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Sacco delle città[ENDCOLOR][NEWLINE]+33% alla [ICON_STRENGTH] Forza di combattimento contro le città e +1 al movimento delle unità di Tesoro (le unità terrestri ricevono la promozione Assedio, i Tesori ricevono fin da subito la promozione 1 Movimento extra)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CITY_SACK_TEXT">
+      <Text>Nel Nuovo Mondo il sacco delle città catturate dagli invasori europei veniva condotto per abbattere il morale dei nativi ma anche, occasionalmente, per il mero bottino. Un esempio del primo caso potrebbe essere il sacco della nuova capitale degli Inca, Vilcabamba, da parte di Gonzalo Pizarro nel 1539, mentre del secondo, il sacco di Panama City per mano del bucaniere Henry Morgan nel 1671.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_NWS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Governo collettivo[ENDCOLOR][NEWLINE]Velocizza del 50% la creazione di [COLOR_POSITIVE_TEXT]Coloni[ENDCOLOR] nella [ICON_CAPITAL] capitale; inoltre un Colono gratuito appare vicino alla [ICON_CAPITAL] capitale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CONQUEST">
+      <Text>Conquista del Nuovo Mondo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CONQUEST_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Conquista del Nuovo Mondo[ENDCOLOR][NEWLINE]L'adozione di questa Politica dà a tutte le unità militari un bonus del 25% all'attacco per 50 turni. Ricevi il doppio di [ICON_GOLD] Oro dai Tesori.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CONQUEST_TEXT">
+      <Text>Nel Nuovo Mondo, alle grandi esplorazioni fece seguito un periodo di conquiste e colonizzazioni promosse dalle potenze europee che volevano espandere la loro influenza e ricchezza. Nel giro di due secoli dal viaggio di Colombo, Spagna, Portogallo, Francia, Inghilterra e persino Olanda e Svezia si erano unite alla corsa per la conquista dei vasti territori delle Americhe.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CONVOY_SYSTEM">
+      <Text>Sistema di convogli</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CONVOY_SYSTEM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Sistema di convogli[ENDCOLOR][NEWLINE]+6 [ICON_GOLD] Oro da tutte le Rotte commerciali marittime.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CONVOY_SYSTEM_TEXT">
+      <Text>L'uso dei convogli di navi in tempo di guerra per proteggere il trasporto delle truppe risale al IX secolo d.C., ma gli attacchi sempre più audaci di pirati e corsari nei Caraibi portarono i mercanti spagnoli e, in seguito, la stessa corona a istituire un vero e proprio sistema per proteggere le ricchezze dirette in Europa dal Nuovo Mondo. Alcuni dei convogli spagnoli e portoghesi potevano contenere diverse centinaia di navi mercantili, come le "flotte del tesoro" spagnole attive dal 1520 circa fino al 1790.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DOUBLE_PYRAMID">
+      <Text>Piramide doppia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DOUBLE_PYRAMID_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Piramide doppia[ENDCOLOR][NEWLINE]+1 [ICON_PEACE] Fede da Santuari e Templi.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DOUBLE_PYRAMID_TEXT">
+      <Text>All'apice dell'estensione dell'impero, gli Aztechi costruirono diverse piramidi doppie formate da una gigantesca piattaforma piramidale munita di una doppia scalinata che conduceva a templi gemelli, in certi casi costruiti anch'essi a forma di piramide. Il più antico esempio conosciuto che si trova a Tenayuca, era già stato edificato quando gli Aztechi conquistarono la città intorno al 1434 d.C.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP_NWS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Imprenditorialità[ENDCOLOR][NEWLINE]Un Grande Mercante appare in gioco. I Grandi Mercanti sono generati il 100% più velocemente. +2 [ICON_GOLD] Oro per ogni Banca. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_EUROPEAN">
+      <Text>Europea</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_EUROPEAN_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Europea[ENDCOLOR][NEWLINE]+50 [ICON_PEACE] Fede ogni turno se la tua [ICON_CAPITAL] capitale ha la religione originale (Inghilterra, Francia e Olanda sono nazioni protestanti; Portogallo e Spagna sono cattoliche).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_HORSEMEN_OF_THE_PLAINS">
+      <Text>Cavalieri delle pianure</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_HORSEMEN_OF_THE_PLAINS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Cavalieri delle pianure[ENDCOLOR][NEWLINE]6 unità non hanno costi di mantenimento. Ricevi immediatamente 6 Comanche (forti unità di cavalleria che possono essere usate come difesa contro i Missionari). +8 [ICON_PEACE] Fede nella [ICON_CAPITAL] capitale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_HORSEMEN_OF_THE_PLAINS_TEXT">
+      <Text>Finché Colombo non importò i cavalli nelle Indie Occidentali, durante il suo secondo viaggio del 1493, nelle Americhe non c'erano equini. Discendenti degli animali abbandonati dai Conquistador, varie razze di cavalli si diffusero rapidamente nelle grandi pianure nordamericane, dove divennero ben presto un caposaldo della società e della cultura dei nomadi nativi, che fino a quel momento erano rimasti a uno stadio di sviluppo primitivo.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_NWS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Federazione mercantile[ENDCOLOR][NEWLINE]+2 [ICON_GOLD] Oro dalle Rotte commerciali con le città-stato. Ogni turno guadagni 4 [ICON_INFLUENCE] Influenza in più (nelle partite a velocità normale) sulle città-stato con cui hai una Rotta commerciale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_OVERSEAS_EMPIRE">
+      <Text>Impero d'oltremare</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_OVERSEAS_EMPIRE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Impero d'oltremare[ENDCOLOR][NEWLINE]Un Grande Ammiraglio compare in gioco. +2 al [ICON_MOVES] movimento e +1 al raggio di visione di tutti i Grandi Ammiragli. I Grandi Ammiragli sono generati il 50% più velocemente. +2 al [ICON_MOVES] movimento di tutte le unità navali. Le nuove città partono con 3 [ICON_CITIZEN] popolazione extra.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_OVERSEAS_EMPIRE_TEXT">
+      <Text>Le motivazioni per cui le nazioni europee desideravano acquisire possedimenti al di là dell'oceano dipendevano da una varietà di fattori: sviluppo economico limitato, zelo religioso, sovrappopolazione, ristagno culturale, stallo militare spinsero le potenze europee a cercare di fondare degli imperi coloniali. I monarchi europei, che già dominavano il globo dall'Oriente all'Africa, videro nelle Americhe l'opportunità di un'espansione apparentemente illimitata dei propri confini.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PORTS_OF_CALL">
+      <Text>Porti di scalo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PORTS_OF_CALL_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Porti di scalo[ENDCOLOR][NEWLINE]Fornisce un Porto in tutte le città e +2 [ICON_GOLD] Oro per ogni città costiera.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PORTS_OF_CALL_TEXT">
+      <Text>Un porto di scalo è una tappa intermedia su una rotta in cui una nave può imbarcare viveri e acqua e trasferire merci e passeggeri. Porti coloniali come San Juan e Santo Domingo nei Caraibi, St. Augustine e Philadelphia in Nordamerica, Rio de Janeiro e Buenos Aires hanno svolto un ruolo cruciale per assicurare agli europei il controllo del Nuovo Mondo.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PUKARA">
+      <Text>Pucará</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PUKARA_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Pucará[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Felicità locale, +1 [ICON_GOLD] Oro e +1 [ICON_PEACE] Fede per ciascuna città dotata di Mura.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PUKARA_TEXT">
+      <Text>I Pucará sono fortificazioni realizzate in pietra senza malta, solitamente su pendii scoscesi, comuni alle culture native delle Ande centrali: Wari, Tiwanaku e, più tardi, Inca. Spesso gli Inca usavano queste fortificazioni anche per scopi amministrativi, come nel caso del Puca Pucará, la "fortezza rossa" che proteggeva uno degli accessi alla città di Cusco.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PYRAMID_OF_THE_GODS">
+      <Text>Piramide degli dei</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PYRAMID_OF_THE_GODS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Piramide degli dei[ENDCOLOR][NEWLINE]+6 [ICON_PEACE] Fede per ogni Grande Meraviglia.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PYRAMID_OF_THE_GODS_TEXT">
+      <Text>In Mesoamerica le piramidi a gradoni, più simili agli ziqqurat della Mesopotamia che alle piramidi dalle pareti lisce, erano la forma architettonica predominante delle strutture religiose delle società olmeche, azteche, maya, zapoteche e tarasche. Spesso adornate con elaborati bassorilievi simbolici, dipinti murali e mosaici, le più importanti (come la Grande Piramide di Cholula) erano simboli imponenti del potere degli stati teocratici.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_RANSOM">
+      <Text>Riscatto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_RANSOM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Riscatto[ENDCOLOR] [NEWLINE]Guadagni [ICON_GOLD] Oro per ogni nemico ucciso.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_RANSOM_TEXT">
+      <Text>Seguendo un'antichissima tradizione del continente, gli avventurieri europei prendevano prigionieri i capi delle tribù native ed esigevano un riscatto per la loro liberazione, spesso in nome del re. Nel 1532, per esempio, Francisco Pizarro ricevette l'equivalente di due miliardi di dollari dagli Inca per la liberazione del principe Atahualpa (ma in seguito Pizarro non mantenne la parola e fece uccidere il principe).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SACRED_LAND">
+      <Text>Terra sacra</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SACRED_LAND_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Terra sacra[ENDCOLOR][NEWLINE]Se hai istituito una religione minore, guadagni una Credenza riformata extra.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SACRED_LAND_TEXT">
+      <Text>Molte religioni dei nativi nordamericani erano animiste, seguivano cioè la credenza che le essenze spirituali fossero incarnate in oggetti fisici: animali, piante, fenomeni meteorologici e persino determinati luoghi. Per molte tribù, dagli Haudenausaunee (irochesi) ai Sioux Lakota, la protezione delle terre sacre come le Cascate Cohoes, le Black Hills o il Monte Shasta era una questione di fede, non solo di opportunità per la tribù.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TEMPLE_OF_THE_GODS">
+      <Text>Tempio degli dei</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TEMPLE_OF_THE_GODS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Tempio degli dei[ENDCOLOR][NEWLINE]Costruisci i Templi in metà del tempo normale. I Templi aumentano del 25% la rendita di [ICON_GOLD] Oro delle città.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TEMPLE_OF_THE_GODS_TEXT">
+      <Text>Molti regni antichi della Mesoamerica erano teocrazie animiste; il tempio "nazionale" era importante quanto il palazzo nella capitale. Molti di questi "templi degli dei" avevano la forma di piramidi dedicate alle divinità giaguaro o serpente: il più antico risale all'era pre-classica (dal 1800 a.C. circa al 200 d.C.).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNIFIED_NATION">
+      <Text>Nazione unificata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNIFIED_NATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Nazione unificata[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Felicità locale e +1 [ICON_PEACE] Fede da ogni Meraviglia nazionale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNIFIED_NATION_TEXT">
+      <Text>Come altre popolazioni native, in vari luoghi tribù diverse con una base culturale e/o linguistica comune si riunirono in "nazioni" unificate come quelle Oneida, Cherokee e Navajo. Spesso l'impulso che riunificava gruppi da tempo nemici fu dato dall'arrivo degli europei, dal momento che molti capi nativi riconobbero la minaccia che i nuovi venuti potevano rappresentare per le tribù.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ENEMY_BLADE">
+      <Text>L'arma del briccone</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FAST_ADMIRAL_NWS_HELP">
+      <Text>+2 [ICON_MOVES] al movimento e +1 al raggio di visione.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NAVAL_TRADITION_NWS_HELP">
+      <Text>+2 al [ICON_MOVES] movimento.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NEWWORLD_SCENARIO_EMBARKATION_HELP">
+      <Text>Si può imbarcare in [COLOR_POSITIVE_TEXT]Caselle acquatiche[ENDCOLOR]. Se non è stata costruita la Scuola di navigazione, ogni volta che muove in una casella acquatica neutrale o nemica c'è una possibilità del 10% che l'unità subisca 10 danni a causa dello [COLOR_NEGATIVE_TEXT]Scorbuto[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NEWWORLD_SCENARIO_NATIVE_TONGUE_HELP">
+      <Text>Riceve [ICON_PEACE] Fede quando viene scoperta una Meraviglia naturale (di più se è la prima a scoprirla, ma nessuna se la Meraviglia è già stata scoperta da un'altra tua unità con questa promozione)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NEWWORLD_SCENARIO_SELL_EXOTIC_GOODS_HELP">
+      <Text>[ICON_GOLD] Oro se raggiunge la Cina, ma poi l'unità scompare.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NEWWORLD_SCENARIO_STATUE_ZEUS">
+      <Text>Sacco delle città</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NEWWORLD_SCENARIO_STATUE_ZEUS_HELP">
+      <Text>+33% alla [ICON_STRENGTH] Forza di Combattimento attaccando le città.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_OBSIDIAN_TIP">
+      <Text>Punta d'ossidiana</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SCURVY">
+      <Text>Scorbuto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SCURVY_HELP">
+      <Text>65% di probabilità di subire 1 punto di danno se termina il turno al di fuori del territorio amico</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SMALLPOX">
+      <Text>Vaiolo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SMALLPOX10_HELP">
+      <Text>+10% alla [ICON_STRENGTH] Forza di combattimento (5% per ogni livello di difficoltà sopra o sotto Principe).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SMALLPOX15_HELP">
+      <Text>+15% alla [ICON_STRENGTH] Forza di combattimento (5% per ogni livello di difficoltà sopra o sotto Principe).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SMALLPOX20_HELP">
+      <Text>+20% alla [ICON_STRENGTH] Forza di combattimento (5% per ogni livello di difficoltà sopra o sotto Principe).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SMALLPOX5_HELP">
+      <Text>+5% alla [ICON_STRENGTH] Forza di combattimento (5% per ogni livello di difficoltà sopra o sotto Principe).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SHOSHONE_NATURAL_WONDER_FOUNDFIRST">
+      <Text>Hai ottenuto {1_FaithPoints} [ICON_PEACE] Fede per aver scoperto una Meraviglia naturale prima di tutte le altre nazioni.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SHOSHONE_NATURAL_WONDER_FOUNDLATER">
+      <Text>Il tuo Pathfinder ti ha fatto guadagnare {1_FaithPoints} [ICON_PEACE] Fede per aver scoperto una Meraviglia naturale dopo qualcun altro.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIFIC_DIPLO_STRING_1">
+      <Text>[COLOR_NEGATIVE_TEXT]Le tue terre mi appartengono.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_FAITH_FROM_KILLS">
+      <Text>Guadagna [ICON_PEACE] Fede ogni volta che uccide un'unità nemica.</Text>
+    </Row>
+  </Language_IT_IT>
+</GameData>

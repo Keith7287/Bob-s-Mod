@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="Processes">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text"/>
+		<Column name="Help" type="text"/>
+		<Column name="Strategy" type="text"/>
+		<Column name="TechPrereq" type="text" reference="Technologies(Type)"/>
+		<Column name="PortraitIndex" type="integer" default="-1"/>
+		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
+	</Table>
+	<Table name="Process_ProductionYields">
+		<Column name="ProcessType" type="text" reference="Processes(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer" notnull="true"/>
+	</Table>
+	<!-- Table data -->
+	<Processes>
+		<Row>
+			<ID>0</ID>
+			<Type>PROCESS_WEALTH</Type>
+			<Description>TXT_KEY_PROCESS_WEALTH</Description>
+			<Help>TXT_KEY_PROCESS_WEALTH_HELP</Help>
+			<Strategy>TXT_KEY_PROCESS_WEALTH_STRATEGY</Strategy>
+			<TechPrereq>TECH_CURRENCY</TechPrereq>
+			<IconAtlas>CITIZEN_ATLAS</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>PROCESS_RESEARCH</Type>
+			<Description>TXT_KEY_PROCESS_RESEARCH</Description>
+			<Help>TXT_KEY_PROCESS_RESEARCH_HELP</Help>
+			<Strategy>TXT_KEY_PROCESS_RESEARCH_STRATEGY</Strategy>
+			<TechPrereq>TECH_EDUCATION</TechPrereq>
+			<IconAtlas>CITIZEN_ATLAS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+		</Row>
+	</Processes>
+	<Process_ProductionYields>
+		<Row>
+			<ProcessType>PROCESS_WEALTH</ProcessType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<ProcessType>PROCESS_RESEARCH</ProcessType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>25</Yield>
+		</Row>
+	</Process_ProductionYields>
+</GameData>

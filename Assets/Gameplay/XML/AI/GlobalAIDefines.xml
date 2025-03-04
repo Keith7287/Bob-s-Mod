@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<!-- Global AI Defines -->
+<GameData>
+	<Defines>
+		<Row Name="AI_ATTEMPT_RUSH_OVER_X_TURNS_TO_BUILD">
+			<Value>15</Value>
+		</Row>
+		<Row Name="AI_PRODUCTION_WEIGHT_MOD_PER_TURN_LEFT">
+			<Value>0.015</Value>
+		</Row>
+		<Row Name="AI_PRODUCTION_WEIGHT_BASE_MOD">
+			<Value>0.15</Value>
+		</Row>
+		<Row Name="AI_RESEARCH_WEIGHT_MOD_PER_TURN_LEFT">
+			<Value>0.015</Value>
+		</Row>
+		<Row Name="AI_RESEARCH_WEIGHT_BASE_MOD">
+			<Value>0.15</Value>
+		</Row>
+		<Row Name="INITIAL_AI_CITY_PRODUCTION">
+			<Value>0</Value>
+		</Row>
+		<Row Name="AI_CAN_DISBAND_UNITS">
+			<Value>1</Value>
+		</Row>
+		<Row Name="AI_SHOULDNT_MANAGE_PLOT_ASSIGNMENT">
+			<Value>0</Value>
+		</Row>
+		<Row Name="POLICY_WEIGHT_PROPAGATION_PERCENT">
+			<Value>25</Value>
+		</Row>
+		<Row Name="POLICY_WEIGHT_PROPAGATION_LEVELS">
+			<Value>2</Value>
+		</Row>
+		<Row Name="POLICY_WEIGHT_PERCENT_DROP_NEW_BRANCH">
+			<Value>78</Value>
+		</Row>
+		<Row Name="TECH_WEIGHT_PROPAGATION_PERCENT">
+			<Value>50</Value>
+		</Row>
+		<Row Name="TECH_WEIGHT_PROPAGATION_LEVELS">
+			<Value>3</Value>
+		</Row>
+		<Row Name="TECH_PRIORITY_UNIQUE_ITEM">
+			<Value>5</Value>
+		</Row>
+		<Row Name="AI_VALUE_OF_YIELD_GOLD">
+			<Value>7</Value>
+		</Row>
+		<Row Name="AI_VALUE_OF_YIELD_PRODUCTION">
+			<Value>15</Value>
+		</Row>
+		<Row Name="AI_VALUE_OF_YIELD_SCIENCE">
+			<Value>8</Value>
+		</Row>
+		<Row Name="DEFAULT_FLAVOR_VALUE">
+			<Value>5</Value>
+		</Row>
+		<Row Name="PERSONALITY_FLAVOR_MAX_VALUE">
+			<Value>20</Value>
+		</Row>
+		<Row Name="PERSONALITY_FLAVOR_MIN_VALUE">
+			<Value>0</Value>
+		</Row>
+		<Row Name="FLAVOR_MIN_VALUE">
+			<Value>-1000</Value>
+		</Row>
+		<Row Name="FLAVOR_MAX_VALUE">
+			<Value>1000</Value>
+		</Row>
+		<Row Name="FLAVOR_RANDOMIZATION_RANGE">
+			<Value>2</Value>
+		</Row>
+		<Row Name="FLAVOR_STANDARD_LOG10_TILES_PER_PLAYER">
+			<Value>2.1</Value>
+		</Row>
+		<Row Name="FLAVOR_EXPANDGROW_COEFFICIENT">
+			<Value>8</Value>
+		</Row>
+		<!-- AI Player Grand Strategy Defines-->
+		<Row Name="AI_GRAND_STRATEGY_NUM_TURNS_STRATEGY_MUST_BE_ACTIVE">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_GS_RAND_ROLL">
+			<Value>50</Value>
+		</Row>
+		<Row Name="AI_GRAND_STRATEGY_CURRENT_STRATEGY_WEIGHT">
+			<Value>50</Value>
+		</Row>
+		<Row Name="AI_GRAND_STRATEGY_GUESS_NO_CLUE_WEIGHT">
+			<Value>40</Value>
+		</Row>
+		<Row Name="AI_GRAND_STRATEGY_GUESS_POSITIVE_THRESHOLD">
+			<Value>120</Value>
+		</Row>
+		<Row Name="AI_GRAND_STRATEGY_GUESS_LIKELY_THRESHOLD">
+			<Value>70</Value>
+		</Row>
+		<Row Name="AI_GRAND_STRATEGY_OTHER_PLAYERS_GS_MULTIPLIER">
+			<Value>50</Value>
+		</Row>
+		<Row Name="AI_GS_CONQUEST_NOBODY_MET_FIRST_TURN">
+			<Value>20</Value>
+		</Row>
+		<Row Name="AI_GRAND_STRATEGY_CONQUEST_NOBODY_MET_WEIGHT">
+			<Value>-50</Value>
+		</Row>
+		<Row Name="AI_GRAND_STRATEGY_CONQUEST_AT_WAR_WEIGHT">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_GS_CONQUEST_MILITARY_STRENGTH_FIRST_TURN">
+			<Value>60</Value>
+		</Row>
+		<Row Name="AI_GRAND_STRATEGY_CONQUEST_POWER_RATIO_MULTIPLIER">
+			<Value>100</Value>
+		</Row>
+		<Row Name="AI_GRAND_STRATEGY_CONQUEST_CRAMPED_WEIGHT">
+			<Value>20</Value>
+		</Row>
+		<Row Name="AI_GRAND_STRATEGY_CONQUEST_WEIGHT_PER_MINOR_ATTACKED">
+			<Value>5</Value>
+		</Row>
+		<Row Name="AI_GRAND_STRATEGY_CONQUEST_WEIGHT_PER_MINOR_CONQUERED">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_GRAND_STRATEGY_CONQUEST_WEIGHT_PER_MAJOR_ATTACKED">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_GRAND_STRATEGY_CONQUEST_WEIGHT_PER_MAJOR_CONQUERED">
+			<Value>15</Value>
+		</Row>
+		<Row Name="AI_GS_CULTURE_RATIO_MULTIPLIER">
+			<Value>150</Value>
+		</Row>
+		<Row Name="AI_GS_CULTURE_RATIO_EARLY_TURN_THRESHOLD">
+			<Value>50</Value>
+		</Row>
+		<Row Name="AI_GS_CULTURE_RATIO_EARLY_DIVISOR">
+			<Value>2</Value>
+		</Row>
+		<Row Name="AI_GS_CULTURE_MAX_CITIES">
+			<Value>4</Value>
+		</Row>
+		<Row Name="AI_GS_CULTURE_MAX_CITIES_MODIFIER">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_GS_CULTURE_POLICY_BRANCH_MOD">
+			<Value>25</Value>
+		</Row>
+		<Row Name="AI_GRAND_STRATEGY_UN_EACH_MINOR_ATTACKED_WEIGHT">
+			<Value>-30</Value>
+		</Row>
+		<Row Name="AI_GS_UN_SECURED_VOTE_MOD">
+			<Value>300</Value>
+		</Row>
+		<Row Name="AI_GS_SS_HAS_APOLLO_PROGRAM">
+			<Value>150</Value>
+		</Row>
+		<Row Name="AI_GS_SS_TECH_PROGRESS_MOD">
+			<Value>300</Value>
+		</Row>
+		<!-- Economic AI Defines-->
+		<Row Name="AI_STRATEGY_EARLY_EXPLORATION_STARTING_WEIGHT">
+			<Value>100</Value>
+		</Row>
+		<Row Name="AI_STRATEGY_EARLY_EXPLORATION_EXPLORERS_WEIGHT_DIVISOR">
+			<Value>1</Value>
+		</Row>
+		<Row Name="AI_STRATEGY_EARLY_EXPLORATION_WEIGHT_PER_FLAVOR">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_STRATEGY_EARLY_EXPANSION_NUM_UNOWNED_TILES_REQUIRED">
+			<Value>25</Value>
+		</Row>
+		<Row Name="AI_STRATEGY_EARLY_EXPANSION_NUM_CITIES_LIMIT">
+			<Value>8</Value>
+		</Row>
+		<Row Name="AI_STRATEGY_NEED_IMPROVEMENT_CITY_RATIO">
+			<Value>0.34</Value>
+		</Row>
+		<Row Name="AI_STRATEGY_ISLAND_START_COAST_REVEAL_PERCENT">
+			<Value>80</Value>
+		</Row>
+		<Row Name="AI_STRATEGY_AREA_IS_FULL_PERCENT">
+			<Value>75</Value>
+		</Row>
+		<Row Name="AI_STRATEGY_MINIMUM_SETTLE_FERTILITY">
+			<Value>5000</Value>
+		</Row>
+		<Row Name="AI_BUY_PLOT_TEST_PROBES">
+			<Value>5</Value>
+		</Row>
+		<Row Name="AI_PLOT_VALUE_STRATEGIC_RESOURCE">
+			<Value>50</Value>
+		</Row>
+		<Row Name="AI_PLOT_VALUE_LUXURY_RESOURCE">
+			<Value>40</Value>
+		</Row>
+		<Row Name="AI_PLOT_VALUE_SPECIALIZATION_MULTIPLIER">
+			<Value>20</Value>
+		</Row>
+		<Row Name="AI_PLOT_VALUE_YIELD_MULTIPLIER">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_PLOT_VALUE_DEFICIENT_YIELD_MULTIPLIER">
+			<Value>5</Value>
+		</Row>
+		<Row Name="AI_PLOT_VALUE_FIERCE_DISPUTE">
+			<Value>6</Value>
+		</Row>
+		<Row Name="AI_PLOT_VALUE_STRONG_DISPUTE">
+			<Value>4</Value>
+		</Row>
+		<Row Name="AI_PLOT_VALUE_WEAK_DISPUTE">
+			<Value>2</Value>
+		</Row>
+		<Row Name="AI_GOLD_PRIORITY_MINIMUM_PLOT_BUY_VALUE">
+			<Value>275</Value>
+		</Row>
+		<Row Name="AI_GOLD_BALANCE_TO_HALVE_PLOT_BUY_MINIMUM">
+			<Value>1000</Value>
+		</Row>
+		<Row Name="AI_GOLD_PRIORITY_UPGRADE_BASE">
+			<Value>150</Value>
+		</Row>
+		<Row Name="AI_GOLD_PRIORITY_UPGRADE_PER_FLAVOR_POINT">
+			<Value>25</Value>
+		</Row>
+		<Row Name="AI_GOLD_PRIORITY_DIPLOMACY_BASE">
+			<Value>150</Value>
+		</Row>
+		<Row Name="AI_GOLD_PRIORITY_DIPLOMACY_PER_FLAVOR_POINT">
+			<Value>25</Value>
+		</Row>
+		<Row Name="AI_GOLD_PRIORITY_UNIT">
+			<Value>500</Value>
+		</Row>
+		<Row Name="AI_GOLD_PRIORITY_DEFENSIVE_BUILDING">
+			<Value>400</Value>
+		</Row>
+		<!-- Builder Tasking AI Defines -->
+		<Row Name="BUILDER_TASKING_PLOT_EVAL_MULTIPLIER_FOOD">
+			<Value>2</Value>
+		</Row>
+		<Row Name="BUILDER_TASKING_PLOT_EVAL_MULTIPLIER_PRODUCTION">
+			<Value>2</Value>
+		</Row>
+		<Row Name="BUILDER_TASKING_PLOT_EVAL_MULTIPLIER_GOLD">
+			<Value>1</Value>
+		</Row>
+		<Row Name="BUILDER_TASKING_PLOT_EVAL_MULTIPLIER_SCIENCE">
+			<Value>1</Value>
+		</Row>
+		<Row Name="BUILDER_TASKING_PLOT_EVAL_MULTIPLIER_CULTURE">
+			<Value>1</Value>
+		</Row>
+		<Row Name="BUILDER_TASKING_PLOT_EVAL_MULTIPLIER_LUXURY_RESOURCE">
+			<Value>50000</Value>
+		</Row>
+		<Row Name="BUILDER_TASKING_IMPROVE_RESOURCE_TENDENCY">
+			<Value>15.0</Value>
+		</Row>
+		<Row Name="BUILDER_TASKING_BUILD_ROUTE_TENDENCY">
+			<Value>100.0</Value>
+		</Row>
+		<Row Name="BUILDER_TASKING_DIRECTIVES_TO_EVALUATE">
+			<Value>1</Value>
+		</Row>
+		<Row Name="BUILDER_TASKING_BASELINE_BUILD_IMPROVEMENTS">
+			<Value>1</Value>
+		</Row>
+		<Row Name="BUILDER_TASKING_BASELINE_BUILD_RESOURCE_IMPROVEMENTS">
+			<Value>10</Value>
+		</Row>
+		<Row Name="BUILDER_TASKING_BASELINE_BUILD_ROUTES">
+			<Value>100</Value>
+		</Row>
+		<Row Name="BUILDER_TASKING_BASELINE_REPAIR">
+			<Value>200</Value>
+		</Row>
+		<Row Name="BUILDER_TASKING_BASELINE_SCRUB_FALLOUT">
+			<Value>10000</Value>
+		</Row>
+		<Row Name="BUILDER_TASKING_BASELINE_ADDS_CULTURE">
+			<Value>100</Value>
+		</Row>
+		<!-- Military AI Defines-->
+		<Row Name="AI_MILITARY_THREAT_WEIGHT_MINOR">
+			<Value>1</Value>
+		</Row>
+		<Row Name="AI_MILITARY_THREAT_WEIGHT_MAJOR">
+			<Value>3</Value>
+		</Row>
+		<Row Name="AI_MILITARY_THREAT_WEIGHT_SEVERE">
+			<Value>6</Value>
+		</Row>
+		<Row Name="AI_MILITARY_THREAT_WEIGHT_CRITICAL">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_STRATEGY_DEFEND_MY_LANDS_UNITS_PER_CITY">
+			<Value>1.0</Value>
+		</Row>
+		<Row Name="AI_STRATEGY_NAVAL_UNITS_PER_CITY">
+			<Value>0.67</Value>
+		</Row>
+		<Row Name="AI_STRATEGY_DEFEND_MY_LANDS_BASE_UNITS">
+			<Value>3</Value>
+		</Row>
+		<Row Name="AI_STRATEGY_MILITARY_RESERVE_PERCENTAGE">
+			<Value>35</Value>
+		</Row>
+		<Row Name="AI_MILITARY_CITY_THREAT_WEIGHT_CAPITAL">
+			<Value>125</Value>
+		</Row>
+		<Row Name="AI_MILITARY_BARBARIANS_FOR_MINOR_THREAT">
+			<Value>2</Value>
+		</Row>
+		<!-- City Specialization Defines -->
+		<Row Name="AI_CITY_SPECIALIZATION_EARLIEST_TURN">
+			<Value>25</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_REEVALUATION_INTERVAL">
+			<Value>50</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_GENERAL_ECONOMIC_WEIGHT">
+			<Value>200</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_FOOD_WEIGHT_FLAVOR_EXPANSION">
+			<Value>5</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_FOOD_WEIGHT_PERCENT_CONTINENT_UNOWNED">
+			<Value>5</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_FOOD_WEIGHT_NUM_CITIES">
+			<Value>-50</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_FOOD_WEIGHT_NUM_SETTLERS">
+			<Value>-40</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_FOOD_WEIGHT_EARLY_EXPANSION">
+			<Value>500</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_PRODUCTION_WEIGHT_OPERATIONAL_UNITS_REQUESTED">
+			<Value>25</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_PRODUCTION_WEIGHT_CIVS_AT_WAR_WITH">
+			<Value>100</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_PRODUCTION_WEIGHT_WAR_MOBILIZATION">
+			<Value>300</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_PRODUCTION_WEIGHT_EMPIRE_DEFENSE">
+			<Value>300</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_PRODUCTION_WEIGHT_EMPIRE_DEFENSE_CRITICAL">
+			<Value>1000</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_PRODUCTION_WEIGHT_CAPITAL_THREAT">
+			<Value>50</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_PRODUCTION_WEIGHT_NEED_NAVAL_UNITS">
+			<Value>50</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_PRODUCTION_WEIGHT_NEED_NAVAL_UNITS_CRITICAL">
+			<Value>250</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_PRODUCTION_WEIGHT_FLAVOR_WONDER">
+			<Value>200</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_PRODUCTION_WEIGHT_NEXT_WONDER">
+			<Value>0.2</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_PRODUCTION_WEIGHT_FLAVOR_SPACESHIP">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_PRODUCTION_TRAINING_PER_OFFENSE">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_PRODUCTION_TRAINING_PER_PERSONALITY">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_GOLD_WEIGHT_FLAVOR_GOLD">
+			<Value>20</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_GOLD_WEIGHT_LAND_DISPUTE">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_SCIENCE_WEIGHT_FLAVOR_SCIENCE">
+			<Value>20</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_SCIENCE_WEIGHT_FLAVOR_SPACESHIP">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_YIELD_WEIGHT_FIRST_RING">
+			<Value>8</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_YIELD_WEIGHT_SECOND_RING">
+			<Value>5</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_YIELD_WEIGHT_THIRD_RING">
+			<Value>2</Value>
+		</Row>
+		<Row Name="AI_CITY_SPECIALIZATION_YIELD_NUM_TILES_CONSIDERED">
+			<Value>18</Value>
+		</Row>
+		<!-- AI City Strategy Defines -->
+		<Row Name="AI_CITYSTRATEGY_SMALL_CITY_POP_THRESHOLD">
+			<Value>2</Value>
+		</Row>
+		<Row Name="AI_CITYSTRATEGY_MEDIUM_CITY_POP_THRESHOLD">
+			<Value>5</Value>
+		</Row>
+		<Row Name="AI_CITYSTRATEGY_LARGE_CITY_POP_THRESHOLD">
+			<Value>12</Value>
+		</Row>
+		<Row Name="AI_CITYSTRATEGY_NEED_TILE_IMPROVERS_CITY_THRESHOLD">
+			<Value>2</Value>
+		</Row>
+		<Row Name="AI_CITYSTRATEGY_NEED_TILE_IMPROVERS_WORKER_MOD">
+			<Value>200</Value>
+		</Row>
+		<Row Name="AI_CITYSTRATEGY_NEED_TILE_IMPROVERS_DESPERATE_TURN">
+			<Value>30</Value>
+		</Row>
+		<Row Name="AI_CITYSTRATEGY_WANT_TILE_IMPROVERS_MINIMUM_SIZE">
+			<Value>2</Value>
+		</Row>
+		<Row Name="AI_CITYSTRATEGY_YIELD_DEFICIENT_FOOD">
+			<Value>2.0</Value>
+		</Row>
+		<Row Name="AI_CITYSTRATEGY_YIELD_DEFICIENT_PRODUCTION">
+			<Value>0.8</Value>
+		</Row>
+		<Row Name="AI_CITYSTRATEGY_YIELD_DEFICIENT_GOLD">
+			<Value>0.0</Value>
+		</Row>
+		<Row Name="AI_CITYSTRATEGY_YIELD_DEFICIENT_SCIENCE">
+			<Value>0.0</Value>
+		</Row>
+		<Row Name="AI_CITYSTRATEGY_OPERATION_UNIT_BASE_WEIGHT">
+			<Value>900</Value>
+		</Row>
+		<Row Name="AI_CITYSTRATEGY_OPERATION_UNIT_FLAVOR_MULTIPLIER">
+			<Value>100</Value>
+		</Row>
+		<!--City Citizen AI-->
+		<Row Name="AI_CITIZEN_VALUE_FOOD">
+			<Value>12</Value>
+		</Row>
+		<Row Name="AI_CITIZEN_VALUE_PRODUCTION">
+			<Value>8</Value>
+		</Row>
+		<Row Name="AI_CITIZEN_VALUE_GOLD">
+			<Value>6</Value>
+		</Row>
+		<Row Name="AI_CITIZEN_VALUE_SCIENCE">
+			<Value>6</Value>
+		</Row>
+		<Row Name="AI_CITIZEN_VALUE_CULTURE">
+			<Value>8</Value>
+		</Row>
+		<Row Name="AI_CITIZEN_FOOD_MOD_SIZE_CUTOFF">
+			<Value>6</Value>
+		</Row>
+		<Row Name="AI_CITIZEN_FOOD_MOD_SIZE_EXPONENT">
+			<Value>5</Value>
+		</Row>
+		<Row Name="AI_CITIZEN_MOD_FOOD_DEFICIT">
+			<Value>300</Value>
+		</Row>
+		<Row Name="AI_CITIZEN_MOD_PRODUCTION_DEFICIT">
+			<Value>250</Value>
+		</Row>
+		<!-- Operation AI Defines-->
+		<Row Name="AI_OPERATIONAL_BARBARIAN_CAMP_DEPLOY_RANGE">
+			<Value>2</Value>
+		</Row>
+		<Row Name="AI_OPERATIONAL_CITY_ATTACK_DEPLOY_RANGE">
+			<Value>5</Value>
+		</Row>
+		<Row Name="AI_OPERATIONAL_PILLAGE_ENEMY_DEPLOY_RANGE">
+			<Value>5</Value>
+		</Row>
+		<Row Name="AI_OPERATIONAL_NAVAL_BOMBARDMENT_DEPLOY_RANGE">
+			<Value>1</Value>
+		</Row>
+		<Row Name="AI_OPERATIONAL_PERCENT_DANGER_FOR_FORWARD_MUSTER">
+			<Value>20</Value>
+		</Row>
+		<Row Name="AI_OPERATIONAL_PERCENT_HEALTH_FOR_OPERATION">
+			<Value>80</Value>
+		</Row>
+		<Row Name="AI_OPERATIONAL_MAX_RECRUIT_TURNS_DEFAULT">
+			<Value>5</Value>
+		</Row>
+		<Row Name="AI_OPERATIONAL_MAX_RECRUIT_TURNS_ENEMY_TERRITORY">
+			<Value>10</Value>
+		</Row>
+		<!-- Tactical Analysis Map Defines-->
+		<Row Name="AI_TACTICAL_MAP_UNIT_STRENGTH_MULTIPLIER">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_MAP_DOMINANCE_PERCENTAGE">
+			<Value>25</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_MAP_TEMP_ZONE_RADIUS">
+			<Value>5</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_MAP_TEMP_ZONE_TURNS">
+			<Value>5</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_MAP_BOMBARDMENT_ZONE_TURNS">
+			<Value>1</Value>
+		</Row>
+		<!-- Tactical AI Defines-->
+		<Row Name="AI_TACTICAL_RECRUIT_RANGE">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_REPOSITION_RANGE">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_OVERKILL_PERCENT">
+			<Value>25</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_BARBARIAN_RELEASE_VARIATION">
+			<Value>15</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_FLAVOR_DAMPENING_FOR_MOVE_PRIORITIZATION">
+			<Value>0.3</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_MOVE_PRIORITY_RANDOMNESS">
+			<Value>6</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_BARBARIAN_PRIORITY_CAPTURE_CITY">
+			<Value>9</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_BARBARIAN_PRIORITY_DAMAGE_CITY">
+			<Value>5</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_BARBARIAN_PRIORITY_DESTROY_HIGH_UNIT">
+			<Value>16</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_BARBARIAN_PRIORITY_DESTROY_MEDIUM_UNIT">
+			<Value>15</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_BARBARIAN_PRIORITY_DESTROY_LOW_UNIT">
+			<Value>14</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_BARBARIAN_PRIORITY_TO_SAFETY">
+			<Value>12</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_BARBARIAN_PRIORITY_ATTRIT_HIGH_UNIT">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_BARBARIAN_PRIORITY_ATTRIT_MEDIUM_UNIT">
+			<Value>7</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_BARBARIAN_PRIORITY_ATTRIT_LOW_UNIT">
+			<Value>6</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_BARBARIAN_PRIORITY_DESPERATE_ATTACK">
+			<Value>0</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_BARBARIAN_PRIORITY_PILLAGE">
+			<Value>8</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_BARBARIAN_PRIORITY_BLOCKADE_RESOURCE">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_BARBARIAN_PRIORITY_CIVILIAN_ATTACK">
+			<Value>13</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_BARBARIAN_PRIORITY_PASSIVE_MOVE">
+			<Value>-1</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_BARBARIAN_PRIORITY_AGGRESSIVE_MOVE">
+			<Value>3</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_BARBARIAN_PRIORITY_CAMP_DEFENSE">
+			<Value>13</Value>
+		</Row>
+		<Row Name="AI_TACTICAL_BARBARIAN_PRIORITY_ESCORT_CIVILIAN">
+			<Value>30</Value>
+		</Row>
+		<!-- Homeland AI Defines-->
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_RANDOMNESS">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MAX_UPGRADE_MOVE_TURNS">
+			<Value>5</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MAX_DEFENSIVE_MOVE_TURNS">
+			<Value>4</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_ESTIMATE_TURNS_DISTANCE">
+			<Value>8</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_SETTLE">
+			<Value>50</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_HEAL">
+			<Value>30</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_TO_SAFETY">
+			<Value>30</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_WORKER">
+			<Value>30</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_WORKER_SEA">
+			<Value>30</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_EXPLORE">
+			<Value>35</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_EXPLORE_SEA">
+			<Value>35</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_SENTRY">
+			<Value>20</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_MOBILE_RESERVE">
+			<Value>15</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_GARRISON">
+			<Value>10</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_PATROL">
+			<Value>0</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_UPGRADE">
+			<Value>25</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_ANCIENT_RUINS">
+			<Value>40</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_GARRISON_CITY_STATE">
+			<Value>40</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_ARTIST_GOLDEN_AGE">
+			<Value>50</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_SCIENTIST_FREE_TECH">
+			<Value>50</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_ENGINEER_HURRY">
+			<Value>50</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_GENERAL_GARRISON">
+			<Value>50</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_AIRCRAFT_TO_THE_FRONT">
+			<Value>50</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_SPACESHIP_PART">
+			<Value>20</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_MOVE_PRIORITY_TREASURE">
+			<Value>100</Value>
+		</Row>
+		<Row Name="AI_HOMELAND_GREAT_PERSON_TURNS_TO_WAIT">
+			<Value>10</Value>
+		</Row>
+		<!-- Diplo AI Defines-->
+		<Row Name="AI_DIPLO_PLOT_RANGE_FROM_CITY_HOME_FRONT">
+			<Value>5</Value>
+		</Row>
+		<Row Name="AI_DIPLO_LAND_DISPUTE_WEIGHT_WEAK">
+			<Value>1</Value>
+		</Row>
+		<Row Name="AI_DIPLO_LAND_DISPUTE_WEIGHT_STRONG">
+			<Value>3</Value>
+		</Row>
+		<Row Name="AI_DIPLO_LAND_DISPUTE_WEIGHT_FIERCE">
+			<Value>5</Value>
+		</Row>
+		<!-- Danger Value defines-->
+		<Row Name="AI_DANGER_MAJOR_APPROACH_WAR">
+			<Value>1.0</Value>
+		</Row>
+		<Row Name="AI_DANGER_MAJOR_APPROACH_HOSTILE">
+			<Value>0.2</Value>
+		</Row>
+		<Row Name="AI_DANGER_MAJOR_APPROACH_DECEPTIVE">
+			<Value>0.1</Value>
+		</Row>
+		<Row Name="AI_DANGER_MAJOR_APPROACH_GUARDED">
+			<Value>0.5</Value>
+		</Row>
+		<Row Name="AI_DANGER_MAJOR_APPROACH_AFRAID">
+			<Value>0.9</Value>
+		</Row>
+		<Row Name="AI_DANGER_MAJOR_APPROACH_FRIENDLY">
+			<Value>0.0</Value>
+		</Row>
+		<Row Name="AI_DANGER_MAJOR_APPROACH_NEUTRAL">
+			<Value>0.1</Value>
+		</Row>
+		<Row Name="AI_DANGER_MINOR_APPROACH_NEUTRAL">
+			<Value>0.1</Value>
+		</Row>
+		<Row Name="AI_DANGER_MINOR_APPROACH_FRIENDLY">
+			<Value>0.0</Value>
+		</Row>
+		<Row Name="AI_DANGER_MINOR_APPROACH_BULLY">
+			<Value>0.9</Value>
+		</Row>
+		<Row Name="AI_DANGER_MINOR_APPROACH_CONQUEST">
+			<Value>1.0</Value>
+		</Row>
+		<!-- Minor Civ Stuff-->
+		<Row Name="MINOR_FRIENDSHIP_DROP_PER_TURN">
+			<Value>-100</Value>
+		</Row>
+		<Row Name="MINOR_FRIENDSHIP_DROP_PER_TURN_HOSTILE">
+			<Value>-150</Value>
+		</Row>
+		<Row Name="MINOR_FRIENDSHIP_DROP_PER_TURN_AGGRESSOR">
+			<Value>-200</Value>
+		</Row>
+		<Row Name="MINOR_FRIENDSHIP_NEGATIVE_INCREASE_PER_TURN">
+			<Value>100</Value>
+		</Row>
+		<Row Name="MINOR_FRIENDSHIP_AT_WAR">
+			<Value>-60</Value>
+		</Row>
+		<Row Name="MINOR_CIV_AGGRESSOR_THRESHOLD">
+			<Value>2</Value>
+		</Row>
+		<Row Name="MINOR_CIV_WARMONGER_THRESHOLD">
+			<Value>4</Value>
+		</Row>
+		<Row Name="PERMANENT_WAR_AGGRESSOR_CHANCE">
+			<Value>50</Value>
+		</Row>
+		<Row Name="PERMANENT_WAR_OTHER_WARMONGER_CHANCE_DISTANT">
+			<Value>25</Value>
+		</Row>
+		<Row Name="PERMANENT_WAR_OTHER_WARMONGER_CHANCE_FAR">
+			<Value>50</Value>
+		</Row>
+		<Row Name="PERMANENT_WAR_OTHER_WARMONGER_CHANCE_CLOSE">
+			<Value>75</Value>
+		</Row>
+		<Row Name="PERMANENT_WAR_OTHER_WARMONGER_CHANCE_NEIGHBORS">
+			<Value>100</Value>
+		</Row>
+		<Row Name="PERMANENT_WAR_OTHER_CHANCE_DISTANT">
+			<Value>0</Value>
+		</Row>
+		<Row Name="PERMANENT_WAR_OTHER_CHANCE_FAR">
+			<Value>0</Value>
+		</Row>
+		<Row Name="PERMANENT_WAR_OTHER_CHANCE_CLOSE">
+			<Value>20</Value>
+		</Row>
+		<Row Name="PERMANENT_WAR_OTHER_CHANCE_NEIGHBORS">
+			<Value>50</Value>
+		</Row>
+		<Row Name="PERMANENT_WAR_OTHER_AT_WAR">
+			<Value>50</Value>
+		</Row>
+		<Row Name="FRIENDSHIP_THRESHOLD_NEUTRAL">
+			<Value>0</Value>
+		</Row>
+		<Row Name="FRIENDSHIP_THRESHOLD_FRIENDS">
+			<Value>30</Value>
+		</Row>
+		<Row Name="FRIENDSHIP_THRESHOLD_ALLIES">
+			<Value>60</Value>
+		</Row>
+		<Row Name="FRIENDSHIP_THRESHOLD_MAX">
+			<Value>120</Value>
+		</Row>
+		<Row Name="MINOR_FRIENDSHIP_CLOSE_AMOUNT">
+			<Value>8</Value>
+		</Row>
+		<Row Name="MINOR_CIV_SCIENCE_BONUS_MULTIPLIER">
+			<Value>25</Value>
+		</Row>
+		<Row Name="FRIENDS_CULTURE_BONUS_AMOUNT_ANCIENT">
+			<Value>3</Value>
+		</Row>
+		<Row Name="FRIENDS_CULTURE_BONUS_AMOUNT_MEDIEVAL">
+			<Value>6</Value>
+		</Row>
+		<Row Name="FRIENDS_CULTURE_BONUS_AMOUNT_INDUSTRIAL">
+			<Value>13</Value>
+		</Row>
+		<Row Name="ALLIES_CULTURE_BONUS_AMOUNT_ANCIENT">
+			<Value>3</Value>
+		</Row>
+		<Row Name="ALLIES_CULTURE_BONUS_AMOUNT_MEDIEVAL">
+			<Value>6</Value>
+		</Row>
+		<Row Name="ALLIES_CULTURE_BONUS_AMOUNT_INDUSTRIAL">
+			<Value>13</Value>
+		</Row>
+		<Row Name="FRIENDS_CAPITAL_FOOD_BONUS_AMOUNT_PRE_RENAISSANCE">
+			<Value>200</Value>
+		</Row>
+		<Row Name="FRIENDS_CAPITAL_FOOD_BONUS_AMOUNT_POST_RENAISSANCE">
+			<Value>200</Value>
+		</Row>
+		<Row Name="FRIENDS_OTHER_CITIES_FOOD_BONUS_AMOUNT_PRE_RENAISSANCE">
+			<Value>0</Value>
+		</Row>
+		<Row Name="FRIENDS_OTHER_CITIES_FOOD_BONUS_AMOUNT_POST_RENAISSANCE">
+			<Value>0</Value>
+		</Row>
+		<Row Name="ALLIES_CAPITAL_FOOD_BONUS_AMOUNT">
+			<Value>0</Value>
+		</Row>
+		<Row Name="ALLIES_OTHER_CITIES_FOOD_BONUS_AMOUNT">
+			<Value>100</Value>
+		</Row>
+		<Row Name="FRIENDS_BASE_TURNS_UNIT_SPAWN">
+			<Value>19</Value>
+		</Row>
+		<Row Name="FRIENDS_RAND_TURNS_UNIT_SPAWN">
+			<Value>3</Value>
+		</Row>
+		<Row Name="ALLIES_EXTRA_TURNS_UNIT_SPAWN">
+			<Value>-3</Value>
+		</Row>
+		<Row Name="UNIT_SPAWN_BIAS_MULTIPLIER">
+			<Value>50</Value>
+		</Row>
+		<Row Name="MINOR_TURNS_GREAT_PEOPLE_SPAWN_BASE">
+			<Value>37</Value>
+		</Row>
+		<Row Name="MINOR_TURNS_GREAT_PEOPLE_SPAWN_RAND">
+			<Value>7</Value>
+		</Row>
+		<Row Name="MINOR_TURNS_GREAT_PEOPLE_SPAWN_BIAS_MULTIPLY">
+			<Value>50</Value>
+		</Row>
+		<Row Name="MINOR_ADDITIONAL_ALLIES_GP_CHANGE">
+			<Value>-1</Value>
+		</Row>
+		<Row Name="MAX_MINOR_ADDITIONAL_ALLIES_GP_CHANGE">
+			<Value>-10</Value>
+		</Row>
+		<Row Name="MAX_DISTANCE_MINORS_BARB_QUEST">
+			<Value>50</Value>
+		</Row>
+		<Row Name="TXT_KEY_MINOR_GIFT_UNITS_REMINDER">
+			<Value>2</Value>
+		</Row>
+		<Row Name="WAR_QUEST_COMPLETE_FRIENDSHIP">
+			<Value>100</Value>
+		</Row>
+		<Row Name="WAR_QUEST_UNITS_TO_KILL_DIVISOR">
+			<Value>4</Value>
+		</Row>
+		<Row Name="WAR_QUEST_MIN_UNITS_TO_KILL">
+			<Value>3</Value>
+		</Row>
+		<Row Name="MINOR_QUEST_FRIENDSHIP_ROUTE">
+			<Value>50</Value>
+		</Row>
+		<Row Name="MINOR_QUEST_FRIENDSHIP_KILL_CAMP">
+			<Value>50</Value>
+		</Row>
+		<Row Name="MINOR_QUEST_FRIENDSHIP_CONNECT_RESOURCE">
+			<Value>40</Value>
+		</Row>
+		<Row Name="MINOR_QUEST_FRIENDSHIP_CONSTRUCT_WONDER">
+			<Value>40</Value>
+		</Row>
+		<Row Name="MINOR_QUEST_FRIENDSHIP_GREAT_PERSON">
+			<Value>40</Value>
+		</Row>
+		<Row Name="MINOR_QUEST_FRIENDSHIP_KILL_CITY_STATE">
+			<Value>80</Value>
+		</Row>
+		<Row Name="MINOR_QUEST_FRIENDSHIP_FIND_PLAYER">
+			<Value>35</Value>
+		</Row>
+		<Row Name="MINOR_QUEST_FRIENDSHIP_FIND_NATURAL_WONDER">
+			<Value>40</Value>
+		</Row>
+		<Row Name="GOLD_GIFT_FRIENDSHIP_DIVISOR">
+			<Value>6.3</Value>
+		</Row>
+		<Row Name="MINOR_CIV_GOLD_GIFT_GAME_MULTIPLIER">
+			<Value>2</Value>
+		</Row>
+		<Row Name="MINOR_CIV_GOLD_GIFT_GAME_DIVISOR">
+			<Value>3</Value>
+		</Row>
+		<Row Name="MINOR_CIV_GOLD_GIFT_VISIBLE_DIVISOR">
+			<Value>5</Value>
+		</Row>
+		<Row Name="MINOR_CIV_BEST_RELATIONS_HAPPINESS_BONUS">
+			<Value>2</Value>
+		</Row>
+		<Row Name="FRIENDSHIP_PER_UNIT_INTRUDING">
+			<Value>-6</Value>
+		</Row>
+		<Row Name="FRIENDSHIP_PER_BARB_KILLED">
+			<Value>12</Value>
+		</Row>
+		<Row Name="FRIENDSHIP_PER_UNIT_GIFTED">
+			<Value>2</Value>
+		</Row>
+		<Row Name="MAX_INFLUENCE_FROM_MINOR_GIFTS">
+			<Value>3</Value>
+		</Row>
+		<Row Name="GOLD_GIFT_FRIENDSHIP_EXPONENT">
+			<Value>1.01</Value>
+		</Row>
+		<Row Name="MINOR_LIBERATION_FRIENDSHIP">
+			<Value>150</Value>
+		</Row>
+		<Row Name="RETURN_CIVILIAN_FRIENDSHIP">
+			<Value>30</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_FIRST_POSSIBLE_TURN">
+			<Value>30</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_FIRST_POSSIBLE_TURN_RAND">
+			<Value>20</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_MIN_TURNS_BETWEEN">
+			<Value>10</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_RAND_TURNS_BETWEEN">
+			<Value>25</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_RAND_TURNS_BETWEEN_HOSTILE_MULTIPLIER">
+			<Value>200</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_KILL_CAMP_RANGE">
+			<Value>8</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_WONDER_COMPLETION_THRESHOLD">
+			<Value>25</Value>
+		</Row>
+		<!-- Quests Disabled? -->
+		<Row Name="QUEST_DISABLED_ROUTE">
+			<Value>0</Value>
+		</Row>
+		<Row Name="QUEST_DISABLED_KILL_CAMP">
+			<Value>0</Value>
+		</Row>
+		<Row Name="QUEST_DISABLED_CONNECT_RESOURCE">
+			<Value>0</Value>
+		</Row>
+		<Row Name="QUEST_DISABLED_CONSTRUCT_WONDER">
+			<Value>0</Value>
+		</Row>
+		<Row Name="QUEST_DISABLED_GREAT_PERSON">
+			<Value>0</Value>
+		</Row>
+		<Row Name="QUEST_DISABLED_KILL_CITY_STATE">
+			<Value>0</Value>
+		</Row>
+		<Row Name="QUEST_DISABLED_FIND_PLAYER">
+			<Value>0</Value>
+		</Row>
+		<Row Name="QUEST_DISABLED_NATURAL_WONDER">
+			<Value>0</Value>
+		</Row>
+		<!-- Quest Weights -->
+		<Row Name="MINOR_CIV_QUEST_WEIGHT_DEFAULT">
+			<Value>10</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_WEIGHT_MULTIPLIER_FRIENDLY_ROUTE">
+			<Value>200</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_WEIGHT_MULTIPLIER_HOSTILE_ROUTE">
+			<Value>20</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_WEIGHT_MULTIPLIER_MARITIME_ROUTE">
+			<Value>150</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_WEIGHT_MULTIPLIER_MILITARISTIC_KILL_CAMP">
+			<Value>300</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_WEIGHT_MULTIPLIER_MARITIME_CONNECT_RESOURCE">
+			<Value>300</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_WEIGHT_MULTIPLIER_CULTURED_CONSTRUCT_WONDER">
+			<Value>300</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_WEIGHT_MULTIPLIER_CULTURED_GREAT_PERSON">
+			<Value>300</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_WEIGHT_MULTIPLIER_MILITARISTIC_KILL_CITY_STATE">
+			<Value>200</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_WEIGHT_MULTIPLIER_HOSTILE_KILL_CITY_STATE">
+			<Value>200</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_WEIGHT_MULTIPLIER_NEUTRAL_KILL_CITY_STATE">
+			<Value>40</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_WEIGHT_MULTIPLIER_MARITIME_FIND_PLAYER">
+			<Value>300</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_WEIGHT_MULTIPLIER_MILITARISTIC_FIND_NATURAL_WONDER">
+			<Value>50</Value>
+		</Row>
+		<Row Name="MINOR_CIV_QUEST_WEIGHT_MULTIPLIER_HOSTILE_FIND_NATURAL_WONDER">
+			<Value>30</Value>
+		</Row>
+		<!-- END Minor Civ Stuff-->
+	</Defines>
+	<PostDefines>
+		<Row Name="AI_HANDICAP">
+			<Key>HANDICAP_CHIEFTAIN</Key>
+			<Table>HandicapInfos</Table>
+		</Row>
+	</PostDefines>
+</GameData>

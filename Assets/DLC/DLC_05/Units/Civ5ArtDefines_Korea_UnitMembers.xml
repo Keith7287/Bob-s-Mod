@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Michael Curran (Firaxis Games) -->
+<!-- Denmark ********************************************************** -->
+<UnitMemberArtInfos>
+  <!-- U_KOREAN_HWACHA ********************************************** -->
+  <UnitMemberArtInfo>
+    <Type>ART_DEF_UNIT_MEMBER_U_KOREAN_HWACHA</Type>
+    <fScale>0.13</fScale>
+    <Granny>U_Korean_Hwacha.fxsxml</Granny>
+    <Combat>
+      <Defaults>ART_DEF_TEMPLATE_SOLDIER</Defaults>
+      <bReformBeforeCombat>1</bReformBeforeCombat>
+      <bHasShortRangedAttack>1</bHasShortRangedAttack>
+      <bHasLongRangedAttack>1</bHasLongRangedAttack>
+      <Weapon>
+        <WeaponTypeTag>ARROW</WeaponTypeTag>
+        <WeaponTypeSoundOverrideTag>ARROW</WeaponTypeSoundOverrideTag>
+      </Weapon>
+      <Weapon>
+        <Usage>Vs_City</Usage>
+        <fVisKillStrengthMin>10.0</fVisKillStrengthMin>
+        <fVisKillStrengthMax>20.0</fVisKillStrengthMax>
+        <WeaponTypeTag>FLAMING_ARROW</WeaponTypeTag>
+      </Weapon>
+    </Combat>
+    <MaterialTypeTag>WOOD</MaterialTypeTag>
+    <MaterialTypeSoundOverrideTag>WOODMED</MaterialTypeSoundOverrideTag>
+  </UnitMemberArtInfo>
+  <!-- U_KOREAN_TURTLE_SHIP ********************************************** -->
+  <UnitMemberArtInfo>
+    <Type>ART_DEF_UNIT_MEMBER_U_KOREAN_TURTLESHIP</Type>
+    <fScale>0.14</fScale>
+    <Granny>U_Korean_Turtle_Ship.fxsxml</Granny>
+    <Domain>Sea</Domain>
+    <Combat>
+      <Defaults>ART_DEF_TEMPLATE_SHIP</Defaults>
+      <bHasShortRangedAttack>1</bHasShortRangedAttack>
+      <bHasLeftRightAttack>1</bHasLeftRightAttack>
+      <bHasIndependentWeaponFacing>1</bHasIndependentWeaponFacing>
+      <Weapon>
+        <fVisKillStrengthMin>10.0</fVisKillStrengthMin>
+        <fVisKillStrengthMax>20.0</fVisKillStrengthMax>
+        <HitEffect>ART_DEF_VEFFECT_CANNON_IMPACT_$(TERRAIN)</HitEffect>
+        <WeaponTypeTag>EXPLOSIVE</WeaponTypeTag>
+        <WeaponTypeSoundOverrideTag>EXPLOSION6POUND</WeaponTypeSoundOverrideTag>
+      </Weapon>
+    </Combat>
+    <MaterialTypeTag>WOOD</MaterialTypeTag>
+    <MaterialTypeSoundOverrideTag>METALLRG</MaterialTypeSoundOverrideTag>
+  </UnitMemberArtInfo>
+</UnitMemberArtInfos>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="InterfaceModes">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text"/>
+		<Column name="Help" type="text"/>
+		<Column name="DisabledHelp" type="text"/>
+		<Column name="CursorType" type="text"/>
+		<Column name="Mission" type="text"/>
+		<Column name="HotKey" type="text"/>
+		<Column name="HotKeyAlt" type="text"/>
+		<Column name="HotKeyPriority" type="integer" default="0"/>
+		<Column name="HotKeyPriorityAlt" type="integer" default="0"/>
+		<Column name="OrderPriority" type="integer" default="0"/>
+		<Column name="AltDown" type="boolean" default="false"/>
+		<Column name="AltDownAlt" type="boolean" default="false"/>
+		<Column name="ShiftDown" type="boolean" default="false"/>
+		<Column name="ShiftDownAlt" type="boolean" default="false"/>
+		<Column name="CtrlDown" type="boolean" default="false"/>
+		<Column name="CtrlDownAlt" type="boolean" default="false"/>
+		<Column name="Visible" type="boolean" default="false"/>
+		<Column name="GotoPlot" type="boolean" default="false"/>
+		<Column name="HighlightPlot" type="boolean" default="false"/>
+		<Column name="SelectType" type="boolean" default="false"/>
+		<Column name="SelectAll" type="boolean" default="false"/>
+		<Column name="IconIndex" type="integer" default="-1"/>
+		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
+	</Table>
+	<!-- Table data -->
+	<InterfaceModes>
+		<Row>
+			<ID>0</ID>
+			<Type>INTERFACEMODE_DEBUG</Type>
+			<Description>TXT_KEY_INTERFACEMODE_DEBUG</Description>
+			<CursorType>CURSOR_DEFAULT</CursorType>
+			<Mission>NULL</Mission>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_SELECTION</Type>
+			<Description>TXT_KEY_INTERFACEMODE_SELECTION</Description>
+			<CursorType>CURSOR_DEFAULT</CursorType>
+			<Mission>NULL</Mission>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_PING</Type>
+			<Description>TXT_KEY_INTERFACEMODE_PING</Description>
+			<CursorType>CURSOR_PING</CursorType>
+			<Mission>NULL</Mission>
+			<HighlightPlot>1</HighlightPlot>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_MOVE_TO</Type>
+			<Description>TXT_KEY_INTERFACEMODE_MOVE_TO</Description>
+			<Help>TXT_KEY_INTERFACEMODE_MOVE_TO_HELP</Help>
+			<CursorType>CURSOR_GO_TO</CursorType>
+			<Mission>MISSION_MOVE_TO</Mission>
+			<HotKey>KB_M</HotKey>
+			<OrderPriority>197</OrderPriority>
+			<Visible>1</Visible>
+			<GotoPlot>1</GotoPlot>
+			<IconIndex>9</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_MOVE_TO_TYPE</Type>
+			<Description>TXT_KEY_INTERFACEMODE_MOVE_TO_TYPE</Description>
+			<Help>TXT_KEY_INTERFACEMODE_MOVE_TO_TYPE_HELP</Help>
+			<CursorType>CURSOR_GO_TO</CursorType>
+			<Mission>MISSION_MOVE_TO</Mission>
+			<HotKey>KB_M</HotKey>
+			<CtrlDown>1</CtrlDown>
+			<Visible>1</Visible>
+			<GotoPlot>1</GotoPlot>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_MOVE_TO_ALL</Type>
+			<Description>TXT_KEY_INTERFACEMODE_MOVE_TO_ALL</Description>
+			<Help>TXT_KEY_INTERFACEMODE_MOVE_TO_ALL_HELP</Help>
+			<CursorType>CURSOR_GO_TO</CursorType>
+			<Mission>MISSION_MOVE_TO</Mission>
+			<HotKey>KB_M</HotKey>
+			<AltDown>1</AltDown>
+			<Visible>1</Visible>
+			<GotoPlot>1</GotoPlot>
+			<SelectAll>1</SelectAll>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_ROUTE_TO</Type>
+			<Description>TXT_KEY_INTERFACEMODE_ROUTE_TO</Description>
+			<Help>TXT_KEY_INTERFACEMODE_ROUTE_TO_HELP</Help>
+			<CursorType>CURSOR_ROUTE_TO</CursorType>
+			<Mission>MISSION_ROUTE_TO</Mission>
+			<HotKey>KB_R</HotKey>
+			<OrderPriority>196</OrderPriority>
+			<CtrlDown>1</CtrlDown>
+			<ShiftDown>1</ShiftDown>
+			<Visible>1</Visible>
+			<GotoPlot>1</GotoPlot>
+			<IconIndex>58</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_AIRLIFT</Type>
+			<Description>TXT_KEY_INTERFACEMODE_AIRLIFT</Description>
+			<Help>TXT_KEY_INTERFACEMODE_AIRLIFT_HELP</Help>
+			<CursorType>CURSOR_AIRLIFT</CursorType>
+			<Mission>MISSION_AIRLIFT</Mission>
+			<HighlightPlot>1</HighlightPlot>
+			<HotKey>KB_A</HotKey>
+			<ShiftDown>1</ShiftDown>
+			<Visible>1</Visible>
+			<IconIndex>16</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_NUKE</Type>
+			<Description>TXT_KEY_INTERFACEMODE_NUKE</Description>
+			<Help>TXT_KEY_INTERFACEMODE_NUKE_HELP</Help>
+			<CursorType>CURSOR_NUKE</CursorType>
+			<Mission>MISSION_NUKE</Mission>
+			<HighlightPlot>1</HighlightPlot>
+			<HotKey>KB_N</HotKey>
+			<HotKeyPriority>1</HotKeyPriority>
+			<OrderPriority>199</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>17</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_PARADROP</Type>
+			<Description>TXT_KEY_INTERFACEMODE_PARADROP</Description>
+			<Help>TXT_KEY_INTERFACEMODE_PARADROP_HELP</Help>
+			<CursorType>CURSOR_PARADROP</CursorType>
+			<Mission>MISSION_PARADROP</Mission>
+			<HighlightPlot>1</HighlightPlot>
+			<HotKey>KB_P</HotKey>
+			<OrderPriority>198</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>48</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_ATTACK</Type>
+			<Description>TXT_KEY_INTERFACEMODE_ATTACK</Description>
+			<Help>TXT_KEY_INTERFACEMODE_ATTACK_HELP</Help>
+			<DisabledHelp>TXT_KEY_INTERFACEMODE_ATTACK_DISABLED_HELP</DisabledHelp>
+			<CursorType>CURSOR_AIRBOMB</CursorType>
+			<Mission>MISSION_MOVE_TO</Mission>
+			<HighlightPlot>1</HighlightPlot>
+			<HotKey>KB_A</HotKey>
+			<OrderPriority>198</OrderPriority>
+			<CtrlDown>1</CtrlDown>
+			<Visible>1</Visible>
+			<IconIndex>19</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_RANGE_ATTACK</Type>
+			<Description>TXT_KEY_INTERFACEMODE_RANGE_ATTACK</Description>
+			<Help>TXT_KEY_INTERFACEMODE_RANGE_ATTACK_HELP</Help>
+			<CursorType>CURSOR_AIRBOMB</CursorType>
+			<Mission>MISSION_RANGE_ATTACK</Mission>
+			<HighlightPlot>1</HighlightPlot>
+			<HotKey>KB_B</HotKey>
+			<OrderPriority>198</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>13</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_AIRSTRIKE</Type>
+			<Description>TXT_KEY_INTERFACEMODE_AIRSTRIKE</Description>
+			<Help>TXT_KEY_INTERFACEMODE_AIRSTRIKE_HELP</Help>
+			<CursorType>CURSOR_AIRSTRIKE</CursorType>
+			<Mission>MISSION_MOVE_TO</Mission>
+			<HighlightPlot>1</HighlightPlot>
+			<HotKey>KB_S</HotKey>
+			<OrderPriority>198</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>13</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_AIR_SWEEP</Type>
+			<Description>TXT_KEY_INTERFACEMODE_AIR_SWEEP</Description>
+			<Help>TXT_KEY_INTERFACEMODE_AIR_SWEEP_HELP</Help>
+			<CursorType>CURSOR_AIRSTRIKE</CursorType>
+			<Mission>MISSION_AIR_SWEEP</Mission>
+			<HighlightPlot>1</HighlightPlot>
+			<HotKey>KB_S</HotKey>
+			<OrderPriority>197</OrderPriority>
+			<AltDown>1</AltDown>
+			<Visible>1</Visible>
+			<IconIndex>46</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_REBASE</Type>
+			<Description>TXT_KEY_INTERFACEMODE_REBASE</Description>
+			<Help>TXT_KEY_INTERFACEMODE_REBASE_HELP</Help>
+			<CursorType>CURSOR_REBASE</CursorType>
+			<Mission>MISSION_REBASE</Mission>
+			<HighlightPlot>1</HighlightPlot>
+			<HotKey>KB_R</HotKey>
+			<OrderPriority>197</OrderPriority>
+			<AltDown>1</AltDown>
+			<Visible>1</Visible>
+			<IconIndex>20</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_PLACE_UNIT</Type>
+			<Description>TXT_KEY_INTERFACEMODE_DEBUG</Description>
+			<CursorType>CURSOR_DEFAULT</CursorType>
+			<Mission>NULL</Mission>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_EMBARK</Type>
+			<Description>TXT_KEY_INTERFACEMODE_EMBARK</Description>
+			<Help>TXT_KEY_INTERFACEMODE_EMBARK_HELP</Help>
+			<CursorType>CURSOR_DEFAULT</CursorType>
+			<Mission>MISSION_EMBARK</Mission>
+			<HotKey>KB_K</HotKey>
+			<OrderPriority>125</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>14</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_DISEMBARK</Type>
+			<Description>TXT_KEY_INTERFACEMODE_DISEMBARK</Description>
+			<Help>TXT_KEY_INTERFACEMODE_DISEMBARK_HELP</Help>
+			<CursorType>CURSOR_DEFAULT</CursorType>
+			<Mission>MISSION_DISEMBARK</Mission>
+			<HotKey>KB_K</HotKey>
+			<OrderPriority>125</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>15</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_GIFT_UNIT</Type>
+			<Description>TXT_KEY_INTERFACEMODE_GIFT_UNIT</Description>
+			<Help>TXT_KEY_INTERFACEMODE_GIFT_UNIT_HELP</Help>
+			<CursorType>CURSOR_GIFT</CursorType>
+			<Mission>NONE</Mission>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_CITY_PLOT_SELECTION</Type>
+			<Description>TXT_KEY_INTERFACEMODE_CITY_PLOT_SELECTION</Description>
+			<Help>TXT_KEY_INTERFACEMODE_CITY_PLOT_SELECTION_HELP</Help>
+			<CursorType>CURSOR_REBASE</CursorType>
+			<Mission>NONE</Mission>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_PURCHASE_PLOT</Type>
+			<Description>TXT_KEY_INTERFACEMODE_PURCHASE_PLOT</Description>
+			<Help>TXT_KEY_INTERFACEMODE_PURCHASE_PLOT</Help>
+			<CursorType>CURSOR_GOLD</CursorType>
+			<Mission>NONE</Mission>
+		</Row>
+		<Row>
+			<Type>INTERFACEMODE_CITY_RANGE_ATTACK</Type>
+			<Description>TXT_KEY_INTERFACEMODE_RANGE_ATTACK</Description>
+			<Help>TXT_KEY_INTERFACEMODE_RANGE_ATTACK_HELP</Help>
+			<CursorType>CURSOR_AIRBOMB</CursorType>
+			<Mission>MISSION_RANGE_ATTACK</Mission>
+			<HighlightPlot>1</HighlightPlot>
+			<HotKey>KB_B</HotKey>
+			<OrderPriority>198</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>13</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+	</InterfaceModes>
+</GameData>

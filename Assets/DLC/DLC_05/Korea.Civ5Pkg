@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Civ5Package>
+	<GUID>{112C22B2-5308-42b6-B734-171CCAB3037B}</GUID>
+	<SteamApp>99612</SteamApp>
+	<Version>1</Version>
+	<Key>f9fd6c213c6143525a7888b477a59d81</Key>
+	<PTags>
+		<Tag>Version</Tag>
+	</PTags>
+	<Name>
+		<Value language="en_US">Korea</Value>
+	</Name>
+	<Description>
+		<Value language="en_US">Sejong The Great's Korea</Value>
+	</Description>
+
+	<TextData>Civ5CivlopediaDLC_Korea.xml</TextData>
+	<TextData>CIV5GameTextInfos_KoreanScenario.xml</TextData>
+	<TextData>Civ5_Dialog_Sejong.xml</TextData>
+	<TextData>CIV5GameText_Cities_DLC_Korea.xml</TextData>
+	<TextData>CIV5GameTextInfos_Civilizations_DLC_Korea.xml</TextData>
+	<TextData>CIV5GameTextInfos_Korea.xml</TextData>
+	<TextData>CIV5GameTextInfos_Leaders_Sejong.xml</TextData>
+	<TextData>CIV5GameTextInfos_Leaders_KoreanScenario.xml</TextData>
+	<TextData>CIV5GameTextInfos_Cities_KoreanScenario.xml</TextData>
+    <TextData>CIV5GameTextInfos_Units_Korea.xml</TextData>
+	<TextData>CIV5GameTextInfos_Units_KoreanScenario.xml</TextData>
+
+	<GameData>Civ5ArtDefines_SV_DLC_Korea_Units.xml</GameData>
+	<GameData>Civ5ArtDefines_SV_Korea_Improvements.xml</GameData>
+	<GameData>CIV5Diplomacy_Responses_Sejong.xml</GameData>
+	<GameData>CIV5Civilization_DLC_Korea.xml</GameData>
+	<GameData>CIV5Leader_Sejong.xml</GameData>
+	<GameData>CIV5Traits_Korea.xml</GameData>
+	<GameData>CIV5Units_Korea.xml</GameData>
+	<GameData>UnitUISounds_Korea.xml</GameData>
+
+	<UnitArtDefines>Civ5ArtDefines_Korea_Units.xml</UnitArtDefines>
+	<UnitArtDefines>Civ5ArtDefines_Korea_UnitMembers.xml</UnitArtDefines>
+
+	<AudioDefines>AudioDefinesDLC05.xml</AudioDefines>
+	<AudioScripts2D>KoreanAudio2DScripts.xml</AudioScripts2D>
+	<AudioDefines>SejongAudioDefines.xml</AudioDefines>
+	<AudioScripts2D>SejongAudio2DScripts.xml</AudioScripts2D>
+	<AudioDefines>KoreanScenarioAudioDefines.xml</AudioDefines>
+	<AudioScripts2D>KoreanScenarioAudio2DScripts.xml</AudioScripts2D>
+	<AudioDefines>DawnOfMan_Speech_Korea_AudioDefines.xml</AudioDefines>
+	<AudioScripts2D>DawnOfMan_Speech_Korea_Audio2DScripts.xml</AudioScripts2D>
+	<AudioScripts3D>U_Korean_Hwacha3DScripts.xml</AudioScripts3D>
+	<AudioScripts3D>U_Korean_Turtle_Ship3DScripts.xml</AudioScripts3D>
+
+	<VisEffectInfoDefines>Civ5ArtDefines_VisEffects_DLC_Korea.xml</VisEffectInfoDefines>
+	<VisEffectParticleDefines>Civ5ArtDefines_VisEffectParticles_DLC_Korea.xml</VisEffectParticleDefines>
+	<VisEffectModelDefines>Civ5ArtDefines_VisEffectModels_DLC_Korea.xml</VisEffectModelDefines>
+
+	<LandmarkDefines>Civ5ArtDefines_LandmarkTypes_Korea.xml</LandmarkDefines>
+	<LandmarkDefines>Civ5ArtDefines_Landmarks_Korea.xml</LandmarkDefines>
+  
+	<Paks>
+		<File>KoreaModels.fpk</File>
+		<File>KoreaTextures.fpk</File>
+	</Paks>	
+  
+</Civ5Package>

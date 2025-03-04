@@ -1,0 +1,814 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_PL_PL>
+    <Row Tag="TXT_KEY_BARBARIAN_NAVALUNITS_HEADING3_BODY">
+      <Text>Obozowiska barbarzyńców położone nad brzegiem morza mogą tworzyć jednostki wodne (takie jak może tworzyć najbardziej zaawansowana obecnie cywilizacja). Będą one nękać twoje wybrzeża, niszczyć morskie ulepszenia i atakować jednostki naziemne, które niefortunnie zanadto zbliżą się do brzegu. Ważne jest, by utrzymywać marynarkę zdolną odeprzeć ich ataki. Najlepiej jednak powstrzymać je u źródła, niszcząc pobliskie obozowiska barbarzyńców.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CATHEDRAL_STRATEGY">
+      <Text>Budynek ten może zostać zbudowany jedynie w miastach z wierzeniem „Katedr”. Budowany poprzez zakup za punkty [ICON_PEACE] wiary.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GRAND_TEMPLE_TEXT">
+      <Text>Wielka świątynia to święte miejsce cieszące się czcią wyznawców danej religii. Te świątynie to często wspaniałe dzieła architektury z bogatymi zdobieniami, stojące przez wieki jako świadectwo wiary wyznawców. Nie ma zgody co do tego, która z wybudowanych na świecie świątyń jest najstarsza, ale wielu uważa, że Göbekli Tepe, znajdująca się na terenie dzisiejszej Turcji i wzniesiona ponad 12 000 lat temu, jest najdawniejszą znalezioną budowlą religijną wzniesioną przez człowieka.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_HYDRO_PLANT_STRATEGY">
+      <Text>Elektrownia wodna to budynek ze środka gry, który można zbudować jedynie w miastach znajdujących się przy rzece. Zwiększa ona [ICON_PRODUCTION] produkcję każdego pola, które eksploatuje miasto, a które również znajduje się przy rzece. Budowa elektrowni wodnej zużywa 1 jednostkę [ICON_RES_ALUMINUM] aluminium.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_TEXT">
+      <Text>Narodowa Agencja Wywiadu zapewnia środki rządowe na pozyskiwanie informacji i danych wywiadowczych w celu zagwarantowania bezpieczeństwa kraju. Wszystko - od tajnych operacji (w tym szpiegostwa) do oceny narodowych zagrożeń bezpieczeństwa i rekomendacji działań - wykonywane jest przez te agencje. CIA Stanów Zjednoczonych jest chyba najbardziej sławną (lub niesławną) z tych agencji, a jej działania od dziesięcioleci wpływają na sprawy całego świata.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MOSQUE_STRATEGY">
+      <Text>Budynek ten może zostać zbudowany jedynie w miastach z wierzeniem „Meczetów”. Budowany poprzez zakup za punkty [ICON_PEACE] wiary.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_STRATEGY">
+      <Text>Fort mogołów to budynek epoki średniowiecza zwiększający obronność miasta o 7, a jego punkty żywotności o 25, zapewniając jednocześnie w każdej turze nieco [ICON_CULTURE] kultury. To unikatowy budynek indyjski - zastępuje zamek. Po wynalezieniu lotu zapewnia również +2 [ICON_TOURISM] turystyki. By zbudować fort mogołów, należy uprzednio skonstruować mury.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PAGODA_STRATEGY">
+      <Text>Budynek ten może zostać zbudowany jedynie w miastach z wierzeniem „Pagód”. Budowany poprzez zakup za punkty [ICON_PEACE] wiary.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITIES_ATTACKINGRANGEDUNITS_HEADING3_BODY">
+      <Text>
+        Możesz zaatakować i nękać miasto jednostkami strzelającymi, ale ten rodzaj wojsk nie może go zdobyć. To zadanie dla jednostek walczących w zwarciu. Podobnie jednostki powietrzne i wodne nie mogą opanowywać miast, ale mogą niszczyć ich obronę.
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_ALLIES_HEADING4_BODY">
+      <Text>Jeśli jesteś sojusznikiem państwa-miasta, korzyści płynące z przyjaźni z nim zostaną powiększone. Ponadto da ci ono dostęp do wszystkich swoich surowców strategicznych i luksusowych. Z państwem-miastem może być w danym momencie sprzymierzona tylko jedna cywilizacja - jeśli warunki spełnia kilka z nich, sojusznikiem zostaje ta, która ma w nim największe wpływy.[NEWLINE][NEWLINE]Ponadto jako sojusznik państwa-miasta możesz zapłacić mu, by zbudowało ulepszenie na polu z surowcem, dzięki czemu stanie się on dla ciebie dostępny. By to zrobić, naciśnij na ekranie państwa-miasta przycisk składania daru, a następnie „200 [ICON_GOLD] - ulepsz surowiec”. Następnie wybierz pole, które cię interesuje, a ulepszenie pojawi się na nim natychmiast.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_FRIENDS_HEADING4_BODY">
+      <Text>Jeżeli jakieś państwo-miasto jest twoim „przyjacielem”, od czasu do czasu otrzymasz od niego prezenty. Kulturowe państwo-miasto da ci kulturę, miasto morskie - żywność, militarne - jednostki wojskowe, kupieckie - zadowolenie, a religijne - wiarę.
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_INFLUENCELEVELS_HEADING3_BODY">
+      <Text>Istnieją cztery poziomy wpływów na państwa-miasta: wojna, neutralny, przyjaźń i sojusz.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ANTWERP_TEXT">
+      <Text>Antwerpia znajduje się w Belgii, w regionie zwanym Niderlandami. Została założona przez Franków w IV w. Uważa się, że miasto znajduje się w tym samym miejscu, co wczesna osada rzymska zbudowana wiek wcześniej. Przez lata rozbudowywało ją wiele rządzących królestw, do XVI w. Antwerpia stała się najbogatszym miastem Europy i centrum gospodarczym kupców całego świata.[NEWLINE][NEWLINE]W czasie, gdy Antwerpia znajdowała się u szczytu swej potęgi gospodarczej, miasto było mekką międzynarodowych kupców, handlarzy i bankierów, którzy przywozili ze sobą zagraniczną kulturę i sztukę. Choć miasto cieszyło się okresem spokoju i dostatku, reformacja i rosnące wpływy pobliskiego Amsterdamu doprowadziły do szybkiego zmniejszenia znaczenia Antwerpii pod koniec XVII w.[NEWLINE][NEWLINE]W XX w., podczas II wojny światowej, Antwerpia była okupowana przez Niemców, alianci wyzwolili ją po kilku latach. Niestety Niemcy zbombardowali miasto pociskami V-2, próbując zakłócić dostarczanie zasobów przez jego port. Większość miasta została zniszczona, dopiero po kilku dekadach Antwerpii udało się odzyskać dawne znaczenie na mapie Europy.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_AMPHITHEATER_TEXT">
+      <Text>Amfiteatr to arena stojąca na wolnym powietrzu przeznaczona do wystawiania spektakli teatralnych, organizowania imprez sportowych i koncertów. Starożytni Rzymianie zasłynęli budową setek amfiteatrów, w których odbywały się walki gladiatorów, wystawy i publiczne egzekucje.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_BOMB_SHELTER_TEXT">
+      <Text>Schron to budowla zaprojektowana tak, by przetrwała eksplozje bomb i innych ładunków wybuchowych. Niektóre schrony miały chronić przed bombardowaniami lotniczymi, inne budowano pod ziemią w nadziei, że wytrzymają atak atomowy. W zależności od przeznaczenia schronu budowano go z różnych materiałów, najpopularniejszym z nich był beton zbrojony.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_CATHEDRAL_TEXT">
+      <Text>Katedra to rodzaj chrześcijańskiego kościoła, w którym znajduje się tron biskupi. Łacińskie słowo „cathedra” oznacza „krzesło” i odnosi się do samego tronu. Katedra to budynek, w którym go umieszczono. Większość katedr cechuje wyjątkowy styl architektoniczny odróżniający je od sąsiednich budowli, dlatego katedry często stają się charakterystycznymi punktami danej okolicy. Są one głównie miejscami kultu, ale spełniają też funkcje społeczne.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_CONSTABLE_TEXT">
+      <Text>Jeden z pierwszych opisów konstabla pochodzi od Bractona, jurysty z Anglii piszącego w latach 1220-1250. „Gdziekolwiek by byli, każdego dnia, rolą konstabla jest sprawianie, by wszystko było w należytym porządku, i zachowywanie w pamięci tego, co widzi. Nie może jednak sądzić, gdyż w Tower nie wolno wydawać osądów. Brakuje tam bowiem trzeciego elementu sądu, mianowicie sędziego i jurysdykcji. Prowadzi on zapis faktów, nie zaś sądów i praw”.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_MOSQUE_TEXT">
+      <Text>Meczet to tradycyjne miejsce kultu wyznawców islamu. Największy meczet świata Al-Masdżid al-Haram zbudowano w Mekce w Arabii Saudyjskiej około roku 638. Nazywa się go też Wielkim Meczetem. Znajduje się w nim sanktuarium Kaaba, najświętsze miejsce islamu.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_PAGODA_TEXT">
+      <Text>Pagody, popularne w całej Azji, to budowle w charakterystycznym stylu architektonicznym, będące wielopoziomowymi wieżami z wystającymi okapami i charakterystycznymi zwieńczeniami. Większość pagód wiąże się z buddyzmem, ponieważ często budowano je w miejscu lub w pobliżu świątyń buddyjskich, aby przechowywać tam święte relikwie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_POLICE_STATION_TEXT">
+      <Text>Posterunek policji to baza operacyjna miejscowych policjantów i detektywów. Zwykle znajdują się tam pomieszczenia biurowe, niewielki areszt, pokoje przesłuchań i magazyny dowodów. W niektórych miejscach duże, centralne biuro może zawierać wiele z tych elementów, a mniejsze posterunki służą lokalnym wydziałom policji.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_RECYCLING_CENTER_TEXT">
+      <Text>Centrum recyklingu to miejsce gromadzenia popularnych materiałów recyklingowych używanych w domach i firmach. W wielu społecznościach zbiera się je razem z odpadkami i przekazuje do centrów recyklingowych w celu posortowania. W większości przypadków materiały są rozbijane lub cięte, następnie formowane w bele i wysyłane w inne miejsca przetwarzające je w różne nowe produkty.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_SHRINE_TEXT">
+      <Text>Kaplice to święte pomniki zwykle budowane dla upamiętnienia ikon kulturowych lub postaci religijnych. Występują praktycznie we wszystkich religiach świata, odgrywają ważną rolę w obrzędach odprawianych publicznie lub prywatnie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BUILDINGS_STELE_TEXT">
+      <Text>Stela to wielka, stojąca kamienna płyta będąca pomnikiem upamiętniającym wielkich przywódców, zwycięskie bitwy, czasem służyła też do oznaczania granic. Znajdują się one na terenie Etiopii i okolicznych regionów, często opisano na nich upamiętniane osoby lub wydarzenia. Obelisk z Aksum to jedna z takich stel, wzniesiona w połowie IV w. w etiopskim mieście Aksum. Wieki później została rozbita i wywieziona do Włoch przez wojska Mussoliniego okupujące Etiopię. Ta stela ma ponad 25 metrów wysokości i waży 150 ton. W 2008 r. została zwrócona Etiopii i złożona w całość, w wyniku starań Organizacji Edukacji, Nauki i Kultury Narodów Zjednoczonych.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_CAHOKIA_TEXT">
+      <Text>Cahokia znajduje się w południowej części amerykańskiego stanu Illinois. Miasto zbudowane było około roku 700 przez kulturę rdzennych Amerykanów znad rzeki Mississipi i składało się z ponad stu kopców ziemnych. Cahokia ma ponad 2200 akrów powierzchni i jest największym miastem rdzennych mieszkańców na północ od Meksyku. Na początku miasto było ważnym centrum gospodarczym nad rzeką Mississipi, gdzie odległe od siebie osady prowadziły wymianę towarów i usług.[NEWLINE][NEWLINE]Z zachowanych po dziś dzień 70-80 kopców największym jest Kopiec Mnichów, zajmujący teren dorównujący rozmiarami Wielkiej Piramidzie z Gizy. Uważa się, że miejsce to zostało opuszczone jakieś 600 lat temu, ale osadnicy z Europy, wśród nich francuscy mnisi, mieszkali tam na początku XIX w. (to od tych mnichów wziął swą nazwę wspomniany kopiec).[NEWLINE][NEWLINE]Dziś Cahokia znajduje się na liście światowego dziedzictwa UNESCO. Co roku przybywa tam kilkaset tysięcy turystów z całego świata, a archeolodzy prowadzą badania i dokonują nowych odkryć.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_COLOMBO_TEXT">
+      <Text>Kolombo, największe miasto wyspiarskiego kraju Sri Lanka, od dawna jest dynamicznym centrum handlowym, co zawdzięcza położeniu na szlakach handlowych łączących Azję, Afrykę i Bliski Wschód. Od starożytności kupcy żeglujący z Grecji, Rzymu i Chin zatrzymywali się w porcie Kolombo podczas rejsów do odległych portów.[NEWLINE][NEWLINE]Około VIII w. arabscy osadnicy i kupcy chcieli czerpać zyski z tego portu i na stałe osiedlili się w rejonie Kolombo. Ale dopiero 600 lat później, po przybyciu portugalskich odkrywców, Kolombo weszło na ścieżkę szybkiego wzrostu znaczenia gospodarczego. Od XVI w. Kolombo miało znaczenie strategiczne i ekonomiczne dla wielu imperiów, miasto przechodziło z rąk do rąk, Holendrzy odebrali je Portugalczykom, po czym stracili je na rzecz Anglików.[NEWLINE][NEWLINE]Obecnie Kolombo i jego port mają kluczowe znaczenie dla gospodarki Sri Lanki, przez miasto przechodzi większość krajowego eksportu i importu.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_COMPOSITE_BOWMAN_TEXT">
+      <Text>Łuk kompozytowy, powszechnie uznawany za najlepszą konstrukcję wśród łuków, różni się od tradycyjnych modeli tym, że jest zbudowany z warstw kości, rogu i innych materiałów połączonych tak, by stworzyć niezwykle wytrzymałe i mocne narzędzie. Prawdopodobnie powstał wśród wędrownych plemion Azji w I lub II tysiącleciu p.n.e.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_DAWN_ETHIOPIA_TEXT">
+      <Text>Bądź błogosławiony, zacny i prawowity cesarzu Etiopii, Hajle Sellasje. Jesteś, Panie, jednym z największych władców Etiopii i przywódcą ruchu rastafarian, wielkim dyplomatą i politykiem szanowanym na całym świecie. Tworząc pierwszą etiopską spisaną konstytucję, zasiałeś, Panie, ziarna demokracji, które kiełkowały w kolejnych latach, a twa mądrość sprawiła, że Etiopia znalazła się w Organizacji Narodów Zjednoczonych. Prowadząc reformy i unowocześniając kraj, na zawsze zmieniłeś historię Etiopii.[NEWLINE][NEWLINE]Czcigodny królu, twa postawa niegdyś ochroniła twój lud przed konfliktami, nękającymi inne narody, a teraz królestwo znowu cię potrzebuje. Czy swą odwagą i autorytetem zdołasz wprowadzić nasz lud w nową epokę? Czy stworzysz, Panie, cywilizację, która wytrzyma próbę czasu?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_FACTOID_HEADING">
+      <Text>Ciekawostki</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_FACTOID_TEXT">
+      <Text>Kalendarz używany w Etiopii, zwany ge‘ez, opiera się na kalendarzu koptyjskim, stworzonym w starożytnym Egipcie. Dzięki ge‘ez Etiopia to jedyny kraj na świecie, w którym rok liczy 13 miesięcy.[NEWLINE][NEWLINE]Wedle legendy pobudzające właściwości kawy po raz pierwszy odkryto w Etiopii, gdy pasterz kóz zwany Kaldi zauważył, że jego kozy zaczęły brykać jak dzikie po zjedzeniu owoców kawy.[NEWLINE][NEWLINE]Stolica Etiopii Addis Abeba to jedna z najwyżej położonych stolic świata, znajduje się na wysokości prawie 8000 stóp (2400 metrów) nad poziomem morza.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_HEADING_1">
+      <Text>Historia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_HEADING_10">
+      <Text>Okupacja włoska</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_HEADING_11">
+      <Text>Derg</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_HEADING_12">
+      <Text>Współczesna Etiopia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_HEADING_2">
+      <Text>Geografia i klimat</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_HEADING_3">
+      <Text>Początki rozwoju człowieka</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_HEADING_4">
+      <Text>Prehistoria</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_HEADING_5">
+      <Text>Wczesne królestwa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_HEADING_6">
+      <Text>Powrót dynastii salomońskiej</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_HEADING_7">
+      <Text>Inwazja islamska</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_HEADING_8">
+      <Text>Epoka książąt</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_HEADING_9">
+      <Text>Hajle Sellasje</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_TEXT_1">
+      <Text>Etiopia, na terenie której znajdowały się imperia z początkowych wieków I tysiąclecia p.n.e., ma skomplikowaną historię pełną wielkich królów i cesarzy. Jako jeden z niewielu krajów afrykańskich oparła się kolonialnym ambicjom Europy i zachowała niepodległość aż do XX w., kiedy to w 1935 r. została zdobyta przez siły włoskie pod wodzą Mussoliniego. To w tym okresie słynny cesarz Hajle Sellasje wprowadził Etiopię w świat polityki międzynarodowej, przeprowadził kraj przez II wojnę światową i skierował Etiopię na drogę modernizacji i nowoczesnych reform.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_TEXT_10">
+      <Text>W 1935 r. faszystowskie Włochy pod wodzą Benito Mussoliniego najechały Etiopię z zamiarem przekształcenia jej w prowincję Italii. W obliczu potężniejszych wojsk Etiopia nie mogła długo się bronić i w 1936 r. Mussolini ogłosił powstanie Cesarstwa Włoskiego z okupowanym terytorium Etiopii. W tym okresie Hajle Sellasje przebywał na wygnaniu, schronił się w Wielkiej Brytanii i tam przeżył całą okupację. Sellasje zwrócił się o obronę Etiopii do Ligi Narodów, postulując, że Włosi używali gazu musztardowego przeciwko żołnierzom i obywatelom etiopskim. Mimo prośby nie otrzymał wsparcia, dopiero brytyjska kampania w Afryce Wschodniej podczas II wojny światowej zakończyła włoską okupację. Po porażce Włoch Hajle Sellasje powrócił na tron jako cesarz Etiopii i rządził krajem przez prawie 40 lat, do czasu pojawienia się nowego zagrożenia.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_TEXT_11">
+      <Text>W 1974 r. przewrót wojskowy kierowany przez komunistów zakończył się odsunięciem Hajle Sellasje od władzy i jego uwięzieniem w pałacu królewskim. Grupa, która pozbawiła go władzy, zwana Derg, utworzyła Wojskowy Rząd Tymczasowy Socjalistycznej Etiopii rządzący żelazną ręką. Sellasje zmarł w tajemniczych okolicznościach, które po dziś dzień pozostają tematem sporów. Derg i ich komunistyczne ideały nie cieszyły się powszechnym poparciem, przewrót dał początek wojnie domowej w Etiopii. Ten trwający ponad 15 lat wielki konflikt kosztował życie setek tysięcy niewinnych ludzi. W 1991 r. Etiopski Ludowo-Rewolucyjny Front Demokratyczny obalił rząd i doprowadził do stworzenia nowej konstytucji i demokratycznych wyborów.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_TEXT_12">
+      <Text>Dzisiejsza Federalna Demokratyczna Republika Etiopii jest drugim krajem Afryki pod względem liczby ludności i boryka się z poważnymi problemami społeczno-gospodarczymi. Geograficzna izolacja niektórych grup społeczeństwa poważnie utrudniła dostarczanie edukacji, opieki zdrowotnej, a w wielu przypadkach nawet artykułów podstawowych. W Etiopii odbywają się demokratyczne wybory, ale korupcja urzędnicza pozostaje na niepokojąco wysokim poziomie, a w ostatnich latach społeczność międzynarodowa potępiła rząd Etiopii za przypadki mordowania protestujących i członków partii opozycyjnych.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_TEXT_2">
+      <Text>Etiopia, dziesiąty co do wielkości kraj Afryki, zajmuje większość Półwyspu Somalijskiego znajdującego się na północno-wschodnim wybrzeżu kontynentu. Teren Etiopii, przecięty Wielkim Rowem Afrykańskim, pokrywają głównie wysokie wyżyny i rozrzucone łańcuchy górskie. Kraj położony jest na afrykańskiej płycie tektonicznej, od milionów lat podlegającej procesowi rozdzielenia, wywołującemu częste trzęsienia ziemi. W Etiopii znajduje się kilkadziesiąt aktywnych i uśpionych wulkanów, wśród nich Erta Ale, jeden z kilku wulkanów świata posiadających na szczycie niegasnące jezioro lawy. Etiopia ma bardzo zróżnicowany klimat, choć jako całość znajduje się w strefie tropikalnej charakteryzującej się dużymi opadami w czasie letniej pory monsunowej i suchą, umiarkowaną zimą.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_TEXT_3">
+      <Text>Wielki Rów Afrykański przebiegający przez środkową Etiopię od dawna uznaje się za miejsce początku rozwoju człowieka. Znaleziono tam liczne skamieliny, w tym słynny szkielet zwany Lucy, liczący sobie około trzech milionów lat. Te wczesne hominidy rozwinęły się później we wczesne homo sapiens, zamieszkujące w niewielkich grupach Etiopię ponad 100 000 lat temu.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_TEXT_4">
+      <Text>Już w X tysiącleciu p.n.e. Etiopię zamieszkiwały ludy plemienne utrzymujące się z wczesnych form rolnictwa i hodowli zwierząt. Później, u szczytu potęgi cywilizacji Egiptu, kupcy obu krajów stworzyli szlaki handlowe służące do wymiany złota, obsydianu, kości słoniowej i innych cennych materiałów. Ci pierwsi mieszkańcy Etiopii, zamieszkujący tajemniczą krainę Punt, stworzyli wiele wczesnych technik rolniczych, które po dziś dzień są częścią kultury etiopskiej.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_TEXT_5">
+      <Text>Aksum, najbardziej rozwinięte wczesne królestwo etiopskie, ma dobrze udokumentowaną historię i jest owiane wieloma legendami. Powstało około IV w. p.n.e. i na kolejnych pięćset lat stało się potężnym ośrodkiem handlowym. Cenne kadzidło i mirra, wytwarzane z drzew dominujących w Etiopii, przyniosły Aksum i jego mieszkańcom wielkie bogactwo. Dzięki eksportowi tych towarów i lukratywnemu handlowi kością słoniową oraz innymi cennymi materiałami, Aksum stało się istotną częścią szlaków handlowych łączących Egipt, Rzym i Indie, co ułatwiło bicie monety Aksum wspierającej rozwijającą się gospodarkę lokalną.[NEWLINE][NEWLINE]Wedle legendy po wiekach dobrobytu wielkie imperium upadło za sprawą zbuntowanej królowej Gudit. Historia ta mówi, że Aksum długo było twierdzą chrześcijaństwa, a żydowska królowa Gudit pragnęła zagarnąć tron siłą. Rzekomo doprowadziła do zrujnowania terenów wiejskich, a potem zamordowała rodzinę królewską Aksum. Choć historia życia i krótkich rządów Gudit jest tajemnicza i budzi kontrowersje, to można z całą pewnością stwierdzić, że upadek Aksum zbiegł się z jej spektakularnym pojawieniem się w X w.[NEWLINE][NEWLINE]Dynastia Zagwe, założona na początku XII w., już po upadku Aksum, była pierwszą dynastią Cesarstwa Etiopskiego istniejącego aż do XX w. Choć dynastia Zagwe rządziła tylko ponad wiek, znacząco przyczyniła się do krzewienia chrześcijaństwa w Etiopii, co odegrało wielką rolę w przyszłości tego kraju.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_TEXT_6">
+      <Text>W 1270 r. cesarzem Etiopii został cesarz Yekuno Amlak, założyciel dynastii salomońskiej, która rządziła krajem przez wiele wieków. Władcy z tej dynastii uważali, iż wywodzą się od wielkiego biblijnego króla Salomona i jego królowej Makedy. Wedle legendy w X w. p.n.e. królowa Makeda wyruszyła ze swojego królestwa Szeby (uważanego za część dzisiejszej Etiopii) do Izraela, pragnąc uczyć się mądrości od króla Salomona. Choć źródła różnią się co do natury jej związku z Salomonem, Makeda urodziła syna Menelika. Menelik podobno pobierał nauki na dworze Salomona, po czym wrócił do Etiopii, przywożąc ze sobą dar Salomona w postaci legendarnej Arki Przymierza. Menelik I, rządzący około 950 r. p.n.e., zapoczątkował tradycję biblijnego pochodzenia cesarzy Etiopii.[NEWLINE][NEWLINE]Prawie 2000 lat po rządach Menelika Yekuno Amlak twierdził, że poprzez długą linię przodków pochodzi wprost od legendarnego cesarza i jego rodziców. Nowa dynastia salomońska rządziła Etiopią przez ponad pięć wieków, aż do rządów Hajle Sellasje zakończonych w latach 70. XX w. Cesarze dynastii salomońskiej, cieszący się pełnym poparciem wpływowego Etiopskiego Kościoła Ortodoksyjnego (który po dziś dzień twierdzi, że posiada Arkę Przymierza), sprawowali stabilne rządy, pomimo wielu najazdów z zewnątrz.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_TEXT_7">
+      <Text>W połowie XVI w. Etiopia graniczyła z rosnącym w siłę islamskim królestwem Adal, na którego czele stał imam Ahmad Gargn, powszechnie zwany Zdobywcą. Rozpocząwszy świętą wojnę przeciwko etiopskim chrześcijanom w 1529 r., imam Ahmad wywołał wielką wojnę pomiędzy Adalem i Etiopią. Walki trwały przez prawie 15 lat, Ahmadowi prawie udało się unicestwić całe królestwo, zajmując olbrzymią część terytorium Etiopii.[NEWLINE][NEWLINE]Po odniesieniu poważnych strat Cesarstwo Etiopii musiało poprosić Portugalczyków o pomoc w odparciu armii islamskich. Odkrywcy i misjonarze przebywali w Etiopii od kilku dekad, zamierzając nawrócić jej mieszkańców na wyznanie rzymskokatolickie, a sami toczyli własną wojnę z Osmanami. Po długiej wojnie, w której Adalom przyszli na pomoc Osmanie, konflikt zakończył się w 1543 r. wraz ze śmiercią imama Ahmada i portugalskiego generała Cristovao da Gamy. Etiopia zaczęła podnosić się po wojennej zawierusze, ale szybkie rozprzestrzenianie się katolicyzmu w sąsiednich krajach doprowadziło do niepokojów wewnętrznych, ponieważ Etiopski Kościół Ortodoksyjny walczył o zachowanie swych wpływów.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_TEXT_8">
+      <Text>Okres w XVIII w. nazywany Zamana Mesafent, czyli „epoka książąt”, to czas nieustannych konfliktów w Etiopii. Rozwój zwalczających się frakcji religijnych i nieustanne spory terytorialne sprawiły, że rząd centralny utracił kontrolę nad krajem. Dochodziło do ciągłych walk między książętami, watażkami i szlachtą, każda ze stron próbowała podzielić kraj i zwiększyć swe wpływy. W wyniku tych daremnych walk najbardziej cierpieli zwykli ludzie.[NEWLINE][NEWLINE]Cesarz, który wreszcie zakończył epokę książąt, Kassa Hailu, wcześniej zasłynął jako banita i rozbójnik. Dzięki przemytowi zgromadził olbrzymie bogactwo i zebrał armię, a jednocześnie miał po swojej stronie społeczeństwo, ponieważ dzielił się swymi pieniędzmi z biednymi. Po zjednoczeniu wielu zdecentralizowanych prowincji i zdobyciu silnego poparcia, Hailu został w 1855 r. koronowany na cesarza, przyjmując imię Twedoros II. Po jego koronacji sytuacja w Etiopii ustabilizowała się, a jego rządy uważa się za początek współczesnej Etiopii.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_TEXT_9">
+      <Text>Chyba najbardziej znany z wielkich cesarzy Etiopii Hajle Sellasje zasiadł na tronie w roku 1930 i szybko zyskał uznanie całego świata i narodu etiopskiego. W czasie swych rządów mocno walczył o wprowadzenie zakazu niewolnictwa, wcześniej postulat ten, bez powodzenia, stawiało wielu jego poprzedników. Cesarz Sellasje prowadził też modernizację kraju i zlikwidował wiele feudalnych praw, obowiązujących w Etiopii.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ETHIOPIA_TITLE">
+      <Text>Etiopia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_FEATURES_MT_KAILASH_TEXT">
+      <Text>Święty szczyt góry Kajlas, położony w tybetańskiej części Himalajów, jest obiektem czci w wielu religiach, szczególnie w hinduizmie. Uważa się, że mieszka tam Śiwa, pogrążony w stanie wiecznej medytacji. Kajlas należy do jednego z najtrudniej dostępnych miejsc pielgrzymek religijnych, trudne warunki odstraszają wielu pielgrzymów, a na górę nie można dostać się żadnym współczesnym środkiem transportu.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_FEATURES_MT_SINAI_TEXT">
+      <Text>Góra Synaj, położona na półwyspie Synaj w Egipcie, jest jednym z najważniejszych świętych miejsc judaizmu, chrześcijaństwa oraz islamu i celem pielgrzymów z całego świata. To na górze Synaj Mojżesz otrzymał od Boga dziesięć przykazań podczas exodusu Izraelitów z Egiptu.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_FEATURES_SRI_PADA_TEXT">
+      <Text>Górujący nad Sri Lanką szczyt Sri Pada to duża góra o stożkowatym kształcie, czczona w wielu religiach ze względu na tzw. odcisk stopy znajdujący się na szczycie. To duże zagłębienie w skałach na szczycie góry uważa się za ślad stopy Buddy, Śiwy i biblijnego Adama, przez co góra ma wyjątkowe znaczenie dla wyznawców buddyzmu, hinduizmu i islamu. Co roku tysiące pielgrzymów wspinają się na szczyt, by pokłonić się w tym świętym miejscu.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_FEATURES_ULURU_TEXT">
+      <Text>Położona w środkowej Australii wielka formacja z czerwonego piaskowca, nazywana zwykle Ayers Rock, stała się w ostatnim wieku jednym z najbardziej znanych miejsc tego kontynentu. Zanim pod koniec XIX w. odkryli ją angielscy podróżnicy, miejscowe plemiona nazywały tę górę Uluru. W 1987 r. ogłoszono ją miejscem światowego dziedzictwa UNESCO, dzięki czemu zwiększyła się liczba przybywających tam turystów. Co roku zjawia się ich tam kilkaset tysięcy.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_GALLEASS_TEXT">
+      <Text>Galeas to typ okrętu wojennego popularnego w XVI w. Jego konstrukcję oparto na klasycznej galerze, ale zmodyfikowanej tak, by przenosiła silniejsze uzbrojenie. Typowy galeas był najpierw statkiem kupieckim napędzanym wiosłami, któremu później dodano maszty z żaglami. Dzięki dwóm źródłom napędu galeas mógł dorównywać prędkością galerom, jednocześnie przenosząc ciężkie działa do odparcia ewentualnych napastników.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_GATLINGGUN_TEXT">
+      <Text>Karabin Gatlinga, przodek karabinu maszynowego, został wynaleziony w 1861 r. przez amerykańskiego doktora Richarda Gatlinga, który pragnął w ten sposób zmniejszyć liczebność armii i wykazać, jak bezcelowa jest wojna. Działko Gatlinga opierało się na projekcie kilku obracających się luf - mechanizm obsługiwany był korbą. W czasie obrotu lufy wyrzucana była zużyta łuska, ładowany nowy nabój, zaś lufa się chłodziła. W ten sposób można było zachować wysoką szybkostrzelność bez przegrzewania się broni. Swoją niską celność karabin Gatlinga nadrabiał siłą ataku.[NEWLINE][NEWLINE]Choć nie znajdował się oficjalnie na stanie armii amerykańskiej aż do 1966 r., pierwszy raz został użyty w walce podczas wojny secesyjnej przez siły Unii. Następnym konfliktem z jego udziałem była wojna o Pacyfik między Peru a Chile, kiedy to siły europejskie przekonały się o jego użyteczności. W przeciągu dekady znalazł się na wyposażeniu niemal wszystkich wielkich potęg. Najefektywniej wykorzystano go przy poszerzaniu imperiów kolonialnych przeciw ludom takim jak Ndebele, Zulusi, Beduini, Turkmeni, Bokserzy i inni rodowici mieszkańcy podbijanych ziem. W pierwszej dekadzie XX w. projekty napędzanych gazem karabinów maszynowych uczyniły działko przestarzałym - armia USA wycofała z użycia wszystkie jego egzemplarze w 1911 r., a jej śladem podążyły wkrótce armie europejskie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_GREAT_ADMIRAL_TEXT">
+      <Text>Wielcy admirałowie prowadzą floty do zwycięskich bitew na otwartym morzu. Planują, wprowadzają w życie i wykonują skomplikowane manewry niezbędne do zachowania przewagi na morzu do ochrony wybrzeża, tak ważnego dla wszystkich cywilizacji.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_GREAT_WAR_INFANTRY_TEXT">
+      <Text>Na początku XX w. światem wstrząsnęły dwie najbardziej mordercze i niszczycielskie wojny w historii ludzkości. Był to czas dynamicznego rozwoju technologii zabijania. Podczas I wojny światowej żołnierzom przyszło się mierzyć z każdą potwornością, jaka rodziła się w głowach naukowców. Ci piechurzy, zwykle uzbrojeni tylko w karabin powtarzalny i zwykły mundur musieli przetrwać grozę wojny pozycyjnej, by bronić swych domów i rodzin.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_HONG_KONG_TEXT">
+      <Text>Hongkong to wolne miasto w najczystszej postaci. Ta wielka aglomeracja znajduje się na południe od wybrzeża Chin. Obecnie mieszka tam siedem milionów ludzi. Wyspa Hongkong i otaczające ją tereny były niegdyś pełne niewielkich osad, także tych założonych przez odkrywców z zagranicy. Za czasów rządów chińskiej dynastii Qing w XIX w. stosunki handlowe z Anglią pogorszyły się przez rosnące obawy związane z importem indyjskiego opium do Chin. Brytyjczycy chcieli zrekompensować sobie rosnące koszta importu herbaty z Chin, eksportując tam większe ilości opium ze swych kolonii w Indiach. Jednak władcy Qing sprzeciwili się temu i próbowali skonfiskować przychodzące dostawy opium, co doprowadziło do wybuchu I wojny opiumowej w 1839 r.[NEWLINE][NEWLINE]Jako jedna z największych potęg morskich tej epoki Wielka Brytania nie miała problemu z pokonaniem sił chińskich i zajęciem wyspy Hongkong. Po prawie 3 latach walk, w 1842 r. podpisano traktat nankiński dający Anglikom spore zdobycze, w tym Hongkong, który na kolejnych 150 lat został kolonią brytyjską. Chiny odzyskały go w 1997 r. Pokojowa zmiana władzy doprowadziła do utworzenia tam specjalnego regionu administracyjnego. Współczesny Hongkong wyróżnia się gęstą zabudową, krajobraz usiany jest dziesiątkami drapaczy chmur i jasno oświetlonych budowli. Mimo systemu komunistycznego panującego w Chińskiej Republice Ludowej, Hongkong zachował autonomiczne władze, które mocno wspierają wolny rynek, a miasto jest dziś jednym z głównych centrów finansowych świata.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_CAMP_TEXT">
+      <Text>Polowanie na dzikie zwierzęta było jednym z pierwszych sposobów, w jaki człowiek eksploatował zasoby otaczającego go świata. Obóz myśliwski daje dostęp do saren, futer, trufli i kości słoniowej.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_CITADEL_TEXT">
+      <Text>Cytadela to potężne umocnienia, które może zbudować tylko wielki generał, zazwyczaj w pobliżu miasta lub w miejscu o atrakcyjnych walorach obronnych. Akropol w greckich Atenach to przykład dawnej potężnej cytadeli. Budowle tego rodzaju były niemal niemożliwe do zdobycia w bezpośrednim natarciu, a nawet długotrwałe oblężenia nie zawsze okazywały się skuteczne. Cytadelę możesz zbudować w dowolnym punkcie twojego terytorium lub bezpośrednio przylegającym do twojego terytorium. Po powstaniu cytadeli twoje granice kulturowe powiększają się tak, by otaczały całą cytadelę na odległość jednego pola. Jeśli nowa granica kulturowa spowoduje zajęcie pól będących w posiadaniu innej cywilizacji, narazisz się na konsekwencje dyplomatyczne. Każda jednostka znajdująca się w cytadeli otrzymuje 100% premii do siły obronnej. Ponadto jednostka wroga kończąca ruch w pobliżu cytadeli otrzymuje 30 obrażeń (obrażenia z cytadel nie kumulują się).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_FISHINGBOATS_TEXT">
+      <Text>Łodzie rybackie pozwalają cywilizacji eksploatować pola, na których znajdują się cenne kraby, ryby, wieloryby i perły. Aby skonstruować łodzie rybackie, musisz najpierw zbudować kuter w przybrzeżnym mieście (po tym, jak twoja cywilizacja odkryje odpowiednią technologię). Kutry znikają po zbudowaniu łodzi rybackich.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_HOLY_SITE_TEXT">
+      <Text>Święte miejsca mają znaczenie religijne, są świadectwem bogów, proroków i tradycji danej religii. Często stanowią cel pielgrzymek religijnych, wierni odwiedzają je w nadziei wzmocnienia swej więzi z Bogiem, a także aby oddać mu cześć.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_INQUISITOR_TEXT">
+      <Text>Inkwizytorzy intensywnie działali na terenie całej Europy, a ich zadaniem była likwidacja wrogów Kościoła katolickiego. Ludzi uznanych przez inkwizycję za heretyków często torturowano i zabijano za ich rzekome zbrodnie, a przed oskarżeniami inkwizytora rzadko można było się obronić.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_JERUSALEM_TEXT">
+      <Text>Zażarta debata na temat Jerozolimy, świętego miasta dla wyznawców islamu, judaizmu i chrześcijaństwa, trwa od czasu, gdy miasto zostało stolicą Izraela. Część Jerozolimy zbudowano ponad 6 000 lat temu, co czyni ją jednym z najstarszych miast świata. W swej burzliwej historii Jerozolimę wielokrotnie oblegano, wielkie imperia i miejscowe królestwa praktycznie nieustannie walczyły o kontrolę nad miastem.[NEWLINE][NEWLINE]Najstarsza część Jerozolimy, zwana Miastem Dawida, została wedle legendy założona przez króla Dawida w I tysiącleciu p.n.e. W kolejnych wiekach imigranci i uchodźcy przyczyniali się do rozwoju miasta, rządzonego przez kolejnych królów. Do czasu narodzin potęgi islamskich kalifatów w VI w. Jerozolimę kontrolowali Macedończycy, Rzymianie i Cesarstwo Bizantyjskie.[NEWLINE][NEWLINE]Ubiegły wiek prawdopodobnie był najbardziej kontrowersyjnym w historii miasta, co wynikało z powstania państwa żydowskiego Izrael i zajęcia Jerozolimy po wojnie sześciodniowej. Od tamtej pory Jerozolima stała się kością niezgody uniemożliwiającą rozstrzygnięcie konfliktu izraelsko-palestyńskiego.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_LA_VENTA_TEXT">
+      <Text>La Venta, osada starożytnych Olmeków, położona w środkowej części Meksyku, jest uznawana przez archeologów za ważne centrum kulturowe i handlowe tego regionu. Budowle La Venty są wyjątkowe, ponieważ w okolicy nie było skał nadających się na materiał budowlany i Olmekowie musieli wznieść je z gliny i ziemi. Duża część tego miejsca została zniszczona przez współczesne budowle, ale to, co udało się odnaleźć, wskazuje, że La Venta miała dla Olmeków znaczenie ceremonialne. Znajdują się tam liczne pomniki, rzeźby, grobowce i ołtarze. Cztery ze słynnych olmeckich ogromnych głów znajdują się w La Vencie. Każda z nich waży wiele ton, archeolodzy mają jedynie teorie na temat tego, skąd Olmekowie wzięli kamienie na te potężne rzeźby. Niestety w La Vencie trwają nieustanne prace budowlane, dlatego w najbliższej przyszłości nie dojdzie tam do kolejnych badań archeologicznych.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_MACHINE_GUN_TEXT">
+      <Text>Obsługujący karabiny maszynowe używają potężnej, w pełni automatycznej broni palnej do prowadzenia ognia przygniatającego, zwykle z szybkostrzelnością kilkuset pocisków na minutę. Karabin Gatlinga, przodek wielu współczesnych konstrukcji karabinów maszynowych, został stworzony w USA w XIX w. Później koncepcja ta ewoluowała w karabin maszynowy maxim, jeden z pierwszych samoczynnych karabinów maszynowych.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_MANILA_TEXT">
+      <Text>Choć niewiele jest wyczerpujących źródeł historycznych dotyczących wczesnych dziejów Manili, wiadomo, że okolice obecnej stolicy Filipin skolonizowano około X wieku naszej ery. Jednak dopiero w 1571 r., gdy przybył tam hiszpański konkwistador Miguel Lopez de Legazpi, na ruinach zniszczonej przez niego osady powstało miasto znane później jako Manila. Przez następnych 300 lat miasto i wyspy pozostawały pod kontrolą Hiszpanii. W 1898 roku władzę nad Filipinami w wyniku wojny hiszpańsko-amerykańskiej przejęły Stany Zjednoczone.[NEWLINE][NEWLINE]Port w Manili jest jednym z najbardziej ruchliwych na świecie i obsługuje znaczącą część importu i eksportu państwa. Ekonomia Filipin jest od niego silnie zależna ze względu na różnorodność towarów, jakie opuszczają port - od jedzenia i produktów rodzimych po wyroby chemiczne i przemysłowe. Ważną gałęzią ekonomii Manili jest również turystyka - ludzie z całego świata przybywają tu obejrzeć Intramuros - historyczną, otoczoną murami dzielnicę miasta.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_MARINE_TEXT">
+      <Text>Choć w początkowym zamyśle piechota morska miała specjalizować się jedynie w atakach z morza, jej hart i niezłomność sprawiły, że wkrótce zaczęła ona sprawować inne ważne role. Szerokie możliwości tej formacji sprawiają, że w bliskiej współpracy z marynarką piechota morska od dziesięcioleci wykorzystywana jest w konfliktach na całym świecie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_MEHAL_SEFARI_TEXT">
+      <Text>Mehal Sefari to elitarna jednostka cesarskich strażników, którzy chronili cesarzy Etiopii w XIX i XX w. Z początku służyli jako osobiści ochroniarze cesarzy, wkrótce jednak stali się potężną brygadą w strukturach etiopskiego wojska. Mehal Sefari składało się z wysoce wyspecjalizowanych jednostek piechoty, kawalerii, artylerii oraz strzelców wyborowych i uznawane było za elitarne wojsko Etiopii. Żołnierze poddawani byli niezwykle ciężkiemu treningowi i wyposażani w najnowocześniejszą dostępną broń.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_MILAN_TEXT">
+      <Text>Założony w IV w. p.n.e. przez celtyckie plemię Insubrów, położony w północnych Włoszech Mediolan z czasem stał się jednym z największych centrów kultury okresu włoskiego renesansu.[NEWLINE][NEWLINE]Po podbiciu przez Rzymian około 222 r. p.n.e. Mediolan stał się jedną z trzech stolic Rzymu za czasów tetrarchii cesarza Dioklecjana. Mimo że po upadku Rzymu przechodził stale pod władzę rozmaitych królów i imperiów, jego bogactwo zwiększało się, a Mediolan stawał się coraz ważniejszym ośrodkiem miejskim w północnych Włoszech.[NEWLINE][NEWLINE]Wśród wielu istotnych aspektów historii Mediolanu największym uznaniem cieszy się jego wkład w kulturalny dorobek świata. Odegrał wielką rolę w epoce renesansu, będąc domem dla wielu wybitnych artystów, twórców największych dzieł tego czasu. Najsławniejszym bodaj mieszkańcem Mediolanu był malarz Leonardo da Vinci, który większość swego życia spędził, pracując i ucząc się w tym mieście.[NEWLINE][NEWLINE]Dziś Mediolan nadal uznawany jest za jedno z najważniejszych centrów kultury na świecie - dotyczy to szczególnie mody i współczesnego designu. Jest także jednym z najważniejszych centrów biznesowych dzisiejszych Włoch, gdyż skupiają się tu liczne gałęzie infrastruktury transportowej tego kraju. Wiele międzynarodowych korporacji - od telekomunikacyjnych po produkcyjne - ma w Mediolanie swoje biura.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_MISSIONARY_TEXT">
+      <Text>Misjonarze to członkowie religijnej grupy lub sekty wysłani poza granice swego kraju, by krzewić swoją religię. Choć ich głównym celem jest propagowanie danego wyznania i zdobycie nowych wyznawców, misjonarze zazwyczaj w różny sposób pomagają ludziom mieszkających na terenach ich działalności. Tworząc lecznice, szkoły i inne instytucje publicznego pożytku, łączą misję nawracania z pomocą potrzebującym.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_MOMBASA_TEXT">
+      <Text>Choć źródła historyczne nie są zgodne co do okoliczności powstania Mombasy, uważa się, że to drugie co do wielkości miasto w Kenii powstało około X w. n.e. W średniowieczu Mombasa stała się kwitnącym miastem opierającym swoje dochody na kości słoniowej. Znana była również z wielkiej sieci plantacji, na których hodowano kokosy, orzechy nerkowca i kaszę jaglaną, które następnie wysyłano w świat szlakami handlowymi przecinającymi Ocean Indyjski. Port Mombasy, znany jako Kilindini, jest jedynym międzynarodowym portem morskim w Kenii, dzięki czemu miasto stało się wielkim centrum handlu obsługującym cały kraj. Dziś większość towarów eksportowych Mombasy to nadal wyroby rolnicze, w szczególności kawa, herbata i zboża.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_PRAGUE_TEXT">
+      <Text>Znana z wielowiekowego wkładu w kulturę europejską Praga, stolica Republiki Czeskiej, z małej osady, jaką była w połowie VIII w., urosła w ponadmilionowe ważne miasto.[NEWLINE][NEWLINE]W XIV w. Praga rozkwitała jako siedziba Świętego Cesarza Rzymskiego Karola IV. Wiele ze znanych zabytków miasta powstało właśnie za jego rządów. Przykładem może być sławna katedra św. Wita zbudowana w stylu gotyckim. Praga zyskała również w tym czasie na znaczeniu jako centrum ekonomiczne - w miarę zwiększania się zaludnienia miasta przybywało w nim kupców i finansistów.[NEWLINE][NEWLINE]Praga, miasto wielu muzeów, teatrów i innych atrakcji kulturalnych, jest dziś niezwykle popularna wśród turystów. Ocenia się, że co roku przybywa ich tu ponad trzy miliony.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_PRIVATEER_TEXT">
+      <Text>Kapitanowie prywatnych okrętów, którzy otrzymali listy kaperskie, mieli przyzwolenie na swobodne atakowanie wrogich okrętów. Od XVI do XIX w. z ich usług korzystały wszystkie potęgi kolonialne, zwłaszcza Brytania i Hiszpania. Ponieważ korsarze i ich załogi zazwyczaj nie otrzymywali rządowego żołdu, dawano im w zamian część łupu zdobytego od wroga, co sprawiało, że niewiele różnili się oni od działających bez żadnych zezwoleń piratów.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_RESOURCE_CITRUS_TEXT">
+      <Text>Owoce cytrusowe - zwłaszcza pomarańcze, cytryny i grejpfruty - od czasów prehistorycznych stanowią częsty element ludzkiej diety. Pierwotnie hodowano je w południowo-wschodniej Azji, lecz wraz z upływem czasu hodowla i spożycie rozprzestrzeniły się na cały świat. Szkorbut, niedobór witaminy C powszechny wśród żeglarzy, stał się w XV wieku poważnym problemem. W epoce wielkich odkryć był prawdziwą zmorą statków aż do czasu, gdy w XVIII w. zaczęto zabierać w podróż sok z cytryny i kapustę kiszoną. Choć większość z nich uważała, że to kwas zawarty w cytrusach zapobiegał chorobie, w rzeczywistości robiła to właśnie wspominana witamina. Tak czy inaczej - jedzenie cytrusów skutkowało zdrowiem marynarza.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_RESOURCE_COPPER_TEXT">
+      <Text>Miękki, zabarwiony na pomarańczowo metal znany jako miedź używany jest od tysięcy lat do wytwarzania wielu rzeczy - począwszy od broni, poprzez pieniądze, po dzisiejsze przewody elektryczne i układy scalone. Miedź ma wiele wyjątkowych cech, jedną z nich jest zaś silne działanie antybakteryjne. Miedź zabija wiele bakterii w sposób naturalny - znajduje dzięki temu zastosowanie w produkcji rur kanalizacyjnych i innych przedmiotów, których często dotykają ludzie, jak np. klamki. Miedź jest również cenna ze względu na użyteczność jej stopów z innymi metalami - w połączeniu z cyną tworzy stop zwany brązem, w połączeniu z cynkiem zaś - mosiądz.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_RESOURCE_CRAB_TEXT">
+      <Text>Żyjące na dnie morza skorupiaki ze szczypcami nazywane krabami to zwierzęta wszystkożerne - najczęściej zjadają naprawdę wszystko, co stanie im na drodze. Ponieważ na całym świecie istnieje około 800 ich gatunków, są one w niektórych regionach podstawową formą pożywienia i stanowią najpopularniejszy rodzaj owoców morza. Wśród popularnych odmian warto wspomnieć o krabie błękitnym, z którego słynie zatoka Chesapeake w Maryland, a którego spożycie ocenia się na ponad 45 tys. ton rocznie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_RESOURCE_JEWELRY_TEXT">
+      <Text>„Klejnoty” to słowo określające produkty ze złota, srebra, kamieni szlachetnych i innych cennych materiałów noszonych tylko i wyłącznie dla ozdoby. Starożytne formy klejnotów odkryte w Afryce wskazują na fakt, że używa się ich od ponad 50 000 lat, kiedy to noszono korale, muszelki i kości. Przez ostatnich pięć tysiącleci materiałem najczęściej używanym do ich produkcji jest złoto, gdyż jego kowalność i wyjątkowość pozwalały na coraz bardziej złożone zdobnictwo wskazujące na bogactwo posiadacza.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_RESOURCE_PORCELAIN_TEXT">
+      <Text>Wyprodukowana po raz pierwszy niemal 3000 lat temu w Chinach porcelana jest rodzajem ceramiki tworzonej poprzez podgrzanie gliny i formowanie jej w półprzezroczyste naczynia o rozmaitych rozmiarach i kształtach. Artyści i rzemieślnicy spędzili całe stulecia na odkrywaniu technik, które dawały kontrolę zarówno nad wartościami estetycznymi porcelany, jaki nad jej wytrzymałością i przydatnością. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_RESOURCE_SALT_TEXT">
+      <Text>Sól jest niezbędna człowiekowi do życia. Można ją odnaleźć na całym świecie zarówno w środowisku naturalnym, jak i tym stworzonym przez człowieka. Od tysiącleci używa się jej jako konserwantu do mięs - przed wynalezieniem chłodzenia była ona niezmiernie istotna przy przechowywaniu pożywienia. Powszechną metodą produkcji soli jest odparowywanie - tworzy się w tym celu duże stawy ze słoną wodą, która odparowuje, a na dnie zostawia solny osad.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_RESOURCE_TRUFFLES_TEXT">
+      <Text>Trufle, rodzaj grzybów rosnących pod ziemią, są rzadkim i drogim specjałem. Ich ostry aromat i wyrazisty smak sprawiają, że w wielu potrawach z całego świata używa się ich głównie jako przyprawy. Jedną z ciekawostek dotyczących trufli jest sposób, w jaki się je zdobywa. Wykorzystuje się do tego specjalny gatunek świń, które mają naturalną zdolność do znajdowania tego grzyba. Mówi się, że truflowe świnie o niezwykle czułym zmyśle powonienia używane są do tego celu już od czasów Imperium Rzymskiego.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_SEA_BEGGAR_TEXT">
+      <Text>Żebracy morscy, znani także jako gezowie, byli grupą korsarzy, którzy w czasie wojny osiemdziesięcioletniej sprzeciwiali się hiszpańskiej kontroli nad Niderlandami. Ich nazwa pochodzi od grupy holenderskich szlachciców, którzy ruszyli marszem do diuszesy Parmy z listą zażaleń i próśb. Doradcy władczyni nazwali grupę żebrakami - nazwa ta przylgnęła do uczestników marszu na stałe.[NEWLINE][NEWLINE]W 1569 r. żebracy otrzymali od Wilhelma Orańskiego oficjalne listy kaperskie, na mocy których przystosowano do działań wojennych 84 okręty. Żebracy morscy początkowo ograniczali się do zwykłego łupienia, lecz w chwili desperacji zdobyli też siłą hiszpańskie miasto i garnizon. Upojeni swoim zwycięstwem rozpoczęli kampanię podboju, zdobywając kolejne miasta wzdłuż linii brzegowej. Sukcesy morskich żebraków podziałały mobilizująco na innych Holendrów i sprawiły, że rewolucja wybuchła w całym kraju. Zdobycie hiszpańskiego garnizonu w Brielle przez żebraków morskich uważa się za początek wojny o niepodległość Holandii.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_SPECIALTERRAIN_HILLS_TEXT">
+      <Text>Wzgórza zwiększają produktywność pobliskiego miasta oraz zapewniają znaczącą premię do obrony dla jednostek na nich stacjonujących. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_SPECIALTERRAIN_MOUNTAINS_TEXT">
+      <Text>Po polach z górami przemieszczać mogą się tylko jednostki powietrzne i wojska Kartaginy (po otrzymaniu wielkiego generała). Miasta nie mają z nich żadnego pożytku.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_TERRAIN_DESERT_TEXT">
+      <Text>Z zasady pola pustynne są nieużyteczne. Nie zapewniają miastom żadnych premii (chyba że na pustyni jest oaza, źródło surowca albo źródło słodkiej wody).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_TERRAIN_GRASSLAND_TEXT">
+      <Text>Zazwyczaj łąki produkują więcej pożywienia niż inne typy terenu. Miasta budowane w pobliżu takich pól będą się rozwijać szybciej niż inne osady.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_TRIPLANE_TEXT">
+      <Text>Trójpłat, biorący swą nazwę od nietypowego systemu trzech skrzydeł, jaki wykorzystano w jego konstrukcji, był z różnym powodzeniem wykorzystywany podczas I wojny światowej. Najsławniejszy z nich Fokker Dr. I był często używany przez niemieckie siły lotnicze i zdobył rozgłos jako samolot, którego używał legendarny Czerwony Baron. Choć inżynierowie opracowali rozmaite warianty tego projektu, rozwój tradycyjnego dwupłatowca sprawił, że trójpłatowce zniknęły z nieba w przeciągu dziesięciu lat od powstania.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VALLETTA_TEXT">
+      <Text>Stolicą Republiki Malty, państwa wyspiarskiego położonego na Morzu Śródziemnym na południe od Sycylii, jest Valletta. Została założona przez Jeana Parisota de la Vallettę, wielkiego mistrza zakonu maltańskiego. Wyspa Malta została oddana chrześcijańskiemu rycerskiemu zakonowi szpitalników we władanie przez hiszpańskiego króla Karola V w 1530 r., gdy Imperium Osmańskie było u szczytu swej potęgi. Doprowadziło to do sławnego oblężenia Malty w 1565 r., kiedy to muzułmanie podjęli próbę napadnięcia na wyspę i podbicia jej. Po odparciu ataku rycerze postanowili zbudować nowe, ufortyfikowane miasto, by zabezpieczyć wyspę przed przyszłymi napaściami. Valletta została zbudowana na maltańskim wybrzeżu, w idealnym miejscu, które dawało łatwy dostęp do dwóch dużych portów. Grand Harbour, jak zwie się jeden z nich, jest obecnie najważniejszym maltańskim portem i obsługuje większość importu i eksportu kraju.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_VATICAN_CITY_TEXT">
+      <Text>Otoczone murami państwo-miasto Watykan, oficjalnie założone w 1929 r., stanowi dla milionów wyznawców centrum Kościoła katolickiego. Podpisane w celu rozwiązania konfliktów między papieżem a Królestwem Włoch o kontrolę nad Rzymem traktaty laterańskie położyły podwaliny pod niezależnie zarządzane państwo-miasto w granicach Rzymu. Papież jako władca Watykanu jest ostatnim monarchą absolutnym w Europie i ma całkowitą władzę nad wszystkimi gałęziami rządu. Miasto znane jest z wielu niesamowitych dzieł sztuki znajdujących się w jego muzeach i katedrach. Bazylika św. Piotra i kaplica Sykstyńska są bodajże najbardziej znanymi budynkami w Watykanie, a zdobią je prace Michała Anioła, Rafaela i Boticellego.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_WITTENBERG_TEXT">
+      <Text>
+        Wittenberga, niewielkie miasto w środkowych Niemczech, zajmuje w historii wyjątkowe miejsce. To tam w XVI wieku narodziła się reformacja inspirowana przez Marcina Lutra. Miasto to było siedzibą elektora Saksonii, ale to rewolucja Marcina Lutra rozsławiła to miejsce w świecie.[NEWLINE][NEWLINE]Wykładając teologię na Uniwersytecie Witenberskim, Marcin Luter wyraził swe niezadowolenie z praktyki sprzedaży odpustów polegającej na płaceniu Kościołowi Katolickiemu za odpuszczenie grzechów. W roku 1517 Marcin Luter przybił swoich 95 tez do drzwi kościoła zamkowego w Wittenberdze, co doprowadziło do wybuchu reformacji w całej Europie. Wojny religijne wywołane przez reformację zakończyły się dopiero po ponad wieku, a Wittenbergę po dziś dzień uznaje się za miejsce rozpoczęcia buntu Marcina Lutra.[NEWLINE][NEWLINE]W późniejszym czasie Wittenberga ucierpiała podczas II wojny światowej, ale większość starówki miasta nie została zniszczona podczas nalotów alianckich. Po zakończeniu wojny Wittenberga była okupowana przez Rosjan, a w roku 1949 stała się częścią Niemiec Wschodnich, gdzie pozostała aż do zjednoczenia Niemiec w roku 1990. 
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_WWI_BOMBER_TEXT">
+      <Text>Wiele krajów, w tym Wielka Brytania, Francja i Niemcy, jeszcze przed wybuchem I wojny światowej eksperymentowało ze zrzucaniem ładunków wybuchowych z samolotów. W pierwszych dniach wojny bomby zrzucano z każdego rodzaju aeroplanów, włącznie z myśliwcami i samolotami zwiadowczymi. Jeden z pierwszych prawdziwych bombowców tej wojny Voisin III zaprojektowany został przez francuskiego specjalistę od samolotów Gabriela Voisina. Samolot ten, oparty na standardowej podówczas konstrukcji dwupłatowca wzmocnionej stalową ramą, mógł zrzucić ładunki wybuchowe o masie powyżej 140 kg.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_WWI_TANK_TEXT">
+      <Text>Czołg został wymyślony podczas I wojny światowej przez brytyjskich inżynierów jako rozwiązanie patowych sytuacji spowodowanych rozwojem walki pozycyjnej. Z czasem stał się jednym z kluczowych czynników w walce lądowej. Choć pierwsze modele były powolne i niezgrabne, przez całą wojnę obie strony konfliktu eksperymentowały z tym rodzajem pojazdów opancerzonych. Awaryjność, zbytni ciężar i niska manewrowość zostały ostatecznie przezwyciężone metodą prób i błędów.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_YEREVAN_TEXT">
+      <Text>Historia jednego z najstarszych miast na świecie - Erewania, obecnej stolicy Armenii, rozpoczyna się od wybudowania fortecy Erebuni w 783 r. p.n.e. przez Argisztiego I, króla Urartu. Od tego czasu Erewań podlegał władzy licznych potężnych imperiów, a w VII w. n.e. został zdobyty przez Arabów. Wtedy właśnie miasto stało się ważnym przystankiem dla karawan podróżujących między Europą a Azją. W dzisiejszych czasach Erewań słynie głównie z licznych fabryk, których produkcja stanowi ponad 50% całkowitej produkcji przemysłowej Armenii. Produkowana jest tam ciężka maszyneria, chemikalia, surowce i tekstylia - każda z tych gałęzi przemysłu zasłużyła się dla ekonomicznego rozwoju miasta. Erewań przyczynia się też znacząco do powszechnej na świecie opinii o Armenii jako producencie dobrego alkoholu - w mieście znajdują się liczne jego fabryki.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ZANZIBAR_TEXT">
+      <Text>Zanzibar, część regionu zwanego niegdyś wyspami przyprawowymi, od dawna zwracał uwagę kupców żeglujących po świecie. Był on niegdyś największym na świecie producentem goździków, handlował również innymi przyprawami, takimi jak gałka muszkatołowa czy cynamon. Obecnie Zanzibar jest również mocno zależny od turystyki, która stanowi drugie po rolnictwie źródło stałego dochodu.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_ZURICH_TEXT">
+      <Text>Zurych, największe miasto współczesnej Szwajcarii, swoje korzenie wywodzi od starożytnych Rzymian - uważa się, że około dwóch tysięcy lat temu zbudowali oni w tym miejscu niewielką fortecę. Dużym międzynarodowym centrum handlu miasto stało się dopiero w XVIII w., gdy doszło do gwałtownego rozwoju ekonomicznego. Doprowadziło to do szybkiego rozrostu miejscowości.[NEWLINE][NEWLINE]Obecnie Zurych jest istotnym centrum ekonomicznym zarówno dla samej Szwajcarii, jak i całej Europy, a wiele największych na świecie banków i instytucji finansowych ma w nim swoje główne siedziby. Szwajcarska giełda papierów wartościowych o ponad stupięćdziesięcioletniej historii również znajduje się w Zurychu.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_FACT_1">
+      <Text>Hajle Sellasje był pierwszą osobą afrykańskiego pochodzenia, która znalazła się na okładce magazynu „Time” - stało się to wkrótce po jego koronacji w 1930 r. Był też człowiekiem roku magazynu „Time” w roku 1935. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_FACT_2">
+      <Text>Wśród wielu plotek, jakie krążą o śmierci Sellasje, często powtarza się ta, że jego kości odkryto zakopane w cesarskim pałacu pod toaletami.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_HEADING_1">
+      <Text>Historia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_HEADING_2">
+      <Text>Młodość i polityka</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_HEADING_3">
+      <Text>Od cesarza do wygnańca</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_HEADING_4">
+      <Text>Powrót do władzy</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_HEADING_5">
+      <Text>Dekady rządów</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_HEADING_6">
+      <Text>Więzienie i śmierć</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_HEADING_7">
+      <Text>Rastafariański bóg</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_HEADING_8">
+      <Text>Osąd historyczny</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_LIVED">
+      <Text>1892-1975</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_NAME">
+      <Text>Hajle Sellasje</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_SUBTITLE">
+      <Text>Przywódca Etiopii</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_TEXT_1">
+      <Text>Znany jako Zwycięski Lew Plemienia Judy, Król Królów i Wybraniec Boży Hajle Sellasje przez niemal 40 lat rządził w XX w. Etiopią jako cesarz. Jego prawdziwe imię to Lij Tafari Makonnen. Urodził się w 1892 r. Człowiek, którego znano później jako Hajle Sellasje, całe życie starał się o dobro Etiopii i prowadził swoje państwo na czele afrykańskiej polityki. Hajle Sellasje zyskał sławę dzięki wprowadzeniu reform znoszących etiopskie starożytne praktyki feudalne i modernizacji państwa. Pracował bez wytchnienia, by wywalczyć dla Etiopii ważne miejsce na arenie międzynarodowej. Od dokonań w globalnej polityce ważniejsza była jedynie jego rola mesjasza religii rastafarian, wśród wyznawców której uważany jest za boga mającego doprowadzić Rasta z powrotem do ich ojczyzny w Etiopii.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_TEXT_2">
+      <Text>Hajle Sellasje był synem gubernatora prowincji. Młodość spędził na naukach u wielu mentorów wybranych mu przez ojca - jednym z nich był wpływowy mnich imieniem Abba Samuel. Po kilku latach edukacji uznano go za gotowego do objęcia władzy w kilku mniej istotnych prowincjach, a w wieku 17 lat był już uznawany za wschodzącą gwiazdę polityki. W czasach sprawowania urzędu gubernatora Sellasje dał się poznać jako osoba myśląca postępowo, wprowadzająca prawa zmniejszające kontrolę lokalnej arystokracji i zwiększająca wpływy rządu centralnego.[NEWLINE][NEWLINE]W 1916 r. Hajle Sellasje został ogłoszony przez cesarzową Zewdito regentem, co czyniło go pierwszym następcą tronu. Do funkcji regenta nadawał się znakomicie - miał poparcie zarówno wśród polityków postępowych, jak i konserwatywnych. Z czasem jego poparcie wśród postępowych stale rosło, co martwiło konserwatywną cesarzową. Choć była ona tytularną przywódczynią Etiopii, Sellasje jako regent sam zajmował się większością rządowych spraw administracyjnych. Do zasług Sellasje w tym okresie zalicza się uzyskanie członkostwa Etiopii w Lidze Narodów, które nastąpiło w rezultacie podjęcia prób zniesienia w kraju niewolnictwa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_TEXT_3">
+      <Text>W miarę, jak rosły wpływy i poparcie dla Sellasje, cesarzowa zmuszona została do konfrontacji z przyszłym władcą. W 1928 r. Zewdito próbowała usunąć regenta ze stanowiska, oskarżając go o zdradę stanu, ale jej próby nie zyskały poparcia. Sellasje był już wówczas popularny w całym kraju, stało po jego stronie również wojsko - Zewdito nie miała żadnego sposobu na podtrzymanie swych zarzutów. W rezultacie była zmuszona do ogłoszenia Hajle Sellasje królem Etiopii. Był to tytuł niższy od jej własnego, lecz jasno wyrażał rosnące znaczenie Sellasje w państwie. Niecałe dwa lata później cesarzowa zmarła w niewyjaśnionych okolicznościach, pozostawiając tron Etiopii Sellasje. To właśnie po koronacji na cesarza w roku 1930 po raz pierwszy posłużył się imieniem Hajle Sellasje oznaczającym „Potęgę Trójcy” w używanym w Etiopii języku amharskim. Wkrótce po przejęciu władzy Sellasje przyłożył się wydatnie do powstania pierwszej spisanej konstytucji Etiopii - jak wspominał później w swej autobiografii, miał to w planach od czasów, gdy został regentem.[NEWLINE][NEWLINE]W 1935 r. włoski reżim faszystowski z Benito Mussolinim u władzy wypowiedział Etiopii wojnę i jesienią tego roku jego wojska przekroczyły granicę kraju. Konflikt ten przeszedł do historii jako druga wojna włosko-abisyńska (pierwsza miała miejsce pod koniec XIX w.). Po niedługich walkach między siłami włoskimi i etiopskimi, w których brał udział również sam Sellasje, Włosi zajęli, a następnie anektowali afrykański kraj.[NEWLINE][NEWLINE]Po udanej włoskiej kampanii przeciw Etiopii Hajle Sellasje zmuszony był udać się na wygnanie. Wcześniej poprosił jednak Ligę Narodów o pomoc dla Etiopii. Mimo wygłoszenia płomiennego przemówienia skierowanego przeciw włoskiemu ruchowi faszystowskiemu jego prośba nie została wysłuchana. Sellasje pozostało więc jedynie cierpliwie czekać. Spędził kolejne pięć lat w Anglii i nieprzerwanie sprzeciwiał się włoskiej okupacji. Starał się zdobyć poparcie społeczności międzynarodowej i wzmocnić ruch na rzecz odzyskania swego państwa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_TEXT_4">
+      <Text>Po wybuchu w 1939 r. II wojny światowej podjęto wreszcie stosowne kroki w celu wyswobodzenia Etiopii spod władzy reżimu włoskiego. Poczyniła je armia brytyjska w połączeniu z wybranymi jednostkami wojsk etiopskich podczas kampanii wschodnioafrykańskiej. Armia wyzwoleńcza znana jest do dziś jako Siły Gideona - odegrała kluczową rolę w odzyskaniu wolności kraju. W 1942 r. Włosi poddali się i zostali zmuszeni do uznania niepodległości Etiopii, a Hajle Sellasje powrócił do stolicy kraju - Addis Abeby. Zrozumiawszy, że w Lidze Narodów brak jest solidarności, stał się on wielkim zwolennikiem Organizacji Narodów Zjednoczonych, która kładła większy nacisk na bezpieczeństwo międzynarodowe. Dzięki jego staraniom Etiopia stała się w 1948 r. jednym z jej państw założycielskich.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_TEXT_5">
+      <Text>W kolejnych latach Sellasje kontynuował swą pracę nad modernizacją Etiopii za pomocą reform, poprawiając jednocześnie stosunki dyplomatyczne i jej prestiż w świecie. W latach 60. XX w. Sellasje stanął na czele Organizacji Jedności Afrykańskiej, przodka dzisiejszej Unii Afrykańskiej. Sellasje chciał wytworzyć poczucie solidarności między niezależnymi państwami na kontynencie afrykańskim, wierzył bowiem, że ich zjednoczony głos wzmocni ludy Afryki. Choć próbował on sprawić, by organizacja miała większe znaczenie niż twór ideologiczny, bez wsparcia wojskowego nie miała ona właściwie żadnego posłuchu ani władzy.[NEWLINE][NEWLINE]Pracując ze społecznością międzynarodową, Sellasje nie zaniedbywał wysiłków zmierzających do poprawy dobrobytu ludzi w swoim kraju. Choć jego próby przełamania monopolu arystokracji na posiadanie ziemi nie przyniosły wielkich rezultatów, inicjatywa ta dała początek ruchowi, który działał nawet po zakończeniu jego rządów. Przeprowadził on również reformy dające szerszy dostęp do szkolnictwa, a programy ekonomiczne zapewniły sprawiedliwe opodatkowanie. Choć przemianami tymi zyskał sobie niemałą popularność, jego próby zwiększenia swojej władzy przez modyfikację konstytucji sprawiły, że w kraju zaczął działać coraz bardziej widoczny ruch dysydencki.[NEWLINE][NEWLINE]Pod koniec lat 60. w Etiopii zakorzeniły się ideologie marksistowskie, które w połączeniu z cierpieniem ludności podczas suszy i głodu na początku lat 70. przyczyniły się do spadku popularności Sellasje. Kryzys ekonomiczny i szalejąca inflacja przelały czarę goryczy. Sellasje z trudem utrzymał swą pozycję do 1974 r., kiedy to został zdetronizowany i aresztowany przez marksistowskie ugrupowanie wojskowe znane jako Derg.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_TEXT_6">
+      <Text>Hajle Sellasje zmarł w tajemniczych okolicznościach w areszcie domowym w 1975 r. - informacje o przyczynie śmierci są sprzeczne. Choć według oficjalnej wersji głoszonej przez wojsko zmarł on wskutek choroby, wielu nadal uważa, że został on zamordowany przez ludzi, którzy go więzili. Dopiero prawie 25 lat później, w listopadzie 2000 roku, odbył się pogrzeb Hajle Sellasje adekwatny dla człowieka jego rangi.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_TEXT_7">
+      <Text>Ruch rastafarian wziął swój początek ze słów jamajskiego aktywisty Marcusa Garveya, którego poglądy filozoficzne dały podstawy takiej religii, jaką znamy dziś. Słowa Garveya: „Zwróćcie oczy w stronę Afryki, gdzie koronuje się Czarny Król. On będzie zbawicielem” zostały uznane za proroctwo, które wypełniło się w 1930 r. wraz z koronacją Hajle Sellasje. Choć sam Sellasje był prawosławnym chrześcijaninem, nigdy nie potwierdził ani nie zaprzeczył, że jest mesjaszem rastafarian, a w 1966 r. odwiedził Jamajkę, gdzie spotkały się z nim dziesiątki tysięcy wiernych tej religii.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_TEXT_8">
+      <Text>Hajle Sellasje uważa się dziś zarówno za elokwentnego męża stanu i pełnego pasji przywódcę, który w trakcie swych rządów napotkał szereg trudności, a jednak nadal starał się tylko o poprawę dobrobytu swego ludu i stabilności państwa. Poglądy Sellasje na współpracę międzynarodową i dyplomację miały wpływ nie tylko na przyszłość Etiopii i Afryki, ale też całej społeczności międzynarodowej.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_SELASSIE_TITLES_1">
+      <Text>Cesarz Etiopii</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_ENTERTERRITORY_HEADING3_BODY">
+      <Text>Każde wkroczenie na terytorium innej cywilizacji (poza wejściem misjonarza lub wielkiego proroka) traktowane jest jako wypowiedzenie wojny. Gdy spróbujesz wprowadzić jednostkę na terytorium innej cywilizacji, pojawi się monit z pytaniem o wypowiedzenie wojny. Wyjątkiem są tu państwa-miasta oraz sytuacja, gdy cywilizacje podpisały porozumienie o otwartych granicach.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_GREATGENERALS_HEADING2_BODY">
+      <Text>Wielcy generałowie to wielcy ludzie z uzdolnieniami wojskowymi. Zapewniają premie w walce - zarówno ofensywnej, jak i defensywnej - dla wszystkich sprzymierzonych jednostek lądowych w zasięgu dwóch pól od ich położenia. Wielki generał sam w sobie nie jest jednostką bojową, może więc znajdować się na polu z taką jednostką, by go chroniła. Jeśli wroga jednostka wejdzie na pole, na którym jest wielki generał, ginie on.[NEWLINE][NEWLINE]Wielki generał daje premię 15% jednostce znajdującej się na jego polu i wszystkich znajdujących się do 2 pól od niego.[NEWLINE][NEWLINE]Wielcy generałowie powstają w wyniku walk toczonych przez twoje jednostki. Można go zdobyć również poprzez odblokowanie ustroju społecznego kodeksu wojownika. Przeczytaj sekcję o wielkich ludziach, by dowiedzieć się więcej.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_MULTIPLECOMBAT_HEADING3_BODY">
+      <Text>Jednostki otrzymują 10% premii za oskrzydlenie za każdą jednostkę sąsiadującą z wrogiem. Mogą też otrzymywać dodatkowe premie bojowe po wykupieniu różnego rodzaju awansów lub w wyniku działania niektórych ustrojów. Należy pamiętać, że premie bojowe w znacznym stopniu zwiększają wartość bojową jednostek. Im więcej jednostek w pobliżu wroga, tym lepiej!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_NAVAL_HEADING2_BODY">
+      <Text>Podobnie jak w przypadku jednostek lądowych, istnieją bojowe i niebojowe jednostki morskie, te drugie zaś również dzielą się na walczące w zwarciu i na odległość. Kutry ulegają zniszczeniu, gdy zostaną zaatakowane przez barbarzyńców lub wojska innej cywilizacji/państwa-miasta, zaś wszelkie zaokrętowane jednostki lądowe są na morzu bardzo słabe, nawet jeśli mogą przyjąć uderzenie lub dwa.[NEWLINE][NEWLINE]Dystansowe bojowe jednostki morskie mogą atakować inne jednostki morskie oraz lądowe, jeżeli znajdują się one w ich polu rażenia i widzenia.[NEWLINE][NEWLINE]Walczące w zwarciu jednostki morskie mogą atakować bezpośrednio inne statki, a także przybrzeżne miasta. W dalszej fazie gry bitwy morskie przybierają jednak nieco inny wymiar. Dzieje się tak za sprawą lotniskowców, krążowników rakietowych i okrętów podwodnych. Więcej informacji na ten temat znaleźć można w Civilopedii.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_SPECIALCITYCAPTURE_HEADING4_BODY">
+      <Text>Jednostki dystansowe (morskie, naziemne lub rakietowe) nie mogą zająć miasta, choć mogą oczywiście solidnie je ostrzelać, zanim jednostki atakujące w zwarciu wkroczą do akcji.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOMACY_RESEARCHAGREE_HEADING3_BODY">
+      <Text>Po zdobyciu technologii edukacji możesz zawierać z innymi cywilizacjami umowę dotyczącą badań, jeśli tylko oba wasze państwa mają założone ambasady i zadeklarowaliście przyjaźń. Umowa ta pociąga za sobą koszt w złocie (jeśli masz go za mało, nie możesz jej zawrzeć).[NEWLINE][NEWLINE]Umowa dotycząca badań trwa 30 tur przy standardowej szybkości gry. Po jej zakończeniu otrzymasz punkty badań oparte na sumie punktów badań wytworzonych przez ciebie i twojego partnera w trakcie obowiązywania umowy. Nie możesz jednak otrzymać od partnera liczby punktów badań większej od ilości wytworzonej przez ciebie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_FUTURE">
+      <Text>Epoka informacji</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_FUTURE_STRATEGY">
+      <Text>Epoka informacji</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_RELIGION_CHRISTIANITY_PEDIA">
+      <Text>Rzymski katolicyzm to nazwa teologii i doktryny kościoła chrześcijańskiego skupionego wokół Stolicy Apostolskiej, papiestwa z siedzibą w Rzymie. Wedle uczonych duchownych katolicyzm wyróżnia się spośród innych gałęzi chrześcijaństwa przywiązaniem do tradycji kościelnej, sakramentów i interpretacji Pisma Świętego przez kapłanów.[NEWLINE][NEWLINE]Najwcześniejsze znane użycie określenia „Kościół katolicki” pochodzi z około 107 roku naszej ery, a jego autorem jest Ignacy Antiocheński. W swoich początkach Kościół skupiony był wokół władzy trzech patriarchów – rzymskiego, aleksandryjskiego i antiocheńskiego. Później dołączyli do nich również patriarchowie Konstantynopola i Jerozolimy. Największą władzą dysponował patriarcha Rzymu, opierając się na powiązaniach miasta ze św. Piotrem. Przez 1000 lat rzymski katolicyzm dominował w Europie. Później, w 1054 roku, w wyniku wielkiej schizmy odłączył się od niego kościół prawosławny. Około 500 lat później nastąpił kolejny wielki podział w chrześcijaństwie – doszło do reformacji protestanckiej, w wyniku której wielu europejczyków odrzuciło nauki i praktyki katolickie na rzecz bardziej osobistych sposobów wyznawania wiary.[NEWLINE][NEWLINE]Obecnie Kościół rzymskokatolicki uważa tych, którzy nie pozostają w komunii z Watykanem, za niekatolików, toleruje jednak różne interpretacje Biblii. Pozostaje on największym odłamem chrześcijaństwa, na całym świecie mając ponad miliard wiernych.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_A_OR_B">
+      <Text>{@1_a} lub {@2_b}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_BELIEFS_CATEGORY_1">
+      <Text>Religie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_BELIEFS_CATEGORY_2">
+      <Text>Wierzenia panteonu</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_BELIEFS_CATEGORY_3">
+      <Text>Wierzenia założyciela</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_BELIEFS_CATEGORY_4">
+      <Text>Wierzenia wyznawców</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_BELIEFS_CATEGORY_5">
+      <Text>Wierzenia rozwijające</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_BELIEFS_HOMEPAGE_BLURB">
+      <Text>„Wiara jest niezbędna człowiekowi. Biada temu, co nie wierzy w nic.”[NEWLINE] - Wiktor Hugo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_BELIEFS_HOMEPAGE_LABEL1">
+      <Text>Religia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_BELIEFS_HOMEPAGE_TEXT1">
+      <Text>Religia, przejawem której są największe wyznania świata, jest jednym z najważniejszych czynników w rozwoju kultury i historii człowieka. Była ona motywem dzieł sztuki, cudów świata i poczucia jedności, ale też źródłem wojen i nietolerancji. W „Cywilizacji V” religia daje twemu ludowi korzyści w postaci wierzeń, które odróżniają twoją cywilizację od innych.[NEWLINE][NEWLINE]Począwszy od wyboru jednej, prostej zasady panteonu, po stworzenie rozwiniętej, ulepszonej religii, istotne jest, by podejmować mądre decyzje dotyczące wiary wyznawanej przez twoją cywilizację. Tworzeni dzięki punktom wiary wielcy prorocy, misjonarze, inkwizytorzy, święte miejsca i budynki religijne w twoich miastach mogą niezmiernie wspomóc cię w drodze do zwycięstwa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_BELIEFS_PAGE_LABEL">
+      <Text>Strona główna religii</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_CATEGORY_15_LABEL">
+      <Text>Religia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_DEFENSE_HITPOINTS">
+      <Text>+{1_DefenseHP} PŻ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTION_ANTI_AIR">
+      <Text>Premia przeciwko samolotom i śmigłowcom (150)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTION_ANTI_FIGHTER">
+      <Text>Premia przeciwko myśliwcom (33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTION_ANTI_HELICOPTER">
+      <Text>Premia przeciw śmigłowcom (150)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTION_ANTI_SUBMARINE_I">
+      <Text>Premia przeciw okrętom podwodnym (33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTION_ANTI_TANK">
+      <Text>Premia przeciwko czołgom (100)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTION_CITY_ASSUALT">
+      <Text>Premia przeciwko miastom (300)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTION_CITY_PENALTY">
+      <Text>Kara przy atakowaniu miasta (33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTION_CITY_SIEGE">
+      <Text>Premia przeciwko miastom (200)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTION_DEFENSE_PENALTY">
+      <Text>Kara w obronie (33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTION_HEAL_IF_DESTROY_ENEMY">
+      <Text>Leczenie 50 PŻ po pokonaniu wroga</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTION_JAGUAR">
+      <Text>Premia bojowa w lesie/dżungli (33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTION_MOHAWK">
+      <Text>Premia bojowa w lesie/dżungli (33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTION_MOUNTED_PENALTY">
+      <Text>Kara w walce z kawalerią (33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY">
+      <Text>Leczenie 25 PŻ po pokonaniu wroga</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_RELIGIOUS">
+      <Text>Religijne</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GIFT_GOLD">
+      <Text>Daj podarunek</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_BUDDHISM_PEDIA">
+      <Text>Buddyzm, posiadający obecnie ponad 350 milionów wyznawców na całym świecie, oparty jest na naukach wielkiego przywódcy duchowego, Siddharthy Gautamy, znanego jako „Budda” co znaczy „oświecony”. Będąc centralną postacią buddyzmu, Budda nie był określany mianem boga. Nie twierdził też, że jest z Bogiem powiązany. Budda uczył swoich wyznawców ścieżki wiodącej do oświecenia opartej na swoich własnych doświadczeniach, co odróżnia buddyzm od wielu innych wielkich religii.[NEWLINE][NEWLINE]Podstawowe zasady Buddy, czyli cztery szlachetne prawdy i szlachetna ośmioraka ścieżka, umożliwiają każdemu osiągnięcie nirwany, czyli wolności od niekończącego się cierpienia. W najprostszych słowach, cztery szlachetne prawdy mówią nam, że życie jest cierpieniem. Cierpienie to efekt naszego przywiązania do pragnień i znika, gdy odetniemy się od tych żądz uwolnimy. Od cierpienia można się wyswobodzić, praktykując ośmioraką ścieżkę. Jak sama nazwa wskazuje, istnieje osiem aspektów ścieżki, z których każdy opisuje czynności niezbędne do zrozumienia czterech szlachetnych prawd.[NEWLINE][NEWLINE]Obecnie istnieją trzy główne szkoły buddyzmu. Największe, Therawada oraz Mahajana, znane są jako szkoły sutryczne i uczą, że droga do oświecenia wiedzie poprzez dokładne badanie nauk Buddy. Trzecia szkoła, Wadźrajana, jest szkołą tantryczną, co znaczy że jej uczniowie wierzą w przyspieszenie procesu oświecenia za pomocą jogi, mantr oraz innych praktyk.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_CHRISTIANITY_PEDIA">
+      <Text>Największa religia świata, chrześcijaństwo, posiada obecnie ponad dwa miliardy wyznawców na całej planecie. Choć chrześcijaństwo skupia się głównie w Europie i Amerykach, wierni obecni są w praktycznie każdym zakątku świata. System wierzeń chrześcijańskich oparty jest na naukach Jezusa Chrystusa, który żył szacunkowo pomiędzy 6 r. p.n.e., a 30 r. n.e.[NEWLINE][NEWLINE]Jego wyznawcy wierzą, że Jezus był Synem Bożym, sprowadzonym na świat, aby otworzyć przed ludzkością drogę do zbawienia. Narodziny Jezusa z Maryi Dziewicy w Betlejem opisane są w Nowym Testamencie będącym częścią Biblii. Opisowi temu towarzyszą szczegóły z jego wczesnych lat życia oraz nauczania na terenie dzisiejszych Izraela oraz Palestyny. Wierzy się, że w czasie głoszenia Słowa Bożego Jezus dokonywał cudów, ucząc swoich zwolenników, jak oczyszczać się z grzechu. Przywracanie wzroku ślepym, leczenie chorych, przemiana wody w wino - to wszystko cuda przypisywane Jezusowi. Zdrada, jaka spotkała go ze strony Judasza, oraz ukrzyżowanie przez Rzymian przysłużyły się tylko jego sprawie, gdyż jego uczniowie twierdzili, że ukazał się im trzy dni po swojej śmierci, powstawszy z grobu, po czym wstąpił do nieba.[NEWLINE][NEWLINE]Największe kościoły chrześcijańskie to katolicyzm, prawosławie oraz protestantyzm. Odłamy te różnią się w swoich interpretacjach Biblii oraz nauk Jezusa, lecz łączy je wspólna wiara w chrześcijańską doktrynę.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_CONFUCIANISM_PEDIA">
+      <Text>Konfucjanizm to religia oparta na naukach chińskiego filozofa Konfucjusza urodzonego w 551 r. p.n.e. Konfucjanizm początkowo prezentowany był jako filozoficzny system etyczny i społeczny, lecz rozrósł się do ruchu liczącego obecnie kilka milionów wyznawców, skupionych głównie we wschodniej Azji. W trakcie swojego życia Konfucjusz miał nadzieję zaszczepić silną wiarę w osobistą moralność, odpowiedzialność społeczną i lojalność rodzinną, jako że każdy człowiek odgrywa swoją rolę w społeczeństwie. Będąc filozofią humanistyczną, konfucjanizm skupia się na zdolności każdej osoby do nauki, rozwoju i samodoskonalenia się poprzez etyczne zachowanie i wzgląd na innych.[NEWLINE][NEWLINE]Po śmierci Konfucjusza w około 479 r. p.n.e. jego nauki zyskiwały coraz większą popularność przez niemal 200 lat, zanim dynastia Qin nie zaczęła podejmować poważnych kroków w celu wykorzenienia jego filozofii. Władcy sądzili, że konfucjanizm był bezpośrednim zagrożeniem dla ich autorytetu, w wyniku czego kazali spalić większość ksiąg konfucjańskich, w tym wiele pism sporządzonych przez samego Konfucjusza. Nękano jego wyznawców, niszcząc świątynie w całym kraju. Mimo prób wymazania z kart historii konfucjanizmu, potajemny zbiór konfucjańskich manuskryptów ukryty w ścianach domu pewnego uczonego ożywił tę religię na nowo po upadku dynastii Qin w 206 r. p.n.e.[NEWLINE][NEWLINE]W dzisiejszych czasach pisma konfucjanizmu badane są przez uczonych na całym świecie. Choć traktują konfucjanizm bardziej jako filozofię niż religię, granica pomiędzy tymi dwiema interpretacjami jest niejasna.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_HINDUISM_PEDIA">
+      <Text>Hinduizm, uznawany za najstarszą religię, jest nadal praktykowany. Opiera się na zbiorze pradawnych manuskryptów znanych jako Wedy. Uważa się, że te sanskryckie teksty, zgrupowane w czterech głównych częściach, zostały napisane ponad 3 500 lat temu. Mając ponad miliard wyznawców w całym współczesnym świecie, hinduizm jest jedną z największych religii.[NEWLINE][NEWLINE]Choć nie da się wyszczególnić jednego założyciela hinduizmu, religia ta oparta jest na Wedach, które skupiają się na jednej, jednoczącej sile rządzącej wszystkimi aspektami rzeczywistości. Mimo że istnieje wiele dobrze rozpoznawalnych bóstw w hinduizmie, takich jak Śiwa, Wisznu czy Brahma, wszystkie one są małą składową Boga. Dharma, czyli „ostateczna rzeczywistość”, to uniwersalna siła czy też prawo, które łączy wszystkie istniejące rzeczy. Hinduiści wierzą, że jedynym sposobem wyrwania się z nieprzerwanego cyklu śmierci i narodzin, czyli reinkarnacji, jest medytacja i uzmysłowienie sobie, że Bóg jest we wszystkim. Hinduiści wierzą także w karmę, poprzez którą wszystkie nasze uczynki, zarówno dobre jak i złe, mają wpływ na nasze życie.[NEWLINE][NEWLINE]Istnieje wiele równoległych sekt wewnątrz hinduizmu, lecz mimo że mogą różnić się interpretacją pradawnych manuskryptów, nie postrzegają siebie nawzajem jako wrogów, lecz otwarcie dzielą się ideami i opiniami.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_ISLAM_PEDIA">
+      <Text>Druga największa religia na świecie, islam, oparta jest na wierze, że istnieje jeden prawdziwy Bóg, Allach, który przekazał swoją wolę za pośrednictwem proroków, którzy przybyli na ziemię. Najważniejszy z proroków, Mahomet, zapisał słowa Boga w świętej księdze muzułmanów, Koranie.[NEWLINE][NEWLINE]Urodzony w Mekce (w obecnej Arabii Saudyjskiej) w 570 r. n.e., Mahomet wychowany był na kupca, a potem pracował jako pasterz. Jednakże w wieku 40 lat doznał boskiego objawienia i precyzyjnie spisał słowa Boga w Koranie. Od tego momentu Mahomet głosił słowo Boga i nauczał swoich wyznawców, że jedyną prawdziwą drogą do zbawienia jest zupełne poddanie się Bogu poprzez codzienną modlitwę i przestrzeganie praw ustalonych przez Najwyższego. Zgodnie z pięcioma filarami islamu, czyli metod na uzyskanie zbawienia: nie ma boga prócz Allacha, a Mahomet jest jego prorokiem; trzeba modlić się codziennie do Boga o pięciu określonych porach; należy wspierać potrzebujących; konieczny jest post od świtu do zmierzchu w trakcie ramadanu; trzeba wybrać się na pielgrzymkę do Mekki w trakcie świętego miesiąca Zu al-hidżdża.[NEWLINE][NEWLINE]Jak to często bywa przy próbie założenia nowej religii, Mahomet i jego wyznawcy spotkali się z poważnym oporem ze strony innych wyznań. Mimo tego przesłanie Mahometa rozprzestrzeniło się na Bliskim Wschodzie po jego śmierci w 632 r. n.e. Od tego czasu islam podzielił się na kilka konkurujących odłamów. Największe z nich to sunnizm oraz szyizm. Mimo łączących ich zasad odłamy te różnią się co do interpretacji tego, kto ma być przywódcą islamu po śmierci Mahometa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_JUDAISM_PEDIA">
+      <Text>Judaizm to religia Żydów, ludu niegdyś plemiennego, żyjącego na terenie Bliskiego Wschodu wokół Jerozolimy. Jest jedną z najstarszych religii praktykowanych po dziś dzień. Początki judaizmu sięgają 3500 lat wstecz, co czyni go jedną z najwcześniejszych religii monoteistycznych. Mimo podstawowych różnic wiele aspektów judaizmu jest blisko powiązanych z chrześcijaństwem oraz islamem, ponieważ wszystkie te religie uznawane są za abrahamowe, czyli pochodzące od Abrahama.[NEWLINE][NEWLINE]W centrum judaizmu znajduje się Tora - tak Żydzi nazwali pierwsze pięć ksiąg Biblii. Przyjmuje się, że zostały one podarowane Mojżeszowi na górze Synaj. Tora określa, w jaki sposób należy żyć zgodnie z boską wolą. Mimo że o podstawowych doktrynach judaizmu debatuje się od wieków, Żydzi wierzą, że są narodem wybranym, wyznaczonym przez Boga do tkwienia z nim w przymierzu i że Bóg ześle mesjasza, który zaprowadzi wszystkich wybranych z powrotem do Izraela.[NEWLINE][NEWLINE]Żydzi byli prześladowani na przestrzeni wieków i rozproszeni po całym świecie. Jednak judaizm zatryumfował i wiara Żydów w Boga nie została złamana mimo okropieństw, jakich się na nich dopuszczono.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_PANTHEON_PEDIA">
+      <Text>Placeholder</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_SHINTO_PEDIA">
+      <Text>Shintō to pozbawiona założyciela czy głównej doktryny duchowa wiara Japończyków, która opiera się na osobistej relacji ze światem i samą Japonią. Głównym aspektem shintoizmu jest czczenie duchów, znanych jako kami, poprzez odwiedzanie kaplic. Choć kami nie są uznawane za bogów, uważa się je za duchy czy też istoty pozostające w bliskim kontakcie z ludźmi i mogące mieć pozytywny wpływ na czyjeś życie. Jednakże Shintō nie skupia się na wychwalaniu kami, lecz na samym rytuale poświęcenia się. Oddawanie czci kami w kaplicach jest oznaką zaangażowania, dzięki któremu kami mogą wywrzeć pozytywny wpływ na życie wyznawcy. Shintō jest ważnym elementem życia Japończyków od wieków Obecnie liczy ponad 100 milionów wiernych w Japonii, lecz nie jest religią w tradycyjnym tego słowa znaczeniu, a raczej wiarą charakterystyczną dla Japonii.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_SIKHISM_PEDIA">
+      <Text>Sikhizm, założony w XV w. przez Guru Nanaka, rozwijał się dzięki wysiłkom kolejnych guru, którzy poświęcali się cnotom pokoju, równości oraz samodzielności. Sikhizm ma obecnie ponad 20 milionów wyznawców, głownie w regionie Pendżab w Indiach. Sikhowie wierzą w jednego Boga nie posiadającego formy fizycznej. Każdy sikh ma kontakt z Bogiem, w którego oczach wszyscy są równi.[NEWLINE][NEWLINE]Sikhowie znani są ze swojej hojności wobec innych i jedną z głównych cech ich religii jest pogląd, że wszyscy ludzie są równi, niezależnie od religii, rasy czy płci. W odróżnieniu od innych głównych wyznań sikhizm propaguje wiarę w to, że dobre uczynki wobec innych mają większą moc niż jakikolwiek rytuał. Sikhowie są także zobowiązani bronić przed niesprawiedliwością i wspierać uciskanych, ponieważ prawda i pokój powinny tryumfować nad wszystkim innym. Sikhowie wierzą, że w celu osiągnięcia zbawienia należy praktykować zdyscyplinowaną medytację, gdyż zaznać zbawienia można jedynie poprzez osobiste skupienie na Bogu.[NEWLINE][NEWLINE]Wyznawcy sikhizmu muszą akceptować pewne ograniczenia, między innymi zakaz obcinania włosów i spożywania substancji odurzających oraz, co charakterystyczne, zakaz praktykowania jakiegokolwiek rytuału, przesądu lub pielgrzymowania.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_TAOISM_PEDIA">
+      <Text>Taoizm jest szczególną religią, opartą na pradawnych wierzeniach i filozofii królestw Chin z II w. n.e. Powstanie taoizmu nie jest przypisywane żadnej konkretnej postaci. Powstał on na bazie pism filozofa Laozi, który napisał „Daodejing” w IV w. p.n.e. Zhang Daoling, pierwszy „Niebiański Mistrz”, założył pierwszą szkołę tao opartą na pismach Laozi.[NEWLINE][NEWLINE]Głosząc filozofię Laozi, Zhang Daolin szybko zyskiwał zwolenników i szerzył doktrynę tao. Według jednego z najbardziej znanych aspektów tej religii, czyli Yin i Yang, świat jest pełen uzupełniających się sił będących w harmonii i równowadze, których prostym przykładem jest światło i mrok. Wyznawcy taoizmu zachęcani są do praktykowania pokory, życzliwości oraz współczucia w codziennym życiu w celu uzyskania równowagi.[NEWLINE][NEWLINE]Na przestrzeni wieków taoizm obfitował w wiele sekt i odłamów, które oddzieliły się od oryginalnej szkoły, ponieważ elementy chińskiej tradycji wkradały się do tej filozofii. Magia, alchemia oraz inne siły mistyczne stały się częścią niektórych z odmian myśli taoistycznej od początku jej istnienia. Szacunki dotyczące całkowitej liczby wyznawców taoizmu są różne, lecz przyjmuje się, że liczy on kilka milionów zwolenników w Chinach i na przyległych terenach.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_TENGRIISM_PEDIA">
+      <Text>Tengryzm to pradawna religia mająca związek przede wszystkim z ludami Azji Środkowej, takimi jak Hunowie czy Mongołowie. Oparta głównie na wierze w Tengri, boga nieba, oraz Eje, Matkę Ziemię, wiara ta miała dość luźne ramy, nie posiadała duchownych ani kapłanów, a jej wyznawcy nie starali się nawracać innych. Tengryzm skupiał się na utrzymaniu harmonii z otaczającym środowiskiem. Wierni uznawali, że zasoby ziemi są święte, zwłaszcza woda, której ilość była skąpa na stepach Środkowej Azji, na których żyła większość wyznawców. Choć twierdzi się, że w Azji nadal żyją przedstawiciele tej religii, nie próbowano określić ich liczby.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_ZOROASTRIANISM_PEDIA">
+      <Text>Zoroastryzm to starożytna religia oparta na naukach proroka Zoroastry. Przyjmuje się, że powstała około 3 500 lat temu w rejonach sąsiadujących z obecnym Iranem. Niegdyś jedna z największych religii świata, obecnie ma około 200 000 wyznawców mieszkających głównie w Indiach, Pakistanie oraz Iranie. Niektórzy twierdzą, że Zaratusztrianizm jest najstarszą religią monoteistyczną świata, lecz nie ma co do tego zgody wśród uczonych. Wierzenia zaratusztrianizmu skupiają się na bogu stwórcy Ormuździe, który objawił swoją mądrość Zaratusztrze, a ten z kolei szerzył te nauki w okolicy. Święte teksty tej wiary, znane jako Awesta, zawierają hymny, które poniekąd zostały napisane przez samego Zaratusztrę.[NEWLINE][NEWLINE]Podobnie jak wiele innych religii Zaratusztrianizm opisuje sposoby, dzięki którym można żyć w harmonii ze światem, w tym przypadku poprzez dobre uczynki i dobre myśli. Zaratusztrianie często są mylnie określani jako czciciele ognia, po części ze względu na fakt, że ogień jest ważnym symbolem w zaratusztriańskich rytuałach. Ogień reprezentuje światło Ormuzda, tak więc wyznawcy zawsze modlą się w kierunku światła, a nie do ognia.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_JEWELRY_HELP">
+      <Text>Klejnoty pozyskać można tylko od kupieckich państw-miast.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_PORCELAIN_HELP">
+      <Text>Porcelanę pozyskać można tylko od kupieckich państw-miast.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SOCIALPOLICY_FREEDOM_HEADING3_BODY">
+      <Text>Ideologia Swobód zapewnia premie do kultury, turystyki, produkcji specjalistów i innych. Wolność staje się dostępna po zbudowaniu 3 fabryk lub po wejściu w epokę współczesną i nie może być aktywna jednocześnie z Autokracją lub Ładem.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GENERATING_HEADING3_BODY">
+      <Text>Wielcy artyści, inżynierowie, kupcy i naukowcy tworzeni są w miastach przez specjalistów i cuda generujące „punkty wielkich ludzi” (PWL). Miasto może nie produkować ich wcale, produkować tylko jeden ich rodzaj lub też liczne rodzaje. Punkty WL są liczone osobno dla każdego miasta (na przykład Kioto może generować 1 PWL dla artysty i 2 PWL dla inżyniera. Po trzech turach będzie miało 3 punkty dla artysty i 6 dla inżyniera. Dwa rodzaje punktów nie sumują się).[NEWLINE][NEWLINE]Gdy miasto zbierze wystarczającą ilość określonych PWL, wydawane są one na wyprodukowanie wielkiego człowieka danego typu. Gdy to nastąpi, wymagana ilość punktów do narodzin kolejnego wielkiego człowieka rośnie we wszystkich miastach danego gracza.[NEWLINE][NEWLINE]Załóżmy na przykład, że gracz potrzebuje 10 PWL, by narodził się wielki człowiek. Gdy weźmiemy pod uwagę poprzedni przykład, za pięć tur Kioto miałoby wystarczająco punktów wielkich ludzi dla inżyniera, by stworzyć wielkiego inżyniera. Po jego narodzinach miasto miałoby 0 punktów dla inżyniera i 5 dla artysty, zaś ilość punktów wymagana do narodzin wielkiego człowieka wyniosłaby, powiedzmy, 15 punktów. Osiem tur później miasto miałoby 13 punktów dla wielkiego artysty i 16 dla inżyniera i wygenerowałoby kolejnego wielkiego inżyniera.[NEWLINE][NEWLINE]Zwróć uwagę, że wybudowanie ogrodu zwiększa prędkość tworzenia wielkich ludzi, a przyjęcie ustroju społecznego „kodeks wojownika” natychmiast tworzy wielkiego generała.[NEWLINE][NEWLINE]Ponadto gdy wkroczysz w epokę przemysłu, uzyskasz możliwość wydawania niepotrzebnej wiary na wielkich ludzi w zależności od otwartych przez ciebie drzew ustrojów społecznych.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPEOPLE_HEADING2_BODY">
+      <Text>Istnieje dziewięć rodzajów wielkich ludzi: artyści, muzycy, pisarze, inżynierowie, kupcy, naukowcy, generałowie, admirałowie oraz prorocy. Sześciu wymienionych w pierwszej kolejności funkcjonuje dość podobnie, lecz generałowie, admirałowie i prorocy znacznie się różnią. Powołuje się ich inaczej, a ich wpływ na rozgrywkę jest zgoła odmienny. Admirałowie i generałowie zwiększają skuteczność jednostek bojowych, zaś prorocy pozwalają na stworzenie religii.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_ADVANCED_BALLISTICS_HELP">
+      <Text>Pozwala na budowę przerażających [COLOR_POSITIVE_TEXT]pocisków atomowych[ENDCOLOR], których konstrukcja wymaga [ICON_RES_URANIUM]uranu. Jest to broń zdolna zniszczyć każdą jednostkę i zrównać z ziemią całe miasta. Technologia ta pozwala także na budowę [COLOR_POSITIVE_TEXT]kierowanych pocisków rakietowych[ENDCOLOR], które są tanim sposobem na zwalczanie wrogich jednostek. Trzecią nową konstrukcją jest [COLOR_POSITIVE_TEXT]dopalacz SK[ENDCOLOR], jeden z elementów statku kosmicznego, którego budowa pozwoli ci osiągnąć [COLOR_POSITIVE_TEXT]zwycięstwo naukowe[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_ARCHITECTURE_DESC">
+      <Text>Architekturę można uznać zarówno za sztukę, jak i za naukę. Obejmuje wszystko - od stadium wstępnego planowania i projektowania struktury do właściwego procesu konstrukcji, przez co była kluczowym elementem procesu budowania już od czasów starożytnych. Jedna z najwcześniejszych rozpraw o architekturze i jej regułach, „De Architectura”, napisana została przez rzymskiego architekta Witruwiusza w I w. p.n.e. Ta dziesięciotomowa praca, na którą składały się wszystkie najbardziej złożone szczegóły rzymskich metod budowlanych, jest dziś uważana za kluczowe osiągnięcie w procesie rozwoju projektowania architektonicznego.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_ARCHITECTURE_HELP">
+      <Text>Pozwala na zbudowanie licznych cudów, które mogą dać premię do [ICON_CULTURE] kultury, [ICON_RESEARCH] nauki i [ICON_HAPPINESS_1] zadowolenia.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_ARCHITECTURE_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]„Architektura zaczyna się tam, gdzie kończy się inżynieria.”[NEWLINE] - Walter Gropius[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_ASTRONOMY_HELP">
+      <Text>Pozwala na budowę [COLOR_POSITIVE_TEXT]karaweli[ENDCOLOR], pierwszej jednostki zdolnej do pływania po oceanie, oraz [COLOR_POSITIVE_TEXT]obserwatorium[ENDCOLOR], które znacznie zwiększa poziom [ICON_RESEARCH] nauki. Dzięki tej technologii zaokrętowane jednostki mogą poruszać się po heksach oceanicznych.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_BALLISTICS_HELP">
+      <Text>Pozwala na zbudowanie [COLOR_POSITIVE_TEXT]dział przeciwlotniczych[ENDCOLOR] przydatnych do zwalczania samolotów oraz [COLOR_POSITIVE_TEXT]karabinu maszynowego[ENDCOLOR], potężnej jednoheksowej jednostki dystansowej.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_BALLISTICS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]„Ludzie, zupełnie jak kule, docierają najdalej dzięki gładkości.”[NEWLINE] - Jean Paul[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_BANKING_HELP">
+      <Text>Pozwala wybudować [COLOR_POSITIVE_TEXT]bank[ENDCOLOR], budynek, który zwiększa przychód [ICON_GOLD] złota w danym mieście, oraz [COLOR_POSITIVE_TEXT]policję okręgową[ENDCOLOR], utrudniającą wrogim szpiegom działalność.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_CHIVALRY_HELP">
+      <Text>Pozwala na szkolenie [COLOR_POSITIVE_TEXT]rycerzy[ENDCOLOR], szybkich i potężnych jednostek konnych. Pozwala również na budowę [COLOR_POSITIVE_TEXT]zamku[ENDCOLOR], ulepszającego [ICON_STRENGTH] obronę twoich miast, oraz zawieranie sojuszy obronnych.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_COMBINED_ARMS_DESC">
+      <Text>Połączone rodzaje wojsk to doktryna wojskowa po raz pierwszy użyta ponad tysiąc lat temu. Polega ona na połączeniu różnych, lecz uzupełniających się, rodzajów jednostek w celu polepszenia ogólnej wydajności wojska jako całości. W czasach starożytnych taktyka połączonych rodzajów wojsk używana była przez liczne potęgi, a zwłaszcza Greków oraz Rzymian. Precyzyjnie koordynowali oni lekką oraz ciężką piechotę, kawalerię oraz broń dystansową w celu stworzenia spójnych formacji, które współgrały i wykorzystywały swoje plusy i minusy. W dzisiejszych czasach powstanie arsenału opartego na siłach powietrznych doprowadziło do jeszcze bardziej złożonych wariacji na temat tradycyjnej idei połączonych rodzajów wojsk. Samoloty bezzałogowe, naprowadzane satelitami pociski oraz bombowce stratosferyczne - to tylko niektóre przykłady z rozrastającego się zestawu narzędzi dostępnych dla współczesnych dowódców wojskowych.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_COMBINED_ARMS_HELP">
+      <Text>Pozwala na zbudowanie [COLOR_POSITIVE_TEXT]czołgów[ENDCOLOR], szybkich i śmiercionośnych jednostek pancernych, oraz [COLOR_POSITIVE_TEXT]dział przeciwpancernych[ENDCOLOR] służących do zwalczania wrogich czołgów.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_COMBINED_ARMS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]„Zło nie powstaje w wyniku konstruowania nowych, jeszcze straszliwszych rodzajów broni. Jego źródło to chęć podboju.”[NEWLINE] - Ludwig von Mises[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_COMBUSTION_HELP">
+      <Text>Pozwala na budowę potężnych [COLOR_POSITIVE_TEXT]okrętów lądowych[ENDCOLOR], które mogą wykonać ruch po ataku, oraz [COLOR_POSITIVE_TEXT]niszczycieli[ENDCOLOR], szybkich statków mogących polować na okręty podwodne.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_COMPUTERS_HELP">
+      <Text>Pozwala na budowę [COLOR_POSITIVE_TEXT]śmigłowca bojowego[ENDCOLOR], który świetnie nadaje się do zwalczania czołgów wroga.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_CONSTRUCTION_HELP">
+      <Text>Pozwala na szkolenie [COLOR_POSITIVE_TEXT]łuczników z łukami kompozytowymi[ENDCOLOR], będących bardzo silnymi jednostkami dystansowymi. Umożliwia robotnikom zbudowanie [COLOR_POSITIVE_TEXT]tartaków[ENDCOLOR] na zalesionych polach mapy, zwiększając ich [ICON_PRODUCTION] produkcję. Umożliwia również zbudowanie [COLOR_POSITIVE_TEXT]Koloseum[ENDCOLOR], które zwiększa [ICON_HAPPINESS_1] zadowolenie w imperium, co z kolei ułatwia powiększanie miast i zwiększa szanse na [ICON_GOLDEN_AGE] złote ery.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_CURRENCY_HELP">
+      <Text>Umożliwia wznoszenie różnych budowli dostarczających [ICON_GOLD] złoto, na przykład [COLOR_POSITIVE_TEXT]mennicy[ENDCOLOR] lub [COLOR_POSITIVE_TEXT]targowiska[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_DRAMA_DESC">
+      <Text>Dramat oraz poezja to formy artystycznego wyrazu. Dramat posługuje się środkami wizualnymi, najczęściej wyraża się poprzez przedstawienia teatralne - sztuki, musicale oraz opery - lecz w dzisiejszych czasach te tradycyjne formy zdominowane zostały przez telewizję oraz produkcję filmową. Poezja, która jako formy ekspresji używa słowa pisanego, prezentuje znaczenie zarówno dosłowne, jak i zmuszające do myślenia drugie dno.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_DRAMA_HELP">
+      <Text>Pozwala na budowę [COLOR_POSITIVE_TEXT]amfiteatru[ENDCOLOR], który zapewnia premię do [ICON_CULTURE] kultury.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_DRAMA_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]„Czym jest dramat, jeśli nie życiem z wyciętymi nudnymi kawałkami.”[NEWLINE] - Alfred Hitchcock[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_ECOLOGY_HELP">
+      <Text>Pozwala zbudować [COLOR_POSITIVE_TEXT]elektrownię słoneczną[ENDCOLOR], budowlę, którą można wznosić tylko w miastach położonych na lub w pobliżu pustyni, a która zwiększa [ICON_PRODUCTION] produkcję. Daje także możliwość wzniesienia [COLOR_POSITIVE_TEXT]centrum recyklingu[ENDCOLOR] zwiększającego twoje rezerwy aluminium.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_EDUCATION_HELP">
+      <Text>Pozwala zbudować [COLOR_POSITIVE_TEXT]uniwersytet[ENDCOLOR], zwiększający poziom [ICON_RESEARCH] nauki. Zapewnia też inne korzyści dla [ICON_RESEARCH] nauki, takie jak możliwość zawierania [COLOR_POSITIVE_TEXT]umów naukowych[ENDCOLOR], które można podpisać z innymi graczami.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_ELECTRICITY_HELP">
+      <Text>Odkrywa [ICON_RES_ALUMINUM] aluminium, surowiec wykorzystywany do produkcji wielu jednostek w późniejszych etapach gry. Ponadto pozwala budować w miastach [COLOR_POSITIVE_TEXT]giełdę papierów wartościowych[ENDCOLOR], budowlę zwiększającą przychód w [ICON_GOLD] złocie. Pozwala też postawić [COLOR_POSITIVE_TEXT]elektrownię wodną[ENDCOLOR], zwiększającą [ICON_PRODUCTION] produkcję na polach znajdujących się przy rzece, oraz [COLOR_POSITIVE_TEXT]posterunek policji[ENDCOLOR] utrudniający wrogim szpiegom pracę.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_ELECTRONICS_HELP">
+      <Text>Pozwala na budowę [COLOR_POSITIVE_TEXT]lotniskowców[ENDCOLOR], które mogą transportować jednostki lotnicze, a także [COLOR_POSITIVE_TEXT]pancernika[ENDCOLOR] - potężnej jednostki morskiej z dalszych etapów gry.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_ENGINEERING_HELP">
+      <Text>Pozwala na wznoszenie [COLOR_POSITIVE_TEXT]akweduktów[ENDCOLOR] zwiększających zapasy [ICON_FOOD] żywności w miastach podczas ich rozwoju. Umożliwia robotnikom budowanie [COLOR_POSITIVE_TEXT]fortów[ENDCOLOR] zwiększających obronę stacjonujących tam jednostek. Ponadto na drogach przebiegających przez rzeki pojawiają się mosty, dzięki czemu jednostki przeprawiają się przez nie z pełną prędkością.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_FLIGHT_HELP">
+      <Text>Pozwala na budowę [COLOR_POSITIVE_TEXT]trójpłatów[ENDCOLOR], będących myśliwcami przewagi powietrznej, oraz [COLOR_POSITIVE_TEXT]bombowców z czasów wielkiej wojny[ENDCOLOR], które świetnie nadają się do atakowania jednostek lądowych i miast.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_GUILDS_DESC">
+      <Text>W miastach przedindustrialnych rzemieślnicy zakładali stowarzyszenia lub gildie skupiające przedstawicieli ich profesji. Miały one na celu zarówno ochronę tajników rzemiosła, jak i zapewnienie jej członkom wpływów. Pierwsze gildie handlowe powstawały już w III w. p.n.e. w Rzymie i Chinach dynastii Han. Do 300 r. n.e. praktyka ta pojawiła się w Indiach Guptów i Egipcie Ptolomeuszy. W średniowieczu gildie szybko rozpowszechniły się z Włoch na całą Europę. W XII w. tak w Paryżu, jak i w Londynie było ponad 100 zarejestrowanych gildii. W niektórych przypadkach były one tak potężne, że przejmowały władzę w mieście - widać to po siedzibach gildii w Niemczech, Szwajcarii i Holandii.[NEWLINE][NEWLINE]Z czasem gildie zajęły się ochroną jakości i nauczania rzemiosła, tworząc tradycję zdobywania stopni od terminatora po wielkiego mistrza. By zapewnić jakość produktu, wprowadzono znaki handlowe informujące, że przedmiot spełnia zarówno standardy gildii, jak i rządowe. Wraz z upływem czasu jednak wpływy i potęga gildii zaczęły słabnąć - pojawiły się nowe rzemiosła, sprawy polityczne i masowa produkcja. We Francji istnienie gildii zniesiono w 1791 r. prawem Le Chapelier’a. Wkrótce to samo zrobiły inne kraje. Choć w epoce przemysłu zostały one w znacznej mierze zastąpione związkami zawodowymi, niektóre z nich istnieją nadal, zwłaszcza w dziedzinie filmu, literatury i innych profesji artystycznych.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_GUILDS_HELP">
+      <Text>Pozwala robotnikom na zbudowanie [COLOR_POSITIVE_TEXT]punktu handlowego[ENDCOLOR], który zwiększa produkcję [ICON_GOLD] złota na danym polu. Pozwala też miastom na zamianę [ICON_PRODUCTION] produkcji w [ICON_GOLD] złoto zamiast budowy jednostek lub budynków.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_GUILDS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]„Przybyli kupcy i handlarze. Ich zyski są z góry ustalone...”[NEWLINE] - Sri Guru Granth Sahib[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_INDUSTRIALIZATION_DESC">
+      <Text>Industrializacja to przejście od społeczeństwa rolniczego do przemysłowego, czemu zazwyczaj towarzyszą poważne zmiany społeczne oraz ekonomiczne. Rewolucja przemysłowa, która rozpoczęła się w Europie w XVIII w., spowodowała diametralne zmiany w sposobie życia ludzi. Wraz z pojawiającą się złożoną maszynerią oraz narzędziami wielu utalentowanych rzemieślników wykonujących swoje fachy zastąpionych zostało tłumami niewykwalifikowanych robotników obsługujących linie produkcyjne.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_INDUSTRIALIZATION_HELP">
+      <Text>Odsłania na mapie [ICON_RES_COAL] [COLOR_POSITIVE_TEXT]węgiel[ENDCOLOR] i pozwala zbudować [COLOR_POSITIVE_TEXT]fabrykę[ENDCOLOR], budynek, który znacząco zwiększa [ICON_PRODUCTION] produkcję w mieście.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_INDUSTRIALIZATION_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]„Industrializacja oparta na maszynach, będąca znakiem naszych czasów, to tylko jedno oblicze rewolucji wywołanej dzięki technice.”[NEWLINE] - Emily Greene Balch[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_LASERS_HELP">
+      <Text>Pozwala tworzyć [COLOR_POSITIVE_TEXT]nowoczesne czołgi[ENDCOLOR], niezwykle szybką i potężną jednostkę pancerną. Ponadto umożliwia skonstruowanie [COLOR_POSITIVE_TEXT]myśliwca odrzutowego[ENDCOLOR], najpotężniejszej jednostki myśliwskiej w grze.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_METALLURGY_HELP">
+      <Text>Pozwala stworzyć [COLOR_POSITIVE_TEXT]lansjerów[ENDCOLOR], szybką jednostkę konną przeznaczoną do zwalczania innych jednostek tego typu. Ponadto umożliwia budowę [COLOR_POSITIVE_TEXT]arsenału[ENDCOLOR] zwiększającego współczynnik obrony miasta.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_MILITARY_SCIENCE_HELP">
+      <Text>Pozwala na szkolenie [COLOR_POSITIVE_TEXT]kawalerii[ENDCOLOR], jednostek jeździeckich mogących wytrzymać w walce z ciężkimi jednostkami piechoty. Ponadto umożliwia zbudowanie [COLOR_POSITIVE_TEXT]akademii wojskowej[ENDCOLOR], która zwiększa poziom doświadczenia szkolonych jednostek.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_MOBILE_TACTICS_DESC">
+      <Text>Taktyki mobilne to strategie stosowane przez siły wojskowe, które pozwalają szybkim, łatwym w manewrowaniu jednostkom na włączanie i wyłączanie się z walki bez potrzeby nieustannego udziału w potyczce. Taktyki mobilne często używane są przez nieregularne lub partyzanckie jednostki, specjalizujące się w szybkich atakach i natychmiastowych ucieczkach mających zdezorientować duże siły wroga.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_MOBILE_TACTICS_HELP">
+      <Text>Pozwala na zbudowanie [COLOR_POSITIVE_TEXT]piechoty zmechanizowanej[ENDCOLOR], szybkiej i uniwersalnej jednostki z późnej części gry, która nie wymaga żadnych surowców.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_MOBILE_TACTICS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]„Każdy może dostrzec taktykę mych podbojów, lecz nikt nie widzi stojącej za nią strategii.”[NEWLINE] - Sun Zi[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_NAVIGATION_HELP">
+      <Text>Umożliwia wybudowanie [COLOR_POSITIVE_TEXT]fregat[ENDCOLOR], najpotężniejszej jednostki morskiej epoki renesansu, oraz tworzenie [COLOR_POSITIVE_TEXT]kaprów[ENDCOLOR], którzy mogą zdobywać [ICON_GOLD] złoto, atakując nadmorskie miasta i przejmując okręty przeciwnika. Pozwala także na wzniesienie [COLOR_POSITIVE_TEXT]portów[ENDCOLOR] zapewniających [ICON_PRODUCTION] produkcję z surowców morskich.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_PENICILIN_HELP">
+      <Text>Pozwala na werbowanie [COLOR_POSITIVE_TEXT]piechoty morskiej[ENDCOLOR], która świetnie nadaje się do ataków desantowych. Umożliwia także zbudowanie [COLOR_POSITIVE_TEXT]laboratorium medycznego[ENDCOLOR], które przyspiesza przyrost [ICON_FOOD] żywności w twoich miastach.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_PHILOSOPHY_HELP">
+      <Text>Pozwala zbudować [COLOR_POSITIVE_TEXT]świątynię[ENDCOLOR], która zwiększa ilość [ICON_PEACE] wiary generowanej przez miasto. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_PLASTICS_HELP">
+      <Text>Umożliwia budowę [COLOR_POSITIVE_TEXT]laboratorium badawczego[ENDCOLOR], budynku zwiększającego [ICON_RESEARCH] naukę w mieście. Pozwala też na stworzenie [COLOR_POSITIVE_TEXT]piechoty[ENDCOLOR], podstawowej jednostki lądowej z epoki przemysłowej.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_POTTERY_HELP">
+      <Text>Pozwala twoim miastom budować [COLOR_POSITIVE_TEXT]spichlerz[ENDCOLOR], dostarczający [ICON_FOOD] żywność, dzięki czemu twoje miasta szybciej się powiększają. Umożliwia też wzniesienie [COLOR_POSITIVE_TEXT]kaplicy[ENDCOLOR] będącej pierwszy budynkiem [ICON_PEACE] religijnym.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_RADAR_HELP">
+      <Text>Umożliwia wyprodukowanie [COLOR_POSITIVE_TEXT]bombowca[ENDCOLOR], zabójczej jednostki powietrznej siejącej zniszczenie z dużej odległości. Ponadto pozwala na stworzenie [COLOR_POSITIVE_TEXT]myśliwców[ENDCOLOR], jednostki powietrznej przeznaczonej do zdobywania panowania w powietrzu, i [COLOR_POSITIVE_TEXT]spadochroniarzy[ENDCOLOR], jednostki piechoty z późniejszych etapów gry, mogącej lądować na spadochronach za liniami wroga.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_RADIO_HELP">
+      <Text>Umożliwia zbudowanie [COLOR_POSITIVE_TEXT]wieży transmisyjnej[ENDCOLOR], budowli znacznie zwiększającej ilość punktów [ICON_CULTURE] kultury wytwarzanych przez miasto.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_REFRIGERATION_HELP">
+      <Text>Umożliwia zbudowanie [COLOR_POSITIVE_TEXT]okrętu podwodnego[ENDCOLOR], niewidzialnego dla większości jednostek poza niszczycielami i innymi okrętami podwodnymi oraz [COLOR_POSITIVE_TEXT]stadionu[ENDCOLOR], zwiększającego [ICON_HAPPINESS_1] zadowolenie w imperium, co ułatwia rozwój miast i zwiększa szanse osiągnięcia [ICON_GOLDEN_AGE] złotej ery.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_REPLACEABLE_PARTS_HELP">
+      <Text>Pozwala na szkolenie [COLOR_POSITIVE_TEXT]piechoty z czasów wielkiej wojny[ENDCOLOR], będącej podstawową jednostką lądową, oraz budowę [COLOR_POSITIVE_TEXT]bazy wojskowej[ENDCOLOR], zwiększającej siłę obrony miasta.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_ROBOTICS_HELP">
+      <Text>Robotyka to ważna technologia w wyścigu kosmicznym, umożliwiająca zbudowanie [COLOR_POSITIVE_TEXT]fabryki SK[ENDCOLOR], przyspieszającej wytwarzanie części statku kosmicznego. Pozwala też na wodowanie [COLOR_POSITIVE_TEXT]krążowników rakietowych[ENDCOLOR], które mogą przenosić do trzech pocisków i wykrywać wrogie okręty podwodne.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_ROCKETRY_HELP">
+      <Text>Technika rakietowa umożliwia rozpoczęcie [COLOR_POSITIVE_TEXT]programu Apollo[ENDCOLOR], projektu niezbędnego do [COLOR_POSITIVE_TEXT]zwycięstwa naukowego[ENDCOLOR]. Pozwala też stworzyć [COLOR_POSITIVE_TEXT]artylerię rakietową[ENDCOLOR] i [COLOR_POSITIVE_TEXT]wyrzutnie SAM[ENDCOLOR], szybkie jednostki służące do zwalczania wrogiego lotnictwa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_SCIENTIFIC_THEORY_HELP">
+      <Text>Umożliwia budowę [COLOR_POSITIVE_TEXT]szkoły publicznej[ENDCOLOR], zwiększającej ilość punktów [ICON_RESEARCH] nauki w miastach.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_STEALTH_HELP">
+      <Text>Umożliwia wyprodukowanie [COLOR_POSITIVE_TEXT]bombowca stealth[ENDCOLOR], najpotężniejszej jednostki powietrznej w grze.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_STEAM_POWER_HELP">
+      <Text>Umożliwia zbudowanie [COLOR_POSITIVE_TEXT]pancernika parowego[ENDCOLOR], potężnego okrętu wojennego mogącego pływać po wodach przybrzeżnych.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_STEEL_HELP">
+      <Text>Pozwala tworzyć [COLOR_POSITIVE_TEXT]ciężkozbrojnych[ENDCOLOR], zabójczo skuteczną średniowieczną jednostkę do walki wręcz. Ponadto umożliwia zbudowanie [COLOR_POSITIVE_TEXT]zbrojowni[ENDCOLOR], która zwiększa poziom doświadczenia werbowanych oddziałów.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_TELECOM_DESC">
+      <Text>Telekomunikacja pozwala na transmisję danych oraz informacji na duże odległości za pomocą różnorakich urządzeń sygnałowych. Wczesne formy prymitywnej komunikacji na odległość, w tym sygnały dymne i flagowe, ostatecznie uległy telegrafom, a później telefonowi. Badania naukowe oraz inżynieria, zwłaszcza w ostatnich 30 latach, doprowadziły do przełomu w globalnej komunikacji. Orbitujące satelity umożliwiają obecnie transmitowanie danych nawet do najdalszych zakątków ziemi. Telewizja, Internet, telefony komórkowe oraz GPS stały się częścią życia milionów ludzi na świecie, a wszystko to za sprawą badań w dziedzinie telekomunikacji.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_TELECOM_HELP">
+      <Text>Pozwala na zbudowanie [COLOR_POSITIVE_TEXT]atomowego okrętu podwodnego[ENDCOLOR], jednostki morskiej niewidocznej dla większości innych wojsk i mogącej przenosić 2 głowice. Umożliwia także budowę [COLOR_POSITIVE_TEXT]schronu przeciwbombowego[ENDCOLOR], który znacznie zmniejsza straty wśród ludności poniesione w wyniku ataku nuklearnego.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_TELECOM_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]„Im bardziej skomplikowanych środków komunikacji używamy, tym mniej się porozumiewamy.”[NEWLINE] - J.B. Priestly[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_THE_WHEEL_HELP">
+      <Text>Pozwala stworzyć [COLOR_POSITIVE_TEXT]strzelców rydwanowych[ENDCOLOR], szybką i silną jednostkę strzelającą, potrzebującą [ICON_RES_HORSE] koni. Ponadto umożliwia wzniesienie [COLOR_POSITIVE_TEXT]młyna wodnego[ENDCOLOR], zwiększającego zapasy [ICON_FOOD] żywności miasta i jego [ICON_PRODUCTION] produkcję, pod warunkiem, że stoi ono nad rzeką. Robotnicy mogą budować [COLOR_POSITIVE_TEXT]drogi[ENDCOLOR], pozwalające jednostkom szybciej przemieszczać się po mapie i przynoszące dodatkowe [ICON_GOLD] złoto, gdy łączą twoje miasta ze stolicą.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_THEOLOGY_HELP">
+      <Text>Umożliwia wznoszenie kilku wyspecjalizowanych budowli i cudów, zwiększających produkcję [ICON_PEACE] wiary i zdolność tworzenia nowych [ICON_GREAT_PEOPLE] wielkich ludzi.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_TRAPPING_HELP">
+      <Text>Pozwala twoim robotnikom budować [COLOR_POSITIVE_TEXT]obozy[ENDCOLOR] przy źródłach [ICON_RES_DEER] zwierzyny, [ICON_RES_IVORY] kości słoniowej, [ICON_RES_FUR] futra i [ICON_RES_TRUFFLES] trufli.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_WRITING_HELP">
+      <Text>Pozwala wznieść pierwszą budowlę [ICON_RESEARCH] naukową, [COLOR_POSITIVE_TEXT]bibliotekę[ENDCOLOR], pomagającą twojemu imperium w szybszym badaniu nowych technologii.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CAVALRY_STRATEGY">
+      <Text>Jednostki kawalerii są niszczycielskie w walce z oddziałami walczącymi wręcz, strzelającymi i z bronią oblężniczą. Używaj kawalerii do niszczenia arkebuzerów i przebij się za linie wroga, używając zdolności ruchu po wykonaniu ataku.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_FRIGATE_STRATEGY">
+      <Text>Fregata to pierwsza jednostka morska od czasów karaweli. Jest od niej nieco szybsza i lepiej uzbrojona. Fregata bez problemu radzi sobie z każdą napotkaną karawelą, triremą i wodną jednostką barbarzyńców.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GERMAN_PANZER_STRATEGY">
+      <Text>Panzery to unikatowa jednostka niemiecka zastępująca czołgi. Jest od nich silniejsza i szybsza. Może także ruszyć się po walce, dzięki czemu jest w stanie wykorzystać wyrwę w liniach wroga, zanim ów zdąży ją załatać. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELICOPTER_GUNSHIP_STRATEGY">
+      <Text>Śmigłowce bojowe to zabójcze jednostki powietrzne, działające jak jednostki lądowe - poza brakiem możliwości zdobywania miast. Są bardzo szybkie: potrafią pokonać do 6 pól na turę bez kary za typ terenu, także przez góry, ale przez wodę muszą przeprawiać się na okrętach. Śmigłowce bojowe otrzymują dużą premię do walki z czołgami. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LANCER_STRATEGY">
+      <Text>Lansjerzy to jednostka kawaleryjska z czasów renesansu. Plasuje się między rycerzami i kawalerią. Jest szybsza i potężniejsza od rycerza. Potrafi zmieść z mapy te niegdyś potężne jednostki. Lansjerzy są w stanie poważnie zagrozić nawet kawalerii.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_LONGSWORDSMAN_STRATEGY">
+      <Text>Ciężkozbrojni to standardowa jednostka średniowiecznej piechoty. Jest równie silna jak rycerze, ale od nich wolniejsza. Ciężkozbrojni są silniejsi od pikinierów, ale nie otrzymują premii w walce z kawalerią. Używaj ich i katapult do atakowania miast.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_MODERN_ARMOR_STRATEGY">
+      <Text>Nowoczesne czołgi są takie jak ich poprzednicy, tylko jeszcze lepsze. Są od nich o wiele silniejsze i również mogą ruszyć się po walce.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_MUSKETMAN_STRATEGY">
+      <Text>Arkebuzerzy to pierwsza jednostka z bronią prochową w grze, zastępująca starsze jednostki piechurów - tarczowników, pikinierów, itp. Nie jest to jednak jednostka strzelająca i nie może atakować przeciwnika znajdującego się w odległości większej niż jeden heks.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_NUCLEAR_SUBMARINE_STRATEGY">
+      <Text>Atomowy okręt podwodny jest wytrzymalszy i potężniejszy niż model z wcześniejszej epoki. Jest także niewidzialny dla większości jednostek i wykrywa inne okręty podwodne. Co najważniejsze, atomowe okręty podwodne mogą przenosić kierowane pociski rakietowe i pociski atomowe. Podobnie jak okręty podwodne są podatne na ataki wrogich niszczycieli i okrętów podwodnych, więc wysyłaj przodem inne jednostki, żeby sprawdzić, czy nie ma tam oddziałów wroga.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SONGHAI_MUSLIMCAVALRY_STRATEGY">
+      <Text>To unikatowa jednostka Songhajów zastępująca rycerzy. Ma takie same statystyki jak oni, ale otrzymuje dużą premię podczas atakowania miast. Kawaleria Mandekalu może poruszać się po wykonaniu ataku. Jej szybkość utrudnia przeciwnikowi przygotowanie obrony, nim kawaleria dotrze do celu.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SUBMARINE_STRATEGY">
+      <Text>Okręt podwodny to jednostka wyspecjalizowana w zwalczaniu innych okrętów. Jest niewidzialna dla większości jednostek, oprócz niszczycieli i innych okrętów podwodnych, dopóki nie zaatakuje. Może wpływać na pola z lodem. Wykorzystuj okręty podwodne do patrolowania wód nieprzyjaciela i zatapiania jego statków oraz chronienia własnych jednostek przed atakami jego jednostek podwodnych. </Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_TANK_STRATEGY">
+      <Text>Czołgi to niezwykle silna i mobilna jednostka lądowa. Może się ruszyć po walce, co pozwala jej tworzyć wyłomy w liniach wroga i przebijać się przez nie na zwolnione pola.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNITS_COMBATSTRENGTH_HEADING3_BODY">
+      <Text>Siła bojowa jednostki określa jej zdolności bojowe. Wojownicy, pierwsza jednostka bojowa, mają siłę bojową 6. Jednostki cywilne, jak osadnicy i robotnicy, mają siłę bojową 0 (zero). Zostają pokonani (pojmani lub zniszczeni), kiedy zaatakuje ich jednostka wojskowa.     </Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNITS_NAVAL_HEADING3_BODY">
+      <Text>Jednostki wodne to jednostki mogące poruszać się po polach z wodą. Nie mogą wchodzić na pola lądu, poza miastami na wybrzeżu. W zależności od rodzaju jednostka wodna może żeglować wyłącznie po wodach wybrzeża albo może wypływać na pola otwartego oceanu. Jednostki wodne dzielimy na te walczące z bliska i z dystansu.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_ALHAMBRA_DESC">
+      <Text>Znajdująca się w południowej Hiszpanii Alhambra jest dużym kompleksem pałacowym dynastii Nasrydów, która kontrolowała ten region w połowie XIV w. Budowa rozpoczęła się mniej więcej około 1238 r. n.e., za panowania Ibn al-Ahmara, i kontynuowana była przez jego następców. Nazwa Alhambra tłumaczona jest jako „czerwona wieża” i pochodzi od barwy ścian. Szczególna ze względu na styl architektoniczny mauretańskiego islamu, Alhambra posiada liczne płaskorzeźby oraz oparte na przeplatanych wzorach zdobienia zwane „arabeskami”, często spotykane w islamskiej sztuce. Choć w pałacu nadal obecne są elementy w stylu islamskim, duża część budowli wraz z jej wnętrzem została zrekonstruowana i zmodyfikowana po nastaniu w Hiszpanii katolicyzmu.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_ALHAMBRA_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]„Sprawiedliwość jest twierdzą nie do zdobycia, wybudowaną na grzbiecie góry, której nie straszne ani gwałtowne wichury, ani potężne armie.”[NEWLINE] - Joseph Addison[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_CN_TOWER_DESC">
+      <Text>Niegdyś najwyższa wolno stojąca budowla na świecie, wieża CN w Toronto w Kanadzie nadal jest w czołówce najwyższych konstrukcji na Ziemi. Zbudowana w 1976 r. jako wieża komunikacyjna przez Canadian National Railway Company (stąd przydomek CN), stała się symbolem Toronto oraz wielką atrakcją turystyczną. Wieża nadal jest używana jako nadajnik radiowo-telewizyjny i uważana jest za jeden z „siedmiu cudów współczesnego świata”, tym samym zasilając grupę kilku innych ważnych budowli XX w.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_CN_TOWER_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]„Nic nie porusza się szybciej od światła, może poza złymi wieściami, które rządzą się własnymi prawami.”[NEWLINE] - Douglas Adams[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_GREAT_FIREWALL_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]„Nieufność i ostrożność rodzą bezpieczeństwo.”[NEWLINE] - Benjamin Franklin[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_GREAT_FIREWALL_TEXT">
+      <Text>Wielka Zapora to wysoce restrykcyjny program do cenzury i monitoringu internetu kontrolujący przepływ informacji dostępnych dla twoich obywateli w sieci. Ograniczając ich dostęp do niebezpiecznych informacji, agencje rządowe mogą ograniczyć zamieszki i inne konsekwencje wprowadzania niepopularnych praw i programów rządowych.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_HUBBLE_DESC">
+      <Text>Nazwany na cześć wielkiego amerykańskiego astronoma, Edwina Hubble'a, Kosmiczny Teleskop Hubble'a okazał się jednym z najważniejszych narzędzi astronomicznych, które kiedykolwiek stworzono. Wystrzelony w 1990 r., teleskop ten nieustannie dostarcza zapierających dech w piersiach obrazów odległych konstelacji oraz mgławic, przyciągając uwagę zarówno naukowców, jak i laików. Ponieważ jest to jedyny teleskop kosmiczny zdatny do naprawy przez astronautów, służba Hubble'a jest ciągle wydłużana na potrzeby kolejnych działań w przestrzeni kosmicznej. Mimo swej niekwestionowanej spuścizny, Kosmiczny Teleskop Hubble'a zostanie zastąpiony w 2018 r. bardziej zaawansowanym Kosmicznym Teleskopem Jamesa Webba.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_HUBBLE_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]„Cudem nie jest to wielkie pole gwiazd, lecz to, że człowiekowi udało się je zmierzyć.”[NEWLINE] - Anatole France[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_LEANING_TOWER_DESC">
+      <Text>Sławna dzwonnica znajdująca się na Piazza del Duomo („Placu Katedralnym”) we włoskiej Pizie, popularnie zwana Krzywą Wieżą w Pizie, od wieków stoi troszkę nieprawidłowo. Budowa wieży rozpoczęła się 1173 r. i szybko stało się jasne, że niestabilna gleba i znikome fundamenty, na których powstawała konstrukcja, nie wystarczą, aby powstrzymać wieżę przed osiadaniem. Po pozostawieniu budowli w stanie nieukończonym przez niemal 100 lat, prace wznowiono pod koniec XIII w., a ukończono w 1372 r. Wieża posiada siedem dzwonów, z których każdy jest nastrojony do innego stopnia skali muzycznej.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_LEANING_TOWER_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]„Nie klaszczcie za mocno - to bardzo stary budynek.”[NEWLINE] - John Osborne[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_DESC">
+      <Text>Największa gliniana struktura na świecie, Wielki Meczet w Dżenne, znajduje się w afrykańskiej Republice Mali. Uważa się że po raz pierwszy wzniesiona została około XIII w. przez sułtana Koi Kunboro, a od tego czasu kilkakrotnie zniszczona i odbudowana. Budynek w dzisiejszej postaci, wykonany z glinianych cegieł oraz zaprawy, wzniesiony został w 1906 r. wspólnymi wysiłkami okolicznej społeczności. Meczet jest obecnie odnawiany przez mieszkańców Dżenne w trakcie corocznych obchodów poświęconych przedłużaniu życia budowli.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]„W obliczu potęgi nieskończoności pozwólmy, aby czas, z jego wszystkimi fluktuacjami, skurczył się do własnej małości.”[NEWLINE] - Thomas Chalmers[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_NEUSCHWANSTEIN_DESC">
+      <Text>Zamówiony przez „Szalonego Króla” Ludwika II Bawarskiego pod koniec XIX w., zamek Neuschwanstein stał się symbolem typowego „zamku z bajki”, często pojawiającego się w literaturze dziecięcej. Wyrastający ze zbocza góry nieopodal miasta Fussen w Niemczech zamek był miejscem, gdzie Ludwik mógł odpocząć od wzroku poddanych, a był typem samotnika. Po jego śmierci zamek stał się popularną atrakcją turystyczną i ostatecznie stał się inspiracją dla słynnego zamku Śpiącej Królewny stworzonego przez Walta Disneya.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_NEUSCHWANSTEIN_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]„...miejsce to jest jednym z najpiękniejszych, jakie można znaleźć. Święte i niedostępne. Prawdziwa świątynia ku czci boskiego przyjaciela, który przyprowadził wybawienie i prawdziwe błogosławieństwo dla świata.”[NEWLINE] - Król Ludwig II Bawarski[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_PETRA_DESC">
+      <Text>Petra, zbudowana mniej więcej w 1000 r. n.e. w Jordanii, jest jedną z najbardziej znanych na świecie konstrukcji architektonicznych wykutych w skale. Liczne precyzyjnie wyryte elementy powstały na ścianach pustynnych kanionów otaczających te rejony, a Petra była stolicą dla niegdyś pasterskiego ludu Nabatejczyków. Najbardziej znana z tych struktur - Al Khazneh, czyli „Skarbiec”, znalazła się w wielu dużych produkcjach filmowych, takich jak „Indiana Jones i ostatnia krucjata”, w której Al Khazneh służył za scenerię dla Świętego Graala.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_PETRA_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]„...kto zaś będzie pił wodę, którą Ja mu dam, nie będzie pragnął na wieki, lecz woda, którą Ja mu dam, stanie się w nim źródłem wody wytryskującej ku życiu wiecznemu. Niech dane mi będzie dotrzeć do Świętej Góry poprzez pustynię, góry i Dolinę Półksiężyca, aż do świątyni, gdzie spoczywa Czara.”[NEWLINE] - Indiana Jones[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_TERRACOTTA_ARMY_DESC">
+      <Text>Odkopana przez chińskich rolników w 1974 r. Terakotowa Armia cesarza Qin Shi Huanga została stworzona, aby towarzyszyć cesarzowi w jego grobowcu. Powstały w III w. p.n.e. zbiór tysięcy pełnowymiarowych, glinianych figur przedstawia żołnierzy, z których każdy wygląda inaczej. Ustawione w odpowiednim szyku wzdłuż długich rowów wyrytych w grobowcu, figury Terakotowej Armii mają swoje konie, rydwany oraz kawalerię, które również odtworzono z zachowaniem niezwykłej szczegółowości.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_TERRACOTTA_ARMY_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]„Traktuj swych żołnierzy jak synów, a pójdą za tobą w najgłębsze doliny. Patrz na nich jak na synów umiłowanych, a staną u twego boku nawet w obliczu śmierci.”[NEWLINE] - Sun Zi[NEWLINE][TAB]</Text>
+    </Row>
+  </Language_PL_PL>
+</GameData>

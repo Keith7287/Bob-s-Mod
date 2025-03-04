@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StyleSheet>
+
+    <SmallButton >
+
+        <GridData Style="Grid9Frame27" />
+        <ShowOnMouseOver>
+            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="-3,-1" Size="15,32" TextureOffset="17.0" Texture="Assets/UI/Art/Controls/buttonsidesglow2.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="-2,-1" Size="15,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow2.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+            <Image Anchor="R,C" Offset="-19,1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="32,32" />
+            <Image Anchor="L,C" Offset="-19,1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides_left.dds" Size="32,32" />
+        </ShowOnMouseOver>
+
+    </SmallButton>
+
+    <BaseButton >
+
+        <GridData Style="Grid9FrameButtons" />
+        <ShowOnMouseOver>
+            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="-2,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="-2,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+            <Image Anchor="R,C" Offset="-14,1" TextureOffset="0.0" AnchorSide="0.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="32,32" />
+            <Image Anchor="L,C" Offset="-14,1" TextureOffset="0.0" AnchorSide="0.O"  Texture="Assets/UI/Art/Controls/buttonsides_left.dds" Size="32,32" />
+        </ShowOnMouseOver>
+
+    </BaseButton>
+
+    <BaseButton2 >
+
+        <GridData Style="Grid9FrameButtons2" />
+        <ShowOnMouseOver>
+            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="-2,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="-2,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+            <Image Anchor="R,C" Offset="-14,1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="32,32" />
+            <Image Anchor="L,C" Offset="-14,1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides_left.dds" Size="32,32" />
+        </ShowOnMouseOver>
+
+    </BaseButton2>
+
+    <!-- Grid9DetailThree140 -->
+    <Grid9DetailThree140 Texture="Assets/UI/Art/Controls/9 Grids/Grid9DetailThree140.dds" Padding="0,0"
+        ULSize="74,70"  ULTexStart="0,0"
+        UCSize="1,70" UCTexStart="70,0"
+        URSize="74,70"  URTexStart="70,0"
+        LSize="74,1"  LTexStart="0,70"
+        CSize="1,1" CTexStart="70,70"
+        RSize="74,1"  RTexStart="70,70"
+        LLSize="74,70"  LLTexStart="0,70"
+        LCSize="1,70" LCTexStart="70,70"
+        LRSize="74,70"  LRTexStart="70,70"
+               />
+
+    <!-- Grid9DetailFive140 -->
+    <Grid9DetailFive140 Texture="Grid9DetailFive140.dds" Padding="0,0"
+        ULSize="74,60"  ULTexStart="0,0"
+        UCSize="1,60" UCTexStart="70,0"
+        URSize="74,60"  URTexStart="70,0"
+        LSize="74,1"  LTexStart="0,70"
+        CSize="1,1" CTexStart="70,70"
+        RSize="74,1"  RTexStart="70,70"
+        LLSize="74,50"  LLTexStart="0,90"
+        LCSize="1,70" LCTexStart="70,70"
+        LRSize="74,50"  LRTexStart="70,90"
+               />
+
+
+    <!-- Grid9DetailSix140 -->
+    <Grid9DetailSix140 Texture="Grid9DetailSix140.dds" Padding="0,0"
+        ULSize="74,70"  ULTexStart="0,0"
+        UCSize="1,70" UCTexStart="70,0"
+        URSize="74,70"  URTexStart="70,0"
+        LSize="74,1"  LTexStart="0,70"
+        CSize="1,1" CTexStart="70,70"
+        RSize="74,1"  RTexStart="70,70"
+        LLSize="74,70"  LLTexStart="0,70"
+        LCSize="1,70" LCTexStart="70,70"
+        LRSize="74,70"  LRTexStart="70,70"
+               />
+  <!-- Grid9Detail162 -->
+  <Grid9Detail162 Texture="Assets/DLC/Expansion/UI/Art/Controls/9 Grids/Grid9Detail162.dds" Padding="0,0"
+      ULSize="80,80"  ULTexStart="0,0"
+      UCSize="1,80" UCTexStart="80,0"
+      URSize="80,80"  URTexStart="80,0"
+      LSize="80,1"  LTexStart="0,80"
+      CSize="1,1" CTexStart="80,80"
+      RSize="80,1"  RTexStart="80,80"
+      LLSize="80,80"  LLTexStart="0,80"
+      LCSize="1,80" LCTexStart="80,80"
+      LRSize="80,80"  LRTexStart="80,80"
+               />
+
+    <FrameButton460 Size="460,32" TextOffset="0,-2" >
+        <GridData Style="Grid9DarkBlue8Button" />
+        <Grid Anchor="C,C" Offset="0,0" Size="464,36" Padding="0,0" Style="Grid9Frame" Hidden="0" />
+        <ShowOnMouseOver>
+            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="0,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="0,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+            <Image Anchor="R,C" Offset="-14,1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="32,32" />
+            <Image Anchor="L,C" Offset="-14,1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides_left.dds" Size="32,32" />
+            <AlphaAnim Anchor="C,C" Offset="0,0" Size="320,36" TextureOffset="0.0"  Pause="0" Cycle="Bounce" Speed="1" AlphaStart="0" AlphaEnd=".3" >
+                <Grid  Size="460,32" Anchor="C,C" Offset="0,0" Style="Grid9Highlight8" />
+            </AlphaAnim>
+        </ShowOnMouseOver>
+    </FrameButton460>
+
+
+    <FrameButton320 Size="320,36" TextOffset="0,-2" >
+        <GridData Style="Grid9DarkBlue8Button" />
+        <Grid Anchor="C,C" Offset="0,0" Size="324,40" Padding="0,0" Style="Grid9Frame" Hidden="0" />
+        <ShowOnMouseOver>
+            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="0,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="0,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+            <Image Anchor="R,C" Offset="-14,1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="32,32" />
+            <Image Anchor="L,C" Offset="-14,1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides_left.dds" Size="32,32" />
+            <AlphaAnim Anchor="C,C" Offset="0,0" Size="320,36" TextureOffset="0.0"  Pause="0" Cycle="Bounce" Speed="1" AlphaStart="0" AlphaEnd=".3" >
+                <Grid  Size="320,36" Anchor="C,C" Offset="0,0" Style="Grid9Highlight8" />
+            </AlphaAnim>
+        </ShowOnMouseOver>
+    </FrameButton320>
+
+
+    <FrameButton200 Size="200,32" TextOffset="0,-2" >
+        <GridData Style="Grid9DarkBlue8Button" />
+        <Grid Anchor="C,C" Offset="0,0" Size="204,36" Padding="0,0" Style="Grid9Frame" Hidden="0" />
+        <ShowOnMouseOver>
+            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="0,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="0,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+            <Image Anchor="R,C" Offset="-14,1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="32,32" />
+            <Image Anchor="L,C" Offset="-14,1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides_left.dds" Size="32,32" />
+            <AlphaAnim Anchor="C,C" Offset="0,0" Size="320,36" TextureOffset="0.0"  Pause="0" Cycle="Bounce" Speed="1" AlphaStart="0" AlphaEnd=".3" >
+                <Grid  Size="200,32" Anchor="C,C" Offset="0,0" Style="Grid9Highlight8" />
+            </AlphaAnim>
+        </ShowOnMouseOver>
+    </FrameButton200>
+
+  <MenuTitleCaption Anchor="C,T" Offset="0,20" Font="TwCenMT20" ColorSet="MenuTitleColors" FontStyle="SoftShadow" />
+
+  <!-- The bits that go on the left and right outer edge of menu boxes -->
+  <MenuLeftSideTreatment Anchor="L,C" AnchorSide="O.I">
+    <Image Anchor="R,C" Offset="-19,0" Texture="Dec32x64Left.dds" Size="32,64" />
+  </MenuLeftSideTreatment>
+  <MenuRightSideTreatment Anchor="R,C" AnchorSide="O.I">
+    <Image Anchor="L,C" Offset="-19,0" Texture="Dec32x64Right.dds" Size="32,64" />
+  </MenuRightSideTreatment>
+
+	<MenuBottomTreatment Anchor="C,B" AnchorSide="O.O">
+		<Image Anchor="C,T" Offset="0,-109" Texture="Assets/UI/Art/Controls/bottomframe_Thinner.dds" Size="512,128" />
+	</MenuBottomTreatment>
+
+	<PopupLeftSideTreatment Anchor="L,C" AnchorSide="O.I">
+		<Image Anchor="R,C" Offset="-19,0" Texture="Dec32x64Left.dds" Size="32.64" />
+	</PopupLeftSideTreatment>
+
+	<PopupRightSideTreatment Anchor="R,C" AnchorSide="O.I">
+		<Image Anchor="L,C" Offset="-19,0" Texture="Dec32x64Right.dds" Size="32.64" />
+	</PopupRightSideTreatment>
+
+	<PopupNotificationTopTreatment Anchor="C,T" AnchorSide="I.O">
+		<Image Anchor="C,B" Offset="0,-14" Size="256,64" Texture="Top512IconTrim.dds"  >
+			<Image Anchor="C,C" Offset="0,0" Size="80,80" Texture="NotificationFrameBase.dds"  >
+				<AlphaAnim Anchor="C,C" Offset="0,0" Size="80.80"  Texture="assets\UI\Art\Notification\NotificationGenericGlow.dds"  Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".5"/>
+			</Image>
+		</Image>
+	</PopupNotificationTopTreatment>
+
+</StyleSheet>

@@ -1,0 +1,882 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_JA_JP>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_ALREADY_COMMITTED">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]今回の会合のためにすでにこの文明と代表を取引している。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_ALREADY_USED_VOTES">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]今回の会合のためにすでに代表を出している。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_ENACT_TT">
+      <Text>次の会合においてこのリーダーは、[COLOR_POSITIVE_TEXT]{1_NumVotes}人[ENDCOLOR]いる代表の中核を占める者たちを使い、以下の提案の[COLOR_POSITIVE_TEXT]施行[ENDCOLOR]に{2_ChoiceText}票を投じる:[NEWLINE][NEWLINE]{3_ProposalText}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_IN_SESSION">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]世界議会が会合を開いているときは取引を行えない。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO">
+      <Text>我々には取引材料になる代表がいません。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_LEAGUE">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]世界議会はまだ創設されていない。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_PROPOSALS">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]今回の会合ではまだ何も提案されていない。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_SPY">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]スパイが[ICON_DIPLOMAT]外交官として相手国の[ICON_CAPITAL]首都にいなければならない。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_SPY_ACTIVE_PLAYER">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]彼らのスパイが[ICON_DIPLOMAT]外交官として我が国の[ICON_CAPITAL]首都にいなければならない。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NO_THEM">
+      <Text>彼らには取引材料になる代表がいません。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_NOT_MEMBER">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]世界議会に加盟していない。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_REPEAL_TT">
+      <Text>次の会合においてこのリーダーは、[COLOR_POSITIVE_TEXT]{1_NumVotes}人[ENDCOLOR]いる代表の中核を占める者たちを使い、以下の提案の[COLOR_WARNING_TEXT]無効化[ENDCOLOR]に{2_ChoiceText}票を投じる:[NEWLINE][NEWLINE]{3_ProposalText}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_YES">
+      <Text>我々には取引材料になる代表がいます。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_VOTE_TRADE_YES_THEM">
+      <Text>彼らには取引材料になる代表がいます。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_ALWAYS">
+      <Text>極めて好意的</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_DISLIKE">
+      <Text>非好意的</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_LIKE">
+      <Text>好意的</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_NEUTRAL">
+      <Text>中立</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_NEVER">
+      <Text>極めて非好意的</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_STRONG_DISLIKE">
+      <Text>かなり非好意的</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_STRONG_LIKE">
+      <Text>かなり好意的</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_WEAK_DISLIKE">
+      <Text>若干非好意的</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_DESIRE_WEAK_LIKE">
+      <Text>若干好意的</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_NOT_FOUNDED">
+      <Text>世界議会はまだ創設されていない。世界議会はある文明が{@1_TechName}を発見し、すべての文明と遭遇すると創設される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_NOT_FOUNDED_GAME_SETTINGS">
+      <Text>このゲームでは世界議会は無効になっています。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_1">
+      <Text>第1回</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_10">
+      <Text>第10回</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_2">
+      <Text>第2回</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_3">
+      <Text>第3回</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_4">
+      <Text>第4回</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_5">
+      <Text>第5回</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_6">
+      <Text>第6回</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_7">
+      <Text>第7回</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_8">
+      <Text>第8回</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_ORDINAL_9">
+      <Text>第9回</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW">
+      <Text>世界議会</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_ACTIVE_RESOLUTIONS">
+      <Text>施行された決議</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_ACTIVE_RESOLUTIONS_TT">
+      <Text>現在施行されている決議。反対している文明が無効化を目論むこともある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CHANGE_NAME">
+      <Text>名前の変更</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_COMMIT_PROPOSALS">
+      <Text>提案を出す</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_COMMIT_VOTES">
+      <Text>代表を出す</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CONFIRM">
+      <Text>よろしいですか？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CONFIRM_MISSING_VOTES">
+      <Text>[COLOR_WARNING_TEXT]割り当てていない代表がいます。[ENDCOLOR]割り当てを行いますか？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CURRENT_PROPOSALS">
+      <Text>現在の提案</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_CURRENT_PROPOSALS_TT">
+      <Text>次の会合で決定される決議。文明からの代表の支持が最も多い意見が採用される。意見が真っ二つに分かれた場合、決議は否決され、現状が維持される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_ACTIVE_PROJECTS">
+      <Text>進行中のプロジェクト: {1_ProjectsList}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_ACTIVE_PROJECTS_ENTRY">
+      <Text>{@1_ProjectName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_CULTURE_FROM_NATURAL_WONDERS">
+      <Text>自然遺産により+{1_CulturePerWorldWonder} [ICON_CULTURE]文化力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_CULTURE_FROM_WONDERS">
+      <Text>世界遺産により+{1_CulturePerWorldWonder} [ICON_CULTURE]文化力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_DISCOVERED_TECH_MODIFIER">
+      <Text>他の文明がすでに発見しているテクノロジーの研究コスト-{1_ResearchCostPercent}% [ICON_RESEARCH]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_CITY_STATES">
+      <Text>都市国家との[ICON_INTERNATIONAL_TRADE]交易なし</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_PLAYERS">
+      <Text>[ICON_INTERNATIONAL_TRADE]交易なし: {1_CivsList}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_EMBARGO_PLAYERS_ENTRY">
+      <Text>{@1_CivName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_GPT">
+      <Text>ターン毎の[ICON_GOLD]ゴールド: {1_GoldPerTurn}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_GREAT_PERSON_RATE_ENTRY">
+      <Text>{@1_GreatPersonType}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_GREAT_PERSON_TILE_IMPROVEMENT_CULTURE">
+      <Text>偉人によって建設されたそれぞれのタイルからの[ICON_CULTURE]文化力+{1_NumCulture} </Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_HOST">
+      <Text>主催国: {@1_CivName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_LANDMARK_CULTURE">
+      <Text>それぞれの考古学的ランドマークからの[ICON_CULTURE] 文化力+{1_NumCulture} </Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NEGATIVE_GREAT_PERSON_RATE">
+      <Text>{2_GreatPersonList}の誕生率が{1_GreatPersonRateMod}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NO_NUCLEAR_WEAPONS">
+      <Text>核兵器の生産なし</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NO_RESOURCE_HAPPINESS">
+      <Text>[ICON_HAPPINESS_1]幸福度なし: {1_ResourceList}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NO_RESOURCE_HAPPINESS_ENTRY">
+      <Text>{@1_ResourceName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_NONE">
+      <Text>効果なし</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_POSITIVE_GREAT_PERSON_RATE">
+      <Text>{2_GreatPersonList}の誕生率が+{1_GreatPersonRateMod}% </Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_RESOURCE_QUANTITIES">
+      <Text>追加資源: {1_ResourcesList}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_RESOURCE_QUANTITIES_ENTRY">
+      <Text>{@1_ResourceName} ({2_ResourceQuantity})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_TITLE">
+      <Text>現在の効果</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_TT">
+      <Text>世界議会によって施行されている決議の効果。新しい決議が採択されたり、従来の決議が無効化されるのにともなって変化する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_UNIT_MAINTENANCE">
+      <Text>ユニットの維持に必要なゴールド+{1_UnitMaintenancePercent}% [ICON_GOLD]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WORLD_IDEOLOGY">
+      <Text>世界的思想: {@1_IdeologyName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_EFFECT_SUMMARY_WORLD_RELIGION">
+      <Text>世界的宗教: {1_IconString} {@2_ReligionName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_ENTER_NAME">
+      <Text>新しい名前を入力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_ERROR_NAME_EMPTY">
+      <Text>名前を入力してください。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_IN_SESSION">
+      <Text>会合中</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_IN_SPECIAL_SESSION">
+      <Text>[COLOR_POSITIVE_TEXT]特別会合[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INACTIVE_RESOLUTIONS">
+      <Text>決議（候補）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INACTIVE_RESOLUTIONS_TT">
+      <Text>採択を目指している途中の決議。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_ALREADY_ENACTED">
+      <Text>すでに施行されている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_ALREADY_PROPOSED">
+      <Text>すでに提案されている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_BUTTON_TT">
+      <Text>[COLOR_GREY]今、この提案をすることはできない。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_CHOICE_BUTTON_TT">
+      <Text>[COLOR_GREY]この提案について、この選択肢はすでに検討されており、再度提案することはできない。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_GAMEOPTION">
+      <Text>このゲームのオプションによって禁止されている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_NO_CHOICES">
+      <Text>この決議には選べる対象が存在しない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_NO_PLAYER_PROPOSAL">
+      <Text>文明が提案することはできない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_INVALID_RESOLUTION_NO_TECH">
+      <Text>まだどの文明も「{@1_TechName}」を研究していない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS">
+      <Text>{@2_CivName}の{@1_LeaderName}は合計{3_VotesRemaining}人の代表を配下に置いている。会合が始まると、この数は会合終了まで変えられなくなる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_BASE_VOTES">
+      <Text>[NEWLINE]加盟国から[ICON_BULLET]{1_NumVotes}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_CS_VOTES">
+      <Text>[NEWLINE]都市国家から[ICON_BULLET]{1_NumVotes}（同盟国毎に{2_VotesPerCityState}）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_DIPLOMAT_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]グローバル化の研究から{1_NumVotes}( [ICON_DIPLOMAT] 外交官として任命されたスパイ1人につき{2_VotesPerDiplomat} )</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_EXTRA_VOTES">
+      <Text>[NEWLINE]以前の世界の指導者の試みから[ICON_BULLET]{1_NumVotes}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_HOST_VOTES">
+      <Text>[NEWLINE]主催国であることにより[ICON_BULLET]{1_NumVotes}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_WONDER_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]世界遺産から{1_NumVotes}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_WORLD_IDEOLOGY_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]世界的思想を奉じていることから{1_NumVotes}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_WORLD_RELIGION_VOTES">
+      <Text>[NEWLINE][ICON_BULLET]世界的宗教を信仰していることから{1_NumVotes}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_DOF">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]友好宣言を締結[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_IDEOLOGY">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]1つの思想を共有[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_INTIMATE">
+      <Text>[NEWLINE][NEWLINE]彼らの議題に関する機密情報を保有している。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_NO_DOF">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]友好宣言を締結していない[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_NO_IDEOLOGY">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]思想が異なっている[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_NO_SPY">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]スパイを[ICON_DIPLOMAT]外交官として相手国の[ICON_CAPITAL]首都に派遣していない[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_NONE">
+      <Text>[NEWLINE][NEWLINE]彼らの関心は謎に包まれている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_PARTIAL">
+      <Text>[NEWLINE][NEWLINE]彼らの目標についてある程度はわかっている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_INTRIGUE_SPY">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT][ICON_SPY]スパイを[ICON_DIPLOMAT]外交官として相手国の[ICON_CAPITAL]首都に派遣してある[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTE_COMMITMENT">
+      <Text>[NEWLINE][NEWLINE]取引により、彼らは{3_NumDelegates}人の代表に{1_Proposal}の{2_VoteChoice}を支持させることに同意した。 </Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTE_INTIMATE">
+      <Text>[NEWLINE][ICON_BULLET]{1_Proposal}への{2_VoteChoice}に{3_DesireLevel}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTE_NONE">
+      <Text>[NEWLINE][ICON_BULLET]{1_Proposal}への賛否は不明</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTE_PARTIAL">
+      <Text>[NEWLINE][ICON_BULLET]{1_Proposal}に{2_VoteChoice}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_OPINIONS_VOTES">
+      <Text>[NEWLINE][NEWLINE]現在の提案について彼らが取るであろう選択:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_MEMBER_VOTES">
+      <Text>代表{1_VotesRemaining}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_OTHER_RESOLUTIONS">
+      <Text>他の決議</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_OTHER_RESOLUTIONS_TT">
+      <Text>今回は提案できない決議。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PREFIX_ENACT">
+      <Text>[COLOR_POSITIVE_TEXT]施行: [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PREFIX_REPEAL">
+      <Text>[COLOR_WARNING_TEXT]無効化: [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_ON_HOLD_TT">
+      <Text>世界議会の特別会合が終了するまで、この提案は保留される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINION">
+      <Text>[NEWLINE][ICON_BULLET]{@1_CivName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_NEGATIVE">
+      <Text>[NEWLINE][NEWLINE]これを提案した場合に腹を立てる文明:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSAL_OPINIONS_POSITIVE">
+      <Text>[NEWLINE][NEWLINE]これを提案した場合に喜ぶ文明:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSE_BUTTON">
+      <Text>クリックで提案</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSE_BUTTON_TT">
+      <Text>これをクリックすると決議を提案する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSE_RESOLUTION">
+      <Text>決議の提案</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSER_BY_DELEGATION_SIZE">
+      <Text>彼らは最も多くの代表を擁する非主催者なので、次の会合で提案を行うことができる。この会合が終了した時点でこの前提に変化があった場合は、同じ条件の異なる文明に提案権が移る。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSER_BY_HOSTING">
+      <Text>彼らは主催者なので、次の会合で提案を行うことができる。この会合が終了した時点で主催者が変わっていた場合は、新しい主催者に提案権が移る。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSER_BY_ROTATION">
+      <Text>特権が巡ってきたため、次の会合で彼らは提案を行える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_PROPOSERS_LIST">
+      <Text>以下からの提案待ち:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_RENAME">
+      <Text>名称変更</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_RENAME_TT">
+      <Text>世界議会の新たな名称を選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_RESET_PROPOSALS">
+      <Text>提案をリセット</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_RESET_VOTES">
+      <Text>代表をリセット</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_TURNS_UNTIL_SESSION">
+      <Text>会合までのターン数: {1_NumTurnsUntilNextVote}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VIEW_ALL_RESOLUTIONS">
+      <Text>すべての決議を表示</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_ABSTAIN">
+      <Text>棄権</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_NAY">
+      <Text>[COLOR_RED]反対[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS">
+      <Text>[NEWLINE][NEWLINE]他の文明が求めていることについて知識にもとづいて推計されるこの提案に対する見込み:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_CHOICE">
+      <Text>[NEWLINE][ICON_BULLET]{3_VoteChoice}: {1_NumDelegates}人の代表（{2_NumCivs}つの文明）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_COMMITMENTS">
+      <Text>[NEWLINE][ICON_BULLET]{3_VoteChoice}: 取引により、{2_NumCivs}つの文明が{1_NumDelegates}人の代表の支持を約束した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_OURS">
+      <Text>[NEWLINE][ICON_BULLET]我が文明は{1_NumDelegates}人の代表を影響下に置いている</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_OPINIONS_UNACCOUNTED">
+      <Text>[NEWLINE][ICON_BULLET]{1_NumDelegates}人の代表を影響下に置いている{2_NumCivs}つの文明の態度が不明</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTE_YAY">
+      <Text>[COLOR_GREEN]賛成[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_VOTES_REMAINING">
+      <Text>残っている代表: {1_VotesRemaining}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_WORLD_LEADER_INFO_SESSION">
+      <Text>「世界の指導者」の再提案までのターン数: [COLOR_POSITIVE_TEXT]{1_DelegatesForWin}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_WORLD_LEADER_INFO_TT">
+      <Text>世界議会が国連になったため、外交による勝利を収めることが可能になった。今後は、世界の指導者の選出が提案されると、{1_DelegatesForWin}人以上の代表から支持された文明が、外交による勝利を得る。この人数は、ゲーム内の文明と都市国家の数に基づいている。[NEWLINE][NEWLINE]議会の会合には、一般的な提案が行われる通常会合と、世界の指導者を選出する提案のみが行われる専門会合がある。通常会合と専門会合は交互に開催される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_OVERVIEW_WORLD_LEADER_INFO_VOTES">
+      <Text>「世界の指導者」提案での勝利に必要な代表: [COLOR_POSITIVE_TEXT]{1_DelegatesForWin}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_COST_PER_PLAYER">
+      <Text>1つの文明につき{1_ProductionCostPerPlayer} [ICON_PRODUCTION]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_INTERNATIONAL_SPACE_STATION">
+      <Text>国際宇宙ステーション</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_INTERNATIONAL_SPACE_STATION_SPLASH">
+      <Text>国際宇宙ステーションが完成し、人類の新たなフロンティアの象徴として宇宙に打ち上げられた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_POPUP_COMPLETE">
+      <Text>完成！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_POPUP_PROGRESS_COST">
+      <Text>このプロジェクトは{1_PercentComplete}%完成している。これまでの貢献度は[ICON_PRODUCTION] [COLOR_POSITIVE_TEXT]{2_PlayerContribution}[ENDCOLOR]。貢献度を上げれば、報酬もそれだけ大きくなる:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_POPUP_TOTAL_COST">
+      <Text>プロジェクトの完成には、すべての文明を合わせて生産力[ICON_PRODUCTION] {1_TotalCost}が必要。貢献度を上げれば、報酬もそれだけ大きくなる:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_DESC">
+      <Text>{1_RewardIconString} {2_RewardDescription} {3_Contribution}：{4_RewardDetails}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1">
+      <Text>建造した部品</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1_HELP">
+      <Text>1回だけ研究速度が上がる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2">
+      <Text>搭乗員</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2_HELP">
+      <Text>無償の大科学者。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3">
+      <Text>ミッション管制室</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3_HELP">
+      <Text>遺産である国際宇宙ステーションが[ICON_CAPITAL]首都に現れる。({TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION_HELP})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_NONE">
+      <Text>報酬なし</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_NONE_HELP">
+      <Text>貢献度不足により報酬はいっさい得られなかった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TIER_1">
+      <Text>（[ICON_PRODUCTION] {1_ContributionThreshold}以上）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TIER_2">
+      <Text>（[ICON_PRODUCTION] {1_ContributionThreshold}以上）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_TIER_3">
+      <Text>（最大の貢献者）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_1">
+      <Text>参加者</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_1_HELP">
+      <Text>次の[ICON_GOLDEN_AGE]黄金時代まで500ポイント。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_2">
+      <Text>世紀の発明</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_2_HELP">
+      <Text>無償の社会制度</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3">
+      <Text>万国博覧会を開催</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP">
+      <Text>[ICON_CULTURE]文化力が20ターンの間100%向上。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_1">
+      <Text>参加国による大行進</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_1_HELP">
+      <Text>[ICON_HAPPINESS_1]幸福度+3 。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_2">
+      <Text>メダルを獲得</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_2_HELP">
+      <Text>[ICON_HAPPINESS_1]幸福度+3。1回に限って都市国家への[ICON_INFLUENCE]影響力が30増加。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3">
+      <Text>大会を主催</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP">
+      <Text>[ICON_TOURISM]観光力が20ターンの間100%向上。無償の社会制度。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_FAIR">
+      <Text>万国博覧会</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_FAIR_SPLASH">
+      <Text>アイディアを発表し合うため、盛大に催された万国博覧会に世界各地から科学者や発明家が参集した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_GAMES">
+      <Text>国際大会</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_PROJECT_WORLD_GAMES_SPLASH">
+      <Text>力、技、優美さを競う祭典に参加するため、各文明を代表するアスリートたちが集まった。世界が見守る中、この国際大会でメダルを獲得した文明は、その栄誉を大いに讃えられることになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_LEADERSHIP_COUNCIL">
+      <Text>世界議会が基盤を拡大</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_LEADERSHIP_COUNCIL_HELP">
+      <Text>大国も小国も自国の主張を通すために争い、国際情勢は一段と複雑化している。議事を進展させるべく、次の主催国を選ぶ特別会合が召集される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_START_UNITED_NATIONS">
+      <Text>世界議会が国際連合に</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_START_UNITED_NATIONS_HELP">
+      <Text>世界に芽生えた恒久的な平和への願いは、世界議会に根を下ろし、ついには国連という形で花開いた。この権威ある外交組織の主催国を選ぶため、特別会合が召集される。国連になっても、物事の決定方法は従来と変わらないが、1つ重要な変化が起きる。世界の指導者を選ぶための会合が、通常の会合と交互に開かれるようになるため、[COLOR_POSITIVE_TEXT]外交による勝利[ENDCOLOR]を得ることが可能になるのだ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_START_WORLD_CONGRESS">
+      <Text>世界議会の創設</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_START_WORLD_CONGRESS_HELP">
+      <Text>世界中の指導者が世界議会で一堂に会し、国際問題についての話し合いを始める。最優先事項は議会の主催国を決めることだ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_WELCOME_CITY_STATES">
+      <Text>世界議会は都市国家を歓迎</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPECIAL_SESSION_WELCOME_CITY_STATES_HELP">
+      <Text>都市国家が世界の舞台に立ち、国際外交の一翼を担う時代がやってきた。今後、都市国家と同盟を結んでいる文明は、追加の代表を獲得する。この変化に対応すべく、世界議会は特別会合を召集し、議会の次の主催国を決定する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_CITYSTATE_DELEGATES">
+      <Text>[ICON_BULLET]同盟している都市国家1つにつき+{1_NumDelegates}人の代表</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_CIV_DELEGATES">
+      <Text>[ICON_BULLET]他の文明に対し{1_NumDelegates}人の代表</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_DIPLO_VICTORY_POSSIBLE">
+      <Text>[ICON_BULLET]会合2回ごとに[COLOR_POSITIVE_TEXT]世界の指導者[ENDCOLOR]の提案</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_HOST_DELEGATES">
+      <Text>[ICON_BULLET]主催者である文明に対し{1_NumDelegates}人の代表</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_ERA_NO_CHANGE">
+      <Text>[ICON_BULLET]変更なし</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_FOUNDED">
+      <Text>{@1_CivName}はこの世界に存在する文明をすべて発見した。これを祝うため、世界各地の指導者が{2_LeagueName}で{3_TurnsUntilSession}ターン後に一堂に会し、国際外交について話し合いを始めることになった。文明が新しい時代を迎えるにつれ、この議会は変化し、新たな主催国を選出できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_GAME_ERA">
+      <Text>文明の半数がそこまで到達したか、1つの文明がその次の時代に到達したため、世界は{@1_EraName}に入った。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_NEXT_ERA">
+      <Text>次の時代:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_MESSAGE_THIS_ERA">
+      <Text>今の時代:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_SPLASH_TITLE_FOUNDED">
+      <Text>世界議会の創設</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_UNITED_NATIONS">
+      <Text>国連</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_WORLD_CONGRESS_1">
+      <Text>{@1_Ordinal}{@2_CityName}議会</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_WORLD_CONGRESS_2">
+      <Text>{@1_Ordinal}{@2_CityName}会議</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_WORLD_CONGRESS_3">
+      <Text>{@1_Ordinal}{@2_CityName}評議会</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEAGUE_WORLD_CONGRESS_GENERIC">
+      <Text>世界議会</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROJECT_COMPLETE">
+      <Text>{@1_ProjectName}完成</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROJECT_COMPLETE_TT">
+      <Text>{@1_ProjectName}プロジェクトが完成した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROJECT_PROGRESS">
+      <Text>{@1_ProjectName}更新</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROJECT_PROGRESS_TT">
+      <Text>{@1_ProjectName}のプロジェクトは現在[COLOR_POSITIVE_TEXT]{2_PercentComplete}[ENDCOLOR]%まで進んでいる。完成のために寄付し、報酬を得たい場合は、都市の生産物リストからプロジェクトを選択する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROPOSALS_NEEDED">
+      <Text>提案</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_PROPOSALS_NEEDED_TT">
+      <Text>{1_LeagueName}に対して提案を行う順番が巡ってきた。新しい決議を提案することもできるし、実施されている決議の無効化を主張することもできる。あなたの提案の賛否は、あなた、そして{1_LeagueName}の他の加盟国により、次回の会合で決定される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTES_NEEDED">
+      <Text>代表の任命</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTES_NEEDED_TT">
+      <Text>{1_LeagueName}が開催され、あなたの代表たちが指示を待っている。自文明にとって最も有利に働く結果が選ばれるよう、提案されている諸決議に代表を割り振るのだ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_DONE">
+      <Text>会合終了</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_DONE_TT">
+      <Text>{1_LeagueName}で提案されていた決議の賛否が決定された。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_ENACT_FAIL">
+      <Text>{1_ResolutionName}は否決された。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_ENACT_PASS">
+      <Text>{1_ResolutionName}は可決された。[COLOR_POSITIVE_TEXT]現在、施行されている[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_FAIL_SUMMARY">
+      <Text>{1_ResolutionName}否決</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_HOST_CHANGED_SUMMARY">
+      <Text>{@1_CivName}が主催国に</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_HOST_DETAILS">
+      <Text>{1_LeagueName}の特別会合で{@2_CivName}が次の主催国に選ばれた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_HOST_SAME_SUMMARY">
+      <Text>{@1_CivName}が引き続き主催国に</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_MEMBER_VOTE">
+      <Text>[ICON_BULLET]{@3_CivName}が{2_ResolutionChoiceText}に{1_NumVotes}票</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_PASS_SUMMARY">
+      <Text>{1_ResolutionName}可決</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_REPEAL_FAIL">
+      <Text>{1_ResolutionName}は可決されなかった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_REPEAL_PASS">
+      <Text>{1_ResolutionName}は可決され、[COLOR_WARNING_TEXT]現在では施行されていない[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_FAIL">
+      <Text>世界の指導者は選出されず</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_FAIL_DETAILS">
+      <Text>少なくとも{1_NumDelegates}人の代表に支持されている文明が無い場合、「世界の指導者」の提案は失敗する。最も支持を集めた{2_NumCivilizations}文明に追加の代表が恒久的に与えられた。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_PASS">
+      <Text>{@1_CivName}が世界の指導者に</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_RESULT_WORLD_LEADER_PASS_DETAILS">
+      <Text>最低限必要な{1_NumDelegates}人の代表の支持を集めた{@2_CivName}が世界の指導者に選出された。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_SOON">
+      <Text>次回の会合</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_LEAGUE_VOTING_SOON_TT">
+      <Text>提案された以下の決議について検討するため、{1_LeagueName}が{2_TurnsUntilSession}ターン後に召集される:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_ALL_CITY_STATES_EMBARGO">
+      <Text>都市国家との交易を禁止</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_ALL_CITY_STATES_EMBARGO_HELP">
+      <Text>都市国家との間に[ICON_INTERNATIONAL_TRADE]交易路を開設できない。すでに存在する交易路は廃止され、割り当てなおさねばならない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_ARTS_FUNDING">
+      <Text>財政支出（芸術）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_ARTS_FUNDING_HELP">
+      <Text>大著述家、大芸術家、大音楽家の誕生確率が33%上昇し、大科学者、大技術者、大商人の誕生確率が33%低下する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_BAN_LUXURY_HAPPINESS">
+      <Text>贅沢禁止</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_BAN_LUXURY_HAPPINESS_HELP">
+      <Text>不道徳である、枯渇が危惧されるなどの理由で、高級資源は一般大衆の使用には適さないとされている。この禁令が実施されている限り、文明はこの高級資源から[ICON_HAPPINESS_1]幸福度ボーナスを得られない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHANGE_LEAGUE_HOST">
+      <Text>主催国の選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHANGE_LEAGUE_HOST_HELP">
+      <Text>議会を主催する文明を指名する。主催国にはより多くの代表が与えられ、決議を提案することもできる。[NEWLINE][NEWLINE]この決議は文明が自ら選択・提案することはできない。時代が進むと自動的に提案される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_CITY">
+      <Text>(PLACEHOLDER)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_IDEOLOGY">
+      <Text>{@1_IdeologyName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_IDEOLOGY_YOU">
+      <Text>{@1_IdeologyName}（自国）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_NO">
+      <Text>反対</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_PLAYER">
+      <Text>{@1_CivName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_PLAYER_YOU">
+      <Text>{@1_CivName}（自国）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_RELIGION">
+      <Text>{1_IconString}{@2_ReligionName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_RELIGION_YOU">
+      <Text>{1_IconString}{@2_ReligionName}（自国）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_RESOURCE">
+      <Text>{1_IconString} {@2_ResourceName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CHOICE_YES">
+      <Text>賛成</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CITY_STATE_AID">
+      <Text>都市国家への援助</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CITY_STATE_AID_HELP">
+      <Text>都市国家以外の加盟国すべてが、蓄えている[ICON_GOLD]ゴールドの20%を拠出し、都市国家である加盟国を援助する。都市国家に対する[ICON_INFLUENCE]影響力が0未満のケースでは、0にリセットされる。決議の無効化はできない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CULTURAL_HERITAGE_SITES">
+      <Text>文化的遺産</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_CULTURAL_HERITAGE_SITES_HELP">
+      <Text>都市は市内の世界遺産1つにつき[ICON_CULTURE]文化力+3を得る。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_ANY_LUXURY_RESOURCE">
+      <Text>決議の対象となる高級資源を選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_ANY_MEMBER">
+      <Text>決議の対象となる加盟国を選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_CITY">
+      <Text>決議の対象となる都市を選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_HIGH_DELEGATE_MEMBER">
+      <Text>代表の多い文明（代表が{1_NumDelegates}人以上）を選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_IDEOLOGY">
+      <Text>決議の対象となる思想を選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_MAJOR_CIV_MEMBER">
+      <Text>決議の対象となる文明を選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_NONE">
+      <Text>決定なし</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_OTHER_MAJOR_CIV_MEMBER">
+      <Text>決議の対象となる文明を自文明以外から選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_RELIGION">
+      <Text>決議の対象となる宗教を選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_REPEAL">
+      <Text>この決議を無効化するかどうか選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DECISION_YES_OR_NO">
+      <Text>「賛成」か「反対」を選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DIPLO_VICTORY">
+      <Text>世界の指導者</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_DIPLO_VICTORY_HELP">
+      <Text>世界の指導者を指名する。ある文明が議会において十分な数の代表から支持されると、指導者の地位にあるその文明は、[COLOR_POSITIVE_TEXT]外交による勝利[ENDCOLOR]を得る。必要な代表の数は、ゲーム中に存在する文明と都市国家の数によって異なり、世界議会画面で確認できる。
+[NEWLINE][NEWLINE]どの文明も勝利に必要な支持を得られない場合は、最も支持の多い2つの文明が恒久的に[COLOR_POSITIVE_TEXT]追加の代表2人[ENDCOLOR]を獲得し、将来の会合でそれを用いることができる。[NEWLINE][NEWLINE]この決議は文明が自ら選択・提案することはできない。世界議会が国連になると、定期的に自動提案される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_GOLD_FOR_EVERYONE">
+      <Text>ゴールドの配当</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_GOLD_FOR_EVERYONE_HELP">
+      <Text>すべての加盟国が1度だけ[ICON_GOLD]ゴールド100を得る。決議の無効化はできない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_GPT_FOR_EVERYONE">
+      <Text>都市国家の関税</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_GPT_FOR_EVERYONE_HELP">
+      <Text>都市国家の[ICON_INFLUENCE]影響力の低下が加速するが、[ICON_INTERNATIONAL_TRADE]都市国家を含む交易路が生み出す[ICON_GOLD]が増える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_HISTORICAL_LANDMARKS">
+      <Text>歴史的ランドマーク</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_HISTORICAL_LANDMARKS_HELP">
+      <Text>偉人によるタイルの資源活用施設に市民を割り当てると[ICON_CULTURE]文化力+2、考古学者によって建設されたランドマークに市民を割り当てると[ICON_CULTURE]文化力+4。[NEWLINE][NEWLINE]いずれかの文明が「考古学」を発見すると利用可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION">
+      <Text>国際宇宙ステーション</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION_HELP">
+      <Text>国際宇宙ステーションプロジェクトが開始される。これにより各文明は、プロジェクトの完成を目指し、都市の生産物リストから[ICON_PRODUCTION]生産力を選んで寄付できるようになる。プロジェクトが完成すると、各文明はそれまでに行った寄付に応じたボーナスを得る。[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1_HELP}[NEWLINE][NEWLINE]ある文明が「人工衛星」を発見すると選択可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT">
+      <Text>住み込みの学者</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP">
+      <Text>文明がテクノロジーを研究するとき、他の加盟国（1国以上）が発見済みの場合は、研究期間が20%短縮される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_NATURAL_HERITAGE_SITES">
+      <Text>自然環境遺産</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_NATURAL_HERITAGE_SITES_HELP">
+      <Text>自然遺産に市民を割り当てると[ICON_CULTURE]文化力+5がもたらされる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION">
+      <Text>核拡散防止</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION_HELP">
+      <Text>すべての文明が核兵器（原子爆弾と核ミサイル）を新たに生産することを禁じられる。ただし、生産済みの核兵器が廃棄されることはない。[NEWLINE][NEWLINE]いずれかの文明が「高度な弾道学」を発見すると選択可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_PLAYER_EMBARGO">
+      <Text>通商禁止</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_PLAYER_EMBARGO_HELP">
+      <Text>選択した文明と他の文明の間に[ICON_INTERNATIONAL_TRADE]交易路を開設できない。すでに存在している交易路は廃止され、割り当てなおさねばならない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_RESOURCE_FOR_EVERYONE">
+      <Text>資源の配当</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_RESOURCE_FOR_EVERYONE_HELP">
+      <Text>この決議が施行されている間、すべての加盟国がいずれかの資源を2獲得する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_SCIENCES_FUNDING">
+      <Text>財政支出（科学）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_SCIENCES_FUNDING_HELP">
+      <Text>大科学者、大技術者、大商人の誕生確率が33%上昇し、大著述家、大芸術家、大音楽家の誕生確率が33%低下する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_STANDING_ARMY_TAX">
+      <Text>常備軍税</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_STANDING_ARMY_TAX_HELP">
+      <Text>ユニット維持費にかかる[ICON_GOLD]ゴールドが25%増加する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_FAIR">
+      <Text>万国博覧会</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_FAIR_HELP">
+      <Text>万国博覧会プロジェクトが開始される。これにより各文明は、プロジェクトの完成を目指し、都市の生産物リストから[ICON_PRODUCTION]生産力を選んで寄付できるようになる。プロジェクトが完成すると、各文明はそれまでに行った寄付に応じたボーナスを得る。[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_1_HELP}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_GAMES">
+      <Text>国際大会</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_GAMES_HELP">
+      <Text>国際大会プロジェクトが開始される。これにより各文明は、プロジェクトの完成を目指し、都市の生産物リストから[ICON_PRODUCTION]生産力を選んで寄付できるようになる。プロジェクトが完成すると、各文明はそれまでに行った寄付に応じたボーナスを得る。[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_1_HELP}[NEWLINE][NEWLINE]ある文明が「無線通信」を発見すると選択可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_IDEOLOGY">
+      <Text>世界的思想</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_IDEOLOGY_HELP">
+      <Text>思想を1つ選択し、世界的思想に公式認定する。この思想を採用している文明は、追加の代表を2人獲得する。さらに、すべての文明でこの思想を支持する世論が高まる。世界的思想は同時に2つ以上存在できない。[NEWLINE][NEWLINE]いずれかの文明が「無線通信」を発見すると選択可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_RELIGION">
+      <Text>世界的宗教</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOLUTION_WORLD_RELIGION_HELP">
+      <Text>宗教を1つ選択し、世界的宗教に公式認定する。過半数の都市がこの宗教を信奉している文明は、追加の代表を2人獲得する。この宗教は通常より25%早く広まるうえ、この宗教の聖都は[ICON_TOURISM]観光力+50%を得る。世界的宗教は同時に2つ以上存在できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_ITEM_VOTES">
+      <Text>世界議会</Text>
+    </Row>
+  </Language_JA_JP>
+</GameData>

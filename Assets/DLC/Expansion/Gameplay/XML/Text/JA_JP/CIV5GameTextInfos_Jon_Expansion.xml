@@ -1,0 +1,888 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_JA_JP>
+    <Row Tag="TXT_KEY_AFRAID">
+      <Text>恐れ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALLIES_CSTATE_TT">
+      <Text>あなたの文明は他の文明をしのぐ[ICON_INFLUENCE]影響力を持っているため、あなたの文明と{1_CityStateName:textkey}とが[COLOR_POSITIVE_TEXT]同盟関係[ENDCOLOR]になった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ANGRY_CSTATE_TT">
+      <Text>貢ぎ物の要求や領土への侵入、宣戦布告などを行ったせいで、{1_CityStateName:textkey}を怒らせてしまった。関係を修復させるには、クエストを完了したり[ICON_GOLD]ゴールドを贈呈したりすると良いだろう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CITADEL_HELP">
+      <Text>このタイルにいるユニットに[ICON_STRENGTH]防御力+100%を付与する。城塞に隣接するタイルでターンを終了した全敵ユニットにダメージを30与える(複数の城塞に隣接していても受けるダメージ量は城塞1つ分と同じ)。城塞を建設するとこのユニットは消滅し、城塞の周囲まで文化圏が広がる。城塞によって広がる文化圏上のタイルを他の文明がすでに所持していた場合には、外交ペナルティを受けることになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CULTURE_REC">
+      <Text>このタイルから供給される[ICON_CULTURE]文化力の量を増やし、領土を拡大させて、さらなる社会制度を獲得できるようにする。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_HOLY_SITE">
+      <Text>聖地を建設</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_HOLY_SITE_HELP">
+      <Text>ユニットは消滅する。[NEWLINE][NEWLINE]偉人によって建設されたタイルはタイル上の戦略資源を交易網に接続する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_POLDER">
+      <Text>[LINK=IMPROVEMENT_POLDER]干拓地[\LINK]を建設</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_ALLY_ACTIVE_PLAYER_TT">
+      <Text>彼らとは同盟関係にある。したがって特別ボーナスを獲得できるだけでなく、その都市国家が持つ高級資源や戦略資源も利用できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_ALLY_NOBODY_TT">
+      <Text>彼らと同盟を結んでいる国はない。彼らの同盟国になるには[ICON_INFLUENCE]影響力があと{1_NumInfluence}必要となる。[NEWLINE][NEWLINE]都市国家の同盟国になると、その都市国家の特色に応じた特別ボーナスを獲得可能。さらに、その国が持つ高級資源や戦略資源の利用も可能となる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_ALLY_TT">
+      <Text>彼らは現在{1_CivName:textkey}と同盟を結んでいる。{1CivName:textkey}を蹴落として彼らの同盟国になるには、[ICON_INFLUENCE]影響力があと{2_NumInfluence}必要となる。[NEWLINE][NEWLINE]都市国家の同盟国になると、その都市国家の特色に応じた特別ボーナスを獲得できる。さらに、その都市国家が持つ高級資源や戦略資源の利用も可能となる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_ALLY_UNKNOWN_TT">
+      <Text>未知のプレイヤーが彼らと同盟を結んでいる。そのプレイヤーに代わって彼らの同盟国になるには[ICON_INFLUENCE]影響力があと{1_NumInfluence}必要となる。[NEWLINE][NEWLINE]都市国家の同盟国になると、その都市国家の特色に応じた特別ボーナスを獲得できる。さらに、その国が持つ高級資源や戦略資源の利用も可能となる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_PEACE_PROTECTED">
+      <Text>そなたが庇護してくれるおかげで、とても安心していられる。お礼に何ができるだろうか？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_QUEST_MESSAGE">
+      <Text>使いが間に合ったようで何よりだ。実はまた頼みたいことがあってな。きっと興味を持ってもらえると思う。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_JUST_BULLIED">
+      <Text>我々に選択の余地はないようだ。ゴールドを進呈するから危害は加えないでほしい。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_JUST_BULLIED_WORKER">
+      <Text>なんだって？　よくもそんなことを！　いつか報いを受けるぞ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_JUST_REVOKED_PROTECTION">
+      <Text>よかろう。どうしても去るというなら致しかたない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_JUST_SUPPORTED">
+      <Text>おお、渡りに船だ。協力に感謝する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GIFT_FAITH_FIRST">
+      <Text>彼らが大切にしている偶像を贈られ、[COLOR_POSITIVE_TEXT][ICON_PEACE]信仰力{1_NumFaith}[ENDCOLOR]を獲得。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GIFT_FAITH_OTHER">
+      <Text>彼らの宗教儀式について教えてもらい[COLOR_POSITIVE_TEXT][ICON_PEACE]信仰力{1_NumFaith}[ENDCOLOR]を獲得。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GREETING_MERCANTILE">
+      <Text>我々は[COLOR_POSITIVE_TEXT]商業的[ENDCOLOR]市民であり、あなたの民を満足させる贅沢品を保有している。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GREETING_RELIGIOUS">
+      <Text>我々は[COLOR_POSITIVE_TEXT]宗教的[ENDCOLOR]市民であり、宗教的伝統をはぐくむ手助けができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_MERCANTILE_TT">
+      <Text>[COLOR_POSITIVE_TEXT]商業[ENDCOLOR]都市国家を味方につけると帝国の[ICON_HAPPINESS_1]幸福度が増大するだけでなく、他の方法では手に入らない特別な高級資源を獲得できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_MILITARISTIC_NO_UU_TT">
+      <Text>[COLOR_POSITIVE_TEXT]軍国主義的な[ENDCOLOR]都市国家と友好関係を結ぶと、先進的な軍事ユニットを提供してくれることがある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_MILITARISTIC_TT">
+      <Text>[COLOR_POSITIVE_TEXT]軍国主義的な[ENDCOLOR]都市国家と友好関係を結ぶと、先進的な軍事ユニットを提供してくれることがある。[NEWLINE][NEWLINE]彼らは[COLOR_POSITIVE_TEXT]{@1_UniqueUnitName}[ENDCOLOR]に関する重要な情報を持っている。{@2_PrereqTech}のテクノロジーを持っている状態で同盟を結べば、このユニットを提供してくれる可能性がある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_BULLY_CITY_STATE">
+      <Text>我々と競合する都市国家を絞り上げ、おとなしくさせてほしい。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_BULLY_CITY_STATE_FORMAL">
+      <Text>彼らは{1_TargetName:textkey}から徴税してほしいと考えている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE">
+      <Text>芸術家たちは創作意欲をかき立てられるような文化力を求めている。今後数年であなたの文明の文化が他の諸文明を上まわる速度で発展したなら、見返りを進呈しよう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_FORMAL">
+      <Text>文化の発展が最も著しいプレイヤーに報酬が与えられる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_LOSING_FORMAL">
+      <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_FORMAL}これまでのところ、相手が[ICON_CULTURE]{1_LeaderScore}で、[ICON_CULTURE][COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR]のあなたをリードしている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_WINNING_FORMAL">
+      <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_FORMAL}これまでのところ、あなたが[ICON_CULTURE][COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR]でリードしている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH">
+      <Text>最も多くの信仰力を獲得したプレイヤーに報酬を与えよう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL">
+      <Text>信仰の発展が最も著しいプレイヤーに報酬が与えられる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_LOSING_FORMAL">
+      <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL}これまでのところ、相手が[ICON_PEACE]{1_LeaderScore}で、[ICON_PEACE][COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR]のあなたをリードしている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_WINNING_FORMAL">
+      <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL}これまでのところ、あなたが[ICON_PEACE][COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR]でリードしている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS">
+      <Text>最も多くのテクノロジーを発見したプレイヤーに報酬を与えよう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL">
+      <Text>最も多くのテクノロジーを発見したプレイヤーに報酬が与えられる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_LOSING_FORMAL">
+      <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL}これまでのところ、相手が{1_LeaderScore}テクノロジーで、 [COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR]のあなたをリードしている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_WINNING_FORMAL">
+      <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL}これまでのところ、あなたが[COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR]テクノロジーでリードしている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_DENOUNCE_MAJOR">
+      <Text>我々を苦しめた文明に対して非難声明を出し、彼らの犯罪を世界に知らしめてほしい。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_DENOUNCE_MAJOR_FORMAL">
+      <Text>彼らは{1_TargetName:textkey}に対して非難声明を出してほしいと考えている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_GIVE_GOLD">
+      <Text>我々は{1_CivName:textkey}から貢ぎ物を強要され、その支払いのため窮地にいる。いくらかゴールドを都合してもらえると、大いに助かるのだが。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_GIVE_GOLD_FORMAL">
+      <Text>彼らはゴールドを贈ってほしいと考えている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_INVADING_BARBS">
+      <Text>我らの領土に侵入している蛮族たちを始末してほしい。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_INVADING_BARBS_FORMAL">
+      <Text>彼らの領土に侵入している蛮族たちを始末してほしいと考えている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_INVEST">
+      <Text>今はゴールドの贈呈がより効果的だ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_INVEST_FORMAL">
+      <Text>今はゴールドの贈呈がより効果的だ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_KILL_CAMP_FORMAL">
+      <Text>彼らは近隣にある蛮族の野営地を破壊したプレイヤーに報酬を出すだろう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_NONE">
+      <Text>なし</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_NONE_FORMAL">
+      <Text>現在この都市国家からはクエストを与えられていない。クエストは定期的に与えられるが、その都市国家を苦しめると、クエストが与えられなくなる恐れがある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_PLEDGE_TO_PROTECT">
+      <Text>{1_CivName:textkey}の横暴にはうんざりしている。我々の後ろ盾になってくれれば、彼らの要求を突っぱねることができる。もちろんそれなりのお礼はしよう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_PLEDGE_TO_PROTECT_FORMAL">
+      <Text>彼らは庇護の約束を求めている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_SPREAD_RELIGION">
+      <Text>あなたがたの宗教を我々の間にも広めてほしい。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_SPREAD_RELIGION_FORMAL">
+      <Text>彼らは{@1_ReligionName}が自分たちの都市の多数派宗教になることを望んでいる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_TURNS_REMAINING_FORMAL">
+      <Text>(残りターン数：{1_TurnsRemaining})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_RELIGIOUS_TT">
+      <Text>[COLOR_POSITIVE_TEXT]宗教[ENDCOLOR]都市国家を味方につけると[ICON_PEACE]信仰力が増大し、新たな信仰の証とユニットで宗教を強化できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_HELP">
+      <Text>干拓地は氾濫原または湿原にしか建設することができない。干拓地を建設すると、すぐに食料生産量が増加する。また、経済学を研究すれば[ICON_PRODUCTION]生産力+1および[ICON_GOLD]ゴールド+2が得られる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_TEXT">
+      <Text>干拓地は周囲を堤防で囲んで水を抜き取った低地帯である。一般に、湖や海、または氾濫原や湿原を干拓した土地を言う。水を抜き取った土地はやがて沈下するので、すべての干拓地は、遅かれ早かれ周囲の水面より低くなる。そのため、浸潤してくる水を汲み上げるか抜き取らなければならない。堤防は通常、入手が容易な土と砂で作られる。現代ではそれをコンクリートで覆ったり、最初からすべてコンクリートで作る製法が採られることもある。干拓地はきわめて肥沃で、優れた牧草地や耕作地になる。[NEWLINE][NEWLINE]水をせき止める障壁としての堤防はローマ時代にすでに存在したが、海水や湖水を抜き取って干拓地が作られるようになったのは11世紀に入ってからである。オランダ人は湿原や沼沢地、さらには海さえも陸地に変えてきた長い歴史を持ち、全ヨーロッパの干拓地の半分を所有している。干拓地はオランダ以外のヨーロッパ諸国にも存在し、アジアや北アメリカにも似たようなものは存在するが、オランダの干拓地は約3000を数え、その総面積は国土の27%にも達する。首都アムステルダムでさえも大部分は干拓地の上に築かれており「世界は神が作ったが、オランダはオランダ人が作った」という彼らの自負も、あながち誇張とは言えない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_BULLY">
+      <Text>本当に{1_MinorCivName:textkey}に貢ぎ物を要求しますか？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_BULLY_PROTECTED_CITY_STATE">
+      <Text>本当に{@1_MinorCivName}に貢ぎ物を要求しますか？　[NEWLINE]彼らは現在、次の他勢力の庇護下にあります: {@2_CivName}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_BULLY_PROTECTED_CITY_STATE_MULTIPLE">
+      <Text>本当に{@1_MinorCivName}に貢ぎ物を要求しますか？　[NEWLINE]彼らは現在、次の他勢力の庇護下にあります: {2_ListOfCivs}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_CAN_BULLY">
+      <Text>あなたの国の軍事力を恐れているため、貢ぎ物の要求に応じるでしょう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_CANNOT_BULLY">
+      <Text>あなたの国の軍事力を恐れていないため、貢ぎ物の要求には応じないでしょう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_CULTURE_BONUS">
+      <Text>あなたは彼らから1ターンにつき[COLOR_POSITIVE_TEXT]{1_CultureBonus}の[ICON_CULTURE]文化力[ENDCOLOR]を獲得しています。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_FAITH_BONUS">
+      <Text>あなたは彼らから、1ターンにつき[COLOR_POSITIVE_TEXT]{1_Num}の[ICON_PEACE]信仰力[ENDCOLOR]を得ています。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_HAPPINESS_BONUS">
+      <Text>あなたは彼らから[COLOR_POSITIVE_TEXT]{1_FlatBonus}の[ICON_HAPPINESS_1]幸福度[ENDCOLOR]を入手している。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_INFLUENCE_RATE">
+      <Text>ターンごとに、あなたの彼らに対する[ICON_INFLUENCE]影響力は{1_InfluenceRate}変化し、その変化は{2_InfluenceAnchor}になるまで続きます。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ADOPTING_HIS_RELIGION">
+      <Text>[COLOR_POSITIVE_TEXT]あなたの都市の過半数が彼らの宗教を信仰しています。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ADOPTING_MY_RELIGION">
+      <Text>[COLOR_POSITIVE_TEXT]彼らの都市の過半数があなたの宗教を進んで信仰しています。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY">
+      <Text>大使館の受け入れ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_HAVE">
+      <Text>[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]すでに彼らの首都には我が国の大使館があります！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_TECH_OTHER_PLAYER">
+      <Text>[NEWLINE][NEWLINE]彼らは大使館の建設に必要なテクノロジー(筆記)を持っていません。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_TECH_PLAYER">
+      <Text>[NEWLINE][NEWLINE]大使館の建設に必要なテクノロジー(筆記)を持っていません。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_THEY_HAVE">
+      <Text>[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]すでに我が国の首都には彼らの大使館があります！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_TT">
+      <Text>国境の開放と防衛条約の締結が可能になる。また、他のプレイヤーの首都の位置が分かるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BOTH_NEED_EMBASSY_TT">
+      <Text>[NEWLINE][NEWLINE]このアイテムを交換するには両国に大使館が必要です。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BULLY_CITY_STATE_PROMISE_BROKEN">
+      <Text>[COLOR_NEGATIVE_TEXT]あなたは彼らの保護下にある都市国家に対して貢ぎ物の要求をやめると約束したにもかかわらず、その約束を破りました。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BULLY_CITY_STATE_PROMISE_IGNORED">
+      <Text>[COLOR_NEGATIVE_TEXT]あなたは彼らの保護下にある都市国家に対して貢ぎ物の要求をやめるよう求められたにもかかわらず、それを無視しました。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CAUGHT_STEALING">
+      <Text>[COLOR_NEGATIVE_TEXT]テクノロジーを盗もうとしたあなたのスパイが捕まりました。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CITY_STATE_PROMISE_BROKEN_WITH_OTHERS">
+      <Text>[COLOR_NEGATIVE_TEXT]あなたは彼らの保護下にある都市国家への攻撃を控えると約束したにも関わらず、それを破りました。 [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEF_PACT_NO_TECH">
+      <Text>[NEWLINE][NEWLINE]どちらの文明もこのアイテムの取引に必要なテクノロジー(騎兵)を持っていません。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DENOUNCED_BY_PEOPLE_WE_TRUST_MORE">
+      <Text>[COLOR_NEGATIVE_TEXT]あなたは懇意にしている我が友人たちから非難声明を出されました。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DIFFERENT_LATE_POLICY_TREES">
+      <Text>[COLOR_NEGATIVE_TEXT]あなたは{1_YourPolicyTree}を採用していますが、彼らは{2_TheirPolicyTree}を採用しています。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_CAUGHT_DECLARE_WAR">
+      <Text>{1_LeaderName}に宣戦布告。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_CAUGHT_DEMAND_STOP_SPYING">
+      <Text>スパイ行為をやめるよう要求する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_CAUGHT_DENOUNCE_FOR_SPYING">
+      <Text>{1_LeaderName}を公然と非難する。 </Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_CAUGHT_FORGIVE_SPYING">
+      <Text>今回のところは、そちらの背信行為を大目に見ることにした。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_DONT_FORGIVE_SPYING">
+      <Text>このような敵対的行為は許さん。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_DONT_STOP_CONVERSIONS">
+      <Text>我が国の伝道師や預言者がどこへ行こうと勝手であろう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_FORGIVE_SPYING">
+      <Text>許そう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_SHARE_INTRIGUE">
+      <Text>{1_LeaderName}と共謀する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_SHARE_INTRIGUE_TT">
+      <Text>スパイが集めた情報を{1_LeaderName}と共有する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_STOP_SPREADING_RELIGION">
+      <Text>伝道師と預言者を私の都市に移すのはやめよう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_STOP_SPYING">
+      <Text>スパイ行為をやめろ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_NOT_SORRY_FOR_SPY_CAUGHT">
+      <Text>我が国の諜報員は行きたいところへ行くのだ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_NOT_SORRY_FOR_SPY_KILLED">
+      <Text>我が野望を止めることなど誰にもできん！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_PROTECTED_MINOR_DISPUTE_TT">
+      <Text>{2_MinorCivName:textkey}との関係は維持する。ただし、この先{1_CivName:textkey}を怒らせ、戦争に発展する恐れがある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_PROTECTED_MINOR_FORGIVE_TT">
+      <Text>{1_CivName:textkey}との関係は維持する。ただし、{2_MinorCivName:textkey}を守るという約束を破り、[ICON_INFLUENCE]影響力を{3_InfluenceLoss}失う。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_FOR_BULLYING">
+      <Text>すまなかった。彼らには関わらないことにする。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_FOR_SPY_CAUGHT">
+      <Text>二度とスパイ行為はしないと誓おう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_FOR_SPY_KILLED">
+      <Text>二度とスパイ行為はしないと誓おう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_STOP_CONVERSIONS">
+      <Text>伝道師と預言者は他の土地に移すとしよう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_FORGAVE_FOR_SPYING">
+      <Text>[COLOR_POSITIVE_TEXT]あなたは彼らのスパイ行為を許しました。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_HAS_EMBASSY">
+      <Text>[COLOR_POSITIVE_TEXT]あなたの首都に彼らの大使館があります。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MILITARY_PROMISE_BROKEN_WITH_OTHERS">
+      <Text>[COLOR_NEGATIVE_TEXT]あなたは国境から軍を動かすと彼らに約束したにも関わらず、その約束を破りました。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NEED_DOF_TT">
+      <Text>[NEWLINE][NEWLINE]このアイテムの取引には友好宣言が必要です。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_CONVERT_PROMISE_BROKEN">
+      <Text>[COLOR_NEGATIVE_TEXT]あなたは彼らの都市に対する改宗活動をやめると約束したにもかかわらず、その約束を破りました。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_CONVERT_PROMISE_IGNORED">
+      <Text>[COLOR_NEGATIVE_TEXT]あなたは彼らの都市に対する改宗活動をやめるよう求められたにもかかわらず、それを無視しました。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_LAND_DISPUTE">
+      <Text>国境問題は起きていません。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_NO_TECH">
+      <Text>[NEWLINE][NEWLINE]どちらの文明も、このアイテムと交換できるテクノロジー(官吏)を持っていません。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PEACE_TREATY">
+      <Text>和平条約({1_Turns}ターン)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PEACE_TREATY_TURNS">
+      <Text>和平条約({1_Turns}ターン)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PROTECTED_MINORS_BULLIED">
+      <Text>[COLOR_NEGATIVE_TEXT]あなたは彼らの保護下にある都市国家に貢ぎ物を要求しました。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELATION_EMBASSY_SHARED">
+      <Text>お互いの国に大使館がある</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELATION_EMBASSY_THEIR">
+      <Text>相手の首都に大使館がある</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELATION_EMBASSY_YOUR">
+      <Text>あなたの国に大使館がある</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELATION_OPEN_BORDERS_SHARED">
+      <Text>両国間で国境を開放中</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELATION_OPEN_BORDERS_THEIR">
+      <Text>あなたに対して国境を開放中</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELATION_OPEN_BORDERS_YOUR">
+      <Text>相手に対して国境を開放中</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELIGIOUS_CONVERSIONS">
+      <Text>[COLOR_NEGATIVE_TEXT]あなたは彼らが国教を広めているにもかかわらず、彼らの都市を改宗しました。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_NO_TECH">
+      <Text>[NEWLINE][NEWLINE]このアイテムの取引に必要なテクノロジー(教育)を持っているプレイヤーはまだいません。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SAME_LATE_POLICY_TREES">
+      <Text>[COLOR_POSITIVE_TEXT]両国とも{1_PolicyTree}を採用しています。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SHARED_INTRIGUE">
+      <Text>[COLOR_POSITIVE_TEXT]スパイが集めた情報を彼らと共有しています。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SIDED_WITH_MINOR">
+      <Text>[COLOR_NEGATIVE_TEXT]彼らはあなたの庇護下にある都市国家に酷い仕打ちをしたことを見逃しませんでした。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SPY_PROMISE_BROKEN">
+      <Text>[COLOR_NEGATIVE_TEXT]あなたは彼らに対するスパイ行為をやめると約束したにも関わらず、その約束を破りました。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SPY_PROMISE_IGNORED">
+      <Text>[COLOR_NEGATIVE_TEXT]あなたは彼らに対するスパイ行為をやめるよう求められたにもかかわらず、それを無視しました。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_STOP_SPYING_ASKED">
+      <Text>[COLOR_NEGATIVE_TEXT]彼らにスパイ行為をやめるように要求しました。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_THEY_NEED_EMBASSY_TT">
+      <Text>[NEWLINE][NEWLINE]このアイテムの取引を行うには、あなたの国に彼らの大使館が必要です。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_YOU_NEED_EMBASSY_TT">
+      <Text>[NEWLINE][NEWLINE]このアイテムの取引を行うには、彼らの国にあなたの国の大使館が必要です。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FRIENDS_CSTATE_TT">
+      <Text>あなたは{1_CityStateName:textkey}と[COLOR_POSITIVE_TEXT]友好関係[ENDCOLOR]にある。同盟を結ぶには、彼らに対する[ICON_INFLUENCE]影響力を他のプレイヤーよりも高める必要がある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOODY_FAITH">
+      <Text>古代神殿を発見した。司祭から託宣を受け、[ICON_PEACE]信仰力を{1_Num}獲得した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOODY_PROPHET_FAITH">
+      <Text>秘密の教団を発見した。説教師が大預言者の訪れを予言し、[ICON_PEACE]信仰力を{1_Num}獲得した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_IMPROVEMENT_POLDER">
+      <Text>干拓地</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_GIFT_TILE_IMPROVEMENT_HELP">
+      <Text>このタイルに資源活用施設を建設し、都市国家がこの資源を利用できるようにする。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_ENHANCE_RELIGION_DISABLED_HELP">
+      <Text>ユニットがこの宗教の聖都にいる場合のみ実行可能。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_ENHANCE_RELIGION_HELP">
+      <Text>偉人を消費して、自国の宗教に新たな信仰の証を2つ追加します。[NEWLINE]また、自国の宗教を守るために審問官を購入することもできます。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_FOUND_RELIGION_DISABLED_HELP">
+      <Text>ユニットが自国の都市にいる場合のみ実行可能。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_FOUND_RELIGION_HELP">
+      <Text>偉人を消費して宗教を創始します。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_MAJORITY_RELIGION">
+      <Text>この都市の市民の大半は[COLOR_POSITIVE_TEXT]{1_ReligionName}[ENDCOLOR]を信仰することになるだろう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_MAJORITY_RELIGION_NONE">
+      <Text>この都市には多数派宗教はないようだ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_REMOVE_HERESY_DISABLED_HELP">
+      <Text>ユニットが友好的な都市かその都市に隣接するタイルにいる場合のみ実行可能。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_REMOVE_HERESY_HELP">
+      <Text>対象となる都市から他の宗教を排除します。審問官は排除の実行後に消滅します。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_REPAIR_FLEET_HELP">
+      <Text>大提督を消費して、大提督自身のタイルとそれに隣接するタイルにいるすべての海軍ユニットと出航ユニットを回復します。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SPREAD_RELIGION_DISABLED_HELP">
+      <Text>ユニットが都市か都市に隣接するタイルにいる場合のみ実行可能(友好的な都市でなくても良い)。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SPREAD_RELIGION_HELP">
+      <Text>対象となる都市の市民の一部をこのユニットと同じ宗教に改宗します。ユニットは一定回数布教を行うと消滅します。大預言者は他の宗教を排除した上で布教を行います。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SPREAD_RELIGION_RESULT">
+      <Text>この行動を実行すると、[COLOR_POSITIVE_TEXT]{1_ReligionName}[ENDCOLOR]を信仰する市民の数が[COLOR_POSITIVE_TEXT]{2_NumFollowers}[ENDCOLOR]人になります。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_START_GOLDENAGE_HELP">
+      <Text>大芸術家を消費して[ICON_GOLDEN_AGE]黄金時代([ICON_PRODUCTION]と[ICON_GOLD]、[ICON_CULTURE]の産出量が増加する)を開始します。黄金時代の期間: {1_Num} ターン</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEUTRAL_CSTATE_TT">
+      <Text>{1_CityStateName:textkey}はあなたに対して中立な立場を取っている。クエストのクリアや[ICON_GOLD]ゴールドの贈呈により両国の関係を深めることができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_BORDER_PROMISE_EXPIRED">
+      <Text>{1_CivDesc}の近くに国境を広げないと約束してから長い年月が経過した。どうやら約束を果たせたようだ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_BORDER_PROMISE_EXPIRED_S">
+      <Text>国境問題に関する約束の期限を迎えました。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_EXPANSION_PROMISE_EXPIRED">
+      <Text>{1_CivDesc}の近くに入植しないと約束してから長い年月が経過した。どうやら約束を果たせたようだ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_EXPANSION_PROMISE_EXPIRED_S">
+      <Text>入植に関する約束の期限を迎えました。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FAITH_GREAT_PERSON">
+      <Text>信仰力により偉人が誕生！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FAITH_GREAT_PERSON_TT">
+      <Text>信仰力が貯まったことで好きな偉人を獲得できるようになりました！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GREAT_ARTIST_STOLE_PLOT">
+      <Text>{1_CivName:textkey}の大将軍によって土地の一部を奪われた！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MAYA_LONG_COUNT">
+      <Text>マヤ長期歴ボーナス！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MAYA_LONG_COUNT_TT">
+      <Text>マヤ長期歴の1バクトゥンが終わりを迎えました。ボーナスを選択して、マヤの歴史に残るこの日を祝福しましょう！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT">
+      <Text>{@2_MinorCivName}が結婚によって{@1_CivName}の味方になった！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT_TT_1">
+      <Text>{@1_CivName}の美しい王女が{@2_MinorCivName}の貴族と結婚した。結婚により国交が結ばれたため、{@2_MinorCivName}は永続的に{@1_CivName}の一部となる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT_TT_2">
+      <Text>{@1_CivName}の端正な顔立ちをした王子が{@2_MinorCivName}の貴族と結婚した。結婚により国交が結ばれたため、{@2_MinorCivName}は永続的に{@1_CivName}の一部となる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_MERCANTILE">
+      <Text>([ICON_HAPPINESS_1]幸福度{1_NumHappiness})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_RELIGIOUS">
+      <Text>(1ターンにつき[ICON_PEACE]信仰力{1_NumFaith})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MERCANTILE">
+      <Text>[COLOR_POSITIVE_TEXT]商業[ENDCOLOR]都市国家である彼らの特産品が帝国全土で取引されるようになった！([ICON_HAPPINESS_1]幸福度+{1_NumHappiness})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MILITARISTIC">
+      <Text>[COLOR_POSITIVE_TEXT]軍事[ENDCOLOR]都市国家である彼らからは、定期的に軍事ユニットが贈られる。通常は入手できない固有ユニットを入手できる場合もある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_RELIGIOUS">
+      <Text>[COLOR_POSITIVE_TEXT]宗教[ENDCOLOR]都市国家である彼らからは、その都市で最も貴重な聖遺物が贈られる！(1ターンにつき[ICON_PEACE]信仰力+{1_NumFaith})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MERCANTILE">
+      <Text>[COLOR_POSITIVE_TEXT]商業[ENDCOLOR]都市国家である彼らの特産品が人々の間で取引されるようになった！　([ICON_HAPPINESS_1]幸福度+{1_NumHappiness})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_RELIGIOUS">
+      <Text>[COLOR_POSITIVE_TEXT]宗教[ENDCOLOR]都市国家である彼らからは、その都市特有の宗教儀式を教えてもらえる。(1ターンにつき[ICON_PEACE]信仰力+{1_NumFaith})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINORS_NOW_WARY">
+      <Text>都市国家が警戒心を抱き始めた</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINORS_NOW_WARY_TT">
+      <Text>近隣の小国に対する侵略行為は、当然他国の耳にも届いている。この都市国家に対する[ICON_INFLUENCE]影響力が[COLOR_NEGATIVE_TEXT]{1_InfluenceMinimum}[ENDCOLOR]低下し、友好関係の維持にかかるコストが高くなった:[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED">
+      <Text>{@1_CivName}がパンテオンの神々を信仰し始めた。選択した信仰の証:{2_BeliefName}({@3_BeliefDesc})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED_ACTIVE_PLAYER">
+      <Text>国民たちがパンテオンの神々を信仰しはじめた。選択した信仰の証:{1_BeliefName}({@2_BeliefDesc})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED_S">
+      <Text>パンテオン信仰の開始</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED_UNKNOWN">
+      <Text>未知の文明がパンテオンの神々を信仰し始めた。選択した信仰の証:{1_BeliefName}({@2_BeliefDesc})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_BULLY_CITY_STATE">
+      <Text>他の都市国家の成長に目を光らせている{2_MinorCivName:textkey}の指導者たちは、敵対する国家の成長を妨げてくれる国を探している。{1_TargetName:textkey}に対して何か貢ぎ物を要求すれば、その代わりに報酬をもらえそうだ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_BULLY_CITY_STATE">
+      <Text>{2_MinorCivName:textkey}は、敵対国の{1_TargetName:textkey}が貴重な資源を放棄せざるを得なくなった状況に満足している。彼らに対する[ICON_INFLUENCE]影響力が[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]上昇した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONNECT_RESOURCE">
+      <Text>{2_MinorCivName:textkey}の要請に応じ、{1_ResourceName}を交易網に繋げることに成功した！　商人たちの信頼を獲得したことで、彼らに対する[ICON_INFLUENCE]影響力が[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]上昇した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONSTRUCT_WONDER">
+      <Text>{2_MinorCivName:textkey}の要請に応じ、{1_WonderName}の建設を成功させた！　彼らに対する[ICON_INFLUENCE]影響力が[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]上昇した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_CULTURE">
+      <Text>あなたの国の文化が{1_MinorCivName:textkey}に感銘を与えた！　あなたの文明以外には目もくれなくなったため、彼らに対する[ICON_INFLUENCE]影響力が[COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR]上昇した。受け継がれた文明(同盟の締結が可能):[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_FAITH">
+      <Text>{1_MinorCivName:textkey}の司祭たちはあなたの信心深さに感動している。信仰力であなたに劣る文明とは疎遠になったため、彼らに対する[ICON_INFLUENCE]影響力が[COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR]上昇した。受け継がれた文明(同盟の締結が可能):[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_TECHS">
+      <Text>{1_MinorCivName:textkey}はあなたの国の飛躍的な技術革新に驚嘆している！　彼らの科学者たちが他の文明を停滞しているとして切り捨てたため、この国に対する[ICON_INFLUENCE]影響力が[COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR]上昇した。受け継がれた文明(同盟の締結が可能):[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_DENOUNCE_MAJOR">
+      <Text>{2_MinorCivName:textkey}は、主要国となった{1_TargetName:textkey}からの不平等な扱いから解放された。この国に対する[ICON_INFLUENCE]影響力が[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]上昇した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_NATURAL_WONDER">
+      <Text>自然遺産の発見が {1_MinorCivName:textkey}の市民たちに刺激を与えた！　その努力が認められ、彼らに対する[ICON_INFLUENCE]影響力が[COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR]上昇した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_PLAYER">
+      <Text>{1_TargetName:textkey}の発見に、{2_MinorCivName:textkey}の商人たちが歓喜している。彼らに対する[ICON_INFLUENCE]影響力が[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]上昇した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_GIVE_GOLD">
+      <Text>ゴールドを提供したことで、{1_BullyName:textkey}への貢ぎ物で苦しめられていた{2_MinorCivName:textkey}の経済が回復した！　この国に対する[ICON_INFLUENCE]影響力が[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]上昇した。また、貢ぎ物の要求に対するこの国の耐性が高くなった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_GREAT_PERSON">
+      <Text>{2_MinorCivName:textkey}の要請に応じ、{1_UnitName}を作ることに成功した！　学者たちに畏敬の念を抱かせ、彼らに対する[ICON_INFLUENCE]影響力が[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]上昇した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_INVEST">
+      <Text>{1_MinorCivName:textkey}がプロジェクトを完成させた。ゴールドの供与によって獲得していた[ICON_INFLUENCE]影響力が通常の値に戻った。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CAMP">
+      <Text>{1_MinorCivName:textkey}の要請に応じ、蛮族の野営地を破壊することに成功した！　彼らに対する[ICON_INFLUENCE]影響力が[COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR]上昇した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CITY_STATE">
+      <Text>{2_MinorCivName:textkey}の悲願であった{1_TargetName:textkey}の排除に成功した！　今回の支援は彼らに、いつにも増して大きな喜びをもたらした。彼らに対する[ICON_INFLUENCE]影響力が[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]上昇した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_PLEDGE_TO_PROTECT">
+      <Text>保護の求めに応じたことで、{1_BullyName:textkey}への貢ぎ物で苦しめられていた{2_MinorCivName:textkey}の経済が回復した！  この国に対する[ICON_INFLUENCE]影響力が[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]上昇した。また、貢ぎ物の要求に対するこの国の耐性が高くなった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_SPREAD_RELIGION">
+      <Text>{@2_MinorCivName}の市民たちは、{@1_ReligionName}が国教になったことを喜んでいる。この国に対する[ICON_INFLUENCE]影響力が[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]上昇した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONTEST_CULTURE">
+      <Text>芸術の開花した{3_MinorCivName:textkey}は、文化形成の手本となる国を求めている。{2_TurnsDuration}ターンの間に最も多く[ICON_CULTURE]文化力を産出した国は、この国に対する[ICON_INFLUENCE]影響力を強めることができる。[COLOR_POSITIVE_TEXT]残り{1_TurnsRemaining}ターン。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONTEST_FAITH">
+      <Text>{3_MinorCivName:textkey}の市民たちは宗教に関心を寄せている。{2_TurnsDuration}ターンの間に最も多く[ICON_PEACE]信仰力を集めた国は、この国に対して[ICON_INFLUENCE]影響力を強めることができる。[COLOR_POSITIVE_TEXT]残り{1_TurnsRemaining}ターン。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONTEST_TECHS">
+      <Text>{3_MinorCivName:textkey}の知識人たちは、科学的発見に力を入れている文明との関係強化を求めている。{2_TurnsDuration}ターンの間に最も多くテクノロジーを発見した国は、この国に対する[ICON_INFLUENCE]影響力を強めることができる。[COLOR_POSITIVE_TEXT]残り{1_TurnsRemaining}ターン。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_DENOUNCE_MAJOR">
+      <Text>最近{1_TargetName:textkey}から圧力を受けた{2_MinorCivName:textkey}は、その不当な扱いを世界の主要国に知らせる方法を探している。{1_TargetName:textkey}に対して非難声明を出せば、彼らから感謝と報酬を得ることができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_CULTURE">
+      <Text>他の文明の文化が{1_MinorCivName:textkey}に感銘を与えた。あなたの国の文化的成長が思わしくなかったため、彼らに対する[ICON_INFLUENCE]影響力を強めることはできなかった。受け継がれた文明(同盟の締結が可能):[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_FAITH">
+      <Text>他の文明の信仰力が{1_MinorCivName:textkey}に感銘を与えた。あなたの国の信仰力が不十分であったため、彼らに対する[ICON_INFLUENCE]影響力を強めることはできなかった。受け継がれた文明(同盟の締結が可能):[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_TECHS">
+      <Text>他の文明の技術革新が{1_MinorCivName:textkey}に感銘を与えた。あなたの国の科学的発見が不十分であったため、彼らに対する[ICON_INFLUENCE]影響力を強めることはできなかった。受け継がれた文明(同盟の締結が可能):[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_INVEST">
+      <Text>{1_MinorCivName:textkey}がプロジェクトを完成させた。ゴールドの供与によって獲得していた[ICON_INFLUENCE]影響力が通常の値に戻った。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_OTHER">
+      <Text>長時間が経過したため、{1_MinorCivName:textkey}の指導者たちから与えられていた依頼が破棄されてしまった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_REVOKED">
+      <Text>貢ぎ物を要求したことで、{1_MinorCivName:textkey}から受けていたクエストが取り消しになった。ある程度の時間が経過すると、再びクエストを受けられるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_GIVE_GOLD">
+      <Text>{1_BullyName:textkey}に貢ぎ物を強要されたことで、{2_MinorCivName:textkey}の国庫が枯渇してしまった。国を再建するためにゴールドの提供を求められている。協力すれば報酬を受け取ることができ、貢ぎ物の要求に対する彼らの耐性が高くなる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_GIVEN_CONDENSED">
+      <Text>都市国家のクエストが新たに追加された。クエストを完了することで、その都市国家に対する[ICON_INFLUENCE]影響力を上昇させることができる。(クエストは外交画面の都市国家の項目で確認することができる) [NEWLINE][NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_INVEST">
+      <Text>{3_MinorCivName:textkey}は巨大公共事業に取りかかっている。この期間中にゴールドを提供すると、通常より[COLOR_POSITIVE_TEXT]{2_BoostPercentage}%[ENDCOLOR]多く[ICON_INFLUENCE]影響力を獲得することができる。[COLOR_POSITIVE_TEXT]残り{1_TurnsRemaining}ターン。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_PLEDGE_TO_PROTECT">
+      <Text>{1_BullyName:textkey}に貢ぎ物を強要された{2_MinorCivName:textkey}が、主要国からの保護を求めている。申し出を受け入れれば報酬を受け取ることができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_SPREAD_RELIGION">
+      <Text>{@1_ReligionName}の教義を耳にした{@2_MinorCivName}の市民団体が、自国への教えの伝播を求めている。{@1_ReligionName}が多数派宗教になれば、この国に対する[ICON_INFLUENCE]影響力が上昇する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_ENHANCED">
+      <Text>{1_CivName}が信仰の証を追加して国教の{@2_ReligionName}を強化した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_ENHANCED_ACTIVE_PLAYER">
+      <Text>信仰の証を追加して国教の{@1_ReligionName}を強化した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_ENHANCED_S">
+      <Text>宗教の強化</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_ENHANCED_UNKNOWN">
+      <Text>未知の文明が信仰の証を追加して国教の{@1_ReligionName}を強化した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED">
+      <Text>{1_CivName}が{@2_ReligionName}を創始したことで{@3_CityName}が聖都になった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED_ACTIVE_PLAYER">
+      <Text>あなたが{@1_ReligionName}を創始したことで{@2_CityName}が聖都になった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED_S">
+      <Text>宗教の創始</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED_UNKNOWN">
+      <Text>未知の文明がどこかの都市で{@1_ReligionName}を創始した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_SPREAD_ACTIVE_PLAYER">
+      <Text>{1_CityName}が他の宗教に改宗した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_SPREAD_ACTIVE_PLAYER_S">
+      <Text>自国都市の改宗</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_SPREAD_INITIAL_CONVERSION">
+      <Text>{1_CityName}が宗教を採用した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_SPREAD_INITIAL_CONVERSION_S">
+      <Text>都市が宗教を信仰するようになった。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_BULLY_CITY_STATE">
+      <Text>{2_MinorCivName:textkey}が{1_TargetName:textkey}への圧力を要求</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_BULLY_CITY_STATE">
+      <Text>{2_MinorCivName:textkey}のために{1_TargetName:textkey}に圧力をかけた！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONTEST_CULTURE">
+      <Text>{1_MinorCivName:textkey}はあなたを畏敬している！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONTEST_FAITH">
+      <Text>{1_MinorCivName:textkey}はあなたを畏敬している！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONTEST_TECHS">
+      <Text>{1_MinorCivName:textkey}はあなたを畏敬している！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_DENOUNCE_MAJOR">
+      <Text>{2_MinorCivName:textkey}のために{1_TargetName:textkey}に対して非難声明を出した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_GIVE_GOLD">
+      <Text>{1_MinorCivName:textkey}にゴールドを提供した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_INVEST">
+      <Text>{1_MinorCivName:textkey}が出資金の募集を中止</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_PLEDGE_TO_PROTECT">
+      <Text>{1_MinorCivName:textkey}から保護の要請を受けた！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_SPREAD_RELIGION">
+      <Text>{@2_MinorCivName}に{@1_ReligionName}を布教</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONTEST_CULTURE">
+      <Text>{1_MinorCivName:textkey}は文化の形成を切望している！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONTEST_FAITH">
+      <Text>{1_MinorCivName:textkey}は信仰力を求めている！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONTEST_TECHS">
+      <Text>{1_MinorCivName:textkey}は科学を探求している！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_DENOUNCE_MAJOR">
+      <Text>{2_MinorCivName:textkey}は{1_TargetName:textkey}に対する処罰を求めている</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONTEST_CULTURE">
+      <Text>{1_MinorCivName:textkey}は他の国に注意を向けた</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONTEST_FAITH">
+      <Text>{1_MinorCivName:textkey}は他の国に注意を向けた</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONTEST_TECHS">
+      <Text>{1_MinorCivName:textkey}は他の国に注意を向けた</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_INVEST">
+      <Text>{1_MinorCivName:textkey}が出資金の募集を中止</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_OTHER">
+      <Text>{1_MinorCivName:textkey}は依頼を破棄した</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_REVOKED">
+      <Text>{1_MinorCivName:textkey}はクエストを取り消した</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_GIVE_GOLD">
+      <Text>{1_MinorCivName:textkey}の財政破綻危機！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_GIVEN_CONDENSED">
+      <Text>新たな都市国家クエスト</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_INVEST">
+      <Text>{1_MinorCivName:textkey}が出資金を募集中！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_PLEDGE_TO_PROTECT">
+      <Text>{1_MinorCivName:textkey}が保護してくれる国を募集中！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_SPREAD_RELIGION">
+      <Text>{@2_MinorCivName}が{@1_ReligionName}の布教を求めている</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_CANCEL">
+      <Text>{1_CivName:textkey}と結んだ研究協定が破棄された。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_CANCEL_S">
+      <Text>研究協定の破棄！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_AESTHETICS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]美学[ENDCOLOR][NEWLINE]全ての都市国家に対する[ICON_INFLUENCE]影響力を20上昇させる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]独裁政治[ENDCOLOR]は世界征服を目論む軍事主義文明に適した体制である。[NEWLINE][NEWLINE]独裁政治を採用するとユニットの維持費が33%軽減されるため、通常より大きな軍隊を持つことができるようになる。また、略奪を行うことで、侵略した都市が産出していた[ICON_CULTURE]文化力1ポイントにつき[ICON_CULTURE]文化力を10ポイント獲得することができる。[NEWLINE][NEWLINE]独裁政治ツリーの社会制度をすべて採用すると、50ターンの間、全軍事ユニットに対して攻撃ボーナスが25%付与される。[NEWLINE][NEWLINE][ICON_PEACE]信仰力による大将軍および大提督が購入可能になる。[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]この分岐は自由や秩序とは併用できない。[ENDCOLOR]
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]商業[ENDCOLOR]は海軍帝国や[ICON_GOLD]ゴールドを望む国にボーナスをもたらす。[NEWLINE][NEWLINE]商業を採用すると[ICON_CAPITAL]首都の[ICON_GOLD]ゴールド産出量が25%増加する。 [NEWLINE][NEWLINE]商業ツリーの社会制度をすべて採用すると、交易所1つにつき[ICON_GOLD]ゴールド+1が贈られ、大商人の通商任務で獲得できる[ICON_GOLD]ゴールドの量が2倍になる。[NEWLINE][NEWLINE][ICON_PEACE]信仰力による大商人の購入が可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]自由[ENDCOLOR]は小さくまとまった帝国に適しており、特に[ICON_GREAT_PEOPLE]偉人と専門家に関するボーナスをもたらす。[NEWLINE][NEWLINE]自由を採用すると[ICON_GREAT_PEOPLE]偉人の誕生速度が25%上昇する。[NEWLINE][NEWLINE]自由ツリーの社会制度をすべて採用すると、偉人によって建設されたタイルの産出物が100%増加し、[ICON_GOLDEN_AGE]黄金時代の期間が50%延長される。[NEWLINE][NEWLINE][ICON_PEACE]信仰力により大芸術家が購入可能になる。[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]この分岐は独裁政治や秩序とは併用できない。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]名誉[ENDCOLOR]は軍隊にさまざまなボーナスをもたらす。[NEWLINE][NEWLINE]名誉を採用すると、対蛮族戦で33%の攻撃ボーナスが得られ、探索済みのエリアに蛮族の野営地が出現すると通知してくれるようになる。また蛮族を倒すたびに[ICON_CULTURE]文化力を獲得できる。[NEWLINE][NEWLINE]名誉ツリーの社会制度を全て採用すると、敵ユニットを倒すたびに[ICON_GOLD]ゴールドが贈られる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_ORDER_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]秩序[ENDCOLOR]は広大な帝国に適しており、支配下にある都市の数が多いほど文明が強固になる。[NEWLINE][NEWLINE]秩序を採用すると、都市1つにつき[ICON_HAPPINESS_1]幸福度が1上がる。[NEWLINE][NEWLINE]秩序ツリーの社会制度を全て採用すると、都市1つにつき[ICON_FOOD]食料+2、[ICON_PRODUCTION]生産力+2、[ICON_RESEARCH]科学力+2、[ICON_GOLD]ゴールド+2、[ICON_CULTURE]文化力+2。[NEWLINE][NEWLINE][ICON_PEACE]信仰力により大技術者が購入可能になる。[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]この分岐は自由や独裁政治とは併用できない。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]敬虔[ENDCOLOR]は文明の[ICON_PEACE]信仰力と[ICON_CULTURE]文化力を上昇させる。[NEWLINE][NEWLINE]神殿と寺院が通常の半分の時間で建設可能になる。[NEWLINE][NEWLINE]敬虔ツリーの社会制度を全て採用すると、[ICON_PEACE]信仰力よる宗教ユニットと宗教施設の購入コストが20%軽減され、聖地によって[ICON_GOLD]ゴールド+3と[ICON_CULTURE]文化力+3が産出されるようになる。[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]この分岐は合理主義とは併用できない。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]合理主義[ENDCOLOR]は、[ICON_RESEARCH]科学に対する応用力と研究力を高める。[NEWLINE][NEWLINE]合理主義を採用すると[ICON_HAPPINESS_1]幸福を維持している間、帝国の[ICON_RESEARCH]科学力が15%上昇する。[NEWLINE][NEWLINE]合理主義ツリーの社会制度を全て採用すると、無償でテクノロジーを2つ獲得することができる。[NEWLINE][NEWLINE][ICON_PEACE]信仰力により大科学者が購入可能になる。[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]この分岐は敬虔とは併用できない。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_TRADITION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]伝統[ENDCOLOR]は小さな帝国に非常に適している。[NEWLINE][NEWLINE]伝統を採用すると、全都市の領土の拡張速度が大きく上昇し、[ICON_CAPITAL]首都に[ICON_CULTURE]文化力が3付与される。[NEWLINE][NEWLINE]伝統ツリーの社会制度をすべて採用すると、最初に獲得した4つの都市に[ICON_FOOD]成長力+15%と無償の用水路が供給される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_COMMUNISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]共産主義[ENDCOLOR][NEWLINE]都市1つにつき[ICON_PRODUCTION]生産力+2。鉱山または採石所1つにつき[ICON_PRODUCTION]生産力+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DISCIPLINE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]規律[ENDCOLOR][NEWLINE]軍事ユニットが隣接している場合、白兵ユニットの[ICON_STRENGTH]戦闘力が15%上昇する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FASCISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]ファシズム[ENDCOLOR][NEWLINE]帝国で生産した戦略資源の産出量+100%になる。大将軍の[ICON_MOVES]移動ポイント+2。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FREE_RELIGION">
+      <Text>宗教的寛容</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FREE_RELIGION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]宗教的寛容[ENDCOLOR][NEWLINE]社会制度の獲得に必要な[ICON_CULTURE]文化力を10%軽減する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_HUMANISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]人間主義[ENDCOLOR][NEWLINE]大学、天文台、公立学校1つにつき地方都市の[ICON_HAPPINESS_1]幸福度+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCANTILISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]重商主義[ENDCOLOR][NEWLINE]都市での購入に必要な[ICON_GOLD]ゴールドを25%軽減する。造幣局、市場、銀行、証券取引所1つにつき[ICON_RESEARCH]科学力+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MILITARY_CASTE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]戦士階級[ENDCOLOR][NEWLINE]ユニットが駐留している都市1つにつき、地方都市の[ICON_HAPPINESS_1]幸福度+1、[ICON_CULTURE]文化力+2。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NAVAL_TRADITION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]海軍の栄誉[ENDCOLOR][NEWLINE]海軍ユニットの[ICON_MOVES]移動ポイント+1、海戦可能な海軍ユニットの視界+1。大提督が出現する。大提督の[ICON_MOVES]移動ポイント+2。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_OLIGARCHY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]寡頭制[ENDCOLOR][NEWLINE]駐留しているユニットの維持費がゼロになる。ユニットが駐留している都市の[ICON_RANGE_STRENGTH]遠隔戦闘力が+50%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ORGANIZED_RELIGION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]宗教の組織化[ENDCOLOR][NEWLINE]神殿と寺院から[ICON_PEACE]信仰力+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PLANNED_ECONOMY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]計画経済[ENDCOLOR][NEWLINE]工場によって都市の[ICON_RESEARCH]科学力の産出量が25%増加する。工場が通常の半分の時間で建設できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_POLICE_STATE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]警察国家[ENDCOLOR][NEWLINE]裁判所1つにつき地方都市の[ICON_HAPPINESS_1]幸福度+3。裁判所が通常の半分の時間で建設できるようになる。敵のスパイの効率を25%低下させ、敵のスパイを捕捉する確率が25%上昇する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]軍隊の常備[ENDCOLOR][NEWLINE]ユニットアップグレードに必要な[ICON_GOLD]ゴールドを33%軽減する。防衛施設(防壁、城、兵器庫、軍事基地)1つにつき地方都市の[ICON_HAPPINESS_1]幸福度+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PROTECTIONISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]保護貿易主義[ENDCOLOR][NEWLINE]各種高級資源から得られる[ICON_HAPPINESS_1]幸福度が2増加する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]科学革命[ENDCOLOR][NEWLINE]研究協定で得られる[ICON_RESEARCH]科学力が50%増加する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SOVEREIGNTY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]主権[ENDCOLOR][NEWLINE][ICON_RESEARCH]科学関連施設から[ICON_GOLD]ゴールド+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TOTAL_WAR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]総力戦[ENDCOLOR][NEWLINE]軍事ユニット生産時に[ICON_PRODUCTION]生産力+25%。新たに生産された軍事ユニットに経験値を15ポイント付与。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_ALLIED_WITH">
+      <Text>同盟国:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY">
+      <Text>貢ぎ物の要求を行う</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_GOLD_TT">
+      <Text>この都市国家に軍事力で圧力をかけ、[ICON_GOLD]ゴールドを要求することができる。ただし、この国に対する[ICON_INFLUENCE]影響力が低下する。都市国家が要求に応じるのは、以下の条件を満たしている場合である。[NEWLINE][ICON_BULLET]あなたの国の軍事力が他国より高い場合[NEWLINE][ICON_BULLET]あなたの国の軍事ユニットが都市国家の近くに置かれている場合</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_TT">
+      <Text>都市国家からは[ICON_GOLD]ゴールドとユニットを獲得できるが、圧力をかけて要求を行った場合、この都市国家に対し[ICON_INFLUENCE]影響力が低下する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_UNIT_TT">
+      <Text>この都市国家に圧力をかけ、{1_Unit:textkey}を要求することができる。ただし、この国に対する[ICON_INFLUENCE]影響力が低下する。都市国家が要求に応じるのは、以下の条件を満たしている場合である。[NEWLINE][ICON_BULLET]この都市国家の[ICON_CITIZEN]市民の数が{2_PopLimit}以上である場合[NEWLINE][ICON_BULLET]あなたの国の軍事力が他国より高い場合[NEWLINE][ICON_BULLET]あなたの国の軍事ユニットが都市国家の近くに置かれている場合</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT">
+      <Text>政略結婚</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT_DISABLED_ALLY_TT">
+      <Text>{3_BuyoutCost}[ICON_GOLD]ゴールドを支払って政略結婚を行うことで、この都市の全ユニットと都市そのものを帝国に吸収することができる。この方法で都市を獲得すれば、占領時に外交ペナルティーや不満が発生しない。ただし、この都市との友好関係から得ていたボーナスと国際連合の票は失われる。[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]この都市国家を獲得するには、同盟関係を{1_NumTurns}ターン(現在{2_TurnsAllied}ターン経過)維持し、{3_BuyoutCost}[ICON_GOLD]ゴールドを所持していることが条件となる。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT_DISABLED_TT">
+      <Text>{2_BuyoutCost}[ICON_GOLD]ゴールドを支払って政略結婚を行うことで、この都市の全ユニットと都市そのものを帝国に吸収することができる。この方法で都市を獲得すれば、占領時に外交ペナルティーや不満が発生しない。ただし、この都市との友好関係から得ていたボーナスと国際連合の票は失われる。[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]この都市国家を獲得するには、同盟関係を{1_NumTurns}ターン維持し、{2_BuyoutCost} [ICON_GOLD]ゴールドを所持していることが条件となる。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT_TT">
+      <Text>{1_BuyoutCost}[ICON_GOLD]ゴールドを支払って政略結婚を行うことで、この都市の全ユニットと都市そのものを帝国に吸収することができる。この方法で都市を獲得すれば、占領時に外交ペナルティーや不満が発生しない。ただし、この都市との友好関係から得ていたボーナスと国際連合の票は失われる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_FIND_ON_MAP">
+      <Text>マップ上で発見</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GIFT_TILE_IMPROVEMENT_TT">
+      <Text>この都市国家と同盟関係にあれば、[ICON_GOLD]ゴールドと引き替えに、戦略資源や高級資源用の資源活用施設を1つ提供することができる。また、資源を活用することであなたがその資源を利用できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_INFLUENCE_TT">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]条約の締結を行うには、戦争中でないことに加え、[ICON_INFLUENCE]影響力が{1_InfluenceNeededToPledge}以上であることが条件となる。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_MISTRUST_TT">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]前回結んだ誓約を破ったため、この都市国家はあなたを信用していない。新たに誓約を結ぶには、あと{1_TurnsUntilPledgeAvailable}ターンの経過が必要である。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_TT">
+      <Text>保護条約の締結とは、世界に対し、対象となる都市国家が貢ぎ物の強要や攻撃を受けた場合の自国の介入を宣言することと同義である。保護条約はあなたとの争いを望まない国に対する抑止力になるが、対象となる都市国家が攻撃や圧力を受けた場合には、都市国家から介入を要求される。[NEWLINE][NEWLINE]条約を結んでいる間は、その都市国家に対する[ICON_INFLUENCE]影響力が{1_InfluenceMinimum}上昇する。保護条約は、締結から{2_TurnsMinimum}ターン経過するまでは破棄できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_QUESTS">
+      <Text>クエスト:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_RESOURCES">
+      <Text>資源:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_REVOKE_PROTECTION">
+      <Text>保護の取り消し</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_REVOKE_PROTECTION_DISABLED_COMMITTED_TT">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]最短期間{1_TurnsRemaining}ターンの保護条約を締結した。条約は期限を迎えるまでは破棄できない。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_REVOKE_PROTECTION_TT">
+      <Text>この都市国家に対する保護の取り決めを撤回することができる。撤回を行うことで、この都市国家に対する他文明の態度が変化する可能性がある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES">
+      <Text>友好的な都市国家から得られる[ICON_FOOD]食料、[ICON_CULTURE]文化力、[ICON_PEACE]信仰力が50%増加する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
+      <Text>全ての近接攻撃海軍ユニットが、倒した敵船を拿捕できる「無償の船」のレベルアップを所持している。海軍ユニットの維持費が通常の3分の1になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT">
+      <Text>海軍ユニットの[ICON_MOVES]移動+2。スパイが1人多く供給される。</Text>
+    </Row>
+  </Language_JA_JP>
+</GameData>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_SKI_INFANTRY</Type>
+			<Description>TXT_KEY_PROMOTION_SKI_INFANTRY</Description>
+			<Help>TXT_KEY_PROMOTION_SKI_INFANTRY_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<HillsDoubleMove>true</HillsDoubleMove>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_SKI_INFANTRY</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	<UnitPromotions_Terrains>
+		<Row>
+			<PromotionType>PROMOTION_SKI_INFANTRY</PromotionType>
+			<TerrainType>TERRAIN_SNOW</TerrainType>
+			<DoubleMove>true</DoubleMove>
+			<Attack>25</Attack>
+			<Defense>25</Defense>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SKI_INFANTRY</PromotionType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<DoubleMove>true</DoubleMove>
+			<Attack>25</Attack>
+			<Defense>25</Defense>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_SKI_INFANTRY</PromotionType>
+			<TerrainType>TERRAIN_HILL</TerrainType>
+			<Attack>25</Attack>
+			<Defense>25</Defense>
+		</Row>
+	</UnitPromotions_Terrains>
+</GameData>

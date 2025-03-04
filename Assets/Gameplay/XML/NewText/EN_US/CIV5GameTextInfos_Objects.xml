@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<!-- Sid Meier's Civilization V -->
+<!-- Copyright Firaxis Games 2010 -->
+<!-- -->
+<!-- Game Text Objects -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_DOMAIN_AIR">
+			<Text>Air Units</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_DOMAIN_IMMOBILE">
+			<Text>Immobile Units</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_DOMAIN_LAND">
+			<Text>Land Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DOMAIN_SEA">
+			<Text>Water Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_0">
+			<Text>Ancient Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_1">
+			<Text>Classical Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_6">
+			<Text>Future Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_4">
+			<Text>Industrial Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_2">
+			<Text>Medieval Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_5">
+			<Text>Modern Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_3">
+			<Text>Renaissance Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_FALLOUT">
+			<Text>Fallout</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_FLOOD_PLAINS">
+			<Text>Flood Plains</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_FOREST">
+			<Text>Forest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_ICE">
+			<Text>Ice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_JUNGLE">
+			<Text>Jungle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_MARSH">
+			<Text>Marsh</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_OASIS">
+			<Text>Oasis</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMESPEED_EPIC">
+			<Text>Epic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMESPEED_MARATHON">
+			<Text>Marathon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMESPEED_STANDARD">
+			<Text>Standard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAMESPEED_QUICK">
+			<Text>Quick</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOLD">
+			<Text>Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_DEITY">
+			<Text>Deity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_IMMORTAL">
+			<Text>Immortal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_EMPEROR">
+			<Text>Emperor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_KING">
+			<Text>King</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_PRINCE">
+			<Text>Prince</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_WARLORD">
+			<Text>Warlord</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_CHIEFTAIN">
+			<Text>Chieftain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_SETTLER">
+			<Text>Settler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HANDICAP_AI_DEFAULT">
+			<Text>AI</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_IMPROVEMENT_CAMP">
+			<Text>Camp</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_CITY_RUINS">
+			<Text>City Ruins</Text>
+            <Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_FARM">
+			<Text>Farm</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_FISHING_BOATS">
+			<Text>Fishing Boats</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_FORT">
+			<Text>Fort</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_GOODY_HUT">
+			<Text>Ancient Ruins</Text>
+            <Plurality>2</Plurality>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_ENCAMPMENT">
+			<Text>Encampment</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_LUMBERMILL">
+			<Text>Lumber Mill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_MINE">
+			<Text>Mine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_OFFSHORE_PLATFORM">
+			<Text>Offshore Platform</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_PASTURE">
+			<Text>Pasture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_PLANTATION">
+			<Text>Plantation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_QUARRY">
+			<Text>Quarry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_TRADING_POST">
+			<Text>Trading Post</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_WELL">
+			<Text>Oil Well</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_LANDMARK">
+			<Text>Landmark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_ACADEMY">
+			<Text>Academy</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_CUSTOMS_HOUSE">
+			<Text>Customs House</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_MANUFACTORY">
+			<Text>Manufactory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_IMPROVEMENT_CITADEL">
+			<Text>Citadel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INVISIBLE_SUBMARINE">
+			<Text>Submarines</Text>
+      <Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_RESEARCH">
+			<Text>Research</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROCESS_WEALTH">
+			<Text>Wealth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_APOLLO_PROGRAM">
+			<Text>Apollo Program</Text>
+      <Gender>neuter:the</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_PROJECT_MANHATTAN_PROJECT">
+			<Text>Manhattan Project</Text>
+      <Gender>neuter:the</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SS_CASING">
+			<Text>SS Casing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SS_COCKPIT">
+			<Text>SS Cockpit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SS_DOCKING_BAY">
+			<Text>SS Docking Bay</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SS_ENGINE">
+			<Text>SS Engine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SS_LIFE_SUPPORT">
+			<Text>SS Life Support</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SS_STASIS_CHAMBER">
+			<Text>SS Stasis Chamber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SS_THRUSTERS">
+			<Text>SS Thrusters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SS_BOOSTER">
+			<Text>SS Booster</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMBAT1">
+			<Text>Combat I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMBAT2">
+			<Text>Combat II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COMBAT3">
+			<Text>Combat III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_ALUMINUM">
+			<Text>Aluminum</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_BANANAS">
+			<Text>Bananas</Text>
+            <Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_COAL">
+			<Text>Coal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_CATTLE">
+			<Text>Cattle</Text>
+            <Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_SHEEP">
+			<Text>Sheep</Text>
+            <Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_DEER">
+			<Text>Deer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_DYES">
+			<Text>Dyes</Text>
+            <Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_FISH">
+			<Text>Fish</Text>
+            <Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_GEMS">
+			<Text>Gems</Text>
+            <Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_GOLD">
+			<Text>Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_HORSES">
+			<Text>Horses</Text>
+            <Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_IRON">
+			<Text>Iron</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_IVORY">
+			<Text>Ivory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MARBLE">
+			<Text>Marble</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_OIL">
+			<Text>Oil</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_SILK">
+			<Text>Silk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_SPICES">
+			<Text>Spices</Text>
+            <Plurality>2</Plurality>
+		</Row>
+    <Row Tag="TXT_KEY_RESOURCE_STONE">
+      <Text>Stone</Text>
+    </Row>
+		<Row Tag="TXT_KEY_RESOURCE_SUGAR">
+			<Text>Sugar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_URANIUM">
+			<Text>Uranium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_WHALES">
+			<Text>Whales</Text>
+            <Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_WHEAT">
+			<Text>Wheat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_WINE">
+			<Text>Wine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_COTTON">
+			<Text>Cotton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_FURS">
+			<Text>Furs</Text>
+            <Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_INCENSE">
+			<Text>Incense</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_PEARLS">
+			<Text>Pearls</Text>
+            <Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_SILVER">
+			<Text>Silver</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ROUTE_RAILROAD">
+			<Text>Railroad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ROUTE_ROAD">
+			<Text>Road</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_ARTIST">
+			<Text>Artist|Artists</Text>
+      <Gender>neuter:an</Gender>
+      <Plurality>1|2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_ARTIST_SLOTS">
+			<Text>Artist Slots:</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_ARTIST_TITLE">
+			<Text>Great Artist Points:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_CITIZEN">
+			<Text>Unemployed Citizen|Unemployed Citizens</Text>
+      <Plurality>1|2</Plurality>
+    </Row>
+		<Row Tag="TXT_KEY_SPECIALIST_ENGINEER">
+			<Text>Engineer|Engineers</Text>
+      <Plurality>1|2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_ENGINEER_SLOTS">
+			<Text>Engineer Slots:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_ENGINEER_TITLE">
+			<Text>Great Engineer Points:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_GREAT_ARTIST">
+			<Text>Great Artist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_GREAT_ENGINEER">
+			<Text>Great Engineer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_GREAT_MERCHANT">
+			<Text>Great Merchant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_GREAT_PRIEST">
+			<Text>Great Prophet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_GREAT_SCIENTIST">
+			<Text>Great Scientist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_MERCHANT">
+			<Text>Merchant|Merchants</Text>
+      <Plurality>1|2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_MERCHANT_SLOTS">
+			<Text>Merchant Slots:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_MERCHANT_TITLE">
+			<Text>Great Merchant Points:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_SCIENTIST">
+			<Text>Scientist|Scientists</Text>
+      <Plurality>1|2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_SCIENTIST_SLOTS">
+			<Text>Scientist Slots:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALIST_SCIENTIST_TITLE">
+			<Text>Great Scientist Points:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_DESERT">
+			<Text>Desert</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_GRASS">
+			<Text>Grassland</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_HILL">
+			<Text>Hill</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_MOUNTAIN">
+			<Text>Mountain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_OCEAN">
+			<Text>Ocean</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_PLAINS">
+			<Text>Plains</Text>
+            <Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_SNOW">
+			<Text>Snow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_TUNDRA">
+			<Text>Tundra</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRADE_CULTURE">
+			<Text>Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRADE_RESEARCH">
+			<Text>Research</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TURNTIMER_FAST">
+			<Text>Fast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TURNTIMER_MEDIUM">
+			<Text>Medium</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TURNTIMER_SLOW">
+			<Text>Slow</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORY_DOMINATION">
+			<Text>Domination</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORY_CULTURAL">
+			<Text>Cultural</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORY_DIPLOMATIC">
+			<Text>Diplomatic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORY_SPACE_RACE">
+			<Text>Science</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORY_TIME">
+			<Text>Time</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_DEBUG">
+			<Text>Debug</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_DUEL">
+			<Text>Duel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_TINY">
+			<Text>Tiny</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_SMALL">
+			<Text>Small</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_STANDARD">
+			<Text>Standard</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_LARGE">
+			<Text>Large</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_HUGE">
+			<Text>Huge</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_YIELD_FOOD">
+			<Text>Food</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_PRODUCTION">
+			<Text>Production</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_GOLD">
+			<Text>Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_YIELD_SCIENCE">
+			<Text>Science</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_CITY_STATE_CULTURED_ADJECTIVE">
+			<Text>Cultured</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_MILITARISTIC_ADJECTIVE">
+			<Text>Militaristic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_MARITIME_ADJECTIVE">
+			<Text>Maritime</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_FRIENDLY">
+			<Text>Friendly</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_NEUTRAL">
+			<Text>Neutral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_HOSTILE">
+			<Text>Hostile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_STATE_PERSONALITY_IRRATIONAL">
+			<Text>Irrational</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_FEATURE_MT_EVEREST">
+			<Text>Mt. Everest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_CRATER">
+			<Text>The Barringer Crater</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_LAKE_TITICACA">
+			<Text>Lake Titicaca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_MT_FUJI">
+			<Text>Mt. Fuji</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_MESA">
+			<Text>The Grand Mesa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_REEF">
+			<Text>The Great Barrier Reef</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_VOLCANO">
+			<Text>Krakatoa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_GIBRALTAR">
+			<Text>Rock of Gibraltar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FEATURE_GEYSER">
+			<Text>Old Faithful</Text>
+		</Row>
+    <Row Tag="TXT_KEY_FEATURE_ATOLL">
+      <Text>Atoll</Text>
+    </Row>
+		<Row Tag="TXT_KEY_FEATURE_NATURAL_WONDER">
+			<Text>Natural Wonder</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_SYDNEY_OPERA_HOUSE">
+			<Text>Sydney Opera House</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_STADIUM_DESC">
+			<Text>Stadium</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_LONGHOUSE_DESC">
+			<Text>Longhouse</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_FLOATING_GARDENS_DESC">
+			<Text>Floating Gardens</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_BAZAAR_DESC">
+			<Text>Bazaar</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_SATRAPS_COURT_DESC">
+			<Text>Satrap's Court</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_PAPER_MAKER_DESC">
+			<Text>Paper Maker</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_MONUMENT_DESC">
+			<Text>Monument</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_DESC">
+			<Text>Mud Pyramid Mosque</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_TEMPLE_DESC">
+			<Text>Temple</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_WAT_DESC">
+			<Text>Wat</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_BURIAL_TOMB_DESC">
+			<Text>Burial Tomb</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_BUILDING_MONASTERY_DESC">
+			<Text>Monastery</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITYVIEW_PROD_TEXT">
+			<Text>Production</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_GOLD_TEXT">
+			<Text>Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_RESEARCH_TEXT">
+			<Text>Science</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_CULTURE_TEXT">
+			<Text>Culture</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITYVIEW_GREAT_PEOPLE_TEXT">
+			<Text>Great People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_WONDERS_TEXT">
+			<Text>Wonders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_SPECIAL_TEXT">
+			<Text>Specialist Buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_REGULARBUILDING_TEXT">
+			<Text>Buildings</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CITYVIEW_CITIZENS_TEXT">
+			<Text>{1_NumCitizens: plural 1?Citizen; other?Citizens;}</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_CIVILIAN_UNIT">
+			<Text>Civilian Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MILITARY_UNIT">
+			<Text>Military Unit</Text>
+		</Row>
+
+	</Language_en_US>
+</GameData>

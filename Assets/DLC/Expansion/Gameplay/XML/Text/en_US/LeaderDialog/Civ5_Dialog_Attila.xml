@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+
+<GameData>
+	<Language_en_US>
+
+    <!--General phrases -->
+    <!--Greeting (first time meeting) -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_FIRSTGREETING_1">
+      <Text>The son of Mundzuk greets you. Tread lightly across my land, and you may be safe yet from my horse's iron hooves.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_FIRSTGREETING_2">
+      <Text>You are in the presence of Attila, scourge of Rome. Do not let hubris be your downfall as well.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_FIRSTGREETING_3">
+      <Text>Welcome stranger to my domain.  I am Attila the Hun - be wary of crossing me lest your wealth end up here at my feet.</Text>
+    </Row>
+    <!--Reacts to his bluff being called -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_WARBLUFF_1">
+      <Text>Do not forget who you are dealing with.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_WARBLUFF_2">
+      <Text>I value a backbone in my chieftains, but you presume too much.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_WARBLUFF_3">
+      <Text>Try that again, and I'll add your gold to my riches as well.</Text>
+    </Row>
+    <!--Gloats after winning a war -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_WINWAR_1">
+      <Text>Remember this could have been avoided. Your people will not support you long in repeated attempts at self-destruction.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_WINWAR_2">
+      <Text>Your lesson is learned, I hope.  Perhaps I shall liberate you of your fanciest silver to ensure you remember.</Text>
+    </Row>
+    <!--Submissive after losing a war -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_LOSEWAR_1">
+      <Text>I am not too proud to blindly ignore defeat.  Only a fool gloats over one victory.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_LOSEWAR_2">
+      <Text>Sometimes a loss occurs despite the best attempt at preparation.  The next round may not go so smoothly for you.</Text>
+    </Row>
+    <!--Defeated and removed from game -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_DEFEATED_1">
+      <Text>My people will mourn me not with tears but with the blood of men. I may be gone, but one will rise to take my place.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_DEFEATED_2">
+      <Text>You may have taken my lands and scattered my armies, but the Huns are proud and strong.  They will not accept a weak ruler.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_DEFEATED_3">
+      <Text>It is easy to take a land by force but not to rule it.  You have won half the battle, but the hardest part is yet to come.</Text>
+    </Row>
+    
+    <!--Neutral -->
+    <!--Greetings (subsequent meetings) -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_GREETING_1">
+      <Text>Good day to you.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_GREETING_2">
+      <Text>Greetings.</Text>
+    </Row>
+    <!--Goodbye -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_GOODBYE_1">
+      <Text>Until we meet again.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_GOODBYE_2">
+      <Text>Goodbye.</Text>
+    </Row>
+    <!--Trade offer from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADE_YES_NEUTRAL">
+      <Text>A fine deal.</Text>
+    </Row>
+    <!--Trade offer from player - sweeten the deal -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADE_NEEDMORE_NEUTRAL_1">
+      <Text>This will not feed my men nor my horses. Improve your offer.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADE_NEEDMORE_NEUTRAL_2">
+      <Text>Can you do a little better?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADE_NEEDMORE_NEUTRAL_3">
+      <Text>That's not quite good enough.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADE_NEEDMORE_NEUTRAL_4">
+      <Text>Almost...</Text>
+    </Row>
+    <!--Trade offer from player - no -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADE_NO_NEUTRAL">
+      <Text>I am not interested.</Text>
+    </Row>
+    <!--Demand for tribute from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRIBUTE_YES_NEUTRAL">
+      <Text>Rejoice that my attention is urgently needed elsewhere. Else I might not be so forgiving.</Text>
+    </Row> 
+    <!--Demand for tribute from player - no -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRIBUTE_NO_NEUTRAL">
+      <Text>You seem to have learned your bargaining techniques from Roman thieves.  No.</Text>
+    </Row>
+    <!--Requests a trade -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADEREQUEST_NEUTRAL">
+      <Text>My army is in need of supplies - this can be profitable for us both.</Text>
+    </Row>
+    <!--Demands tribute -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_DEMANDTRIBUTE_NEUTRAL">
+      <Text>Hrm, I feel my pile of riches grows boring.  You can add to it now, or I can take what I like of yours later.</Text>
+    </Row>  
+    <!--Agrees -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_AGREE_SHORT_1">
+      <Text>All right.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_AGREE_SHORT_2">
+      <Text>Very Well.</Text>
+    </Row>
+    <!--Disagrees -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_DISAGREE_SHORT_1">
+      <Text>I must refuse.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_DISAGREE_SHORT_2">
+      <Text>No.</Text>
+    </Row>
+    <!--Let's hear it -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_LETSHEARIT_1">
+      <Text>Let's hear it.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_LETSHEARIT_2">
+      <Text>Go ahead.</Text>
+    </Row>
+    
+    <!--Happy -->
+    <!--Greetings (subsequent meetings) -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_GREETING_3">
+      <Text>Greetings.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_GREETING_4">
+      <Text>Welcome.</Text>
+    </Row>
+    <!--Goodbye -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_GOODBYE_3">
+      <Text>Until we meet again.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_GOODBYE_4">
+      <Text>Farewell, friend.</Text>
+    </Row>
+    <!--Trade offer from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADE_YES_HAPPY">
+      <Text>A sound agreement!</Text>
+    </Row>
+    <!--Trade offer from player - sweeten the deal -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADE_NEEDMORE_HAPPY_1">
+      <Text>Ha, even the Romans wouldn't dare present an offer like this.  Try again, friend.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADE_NEEDMORE_HAPPY_2">
+      <Text>Surely you can't do a little better?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADE_NEEDMORE_HAPPY_3">
+      <Text>You're almost there...</Text>
+    </Row>
+    <!--Trade offer from player - no -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADE_NO_HAPPY">
+      <Text>Thank you, but we'll pass.</Text>
+    </Row>
+    <!--Demand for tribute from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRIBUTE_YES_HAPPY">
+      <Text>Why, certainly.  Aid for one helps us all in the end.</Text>
+    </Row>
+    <!--Demand for tribute from player - no -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRIBUTE_NO_HAPPY">
+      <Text>My resources are all tied up abroad.  I am afraid you're on your own.</Text>
+    </Row>
+    <!--Demands tribute -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_DEMANDTRIBUTE_HAPPY">
+      <Text>See, I've cleared out a spot of honor for your belongings.  How can you refuse such privilege?</Text>
+    </Row>
+    <!--Requests a trade -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADEREQUEST_HAPPY">
+      <Text>Come, there are many great treaties to be drawn!</Text>
+    </Row> 
+    <!--Agrees -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_AGREE_SHORT_3">
+      <Text>Certainly.</Text>
+    </Row> 
+    <!--Disagrees -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_DISAGREE_SHORT_3">
+      <Text>Certainly not.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_DISAGREE_SHORT_4">
+      <Text>That's unacceptable.</Text>
+    </Row> 
+    <!--Let's hear it -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_LETSHEARIT_3">
+      <Text>Proceed.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_LETSHEARIT_4">
+      <Text>I'm listening.</Text>
+    </Row>
+    
+    <!--Angry -->
+    <!--Greetings (subsequent meetings) -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_GREETING_5">
+      <Text>Oh, it's you.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_GREETING_6">
+      <Text>What do you want?</Text>
+    </Row>
+    <!--Goodbye -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_GOODBYE_5">
+      <Text>That is all.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_GOODBYE_6">
+      <Text>Go away now.</Text>
+    </Row>
+    <!--Trade offer from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADE_YES_ANGRY">
+      <Text>Deal.</Text>
+    </Row> 
+    <!--Trade offer from player - sweeten the deal -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADE_NEEDMORE_ANGRY_1">
+      <Text>I can feel the bile rising in my throat, but I will let you improve your offer at my advisors' behest.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADE_NEEDMORE_ANGRY_2">
+      <Text>That's not good enough.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADE_NEEDMORE_ANGRY_3">
+      <Text>You must do better than that.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADE_NEEDMORE_ANGRY_4">
+      <Text>Almost...</Text>
+    </Row>
+    <!--Trade offer from player - no -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADE_NO_ANGRY">
+      <Text>You seek to steal from me in front of my own men? Begone, beggar!</Text>
+    </Row>  
+    <!--Demand for tribute from player - yes -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRIBUTE_YES_ANGRY">
+      <Text>You may have the upper hand at the moment, but this will not always be the case.</Text>
+    </Row>
+    <!--Demand for tribute from player - no -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRIBUTE_NO_ANGRY">
+      <Text>Be warned - you sign your death warrant with this foolishness.</Text>
+    </Row>
+    <!--Demands tribute -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_DEMANDTRIBUTE_ANGRY">
+      <Text>You will contribute to my amassed wealth.  There is a spot open near my feet.</Text>
+    </Row>
+    <!--Requests a trade -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_TRADEREQUEST_ANGRY">
+      <Text>This is better than you deserve, but let it not be said that I am an unfair man.</Text>
+    </Row> 
+    <!--Agrees -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_AGREE_SHORT_4">
+      <Text>Fine. Agreed.</Text>
+    </Row>
+    <!--Disagrees -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_DISAGREE_SHORT_5">
+      <Text>You are mad!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_DISAGREE_SHORT_6">
+      <Text>That's unacceptable.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_DISAGREE_SHORT_7">
+      <Text>You cannot be serious!</Text>
+    </Row>
+    <!--Let's hear it -->
+    <Row Tag="TXT_KEY_LEADER_ATTILA_LETSHEARIT_5">
+      <Text>Yes?</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_LEADER_ATTILA_DECLAREWAR_1">
+      <Text>Honoria's bride-price must be met!  This land is mine, whether you give it freely or not.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_DECLAREWAR_2">
+      <Text>Rome's forces have splintered like twigs against my army's flanks, how will you stand?  My horsemen will pound you into the earth.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_DECLAREWAR_3">
+      <Text>I grow tired of this throne.  I think I should like to have yours instead.</Text>
+    </Row>
+
+    <Row Tag="TXT_KEY_LEADER_ATTILA_ATTACKED_1">
+      <Text>Curse you, you vile Roman cur! I'll have your head before the day is done.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_ATTACKED_2">
+      <Text>I would have expected this treachery from Rome, not from you. No matter, you all bleed red.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LEADER_ATTILA_ATTACKED_3">
+      <Text>I thought you useless yet you prove me wrong.  You've become an excellent example for how to die.</Text>
+    </Row>
+
+
+  </Language_en_US>
+</GameData>

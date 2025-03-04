@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_PL_PL>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_CANNOT_BE_ADJACENT">
+      <Text>{@1_ImprovementName} {@1_ImprovementName: plural 1?nie może; 2?nie mogą;} powstać w sąsiedztwie {@1_ImprovementName: plural 1?{@1_ImprovementName: gender masculine?innego; feminine?innej; other?innego;}; 2?innych;} {@1_ImprovementName[2]} ({@1_ImprovementName: plural 1?{@1_ImprovementName: gender masculine?ukończonego lub będącego; feminine?ukończonej lub będącej; other?ukończonego lub będącego;}; 2?ukończonych lub będących;} w budowie).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_NO_ADJACENT_LUXURY">
+      <Text>{@1_ImprovementName[4]} należy zbudować w sąsiedztwie pola z luksusowym surowcem.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_NOT_IN_CITY_STATE_TERRITORY">
+      <Text>{@1_ImprovementName[4]} można zbudować tylko na terytorium państwa-miasta.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_CONNECTED">
+      <Text>Miasto ma [ICON_CONNECTION] połączenie ze [ICON_CAPITAL] stolicą!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING1">
+      <Text>[COLOR_YELLOW]Przechwycenie przez myśliwiec lub [ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING2">
+      <Text>[COLOR_YELLOW]jednostkę przeciwlotniczą zwiększy obrażenia[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_CITY_SAPPED">
+      <Text>Wsparcie wieży oblężniczej</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EMPIRE_UNHAPPY_PENALTY">
+      <Text>[ICON_HAPPINESS_3] Niezadowolenie imperium</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EMPIRE_VERY_UNHAPPY_PENALTY">
+      <Text>[ICON_HAPPINESS_4] Wielkie niezadowolone imperium</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_VISIBLE_AA_UNITS">
+      <Text>[COLOR_WARNING_TEXT]Rozpoznane jednostki przeciwlotnicze wroga: {1_Number}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_ART_ARTIFACT_EMPTY_TOOLTIP">
+      <Text>Puste miejsce na wielkie dzieło sztuki lub artefakt</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_LITERATURE_EMPTY_TOOLTIP">
+      <Text>Puste miejsce na wielkie dzieło literackie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_MUSIC_EMPTY_TOOLTIP">
+      <Text>Puste miejsce na wielkie dzieło muzyczne</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_TRADE_ROUTE">
+      <Text>Połączenie miast</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_TRADE_ROUTES">
+      <Text>Połączenia miast</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_ANARCHY">
+      <Text>[COLOR_NEGATIVE_TEXT]Imperium będzie ogarnięte anarchią ze względu na zmianę ideologii jeszcze przez kilka tur ({1_Turns}). W tym czasie imperium nie zyskuje [ICON_RESEARCH] nauki, [ICON_GOLD] złota, [ICON_CULTURE] kultury ani [ICON_PEACE] wiary, a miasta nie generują [ICON_PRODUCTION] produkcji, nie można więc niczego wybudować.[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CARNIVAL_EFFECT">
+      <Text>Obecnie, dzięki unikalnej premii karnawałowej, zyskujesz dodatkowe 100% generowanej turystyki we wszystkich cywilizacjach. Ponadto o 50% szybciej zdobywasz wielkich pisarzy, artystów i muzyków.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_CITY_COST">
+      <Text>Każde posiadane przez ciebie miasto zwiększy koszty ustroju społecznego o {1_Num}%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_FROM_BONUS_TURNS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] z niedawnego projektu Kongresu Światowego (Pozostałe tury: {2_TurnsLeft}).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY">
+      <Text>Ponieważ [ICON_HAPPINESS_4] niezadowolenie osiągnęło 20 punktów, w imperium wybuchła rewolucja! Miasta mogą odłączyć się od twojego kraju i dołączyć do cywilizacji, która ma największy wpływ kulturalny na twój lud.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_UNHAPPY">
+      <Text>Gdy ludność imperium jest [ICON_HAPPINESS_3] niezadowolona, miasta rosną z 1/4 normalnej prędkości![NEWLINE]Tworzenie [ICON_GOLD] złota i [ICON_PRODUCTION] produkcji jest zmniejszone o 2% na każdy punkt niezadowolenia. Ta sama kara dotyczy jednostek podczas walki!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_VERY_UNHAPPY">
+      <Text>Ponieważ [ICON_HAPPINESS_4] niezadowolenie osiągnęło 10 punktów, w imperium rozpoczęły się niepokoje! Może dojść do powstań, podczas których na twoim terytorium pojawią się rebelianckie (barbarzyńskie) jednostki. Będzie się tak działo co kilka tur, póki nie poprawisz sytuacji!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_CITY_CONNECTIONS">
+      <Text>{1_Num} z [ICON_CONNECTED] połączeń między twoimi miastami a twoją [ICON_CAPITAL] stolicą.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_ITR">
+      <Text>{1_Num} ze [ICON_TURNS_REMAINING] szlaków handlowych między twoimi miastami a miastami innych cywilizacji.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_TR">
+      <Text>{1_Num} z [ICON_CONNECTED] połączeń między twoimi miastami a twoją [ICON_CAPITAL] stolicą.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_TRAITS">
+      <Text>{1_Num} z cech.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_LEAGUES">
+      <Text>{1_Happiness} z Kongresu Światowego.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE_FROM_ITR">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] ze [ICON_TURNS_REMAINING] szlaków handlowych między miastami twoimi a innych cywilizacji.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TECH_CITY_COST">
+      <Text>Każde twoje miasto lub [ICON_PUPPET] miasto marionetkowe zwiększy koszty technologii o {1_Num}%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_PUBLIC_OPINION">
+      <Text>{1_Num} z opinii publicznej (zapotrzebowanie na nową ideologię).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIQUE_GOLDEN_AGE_ANNOUNCE">
+      <Text>Karnawał!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CARGO_CAPACITY">
+      <Text>Pojemność ładowni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CARGO_CAPACITY_TT">
+      <Text>Liczba jednostek, jakie może/mogą przetransportować {1_UnitName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_TOURISM_STRENGTH_TT">
+      <Text>Określa siłę jednostki, gdy wykonuje ona trasę koncertową. Siła obliczana jest na podstawie [ICON_TOURISM] turystyki generowanej przez cywilizację, gdy narodził się muzyk.</Text>
+    </Row>
+  </Language_PL_PL>
+</GameData>

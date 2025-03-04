@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+
+<GameData>
+    <Language_en_US>
+        <!--General phrases -->
+        <!--Greeting (first time meeting) -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_FIRSTGREETING_1">
+            <Text>Hail and well met!  I am Gustavus Adolphus, the Golden King of Sweden.  May we work together as allies.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_FIRSTGREETING_2">
+            <Text>Welcome stranger to the land of the Snow King.  I am Gustavus Adolphus, heir and issue of the illustrious House of Vasa.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_FIRSTGREETING_3">
+            <Text>Ho, a newcomer to the world stage.  Greetings, I am Gustavus Adolphus, celebrated King of Sweden. Be at peace in my court.</Text>
+        </Row>
+        <!--Reacts to his bluff being called -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_WARBLUFF_1">
+            <Text>Ha, you do seem to have more wits about you than I gave you credit for.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_WARBLUFF_2">
+            <Text>Careful - your true intentions make themselves known.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_WARBLUFF_3">
+            <Text>Blast, it seems Oxenstierna was right about you.</Text>
+        </Row>
+        <!--Gloats after winning a war -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_WINWAR_1">
+            <Text>You thought to best me where even Tilly could not?  Such arrogance, such stupidity!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_WINWAR_2">
+            <Text>Ha, another victory for the mighty Captain Gars. I do say, that man needs a promotion.</Text>
+        </Row>
+        <!--Submissive after losing a war -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_LOSEWAR_1">
+            <Text>Hmph.  You have only won one battle - not the entire war.  I am now privy to your thoughts, and will prepare better next time.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_LOSEWAR_2">
+            <Text>Enjoy your victory while you can, it will not last.  The Hakkapeliitta will ride again.</Text>
+        </Row>
+        <!--Defeated and removed from game -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_DEFEATED_1">
+            <Text>Why, Lord, have you forsaken me?  Was I not doing your work?  ... How can I have lost?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_DEFEATED_2">
+            <Text>I am Vasa, you cannot completely destroy me.  While I may fall, the spirit of my House continues, and will forever be a thorn in your side.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_DEFEATED_3">
+            <Text>I am the King of Sweden!  You may take my land, my people, and my country, but you can never have the House of Vasa.</Text>
+        </Row>
+
+        <!--Neutral -->
+        <!--Greetings (subsequent meetings) -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_GREETING_1">
+            <Text>Hail.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_GREETING_2">
+            <Text>Greetings.</Text>
+        </Row>
+        <!--Goodbye -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_GOODBYE_1">
+            <Text>Until we meet again.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_GOODBYE_2">
+            <Text>Goodbye.</Text>
+        </Row>
+        <!--Trade offer from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_YES_NEUTRAL">
+            <Text>Very well.</Text>
+        </Row>
+        <!--Trade offer from player - sweeten the deal -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_NEUTRAL_1">
+            <Text>I like very much where this is going, but I will not accept less than what I am due.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_NEUTRAL_2">
+            <Text>Can you not do a little better?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_NEUTRAL_3">
+            <Text>That's not quite good enough.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_NEUTRAL_4">
+            <Text>Almost...</Text>
+        </Row>
+        <!--Trade offer from player - no -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NO_NEUTRAL">
+            <Text>I am not interested.</Text>
+        </Row>
+        <!--Demand for tribute from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRIBUTE_YES_NEUTRAL">
+            <Text>There is a time for acquiescence and a time for fighting.  I choose the former now, but this may not always be the case.</Text>
+        </Row>
+        <!--Demand for tribute from player - no -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRIBUTE_NO_NEUTRAL">
+            <Text>I would not be able to face the Lord with a clear conscience if I accepted such a demand.</Text>
+        </Row>
+        <!--Requests a trade -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADEREQUEST_NEUTRAL">
+            <Text>I believe I have worked out an agreement which you will find acceptable, even perhaps agreeable.</Text>
+        </Row>
+        <!--Demands tribute -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_DEMANDTRIBUTE_NEUTRAL">
+            <Text>Our efforts to do right and good require the assistance of all, even you.</Text>
+        </Row>
+        <!--Agrees -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_AGREE_SHORT_1">
+            <Text>All right.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_AGREE_SHORT_2">
+            <Text>Very Well.</Text>
+        </Row>
+        <!--Disagrees -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_DISAGREE_SHORT_1">
+            <Text>I must refuse.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_DISAGREE_SHORT_2">
+            <Text>No, of course not.</Text>
+        </Row>
+        <!--Let's hear it -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_LETSHEARIT_1">
+            <Text>Let's hear it.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_LETSHEARIT_2">
+            <Text>Go ahead.</Text>
+        </Row>
+
+        <!--Happy -->
+        <!--Greetings (subsequent meetings) -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_GREETING_3">
+            <Text>Welcome.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_GREETING_4">
+            <Text>Good day, friend.</Text>
+        </Row>
+        <!--Goodbye -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_GOODBYE_3">
+            <Text>Farewell.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_GOODBYE_4">
+            <Text>Goodbye.</Text>
+        </Row>
+        <!--Trade offer from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_YES_HAPPY">
+            <Text>Agreed!</Text>
+        </Row>
+        <!--Trade offer from player - sweeten the deal -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_HAPPY_1">
+            <Text>Ha, my nobles often try such schemes against each other, but its like won't work on me, friend.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_HAPPY_2">
+            <Text>Oh come now, is that the best you can do?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_HAPPY_3">
+            <Text>You're almost there...</Text>
+        </Row>
+        <!--Trade offer from player - no -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NO_HAPPY">
+            <Text>Thank you, but not this time.</Text>
+        </Row>
+        <!--Demand for tribute from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRIBUTE_YES_HAPPY">
+            <Text>A plea for help is gladly answered, for I trust your need is just.</Text>
+        </Row>
+        <!--Demand for tribute from player - no -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRIBUTE_NO_HAPPY">
+            <Text>I am much saddened, friend, that I am unable to assist at this time.</Text>
+        </Row>
+        <!--Requests a trade -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADEREQUEST_HAPPY">
+            <Text>Friend, I believe both our peoples can profit from this arrangement.</Text>
+        </Row>
+        <!--Demands tribute -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_DEMANDTRIBUTE_HAPPY">
+            <Text>Your assistance at this time is greatly appreciated, and would be doubtless returned in the future.</Text>
+        </Row>
+        <!--Agrees -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_AGREE_SHORT_3">
+            <Text>Certainly.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_AGREE_SHORT_4">
+            <Text>It is agreed.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_AGREE_SHORT_5">
+            <Text>Excellent.</Text>
+        </Row>
+        <!--Disagrees -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_DISAGREE_SHORT_3">
+            <Text>Certainly not.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_DISAGREE_SHORT_4">
+            <Text>We must decline.</Text>
+        </Row>
+        <!--Let's hear it -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_LETSHEARIT_3">
+            <Text>Go ahead.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_LETSHEARIT_4">
+            <Text>I'm listening.</Text>
+        </Row>
+
+        <!--Angry -->
+        <!--Greetings (subsequent meetings) -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_GREETING_5">
+            <Text>Well?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_GREETING_6">
+            <Text>What do you want?</Text>
+        </Row>
+        <!--Goodbye -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_GOODBYE_5">
+            <Text>That is all.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_GOODBYE_6">
+            <Text>Go away.</Text>
+        </Row>
+        <!--Trade offer from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_YES_ANGRY">
+            <Text>Agreed.</Text>
+        </Row>
+        <!--Trade offer from player - sweeten the deal -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_ANGRY_1">
+            <Text>Not even Wallenstein would stoop so low.  Fix your offer, before I fix your skull.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_ANGRY_2">
+            <Text>That's not good enough.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_ANGRY_3">
+            <Text>You must do better than that.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NEEDMORE_ANGRY_4">
+            <Text>Almost...</Text>
+        </Row>
+        <!--Trade offer from player - no -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADE_NO_ANGRY">
+            <Text>Do I look like a madman to you?  I must, for you to make such an offensive demand.</Text>
+        </Row>
+        <!--Demand for tribute from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRIBUTE_YES_ANGRY">
+            <Text>Your gall clearly knows no bounds.  I'll accede to your demands, if only to keep my people safe.</Text>
+        </Row>
+        <!--Demand for tribute from player - no -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRIBUTE_NO_ANGRY">
+            <Text>I am Vasa.  Your impudence is not only and insult to me, but to all who came before me.</Text>
+        </Row>
+        <!--Requests a trade -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_TRADEREQUEST_ANGRY">
+            <Text>I would rather paint the country side with your blood, but I do what I must, no matter how upsetting.</Text>
+        </Row>
+        <!--Demands tribute -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_DEMANDTRIBUTE_ANGRY">
+            <Text>I may be able to overlook some of your more recent injustices, if you acquiesce to my demands.</Text>
+        </Row>
+        <!--Disagrees -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_DISAGREE_SHORT_5">
+            <Text>Of course not.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_DISAGREE_SHORT_6">
+            <Text>That's unacceptable.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_DISAGREE_SHORT_7">
+            <Text>You cannot be serious!</Text>
+        </Row>
+        <!--Let's hear it -->
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_LETSHEARIT_5">
+            <Text>What now?</Text>
+        </Row>
+
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_DECLAREWAR_1">
+            <Text>I am the King of Sweden! And this day I seal with your blood the injustices of your broken and dejected peoples. Your end has come.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_DECLAREWAR_2">
+            <Text>Lo, the Hakkapeliitta will ride once more - your men will break at first sight of my cavalry's charge.  Gott mit uns!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_DECLAREWAR_3">
+            <Text>With God and victorious weapons I shall rend your stench from this land. Know that the Lion of the North comes for you now.</Text>
+        </Row>
+
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_ATTACKED_1">
+            <Text>Haha! Captain Gars will be delighted to know that he rides again to war! Thank you for this wonderful opportunity - prepare yourself for destruction.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_ATTACKED_2">
+            <Text>What foul treachery is this? Not since Wallenstein have I seen such disgusting behavior as you exhibit now.  This will not be allowed.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_GUSTAVUS_ADOLPHUS_ATTACKED_3">
+            <Text>Curse your insatiable greed and lust for power!  I shall sweep your barbarism from the face of the earth!</Text>
+        </Row>
+
+
+    </Language_en_US>
+</GameData>

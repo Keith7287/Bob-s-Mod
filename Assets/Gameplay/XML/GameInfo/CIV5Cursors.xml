@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+	<!-- Table definition -->
+	<Table name="Cursors">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="CursorPath" type="text" />
+	</Table>
+
+	<!-- Table data -->
+	<Cursors>
+		<Row>
+			<ID>0</ID>
+			<Type>CURSOR_DEFAULT</Type>
+			<CursorPath>Assets/UI/Cursors/Pointer.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_BUSY</Type>
+			<CursorPath>Assets/UI/Cursors/Waiting.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_PING</Type>
+			<CursorPath>Assets/UI/Cursors/Ping.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_GO_TO</Type>
+			<CursorPath>Assets/UI/Cursors/GoTo.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_ROUTE_TO</Type>
+			<CursorPath>Assets/UI/Cursors/RouteTo.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_AIRLIFT</Type>
+			<CursorPath>Assets/UI/Cursors/Airlift.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_NUKE</Type>
+			<CursorPath>Assets/UI/Cursors/Nuke.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_AIRSTRIKE</Type>
+			<CursorPath>Assets/UI/Cursors/Airstrike.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_RECON</Type>
+			<CursorPath>Assets/UI/Cursors/Recon.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_PARADROP</Type>
+			<CursorPath>Assets/UI/Cursors/Paradrop.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_AIRBOMB</Type>
+			<CursorPath>Assets/UI/Cursors/Airbomb.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_REBASE</Type>
+			<CursorPath>Assets/UI/Cursors/Rebase.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_MOVE</Type>
+			<CursorPath>Assets/UI/Cursors/Move.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_SPLITV</Type>
+			<CursorPath>Assets/UI/Cursors/Split V.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_SPLITH</Type>
+			<CursorPath>Assets/UI/Cursors/Split H.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_SIZEV</Type>
+			<CursorPath>Assets/UI/Cursors/Size V.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_SIZEH</Type>
+			<CursorPath>Assets/UI/Cursors/Size H.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_SIZENE</Type>
+			<CursorPath>Assets/UI/Cursors/Size Diagonal 2.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_SIZENW</Type>
+			<CursorPath>Assets/UI/Cursors/Size Diagonal 1.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_SIZEALL</Type>
+			<CursorPath>Assets/UI/Cursors/Size All.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_LINK</Type>
+			<CursorPath>Assets/UI/Cursors/Link.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_GRIP</Type>
+			<CursorPath>Assets/UI/Cursors/Grip.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_EDIT</Type>
+			<CursorPath>Assets/UI/Cursors/Edit.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_GOLD</Type>
+			<CursorPath>Assets/UI/Cursors/Claim.ani</CursorPath>
+		</Row>
+		<Row>
+			<Type>CURSOR_GIFT</Type>
+			<CursorPath>Assets/UI/Cursors/Gift.ani</CursorPath>
+		</Row>
+	</Cursors>
+</GameData>

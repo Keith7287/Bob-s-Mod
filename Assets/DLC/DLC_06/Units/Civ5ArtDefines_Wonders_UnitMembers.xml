@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Michael Curran (Firaxis Games) -->
+<!-- Wonders Scenario ********************************************************** -->
+<UnitMemberArtInfos>
+  <!-- UNIT_U_HITTITE_WARCHARIOT ********************************************** -->
+  <UnitMemberArtInfo>
+    <Type>ART_DEF_UNIT_MEMBER_U_HITTITE_WARCHARIOT</Type>
+    <fScale>0.145</fScale>
+    <Granny>Hititte_War_Chariot.fxsxml</Granny>
+    <Combat>
+      <Defaults>ART_DEF_TEMPLATE_WARRIOR</Defaults>
+      <Weapon>
+        <WeaponTypeTag>METAL</WeaponTypeTag>
+        <WeaponTypeSoundOverrideTag>SWORD</WeaponTypeSoundOverrideTag>
+      </Weapon>
+      <Weapon>
+        <Usage>Vs_City ShortRange</Usage>
+        <fVisKillStrengthMin>10.0</fVisKillStrengthMin>
+        <fVisKillStrengthMax>20.0</fVisKillStrengthMax>
+        <WeaponTypeTag>FLAMING_ARROW</WeaponTypeTag>
+      </Weapon>
+    </Combat>
+    <MaterialTypeTag>CLOTH</MaterialTypeTag>
+    <MaterialTypeSoundOverrideTag>WOODSM</MaterialTypeSoundOverrideTag>
+  </UnitMemberArtInfo>
+  <!-- UNIT_U_SUMERIAN_PHALANX ********************************************** -->
+  <UnitMemberArtInfo>
+    <Type>ART_DEF_UNIT_MEMBER_U_SUMERIAN_PHALANX</Type>
+    <fScale>0.13</fScale>
+    <Granny>U_Sumerian_Phalanx.fxsxml</Granny>
+    <Combat>
+      <Defaults>ART_DEF_TEMPLATE_SOLDIER</Defaults>
+      <bReformBeforeCombat>1</bReformBeforeCombat>
+      <Weapon>
+        <WeaponTypeTag>METAL</WeaponTypeTag>
+        <WeaponTypeSoundOverrideTag>SPEAR</WeaponTypeSoundOverrideTag>
+      </Weapon>
+      <Weapon>
+        <Usage>Vs_City ShortRange</Usage>
+        <fVisKillStrengthMin>10.0</fVisKillStrengthMin>
+        <fVisKillStrengthMax>20.0</fVisKillStrengthMax>
+        <WeaponTypeTag>FLAMING_ARROW</WeaponTypeTag>
+      </Weapon>
+    </Combat>
+    <MaterialTypeTag>CLOTH</MaterialTypeTag>
+    <MaterialTypeSoundOverrideTag>FLESH</MaterialTypeSoundOverrideTag>
+  </UnitMemberArtInfo>
+</UnitMemberArtInfos>

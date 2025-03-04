@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+    
+    <!-- Table definition -->
+    <Table name="Calendars">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" />
+        <Column name="Description" type="text" />
+    </Table>
+
+    <!-- Table data -->
+    <Calendars>
+        <Row>
+            <ID>0</ID>
+            <Type>CALENDAR_DEFAULT</Type>
+            <Description>TXT_KEY_CALENDAR_DEFAULT</Description>
+        </Row>
+        <Row>
+            <ID>1</ID>
+            <Type>CALENDAR_BI_YEARLY</Type>
+            <Description>TXT_KEY_CALENDAR_BI_YEARLY</Description>
+        </Row>
+        <Row>
+            <ID>2</ID>
+            <Type>CALENDAR_YEARS</Type>
+            <Description>TXT_KEY_CALENDAR_YEARS</Description>
+        </Row>
+        <Row>
+            <ID>3</ID>
+            <Type>CALENDAR_TURNS</Type>
+            <Description>TXT_KEY_CALENDAR_TURNS</Description>
+        </Row>
+        <Row>
+            <ID>4</ID>
+            <Type>CALENDAR_SEASONS</Type>
+            <Description>TXT_KEY_CALENDAR_SEASONS</Description>
+        </Row>
+        <Row>
+            <ID>5</ID>
+            <Type>CALENDAR_MONTHS</Type>
+            <Description>TXT_KEY_CALENDAR_MONTHS</Description>
+        </Row>
+        <Row>
+            <ID>6</ID>
+            <Type>CALENDAR_WEEKS</Type>
+            <Description>TXT_KEY_CALENDAR_WEEKS</Description>
+        </Row>
+    </Calendars>
+
+</GameData>

@@ -1,0 +1,1681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Scott Lewis (Firaxis Games) -->
+<!-- Sid Meier's Civilization V -->
+<!-- Copyright Firaxis Games 2010 -->
+<!-- -->
+<!-- Game Text - New -->
+<GameData>
+	<Language_en_US>
+		<!-- Religion -->
+		<Row Tag="TXT_KEY_MISSION_FOUND_RELIGION">
+			<Text>Found a Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_SPREAD_RELIGION">
+			<Text>Spread Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_ENHANCE_RELIGION">
+			<Text>Enhance Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_REMOVE_HERESY">
+			<Text>Remove Heresy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_REPAIR_FLEET">
+			<Text>Repair Fleet</Text>
+		</Row>
+		<!-- Diplomacy-->
+		<Row Tag="TXT_KEY_MISC_MINOR_ALLIES_DECLARED_WAR_ON_YOU">
+			<Text>[COLOR_NEGATIVE_TEXT]The City-State allies of {1_CivName:textkey} have declared war on you![ENDCOLOR][NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_MINOR_ALLIES_DECLARED_WAR_ON_YOU_SUMMARY">
+			<Text>City-States declare war on you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOUR_MINOR_ALLIES_DECLARED_WAR">
+			<Text>Your City-State allies have declared war on {1_CivName:textkey}:[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOUR_MINOR_ALLIES_DECLARED_WAR_SUMMARY">
+			<Text>Your City-State allies declare war!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_MADE_PEACE_WITH_MINOR_ALLIES">
+			<Text>{1_CivName:textkey} has negotiated peace with City-States:[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_MADE_PEACE_WITH_MINOR_ALLIES_SUMMARY">
+			<Text>{1_CivName:textkey} makes peace with City-States</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOUR_MINOR_ALLIES_MADE_PEACE">
+			<Text>Your City-State allies have made peace with {1_CivName:textkey}:[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISC_YOUR_MINOR_ALLIES_MADE_PEACE_SUMMARY">
+			<Text>Your City-State allies make peace</Text>
+		</Row>
+		<!-- City-States -->
+		<Row Tag="TXT_KEY_INTERFACEMODE_GIFT_TILE_IMPROVEMENT">
+			<Text>Gift Tile Improvement Mode</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_RELIGION_OVERVIEW_DISPLAY">
+			<Text>This is the Religion overview!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_RELIGION_OVERVIEW_BODY">
+			<Text>This overview contains three sections. The first is dedicated to your Religion. You can check your religious status, chosen Beliefs and even automate [ICON_PEACE] Faith purchases if you want to. The second section will give you an overview of the other World Religions and the third will show you which Beliefs are already taken and by whom.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_OVERVIEW_DISPLAY">
+			<Text>This is the Espionage Overview!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_OVERVIEW_BODY">
+			<Text>The Espionage Screen gives you a full overview of your Intelligence network. You can use it to check on the current status of your spies. But this is also [COLOR_ADVISOR_HIGHLIGHT_TEXT]the command center from where you give orders to your spies[/COLOR]: be it to move to a different city, to establish surveillance or to steal a technology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_RELIGION_FOUND_PANTHEON_DISPLAY">
+			<Text>Choose a Pantheon!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_RELIGION_FOUND_PANTHEON_BODY">
+			<Text>Your people rejoice! You have accumulated enough [ICON_PEACE] Faith [COLOR_ADVISOR_HIGHLIGHT_TEXT]to found a Pantheon[/COLOR], the first step towards founding a Religion.[NEWLINE][NEWLINE]After clicking on the Notification below, you will see a selection of Pantheon Beliefs that are available to you. They are generally terrain-based, so choose something you think will help you based on your surroundings.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_RELIGION_FOUND_RELIGION_DISPLAY">
+			<Text>You can found a Religion!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_RELIGION_FOUND_RELIGION_BODY">
+			<Text>The sermons of your Great Prophet have been heard and you can now [COLOR_ADVISOR_HIGHLIGHT_TEXT]found a Religion[/COLOR]. Choose a symbol along with its name. After that you will get to choose two additional Beliefs for your new Religion: A Founder Belief (player-level bonuses for the player that founds the Religion) and a Follower Belief (city-level Belief that applies to any city where your Religion spreads).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CHOOSE_TECH_TO_STEAL_DISPLAY">
+			<Text>You can steal a tech!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_CHOOSE_TECH_TO_STEAL_BODY">
+			<Text>Your spy is reporting that they have gathered enough intelligence to [COLOR_ADVISOR_HIGHLIGHT_TEXT]steal a technology[/COLOR]. They are waiting for your decision on which technology you want them to steal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_GREAT_PROPHET_SPAWN_DISPLAY">
+			<Text>Great Prophet Spawned!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_GREAT_PROPHET_SPAWN_BODY">
+			<Text>Great Prophets can be used to found a Religion (if you have already founded a Pantheon), to enhance an existing Religion, to spread the religion to other cities or to build a tile improvement that generates [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SPY_SPAWN_DISPLAY">
+			<Text>You have a spy!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_SPY_SPAWN_BODY">
+			<Text>Using the Espionage screen (found in the Additional Information button on the upper right of the screen) you can set your spies up either offensively (to spy and steal in foreign territory) or defensively (to protect your cities and technologies).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_FIRST_FAITH_POINT_BODY">
+			<Text>You have earned your first [ICON_PEACE] Faith point.[ICON_PEACE] Faith can be used to found a Pantheon, to spawn Great Prophets, and once you have founded a religion to buy Missionaries, Inquisitors and Religious Buildings. Mouse over the [ICON_PEACE] Faith icon in the top menu bar to see how much more [ICON_PEACE] Faith you need for the next threshold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_FIRST_FAITH_POINT_DISPLAY">
+			<Text>You have Faith!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_FIRST_SPY_BODY">
+			<Text>Spies can be used either offensively or defensively. To give your spy instructions, open the Espionage screen, which can be found under the Additional Information button on the upper right of the screen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_FIRST_SPY_DISPLAY">
+			<Text>You have a Spy!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_FIRST_GREAT_PROPHET_BODY">
+			<Text>The unwavering Faith of your people has inspired a Great Prophet to emerge![NEWLINE][NEWLINE]Since this is your first Great Prophet I strongly recommend you use him to [COLOR_ADVISOR_HIGHLIGHT_TEXT]Found a Religion[/COLOR]. This way you have full control over the Beliefs that the Religion will give you. There are a limited amount of Religions allowed in each game, so claim yours as quickly as you can.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_FIRST_GREAT_PROPHET_DISPLAY">
+			<Text>A Great Prophet was born!</Text>
+		</Row>
+		<!-- WONDERS -->
+		<Row Tag="TXT_KEY_WONDER_ALHAMBRA_HELP">
+			<Text>All newly-trained non-air Units in this City receive the [COLOR_POSITIVE_TEXT]Drill I[ENDCOLOR] Promotion, improving [ICON_STRENGTH] combat strength when fighting in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain. Provides a free Castle in the city in which it is built. Boosts city [ICON_CULTURE] Culture output by 20%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_CN_TOWER_HELP">
+			<Text>Provides a free Broadcast Tower in all cities. +1 [ICON_CITIZEN] Population in each city and +1 [ICON_HAPPINESS_1] Happiness per city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_HUBBLE_HELP">
+			<Text>2 free Great Scientists appear near the City where the Wonder was built. Provides a free Spaceship Factory in the city in which it is built. +25% [ICON_PRODUCTION] Production when building Spaceship Parts.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_LEANING_TOWER_HELP">
+			<Text>+25% generation of [ICON_GREAT_PEOPLE] Great People in all Cities. A free Great Person of your choice appears near the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_NEUSCHWANSTEIN_HELP">
+			<Text>+3 [ICON_GOLD] Gold, +2 [ICON_CULTURE] Culture, and +1 [ICON_HAPPINESS_1] Happiness from every Castle.[NEWLINE][NEWLINE]City must be built within 2 tiles of a Mountain that is inside your territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_HAGIA_SOPHIA_HELP">
+			<Text>A free Great Prophet appears. Provides a free Temple in the city in which it is built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GREAT_FIREWALL_HELP">
+			<Text>99.9% reduction in effectiveness of enemy spies in the city in which it is built. All other cities in the civilization get a 25% reduction in enemy spy effectiveness. Negates the [ICON_TOURISM] Tourism bonus from other players' Internet technology.</Text>
+		</Row>
+		<!-- NATIONAL WONDERS -->
+		<Row Tag="TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_STRATEGY">
+			<Text>An important defensive National Wonder for a technology-driven civilization. The National Intelligence Agency provides an additional spy, levels up all your existing spies, and provides a 15% reduction in enemy spy effectiveness. A civilization must have a Police Station in all cities before it can construct the National Intelligence Agency.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_HELP">
+			<Text>Provides an additional spy and levels up all your existing spies. Also provides a 15% reduction in enemy spy effectiveness. Must have a Police Station in all cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRAND_TEMPLE_STRATEGY">
+			<Text>An important building for a civilization trying to spread their religion world-wide from an empire with few, populous cities. Must be built in a Holy City. Doubles religious pressure emanating from this city. A civilization must have a Temple in all cities before it can construct the Grand Temple.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRAND_TEMPLE_HELP">
+			<Text>Doubles religious pressure emanating from this City.[NEWLINE][NEWLINE]Must be built in a Holy City. Must have built a Temple in all Cities. The cost goes up the more cities there are in the empire.</Text>
+		</Row>
+		<!-- BUILDINGS -->
+		<Row Tag="TXT_KEY_BUILDING_SHRINE_STRATEGY">
+			<Text>The Shrine is the earliest building that increases the [ICON_PEACE] Faith generated by a city, allowing you to found and spread religions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RECYCLING_CENTER_STRATEGY">
+			<Text>Each Recycling Center provides 2 [ICON_RES_ALUMINUM] Aluminum. Maximum of 5 of these buildings in your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RECYCLING_CENTER_HELP">
+			<Text>Provides 2 [ICON_RES_ALUMINUM] Aluminum. Maximum of 5 of these buildings in your empire.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BOMB_SHELTER_STRATEGY">
+			<Text>Bomb Shelters reduce population loss from a nuclear attack on this city by 75%. Duck and Cover!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BOMB_SHELTER_HELP">
+			<Text>Reduces population loss from nuclear attack by 75%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CONSTABLE_STRATEGY">
+			<Text>Constabularies slow down the rate at which enemy spies can steal technologies from your city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CONSTABLE_HELP">
+			<Text>Reduces enemy spy stealing rate by 25%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POLICE_STATION_STRATEGY">
+			<Text>Police stations slow down the rate at which enemy spies can steal technologies from your city. The city must possess an Constabulary in order to construct the Police Station.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POLICE_STATION_HELP">
+			<Text>Reduces enemy spy stealing rate by 25%.[NEWLINE][NEWLINE]City must have a Constabulary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MONASTERY_HELP">
+			<Text>Each source of [ICON_RES_INCENSE] Incense and [ICON_RES_WINE] Wine worked by this City produce +1 [ICON_PEACE] Faith and +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MONASTERY_STRATEGY">
+			<Text>Monasteries increase a city's [ICON_PEACE] Faith and [ICON_CULTURE] Culture output, especially if the city is near to improved Incense and/or Wine resources. Can only be built in cities following a religion with the Monasteries belief. Construct this building by purchasing it with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TEMPLE_STRATEGY">
+			<Text>The Temple increases the [ICON_PEACE] Faith of a city, speeding up the rate at which you can found and spread religions. The city must contain a Shrine (or a Pyramid) before the Temple can be constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WALLS_STRATEGY">
+			<Text>Walls increase a city's Defense Strength by 5 and Hit Points by 50, making the city more difficult to capture. Walls are quite useful for cities located along a civilization's frontier.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MILITARY_BASE_STRATEGY">
+			<Text>The Military Base is a mid-game building which increases the city's Defensive Strength by 12 and Hit Points by 25. The city must possess an Arsenal before a Military Base may be constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CASTLE_STRATEGY">
+			<Text>The Castle is a Medieval-era building which increases the city's Defensive Strength by 7 and Hit Points by 25. The city must possess Walls before the Castle can be constructed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARSENAL_STRATEGY">
+			<Text>The Arsenal is a mid-game military building that increases a city's Defense Strength by 9 and Hit Points by 25, making the city more difficult to capture. The city must possess a Castle before it can construct an Arsenal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BABYLON_WALLS_STRATEGY">
+			<Text>The Walls of Babylon are a Babylonian Unique Building, replacing the standard city Walls. The Walls of Babylon increases a city's Defense Strength by 6 and Hit Points by 100 (both significantly more than standard Walls).</Text>
+		</Row>
+		<!-- UNIQUE BUILDINGS -->
+		<Row Tag="TXT_KEY_BUILDING_STELE_STRATEGY">
+			<Text>The Stele is an Ancient-era building unique to Ethiopia, replacing the Monument. It increases the [ICON_CULTURE] Culture and [ICON_PEACE] Faith of a city, speeding the growth of the city's territory and the civilization's acquisition of Social Policies and Religions.</Text>
+		</Row>
+		<!--UNITS-->
+		<Row Tag="TXT_KEY_UNIT_GREAT_PROPHET_STRATEGY">
+			<Text>The Great Prophet is the only unit who can found or enhance a religion. He can also construct the special Holy Site improvement which, when worked, produces lots of [ICON_PEACE] Faith. Alternatively, the Great Prophet can spread religion 4 times (displacing any previous religions in these cities). The Great Prophet is expended when used in any of these ways.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MISSIONARY_STRATEGY">
+			<Text>Can be purchased with [ICON_PEACE] Faith in any city with a majority Religion. Once adjacent to a city they can spread their religion to it (expending the Missionary after the second use). If a Missionary enters another civilization without Open Borders, their Religious Strength is reduced each turn. Once their Religious Strength reaches zero, they are destroyed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MISSIONARY">
+			<Text>Used to spread a religion to cities. May only be obtained by purchasing with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INQUISITOR_STRATEGY">
+			<Text>Can be purchased with [ICON_PEACE] Faith in any city with a majority Religion that has been enhanced. They can remove other religions from your cities (expending the Inquisitor) or be placed inside a city to protect it from Missionaries and Prophets trying to spread other religions into that city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_INQUISITOR">
+			<Text>Used to remove other religions from cities. May only be obtained by purchasing with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MEHAL_SEFARI_STRATEGY">
+			<Text>Mehal Sefari are the backbone of the Ethiopian army. They start with promotions that give them bonuses fighting in rough terrain and near their capital. They are slightly cheaper to build than the Rifleman that they replace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MEHAL_SEFARI">
+			<Text>Strong, front-line land Unit that specializes in fighting in rough terrain and defending near the Ethiopian capital. Only the Ethiopians may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_COMPOSITE_BOWMAN">
+			<Text>Classical ranged infantry Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_COMPOSITE_BOWMAN_STRATEGY">
+			<Text>The Composite Bowman is more powerful than the Archer. As a Ranged unit it can deal significant damage to other units up to two hexes away, but it is vulnerable to melee attack. Put Composite Bowman in your city for defense, and guard them with melee units when on the move.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_GATLINGGUN">
+			<Text>Ranged infantry Unit of the mid-game that must be adjacent to an enemy to strike.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GATLINGGUN_STRATEGY">
+			<Text>The Gatling Gun is a mid-game non-siege ranged unit. It is much more powerful than earlier ranged units like the Crossbowman. It has only a one-hex range, but still can deal significant damage to other units without being hurt itself. Put Gatling Guns in your city for defense.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_GALLEASS">
+			<Text>Medieval Era Naval Unit used to wrest control of the seas with its ranged attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GALLEASS_STRATEGY">
+			<Text>The Galleass is the first naval unit with a ranged attack generally available to the civilizations in the game. It is much stronger than earlier naval units but a bit slower. It cannot initiate melee combat. The Galleass is useful for clearing enemy ships out of shallow waters. It cannot enter Deep Ocean hexes unless it is from Polynesia.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_GREAT_WAR_INFANTRY">
+			<Text>Basic Infantry Unit of the Modern Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MARINE">
+			<Text>Atomic Era Unit especially useful for embarking and invading across the sea.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MARINE_STRATEGY">
+			<Text>The Marine is an alternative to Infantry. It costs a bit more than Infantry but possesses promotions that enhance its Sight and attack strength when embarked at sea.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TRIPLANE">
+			<Text>Early Air Unit designed to intercept incoming enemy aircraft.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TRIPLANE_STRATEGY">
+			<Text>The Triplane is an early air unit. It can be based in any city you own or aboard an aircraft carrier. It can move from city to city (or carrier) and can perform "missions" within its range of 5 tiles. Use triplanes to attack enemy aircraft and ground units, to scout enemy positions, and to defend against enemy air attacks. See the rules on Aircraft for more information.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_WWI_BOMBER">
+			<Text>Early Air Unit that can bombard enemy Units and Cities from the skies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WWI_BOMBER_STRATEGY">
+			<Text>The Great War Bomber is an early air unit. It is effective against ground targets, less so against naval targets, and it's quite vulnerable to enemy aircraft. The Great War Bomber can be based on a player-owned city or aboard a carrier. It can move from base to base and perform missions within its range of "6." Use it to attack enemy units and cities. When possible, send in triplanes or fighters first to "use up" the enemy's anti-aircraft defenses for that turn. See the rules on Aircraft for more information.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_WWI_TANK">
+			<Text>The first of its kind, this powerful late game unit can move after attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WWI_TANK_STRATEGY">
+			<Text>The Landship is a powerful and mobile land unit. It can move after combat, allowing it to blow holes in enemy lines and then move into the now-vacant hexes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MACHINE_GUN">
+			<Text>Late-game ranged Unit that must be adjacent to an enemy to strike.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PRIVATEER">
+			<Text>Naval Unit that specializes in attacking coastal cities to earn gold and capturing enemy ships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PRIVATEER_STRATEGY">
+			<Text>Naval Unit that attacks as a melee unit. Starts with the first Coastal Raider promotion allowing it to earn gold from attacking coastal cities. May capture any enemy naval units it defeats as prize ships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SEA_BEGGAR">
+			<Text>Naval Unit that specializes in attacking coastal cities to earn gold and capturing enemy ships. Only the Dutch can build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SEA_BEGGAR_STRATEGY">
+			<Text>Naval Unit used to specializes in attacking coastal cities to earn gold and capturing enemy ships. Only the Dutch may build it. Heals outside friendly territory. Starts with the first two Coastal Raider promotions allowing it to earn gold from attacking coastal cities. May capture any enemy naval units it defeats as prize ships.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_ADMIRAL_STRATEGY">
+			<Text>The Great Admiral has the ability to instantly repair every naval and embarked unit in the same hex, as well as in adjacent hexes. The Great Admiral is consumed when performing this action. The Great Admiral also provides a 15% combat bonus to all player-owned naval units within 2 tiles. The Great Admiral is NOT consumed when he provides this bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_GENERAL_STRATEGY">
+			<Text>The Great General can construct the special Citadel improvement which gives a big defensive bonus to any unit occupying it, damages enemy units moving adjacent, and puts all adjacent tiles into your territory. The Great General is consumed when it builds the Citadel. The Great General provides a 15% combat bonus to all player-owned land units within 2 tiles. The Great General is NOT consumed when he provides this bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_ENGINEER_STRATEGY">
+			<Text>Great Engineers can construct the special Manufactory improvement, which, when worked, provides a lot of [ICON_PRODUCTION] Production for a city. The Great Engineer can also hurry production of a unit, building or Wonder in a city. The Great Engineer is expended when used in either of these ways.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_MERCHANT_STRATEGY">
+			<Text>The Great Merchant can construct the special Custom House improvement which, when worked, produces loads of [ICON_GOLD] Gold. The Great Merchant can also journey to a city-state and perform a "trade mission" which produces gobs of [ICON_GOLD] Gold and garners many Influence Points with the city-state. The Great Merchant is expended when used in either of these ways.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_SCIENTIST_STRATEGY">
+			<Text>The Great Scientist can construct the special Academy improvement which, when worked, produces lots of [ICON_RESEARCH] Science. Further, the Great Scientist lets you immediately gain a large amount of science based on the science output of your civilization. The Great Scientist is expended when used in either of these ways.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_WAR_INFANTRY_STRATEGY">
+			<Text>Great War Infantry is the basic Modern era combat unit. It's significantly stronger than its predecessor, the Rifleman.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MISSILE_CRUISER">
+			<Text>Naval Unit specialized in warding off enemy aircraft. Can hold 3 Missiles.  Used to hunt down and destroy enemy Submarines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_NUCLEAR_SUBMARINE">
+			<Text>Invisible to all Units except Destroyers, Missile Cruisers and other Submarines, or until it attacks or is adjacent to another unit. Can carry 2 Missiles, and is specialized in attacking Naval Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SUBMARINE">
+			<Text>Invisible to all Units except Destroyers, Missile Cruisers and other Submarines, or until it attacks or is adjacent to another unit. Can cause major damage to other ships if they get into range without being seen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MECH">
+			<Text>Isn't benefiting from any defensive terrain bonuses, but is otherwise stronger than any other military unit in the game.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MODERN_ARMOR">
+			<Text>Fast and powerful late-game Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TANK">
+			<Text>Fast and powerful late game Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PANZER">
+			<Text>Fast and powerful late game Unit.[NEWLINE][NEWLINE]Only the Germans may build it. This Unit has 1 additional movement compared to the Tank, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CAVALRY">
+			<Text>Mounted Unit capable of fighting toe-to-toe with contemporary infantry units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_COSSACK">
+			<Text>Mounted Unit capable of fighting toe-to-toe with contemporary infantry units. [NEWLINE][NEWLINE]Only the Russians may build it. This Unit has a combat bonus when fighting enemies that have already taken damage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_LANCER">
+			<Text>Mounted Unit specialized in defeating enemy Mounted Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SIPAHI">
+			<Text>Mounted Unit specialized in defeating enemy Mounted Units. May only be built by the Ottomans. This Unit is faster and can see further than the Lancer, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MUSLIM_CAVALRY">
+			<Text>Powerful Medieval Mounted Unit, weak to Pikemen. Only the Songhai may build it. This Unit is not penalized when attacking Cities, unlike the Knight which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CHARIOR_ARCHER">
+			<Text>A fast Ranged Unit highly effective on flat ground.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_EGYPTIAN_WAR_CHARIOT">
+			<Text>A fast Ranged Unit. Only the Egyptians may build it. This Unit does not require [ICON_RES_HORSE] Horses to be built, unlike the Chariot Archer which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CROSSBOWMAN_STRATEGY">
+			<Text>The Crossbowman is more powerful than the Composite Bowman. As a Ranged unit it can deal significant damage to other Medieval Era units up to two hexes away, but it is vulnerable to melee attack. Put Crossbowmen in your city for defense, and guard them with melee units when on the move.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_INFANTRY">
+			<Text>Most powerful Infantry Unit in the game until Mechanized Infantry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INFANTRY_STRATEGY">
+			<Text>Infantry is significantly stronger than its predecessor, the Great War Infantry. Modern combat is increasingly complex, and on its own an Infantry unit is vulnerable to air, artillery and tank attack. When possible Infantry should be supported by artillery, tanks, and air (or anti-air) units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TRIREME_STRATEGY">
+			<Text>The Trireme is the first naval unit available to civilizations in the game. It is a melee attack unit, engaging units at sea or cities (but it has no ranged attack). The Trireme is useful for clearing barbarian ships out of home waters and for limited exploration (it cannot enter Deep Ocean hexes outside of the city borders unless it is from Polynesia).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TRIREME">
+			<Text>Ancient Era Naval Unit used to wrest control of the seas through melee attacks on naval units and cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GALLEY_STRATEGY">
+			<Text>The Galley is a Barbarian unit which remains in coastal hexes, looking for embarked units to destroy. It is far weaker than any other naval units, but can be dangerous in packs. It is a melee attack unit, engaging units at sea or cities (but it has no ranged attack). </Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARAVEL_STRATEGY">
+			<Text>The Caravel is a significant upgrade to a civilization's naval power. A Melee unit, it is stronger and faster than a Trireme, and it can enter Deep Ocean hexes. It is quick, giving it a promotion that gives it a good chance to withdraw to the rear before an enemy naval melee attack can occur. The Caravel has an enhanced sight radius, making it the eyes and ears of the mid-game navy. This sight bonus is lost if the Caravel is upgraded to a Destroyer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CARAVEL">
+			<Text>Fast Renaissance exploration Unit with an enhanced sight radius that can enter Ocean. Fights as a naval melee unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DESTROYER_STRATEGY">
+			<Text>The Destroyer is a naval melee attack unit designed to hunt down and destroy submarines and to provide anti-aircraft support. It often operates as an escort to embarked units, battleships and carriers when in range of enemy planes and subs.  It is quick, giving it a promotion that gives it a good chance to withdraw to the rear before an enemy naval melee attack can occur.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_DESTROYER">
+			<Text>Fast late game ship making it highly effective at recon. Also used to hunt down and destroy enemy Submarines. Fights as a naval melee unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_IRONCLAD_STRATEGY">
+			<Text>Ironclads are the first steam-powered warships available. Fighting as a naval melee unit, they are harder to kill than any sailing vessel, and their Combat strength is higher. Use them primarily for in-shore defense and to assault cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_IRONCLAD">
+			<Text>A very powerful naval melee unit, the Ironclad pays for its strength by being slower in ocean tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP">
+			<Text>Unit specialized in fighting Modern Armor and Tanks. It is capable of hovering over mountains, but takes damage if ending its turn on one.</Text>
+		</Row>
+		<!--PROMOTIONS-->
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_INSTANTLY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Heal this Unit[ENDCOLOR] 50 HP. Doing so will [COLOR_POSITIVE_TEXT]Consume this Opportunity[ENDCOLOR] to choose a Promotion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_1_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] Terrain. (NO Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_2_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] Terrain. (NO Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_3_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] Terrain. (NO Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_1_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain. (Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_2_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain. (Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_3_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain. (Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_1_HELP">
+			<Text>+15% [ICON_RANGE_STRENGTH] Ranged Combat Strength against Units in [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] Terrain. (NO Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_2_HELP">
+			<Text>+15% [ICON_RANGE_STRENGTH] Ranged Combat Strength against Units in [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] Terrain. (NO Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_3_HELP">
+			<Text>+15% [ICON_RANGE_STRENGTH] Ranged Combat Strength against Units in [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] Terrain. (NO Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_1_HELP">
+			<Text>+15% [ICON_RANGE_STRENGTH] Ranged Combat Strength against Units in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain. (Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_2_HELP">
+			<Text>+15% [ICON_RANGE_STRENGTH] Ranged Combat Strength against Units in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain. (Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_3_HELP">
+			<Text>+15% [ICON_RANGE_STRENGTH] Ranged Combat Strength against Units in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain. (Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_1_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength against [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_2_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength against [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_3_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength against [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_HELP">
+			<Text>+50% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENTRY_HELP">
+			<Text>+1 Visibility Range</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MEDIC_HELP">
+			<Text>All units in adjacent tiles [COLOR_POSITIVE_TEXT]Heal 5 Additional HP[ENDCOLOR] per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MEDIC_II_HELP">
+			<Text>All units in adjacent tiles [COLOR_POSITIVE_TEXT]Heal 5 Additional HP[ENDCOLOR] per turn. This unit [COLOR_POSITIVE_TEXT]Heals 5 Additional HP[ENDCOLOR] per turn when [COLOR_POSITIVE_TEXT]Outside of Friendly Territory[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CHARGE_HELP">
+			<Text>+33% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Wounded Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VOLLEY_HELP">
+			<Text>+50% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Fortified Units[ENDCOLOR] and [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COVER_1_HELP">
+			<Text>+33% [COLOR_POSITIVE_TEXT]Defense[ENDCOLOR] against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COVER_2_HELP">
+			<Text>+33% [COLOR_POSITIVE_TEXT]Defense[ENDCOLOR] against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORMATION_1_HELP">
+			<Text>+33% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Mounted[ENDCOLOR] units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORMATION_2_HELP">
+			<Text>+33% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Mounted[ENDCOLOR] units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMBUSH_1_HELP">
+			<Text>+33% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Armor[ENDCOLOR] units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMBUSH_2_HELP">
+			<Text>+33% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Armor[ENDCOLOR] units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BLITZ_HELP">
+			<Text>1 additional attack per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUPPLY_HELP">
+			<Text>May heal damage [COLOR_POSITIVE_TEXT]Outside of Friendly Territory[ENDCOLOR]. 15 HP healed per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_1_HELP">
+			<Text>+33% [ICON_STRENGTH] Combat Strength when intercepting enemy aircraft.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_2_HELP">
+			<Text>+33% [ICON_STRENGTH] Combat Strength when intercepting enemy aircraft.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_3_HELP">
+			<Text>+34% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Intercepting[ENDCOLOR] enemy aircraft.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_1_HELP">
+			<Text>+33% [ICON_STRENGTH] Combat Strength when performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_2_HELP">
+			<Text>+33% [ICON_STRENGTH] Combat Strength when performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_3_HELP">
+			<Text>+34% [ICON_STRENGTH] Combat Strength when performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_1_HELP">
+			<Text>+33% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_2_HELP">
+			<Text>+33% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_3_HELP">
+			<Text>+34% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_1_HELP">
+			<Text>+33% [ICON_STRENGTH] Combat Strength against [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_2_HELP">
+			<Text>+33% [ICON_STRENGTH] Combat Strength against [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_3_HELP">
+			<Text>+34% [ICON_STRENGTH] Combat Strength against [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUTING_2_HELP">
+			<Text>+1 Visibility Range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUTING_3_HELP">
+			<Text>+1 Movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_1_HELP">
+			<Text>+5 HP healed per turn outside of friendly territory and +25% Defense.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_2_HELP">
+			<Text>+5 HP healed per turn outside of friendly territory and +25% Defense.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_3_HELP">
+			<Text>Unit will [COLOR_POSITIVE_TEXT]Heal Every Turn[ENDCOLOR], even if it performs an action.  Unit will attempt to withdraw when faced with a melee attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DISCIPLINE_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength when adjacent to a friendly Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NATIONALISM_HELP">
+			<Text>+15% attack bonus in friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_SIEGE_HELP">
+			<Text>+200% Bonus vs Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_ASSUALT_HELP">
+			<Text>+300% Bonus vs Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY_HELP">
+			<Text>Heals 50 Damage If Kills Non-Barbarian Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_EMBARKATION_HELP">
+			<Text>Can embark onto [COLOR_POSITIVE_TEXT]Water Tiles[ENDCOLOR]. Embarked units defend at double strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_BONUS_HELP">
+			<Text>Bonus vs Naval (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FEARED_ELEPHANT_HELP">
+			<Text>Enemy units receive -10% [ICON_STRENGTH] Combat Strength when adjacent to any unit with this promotion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_HELP">
+			<Text>Flank attack bonus increased by 50%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEFEND_NEAR_CAPITAL_HELP">
+			<Text>30% stronger while fighting in the capital; bonus falls off as the unit gets further away.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EMBARKED_SIGHT_HELP">
+			<Text>See further than a normal embarked unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOVEMENT_TO_GENERAL_HELP">
+			<Text>Great General moves at rate of this unit if they start the turn stacked.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GENERAL_STACKING_HELP">
+			<Text>15% combat bonus with Great General in same tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ONLY_ATTACKS_CITIES_HELP">
+			<Text>Unit may not attack units, only cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_1_HELP">
+			<Text>+20% [ICON_STRENGTH] Combat Strength when attacking [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR]. Steal gold equal to 33% of the damage inflicted on a city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_2_HELP">
+			<Text>+20% [ICON_STRENGTH] Combat Strength when attacking [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR]. Steal gold equal to 33% of the damage inflicted on a city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_3_HELP">
+			<Text>+20% [ICON_STRENGTH] Combat Strength when attacking [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR]. Steal gold equal to 34% of the damage inflicted on a city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_1_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength in melee attacks against [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_2_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength in melee attacks against [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_3_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength in melee attacks against [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WAR_CANOES_HELP">
+			<Text>Embarked units have double the usual defense strength and see further than a normal embarked unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PRIZE_SHIPS_HELP">
+			<Text>Defeated enemy naval units may join your side.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GREAT_ADMIRAL_HELP">
+			<Text>Improves combat effectiveness of nearby naval units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FAST_ADMIRAL_HELP">
+			<Text>+2 [ICON_MOVES] Movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNWELCOME_EVANGELIST_HELP">
+			<Text>Can enter rival territory without open borders but loses 25% of original religious strength for each turn they end on such a tile. Unit is eliminated when religious strength is 0.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_BATTLESHIP">
+			<Text>Most powerful ranged Naval unit in the game until the Missile Cruiser</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EMBARKATION_HELP">
+			<Text>Can embark onto [COLOR_POSITIVE_TEXT]Water Tiles[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1">
+			<Text>Air Targetting I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1_HELP">
+			<Text>+33% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Naval[ENDCOLOR] units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2">
+			<Text>Air Targetting II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_AMBUSH_1">
+			<Text>Air Ambush I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_AMBUSH_1_HELP">
+			<Text>+33% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Armor[ENDCOLOR] units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_AMBUSH_2">
+			<Text>Air Ambush II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HELI_AMBUSH_1">
+			<Text>Bonus vs Armored (25)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HELI_AMBUSH_2">
+			<Text>Bonus vs Armored (25)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MEDIC_II">
+			<Text>Medic II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_REPAIR">
+			<Text>Air Repair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_SIEGE">
+			<Text>Bonus vs Cities (200)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_ASSUALT">
+			<Text>Bonus vs Cities (300)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEFENSE_PENALTY">
+			<Text>Penalty on Defense (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEFENSE_PENALTY_HELP">
+			<Text>33% Penalty on Defense.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOUNTED_PENALTY">
+			<Text>Penalty vs Mounted (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR">
+			<Text>Bonus vs Aircraft/Helicopters (150)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_II">
+			<Text>Bonus vs Bombers/Helicopters (150)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_FIGHTER">
+			<Text>Bonus vs Fighters (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_SUBMARINE_I">
+			<Text>Attack vs Submarines (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_SUBMARINE_II">
+			<Text>Attack vs Submarines (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_TANK">
+			<Text>Bonus vs Tanks (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_PENALTY">
+			<Text>Penalty vs Naval (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEAVY_PAYLOAD">
+			<Text>Bonus vs Cities (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FIRE_SUPPORT">
+			<Text>Bonus vs Cities (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SILENT_HUNTER">
+			<Text>Bonus when Attacking (75)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STEAM_POWERED">
+			<Text>Double movement in Coast</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY">
+			<Text>Heal 50 Damage If Kills a Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY">
+			<Text>Heals 25 Damage If Kills a Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOHAWK">
+			<Text>Combat Bonus in Forest/Jungle (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOHAWK_HELP">
+			<Text>+33% Combat Bonus in Forest/Jungle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JAGUAR">
+			<Text>Combat Bonus in Forest/Jungle (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JAGUAR_HELP">
+			<Text>+33% Combat Bonus in Forest/Jungle.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STRONGER_VS_DAMAGED">
+			<Text>Damaged Enemy Bonus (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GREAT_GENERAL_HELP">
+			<Text>Improves combat effectiveness of nearby land units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_BONUS">
+			<Text>Bonus vs Naval</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FEARED_ELEPHANT">
+			<Text>Feared Elephant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS">
+			<Text>Enhanced Flank Attack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEFEND_NEAR_CAPITAL">
+			<Text>Near Capital Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EMBARKED_SIGHT">
+			<Text>Extra Sight While Embarked</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOVEMENT_TO_GENERAL">
+			<Text>Transfer Movement to General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GENERAL_STACKING">
+			<Text>Great General Combat Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ONLY_ATTACKS_CITIES">
+			<Text>City Attack Only</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_1">
+			<Text>Coastal Raider I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_2">
+			<Text>Coastal Raider II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_3">
+			<Text>Coastal Raider III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_1">
+			<Text>Boarding Party I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_2">
+			<Text>Boarding Party II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_3">
+			<Text>Boarding Party III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WAR_CANOES">
+			<Text>War Canoes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PRIZE_SHIPS">
+			<Text>Prize Ships</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GREAT_ADMIRAL">
+			<Text>Naval Leadership</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FAST_GENERAL">
+			<Text>Mobile General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FAST_ADMIRAL">
+			<Text>Mobile Admiral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_UNWELCOME_EVANGELIST">
+			<Text>Unwelcome Evangelist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HOVERING_UNIT_HELP">
+			<Text>Unit may pass over Mountains, but takes damage if ending its turn on a Mountain.</Text>
+		</Row>
+		<!-- New Concepts and Advisor messages-->
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SPIES_TOPIC">
+			<Text>Spies and Diplomats</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SPIES_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_ESPIONAGE_SPIES_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SPIES_SUMMARY">
+			<Text>You will earn your first Spy when any civ in the game enters the Renaissance Era. Spies can be assigned to a city in another civilization with the goal of stealing technology and gathering information. You can also assign a Spy to one of your own cities to have a chance to slow down, discover, or kill an enemy spy.[NEWLINE][NEWLINE]When assigning a Spy to the capital of another civilization, you can choose to assign them as a Diplomat. Diplomats do not steal technology, and are only there to gather information. Additionally, if the target civilization is following a different Ideology, your Diplomat will start spreading Propoganda, increasing your [ICON_TOURISM] Tourism bonus in that civilization. Because they are a Diplomat, they are in no danger from other spies. They become even more useful when the World Congress is founded, delivering information on how other civilizations are planning to vote, and allowing votes to be traded via diplomacy.[NEWLINE][NEWLINE]To deploy your first Spy or Diplomat, select "Espionage Overview" from within the "Additional Information" menu.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SPIES_ADVISOR_QUESTION">
+			<Text>What is a Spy or Diplomat?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MOVING_SPIES_TOPIC">
+			<Text>Moving Spies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MOVING_SPIES_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_ESPIONAGE_MOVING_SPIES_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MOVING_SPIES_SUMMARY">
+			<Text>To move a spy, open the "Espionage Overview" screen, and click the "Move" button next to a spy you want to relocate. After clicking the "Move" button, click on the destination city name on the right side of the screen (either one of yours or a target civilization). The "Activity" for that spy will change to "Travelling", and will indicate how long it will take for the spy to arrive.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MOVING_SPIES_ADVISOR_QUESTION">
+			<Text>How do I move my spies?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_TOPIC">
+			<Text>Less Advanced Civilizations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_DISPLAY">
+			<Text>They have nothing that we need.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_ACTIVATE_BUTTON">
+			<Text>{TXT_KEY_ADVISOR_FIRST_SPY_ACTIVATE_BUTTON}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_BODY">
+			<Text>Our spy reports that the target civilization has no technology that we need. We should probably move our spy to a better target.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_QUESTION">
+			<Text>What if there is no more technology to steal?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_SUMMARY">
+			<Text>After your spy has established surveillance in a target civilization, they will automatically start "Gathering Intelligence". If they discover that there are no technologies that you need, then you will receive a notification to let you know. You can then choose to move your spy to a better target, or instead leave your spy in the target civilization to watch for Intrigue. Intrigue is intercepted information that you can deliver to other civilizations. For example, you may have a spy in Arabia, and he may discover that they are planning to invade Egypt. You can then inform Egypt of this plot, and receive a diplomatic relationship boost as a result.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_TOPIC">
+			<Text>Stealing Technology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_DISPLAY">
+			<Text>Treachery!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_ACTIVATE_BUTTON">
+			<Text>{TXT_KEY_ADVISOR_FIRST_SPY_ACTIVATE_BUTTON}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_BODY">
+			<Text>A spy has stolen technology from you! You should consider constructing defensive buildings like the Constabulary or Police Station, or using some of your own spies for counter-intelligence.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_QUESTION">
+			<Text>How do I use spies to steal technology?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_SUMMARY">
+			<Text>Your spies can steal technology from a more advanced civilization. To attempt to steal technology, first, move a spy to a target city within another civilization. Once the spy arrives, there will be a period of time where they are "Establishing Surveillance" (noted in the "Activity" column). Once surveillance is established, you will know whether the target has technology that you can steal. If they do, the time it takes to steal the technology depends on how much science the target city is producing, and the rank of your spy. The higher your rank, the more quickly you will be able to steal technology. The higher the science output, the faster your spy can work.[NEWLINE][NEWLINE]Other factors that can affect the time it takes to steal technology includes defensive buildings like the Police Station or the Great Firewall wonder, which can stop a spy completely. Additionally, if the target has placed a defensive spy in the same city, your spy can be caught, or even killed (he will be taken out of action for multiple turns). This, of course, will have a negative effect on your diplomatic relations with the target civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_STEALING_TECHS_SUMMARY">
+			<Text>Your spies can steal technology from a more advanced civilization. To attempt to steal technology, first, move a spy to a target city within another civilization. Once the spy arrives, there will be a period of time where they are "Establishing Surveillance" (noted in the "Activity" column). Once surveillance is established, you will know whether the target has technology that you can steal. If they do, the time it takes to steal the technology depends on how much science the target city is producing, and the rank of your spy. The higher your rank, the more quickly you will be able to steal technology. The higher the science output, the faster your spy can work.[NEWLINE][NEWLINE]Other factors that can affect the time it takes to steal technology includes defensive buildings like the Police Station or the Great Firewall wonder, which can stop a spy completely. Additionally, if the target has placed a defensive spy in the same city, your spy can be caught, or even killed (he will be taken out of action for multiple turns). This, of course, will have a negative effect on your diplomatic relations with the target civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_TOPIC">
+			<Text>Spies and City-States</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_SUMMARY">
+			<Text>Spies can be used to increase your influence with City-States by "rigging" their local elections or staging a coup. To interact with a City-State, first move a spy to a target City-State. Once the spy arrives, there will be a period of time when they are "Establishing Surveillance" (noted in the "Activity" column). Once surveillance is established, your espionage options become available. Rigging an election, a passive ability, occurs every 15 turns while your spy is located within the City-State. If you are the only spy in the City-State, your influence will increase while everyone else's will drop. The presence of an enemy spy, especially one of a higher rank, can cause this mission to fail. No worries though, failing to rig an election is not dangerous to your spy.[NEWLINE][NEWLINE]Staging a coup is more powerful than rigging an election, but also much riskier. A successful coup essentially allows you to "steal" the allied status from another civiization. To stage a coup, target a City-State that is allied with another player, and place your spy the same way you would with rigging an election. Once surveillance is established, you will have a new button available to you called "Coup". Clicking it will open a pop-up message that gives you your odds of success. The closer you are in influence to the target civilization, the greater your odds. The catch? If you fail, your spy is executed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_ADVISOR_QUESTION">
+			<Text>How do I use spies with City-States?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SURVEILLANCE_TOPIC">
+			<Text>Establishing Surveillance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SURVEILLANCE_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_ESPIONAGE_SURVEILLANCE_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SURVEILLANCE_SUMMARY">
+			<Text>To establish surveillance, move a spy to a target city. Once the spy arrives, there will be a period of time where they are "Establishing Surveillance" (noted in the "Activity" column). Once surveillance is established, you will know whether the target has technology that you can steal. You'll also be able to look inside the enemy city, and have a chance at intercepting important information (like invasion preparations).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SURVEILLANCE_ADVISOR_QUESTION">
+			<Text>How do I establish surveillance?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_TOPIC">
+			<Text>Counter-Intelligence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_SUMMARY">
+			<Text>You can defend against enemy spies by establishing counter-intelligence. To do this, move a spy into one of your cities that you suspect will be a target (usually a city with a high science output). Once there, they have a chance to detect enemy spies. The higher the rank of the spy, the better their chance to detect an enemy spy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_ADVISOR_QUESTION">
+			<Text>How do I stop other spies?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_TOPIC">
+			<Text>Constabularies and Police</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_SUMMARY">
+			<Text>You can slow down enemy spies by building Constabularies and Police Stations in your cities. If a city contains a Constabulary or a Police Station, the time it takes to steal technology is increased by 25% for each.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_ADVISOR_QUESTION">
+			<Text>How can I slow the progress of an enemy spy?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE_TOPIC">
+			<Text>National Intelligence Agency</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE_SUMMARY">
+			<Text>The National Intelligence Agency National Wonder provides your civilization with an additional spy, and will level-up all your existing spies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE_ADVISOR_QUESTION">
+			<Text>How can I get additional spies?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GREAT_FIREWALL_TOPIC">
+			<Text>The Great Firewall</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GREAT_FIREWALL_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_ESPIONAGE_GREAT_FIREWALL_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GREAT_FIREWALL_SUMMARY">
+			<Text>The Great Firewall Wonder reduces the effectiveness of enemy spies by 99.9% in the city in which it was built, and 25% in all other cities within your civilization. It also negates the [ICON_TOURISM] Tourism bonus from other players' Internet technology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GREAT_FIREWALL_ADVISOR_QUESTION">
+			<Text>How can I slow the progress of an enemy spy?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GETTING_CAUGHT_TOPIC">
+			<Text>Detecting a Spy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GETTING_CAUGHT_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_ESPIONAGE_GETTING_CAUGHT_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GETTING_CAUGHT_SUMMARY">
+			<Text>Spies have a small chance of getting caught whenever they steal technology. If the target city does not contain a counterspy, the possibile outcomes are Undetected, Detected but Unknown, and Identified. If there is a counterspy present, the possible outcomes are Detected but Unknown, Identified, and Identified and Killed. Having your spy either Identified, or Identified and Killed will negatively affect your relationship with the target civilization. If your spy is killed, you will receive a replacement, but not for a few turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GETTING_CAUGHT_ADVISOR_QUESTION">
+			<Text>How do I find out if someone is spying on me?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MORE_TOPIC">
+			<Text>Earning More Spies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MORE_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_ESPIONAGE_MORE_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MORE_SUMMARY">
+			<Text>Even though you start with only a single spy, you will earn an additional spy as you move into each new era. Additionally, you can earn an extra spy by building the National Intelligence Agency National Wonder.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MORE_ADVISOR_QUESTION">
+			<Text>How do I get more spies?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_PROMOTIONS_TOPIC">
+			<Text>Spy Experience</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_PROMOTIONS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_ESPIONAGE_PROMOTIONS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_PROMOTIONS_SUMMARY">
+			<Text>With each successful mission, your spies will gain experience and "level-up". With each successive level, your spies will perform their missions more quickly and reliably.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_PROMOTIONS_ADVISOR_QUESTION">
+			<Text>Do my spies gain experience?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_TOPIC">
+			<Text>Earning Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_SUMMARY">
+			<Text>[ICON_PEACE] Faith is the currency which enables you to found a Pantheon, makes Great Prophets spawn and can be used to purchase religious units and buildings.[NEWLINE][NEWLINE]There are several sources for [ICON_PEACE] Faith points. There are buildings or wonders that award a certain amount of [ICON_PEACE] Faith per round if you build them in your cities. Some Natural Wonders can also generate it when they are being worked. You can find [ICON_PEACE] Faith in Ancient Ruins. If you befriend a religious city-state they will also contribute with regular gifts. And the last source of [ICON_PEACE] Faith is the tile improvement Holy Site that Great Prophets can erect on your lands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_ADVISOR_QUESTION">
+			<Text>How can I earn Faith?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEONS_TOPIC">
+			<Text>Pantheons</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEONS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_RELIGION_PANTHEONS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEONS_SUMMARY">
+			<Text>Pantheons are the first step towards founding a full Religion. Once you've accumulated a certain amount of [ICON_PEACE] Faith you will be able to select a Pantheon Belief. The Pantheon Belief you choose will be the basis for any later Religion you might found so choose wisely as it may stay with you for the whole game. The amount of [ICON_PEACE] Faith it takes to found a Pantheon will increase with every Pantheon that has been founded on the whole map.[NEWLINE][NEWLINE]Pantheons are an early approach to Religion. Consequently it is only possible to found a Pantheon throughout the early ages depending on the developments of Religions around you. Once you've chosen your Pantheon Belief, it will immediately be available throughout your entire civilization, and will automatically expand to new cities until you found a full Religion.[NEWLINE][NEWLINE]Note that players will no longer be able to found a new Pantheon if another player has already Enhanced their Religion, and the number of active Pantheons matches or exceeds the number of Religions allowable in the current game.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEONS_ADVISOR_QUESTION">
+			<Text>What is a Pantheon?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDING_RELIGION_TOPIC">
+			<Text>Founding a Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDING_RELIGION_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_RELIGION_FOUNDING_RELIGION_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDING_RELIGION_SUMMARY">
+			<Text>Once you have a Great Prophet and have previously founded a Pantheon you can use the Great Prophet to found a full Religion. This is done by selecting the Great Prophet (make sure he is located in a city), and clicking the "Found Religion" icon on the Unit Panel. You will now be presented with options to choose what sort of Religion you would like for your civilization. Select a symbol and name for your Religion, as well as Founder and Follower Beliefs, which determine what benefits will be awarded. You confirm those choices by clicking on the [ICON_RELIGION] Found Religion button in the lower right of the selection screen.[NEWLINE][NEWLINE]There is a limit of how many Religions can be founded in any game, and it's based on map size. That limit will always be lower than the default number of Civilizations in that game, so not everyone gets to found their own Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDING_RELIGION_ADVISOR_QUESTION">
+			<Text>How do I found a Religion?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_SPENDING_TOPIC">
+			<Text>Spending Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_SPENDING_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_RELIGION_FAITH_SPENDING_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_SPENDING_SUMMARY">
+			<Text>[ICON_PEACE] Faith can be spent in several ways. It can be used to purchase religious units or buildings or it will get expended to spawn a Great Prophet, or, once you enter the Industrial Era, another Great Person.[NEWLINE][NEWLINE]The [ICON_PEACE] Faith you've accumulated will automatically be spent on spawning a Great Prophet once you've reached a certain threshold (to see this hover your mouse over the [ICON_PEACE] icon in the Status Bar). Once you enter the Industrial Era, you can spend Faith on other Great People as well, depending on which Social Policy branches you've unlocked.[NEWLINE][NEWLINE]You can also choose to spend your accumulated [ICON_PEACE] Faith on Units or buildings. This can be done in the Purchase menu of the City Screen. Missionaries and Inquisitors are available in every city that follows a Religion while the respective buildings are only available if the Majority Religion contains a Belief that unlocks the purchase of a Religious Building.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_SPENDING_ADVISOR_QUESTION">
+			<Text>What can I do with Faith?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_BELIEFS_TOPIC">
+			<Text>Beliefs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_BELIEFS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_RELIGION_BELIEFS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_BELIEFS_SUMMARY">
+			<Text>When you found a Pantheon or when you later in the game found or enhance a Religion there are a number of different slots you can fill with a selection of Beliefs. The types of Beliefs you get to select are Pantheon Beliefs, Founder Beliefs, Follower Beliefs and Enhancer Beliefs. There are Civilizations that, due to their unique trait, get to choose an additional Bonus Belief.[NEWLINE][NEWLINE]Beliefs are picked on a first come first serve basis. When any Belief has been picked it will not be available for any other Civilization which is founding or enhancing their Religion afterwards. This makes being the first to get to this point very valuable.[NEWLINE][NEWLINE]A full list of all the different Beliefs can be found in the Religion section of the Civilopedia.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_BELIEFS_ADVISOR_QUESTION">
+			<Text>What are Beliefs?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEON_BELIEFS_TOPIC">
+			<Text>Pantheon Beliefs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEON_BELIEFS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_RELIGION_PANTHEON_BELIEFS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEON_BELIEFS_SUMMARY">
+			<Text>This is a special type of follower benefit that is especially useful early in the game (usually for improving yields). They kick in for any city where this Pantheon or Religion is practiced by a majority of the citizens. These Beliefs will make their way into main Religions later in the game as some of the Civilizations choose to go beyond a mere Pantheon and found a Religion. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEON_BELIEFS_ADVISOR_QUESTION">
+			<Text>What are Pantheon Beliefs?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FOLLOWER_TOPIC">
+			<Text>Follower Beliefs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FOLLOWER_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_RELIGION_FOLLOWER_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FOLLOWER_SUMMARY">
+			<Text>These attributes are active at the city level. They kick in for any city where this Religion is practiced by a majority of the citizens.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FOLLOWER_ADVISOR_QUESTION">
+			<Text>What are Follower Beliefs?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDER_TOPIC">
+			<Text>Founder Beliefs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDER_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_RELIGION_FOUNDER_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDER_SUMMARY">
+			<Text>These are player-level bonuses. These positive game effects are received by the player that founded a Religion as long as he still controls the Holy City where the Religion originated. Most of these are directly tied to the spread of the Religion across the map, giving the founder of a Religion a strong incentive to spread his Religion far and wide.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDER_ADVISOR_QUESTION">
+			<Text>What are Founder Beliefs?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCER_TOPIC">
+			<Text>Enhancer Beliefs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCER_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_RELIGION_ENHANCER_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCER_SUMMARY">
+			<Text>These benefits improve the religious spread. Depending on the individual Belief chosen this can be through more powerful religious units or through stronger natural spread.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCER_ADVISOR_QUESTION">
+			<Text>What are Enhancer Beliefs?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_SPREADING_RELIGION_TOPIC">
+			<Text>Spreading Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_SPREADING_RELIGION_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_RELIGION_SPREADING_RELIGION_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_SPREADING_RELIGION_SUMMARY">
+			<Text>There are two ways that Religion spreads: The natural spread that the holy city as well as any other religious city generates and the deliberate actions a player can perform to convert other cities.[NEWLINE][NEWLINE]The natural spread of Religion is fairly straight-forward. Any city that has a majority Religion (more than half of their citizens are following a single Religion) exerts pressure up to 10 hexes from the city. If another city is within that range, and they do not yet have a majority religion, then the pressure will slowly start to convert citizens. If the city already has a majority religion, then it will take two or more cities exerting pressure to start converting citizens. The more cities exerting pressure on the target city, the faster a city's citizens will be converted. You can view your own outward religious pressure, as well as incoming pressure by mousing over the Religion icon on the city banner (if it already has a Pantheon or Religion).[NEWLINE][NEWLINE]To speed up the spread of your Religion the following options are available to you: You can purchase Missionaries by spending [ICON_PEACE] Faith in any city that already has the Religion you wish to spread as its majority. To purchase one just enter the city screen and you can open the purchase menu by clicking on the purchase button in the lower left. The Missionary will be grayed out if you don't have enough [ICON_PEACE] Faith to acquire it. Once you have a Missionary you can move him into or next to the city you wish to convert and click on the Spread Religion button in his action menu which will normally expend him after two uses.[NEWLINE][NEWLINE]Great Prophets can spread Religion in a similar fashion but additionally they abolish any other Religions that might be present in their target city. They can perform this action multiple times before being expended.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_SPREADING_RELIGION_ADVISOR_QUESTION">
+			<Text>How does Religion spread?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCING_RELIGION_TOPIC">
+			<Text>Enhancing a Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCING_RELIGION_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_RELIGION_ENHANCING_RELIGION_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCING_RELIGION_SUMMARY">
+			<Text>Once you've founded a Religion you can use your next Great Prophet to enhance it. This is done the same way as founding it only this time you will get to choose an additional Follower Belief and an Enhancer Belief.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCING_RELIGION_ADVISOR_QUESTION">
+			<Text>How do I enhance my Religion?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_BUILDINGS_TOPIC">
+			<Text>Religious Buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_BUILDINGS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_RELIGION_BUILDINGS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_BUILDINGS_SUMMARY">
+			<Text>There are two different types of buildings that play a role in Religion. First there are the buildings generating [ICON_PEACE] Faith that you can build the normal way in the city screen once you have researched their prerequisite technologies. But there is a second set of buildings that have to be unlocked through a Follower Belief. They can then be purchased by spending [ICON_PEACE] Faith in any city where the majority of citizens follows the associated Religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_BUILDINGS_ADVISOR_QUESTION">
+			<Text>Do buildings play a role with Religion?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_UNITS_TOPIC">
+			<Text>Religious Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_UNITS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_RELIGION_UNITS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_UNITS_SUMMARY">
+			<Text>There are 3 units that have an impact on Religion: Great Prophets, Missionaries and Inquisitors. While Great Prophets and Missionaries are useful to enhance and spread Religions, Inquisitors defend against unwanted other Religions.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_UNITS_ADVISOR_QUESTION">
+			<Text>Do units play a role in Religion?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_MAJORITY_TOPIC">
+			<Text>Majority Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_MAJORITY_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_RELIGION_MAJORITY_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_MAJORITY_SUMMARY">
+			<Text>Each citizen in a city is either an atheist or follows a Religion. Natural and deliberate spread of a Religion to a city converts them, and once one Religion has a majority of citizens as followers, this city will be considered to follow said religion. At that point, religious units and buildings of that religion can be bought in the city screen.[NEWLINE][NEWLINE]If the majority of citizens follows one Religion, the symbol of that Religion will be displayed in the city banner.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_MAJORITY_ADVISOR_QUESTION">
+			<Text>How does a Religion become the Majority Religion?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_DEFENDING_TOPIC">
+			<Text>Defending Against a Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_DEFENDING_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_RELIGION_DEFENDING_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_DEFENDING_SUMMARY">
+			<Text>To defend against enemy Missionaries or Great Prophets trying to convert your cities, buy an Inquisitor. These units can be stationed in a city to protect it from conversion. In addition to this passive ability to block competing Religions, Inquisitors can be expended when adjacent to one of your cities to actively remove the presence of all other Religions from your city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_RELIGION_DEFENDING_ADVISOR_QUESTION">
+			<Text>How do I defend against a Religion?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_BULLYING_TOPIC">
+			<Text>Demanding Tribute</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_BULLYING_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_CITY_STATE_BULLYING_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_BULLYING_SUMMARY">
+			<Text>You may choose to intimidate a city-state with the goal of asking for tribute. Tribute can be in the form of a worker, or a lump-sum of gold. One way to intimidate a city-state is through the size of your military in comparison to other powers, or by having military units close-by.[NEWLINE][NEWLINE]If you would like to ask for tribute from a city-state, open the city-state diplomacy panel, and click the "Ask for Tribute" option. If the following options are red, then the city-state is not afraid of you, and will not give in to your demand. If you are successful, you will gain the tribute, but lose influence with the city-state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_BULLYING_ADVISOR_QUESTION">
+			<Text>How do you ask for tribute?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_SPREAD_RELIGION_TOPIC">
+			<Text>Religion and City-State Influence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_SPREAD_RELIGION_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_CITY_STATE_SPREAD_RELIGION_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_SPREAD_RELIGION_SUMMARY">
+			<Text>If a Religion that you founded becomes the majority Religion in a City-State, the rate at which your Influence degrades is reduced by 25%. Likewise, if your Influence is negative, the rate at which it recovers is increased by 50%.[NEWLINE][NEWLINE]Additionally, City-States will occassionally ask for a specific Religion to spread to them. If you succeed in accomplishing this, you will receive a significant Influence reward.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_SPREAD_RELIGION_ADVISOR_QUESTION">
+			<Text>Is there a benefit to spreading my Religion to a City-State?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATES_GREATPROPHET_TITLE">
+			<Text>Great Prophet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATES_GREATPROPHET_ADV_QUEST">
+			<Text>What is a Great Prophet?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATES_GREATPROPHET_BODY">
+			<Text>Great Prophets are earned as the result of collecting [ICON_PEACE] Faith, and are the only unit that can found or enhance a religion. Once you've accumulated enough [ICON_PEACE] Faith (at least 200 in a standard speed game), you have a chance to spawn a Great Prophet. Once a Great Prophet appears, you can use their "Found Religion" ability to create your own custom religion. Like other Great People, the Great Prophet has other abilities as well, including starting a Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_RELIGIOUS_TOPIC">
+			<Text>Religious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_RELIGIOUS_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_CITY_STATE_RELIGIOUS_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_RELIGIOUS_SUMMARY">
+			<Text>A religious city-state can provide faith to your civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_RELIGIOUS_ADVISOR_QUESTION">
+			<Text>What does it mean for a city-state to be religious?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_MERCANTILE_TOPIC">
+			<Text>Mercantile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_MERCANTILE_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_CITY_STATE_MERCANTILE_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_MERCANTILE_SUMMARY">
+			<Text>A mercantile city-state can provide a unique luxury item to your civilization, and help to improve your happiness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_CITY_STATE_MERCANTILE_ADVISOR_QUESTION">
+			<Text>What does it mean for a city-state to be mercantile?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADVISOR_FIRST_SPY_ACTIVATE_BUTTON">
+			<Text>Espionage Overview</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_ISLANDS_HELP">
+			<Text>The world is composed of a mixture of large and small islands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_TYPES_HEADING2_BODY">
+			<Text>There are five different "flavors" of city-states. Each can provide you with different benefits if you befriend or ally with them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMBAT_HITPOINTS_HEADING3_BODY">
+			<Text>A unit's health is measured in "Hit Points". When fully healthy, all combat units have 100 hit points. As it takes damage, it loses hit points. If a unit's hit points reach 0, it is destroyed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMBAT_COMBATDAMAGE_HEADING2_BODY">
+			<Text>A fully healthy unit has 100 "hit points" (HPs). When a unit takes damage during combat it loses HPs, and if it reaches 0 HPs, it is destroyed.[NEWLINE][NEWLINE]A unit that has taken damage is weaker than a healthy unit, and it is closer to destruction. Wherever possible, it's a good idea to "rotate out" damaged units from battle to allow them to heal up before reentering the fray. This, of course, is not always possible.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMBAT_CITYHITPOINTS_HEADING4_BODY">
+			<Text>A fully-healthy city has 200 hit points. As it takes damage, the city's hit points are reduced. If a city's hit points reach 0, an enemy unit can capture the city by entering its tile.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMBAT_HEALTINGDAMAGE_HEADING3_BODY">
+			<Text> To heal damage, a unit must remain inactive for a turn. The amount of damage that a unit heals depends upon the unit's location.[NEWLINE][NEWLINE]In a City: A unit heals 25 HPs per turn.[NEWLINE]In Friendly Territory: 20 HP per turn.[NEWLINE]In Neutral or Enemy Territory: 10 HP per turn.[NEWLINE]Note that certain promotions will accelerate a unit's healing rate.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMBAT_NAVALDAMAGE_HEADING3_BODY">
+			<Text>Naval units cannot heal unless in Friendly territory, where they heal 20 HPs per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_COMBATBONUS_HEADING4_BODY">
+			<Text>A Great General provides a 15% combat bonus to all friendly land units within 2 tiles. This combat bonus applies to all forms of land combat: melee, ranged, defense, and so forth.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_TITLE">
+			<Text>Great Admiral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ADV_QUEST">
+			<Text>What is a Great Admiral?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_BODY">
+			<Text>The Great Admiral follows the same principle of the Great General. Instead of being generated in cities by specialists, Great Admirals are generated by naval combat. Whenever one of your naval units gains XPs, your civilization generates Great Admiral points (except when fighting against barbarians). When you've got enough points, you earn a Great Admiral. At that point the amount you need for the next Great Admiral rises.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY_TITLE">
+			<Text>Special Ability: Combat Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY_BODY">
+			<Text>A Great Admiral provides a 15% combat bonus to all friendly naval units within 2 tiles. This combat bonus applies to all forms of naval combat: melee, ranged, defense, and so forth.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY_ADV_QUEST">
+			<Text>What are the Great Admiral's abilities?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY2_TITLE">
+			<Text>Special Ability: Repair Fleet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY2_BODY">
+			<Text>{TXT_KEY_MISSION_REPAIR_FLEET_HELP}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY2_ADV_QUEST">
+			<Text>{TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY_ADV_QUEST}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_TITLE">
+			<Text>Great Prophet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_ADV_QUEST">
+			<Text>What is a Great Prophet?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_BODY">
+			<Text>Great Prophets are earned as the result of collecting [ICON_PEACE] Faith, and are the only unit that can found or enhance a religion. Once you've accumulated enough [ICON_PEACE] Faith (at least 200 in a standard speed game), you have a chance to spawn a Great Prophet. Once a Great Prophet appears, you can use their "Found Religion" ability to create your own custom religion. Like other Great People, the Great Prophet has other abilities as well, including constructing a special Improvement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_EMBASSY_TOPIC">
+			<Text>Establishing Embassies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_EMBASSY_DESCRIPTION">
+			<Text>{TXT_KEY_CONCEPT_DIPLOMACY_EMBASSY_TOPIC}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_EMBASSY_SUMMARY">
+			<Text>Establishing an Embassy is one of the first diplomatic actions available after meeting another civilization, and is available upon researching Writing. Embassies are necessary for trading Open Borders or making Defensive Pacts or Research Agreements, and once set up, will also show you the location of an opposing player's capital. If you have Writing and the other player does not, you can still establish an Embassy in their civilization without reciprocating, although they may ask for a small sum of gold as compensation. Going to war will immediately close down opposing embassies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_EMBASSY_ADVISOR_QUESTION">
+			<Text>How do I establish an Embassy?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_ABILITY_TITLE">
+			<Text>Special Ability: Spread Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_ABILITY_BODY">
+			<Text>The Great Prophet can spread religion 4 times, displacing any previous religions in the target cities. The Great Prophet is expended when used this way.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_ABILITY_ADV_QUEST">
+			<Text>What are the Great Prophets's abilities?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_IMPROVEMENT_TITLE">
+			<Text>Special Improvement: Holy Site</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_IMPROVEMENT_BODY">
+			<Text>A Great Prophet can construct the special Holy Site improvement which, when worked, produces additional [ICON_PEACE] Faith. The Great Prophet is expended when used this way.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_IMPROVEMENT_ADV_QUEST">
+			<Text>Can the Great Prophets's create an Improvement?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_ABILITIES_HEADING3_BODY">
+			<Text>
+        Each Great Person type has two abilities (but see the Great Admiral, below).[NEWLINE]- They can be expended to construct a Special Improvement.[NEWLINE]- They have some other special ability.
+
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_CITADEL_HEADING4_BODY">
+			<Text>Placing a Citadel gives you ownership of all adjacent tiles, as your Culture borders will expand to surround the Citadel. Additionally, the Citadel provides a big defensive bonus to any unit occupying it. Further, it damages any enemy unit that ends its turn next to the Citadel (damage does not stack with other Citadels). Note that a Citadel functions only when it's in your territory. If it were to change hands when a nearby city is conquered, it will only be effective for the new owner. If the new Culture border claims hexes already owned by another civilization, you will incur a diplomatic penalty as a result.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_CULTUREBOMB_HEADING4_BODY">
+			<Text>A Great Artist can start a "Golden Age." This is a period of special productivity for a civilization. During a Golden Age, any tile which produces gold produces 1 extra gold, production (hammers) in cities is increased 20%, and empire-wide [ICON_CULTURE] Culture is increased by 20%. The duration of the Golden Age depends upon the game difficulty and speed. The Great Artist is expended when he or she creates a Golden Age.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_CULTUREBOMB_HEADING4_TITLE">
+			<Text>Special Ability: Golden Age</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_CAUSES_HEADING2_BODY">
+			<Text>The following increase your population's happiness:[NEWLINE][NEWLINE]Natural Wonders: Each Natural Wonder you discover permanently increases your civilization's happiness.[NEWLINE][NEWLINE]Luxury Resources: Improve resources within your territory or trade for them with other civs. Each kind of resource improves your population's happiness (but you don't get extra happiness for having multiple copies of a single luxury).[NEWLINE][NEWLINE]Buildings: Certain buildings increase your population's happiness. These include the Colosseum, the Circus, the Theatre, and others. Each building constructed anywhere in your civ increases your overall happiness (so two Colosseums produce twice as much happiness as one, unlike Luxuries).[NEWLINE][NEWLINE]Wonders: Certain wonders like Notre Dame and the Prora can give you a big boost in happiness.[NEWLINE][NEWLINE]Social Policies: While no single branch focuses on happiness, there are a few policies in each branch which either boost happiness or reduce unhappiness.[NEWLINE][NEWLINE]Technologies: Technologies in themselves don't provide happiness, but they do unlock the buildings, wonders, resources and social policies which do.[NEWLINE][NEWLINE]Religion: Certain religious beliefs provide happiness, as do certain religious buildings that can be purchased with [ICON_PEACE] Faith.</Text>
+		</Row>
+		<!-- BELIEFS -->
+		<Row Tag="TXT_KEY_BELIEF_GODDESS_HUNT">
+			<Text>+1 [ICON_FOOD] Food from Camps</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_FERTILITY_RITES">
+			<Text>10% faster [ICON_FOOD] Growth Rate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GOD_CRAFTSMEN">
+			<Text>+1 [ICON_PRODUCTION] Production in cities with population of 3+</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GOD_SEA">
+			<Text>+1 [ICON_PRODUCTION] Production from Fishing Boats</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_OPEN_SKY">
+			<Text>+1 [ICON_CULTURE] Culture from Pastures</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE">
+			<Text>+4 [ICON_PEACE] Faith from Natural Wonders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_FEED_WORLD">
+			<Text>Shrines and Temples provide +1 [ICON_FOOD] Food each in city</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_FORMAL_LITURGY">
+			<Text>+1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith for each Gold and Silver</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_STONE_CIRCLES">
+			<Text>+2 [ICON_PEACE] Faith from Quarries</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GOD_WAR">
+			<Text>Gain [ICON_PEACE] Faith if you win a battle within 4 tiles of your city</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_SWORD_PLOWSHARES">
+			<Text>15% faster [ICON_FOOD] Growth Rate for city if not at war</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_SACRED_ANIMALS">
+			<Text>Placeholder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_HARVEST_FESTIVAL">
+			<Text>Placeholder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_SACRED_WATERS">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness from cities on rivers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GODDESS_LOVE">
+			<Text>+1 [ICON_HAPPINESS_1] Happiness from cities with population of 6+</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS">
+			<Text>+15% faster border growth</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GOD_FESTIVALS">
+			<Text>+1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith for each Wine and Incense</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ORAL_TRADITION">
+			<Text>+1 [ICON_CULTURE] Culture from Plantations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP">
+			<Text>+1 [ICON_CULTURE] Culture from Shrines</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DESERT_FOLKLORE">
+			<Text>+1 [ICON_PEACE] Faith from Desert tiles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_SACRED_PATH">
+			<Text>+1 [ICON_CULTURE] Culture from Jungle tiles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GODDESS_STRATEGY">
+			<Text>+30% increase in city [ICON_RANGE_STRENGTH] Ranged Combat Strength</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_FAITH_HEALERS">
+			<Text>+30 HP healed per turn if adjacent to a friendly city</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MONUMENT_GODS">
+			<Text>+15% [ICON_PRODUCTION] Production of Ancient/Classical Wonders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RELIQUARY">
+			<Text>Gain 50 [ICON_PEACE] Faith each time a Great Person is expended</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_PEACE_LOVING">
+			<Text>+1 [ICON_HAPPINESS_1] Global Happiness for every 8 followers of this religion in non-enemy foreign cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_FLOURISHING_OF_ARTS">
+			<Text>+10% [ICON_CULTURE] Culture if not at war</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CEREMONIAL_BURIAL">
+			<Text>+1 [ICON_HAPPINESS_1] Global Happiness for every two cities following this religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CHURCH_PROPERTY">
+			<Text>+2 [ICON_GOLD] Gold for each city following this religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_TITHE">
+			<Text>+1 [ICON_GOLD] Gold for every 4 followers of this religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_INITIATION_RITES">
+			<Text>+100 [ICON_GOLD] Gold when each city first converts to this religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_JUST_WAR">
+			<Text>+20% [ICON_STRENGTH] Combat Strength near enemy cities that follow this religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DEFENDER_FAITH">
+			<Text>+20% [ICON_STRENGTH] Combat Strength near friendly cities that follow this religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ITINERANT_PREACHERS">
+			<Text>Religion spreads to cities 30% further away</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MESSIAH">
+			<Text>Prophets 25% stronger and earned with 25% less [ICON_PEACE] Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MISSIONARY_ZEAL">
+			<Text>Missionary conversion strength +25%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_HOLY_ORDER">
+			<Text>Missionaries and Inquisitors cost 30% less [ICON_PEACE] Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_UNITY">
+			<Text>Religion spreads to friendly city-states at double rate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MOSQUES">
+			<Text>Use [ICON_PEACE] Faith to purchase Mosques (+3 [ICON_PEACE] Faith, +2 [ICON_CULTURE] Culture, +1 [ICON_HAPPINESS_1] Happiness)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_PAGODAS">
+			<Text>Use [ICON_PEACE] Faith to purchase Pagodas (+2 [ICON_PEACE] Faith, +2 [ICON_CULTURE] Culture, +2 [ICON_HAPPINESS_1] Happiness)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MONASTERIES">
+			<Text>Use [ICON_PEACE] Faith to purchase Monasteries (+2 [ICON_PEACE] Faith, +2 [ICON_CULTURE] Culture, more with [ICON_RES_WINE] Wine or [ICON_RES_INCENSE] Incense)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_PEACE_GARDENS">
+			<Text>Gardens provide +2 [ICON_HAPPINESS_1] Happiness in city</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CHORAL_MUSIC">
+			<Text>Temples provide +2 [ICON_CULTURE] Culture in cities with 5 followers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_LITURGICAL_DRAMA">
+			<Text>Ampitheaters provide +1 [ICON_PEACE] Faith in cities with 3 followers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_ASCETISM">
+			<Text>Shrines provide +1 [ICON_HAPPINESS_1] Happiness in cities with 3 followers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_CENTER">
+			<Text>Temples provide +2 [ICON_HAPPINESS_1] Happiness in cities with 5 followers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_PAPAL_PRIMACY">
+			<Text>+15 to [ICON_INFLUENCE] Influence resting point with City-States following this religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DANCE_AURORA">
+			<Text>+1 [ICON_PEACE] Faith from Tundra tiles without Forest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_WORLD_CHURCH">
+			<Text>+1 [ICON_CULTURE] Culture for every 5 followers of this religion in other civilizations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_PILGRIMAGE">
+			<Text>+2 [ICON_PEACE] Faith for each foreign city following this religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_INTERFAITH_DIALOGUE">
+			<Text>Gain [ICON_RESEARCH] Science when a Missionary or Prophet spreads this religion to cities of other religions</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_HOLY_WARRIORS">
+			<Text>Use [ICON_PEACE] Faith to purchase pre-Industrial land units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_COMMUNITY">
+			<Text>+1% [ICON_PRODUCTION] Production for each follower (max +15%)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_DIVINE_INSPIRATION">
+			<Text>Each World Wonder provides +2 [ICON_PEACE] Faith in city</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GURUSHIP">
+			<Text>+2 [ICON_PRODUCTION] Production if city has a Specialist</Text>
+		</Row>
+		<!-- RELIGION related notifications -->
+		<Row Tag="TXT_KEY_NOTIFICATION_ENOUGH_FAITH_FOR_PANTHEON">
+			<Text>You have enough faith to found a pantheon!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ENOUGH_FAITH_FOR_PANTHEON">
+			<Text>FOUND A PANTHEON</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_ENOUGH_FAITH_FOR_MISSIONARY">
+			<Text>You have accumulated enough [ICON_PEACE] Faith to purchase a unit or building. Buy one in a city following the appropriate religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ENOUGH_FAITH_FOR_MISSIONARY">
+			<Text>May Purchase With Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_NEED_NEW_AUTOMATIC_FAITH_SELECTION">
+			<Text>Your previous automatic faith purchase selection ({1_SelectionText}) is no longer valid. Go to the Religious Overview if you want to reset it to another item.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_NEED_NEW_AUTOMATIC_FAITH_SELECTION">
+			<Text>Need New Automatic Faith Selection</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_AUTOMATIC_FAITH_PURCHASE">
+			<Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {1_Name}} has been purchased in {2_City}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_AUTOMATIC_FAITH_PURCHASE">
+			<Text>Automatic Faith Purchase</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_FOUND_RELIGION">
+			<Text>You may now found a religion!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_FOUND_RELIGION">
+			<Text>FOUND A RELIGION</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_ENHANCE_RELIGION">
+			<Text>You may now add more beliefs to your religion!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ENHANCE_RELIGION">
+			<Text>ENHANCE A RELIGION</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_BELIEF_IN_USE">
+			<Text>The belief you have chosen has been taken by another player.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_PANTHEON_BELIEF_IN_USE">
+			<Text>Belief taken</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_RELIGION_IN_USE">
+			<Text>The religion you have chosen has been taken by another player.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_RELIGION_IN_USE">
+			<Text>Religion taken</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_NOT_ENOUGH_FAITH_FOR_PANTHEON">
+			<Text>You no longer have enough faith to found a pantheon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_NOT_ENOUGH_FAITH_FOR_PANTHEON">
+			<Text>Not enough faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_NO_RELIGIONS_AVAILABLE">
+			<Text>There are no more religions available for this game.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_NO_RELIGIONS_AVAILABLE">
+			<Text>No religions available</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_ALREADY_CREATED_RELIGION">
+			<Text>You have already founded a religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ALREADY_CREATED_RELIGION">
+			<Text>RELIGION ALREADY FOUNDED</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_ALREADY_CREATED_PANTHEON">
+			<Text>You have already founded a pantheon.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ALREADY_CREATED_PANTHEON">
+			<Text>Pantheon already founded</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_RELIGION_NAME_IN_USE">
+			<Text>A religion with that name has already been created.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_RELIGION_NAME_IN_USE">
+			<Text>Religion name in use</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_ENHANCED_RELIGION_IN_USE">
+			<Text>A religion has been enhanced by another player.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ENHANCED_RELIGION_IN_USE">
+			<Text>Enhanced religion exists</Text>
+		</Row>
+		<!-- Other notifications -->
+		<Row Tag="TXT_KEY_NOTIFICATION_DISCOVER_FREE_TECH">
+			<Text>You may select a free technology to discover!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DISCOVER_FREE_TECH">
+			<Text>DISCOVER A FREE TECH</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CIV_RESURRECTED">
+			<Text>{1_PlayerName} has conquered {2_CityName} and restored {3_CivAdj} sovereignty. The flame of the {4_CivName}, once extinguished, burns again.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CIV_RESURRECTED_SHORT">
+			<Text>{1_PlayerName} liberated by {2_PlayerName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_LIBERATED">
+			<Text>{1_PlayerName} has conquered {2_CityName} and restored {3_CivAdj} sovereignty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CIV_LIBERATED_SHORT">
+			<Text>{1_CityName} returned to {2_PlayerName}</Text>
+		</Row>
+		<!-- RELIGION related UI elements -->
+		<Row Tag="TXT_KEY_CONFIRM_PANTHEON">
+			<Text>Are you sure you wish to adopt [COLOR_GREEN]{1_BeliefName}[ENDCOLOR]?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_GREATPROPHETS_TEXT">
+			<Text>"Great Prophets" explore the boundaries of religious belief, conveying their unique insights to guide the moral and ethical decisions of a civilization. They found religions, spread the word of god, and bring faith to the people. They provide hope to the nation during even the direst of times.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_TOOLTIP_LINE">
+			<Text>{1_ReligionIcon} {2_NumFollowers} Followers {3_PressureString}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGIOUS_PRESSURE_STRING">
+			<Text>(+{1_Pressure} Pressure)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HOLY_CITY_TOOLTIP_LINE">
+			<Text>Holy City for {1_ReligionIcon} {2_ReligionName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_NO_FOLLOWERS">
+			<Text>No religious followers in city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_GREATSCIENTIST_HEADING4_BODY">
+			<Text>A Great Scientist can give you a considerable boost towards your next tech, or the unit can be expended to construct an Academy improvement, which provides beakers per turn when the tile is worked. See the section on Great People for more details.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMBAT_RANGESTAT_HEADING3_BODY">
+			<Text>The unit's "range" stat determines the distance at which a unit can launch a ranged attack. A range of "2" means that the target can be in an adjacent tile or one tile distant. A range of "1" would mean that the target had to be adjacent to the attacker.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_DESERT_HEADING3_BODY">
+			<Text>In general, desert hexes are remarkably unuseful. They provide no benefits to cities (unless the desert contains an oasis or resource, of course, or if it has access to fresh water).[NEWLINE][NEWLINE]City Yield: none[NEWLINE]Movement Cost: 1[NEWLINE]Combat Modifier: 0%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_GRASSLAND_HEADING3_BODY">
+			<Text>Generally, grassland produces the most food of any terrain types. Cities constructed near to grasslands will tend to grow faster than cities built elsewhere.[NEWLINE][NEWLINE]City Yield: 2 food[NEWLINE]Movement Cost: 1[NEWLINE]Combat Modifier: 0%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_PLAINS_HEADING3_BODY">
+			<Text>Plains provide a mix of food and production to a nearby city. A city surrounded by plains will grow more slowly than one in grassland, but it will be far more productive. [NEWLINE][NEWLINE]City Yield: 1 food, 1 production[NEWLINE]Movement Cost: 1[NEWLINE]Combat Modifier: 0%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_SNOW_HEADING3_BODY">
+			<Text>Snow is quite unproductive, with no food or production benefit to a nearby city. Of course a snow hex might contain a useful resource, but otherwise they're just cold and barren.[NEWLINE][NEWLINE]City Yield: none[NEWLINE]Movement Cost: 1[NEWLINE]Combat Modifier: 0%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_TUNDRA_HEADING3_BODY">
+			<Text>Tundra is the semi-frozen land found in the world's colder climates. It is less useful than plains or grassland, but slightly better than desert. Nobody builds cities in the tundra unless they're desperate for resources - or they've got nowhere else to go.[NEWLINE][NEWLINE]City Yield: 1 food[NEWLINE]Movement Cost: 1[NEWLINE]Combat Modifier: 0%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITS_NONCOMBAT_HEADING2_BODY">
+			<Text>There are six types of non-combat units: Settlers, Workers, Work Boats, Great People, Spaceship Parts, and Religious Units. Each is critically important to a civilization's success. As the name "non-combat" would suggest, these units cannot fight. If attacked by an enemy unit while alone in a hex they are automatically captured or destroyed. Therefore it usually makes sense to escort them with a military unit when sending them out into the wilderness.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_NARROW_CONTINENTS_HELP">
+			<Text>The world is composed of tall, narrow continents.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_WIDE_CONTINENTS_HELP">
+			<Text>The world is composed of wide continents.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MAP_SMALL_ISLANDS_HELP">
+			<Text>The world is composed of small islands.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GA_PROGRESS">
+			<Text>Great Admiral Progress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOMACY_OPENBORDERS_HEADING3_BODY">
+			<Text>Once you or another civ have discovered Civil Service, you can enter into an Open Borders agreement with any civ where you have established an Embassy. (City-States can't make Open Borders agreements.) While an Open Borders agreement is in effect, the other civ's units can enter your territory without automatically triggering war. If the agreement is mutual, either civ's units can enter the other's territory freely; however it doesn't have to be mutual: one civ can grant another Open Borders without automatically receiving it in return.[NEWLINE][NEWLINE]An Open Borders agreement lasts for 20 turns. When 20 turns have passed, the agreement must be renegotiated or it lapses.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITS_MOVEMENT_HEADING2_BODY">
+			<Text>Generally, units move from hex to hex, paying the "Movement Cost" required to enter the new hex. Units are subject to "Stacking" limitations - two military units may not end their turn in the same hex, nor can two non-military units, but one military and one non-military unit may end their turn stacked in the same hex. Note that embarked military units, as well as Great Generals and Great Admirals, are all considered non-military, and can be stacked with a military unit for protection.[NEWLINE][NEWLINE]Most units are limited in where they can move - land units cannot enter mountain hexes and naval units cannot enter land hexes (except for port cities). Improvements like roads and railroads speed a unit's movement through land hexes.[NEWLINE][NEWLINE]Check out the section on Movement for details.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOVEMENT_EMBARKING_HEADING3_BODY">
+			<Text>At the start of the game, your land units cannot enter any water tiles. However, once you've learned the Optics technology, you can earn the promotion that allows land units to "embark" and move into coastal water tiles. To embark a unit, move the unit to a coastal tile and then click on the "Embark" Action. Once embarked, the unit must move into water. (Optics allows movement into coastal water only. The later Astronomy tech allows embarked units to enter ocean tiles.)[NEWLINE][NEWLINE]In the water the embarked unit is very slow and almost helpless. It is able to defend itself to a certain degree, but it cannot attack and should not be left alone for too long on the open ocean. It's critical to accompany embarked land units with a strong naval defense.[NEWLINE][NEWLINE]When the unit is adjacent to a land tile, you can click on the "Disembark" action. The unit will then be able to return to dry land. Alternatively you can right-click on a land tile and the unit will disembark automatically.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_PERMANENTWAR_HEADING4_BODY">
+			<Text>You've so totally angered a City-State that it's grown wary of you. This occurs if you've declared war on too many of the City-States around you - word will spread, and your minimum influence level with large groups of City-States will permanently drop from 0 to -20 (meaning that your influence can degrade well below 0).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_PERMANENTWAR_HEADING4_TITLE">
+			<Text>Wary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_WAR_HEADING4_BODY">
+			<Text>While at war with a City-State, your influence will remain negative and they certainly won't give you any stuff.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_WAROFTHE_HEADING2_BODY">
+			<Text>You can declare war on a City-State at any time. You can do so through the Diplomatic Panel or by ordering one of your units to attack a City-State's unit or city. You can offer peace to a City-State through the Diplomatic Panel or by clicking on the city.[NEWLINE][NEWLINE]It's important to remember that if you attack too many City-States, many will grow wary of you, causing your minimum influence level to permanently drop from 0 to -20.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_LEARNNEWTECH_HEADING4_TITLE">
+			<Text>Special Ability: Free Science</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_LEARNNEWTECH_HEADING4_BODY">
+			<Text>You can expend your Great Scientist to immediately gain a lump sum of science equal to the average science output of your civilization for the previous eight turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYIMPROVEMENTSTRATEGY_PLUG_UP_RESOURCES_HAVE_ZERO">
+			<Text>We don't have any {1_ResourceName:textkey} and there is a source near {2_CityName:textkey}. Send a Worker (land) or Work boat (sea) out to improve that tile so we can get access to that resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOMACY_DISCUSS_HEADING3_BODY">
+			<Text>This button allows you to open up dialog on a variety of topics. Depending upon circumstances you may do any of the following. The leader's response will depend upon his or her relations with you and their own self-interest.[NEWLINE]- Ask the leader to sign a declaration of friendship.[NEWLINE]- Ask the leader to go to war against another civilization.[NEWLINE]- Share intrigue with a leader.[NEWLINE]- Request that the leader not build any more new cities near you.[NEWLINE]- Denounce a leader you are unhappy with.[NEWLINE]- Ask a leader to stop spying on you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TERRAIN_MOUNTAIN_HEADING3_BODY">
+			<Text>Mountains are tall upthrusts of terrain, impossible for non-flying units to move through (Carthage being the exception). They're not particularly helpful to a civilization, except as barriers to invasion.[NEWLINE][NEWLINE]City Yield: none[NEWLINE]Movement Cost: impassable (except by flying units and Carthage)[NEWLINE]Combat Modifier: 25% defensive combat bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITIES_CITYBANNER_HEADING2_BODY">
+			<Text>The city banner appears on the Main Map. It provides a useful snapshot of the goings-on in the city.[NEWLINE][TAB][TAB][TAB][TAB] Name[NEWLINE][TAB][TAB][TAB][TAB] Defensive Strength [NEWLINE][TAB][TAB][TAB][TAB] Unit Garrisoned in City[NEWLINE][TAB][TAB][TAB][TAB] Item Being Constructed in City*[NEWLINE][TAB][TAB][TAB][TAB] Turns Until Construction is Complete*[NEWLINE][TAB][TAB][TAB][TAB] City's Size[NEWLINE][TAB][TAB][TAB][TAB] Turns Until City Grows*[NEWLINE][TAB][TAB][TAB][TAB] City's Religion**[NEWLINE][TAB][TAB][TAB][TAB] *Not displayed on foreign city.[NEWLINE][TAB][TAB][TAB][TAB] **Not displayed until a Pantheon or Religion is present in this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDINGS_PREREQUISITES_HEADING2_BODY">
+			<Text>
+        With the single exception of the monument, which has no prerequisites and is available to build at the start of the game, you need knowledge of a specific technology to construct a building. For example, you must learn bronze working before you can build a barracks.[NEWLINE][NEWLINE]Some buildings have resource prerequisites as well - for instance a city must have an improved source of horses or ivory nearby to construct a circus.[NEWLINE][NEWLINE]Also, some buildings have building prerequisites. You can't build a temple in a city unless you've already constructed a shrine there.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITIES_SPECIALISTS_HEADING2_BODY">
+			<Text>
+        Specialists are citizens who have been assigned to work in a building constructed in their city. There are four kinds of specialists in Civilization V: Scientists, Merchants, Artists, and Engineers. A museum, for example, allows one or two citizens to be assigned to work in the building as Artist specialists. Not all buildings allow specialists to be assigned to them. See the individual building entries for details.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALISTSANDGP_MOVINGGREATPEOPLE_HEADING2_BODY">
+			<Text>Great People can move about the board like any other units. They are non-combat units, which means that they cannot stack in a tile with other non-combat units (Workers, Settlers), but they can stack with one military unit. If an enemy unit enters a Great Person's tile, that Great Person is automatically destroyed (the enemy doesn't get it.) The exception to this rule is the Great Prophet, which can be captured.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_COMBAT_GARRISONINCITIES_HEADING3_BODY">
+			<Text>A city's owner may station a military unit inside the city to bolster its defenses. A portion of the garrisoned unit's combat strength is added to the city's strength. The garrisoned unit will take no damage when the city is attacked; however, if the city is captured the garrisoned unit is destroyed.[NEWLINE][NEWLINE]A unit stationed in the city may attack surrounding enemy units while the city will still receive its garrison bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE">
+			<Text>Withdraw Before Melee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE_HELP">
+			<Text>Unit will withdraw when faced with melee attack. Chance of withdrawal decreased against fast enemy units or if there are limited open tiles behind the unit.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

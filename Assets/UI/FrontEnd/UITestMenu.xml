@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Color0="Beige" Color1="Black,256" Font="TwCenMT16" FontStyle="Shadow" >
+
+
+    <PullDown Style="GenericPullDown" ScrollThreshold="200" Size="300,20" SpaceForScroll="1" ID="PullDown" >
+        <InstanceData Name="InstanceTwo" >
+            <GridButton Size="50,30" Anchor="C,C" Color="0,255,255,100"  ID="Button" >
+                <GridData Style="Grid9DarkBlue8Button" />
+            </GridButton>
+        </InstanceData>
+    </PullDown>
+
+    <Image Offset="-300,90" Anchor="C,C" Size="352 250"  >
+        <Button Anchor="C,T" ID="SomeOption" String="Center,Top   No Offset" >
+            <ScrollAnim Size="256 30" Anchor="C,C" Speed="1" Pause="2.0" Texture="Assets/UI/Art/Controls/ShineAnim.dds" MaskTexture="Assets/UI/Art/Controls/ButtonMask.dds" />
+        </Button>
+        <Button Anchor="R,C" String="Right,Center  No Offset" >
+            <ScrollAnim Size="64,64" Anchor="C,C" Speed="0.25" Texture="Assets/UI/Art/Controls/BubbleAnim.dds" MaskTexture="Assets/UI/Art/Controls/ButtonMask.dds" />
+        </Button>
+        <Button Anchor="L,C" Offset="0,-30" String="Left,Center   Offset: 0,-30" />
+        <Button Anchor="L,C" Offset="-30,30" String="Left,Center   Offset: -30,30" />
+        <Button Anchor="C,B" String="Center,Bottom   No Offset" >
+
+        </Button>
+    </Image>
+
+    <!-- RadioButton example -->
+    <Stack Anchor="C,T" Padding="30" StackGrowth="R" >
+        <RadioButton String="Radio1" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="C,B" TextAnchorSide="O,O" IsChecked="1" RadioGroup="one" />
+        <RadioButton String="Radio2" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="C,B" TextAnchorSide="O,O" IsChecked="1" RadioGroup="one" />
+        <RadioButton String="Radio3" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="C,B" TextAnchorSide="O,O" IsChecked="1" RadioGroup="one" />
+        <RadioButton String="Radio4" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="C,B" TextAnchorSide="O,O" IsChecked="1" RadioGroup="one" />
+        <RadioButton String="Radio5" ColorLayer0="Beige" ColorLayer1="Black" TextAnchor="C,B" TextAnchorSide="O,O" IsChecked="1" RadioGroup="one" />
+    </Stack>
+    
+    <Label String="Do some text!" Anchor="C,B" Offset="0,60" ID="EditLabel" />
+    <Box Anchor="C,B" Color="255,255,255,200" Size="512,28" >
+        <Box Anchor="C,C" Color="0,0,0,200" Size="510,26" >
+            <EditBox Size="500,22" Anchor="C,C" ID="EditBox" CallOnChar="1" />
+        </Box>
+    </Box>
+
+    <!-- Alpha Animation with simple CheckBox example -->
+    <AlphaAnim Cycle="Bounce" Anchor="C,B" >
+        <CheckBox String="Check Box" ColorLayer0="Beige" ColorLayer1="Black" IsChecked="1" />
+    </AlphaAnim>
+
+    <ScrollPanel Anchor="L,T" Size="64,255" Vertical="1" >
+        <Stack StackGrowth="T" Size="64,600" Padding="10" >
+
+
+            
+        </Stack>
+        <UpButton   Style="Button_16"  Anchor="R,T" AnchorSide="o,i" />
+        <DownButton Style="Button_16"  Anchor="R,B" AnchorSide="o,i" />
+        <ScrollBar  Style="VertSlider" Anchor="R,C" AnchorSide="o,i" Length="223" Color="150,150,150,255" />
+    </ScrollPanel>
+
+    <ScrollPanel Anchor="L,B" Size="255,64" Vertical="0" >
+
+
+        
+        
+        <UpButton   Style="Button_16" Anchor="L,T" AnchorSide="i,o" />
+        <DownButton Style="Button_16" Anchor="R,T" AnchorSide="i,o" />
+        <ScrollBar  Style="ScrollBar" Anchor="C,T" AnchorSide="i,o" Length="223" Color="150,150,150,255" />
+    </ScrollPanel>
+
+    <Box Anchor="R,T" Color="200,200,200,100" Size="256,256" Offset="50,50" >
+
+        <Image Anchor="C,C" Size="32.32" Texture="Assets/UI/Art/Icons/32x32_Apple.dds" ID="Apple" Sampler="Linear" />
+
+        <Container Size="128,128" Anchor="C,C" >
+            <Bar Anchor="C,T" Direction="R" Size="100,3" BGColor="0,0,0,255" FGColor="0,255,0,255" ID="Bar1"/>
+            <Bar Anchor="C,B" Direction="L" Size="100,3" BGColor="0,0,0,255" FGColor="0,255,0,255" ID="Bar2"/>
+            <Bar Anchor="L,C" Direction="U" Size="3,100" BGColor="0,0,0,255" FGColor="0,255,0,255" ID="Bar3"/>
+            <Bar Anchor="R,C" Direction="D" Size="3,100" BGColor="0,0,0,255" FGColor="0,255,0,255" ID="Bar4"/>
+        </Container>
+
+        <Image Anchor="L,B" AnchorSide="i,i" Size="32.32" Texture="Assets/UI/Art/Icons/32x32_Science.dds" Sampler="D" ID="S1" />
+        <Image Anchor="L,B" AnchorSide="o,o" Size="32.32" Texture="Assets/UI/Art/Icons/32x32_Science.dds" Sampler="D" ID="S2" />
+
+        <Image Anchor="R,B" AnchorSide="i,i" Size="32.32" Texture="Assets/UI/Art/Icons/32x32_Science.dds" Sampler="D" ID="S3" />
+        <Image Anchor="R,B" AnchorSide="o,o" Size="32.32" Texture="Assets/UI/Art/Icons/32x32_Science.dds" Sampler="D" ID="S4" />
+
+        <Image Anchor="R,T" AnchorSide="i,i" Size="32.32" Texture="Assets/UI/Art/Icons/32x32_Science.dds" Sampler="D" ID="S5" />
+        <Image Anchor="R,T" AnchorSide="o,o" Size="32.32" Texture="Assets/UI/Art/Icons/32x32_Science.dds" Sampler="D" ID="S6" />
+
+        <Image Anchor="L,T" AnchorSide="i,i" Size="32.32" Texture="Assets/UI/Art/Icons/32x32_Science.dds" Sampler="D" ID="S7" >
+            <Image Anchor="R,C" AnchorSide="o,o" Size="32.32" Texture="Assets/UI/Art/Icons/Cog32.dds" Sampler="D" />
+        </Image>
+        <Image Anchor="L,T" AnchorSide="o,o" Size="32.32" Texture="Assets/UI/Art/Icons/32x32_Science.dds" Sampler="D" ID="S8" >
+            <Image Anchor="L,C" AnchorSide="o,o" Size="32.32" Texture="Assets/UI/Art/Icons/Cog32.dds" Sampler="D" />
+        </Image>
+    </Box>
+
+    <GridButton String="GridButton" Size="300,80" Offset="130,30" StateOffsetIncrement="0,10" >
+        <GridData Style="GridBlue" />
+    </GridButton>
+
+
+    <Container Anchor="R,T" Size="256,256" Offset="50,400" >
+        <Button Anchor="C,T" Offset="0,0" String="Default Style" />
+        <Button Anchor="C,T" Offset="0,35" String="font override" Font="TwCenMT14" />
+        <Button Anchor="C,T" Offset="0,70" String="style override" FontStyle="" />
+        <Button Anchor="C,T" Offset="0,105" String="color override" Color0="Green,128" />
+        <Button Anchor="C,T" Offset="0,140" String="offset override" TextOffset="40,0" />
+    </Container>
+
+    <Label String="Big Slider: 0" Anchor="C,B" Offset="0,-80" ID="BigSliderValue" />
+    <Slider Length="1000" Offset="0,-50" Anchor="C,B" Style="TestSlider" ID="BigSlider" WheelSteps="30" Gutter="25" Value="0.5" />
+
+    <Label String="Small Slider: 0" Anchor="C,B" Offset="0,-120" ID="SmallSliderValue" />
+    <Slider Length="128" Anchor="C,B" Offset="0,-100" Style="TestSlider" ID="SmallSlider" >
+        <Shuttle Style="Grid3Shuttle" Size="16,16" />
+    </Slider>
+
+
+
+        <ShowOnMouseOver>
+
+            <Image Anchor="L,C" AnchorSide="I,O" TextureOffset="64,64" Size="448,64" Texture="assets/UI/Art/UnitPanel/UnitActionButtons.dds" >
+
+                <ScrollAnim Size="448,64" Speed="0.25" Texture="assets/UI/Art/UnitPanel/UnitActionButtonShine.dds" MaskTexture="assets/UI/Art/UnitPanel/UnitActionButtonMask.dds" />
+
+                <Label   Anchor="R,T"  Offset="30,10" ColorSet="Beige_Black" Font="TwCenMT18" FontStyle="Shadow" String="(M)" />
+                <Label   Offset="64,10" Font="TwCenMT18" FontStyle="Shadow" String="Button Name"  />
+                <Label   Offset="64,28" Font="TwCenMT14" String="Brief description of this Unit Action..." LeadingOffset="-5" WrapWidth="360" />
+            </Image>
+
+
+            <Label Anchor="L,B" AnchorSide="i,o" String="Count!" ID="count" />
+
+
+        </ShowOnMouseOver>
+
+
+
+</Context>

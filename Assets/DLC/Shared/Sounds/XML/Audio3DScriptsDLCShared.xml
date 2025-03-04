@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Michael Curran (Firaxis Games) -->
+<!-- MASTER 3d scripts file -->
+<!--NOTE: All distances are in TILES now.  Previously these were in arbitrary "units" (One tile = 1024 "units")-->
+<!-- <!DOCTYPE Script3DFile SYSTEM ".\Schema\Audio3DScriptsSchema.xml"> -->
+<Script3DFile>
+  <Script3DSounds>
+    <!--Misc-->
+    <Script3DSound>
+      <ScriptID>AS3D_RESOURCE_WATERFALL</ScriptID>
+      <SoundID>SND_RESOURCE_WATERFALL</SoundID>
+      <SoundType>GAME_SFX</SoundType>
+      <fMinDistance>0.35</fMinDistance>
+      <iMaxVolume>75</iMaxVolume>
+      <iMinVolume>75</iMinVolume>
+      <iPitchChangeDown>0</iPitchChangeDown>
+      <iPitchChangeUp>0</iPitchChangeUp>
+      <iDontPlayMoreThan>-1</iDontPlayMoreThan>
+      <bLooping>False</bLooping>
+    </Script3DSound>
+  </Script3DSounds>
+</Script3DFile>

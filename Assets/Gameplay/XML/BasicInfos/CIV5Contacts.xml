@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- Table definition -->
+    <Table name="Contacts">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" notnull="true" unique="true" />
+    </Table>
+
+    <!-- Table data -->
+    <Contacts>
+		<Row>
+			<ID>0</ID>
+			<Type>CONTACT_POLICY_PRESSURE</Type>
+        </Row>
+        <Row>
+            <Type>CONTACT_JOIN_WAR</Type>
+        </Row>
+        <Row>
+            <Type>CONTACT_STOP_TRADING</Type>
+        </Row>
+        <Row>
+            <Type>CONTACT_GIVE_HELP</Type>
+        </Row>
+        <Row>
+            <Type>CONTACT_ASK_FOR_HELP</Type>
+        </Row>
+        <Row>
+            <Type>CONTACT_DEMAND_TRIBUTE</Type>
+        </Row>
+        <Row>
+            <Type>CONTACT_OPEN_BORDERS</Type>
+        </Row>
+        <Row>
+            <Type>CONTACT_DEFENSIVE_PACT</Type>
+        </Row>
+        <Row>
+            <Type>CONTACT_PERMANENT_ALLIANCE</Type>
+        </Row>
+        <Row>
+            <Type>CONTACT_PEACE_TREATY</Type>
+        </Row>
+        <Row>
+            <Type>CONTACT_TRADE_TECH</Type>
+        </Row>
+        <Row>
+            <Type>CONTACT_TRADE_RESOURCE</Type>
+        </Row>
+        <Row>
+            <Type>CONTACT_TRADE_MAP</Type>
+        </Row>
+    </Contacts>
+</GameData>

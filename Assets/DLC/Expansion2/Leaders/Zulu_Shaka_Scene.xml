@@ -1,0 +1,17 @@
+<LeaderScene FarClip="100000" lights ="Shaka_Lights.gr2" camera="Zulu_Shaka_Camera.fxsxml" cubemap_prefix ="Shaka" FallbackImage="Shaka.dds" >
+
+ 
+<HackLightSettings intensity=".4" direction=".7,1,0" color="255,255,255"/>
+
+ 
+<DOFSettings max_width="3" blur_distance="8000" ramp_distance="665" ></DOFSettings> 
+
+
+<LeaderObject  model="Zulu_Shaka.fxsxml"> </LeaderObject>
+<BackgroundObject  model="Shaka_Scene.fxsxml" ></BackgroundObject>
+<BackgroundObject  model="Shaka_Scene_VFX.fxsxml" ></BackgroundObject>
+
+</LeaderScene>
+
+
+

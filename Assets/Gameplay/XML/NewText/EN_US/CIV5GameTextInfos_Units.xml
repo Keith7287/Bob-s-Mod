@@ -1,0 +1,1386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<!-- Sid Meier's Civilization V -->
+<!-- Copyright Firaxis Games 2010 -->
+<!-- -->
+<!-- Game Text Objects -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_SPECIALUNIT_FIGHTER">
+			<Text>Fighters</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALUNIT_MISSILE">
+			<Text>Missiles</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_SPECIALUNIT_PEOPLE">
+			<Text>Scouts, Explorers, Missionaries, Spies, Great People</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_B17">
+			<Text>B-17 Bomber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_MINUTEMAN">
+			<Text>Minuteman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ANTI_AIRCRAFT_GUN">
+			<Text>Anti-Aircraft Gun</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ARABIAN_CAMELARCHER">
+			<Text>Camel Archer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ARCHER">
+			<Text>Archer</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ARTILLERY">
+			<Text>Artillery</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AT_GUN">
+			<Text>Anti-Tank Gun</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ATOMIC_BOMB">
+			<Text>Atomic Bomb</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_AZTEC_JAGUAR">
+			<Text>Jaguar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BATTLESHIP">
+			<Text>Battleship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BOMBER">
+			<Text>Bomber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CANNON">
+			<Text>Cannon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARAVEL">
+			<Text>Caravel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CARRIER">
+			<Text>Carrier</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CATAPULT">
+			<Text>Catapult</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CAVALRY">
+			<Text>Cavalry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CHARIOT_ARCHER">
+			<Text>Chariot Archer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CHINESE_CHUKONU">
+			<Text>Chu-Ko-Nu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_CROSSBOWMAN">
+			<Text>Crossbowman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_DESTROYER">
+			<Text>Destroyer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_EGYPT_WARCHARIOT">
+			<Text>War Chariot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ENGLISH_LONGBOWMAN">
+			<Text>Longbowman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ENGLISH_SHIPOFTHELINE">
+			<Text>Ship of the Line</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FIGHTER">
+			<Text>Fighter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FRENCH_FOREIGNLEGION">
+			<Text>Foreign Legion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FRENCH_MUSKETEER">
+			<Text>Musketeer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_FRIGATE">
+			<Text>Frigate</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GALLEY">
+			<Text>Galley</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GERMAN_LANDSKNECHT">
+			<Text>Landsknecht</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GERMAN_PANZER">
+			<Text>Panzer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_ARTIST">
+			<Text>Great Artist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_ENGINEER">
+			<Text>Great Engineer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_GENERAL">
+			<Text>Great General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_MERCHANT">
+			<Text>Great Merchant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREAT_SCIENTIST">
+			<Text>Great Scientist</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREEK_COMPANIONCAVALRY">
+			<Text>Companion Cavalry</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GREEK_HOPLITE">
+			<Text>Hoplite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_GUIDED_MISSILE">
+			<Text>Guided Missile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELICOPTER_GUNSHIP">
+			<Text>Helicopter Gunship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HORSEMAN">
+			<Text>Horseman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INDIAN_WARELEPHANT">
+			<Text>War Elephant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_INFANTRY">
+			<Text>Infantry</Text>
+			<Gender>neuter:an</Gender>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_IRONCLAD">
+			<Text>Ironclad</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR">
+			<Text>Mohawk Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JAPANESE_SAMURAI">
+			<Text>Samurai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JAPANESE_ZERO">
+			<Text>Zero</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JET_FIGHTER">
+			<Text>Jet Fighter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_KNIGHT">
+			<Text>Knight</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LANCER">
+			<Text>Lancer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_LONGSWORDSMAN">
+			<Text>Longswordsman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MECH">
+			<Text>Giant Death Robot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MECHANIZED_INFANTRY">
+			<Text>Mechanized Infantry</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MISSILE_CRUISER">
+			<Text>Missile Cruiser</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MOBILE_SAM">
+			<Text>Mobile SAM</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MODERN_ARMOR">
+			<Text>Modern Armor</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_MUSKETMAN">
+			<Text>Musketman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NUCLEAR_MISSILE">
+			<Text>Nuclear Missile</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_NUCLEAR_SUBMARINE">
+			<Text>Nuclear Submarine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_OTTOMAN_JANISSARY">
+			<Text>Janissary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_OTTOMAN_SIPAHI">
+			<Text>Sipahi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PARATROOPER">
+			<Text>Paratrooper</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PERSIAN_IMMORTAL">
+			<Text>Immortal</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PIKEMAN">
+			<Text>Pikeman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_RIFLEMAN">
+			<Text>Rifleman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROCKET_ARTILLERY">
+			<Text>Rocket Artillery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROMAN_BALLISTA">
+			<Text>Ballista</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_ROMAN_LEGION">
+			<Text>Legion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_RUSSIAN_COSSACK">
+			<Text>Cossack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SCOUT">
+			<Text>Scout</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SETTLER">
+			<Text>Settler</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SIAMESE_WARELEPHANT">
+			<Text>Naresuan's Elephant</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SONGHAI_MUSLIMCAVALRY">
+			<Text>Mandekalu Cavalry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SPEARMAN">
+			<Text>Spearman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_STEALTH_BOMBER">
+			<Text>Stealth Bomber</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SUBMARINE">
+			<Text>Submarine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_SWORDSMAN">
+			<Text>Swordsman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TANK">
+			<Text>Tank</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TREBUCHET">
+			<Text>Trebuchet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_TRIREME">
+			<Text>Trireme</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WARRIOR">
+			<Text>Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_BRUTE">
+			<Text>Brute</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WORK_BOAT">
+			<Text>Work Boat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_WORKER">
+			<Text>Worker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_FIGHTER">
+			<Text>Fighter Units</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_BOMBER">
+			<Text>Bomber Units</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_ARMOR">
+			<Text>Armored Units</Text>
+			<Gender>neuter:an</Gender>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_MOUNTED">
+			<Text>Mounted Units</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_NAVAL">
+			<Text>Naval Units</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_UNITCOMBAT_SIEGE">
+			<Text>Siege Weapons</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<!-- Promotions -->
+		<Row Tag="TXT_KEY_PROMOTION_EMBARKATION">
+			<Text>Embarkation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EMBARKATION_HELP">
+			<Text>Can embark onto [COLOR_POSITIVE_TEXT]Water Tiles[ENDCOLOR]. Embarked units destroyed if tile entered by enemy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_EMBARKATION">
+			<Text>Embarkation with Defense</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_EMBARKATION_HELP">
+			<Text>Can embark onto [COLOR_POSITIVE_TEXT]Water Tiles[ENDCOLOR]. Embarked units can defend.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ALLWATER_EMBARKATION">
+			<Text>Embarkation with Ocean Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ALLWATER_EMBARKATION_HELP">
+			<Text>Can embark onto [COLOR_POSITIVE_TEXT]Water Tiles[ENDCOLOR]. Embarked units can enter Ocean and have +1 Sight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_INSTANTLY">
+			<Text>Heal Instantly</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_INSTANTLY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Heal this Unit[ENDCOLOR] completely. Doing so will [COLOR_POSITIVE_TEXT]Consume this Opportunity[ENDCOLOR] to choose a Promotion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_1">
+			<Text>Shock I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_1_HELP">
+			<Text>+20% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] Terrain. (NO Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_2">
+			<Text>Shock II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_2_HELP">
+			<Text>+20% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] Terrain. (NO Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_3">
+			<Text>Shock III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SHOCK_3_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] Terrain. (NO Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_1">
+			<Text>Drill I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_1_HELP">
+			<Text>+20% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain. (Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_2">
+			<Text>Drill II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_2_HELP">
+			<Text>+20% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain. (Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_3">
+			<Text>Drill III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DRILL_3_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain. (Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_1">
+			<Text>Accuracy I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_1_HELP">
+			<Text>+20% [ICON_RANGE_STRENGTH] Ranged Combat Strength against Units in [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] Terrain. (NO Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_2">
+			<Text>Accuracy II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_2_HELP">
+			<Text>+20% [ICON_RANGE_STRENGTH] Ranged Combat Strength against Units in [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] Terrain. (NO Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_3">
+			<Text>Accuracy III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ACCURACY_3_HELP">
+			<Text>+25% [ICON_RANGE_STRENGTH] Ranged Combat Strength against Units in [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] Terrain. (NO Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_1">
+			<Text>Barrage I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_1_HELP">
+			<Text>+25% [ICON_RANGE_STRENGTH] Ranged Combat Strength against Units in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain. (Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_2">
+			<Text>Barrage II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_2_HELP">
+			<Text>+25% [ICON_RANGE_STRENGTH] Ranged Combat Strength against Units in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain. (Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_3">
+			<Text>Barrage III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BARRAGE_3_HELP">
+			<Text>+25% [ICON_RANGE_STRENGTH] Ranged Combat Strength against Units in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain. (Hills, Forest or Jungle).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_1">
+			<Text>Targeting I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_1_HELP">
+			<Text>+20% [ICON_STRENGTH] Combat Strength against [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_2">
+			<Text>Targeting II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_2_HELP">
+			<Text>+20% [ICON_STRENGTH] Combat Strength against [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_3">
+			<Text>Targeting III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TARGETING_3_HELP">
+			<Text>+20% [ICON_STRENGTH] Combat Strength against [COLOR_POSITIVE_TEXT]Naval Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE">
+			<Text>Siege</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIEGE_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENTRY">
+			<Text>Sentry</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SENTRY_HELP">
+			<Text>+1 Visibility Range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MEDIC">
+			<Text>Medic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MEDIC_HELP">
+			<Text>All units in adjacent tiles [COLOR_POSITIVE_TEXT]Heal 1 Additional HP[ENDCOLOR] per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMPHIBIOUS">
+			<Text>Amphibious</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMPHIBIOUS_HELP">
+			<Text>Eliminates combat penalty for attacking from the sea or over a river.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CHARGE">
+			<Text>Charge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CHARGE_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Wounded Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VOLLEY">
+			<Text>Volley</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_VOLLEY_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Fortified Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COVER_1">
+			<Text>Cover I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COVER_1_HELP">
+			<Text>+25% [COLOR_POSITIVE_TEXT]Defense[ENDCOLOR] against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COVER_2">
+			<Text>Cover II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_COVER_2_HELP">
+			<Text>+25% [COLOR_POSITIVE_TEXT]Defense[ENDCOLOR] against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORMATION_1">
+			<Text>Formation I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORMATION_1_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Mounted[ENDCOLOR] units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORMATION_2">
+			<Text>Formation II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FORMATION_2_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Mounted[ENDCOLOR] units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMBUSH_1">
+			<Text>Ambush I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMBUSH_1_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Armor[ENDCOLOR] units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMBUSH_2">
+			<Text>Ambush II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMBUSH_2_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Armor[ENDCOLOR] units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MARCH">
+			<Text>March</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MARCH_HELP">
+			<Text>Unit will [COLOR_POSITIVE_TEXT]Heal Every Turn[ENDCOLOR], even if it performs an action.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BLITZ">
+			<Text>Blitz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BLITZ_HELP">
+			<Text>Unit may [COLOR_POSITIVE_TEXT]Attack Multiple Times[ENDCOLOR] per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODSMAN">
+			<Text>Woodsman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOODSMAN_HELP">
+			<Text>Double movement rate [COLOR_POSITIVE_TEXT]Through Forest and Jungle[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LOGISTICS">
+			<Text>Logistics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LOGISTICS_HELP">
+			<Text>1 additional attack per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RANGE">
+			<Text>Range</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RANGE_HELP">
+			<Text>+1 Range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INDIRECT_FIRE">
+			<Text>Indirect Fire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INDIRECT_FIRE_HELP">
+			<Text>Ranged attacks may be performed over obstacles (as long as other friendly units can see the target).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOBILITY">
+			<Text>Mobility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOBILITY_HELP">
+			<Text>+1 Movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUPPLY">
+			<Text>Supply</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SUPPLY_HELP">
+			<Text>May heal damage [COLOR_POSITIVE_TEXT]Outside of Friendly Territory[ENDCOLOR]. 2 HP healed per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_1">
+			<Text>Interception I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_1_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength when intercepting enemy aircraft.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_2">
+			<Text>Interception II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_2_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength when intercepting enemy aircraft.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_3">
+			<Text>Interception III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_3_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength when [COLOR_POSITIVE_TEXT]Intercepting[ENDCOLOR] enemy aircraft.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_1">
+			<Text>Dogfighting I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_1_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength when performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_2">
+			<Text>Dogfighting II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_2_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength when performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_3">
+			<Text>Dogfighting III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_3_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength when performing an [COLOR_POSITIVE_TEXT]Air Sweep[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_1">
+			<Text>Siege I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_1_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_2">
+			<Text>Siege II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_2_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_3">
+			<Text>Siege III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_3_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Cities[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_1">
+			<Text>Bombardment I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_1_HELP">
+			<Text>+20% [ICON_STRENGTH] Combat Strength against [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_2">
+			<Text>Bombardment II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_2_HELP">
+			<Text>+20% [ICON_STRENGTH] Combat Strength against [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_3">
+			<Text>Bombardment III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_3_HELP">
+			<Text>+20% [ICON_STRENGTH] Combat Strength against [COLOR_POSITIVE_TEXT]Land Units[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_RANGE">
+			<Text>Range</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_RANGE_HELP">
+			<Text>+2 operational range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SORTIE">
+			<Text>Sortie</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SORTIE_HELP">
+			<Text>1 extra [COLOR_POSITIVE_TEXT]Interception[ENDCOLOR] may be made per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_REPAIR">
+			<Text>Repair</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_REPAIR">
+			<Text>Air Repair.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVASION">
+			<Text>Evasion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVASION_HELP">
+			<Text>Reduces damage taken from interception by 50%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUTING_1">
+			<Text>Scouting I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUTING_1_HELP">
+			<Text>+1 Visibility Range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUTING_2">
+			<Text>Scouting II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUTING_2_HELP">
+			<Text>+1 Movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUTING_3">
+			<Text>Scouting III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SCOUTING_3_HELP">
+			<Text>+1 Visibility Range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_1">
+			<Text>Survivalism I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_1_HELP">
+			<Text>+1 HP healed per turn outside of friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_2">
+			<Text>Survivalism II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_2_HELP">
+			<Text>+50% Defense.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_3">
+			<Text>Survivalism III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_3_HELP">
+			<Text>+50% Defense. Unit will [COLOR_POSITIVE_TEXT]Heal Every Turn[ENDCOLOR], even if it performs an action.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOBILITY_1">
+			<Text>Mobility I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOBILITY_2">
+			<Text>Mobility II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MORALE_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MORALE">
+			<Text>Morale</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DISCIPLINE_HELP">
+			<Text>+10% [ICON_STRENGTH] Combat Strength when adjacent to a friendly Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DISCIPLINE">
+			<Text>Discipline</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OLIGARCHY_HELP">
+			<Text>+33% [ICON_STRENGTH] Combat Strength in friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OLIGARCHY">
+			<Text>Oligarchy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HIMEJI_CASTLE_HELP">
+			<Text>+15% [ICON_STRENGTH] Combat Strength in friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HIMEJI_CASTLE">
+			<Text>Himeji Castle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_TRADITION_HELP">
+			<Text>+1 [ICON_MOVES] Movement and +1 Sight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_TRADITION">
+			<Text>Naval Tradition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GREAT_LIGHTHOUSE_HELP">
+			<Text>+1 [ICON_MOVES] Movement and +1 Sight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GREAT_LIGHTHOUSE">
+			<Text>Great Lighthouse</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NATIONALISM_HELP">
+			<Text>+25% attack bonus in friendly territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NATIONALISM">
+			<Text>Nationalism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_I_HELP">
+			<Text>1 Extra Movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_MOVES_I">
+			<Text>1 Extra Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_I_HELP">
+			<Text>1 Extra Sight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_I">
+			<Text>Extra Sight (1)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_II_HELP">
+			<Text>2 Extra Sight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_III_HELP">
+			<Text>3 Extra Sight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_II">
+			<Text>Extra Sight (2)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_III">
+			<Text>Extra Sight (3)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_IV">
+			<Text>Extra Sight (4)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_XTRA_SIGHT_IV_HELP">
+			<Text>4 Extra Sight.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIGHT_PENALTY">
+			<Text>Limited Visibility</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SIGHT_PENALTY_HELP">
+			<Text>-1 Visibility Range.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_RECON">
+			<Text>Air Recon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_RECON_HELP">
+			<Text>6 tiles in every direction always visible.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_MOUNTED_I">
+			<Text>Bonus vs Mounted (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_MOUNTED_I_HELP">
+			<Text>50% Bonus vs Mounted.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_MOUNTED_II">
+			<Text>Bonus vs Mounted (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_MOUNTED_II_HELP">
+			<Text>100% Bonus vs Mounted.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_SIEGE">
+			<Text>Bonus vs Cities (20)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_SIEGE_HELP">
+			<Text>20% Bonus vs Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_ASSUALT">
+			<Text>Bonus vs Cities (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_ASSUALT_HELP">
+			<Text>50% Bonus vs Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DEFENSE_PENALTY">
+			<Text>Penalty on Defense</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOUNTED_PENALTY">
+			<Text>Penalty vs Mounted</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_PENALTY">
+			<Text>Penalty Attacking Cities (33)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_PENALTY_HELP">
+			<Text>33% Penalty Attacking Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SMALL_PROMOTION_CITY_PENALTY">
+			<Text>Penalty Attacking Cities (25)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SMALL_PROMOTION_CITY_PENALTY_HELP">
+			<Text>25% Penalty Attacking Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_I">
+			<Text>Interception (20)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_II">
+			<Text>Interception (40)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_III">
+			<Text>Interception (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_IV">
+			<Text>Interception (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SWEEP">
+			<Text>Air Sweep</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_SWEEP_HELP">
+			<Text>Can Air Sweep to clear intercepting Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WEAK_RANGED">
+			<Text>Weak Ranged Attack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WEAK_RANGED_HELP">
+			<Text>-50% strength when using Ranged Attacks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_AIR">
+			<Text>Bonus vs Aircraft (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_HELICOPTER">
+			<Text>Bonus vs Helicopters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_FIGHTER">
+			<Text>Bonus vs Fighters</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_SUBMARINE_I">
+			<Text>Bonus vs Submarines (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_SUBMARINE_II">
+			<Text>Bonus vs Submarines (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_TANK">
+			<Text>Bonus vs Tanks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVASION_I">
+			<Text>Evasion (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVASION_II">
+			<Text>Evasion (100)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_PENALTY">
+			<Text>Penalty vs Naval</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RIVAL_TERRITORY">
+			<Text>Can Enter Rival Territory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARGO_I">
+			<Text>Can Carry 1 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARGO_II">
+			<Text>Can Carry 2 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARGO_III">
+			<Text>Can Carry 3 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CARGO_IV">
+			<Text>Can Carry 4 Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOLIAGE_IMPASSABLE">
+			<Text>Cannot Enter Forest or Jungle</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ROUGH_TERRAIN_ENDS">
+			<Text>Rough Terrain Penalty</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ROUGH_TERRAIN_ENDS_HELP">
+			<Text>Entering rough terrain consumes all movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO">
+			<Text>Astronomy Needed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_IMPASSABLE_ASTRO_HELP">
+			<Text>Cannot Enter Deep Ocean Until Astronomy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_IMPASSABLE">
+			<Text>Cannot Enter Deep Ocean</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INVISIBLE_SUBMARINE">
+			<Text>Is Invisible (Submarine)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SEE_INVISIBLE_SUBMARINE">
+			<Text>Can See Submarines</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_IGNORE_TERRAIN_COST">
+			<Text>Ignores Terrain Cost</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HOVERING_UNIT">
+			<Text>Hovering Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HOVERING_UNIT_HELP">
+			<Text>Unit may pass over Mountains.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FLAT_MOVEMENT_COST">
+			<Text>All Tiles Cost 1 Move</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CAN_MOVE_IMPASSABLE">
+			<Text>May Enter Ice Tiles</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NO_CAPTURE">
+			<Text>Unable to Capture Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ONLY_DEFENSIVE">
+			<Text>May Not Melee Attack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NO_DEFENSIVE_BONUSES">
+			<Text>No Defensive Terrain Bonuses</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PARADROP">
+			<Text>May Paradrop</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MUST_SET_UP">
+			<Text>Must Set Up to Ranged Attack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RANGED_SUPPORT_FIRE">
+			<Text>Ranged Support Fire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RANGED_SUPPORT_FIRE_HELP">
+			<Text>Provides Support Fire to Friendly Units When Fortified.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CAN_MOVE_AFTER_ATTACKING">
+			<Text>Can Move After Attacking</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OPEN_TERRAIN">
+			<Text>Combat Bonus in Open Terrain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SECOND_ATTACK">
+			<Text>May Attack Twice</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_MOVEMENT">
+			<Text>Naval Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_MOVEMENT_HELP">
+			<Text>2 Extra Movement for Naval Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GREAT_GENERAL">
+			<Text>Leadership</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GREAT_GENERAL_HELP">
+			<Text>Improves combat effectiveness of nearby Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_I">
+			<Text>Great Generals I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_II">
+			<Text>Great Generals II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_I_HELP">
+			<Text>Combat Likely To Create Great Generals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SPAWN_GENERALS_II_HELP">
+			<Text>Combat Very Likely To Create Great Generals.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FREE_PILLAGE_MOVES">
+			<Text>No Movement Cost to Pillage</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY">
+			<Text>Heal if Destroy an Enemy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY_HELP">
+			<Text>Heals All Damage If Kills Non-Barbarian Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY">
+			<Text>Heals 2 Damage If Kills a Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ATTACK_BONUS">
+			<Text>Combat Bonus When Attacking (25)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOHAWK">
+			<Text>Combat Bonus in Forest/Jungle (25)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JAGUAR">
+			<Text>Combat Bonus in Jungle only (50)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOREIGN_LANDS">
+			<Text>Foreign Lands Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FOREIGN_LANDS_HELP">
+			<Text>Combat Bonus outside Friendly Territory (20).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STRONGER_VS_DAMAGED">
+			<Text>Damaged Enemy Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_STRONGER_VS_DAMAGED_HELP">
+			<Text>Combat Bonus against Damaged Enemy Units (33).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FASTER_HEAL">
+			<Text>Heals at Double Rate</Text>
+		</Row>
+		<!-- Unit Help and Rollover Text-->
+		<Row Tag="TXT_KEY_UNIT_HELP_WORKER">
+			<Text>Improves [ICON_FOOD] Food [ICON_PRODUCTION] Production and [ICON_GOLD] Gold by constructing Improvements on map tiles outside of Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SETTLER">
+			<Text>Founds new Cities to expand your empire.[NEWLINE][NEWLINE][ICON_FOOD] Growth of the City is stopped while this Unit is being built.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_WORKBOAT">
+			<Text>Creates Improvements on water resources like [ICON_RES_FISH] Fish. The Work Boat is consumed in the process. It is defenseless, and will be killed if it comes into contact with an enemy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SS_PART">
+			<Text>One of the Spaceship parts that must be built and sent to the capital to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SS_BOOSTER">
+			<Text>One of the Spaceship parts that must be built and sent to the capital to win a [COLOR_POSITIVE_TEXT]Science Victory[ENDCOLOR]. Unlike other parts, three SS Boosters are needed to complete the spaceship.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MISSILE_CRUISER">
+			<Text>Naval Unit specialized in warding off enemy aircraft. Can also hold 3 Missiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_NUCLEAR_SUBMARINE">
+			<Text>Invisible to all Units except Destroyers and other Submarines, or until it attacks or is adjacent to another unit. Can carry 2 Missiles, and is specialized in hunting other Submarines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CARRIER">
+			<Text>Carries up to 3 Aircraft.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_BATTLESHIP">
+			<Text>Most powerful direct-combat naval Unit in the game.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SUBMARINE">
+			<Text>Invisible to all Units except Destroyers and other Submarines, or until it attacks or is adjacent to another unit. Can cause major damage to other ships if they get into range without being seen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_DESTROYER">
+			<Text>Fast late game ship making it highly effective at recon. Also used to hunt down and destroy enemy Submarines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_IRONCLAD">
+			<Text>More powerful than Frigates, these Units pay for their strength by being slower and unable to enter ocean tiles.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FRIGATE">
+			<Text>Powerful Renaissance Era naval Unit used to wrest control of the seas.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SHIPOFTHELINE">
+			<Text>Powerful Renaissance Era Naval Unit used to wrest control of the seas. Only the English may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CARAVEL">
+			<Text>Fast Renaissance exploration Unit with a large sight radius.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TRIREME">
+			<Text>Ancient Era Naval Unit used to wrest control of the seas.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MECH">
+			<Text>Doesn't benefit from any defensive terrain bonuses, but is otherwise stronger than any other military unit in the game.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_NUCLEAR_MISSILE">
+			<Text>Unleash nuclear destruction upon your foes. Does great damage to Cities and damages any Unit caught in the blast radius.[NEWLINE][NEWLINE]Requires Manhattan Project and two Uranium resources.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_STEALTH_BOMBER">
+			<Text>A long-range Air Unit that rains death from above onto enemy Units and Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JET_FIGHTER">
+			<Text>Air Unit designed to wrest control of the skies and intercept incoming enemy aircraft.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_GUIDED_MISSILE">
+			<Text>A cheap Unit that may be used once to damage enemy Units or Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MODERN_ARMOR">
+			<Text>Fast and powerful late-game Unit. Receives a penalty when attacking Cities and on defense, but is incredibly effective in open ground.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP">
+			<Text>Unit specialized in fighting Modern Armor and Tanks. It is capable of hovering over mountains.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MOBILE_SAM">
+			<Text>Will intercept enemy aircraft which try to bomb nearby Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ROCKET_ARTILLERY">
+			<Text>Fast Siege Unit of the late-game. Unlike other Siege Units, it does not need to set up prior to firing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MECHANIZED_INFANTRY">
+			<Text>Fast, basic Unit of the late-game that requires no special resources to build.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ATOMIC_BOMB">
+			<Text>Unleash nuclear destruction upon your foes. Does great damage to Cities and damages any Unit caught in the blast radius. May be stationed on Aircraft Carriers.[NEWLINE][NEWLINE]Requires Manhattan Project and a Uranium resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_BOMBER">
+			<Text>Air Unit that rains death from above onto enemy Units and Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_B17">
+			<Text>Air Unit that rains death from above onto enemy Units and Cities. Only the Americans may build it. This Unit has a chance of evading interception, and does additional damage to Cities compared to the Bomber, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FIGHTER">
+			<Text>Air Unit designed to wrest control of the skies and intercept incoming enemy aircraft.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ZERO">
+			<Text>Air Unit designed to wrest control of the skies and intercept incoming enemy aircraft. Only the Japanese may build it. This Unit has a bonus against other Fighters, unlike the Fighter which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PARATROOPER">
+			<Text>Strong infantry Unit capable of paradropping up to 5 tiles from friendly territory. Paratrooper can also move and pillage after paradropping, but cannot enter combat until the following turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TANK">
+			<Text>Fast and powerful Industrial Era Unit. Receives a penalty when attacking Cities and on defense, but is incredibly effective in open ground.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PANZER">
+			<Text>Fast and powerful Industrial Era Unit. Receives a penalty when attacking Cities and on defense, but is incredibly effective in open ground.[NEWLINE][NEWLINE]Only the Germans may build it. This Unit has 1 additional movement compared to the Tank, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ARTILLERY">
+			<Text>The first Siege Unit in the game capable of firing 3 tiles away. Must set up prior to firing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ANTI_AIRCRAFT_GUN">
+			<Text>Will intercept enemy aircraft which try to bomb nearby Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ANTI_TANK_GUN">
+			<Text>Relatively cheap Unit specialized in fighting Tanks.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_INFANTRY">
+			<Text>Basic Infantry Unit of the Industrial Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FOREIGN_LEGION">
+			<Text>Basic Infantry Unit of the Industrial Era. Only the French may build it. This Unit has a combat bonus outside of friendly territory, unlike the Infantry which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CAVALRY">
+			<Text>Mounted Unit of the Renaissance Era, capable of fighting toe-to-toe with contemporary infantry units. Weak against other Mounted Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_COSSACK">
+			<Text>Mounted Unit of the Renaissance Era, capable of fighting toe-to-toe with contemporary infantry units. Weak against other Mounted Units.[NEWLINE][NEWLINE]Only the Russians may build it. This Unit has a combat bonus when fighting enemies that have already taken damage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_RIFLEMAN">
+			<Text>Strong, front-line land Unit of the mid-game.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_LANCER">
+			<Text>Mounted Unit designed to be on the attack, and receives a combat penalty when on defense. Good for hunting down enemy Mounted Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SIPAHI">
+			<Text>Mounted Unit designed to be on the attack, and receives a combat penalty when on defense. Good for hunting down enemy Mounted Units. May only be built by the Ottomans. This Unit is faster and can see further than the Lancer, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CANNON">
+			<Text>Powerful Renaissance Era Siege Unit. Must set up prior to firing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MUSKETMAN">
+			<Text>First gunpowder Unit of the game. Fairly cheap and powerful.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MINUTEMAN">
+			<Text>One of the first gunpowder units of the game. Only the Americans may build it. This Unit may move through rough ground as though it were flat, unlike the Musketman which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MUSKETEER">
+			<Text>One of the first gunpowder units of the game. Only the French may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Musketman, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JANISSARY">
+			<Text>One of the first gunpowder units of the game. Only the Ottomans may build it. This Unit is stronger on offense and heals when it kills an enemy, unlike the Musketman which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_LONGSWORDSMAN">
+			<Text>Powerful Medieval infantry Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SAMURAI">
+			<Text>Powerful Medieval infantry Unit. Only the Japanese may build it. This Unit fights more effectively and helps produce Great Generals more quickly than the Longswordsman, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_TREBUCHET">
+			<Text>Powerful Medieval Siege Unit, good at reducing the defenses of enemy Cities. Must set up prior to firing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_KNIGHT">
+			<Text>Powerful Medieval Mounted Unit, weak to Pikemen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CAMEL_ARCHER">
+			<Text>Fast Medieval ranged Unit, weak to Pikemen. Only the Arabians may build it. It is a ranged unit, unlike the Knight which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SIAMESE_WARELEPHANT">
+			<Text>Powerful Medieval Mounted Unit, weak to Pikemen. Only the Siamese may build it. This Unit receives a bonus against other mounted Units and has a higher [ICON_STRENGTH] Combat Strength than the Knight, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MUSLIM_CAVALRY">
+			<Text>Powerful Medieval Mounted Unit, weak to Pikemen. Only the Songhai may build it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CROSSBOWMAN">
+			<Text>Medieval ranged infantry Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CHUKONU">
+			<Text>Medieval ranged infantry Unit. Only the Chinese may build it. This Unit may fire twice in one turn, unlike the Crossbowman which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_LONGBOWMAN">
+			<Text>Medieval ranged infantry Unit. Only the English may build it. This Unit has 1 additional range compared to the Crossbowman, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PIKEMAN">
+			<Text>Specialized in defeating Knights and other mounted Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_LANDSKNECHT">
+			<Text>Specialized in defeating Knights and other mounted Units. Only the Germans may build it. This Unit is much cheaper than the Pikeman, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CATAPULT">
+			<Text>First siege Unit of the game. Does major damage to Units and Cities from a distance, but must set up prior to firing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_BALLISTA">
+			<Text>Siege Unit that does major damage from a distance, but must set up prior to firing. Only the Romans may build it. This Unit has a higher [ICON_RANGE_STRENGTH] Ranged Combat Strength than the Catapult, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_HORSEMAN">
+			<Text>Fast and powerful early game Mounted Unit. Weak to Spearmen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_COMPANION_CAVALRY">
+			<Text>Fast and powerful early game Mounted Unit. Weak to Spearmen. Only the Greeks may build it. This Unit is faster, has a higher [ICON_STRENGTH] Combat Strength and helps produce Great Generals more quickly than the Horseman which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SWORDSMAN">
+			<Text>Strong, front-line land Unit of the Classical Era.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_MOHAWK_WARRIOR">
+			<Text>Strong, front-line land Unit of the Classical Era. Only the Iroquois may build it. This Unit receives a major bonus when fighting on Forest and Jungle, unlike the Swordsman which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ROMAN_LEGION">
+			<Text>Strong, front-line land Unit of the Classical Era. Only the Romans may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Swordsman, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CHARIOR_ARCHER">
+			<Text>A fast Ranged Unit highly effective on flat ground, but slowed significantly when entering rough terrain.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_EGYPTIAN_WAR_CHARIOT">
+			<Text>A fast Ranged Unit on flat ground, but slowed when entering rough terrain. Only the Egyptians may build it. This Unit does not require [ICON_RES_HORSE] Horses to be built, unlike the Chariot Archer which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_INDIAN_WAR_ELEPHANT">
+			<Text>A fast Ranged Unit highly effective on flat ground. Only the Indians may build it. This Unit has a higher [ICON_STRENGTH] Combat and Ranged Strength than the Chariot Archer, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SPEARMAN">
+			<Text>Ancient Era Unit which specializes in defeating Mounted Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_HOPLITE">
+			<Text>Ancient Era Unit which specializes in defeating Mounted Units. Only the Greeks may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Spearman which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_IMMORTAL">
+			<Text>Ancient Era Unit which specializes in defeating Mounted Units. Only the Persians may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength and heals more quickly than the Spearman, which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ARCHER">
+			<Text>Powerful Ancient Era ranged Unit that can strike foes from afar.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SCOUT">
+			<Text>Excellent at exploring, this Unit is not slowed by rough terrain, but is vulnerable to attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_WARRIOR">
+			<Text>Fairly weak early-game military Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JAGUAR">
+			<Text>Fairly weak early-game military Unit. Only the Aztecs may build it. This Unit fights more effectively in Jungle and heals damage when it kills an enemy Unit, unlike the Warrior which it replaces.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_BARBARIAN_WARRIOR">
+			<Text>The Barbarians' most basic early-game military Unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_REPAIR_HELP">
+			<Text>Air Repair</Text>
+		</Row>
+		<!-- Great General Names-->
+		<Row Tag="TXT_KEY_GREAT_PERSON_KHUSRO">
+			<Text>Khusro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AYABHATA">
+			<Text>Ayabhata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GOTTFREID_LEIBNIZ">
+			<Text>Gottfreid Leibniz</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FRIEDRICH_GAUSS">
+			<Text>Friedrich Gauss</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ERICO_DANDOLO">
+			<Text>Enrico Dandolo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_RICHARD_WHITTINGTON">
+			<Text>Richard Whittington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TODAR_MAL">
+			<Text>Todar Mal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_VAN_DIEMEN">
+			<Text>Van Diemen</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WILLIAM_MORTON">
+			<Text>William Morton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FERDINAND_DA_LESSEPS">
+			<Text>Ferdinand da Lesseps</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SARGON">
+			<Text>Sargon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SUN_TZU">
+			<Text>Sun Tzu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LEONIDAS">
+			<Text>Leonidas</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LYSANDER">
+			<Text>Lysander</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CHANDRAGUPTA_MAURYA">
+			<Text>Chandragupta Maurya</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HAMILCAR_BARCA">
+			<Text>Hamilcar Barca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GAIUS_MARIUS">
+			<Text>Gaius Marius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SCIPIO_AFRICANUS">
+			<Text>Scipio Africanus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_VERCINGETORIX">
+			<Text>Vercingetorix</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ARMINIUS">
+			<Text>Arminius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CAO_CAO">
+			<Text>Cao Cao</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ZHUGE_LIANG">
+			<Text>Zhuge Liang</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_BELISARIUS">
+			<Text>Belisarius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_KHALED_IBN_AL_WALID">
+			<Text>Khaled Ibn Al Walid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CHARLES_MARTEL">
+			<Text>Charles Martel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_EL_CID">
+			<Text>El Cid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_WILLIAM_THE_CONQUEROR">
+			<Text>William the Conqueror</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_SUBUTAI">
+			<Text>Subutai</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_TIMUR">
+			<Text>Timur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_JEANNE_DARC">
+			<Text>Jeanne D'Arc</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AUITZOTL">
+			<Text>Auitzotl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_HERNAN_CORTES">
+			<Text>Hernan Cortes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_FRANCISCO_PIZARRO">
+			<Text>Francisco Pizarro</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_IVAN_THE_TERRIBLE">
+			<Text>Ivan the Terrible</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_AKBAR">
+			<Text>Akbar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GUSTAVUS_ADOLPHUS">
+			<Text>Gustavus Adolphus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MICHEL_DE_RUYTER">
+			<Text>Michel de Ruyter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_CROMWELL">
+			<Text>Oliver Cromwell</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_EUGENE_OF_SAVOY">
+			<Text>Eugene of Savoy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_LORD_NELSON">
+			<Text>Lord Nelson</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GERONIMO">
+			<Text>Geronimo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ROBERT_LEE">
+			<Text>Robert E. Lee</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_YAMAMOTO">
+			<Text>Yamamoto</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_PATTON">
+			<Text>Patton</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_MONTGOMERY">
+			<Text>Montgomery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_GUERDIAN">
+			<Text>Guderian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ROMMEL">
+			<Text>Rommel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_PERSON_ZHUKOV">
+			<Text>Zhukov</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

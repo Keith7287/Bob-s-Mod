@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context >
+
+
+
+    <Box Anchor="C,C" Size="Full,Full" Color="0,0,0,220" />
+    <Box Anchor="C,C" Size="1024,Full" Color="0,0,0,0" >
+
+
+        <Image Anchor="C,T" Texture="FancyTrim1024.dds"  Size="1024,64" />
+
+        <Label Anchor="C,T" Offset="0,4"  Font="TwCenMT24" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="CIVILOPEDIA"  />
+
+
+        <Grid Size="1024,full" Anchor="C,T" Offset="0,82" Padding="0,0" Style="Grid9DetailThree140" >
+
+
+            <Image Anchor="C,T" Offset="0.5"  Texture="CivilopediaTopTitleDark.dds" Size="360,39" >
+                <Image Anchor="L,C" Offset="0.0" AnchorSide="I.O" Texture="CivilopediaTopTitleDivider.dds" Size="3,32" />
+                <Image Anchor="R,C" Offset="0.0" AnchorSide="I.O" Texture="CivilopediaTopTitleDivider.dds" Size="3,32" />
+                <Label Anchor="C,C"  Offset="0,0" Font="TwCenMT20" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="Technology Section"  />
+
+                <Button   Offset="0,0" Style="ScrollBarLeft" Anchor="L,C" ToolTip="The Back Item Selected" >
+                    <ShowOnMouseOver>
+                        <AlphaAnim  Anchor="L,C" Offset="0,0" Size="48,48" TextureOffset="0.0"  Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".5" Hidden="0">
+                            <Label Anchor="L,C" AnchorSide="O.I" Offset="4,-1" Font="TwCenMT20" FontStyle="SoftShadow" Color0="Beige" Color1="0.0.0.160" String="Back"  />
+                        </AlphaAnim>
+                    </ShowOnMouseOver>
+                </Button>
+
+                <Button Offset="0,0" Style="ScrollBarRight" Anchor="R,C"  ToolTip="The Forward Item Selected" >
+                    <ShowOnMouseOver>
+                        <AlphaAnim  Anchor="R,C" Offset="0,0" Size="48,48" TextureOffset="0.0"  Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".5" Hidden="0">
+                            <Label Anchor="R,C" AnchorSide="O.I" Offset="4,-1" Font="TwCenMT20" FontStyle="SoftShadow" Color0="Beige" Color1="0.0.0.160" String="Forward"  />
+                        </AlphaAnim>
+                    </ShowOnMouseOver>
+                </Button>
+            </Image>
+
+
+
+
+            <Button Anchor="R,T" Size="32,32" Offset="26.6" TextureOffset="28,-2" Texture="assets\UI\Art\Notification\CloseMinButtons.dds"  ToolTip="Close"  ID="CloseButton" Hidden="0"/>"
+
+
+            <!-- Search -->
+
+            <GridButton Anchor="R,T" Size="100,32" Color="255,255,255,200"  Offset="38,-32" StateOffsetIncrement="0,0" Hidden="0"  >
+                <GridData Style="Grid9DarkBlue8Button" />
+                <Grid Anchor="C,C" Offset="0,0" Size="104,36" Padding="0,0" Style="Grid9Frame" />
+                <ShowOnMouseOver>
+                    <AlphaAnim  Anchor="C,C" Offset="0,0" Size="48,48" TextureOffset="0.0"  Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0">
+                        <Grid  Size="100,32" Anchor="C,C" Offset="0,0" Style="Grid9Science8" />
+                    </AlphaAnim>
+                    <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="0,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                    <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="0,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                    <Image Anchor="R,C" Offset="0,0" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                    <Image Anchor="L,C" Offset="0,0" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                </ShowOnMouseOver>
+                <Label Anchor="C,C" Offset="0,-2"  Font="TwCenMT20" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="Search"  />
+
+                <Grid Anchor="L,C" AnchorSide="O.I" Offset="8,0" Size="300,32" Padding="0,0" Style="GridBlackIndent8" Hidden="0" >
+                    <Grid Anchor="C,C" Offset="0,0" Size="304,36" Padding="0,0" Style="Grid9Frame" Hidden="0" >
+                        <Label Anchor="L,C" Offset="8,-2" Anchorside="I.O" WrapWidth="600" LeadingOffset="0"  Font="TwCenMT20" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="..."  />
+                    </Grid>
+                </Grid>
+
+            </GridButton>
+
+
+
+
+
+
+
+            <!-- Top Buttons -->
+            <Stack Anchor="L,T" Offset="38,-35" Size="64,64" StackGrowth="Right" Padding="1" >
+
+                <Button Anchor="C,T" Size="49,50" Offset="0,-10" Texture="CivilopediaTopButtonsHome.dds" ToolTip="Civilopedia Home Page"  >
+
+                </Button>
+
+
+                <Button Anchor="C,T" Size="49,50" Offset="0,-10" Texture="CivilopediaTopButtonsUnit.dds" ToolTip="Units">
+
+                </Button>
+
+                <Button Anchor="C,T" Size="49,50" Offset="0,-10" Texture="CivilopediaTopButtonsTechnology.dds"  ToolTip="Technology" >
+
+                </Button>
+
+                <Button Anchor="C,T" Size="49,50" Offset="0,-10" Texture="CivilopediaTopButtonsBuildings.dds" ToolTip="Buildings" >
+
+                </Button>
+
+                <Button Anchor="C,T" Size="49,50" Offset="0,-10" Texture="CivilopediaTopButtonsWonders.dds" ToolTip="Wonders" >
+
+                </Button>
+
+                <Button Anchor="C,T" Size="49,50" Offset="0,-10" Texture="CivilopediaTopButtonsResourcesImprovements.dds" ToolTip="Resources, Improvements and Terrain"  >
+
+                </Button>
+
+                <Button Anchor="C,T" Size="49,50" Offset="0,-10" Texture="CivilopediaTopButtonsSocialPolicy.dds" ToolTip="Social Policies">
+
+                </Button>
+
+                <Button Anchor="C,T" Size="49,50" Offset="0,-10" Texture="CivilopediaTopButtonsCivsCityStates.dds"  ToolTip="Civilizations, City States and Leaders" >
+
+
+                </Button>
+
+                <Button Anchor="C,T" Size="49,50" Offset="0,-10" Texture="CivilopediaTopButtonsCities.dds"  ToolTip="Cities and People"  >
+
+                </Button>
+
+                <Button Anchor="C,T" Size="49,50" Offset="0,-10" Texture="CivilopediaTopButtonsGameplay.dds"  ToolTip="Game Concepts">
+
+                </Button>
+
+            </Stack>
+
+            <!-- Selected Buttons -->
+            <Stack Anchor="L,T" Offset="38,-35" Size="64,64" StackGrowth="Right" Padding="1" >
+                <Box Anchor="C,C" Size="49,50" Offset="0,-10" Color="0,0,0,0" />
+                <Box Anchor="C,C" Size="49,50" Offset="0,-10" Color="0,0,0,0" />
+                <Image Anchor="C,T" Size="49,50" Offset="0,-10" TextureOffset="0.50" Texture="CivilopediaTopButtonsTechnology.dds"   >
+                </Image>
+            </Stack>
+
+
+        </Grid>
+
+        <Image Anchor="L,T" Offset="273,125" TextureOffset="0.0"   Texture="SideRight.dds" Size="13,1500" />
+
+
+
+
+        <Box Anchor="C,T" Size="1000,980" Offset="0,126" Color="255,255,255,0" >
+
+
+            <AlphaAnim  Anchor="L,T" Offset="0,0" Size="270,Full"  Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".55" AlphaEnd=".75" >
+                <Grid Size="270,full" Anchor="L,T" Offset="0,0" Padding="0,0" Style="GridGlass16" />
+            </AlphaAnim>
+
+            <ScrollPanel Anchor="C,C" Offset="0,0" Size="1000,980" Vertical="1"  >
+
+                <ScrollBar Offset="-36.0" Style="VertSlider" Anchor="R,C" AnchorSide="O,I" Length="930" />
+                <UpButton  Offset="-36.4"  Style="ScrollBarUp"  Anchor="R,T" AnchorSide="O,I" />
+                <DownButton Offset="-36.6" Style="ScrollBarDown"  Anchor="R,B" AnchorSide="O,I" />
+
+
+
+                <Stack Anchor="R,T" Offset="38,0" Size="64,64" StackGrowth="Bottom" Padding="12" >
+
+
+
+
+                    <!-- Name -->
+                    <Image Anchor="R,T" Size="500,64" Offset="-18,0"  Texture="CivilopediaTitle.dds"   >
+                        <Label Anchor="C,C" Offset="0,-2" Font="TwCenMT20" FontStyle="SoftShadow" Color0="Beige" Color1="0.0.0.160" String="Bronze Working"  />
+                    </Image>
+
+                    <!-- Game Info -->
+                    <Grid Anchor="R,T" Offset="0,0" Size="456,180" Padding="0,0" Style="GridBlackIndent8" Hidden="0" >
+
+                        <Label Anchor="L,T" Offset="4,-18" Anchorside="I.O" WrapWidth="600" LeadingOffset="0"  Font="TwCenMT20" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="Game Info:"  />
+                        <Grid Anchor="C,C" Offset="0,0" Size="460,184" Padding="0,0" Style="Grid9Frame" Hidden="0" >
+
+                            <Stack Anchor="L,T" Offset="12,0" Size="64,64" StackGrowth="Bottom" Padding="0" >
+
+                                <Label Anchor="L,T" Offset="0,12"  WrapWidth="440" LeadingOffset="-5"  Font="TwCenMT18" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160"
+                                       String="Primarily a military technology, Bronze Working unlocks the first strong military Unit of the game, the [COLOR_POSITIVE_TEXT]Spearman[ENDCOLOR]."  />
+
+                                <Label Anchor="L,T" Offset="0,12"  WrapWidth="440" LeadingOffset="-5"  Font="TwCenMT18" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160"
+                                       String="Leads to techs that improve military and [ICON_PRODUCTION] Production."  />
+
+                                <Label Anchor="L,T" Offset="0,12"  WrapWidth="440" LeadingOffset="-5"  Font="TwCenMT18" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160"
+                                       String="Also allows the chopping of Jungle."  />
+
+                            </Stack>
+
+                        </Grid>
+
+
+                    </Grid>
+
+                    <!-- Quote -->
+                    <Grid Anchor="R,T" Offset="0,24" Size="456,150" Padding="0,0" Style="GridBlackIndent8" Hidden="0" >
+
+
+                        <Label Anchor="L,T" Offset="4,-18" Anchorside="I.O" WrapWidth="600" LeadingOffset="0"  Font="TwCenMT20" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="Quote:"  />
+
+
+                        <Grid Anchor="C,C" Offset="0,0" Size="460,154" Padding="0,0" Style="Grid9Frame" Hidden="0" >
+                            <Label Anchor="C,T" Offset="0,12"  WrapWidth="440" LeadingOffset="-5"  Font="TwCenMT18" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160"
+                                   String="Here Hector entered, with a spear eleven cubits long in his hand; the bronze point gleamed in front of him, and was fastened to the shaft of the spear by a ring of gold. - Homer"  />
+                        </Grid>
+
+                        <GridButton Anchor="C,B" Size="256,32" Color="255,255,255,200"  Offset="0,32" StateOffsetIncrement="0,0" >
+                            <GridData Style="Grid9DarkBlue8Button" />
+                            <Grid Anchor="C,C" Offset="0,0" Size="260,36" Padding="0,0" Style="Grid9Frame" Hidden="0" />
+                            <ShowOnMouseOver>
+                                <AlphaAnim  Anchor="C,C" Offset="0,0" Size="48,48" TextureOffset="0.0"  Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0">
+                                    <Grid  Size="256,32" Anchor="C,C" Offset="0,0" Style="Grid9Science8" />
+                                </AlphaAnim>
+                                <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="0,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="0,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                <Image Anchor="R,C" Offset="0,0" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                <Image Anchor="L,C" Offset="0,0" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            </ShowOnMouseOver>
+                            <Label Anchor="C,C" Offset="0,-2"  Font="TwCenMT20" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="Play Sound Byte"  />
+                        </GridButton>
+
+                    </Grid>
+
+                    <!-- Special Abilities -->
+                    <Grid Anchor="R,T" Offset="0,24" Size="456,60" Padding="0,0" Style="GridBlackIndent8" Hidden="0" >
+
+
+                        <Label Anchor="L,T" Offset="4,-18" Anchorside="I.O" WrapWidth="600" LeadingOffset="0"  Font="TwCenMT20" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="Special Abilities :"  />
+
+
+                        <Grid Anchor="C,C" Offset="0,0" Size="460,64" Padding="0,0" Style="Grid9Frame" Hidden="0" >
+                            <Label Anchor="L,T" Offset="12,12"  WrapWidth="440" LeadingOffset="-5"  Font="TwCenMT18" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160"
+                                   String="Allows the chopping of Jungle."  />
+                        </Grid>
+
+
+
+                    </Grid>
+
+                    <!-- History -->
+                    <Grid Anchor="R,T" Offset="0,24" Size="456,200" Padding="0,0" Style="GridBlackIndent8" Hidden="0" >
+
+
+                        <Label Anchor="L,T" Offset="4,-18" Anchorside="I.O" WrapWidth="600" LeadingOffset="0"  Font="TwCenMT20" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="Historical Info:"  />
+
+
+                        <Grid Anchor="C,C" Offset="0,0" Size="460,204" Padding="0,0" Style="Grid9Frame" Hidden="0" >
+                            <Label Anchor="C,T" Offset="0,12"  WrapWidth="440" LeadingOffset="-5"  Font="TwCenMT18" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160"
+                                   String="Bronze is a metal alloy (mixture) of copper and tin. The resulting material is harder and tougher than either of the original metals and it is easier to melt and cast (e.g., pour into molds to make spear tips and other useful items). Copper was probably first used in Egypt before 5,000 BC. The first evidence of bronze appears some 1,300 years later in the form of a bronze rod found in a pyramid dating from 3700 BC. Bronze appeared in Asia much later, around 1,500 BC, and in the Americas later still, between 100-200 AD."  />
+                        </Grid>
+
+
+
+                    </Grid>
+
+                    <!-- Related Images -->
+                    <Grid Anchor="R,T" Offset="0,24" Size="456,200" Padding="0,0" Style="GridBlackIndent8" Hidden="0" >
+
+
+                        <Label Anchor="L,T" Offset="4,-18" Anchorside="I.O" WrapWidth="600" LeadingOffset="0"  Font="TwCenMT20" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="Related Images:"  />
+
+
+                        <Grid Anchor="C,C" Offset="0,0" Size="460,204" Padding="0,0" Style="Grid9Frame" Hidden="0" >
+                        </Grid>
+
+
+
+                    </Grid>
+
+
+
+                </Stack>
+
+                <Stack Anchor="L,T" Offset="284,0" Size="64,64" StackGrowth="Bottom" Padding="12" >
+
+                    <!-- Image -->
+
+                    <Image Anchor="L,T" Offset="-24,0" TextureOffset="0.0"  Texture="256x256Frame.dds" Size="256,256">
+                        <Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Texture="UnitPortraitsAncientMedieval.dds" Size="256,256"/>
+                    </Image>
+
+                    <!-- Cost -->
+
+                    <Grid Anchor="L,T" Offset="0,-24" Size="204,36" Padding="0,0" Style="GridBlackIndent8" Hidden="0" >
+                        <Grid Anchor="C,C" Offset="0,0" Size="208,40" Padding="0,0" Style="Grid9Frame" Hidden="0" >
+                            <Label Anchor="L,C" Offset="8,-2" Anchorside="I.O" WrapWidth="600" LeadingOffset="0"  Font="TwCenMT20" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="COST: 60 Science"  />
+                        </Grid>
+                    </Grid>
+
+                    <!-- Prerequisite Techs -->
+
+                    <Grid Anchor="L,T" Offset="0,24" Size="204,76" Padding="0,0" Style="GridBlackIndent8" Hidden="0" >
+
+                        <Grid Anchor="C,C" Offset="0,0" Size="208,80" Padding="0,0" Style="Grid9Frame" Hidden="0" >
+
+                            <Label Anchor="L,T" Offset="4,-16" Anchorside="I.O" WrapWidth="600" LeadingOffset="0"  Font="TwCenMT20" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="Prerequisite Techs:"  />
+
+                            <Stack Anchor="L,T" Offset="8,8" Size="64,64" StackGrowth="Right" Padding="0" >
+                                <Button Anchor="L,C" Size="64,64" Offset="0,0" Texture="64x64FrameButtons.dds" ToolTip="Technology Name"  >
+                                    <ShowOnMouseOver>
+                                        <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                        <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                        <Image Anchor="R,C" Offset="-9,0" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                        <Image Anchor="L,C" Offset="-9,0" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                    </ShowOnMouseOver>
+                                    <Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Texture="TechnologyAtlas512.dds" Size="64,64"/>
+                                </Button>
+
+                                <Button Anchor="L,C" Size="64,64" Offset="0,0" Texture="64x64FrameButtons.dds" ToolTip="Technology Name"  >
+                                    <ShowOnMouseOver>
+                                        <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                        <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                        <Image Anchor="R,C" Offset="-9,0" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                        <Image Anchor="L,C" Offset="-9,0" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                    </ShowOnMouseOver>
+                                    <Image Anchor="C,C" Offset="0,0" TextureOffset="64.64"  Texture="TechnologyAtlas512.dds" Size="64,64"/>
+                                </Button>
+
+
+
+                            </Stack>
+                        </Grid>
+
+                    </Grid>
+
+                    <!-- Leads to Techs  -->
+
+                    <Grid Anchor="L,T" Offset="0,24" Size="204,76" Padding="0,0" Style="GridBlackIndent8" Hidden="0" >
+
+                        <Grid Anchor="C,C" Offset="0,0" Size="208,80" Padding="0,0" Style="Grid9Frame" Hidden="0" >
+
+                            <Label Anchor="L,T" Offset="4,-16" Anchorside="I.O" WrapWidth="600" LeadingOffset="0"  Font="TwCenMT20" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="Leads to Techs:"  />
+
+                            <Stack Anchor="L,T" Offset="8,8" Size="64,64" StackGrowth="Right" Padding="0" >
+                                <Button Anchor="L,C" Size="64,64" Offset="0,0" Texture="64x64FrameButtons.dds" ToolTip="Technology Name"  >
+                                    <ShowOnMouseOver>
+                                        <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                        <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                        <Image Anchor="R,C" Offset="-9,0" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                        <Image Anchor="L,C" Offset="-9,0" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                    </ShowOnMouseOver>
+                                    <Image Anchor="C,C" Offset="0,0" TextureOffset="0.64"  Texture="TechnologyAtlas512.dds" Size="64,64"/>
+                                </Button>
+
+                                <Button Anchor="L,C" Size="64,64" Offset="0,0" Texture="64x64FrameButtons.dds" ToolTip="Technology Name"  >
+                                    <ShowOnMouseOver>
+                                        <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                        <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                        <Image Anchor="R,C" Offset="-9,0" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                        <Image Anchor="L,C" Offset="-9,0" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                    </ShowOnMouseOver>
+                                    <Image Anchor="C,C" Offset="0,0" TextureOffset="64.0"  Texture="TechnologyAtlas512.dds" Size="64,64"/>
+                                </Button>
+
+
+                                <Button Anchor="L,C" Size="64,64" Offset="0,0" Texture="64x64FrameButtons.dds" ToolTip="Technology Name"  >
+                                    <ShowOnMouseOver>
+                                        <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                        <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                        <Image Anchor="R,C" Offset="-9,0" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                        <Image Anchor="L,C" Offset="-9,0" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                    </ShowOnMouseOver>
+                                    <Image Anchor="C,C" Offset="0,0" TextureOffset="0.128"  Texture="TechnologyAtlas512.dds" Size="64,64"/>
+                                </Button>
+
+
+
+
+
+                            </Stack>
+                        </Grid>
+
+                    </Grid>
+
+                    <!-- Units Unlocked  -->
+
+                    <Grid Anchor="L,T" Offset="0,24" Size="204,76" Padding="0,0" Style="GridBlackIndent8" Hidden="0" >
+
+                        <Grid Anchor="C,C" Offset="0,0" Size="208,80" Padding="0,0" Style="Grid9Frame" Hidden="0" >
+
+                            <Label Anchor="L,T" Offset="4,-16" Anchorside="I.O" WrapWidth="600" LeadingOffset="0"  Font="TwCenMT20" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="Units Unlocked:"  />
+
+                            <Stack Anchor="L,T" Offset="8,8" Size="64,64" StackGrowth="Right" Padding="0" >
+                                <Button Anchor="L,C" Size="64,64" Offset="0,0" Texture="64x64FrameButtons.dds" ToolTip="Technology Name"  >
+                                    <ShowOnMouseOver>
+                                        <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                        <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                        <Image Anchor="R,C" Offset="-9,0" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                        <Image Anchor="L,C" Offset="-9,0" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                    </ShowOnMouseOver>
+                                    <Image Anchor="C,C" Offset="0,0" TextureOffset="0.128"  Texture="UnitPortraitsAncientMedieval512.dds" Size="64,64"/>
+                                </Button>
+
+
+
+
+
+
+                            </Stack>
+                        </Grid>
+
+                    </Grid>
+
+                    <!-- Buildings Unlocked -->
+
+                    <Grid Anchor="L,T" Offset="0,24" Size="204,136" Padding="0,0" Style="GridBlackIndent8" Hidden="0" >
+
+                        <Grid Anchor="C,C" Offset="0,0" Size="208,140" Padding="0,0" Style="Grid9Frame" Hidden="0" >
+
+                            <Label Anchor="L,T" Offset="4,-16" Anchorside="I.O" WrapWidth="600" LeadingOffset="0"  Font="TwCenMT20" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="Buildings Unlocked:"  />
+
+                            <Stack Anchor="L,T" Offset="0,0" Size="64,64" StackGrowth="Bottom" Padding="-12" >
+                                <Stack Anchor="L,T" Offset="8,8" Size="64,64" StackGrowth="Right" Padding="0" >
+                                    <Button Anchor="L,C" Size="64,64" Offset="0,0" Texture="64x64FrameButtons.dds" ToolTip="Technology Name"  >
+                                        <ShowOnMouseOver>
+                                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                            <Image Anchor="R,C" Offset="-9,0" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                            <Image Anchor="L,C" Offset="-9,0" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                        </ShowOnMouseOver>
+                                        <Image Anchor="C,C" Offset="0,0" TextureOffset="0.64"  Texture="WonderAtlas512.dds" Size="64,64"/>
+                                    </Button>
+
+                                    <Button Anchor="L,C" Size="64,64" Offset="0,0" Texture="64x64FrameButtons.dds" ToolTip="Technology Name"  >
+                                        <ShowOnMouseOver>
+                                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                            <Image Anchor="R,C" Offset="-9,0" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                            <Image Anchor="L,C" Offset="-9,0" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                        </ShowOnMouseOver>
+                                        <Image Anchor="C,C" Offset="0,0" TextureOffset="64.0"  Texture="WonderAtlas512.dds" Size="64,64"/>
+                                    </Button>
+
+
+                                    <Button Anchor="L,C" Size="64,64" Offset="0,0" Texture="64x64FrameButtons.dds" ToolTip="Technology Name"  >
+                                        <ShowOnMouseOver>
+                                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                            <Image Anchor="R,C" Offset="-9,0" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                            <Image Anchor="L,C" Offset="-9,0" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                        </ShowOnMouseOver>
+                                        <Image Anchor="C,C" Offset="0,0" TextureOffset="0.128"  Texture="WonderAtlas512.dds" Size="64,64"/>
+                                    </Button>
+
+
+
+
+
+                                </Stack>
+
+                                <Stack Anchor="L,T" Offset="8,8" Size="64,64" StackGrowth="Right" Padding="0" >
+                                    <Button Anchor="L,C" Size="64,64" Offset="0,0" Texture="64x64FrameButtons.dds" ToolTip="Technology Name"  >
+                                        <ShowOnMouseOver>
+                                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="-9,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                            <Image Anchor="R,C" Offset="-9,0" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                            <Image Anchor="L,C" Offset="-9,0" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                        </ShowOnMouseOver>
+                                        <Image Anchor="C,C" Offset="0,0" TextureOffset="0.0"  Texture="WonderAtlas512.dds" Size="64,64"/>
+                                    </Button>
+
+
+                                </Stack>
+
+
+                            </Stack>
+
+                        </Grid>
+
+                    </Grid>
+
+                    <!-- Related Articles -->
+                    <Grid Anchor="L,T" Offset="0,24" Size="204,150" Padding="0,0" Style="GridBlackIndent8" Hidden="0" >
+
+
+                        <Label Anchor="L,T" Offset="4,-18" Anchorside="I.O" WrapWidth="600" LeadingOffset="0"  Font="TwCenMT20" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="Related Articles:"  />
+
+
+                        <Grid Anchor="C,C" Offset="0,0" Size="208,154" Padding="0,0" Style="Grid9Frame" Hidden="0" >
+                        </Grid>
+
+                        <Stack Anchor="C,T" Offset="0,14" Size="64,64" StackGrowth="Bottom" Padding="12" >
+
+                            <GridButton Anchor="C,T" Size="180,32" Color="255,255,255,200"  Offset="0,0" StateOffsetIncrement="0,0" >
+                                <GridData Style="Grid9DarkBlue8Button" />
+                                <Grid Anchor="C,C" Offset="0,0" Size="184,36" Padding="0,0" Style="Grid9Frame" Hidden="0" />
+                                <ShowOnMouseOver>
+                                    <AlphaAnim  Anchor="C,C" Offset="0,0" Size="48,48" TextureOffset="0.0"  Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0">
+                                        <Grid  Size="180,32" Anchor="C,C" Offset="0,0" Style="Grid9Science8" />
+                                    </AlphaAnim>
+                                    <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="0,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                    <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="0,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                    <Image Anchor="R,C" Offset="0,0" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                    <Image Anchor="L,C" Offset="0,0" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                </ShowOnMouseOver>
+                                <Label Anchor="C,C" Offset="0,-2"  Font="TwCenMT16" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="Research"  />
+                            </GridButton>
+
+                            <GridButton Anchor="C,T" Size="180,32" Color="255,255,255,200"  Offset="0,0" StateOffsetIncrement="0,0" >
+                                <GridData Style="Grid9DarkBlue8Button" />
+                                <Grid Anchor="C,C" Offset="0,0" Size="184,36" Padding="0,0" Style="Grid9Frame" Hidden="0" />
+                                <ShowOnMouseOver>
+                                    <AlphaAnim  Anchor="C,C" Offset="0,0" Size="48,48" TextureOffset="0.0"  Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0">
+                                        <Grid  Size="180,32" Anchor="C,C" Offset="0,0" Style="Grid9Science8" />
+                                    </AlphaAnim>
+                                    <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="0,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                    <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="0,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                    <Image Anchor="R,C" Offset="0,0" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                    <Image Anchor="L,C" Offset="0,0" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                </ShowOnMouseOver>
+                                <Label Anchor="C,C" Offset="0,-2"  Font="TwCenMT16" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="Ancient Era"  />
+                            </GridButton>
+
+                            <GridButton Anchor="C,T" Size="180,32" Color="255,255,255,200"  Offset="0,0" StateOffsetIncrement="0,0" >
+                                <GridData Style="Grid9DarkBlue8Button" />
+                                <Grid Anchor="C,C" Offset="0,0" Size="184,36" Padding="0,0" Style="Grid9Frame" Hidden="0" />
+                                <ShowOnMouseOver>
+                                    <AlphaAnim  Anchor="C,C" Offset="0,0" Size="48,48" TextureOffset="0.0"  Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0">
+                                        <Grid  Size="180,32" Anchor="C,C" Offset="0,0" Style="Grid9Science8" />
+                                    </AlphaAnim>
+                                    <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="0,0" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                    <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="0,0" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                    <Image Anchor="R,C" Offset="0,0" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                    <Image Anchor="L,C" Offset="0,0" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                </ShowOnMouseOver>
+                                <Label Anchor="C,C" Offset="0,-2"  Font="TwCenMT16" FontStyle="Shadow" Color0="Beige" Color1="0.0.0.160" String="Blah Blah Blah"  />
+                            </GridButton>
+
+
+
+
+                        </Stack>
+
+                    </Grid>
+
+
+
+
+                    <Box Anchor="R,T" Size="636,100" Offset="0,0" Color="255,255,255,0" />
+
+
+                </Stack>
+
+                <Stack Anchor="L,T"  Offset="7,0" Size="64,64" StackGrowth="Bottom" Padding="0" >
+
+
+                    <!-- Era Name Open Example -->
+                    <Button Anchor="L,C" Size="272,27" Offset="-9,0" Texture="CivilopediaButtons272x27.dds" ToolTip="Era Name Open Example"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="2,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="2,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="2,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="2,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT18"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="- Era Name Open Example"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Image Anchor="L,C" Offset="0,0" TextureOffset="0.23" Texture="CivilopediaSideButtons22.dds" Size="256,22" >
+                        <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                            <ShowOnMouseOver>
+                                <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                    <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                                </AlphaAnim>
+                                <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                                <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                                <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            </ShowOnMouseOver>
+                            <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Selected Example"/>
+                        </Button>
+                    </Image>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <!-- Era Name Open Example -->
+                    <Button Anchor="L,C" Size="272,27" Offset="-9,0" Texture="CivilopediaButtons272x27.dds" ToolTip="Era Name Open Example"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="2,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="2,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="2,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="2,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT18"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="- Era Name Open Example"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+
+                    <!-- Era Name Open Example -->
+                    <Button Anchor="L,C" Size="272,27" Offset="-9,0" Texture="CivilopediaButtons272x27.dds" ToolTip="Era Name Open Example"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="2,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="2,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="2,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="2,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT18"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="- Era Name Open Example"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <!-- Era Name Open Example -->
+                    <Button Anchor="L,C" Size="272,27" Offset="-9,0" Texture="CivilopediaButtons272x27.dds" ToolTip="Era Name Open Example"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="2,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="2,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="2,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="2,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT18"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="- Era Name Open Example"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+
+                    <!-- Era Name Closed Example -->
+                    <Button Anchor="L,C" Size="272,27" Offset="-9,0" Texture="CivilopediaButtons272x27.dds" ToolTip="Era Name Closed Example"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="2,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="2,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="2,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="2,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT18"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="+ Era Name Closed Example"/>
+                    </Button>
+
+
+                    <!-- Era Name Open Example -->
+                    <Button Anchor="L,C" Size="272,27" Offset="-9,0" Texture="CivilopediaButtons272x27.dds" ToolTip="Era Name Open Example"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="2,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="2,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="2,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="2,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT18"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="- Era Name Open Example"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+                    <Button Anchor="L,C" Size="256,22" Offset="0,0" Texture="CivilopediaSideButtons22.dds" ToolTip="Image"  >
+                        <ShowOnMouseOver>
+                            <AlphaAnim Anchor="C,C" Offset="0,0" Size="272,22" Pause="0" Cycle="Bounce" Speed="1" AlphaStart="1" AlphaEnd=".25" >
+                                <Image Anchor="C,C" Offset="-1,0"  Texture="CivilopediaSideButtons272x22HL.dds" Size="272,22" />
+                            </AlphaAnim>
+                            <AlphaAnim  Anchor="R,C"  AnchorSide="O.O"  Offset="9,-1" Size="16,32" TextureOffset="16.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <AlphaAnim  Anchor="L,C"  AnchorSide="O.O"  Offset="11,-1" Size="16,32" TextureOffset="0.0" Texture="Assets/UI/Art/Controls/buttonsidesglow.dds" Pause="0" Cycle="Bounce" Speed="1" AlphaStart=".99" AlphaEnd=".25" Hidden="0"/>
+                            <Image Anchor="R,C" Offset="9,-1" TextureOffset="8.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                            <Image Anchor="L,C" Offset="11,-1" TextureOffset="0.0" AnchorSide="O.O"  Texture="Assets/UI/Art/Controls/buttonsides.dds" Size="8,16" />
+                        </ShowOnMouseOver>
+                        <Label Anchor="L,C"  Offset="12,-2" Font="TwCenMT16"   ColorSet="Beige_Black_Alpha" FontStyle="Shadow" String="Name"/>
+                    </Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </Stack>
+
+
+
+
+
+            </ScrollPanel>
+
+
+
+        </Box>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </Box>
+
+
+</Context>

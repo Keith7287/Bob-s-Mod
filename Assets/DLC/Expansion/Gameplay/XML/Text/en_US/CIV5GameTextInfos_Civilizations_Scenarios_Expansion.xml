@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Scott Lewis (Firaxis Games) -->
+<GameData>
+	<Language_en_US>
+		
+		<!-- FALL OF ROME SCENARIO -->
+		<Row Tag="TXT_KEY_FOR_SCENARIO_CIV_ROME_DESC">
+			<Text>Western Rome</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOR_SCENARIO_CIV_ROME_SHORT_DESC">
+			<Text>Western Rome</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOR_SCENARIO_CIV_ROME_ADJECTIVE">
+			<Text>Western Roman</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOR_SCENARIO_CIV_BYZANTIUM_DESC">
+			<Text>Eastern Rome</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_FOR_SCENARIO_CIV_BYZANTIUM_SHORT_DESC">
+			<Text>Eastern Rome</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_FOR_SCENARIO_CIV_BYZANTIUM_ADJECTIVE">
+			<Text>Eastern Roman</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_FOR_SCENARIO_CIV_PERSIA_DESC">
+			<Text>Sassanid Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOR_SCENARIO_CIV_PERSIA_SHORT_DESC">
+			<Text>The Sassanids</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_FOR_SCENARIO_CIV_PERSIA_ADJECTIVE">
+			<Text>Sassanid</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOR_SCENARIO_CIV_FRANCE_DESC">
+			<Text>Frankish Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOR_SCENARIO_CIV_FRANCE_SHORT_DESC">
+			<Text>The Franks</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_FOR_SCENARIO_CIV_FRANCE_ADJECTIVE">
+			<Text>Frankish</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOR_SCENARIO_CIV_GERMANY_DESC">
+			<Text>Gothic Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOR_SCENARIO_CIV_GERMANY_SHORT_DESC">
+			<Text>The Goths</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_FOR_SCENARIO_CIV_GERMANY_ADJECTIVE">
+			<Text>Gothic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOR_SCENARIO_CIV_SONGHAI_DESC">
+			<Text>Vandal Kingdom</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOR_SCENARIO_CIV_SONGHAI_SHORT_DESC">
+			<Text>The Vandals</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_FOR_SCENARIO_CIV_SONGHAI_ADJECTIVE">
+			<Text>Vandal</Text>
+		</Row>
+		
+		<!-- EMPIRES OF THE SMOKY SKIES -->
+		<Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_GERMANY_DESC">
+			<Text>Eruch Empire</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_GERMANY_SHORT_DESC">
+			<Text>Eruch</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_GERMANY_ADJECTIVE">
+			<Text>Eruch</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_RUSSIA_DESC">
+			<Text>Orlin Empire</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_RUSSIA_SHORT_DESC">
+			<Text>Orlin</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_RUSSIA_ADJECTIVE">
+			<Text>Orlin</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_ENGLAND_DESC">
+			<Text>Pulias Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_ENGLAND_SHORT_DESC">
+			<Text>Pulias</Text>
+		</Row>
+		<Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_ENGLAND_ADJECTIVE">
+			<Text>Pulias</Text>
+		</Row>
+		<Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_SWEDEN_DESC">
+			<Text>Vedria Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_SWEDEN_SHORT_DESC">
+			<Text>Vedria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_SWEDEN_ADJECTIVE">
+			<Text>Vedria</Text>
+		</Row>
+		<Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_FRANCE_DESC">
+			<Text>Dalmace Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_FRANCE_SHORT_DESC">
+			<Text>Dalmace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_FRANCE_ADJECTIVE">
+			<Text>Dalmace</Text>
+		</Row>
+		<Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_BARBARIAN_ADJECTIVE">
+			<Text>Luddite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_BARBARIAN_DESC">
+			<Text>Luddite Horde</Text>
+		</Row>
+		<Row Tag="TXT_KEY_STEAMPUNK_SCENARIO_CIV_BARBARIAN_SHORT_DESC">
+			<Text>Luddites</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		
+		<!-- INTO THE RENAISSANCE -->
+		<Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CIV_SONGHAI_DESC">
+			<Text>Ayyubid Dynasty</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CIV_SONGHAI_SHORT_DESC">
+			<Text>The Ayyubids</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CIV_SONGHAI_ADJECTIVE">
+			<Text>Ayyubid</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CIV_ARABIA_SHORT_DESC">
+			<Text>The Almohads</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CIV_ARABIA_DESC">
+			<Text>Almohad Caliphate</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CIV_ARABIA_ADJECTIVE">
+			<Text>Almohad</Text>
+            <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CIV_OTTOMAN_SHORT_DESC">
+			<Text>The Turks</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CIV_OTTOMAN_DESC">
+			<Text>Turkic Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MEDIEVAL_SCENARIO_CIV_OTTOMAN_ADJECTIVE">
+			<Text>Turkish</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

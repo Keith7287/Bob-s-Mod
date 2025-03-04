@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- These regions are used only during map generation, for civ and resource placement. -->
+<GameData>
+
+    <!-- Table definition -->
+    <Table name="Regions">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" notnull="true" unique="true" />
+        <Column name="Description" type="text" />
+    </Table>
+
+    <!-- Table data -->
+    <Regions>
+        <Row>
+            <ID>0</ID>
+            <Type>REGION_UNDEFINED</Type>
+            <Description>TXT_KEY_REGION_UNDEFINED</Description>
+        </Row>
+        <Row>
+            <ID>1</ID>
+            <Type>REGION_TUNDRA</Type>
+            <Description>TXT_KEY_REGION_TUNDRA</Description>
+        </Row>
+        <Row>
+            <ID>2</ID>
+            <Type>REGION_JUNGLE</Type>
+            <Description>TXT_KEY_REGION_JUNGLE</Description>
+        </Row>
+        <Row>
+            <ID>3</ID>
+            <Type>REGION_FOREST</Type>
+            <Description>TXT_KEY_REGION_FOREST</Description>
+        </Row>
+        <Row>
+            <ID>4</ID>
+            <Type>REGION_DESERT</Type>
+            <Description>TXT_KEY_REGION_DESERT</Description>
+        </Row>
+        <Row>
+            <ID>5</ID>
+            <Type>REGION_HILLS</Type>
+            <Description>TXT_KEY_REGION_HILLS</Description>
+        </Row>
+        <Row>
+            <ID>6</ID>
+            <Type>REGION_PLAINS</Type>
+            <Description>TXT_KEY_REGION_PLAINS</Description>
+        </Row>
+        <Row>
+            <ID>7</ID>
+            <Type>REGION_GRASS</Type>
+            <Description>TXT_KEY_REGION_GRASS</Description>
+        </Row>
+        <Row>
+            <ID>8</ID>
+            <Type>REGION_HYBRID</Type>
+            <Description>TXT_KEY_REGION_HYBRID</Description>
+        </Row>
+     </Regions>
+</GameData>

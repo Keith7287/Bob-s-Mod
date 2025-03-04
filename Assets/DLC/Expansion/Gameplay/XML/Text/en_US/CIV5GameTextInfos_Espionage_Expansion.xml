@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Scott Lewis (Firaxis Games) -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_ESPIONAGE_NOT_STARTED_YET">
+			<Text>Espionage starts when someone enters the Renaissance Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_MORE_SPIES">
+			<Text>All your spies have been killed[NEWLINE]Replacements are being recruited.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_CREATED">
+			<Text>{1_SpyName} has been recruited as a spy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SPY_CREATED">
+			<Text>A spy has been recruited!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_PROMOTED">
+			<Text>{1_SpyName} has been promoted from {@2_RankName} to {@3_RankName}.[NEWLINE]Promoted spies steal technology faster on offense and are more effective at catching enemy spies on defense.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SPY_PROMOTED">
+			<Text>{1_SpyName} promoted!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_RANK_0">
+			<Text>Recruit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_RANK_1">
+			<Text>Agent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_RANK_2">
+			<Text>Special Agent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_LOCATION_UNASSIGNED">
+			<Text>Needs assignment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_STATE_UNASSIGNED">
+			<Text>Unassigned</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_STATE_TRAVELLING">
+			<Text>Traveling</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_STATE_SURVEILLANCE">
+			<Text>Establishing Surveillance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_STATE_GATHERING_INTEL">
+			<Text>Gathering Intelligence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_STATE_RIGGING_ELECTION">
+			<Text>Rigging Election</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_STATE_COUNTER_INTEL">
+			<Text>Counter-intelligence</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_STATE_DEAD">
+			<Text>Killed In Action</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_STATE_ESTABLISHED_SURVEILLANCE">
+			<Text>Monitoring Activity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_STATE_ESTABLISHED_SURVEILLANCE_PROGRESS_BAR">
+			<Text>No techs to steal</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_TECH">
+			<Text>{1_SpyRank} {2_SpyName} gathered enough intelligence in {3_CityName} to steal a technology from {@4_CivShortName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_TECH_S">
+			<Text>Steal Technology</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_TECH">
+			<Text>{1_SpyRank} {2_SpyName} cannot steal technologies from {@3_CivShortName} because we have completely eclipsed them in research!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_TECH_S">
+			<Text>Can't steal from {@1_CivShortName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_BLOCKING">
+			<Text>STEAL TECHNOLOGY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_BLOCKING_TT">
+			<Text>Your spy has gathered enough intelligence to steal a technology from an opponent. Choose which technology to steal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_CONQUEST_S">
+			<Text>Spy fled city capture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_CONQUEST">
+			<Text>Your spy {1_SpyRank} {2_SpyName} fled {3_CityName} when it was captured by {@4_CivShortName}. Your spy may now be reassigned.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_CONQUEST_YOU">
+			<Text>Your spy {1_SpyRank} {2_SpyName} fled {3_CityName} when it was captured by you. Your spy may now be reassigned.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_TRADE_S">
+			<Text>Spy left city</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_TRADE">
+			<Text>Your spy {1_SpyRank} {2_SpyName} returned from {3_CityName} because it was traded to {@4_CivShortName}. Your spy may now be reassigned.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_TRADE_YOU">
+			<Text>Your spy {1_SpyRank} {2_SpyName} returned from {3_CityName} because it was traded to you. Your spy may now be reassigned.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_WO_TECH_S">
+			<Text>Tech Stolen!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_WO_TECH_W_TIP">
+			<Text>An unidentified spy stole technological secrets from {1_CityName}![NEWLINE]You may want to place one of your own spies in this city to help protect it in the future.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_WO_TECH">
+			<Text>An unidentified spy stole technological secrets from {1_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_S">
+			<Text>{1_Tech} stolen!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_W_TIP">
+			<Text>An unidentified spy stole the secrets of {1_Tech} from {2_CityName}![NEWLINE]You may want to place one of your own spies in this city to help protect it in the future.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED">
+			<Text>An unidentified spy stole the secrets of {1_Tech} from {2_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_WO_TECH_S">
+			<Text>{1_CivShortDesc} stole a tech!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_WO_TECH_W_TIP">
+			<Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {1_CivAdj}} spy stole technological secrets from {2_CityName}![NEWLINE]You may want to place one of your own spies in this city to help protect it in the future.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_WO_TECH">
+			<Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {1_CivAdj}} spy stole technological secrets from {2_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_S">
+			<Text>{1_CivShortDesc} stole {2_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_W_TIP">
+			<Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {1_CivAdj}} spy stole the secrets of {2_Tech} from {3_CityName}![NEWLINE]You may want to place one of your own spies in this city to help protect it in the future.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED">
+			<Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {1_CivAdj}} spy stole the secrets of {2_Tech} from {3_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY_S">
+			<Text>Killed {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {1_CivAdj}} spy!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY">
+			<Text>Your spy {1_SpyRank} {2_SpyName} killed {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {3_CivAdj}} spy in {4_CityName} while they were trying to steal a technology!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_S">
+			<Text>{1_SpyName} killed!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED">
+			<Text>Your spy {1_SpyRank} {2_SpyName} was killed by {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {3_CivAdj}} counterspy while your spy was trying to steal a technology in {4_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_REVIVED_S">
+			<Text>A replacement spy has been recruited</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_REVIVED">
+			<Text>{1_SpyRank} {2_SpyName} has been recruited to replace a spy that was killed in action.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_YOU_S">
+			<Text>{1_PlayerName} is plotting against you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_YOU">
+			<Text>{1_SpyRank} {2_SpyName} in {3_CityName} uncovered that {4_PlayerName} is secretly plotting against you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_KNOWN_S">
+			<Text>{1_PlayerName} is plotting against {2_PlayerName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_KNOWN">
+			<Text>{1_SpyRank} {2_SpyName} in {3_CityName} uncovered that {4_PlayerName} is secretly plotting against {5_PlayerName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_UNKNOWN_S">
+			<Text>{1_PlayerName} is plotting against someone.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_UNKNOWN">
+			<Text>{1_SpyRank} {2_SpyName} in {3_CityName} uncovered that {4_PlayerName} is secretly plotting against an unmet civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_PLOTTING_AGAINST_YOU">
+			<Text>{1_PlayerName} is secretly plotting against you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_PLOTTING_AGAINST_KNOWN">
+			<Text>{1_PlayerName} is secretly plotting against {2_PlayerName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_PLOTTING_AGAINST_UNKNOWN">
+			<Text>{1_PlayerName} is secretly plotting against a civilization you have not met.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_ARMY_S">
+			<Text>{1_PlayerName} is building up for a sneak attack!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_ARMY">
+			<Text>{1_SpyRank} {2_SpyName} uncovered that {3_PlayerName} is building up an army for a sneak attack against another civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_BUILDING_ARMY">
+			<Text>{1_PlayerName} is building up an army for a sneak attack against another civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_AMPHIBIOUS_ARMY_S">
+			<Text>{1_PlayerName} is building up for a naval sneak attack!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_AMPHIBIOUS_ARMY">
+			<Text>{1_SpyRank} {2_SpyName} uncovered that {3_PlayerName} is building up an army with naval escorts for a sneak attack against another civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_BUILDING_AMPHIBIOUS_ARMY">
+			<Text>{1_PlayerName} is building up an army with naval escorts for a sneak attack against another civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_KNOWN_S">
+			<Text>{1_PlayerName} launched a sneak attack against your city, {2_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_KNOWN">
+			<Text>{1_SpyRank} {2_SpyName} discovered that {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {3_CivAdj}} army is currently marching toward your city of {4_CityName} to launch a surprise attack!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_KNOWN">
+			<Text>{1_PlayerName} launched a sneak attack against your city, {2_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_UNKNOWN_S">
+			<Text>{1_PlayerName} launched a sneak attack against you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_UNKNOWN">
+			<Text>{1_SpyRank} {2_SpyName} discovered that {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {3_CivAdj}} army is currently marching toward you to launch a surprise attack!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_UNKNOWN">
+			<Text>{1_PlayerName} launched a sneak attack against you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_KNOWN_S">
+			<Text>{1_PlayerName} launched a sneak attack on {2_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_KNOWN">
+			<Text>{1_SpyRank} {2_SpyName} discovered that {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {3_CivAdj}} army is currently marching toward the {4_CivAdj} city of {5_CityName} to launch a surprise attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_KNOWN">
+			<Text>{1_PlayerName} launched a sneak attack against the {2_CivAdj} city of {3_CityName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_UNKNOWN_S">
+			<Text>{1_PlayerName} launched a sneak attack on {2_PlayerName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_UNKNOWN">
+			<Text>{1_SpyRank} {2_SpyName} discovered that {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {3_CivAdj}} army is currently marching toward {4_CivDesc} to launch a surprise attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_UNKNOWN">
+			<Text>{1_PlayerName} launched a sneak attack on {2_PlayerName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_UNKNOWN_S">
+			<Text>{1_PlayerName} launched a sneak attack on an unmet civ.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_UNKNOWN">
+			<Text>{1_SpyRank} {2_SpyName} discovered that {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {3_CivAdj}} army is currently marching toward a civilization you have not met to launch a surprise attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_UNKNOWN">
+			<Text>{1_PlayerName} launched a sneak attack on an unmet civ.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_SOMEONE_S">
+      <Text>{1_PlayerName} launched a sneak attack on another civ.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_SOMEONE">
+      <Text>{1_SpyRank} {2_SpyName} discovered that {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {3_CivAdj}} army is currently marching a surprise attack against another civilization. We do not know which civ they are targeting.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_SOMEONE">
+      <Text>{1_PlayerName} launched a sneak attack on another civ.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_KNOWN_S">
+			<Text>{1_PlayerName} embarked a force to sneak attack your city, {2_CityName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_KNOWN">
+			<Text>{1_SpyRank} {2_SpyName} discovered that {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {3_CivAdj}} army with naval escorts is currently sailing toward your city of {4_CityName} to launch a surprise attack!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_KNOWN">
+			<Text>{1_PlayerName} launched an amphibious sneak attack against your city, {2_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_UNKNOWN_S">
+			<Text>{1_PlayerName} embarked a force to sneak attack you!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_UNKNOWN">
+			<Text>{1_SpyRank} {2_SpyName} discovered that {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {3_CivAdj}} army with naval escorts is currently sailing towards you to launch a surprise attack!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_UNKNOWN">
+			<Text>{1_PlayerName} launched an amphibious sneak attack against you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_KNOWN_S">
+			<Text>{1_PlayerName} embarked a force to sneak attack {2_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_KNOWN">
+			<Text>{1_SpyRank} {2_SpyName} discovered that {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {3_CivAdj}} army with naval escorts is currently sailing towards the {4_CivAdj} city of {5_CityName} to launch a surprise attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_KNOWN">
+			<Text>{1_PlayerName} launched an amphibious sneak attack against the {2_CivAdj} city of {3_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_UNKNOWN_S">
+			<Text>{1_PlayerName} embarked a force to sneak attack {2_PlayerName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_UNKNOWN">
+			<Text>{1_SpyRank} {2_SpyName} discovered that {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {3_CivAdj}} army with naval escorts is currently sailing towards {4_CivDesc} to launch a surprise attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_UNKNOWN">
+			<Text>{1_PlayerName} launched an amphibious sneak attack against {2_PlayerName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_UNKNOWN_S">
+			<Text>{1_PlayerName} embarked a force to sneak attack an unmet civ.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_UNKNOWN">
+			<Text>{1_SpyRank} {2_SpyName} discovered that {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {3_CivAdj}} army with naval escorts is currently sailing towards a civ you have not met to launch a sneak attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_UNKNOWN">
+			<Text>{1_PlayerName} launched an amphibious sneak attack against an unmet player.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_SOMEONE_S">
+      <Text>{1_PlayerName} embarked a force to sneak attack on another civ.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_SOMEONE">
+      <Text>{1_SpyRank} {2_SpyName} discovered that {TXT_KEY_GRAMMAR_A_AN &lt;&lt; {3_CivAdj}} army with naval escorts has set sail for a sneak attack. We do not know which civ they are targeting.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_SOMEONE">
+      <Text>{1_PlayerName} launched an amphibious sneak attack against another player.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_CONSTRUCT_WONDER_S">
+      <Text>{1_PlayerName} is constructing {2_WonderOrProject}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_CONSTRUCT_WONDER">
+      <Text>{1_SpyRank} {2_SpyName} discovered that {3_PlayerName} is constructing {4_WonderOrProject} in {5_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_CONSTRUCT_WONDER">
+      <Text>{1_PlayerName} is constructing {2_WonderOrProject} in {3_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_CONSTRUCT_WONDER_WO_CITY">
+      <Text>{1_PlayerName} is constructing {2_WonderOrProject}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_SUCCESS_S">
+			<Text>{1_CityName} election rigged!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_SUCCESS">
+			<Text>{1_SpyRank} {2_SpyName} successfully rigged the local elections in {3_CityName}, increasing your influence and reducing the influence of other major civs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_FAILURE_S">
+			<Text>{1_CityName} election rigging failure!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_FAILURE">
+			<Text>{1_SpyRank} {2_SpyName} failed to rig the local elections in {3_CityName}. {4_CivShortDesc} succeeded in rigging them and have gained influence there.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_ALERT_S">
+			<Text>{1_CityName} election shenanigans!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_ALERT">
+			<Text>After recent elections, your influence surprisingly fell in {1_CityName}. This probably reflects the involvement of enemy spies rigging the local elections.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_SUCCESS">
+			<Text>{1_SpyRank} {2_SpyName} staged a coup in {3_CityName}, overthrowing the {4_CivShortDesc} supporters to put a group in office that are in alliance with you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_SUCCESS_S">
+			<Text>{1_CityName} Coup Success!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_FAILURE">
+			<Text>{1_SpyRank} {2_SpyName} attempted a coup in {3_CityName} but failed to overthrow the {4_CivShortDesc} supporters that were leading the city. {1_SpyRank} {2_SpyName} died in the attempt.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_FAILURE_S">
+			<Text>{1_CityName} Coup Failure!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_SUCCESS">
+			<Text>{1_CivShortDesc} staged a coup in {2_CityName}, ousted the {3_CivAdj} supporters, and installed their own supporters in the government to become the new ally of the city-state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_SUCCESS_S">
+			<Text>{1_CivAdj} Coup in {2_CityName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_FAILURE">
+			<Text>{1_CivShortDesc} attempted a coup in {2_CityName} but failed to overthrow the {3_CivAdj} supporters that have an alliance with the city-state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_FAILURE_S">
+			<Text>{1_CivAdj} Coup in {2_CityName} Failed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_OCCUPYING_CITY">
+			<Text>{1_AgentName} is occupying this city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_FULL_NAME">
+			<Text>{1_RankName} {2_AgentName}</Text>
+		</Row>
+		<!-- EO screen -->
+		<Row Tag="TXT_KEY_EO_POTENTIAL_SORT_TT">
+			<Text>Potential indicates how quickly technologies may be stolen from a city. The higher the value, the faster technologies may be stolen. The base value comes from the amount of science generated by the city. Potential may be decreased by defensive buildings in the city, such as the Constabulary and the Police Station. Potential may increase when using a higher ranking spy to steal technologies from the city.[NEWLINE][NEWLINE]Click to sort cities by their potential.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_SORT_TT">
+			<Text>Name of the city.[NEWLINE][NEWLINE]Click to sort cities by their name.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CIVILIZATION_SORT_TT">
+			<Text>Which civilization controls the city.[NEWLINE][NEWLINE]Click to sort cities by their civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_POPULATION_SORT_TT">
+			<Text>The population of the city. The greater the population, the more likely it is to produce a lot of science. The more science a city produces, the greater the Potential value may be.[NEWLINE][NEWLINE]Click to sort cities by their population.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_UNKNOWN_POTENTIAL_TT">
+			<Text>The Potential of this city is unknown. To see the Potential of this city, move a spy to this city to establish surveillance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_STATE_POTENTIAL_TT">
+			<Text>Technologies may not be stolen from City-States, so they do not have a Potential value.[NEWLINE][NEWLINE]Sending a spy into a City-State will increase your influence there by rigging elections. If there is more than one spy in the city, the highest ranked spy who has been in the City-State the longest has the greatest chance of rigging the election. Spies in City-States may also attempt a coup if another civilization is allied with the City-State.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_OWN_CITY_POTENTIAL_TT">
+			<Text>The Potential of {1_CityName} is {2_Num}.[NEWLINE][NEWLINE]You always know the potential of your own cities. If you are in the lead technologically, you should consider protecting your high Potential cities. There are two ways to do this. You may move your own spies to your cities to act as counterspies that have a chance to catch and kill enemy spies before they steal a technology. You may also slow down how quickly enemy spies can steal technologies by constructing buildings like the Constabulary, Police Station, and the Great Firewall.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_POTENTIAL_TT">
+			<Text>{1_SpyRank} {2_SpyName} is stealing {3_Num} Potential from {4_CityName}.[NEWLINE]The base Potential of {5_CityName} is {6_Num}.[NEWLINE][NEWLINE]Potential indicates how quickly technologies may be stolen from a city. The higher the value, the faster technologies may be stolen. The base value comes from the amount of science generated by the city. Potential may be decreased by defensive buildings in the city, such as the Constabulary and the Police Station. Potential may increase when using a higher ranking spy to steal technologies from the city.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_EO_CITY_POTENTIAL_CANNOT_STEAL_TT">
+      <Text>{1_SpyRank} {2_SpyName} cannot steal technologies from {3_CityName} because they do not have any technologies that you lack.[NEWLINE][NEWLINE]The base Potential of {4_CityName} is {5_Num}.[NEWLINE][NEWLINE]Potential indicates how quickly technologies may be stolen from a city. The higher the value, the faster technologies may be stolen. The base value comes from the amount of science generated by the city. Potential may be decreased by defensive buildings in the city, such as the Constabulary and the Police Station. Potential may increase when using a higher ranking spy to steal technologies from the city.</Text>
+    </Row>
+		<Row Tag="TXT_KEY_EO_CITY_ONCE_KNOWN_POTENTIAL_TT">
+			<Text>The Potential of {1_CityName} was last known to be {2_Num}.[NEWLINE][NEWLINE]This was the last measure of Potential in this city from one of your spies. To get a more up-to-date reading, move one of your spies into this citiy.[NEWLINE][NEWLINE]Potential indicates how quickly technologies may be stolen from a city. The higher the value, the faster technologies may be stolen. The base value comes from the amount of science generated by the city. Potential may be decreased by defensive buildings in the city, such as the Constabulary and the Police Station. Potential may increase when using a higher ranking spy to steal technologies from the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_CIV_TT">
+			<Text>{1_CityName} is controlled by {@2_CivShortDesc}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_CIV_CITY_STATE_TT">
+			<Text>{1_CityName} is a [COLOR_POSITIVE_TEXT]{2_CityStateTraitAdj}[ENDCOLOR] City-State.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_NAME_TT">
+			<Text>{1_CityName} is controlled by {@2_CivShortDesc}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_NAME_CITY_STATE_TT">
+			<Text>{1_CityName} is a [COLOR_POSITIVE_TEXT]{2_CityStateTraitAdj}[ENDCOLOR] City-State.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_POPULATION_TT">
+			<Text>The population of {1_CityName} is {2_Num}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_VIEW_ENABLED_TT">
+			<Text>Click to view the city screen of {1_CityName}.[NEWLINE][NEWLINE]You may see the other player's city screen if you have a spy that has established surveillance in that city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_VIEW_ENABLED_YOUR_CITY_TT">
+			<Text>Click to view the city screen of {1_CityName}.[NEWLINE][NEWLINE]You may always see into your own cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_TT">
+			<Text>You may not see the city screen of {1_CityName}.[NEWLINE][NEWLINE]If you want to see the city screen, move a spy into the city and have it establish surveillance.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_WAIT_TT">
+			<Text>You may not see the city screen of {1_CityName}.[NEWLINE][NEWLINE]You have a spy in this city, but you must wait for it to establish surveillance before you can see the city screen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_NO_CITY_TT">
+			<Text>A spy must be moved to a city to be able to view a city screen.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_YOUR_CITY_TT">
+      <Text>You do not need to see the city screen of {1_CityName} through the eyes of a spy.[NEWLINE][NEWLINE]You are the owner of this city and don't need to have a spy tell you what is there.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_RANK_TT">
+			<Text>{1_SpyName} has achieved the rank of {2_RankName}.[NEWLINE][NEWLINE]There are three spy ranks: Recruit, Agent, and Special Agent. Each subsequent level makes the spy more effective. A higher ranking spy will steal technologies faster, discover and kill enemy spies that are trying to steal from you more frequently, rig elections in City-States more effectively, and have a greater chance of pulling off a coup in a City-State allied with another civilization.[NEWLINE][NEWLINE]Spies level up when they successfully steal technology from another civilization or kill an enemy spy attempting to steal their technology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_LOCATION_TT">
+			<Text>{1_SpyRank} {2_SpyName} is currently in {3_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_MOVE_TT">
+			<Text>Click to move {1_SpyRank} {2_SpyName} to a new location.[NEWLINE][NEWLINE]When a spy is directed to move to a new city, it takes a number of turns before it becomes fully effective.[NEWLINE][NEWLINE]If the spy is moving to its owner's city, it will begin counter-espionage to uncover and kill enemy spies.[NEWLINE][NEWLINE]If a spy is moved to a city that is owned by a another civilization, the spy will begin trying to steal a technology from that civilization. A spy can only steal from a civilization that knows any technology that the spy's owner does not. If the owner of the city has a spy defending the city, your spy has a chance of being discovered and killed. This may strain diplomatic relations![NEWLINE][NEWLINE]If the spy moves to a city that is a City-State, the spy will attempt to rig the elections to increase your influence over the city-state.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_COUP_ENABLED_TT">
+			<Text>Click to have {1_SpyRank} {2_SpyName} attempt a coup in {3_CityName} to overthrow the {4_CivAdjective} sympathizers there.[NEWLINE][NEWLINE]They have a {5_Num}% chance of success. If {6_SpyRank} {7_SpyName} succeeds, you will become allies with {8_CityName} and {9_CivShortDesc} will be lowered to your current influence amount. Then all other players influence will drop. If {10_SpyRank} {11_SpyName} fails, they will be killed and your influence with {12_CityName} will greatly diminish.[NEWLINE][NEWLINE]To increase your chance of success, you may increase your influence over the City-State, use a higher ranking spy, or wait for the current ally's influence to decay.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_WAIT_TT">
+			<Text>{1_SpyRank} {2_SpyName} may not attempt a coup in {3_CityName} yet because they have not completed surveillance there.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_NO_ALLY_TT">
+			<Text>{1_SpyRank} {2_SpyName} may not attempt a coup in {3_CityName} because no one is currently allied with {4_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_YOU_ALLY_TT">
+			<Text>{1_SpyRank} {2_SpyName} may not attempt a coup in {3_CityName} because you are currently allies with the City-State!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_BUTTON_DISABLED_SPY_DEAD_TT">
+			<Text>{1_SpyRank} {2_SpyName} is dead. Leave them in peace.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_NAMEPLATE_TT">
+			<Text>This is your spy, {1_SpyRank} {2_SpyName}.[NEWLINE][NEWLINE]Spies must be moved into cities to have any effect.[NEWLINE][NEWLINE]If your spy is in one of your cities, they will try to capture and kill any enemy spies that are trying to steal your technology.[NEWLINE][NEWLINE]If your spy is in another civilization's city, they will try to steal technology from that civilization. The spy will also report any intrigue it discovers, such as the civilization planning sneak attacks against you or other civilizations.[NEWLINE][NEWLINE]If your spy is in a City-State, they will try to rig the local elections to increase your influence there.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_NEEDS_ASSIGNMENT_TT">
+			<Text>Move your spy to a city so it can begin doing dastardly deeds.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_UNASSIGNED_TT">
+			<Text>{1_RankName} {2_SpyName} is sitting around the hideout doing nobody no good.[NEWLINE][NEWLINE]Move them to a city to do some sneaky stuff!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_RIGGING_ELECTIONS_TT">
+			<Text>{1_RankName} {2_SpyName} is attempting to rig the election in {3_CityName} to increase our influence there.[NEWLINE][NEWLINE]Only one civilization may successfuly rig an election. If more than one spy is in a City-State, the highest ranked spy that has been in that City-State the longest has the greatest chance of successfully rigging the election in its favor.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_TRAVELLING_TT">
+			<Text>{1_RankName} {2_SpyName} is currently moving to {3_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_SURVEILLANCE_TT">
+			<Text>{1_RankName} {2_SpyName} is establishing surveillance in {3_CityName}.[NEWLINE][NEWLINE]Once surveillance is established, the spy can begin doing more advanced operations in the city. Surveillance also allows you to see into the city screen for other civilization's cities. (But not into City-States.)[NEWLINE][NEWLINE]Surveillance also allows the spy to uncover intrigue, such as plans for sneak attacks that the civilization is drawing up. This information can be important!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_GATHERING_INTEL_TT">
+			<Text>{1_RankName} {2_SpyName} is gathering intelligence in {3_CityName} to steal a technology.[NEWLINE][NEWLINE]A spy may only attempt to steal a technology if the targeted civilization has discovered a technology that the spy's civilization does not.[NEWLINE][NEWLINE]If the city's owner has a spy in the city, your spy has a chance of being discovered and killed when they try to steal the technology!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_TT">
+			<Text>{1_RankName} {2_SpyName} is conducting counter-intelligence operations in {3_CityName}.[NEWLINE][NEWLINE]If an enemy spy tries to steal a technology from the city you have the spy in, your spy will ensure that the theft is detected. It has a chance of determining who stole the information as well as killing the enemy spy outright. The higher rank your spy, the more likely you are to kill the enemy spy when they are trying to steal your technology.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_SPY_RANK_TT">
+      <Text>{1_Num}% increased chance of killing enemy spies due to the rank of {2_RankName} {3_SpyName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_POLICY_TT">
+      <Text>{1_Num}% increased chance of killing enemy spies due to Police State policy.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_SUM_TT">
+      <Text>{1_Num}% total chance to kill enemy spy.</Text>
+    </Row>
+		<Row Tag="TXT_KEY_EO_OVERVIEW">
+			<Text>Overview</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_OVERVIEW_TT">
+			<Text>The Overview screen allows you to see your spies and assign them to cities around the world to do surveillance, steal technology, discover intrigue, or rig City-State elections.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_INTRIGUE">
+			<Text>Intrigue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_INTRIGUE_TT">
+			<Text>The Intrigue screen shows you what you have learned from your spies and other civilizations about what other civilizations are planning.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_UNASSIGNED_SPIES_TT">
+			<Text>You have {1_Num: plural 1?a spy that is not; other?{1_Num} spies that are not;} assigned to tasks.[NEWLINE][NEWLINE]Spies can steal technologies from other civilizations, uncover other civilization's plans through intrigue, and increase your influence over City-States by rigging elections. Assign spies in the Espionage Overview screen to have them start working!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_SPY_OTHER_CIV_TT">
+			<Text>{1_SpyRank} {2_SpyName} is in {3_CityName}. While {4_SpyRank} {5_SpyName} is in the city, they establish surveillance and then attempt to steal any technology from that civilization that you do not know. {6_SpyRank} {7_SpyName} will also inform you of any intrigue that they discover during their operations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_SPY_CITY_STATE_TT">
+			<Text>{1_SpyRank} {2_SpyName} is in {3_CityName}. While {4_SpyRank} {5_SpyName} is in the City-State, they establish surveillance and then attempt to rig elections to increase your influence over the City-State. If other spies are present, you may not be able to rig every election.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_SPY_YOUR_CITY_TT">
+			<Text>{1_SpyRank} {2_SpyName} is in {3_CityName}. While {4_SpyRank} {5_SpyName} is in your city, they will perform counter-espionage operations to capture and kill any enemy spies that try to steal your technology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOVE_SPY_INSTRUCTIONS">
+			<Text>Choose a city to move {1_SpyRank} {2_SpyName} into to begin operations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOVE_SPY_HIDEOUT_BUTTON">
+			<Text>Move to Hideout</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOVE_SPY_HIDEOUT_BUTTON_TT">
+			<Text>This moves the spy out of active duty and into the spy hideout where they play darts with pointy steak knives while they wait for their next assignment.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOVE_SPY_CANCEL">
+			<Text>Cancel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOVE_SPY_CANCEL_TT">
+			<Text>This cancels the spy's movement and keeps them in their current location.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_POTENTIAL_BUILDING_MOD_TITLE">
+			<Text>Change from buildings and wonders:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_POTENTIAL_BUILDING_MOD_ENTRY">
+			<Text>{1_BuildingName}: {2_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_POTENTIAL_WONDER_MOD_TITLE">
+			<Text>Change from wonders in other cities:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_POTENTIAL_WONDER_MOD_ENTRY">
+			<Text>{1_WonderName}: {2_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_POTENTIAL_POLICY_MOD_TITLE">
+			<Text>Change from social policies:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_POTENTIAL_POLICY_MOD_ENTRY">
+			<Text>{1_SocialPolicyName}: {2_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY_YOU">
+			<Text>You have adopted {1_SocialPolicyName}, which provides a {2_Num}% increased chance in catching enemy spies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY_THEM">
+			<Text>{1_PlayerName} has adopted {2_SocialPolicyName}, which provides a {3_Num}% increased chance in catching enemy spies.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_STATE_ELECTION">
+			<Text>All city-states around the world hold elections simultaneously every {1_Num} turns. The next election will be in {2_Num} turns.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_NO_INTRIGUE_AVAILABLE">
+			<Text>No Intrigue Available</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_MOVE_SPY_TO_HIDEOUT_CHECK">
+			<Text>Are you sure you want to move {1_SpyRank} {2_SpyName} to the hideout?[NEWLINE][NEWLINE]Any action that the spy is currently doing will be cancelled when moved to the hideout. Spies cannot help you while assigned to the hideout, but they also cannot be killed there.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_EO_UNKNOWN_POTENTIAL">
+      <Text>?</Text>
+    </Row>
+	</Language_en_US>
+</GameData>

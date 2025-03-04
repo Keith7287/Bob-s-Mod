@@ -1,0 +1,10 @@
+<LeaderScene FarClip="100000" lights="Venice_Dandolo_Lights.gr2" camera="Venice_Dandolo_Camera.fxsxml" cubemap_prefix="Dandolo" FallbackImage="Dandolo.dds" >
+
+<DOFSettings max_width="4" blur_distance="2857" ramp_distance="1500" ></DOFSettings> 
+
+<LeaderObject model="Venice_Dandolo.fxsxml"/>
+<BackgroundObject  model="Venice_Dandolo_Scene.fxsxml" ></BackgroundObject>
+<BackgroundObject  model="Venice_Dandolo_Scene_VFX.fxsxml" ></BackgroundObject>
+
+</LeaderScene>
+

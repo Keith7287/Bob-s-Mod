@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- Table definition -->
+    <Table name="CitySizes">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" notnull="true" unique="true" />
+    </Table>
+
+    <!-- Table data -->
+    <CitySizes>
+        <Row>
+            <ID>0</ID>
+            <Type>CITYSIZE_SMALL</Type>
+        </Row>
+        <Row>
+            <Type>CITYSIZE_MEDIUM</Type>
+        </Row>
+        <Row>
+            <Type>CITYSIZE_LARGE</Type>
+        </Row>
+    </CitySizes>
+</GameData>

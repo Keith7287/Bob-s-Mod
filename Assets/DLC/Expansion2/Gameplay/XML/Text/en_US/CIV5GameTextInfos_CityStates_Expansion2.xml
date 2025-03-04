@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+<!--File created by Michelle Menard-->
+<GameData>
+	<Language_en_US>
+		<!-- Old city-state names to be used in new major civs -->
+		<!--
+		<Delete Tag="TXT_KEY_CITYSTATE_DUBLIN"/>
+		<Delete Tag="TXT_KEY_CITYSTATE_DUBLIN_ADJ"/>
+		<Delete Tag="TXT_KEY_CITYSTATE_STOCKHOLM"/>
+		<Delete Tag="TXT_KEY_CITYSTATE_STOCKHOLM_ADJ"/>
+		<Delete Tag="TXT_KEY_CITYSTATE_EDINBURGH"/>
+		<Delete Tag="TXT_KEY_CITYSTATE_EDINBURGH_ADJ"/>
+		<Delete Tag="TXT_KEY_CITYSTATE_VIENNA"/>
+		<Delete Tag="TXT_KEY_CITYSTATE_VIENNA_ADJ"/>
+		<Delete Tag="TXT_KEY_CITYSTATE_HELSINKI"/>
+		<Delete Tag="TXT_KEY_CITYSTATE_HELSINKI_ADJ"/>
+		-->
+		<!-- New city-state names -->
+		<Row Tag="TXT_KEY_CITYSTATE_ANTANANARIVO">
+			<Text>Antananarivo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_ANTANANARIVO_ADJ">
+			<Text>Antananarivo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BOGOTA">
+			<Text>Bogota</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BOGOTA_ADJ">
+			<Text>Bogotan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BRATISLAVA">
+			<Text>Bratislava</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BRATISLAVA_ADJ">
+			<Text>Bratislavan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BUENOS_AIRES">
+			<Text>Buenos Aires</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BUENOS_AIRES_ADJ">
+			<Text>Buenos Aires</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BYBLOS">
+			<Text>Byblos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_BYBLOS_ADJ">
+			<Text>Byblos</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_IFE">
+			<Text>Ife</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_IFE_ADJ">
+			<Text>Ife</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_KABUL">
+			<Text>Kabul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_KABUL_ADJ">
+			<Text>Kabul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_KIEV">
+			<Text>Kiev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_KIEV_ADJ">
+			<Text>Kievan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_KYZYL">
+			<Text>Kyzyl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_KYZYL_ADJ">
+			<Text>Kyzyl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MALACCA">
+			<Text>Malacca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MALACCA_ADJ">
+			<Text>Malacca</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MBANZA_KONGO">
+			<Text>M'banza-Kongo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MBANZA_KONGO_ADJ">
+			<Text>Kongolese</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MELBOURNE">
+			<Text>Melbourne</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MELBOURNE_ADJ">
+			<Text>Melburnian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MOGADISHU">
+			<Text>Mogadishu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_MOGADISHU_ADJ">
+			<Text>Mogadishu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_ORMUS">
+			<Text>Ormus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_ORMUS_ADJ">
+			<Text>Ormus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_PANAMA_CITY">
+			<Text>Panama City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_PANAMA_CITY_ADJ">
+			<Text>Panamanian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_RIGA">
+			<Text>Riga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_RIGA_ADJ">
+			<Text>Rigan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SAMARKAND">
+			<Text>Samarkand</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SAMARKAND_ADJ">
+			<Text>Samarkand</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SOFIA">
+			<Text>Sofia</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SOFIA_ADJ">
+			<Text>Sofian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_UR">
+			<Text>Ur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_UR_ADJ">
+			<Text>Ur</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_VANCOUVER">
+			<Text>Vancouver</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_VANCOUVER_ADJ">
+			<Text>Vancouverite</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_VILNIUS">
+			<Text>Vilnius</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_VILNIUS_ADJ">
+			<Text>Vilnian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_WELLINGTON">
+			<Text>Wellington</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_WELLINGTON_ADJ">
+			<Text>Wellingtonian</Text>
+		</Row>
+		<!-- Old city-state names used in DLC civs -->
+		<!--
+		<Delete Tag="TXT_KEY_CITYSTATE_COPENHAGEN"/>
+		<Delete Tag="TXT_KEY_CITYSTATE_COPENHAGEN_ADJ"/>
+		<Delete Tag="TXT_KEY_CITYSTATE_OSLO"/>
+		<Delete Tag="TXT_KEY_CITYSTATE_OSLO_ADJ"/>
+		<Delete Tag="TXT_KEY_CITYSTATE_SEOUL"/>
+		<Delete Tag="TXT_KEY_CITYSTATE_SEOUL_ADJ"/>
+		-->
+		<!-- Replacement names for old city-state names used in DLC civs -->
+		<Row Tag="TXT_KEY_CITYSTATE_SYDNEY">
+			<Text>Sydney</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_SYDNEY_ADJ">
+			<Text>Sydney</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_QUEBEC_CITY">
+			<Text>Quebec City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_QUEBEC_CITY_ADJ">
+			<Text>Quebec City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_KATHMANDU">
+			<Text>Kathmandu</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYSTATE_KATHMANDU_ADJ">
+			<Text>Kathmandu</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

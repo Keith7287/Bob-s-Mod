@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- Table definition -->
+    <Table name="Attitudes">
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text" notnull="true" unique="true" />
+        <Column name="Description" type="text" />
+    </Table>
+
+    <!-- Table data -->
+    <Attitudes>
+        <Row>
+            <ID>0</ID>
+            <Type>ATTITUDE_FURIOUS</Type>
+            <Description>TXT_KEY_ATTITUDE_FURIOUS</Description>
+        </Row>
+        <Row>
+            <Type>ATTITUDE_ANNOYED</Type>
+            <Description>TXT_KEY_ATTITUDE_ANNOYED</Description>
+        </Row>
+        <Row>
+            <Type>ATTITUDE_CAUTIOUS</Type>
+            <Description>TXT_KEY_ATTITUDE_CAUTIOUS</Description>
+        </Row>
+        <Row>
+            <Type>ATTITUDE_PLEASED</Type>
+            <Description>TXT_KEY_ATTITUDE_PLEASED</Description>
+        </Row>
+        <Row>
+            <Type>ATTITUDE_FRIENDLY</Type>
+            <Description>TXT_KEY_ATTITUDE_FRIENDLY</Description>
+        </Row>
+    </Attitudes>
+</GameData>

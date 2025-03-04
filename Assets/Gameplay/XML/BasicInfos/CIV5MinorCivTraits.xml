@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="MinorCivTraits">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+    <Column name="Type" type="text" notnull="true" unique="true"/>
+    <Column name="Description" type="text"/>
+    <Column name="TraitIcon" type="text" default="NULL"/>
+    <Column name="TraitTitleIcon" type="text" default="NULL"/>
+    <Column name="BackgroundImage" type="text" />
+  </Table>
+  <Table name="MinorCivTraits_Status">
+    <Column name="Type" type="text" />
+    <Column name="StatusIcon" type="text" />
+    <Column name="StatusMeter" type="text" />
+  </Table>
+	<!-- Table data -->
+	<MinorCivTraits>
+		<Row>
+			<ID>0</ID>
+			<Type>MINOR_TRAIT_CULTURED</Type>
+      <Description>TXT_KEY_MINOR_TRAIT_CULTURED</Description>
+      <TraitIcon>CityStateCultured.dds</TraitIcon>
+      <TraitTitleIcon>CityStatePopupTop200.dds</TraitTitleIcon>
+      <BackgroundImage>citystatebackgroundculture.dds</BackgroundImage>
+		</Row>
+		<Row>
+			<Type>MINOR_TRAIT_MILITARISTIC</Type>
+      <Description>TXT_KEY_MINOR_TRAIT_MILITARISTIC</Description>
+      <TraitIcon>CityStateMilitaristic.dds</TraitIcon>
+      <TraitTitleIcon>CityStatePopupTop100.dds</TraitTitleIcon>
+      <BackgroundImage>citystatebackgroundmilitary.dds</BackgroundImage>
+    </Row>
+		<Row>
+			<Type>MINOR_TRAIT_MARITIME</Type>
+      <Description>TXT_KEY_MINOR_TRAIT_MARITIME</Description>
+      <TraitIcon>CityStateMaritime.dds</TraitIcon>
+      <TraitTitleIcon>CityStatePopupTop300.dds</TraitTitleIcon>
+      <BackgroundImage>citystatebackgroundmaritime.dds</BackgroundImage>
+    </Row>
+	</MinorCivTraits>
+  <MinorCivTraits_Status>
+    <Row>
+      <Type>FRIENDSHIP_THRESHOLD_ALLIES</Type>
+      <StatusIcon>CityStateMeterBlue32.dds</StatusIcon>
+      <StatusMeter>CityStateMeterBaseBlue.dds</StatusMeter>
+    </Row>
+    <Row>
+      <Type>FRIENDSHIP_THRESHOLD_FRIENDS</Type>
+      <StatusIcon>CityStateMeterGreen32.dds</StatusIcon>
+      <StatusMeter>CityStateMeterBaseGreen.dds</StatusMeter>
+    </Row>
+    <Row>
+      <Type>MINOR_FRIENDSHIP_AT_WAR</Type>
+      <StatusIcon>CityStateMeterRed32.dds</StatusIcon>
+      <StatusMeter>CityStateMeterBaseRed.dds</StatusMeter>
+    </Row>
+    <Row>
+      <Type>FRIENDSHIP_THRESHOLD_NEUTRAL</Type>
+      <StatusIcon>CityStateMeterBlack32.dds</StatusIcon>
+      <StatusMeter>CityStateMeterBaseGreen.dds</StatusMeter>
+    </Row>
+  </MinorCivTraits_Status>
+</GameData>

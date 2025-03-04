@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Michael Curran (Firaxis Games) -->
+<!-- Denmark ********************************************************** -->
+<UnitMemberArtInfos>
+  <!-- U_DANISH_BERSERKER ********************************************** -->
+  <UnitMemberArtInfo>
+    <Type>ART_DEF_UNIT_MEMBER_U_DANISH_BERSERKER</Type>
+    <fScale>0.16</fScale>
+    <Granny>U_Denmark_Berserker.fxsxml</Granny>
+    <Combat>
+      <Defaults>ART_DEF_TEMPLATE_WARRIOR</Defaults>
+      <Weapon>
+        <WeaponTypeTag>METAL</WeaponTypeTag>
+        <WeaponTypeSoundOverrideTag>SWORD</WeaponTypeSoundOverrideTag>
+      </Weapon>
+      <Weapon>
+        <Usage>Vs_City ShortRange</Usage>
+        <fVisKillStrengthMin>10.0</fVisKillStrengthMin>
+        <fVisKillStrengthMax>20.0</fVisKillStrengthMax>
+        <WeaponTypeTag>FLAMING_ARROW</WeaponTypeTag>
+      </Weapon>
+    </Combat>
+    <MaterialTypeTag>CLOTH</MaterialTypeTag>
+    <MaterialTypeSoundOverrideTag>FLESH</MaterialTypeSoundOverrideTag>
+  </UnitMemberArtInfo>
+  <!-- U_DANISH_SKI_INFANTRY ********************************************** -->
+  <UnitMemberArtInfo>
+    <Type>ART_DEF_UNIT_MEMBER_U_DANISH_SKY_INFANTRY</Type>
+    <fScale>0.13</fScale>
+    <Granny>U_Denmark_Ski_Infantry.fxsxml</Granny>
+    <Combat>
+      <Defaults>ART_DEF_TEMPLATE_WARRIOR</Defaults>
+      <Weapon>
+        <WeaponTypeTag>BULLET</WeaponTypeTag>
+        <WeaponTypeSoundOverrideTag>BULLET</WeaponTypeSoundOverrideTag>
+      </Weapon>
+    </Combat>
+    <MaterialTypeTag>CLOTH</MaterialTypeTag>
+    <MaterialTypeSoundOverrideTag>FLESH</MaterialTypeSoundOverrideTag>
+  </UnitMemberArtInfo>
+  <!-- U_DANISH_LONGBOAT ********************************************** -->
+  <UnitMemberArtInfo>
+    <Type>ART_DEF_UNIT_MEMBER_U_DANISH_LONGBOAT</Type>
+    <fScale>0.10</fScale>
+    <Granny>U_Denmark_Longboat.fxsxml</Granny>
+    <Domain>Sea</Domain>
+    <Combat>
+      <Defaults>ART_DEF_TEMPLATE_SHIP</Defaults>
+      <bHasShortRangedAttack>1</bHasShortRangedAttack>
+      <bHasLongRangedAttack>1</bHasLongRangedAttack>
+      <bHasLeftRightAttack>1</bHasLeftRightAttack>
+      <bHasIndependentWeaponFacing>1</bHasIndependentWeaponFacing>
+      <Weapon>
+        <fVisKillStrengthMin>0.0</fVisKillStrengthMin>
+        <fVisKillStrengthMax>0.0</fVisKillStrengthMax>
+        <WeaponTypeTag>ARROW</WeaponTypeTag>
+        <WeaponTypeSoundOverrideTag>ARROW</WeaponTypeSoundOverrideTag>
+      </Weapon>
+    </Combat>
+    <MaterialTypeTag>WOOD</MaterialTypeTag>
+    <MaterialTypeSoundOverrideTag>WOODLRG</MaterialTypeSoundOverrideTag>
+  </UnitMemberArtInfo>
+  <!-- U_SAXON_HUSCARL ********************************************** -->
+  <UnitMemberArtInfo>
+    <Type>ART_DEF_UNIT_MEMBER_U_SAXON_HUSCARL</Type>
+    <fScale>0.14</fScale>
+    <Granny>U_Saxon_Huscarl.fxsxml</Granny>
+    <Combat>
+      <Defaults>ART_DEF_TEMPLATE_SOLDIER</Defaults>
+      <Weapon>
+        <WeaponTypeTag>METAL</WeaponTypeTag>
+        <WeaponTypeSoundOverrideTag>SWORD</WeaponTypeSoundOverrideTag>
+      </Weapon>
+      <Weapon>
+        <Usage>Vs_City ShortRange</Usage>
+        <fVisKillStrengthMin>10.0</fVisKillStrengthMin>
+        <fVisKillStrengthMax>20.0</fVisKillStrengthMax>
+        <WeaponTypeTag>FLAMING_ARROW</WeaponTypeTag>
+      </Weapon>
+    </Combat>
+    <MaterialTypeTag>ARMOR</MaterialTypeTag>
+    <MaterialTypeSoundOverrideTag>ARMOR</MaterialTypeSoundOverrideTag>
+  </UnitMemberArtInfo>
+</UnitMemberArtInfos>

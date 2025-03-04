@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<UnitPromotions>
+		<!--Earnable Promotions-->
+		<Row>
+			<Type>PROMOTION_MEDIC_GENERAL</Type>
+			<Description>TXT_KEY_PROMOTION_MEDIC_GENERAL</Description>
+			<Help>TXT_KEY_PROMOTION_MEDIC_GENERAL_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<EnemyHealChange>2</EnemyHealChange>
+			<NeutralHealChange>2</NeutralHealChange>
+			<FriendlyHealChange>2</FriendlyHealChange>
+			<AdjacentTileHealChange>2</AdjacentTileHealChange>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_MEDIC_GENERAL</PediaEntry>
+		</Row>
+		<Row>
+			<Type>PROMOTION_GAIN_EXPERIENCE</Type>
+			<Description>TXT_KEY_PROMOTION_GAIN_EXPERIENCE</Description>
+			<Help>TXT_KEY_PROMOTION_GAIN_EXPERIENCE_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<ExperiencePercent>50</ExperiencePercent>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_GAIN_EXPERIENCE</PediaEntry>
+		</Row>
+	</UnitPromotions>
+</GameData>

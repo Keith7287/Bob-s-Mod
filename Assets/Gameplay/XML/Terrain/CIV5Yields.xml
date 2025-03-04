@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<GameData>
+	<Table name="Yields">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text"/>
+		<Column name="IconString" type="text"/>
+		<Column name="HillsChange" type="integer" default="0"/>
+		<Column name="MountainChange" type="integer" default="0"/>
+		<Column name="LakeChange" type="integer" default="0"/>
+		<Column name="CityChange" type="integer" default="0"/>
+		<Column name="PopulationChangeOffset" type="integer" default="0"/>
+		<Column name="PopulationChangeDivisor" type="integer" default="0"/>
+		<Column name="MinCity" type="integer"/>
+		<Column name="GoldenAgeYield" type="integer" default="0"/>
+		<Column name="GoldenAgeYieldThreshold" type="integer" default="0"/>
+    <Column name="GoldenAgeYieldMod" type="integer" default="0"/>
+    <Column name="AIWeightPercent" type="integer"/>
+	</Table>
+	<Yields>
+		<Row>
+			<ID>0</ID>
+			<Type>YIELD_FOOD</Type>
+			<Description>TXT_KEY_YIELD_FOOD</Description>
+			<IconString>[ICON_FOOD]</IconString>
+			<LakeChange>1</LakeChange>
+			<MinCity>2</MinCity>
+			<GoldenAgeYield>0</GoldenAgeYield>
+			<GoldenAgeYieldThreshold>0</GoldenAgeYieldThreshold>
+			<AIWeightPercent>100</AIWeightPercent>
+		</Row>
+		<Row>
+			<ID>1</ID>
+			<Type>YIELD_PRODUCTION</Type>
+			<Description>TXT_KEY_YIELD_PRODUCTION</Description>
+			<IconString>[ICON_PRODUCTION]</IconString>
+			<MinCity>1</MinCity>
+			<GoldenAgeYieldMod>20</GoldenAgeYieldMod>
+			<AIWeightPercent>110</AIWeightPercent>
+		</Row>
+		<Row>
+			<ID>2</ID>
+			<Type>YIELD_GOLD</Type>
+			<Description>TXT_KEY_YIELD_GOLD</Description>
+			<IconString>[ICON_GOLD]</IconString>
+			<MinCity>0</MinCity>
+			<GoldenAgeYield>1</GoldenAgeYield>
+			<GoldenAgeYieldThreshold>1</GoldenAgeYieldThreshold>
+			<AIWeightPercent>80</AIWeightPercent>
+		</Row>
+		<Row>
+			<ID>3</ID>
+			<Type>YIELD_SCIENCE</Type>
+			<Description>TXT_KEY_YIELD_SCIENCE</Description>
+			<IconString>[ICON_RESEARCH]</IconString>
+			<MinCity>0</MinCity>
+			<AIWeightPercent>80</AIWeightPercent>
+		</Row>
+	</Yields>
+</GameData>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<!-- Table data -->
+	<Traits>
+		<Row>
+			<Type>TRAIT_TERROR</Type>
+			<Description>TXT_KEY_TRAIT_TERROR</Description>
+			<ShortDescription>TXT_KEY_TRAIT_TERROR_SHORT</ShortDescription>
+			<CityStateCombatModifier>30</CityStateCombatModifier>
+		</Row>
+	</Traits>
+	<Trait_MovesChangeUnitCombats>
+		<Row>
+			<TraitType>TRAIT_TERROR</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<MovesChange>1</MovesChange>
+		</Row>
+	</Trait_MovesChangeUnitCombats>
+</GameData>

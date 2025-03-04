@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Scott Lewis (Firaxis Games) -->
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+<!--File created by Paul Murphy-->
+<GameData>
+	<Language_en_US>
+
+		<!-- Eula Screen -->
+		<Row Tag="TXT_KEY_MODDING_EULA_ACCEPT">
+			<Text>Accept</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_EULA_BODY">
+			<Text>You are entering the Civilization V Mod Database.  Mods are fan created software packages that “modify” your game experience.  [COLOR_WARNING_TEXT]YOU USE MODS AT YOUR OWN RISK[ENDCOLOR]. We do not examine, monitor, support or guarantee this user created content.  You should take all precautions you normally take regarding downloading files from the internet before using mods. Please review your game manual or the documents located at www.take2games.com/EULA before proceeding.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_EULA_DECLINE">
+			<Text>Decline</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_EULA_TITLE">
+			<Text>EULA</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_MODDING_DOWNLOAD_AGREEMENT">
+			<Text>You are about to download a Mod or user created software package.  You use Mods at your own risk.[NEWLINE][NEWLINE]2K Games and Firaxis Games are not the creators of this Mod and it may contain viruses, worms, trojans, loggers or other malicious code.[NEWLINE][NEWLINE]By downloading this file you acknowledge and accept all associated risks and release 2K Games, Firaxis Games and their affiliates and agents from any and all responsibility related to your use of this file.</Text>
+		</Row>
+
+		<!-- Custom Game Menu -->
+		<Row Tag="TXT_KEY_SELECT_CUSTOM_GAME">
+			<Text>Select a custom game</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_CUSTOM_GAMES">
+			<Text>NO CUSTOM GAMES</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SELECT_SCENARIO">
+			<Text>Select a scenario</Text>
+		</Row>
+
+		<!-- Mods Menu -->
+		<Row Tag="TXT_KEY_MODDING_SINGLE_PLAYER">
+			<Text>SINGLE PLAYER</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_SINGLE_PLAYER_TT">
+			<Text>Play a modded single player game.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CUSTOMGAME">
+			<Text>CUSTOM GAME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CUSTOMGAME_TT">
+			<Text>Create a custom game using mods.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_SCENARIOS">
+			<Text>SCENARIOS</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_SCENARIOS_TT">
+			<Text>Play a scenario.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_MAPS">
+			<Text>SET UP GAME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_MAPS_TT">
+			<Text>Play a custom map.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LOADGAME">
+			<Text>LOAD GAME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_SAVEDGAMES_TT">
+			<Text>Play a previously saved game.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_MULTIPLAYER">
+			<Text>MULTIPLAYER</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_MULTIPLAYER_TT">
+			<Text>Play a modded multiplayer game.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_BROWSER">
+			<Text>BROWSE MODS</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_BROWSER_TT">
+			<Text>Browse installed/online mods.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_MAINMENU">
+			<Text>MAIN MENU</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_MODDING_MENU_BACK">
+			<Text>BACK</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_MODDING_SETUP_TITLE">
+			<Text>MODDING GAME SETUP</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_MODDING_SCENARIO_TITLE">
+			<Text>MODDING SCENARIO SETUP</Text>
+		</Row>
+
+		<!-- Browser Tabs -->
+		<Row Tag="TXT_KEY_MODDING_INSTALLED">
+			<Text>Installed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ONLINE">
+			<Text>Online</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DOWNLOADS">
+			<Text>Downloads</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_BACK" >
+			<Text>Back</Text>
+		</Row>
+
+		<!-- Browser -->
+		<Row Tag="TXT_KEY_MODDING_FILTER_LATEST_VERSION">
+			<Text>Show latest version only</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DESCRIPTION">
+			<Text>Description</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_FIRSTPAGE">
+			<Text>First page</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_PREVPAGE">
+			<Text>Previous page</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_NEXTPAGE">
+			<Text>Next page</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LASTPAGE">
+			<Text>Last page</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ENABLEMOD">
+			<Text>Enable</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DISABLEMOD">
+			<Text>Disable</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_UPDATEMOD">
+			<Text>Update</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DOWNLOADMOD">
+			<Text>Download</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DELETEMOD">
+			<Text>Delete</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_UNSUBSCRIBE_MOD">
+			<Text>Unsubscribe</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_UNSUBSCRIBE_CONFIRM">
+			<Text>Are you sure you wish to unsubscribe from this mod?  Doing so will remove the mod from your computer.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_MODDING_NEXT">
+      <Text>NEXT</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_WORKSHOP">
+      <Text>GET MODS</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_WORKSHOP_TT">
+      <Text>Click to open the Steam overlay and browse available mods.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_ENABLEINSTRUCTIONS">
+      <Text>To enable a mod, click on the checkbox icon to the right of an entry.</Text>
+    </Row>
+		<Row Tag="TXT_KEY_MODDING_OPTIONS">
+			<Text>Options...</Text>
+		</Row>
+    
+    <Row Tag="TXT_KEY_MODDING_AUTOUPDATEMODS">
+      <Text>Auto-update mods</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SHOWDLCMODS">
+      <Text>Show DLC mods</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MODDING_SHOW_SCREENSHOT">
+			<Text>Show Screenshot Viewer</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_SCREENSHOT">
+			<Text>SCREENSHOT VIEWER</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_REPORT">
+			<Text>Report Violation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_REPORT_TITLE">
+			<Text>Violation Report Form</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_REPORT_REASON">
+			<Text>Please select reason for report:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ADD_COMMENT">
+			<Text>Additional Comments:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_SUBMIT">
+			<Text>Submitting...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_REPORT_SUBMITED">
+			<Text>Thank you for submitting your report.  A 2K representative will address this issue shortly.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LABELAUTHOR">
+			<Text>Author(s):</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LABELSPECIALTHANKS">
+			<Text>Special Thanks:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LABELDOWNLOADS">
+			<Text>Downloads:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LABELRATING">
+			<Text>Rating:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LABELUPDATED">
+			<Text>Last Updated:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LABELVERSION">
+			<Text>Version:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LABELCATEGORIES">
+			<Text>Categories:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LABELSTATUS">
+			<Text>Status:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LABELTAGS">
+			<Text>Tag(s):</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LABELSIZE">
+			<Text>Size:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LABELUPLOADEDBY">
+			<Text>Uploaded By:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LABELSUPPORTSSINGLEPLAYER">
+			<Text>Single Player?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LABELSUPPORTSMULTIPLAYER">
+			<Text>Multiplayer?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LABELAFFECTSSAVEDGAMES">
+			<Text>Affects Saved Games?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LABELYES">
+			<Text>[COLOR_GREEN]Yes[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LABELNO">
+			<Text>[COLOR_RED]No[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_NOMODSINSTALLED">
+			<Text>No Mods Installed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_NOACTIVEDOWNLOADS">
+			<Text>Nothing to download.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_RESULTS_EMPTY">
+			<Text>No mods found.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LIKE_IT">
+			<Text>Like it</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_LIKE_IT_TOOLTIP">
+			<Text>Give a positive rating.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_YOU_LIKE_IT">
+			<Text>You like it</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_YOU_LIKE_IT_TOOLTIP">
+			<Text>You and {1} {1: plural 1?other likes; other?others like;} it.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_FLAG_MODERATION">
+			<Text>Report</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_FLAG_MODERATION_TOOLTIP">
+			<Text>Report offensive content, or content which violates the Terms of Service.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_RATING">
+			<Text>{1_Rating}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_MODSTATUS">
+			<Text>Alpha|Beta|Pre-Release|Demo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_FLAG_DESCRIPTION">
+			<Text>Use this form to report a mod that violates our Terms of Service (ToS) to us. Please read the explanations to see what should be reported, and pick the closest or most appropriate reason from the drop-down menu. For more information on what is and isn't allowed, please see our Terms of Service.  If a mod is found to be in violation of the ToS, it will be removed.  This form submission is subject to the 2KGames Terms of Service. Abuse of this form (spam, misreporting, harassment) could result in your account being permanently banned. All information in relation to the submission of this form is logged.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_FLAG_NOREASON">
+			<Text>No reason selected</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_FLAG_REASON_1">
+			<Text>Infringes on Copyright or Trademark</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_FLAG_REASON_2">
+			<Text>Malicious (contains a virus or trojan)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_FLAG_REASON_3">
+			<Text>Offensive Content</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_FLAG_REASON_4">
+			<Text>Other</Text>
+		</Row>
+
+		<!-- Installer -->
+		<Row Tag="TXT_KEY_MODDING_INSTALL_MODS">
+			<Text>Install Mods</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_INSTALL_MODS_TT">
+			<Text>Mods are available for install.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_UPDATE_MOD">
+			<Text>Update Mod</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_UPDATE_MOD_TT">
+			<Text>Update mod to version {1_Version}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_UPDATE_MOD_LATEST_TT">
+			<Text>Update mod to latest version.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_MOD_EXCLUSIVE">
+			<Text>This is an exclusive mod.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_MOD_PARTIALLY_EXCLUSIVE">
+			<Text>This is a partially exclusive mod.</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_MODS_IN_USE">
+			<Text>Mods in use:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DEPENDENCIES_HEADER">
+			<Text>Dependencies/References/Blocks</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DEPENDSON">
+			<Text>Depends on {1_ModName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_REFERENCES">
+			<Text>References {1_ModName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_BLOCKS">
+			<Text>Blocks {1_ModName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_GAMEVERSION">
+			<Text>Game versions between {1_LowVersion} and {2_HighVersion}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_BLOCKS_ALL_OTHER_DLC">
+			<Text>All other DLC</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_NOASSOCIATIONS">
+			<Text>None</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_MODDING_UPDATE_ALL_MODS">
+			<Text>Update All Mods</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_UPDATE_ALL_MODS_TT">
+			<Text>Update all installed mods to the latest online version.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_INSTALLER_INSTALLING">
+			<Text>Installing Mods...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_INSTALLER_EXTRACTING">
+			<Text>Extracting Files...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_INSTALLER_COPYING">
+			<Text>Copying Files...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_INSTALLER_VERIFYING">
+			<Text>Verifying Files...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_INSTALLER_FINISHED">
+			<Text>Finished!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_INSTALLER_VALIDATING">
+			<Text>Validating Mods...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_INSTALLER_ERROR">
+			<Text>There was an error installing mods.</Text>
+		</Row>
+
+		<!-- Downloads Page -->
+		<Row Tag="TXT_KEY_MODDING_DOWNLOADER_NOTINITIALIZED">
+			<Text>Cannot download because Microsoft BITS has not been started.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_HEADING_NAME">
+			<Text>Name</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_HEADING_DATESTARTED">
+			<Text>Date Started</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_HEADING_STATE">
+			<Text>State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_HEADING_PROGRESS">
+			<Text>Progress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_PAUSEDOWNLOAD">
+			<Text>Pause</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_RESUMEDOWNLOAD">
+			<Text>Resume</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CANCELDOWNLOAD">
+			<Text>Cancel</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CLOSEDOWNLOAD">
+			<Text>Close</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_0">
+			<Text>Queued</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_1">
+			<Text>Connecting</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_2">
+			<Text>Transferring</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_3">
+			<Text>Suspended</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_4">
+			<Text>Error</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_5">
+			<Text>Warning</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_6">
+			<Text>Transferred</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_7">
+			<Text>Complete</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DOWNLOADSTATUS_8">
+			<Text>Canceled</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_HOVERFORDETAILS">
+			<Text>{1_DownloadStatus} (Mouseover for Details)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_PROGRESSNA">
+			<Text>n/a</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ALREADY_INSTALLED">
+			<Text>ALREADY INSTALLED</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DOWNLOADING">
+			<Text>DOWNLOADING</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ERROR_INVALIDURL">
+			<Text>INVALID URL</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_SORT_ENABLED">
+			<Text>Enabled</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_TITLE">
+			<Text>Mod Title 1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_SORT_RECENTLY_INSTALLED">
+			<Text>Recently Installed</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORIES_HEADER">
+			<Text>CATEGORIES</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORIES_ALL">
+			<Text>All</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_SEARCH_TOOLTIP">
+			<Text>Search for a mod.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_SORT_TITLE">
+			<Text>Title</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_SORT_NEWEST">
+			<Text>Newest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_SORT_DOWNLOADS">
+			<Text>Downloads</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_SORT_RATING">
+			<Text>Rating</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_BROWSER_TITLE">
+			<Text>Mods</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_PRIVACYPOLICY">
+			<Text>Privacy Policy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_INSTALL_PROGRESS">
+			<Text>{1_ProcessedFiles}/{2_TotalFiles}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_COPYRIGHT">
+			<Text>Copyright(c) 2010</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_FILESIZE_GB">
+			<Text>gb</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_FILESIZE_MB">
+			<Text>mb</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_FILESIZE_KB">
+			<Text>kb</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_FILESIZE_B">
+			<Text>b</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DETAILS_NOTHINGSELECTED">
+			<Text>Nothing selected.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ERROR_GENERIC">
+			<Text>An error has occurred.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ERROR_SERVICE_DISABLED">
+			<Text>Services have been disabled.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ERROR_CONNECTION_TIMEOUT">
+			<Text>The connection has timed out.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ERROR_CONNECTION">
+			<Text>A connection error has occurred.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_DATABASE_UNAVAILABLE">
+			<Text>The mod database is temporarily down.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ERROR_ALREADY_RATED">
+			<Text>You have already rated this mod.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ERROR_REQUEST_CANCELLED">
+			<Text>The request was canceled.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ERROR_HTTP_UNAUTHORIZED">
+			<Text>HTTP 401 error - Unauthorized.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ERROR_HTTP_FORBIDDEN">
+			<Text>HTTP 403 error - Forbidden.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ERROR_HTTP_FILE_NOT_FOUND">
+			<Text>HTTP 404 error - File not found.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ERROR_HTTP_REQUEST_REJECTED">
+			<Text>HTTP 4XX error - Request rejected.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ERROR_HTTP_SERVER_ERROR">
+			<Text>HTTP 5xx error - Server error.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ERROR_SAVE_INCOMPATIBLE_MODS">
+			<Text>[COLOR_RED]Currently enabled mods are not compatible with this saved game.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ERROR_SAVE_MISSING_MODS">
+			<Text>[COLOR_RED]Not all required mods are installed.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ERROR_SAVE_MISSING_DLC">
+			<Text>[COLOR_RED]Required DLC is not available.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_ERROR_SAVE_DLC_NOT_PURCHASED">
+			<Text>[COLOR_RED]Required DLC has not been purchased.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_MOD_VERSION_ALREADY_ENABLED">
+			<Text>[COLOR_RED]Another version of this mod is already enabled.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_MOD_BLOCKED_BY_OTHER_MOD">
+      <Text>[COLOR_RED]Mod is blocked by another mod.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_MOD_MISSING_DEPENDENCIES">
+      <Text>[COLOR_RED]Mod is missing required dependencies.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_MOD_HAS_EXCLUSIVITY_CONFLICTS">
+      <Text>[COLOR_RED]Mod is blocked by exclusivity.[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_MOD_BAD_GAMEVERSION">
+			<Text>[COLOR_RED]This version of the game is not compatible with this mod.[ENDCOLOR]</Text>
+		</Row>
+		
+		<Row Tag="TXT_KEY_INVALID_MAP_TITLE">
+			<Text>[COLOR_RED]{1_MapName}[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="TXT_KEY_INVALID_MAP_DESC">
+			<Text>Invalid Map File</Text>
+		</Row>
+
+		<!-- Modding Categores -->
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_1">
+			<Text>Total Conversion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_5">
+			<Text>Game Rules</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_6">
+			<Text>Leaderheads</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_7">
+			<Text>User Interface</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_11">
+			<Text>Civilizations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_12">
+			<Text>Graphics</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_20">
+			<Text>Terrain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_23">
+			<Text>Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_32">
+			<Text>Scenarios</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_41">
+			<Text>Maps</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_45">
+			<Text>Map Scripts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_53">
+			<Text>City Builds</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_57">
+			<Text>Other</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_2">
+			<Text>Historical</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_3">
+			<Text>Sci-Fi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_4">
+			<Text>Fantasy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_49">
+			<Text>Historical</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_50">
+			<Text>Fictional</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_8">
+			<Text>Skins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_9">
+			<Text>Widgets</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_10">
+			<Text>Other</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_51">
+			<Text>Historical</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_52">
+			<Text>Fictional</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_13">
+			<Text>Terrain</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_14">
+			<Text>Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_15">
+			<Text>Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_16">
+			<Text>Resources</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_17">
+			<Text>Improvements</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_18">
+			<Text>Leaders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_21">
+			<Text>Improvements</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_22">
+			<Text>Resources</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_24">
+			<Text>Ancient Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_25">
+			<Text>Medieval Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_26">
+			<Text>Renaissance Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_27">
+			<Text>Industrial Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_28">
+			<Text>Modern Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_29">
+			<Text>Sci-Fi Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_30">
+			<Text>Fantasy Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_31">
+			<Text>Other Units</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_33">
+			<Text>Ancient Scenarios</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_34">
+			<Text>Medieval Scenarios</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_35">
+			<Text>Renaissance Scenarios</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_36">
+			<Text>Industrial Scenarios</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_37">
+			<Text>Modern Scenarios</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_38">
+			<Text>Sci-Fi Scenarios</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_39">
+			<Text>Fantasy Scenarios</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_40">
+			<Text>Other Scenarios</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_42">
+			<Text>Historic Maps</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_43">
+			<Text>Fictional Maps</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_44">
+			<Text>Multiplayer Maps</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_46">
+			<Text>Historic Maps</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_47">
+			<Text>Fictional Maps</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_48">
+			<Text>Multiplayer Maps</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_54">
+			<Text>Buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_55">
+			<Text>Wonders</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MODDING_CATEGORY_56">
+			<Text>Projects</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

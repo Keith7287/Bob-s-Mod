@@ -1,0 +1,113 @@
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+	<!-- Table definition -->
+	<Table name="Religions">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text" reference="Language_en_US(Tag)"/>
+		<Column name="Civilopedia" type="text" reference="Language_en_US(Tag)"/>
+		<Column name="EarliestFoundDate" type="integer" default="-1"/>
+		<Column name="PortraitIndex" type="integer" default="-1"/>
+		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
+		<Column name="IconString" type="text"/>
+	</Table>
+	<Religions>
+		<Row>
+			<ID>0</ID>
+			<Type>RELIGION_PANTHEON</Type>
+			<Description>TXT_KEY_RELIGION_PANTHEON</Description>
+			<Civilopedia>TXT_KEY_RELIGION_PANTHEON_PEDIA</Civilopedia>
+			<IconAtlas>RELIGION_ATLAS_WHITE</IconAtlas>
+			<PortraitIndex>11</PortraitIndex>
+			<IconString>[ICON_RELIGION_PANTHEON]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_BUDDHISM</Type>
+			<Description>TXT_KEY_RELIGION_BUDDHISM</Description>
+			<Civilopedia>TXT_KEY_RELIGION_BUDDHISM_PEDIA</Civilopedia>
+			<IconAtlas>RELIGION_ATLAS_WHITE</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<IconString>[ICON_RELIGION_BUDDHISM]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_CHRISTIANITY</Type>
+			<Description>TXT_KEY_RELIGION_CHRISTIANITY</Description>
+			<Civilopedia>TXT_KEY_RELIGION_CHRISTIANITY_PEDIA</Civilopedia>
+			<IconAtlas>RELIGION_ATLAS_WHITE</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<IconString>[ICON_RELIGION_CHRISTIANITY]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_CONFUCIANISM</Type>
+			<Description>TXT_KEY_RELIGION_CONFUCIANISM</Description>
+			<Civilopedia>TXT_KEY_RELIGION_CONFUCIANISM_PEDIA</Civilopedia>
+			<IconAtlas>RELIGION_ATLAS_WHITE</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+			<IconString>[ICON_RELIGION_CONFUCIANISM]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_HINDUISM</Type>
+			<Description>TXT_KEY_RELIGION_HINDUISM</Description>
+			<Civilopedia>TXT_KEY_RELIGION_HINDUISM_PEDIA</Civilopedia>
+			<IconAtlas>RELIGION_ATLAS_WHITE</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+			<IconString>[ICON_RELIGION_HINDUISM]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_ISLAM</Type>
+			<Description>TXT_KEY_RELIGION_ISLAM</Description>
+			<Civilopedia>TXT_KEY_RELIGION_ISLAM_PEDIA</Civilopedia>
+			<IconAtlas>RELIGION_ATLAS_WHITE</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+			<IconString>[ICON_RELIGION_ISLAM]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_JUDAISM</Type>
+			<Description>TXT_KEY_RELIGION_JUDAISM</Description>
+			<Civilopedia>TXT_KEY_RELIGION_JUDAISM_PEDIA</Civilopedia>
+			<IconAtlas>RELIGION_ATLAS_WHITE</IconAtlas>
+			<PortraitIndex>5</PortraitIndex>
+			<IconString>[ICON_RELIGION_JUDAISM]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_SHINTO</Type>
+			<Description>TXT_KEY_RELIGION_SHINTO</Description>
+			<Civilopedia>TXT_KEY_RELIGION_SHINTO_PEDIA</Civilopedia>
+			<IconAtlas>RELIGION_ATLAS_WHITE</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
+			<IconString>[ICON_RELIGION_SHINTO]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_SIKHISM</Type>
+			<Description>TXT_KEY_RELIGION_SIKHISM</Description>
+			<Civilopedia>TXT_KEY_RELIGION_SIKHISM_PEDIA</Civilopedia>
+			<IconAtlas>RELIGION_ATLAS_WHITE</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+			<IconString>[ICON_RELIGION_SIKHISM]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_TAOISM</Type>
+			<Description>TXT_KEY_RELIGION_TAOISM</Description>
+			<Civilopedia>TXT_KEY_RELIGION_TAOISM_PEDIA</Civilopedia>
+			<IconAtlas>RELIGION_ATLAS_WHITE</IconAtlas>
+			<PortraitIndex>8</PortraitIndex>
+			<IconString>[ICON_RELIGION_TAOISM]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_TENGRIISM</Type>
+			<Description>TXT_KEY_RELIGION_TENGRIISM</Description>
+			<Civilopedia>TXT_KEY_RELIGION_TENGRIISM_PEDIA</Civilopedia>
+			<IconAtlas>RELIGION_ATLAS_WHITE</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+			<IconString>[ICON_RELIGION_TENGRIISM]</IconString>
+		</Row>
+		<Row>
+			<Type>RELIGION_ZOROASTRIANISM</Type>
+			<Description>TXT_KEY_RELIGION_ZOROASTRIANISM</Description>
+			<Civilopedia>TXT_KEY_RELIGION_ZOROASTRIANISM_PEDIA</Civilopedia>
+			<IconAtlas>RELIGION_ATLAS_WHITE</IconAtlas>
+			<PortraitIndex>10</PortraitIndex>
+			<IconString>[ICON_RELIGION_ZOROASTRIANISM]</IconString>
+		</Row>
+	</Religions>
+</GameData>

@@ -1,0 +1,62 @@
+<IceSettings
+  DumpInput="0"
+  
+  FarSampleDist = "2.8"
+  FarSamples = "16"
+  NearSampleDist = "0.1"
+  NearSamples = "8"
+  CrackCost = "1"
+  InitialPotential = "40"
+  CrackMinClip = "0.05"
+  CrackMaxClip = "0.8"
+  EdgePullAmount = "0.25"
+  SmallPolyShrinkAmount = "0.35"
+  LatticeVertsPerHex="8.0"
+  
+  DisplaceFrequency = "0.1"
+  DisplaceMin = "-8"
+  DisplaceMax = "15"
+  DisplaceExponent = "1"
+  
+  SmallPolyDepthMin ="6.1"
+  SmallPolyDepthMax="6.6"
+  SmallPolyHeightMin = "0.1"
+  SmallPolyHeightMax = "3.6"
+  
+  LargePolyEdgeHeightMin="0"
+  LargePolyEdgeHeightMax="0"  
+  LargePolyEdgeHeightFreq ="0.5"
+  SkirtSlopeSmall ="0.0015625"
+  SkirtSlopeLarge ="0.0078125"
+  LargePolyHeight = "10"
+  LargePolyDepth ="8"
+  
+ 
+  BoundaryKillRate = "0.60"
+  InteriorKillRate = "0.05"
+ 
+  Subsurface_R="19"
+  Subsurface_G="142"
+  Subsurface_B="205"
+  SpecularPower = "150"
+  
+  TextureRepeat = "0.005"
+  BumpRepeat = "0.009"
+  
+  SideTextureRepeat_U =" 0.005"
+  SideBumpRepeat_U ="0.05"
+  SideTextureRepeat_V =" 0.005"
+  SideBumpRepeat_V ="0.05"
+  
+  
+  Underwater_R1="54"
+  Underwater_G1="154"
+  Underwater_B1="106"
+  Underwater_R2="54"
+  Underwater_G2="154"
+  Underwater_B2="106"
+  Underwater_ColorRamp="10"
+  Underwater_AlphaRamp="2"
+  
+/>
+

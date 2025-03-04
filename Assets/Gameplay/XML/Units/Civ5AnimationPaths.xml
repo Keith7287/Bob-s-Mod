@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+
+    <!-- Table definition -->
+    <Table name="AnimationPaths">
+
+        <!-- Basic info -->
+        <Column name="ID" type="integer" primarykey="true" autoincrement="true" />
+        <Column name="Type" type="text"/>
+        <Column name="MissionPath" type="boolean" default="false" />
+    </Table>
+
+    <Table name="AnimationPath_Entries">
+        <Column name="AnimationPathType" type="text" reference="AnimationPaths(Type)" />
+        <Column name="Category" type="text" />
+        <Column name="Operator" type="text" />
+        <Column name="Parameter" type="float" default="0" />
+    </Table>
+
+    <!-- Table data -->
+    <AnimationPaths>
+        <Row>
+            <ID>0</ID>
+            <Type>ANIMATIONPATH_IDLE</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_MOVE</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_DAMAGE</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_RANDOMIZE_ANIMATION_SET</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_NUKE_STRIKE</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_MELEE_STRIKE</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_MELEE_HURT</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_MELEE_DIE</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_MELEE_FORTIFIED</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_MELEE_DIE_FADE</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_MELEE_FLEE</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_RANGED_STRIKE</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_RANGED_DIE</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_RANGED_FORTIFIED</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_RANGED_RUNHIT</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_RANGED_RUNDIE</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_RANGED_DIE_FADE</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_LEADER_COMMAND</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_AIRFADEIN</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_AIRFADEOUT</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_AIRSTRIKE</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_AIRBOMB</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <!-- Extra animation paths, not directly referenced in code-->
+        <Row>
+            <Type>ANIMATIONPATH_HEAL</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_SLEEP</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_FORTIFY</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_MELEE_FORTIFY</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_PILLAGE</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_SENTRY</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_FOUND</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_IRRIGATE</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_BUILD</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_MINE</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_CHOP</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_SHOVEL</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_RAILROAD</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_SABOTAGE</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_DESTROY</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_STEAL_PLANS</Type>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_GREAT_EVENT</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_SURRENDER</Type>
+            <MissionPath>true</MissionPath>
+        </Row>
+        <Row>
+            <Type>ANIMATIONPATH_AIRPATROL</Type>
+        </Row>
+    </AnimationPaths>
+
+</GameData>
