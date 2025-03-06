@@ -186,7 +186,6 @@
 			<Description>TXT_KEY_BELIEF_GOD_CRAFTSMEN</Description>
 			<ShortDescription>TXT_KEY_BELIEF_GOD_CRAFTSMEN_SHORT</ShortDescription>
 			<Pantheon>true</Pantheon>
-			<MinPopulation>3</MinPopulation>
 		</Row>
 		<Row>
 			<Type>BELIEF_GOD_SEA</Type>
@@ -752,7 +751,7 @@
 		<Row>
 			<BeliefType>BELIEF_GOD_CRAFTSMEN</BeliefType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 	</Belief_CityYieldChanges>
 	<Belief_EraFaithUnitPurchase>
@@ -1011,5 +1010,8 @@
 	</Belief_YieldChangeWorldWonder>
 	<Belief_YieldModifierNaturalWonder>
 	</Belief_YieldModifierNaturalWonder>
+</GameData>
+
+difierNaturalWonder>
 </GameData>
 
