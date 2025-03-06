@@ -1589,7 +1589,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]Aristocracy[ENDCOLOR][NEWLINE]+15% [ICON_PRODUCTION] Production when building Wonders and +1 [ICON_HAPPINESS_1] Happiness for every 10 [ICON_CITIZEN] Citizens in a City.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_OLIGARCHY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Oligarchy[ENDCOLOR][NEWLINE]Garrisoned units cost no maintenance and cities with a garrison gain +100% [ICON_RANGE_STRENGTH] Ranged Combat Strength.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Oligarchy[ENDCOLOR][NEWLINE]Cities with a garrison gain +100% [ICON_RANGE_STRENGTH] Ranged Combat Strength.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_LEGALISM_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Legalism[ENDCOLOR][NEWLINE]Provides a free culture building in your first 4 cities.</Text>
@@ -3378,5 +3378,8 @@
 		<Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_CANCEL_S">
 			<Text>Research Agreement Cancelled!</Text>
 		</Row>
+	</Language_en_US>
+</GameData>
+</Row>
 	</Language_en_US>
 </GameData>
