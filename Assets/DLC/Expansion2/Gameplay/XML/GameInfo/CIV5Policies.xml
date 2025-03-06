@@ -1825,6 +1825,12 @@
 	</Policy_BuildingClassYieldModifiers>
 	<Policy_BuildingClassYieldChanges>
 		<Row>
+			<PolicyType>POLICY_REPRESENTATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
 			<PolicyType>POLICY_ORGANIZED_RELIGION</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
