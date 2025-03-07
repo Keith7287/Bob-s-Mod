@@ -186,7 +186,6 @@
 			<Description>TXT_KEY_BELIEF_GOD_CRAFTSMEN</Description>
 			<ShortDescription>TXT_KEY_BELIEF_GOD_CRAFTSMEN_SHORT</ShortDescription>
 			<Pantheon>true</Pantheon>
-			<MinPopulation>3</MinPopulation>
 		</Row>
 		<Row>
 			<Type>BELIEF_GOD_SEA</Type>
@@ -630,7 +629,7 @@
 		<Row>
 			<BeliefType>BELIEF_ANCESTOR_WORSHIP</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
-			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldType>YIELD_FAITH</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
 		<Row>
@@ -752,7 +751,7 @@
 		<Row>
 			<BeliefType>BELIEF_GOD_CRAFTSMEN</BeliefType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
-			<Yield>1</Yield>
+			<Yield>2</Yield>
 		</Row>
 	</Belief_CityYieldChanges>
 	<Belief_EraFaithUnitPurchase>
@@ -827,7 +826,7 @@
 		<Row>
 			<BeliefType>BELIEF_GOD_SEA</BeliefType>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
-			<YieldType>YIELD_PRODUCTION</YieldType>
+			<YieldType>YIELD_FAITH</YieldType>
 			<Yield>1</Yield>
 		</Row>
 		<Row>
@@ -903,6 +902,18 @@
 		<Row>
 			<BeliefType>BELIEF_GOD_FESTIVALS</BeliefType>
 			<ResourceType>RESOURCE_INCENSE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_FESTIVALS</BeliefType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_FESTIVALS</BeliefType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -1012,3 +1023,9 @@
 	<Belief_YieldModifierNaturalWonder>
 	</Belief_YieldModifierNaturalWonder>
 </GameData>
+
+difierNaturalWonder>
+</GameData>
+
+>
+
