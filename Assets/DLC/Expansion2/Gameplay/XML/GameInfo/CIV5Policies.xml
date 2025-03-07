@@ -407,6 +407,7 @@
 			<GridX>5</GridX>
 			<GridY>2</GridY>
 			<HappinessPerTradeRoute>100</HappinessPerTradeRoute>
+			<CityConnectionTradeRouteGoldModifier>15</CityConnectionTradeRouteGoldModifier>
 			<UnhappinessMod>-5</UnhappinessMod>
 			<PortraitIndex>29</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
@@ -447,7 +448,7 @@
 			<GridX>3</GridX>
 			<GridY>1</GridY>
 			<GarrisonedCityRangeStrikeModifier>50</GarrisonedCityRangeStrikeModifier>
-			<GarrisonFreeMaintenance>true</GarrisonFreeMaintenance>
+			<GarrisonFreeMaintenance>false</GarrisonFreeMaintenance>
 			<PortraitIndex>56</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -1825,6 +1826,12 @@
 	</Policy_BuildingClassYieldModifiers>
 	<Policy_BuildingClassYieldChanges>
 		<Row>
+			<PolicyType>POLICY_REPRESENTATION</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
 			<PolicyType>POLICY_ORGANIZED_RELIGION</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
 			<YieldType>YIELD_FAITH</YieldType>
@@ -1928,6 +1935,116 @@
 		</Row>
 	</Policy_BuildingClassCultureChanges>
 	<Policy_BuildingClassProductionModifiers>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_CIRCUS_MAXIMUS</BuildingClassType>
+			<ProductionModifier>33</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClassType>
+			<ProductionModifier>33</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_GRAND_TEMPLE</BuildingClassType>
+			<ProductionModifier>33</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_HERMITAGE</BuildingClassType>
+			<ProductionModifier>33</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_HEROIC_EPIC</BuildingClassType>
+			<ProductionModifier>33</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_IRONWORKS</BuildingClassType>
+			<ProductionModifier>33</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_COLLEGE</BuildingClassType>
+			<ProductionModifier>33</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_EPIC</BuildingClassType>
+			<ProductionModifier>33</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
+			<ProductionModifier>33</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_TOURIST_CENTER</BuildingClassType>
+			<ProductionModifier>33</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_OXFORD_UNIVERSITY</BuildingClassType>
+			<ProductionModifier>33</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_COLOSSEUM</BuildingClassType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_POLICE_STATION</BuildingClassType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_HOTEL</BuildingClassType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY_FINISHER</PolicyType> 
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
 		<Row>
 			<PolicyType>POLICY_PIETY</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
