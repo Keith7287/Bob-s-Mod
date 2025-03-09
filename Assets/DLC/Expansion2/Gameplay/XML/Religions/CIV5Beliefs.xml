@@ -665,6 +665,12 @@
 		<Row>
 			<BeliefType>BELIEF_GOD_KING</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_KING</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
@@ -707,6 +713,11 @@
 		<Row>
 			<BeliefType>BELIEF_ASCETISM</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_KING</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
 			<Happiness>1</Happiness>
 		</Row>
 	</Belief_BuildingClassHappiness>
