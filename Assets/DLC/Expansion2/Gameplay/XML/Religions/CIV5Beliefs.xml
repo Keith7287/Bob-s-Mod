@@ -26,6 +26,7 @@
 		<Column name="HappinessPerFollowingCity" type="float" default="0.0"/>
 		<Column name="HappinessPerXPeacefulForeignFollowers" type="integer" default="0"/>
 		<Column name="PlotCultureCostModifier" type="integer" default="0"/>
+		<Column name="PlotBuyCostModifier" type="integer" default="0"/>
 		<Column name="CityRangeStrikeModifier" type="integer" default="0"/>
 		<Column name="CombatModifierEnemyCities" type="integer" default="0"/>
 		<Column name="CombatModifierFriendlyCities" type="integer" default="0"/>
@@ -278,6 +279,7 @@
 			<ShortDescription>TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS_SHORT</ShortDescription>
 			<Pantheon>true</Pantheon>
 			<PlotCultureCostModifier>-15</PlotCultureCostModifier>
+			<PlotBuyCostModifier>-15</PlotBuyCostModifier>
 		</Row>
 		<Row>
 			<Type>BELIEF_GOD_FESTIVALS</Type>
@@ -604,6 +606,12 @@
 			<Type>BELIEF_TEARS_OF_GODS</Type>
 			<Description>TXT_KEY_BELIEF_TEARS_OF_GODS</Description>
 			<ShortDescription>TXT_KEY_BELIEF_TEARS_OF_GODS_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>
+		<Row>
+			<Type>BELIEF_RELIGIOUS_GARMENTS</Type>
+			<Description>TXT_KEY_BELIEF_RELIGIOUS_GARMENTS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_RELIGIOUS_GARMENTS_SHORT</ShortDescription>
 			<Pantheon>true</Pantheon>
 		</Row>
 		<Row>
@@ -951,6 +959,42 @@
 			<ResourceType>RESOURCE_GEMS</ResourceType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_GARMENTS</BeliefType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_GARMENTS</BeliefType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_GARMENTS</BeliefType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_GARMENTS</BeliefType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_GARMENTS</BeliefType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_GARMENTS</BeliefType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BeliefType>BELIEF_EARTH_MOTHER</BeliefType>
