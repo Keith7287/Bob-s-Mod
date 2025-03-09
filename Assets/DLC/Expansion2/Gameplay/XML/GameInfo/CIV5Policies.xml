@@ -2619,7 +2619,7 @@
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
@@ -3576,7 +3576,72 @@
 		<Row>
 			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
 			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-			<ProductionModifier>15</ProductionModifier>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
 		</Row>
 	</Policy_UnitCombatProductionModifiers>
 	<Policy_FreeUnitClasses>
