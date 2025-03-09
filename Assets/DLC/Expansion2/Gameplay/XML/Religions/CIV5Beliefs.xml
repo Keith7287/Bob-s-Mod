@@ -615,6 +615,12 @@
 			<Pantheon>true</Pantheon>
 		</Row>
 		<Row>
+			<Type>BELIEF_GOD_CONFECTION</Type>
+			<Description>TXT_KEY_BELIEF_GOD_CONFECTION</Description>
+			<ShortDescription>TXT_KEY_BELIEF_GOD_CONFECTION_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>
+		<Row>
 			<Type>BELIEF_EARTH_MOTHER</Type>
 			<Description>TXT_KEY_BELIEF_EARTH_MOTHER</Description>
 			<ShortDescription>TXT_KEY_BELIEF_EARTH_MOTHER_SHORT</ShortDescription>
@@ -997,6 +1003,24 @@
 			<Yield>2</Yield>
 		</Row>
 		<Row>
+			<BeliefType>BELIEF_GOD_CONFECTION</BeliefType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_CONFECTION</BeliefType>
+			<ResourceType>RESOURCE_SPICES</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_CONFECTION</BeliefType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
 			<BeliefType>BELIEF_EARTH_MOTHER</BeliefType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
@@ -1083,9 +1107,4 @@
 	<Belief_YieldModifierNaturalWonder>
 	</Belief_YieldModifierNaturalWonder>
 </GameData>
-
-difierNaturalWonder>
-</GameData>
-
->
 
