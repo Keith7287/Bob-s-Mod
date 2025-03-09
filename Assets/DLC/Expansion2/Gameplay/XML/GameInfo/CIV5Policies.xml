@@ -516,8 +516,8 @@
 			<PolicyBranchType>POLICY_BRANCH_HONOR</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
-			<GridX>2</GridX>
-			<GridY>1</GridY>
+			<GridX>4</GridX>
+			<GridY>3</GridY>
 			<GreatGeneralRateModifier>50</GreatGeneralRateModifier>
 			<PortraitIndex>19</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
@@ -544,7 +544,7 @@
 			<PolicyBranchType>POLICY_BRANCH_HONOR</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<GridX>2</GridX>
-			<GridY>2</GridY>
+			<GridY>1</GridY>
 			<ExpModifier>50</ExpModifier>
 			<PortraitIndex>21</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
@@ -557,10 +557,11 @@
 			<Help>TXT_KEY_POLICY_MILITARY_CASTE_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_HONOR</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<GridX>4</GridX>
+			<GridX>2</GridX>
 			<GridY>2</GridY>
 			<HappinessPerGarrisonedUnit>1</HappinessPerGarrisonedUnit>
 			<CulturePerGarrisonedUnit>2</CulturePerGarrisonedUnit>
+			<GarrisonFreeMaintenance>true</GarrisonFreeMaintenance>
 			<PortraitIndex>22</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -573,7 +574,7 @@
 			<PolicyBranchType>POLICY_BRANCH_HONOR</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<GridX>4</GridX>
-			<GridY>3</GridY>
+			<GridY>2</GridY>
 			<UnitUpgradeCostMod>-33</UnitUpgradeCostMod>
 			<PortraitIndex>23</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
@@ -3444,16 +3445,16 @@
 			<PrereqPolicy>POLICY_LEGALISM</PrereqPolicy>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_MILITARY_TRADITION</PolicyType>
-			<PrereqPolicy>POLICY_WARRIOR_CODE</PrereqPolicy>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<PrereqPolicy>POLICY_PROFESSIONAL_ARMY</PrereqPolicy>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
-			<PrereqPolicy>POLICY_DISCIPLINE</PrereqPolicy>
+			<PrereqPolicy>POLICY_MILITARY_TRADITION</PrereqPolicy>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
-			<PrereqPolicy>POLICY_MILITARY_CASTE</PrereqPolicy>
+			<PrereqPolicy>POLICY_DISCIPLINE</PrereqPolicy>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_THEOCRACY</PolicyType>
