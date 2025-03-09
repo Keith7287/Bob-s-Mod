@@ -2539,9 +2539,19 @@
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
+			<PolicyType>POLICY_REPRESENTATION</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
 			<PolicyType>POLICY_MERITOCRACY</PolicyType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MERITOCRACY</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MERITOCRACY</PolicyType>
@@ -2571,11 +2581,6 @@
 		<Row>
 			<PolicyType>POLICY_OLIGARCHY</PolicyType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_OLIGARCHY</PolicyType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
@@ -2616,7 +2621,7 @@
 		<Row>
 			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_DISCIPLINE</PolicyType>
@@ -2656,6 +2661,11 @@
 		<Row>
 			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
