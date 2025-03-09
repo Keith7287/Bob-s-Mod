@@ -448,7 +448,6 @@
 			<GridX>3</GridX>
 			<GridY>1</GridY>
 			<GarrisonedCityRangeStrikeModifier>50</GarrisonedCityRangeStrikeModifier>
-			<GarrisonFreeMaintenance>false</GarrisonFreeMaintenance>
 			<PortraitIndex>56</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -530,8 +529,10 @@
 			<Help>TXT_KEY_POLICY_DISCIPLINE_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_HONOR</PolicyBranchType>
 			<CultureCost>10</CultureCost>
+			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
 			<GridX>4</GridX>
 			<GridY>1</GridY>
+			<GreatGeneralRateModifier>50</GreatGeneralRateModifier>
 			<PortraitIndex>20</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -3445,16 +3446,16 @@
 			<PrereqPolicy>POLICY_LEGALISM</PrereqPolicy>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
-			<PrereqPolicy>POLICY_PROFESSIONAL_ARMY</PrereqPolicy>
-		</Row>
-		<Row>
 			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
 			<PrereqPolicy>POLICY_MILITARY_TRADITION</PrereqPolicy>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
 			<PrereqPolicy>POLICY_DISCIPLINE</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<PrereqPolicy>POLICY_PROFESSIONAL_ARMY</PrereqPolicy>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_THEOCRACY</PolicyType>
@@ -3580,7 +3581,7 @@
 	</Policy_UnitCombatProductionModifiers>
 	<Policy_FreeUnitClasses>
 		<Row>
-			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
 			<UnitClassType>UNITCLASS_GREAT_GENERAL</UnitClassType>
 			<Count>1</Count>
 		</Row>
