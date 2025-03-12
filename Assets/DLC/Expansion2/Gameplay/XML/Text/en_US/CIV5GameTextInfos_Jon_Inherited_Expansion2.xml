@@ -557,7 +557,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]Organized Religion[ENDCOLOR][NEWLINE]+1 [ICON_PEACE] Faith from Shrines and Temples.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_MILITARY_CASTE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Military Caste[ENDCOLOR][NEWLINE]Each City with a garrison increases Local City [ICON_HAPPINESS_1] Happiness by 1 and [ICON_CULTURE] Culture by 2.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Military Caste[ENDCOLOR][NEWLINE]Each City with a garrison is maintenance free, increases Local City [ICON_HAPPINESS_1] Happiness by 1 and [ICON_CULTURE] Culture by 2.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_FREE_RELIGION">
 			<Text>Religious Tolerance</Text>
@@ -773,7 +773,7 @@
 			<Text>Declare war on {1_LeaderName}.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_DISCIPLINE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Discipline[ENDCOLOR][NEWLINE]+15% [ICON_STRENGTH] combat strength for melee Units which have another military Unit in an adjacent tile.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Discipline[ENDCOLOR][NEWLINE]+15% [ICON_STRENGTH] combat strength for melee Units which have another military Unit in an adjacent tile and a Great General appears outside the [ICON_CAPITAL] Capital. Great Generals are earned 50% faster</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BUILD_CITADEL_HELP">
 			<Text>+100% [ICON_STRENGTH] Defensive Strength for any Unit stationed in this Tile. Any enemy unit which ends its turn next to the Citadel takes 30 damage (damage does not stack with other Citadels). Constructing the Citadel will expand your Culture borders to surround the Citadel, and will consume this unit. If the new Culture border claims hexes already owned by another civilization, you will incur a diplomatic penalty as a result.</Text>
