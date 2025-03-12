@@ -36,6 +36,12 @@
 		<Row Tag="TXT_KEY_BELIEF_TEARS_OF_GODS">
 			<Text>+1 [ICON_CULTURE] Culture and +1 [ICON_PEACE] Faith for each Gem and Pearl</Text>
 		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_GARMENTS">
+			<Text>+1 [ICON_PEACE] Faith and +2 [ICON_GOLD] Gold for each Cotton, Silk, and Furs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GOD_CONFECTION">
+			<Text>+2 [ICON_FOOD] Food for each Cocoa, Spice, and Sugar</Text>
+		</Row>
 		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_ART">
 			<Text>Hermitage provides +5 [ICON_CULTURE] Culture and +5 [ICON_TOURISM] Tourism</Text>
 		</Row>
@@ -43,7 +49,7 @@
 			<Text>+1 [ICON_PEACE] Faith for each Copper, Iron, and Salt resource</Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_GOD_KING">
-			<Text>Palace provides +1 to these yields: [ICON_CULTURE] , [ICON_PEACE] , [ICON_GOLD], [ICON_PRODUCTION], [ICON_RESEARCH]</Text>
+			<Text>Palace provides +1 to these yields: [ICON_FOOD] ,[ICON_CULTURE] , [ICON_PEACE] , [ICON_GOLD], [ICON_PRODUCTION], [ICON_RESEARCH], [ICON_HAPPINESS_1] </Text>
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_SUN_GOD">
 			<Text>+1 [ICON_FOOD] Food for each Banana, Citrus, and Wheat resource</Text>
@@ -93,6 +99,12 @@
 		</Row>
 		<Row Tag="TXT_KEY_BELIEF_SUN_GOD_SHORT">
 			<Text>Sun God</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_GARMENTS_SHORT">
+			<Text>Religious Garments</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_GOD_CONFECTION_SHORT">
+			<Text>God of Confection</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

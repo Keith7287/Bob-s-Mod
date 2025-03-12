@@ -26,6 +26,7 @@
 		<Column name="HappinessPerFollowingCity" type="float" default="0.0"/>
 		<Column name="HappinessPerXPeacefulForeignFollowers" type="integer" default="0"/>
 		<Column name="PlotCultureCostModifier" type="integer" default="0"/>
+		<Column name="PlotBuyCostModifier" type="integer" default="0"/>
 		<Column name="CityRangeStrikeModifier" type="integer" default="0"/>
 		<Column name="CombatModifierEnemyCities" type="integer" default="0"/>
 		<Column name="CombatModifierFriendlyCities" type="integer" default="0"/>
@@ -269,7 +270,7 @@
 			<Description>TXT_KEY_BELIEF_GODDESS_LOVE</Description>
 			<ShortDescription>TXT_KEY_BELIEF_GODDESS_LOVE_SHORT</ShortDescription>
 			<Pantheon>true</Pantheon>
-			<MinPopulation>6</MinPopulation>
+			<MinPopulation>3</MinPopulation>
 			<HappinessPerCity>1</HappinessPerCity>
 		</Row>
 		<Row>
@@ -278,6 +279,7 @@
 			<ShortDescription>TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS_SHORT</ShortDescription>
 			<Pantheon>true</Pantheon>
 			<PlotCultureCostModifier>-15</PlotCultureCostModifier>
+			<PlotBuyCostModifier>-15</PlotBuyCostModifier>
 		</Row>
 		<Row>
 			<Type>BELIEF_GOD_FESTIVALS</Type>
@@ -607,6 +609,18 @@
 			<Pantheon>true</Pantheon>
 		</Row>
 		<Row>
+			<Type>BELIEF_RELIGIOUS_GARMENTS</Type>
+			<Description>TXT_KEY_BELIEF_RELIGIOUS_GARMENTS</Description>
+			<ShortDescription>TXT_KEY_BELIEF_RELIGIOUS_GARMENTS_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>
+		<Row>
+			<Type>BELIEF_GOD_CONFECTION</Type>
+			<Description>TXT_KEY_BELIEF_GOD_CONFECTION</Description>
+			<ShortDescription>TXT_KEY_BELIEF_GOD_CONFECTION_SHORT</ShortDescription>
+			<Pantheon>true</Pantheon>
+		</Row>
+		<Row>
 			<Type>BELIEF_EARTH_MOTHER</Type>
 			<Description>TXT_KEY_BELIEF_EARTH_MOTHER</Description>
 			<ShortDescription>TXT_KEY_BELIEF_EARTH_MOTHER_SHORT</ShortDescription>
@@ -665,6 +679,12 @@
 		<Row>
 			<BeliefType>BELIEF_GOD_KING</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_KING</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<YieldChange>1</YieldChange>
 		</Row>
@@ -707,6 +727,11 @@
 		<Row>
 			<BeliefType>BELIEF_ASCETISM</BeliefType>
 			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_KING</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
 			<Happiness>1</Happiness>
 		</Row>
 	</Belief_BuildingClassHappiness>
@@ -942,6 +967,60 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_GARMENTS</BeliefType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_GARMENTS</BeliefType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_GARMENTS</BeliefType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_GARMENTS</BeliefType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_GARMENTS</BeliefType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_RELIGIOUS_GARMENTS</BeliefType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_CONFECTION</BeliefType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_CONFECTION</BeliefType>
+			<ResourceType>RESOURCE_SPICES</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_GOD_CONFECTION</BeliefType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
 			<BeliefType>BELIEF_EARTH_MOTHER</BeliefType>
 			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<YieldType>YIELD_FAITH</YieldType>
@@ -1005,6 +1084,11 @@
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>2</Yield>
 		</Row>
+		<Row>
+			<BeliefType>BELIEF_MESSENGER_GODS</BeliefType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
 	</Belief_YieldChangeTradeRoute>
 	<Belief_YieldChangeNaturalWonder>
 		<Row>
@@ -1023,9 +1107,4 @@
 	<Belief_YieldModifierNaturalWonder>
 	</Belief_YieldModifierNaturalWonder>
 </GameData>
-
-difierNaturalWonder>
-</GameData>
-
->
 
