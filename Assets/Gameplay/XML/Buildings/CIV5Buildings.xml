@@ -9,6 +9,7 @@
 		<Column name="Civilopedia" type="text" reference="Language_en_US(Tag)"/>
 		<Column name="Strategy" type="text" reference="Language_en_US(Tag)"/>
 		<Column name="Help" type="text" reference="Language_en_US(Tag)"/>
+		<Column name="ThemingBonusHelp" type="text" reference="Language_en_US(Tag)"/>
 		<Column name="Quote" type="text" reference="Language_en_US(Tag)"/>
 		<Column name="GoldMaintenance" type="integer" default="0"/>
 		<Column name="MutuallyExclusiveGroup" type="integer" default="-1"/>
@@ -23,7 +24,7 @@
 		<Column name="FoundsReligion" type="boolean" default="false"/>
 		<Column name="IsReligious" type="boolean" default="false"/>
 		<Column name="BorderObstacle" type="boolean" default="false"/>
-    <Column name="PlayerBorderObstacle" type="boolean" default="false"/>
+		<Column name="PlayerBorderObstacle" type="boolean" default="false"/>
 		<Column name="Capital" type="boolean" default="false"/>
 		<Column name="GoldenAge" type="boolean" default="false"/>
 		<Column name="MapCentering" type="boolean" default="false"/>
@@ -32,14 +33,20 @@
 		<Column name="AllowsWaterRoutes" type="boolean" default="false"/>
 		<Column name="ExtraLuxuries" type="boolean" default="false"/>
 		<Column name="DiplomaticVoting" type="boolean" default="false"/>
+		<Column name="AffectSpiesNow" type="boolean" default="false"/>
+		<Column name="NullifyInfluenceModifier" type="boolean" default="false"/>
 		<Column name="Cost" type="integer" default="0"/>
+		<Column name="FaithCost" type="integer" default="0"/>
+		<Column name="LeagueCost" type="integer" default="0"/>
+		<Column name="UnlockedByBelief" type="boolean" default="0"/>
+		<Column name="UnlockedByLeague" type="boolean" default="false"/>
+		<Column name="HolyCity" type="boolean" default="0"/>
 		<Column name="NumCityCostMod" type="integer" default="0"/>
 		<Column name="HurryCostModifier" type="integer" default="0"/>
 		<Column name="MinAreaSize" type="integer" default="0"/>
 		<Column name="ConquestProb" type="integer" default="0"/>
 		<Column name="CitiesPrereq" type="integer" default="0"/>
 		<Column name="LevelPrereq" type="integer" default="0"/>
-		<Column name="Culture" type="integer" default="0"/>
 		<Column name="CultureRateModifier" type="integer" default="0"/>
 		<Column name="GlobalCultureRateModifier" type="integer" default="0"/>
 		<Column name="GreatPeopleRateModifier" type="integer" default="0"/>
@@ -51,7 +58,7 @@
 		<Column name="Experience" type="integer" default="0"/>
 		<Column name="GlobalExperience" type="integer" default="0"/>
 		<Column name="FoodKept" type="integer" default="0"/>
-		<Column name="Airlift" type="integer" default="0"/>
+		<Column name="Airlift" type="boolean" default="0"/>
 		<Column name="AirModifier" type="integer" default="0"/>
 		<Column name="NukeModifier" type="integer" default="0"/>
 		<Column name="NukeExplosionRand" type="integer" default="0"/>
@@ -66,9 +73,10 @@
 		<Column name="WorkerSpeedModifier" type="integer" default="0"/>
 		<Column name="MilitaryProductionModifier" type="integer" default="0"/>
 		<Column name="SpaceProductionModifier" type="integer" default="0"/>
+		<Column name="GlobalSpaceProductionModifier" type="integer" default="0"/>
 		<Column name="BuildingProductionModifier" type="integer" default="0"/>
 		<Column name="WonderProductionModifier" type="integer" default="0"/>
-		<Column name="TradeRouteModifier" type="integer" default="0"/>
+		<Column name="CityConnectionTradeRouteModifier" type="integer" default="0"/>
 		<Column name="CapturePlunderModifier" type="integer" default="0"/>
 		<Column name="PolicyCostModifier" type="integer" default="0"/>
 		<Column name="PlotCultureCostModifier" type="integer" default="0"/>
@@ -83,19 +91,44 @@
 		<Column name="MedianTechPercentChange" type="integer" default="0"/>
 		<Column name="Gold" type="integer" default="0"/>
 		<Column name="AllowsRangeStrike" type="boolean" default="false"/>
+		<Column name="Espionage" type="boolean" default="false"/>
+		<Column name="AllowsFoodTradeRoutes" type="boolean" default="false"/>
+		<Column name="AllowsProductionTradeRoutes" type="boolean" default="false"/>
 		<Column name="Defense" type="integer" default="0"/>
+		<Column name="ExtraCityHitPoints" type="integer" default="0"/>
 		<Column name="GlobalDefenseMod" type="integer" default="0"/>
 		<Column name="MinorFriendshipChange" type="integer" default="0"/>
 		<Column name="VictoryPoints" type="integer" default="0"/>
+		<Column name="ExtraMissionarySpreads" type="integer" default="0"/>
+		<Column name="ReligiousPressureModifier" type="integer" default="0"/>
+		<Column name="EspionageModifier" type="integer" default="0"/>
+		<Column name="GlobalEspionageModifier" type="integer" default="0"/>
+		<Column name="ExtraSpies" type="integer" default="0"/>
+		<Column name="SpyRankChange" type="integer" default="0"/>
+		<Column name="InstantSpyRankChange" type="integer" default="0"/>
+		<Column name="TradeRouteRecipientBonus" type="integer" default="0"/>
+		<Column name="TradeRouteTargetBonus" type="integer" default="0"/>
+		<Column name="NumTradeRouteBonus" type="integer" default="0"/>
+		<Column name="LandmarksTourismPercent" type="integer" default="0"/>
+		<Column name="InstantMilitaryIncrease" type="integer" default="0"/>
+		<Column name="GreatWorksTourismModifier" type="integer" default="0"/>
+		<Column name="XBuiltTriggersIdeologyChoice" type="integer" default="0"/>
+		<Column name="TradeRouteSeaDistanceModifier" type="integer" default="0"/>
+		<Column name="TradeRouteSeaGoldBonus" type="integer" default="0"/>
+		<Column name="TradeRouteLandDistanceModifier" type="integer" default="0"/>
+		<Column name="TradeRouteLandGoldBonus" type="integer" default="0"/>
+		<Column name="CityStateTradeRouteProductionModifier" type="integer" default="0"/>
+		<Column name="GreatScientistBeakerModifier" type="integer" default="0"/>
 		<Column name="BuildingClass" type="text" reference="BuildingClasses(Type)" default="NULL"/>
 		<Column name="ArtDefineTag" type="text" default="NULL"/>
 		<Column name="NearbyTerrainRequired" type="text" reference="Terrains(Type)" default="NULL"/>
-    <Column name="ProhibitedCityTerrain" type="text" reference="Terrains(Type)" default="NULL"/>
-    <Column name="VictoryPrereq" type="text" reference="Victories(Type)" default="NULL"/>
+		<Column name="ProhibitedCityTerrain" type="text" reference="Terrains(Type)" default="NULL"/>
+		<Column name="VictoryPrereq" type="text" reference="Victories(Type)" default="NULL"/>
 		<Column name="FreeStartEra" type="text" reference="Eras(Type)" default="NULL"/>
 		<Column name="MaxStartEra" type="text" reference="Eras(Type)" default="NULL"/>
 		<Column name="ObsoleteTech" type="text" reference="Technologies(Type)" default="NULL"/>
 		<Column name="EnhancedYieldTech" type="text" reference="Technologies(Type)" default="NULL"/>
+		<Column name="TechEnhancedTourism" type="integer" default="0"/>
 		<Column name="FreeBuilding" type="text" reference="BuildingClasses(Type)" default="NULL"/>
 		<Column name="FreeBuildingThisCity" type="text" reference="BuildingClasses(Type)" default="NULL"/>
 		<Column name="FreePromotion" type="text" reference="UnitPromotions(Type)" default="NULL"/>
@@ -103,10 +136,15 @@
 		<Column name="FreePromotionRemoved" type="text" reference="UnitPromotions(Type)" default="NULL"/>
 		<Column name="ReplacementBuildingClass" type="text" reference="BuildingClasses(Type)" default="NULL"/>
 		<Column name="PrereqTech" type="text" reference="Technologies(Type)" default="NULL"/>
+		<Column name="PolicyBranchType" type="text" reference="PolicyBranchTypes(Type)" default="NULL"/>
 		<Column name="SpecialistType" type="text" reference="Specialists(Type)" default="NULL"/>
 		<Column name="SpecialistCount" type="integer" default="0"/>
+		<Column name="GreatWorkSlotType" type="text" reference="GreatWorkSlots(Type)" default="NULL"/>
+		<Column name="FreeGreatWork" type="text" reference="GreatWorks(Type)" default="NULL"/>
+		<Column name="GreatWorkCount" type="integer" default="0"/>
 		<Column name="SpecialistExtraCulture" type="integer" default="0"/>
 		<Column name="GreatPeopleRateChange" type="integer" default="0"/>
+		<Column name="ExtraLeagueVotes" type="integer" default="0"/>
 		<Column name="CityWall" type="boolean" default="false"/>
 		<Column name="DisplayPosition" type="integer" default="0"/>
 		<Column name="PortraitIndex" type="integer" default="-1"/>
@@ -123,6 +161,17 @@
 		<Column name="YieldType" type="text" reference="Yields(Type)"/>
 		<Column name="Yield" type="integer"/>
 	</Table>
+	<Table name="Building_BuildingClassHappiness">
+		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
+		<Column name="BuildingClassType" type="text" reference="BuildingClasses(Type)"/>
+		<Column name="Happiness" type="integer"/>
+	</Table>
+	<Table name="Building_BuildingClassYieldChanges">
+		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
+		<Column name="BuildingClassType" type="text" reference="BuildingClasses(Type)"/>
+		<Column name="YieldType" type="integer" reference="Yields(Type)"/>
+		<Column name="YieldChange" type="integer" default="0"/>
+	</Table>
 	<Table name="Building_ClassesNeededInCity">
 		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
 		<Column name="BuildingClassType" type="text" reference="BuildingClasses(Type)"/>
@@ -133,6 +182,11 @@
 		<Column name="NumUnits" type="integer"/>
 	</Table>
 	<Table name="Building_DomainFreeExperiences">
+		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
+		<Column name="DomainType" type="text" reference="Domains(Type)"/>
+		<Column name="Experience" type="integer"/>
+	</Table>
+	<Table name="Building_DomainFreeExperiencePerGreatWork">
 		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
 		<Column name="DomainType" type="text" reference="Domains(Type)"/>
 		<Column name="Experience" type="integer"/>
@@ -179,6 +233,11 @@
 		<Column name="BuildingClassType" type="text" reference="BuildingClasses(Type)"/>
 		<Column name="NumBuildingNeeded" type="integer"/>
 	</Table>
+	<Table name="Building_ResourceQuantity">
+		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
+		<Column name="ResourceType" type="text" reference="Resources(Type)"/>
+		<Column name="Quantity" type="integer"/>
+	</Table>
 	<Table name="Building_ResourceQuantityRequirements">
 		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
 		<Column name="ResourceType" type="text" reference="Resources(Type)"/>
@@ -194,6 +253,11 @@
 		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
 		<Column name="ResourceType" type="text" reference="Resources(Type)"/>
 		<Column name="CultureChange" type="integer"/>
+	</Table>
+	<Table name="Building_ResourceFaithChanges">
+		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
+		<Column name="ResourceType" type="text" reference="Resources(Type)"/>
+		<Column name="FaithChange" type="integer"/>
 	</Table>
 	<Table name="Building_RiverPlotYieldChanges">
 		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
@@ -227,6 +291,12 @@
 		<Column name="YieldType" type="text" reference="Yields(Type)"/>
 		<Column name="Yield" type="integer"/>
 	</Table>
+	<Table name="Building_TerrainYieldChanges">
+		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
+		<Column name="TerrainType" type="text" reference="Terrains(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
 	<Table name="Building_SpecialistYieldChanges">
 		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
 		<Column name="SpecialistType" type="text" reference="Specialists(Type)"/>
@@ -257,6 +327,11 @@
 		<Column name="YieldType" type="text" reference="Yields(Type)"/>
 		<Column name="Yield" type="integer"/>
 	</Table>
+	<Table name="Building_YieldChangesPerReligion">
+		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
 	<Table name="Building_TechEnhancedYieldChanges">
 		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
 		<Column name="YieldType" type="text" reference="Yields(Type)"/>
@@ -266,6 +341,21 @@
 		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
 		<Column name="YieldType" type="text" reference="Yields(Type)"/>
 		<Column name="Yield" type="integer"/>
+	</Table>
+	<Table name="Building_ThemingBonuses">
+		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
+		<Column name="Description" type="text"/>
+		<Column name="Bonus" type="integer"/>
+		<Column name="SameEra" type="bool"/>
+		<Column name="UniqueEras" type="bool"/>
+		<Column name="MustBeArt" type="bool"/>
+		<Column name="MustBeArtifact" type="bool"/>
+		<Column name="MustBeEqualArtArtifact" type="bool"/>
+		<Column name="RequiresOwner" type="bool"/>
+		<Column name="RequiresAnyButOwner" type="bool"/>
+		<Column name="RequiresSamePlayer" type="bool"/>
+		<Column name="RequiresUniquePlayers" type="bool"/>
+		<Column name="AIPriority" type="int"/>
 	</Table>
 	<!-- Table data -->
 	<Buildings>
@@ -318,10 +408,11 @@
 			<Strategy>TXT_KEY_BUILDING_MUGHAL_FORT_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_CASTLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<Culture>2</Culture>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
-			<Defense>600</Defense>
+			<Defense>700</Defense>
+			<ExtraCityHitPoints>25</ExtraCityHitPoints>
 			<EnhancedYieldTech>TECH_FLIGHT</EnhancedYieldTech>
+			<TechEnhancedTourism>2</TechEnhancedTourism>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>39</PortraitIndex>
@@ -361,6 +452,7 @@
 			<SpecialistCount>1</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
+			<AllowsProductionTradeRoutes>true</AllowsProductionTradeRoutes>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>57</PortraitIndex>
@@ -369,7 +461,7 @@
 			<Type>BUILDING_BAZAAR</Type>
 			<BuildingClass>BUILDINGCLASS_MARKET</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
-			<Cost>120</Cost>
+			<Cost>100</Cost>
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_BAZAAR_HELP</Help>
 			<Description>TXT_KEY_BUILDING_BAZAAR_DESC</Description>
@@ -380,7 +472,9 @@
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>75</ConquestProb>
+			<ConquestProb>66</ConquestProb>
+			<TradeRouteRecipientBonus>1</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>1</TradeRouteTargetBonus>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>50</PortraitIndex>
@@ -399,8 +493,10 @@
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>75</ConquestProb>
+			<ConquestProb>66</ConquestProb>
 			<Happiness>2</Happiness>
+			<TradeRouteRecipientBonus>1</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>1</TradeRouteTargetBonus>
 			<HurryCostModifier>15</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>53</PortraitIndex>
@@ -428,6 +524,8 @@
 			<Cost>160</Cost>
 			<GoldMaintenance>2</GoldMaintenance>
 			<PrereqTech>TECH_EDUCATION</PrereqTech>
+			<FaithCost>200</FaithCost>
+			<UnlockedByBelief>true</UnlockedByBelief>
 			<Help>TXT_KEY_BUILDING_WAT_HELP</Help>
 			<Description>TXT_KEY_BUILDING_WAT_DESC</Description>
 			<Civilopedia>TXT_KEY_BUILDING_WAT_PEDIA</Civilopedia>
@@ -437,7 +535,6 @@
 			<SpecialistCount>2</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
-			<Culture>3</Culture>
 			<HurryCostModifier>15</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>51</PortraitIndex>
@@ -445,7 +542,7 @@
 		<Row>
 			<Type>BUILDING_MUD_PYRAMID_MOSQUE</Type>
 			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
-			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
 			<Cost>100</Cost>
 			<GoldMaintenance>0</GoldMaintenance>
 			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
@@ -454,10 +551,8 @@
 			<Civilopedia>TXT_KEY_CIV5_BUILDING_MUD_PYRAMID_MOSQUE_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_STRATEGY</Strategy>
 			<ArtDefineTag>MUD_PYRAMID_MOSQUE</ArtDefineTag>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
-			<Culture>4</Culture>
+			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>60</PortraitIndex>
@@ -465,7 +560,7 @@
 		<Row>
 			<Type>BUILDING_BURIAL_TOMB</Type>
 			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
-			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
 			<Cost>100</Cost>
 			<GoldMaintenance>0</GoldMaintenance>
 			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
@@ -474,11 +569,9 @@
 			<Civilopedia>TXT_KEY_BUILDING_BURIAL_TOMB_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_BURIAL_TOMB_STRATEGY</Strategy>
 			<ArtDefineTag>BURIAL_TOMB</ArtDefineTag>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
 			<CapturePlunderModifier>100</CapturePlunderModifier>
-			<Culture>2</Culture>
 			<Happiness>2</Happiness>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
@@ -548,8 +641,10 @@
 			<Help>TXT_KEY_BUILDING_CIRCUS_HELP</Help>
 			<ArtDefineTag>ART_DEF_BUILDING_CIRCUS</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
 			<Happiness>2</Happiness>
 			<HurryCostModifier>25</HurryCostModifier>
+			<ExtraLeagueVotes>2</ExtraLeagueVotes>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>44</PortraitIndex>
 		</Row>
@@ -566,6 +661,7 @@
 			<Help>TXT_KEY_BUILDING_FORGE_HELP</Help>
 			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>2</PortraitIndex>
@@ -594,9 +690,9 @@
 		<Row>
 			<Type>BUILDING_HYDRO_PLANT</Type>
 			<BuildingClass>BUILDINGCLASS_HYDRO_PLANT</BuildingClass>
-			<Cost>500</Cost>
+			<Cost>360</Cost>
 			<GoldMaintenance>3</GoldMaintenance>
-			<PrereqTech>TECH_PLASTIC</PrereqTech>
+			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_HYDRO_PLANT</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_HYDROPLANT_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_HYDRO_PLANT_STRATEGY</Strategy>
@@ -612,7 +708,7 @@
 		<Row>
 			<Type>BUILDING_SOLAR_PLANT</Type>
 			<BuildingClass>BUILDINGCLASS_SOLAR_PLANT</BuildingClass>
-			<Cost>360</Cost>
+			<Cost>500</Cost>
 			<GoldMaintenance>3</GoldMaintenance>
 			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_SOLAR_PLANT</Description>
@@ -631,7 +727,7 @@
 		<Row>
 			<Type>BUILDING_MINT</Type>
 			<BuildingClass>BUILDINGCLASS_MINT</BuildingClass>
-			<Cost>120</Cost>
+			<Cost>100</Cost>
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
 			<Description>TXT_KEY_BUILDING_MINT</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MINT_TEXT</Civilopedia>
@@ -639,6 +735,7 @@
 			<Help>TXT_KEY_BUILDING_MINT_HELP</Help>
 			<ArtDefineTag>ART_DEF_BUILDING_BANK</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>34</PortraitIndex>
@@ -663,16 +760,16 @@
 		<Row>
 			<Type>BUILDING_MONASTERY</Type>
 			<BuildingClass>BUILDINGCLASS_MONASTERY</BuildingClass>
-			<Cost>120</Cost>
-			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<Cost>-1</Cost>
+			<FaithCost>150</FaithCost>
+			<UnlockedByBelief>true</UnlockedByBelief>
 			<Description>TXT_KEY_BUILDING_MONASTERY_DESC</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MONASTERY_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_MONASTERY_STRATEGY</Strategy>
 			<Help>TXT_KEY_BUILDING_MONASTERY_HELP</Help>
 			<ArtDefineTag>MONASTERY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<Culture>2</Culture>
-			<HurryCostModifier>25</HurryCostModifier>
+			<ConquestProb>66</ConquestProb>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>38</PortraitIndex>
 		</Row>
@@ -721,7 +818,7 @@
 			<Type>BUILDING_HARBOR</Type>
 			<BuildingClass>BUILDINGCLASS_HARBOR</BuildingClass>
 			<Cost>120</Cost>
-			<GoldMaintenance>3</GoldMaintenance>
+			<GoldMaintenance>2</GoldMaintenance>
 			<PrereqTech>TECH_COMPASS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_HARBOR_HELP</Help>
 			<Description>TXT_KEY_BUILDING_HARBOR</Description>
@@ -729,12 +826,14 @@
 			<Strategy>TXT_KEY_BUILDING_HARBOR_STRATEGY</Strategy>
 			<ArtDefineTag>HARBOR</ArtDefineTag>
 			<Water>true</Water>
-			<AllowsWaterRoutes>true</AllowsWaterRoutes>
 			<MinAreaSize>10</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>
 			<ArtInfoEraVariation>true</ArtInfoEraVariation>
 			<DisplayPosition>16</DisplayPosition>
+			<AllowsWaterRoutes>true</AllowsWaterRoutes>
+			<TradeRouteSeaDistanceModifier>50</TradeRouteSeaDistanceModifier>
+			<TradeRouteSeaGoldBonus>100</TradeRouteSeaGoldBonus>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>26</PortraitIndex>
 		</Row>
@@ -751,7 +850,7 @@
 			<Strategy>TXT_KEY_BUILDING_COLOSSEUM_STRATEGY</Strategy>
 			<ArtDefineTag>COLESSEUM</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
+			<ConquestProb>66</ConquestProb>
 			<Happiness>2</Happiness>
 			<HurryCostModifier>25</HurryCostModifier>
 			<DisplayPosition>2</DisplayPosition>
@@ -772,26 +871,26 @@
 			<Strategy>TXT_KEY_BUILDING_THEATRE_STRATEGY</Strategy>
 			<ArtDefineTag>THEATRE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<Happiness>3</Happiness>
+			<ConquestProb>66</ConquestProb>
+			<Happiness>2</Happiness>
 			<HurryCostModifier>10</HurryCostModifier>
-			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<PortraitIndex>20</PortraitIndex>
+			<IconAtlas>EXPANSION2_BUILDING_ATLAS2</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_STADIUM</Type>
 			<BuildingClass>BUILDINGCLASS_STADIUM</BuildingClass>
 			<Cost>500</Cost>
 			<GoldMaintenance>2</GoldMaintenance>
-			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
+			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
 			<Help>TXT_KEY_BUILDING_STADIUM_HELP</Help>
 			<Description>TXT_KEY_BUILDING_STADIUM_DESC</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_STADIUM_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_STADIUM_STRATEGY</Strategy>
 			<ArtDefineTag>STADIUM</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>100</ConquestProb>
-			<Happiness>4</Happiness>
+			<ConquestProb>66</ConquestProb>
+			<Happiness>2</Happiness>
 			<HurryCostModifier>0</HurryCostModifier>
 			<DisplayPosition>2</DisplayPosition>
 			<ArtInfoRandomVariation>true</ArtInfoRandomVariation>
@@ -810,7 +909,6 @@
 			<Strategy>TXT_KEY_BUILDING_MONUMENT_STRATEGY</Strategy>
 			<ArtDefineTag>MONUMENT</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
-			<Culture>2</Culture>
 			<HurryCostModifier>40</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<NeverCapture>true</NeverCapture>
@@ -819,7 +917,7 @@
 		<Row>
 			<Type>BUILDING_TEMPLE</Type>
 			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
-			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
 			<Cost>100</Cost>
 			<GoldMaintenance>2</GoldMaintenance>
 			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
@@ -827,51 +925,47 @@
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_TEMPLE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_TEMPLE_STRATEGY</Strategy>
 			<ArtDefineTag>TEMPLE</ArtDefineTag>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
-			<Culture>3</Culture>
+			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>37</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_OPERA_HOUSE</Type>
 			<BuildingClass>BUILDINGCLASS_OPERA_HOUSE</BuildingClass>
 			<Cost>200</Cost>
-			<GoldMaintenance>2</GoldMaintenance>
+			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_OPERA_HOUSE</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_OPERA_HOUSE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_OPERA_HOUSE_STRATEGY</Strategy>
 			<ArtDefineTag>OPERA_HOUSE</ArtDefineTag>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<SpecialistCount>1</SpecialistCount>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_MUSIC</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
 			<MinAreaSize>-1</MinAreaSize>
-			<Culture>4</Culture>
+			<ConquestProb>100</ConquestProb>
 			<HurryCostModifier>10</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>49</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_MUSEUM</Type>
 			<BuildingClass>BUILDINGCLASS_MUSEUM</BuildingClass>
 			<Cost>300</Cost>
-			<GoldMaintenance>3</GoldMaintenance>
+			<GoldMaintenance>1</GoldMaintenance>
 			<PrereqTech>TECH_ARCHAEOLOGY</PrereqTech>
+			<ThemingBonusHelp>TXT_KEY_MUSEUM_THEMING_BONUS_HELP</ThemingBonusHelp>
 			<Description>TXT_KEY_BUILDING_MUSEUM</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MUSEUM_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_MUSEUM_STRATEGY</Strategy>
 			<ArtDefineTag>MUSEUM</ArtDefineTag>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<SpecialistCount>2</SpecialistCount>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>2</GreatWorkCount>
 			<MinAreaSize>-1</MinAreaSize>
-			<Culture>5</Culture>
+			<ConquestProb>100</ConquestProb>
 			<HurryCostModifier>0</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>22</PortraitIndex>
 		</Row>
 		<Row>
@@ -885,13 +979,14 @@
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BROADCASTTOWER_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_BROADCAST_TOWER_STRATEGY</Strategy>
 			<ArtDefineTag>RADIO TOWER</ArtDefineTag>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_MUSIC</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
 			<MinAreaSize>-1</MinAreaSize>
-			<Culture>3</Culture>
+			<ConquestProb>100</ConquestProb>
 			<CultureRateModifier>33</CultureRateModifier>
 			<HurryCostModifier>0</HurryCostModifier>
 			<DisplayPosition>2</DisplayPosition>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
-			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>35</PortraitIndex>
 		</Row>
 		<Row>
@@ -917,7 +1012,7 @@
 			<BuildingClass>BUILDINGCLASS_ARMORY</BuildingClass>
 			<Cost>160</Cost>
 			<GoldMaintenance>1</GoldMaintenance>
-			<PrereqTech>TECH_MACHINERY</PrereqTech>
+			<PrereqTech>TECH_STEEL</PrereqTech>
 			<Help>TXT_KEY_BUILDING_ARMORY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_ARMORY</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ARMORY_TEXT</Civilopedia>
@@ -950,7 +1045,7 @@
 			<Type>BUILDING_ARSENAL</Type>
 			<BuildingClass>BUILDINGCLASS_ARSENAL</BuildingClass>
 			<Cost>300</Cost>
-			<PrereqTech>TECH_RIFLING</PrereqTech>
+			<PrereqTech>TECH_METALLURGY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_ARSENAL_HELP</Help>
 			<Description>TXT_KEY_BUILDING_ARSENAL</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ARSENAL_TEXT</Civilopedia>
@@ -958,7 +1053,8 @@
 			<ArtDefineTag>ART_DEF_BUILDING_MILITARY_ACADEMY</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
-			<Defense>600</Defense>
+			<Defense>900</Defense>
+			<ExtraCityHitPoints>25</ExtraCityHitPoints>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<NeverCapture>true</NeverCapture>
@@ -976,7 +1072,8 @@
 			<ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
-			<Defense>400</Defense>
+			<Defense>500</Defense>
+			<ExtraCityHitPoints>50</ExtraCityHitPoints>
 			<CityWall>true</CityWall>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
@@ -995,7 +1092,8 @@
 			<ArtDefineTag>CASTLE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
-			<Defense>400</Defense>
+			<Defense>700</Defense>
+			<ExtraCityHitPoints>25</ExtraCityHitPoints>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<ArtInfoCulturalVariation>true</ArtInfoCulturalVariation>
@@ -1007,7 +1105,7 @@
 			<Type>BUILDING_MILITARY_BASE</Type>
 			<BuildingClass>BUILDINGCLASS_MILITARY_BASE</BuildingClass>
 			<Cost>500</Cost>
-			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
+			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_MILITARY_BASE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_MILITARY_BASE</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MILITARYBASE_TEXT</Civilopedia>
@@ -1015,9 +1113,9 @@
 			<ArtDefineTag>MILITARY BASE</ArtDefineTag>
 			<NukeImmune>true</NukeImmune>
 			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>66</ConquestProb>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
 			<Defense>1200</Defense>
+			<ExtraCityHitPoints>25</ExtraCityHitPoints>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<DisplayPosition>2</DisplayPosition>
@@ -1039,6 +1137,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>
+			<AllowsFoodTradeRoutes>true</AllowsFoodTradeRoutes>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
@@ -1084,7 +1183,7 @@
 			<Cost>120</Cost>
 			<GoldMaintenance>2</GoldMaintenance>
 			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
-			<Help>TXT_KEY_BUILDING_WORKSHOP_STRATEGY</Help>
+			<Help>TXT_KEY_BUILDING_WORKSHOP_HELP</Help>
 			<Description>TXT_KEY_BUILDING_WORKSHOP</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_WORKSHOP_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_WORKSHOP_STRATEGY</Strategy>
@@ -1094,6 +1193,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>25</HurryCostModifier>
+			<AllowsProductionTradeRoutes>true</AllowsProductionTradeRoutes>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>28</PortraitIndex>
 		</Row>
@@ -1102,12 +1202,13 @@
 			<BuildingClass>BUILDINGCLASS_FACTORY</BuildingClass>
 			<Cost>360</Cost>
 			<GoldMaintenance>3</GoldMaintenance>
-			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FACTORY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FACTORY</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_FACTORY_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_FACTORY_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FACTORY</ArtDefineTag>
+			<XBuiltTriggersIdeologyChoice>3</XBuiltTriggersIdeologyChoice>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
@@ -1119,7 +1220,7 @@
 		<Row>
 			<Type>BUILDING_NUCLEAR_PLANT</Type>
 			<BuildingClass>BUILDINGCLASS_NUCLEAR_PLANT</BuildingClass>
-			<Cost>360</Cost>
+			<Cost>500</Cost>
 			<GoldMaintenance>3</GoldMaintenance>
 			<PrereqTech>TECH_NUCLEAR_FISSION</PrereqTech>
 			<Help>TXT_KEY_BUILDING_NUCLEAR_PLANT_HELP</Help>
@@ -1156,7 +1257,7 @@
 			<Type>BUILDING_MARKET</Type>
 			<BuildingClass>BUILDINGCLASS_MARKET</BuildingClass>
 			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
-			<Cost>120</Cost>
+			<Cost>100</Cost>
 			<PrereqTech>TECH_CURRENCY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_MARKET_STRATEGY</Help>
 			<Description>TXT_KEY_BUILDING_MARKET</Description>
@@ -1166,7 +1267,9 @@
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>75</ConquestProb>
+			<ConquestProb>66</ConquestProb>
+			<TradeRouteRecipientBonus>1</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>1</TradeRouteTargetBonus>
 			<HurryCostModifier>25</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>16</PortraitIndex>
@@ -1180,12 +1283,14 @@
 			<Help>TXT_KEY_BUILDING_BANK_HELP</Help>
 			<Description>TXT_KEY_BUILDING_BANK</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_BANK_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_CIV5_BUILDINGS_BANK_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_BUILDING_BANK_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_BANK</ArtDefineTag>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>1</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>75</ConquestProb>
+			<ConquestProb>66</ConquestProb>
+			<TradeRouteRecipientBonus>1</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>1</TradeRouteTargetBonus>
 			<HurryCostModifier>15</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>18</PortraitIndex>
@@ -1193,7 +1298,7 @@
 		<Row>
 			<Type>BUILDING_STOCK_EXCHANGE</Type>
 			<BuildingClass>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClass>
-			<Cost>500</Cost>
+			<Cost>360</Cost>
 			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
 			<Help>TXT_KEY_BUILDING_STOCK_EXCHANGE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_STOCK_EXCHANGE</Description>
@@ -1203,7 +1308,7 @@
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<SpecialistCount>2</SpecialistCount>
 			<MinAreaSize>-1</MinAreaSize>
-			<ConquestProb>75</ConquestProb>
+			<ConquestProb>66</ConquestProb>
 			<HurryCostModifier>15</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>56</PortraitIndex>
@@ -1232,6 +1337,8 @@
 			<Cost>160</Cost>
 			<GoldMaintenance>2</GoldMaintenance>
 			<PrereqTech>TECH_EDUCATION</PrereqTech>
+			<FaithCost>200</FaithCost>
+			<UnlockedByBelief>true</UnlockedByBelief>
 			<Help>TXT_KEY_BUILDING_UNIVERSITY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_UNIVERSITY</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_UNIVERSITY_TEXT</Civilopedia>
@@ -1251,6 +1358,8 @@
 			<Cost>300</Cost>
 			<GoldMaintenance>3</GoldMaintenance>
 			<PrereqTech>TECH_SCIENTIFIC_THEORY</PrereqTech>
+			<FaithCost>200</FaithCost>
+			<UnlockedByBelief>true</UnlockedByBelief>
 			<Help>TXT_KEY_BUILDING_PUBLIC_SCHOOL_HELP</Help>
 			<Description>TXT_KEY_BUILDING_PUBLIC_SCHOOL</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PUBLIC_SCHOOL_TEXT</Civilopedia>
@@ -1270,6 +1379,8 @@
 			<Cost>500</Cost>
 			<GoldMaintenance>3</GoldMaintenance>
 			<PrereqTech>TECH_PLASTIC</PrereqTech>
+			<FaithCost>200</FaithCost>
+			<UnlockedByBelief>true</UnlockedByBelief>
 			<Help>TXT_KEY_BUILDING_LABORATORY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_LABORATORY</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_RESEARCHLAB_TEXT</Civilopedia>
@@ -1296,10 +1407,11 @@
 			<Capital>true</Capital>
 			<NukeImmune>true</NukeImmune>
 			<MinAreaSize>-1</MinAreaSize>
-			<Culture>1</Culture>
 			<Defense>250</Defense>
 			<ArtInfoCulturalVariation>true</ArtInfoCulturalVariation>
 			<DisplayPosition>32</DisplayPosition>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>19</PortraitIndex>
@@ -1319,7 +1431,8 @@
 			<NumCityCostMod>30</NumCityCostMod>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
-			<Culture>1</Culture>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>31</PortraitIndex>
@@ -1338,7 +1451,6 @@
 			<NumCityCostMod>30</NumCityCostMod>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
-			<Culture>1</Culture>
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>46</PortraitIndex>
@@ -1347,7 +1459,7 @@
 			<Type>BUILDING_NATIONAL_EPIC</Type>
 			<BuildingClass>BUILDINGCLASS_NATIONAL_EPIC</BuildingClass>
 			<Cost>125</Cost>
-			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<PrereqTech>TECH_DRAMA</PrereqTech>
 			<Help>TXT_KEY_BUILDING_NATIONAL_EPIC_HELP</Help>
 			<Description>TXT_KEY_BUILDING_NATIONAL_EPIC</Description>
 			<Civilopedia>TXT_KEY_BUILDING_NATIONAL_EPIC_PEDIA</Civilopedia>
@@ -1358,7 +1470,8 @@
 			<NumCityCostMod>30</NumCityCostMod>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
-			<Culture>1</Culture>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>32</PortraitIndex>
@@ -1367,7 +1480,7 @@
 			<Type>BUILDING_CIRCUS_MAXIMUS</Type>
 			<BuildingClass>BUILDINGCLASS_CIRCUS_MAXIMUS</BuildingClass>
 			<Cost>125</Cost>
-			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
 			<Help>TXT_KEY_BUILDING_CIRCUS_MAXIMUS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_CIRCUS_MAXIMUS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_CIRCUS_MAXIMUS_PEDIA</Civilopedia>
@@ -1378,7 +1491,6 @@
 			<NumCityCostMod>30</NumCityCostMod>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
-			<Culture>1</Culture>
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>NEW_BLDG_ATLAS_DLC</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
@@ -1387,20 +1499,21 @@
 			<Type>BUILDING_NATIONAL_TREASURY</Type>
 			<BuildingClass>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClass>
 			<Cost>125</Cost>
-			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
 			<Help>TXT_KEY_BUILDING_NATIONAL_TREASURY_HELP</Help>
-			<Description>TXT_KEY_BUILDING_NATIONAL_TREASURY</Description>
-			<Civilopedia>TXT_KEY_BUILDING_NATIONAL_TREASURY_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_NATIONAL_TREASURY_STRATEGY</Strategy>
+			<Description>TXT_KEY_BUILDING_EAST_INDIA</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_EAST_INDIA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_EAST_INDIA_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_TREASURY</ArtDefineTag>
 			<NukeImmune>true</NukeImmune>
 			<NumCityCostMod>30</NumCityCostMod>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
-			<Culture>1</Culture>
+			<TradeRouteRecipientBonus>4</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>2</TradeRouteTargetBonus>
 			<NeverCapture>true</NeverCapture>
-			<IconAtlas>NEW_BLDG_ATLAS_DLC</IconAtlas>
-			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>EXPANSION2_WONDER_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
 		</Row>
 		<Row>
 			<Type>BUILDING_IRONWORKS</Type>
@@ -1416,7 +1529,6 @@
 			<NumCityCostMod>30</NumCityCostMod>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
-			<Culture>1</Culture>
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>47</PortraitIndex>
@@ -1427,6 +1539,7 @@
 			<Cost>125</Cost>
 			<PrereqTech>TECH_EDUCATION</PrereqTech>
 			<Help>TXT_KEY_BUILDING_OXFORD_UNIVERSITY_HELP</Help>
+			<ThemingBonusHelp>TXT_KEY_OXFORD_UNIVERSITY_THEMING_BONUS_HELP</ThemingBonusHelp>
 			<Description>TXT_KEY_BUILDING_OXFORD_UNIVERSITY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_OXFORD_UNIVERSITY_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_OXFORD_UNIVERSITY_STRATEGY</Strategy>
@@ -1435,8 +1548,9 @@
 			<NumCityCostMod>30</NumCityCostMod>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>2</GreatWorkCount>
 			<FreeTechs>1</FreeTechs>
-			<Culture>1</Culture>
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>44</PortraitIndex>
@@ -1445,8 +1559,9 @@
 			<Type>BUILDING_HERMITAGE</Type>
 			<BuildingClass>BUILDINGCLASS_HERMITAGE</BuildingClass>
 			<Cost>125</Cost>
-			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
+			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
 			<Help>TXT_KEY_BUILDING_HERMITAGE_HELP</Help>
+			<ThemingBonusHelp>TXT_KEY_HERMITAGE_THEMING_BONUS_HELP</ThemingBonusHelp>
 			<Description>TXT_KEY_BUILDING_HERMITAGE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_HERMITAGE_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_HERMITAGE_STRATEGY</Strategy>
@@ -1456,7 +1571,8 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<CultureRateModifier>50</CultureRateModifier>
-			<Culture>5</Culture>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>3</GreatWorkCount>
 			<NeverCapture>true</NeverCapture>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>52</PortraitIndex>
@@ -1466,13 +1582,13 @@
 			<Type>BUILDING_GREAT_LIGHTHOUSE</Type>
 			<BuildingClass>BUILDINGCLASS_GREAT_LIGHTHOUSE</BuildingClass>
 			<Cost>185</Cost>
-			<PrereqTech>TECH_SAILING</PrereqTech>
+			<PrereqTech>TECH_OPTICS</PrereqTech>
 			<Help>TXT_KEY_WONDER_GREAT_LIGHTHOUSE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_GREAT_LIGHTHOUSE</Description>
 			<Civilopedia>TXT_KEY_WONDER_GREATLIGHTHOUSE_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_GREATLIGHTHOUSE_QUOTE</Quote>
 			<ArtDefineTag>GREAT LIGHTHOUSE</ArtDefineTag>
-			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
 			<FreePromotion>PROMOTION_GREAT_LIGHTHOUSE</FreePromotion>
 			<Water>true</Water>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
@@ -1482,7 +1598,6 @@
 			<MinAreaSize>10</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<FreeBuildingThisCity>BUILDINGCLASS_LIGHTHOUSE</FreeBuildingThisCity>
-			<Culture>1</Culture>
 			<DisplayPosition>8</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>5</PortraitIndex>
@@ -1505,7 +1620,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>6</Culture>
 			<DisplayPosition>4</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>2</PortraitIndex>
@@ -1518,6 +1632,7 @@
 			<Cost>185</Cost>
 			<PrereqTech>TECH_WRITING</PrereqTech>
 			<Help>TXT_KEY_WONDER_GREAT_LIBRARY_HELP</Help>
+			<ThemingBonusHelp>TXT_KEY_GREAT_LIBRARY_THEMING_BONUS_HELP</ThemingBonusHelp>
 			<Description>TXT_KEY_BUILDING_GREAT_LIBRARY</Description>
 			<Civilopedia>TXT_KEY_WONDER_GREATLIBRARY_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_GREATLIBRARY_QUOTE</Quote>
@@ -1531,8 +1646,9 @@
 			<ConquestProb>100</ConquestProb>
 			<FreeTechs>1</FreeTechs>
 			<FreeBuildingThisCity>BUILDINGCLASS_LIBRARY</FreeBuildingThisCity>
-			<Culture>1</Culture>
 			<DisplayPosition>1</DisplayPosition>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>2</GreatWorkCount>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
 			<WonderSplashImage>WonderConceptGreatLibrary.dds</WonderSplashImage>
@@ -1544,6 +1660,7 @@
 			<BuildingClass>BUILDINGCLASS_PYRAMID</BuildingClass>
 			<Cost>185</Cost>
 			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_LIBERTY</PolicyBranchType>
 			<Help>TXT_KEY_WONDER_CHICHEN_ITZA_HELP</Help>
 			<Description>TXT_KEY_BUILDING_PYRAMID</Description>
 			<Civilopedia>TXT_KEY_WONDER_PYRAMIDS_DESC</Civilopedia>
@@ -1557,7 +1674,6 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<WorkerSpeedModifier>25</WorkerSpeedModifier>
-			<Culture>1</Culture>
 			<DisplayPosition>4</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
@@ -1568,13 +1684,13 @@
 			<Type>BUILDING_COLOSSUS</Type>
 			<BuildingClass>BUILDINGCLASS_COLOSSUS</BuildingClass>
 			<Cost>185</Cost>
-			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
 			<Help>TXT_KEY_WONDER_COLOSSUS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_COLOSSUS</Description>
 			<Civilopedia>TXT_KEY_WONDER_COLOSSUS_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_COLOSSUS_QUOTE</Quote>
 			<ArtDefineTag>THE COLOSSUS</ArtDefineTag>
-			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
+			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
 			<Water>true</Water>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<GreatPeopleRateChange>1</GreatPeopleRateChange>
@@ -1582,8 +1698,10 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>10</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>1</Culture>
 			<DisplayPosition>8</DisplayPosition>
+			<TradeRouteRecipientBonus>2</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>1</TradeRouteTargetBonus>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>4</PortraitIndex>
 			<WonderSplashImage>WonderConceptColossus.dds</WonderSplashImage>
@@ -1607,7 +1725,6 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<FreePolicies>1</FreePolicies>
-			<Culture>3</Culture>
 			<DisplayPosition>4</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>6</PortraitIndex>
@@ -1619,19 +1736,18 @@
 			<BuildingClass>BUILDINGCLASS_HANGING_GARDEN</BuildingClass>
 			<Cost>250</Cost>
 			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
-			<!--<Help>TXT_KEY_WONDER_HANGING_GARDEN_HELP</Help>-->
+			<PolicyBranchType>POLICY_BRANCH_TRADITION</PolicyBranchType>
+			<Help>TXT_KEY_WONDER_HANGING_GARDEN_HELP</Help>
 			<Description>TXT_KEY_BUILDING_HANGING_GARDEN</Description>
 			<Civilopedia>TXT_KEY_WONDER_HANGINGGARDENS_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_HANGINGGARDENS_QUOTE</Quote>
 			<ArtDefineTag>THE HANGING GARDENS</ArtDefineTag>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>1</Culture>
+			<FreeBuildingThisCity>BUILDINGCLASS_GARDEN</FreeBuildingThisCity>
 			<DisplayPosition>2</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>3</PortraitIndex>
@@ -1642,7 +1758,7 @@
 			<Type>BUILDING_GREAT_WALL</Type>
 			<BuildingClass>BUILDINGCLASS_GREAT_WALL</BuildingClass>
 			<Cost>250</Cost>
-			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<PrereqTech>TECH_ENGINEERING</PrereqTech>
 			<Help>TXT_KEY_WONDER_GREAT_WALL_HELP</Help>
 			<Description>TXT_KEY_BUILDING_GREAT_WALL</Description>
 			<Civilopedia>TXT_KEY_WONDER_GREATWALL_DESC</Civilopedia>
@@ -1658,7 +1774,6 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<FreeBuildingThisCity>BUILDINGCLASS_WALLS</FreeBuildingThisCity>
-			<Culture>3</Culture>
 			<DisplayPosition>2</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>7</PortraitIndex>
@@ -1668,8 +1783,8 @@
 		<Row>
 			<Type>BUILDING_ANGKOR_WAT</Type>
 			<BuildingClass>BUILDINGCLASS_ANGKOR_WAT</BuildingClass>
-			<Cost>300</Cost>
-			<PrereqTech>TECH_THEOLOGY</PrereqTech>
+			<Cost>400</Cost>
+			<PrereqTech>TECH_EDUCATION</PrereqTech>
 			<Help>TXT_KEY_WONDER_ANGKOR_WAT_HELP</Help>
 			<Description>TXT_KEY_BUILDING_ANGKOR_WAT</Description>
 			<Civilopedia>TXT_KEY_WONDER_ANGKORWAT_DESC</Civilopedia>
@@ -1684,7 +1799,6 @@
 			<ConquestProb>100</ConquestProb>
 			<GlobalPlotCultureCostModifier>-25</GlobalPlotCultureCostModifier>
 			<GlobalPlotBuyCostModifier>-25</GlobalPlotBuyCostModifier>
-			<Culture>1</Culture>
 			<DisplayPosition>2</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>9</PortraitIndex>
@@ -1702,15 +1816,11 @@
 			<Quote>TXT_KEY_WONDER_HAGIASOPHIA_QUOTE</Quote>
 			<ArtDefineTag>HAGIA SOPHIA</ArtDefineTag>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<GlobalGreatPeopleRateModifier>25</GlobalGreatPeopleRateModifier>
-			<FreeGreatPeople>1</FreeGreatPeople>
-			<Culture>1</Culture>
+			<FreeBuildingThisCity>BUILDINGCLASS_TEMPLE</FreeBuildingThisCity>
 			<DisplayPosition>2</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>8</PortraitIndex>
@@ -1736,7 +1846,6 @@
 			<ConquestProb>100</ConquestProb>
 			<Happiness>4</Happiness>
 			<GoldenAgeModifier>50</GoldenAgeModifier>
-			<Culture>1</Culture>
 			<DisplayPosition>4</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>12</PortraitIndex>
@@ -1747,7 +1856,7 @@
 			<Type>BUILDING_MACHU_PICHU</Type>
 			<BuildingClass>BUILDINGCLASS_MACHU_PICHU</BuildingClass>
 			<Cost>300</Cost>
-			<PrereqTech>TECH_CURRENCY</PrereqTech>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
 			<Help>TXT_KEY_WONDER_MACHU_PICHU_HELP</Help>
 			<Description>TXT_KEY_BUILDING_MACHU_PICHU</Description>
 			<Civilopedia>TXT_KEY_WONDER_MACHUPICCHU_DESC</Civilopedia>
@@ -1761,8 +1870,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<NearbyMountainRequired>true</NearbyMountainRequired>
-			<TradeRouteModifier>25</TradeRouteModifier>
-			<Culture>1</Culture>
+			<CityConnectionTradeRouteModifier>25</CityConnectionTradeRouteModifier>
 			<DisplayPosition>64</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>11</PortraitIndex>
@@ -1774,7 +1882,7 @@
 			<Type>BUILDING_NOTRE_DAME</Type>
 			<BuildingClass>BUILDINGCLASS_NOTRE_DAME</BuildingClass>
 			<Cost>400</Cost>
-			<PrereqTech>TECH_EDUCATION</PrereqTech>
+			<PrereqTech>TECH_PHYSICS</PrereqTech>
 			<Description>TXT_KEY_BUILDING_NOTRE_DAME</Description>
 			<Civilopedia>TXT_KEY_WONDER_NOTREDAME_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_NOTREDAME_QUOTE</Quote>
@@ -1787,7 +1895,6 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<UnmoddedHappiness>10</UnmoddedHappiness>
-			<Culture>3</Culture>
 			<DisplayPosition>1</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>10</PortraitIndex>
@@ -1797,14 +1904,15 @@
 		<Row>
 			<Type>BUILDING_PORCELAIN_TOWER</Type>
 			<BuildingClass>BUILDINGCLASS_PORCELAIN_TOWER</BuildingClass>
-			<Cost>400</Cost>
-			<PrereqTech>TECH_EDUCATION</PrereqTech>
+			<Cost>625</Cost>
+			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_RATIONALISM</PolicyBranchType>
 			<Help>TXT_KEY_WONDER_PORCELAIN_TOWER_HELP</Help>
 			<Description>TXT_KEY_BUILDING_PORCELAIN_TOWER</Description>
 			<Civilopedia>TXT_KEY_WONDER_PORCELAINTOWER_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_PORCELAINTOWER_QUOTE</Quote>
 			<ArtDefineTag>PORCELAIN TOWER</ArtDefineTag>
-			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<GreatPeopleRateChange>2</GreatPeopleRateChange>
 			<MedianTechPercentChange>25</MedianTechPercentChange>
@@ -1812,7 +1920,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>1</Culture>
 			<DisplayPosition>2</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>16</PortraitIndex>
@@ -1822,14 +1929,14 @@
 		<Row>
 			<Type>BUILDING_HIMEJI_CASTLE</Type>
 			<BuildingClass>BUILDINGCLASS_HIMEJI_CASTLE</BuildingClass>
-			<Cost>400</Cost>
-			<PrereqTech>TECH_CHIVALRY</PrereqTech>
+			<Cost>500</Cost>
+			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
 			<Help>TXT_KEY_WONDER_HIMEJI_CASTLE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_HIMEJI_CASTLE</Description>
 			<Civilopedia>TXT_KEY_WONDER_HIMEJICASTLE_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_HIMEJICASTLE_QUOTE</Quote>
 			<ArtDefineTag>HIMEJI CASTLE</ArtDefineTag>
-			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
 			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
 			<GreatPeopleRateChange>2</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
@@ -1838,7 +1945,6 @@
 			<ConquestProb>100</ConquestProb>
 			<FreePromotion>PROMOTION_HIMEJI_CASTLE</FreePromotion>
 			<FreeBuildingThisCity>BUILDINGCLASS_CASTLE</FreeBuildingThisCity>
-			<Culture>3</Culture>
 			<DisplayPosition>2</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>15</PortraitIndex>
@@ -1852,20 +1958,20 @@
 			<Cost>500</Cost>
 			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
 			<Help>TXT_KEY_WONDER_SISTINE_CHAPEL_HELP</Help>
+			<ThemingBonusHelp>TXT_KEY_SISTINE_CHAPEL_THEMING_BONUS_HELP</ThemingBonusHelp>
 			<Description>TXT_KEY_BUILDING_SISTINE_CHAPEL</Description>
 			<Civilopedia>TXT_KEY_WONDER_SISTINECHAPEL_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_SISTINECHAPEL_QUOTE</Quote>
 			<ArtDefineTag>SISTINE CHAPEL</ArtDefineTag>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<GreatPeopleRateChange>2</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<GlobalCultureRateModifier>25</GlobalCultureRateModifier>
-			<Culture>1</Culture>
 			<DisplayPosition>1</DisplayPosition>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>2</GreatWorkCount>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>17</PortraitIndex>
 			<WonderSplashImage>WonderConceptSistineChapel.dds</WonderSplashImage>
@@ -1874,24 +1980,20 @@
 		<Row>
 			<Type>BUILDING_KREMLIN</Type>
 			<BuildingClass>BUILDINGCLASS_KREMLIN</BuildingClass>
-			<Cost>500</Cost>
-			<PrereqTech>TECH_ACOUSTICS</PrereqTech>
+			<Cost>1060</Cost>
+			<PrereqTech>TECH_RAILROAD</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_ORDER</PolicyBranchType>
 			<Help>TXT_KEY_WONDER_KREMLIN_HELP</Help>
 			<Description>TXT_KEY_BUILDING_KREMLIN</Description>
 			<Civilopedia>TXT_KEY_WONDER_KREMLIN_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_KREMLIN_QUOTE</Quote>
 			<ArtDefineTag>KREMLIN</ArtDefineTag>
-			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
-			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Defense>1200</Defense>
-			<GlobalDefenseMod>25</GlobalDefenseMod>
-			<Culture>3</Culture>
 			<DisplayPosition>1</DisplayPosition>
+			<FreePolicies>1</FreePolicies>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>13</PortraitIndex>
 			<WonderSplashImage>WonderConceptKremlin.dds</WonderSplashImage>
@@ -1902,21 +2004,20 @@
 			<BuildingClass>BUILDINGCLASS_FORBIDDEN_PALACE</BuildingClass>
 			<Cost>500</Cost>
 			<PrereqTech>TECH_BANKING</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_PATRONAGE</PolicyBranchType>
 			<Help>TXT_KEY_WONDER_FORBIDDEN_PALACE_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FORBIDDEN_PALACE</Description>
 			<Civilopedia>TXT_KEY_WONDER_FORBIDDENPALACE_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_FORBIDDENPALACE_QUOTE</Quote>
 			<ArtDefineTag>FORBIDDEN CITY</ArtDefineTag>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<UnhappinessModifier>-10</UnhappinessModifier>
-			<Culture>1</Culture>
 			<DisplayPosition>1</DisplayPosition>
+			<ExtraLeagueVotes>2</ExtraLeagueVotes>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>14</PortraitIndex>
 			<WonderSplashImage>WonderConceptForbiddenPalace.dds</WonderSplashImage>
@@ -1926,23 +2027,20 @@
 		<Row>
 			<Type>BUILDING_TAJ_MAHAL</Type>
 			<BuildingClass>BUILDINGCLASS_TAJ_MAHAL</BuildingClass>
-			<Cost>500</Cost>
-			<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
+			<Cost>625</Cost>
+			<PrereqTech>TECH_ARCHITECTURE</PrereqTech>
 			<Help>TXT_KEY_WONDER_PYRAMIDS_HELP</Help>
 			<Description>TXT_KEY_BUILDING_TAJ_MAHAL</Description>
 			<Civilopedia>TXT_KEY_WONDER_TAJMAHAL_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_TAJMAHAL_QUOTE</Quote>
 			<ArtDefineTag>TAJ MAHAL</ArtDefineTag>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<GreatPeopleRateChange>2</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<Happiness>4</Happiness>
 			<GoldenAge>true</GoldenAge>
-			<Culture>1</Culture>
 			<DisplayPosition>2</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>18</PortraitIndex>
@@ -1952,21 +2050,21 @@
 		<Row>
 			<Type>BUILDING_BIG_BEN</Type>
 			<BuildingClass>BUILDINGCLASS_BIG_BEN</BuildingClass>
-			<Cost>625</Cost>
-			<PrereqTech>TECH_ECONOMICS</PrereqTech>
+			<Cost>750</Cost>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_COMMERCE</PolicyBranchType>
 			<Help>TXT_KEY_WONDER_BIG_BEN_HELP</Help>
 			<Description>TXT_KEY_BUILDING_BIG_BEN</Description>
 			<Civilopedia>TXT_KEY_WONDER_BIGBEN_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_BIGBEN_QUOTE</Quote>
 			<ArtDefineTag>BIG BEN</ArtDefineTag>
-			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
+			<MaxStartEra>ERA_MODERN</MaxStartEra>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<GreatPeopleRateChange>2</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>1</Culture>
 			<DisplayPosition>1</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>19</PortraitIndex>
@@ -1978,20 +2076,20 @@
 			<BuildingClass>BUILDINGCLASS_LOUVRE</BuildingClass>
 			<Cost>750</Cost>
 			<PrereqTech>TECH_ARCHAEOLOGY</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_EXPLORATION</PolicyBranchType>
 			<Help>TXT_KEY_WONDER_LOUVRE_HELP</Help>
+			<ThemingBonusHelp>TXT_KEY_LOUVRE_THEMING_BONUS_HELP</ThemingBonusHelp>
 			<Description>TXT_KEY_BUILDING_LOUVRE</Description>
 			<Civilopedia>TXT_KEY_WONDER_LOUVRE_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_LOUVRE_QUOTE</Quote>
 			<ArtDefineTag>LOUVRE</ArtDefineTag>
-			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<GreatPeopleRateChange>2</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>4</Culture>
 			<DisplayPosition>2</DisplayPosition>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
+			<GreatWorkCount>4</GreatWorkCount>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>21</PortraitIndex>
 			<WonderSplashImage>WonderConceptLouvre.dds</WonderSplashImage>
@@ -2007,14 +2105,13 @@
 			<Civilopedia>TXT_KEY_WONDER_BRANDENBURGGATE_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_BRANDENBURGGATE_QUOTE</Quote>
 			<ArtDefineTag>BRENDANBURG GATE</ArtDefineTag>
-			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
+			<MaxStartEra>ERA_MODERN</MaxStartEra>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<GreatPeopleRateChange>2</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>3</Culture>
 			<DisplayPosition>2</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>20</PortraitIndex>
@@ -2027,18 +2124,17 @@
 			<BuildingClass>BUILDINGCLASS_STATUE_OF_LIBERTY</BuildingClass>
 			<Cost>1060</Cost>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
+			<PolicyBranchType>POLICY_BRANCH_FREEDOM</PolicyBranchType>
 			<Help>TXT_KEY_WONDER_STATUE_OF_LIBERTY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_STATUE_OF_LIBERTY</Description>
 			<Civilopedia>TXT_KEY_WONDER_STATUEOFLIBERTY_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_STATUEOFLIBERTY_QUOTE</Quote>
 			<ArtDefineTag>STATUE OF LIBERTY</ArtDefineTag>
-			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-			<GreatPeopleRateChange>2</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>1</Culture>
+			<FreePolicies>1</FreePolicies>
 			<DisplayPosition>2</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>23</PortraitIndex>
@@ -2049,20 +2145,17 @@
 			<Type>BUILDING_CRISTO_REDENTOR</Type>
 			<BuildingClass>BUILDINGCLASS_CRISTO_REDENTOR</BuildingClass>
 			<Cost>1250</Cost>
-			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
+			<PrereqTech>TECH_PLASTIC</PrereqTech>
 			<Help>TXT_KEY_WONDER_CRISTO_REDENTOR_HELP</Help>
 			<Description>TXT_KEY_BUILDING_CRISTO_REDENTOR</Description>
 			<Civilopedia>TXT_KEY_WONDER_CRISTOREDENTOR_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_CRISTOREDENTOR_QUOTE</Quote>
 			<ArtDefineTag>CRISTO REDENTOR</ArtDefineTag>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<GreatPeopleRateChange>2</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<PolicyCostModifier>-10</PolicyCostModifier>
-			<Culture>4</Culture>
 			<DisplayPosition>4</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>24</PortraitIndex>
@@ -2072,7 +2165,7 @@
 		<Row>
 			<Type>BUILDING_EIFFEL_TOWER</Type>
 			<BuildingClass>BUILDINGCLASS_EIFFEL_TOWER</BuildingClass>
-			<Cost>1250</Cost>
+			<Cost>1060</Cost>
 			<PrereqTech>TECH_RADIO</PrereqTech>
 			<Help>TXT_KEY_WONDER_EIFFEL_TOWER_HELP</Help>
 			<Description>TXT_KEY_BUILDING_EIFFEL_TOWER</Description>
@@ -2080,14 +2173,14 @@
 			<Quote>TXT_KEY_WONDER_EIFFELTOWER_QUOTE</Quote>
 			<ArtDefineTag>EIFFEL TOWER</ArtDefineTag>
 			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<HappinessPerXPolicies>2</HappinessPerXPolicies>
 			<GreatPeopleRateChange>2</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<UnmoddedHappiness>5</UnmoddedHappiness>
-			<Culture>1</Culture>
+			<EnhancedYieldTech>TECH_RADIO</EnhancedYieldTech>
+			<TechEnhancedTourism>12</TechEnhancedTourism>
 			<DisplayPosition>1</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>22</PortraitIndex>
@@ -2099,7 +2192,7 @@
 			<Type>BUILDING_PENTAGON</Type>
 			<BuildingClass>BUILDINGCLASS_PENTAGON</BuildingClass>
 			<Cost>1250</Cost>
-			<PrereqTech>TECH_RADAR</PrereqTech>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
 			<Help>TXT_KEY_WONDER_PENTAGON_HELP</Help>
 			<Description>TXT_KEY_BUILDING_PENTAGON</Description>
 			<Civilopedia>TXT_KEY_WONDER_PENTAGON_DESC</Civilopedia>
@@ -2111,7 +2204,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>3</Culture>
 			<UnitUpgradeCostMod>-33</UnitUpgradeCostMod>
 			<DisplayPosition>2</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
@@ -2135,7 +2227,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Culture>1</Culture>
 			<DisplayPosition>1</DisplayPosition>
 			<VictoryPrereq>VICTORY_DIPLOMATIC</VictoryPrereq>
 			<DiplomaticVoting>true</DiplomaticVoting>
@@ -2148,14 +2239,13 @@
 			<Type>BUILDING_SYDNEY_OPERA_HOUSE</Type>
 			<BuildingClass>BUILDINGCLASS_SYDNEY_OPERA_HOUSE</BuildingClass>
 			<Cost>1250</Cost>
-			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
+			<PrereqTech>TECH_ECOLOGY</PrereqTech>
 			<Help>TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP</Help>
+			<ThemingBonusHelp>TXT_KEY_SYDNEY_OPERA_HOUSE_THEMING_BONUS_HELP</ThemingBonusHelp>
 			<Description>TXT_KEY_SYDNEY_OPERA_HOUSE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_SYDNEY_OPERA_HOUSE_PEDIA</Civilopedia>
 			<ArtDefineTag>SYDNEY OPERA HOUSE</ArtDefineTag>
 			<Quote>TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_QUOTE</Quote>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<GreatPeopleRateChange>2</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<Water>true</Water>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -2163,8 +2253,9 @@
 			<MinAreaSize>10</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<FreePolicies>1</FreePolicies>
-			<Culture>4</Culture>
 			<DisplayPosition>16</DisplayPosition>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_MUSIC</GreatWorkSlotType>
+			<GreatWorkCount>2</GreatWorkCount>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>27</PortraitIndex>
 			<WonderSplashImage>WonderConceptSydneyOperaHouse.dds</WonderSplashImage>
@@ -2202,12 +2293,14 @@
 			<ArtDefineTag>ART_DEF_BUILDING_FORGE</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>66</ConquestProb>
-      <ProhibitedCityTerrain>TERRAIN_PLAINS</ProhibitedCityTerrain>
-      <Happiness>1</Happiness>
+			<ProhibitedCityTerrain>TERRAIN_PLAINS</ProhibitedCityTerrain>
+			<Happiness>1</Happiness>
 			<HurryCostModifier>0</HurryCostModifier>
 			<IconAtlas>NEW_BLDG_ATLAS2_DLC</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
 		</Row>
+		<!-- Remove UN Wonder-->
+		<Delete Type="BUILDING_UNITED_NATIONS"/>
 	</Buildings>
 	<Building_ClassesNeededInCity>
 		<Row>
@@ -2292,19 +2385,19 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TEMPLE</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MUD_PYRAMID_MOSQUE</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_OPERA_HOUSE</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MUSEUM</BuildingType>
@@ -2369,12 +2462,22 @@
 		<Row>
 			<BuildingType>BUILDING_LOUVRE</BuildingType>
 			<UnitType>UNIT_ARTIST</UnitType>
-			<NumUnits>2</NumUnits>
+			<NumUnits>1</NumUnits>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PYRAMID</BuildingType>
 			<UnitType>UNIT_WORKER</UnitType>
 			<NumUnits>2</NumUnits>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
+			<UnitType>UNIT_PROPHET</UnitType>
+			<NumUnits>1</NumUnits>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<UnitType>UNIT_CARGO_SHIP</UnitType>
+			<NumUnits>1</NumUnits>
 		</Row>
 	</Building_FreeUnits>
 	<Building_DomainFreeExperiences>
@@ -2495,17 +2598,12 @@
 		<Row>
 			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
@@ -2534,8 +2632,23 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HARBOR</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HARBOR</BuildingType>
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HARBOR</BuildingType>
 			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
 			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HARBOR</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SEAPORT</BuildingType>
@@ -2548,14 +2661,19 @@
 			<Flavor>40</Flavor>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_SEAPORT</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_BARRACKS</BuildingType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ARMORY</BuildingType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
-			<Flavor>15</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STABLE</BuildingType>
@@ -2577,22 +2695,6 @@
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
-		<!--
-		<Row>
-			<BuildingType>BUILDING_ARSENAL</BuildingType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>14</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_ARSENAL</BuildingType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>8</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_ARSENAL</BuildingType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>	-->
 		<Row>
 			<BuildingType>BUILDING_ARSENAL</BuildingType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
@@ -2610,8 +2712,13 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MUGHAL_FORT</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUGHAL_FORT</BuildingType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>25</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MILITARY_BASE</BuildingType>
@@ -2631,6 +2738,21 @@
 		<Row>
 			<BuildingType>BUILDING_GRANARY</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 		<Row>
@@ -2656,7 +2778,7 @@
 		<Row>
 			<BuildingType>BUILDING_WATERMILL</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HOSPITAL</BuildingType>
@@ -2696,7 +2818,7 @@
 		<Row>
 			<BuildingType>BUILDING_CIRCUS</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>50</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_THEATRE</BuildingType>
@@ -2731,7 +2853,7 @@
 		<Row>
 			<BuildingType>BUILDING_COURTHOUSE</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>75</Flavor>
+			<Flavor>150</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WORKSHOP</BuildingType>
@@ -2740,8 +2862,38 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
@@ -2750,8 +2902,28 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FORGE</BuildingType>
@@ -2761,7 +2933,7 @@
 		<Row>
 			<BuildingType>BUILDING_FORGE</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>30</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WINDMILL</BuildingType>
@@ -2772,6 +2944,11 @@
 			<BuildingType>BUILDING_WINDMILL</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WINDMILL</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FACTORY</BuildingType>
@@ -2782,6 +2959,11 @@
 			<BuildingType>BUILDING_FACTORY</BuildingType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HYDRO_PLANT</BuildingType>
@@ -2821,17 +3003,52 @@
 		<Row>
 			<BuildingType>BUILDING_SPACESHIP_FACTORY</BuildingType>
 			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
-			<Flavor>30</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MARKET</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MARKET</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MARKET</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MARKET</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BAZAAR</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BAZAAR</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BAZAAR</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BAZAAR</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BAZAAR</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MINT</BuildingType>
@@ -2841,7 +3058,22 @@
 		<Row>
 			<BuildingType>BUILDING_BANK</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANK</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANK</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANK</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SATRAPS_COURT</BuildingType>
@@ -2854,19 +3086,34 @@
 			<Flavor>30</Flavor>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_SATRAPS_COURT</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>40</Flavor>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LIBRARY</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>35</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_LIBRARY</BuildingType>
-			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>40</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>
@@ -2886,47 +3133,42 @@
 		<Row>
 			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>35</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_OBSERVATORY</BuildingType>
-			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>35</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_OBSERVATORY</BuildingType>
-			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
-			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>50</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
+    <Row>
+      <BuildingType>BUILDING_UNIVERSITY</BuildingType>
+      <FlavorType>FLAVOR_CULTURE</FlavorType>
+      <Flavor>10</Flavor>
+    </Row>
 		<Row>
-			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
-			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
-			<Flavor>10</Flavor>
+			<BuildingType>BUILDING_OBSERVATORY</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>35</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
-			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
-			<Flavor>20</Flavor>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>65</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PUBLIC_SCHOOL</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LABORATORY</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>75</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LABORATORY</BuildingType>
-			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
-			<Flavor>20</Flavor>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MONUMENT</BuildingType>
@@ -2934,13 +3176,8 @@
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_TEMPLE</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>20</Flavor>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
@@ -2951,7 +3188,12 @@
 		<Row>
 			<BuildingType>BUILDING_MUD_PYRAMID_MOSQUE</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>40</Flavor>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUD_PYRAMID_MOSQUE</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WAT</BuildingType>
@@ -2964,9 +3206,9 @@
 			<Flavor>35</Flavor>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_MONASTERY</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>35</Flavor>
+			<BuildingType>BUILDING_WAT</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_OPERA_HOUSE</BuildingType>
@@ -2974,14 +3216,29 @@
 			<Flavor>35</Flavor>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_OPERA_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_MUSEUM</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>40</Flavor>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_MUSEUM</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>40</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GARDEN</BuildingType>
@@ -2991,7 +3248,7 @@
 		<Row>
 			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>6</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
@@ -3001,7 +3258,7 @@
 		<Row>
 			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>35</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
@@ -3036,7 +3293,17 @@
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
+			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+			<Flavor>25</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
@@ -3046,7 +3313,7 @@
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>100</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
@@ -3086,7 +3353,12 @@
 		<Row>
 			<BuildingType>BUILDING_PYRAMID</BuildingType>
 			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>15</Flavor>
+			<Flavor>45</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PYRAMID</BuildingType>
@@ -3094,14 +3366,24 @@
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>15</Flavor>
+			<Flavor>75</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STONEHENGE</BuildingType>
@@ -3110,13 +3392,18 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STONEHENGE</BuildingType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>20</Flavor>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>75</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>30</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
@@ -3124,24 +3411,39 @@
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_COLOSSUS</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>15</Flavor>
+			<Flavor>25</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_COLOSSUS</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>15</Flavor>
+			<Flavor>30</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ORACLE</BuildingType>
@@ -3152,6 +3454,11 @@
 			<BuildingType>BUILDING_ORACLE</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
@@ -3164,14 +3471,29 @@
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>30</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
@@ -3189,24 +3511,49 @@
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_NOTRE_DAME</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NOTRE_DAME</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_NOTRE_DAME</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NOTRE_DAME</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
@@ -3224,9 +3571,19 @@
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_KREMLIN</BuildingType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>30</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_KREMLIN</BuildingType>
@@ -3237,6 +3594,11 @@
 			<BuildingType>BUILDING_KREMLIN</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KREMLIN</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FORBIDDEN_PALACE</BuildingType>
@@ -3255,12 +3617,27 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FORBIDDEN_PALACE</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORBIDDEN_PALACE</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>100</Flavor>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_FORBIDDEN_PALACE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_HIMEJI_CASTLE</BuildingType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HIMEJI_CASTLE</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
 			<Flavor>15</Flavor>
 		</Row>
 		<Row>
@@ -3274,6 +3651,11 @@
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_HIMEJI_CASTLE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_PORCELAIN_TOWER</BuildingType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>20</Flavor>
@@ -3281,7 +3663,7 @@
 		<Row>
 			<BuildingType>BUILDING_PORCELAIN_TOWER</BuildingType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
-			<Flavor>8</Flavor>
+			<Flavor>45</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PORCELAIN_TOWER</BuildingType>
@@ -3291,12 +3673,17 @@
 		<Row>
 			<BuildingType>BUILDING_SISTINE_CHAPEL</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>25</Flavor>
+			<Flavor>50</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SISTINE_CHAPEL</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SISTINE_CHAPEL</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_TAJ_MAHAL</BuildingType>
@@ -3314,6 +3701,16 @@
 			<Flavor>25</Flavor>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_TAJ_MAHAL</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TAJ_MAHAL</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_BIG_BEN</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>25</Flavor>
@@ -3324,9 +3721,19 @@
 			<Flavor>25</Flavor>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_BIG_BEN</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_BRANDENBURG_GATE</BuildingType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BRANDENBURG_GATE</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>30</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BRANDENBURG_GATE</BuildingType>
@@ -3334,14 +3741,19 @@
 			<Flavor>25</Flavor>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_BRANDENBURG_GATE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>45</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_LOUVRE</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>13</Flavor>
+			<Flavor>75</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LOUVRE</BuildingType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
-			<Flavor>12</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_LOUVRE</BuildingType>
@@ -3351,12 +3763,17 @@
 		<Row>
 			<BuildingType>BUILDING_EIFFEL_TOWER</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>30</Flavor>
+			<Flavor>50</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_EIFFEL_TOWER</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EIFFEL_TOWER</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
@@ -3367,6 +3784,11 @@
 			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CRISTO_REDENTOR</BuildingType>
@@ -3377,6 +3799,11 @@
 			<BuildingType>BUILDING_CRISTO_REDENTOR</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>70</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRISTO_REDENTOR</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PENTAGON</BuildingType>
@@ -3389,6 +3816,11 @@
 			<Flavor>30</Flavor>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_PENTAGON</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_UNITED_NATIONS</BuildingType>
 			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
 			<Flavor>250</Flavor>
@@ -3399,9 +3831,19 @@
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_UNITED_NATIONS</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_SYDNEY_OPERA_HOUSE</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>70</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SYDNEY_OPERA_HOUSE</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_SYDNEY_OPERA_HOUSE</BuildingType>
@@ -3427,6 +3869,16 @@
 			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 	</Building_Flavors>
 	<Building_HurryModifiers>
@@ -3464,12 +3916,8 @@
 			<ResourceType>RESOURCE_SILVER</ResourceType>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_MONASTERY</BuildingType>
-			<ResourceType>RESOURCE_INCENSE</ResourceType>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MONASTERY</BuildingType>
-			<ResourceType>RESOURCE_WINE</ResourceType>
+			<BuildingType>BUILDING_MINT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_CIRCUS</BuildingType>
@@ -3479,18 +3927,6 @@
 			<BuildingType>BUILDING_CIRCUS</BuildingType>
 			<ResourceType>RESOURCE_IVORY</ResourceType>
 		</Row>
-		<!--<Row>
-			<BuildingType>BUILDING_SEAPORT</BuildingType>
-			<ResourceType>RESOURCE_FISH</ResourceType>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SEAPORT</BuildingType>
-			<ResourceType>RESOURCE_WHALE</ResourceType>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_SEAPORT</BuildingType>
-			<ResourceType>RESOURCE_PEARLS</ResourceType>
-		</Row>-->
 		<Row>
 			<BuildingType>BUILDING_STONE_WORKS</BuildingType>
 			<ResourceType>RESOURCE_MARBLE</ResourceType>
@@ -3564,18 +4000,7 @@
 			<Cost>1</Cost>
 		</Row>
 	</Building_ResourceQuantityRequirements>
-	<Building_ResourceCultureChanges>
-		<Row>
-			<BuildingType>BUILDING_MONASTERY</BuildingType>
-			<ResourceType>RESOURCE_INCENSE</ResourceType>
-			<CultureChange>2</CultureChange>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_MONASTERY</BuildingType>
-			<ResourceType>RESOURCE_WINE</ResourceType>
-			<CultureChange>2</CultureChange>
-		</Row>
-	</Building_ResourceCultureChanges>
+	<Building_ResourceFaithChanges/>
 	<Building_RiverPlotYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_HYDRO_PLANT</BuildingType>
@@ -3587,11 +4012,6 @@
 		<Row>
 			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_COLOSSUS</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	</Building_SeaPlotYieldChanges>
@@ -3612,9 +4032,9 @@
 			<BuildingType>BUILDING_SEAPORT</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>1</Yield>
-		</Row>		
+		</Row>
 		<Row>
-			<BuildingType>BUILDING_HARBOR</BuildingType>
+			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
@@ -3629,6 +4049,12 @@
 		<Row>
 			<BuildingType>BUILDING_MINT</BuildingType>
 			<ResourceType>RESOURCE_SILVER</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MINT</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
 		</Row>
@@ -3669,6 +4095,12 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<ResourceType>RESOURCE_BISON</ResourceType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_LIGHTHOUSE</BuildingType>
 			<ResourceType>RESOURCE_FISH</ResourceType>
 			<YieldType>YIELD_FOOD</YieldType>
@@ -3697,6 +4129,30 @@
 			<ResourceType>RESOURCE_OIL</ResourceType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
 		</Row>
 	</Building_ResourceYieldChanges>
 	<Building_FeatureYieldChanges>
@@ -3730,6 +4186,11 @@
 			<BuildingType>BUILDING_STABLE</BuildingType>
 			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
 			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KREMLIN</BuildingType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<Modifier>50</Modifier>
 		</Row>
 	</Building_UnitCombatProductionModifiers>
 	<Building_YieldChanges>
@@ -3786,7 +4247,7 @@
 		<Row>
 			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>8</Yield>
+			<Yield>4</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_IRONWORKS</BuildingType>
@@ -3811,7 +4272,7 @@
 		<Row>
 			<BuildingType>BUILDING_MARKET</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_BAZAAR</BuildingType>
@@ -3821,7 +4282,17 @@
 		<Row>
 			<BuildingType>BUILDING_SATRAPS_COURT</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BANK</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_WORKSHOP</BuildingType>
@@ -3886,9 +4357,397 @@
 		<Row>
 			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
-			<Yield>10</Yield>
+			<Yield>6</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUGHAL_FORT</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_WAT</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONUMENT</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OPERA_HOUSE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUSEUM</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BROADCAST_TOWER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PALACE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_COLLEGE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_EPIC</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CIRCUS_MAXIMUS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OXFORD_UNIVERSITY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HERMITAGE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIGHTHOUSE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PYRAMID</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COLOSSUS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ORACLE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HANGING_GARDEN</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_WALL</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PORCELAIN_TOWER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HIMEJI_CASTLE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SISTINE_CHAPEL</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KREMLIN</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FORBIDDEN_PALACE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TAJ_MAHAL</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BIG_BEN</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LOUVRE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BRANDENBURG_GATE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_EIFFEL_TOWER</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PENTAGON</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_UNITED_NATIONS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MONASTERY</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUD_PYRAMID_MOSQUE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUD_PYRAMID_MOSQUE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_BURIAL_TOMB</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TEMPLE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STONEHENGE</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NOTRE_DAME</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_CRISTO_REDENTOR</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>5</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SPACESHIP_FACTORY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
 		</Row>
 	</Building_YieldChanges>
+	<Building_ThemingBonuses>
+		<Row>
+			<BuildingType>BUILDING_MUSEUM</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_MUSEUM_1</Description>
+			<Bonus>2</Bonus>
+			<SameEra>true</SameEra>
+			<MustBeArt>true</MustBeArt>
+			<RequiresOwner>true</RequiresOwner>
+			<AIPriority>2</AIPriority>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUSEUM</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_MUSEUM_1</Description>
+			<Bonus>2</Bonus>
+			<SameEra>true</SameEra>
+			<MustBeArt>true</MustBeArt>
+			<RequiresAnyButOwner>true</RequiresAnyButOwner>
+			<AIPriority>2</AIPriority>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUSEUM</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_MUSEUM_2</Description>
+			<Bonus>2</Bonus>
+			<SameEra>true</SameEra>
+			<MustBeArtifact>true</MustBeArtifact>
+			<RequiresOwner>true</RequiresOwner>
+			<AIPriority>2</AIPriority>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUSEUM</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_MUSEUM_2</Description>
+			<Bonus>2</Bonus>
+			<SameEra>true</SameEra>
+			<MustBeArtifact>true</MustBeArtifact>
+			<RequiresAnyButOwner>true</RequiresAnyButOwner>
+			<AIPriority>2</AIPriority>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUSEUM</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_MUSEUM_3</Description>
+			<Bonus>1</Bonus>
+			<SameEra>true</SameEra>
+			<MustBeArt>true</MustBeArt>
+			<AIPriority>1</AIPriority>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUSEUM</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_MUSEUM_4</Description>
+			<Bonus>1</Bonus>
+			<SameEra>true</SameEra>
+			<MustBeArtifact>true</MustBeArtifact>
+			<AIPriority>1</AIPriority>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUSEUM</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_MUSEUM_5</Description>
+			<Bonus>1</Bonus>
+			<SameEra>true</SameEra>
+			<RequiresOwner>true</RequiresOwner>
+			<AIPriority>1</AIPriority>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUSEUM</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_MUSEUM_6</Description>
+			<Bonus>1</Bonus>
+			<SameEra>true</SameEra>
+			<RequiresAnyButOwner>true</RequiresAnyButOwner>
+			<AIPriority>1</AIPriority>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUSEUM</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_MUSEUM_7</Description>
+			<Bonus>1</Bonus>
+			<MustBeArt>true</MustBeArt>
+			<RequiresOwner>true</RequiresOwner>
+			<AIPriority>1</AIPriority>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUSEUM</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_MUSEUM_7</Description>
+			<Bonus>1</Bonus>
+			<MustBeArt>true</MustBeArt>
+			<RequiresAnyButOwner>true</RequiresAnyButOwner>
+			<AIPriority>1</AIPriority>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUSEUM</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_MUSEUM_8</Description>
+			<Bonus>1</Bonus>
+			<MustBeArtifact>true</MustBeArtifact>
+			<RequiresOwner>true</RequiresOwner>
+			<AIPriority>1</AIPriority>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MUSEUM</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_MUSEUM_8</Description>
+			<Bonus>1</Bonus>
+			<MustBeArtifact>true</MustBeArtifact>
+			<RequiresAnyButOwner>true</RequiresAnyButOwner>
+			<AIPriority>1</AIPriority>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HERMITAGE</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_HERMITAGE</Description>
+			<Bonus>3</Bonus>
+			<UniqueEras>true</UniqueEras>
+			<MustBeArt>true</MustBeArt>
+			<RequiresUniquePlayers>true</RequiresUniquePlayers>
+			<AIPriority>4</AIPriority>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_OXFORD_UNIVERSITY</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_OXFORD_UNIVERSITY</Description>
+			<Bonus>2</Bonus>
+			<UniqueEras>true</UniqueEras>
+			<RequiresAnyButOwner>true</RequiresAnyButOwner>
+			<AIPriority>1</AIPriority>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SISTINE_CHAPEL</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_SISTINE_CHAPEL</Description>
+			<Bonus>2</Bonus>
+			<SameEra>true</SameEra>
+			<MustBeArt>true</MustBeArt>
+			<RequiresSamePlayer>true</RequiresSamePlayer>
+			<AIPriority>3</AIPriority>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LOUVRE</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_LOUVRE</Description>
+			<Bonus>4</Bonus>
+			<UniqueEras>true</UniqueEras>
+			<MustBeEqualArtArtifact>true</MustBeEqualArtArtifact>
+			<RequiresUniquePlayers>true</RequiresUniquePlayers>
+			<AIPriority>5</AIPriority>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GREAT_LIBRARY</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_GREAT_LIBRARY</Description>
+			<Bonus>2</Bonus>
+			<UniqueEras>true</UniqueEras>
+			<RequiresUniquePlayers>true</RequiresUniquePlayers>
+			<AIPriority>2</AIPriority>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SYDNEY_OPERA_HOUSE</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_SYDNEY_OPERA_HOUSE</Description>
+			<Bonus>2</Bonus>
+			<UniqueEras>true</UniqueEras>
+			<RequiresSamePlayer>true</RequiresSamePlayer>
+			<AIPriority>1</AIPriority>
+		</Row>
+	</Building_ThemingBonuses>
 	<Building_SpecialistYieldChanges>
 		<Row>
 			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
@@ -3920,6 +4779,18 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STATUE_OF_LIBERTY</BuildingType>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
 	</Building_SpecialistYieldChanges>
 	<Building_YieldChangesPerPop>
 		<Row>
@@ -3938,13 +4809,6 @@
 			<Yield>50</Yield>
 		</Row>
 	</Building_YieldChangesPerPop>
-	<Building_TechEnhancedYieldChanges>
-		<Row>
-			<BuildingType>BUILDING_MUGHAL_FORT</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>3</Yield>
-		</Row>
-	</Building_TechEnhancedYieldChanges>
 	<Building_YieldModifiers>
 		<Row>
 			<BuildingType>BUILDING_FLOATING_GARDENS</BuildingType>
@@ -3994,7 +4858,7 @@
 		<Row>
 			<BuildingType>BUILDING_STOCK_EXCHANGE</BuildingType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>33</Yield>
+			<Yield>25</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_UNIVERSITY</BuildingType>
@@ -4022,4 +4886,6 @@
 			<Yield>50</Yield>
 		</Row>
 	</Building_YieldModifiers>
+	<!-- Remove UN Wonder-->
+	<DeleteMissingReferences table="Buildings" column="Type"/>
 </GameData>

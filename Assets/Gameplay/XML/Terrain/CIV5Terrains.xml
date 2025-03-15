@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Scott Lewis (Firaxis Games) -->
 <GameData>
 	<!-- Table definition -->
 	<Table name="Terrains">
 		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
 		<Column name="Type" type="text" notnull="true" unique="true"/>
-		<Column name="Description" type="text"/>
-		<Column name="Civilopedia" type="text"/>
+		<Column name="Description" type="text" reference="Language_en_US(Tag)" />
+		<Column name="Civilopedia" type="text" reference="Language_en_US(Tag)"/>
 		<Column name="ArtDefineTag" type="text"/>
 		<Column name="Water" type="boolean" default="false"/>
 		<Column name="Impassable" type="boolean" default="false"/>
@@ -199,43 +199,12 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<TerrainType>TERRAIN_COAST</TerrainType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
 			<TerrainType>TERRAIN_OCEAN</TerrainType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>1</Yield>
 		</Row>
-		<Row>
-			<TerrainType>TERRAIN_OCEAN</TerrainType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
 	</Terrain_Yields>
-	<Terrain_RiverYieldChanges>
-		<Row>
-			<TerrainType>TERRAIN_GRASS</TerrainType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<TerrainType>TERRAIN_PLAINS</TerrainType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<TerrainType>TERRAIN_DESERT</TerrainType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<TerrainType>TERRAIN_TUNDRA</TerrainType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-	</Terrain_RiverYieldChanges>
+	<Terrain_RiverYieldChanges/>
 	<Terrain_HillsYieldChanges>
 		<Row>
 			<TerrainType>TERRAIN_GRASS</TerrainType>

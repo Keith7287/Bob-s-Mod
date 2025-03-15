@@ -194,7 +194,7 @@
 		<Row>
 			<CitySpecializationType>CITYSPECIALIZATION_MILITARY_TRAINING</CitySpecializationType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>75</Flavor>
 		</Row>
 		<Row>
 			<CitySpecializationType>CITYSPECIALIZATION_MILITARY_TRAINING</CitySpecializationType>
@@ -285,6 +285,11 @@
 			<CitySpecializationType>CITYSPECIALIZATION_MILITARY_NAVAL</CitySpecializationType>
 			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
 			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<CitySpecializationType>CITYSPECIALIZATION_MILITARY_NAVAL</CitySpecializationType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>50</Flavor>
 		</Row>
 		<Row>
 			<CitySpecializationType>CITYSPECIALIZATION_MILITARY_NAVAL</CitySpecializationType>
@@ -467,6 +472,11 @@
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
+			<CitySpecializationType>CITYSPECIALIZATION_COMMERCE</CitySpecializationType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>-100</Flavor>
+		</Row>
+		<Row>
 			<CitySpecializationType>CITYSPECIALIZATION_SCIENCE</CitySpecializationType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>-4</Flavor>
@@ -489,7 +499,7 @@
 		<Row>
 			<CitySpecializationType>CITYSPECIALIZATION_SCIENCE</CitySpecializationType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>40</Flavor>
+			<Flavor>50</Flavor>
 		</Row>
 		<Row>
 			<CitySpecializationType>CITYSPECIALIZATION_SCIENCE</CitySpecializationType>
@@ -525,6 +535,11 @@
 			<CitySpecializationType>CITYSPECIALIZATION_SCIENCE</CitySpecializationType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
 			<Flavor>-4</Flavor>
+		</Row>
+		<Row>
+			<CitySpecializationType>CITYSPECIALIZATION_SCIENCE</CitySpecializationType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>-100</Flavor>
 		</Row>
 		<Row>
 			<CitySpecializationType>CITYSPECIALIZATION_GENERAL_ECONOMIC</CitySpecializationType>

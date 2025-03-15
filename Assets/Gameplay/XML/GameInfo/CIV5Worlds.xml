@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Scott Lewis (Firaxis Games) -->
 <GameData>
 	<!-- Table definition -->
 	<Table name="Worlds">
@@ -18,12 +18,15 @@
 		<Column name="MaxConscriptModifier" type="integer"/>
 		<Column name="GridWidth" type="integer"/>
 		<Column name="GridHeight" type="integer"/>
+		<Column name="MaxActiveReligions" type="integer"/>
 		<Column name="TerrainGrainChange" type="integer"/>
 		<Column name="FeatureGrainChange" type="integer"/>
 		<Column name="ResearchPercent" type="integer"/>
 		<Column name="NumCitiesUnhappinessPercent" type="integer"/>
 		<Column name="NumCitiesPolicyCostMod" type="integer"/>
+		<Column name="NumCitiesTechCostMod" type="integer"/>
 		<Column name="AdvancedStartPointsMod" type="integer"/>
+		<Column name="EstimatedNumCities" type="integer"/>
 		<Column name="PortraitIndex" type="integer" default="-1"/>
 		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
 	</Table>
@@ -38,6 +41,7 @@
 			<DefaultMinorCivs>4</DefaultMinorCivs>
 			<GridWidth>40</GridWidth>
 			<GridHeight>24</GridHeight>
+			<MaxActiveReligions>2</MaxActiveReligions>
 			<FogTilesPerBarbarianCamp>13</FogTilesPerBarbarianCamp>
 			<NumNaturalWonders>2</NumNaturalWonders>
 			<UnitNameModifier>50</UnitNameModifier>
@@ -49,8 +53,10 @@
 			<FeatureGrainChange>-1</FeatureGrainChange>
 			<ResearchPercent>100</ResearchPercent>
 			<NumCitiesUnhappinessPercent>100</NumCitiesUnhappinessPercent>
-			<NumCitiesPolicyCostMod>15</NumCitiesPolicyCostMod>
+			<NumCitiesPolicyCostMod>10</NumCitiesPolicyCostMod>
+			<NumCitiesTechCostMod>5</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>80</AdvancedStartPointsMod>
+			<EstimatedNumCities>13</EstimatedNumCities>
 			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
@@ -62,6 +68,7 @@
 			<DefaultMinorCivs>8</DefaultMinorCivs>
 			<GridWidth>56</GridWidth>
 			<GridHeight>36</GridHeight>
+			<MaxActiveReligions>3</MaxActiveReligions>
 			<FogTilesPerBarbarianCamp>18</FogTilesPerBarbarianCamp>
 			<NumNaturalWonders>3</NumNaturalWonders>
 			<UnitNameModifier>40</UnitNameModifier>
@@ -73,8 +80,10 @@
 			<FeatureGrainChange>-1</FeatureGrainChange>
 			<ResearchPercent>100</ResearchPercent>
 			<NumCitiesUnhappinessPercent>100</NumCitiesUnhappinessPercent>
-			<NumCitiesPolicyCostMod>15</NumCitiesPolicyCostMod>
+			<NumCitiesPolicyCostMod>10</NumCitiesPolicyCostMod>
+			<NumCitiesTechCostMod>5</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>85</AdvancedStartPointsMod>
+			<EstimatedNumCities>26</EstimatedNumCities>
 			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
 		</Row>
@@ -86,6 +95,7 @@
 			<DefaultMinorCivs>12</DefaultMinorCivs>
 			<GridWidth>66</GridWidth>
 			<GridHeight>42</GridHeight>
+			<MaxActiveReligions>4</MaxActiveReligions>
 			<FogTilesPerBarbarianCamp>23</FogTilesPerBarbarianCamp>
 			<NumNaturalWonders>3</NumNaturalWonders>
 			<UnitNameModifier>30</UnitNameModifier>
@@ -97,8 +107,10 @@
 			<FeatureGrainChange>0</FeatureGrainChange>
 			<ResearchPercent>100</ResearchPercent>
 			<NumCitiesUnhappinessPercent>100</NumCitiesUnhappinessPercent>
-			<NumCitiesPolicyCostMod>15</NumCitiesPolicyCostMod>
+			<NumCitiesPolicyCostMod>10</NumCitiesPolicyCostMod>
+			<NumCitiesTechCostMod>5</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>90</AdvancedStartPointsMod>
+			<EstimatedNumCities>39</EstimatedNumCities>
 			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
 			<PortraitIndex>2</PortraitIndex>
 		</Row>
@@ -110,6 +122,7 @@
 			<DefaultMinorCivs>16</DefaultMinorCivs>
 			<GridWidth>80</GridWidth>
 			<GridHeight>52</GridHeight>
+			<MaxActiveReligions>5</MaxActiveReligions>
 			<FogTilesPerBarbarianCamp>27</FogTilesPerBarbarianCamp>
 			<NumNaturalWonders>4</NumNaturalWonders>
 			<UnitNameModifier>20</UnitNameModifier>
@@ -121,8 +134,10 @@
 			<FeatureGrainChange>0</FeatureGrainChange>
 			<ResearchPercent>110</ResearchPercent>
 			<NumCitiesUnhappinessPercent>100</NumCitiesUnhappinessPercent>
-			<NumCitiesPolicyCostMod>15</NumCitiesPolicyCostMod>
+			<NumCitiesPolicyCostMod>10</NumCitiesPolicyCostMod>
+			<NumCitiesTechCostMod>5</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>100</AdvancedStartPointsMod>
+			<EstimatedNumCities>52</EstimatedNumCities>
 			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
 			<PortraitIndex>3</PortraitIndex>
 		</Row>
@@ -134,6 +149,7 @@
 			<DefaultMinorCivs>20</DefaultMinorCivs>
 			<GridWidth>104</GridWidth>
 			<GridHeight>64</GridHeight>
+			<MaxActiveReligions>6</MaxActiveReligions>
 			<FogTilesPerBarbarianCamp>30</FogTilesPerBarbarianCamp>
 			<NumNaturalWonders>6</NumNaturalWonders>
 			<UnitNameModifier>10</UnitNameModifier>
@@ -145,8 +161,10 @@
 			<FeatureGrainChange>1</FeatureGrainChange>
 			<ResearchPercent>120</ResearchPercent>
 			<NumCitiesUnhappinessPercent>80</NumCitiesUnhappinessPercent>
-			<NumCitiesPolicyCostMod>10</NumCitiesPolicyCostMod>
+			<NumCitiesPolicyCostMod>7.5</NumCitiesPolicyCostMod>
+			<NumCitiesTechCostMod>3.75</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>110</AdvancedStartPointsMod>
+			<EstimatedNumCities>80</EstimatedNumCities>
 			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
 			<PortraitIndex>4</PortraitIndex>
 		</Row>
@@ -158,6 +176,7 @@
 			<DefaultMinorCivs>24</DefaultMinorCivs>
 			<GridWidth>128</GridWidth>
 			<GridHeight>80</GridHeight>
+			<MaxActiveReligions>7</MaxActiveReligions>
 			<FogTilesPerBarbarianCamp>35</FogTilesPerBarbarianCamp>
 			<NumNaturalWonders>7</NumNaturalWonders>
 			<UnitNameModifier>0</UnitNameModifier>
@@ -169,34 +188,12 @@
 			<FeatureGrainChange>1</FeatureGrainChange>
 			<ResearchPercent>130</ResearchPercent>
 			<NumCitiesUnhappinessPercent>60</NumCitiesUnhappinessPercent>
-			<NumCitiesPolicyCostMod>7.5</NumCitiesPolicyCostMod>
+			<NumCitiesPolicyCostMod>5</NumCitiesPolicyCostMod>
+			<NumCitiesTechCostMod>2.5</NumCitiesTechCostMod>
 			<AdvancedStartPointsMod>120</AdvancedStartPointsMod>
+			<EstimatedNumCities>132</EstimatedNumCities>
 			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
 			<PortraitIndex>5</PortraitIndex>
 		</Row>
-		<!--<Row>
-			<Type>WORLDSIZE_DEBUG</Type>
-			<Description>TXT_KEY_WORLD_DEBUG</Description>
-			<Help>TXT_KEY_WORLD_DEBUG_HELP</Help>
-			<DefaultPlayers>2</DefaultPlayers>
-			<DefaultMinorCivs>0</DefaultMinorCivs>
-			<GridWidth>10</GridWidth>
-			<GridHeight>10</GridHeight>
-			<FogTilesPerBarbarianCamp>666</FogTilesPerBarbarianCamp>
-			<NumNaturalWonders>0</NumNaturalWonders>
-			<UnitNameModifier>50</UnitNameModifier>
-			<TargetNumCities>4</TargetNumCities>
-			<NumFreeBuildingResources>1</NumFreeBuildingResources>
-			<BuildingClassPrereqModifier>0</BuildingClassPrereqModifier>
-			<MaxConscriptModifier>-50</MaxConscriptModifier>
-			<TerrainGrainChange>-1</TerrainGrainChange>
-			<FeatureGrainChange>-1</FeatureGrainChange>
-			<ResearchPercent>100</ResearchPercent>
-			<NumCitiesUnhappinessPercent>100</NumCitiesUnhappinessPercent>
-			<NumCitiesPolicyCostMod>40</NumCitiesPolicyCostMod>
-			<AdvancedStartPointsMod>80</AdvancedStartPointsMod>
-			<IconAtlas>WORLDSIZE_ATLAS</IconAtlas>
-			<PortraitIndex>6</PortraitIndex>
-		</Row>-->
 	</Worlds>
 </GameData>

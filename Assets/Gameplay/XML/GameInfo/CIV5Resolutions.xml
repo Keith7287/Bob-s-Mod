@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+	<!-- Table definitions-->
+	<Table name="LeagueSpecialSessions">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text" reference="Language_en_US(Tag)" default="NULL"/>
+		<Column name="Help" type="text" reference="Language_en_US(Tag)" default="NULL"/>
+		<Column name="SessionSplashImage" type="text" default="NULL"/>
+		<Column name="EraTrigger" type="text" reference="Eras(Type)" default="NULL"/>
+		<Column name="ImmediateProposal" type="text" reference="Resolutions(Type)" default="NULL"/>
+		<Column name="RecurringProposal" type="text" reference="Resolutions(Type)" default="NULL"/>
+		<Column name="TurnsBetweenSessions" type="integer" default="0"/>
+		<Column name="CivDelegates" type="integer" default="0"/>
+		<Column name="HostDelegates" type="integer" default="0"/>
+		<Column name="CityStateDelegates" type="integer" default="0"/>
+		<Column name="UnitedNations" type="boolean" default="false"/>
+	</Table>
+	<Table name="LeagueNames">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="NameKey" type="text" reference="Language_en_US(Tag)" default="NULL"/>
+	</Table>
+	<Table name="LeagueProjectRewards">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text" reference="Language_en_US(Tag)" default="NULL"/>
+		<Column name="Help" type="text" reference="Language_en_US(Tag)" default="NULL"/>
+		<Column name="Building" type="text" reference="Buildings(Type)" default="NULL"/>
+		<Column name="Happiness" type="integer" default="0"/>
+		<Column name="FreeSocialPolicies" type="integer" default="0"/>
+		<Column name="CultureBonusTurns" type="integer" default="0"/>
+		<Column name="TourismBonusTurns" type="integer" default="0"/>
+		<Column name="GoldenAgePoints" type="integer" default="0"/>
+		<Column name="CityStateInfluenceBoost" type="integer" default="0"/>
+		<Column name="BaseBeakersTurnsToCount" type="integer" default="0"/>
+		<Column name="FreeUnitClass" type="text" reference="UnitClasses(Type)" default="NULL"/>
+	</Table>
+	<Table name="LeagueProjects">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text" reference="Language_en_US(Tag)" default="NULL"/>
+		<Column name="Help" type="text" reference="Language_en_US(Tag)" default="NULL"/>
+		<Column name="ProjectSplashImage" type="text" default="NULL"/>
+		<Column name="Process" type="text" reference="Processes(Type)" default="NULL"/>
+		<Column name="CostPerPlayer" type="integer" default="0"/>
+		<Column name="RewardTier1" type="text" reference="LeagueProjectRewards(Type)" default="NULL"/>
+		<Column name="RewardTier2" type="text" reference="LeagueProjectRewards(Type)" default="NULL"/>
+		<Column name="RewardTier3" type="text" reference="LeagueProjectRewards(Type)" default="NULL"/>
+		<Column name="PortraitIndex" type="integer" default="0"/>
+		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
+	</Table>
+	<Table name="ResolutionDecisions">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text" reference="Language_en_US(Tag)"/>
+	</Table>
+	<Table name="Resolutions">
+		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
+		<Column name="Type" type="text" notnull="true" unique="true"/>
+		<Column name="Description" type="text" reference="Language_en_US(Tag)"/>
+		<Column name="Help" type="text" reference="Language_en_US(Tag)"/>
+		<Column name="VoterDecision" type="text" reference="ResolutionDecisions(Type)" default="NULL"/>
+		<Column name="ProposerDecision" type="text" reference="ResolutionDecisions(Type)" default="NULL"/>
+		<Column name="TechPrereqAnyMember" type="text" reference="Technologies(Type)" default="NULL"/>
+		<Column name="AutomaticProposal" type="boolean" default="false"/>
+		<Column name="UniqueType" type="boolean" default="false"/>
+		<Column name="NoProposalByPlayer" type="boolean" default="false"/>
+		<Column name="QuorumPercent" type="integer" default="0"/>
+		<Column name="LeadersVoteBonusOnFail" type="integer" default="0"/>
+		<!-- One time effects -->
+		<Column name="DiplomaticVictory" type="boolean" default="false"/>
+		<Column name="ChangeLeagueHost" type="boolean" default="false"/>
+		<Column name="OneTimeGold" type="integer" default="0"/>
+		<Column name="OneTimeGoldPercent" type="integer" default="0"/>
+		<Column name="RaiseCityStateInfluenceToNeutral" type="boolean" default="false"/>
+		<Column name="LeagueProjectEnabled" type="text" default="NULL" reference="LeagueProjects(Type)"/>
+		<!-- Ongoing effects -->
+		<Column name="GoldPerTurn" type="integer" default="0"/>
+		<Column name="ResourceQuantity" type="integer" default="0"/>
+		<Column name="EmbargoCityStates" type="boolean" default="false"/>
+		<Column name="EmbargoPlayer" type="boolean" default="false"/>
+		<Column name="NoResourceHappiness" type="boolean" default="false"/>
+		<Column name="UnitMaintenanceGoldPercent" type="integer" default="0"/>
+		<Column name="MemberDiscoveredTechMod" type="integer" default="0"/>
+		<Column name="CulturePerWonder" type="integer" default="0"/>
+		<Column name="CulturePerNaturalWonder" type="integer" default="0"/>
+		<Column name="NoTrainingNuclearWeapons" type="boolean" default="false"/>
+		<Column name="VotesForFollowingReligion" type="integer" default="0"/>
+		<Column name="HolyCityTourism" type="integer" default="0"/>
+		<Column name="ReligionSpreadStrengthMod" type="integer" default="0"/>
+		<Column name="VotesForFollowingIdeology" type="integer" default="0"/>
+		<Column name="OtherIdeologyRebellionMod" type="integer" default="0"/>
+		<Column name="ArtsyGreatPersonRateMod" type="integer" default="0"/>
+		<Column name="ScienceyGreatPersonRateMod" type="integer" default="0"/>
+		<Column name="GreatPersonTileImprovementCulture" type="integer" default="0"/>
+		<Column name="LandmarkCulture" type="integer" default="0"/>
+	</Table>
+	<!-- LeagueSpecialSessions-->
+	<LeagueSpecialSessions>
+		<Row>
+			<ID>0</ID>
+			<Type>LEAGUE_SPECIAL_SESSION_START_WORLD_CONGRESS</Type>
+			<Description>TXT_KEY_LEAGUE_SPECIAL_SESSION_START_WORLD_CONGRESS</Description>
+			<Help>TXT_KEY_LEAGUE_SPECIAL_SESSION_START_WORLD_CONGRESS_HELP</Help>
+			<SessionSplashImage>WorldCongress.dds</SessionSplashImage>
+			<EraTrigger>ERA_RENAISSANCE</EraTrigger>
+			<ImmediateProposal>RESOLUTION_CHANGE_LEAGUE_HOST</ImmediateProposal>
+			<TurnsBetweenSessions>30</TurnsBetweenSessions>
+			<CivDelegates>1</CivDelegates>
+			<HostDelegates>1</HostDelegates>
+			<CityStateDelegates>0</CityStateDelegates>
+		</Row>
+		<Row>
+			<Type>LEAGUE_SPECIAL_SESSION_WELCOME_CITY_STATES</Type>
+			<Description>TXT_KEY_LEAGUE_SPECIAL_SESSION_WELCOME_CITY_STATES</Description>
+			<Help>TXT_KEY_LEAGUE_SPECIAL_SESSION_WELCOME_CITY_STATES_HELP</Help>
+			<SessionSplashImage>WorldCongress.dds</SessionSplashImage>
+			<EraTrigger>ERA_INDUSTRIAL</EraTrigger>
+			<ImmediateProposal>RESOLUTION_CHANGE_LEAGUE_HOST</ImmediateProposal>
+			<TurnsBetweenSessions>25</TurnsBetweenSessions>
+			<CivDelegates>2</CivDelegates>
+			<HostDelegates>1</HostDelegates>
+			<CityStateDelegates>1</CityStateDelegates>
+		</Row>
+		<Row>
+			<Type>LEAGUE_SPECIAL_SESSION_LEADERSHIP_COUNCIL</Type>
+			<Description>TXT_KEY_LEAGUE_SPECIAL_SESSION_LEADERSHIP_COUNCIL</Description>
+			<Help>TXT_KEY_LEAGUE_SPECIAL_SESSION_LEADERSHIP_COUNCIL_HELP</Help>
+			<SessionSplashImage>WorldCongress.dds</SessionSplashImage>
+			<EraTrigger>ERA_MODERN</EraTrigger>
+			<ImmediateProposal>RESOLUTION_CHANGE_LEAGUE_HOST</ImmediateProposal>
+			<TurnsBetweenSessions>20</TurnsBetweenSessions>
+			<CivDelegates>3</CivDelegates>
+			<HostDelegates>2</HostDelegates>
+			<CityStateDelegates>1</CityStateDelegates>
+		</Row>
+		<Row>
+			<Type>LEAGUE_SPECIAL_SESSION_START_UNITED_NATIONS</Type>
+			<Description>TXT_KEY_LEAGUE_SPECIAL_SESSION_START_UNITED_NATIONS</Description>
+			<Help>TXT_KEY_LEAGUE_SPECIAL_SESSION_START_UNITED_NATIONS_HELP</Help>
+			<SessionSplashImage>WonderConceptUN.dds</SessionSplashImage>
+			<EraTrigger>ERA_POSTMODERN</EraTrigger>
+			<ImmediateProposal>RESOLUTION_CHANGE_LEAGUE_HOST</ImmediateProposal>
+			<RecurringProposal>RESOLUTION_DIPLOMATIC_VICTORY</RecurringProposal>
+			<TurnsBetweenSessions>10</TurnsBetweenSessions>
+			<CivDelegates>4</CivDelegates>
+			<HostDelegates>2</HostDelegates>
+			<CityStateDelegates>2</CityStateDelegates>
+			<UnitedNations>true</UnitedNations>
+		</Row>
+	</LeagueSpecialSessions>
+	<!-- LeagueNames-->
+	<LeagueNames>
+		<Row>
+			<ID>0</ID>
+			<Type>LEAGUE_NAME_CONGRESS</Type>
+			<NameKey>TXT_KEY_LEAGUE_WORLD_CONGRESS_1</NameKey>
+		</Row>
+		<Row>
+			<Type>LEAGUE_NAME_CONFERENCE</Type>
+			<NameKey>TXT_KEY_LEAGUE_WORLD_CONGRESS_2</NameKey>
+		</Row>
+		<Row>
+			<Type>LEAGUE_NAME_COUNCIL</Type>
+			<NameKey>TXT_KEY_LEAGUE_WORLD_CONGRESS_3</NameKey>
+		</Row>
+	</LeagueNames>
+	<!-- LeagueProjectRewards-->
+	<LeagueProjectRewards>
+		<Row>
+			<ID>0</ID>
+			<Type>LEAGUE_PROJECT_REWARD_ISS_1</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1_HELP</Help>
+			<BaseBeakersTurnsToCount>4</BaseBeakersTurnsToCount>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_ISS_2</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2_HELP</Help>
+			<FreeUnitClass>UNITCLASS_SCIENTIST</FreeUnitClass>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_ISS_3</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3_HELP</Help>
+			<Building>BUILDING_INTERNATIONAL_SPACE_STATION</Building>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_WORLD_FAIR_1</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_1</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_1_HELP</Help>
+			<GoldenAgePoints>500</GoldenAgePoints>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_WORLD_FAIR_2</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_2</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_2_HELP</Help>
+			<FreeSocialPolicies>1</FreeSocialPolicies>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_WORLD_FAIR_3</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_FAIR_3_HELP</Help>
+			<CultureBonusTurns>20</CultureBonusTurns>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_WORLD_GAMES_1</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_1</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_1_HELP</Help>
+			<Happiness>3</Happiness>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_WORLD_GAMES_2</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_2</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_2_HELP</Help>
+			<Happiness>3</Happiness>
+			<CityStateInfluenceBoost>30</CityStateInfluenceBoost>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_REWARD_WORLD_GAMES_3</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_REWARD_WORLD_GAMES_3_HELP</Help>
+			<FreeSocialPolicies>1</FreeSocialPolicies>
+			<TourismBonusTurns>20</TourismBonusTurns>
+		</Row>
+	</LeagueProjectRewards>
+	<!-- LeagueProjects-->
+	<LeagueProjects>
+		<Row>
+			<ID>0</ID>
+			<Type>LEAGUE_PROJECT_INTERNATIONAL_SPACE_STATION</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_INTERNATIONAL_SPACE_STATION</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_INTERNATIONAL_SPACE_STATION_SPLASH</Help>
+			<ProjectSplashImage>International_SpaceStation_939x614.dds</ProjectSplashImage>
+			<Process>PROCESS_INTERNATIONAL_SPACE_STATION</Process>
+			<CostPerPlayer>850</CostPerPlayer>
+			<RewardTier1>LEAGUE_PROJECT_REWARD_ISS_1</RewardTier1>
+			<RewardTier2>LEAGUE_PROJECT_REWARD_ISS_2</RewardTier2>
+			<RewardTier3>LEAGUE_PROJECT_REWARD_ISS_3</RewardTier3>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_WORLD_FAIR</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_WORLD_FAIR</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_WORLD_FAIR_SPLASH</Help>
+			<ProjectSplashImage>International_WorldsFair_939x614.dds</ProjectSplashImage>
+			<Process>PROCESS_WORLD_FAIR</Process>
+			<CostPerPlayer>350</CostPerPlayer>
+			<RewardTier1>LEAGUE_PROJECT_REWARD_WORLD_FAIR_1</RewardTier1>
+			<RewardTier2>LEAGUE_PROJECT_REWARD_WORLD_FAIR_2</RewardTier2>
+			<RewardTier3>LEAGUE_PROJECT_REWARD_WORLD_FAIR_3</RewardTier3>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+		</Row>
+		<Row>
+			<Type>LEAGUE_PROJECT_WORLD_GAMES</Type>
+			<Description>TXT_KEY_LEAGUE_PROJECT_WORLD_GAMES</Description>
+			<Help>TXT_KEY_LEAGUE_PROJECT_WORLD_GAMES_SPLASH</Help>
+			<ProjectSplashImage>International_Games_939x614.dds</ProjectSplashImage>
+			<Process>PROCESS_WORLD_GAMES</Process>
+			<CostPerPlayer>720</CostPerPlayer>
+			<RewardTier1>LEAGUE_PROJECT_REWARD_WORLD_GAMES_1</RewardTier1>
+			<RewardTier2>LEAGUE_PROJECT_REWARD_WORLD_GAMES_2</RewardTier2>
+			<RewardTier3>LEAGUE_PROJECT_REWARD_WORLD_GAMES_3</RewardTier3>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>INTL_PROJECT_ATLAS_EXP2</IconAtlas>
+		</Row>
+	</LeagueProjects>
+	<!-- ResolutionDecisions.  NOTE: These correspond to enums in the game core.  This table should not be modified, only referenced by the Resolutions table.-->
+	<ResolutionDecisions>
+		<Row>
+			<ID>0</ID>
+			<Type>RESOLUTION_DECISION_NONE</Type>
+			<Description>TXT_KEY_RESOLUTION_DECISION_NONE</Description>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_DECISION_YES_OR_NO</Type>
+			<Description>TXT_KEY_RESOLUTION_DECISION_YES_OR_NO</Description>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_DECISION_ANY_MEMBER</Type>
+			<Description>TXT_KEY_RESOLUTION_DECISION_ANY_MEMBER</Description>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_DECISION_CITY</Type>
+			<Description>TXT_KEY_RESOLUTION_DECISION_CITY</Description>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_DECISION_ANY_LUXURY_RESOURCE</Type>
+			<Description>TXT_KEY_RESOLUTION_DECISION_ANY_LUXURY_RESOURCE</Description>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_DECISION_REPEAL</Type>
+			<Description>TXT_KEY_RESOLUTION_DECISION_REPEAL</Description>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_DECISION_MAJOR_CIV_MEMBER</Type>
+			<Description>TXT_KEY_RESOLUTION_DECISION_MAJOR_CIV_MEMBER</Description>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_DECISION_OTHER_MAJOR_CIV_MEMBER</Type>
+			<Description>TXT_KEY_RESOLUTION_DECISION_OTHER_MAJOR_CIV_MEMBER</Description>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_DECISION_RELIGION</Type>
+			<Description>TXT_KEY_RESOLUTION_DECISION_RELIGION</Description>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_DECISION_IDEOLOGY</Type>
+			<Description>TXT_KEY_RESOLUTION_DECISION_IDEOLOGY</Description>
+		</Row>
+	</ResolutionDecisions>
+	<!-- Resolutions-->
+	<Resolutions>
+		<Row>
+			<ID>0</ID>
+			<Type>RESOLUTION_DIPLOMATIC_VICTORY</Type>
+			<Description>TXT_KEY_RESOLUTION_DIPLO_VICTORY</Description>
+			<Help>TXT_KEY_RESOLUTION_DIPLO_VICTORY_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_MAJOR_CIV_MEMBER</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<NoProposalByPlayer>true</NoProposalByPlayer>
+			<LeadersVoteBonusOnFail>2</LeadersVoteBonusOnFail>
+			<DiplomaticVictory>true</DiplomaticVictory>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_CHANGE_LEAGUE_HOST</Type>
+			<Description>TXT_KEY_RESOLUTION_CHANGE_LEAGUE_HOST</Description>
+			<Help>TXT_KEY_RESOLUTION_CHANGE_LEAGUE_HOST_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_MAJOR_CIV_MEMBER</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<NoProposalByPlayer>true</NoProposalByPlayer>
+			<ChangeLeagueHost>true</ChangeLeagueHost>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_ALL_CITY_STATES_EMBARGO</Type>
+			<Description>TXT_KEY_RESOLUTION_ALL_CITY_STATES_EMBARGO</Description>
+			<Help>TXT_KEY_RESOLUTION_ALL_CITY_STATES_EMBARGO_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<EmbargoCityStates>true</EmbargoCityStates>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_PLAYER_EMBARGO</Type>
+			<Description>TXT_KEY_RESOLUTION_PLAYER_EMBARGO</Description>
+			<Help>TXT_KEY_RESOLUTION_PLAYER_EMBARGO_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_OTHER_MAJOR_CIV_MEMBER</ProposerDecision>
+			<EmbargoPlayer>true</EmbargoPlayer>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_BAN_LUXURY_HAPPINESS</Type>
+			<Description>TXT_KEY_RESOLUTION_BAN_LUXURY_HAPPINESS</Description>
+			<Help>TXT_KEY_RESOLUTION_BAN_LUXURY_HAPPINESS_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_ANY_LUXURY_RESOURCE</ProposerDecision>
+			<NoResourceHappiness>true</NoResourceHappiness>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_STANDING_ARMY_TAX</Type>
+			<Description>TXT_KEY_RESOLUTION_STANDING_ARMY_TAX</Description>
+			<Help>TXT_KEY_RESOLUTION_STANDING_ARMY_TAX_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<UnitMaintenanceGoldPercent>25</UnitMaintenanceGoldPercent>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT</Type>
+			<Description>TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT</Description>
+			<Help>TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<MemberDiscoveredTechMod>20</MemberDiscoveredTechMod>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_WORLD_FAIR</Type>
+			<Description>TXT_KEY_RESOLUTION_WORLD_FAIR</Description>
+			<Help>TXT_KEY_RESOLUTION_WORLD_FAIR_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<LeagueProjectEnabled>LEAGUE_PROJECT_WORLD_FAIR</LeagueProjectEnabled>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_WORLD_GAMES</Type>
+			<Description>TXT_KEY_RESOLUTION_WORLD_GAMES</Description>
+			<Help>TXT_KEY_RESOLUTION_WORLD_GAMES_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<TechPrereqAnyMember>TECH_RADIO</TechPrereqAnyMember>
+			<LeagueProjectEnabled>LEAGUE_PROJECT_WORLD_GAMES</LeagueProjectEnabled>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_INTERNATIONAL_SPACE_STATION</Type>
+			<Description>TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION</Description>
+			<Help>TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<TechPrereqAnyMember>TECH_SATELLITES</TechPrereqAnyMember>
+			<LeagueProjectEnabled>LEAGUE_PROJECT_INTERNATIONAL_SPACE_STATION</LeagueProjectEnabled>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_CULTURAL_HERITAGE_SITES</Type>
+			<Description>TXT_KEY_RESOLUTION_CULTURAL_HERITAGE_SITES</Description>
+			<Help>TXT_KEY_RESOLUTION_CULTURAL_HERITAGE_SITES_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<CulturePerWonder>3</CulturePerWonder>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_NATURAL_HERITAGE_SITES</Type>
+			<Description>TXT_KEY_RESOLUTION_NATURAL_HERITAGE_SITES</Description>
+			<Help>TXT_KEY_RESOLUTION_NATURAL_HERITAGE_SITES_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<CulturePerNaturalWonder>5</CulturePerNaturalWonder>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_NUCLEAR_NON_PROLIFERATION</Type>
+			<Description>TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION</Description>
+			<Help>TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<TechPrereqAnyMember>TECH_ADVANCED_BALLISTICS</TechPrereqAnyMember>
+			<NoTrainingNuclearWeapons>true</NoTrainingNuclearWeapons>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_WORLD_RELIGION</Type>
+			<Description>TXT_KEY_RESOLUTION_WORLD_RELIGION</Description>
+			<Help>TXT_KEY_RESOLUTION_WORLD_RELIGION_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_RELIGION</ProposerDecision>
+			<UniqueType>true</UniqueType>
+			<VotesForFollowingReligion>2</VotesForFollowingReligion>
+			<HolyCityTourism>50</HolyCityTourism>
+			<ReligionSpreadStrengthMod>25</ReligionSpreadStrengthMod>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_WORLD_IDEOLOGY</Type>
+			<Description>TXT_KEY_RESOLUTION_WORLD_IDEOLOGY</Description>
+			<Help>TXT_KEY_RESOLUTION_WORLD_IDEOLOGY_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_IDEOLOGY</ProposerDecision>
+			<TechPrereqAnyMember>TECH_RADIO</TechPrereqAnyMember>
+			<UniqueType>true</UniqueType>
+			<VotesForFollowingIdeology>2</VotesForFollowingIdeology>
+			<OtherIdeologyRebellionMod>2</OtherIdeologyRebellionMod>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_ARTS_FUNDING</Type>
+			<Description>TXT_KEY_RESOLUTION_ARTS_FUNDING</Description>
+			<Help>TXT_KEY_RESOLUTION_ARTS_FUNDING_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<ArtsyGreatPersonRateMod>33</ArtsyGreatPersonRateMod>
+			<ScienceyGreatPersonRateMod>-33</ScienceyGreatPersonRateMod>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_SCIENCES_FUNDING</Type>
+			<Description>TXT_KEY_RESOLUTION_SCIENCES_FUNDING</Description>
+			<Help>TXT_KEY_RESOLUTION_SCIENCES_FUNDING_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<ArtsyGreatPersonRateMod>-33</ArtsyGreatPersonRateMod>
+			<ScienceyGreatPersonRateMod>33</ScienceyGreatPersonRateMod>
+		</Row>
+		<Row>
+			<Type>RESOLUTION_HISTORICAL_LANDMARKS</Type>
+			<Description>TXT_KEY_RESOLUTION_HISTORICAL_LANDMARKS</Description>
+			<Help>TXT_KEY_RESOLUTION_HISTORICAL_LANDMARKS_HELP</Help>
+			<VoterDecision>RESOLUTION_DECISION_YES_OR_NO</VoterDecision>
+			<ProposerDecision>RESOLUTION_DECISION_NONE</ProposerDecision>
+			<TechPrereqAnyMember>TECH_ARCHAEOLOGY</TechPrereqAnyMember>
+			<GreatPersonTileImprovementCulture>2</GreatPersonTileImprovementCulture>
+			<LandmarkCulture>4</LandmarkCulture>
+		</Row>
+	</Resolutions>
+</GameData>

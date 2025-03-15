@@ -105,6 +105,7 @@
 		<Column name="HappinessToScience" type="integer" default="0"/>
 		<Column name="NumCitiesFreeCultureBuilding" type="integer" default="0"/>
 		<Column name="NumCitiesFreeFoodBuilding" type="integer" default="0"/>
+		<Column name="NumCitiesFreePietyGardens" type="INTEGER"  default="0"/>
 		<Column name="HalfSpecialistUnhappiness" type="boolean" default="false"/>
 		<Column name="HalfSpecialistFood" type="boolean" default="false"/>
 		<Column name="MaxConscript" type="integer" default="0"/>
@@ -157,6 +158,8 @@
 		<Column name="PortraitIndex" type="integer" default="0"/>
 		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
 		<Column name="IconAtlasAchieved" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
+		<Column name="FaithPurchaseAllGreatPeople" type="boolean" default="false"/>
+		<Column name="ExtraLeagueVotes" type="integer" default="0"/>
 	</Table>
 	<Table name="Policy_CityYieldChanges">
 		<Column name="PolicyType" type="text" reference="Policies(Type)"/>
@@ -610,12 +613,12 @@
 			<Help>TXT_KEY_POLICY_MANDATE_OF_HEAVEN_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_PIETY</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<GridX>5</GridX>
-			<GridY>1</GridY>
+			<GridX>3</GridX>
+			<GridY>2</GridY>
 			<PortraitIndex>44</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
-			<FaithCostModifier>-20</FaithCostModifier>
+			<NumCitiesFreePietyGardens>4</NumCitiesFreePietyGardens>
 		</Row>
 		<Row>
 			<Type>POLICY_THEOCRACY</Type>
@@ -638,8 +641,8 @@
 			<PolicyBranchType>POLICY_BRANCH_PIETY</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<OneShot>true</OneShot>
-			<GridX>3</GridX>
-			<GridY>3</GridY>
+			<GridX>5</GridX>
+			<GridY>1</GridY>
 			<PortraitIndex>46</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -653,7 +656,7 @@
 			<PolicyBranchType>POLICY_BRANCH_PIETY</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<GridX>3</GridX>
-			<GridY>2</GridY>
+			<GridY>3</GridY>
 			<PortraitIndex>47</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -664,7 +667,7 @@
 			<Description>TXT_KEY_POLICY_BRANCH_PATRONAGE</Description>
 			<Civilopedia>TXT_KEY_POLICY_PATRONAGE_TEXT</Civilopedia>
 			<Help>TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP</Help>
-			<MinorFriendshipDecayMod>-25</MinorFriendshipDecayMod>
+			<MinorFriendshipMinimum>20</MinorFriendshipMinimum>
 			<PortraitIndex>36</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -690,9 +693,9 @@
 			<Help>TXT_KEY_POLICY_CONSULATES_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_PATRONAGE</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<GridX>4</GridX>
-			<GridY>1</GridY>
-			<MinorFriendshipMinimum>20</MinorFriendshipMinimum>
+			<GridX>2</GridX>
+			<GridY>2</GridY>
+			<MinorFriendshipDecayMod>-25</MinorFriendshipDecayMod>
 			<PortraitIndex>38</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -705,7 +708,7 @@
 			<PolicyBranchType>POLICY_BRANCH_PATRONAGE</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<GridX>2</GridX>
-			<GridY>2</GridY>
+			<GridY>3</GridY>
 			<MinorScienceAllies>true</MinorScienceAllies>
 			<PortraitIndex>39</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
@@ -718,7 +721,7 @@
 			<Help>TXT_KEY_POLICY_CULTURAL_DIPLOMACY_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_PATRONAGE</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<GridX>2</GridX>
+			<GridX>4</GridX>
 			<GridY>3</GridY>
 			<MinorResourceBonus>true</MinorResourceBonus>
 			<PortraitIndex>40</PortraitIndex>
@@ -733,8 +736,9 @@
 			<PolicyBranchType>POLICY_BRANCH_PATRONAGE</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<GridX>4</GridX>
-			<GridY>3</GridY>
+			<GridY>1</GridY>
 			<CityStateTradeChange>200</CityStateTradeChange>
+			<ProtectedMinorPerTurnInfluence>200</ProtectedMinorPerTurnInfluence>
 			<PortraitIndex>41</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -918,10 +922,12 @@
 			<Type>POLICY_PIETY_FINISHER</Type>
 			<Description>TXT_KEY_POLICY_BRANCH_PIETY</Description>
 			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
+			<FaithPurchaseAllGreatPeople>true</FaithPurchaseAllGreatPeople>
 		</Row>
 		<Row>
 			<Type>POLICY_PATRONAGE_FINISHER</Type>
 			<Description>TXT_KEY_POLICY_BRANCH_PATRONAGE</Description>
+			<ExtraLeagueVotes>2</ExtraLeagueVotes>
 			<MinorGreatPeopleAllies>true</MinorGreatPeopleAllies>
 		</Row>
 		<Row>
@@ -2695,7 +2701,7 @@
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>20</Flavor>
 		</Row>
 		<Row>
@@ -2756,6 +2762,11 @@
 		<Row>
 			<PolicyType>POLICY_MERCHANT_CONFEDERACY</PolicyType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MERCHANT_CONFEDERACY</PolicyType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
 			<Flavor>15</Flavor>
 		</Row>
 		<Row>
@@ -3477,27 +3488,28 @@
 			<PrereqPolicy>POLICY_ORGANIZED_RELIGION</PrereqPolicy>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_FREE_RELIGION</PolicyType>
+			<PolicyType>POLICY_MANDATE_OF_HEAVEN</PolicyType>
 			<PrereqPolicy>POLICY_ORGANIZED_RELIGION</PrereqPolicy>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_REFORMATION</PolicyType>
-			<PrereqPolicy>POLICY_FREE_RELIGION</PrereqPolicy>
+			<PolicyType>POLICY_FREE_RELIGION</PolicyType>
+			<PrereqPolicy>POLICY_MANDATE_OF_HEAVEN</PrereqPolicy>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_SCHOLASTICISM</PolicyType>
+			<PrereqPolicy>POLICY_CONSULATES</PrereqPolicy>
+		</Row>
+
+		<Row>
+			<PolicyType>POLICY_CONSULATES</PolicyType>
 			<PrereqPolicy>POLICY_PHILANTHROPY</PrereqPolicy>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_CULTURAL_DIPLOMACY</PolicyType>
-			<PrereqPolicy>POLICY_SCHOLASTICISM</PrereqPolicy>
+			<PrereqPolicy>POLICY_MERCHANT_CONFEDERACY</PrereqPolicy>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_MERCHANT_CONFEDERACY</PolicyType>
-			<PrereqPolicy>POLICY_SCHOLASTICISM</PrereqPolicy>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_MERCHANT_CONFEDERACY</PolicyType>
+			<PolicyType>POLICY_CULTURAL_DIPLOMACY</PolicyType>
 			<PrereqPolicy>POLICY_CONSULATES</PrereqPolicy>
 		</Row>
 		<Row>
@@ -3722,5 +3734,8 @@
 			<UnitClassType>UNITCLASS_MUSICIAN</UnitClassType>
 			<Tourism>250</Tourism>
 		</Row>
+	</Policy_TourismOnUnitCreation>
+</GameData>
+/Row>
 	</Policy_TourismOnUnitCreation>
 </GameData>

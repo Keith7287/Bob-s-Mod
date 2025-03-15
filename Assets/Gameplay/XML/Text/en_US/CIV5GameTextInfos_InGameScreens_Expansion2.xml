@@ -1,0 +1,1247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_VP_DIPLO_SOMEONE_WON">
+			<Text>{1_CivName} has been elected World Leader.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_NEW_CAPITALS_REMAINING">
+			<Text>
+        All players are still in control of their original [ICON_CAPITAL] Capitals.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_CAPITALS_TEAM_LEADING">
+			<Text>
+        Team {1_Team} controls {2_num} original [ICON_CAPITAL] Capitals.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_CAPITALS_ACTIVE_PLAYER_LEADING">
+			<Text>
+        You are leading by controlling {1_num} original [ICON_CAPITAL] Capitals.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_CAPITALS_PLAYER_LEADING">
+			<Text>
+        {1_player} controls {2_num} original [ICON_CAPITAL] Capitals.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_CAPITALS_UNMET_PLAYER_LEADING">
+			<Text>
+        An unmet player controls {1_num} original [ICON_CAPITAL] Capitals.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_YOU_CONTROL_YOUR_CAPITAL">
+			<Text>
+        You control {1_CityName}, your original [ICON_CAPITAL] Capital.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_SOMEONE_CONTROLS_THEIR_CAPITAL">
+			<Text>
+        {1_PlayerName} controls {2_CityName}, their original [ICON_CAPITAL] Capital.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_UNMET_CONTROLS_THEIR_CAPITAL">
+			<Text>
+        An unmet civilization controls their original [ICON_CAPITAL] Capital.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_OTHER_PLAYER_CONTROLS_YOUR_CAPITAL">
+			<Text>
+        {1_PlayerName} controls {2_CityName}, your original [ICON_CAPITAL] Capital.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_YOU_CONTROL_OTHER_PLAYER_CAPITAL">
+			<Text>
+        You control {1_CityName}, the original [ICON_CAPITAL] Capital of {2_CivName}.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_OTHER_PLAYER_CONTROLS_OTHER_PLAYER_CAPITAL">
+			<Text>
+        {1_PlayerName} controls {2_CityName}, the original [ICON_CAPITAL] Capital of {3_CivName}.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_UNMET_PLAYER_CONTROLS_OTHER_PLAYER_CAPITAL">
+			<Text>
+        An unmet player controls {1_CityName}, the original [ICON_CAPITAL] Capital of {2_CivName}.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_OTHER_PLAYER_CONTROLS_UNMET_PLAYER_CAPITAL">
+			<Text>
+        {1_PlayerName} controls the original [ICON_CAPITAL] Capital of an unmet civilization.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_UNMET_PLAYER_CONTROLS_UNMET_PLAYER_CAPITAL">
+			<Text>
+        An unmet player controls the original [ICON_CAPITAL] Capital of another unmet civilization.
+      </Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_YOU_NO_CAPITAL">
+			<Text>You have not built a Capital city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_KNOWN_NO_CAPITAL">
+			<Text>{1_PlayerName} has not built a Capital city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TT_UNKNOWN_NO_CAPITAL">
+			<Text>An unmet player has not built a Capital city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RO_BELIEF_TYPE_REFORMATION">
+			<Text>Reformation</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_REFORMATION_BELIEF_TITLE">
+			<Text>Add Reformation Belief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRADE_ROUTE_TT_PLOT_MAJOR_MAJOR">
+			<Text>{1_CityName} ({2_CivName}) [ICON_TURNS_REMAINING] {3_CityName} ({4_CivName})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRADE_ROUTE_TT_PLOT_MAJOR_MINOR">
+			<Text>{1_CityName} ({2_CivName}) [ICON_TURNS_REMAINING] {3_CityName} (City-State)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRADE_ROUTE_TT_PLOT_HEADING">
+			<Text>Trade Routes:[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRADE_ROUTE_TT_PLOT_CARAVAN">
+			<Text>{1_CivAdj} Caravan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRADE_ROUTE_TT_PLOT_CARGO_SHIP">
+			<Text>{1_CivAdj} Cargo Ship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HAPPINESS_FROM_LEAGUES">
+			<Text>World Congress</Text>
+		</Row>
+		<!--Trade route top bar-->
+		<Row Tag="TXT_KEY_TOP_PANEL_INTERNATIONAL_TRADE_ROUTES">
+			<Text>[ICON_TURNS_REMAINING] {1_TradeRoutesUsedNum} / {2_TradeRoutesAvailable}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_INTERNATIONAL_TRADE_ROUTES_TT_UNASSIGNED">
+			<Text>You have {1_Num} unassigned {2_UnitName}.[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_INTERNATIONAL_TRADE_ROUTES_TT">
+			<Text>You have {1_TradeRoutesUsedNum} trade units.[NEWLINE]You have {2_TradeRoutesAvailableNum} trade routes available.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_YOUR_ROUTE_BOTH_TT">
+			<Text>{1_CityName} ({2_ResourcesStr}) [ICON_TURNS_REMAINING] ({3_CivName}) {4_CityName} ({5_ResourcesStr})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_YOUR_ROUTE_ONLY_DEST_TT">
+			<Text>{1_CityName} [ICON_TURNS_REMAINING] ({2_CivName}) {3_CityName} ({4_ResourcesStr})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_YOUR_ROUTE_ONLY_ORIGIN_TT">
+			<Text>{1_CityName} ({2_ResourcesStr}) [ICON_TURNS_REMAINING] ({3_CivName}) {4_CityName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_INTERNAL_YOUR_ROUTE_BOTH_TT">
+			<Text>{1_CityName} ({2_ResourcesStr}) [ICON_TURNS_REMAINING] {3_CityName} ({4_ResourcesStr})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_INTERNAL_YOUR_ROUTE_ONLY_DEST_TT">
+			<Text>{1_CityName} [ICON_TURNS_REMAINING] {2_CityName} ({3_ResourcesStr})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_INTERNAL_YOUR_ROUTE_ONLY_ORIGIN_TT">
+			<Text>{1_CityName} ({2_ResourcesStr}) [ICON_TURNS_REMAINING] {3_CityName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_TO_YOU_ROUTE_BOTH_TT">
+			<Text>({1_CivName}) {2_CityName} ({3_ResourcesStr}) [ICON_TURNS_REMAINING] {4_CityName} ({5_ResourcesStr})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_TO_YOU_ROUTE_ONLY_DEST_TT">
+			<Text>({1_CivName}) {2_CityName} [ICON_TURNS_REMAINING] {3_CityName} ({4_ResourcesStr})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_TO_YOU_ROUTE_ONLY_ORIGIN_TT">
+			<Text>({1_CivName}) {2_CityName} ({3_ResourcesStr}) [ICON_TURNS_REMAINING] {4_CityName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_FOOD_YIELD_TT">
+			<Text>{1_Num} [ICON_FOOD] Food</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_PRODUCTION_YIELD_TT">
+			<Text>{1_Num} [ICON_PRODUCTION] Production</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_GOLD_YIELD_TT">
+			<Text>{1_Num} [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_SCIENCE_YIELD_TT">
+			<Text>{1_Num} [ICON_RESEARCH] Science</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_CULTURE_YIELD_TT">
+			<Text>{1_Num} [ICON_CULTURE] Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_FAITH_YIELD_TT">
+			<Text>{1_Num} [ICON_FAITH] Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_CITY_STATE_TT">
+			<Text>City State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_ESTABLISHED_BY_PLAYER_TT">
+			<Text>Trade routes you established</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_ITR_ESTABLISHED_BY_OTHER_TT">
+			<Text>Trade routes others established to your civilization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ADDITIONAL_INTERNATIONAL_TRADE_ROUTE">
+			<Text>Allows establishing an additional trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EXTENDS_SEA_TRADE_ROUTE_RANGE">
+			<Text>Extends the range of sea trade routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EXTENDS_LAND_TRADE_ROUTE_RANGE">
+			<Text>Extends the range of land trade routes.</Text>
+		</Row>
+		<!-- Establish International Trade Route Popup-->
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_TITLE">
+			<Text>Establish Trade Route</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_STARTING_CITY">
+			<Text>Starting City: {1_CityName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_TRADE_UNIT">
+			<Text>Trade Unit: {1_UnitName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_RANGE">
+			<Text>Range: {1_Num} plots</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_GPT_YOU">
+			<Text>You: +{1_Num: number #} [ICON_GOLD] Gold per turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_GPT_THEM">
+			<Text>Them: +{1_Num: number #} [ICON_GOLD] Gold per turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_BASE">
+			<Text>Gold base: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_BUILDING">
+			<Text>Gold bonus from buildings in {1_CityName}: {2_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_POLICIES">
+			<Text>Bonus from Social Policies: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_GPT_YOURS">
+			<Text>{1_CityName} Gold per turn: {2_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_GPT_THEIRS">
+			<Text>{1_CityName} Gold per turn: {2_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_EXCLUSIVE_CONNECTION">
+			<Text>Exclusive connection bonus: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_OTHER_TRAIT">
+			<Text>From {1_CivAdj} trait: {2_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_RESOURCE_HEADER">
+			<Text>Different resources</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_RESOURCE_DIFFERENT">
+			<Text>{1_ResourceIcon} {2_ResourceName:textkey}: {3_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_RIVER_MODIFIER">
+			<Text>Next to River: +{1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_DOMAIN_SEA_MODIFIER">
+			<Text>Sea route: {1_Num}x</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_TOTAL">
+			<Text>Total: {1_Num} [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_TRADEE_TOTAL">
+			<Text>{1_CivName} Total: {2_Num} [ICON_GOLD] Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_REVENUE">
+			<Text>YOUR REVENUE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_REVENUE">
+			<Text>THEIR REVENUE</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_GAIN">
+			<Text>YOUR SCIENCE GAIN</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_SCIENCE_GAIN">
+			<Text>THEIR SCIENCE GAIN</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_EXPLAINED">
+			<Text>{1_CivName} has discovered {2_Num} technologies that you do not know. You are receiving {3_Num} [ICON_RESEARCH] Science on this route due to your Cultural Influence over them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_SCIENCE_EXPLAINED">
+			<Text>You have discovered {1_Num} technologies that {2_CivName} does not know. They are receiving {3_Num} [ICON_RESEARCH] Science on this route due to their Cultural Influence over you.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_TOTAL">
+			<Text>Total: {1_Num} [ICON_RESEARCH] Science</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_SCIENCE_TOTAL">
+			<Text>{1_CivName} Total: {2_Num} [ICON_RESEARCH] Science</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_FOOD">
+			<Text>{1_Num: number \"'+'##;'[COLOR_RED]-'##\"} [ICON_FOOD] Food per turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_PRODUCTION">
+			<Text>{1_Num: number \"'+'##;'[COLOR_RED]-'##\"} [ICON_PRODUCTION] Production per turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_GOLD">
+			<Text>{1_Num: number \"'+'##;'[COLOR_RED]-'##\"} [ICON_GOLD] Gold per turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_SCIENCE">
+			<Text>{1_Num: number \"'+'##;'[COLOR_RED]-'##\"} [ICON_RESEARCH] Science per turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_CULTURE">
+			<Text>{1_Num: number \"'+'##;'[COLOR_RED]-'##\"} [ICON_CULTURE] Culture per turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_FAITH">
+			<Text>{1_Num: number \"'+'##;'[COLOR_RED]-'##\"} [ICON_FAITH] Faith per turn</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_RELIGIOUS_PRESSURE">
+			<Text>+{1_ReligionIcon} {2_Num} pressure</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CONFIRM_CHOOSE_TRADE_ROUTE">
+			<Text>Are you sure?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_CITYNAME">
+			<Text>City Name</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_CIVNAME">
+			<Text>Civilization Name</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_MAX_GOLD">
+			<Text>Highest Gold</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_MAX_GOLD_DELTA">
+			<Text>Highest Gold Delta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_MAX_SCIENCE">
+			<Text>Highest Science</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_MAX_SCIENCE_DELTA">
+			<Text>Highest Science Delta</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_PREV_ROUTE">
+			<Text>Previous Route</Text>
+		</Row>
+		<!--Change Trade Unit Home City-->
+		<Row Tag="TXT_KEY_CHANGE_TRADE_UNIT_HOME_CITY_TITLE">
+			<Text>Change Trade Unit Home City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHANGE_TRADE_UNIT_HOME_CITY_STARTING_CITY">
+			<Text>Starting City: {1_CityName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHANGE_TRADE_UNIT_HOME_CITY_TRADE_UNIT">
+			<Text>Trade Unit: {1_UnitName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHANGE_TRADE_UNIT_HOME_CITY_ITEM_CITY">
+			<Text>{1_CityName}</Text>
+		</Row>
+    <!--Change Admiral Port -->
+    <Row Tag="TXT_KEY_CHANGE_ADMIRAL_PORT_TITLE">
+      <Text>Change Admiral Port</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHANGE_ADMIRAL_PORT_STARTING_CITY">
+      <Text>Starting Port: {1_CityName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHANGE_ADMIRAL_PORT_ADMIRAL">
+      <Text>Admiral: {1_UnitName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHANGE_ADMIRAL_PORT_ITEM_CITY">
+      <Text>{1_CityName}</Text>
+    </Row>
+		<!--Trade Overview-->
+		<Row Tag="TXT_KEY_TRADE_ROUTE_OVERVIEW">
+			<Text>Trade Route Overview</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_TAB_EXISTING_TR">
+			<Text>Your Trade Routes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_TAB_AVAILABLE_TR">
+			<Text>Trade Routes Available</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_TAB_TR_WITH_YOU">
+			<Text>Trade Routes with You</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_DOMAIN">
+			<Text>[ICON_INTERNATIONAL_TRADE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_FROM_CITY">
+			<Text>[ICON_ARROW_LEFT]City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_CITY">
+			<Text>[ICON_ARROW_RIGHT]City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_FROM_GPT">
+			<Text>[ICON_ARROW_LEFT][ICON_GOLD]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_GPT">
+			<Text>[ICON_ARROW_RIGHT][ICON_GOLD]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_FOOD">
+			<Text>[ICON_ARROW_RIGHT][ICON_FOOD]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_PRODUCTION">
+			<Text>[ICON_ARROW_RIGHT][ICON_PRODUCTION]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_FROM_RELIGION">
+			<Text>[ICON_ARROW_LEFT][ICON_RELIGION]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_RELIGION">
+			<Text>[ICON_ARROW_RIGHT][ICON_RELIGION]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_FROM_TOURISM">
+			<Text>[ICON_ARROW_LEFT][ICON_TOURISM]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_TOURISM">
+			<Text>[ICON_ARROW_RIGHT][ICON_TOURISM]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_FROM_SCIENCE">
+			<Text>[ICON_ARROW_LEFT][ICON_RESEARCH]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_SCIENCE">
+			<Text>[ICON_ARROW_RIGHT][ICON_RESEARCH]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TURNS_REMAINING">
+			<Text>[ICON_TURNS_REMAINING]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_GPT_ENTRY">
+			<Text>{1_Num: number #.#}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_RELIGIOUS_PRESSURE_ENTRY">
+			<Text>{1_ReligionIcon} +{2_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TO_EXISTING_TR_TT">
+			<Text>Lists the trade routes you have established with other cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TO_AVAILABLE_TR_TT">
+			<Text>Lists all the trade routes that may be established, including those you have already established.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TO_OTHERS_TR_TT">
+			<Text>List of all the trade routes others have established with your cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_DOMAIN_TT">
+			<Text>Trade units may either be across land (with a caravan) or water (with a cargo ship).[NEWLINE][NEWLINE]Click to sort by the domain for the trade routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_FROM_CIV_TT">
+			<Text>Click to sort by which civilization the trade route is coming from.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_FROM_CITY_TT">
+			<Text>Click to sort by which city the trade route is coming from.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_CIV_TT">
+			<Text>Click to sort by which civilization the trade route is going to.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_CITY_TT">
+			<Text>Click to sort by which city the trade route is going to.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_FROM_GPT_TT">
+			<Text>Click to sort by the amount of [ICON_GOLD] Gold that the civilization that established the trade route generates from this trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_GPT_TT">
+			<Text>Click to sort by the amount of [ICON_GOLD] Gold that the destination civilization would receive from this trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_FOOD_TT">
+			<Text>Click to sort by the amount of [ICON_FOOD] Food that the destination city would receive from this trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_PRODUCTION_TT">
+			<Text>Click to sort by the amount of [ICON_PRODUCTION] Production that the destination city would receive from this trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_FROM_RELIGION_TT">
+			<Text>Click to sort by the religious pressure that the origin city of the trade route would receive from the destination city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_RELIGION_TT">
+			<Text>Click to sort by the religious pressure that the destination city of the trade route would receive from the origin city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TURNS_REMAINING_TT">
+			<Text>Click to sort by the turns remaining on the trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_LAND_DOMAIN_TT">
+			<Text>Caravan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_SEA_DOMAIN_TT">
+			<Text>Cargo Ship</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_FROM_SCIENCE_TT">
+			<Text>Click to sort by the amount of [ICON_RESEARCH] Science that the civilization that established the trade route generates from this trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRO_COL_TO_SCIENCE_TT">
+			<Text>Click to sort by the amount of [ICON_RESEARCH] Science that the destination civilization would receive from this trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_TRADE_ROUTE_TRADE_OVERVIEW">
+			<Text>Trade Overview</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_TRADE_ROUTE_YOUR_CITIES">
+			<Text>[ICON_MINUS] Your Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_TRADE_ROUTE_YOUR_CITIES_COLLAPSED">
+			<Text>[ICON_PLUS] Your Cities</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_TRADE_ROUTE_MAJOR_CIVS">
+			<Text>[ICON_MINUS] Major Civilizations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_TRADE_ROUTE_MAJOR_CIVS_COLLAPSED">
+			<Text>[ICON_PLUS] Major Civilizations</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_TRADE_ROUTE_CITY_STATES">
+			<Text>[ICON_MINUS] City-States</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_TRADE_ROUTE_CITY_STATES_COLLAPSED">
+			<Text>[ICON_PLUS] City-States</Text>
+		</Row>
+		<!--Trade Unit Construction Warnings-->
+		<Row Tag="TXT_KEY_TRADE_UNIT_CONSTRUCTION_NONE_OF_TYPE_LAND">
+			<Text>[NEWLINE][NEWLINE]You cannot construct this trade unit because there are no available land trade routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRADE_UNIT_CONSTRUCTION_NONE_OF_TYPE_SEA">
+			<Text>[NEWLINE][NEWLINE]You cannot construct this trade unit because there are no available sea trade routes.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRADE_UNIT_CONSTRUCTION_NO_EXTRA_SLOTS">
+			<Text>[NEWLINE][NEWLINE]You cannot construct a trade unit because you are at your trade unit limit.</Text>
+		</Row>
+		<!-- Culture Related -->
+		<Row Tag="TXT_KEY_CHOOSE_ARCHAEOLOGY_TITLE">
+			<Text>Archaeology Find</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_ARCH_LEAD_IN">
+			<Text>Your archaeologist discovered...</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_ARCH_ARTIFACT_TYPE1">
+			<Text>RANGED ATTACK RELICS</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_ARCH_ARTIFACT_TYPE2">
+			<Text>MELEE ATTACK RELICS</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_ARCH_ARTIFACT_TYPE3">
+			<Text>BARBARIAN CAMP REMAINS</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_ARCH_ARTIFACT_TYPE4">
+			<Text>PLUNDERED ANCIENT RUINS</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_ARCH_ARTIFACT_TYPE5">
+			<Text>RAZED CITY</Text>
+		</Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_ARTIFACT_TYPE6">
+      <Text>ANCIENT WRITING</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_ATTACKER">
+			<Text>Attacker:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_ARCH_DEFENDER">
+			<Text>Defender:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_ARCH_PLUNDERER">
+			<Text>Plundered by:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_ARCH_CONQUEROR">
+			<Text>Conqueror:</Text>
+		</Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_AUTHOR">
+      <Text>Written by:</Text>
+    </Row>
+		<Row Tag="TXT_KEY_CHOOSE_ARCH_FOUNDER">
+			<Text>Founded by:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_ARCH_NO_SLOTS">
+			<Text>[COLOR_RED]No slots available for Great Works of Art![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_ARCH_OPTIONS">
+			<Text>Choose from the options below:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_ARCH_ARTIFACT_HEADER">
+			<Text>Create {1_String} Artifact</Text>
+		</Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_WRITING_HEADER">
+      <Text>Create {1_String} Writing</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_ARTIFACT_RESULT">
+			<Text>Artifact will be placed in nearest Great Work of Art slot. Artifact provides +2 [ICON_CULTURE] Culture and +2 [ICON_TOURISM] Tourism. Archaeologist will be consumed.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_WRITTEN_ARTIFACT_RESULT">
+      <Text>Ancient writing will be placed in nearest Great Work of Writing slot. Writing provides +2 [ICON_CULTURE] Culture and +2 [ICON_TOURISM] Tourism. Archaeologist will be consumed.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_LANDMARK_HEADER">
+			<Text>Create Landmark Improvement</Text>
+		</Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_LANDMARK_RESULT">
+			<Text>When worked, a Landmark provides [ICON_CULTURE] Culture based on its age. +1 [ICON_CULTURE] Culture per Era older than this civ's current Era. Archaeologist will be consumed.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_LANDMARK_MAJOR_CIV">
+      <Text>[NEWLINE][COLOR_POSITIVE_TEXT]Creating a Landmark in another civ's territory will give you a permanent diplomatic boost with that nation.[ENDCOLOR]</Text>    
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_LANDMARK_MINOR_CIV">
+      <Text>[NEWLINE][COLOR_POSITIVE_TEXT]Creating a Landmark in a city state's territory will give you a large, one-time influence boost with that city state.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_RENAISSANCE_HEADER">
+      <Text>Start Cultural Renaissance</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_RENAISSANCE_RESULT">
+      <Text>The written artifact will be consumed to give the civilization a large one-time [ICON_CULTURE] Culture boost.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_POPUP_WRITTEN_ARTIFACT">
+      <Text>Written Artifact</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_OVERVIEW">
+			<Text>Culture Overview</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_OVERVIEW_TT">
+			<Text>Culture Overview</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_TAB_YOUR_CULTURE">
+			<Text>Your Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_TAB_CULTURE_VICTORY">
+			<Text>Culture Victory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_TAB_PLAYER_INFLUENCE">
+			<Text>Influence by Player</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_TAB_SWAP_GREAT_WORKS">
+			<Text>Swap Great Works</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_PULLDOWN">
+			<Text>Select Player</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_UNKNOWN">
+			<Text>[COLOR_GREY]Unknown[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_EXOTIC">
+			<Text>[COLOR_WHITE]Exotic[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_FAMILIAR">
+			<Text>[COLOR_WHITE]Familiar[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_POPULAR">
+			<Text>[COLOR_WHITE]Popular[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_INFLUENTIAL">
+			<Text>[COLOR_MAGENTA]Influential[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_DOMINANT">
+			<Text>[COLOR_MAGENTA]Dominant[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_FALLING">
+			<Text>[COLOR_RED]Falling[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_STATIC">
+			<Text>[COLOR_WHITE]Static[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_RISING_SLOWLY">
+			<Text>[COLOR_PLAYER_LIGHT_GREEN_TEXT]Rising Slowly[COLOR_PLAYER_LIGHT_GREEN_TEXT]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_RISING">
+			<Text>[COLOR_GREEN]Rising[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CULTURE_HEADER_TT">
+			<Text>[ICON_CULTURE] Culture Produced by this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_TOURISM_HEADER_TT">
+			<Text>[ICON_TOURISM] Tourism Produced by this City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_GREAT_WORK_HEADER">
+			<Text>[ICON_GREAT_WORK]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_GREAT_WORK_HEADER_TT">
+			<Text>[ICON_GREAT_WORK] Great Works in City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_GREAT_WORK_TT">
+			<Text>Writing: {1_String}[NEWLINE]Art: {2_String}[NEWLINE]Music: {3_String}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_GREAT_WORK_SLOTS_TT_ENTRY">
+			<Text>{1_Num}/{2_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_GREAT_WORK_SLOTS_TT">
+			<Text>Writing: {1_String}[NEWLINE]Art: {2_String}[NEWLINE]Music: {3_String}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_INFLUENTIAL_HEADER_TT">
+			<Text>Number of Civilizations for which Influential culture has been achieved out of the total number required for Culture Victory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_INFLUENCE_LEVEL_HEADER_TT">
+			<Text>Possible values are:[NEWLINE]- Unknown[NEWLINE]- Exotic[NEWLINE]- Familiar[NEWLINE]- Popular[NEWLINE]- Influential[NEWLINE]- Dominant[NEWLINE][NEWLINE]Accrue benefits against the influenced civ starting at the Familiar influence level:[NEWLINE] 1. Bonus [ICON_RESEARCH] Science from Trade Routes[NEWLINE] 2. [ICON_SPY] Spies are more effective[NEWLINE] 3. Easier to control conquered Cities</Text>
+		</Row>
+    <Row Tag="TXT_KEY_CO_INFLUENCE_BONUSES_FAMILIAR">
+      <Text>[NEWLINE][NEWLINE]Accrued benefits:[NEWLINE]- Each Trade Route to influenced civ:[NEWLINE]+1 [ICON_RESEARCH] Science[NEWLINE]- [ICON_SPY] Spies Establish Surveillance in 1 turn[NEWLINE]- When conquering influenced civ's city:[NEWLINE]25% reduction in Unrest time/Population loss</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_INFLUENCE_BONUSES_POPULAR">
+      <Text>[NEWLINE][NEWLINE]Accrued benefits:[NEWLINE]- Each Trade Route to influenced civ:[NEWLINE]+2 [ICON_RESEARCH] Science[NEWLINE]- [ICON_SPY] Spies Establish Surveillance in 1 turn and operate at 1 Rank higher in influenced civ's city state allies[NEWLINE]- When conquering influenced civ's city:[NEWLINE]50% reduction in Unrest time/Population loss</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_INFLUENCE_BONUSES_INFLUENTIAL">
+      <Text>[NEWLINE][NEWLINE]Accrued benefits:[NEWLINE]- Each Trade Route to influenced civ:[NEWLINE]+3 [ICON_RESEARCH] Science[NEWLINE]- [ICON_SPY] Spies Establish Surveillance in 1 turn and operate at 1 Rank higher in influenced civ's cities and city state allies[NEWLINE]- When conquering influenced civ's city:[NEWLINE]75% reduction in Unrest time/Population loss</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_INFLUENCE_BONUSES_DOMINANT">
+      <Text>Accrued benefits:[NEWLINE]- Each Trade Route to influenced civ:[NEWLINE]+4 [ICON_RESEARCH] Science[NEWLINE]- [ICON_SPY] Spies Establish Surveillance in 1 turn and operate at 2 Ranks higher in influenced civ's cities and city state allies[NEWLINE]- When conquering influenced civ's city:[NEWLINE]no Unrest time and no Population loss</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_BONUS_CITY_STATE">
+      <Text>[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Spy is operating {1_SpyBonus} {1_SpyBonus: plural 1?Rank; other?Ranks;} higher than normal since this city state is allied to a civ over which you have strong cultural influence.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_BONUS_MAJOR_CIV">
+      <Text>[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Spy is operating {1_SpyBonus} {1_SpyBonus: plural 1?Rank; other?Ranks;} higher than normal since you have strong cultural influence over this civ.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_INFLUENCE_PERCENT_HEADER_TT">
+			<Text>Lifetime [ICON_TOURISM] Tourism as a percentage of target civ's lifetime [ICON_CULTURE] Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_INFLUENCE_MODIFIERS_HEADER_TT">
+			<Text>Modifiers to Tourism [ICON_TOURISM] output to target civ</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_INFLUENCE_TOURISM_HEADER_TT">
+			<Text>Adjusted Tourism [ICON_TOURISM] output</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_INFLUENCE_TREND_HEADER_TT">
+			<Text>Rising or Falling Indicator[NEWLINE](and if Rising, tooltip shows number of turns until Influential)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_INFLUENTIAL_TURNS_TT">
+			<Text>Influential in {1_Num} Turns (assuming Tourism output remains unchanged)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_TOURISM_PERCENT_TT">
+			<Text>{1_String}[NEWLINE]{2_String} reached at {3_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CIVILIZATION_HEADER">
+			<Text>CIVILIZATION</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_INFLUENTIAL_HEADER">
+			<Text>INFLUENTIAL</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_LEVEL_HEADER">
+			<Text>LEVEL</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PERCENT_HEADER">
+			<Text>[ICON_TOURISM] vs. [ICON_CULTURE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_MODIFIERS_HEADER">
+			<Text>+/- %</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_TOURISM_HEADER">
+			<Text>[ICON_TOURISM]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_TREND_HEADER">
+			<Text>TREND</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_GREAT_WORKS">
+			<Text>{1_Num} [ICON_TOURISM] Tourism from {2_Num} [ICON_GREAT_WORK] Great Work(s) </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_THEMING_BONUSES">
+			<Text>{1_Num} [ICON_TOURISM] Tourism from Museum and Wonder Theming Bonuses</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_TILES">
+			<Text>{1_Num} [ICON_TOURISM] Tourism from {2_Num}% of the [ICON_CULTURE] Culture from World Wonders, Natural Wonders, and Improvements</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_FAITH_BUILDINGS">
+			<Text>{1_Num} [ICON_TOURISM] Tourism from buildings constructed by [ICON_PEACE] Faith</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_RELIGIOUS_ART">
+			<Text>{1_Num} [ICON_TOURISM] Tourism from Religious Art belief</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_TECH_ENHANCED">
+			<Text>{1_Num} [ICON_TOURISM] Tourism from Buildings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_RELIGION_BONUS">
+			<Text>+{1_Num}% Bonus for Shared Religion with:[NEWLINE]   </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_OPEN_BORDERS_BONUS">
+			<Text>+{1_Num}% Bonus for Open Borders with:[NEWLINE]   </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_TRADE_ROUTE_BONUS">
+			<Text>+{1_Num}% Bonus for Trade Route with:[NEWLINE]   </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_LEAGUES_BONUS">
+			<Text>+{1_Num}% Bonus from being the Holy City of the World Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_TECH_BONUS">
+			<Text>+{1_Num}% Bonus from Technologies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_CARNIVAL_BONUS">
+			<Text>+{1_Num}% Bonus since Carnival is underway</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_LESS_HAPPY_BONUS">
+			<Text>+{1_Num}% Bonus for having less [ICON_HAPPINESS_1] Happiness:[NEWLINE]   </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_COMMON_FOE_BONUS">
+			<Text>+{1_Num}% Bonus for being at war with a common foe:[NEWLINE]   </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_SHARED_IDEOLOGY_BONUS">
+			<Text>+{1_Num}% Bonus for sharing ideologies:[NEWLINE]   </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_DIFFERENT_IDEOLOGY_PENALTY">
+			<Text>{1_Num}% Penalty for differing ideologies:[NEWLINE]   </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CITY_TOURISM_BUILDING_BONUS">
+			<Text>+{1_Num}% Bonus for having a {2_BuildingName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_OPEN_BORDERS">
+			<Text>+{1_Num}% Bonus for Open Borders[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TRADE_ROUTE">
+			<Text>+{1_Num}% Bonus for Trade Route between civs[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_CARNIVAL">
+			<Text>+{1_Num}% Bonus since Carnival is underway[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_LESS_HAPPY">
+			<Text>+{1_Num}% Bonus for having less [ICON_HAPPINESS_1] Happiness[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_COMMON_FOE">
+			<Text>+{1_Num}% Bonus for being at war with a common foe[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_SHARED_IDEOLOGY">
+			<Text>+{1_Num}% Bonus for sharing ideologies[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_DIFFERENT_IDEOLOGIES">
+			<Text>{1_Num}% Penalty for differing ideologies[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_PROPAGANDA">
+			<Text>+{1_Num}% Bonus for propaganda from a Diplomat[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PLAYER_TOURISM_RELIGION_NOTE">
+			<Text>+{1_Num}% Bonus from Shared Religion[NEWLINE]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_NO_THEME">
+			<Text>No Theming Bonus.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_WORLD_MUSEUM">
+			<Text>World</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_VICTORY_TOURISM_HEADER_TT">
+			<Text>[ICON_TOURISM] Tourism Produced by this Civilization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_TOURISM_OUTPUT">
+			<Text>Current [ICON_TOURISM] Tourism Output: </Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_VICTORY_INFLUENTIAL_OF">
+			<Text>{1_NumInfluentialCivs} of {2_TotalCivs}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_VICTORY_IDEOLOGY_HEADER">
+			<Text>IDEOLOGY</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_VICTORY_IDEOLOGY_HEADER_TT">
+			<Text>Ideology chosen by this Civilization</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_VICTORY_PUBLIC_OPINION_HEADER">
+			<Text>PUBLIC OPINION</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_VICTORY_PUBLIC_OPINION_HEADER_TT">
+			<Text>Civilization's satisfaction with their current Ideology choice.[NEWLINE][NEWLINE]Possible values are:[NEWLINE][COLOR_POSITIVE_TEXT]- Content[ENDCOLOR][NEWLINE]- Dissidents[NEWLINE][COLOR_YELLOW]- Civil Resistance[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]- Revolutionary Wave[ENDCOLOR][NEWLINE][NEWLINE]Some level of [ICON_HAPPINESS_4] Unhappiness will be generated if this satisfaction level is anything other than [COLOR_POSITIVE_TEXT]Content[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_CONTENT">
+			<Text>[COLOR_POSITIVE_TEXT]Content[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_DISSIDENTS">
+			<Text>Dissidents</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_CIVIL_RESISTANCE">
+			<Text>[COLOR_YELLOW]Civil Resistance[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_REVOLUTIONARY_WAVE">
+			<Text>[COLOR_NEGATIVE_TEXT]Revolutionary Wave[ENDCOLOR]</Text>
+		</Row>
+    <Row Tag="TXT_KEY_CO_OPINION_TT_OVERVIEW">
+      <Text>The Public Opinion of each civ is tracked once that empire adopts an Ideology and is calculated based on the outgoing Influence of a civ compared with the incoming Influence from other civs with an Ideology.[NEWLINE][NEWLINE]If the Influence pressure for other Ideologies exceeds the pressure for the current Ideology, Public Opinion will drift away from [COLOR_POSITIVE_TEXT]Content[ENDCOLOR] and create [ICON_HAPPINESS_4] Unhappiness. The summary below shows a symbol for each unit of pressure towards an Ideology.[NEWLINE][NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_OPINION_TT_NOT_INFLUENCED">
+			<Text>Not influenced by the Ideology of any other civ.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_OPINION_TT_INFLUENCED_WORLD_IDEOLOGY">
+			<Text>Influenced by the World Ideology as chosen by the World Congress:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_OPINION_TT_INFLUENCED_BY">
+			<Text>Influenced by the Ideology of these civs:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_OPINION_TT_FOR_FREEDOM">
+			<Text>[NEWLINE]For [COLOR_POSITIVE_TEXT]Freedom[ENDCOLOR]:[NEWLINE]{1_String}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_OPINION_TT_FOR_AUTOCRACY">
+			<Text>[NEWLINE]For [COLOR_POSITIVE_TEXT]Autocracy[ENDCOLOR]:[NEWLINE]{1_String}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_OPINION_TT_FOR_ORDER">
+			<Text>[NEWLINE]For [COLOR_POSITIVE_TEXT]Order[ENDCOLOR]:[NEWLINE]{1_String}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_OPINION_TT_PREFERRED_IDEOLOGY">
+			<Text>[NEWLINE][NEWLINE]Preferred Ideology is [COLOR_POSITIVE_TEXT]{1_String}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_OPINION_TT_UNHAPPINESS_LINE1">
+			<Text>Public Opinion is generating {1_Num} [ICON_HAPPINESS_4]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_OPINION_TT_UNHAPPINESS_LINE2">
+			<Text>[NEWLINE]  Which is greater of:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_OPINION_TT_UNHAPPINESS_LINE3">
+			<Text>[NEWLINE]    {1_Num} [ICON_HAPPINESS_4] per city OR</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_OPINION_TT_UNHAPPINESS_LINE4">
+			<Text>[NEWLINE]    1 [ICON_HAPPINESS_4] per {1_Num} population</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_VICTORY_PUBLIC_OPINION_UNHAPPINESS_HEADER">
+			<Text>[ICON_HAPPINESS_4]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_VICTORY_PUBLIC_OPINION_UNHAPPINESS_HEADER_TT">
+			<Text>Current [ICON_HAPPINESS_4] Unhappiness due to Public Opinion.[NEWLINE][NEWLINE]Consider this to be how much the people of this civ approve of their leader's choice of Ideology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_VICTORY_EXCESS_HAPPINESS_HEADER">
+			<Text>OVERALL [ICON_HAPPINESS_1]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_VICTORY_EXCESS_HAPPINESS_HEADER_TT">
+			<Text>Current overall [ICON_HAPPINESS_1] Happiness level[NEWLINE][NEWLINE]Unhappiness from Public Opinion is included in this total. At -20 or below the civilization will start to lose cities to revolt and may change to the public's Preferred Ideology (you can find that preference in the Public Opinion tooltip).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_THIRD_PARTY_CULTURE_INFLUENCE">
+			<Text>{1_Civ} is {2_Num: number #.#}% influential over {3_Civ}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_THIRD_PARTY_CULTURE_INFLUENCE_UNMET">
+			<Text>{1_Civ} is {2_Num: number #.#}% influential over an unmet civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_HAPPINESS">
+			<Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_PUBLIC_OPINION_UNHAPPINESS">
+			<Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CLICK_TO_MOVE">
+			<Text>Click to Move</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CLICK_TO_MOVE_TT">
+			<Text>Left click on great works to move them from location to another.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CLICK_TO_VIEW">
+			<Text>Click to View</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CO_CLICK_TO_VIEW_TT">
+			<Text>Left click on great works to view them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ANTIQUITY_SITES_TO_EXCAVATE">
+			<Text>Antiquity Sites not yet excavated: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HIDDEN_SITES_TO_EXCAVATE">
+			<Text>Hidden Sites not yet excavated: {1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_CULTURAL_INFLUENCE">
+			<Text>The People We All Like to Visit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_CULTURAL_INFLUENCE_TT">
+			<Text>Ranks players by the number of Civs over whom their [ICON_CULTURE] Culture has become Influential.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_CITY_TOURISM">
+			<Text>The Cities We All Like to Visit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROGRESS_SCREEN_CITY_TOURISM_TT">
+			<Text>Ranks cities by [ICON_TOURISM] Tourism output.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DOUBLE_TOURISM">
+			<Text>Doubles [ICON_TOURISM] Tourism output.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_GP_MOD">
+			<Text>[ICON_BULLET] Policy Bonus: +{1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOLDENAGE_GP_MOD">
+			<Text>[ICON_BULLET] Carnival Bonus: +{1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_CONGRESS_POSITIVE_GP_MOD">
+			<Text>[ICON_BULLET] World Congress Bonus: +{1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WORLD_CONGRESS_NEGATIVE_GP_MOD">
+			<Text>[ICON_BULLET] World Congress Penalty: {1_num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_TITLE">
+			<Text>Ideology Selection</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_OPTIONS">
+			<Text>Choose one of these Ideologies:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_BEST_VICTORY_TYPES">
+			<Text>Best Victory Types:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_ADOPTED_BY">
+			<Text>Adopted By:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_ADOPTED_BY_NOBODY">
+			<Text>[COLOR_POSITIVE_TEXT]Nobody[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_NUM_FREE_POLICIES">
+			<Text>Early Adopter Free Tenets: {1_NumFreePolicies}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_CONFIRM">
+			<Text>Are you sure you wish to adopt [COLOR_POSITIVE_TEXT]{@1_PolicyName}[ENDCOLOR]?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ALLOWS_WORLD_CONGRESS">
+			<Text>Enables founding of the World Congress, once every other Civilization has been met.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EXTRA_VOTES_FROM_DIPLOMATS">
+			<Text>Gain {1_DelegatesPerDiplomat} additional {1_DelegatesPerDiplomat: plural 1?Delegate; other?Delegates;} in the World Congress for every Spy as a [ICON_DIPLOMAT] Diplomat in another Civilization's [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_SLOT_ART_ARTIFACT_SLOTS_TOOLTIP">
+			<Text>[ICON_GREAT_WORK] Great Work of Art or Artifact slots: {1_NumSlots}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_SLOT_LITERATURE_SLOTS_TOOLTIP">
+			<Text>[ICON_GREAT_WORK] Great Work of Writing slots: {1_NumSlots}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_SLOT_MUSIC_SLOTS_TOOLTIP">
+			<Text>[ICON_GREAT_WORK] Great Work of Music slots: {1_NumSlots}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_TOURISM_TOOLTIP_1">
+			<Text>{1_Num} [ICON_GREAT_WORK] Great Work Slots Filled</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_TOURISM_TOOLTIP_2">
+			<Text>{1_Num} [ICON_GREAT_WORK] Great Work Slots Available</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TOP_PANEL_TOURISM_TOOLTIP_3">
+			<Text>Influential on {1_XofYString} Civilizations needed for Culture Victory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WRITING_SLOT_EMPTY">
+			<Text>Empty (Writing)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ART_SLOT_EMPTY">
+			<Text>Empty (Art)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SLOT_EMPTY">
+			<Text>Empty (Artifact)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MUSIC_SLOT_EMPTY">
+			<Text>Empty (Music)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WRITING_SLOT_TT">
+			<Text>Click to change what you are willing to swap for a Great Work of Writing. Great Works of Writing may only be swapped for another Great Work of Writing. Once an item is swapped with another civilization for another item, the item you received will go into the building or wonder slot your original item occupied. Your new item may not be traded again this turn.[NEWLINE][NEWLINE]If you select a Great Work of Writing for a slot but do not perform a swap on your turn, other civilizations may swap for it on their turn without your permission! Make sure you only display items that you are willing to part with!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ART_SLOT_TT">
+			<Text>Click to change what you are willing to swap for a Great Work of Art. Great Works of Art may only be swapped for another Great Work of Art. Once an item is swapped with another civilization for another item, the item you received will go into the building or wonder slot your original item occupied. Your new item may not be traded again this turn.[NEWLINE][NEWLINE]If you select a Great Work of Art for a slot but do not perform a swap on your turn, other civilizations may swap for it on their turn without your permission! Make sure you only display items that you are willing to part with!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_SLOT_TT">
+			<Text>Click to change what you are willing to swap for an Artifact. Artifacts may only be swapped for another Artifact. Once an item is swapped with another civilization for another item, the item you received will go into the building or wonder slot your original item occupied. Your new item may not be traded again this turn.[NEWLINE][NEWLINE]If you select an Artifact for a slot but do not perform a swap on your turn, other civilizations may swap for it on their turn without your permission! Make sure you only display items that you are willing to part with!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MUSIC_SLOT_TT">
+			<Text>Click to change what you are willing to swap for a Great Work of Music. Great Works of Music may only be swapped for another Great Work of Music. Once an item is swapped with another civilization for another item, the item you received will go into the building or wonder slot your original item occupied. Your new item may not be traded again this turn.[NEWLINE][NEWLINE]If you select a Great Work of Music for a slot but do not perform a swap on your turn, other civilizations may swap for it on their turn without your permission! Make sure you only display Great Works or Artifacts that you are willing to part with!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WRITING_OTHERS_SLOT_EMPTY">
+			<Text>{1_CivShortDesc} {1_CivShortDesc: plural 1?has; other?have;} not displayed a Great Work of Writing that can be swapped.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ART_OTHERS_SLOT_EMPTY">
+			<Text>{1_CivShortDesc} {1_CivShortDesc: plural 1?has; other?have;} not displayed Great Work of Art that can be swapped.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_OTHERS_SLOT_EMPTY">
+			<Text>{1_CivShortDesc} {1_CivShortDesc: plural 1?has; other?have;} not displayed an Artifact that can be swapped.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MUSIC_OTHERS_SLOT_EMPTY">
+			<Text>{1_CivShortDesc} {1_CivShortDesc: plural 1?has; other?have;} not displayed Great Work of Music that can be swapped.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WRITING_OTHERS_SLOT">
+			<Text>{1_CivShortDesc} {1_CivShortDesc: plural 1?is; other?are;} willing to swap this Great Work of Writing for another Great Work of Writing.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ART_OTHERS_SLOT">
+			<Text>{1_CivShortDesc} {1_CivShortDesc: plural 1?is; other?are;} willing to swap this Great Work of Art for another Great Work of Art.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ARTIFACT_OTHERS_SLOT">
+			<Text>{1_CivShortDesc} {1_CivShortDesc: plural 1?is; other?are;} willing to swap this Artifact for another Artifact.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MUSIC_OTHERS_SLOT">
+			<Text>{1_CivShortDesc} {1_CivShortDesc: plural 1?is; other?are;} willing to swap this Great Work of Music for another Great Work of Music.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SWAP_BUTTON">
+			<Text>Swap</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SWAP_BUTTON_TT">
+			<Text>This will exchange your Great Work or Artifact for another civilization's Great Work or Artifact. Your item will go into one of their cities and their item will go into the slot that held the item you traded. An item may only be swapped once a turn. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_SWAP_BUTTON_DISABLED_TT">
+			<Text>To swap a Great Work or Artifact, you need to select one of your items and select another civilization's item of the same type. (Great Work of Writing can only be swapped for another Great Work of Writing.)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLEAR_BUTTON">
+			<Text>Clear</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CLEAR_BUTTON_TT">
+			<Text>This will reset the proposed Great Work exchange.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SWAP_WRITING_HEADER">
+			<Text>Writing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SWAP_ART_HEADER">
+			<Text>Art</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SWAP_ARTIFACT_HEADER">
+			<Text>Artifact</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SWAP_MUSIC_HEADER">
+			<Text>Music</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SWAP_THIS">
+			<Text>Select {1_String}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SWAP_CLEAR_SPOT">
+			<Text>Empty This Spot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_SWAPPING">
+			<Text>Clear</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_SWAPPING_TT">
+			<Text>This will clear this slot so that you may not swap it for anything else on your turn. Also, other Civs will not be able to swap for any of this type of item on their turn if the slot is empty.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SWAP_YOURS">
+			<Text>Yours</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SWAP_THEIRS">
+			<Text>Theirs</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SWAP_NAME">
+			<Text>You may swap Great Works or Artifacts with any Civilization that you are not at war with.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOMAT_PICKER_DIPLOMAT">
+			<Text>Diplomat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLOMAT_PICKER_SPY">
+			<Text>Spy</Text>
+		</Row>
+		<!--Choose Goody Hut Reward Popup-->
+		<Row Tag="TXT_KEY_CHOOSE_GOODY_HUT_BONUS_TITLE">
+			<Text>Choose Ancient Ruin Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CHOOSE_GOODY_HUT_BONUS_DESCRIPTION">
+			<Text>Choose Ancient Ruin Bonus from List</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_TRADE">
+			<Text>City Connections</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_INCOME_TRADE">
+			<Text>Income From City Connections</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_INCOME_TRADE_DETAILS">
+			<Text>[ICON_PLUS] City Connections</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_INCOME_TRADE_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] City Connections</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_TRADE_ROUTES">
+			<Text>[ICON_PLUS] City Connections</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_TRADE_ROUTES_COLLAPSE">
+			<Text>[ICON_MINUS] City Connections</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_DIPLOMACY_AND_LEAGUE_SESSION">
+			<Text>Diplomacy[NEWLINE][NEWLINE]Turns until the World Congress convenes: {1_Num}[NEWLINE][NEWLINE]As players advance to later eras, this interval becomes shorter.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_DIPLOMACY_AND_VICTORY_SESSION">
+			<Text>Diplomacy[NEWLINE][NEWLINE]Turns until the United Nations convenes: {1_TurnsUntilSession}[NEWLINE][NEWLINE]Turns until the next [COLOR_POSITIVE_TEXT]World Leader[ENDCOLOR] proposal: {2_TurnsUntilVictorySession}[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Diplomatic Victory[ENDCOLOR] is now possible.  To win, a Civilization must receive the support of enough delegates in a [COLOR_POSITIVE_TEXT]World Leader[ENDCOLOR] proposal.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_24">
+			<Text>Trade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_25">
+			<Text>World Congress</Text>
+		</Row>
+		<!-- Victory Screen Victory Types -->
+		<Row Tag="TXT_KEY_VICTORYSCREEN_DOMINATION">
+			<Text>[ICON_VICTORY_DOMINATION] Domination</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORYSCREEN_CULTURAL">
+			<Text>[ICON_VICTORY_CULTURE] Cultural</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORYSCREEN_DIPLOMATIC">
+			<Text>[ICON_VICTORY_DIPLOMACY] Diplomatic</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VICTORYSCREEN_SPACE_RACE">
+			<Text>[ICON_VICTORY_SPACE] Science</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_CULTURE_INFLUENCE">
+			<Text>You are {1_Num: number #.#}% influential over {2_Civ}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_CULTURE_INFLUENCE_UNMET">
+			<Text>You are {1_Num: number #.#}% influential over an unmet civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_TURNS_UNTIL_SESSION">
+			<Text>Turns until next World Leader proposal:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_DELEGATES_NEEDED">
+			<Text>Delegates to win World Leader proposal:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_DELEGATES_CONTROLLED">
+			<Text>Delegates you Control:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_DELEGATES_IN_WORLD">
+			<Text>Total Delegates Available:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_UN_ACTIVE">
+			<Text>The United Nations is active, and Victory is possible.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_DIPLO_UN_INACTIVE">
+			<Text>The United Nations has not yet begun.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITYVIEW_TOURISM_TEXT">
+			<Text>Tourism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OPSCREEN_TUTORIAL_NEW_TO_XP">
+			<Text>New to Gods &amp; Kings</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OPSCREEN_TUTORIAL_NEW_TO_XP2">
+			<Text>New to Brave New World</Text>
+		</Row>
+		<!-- Score -->
+		<Row Tag="TXT_KEY_VP_POLICIES">
+			<Text>Policies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_GREAT_WORKS">
+			<Text>Great Works</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_RELIGION">
+			<Text>Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MY_SCORE_POLICIES">
+			<Text>{1_Num} from Policies</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MY_SCORE_GREAT_WORKS">
+			<Text>{1_Num} from Great Works</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DIPLO_MY_SCORE_RELIGION">
+			<Text>{1_Num} from Religion</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_SCENARIO1">
+			<Text>Scenario VP 1</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_SCENARIO2">
+			<Text>Scenario VP 2</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_SCENARIO3">
+			<Text>Scenario VP 3</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VP_SCENARIO4">
+			<Text>Scenario VP 4</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PEDIA_SPEC_HELP_TEXT">
+			<Text>Time and again throughout history, there have arisen men and women who have profoundly changed the world around them - artists, scientists, generals, merchants and others, whose genius sets them head and shoulders above the rest. In this game such visionaries are called "Great People."[NEWLINE][NEWLINE]There are nine different kinds of great people in the game: Great Merchants, Great Artists, Great Musicians, Great Writers, Great Scientists, Great Engineers, Great Generals, Great Admirals, and Great Prophets. Each has a special ability.[NEWLINE][NEWLINE]Your civilization acquires Great People by constructing certain buildings and wonders, and then staffing them with "specialists", citizens from your cities who have given up working in the field or the mines. While specialists do not work city tiles, they do greatly speed the arrival of Great People. Balancing the need for production and food and the desire for Great People is an important challenge of city management.</Text>
+		</Row>
+		<!--New Declare War Screen-->
+		<Row Tag="TXT_KEY_DECLARE_WAR_TOP">
+			<Text>Are you sure you want to declare war on {1_CivName}?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_NAME_DESC">
+			<Text>{1_PlayerName} ({2_EraName})</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_ALLIES_HEADER">
+			<Text>Allied City-States</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_DEALS_HEADER">
+			<Text>Deals with {1_CivName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_DEALS_TURNS_LEFT">
+			<Text>{1_Num} Turns Left</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_DEALS_FROM_YOU">
+			<Text>From You</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_DEALS_FROM_OTHER">
+			<Text>From {1_CivName}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_TRADE_ROUTES_HEADER">
+			<Text>Trade Routes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_YES">
+			<Text>Yes</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_NO">
+			<Text>No</Text>
+		</Row>
+		<!--City Banner-->
+		<Row Tag="TXT_KEY_CITY_DIPLOMAT_OTHER_CIV_TT">
+			<Text>{1_SpyRank} {2_SpyName} is in {3_CityName} as a diplomat. While {4_SpyRank} {5_SpyName} is in the city, they establish surveillance and inform you on that Civ's World Congress voting. {6_SpyRank} {7_SpyName} will also inform you of any intrigue that they discover during their visit.</Text>
+		</Row>
+		<!-- Declare War Popup -->
+		<Row Tag="TXT_KEY_DECLARE_WAR_UNDER_PROTECTION_OF">
+			<Text>UNDER PROTECTION OF</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_ALLIED_CITYSTATES">
+			<Text>ALLIED CITY-STATES</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_ACTIVE_DEALS">
+			<Text>ACTIVE DEALS</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_TRADES_FROM_THEM">
+			<Text>From Them:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_TRADES_FROM_YOU">
+			<Text>From You:</Text>
+		</Row>
+		<Row Tag="TXT_KEY_DECLARE_WAR_TRADE_ROUTES">
+			<Text>TRADE ROUTES</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTIVE_DEAL_RESOURCE">
+			<Text>{1_Amount} {2_ResourceIcon} {3_ResourceName}</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

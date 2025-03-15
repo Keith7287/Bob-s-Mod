@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
 <GameData>
 	<!-- Table definition -->
 	<Table name="Flavors">
@@ -90,17 +90,38 @@
 		<Row>
 			<Type>FLAVOR_WATER_CONNECTION</Type>
 		</Row>
+		<Row>
+			<Type>FLAVOR_NUKE</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_ANTIAIR</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_USE_NUKE</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_ESPIONAGE</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_AIR_CARRIER</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_I_LAND_TRADE_ROUTE</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_I_SEA_TRADE_ROUTE</Type>
+		</Row>
+		<Row>
+			<Type>FLAVOR_ARCHAEOLOGY</Type>
+		</Row>
     <Row>
-      <Type>FLAVOR_NUKE</Type>
+      <Type>FLAVOR_I_TRADE_ORIGIN</Type>
     </Row>
     <Row>
-      <Type>FLAVOR_ANTIAIR</Type>
+      <Type>FLAVOR_I_TRADE_DESTINATION</Type>
     </Row>
     <Row>
-      <Type>FLAVOR_USE_NUKE</Type>
+      <Type>FLAVOR_AIRLIFT</Type>
     </Row>
-    <Row>
-      <Type>FLAVOR_AIR_CARRIER</Type>
-    </Row>
-  </Flavors>
+	</Flavors>
 </GameData>

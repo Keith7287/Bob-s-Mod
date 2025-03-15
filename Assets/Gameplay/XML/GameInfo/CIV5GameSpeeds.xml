@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
 <GameData>
 	<!-- Table definition -->
 	<Table name="GameSpeeds">
@@ -19,6 +19,7 @@
 		<Column name="ImprovementPercent" type="integer" default="0"/>
 		<Column name="GreatPeoplePercent" type="integer" default="0"/>
 		<Column name="CulturePercent" type="integer" default="0"/>
+		<Column name="FaithPercent" type="integer" default="0"/>
 		<Column name="BarbPercent" type="integer" default="0"/>
 		<Column name="FeatureProductionPercent" type="integer" default="0"/>
 		<Column name="UnitDiscoverPercent" type="integer" default="0"/>
@@ -28,7 +29,14 @@
 		<Column name="HurryPercent" type="integer" default="0"/>
 		<Column name="InflationPercent" type="integer" default="0"/>
 		<Column name="InflationOffset" type="integer" default="0"/>
+		<Column name="ReligiousPressureAdjacentCity" type="integer" default="0"/>
 		<Column name="VictoryDelayPercent" type="integer" default="0"/>
+		<Column name="MinorCivElectionFreqMod" type="integer" default="0"/>
+		<Column name="OpinionDurationPercent" type="integer" default="0"/>
+		<Column name="SpyRatePercent" type="integer" default="0"/>
+		<Column name="PeaceDealDuration" type="integer" default="0"/>
+		<Column name="RelationshipDuration" type="integer" default="0"/>
+		<Column name="LeaguePercent" type="integer" default="0"/>
 		<Column name="PortraitIndex" type="integer" default="-1"/>
 		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
 	</Table>
@@ -56,6 +64,7 @@
 			<ImprovementPercent>300</ImprovementPercent>
 			<GreatPeoplePercent>300</GreatPeoplePercent>
 			<CulturePercent>300</CulturePercent>
+			<FaithPercent>300</FaithPercent>
 			<BarbPercent>400</BarbPercent>
 			<FeatureProductionPercent>300</FeatureProductionPercent>
 			<UnitDiscoverPercent>300</UnitDiscoverPercent>
@@ -65,7 +74,14 @@
 			<HurryPercent>100</HurryPercent>
 			<InflationPercent>10</InflationPercent>
 			<InflationOffset>-270</InflationOffset>
+			<ReligiousPressureAdjacentCity>20</ReligiousPressureAdjacentCity>
 			<VictoryDelayPercent>300</VictoryDelayPercent>
+			<MinorCivElectionFreqMod>300</MinorCivElectionFreqMod>
+			<OpinionDurationPercent>300</OpinionDurationPercent>
+			<SpyRatePercent>100</SpyRatePercent>
+			<PeaceDealDuration>30</PeaceDealDuration>
+			<RelationshipDuration>150</RelationshipDuration>
+			<LeaguePercent>300</LeaguePercent>
 			<IconAtlas>GAMESPEED_ATLAS</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
@@ -85,6 +101,7 @@
 			<ImprovementPercent>150</ImprovementPercent>
 			<GreatPeoplePercent>150</GreatPeoplePercent>
 			<CulturePercent>150</CulturePercent>
+			<FaithPercent>150</FaithPercent>
 			<BarbPercent>150</BarbPercent>
 			<FeatureProductionPercent>150</FeatureProductionPercent>
 			<UnitDiscoverPercent>150</UnitDiscoverPercent>
@@ -94,7 +111,14 @@
 			<HurryPercent>100</HurryPercent>
 			<InflationPercent>20</InflationPercent>
 			<InflationOffset>-135</InflationOffset>
+			<ReligiousPressureAdjacentCity>40</ReligiousPressureAdjacentCity>
 			<VictoryDelayPercent>150</VictoryDelayPercent>
+			<MinorCivElectionFreqMod>150</MinorCivElectionFreqMod>
+			<OpinionDurationPercent>150</OpinionDurationPercent>
+			<SpyRatePercent>100</SpyRatePercent>
+			<PeaceDealDuration>15</PeaceDealDuration>
+			<RelationshipDuration>75</RelationshipDuration>
+			<LeaguePercent>150</LeaguePercent>
 			<IconAtlas>GAMESPEED_ATLAS</IconAtlas>
 			<PortraitIndex>1</PortraitIndex>
 		</Row>
@@ -114,6 +138,7 @@
 			<ImprovementPercent>100</ImprovementPercent>
 			<GreatPeoplePercent>100</GreatPeoplePercent>
 			<CulturePercent>100</CulturePercent>
+			<FaithPercent>100</FaithPercent>
 			<BarbPercent>100</BarbPercent>
 			<FeatureProductionPercent>100</FeatureProductionPercent>
 			<UnitDiscoverPercent>100</UnitDiscoverPercent>
@@ -123,7 +148,14 @@
 			<HurryPercent>100</HurryPercent>
 			<InflationPercent>30</InflationPercent>
 			<InflationOffset>-90</InflationOffset>
+			<ReligiousPressureAdjacentCity>60</ReligiousPressureAdjacentCity>
 			<VictoryDelayPercent>100</VictoryDelayPercent>
+			<MinorCivElectionFreqMod>100</MinorCivElectionFreqMod>
+			<OpinionDurationPercent>100</OpinionDurationPercent>
+			<SpyRatePercent>100</SpyRatePercent>
+			<PeaceDealDuration>10</PeaceDealDuration>
+			<RelationshipDuration>50</RelationshipDuration>
+			<LeaguePercent>100</LeaguePercent>
 			<IconAtlas>GAMESPEED_ATLAS</IconAtlas>
 			<PortraitIndex>2</PortraitIndex>
 		</Row>
@@ -143,6 +175,7 @@
 			<ImprovementPercent>67</ImprovementPercent>
 			<GreatPeoplePercent>67</GreatPeoplePercent>
 			<CulturePercent>67</CulturePercent>
+			<FaithPercent>67</FaithPercent>
 			<BarbPercent>67</BarbPercent>
 			<FeatureProductionPercent>67</FeatureProductionPercent>
 			<UnitDiscoverPercent>67</UnitDiscoverPercent>
@@ -152,7 +185,14 @@
 			<HurryPercent>100</HurryPercent>
 			<InflationPercent>45</InflationPercent>
 			<InflationOffset>-60</InflationOffset>
+			<ReligiousPressureAdjacentCity>90</ReligiousPressureAdjacentCity>
 			<VictoryDelayPercent>67</VictoryDelayPercent>
+			<MinorCivElectionFreqMod>67</MinorCivElectionFreqMod>
+			<OpinionDurationPercent>67</OpinionDurationPercent>
+			<SpyRatePercent>50</SpyRatePercent>
+			<PeaceDealDuration>10</PeaceDealDuration>
+			<RelationshipDuration>50</RelationshipDuration>
+			<LeaguePercent>67</LeaguePercent>
 			<IconAtlas>GAMESPEED_ATLAS</IconAtlas>
 			<PortraitIndex>3</PortraitIndex>
 		</Row>

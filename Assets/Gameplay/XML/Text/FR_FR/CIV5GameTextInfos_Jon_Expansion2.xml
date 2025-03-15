@@ -1,0 +1,960 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_FR_FR>
+    <Row Tag="TXT_KEY_AESTHETICS_TITLE">
+      <Text>{1_PlayerName:textkey}, {@1: gender feminine?Maîtresse; other?Maître;} {@2: plural 1?{@2: gender masculine?du ; feminine?{@2: gender *:vowel?d'; other?de ;};}; other?des ;}{2_CivName:textkey}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_ARCHAEOLOGY_DIG_HELP">
+      <Text>Transforme le site antique en fouilles archéologiques, pouvant par la suite produire un artefact ou être aménagées en monument.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_ARCHAEOLOGY_DIG_REC">
+      <Text>Peuvent produire un artefact ou être aménagées en monument.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BRAZILWOOD_CAMP_HELP">
+      <Text>Permet de construire un campement de bois-brésil, qui augmente la quantité d'[ICON_GOLD] or générée par la case tout en préservant l'intégrité de la jungle. Produit également de la [ICON_CULTURE] culture une fois l'acoustique découverte.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BRAZILWOOD_CAMP_REC">
+      <Text>Augmente la quantité d'[ICON_GOLD] or générée par la case tout en préservant l'intégrité de la jungle. Produit également de la [ICON_CULTURE] culture une fois l'acoustique découverte.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CHATEAU_HELP">
+      <Text>Construisez un castel qui augmente la production de culture et d'or de la case où il se trouve, et qui offre un bonus défensif.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CHATEAU_REC">
+      <Text>Un castel doit être construit sur une case adjacente à une ressource de luxe et deux castels ne peuvent pas se trouver côte à côte. [NEWLINE][NEWLINE]Le castel augmente la production de culture et d'or de la case où il se trouve, et offre également un bonus défensif.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_FEITORIA_HELP">
+      <Text>Permet de construire une feitoria sur le territoire de cette cité-état. La feitoria vous fait profiter d'un exemplaire de chaque type de ressource de luxe connecté à cette cité-état, quelle que soit votre relation avec elle. Octroie également un bonus défensif.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_FEITORIA_REC">
+      <Text>Vous fait profiter d'un exemplaire de chaque type de ressource de luxe connecté à cette cité-état, quelle que soit votre relation avec elle. Octroie également un bonus défensif.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_KASBAH_HELP">
+      <Text>Permet de construire une kasbah, qui augmente la quantité de [ICON_FOOD] nourriture, de [ICON_PRODUCTION] production et d'[ICON_GOLD] or produite par la case. Octroie également un bonus défensif.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_KASBAH_REC">
+      <Text>Augmente la quantité de [ICON_FOOD] nourriture, de [ICON_PRODUCTION] production et d'[ICON_GOLD] or produite par la case. Octroie également un bonus défensif.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_LANDMARK_HELP">
+      <Text>L'unité disparaîtra.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AMPHITHEATER_STRATEGY">
+      <Text>L'amphithéâtre augmente la [ICON_CULTURE] culture d'une ville en accélérant sa croissance territoriale et l'acquisition de doctrines sociales par sa civilisation. Votre ville doit posséder un monument historique (ou une stèle) pour que vous puissiez y construire un amphithéâtre. Contient 1 emplacement pour un chef-d'oeuvre littéraire.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_HERMITAGE_HELP">
+      <Text>La [ICON_CULTURE] culture augmente de 50% dans cette ville. Contient 3 emplacements pour des chefs-d'oeuvre artistiques.[NEWLINE][NEWLINE]Nécessite un opéra dans chacune de vos villes. Plus votre empire possède de villes, plus le coût augmente.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_HEROIC_EPIC_HELP">
+      <Text>Toutes les nouvelles unités non aériennes de la ville reçoivent la promotion [COLOR_POSITIVE_TEXT]Moral[ENDCOLOR] ([ICON_STRENGTH] Puissance de combat +15%).[NEWLINE][NEWLINE]Nécessite une caserne dans chacune de vos villes. Plus votre empire possède de villes, plus le coût augmente.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION_HELP">
+      <Text>[ICON_PRODUCTION] Production des scientifiques +1 et [ICON_RESEARCH] science des ingénieurs +1. Les savants illustres augmentent de 33% la production de [ICON_RESEARCH] science lorsqu'ils sont utilisés pour découvrir de nouvelles technologies. Doit être construite en collaboration sous la supervision du Congrès mondial.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_HELP">
+      <Text>[ICON_TOURISM] Tourisme +2 après la découverte de l'aviation.[NEWLINE][NEWLINE]La ville doit posséder des remparts.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MUSEUM_STRATEGY">
+      <Text>Le musée est un bâtiment de milieu de jeu qui augmente la production de [ICON_CULTURE] culture de la ville. La ville doit déjà posséder un opéra (ou une salle des Ceilidh) pour pouvoir accueillir un musée. Contient 2 emplacements pour des chefs-d'oeuvre artistiques.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_NATIONAL_EPIC_HELP">
+      <Text>Génération de [ICON_GREAT_PEOPLE] personnages illustres dans cette ville : +25%. Contient 1 emplacement pour chef-d'oeuvre littéraire.[NEWLINE][NEWLINE]Nécessite un monument historique dans chacune de vos villes. Plus votre empire possède de villes, plus le coût augmente.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_OPERA_HOUSE_STRATEGY">
+      <Text>L'opéra est un bâtiment de la Renaissance qui augmente la production de [ICON_CULTURE] culture de la ville. La ville doit déjà posséder un amphithéâtre pour pouvoir accueillir un opéra. Contient 1 emplacement pour chef-d'oeuvre musical.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_OXFORD_UNIVERSITY_HELP">
+      <Text>1 technologie gratuite. Contient 2 emplacements pour chefs-d'oeuvre littéraires.[NEWLINE][NEWLINE]Nécessite une université dans chacune de vos villes. Plus votre empire possède de villes, plus le coût augmente.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PALACE_HELP">
+      <Text>Indique que cette ville est la [ICON_CAPITAL] capitale de l'empire. Contient 1 emplacement pour chef-d'oeuvre artistique.[NEWLINE][NEWLINE][ICON_CONNECTED] Reliez vos villes à votre [ICON_CAPITAL] capitale par des routes pour générer de l'[ICON_GOLD] or supplémentaire.[NEWLINE][NEWLINE][ICON_PRODUCTION] Production +3, [ICON_RESEARCH] science +3, [ICON_GOLD] or +3.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_PLAYER">
+      <Text>Nous sommes toujours à la recherche de nouvelles connexions urbaines avec {@1: plural 1?{@1: gender *:no_article? ; *:vowel?l'; m?le ; f?la ;}; 2?les ;}{1_CivName:textkey}. Vous pouvez peut-être nous aider.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_GIFT_UNIT">
+      <Text>Nous voulons que vous souteniez notre effort de guerre en nous offrant des unités.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_GIFT_UNIT_FORMAL">
+      <Text>Ils veulent que vous souteniez leur effort de guerre en leur offrant des unités.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_TRADE_ROUTE">
+      <Text>Nous vous demandons d'établir une route commerciale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_TRADE_ROUTE_FORMAL">
+      <Text>Ils vous demandent de relier leur ville à une route commerciale terrestre ou maritime.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_INFLUENCE_RATE">
+      <Text>Chaque tour, votre [ICON_INFLUENCE] influence auprès d'eux change de {1_InfluenceRate}, avec pour limite {2_InfluenceAnchor}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DIFFERENT_LATE_POLICY_TREES">
+      <Text>[COLOR_NEGATIVE_TEXT]Vous avez choisi d'adopter : {1_YourPolicyTree}, mais eux croient en une autre idéologie : {2_TheirPolicyTree}.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_STOP_DIGGING">
+      <Text>Arrêtez de déterrer mes artefacts.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISLIKED_OUR_PROPOSAL">
+      <Text>[COLOR_WARNING_TEXT]Ils n'ont pas apprécié la proposition que nous avons faite au Congrès mondial.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_FOILED_THEIR_PROPOSAL">
+      <Text>[COLOR_WARNING_TEXT]Nous avons participé à l'échec de leur proposition au Congrès mondial.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_LANDMARKS_BUILT">
+      <Text>[COLOR_POSITIVE_TEXT]Vous avez construit un monument sur leur territoire.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_LIKED_OUR_PROPOSAL">
+      <Text>[COLOR_WARNING_TEXT]Ils ont apprécié la proposition que nous avons faite au Congrès mondial.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_DIG_PROMISE_BROKEN">
+      <Text>[COLOR_NEGATIVE_TEXT]Vous avez déterré des artefacts sur leur territoire ![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_DIG_PROMISE_IGNORED">
+      <Text>[COLOR_NEGATIVE_TEXT]Ils vous ont demandé d'arrêter de déterrer leurs artefacts, mais vous les avez ignorés ![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PLUNDERING_OUR_TRADE_ROUTES">
+      <Text>[COLOR_NEGATIVE_TEXT]Vous avez pillé leurs routes commerciales ![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SAME_LATE_POLICY_TREES">
+      <Text>[COLOR_POSITIVE_TEXT]Vous avez tous deux choisi d'adopter : {1_PolicyTree}.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_HOSTING">
+      <Text>[COLOR_POSITIVE_TEXT]Nous les avons aidés à obtenir l'organisation du Congrès mondial.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_PROPOSAL">
+      <Text>[COLOR_POSITIVE_TEXT]Nous les avons aidés à faire accepter leur proposition au Congrès mondial.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_CRITICAL">
+      <Text>[COLOR_NEGATIVE_TEXT]Ils craignent que votre soif de destruction ne finisse par plonger le monde dans un nouvel âge sombre ![ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_MAJOR">
+      <Text>[COLOR_NEGATIVE_TEXT]Ils perçoivent clairement la menace que représente votre tempérament belliqueux.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_MINOR">
+      <Text>[COLOR_WARNING_TEXT]Ils commencent à s'inquiéter de votre tempérament belliqueux.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_SEVERE">
+      <Text>[COLOR_NEGATIVE_TEXT]Ils pensent que votre tempérament belliqueux est devenu un problème majeur sur la scène internationale.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORATION_TITLE">
+      <Text>{1_PlayerName:textkey}, Capitaine {@2: plural 1?{@2: gender masculine?du ; feminine?{@2: gender *:vowel?d'; other?de ;};}; other?des ;}{2_CivName:textkey}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FREE_TENETS_LABEL">
+      <Text>Nombre de principes disponibles : {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_AIRLIFT_HELP">
+      <Text>Ordonne à l'unité de se redéployer sur une case terrestre adjacente ou confondue avec une ville alliée dotée d'un aéroport. La case de destination ne doit être ni occupée, ni adjacente à une unité ennemie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIBERATION_PREVIEW_EXTREME">
+      <Text>Vous recevrez un bonus de libération [COLOR_POSITIVE_TEXT]EXTRÊME[ENDCOLOR] (qui annule les précédentes pénalités de belliciste) si vous libérez cette ville.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIBERATION_PREVIEW_MAJOR">
+      <Text>Vous recevrez un bonus de libération [COLOR_POSITIVE_TEXT]MAJEUR[ENDCOLOR] (qui annule les précédentes pénalités de belliciste) si vous libérez cette ville.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIBERATION_PREVIEW_MINOR">
+      <Text>Vous recevrez un bonus de libération [COLOR_POSITIVE_TEXT]MINEUR[ENDCOLOR] (qui annule les précédentes pénalités de belliciste) si vous libérez cette ville.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_DISCOVERED_ARTIFACTS_NEAR">
+      <Text>Vous avez découvert un [COLOR_HIGHLIGHT_TEXT]site antique[ENDCOLOR] près {@1: gender *:vowel?d'; other?de ;}{@1_CityName} !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_DISCOVERED_HIDDEN_ARTIFACTS_NEAR">
+      <Text>Vous avez découvert un [COLOR_HIGHLIGHT_TEXT]site antique caché[ENDCOLOR]  près {@1: gender *:vowel?d'; other?de ;}{@1_CityName} !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_CREATE_GREAT_WORK_DISABLED_HELP">
+      <Text>L'unité doit se trouver dans l'une de vos villes ou sur une case adjacente à l'une de vos villes, et vous devez disposer d'un emplacement pour chef-d'oeuvre libre du type approprié quelque part dans votre empire.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_CREATE_GREAT_WORK_HELP">
+      <Text>Le personnage illustre s'autodétruit dans l'opération et crée un nouveau chef-d'oeuvre dans la ville la plus proche disposant d'un emplacement pour chef-d'oeuvre vide du type correspondant.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_CREATE_GREAT_WORK_RESULT">
+      <Text>Le chef-d'oeuvre sera placé dans un bâtiment {@2: plural 1?{@2: gender *:vowel?d'; other?de ;}; 2?des ;}{2_CityName} : {1_BuildingName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_GIVE_POLICIES_HELP">
+      <Text>Le personnage illustre s'autodétruit dans l'opération et vous recevez une grande quantité de [ICON_CULTURE] culture.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_HEAL_DISABLED_HELP">
+      <Text>Cette unité ne peut pas se soigner en dehors d'un territoire allié ou lorsqu'elle est embarquée.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_ONE_SHOT_TOURISM_DISABLED_HELP">
+      <Text>L'unité doit se trouver sur une case appartenant à une autre grande civilisation.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_ONE_SHOT_TOURISM_HELP">
+      <Text>Le personnage illustre s'autodétruit dans l'opération et propage une grande quantité de [ICON_TOURISM] tourisme à la civilisation où se trouve le musicien. Les autres civilisations de la partie reçoivent elles aussi 20% de ce [ICON_TOURISM] tourisme.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_DISABLED_HELP">
+      <Text>Vous devez pouvoir déclarer la guerre au propriétaire de la route commerciale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_HELP">
+      <Text>Détruisez cette route commerciale pour gagner de l'[ICON_GOLD] or. [NEWLINE][NEWLINE]Si vous n'êtes pas en guerre avec le propriétaire de la route commerciale, vous devrez d'abord lui déclarer la guerre avant de pouvoir la piller. Piller une route commerciale reliée à une autre civilisation mettra à mal votre relation avec la civilisation de destination si vous n'êtes pas en guerre avec elle.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SELL_EXOTIC_GOODS_DISABLED_HELP">
+      <Text>L'unité doit se trouver sur une case appartenant à une autre civilisation ou cité-état, et ne doit pas déjà avoir utilisé cette compétence.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SELL_EXOTIC_GOODS_HELP">
+      <Text>L'unité vendra ses marchandises et gagnera de l'[ICON_GOLD] or et de l'expérience. Plus la vente s'effectue loin de votre capitale, plus les quantités sont élevées. Cette action ne peut être effectuée qu'une seule fois par cette unité.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ARTIFACT_SWAP">
+      <Text>{1_LeaderName} a échangé votre artefact "{2_Work1Name}" contre l'artefact "{3_Work2Name}".</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CHOOSE_ARCHAEOLOGY">
+      <Text>Des fouilles archéologiques ont été établies sur un site antique. Sélectionnez le prochain objectif de l'archéologue présent sur cette case.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_ERA">
+      <Text>Vous avez dépassé l'ère industrielle. Les idées propres à la révolution industrielle font désormais partie intégrante de votre société. Votre peuple attend de vous que vous choisissiez une idéologie pour votre civilisation.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_FACTORIES">
+      <Text>Vous possédez des usines dans trois de vos villes. Les idées propres à la révolution industrielle font désormais partie intégrante de votre société. Votre peuple attend de vous que vous choisissiez une idéologie pour votre civilisation.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_WONDER_MOD">
+      <Text>{@2: plural 1?{@2: gender *:vowel?De l'; m?Du ; f?De la ;}; 2?Des ;}{2_ResourceName:textkey} {@1: plural 1?est disponible; 2?sont disponibles;} à {1_CityName:textkey} ! La [ICON_PRODUCTION] production s'en voit améliorée de {3_Num}% lorsque vous construisez des merveilles de l'antiquité et de l'ère classique dans cette ville !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DIPLOMAT_EJECTED">
+      <Text>Évacuation de diplomate !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DIPLOMAT_EJECTED_TT">
+      <Text>{2_SpyName} ({1_SpyRank}) a fui {3_CityName} pour rejoindre votre planque suite à une déclaration de guerre.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FOUND_ARTIFACTS">
+      <Text>Vous avez découvert un [COLOR_HIGHLIGHT_TEXT]site antique[ENDCOLOR] !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FOUND_HIDDEN_ARTIFACTS">
+      <Text>Vous avez découvert un [COLOR_HIGHLIGHT_TEXT]site antique caché[ENDCOLOR] !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FREE_POLICY">
+      <Text>Vous pouvez choisir une doctrine sociale ou un principe idéologique gratuit !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GREAT_WORK_ART_SWAP">
+      <Text>{1_LeaderName} a échangé votre chef-d'oeuvre artistique "{2_Work1Name}" contre le chef-d'oeuvre "{3_Work2Name}".</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GREAT_WORK_MUSIC_SWAP">
+      <Text>{1_LeaderName} a échangé votre chef-d'oeuvre musical "{2_Work1Name}" contre le chef-d'oeuvre "{3_Work2Name}".</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GREAT_WORK_WRITING_SWAP">
+      <Text>{1_LeaderName} a échangé votre chef-d'oeuvre littéraire "{2_Work1Name}" contre le chef-d'oeuvre "{3_Work2Name}".</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_HEATHEN_CONVERTS">
+      <Text>Une unité barbare a rejoint vos forces !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_IDEOLOGY_CHANGE">
+      <Text>Le peuple {@1: plural 1?{@1: gender *:no_article?de ; *:vowel?de l'; m?du ; f?de la ;}; 2?des ;}{1_CivName} s'est révolté et a poussé son dirigeant à adopter l'idéologie "{2_TheirPolicyTree}".</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_IDEOLOGY_CHANGE_UNMET">
+      <Text>Le peuple d'une civilisation inconnue s'est révolté et a poussé son dirigeant à adopter l'idéologie "{1_TheirPolicyTree}".</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_IDEOLOGY_CHOSEN">
+      <Text>{@1: plural 1?{@1: gender *:no_article?; *:vowel?L'; m?Le ; f?La ;}; 2?Les ;}{1_CivName} {@1: plural 1?a; 2?ont;} adopté une idéologie : {2_TheirPolicyTree}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_IDEOLOGY_CHOSEN_UNMET">
+      <Text>Une civilisation inconnue a adopté l'idéologie "{1_TheirPolicyTree}".</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_WAR_UNIT_HELP">
+      <Text>{@1_MinorCivName} a besoin d'aide dans sa guerre contre {@2: plural 1?{@2: gender *:no_article?; *:vowel?l'; m?le ; f?la ;}; 2?les ;}{@2_CivName}. En donnant des unités, vous augmenterez votre [ICON_INFLUENCE] influence. Vous pouvez l'aider depuis le portail diplomatique, ou en envoyant directement une unité sur leur territoire et en sélectionnant l'action appropriée.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_TRADE_ROUTE">
+      <Text>Les citoyens {@1: plural 1?{@1: gender *:vowel?d'; other?de ;}; 2?des ;}{@1_MinorCivName} sont heureux de pouvoir profiter d'une route commerciale. Votre [ICON_INFLUENCE] influence auprès d'eux augmente de [COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR] !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_START_TRADE_ROUTE">
+      <Text>Les citoyens {@1: plural 1?{@1: gender *:vowel?d'; other?de ;}; 2?des ;}{@1_MinorCivName} estiment qu'une route commerciale serait bénéfique à nos deux civilisations.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED">
+      <Text>{@1: plural 1?{@1: gender *:no_article?; *:vowel?L'; m?Le ; f?La ;}; 2?Les ;}{1_CivName} {@1: plural 1?a; 2?ont;} ajouté une croyance de Réforme à {@1: plural 1?sa; 2?leur;} religion, {@2: plural 1?{@2: gender *:vowel?l'; m?le ; f?la ;}; 2?les ;}{@2_ReligionName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED_ACTIVE_PLAYER">
+      <Text>Vous avez ajouté une croyance de Réforme à votre religion, {@1: plural 1?{@1: gender *:vowel?l'; m?le ; f?la ;}; 2?les ;}{@1_ReligionName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED_S">
+      <Text>Croyance de Réforme ajoutée</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED_UNKNOWN">
+      <Text>Une civilisation inconnue a ajouté une croyance de Réforme à sa religion, {@1: plural 1?{@1: gender *:vowel?l'; m?le ; f?la ;}; 2?les ;}{@1_ReligionName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_ARCHAEOLOGY">
+      <Text>CHOISIR ARCHÉOLOGIE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_IDEOLOGY">
+      <Text>CHOISIR IDÉOLOGIE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GREAT_WORK_SWAP">
+      <Text>Échange de chef-d'oeuvre</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_HEATHEN_CONVERTS">
+      <Text>Païens convertis</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_IDEOLOGY_CHANGE">
+      <Text>Révolution !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_IDEOLOGY_CHOSEN">
+      <Text>Idéologie adoptée</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_WAR_UNIT_HELP">
+      <Text>{@1_MinorCivName} a besoin d'unités !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_TRADE_ROUTE">
+      <Text>Route commerciale établie pour {@1_MinorCivName} !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_START_TRADE_ROUTE">
+      <Text>{@1_MinorCivName} souhaite établir une route commerciale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_TRADE_ROUTE_BROKEN">
+      <Text>[ICON_CONNECTED] Connexion urbaine interrompue !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_TRADE_ROUTE_ESTABLISHED">
+      <Text>[ICON_CONNECTED] Connexion urbaine établie !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TRADE_ROUTE_BROKEN">
+      <Text>Une [ICON_CONNECTED] connexion urbaine entre {1_CityName:textkey} et votre capitale, {2_CityName:textkey}, a été interrompue.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TRADE_ROUTE_ESTABLISHED">
+      <Text>Une [ICON_CONNECTED] connexion urbaine entre {1_CityName:textkey} et votre capitale, {2_CityName:textkey}, a été établie !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES">
+      <Text>Académie des sciences</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Académie des sciences[ENDCOLOR][NEWLINE][ICON_HAPPINESS_1] Bonheur local +1 pour chaque observatoire, école publique et laboratoire de recherche.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY">
+      <Text>Arsenal de la démocratie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Arsenal de la démocratie[ENDCOLOR][NEWLINE][ICON_PRODUCTION] Production +15% lors de la formation d'unités militaires. [ICON_INFLUENCE] Influence +15 par don d'unités militaires à des cités-états.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS">
+      <Text>Génie artistique</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Génie artistique[ENDCOLOR][NEWLINE]Apparition d'un artiste illustre.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS">
+      <Text>Esthétique</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_CAP">
+      <Text>ESTHÉTIQUE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP">
+      <Text>L'[COLOR_POSITIVE_TEXT]esthétique[ENDCOLOR] améliore l'efficacité avec laquelle la civilisation génère de la [ICON_CULTURE] culture. [NEWLINE][NEWLINE]Adopter l'esthétique accélère la vitesse de génération d'artistes, de musiciens et d'écrivains illustres de 25%, et débloque la Galerie des Offices. [NEWLINE][NEWLINE]En adoptant toutes les doctrines, vous doublez le bonus thématique des musées et des merveilles. Permet également d'acheter des artistes, musiciens et écrivains illustres avec de la [ICON_PEACE] foi à partir de l'ère industrielle.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_RELIGION">
+      <Text>[COLOR_WARNING_TEXT]Cette catégorie n'est pas disponible dans les parties sans religion.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP">
+      <Text>Le [COLOR_POSITIVE_TEXT]commerce[ENDCOLOR] octroie des bonus aux empires dont la production se focalise sur l'[ICON_GOLD] or. [NEWLINE][NEWLINE]Adopter le commerce augmente la production d'[ICON_GOLD] or de la [ICON_CAPITAL] capitale de 25% et débloque Big Ben. [NEWLINE][NEWLINE]En adoptant toutes les doctrines du commerce, chaque comptoir commercial vous rapportera +1 [ICON_GOLD] Or. Permet également d'acheter des marchands illustres avec de la [ICON_PEACE] foi à partir de l'ère industrielle.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION">
+      <Text>Exploration</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION_CAP">
+      <Text>EXPLORATION</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP">
+      <Text>L'[COLOR_POSITIVE_TEXT]exploration[ENDCOLOR] améliore votre aptitude à étendre votre empire par-delà les mers. [NEWLINE][NEWLINE]Adopter l'exploration octroie 1 [ICON_MOVES] point de mouvement supplémentaire aux unités navales et 1 point de champ de vision aux unités militaires navales, et débloque le Louvre. [NEWLINE][NEWLINE]En adoptant toutes les doctrines, vous deviendrez capable de voir les sites antiques cachés et vous pourrez acheter des amiraux illustres avec de la [ICON_PEACE] foi à partir de l'ère industrielle.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP">
+      <Text>L'[COLOR_POSITIVE_TEXT]honneur[ENDCOLOR] améliore de diverses façons l'efficacité de l'armée. [NEWLINE][NEWLINE]Adopter l'honneur octroie un bonus de combat de 33% contre les Barbares, et vous recevez une notification chaque fois que l'un de leurs campements apparaît près de votre territoire. Votre empire reçoit de la [ICON_CULTURE] culture à chaque barbare éliminé. L'honneur débloque la statue de Zeus. [NEWLINE][NEWLINE]En adoptant toutes les doctrines de l'honneur, vous recevrez de l'[ICON_GOLD] or chaque fois que vous éliminerez une unité ennemie. Permet également d'acheter des généraux illustres avec de la [ICON_PEACE] foi à partir de l'ère industrielle.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_HELP">
+      <Text>La [COLOR_POSITIVE_TEXT]liberté[ENDCOLOR] est idéale pour les civilisations qui souhaitent s'étendre rapidement. [NEWLINE][NEWLINE]Adopter la liberté fournit 1 [ICON_CULTURE] Culture dans chaque ville et débloque les Pyramides. [NEWLINE][NEWLINE]Adoptez toutes les doctrines de la liberté pour voir apparaître un personnage illustre de votre choix près de votre [ICON_CAPITAL] capitale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP">
+      <Text>Le [COLOR_POSITIVE_TEXT]mécénat[ENDCOLOR] augmente les bonus liés à votre niveau d'amitié auprès des cités-états. [NEWLINE][NEWLINE]En adoptant le mécénat, l'[ICON_INFLUENCE] influence sur les cités-états diminue 25% moins vite qu'à l'accoutumée et vous débloquez la Cité interdite. [NEWLINE][NEWLINE]En adoptant toutes les doctrines du mécénat, les cités-états alliées vous offriront parfois spontanément des [ICON_GREAT_PEOPLE] personnages illustres.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP">
+      <Text>La [COLOR_POSITIVE_TEXT]piété[ENDCOLOR] augmente la [ICON_PEACE] foi d'un empire.[NEWLINE][NEWLINE]Adopter la piété diminue de moitié le temps nécessaire à la construction d'autels et de temples et débloque la Grande mosquée de Djenné.[NEWLINE][NEWLINE]L'adoption de toutes les doctrines de la piété entraîne l'apparition d'un prophète illustre et augmente de 3 points la [ICON_CULTURE] culture générée par les lieux saints.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP">
+      <Text>Le [COLOR_POSITIVE_TEXT]rationalisme[ENDCOLOR] améliore votre aptitude à utiliser et à générer de la [ICON_RESEARCH] science.[NEWLINE][NEWLINE]L'adoption du rationalisme augmente de 10% le nombre de points de [ICON_RESEARCH] science tant que l'empire est [ICON_HAPPINESS_1] heureux, et débloque la Tour de porcelaine. [NEWLINE][NEWLINE]En adoptant toutes les doctrines du rationalisme, vous obtenez 2 technologies gratuites. Permet également d'acheter des scientifiques illustres avec de la [ICON_PEACE] foi à partir de l'ère industrielle.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_TRADITION_HELP">
+      <Text>La [COLOR_POSITIVE_TEXT]tradition[ENDCOLOR] convient parfaitement aux petits empires.[NEWLINE][NEWLINE]L'adoption de la tradition augmente considérablement la vitesse d'expansion des frontières d'une ville et fournit 3 [ICON_CULTURE] Culture à la [ICON_CAPITAL] capitale. La tradition débloque également les Jardins suspendus. [NEWLINE][NEWLINE]En adoptant toutes les doctrines traditionnelles, vous recevrez +15% de [ICON_FOOD] croissance et un aqueduc gratuit dans vos 4 premières villes. Permet également d'acheter des ingénieurs illustres avec de la [ICON_PEACE] foi à partir de l'ère industrielle.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CAPITALISM">
+      <Text>Capitalisme</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CAPITALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Capitalisme[ENDCOLOR][NEWLINE][ICON_HAPPINESS_1] Bonheur local +1 pour chaque hôtel de la monnaie, banque et bourse.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CARAVANS">
+      <Text>Convois de chariots</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CARAVANS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Convois de chariots[ENDCOLOR][NEWLINE] [ICON_GOLD] Or +2 pour toutes les routes commerciales terrestres. Les coûts d'entretien liés aux routes et aux voies ferrées sont réduits de 50%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Pouvoir collectif[ENDCOLOR][NEWLINE]La vitesse de formation des [COLOR_POSITIVE_TEXT]colons[ENDCOLOR] augmente de 50% dans la [ICON_CAPITAL] capitale et un colon gratuit apparaît à proximité. (Venise reçoit un marchand de Venise au lieu d'un colon.)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CONSULATES">
+      <Text>Consulats</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CONSULATES_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Consulats[ENDCOLOR][NEWLINE]Seuil d'[ICON_INFLUENCE] influence +20 sur toutes les cités-états.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_COVERT_ACTION">
+      <Text>Opération secrète</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_COVERT_ACTION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Opération secrète[ENDCOLOR][NEWLINE]Deux fois plus de chances de réussir à truquer les élections dans les cités-états.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION">
+      <Text>Expression créative</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Expression créative[ENDCOLOR][NEWLINE] [ICON_CULTURE] Culture +1 pour chaque chef-d'oeuvre (sans impact sur le [ICON_TOURISM] tourisme).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULT_PERSONALITY">
+      <Text>Culte de la personnalité</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULT_PERSONALITY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Culte de la personnalité[ENDCOLOR][NEWLINE] [ICON_TOURISM] Tourisme +50% pour les civilisations combattant un ennemi commun.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULTURAL_CENTERS">
+      <Text>Centres culturels</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULTURAL_CENTERS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Centres culturels[ENDCOLOR][NEWLINE]Construction des monuments historiques, amphithéâtres, opéras, musées et tours de radiodiffusion 50% plus rapide.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION">
+      <Text>Révolution culturelle</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Révolution culturelle[ENDCOLOR][NEWLINE][ICON_TOURISM] Tourisme +34% pour les autres civilisations ayant adopté l'ordre.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT">
+      <Text>Dictature du prolétariat</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Dictature du prolétariat[ENDCOLOR][NEWLINE][ICON_TOURISM] Tourisme +34% pour les civilisations possédant moins de [ICON_HAPPINESS_1] bonheur.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DOUBLE_AGENTS">
+      <Text>Agents doubles</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DOUBLE_AGENTS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Agents doubles[ENDCOLOR][NEWLINE]Double les chances de vos espions de capturer les espions ennemis qui tentent de voler une technologie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ECONOMIC_UNION">
+      <Text>Union économique</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ECONOMIC_UNION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Union économique[ENDCOLOR][NEWLINE][ICON_GOLD] Or +3 pour chaque route commerciale établie avec une civilisation ayant adopté l'égalité.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ELITE_FORCES">
+      <Text>Forces d'élite</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ELITE_FORCES_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Forces d'élite[ENDCOLOR][NEWLINE]Unités militaires blessées : dégâts +25%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP">
+      <Text>Entreprenariat</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Entreprenariat[ENDCOLOR][NEWLINE]Apparition des marchands illustres 25% plus rapide. Vous recevez deux fois plus [ICON_GOLD] d'Or à l'issue des missions commerciales des marchands illustres.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ETHICS">
+      <Text>Échange culturel</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ETHICS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Échange culturel[ENDCOLOR][NEWLINE]Augmente de 15% les effets du modificateur de tourisme si deux civilisations ont en commun une religion, des routes commerciales et des traités de libre passage.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FINE_ARTS">
+      <Text>Beaux-arts</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FINE_ARTS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Beaux-arts[ENDCOLOR][NEWLINE]50% du [ICON_HAPPINESS_1] bonheur excédentaire sont ajoutés chaque tour à la quantité de [ICON_CULTURE] culture pouvant être dépensée en doctrines sociales.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FIVE_YEAR_PLAN">
+      <Text>Plan quinquennal</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FIVE_YEAR_PLAN_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Plan quinquennal[ENDCOLOR][NEWLINE] [ICON_PRODUCTION] Production +2 par ville et [ICON_PRODUCTION] production +1 pour chaque mine et carrière.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FLOURISHING_OF_ARTS">
+      <Text>Essor des arts</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FLOURISHING_OF_ARTS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Essor des arts[ENDCOLOR][NEWLINE][ICON_CULTURE] Culture +33% dans toutes les villes ayant construit une merveille mondiale. L'empire entre immédiatement dans un [ICON_GOLDEN_AGE] âge d'or.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FORTIFIED_BORDERS">
+      <Text>Protections frontalières</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FORTIFIED_BORDERS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Protections frontalières[ENDCOLOR][NEWLINE][ICON_HAPPINESS_1] Bonheur local +1 pour chaque château, arsenal et base militaire.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FREE_RELIGION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Tolérance religieuse[ENDCOLOR][NEWLINE]Les villes présentant une religion majoritaire obtiennent également un bonus de croyance du panthéon pour la deuxième religion la plus populaire.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FUTURISM">
+      <Text>Futurisme</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FUTURISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Futurisme[ENDCOLOR][NEWLINE][ICON_TOURISM] Tourisme +250 auprès de toutes les civilisations connues à l'apparition d'un écrivain, d'un artiste ou d'un musicien illustre.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_GUNBOAT_DIPLOMACY">
+      <Text>Politique de la canonnière</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_GUNBOAT_DIPLOMACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Politique de la canonnière[ENDCOLOR][NEWLINE][ICON_INFLUENCE] Influence +6 (en vitesse standard) par tour auprès des cités-états desquelles vous pourriez exiger un tribut. Vos forces militaires sont 50% plus efficaces pour intimider les cités-états.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE">
+      <Text>Héros du peuple</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Héros du peuple[ENDCOLOR][NEWLINE]Les [ICON_GREAT_PEOPLE] personnages illustres apparaissent 25% plus vite.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_HUMANISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Humanisme[ENDCOLOR][NEWLINE]Apparition des scientifiques illustres 25% plus rapide.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE">
+      <Text>Espionnage industriel</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Espionnage industriel[ENDCOLOR][NEWLINE]Double la vitesse de vol des technologies des espions.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_IRON_CURTAIN">
+      <Text>Rideau de fer</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_IRON_CURTAIN_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Rideau de fer[ENDCOLOR][NEWLINE]Un tribunal gratuit pour chaque ville annexée. Les routes commerciales internes génèrent 50% de [ICON_FOOD] Nourriture ou de [ICON_PRODUCTION] Production supplémentaire.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE">
+      <Text>Guerre éclair</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Guerre éclair[ENDCOLOR][NEWLINE]Généraux illustres : [ICON_MOVES]Déplac. +3. Unités blindées : attaque +15%, [ICON_MOVES] déplac. +1, ignorent zone de contrôle ennemie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Mandat du Ciel[ENDCOLOR][NEWLINE]Diminue de 20% le coût en [ICON_PEACE] foi des unités et bâtiments religieux.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE">
+      <Text>Infrastructures maritimes</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Infrastructures maritimes[ENDCOLOR][NEWLINE]Villes côtières : [ICON_PRODUCTION] production +3.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MEDIA_CULTURE">
+      <Text>Industrie culturelle</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MEDIA_CULTURE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Industrie culturelle[ENDCOLOR][NEWLINE] [ICON_TOURISM] Tourisme +34% pour les villes possédant une tour de radiodiffusion.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY">
+      <Text>Confédération marchande</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Confédération marchande[ENDCOLOR][NEWLINE][ICON_GOLD] Or +2 pour les routes commerciales établies avec des cités-états.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_TEXT">
+      <Text>Aussi connue sous le nom de ligue ou guilde commerciale, une confédération marchande a pour but de protéger les intérêts économiques et privilèges diplomatiques des marchands des villes et des nations traversées par des routes commerciales. Bien que ces confédérations n'aient rien d'officiel, nombre d'entre elles, à l'image de la Compagnie des marchands aventuriers de Londres (fondée en 1407) et de la puissante Ligue hanséatique (formée au milieu du XIVe siècle), eurent une influence économique importante et dominèrent certaines routes commerciales pendant de longues années. Au début de la Renaissance, des confédérations marchandes s'établirent dans des cités-états, comme Venise ou Gênes, afin de protéger les intérêts des commerçants à l'étranger. Ces ligues attinrent leur apogée aux XVe et XVIe siècles, avant de décliner progressivement, à mesure que les gouvernements nationaux et les compagnies à charte s'appropriaient leurs responsabilités diplomatiques et réglementaires.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCHANT_NAVY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Marine marchande[ENDCOLOR][NEWLINE][ICON_GOLD] Or +1 pour chaque port, chantier naval ou phare.[NEWLINE][ICON_PRODUCTION] Production et [ICON_CULTURE] Culture +4 dans la ville accueillant la Compagnie des Indes orientales.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MILITARISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Militarisme[ENDCOLOR][NEWLINE] [ICON_HAPPINESS_1] Bonheur local +2 pour chaque caserne, dépôt d'armes et école militaire.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MOBILIZATION">
+      <Text>Mobilisation</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MOBILIZATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Mobilisation[ENDCOLOR][NEWLINE]Le coût d'achat en [ICON_GOLD] or des unités diminue de 33%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NATIONALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Nationalisme[ENDCOLOR][NEWLINE]Coût d'entretien en [ICON_GOLD] or des unités -33%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NAVAL_TRADITION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Tradition navale[ENDCOLOR][NEWLINE] [ICON_HAPPINESS_1] Bonheur +1 pour chaque port, chantier naval ou phare.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NAVIGATION_SCHOOL">
+      <Text>École de Navigation</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NAVIGATION_SCHOOL_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]École de Navigation[ENDCOLOR][NEWLINE]Apparition d'un amiral illustre. [ICON_MOVES] Déplacement +2 pour tous les amiraux illustres. Génération d'amiraux illustres 50% plus rapide.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NEW_DEAL">
+      <Text>New Deal</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NEW_DEAL_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]New Deal[ENDCOLOR][NEWLINE]Bonus de production +4 pour tous les monuments et les aménagements des personnages illustres.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NEW_ORDER">
+      <Text>Héritage de Clausewitz</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NEW_ORDER_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Héritage de Clausewitz[ENDCOLOR][NEWLINE]Toutes les unités militaires profitent d'un bonus d'attaque de 25% pendant les 50 tours suivant l'adoption de cette doctrine.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_OPEN_SOCIETY">
+      <Text>Avant-garde</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_OPEN_SOCIETY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Avant-garde[ENDCOLOR][NEWLINE]Les [ICON_GREAT_PEOPLE] personnages illustres apparaissent 25% plus vite.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP">
+      <Text>Autorité du Parti</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Autorité du Parti[ENDCOLOR][NEWLINE]Un point supplémentaire de [ICON_FOOD] nourriture, de [ICON_PRODUCTION] production, de [ICON_RESEARCH] science, d'[ICON_GOLD] or et de [ICON_CULTURE] culture pour chaque ville.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PATRIOTIC_WAR">
+      <Text>Guerre patriotique</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Guerre patriotique[ENDCOLOR][NEWLINE]Bonus d'attaque en territoire allié +15%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_POLICE_STATE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]État policier[ENDCOLOR][NEWLINE] [ICON_HAPPINESS_1] Bonheur local +3 pour tous les tribunaux. La construction des tribunaux est deux fois plus rapide.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Armée de métier[ENDCOLOR][NEWLINE]Le coût en [ICON_GOLD] or pour l'amélioration des unités militaires diminue de 33% et la construction des casernes, dépôts d'armes et écoles militaires est 50% plus rapide.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_REFORMATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Réforme[ENDCOLOR][NEWLINE]Obtention d'une croyance de Réforme supplémentaire pour toute religion fondée.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_RESETTLEMENT">
+      <Text>Repeuplement</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Repeuplement[ENDCOLOR][NEWLINE]Les nouvelles villes démarrent avec 3 [ICON_CITIZEN] citoyens supplémentaires.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SKYSCRAPERS">
+      <Text>Gratte-ciel</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SKYSCRAPERS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Gratte-ciel[ENDCOLOR][NEWLINE]Le coût en [ICON_GOLD] or des bâtiments diminue de 33%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SOCIALIST_REALISM">
+      <Text>Réalisme socialiste</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SOCIALIST_REALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Réalisme socialiste[ENDCOLOR][NEWLINE][ICON_HAPPINESS_1] Bonheur local +2 pour les monuments historiques. Construction des monuments historiques deux fois plus rapide.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS">
+      <Text>Service des achats dans le domaine spatial</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Service des achats dans le domaine spatial[ENDCOLOR][NEWLINE]Permet l'achat de pièces de vaisseau spatial avec de l'[ICON_GOLD] or.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SPACEFLIGHT_PIONEERS">
+      <Text>Pionniers du vol spatial</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SPACEFLIGHT_PIONEERS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Pionniers du vol spatial[ENDCOLOR][NEWLINE]Les ingénieurs illustres peuvent finir la construction de pièces de vaisseau spatial. Un ingénieur et un scientifique illustres apparaissent en dehors de la [ICON_CAPITAL] capitale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_THEIR_FINEST_HOUR">
+      <Text>Leur plus belle heure</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_THEIR_FINEST_HOUR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Leur plus belle heure[ENDCOLOR][NEWLINE]Villes : [ICON_STRENGTH] puissance de combat +33%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_THEOCRACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Théocratie[ENDCOLOR][NEWLINE]Les temples augmentent de 25% la production d'[ICON_GOLD] or d'une ville, et les lieux saints rapportent +3 [ICON_GOLD] Or.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE">
+      <Text>Troisième voie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Troisième voie[ENDCOLOR][NEWLINE]Quantité de ressources stratégiques produites +100%. [ICON_FOOD] Nourriture +5 et [ICON_RESEARCH] science +5 dans la [ICON_CAPITAL] capitale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TRADE_UNIONS">
+      <Text>Armée de mercenaires</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Armée de mercenaires[ENDCOLOR][NEWLINE]Permet de recruter des lansquenets.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TREASURE_FLEETS">
+      <Text>Flotte des Indes</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TREASURE_FLEETS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Flotte des Indes[ENDCOLOR][NEWLINE][ICON_GOLD] Or +4 pour toutes vos routes commerciales maritimes.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION">
+      <Text>Organisation par traité</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Organisation par traité[ENDCOLOR][NEWLINE]Quatre points d'[ICON_INFLUENCE] influence supplémentaires par tour (en vitesse standard) par cité-état partageant une route commerciale avec vous.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNITED_FRONT_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Front uni[ENDCOLOR][NEWLINE]Les cités-états militaires fournissent deux fois plus d'unités lorsque vous êtes en guerre contre un ennemi commun.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE">
+      <Text>Couverture médicale universelle</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Couverture médicale universelle[ENDCOLOR][NEWLINE][ICON_HAPPINESS_1] Bonheur local +1 pour toutes les merveilles nationales.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNIVERSAL_SUFFRAGE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Suffrage universel[ENDCOLOR][NEWLINE]Les spécialistes des villes produisent moitié moins de [ICON_HAPPINESS_4] mécontentement. Les [ICON_GOLDEN_AGE] âges d'or sont 50% plus longs.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_URBANIZATION">
+      <Text>Urbanisation</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_URBANIZATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Urbanisation[ENDCOLOR][NEWLINE][ICON_HAPPINESS_1] Bonheur local +1 pour chaque moulin à eau, hôpital et laboratoire médical.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY">
+      <Text>Armée de volontaires</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Armée de volontaires[ENDCOLOR][NEWLINE]Coût d'entretien nul pour 6 unités. Obtention immédiate de 6 unités de Légion étrangère.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_WARRIOR_CODE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Code du guerrier[ENDCOLOR][NEWLINE] [ICON_PRODUCTION] Production +15% lors de la formation d'unités de combat rapproché et un général illustre apparaît en dehors de la [ICON_CAPITAL] capitale. Vitesse d'apparition des généraux illustres améliorée de 50%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_WORKERS_FACULTIES">
+      <Text>Aménagements destinés aux ouvriers</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Aménagements destinés aux ouvriers[ENDCOLOR][NEWLINE]Les usines augmentent de 25% la production de [ICON_RESEARCH] science de la ville. La construction des usines est deux fois plus rapide.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_YOUNG_PIONEERS">
+      <Text>Jeunes Pionniers</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_YOUNG_PIONEERS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]Jeunes Pionniers[ENDCOLOR][NEWLINE] [ICON_HAPPINESS_1] Bonheur local +1 pour chaque atelier, usine et centrale solaire/nucléaire/hydroélectrique.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_ADD_TENET">
+      <Text>Cliquer pour ajouter principe</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_CHANGE_IDEOLOGY">
+      <Text>Changer d'idéologie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_CHANGE_IDEOLOGY_DISABLED_TT">
+      <Text>Vous ne pouvez pas changer d'idéologie lorsque vos citoyens sont [COLOR_POSITIVE_TEXT]satisfaits[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_CHANGE_IDEOLOGY_TT">
+      <Text>En cliquant sur ce bouton, vous changerez l'idéologie préférée de vos citoyens : [COLOR_POSITIVE_TEXT]{1_IdeologyName}[ENDCOLOR]. [NEWLINE][NEWLINE]Vous gagnerez {2_HappinessGain} points de [ICON_HAPPINESS_1] bonheur, mais posséderez {3_TenetLoss} principes en moins dans cette nouvelle catégorie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_CHOOSE_TENET">
+      <Text>Choisir principe</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_CONFIRM_CHANGE_IDEOLOGY">
+      <Text>Le changement d'idéologie entraînera {1_AnarchyTurns} tour(s) d'anarchie dans chacune de vos villes, qui ne fourniront plus alors ni [ICON_PRODUCTION] production, ni [ICON_GOLD] or, ni [ICON_RESEARCH] science, ni [ICON_CULTURE] culture, ni [ICON_PEACE] foi. Ce changement diminuera également le nombre de vos principes idéologiques, qui passeront de {2_CurrentIdeologyTenets} actuellement dans la catégorie {3_CurrentIdeologyTree}, à {4_NewIdeologyTenets} principes dans la catégorie {5_NewIdeologyTree}. [NEWLINE][NEWLINE]En contrepartie, vous recevrez {6_HappinessGain} points de [ICON_HAPPINESS_1] bonheur d'opinion publique. [NEWLINE](REMARQUE : vous pourrez aussi parfois voir votre [ICON_HAPPINESS_1] bonheur diminuer en fonction des principes de la catégorie {3_CurrentIdeologyTree} que vous aurez perdus, et ce jusqu'à ce que vous choisissiez des principes pour votre nouvelle idéologie). [NEWLINE][NEWLINE]Passer à l'idéologie [COLOR_GREEN]{5_NewIdeologyName}[ENDCOLOR] ?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_CONFIRM_TENET">
+      <Text>Voulez-vous vraiment adopter : [COLOR_GREEN]{1_TenetName}[ENDCOLOR] ?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGIES_TAB">
+      <Text>Principes idéologiques</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_DISABLED">
+      <Text>Dans ce scénario, les idéologies sont désactivées.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_L1TENETS">
+      <Text>Principes de niveau 1 : [COLOR_GREEN]{1_NumTenets}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_L2TENETS">
+      <Text>Principes de niveau 2 : [COLOR_GREEN]{1_NumTenets}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_L3TENETS">
+      <Text>Principes de niveau 3 : [COLOR_GREEN]{1_NumTenets}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_LEVEL1">
+      <Text>NIVEAU 1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_LEVEL2">
+      <Text>NIVEAU 2</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_LEVEL3">
+      <Text>NIVEAU 3</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_NOT_STARTED">
+      <Text>Avant de pouvoir choisir des principes idéologiques, vous devez d'abord choisir une idéologie. Ce choix devient disponible en construisant une troisième usine ou en entrant dans l'ère moderne.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_TITLE">
+      <Text>{2_IdeologyName} {2: gender masculine?{@1_CivAdjective[1]}; feminine?{@1_CivAdjective[2]};}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGYPANEL_TITLE">
+      <Text>IDÉOLOGIE</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_L1_TENET">
+      <Text>Niveau 1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_L2_TENET">
+      <Text>Niveau 2</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_L3_TENET">
+      <Text>Niveau 3</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_NEED_L1_TENETS_TOOLTIP">
+      <Text>[COLOR_NEGATIVE_TEXT]Il vous faut un principe de niveau 1 supplémentaire pour débloquer la possibilité d'obtenir ce principe de niveau 2.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_NEED_L2_TENETS_TOOLTIP">
+      <Text>[COLOR_NEGATIVE_TEXT]Il vous faut un principe de niveau 2 supplémentaire pour débloquer la possibilité d'obtenir ce principe de niveau 3.[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_SOCIAL_POLICIES_TAB">
+      <Text>Doctrines</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_TENETS">
+      <Text>PRINCIPES IDÉOLOGIQUES</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_TO_IDEOLOGY_BUTTON">
+      <Text>Idéologie [ICON_ARROW_RIGHT]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_AFRAID">
+      <Text>Ils sont actuellement [COLOR_POSITIVE_TEXT]effrayés[ENDCOLOR] (+{1_FactorScore}) :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_ALLIES">
+      <Text>A un allié</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_BASE_RELUCTANCE">
+      <Text>Réticence de base</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_RECENTLY">
+      <Text>Tribut reçu récemment</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_VERY_RECENTLY">
+      <Text>Tribut reçu très récemment</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_GLOBAL_MILITARY">
+      <Text>Puissance militaire générale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_GUNBOAT_DIPLOMACY">
+      <Text>Principe de la Politique de la canonnière</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_HOSTILE">
+      <Text>Personnalité hostile</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_LOW_INFLUENCE">
+      <Text>[ICON_INFLUENCE] Influence très basse</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_LOW_POPULATION">
+      <Text>Population faible</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_MILITARISTIC">
+      <Text>militariste</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_MILITARY_PRESENCE">
+      <Text>Unité militaire près de cité-état</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_NEGATIVE">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]({1_FactorScore}) {@2_FactorDescription}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_PLEDGES_TO_PROTECT">
+      <Text>Profite d'une promesse de protection</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_POSITIVE">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT](+{1_FactorScore}) {@2_FactorDescription}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_UNIT_RELUCTANCE">
+      <Text>Donner une unité</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_GOLD_TT">
+      <Text>Si cette cité-état est plus [COLOR_POSITIVE_TEXT]effrayée[ENDCOLOR] par vous qu'elle n'est [COLOR_WARNING_TEXT]réfractaire[ENDCOLOR], vous pouvez exiger un tribut d'[ICON_GOLD] or en échange d'un peu d'[ICON_INFLUENCE] influence.  {1_FearLevel}{2_FactorDetails}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_RESILIENT">
+      <Text>Ils sont actuellement [COLOR_WARNING_TEXT]réfractaires[ENDCOLOR] ({1_FactorScore}) :</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_UNIT_TT">
+      <Text>Si cette cité-état est plus [COLOR_POSITIVE_TEXT]effrayée[ENDCOLOR] par vous qu'elle n'est [COLOR_WARNING_TEXT]réfractaire[ENDCOLOR], vous pouvez exiger {@3: plural 1?{@3: gender m?un ; f?une ;}; 2?des ;}{@3_Unit} en tribut, en échange d'un peu d'[ICON_INFLUENCE] influence.  {1_FearLevel}{2_FactorDetails}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GIFT_TILE_IMPROVEMENT_TT">
+      <Text>Vous pouvez donner de l'[ICON_GOLD] or pour aménager l'une des ressources stratégiques ou de luxe de cette cité-état. La cité-état aura accès à cette ressource et l'offrira à son allié, si elle en possède un.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GIFT_UNIT">
+      <Text>Offrir une unité (vous gagnerez {1_Influence} [ICON_INFLUENCE] Influence)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GIFT_UNIT_TT">
+      <Text>Vous pouvez offrir à cette cité-état n'importe quelle unité militaire de la carte. Il lui faudra {1_TurnsUntilArrival} tour(s) pour arriver, et vous ne pourrez pas envoyer d'autre cadeau pendant le trajet. Une fois l'unité à destination, vous gagnerez {2_Influence} [ICON_INFLUENCE] Influence.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POPUP_ARE_YOU_SURE_FOUND_ON_DIG_SITE">
+      <Text>Voulez-vous vraiment {@1_ActionName} ?[NEWLINE]Le site antique actuel disparaîtra de façon irréversible.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESS_INTERNATIONAL_SPACE_STATION_HELP">
+      <Text>Offrir la [ICON_PRODUCTION] production de cette ville en contribution au projet de station spatiale internationale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESS_WORLD_FAIR_HELP">
+      <Text>Offrir la [ICON_PRODUCTION] production de cette ville en contribution au projet d'exposition internationale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESS_WORLD_GAMES_HELP">
+      <Text>Offrir la [ICON_PRODUCTION] production de cette ville en contribution au projet de Jeux internationaux.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_ARTIFACTS_HELP">
+      <Text>Aménagé en fouilles archéologiques, un site antique peut produire un artefact pouvant être placé dans un emplacement pour chef-d'oeuvre artistique ou être transformé en monument.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_CLOVES_HELP">
+      <Text>Apparaît sous forme de ressource de luxe unique dans une ville indonésienne.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_HIDDEN_ARTIFACTS_HELP">
+      <Text>Lorsque vous aménagez un site antique caché en fouilles archéologiques, il peut alors produire un artefact à exposer dans un emplacement pour chef-d'oeuvre artistique, ou être transformé en monument. Les sites antiques cachés ne sont visibles que par les civilisations ayant découvert toutes les doctrines de la catégorie Exploration.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_NUTMEG_HELP">
+      <Text>Apparaît sous forme de ressource de luxe unique dans une ville indonésienne.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_PEPPER_HELP">
+      <Text>Apparaît sous forme de ressource de luxe unique dans une ville indonésienne.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST">
+      <Text>Les unités traversent forêts et jungles en territoire allié telles des routes. Ces cases peuvent servir de [ICON_CONNECTED] connexions urbaines après la découverte de la roue. Les caravanes traversent forêts et jungles telles des routes.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD">
+      <Text>Vous recevez 1 unité d'[ICON_GOLD] or supplémentaire par [ICON_CONNECTED] connexion urbaine et la production des ressources de [ICON_RES_OIL] pétrole est doublée.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_HATE_HIGH">
+      <Text> (Ils détestent les bellicistes !)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_HATE_LOW">
+      <Text>(Ils tolèrent les bellicistes modérés.)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_HATE_MID">
+      <Text> (Ils n'aiment pas les bellicistes !)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_PREVIEW_EXTREME">
+      <Text>Vous recevrez une pénalité de belliciste [COLOR_NEGATIVE_TEXT]EXTRÊME[ENDCOLOR] si vous capturez cette ville.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_PREVIEW_MAJOR">
+      <Text>Vous recevrez une pénalité de belliciste [COLOR_NEGATIVE_TEXT]MAJEURE[ENDCOLOR] si vous capturez cette ville.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_PREVIEW_MINOR">
+      <Text>Vous recevrez une pénalité de belliciste [COLOR_YELLOW]MINEURE[ENDCOLOR] si vous capturez cette ville.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_BIG_BEN_HELP">
+      <Text>Vous devez avoir découvert le commerce. Les coûts en [ICON_GOLD] or diminuent de 15% dans toutes les villes.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_BROADWAY_HELP">
+      <Text>Un musicien illustre gratuit apparaît près de la ville de construction de la merveille. Contient 3 emplacements pour chefs-d'oeuvre musicaux.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_CHICHEN_ITZA_HELP">
+      <Text>Vous devez avoir découvert la liberté. La vitesse de construction des aménagements augmente de 25% et deux ouvriers apparaissent près de la ville.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_EIFFEL_TOWER_HELP">
+      <Text>En plus de ses effets sur le [ICON_HAPPINESS_1] bonheur et la [ICON_CULTURE] culture, la tour Eiffel fournit également 12 points de [ICON_TOURISM] tourisme.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_FORBIDDEN_PALACE_HELP">
+      <Text>Vous devez avoir découvert le mécénat. Octroie deux délégués supplémentaires au Congrès mondial. Le [ICON_HAPPINESS_4] mécontentement diminue de 10% pour les [ICON_CITIZEN] citoyens des villes non occupées.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_GLOBE_THEATER_HELP">
+      <Text>Un écrivain illustre gratuit apparaît près de la ville où la merveille a été construite. Contient 2 emplacements pour chefs-d'oeuvre littéraires.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_GREAT_LIBRARY_HELP">
+      <Text>Octroie une technologie gratuite, ainsi qu'une bibliothèque dans la ville de sa construction. Contient 2 emplacements pour chefs-d'oeuvre littéraires.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_HANGING_GARDEN_HELP">
+      <Text>Vous devez avoir découvert la tradition. Octroie un jardin gratuit dans la ville de sa construction.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_LOUVRE_HELP">
+      <Text>Nécessite la doctrine Exploration. Un artiste illustre gratuit apparaît près de la ville où la merveille a été construite. Contient 4 emplacements pour chefs-d'oeuvre artistiques.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_MACHU_PICHU_HELP">
+      <Text>[ICON_CONNECTED] Connexions urbaines : [ICON_GOLD] or +25%. [NEWLINE][NEWLINE]La ville doit être bâtie à moins de deux cases d'une montagne se trouvant sur votre territoire.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP">
+      <Text>Vous devez avoir découvert la piété. Tous les missionnaires formés dans cette ville peuvent propager leur religion trois fois. Donne une mosquée gratuite dans la ville de construction.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_PORCELAIN_TOWER_HELP">
+      <Text>Vous devez avoir découvert le rationalisme. Un savant illustre apparaît près de la ville où la merveille a été construite. Les Accords de Recherche génèrent 50% de [ICON_RESEARCH] science en plus.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_SISTINE_CHAPEL_HELP">
+      <Text>[ICON_CULTURE] Culture +25% dans toutes les villes. Comporte 2 emplacements pour chefs-d'oeuvre artistiques.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP">
+      <Text>Octroie une doctrine sociale gratuite et +50% de [ICON_CULTURE] culture dans la ville. Comprend 2 emplacements pour chefs-d'oeuvre musicaux. La ville doit se trouver sur la côte.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_UFFIZI_HELP">
+      <Text>Nécessite la doctrine Esthétique. Un artiste illustre gratuit apparaît près de la ville de construction de la merveille. Comprend 3 emplacements pour chefs-d'oeuvre artistiques.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_UNITED_NATIONS_HELP">
+      <Text>Le congrès mondial devient les Nations Unies et lance le vote pour la victoire diplomatique. Le propriétaire des Nations Unies reçoit 3 délégués supplémentaires.</Text>
+    </Row>
+  </Language_FR_FR>
+</GameData>

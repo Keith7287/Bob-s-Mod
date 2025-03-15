@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<!-- Sid Meier's Civilization V -->
+<!-- Copyright Firaxis Games 2010 -->
+<!-- -->
+<!-- Game Text Objects -->
+<GameData>
+	<Language_en_US>
+
+    <Row Tag="TXT_KEY_BUILDING_STATUE_ZEUS">
+      <Text>Statue of Zeus</Text>
+      <Gender>neuter:the</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_STATUE_ZEUS_HELP">
+      <Text>Requires Honor. All units gain +15% [ICON_STRENGTH] combat strength when attacking cities.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_STATUE_ZEUS_DESC">
+      <Text>Standing over 40 feet tall (12m), the Statue of Zeus found in the Temple of Zeus at Olympia, Greece was another of the Seven Wonders of the Ancient World. Known to have been constructed by the Greek sculptor Phidias c. 440 BC, even with Zeus seated on a golden throne, the enormous statue could barely be contained by the temple itself. The statue is thought to have been destroyed no later than 425 AD, when the temple of Zeus was burned.  Whether the statue was still present at that time is the subject of much debate.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_STATUE_ZEUS_QUOTE">
+      <Text>[NEWLINE][TAB][TAB]"He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken."[NEWLINE][TAB][TAB] - The Iliad[NEWLINE][TAB]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_STATUE_ZEUS">
+      <Text>Statue of Zeus</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_STATUE_ZEUS_HELP">
+      <Text>+15% [ICON_STRENGTH] Combat Strength when attacking cities.</Text>
+    </Row>
+    
+		<!-- WONDERS -->
+		<Row Tag="TXT_KEY_BUILDING_ALHAMBRA">
+			<Text>Alhambra</Text>
+      <Gender>neuter:the</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CN_TOWER">
+			<Text>CN Tower</Text>
+      <Gender>neuter:the</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HUBBLE">
+			<Text>Hubble Space Telescope</Text>
+      <Gender>neuter:the</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LEANING_TOWER">
+			<Text>Leaning Tower of Pisa</Text>
+      <Gender>neuter:the</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOSQUE_OF_DJENNE">
+			<Text>Great Mosque of Djenne</Text>
+      <Gender>neuter:the</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NEUSCHWANSTEIN">
+			<Text>Neuschwanstein</Text>
+      <Gender>neuter:the</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PETRA">
+			<Text>Petra</Text>
+      <Gender>neuter:the</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TERRACOTTA_ARMY">
+			<Text>Terracotta Army</Text>
+      <Gender>neuter:the</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GREAT_FIREWALL">
+			<Text>Great Firewall</Text>
+      <Gender>neuter:the</Gender>
+		</Row>
+		<!-- NATIONAL WONDERS -->
+		<Row Tag="TXT_KEY_BUILDING_INTELLIGENCE_AGENCY">
+			<Text>National Intelligence Agency</Text>
+      <Gender>neuter:the</Gender>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GRAND_TEMPLE">
+      <Text>Grand Temple</Text>
+      <Gender>neuter:the</Gender>
+    </Row>
+		<!-- BUILDINGS -->
+		<Row Tag="TXT_KEY_BUILDING_AMPHITHEATER">
+			<Text>Amphitheater</Text>
+      <Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHRINE">
+			<Text>Shrine</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_RECYCLING_CENTER">
+			<Text>Recycling Center</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BOMB_SHELTER">
+			<Text>Bomb Shelter</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CONSTABLE">
+			<Text>Constabulary</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_POLICE_STATION">
+			<Text>Police Station</Text>
+		</Row>
+		<!--RELIGION BUILDINGS -->
+		<Row Tag="TXT_KEY_BUILDING_CATHEDRAL">
+			<Text>Cathedral</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MOSQUE">
+			<Text>Mosque</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PAGODA">
+			<Text>Pagoda</Text>
+		</Row>
+		<!-- UNIQUE BUILDINGS -->
+		<Row Tag="TXT_KEY_BUILDING_STELE">
+			<Text>Stele</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

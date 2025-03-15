@@ -78,7 +78,7 @@
 			<Type>AICITYSTRATEGY_ENOUGH_TILE_IMPROVERS</Type>
 			<CheckTriggerTurnCount>5</CheckTriggerTurnCount>
 			<MinimumNumTurnsExecuted>10</MinimumNumTurnsExecuted>
-			<WeightThreshold>100</WeightThreshold>
+			<WeightThreshold>125</WeightThreshold>
 			<Advisor>ECONOMIC</Advisor>
 			<AdvisorCounsel>TXT_KEY_AICITYSTRATEGY_ENOUGH_TILE_IMPROVERS</AdvisorCounsel>
 		</Row>
@@ -192,6 +192,19 @@
 			<TechPrereq>TECH_CURRENCY</TechPrereq>
 		</Row>
 		<Row>
+			<Type>AICITYSTRATEGY_FIRST_FAITH_BUILDING</Type>
+			<CheckTriggerTurnCount>2</CheckTriggerTurnCount>
+			<MinimumNumTurnsExecuted>2</MinimumNumTurnsExecuted>
+			<NoMinorCivs>true</NoMinorCivs>
+			<TechPrereq>TECH_POTTERY</TechPrereq>
+		</Row>
+		<Row>
+			<Type>AICITYSTRATEGY_FIRST_PRODUCTION_BUILDING</Type>
+			<CheckTriggerTurnCount>2</CheckTriggerTurnCount>
+			<MinimumNumTurnsExecuted>2</MinimumNumTurnsExecuted>
+			<TechPrereq>TECH_THE_WHEEL</TechPrereq>
+		</Row>
+		<Row>
 			<Type>AICITYSTRATEGY_RIVER_CITY</Type>
 			<CheckTriggerTurnCount>2</CheckTriggerTurnCount>
 			<MinimumNumTurnsExecuted>2</MinimumNumTurnsExecuted>
@@ -227,6 +240,81 @@
 			<MinimumNumTurnsExecuted>5</MinimumNumTurnsExecuted>
 			<Advisor>ECONOMIC</Advisor>
 			<AdvisorCounsel>TXT_KEY_AICITYSTRATEGY_SMALL_CITY</AdvisorCounsel>
+		</Row>
+		<Row>
+			<Type>AICITYSTRATEGY_MANY_TECHS_STOLEN</Type>
+			<CheckTriggerTurnCount>2</CheckTriggerTurnCount>
+			<MinimumNumTurnsExecuted>5</MinimumNumTurnsExecuted>
+			<NoMinorCivs>true</NoMinorCivs>
+		</Row>
+		<Row>
+			<Type>AICITYSTRATEGY_KEY_SCIENCE_CITY</Type>
+			<CheckTriggerTurnCount>5</CheckTriggerTurnCount>
+			<MinimumNumTurnsExecuted>10</MinimumNumTurnsExecuted>
+			<NoMinorCivs>true</NoMinorCivs>
+		</Row>
+		<Row>
+			<Type>AICITYSTRATEGY_GOOD_GP_CITY</Type>
+			<CheckTriggerTurnCount>5</CheckTriggerTurnCount>
+			<MinimumNumTurnsExecuted>10</MinimumNumTurnsExecuted>
+			<NoMinorCivs>true</NoMinorCivs>
+		</Row>
+		<Row>
+			<Type>AICITYSTRATEGY_NEED_INTERNATIONAL_LAND_TRADE_ROUTE</Type>
+			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
+			<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
+			<NoMinorCivs>true</NoMinorCivs>
+		</Row>
+		<Row>
+			<Type>AICITYSTRATEGY_NO_NEED_INTERNATIONAL_LAND_TRADE_ROUTE</Type>
+			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
+			<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
+			<NoMinorCivs>true</NoMinorCivs>
+		</Row>
+		<Row>
+			<Type>AICITYSTRATEGY_NEED_INTERNATIONAL_SEA_TRADE_ROUTE</Type>
+			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
+			<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
+			<NoMinorCivs>true</NoMinorCivs>
+		</Row>
+		<Row>
+			<Type>AICITYSTRATEGY_NO_NEED_INTERNATIONAL_SEA_TRADE_ROUTE</Type>
+			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
+			<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
+			<NoMinorCivs>true</NoMinorCivs>
+		</Row>
+		<Row>
+			<Type>AICITYSTRATEGY_INTERNATIONAL_TRADE_DESTINATION</Type>
+			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
+			<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
+			<NoMinorCivs>true</NoMinorCivs>
+		</Row>
+		<Row>
+			<Type>AICITYSTRATEGY_INTERNATIONAL_TRADE_ORIGIN</Type>
+			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
+			<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
+			<NoMinorCivs>true</NoMinorCivs>
+		</Row>
+		<Row>
+			<Type>AICITYSTRATEGY_NEED_CULTURE_BUILDING</Type>
+			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
+			<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
+			<NoMinorCivs>true</NoMinorCivs>
+			<TechPrereq>TECH_DRAMA</TechPrereq>
+		</Row>
+		<Row>
+			<Type>AICITYSTRATEGY_NEED_TOURISM_BUILDING</Type>
+			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
+			<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
+			<NoMinorCivs>true</NoMinorCivs>
+			<TechPrereq>TECH_DRAMA</TechPrereq>
+		</Row>
+		<Row>
+			<Type>AICITYSTRATEGY_GOOD_AIRLIFT_CITY</Type>
+			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
+			<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
+			<NoMinorCivs>true</NoMinorCivs>
+			<TechPrereq>TECH_RADAR</TechPrereq>
 		</Row>
 	</AICityStrategies>
 	<AICityStrategy_Flavors>
@@ -291,6 +379,16 @@
 			<Flavor>-300</Flavor>
 		</Row>
 		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_TINY_CITY</AICityStrategyType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>-100</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_TINY_CITY</AICityStrategyType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>-100</Flavor>
+		</Row>
+		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_SMALL_CITY</AICityStrategyType>
 			<FlavorType>FLAVOR_NUKE</FlavorType>
 			<Flavor>-300</Flavor>
@@ -306,9 +404,19 @@
 			<Flavor>-300</Flavor>
 		</Row>
 		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_SMALL_CITY</AICityStrategyType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>-100</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_SMALL_CITY</AICityStrategyType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>-100</Flavor>
+		</Row>
+		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_MEDIUM_CITY</AICityStrategyType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
 		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_MEDIUM_CITY</AICityStrategyType>
@@ -328,7 +436,7 @@
 		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_MEDIUM_CITY</AICityStrategyType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>25</Flavor>
 		</Row>
 		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_MEDIUM_CITY</AICityStrategyType>
@@ -346,9 +454,19 @@
 			<Flavor>-50</Flavor>
 		</Row>
 		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_MEDIUM_CITY</AICityStrategyType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>-20</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_MEDIUM_CITY</AICityStrategyType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>-40</Flavor>
+		</Row>
+		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_LARGE_CITY</AICityStrategyType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>25</Flavor>
+			<Flavor>50</Flavor>
 		</Row>
 		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_LARGE_CITY</AICityStrategyType>
@@ -369,6 +487,11 @@
 			<AICityStrategyType>AICITYSTRATEGY_LARGE_CITY</AICityStrategyType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_LARGE_CITY</AICityStrategyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>25</Flavor>
 		</Row>
 		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_LANDLOCKED</AICityStrategyType>
@@ -398,7 +521,7 @@
 		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_WANT_TILE_IMPROVERS</AICityStrategyType>
 			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>35</Flavor>
+			<Flavor>50</Flavor>
 		</Row>
 		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_ENOUGH_TILE_IMPROVERS</AICityStrategyType>
@@ -411,6 +534,11 @@
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_NEED_NAVAL_GROWTH</AICityStrategyType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_NEED_NAVAL_TILE_IMPROVEMENT</AICityStrategyType>
 			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
 			<Flavor>-5</Flavor>
@@ -418,7 +546,7 @@
 		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_NEED_NAVAL_TILE_IMPROVEMENT</AICityStrategyType>
 			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>100</Flavor>
 		</Row>
 		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_NEED_NAVAL_TILE_IMPROVEMENT</AICityStrategyType>
@@ -473,7 +601,7 @@
 		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_CAPITAL_NEED_SETTLER</AICityStrategyType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>250</Flavor>
+			<Flavor>350</Flavor>
 		</Row>
 		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_CAPITAL_NEED_SETTLER</AICityStrategyType>
@@ -513,7 +641,7 @@
 		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_CAPITAL_UNDER_THREAT</AICityStrategyType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>-25</Flavor>
+			<Flavor>-100</Flavor>
 		</Row>
 		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_MEDIUM_CITY_HIGH_DIFFICULTY</AICityStrategyType>
@@ -525,15 +653,30 @@
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
-		<!--<Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_MEDIUM_CITY_HIGH_DIFFICULTY</AICityStrategyType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_MEDIUM_CITY_HIGH_DIFFICULTY</AICityStrategyType>
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>10</Flavor>
-		</Row>-->
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_MEDIUM_CITY_HIGH_DIFFICULTY</AICityStrategyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
 		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_ORIGINAL_CAPITAL</AICityStrategyType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
 			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_ORIGINAL_CAPITAL</AICityStrategyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_FIRST_CULTURE_BUILDING</AICityStrategyType>
@@ -554,6 +697,52 @@
 			<AICityStrategyType>AICITYSTRATEGY_FIRST_GOLD_BUILDING</AICityStrategyType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_FIRST_FAITH_BUILDING</AICityStrategyType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_FIRST_PRODUCTION_BUILDING</AICityStrategyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>200</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_NEED_INTERNATIONAL_LAND_TRADE_ROUTE</AICityStrategyType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_NO_NEED_INTERNATIONAL_LAND_TRADE_ROUTE</AICityStrategyType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>-100</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_NEED_INTERNATIONAL_SEA_TRADE_ROUTE</AICityStrategyType>
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_NO_NEED_INTERNATIONAL_SEA_TRADE_ROUTE</AICityStrategyType>
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+			<Flavor>-100</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_INTERNATIONAL_TRADE_DESTINATION</AICityStrategyType>
+			<FlavorType>FLAVOR_I_TRADE_ORIGIN</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_INTERNATIONAL_TRADE_ORIGIN</AICityStrategyType>
+			<FlavorType>FLAVOR_I_TRADE_DESTINATION</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<!--let's try to make up for bad terrain by making production buildings in the mean time-->
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_NEED_IMPROVEMENT_PRODUCTION</AICityStrategyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>50</Flavor>
 		</Row>
 		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_UNDER_BLOCKADE</AICityStrategyType>
@@ -579,6 +768,11 @@
 			<AICityStrategyType>AICITYSTRATEGY_IS_PUPPET</AICityStrategyType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_IS_PUPPET</AICityStrategyType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>-200</Flavor>
 		</Row>
 		<Row>
 			<AICityStrategyType>AICITYSTRATEGY_RIVER_CITY</AICityStrategyType>
@@ -614,6 +808,36 @@
 			<AICityStrategyType>AICITYSTRATEGY_COAST_CITY</AICityStrategyType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_MANY_TECHS_STOLEN</AICityStrategyType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_KEY_SCIENCE_CITY</AICityStrategyType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_GOOD_GP_CITY</AICityStrategyType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_NEED_CULTURE_BUILDING</AICityStrategyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_NEED_TOURISM_BUILDING</AICityStrategyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<AICityStrategyType>AICITYSTRATEGY_GOOD_AIRLIFT_CITY</AICityStrategyType>
+			<FlavorType>FLAVOR_AIRLIFT</FlavorType>
+			<Flavor>80</Flavor>
 		</Row>
 	</AICityStrategy_Flavors>
 	<AICityStrategy_PersonalityFlavorThresholdMods>

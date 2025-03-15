@@ -162,13 +162,13 @@
 			<Type>TACTICAL_AIR_SWEEP</Type>
 			<OperationsCanRecruit>false</OperationsCanRecruit>
 			<OffenseFlavorWeight>100</OffenseFlavorWeight>
-			<Priority>10</Priority>
+			<Priority>135</Priority>
 		</Row>
 		<Row>
 			<Type>TACTICAL_AIR_INTERCEPT</Type>
 			<OperationsCanRecruit>false</OperationsCanRecruit>
 			<DefenseFlavorWeight>100</DefenseFlavorWeight>
-			<Priority>20</Priority>
+			<Priority>130</Priority>
 		</Row>
 		<Row>
 			<Type>TACTICAL_AIR_REBASE</Type>
@@ -183,46 +183,10 @@
 			<Priority>95</Priority>
 		</Row>
 		<Row>
-			<Type>TACTICAL_POSTURE_SIT_AND_BOMBARD</Type>
-			<OperationsCanRecruit>false</OperationsCanRecruit>
-			<DominanceZoneMove>true</DominanceZoneMove>
-			<Priority>105</Priority>
-		</Row>
-		<Row>
-			<Type>TACTICAL_POSTURE_ATTRIT_FROM_RANGE</Type>
-			<OperationsCanRecruit>false</OperationsCanRecruit>
-			<DominanceZoneMove>true</DominanceZoneMove>
-			<Priority>104</Priority>
-		</Row>
-		<Row>
-			<Type>TACTICAL_POSTURE_EXPLOIT_FLANKS</Type>
-			<OperationsCanRecruit>false</OperationsCanRecruit>
-			<DominanceZoneMove>true</DominanceZoneMove>
-			<Priority>107</Priority>
-		</Row>
-		<Row>
-			<Type>TACTICAL_POSTURE_STEAMROLL</Type>
-			<OperationsCanRecruit>false</OperationsCanRecruit>
-			<DominanceZoneMove>true</DominanceZoneMove>
-			<Priority>108</Priority>
-		</Row>
-		<Row>
-			<Type>TACTICAL_POSTURE_SURGICAL_CITY_STRIKE</Type>
-			<OperationsCanRecruit>false</OperationsCanRecruit>
-			<DominanceZoneMove>true</DominanceZoneMove>
-			<Priority>106</Priority>
-		</Row>
-		<Row>
 			<Type>TACTICAL_POSTURE_HEDGEHOG</Type>
 			<OperationsCanRecruit>false</OperationsCanRecruit>
 			<DominanceZoneMove>true</DominanceZoneMove>
 			<Priority>50</Priority>
-		</Row>
-		<Row>
-			<Type>TACTICAL_POSTURE_COUNTERATTACK</Type>
-			<OperationsCanRecruit>false</OperationsCanRecruit>
-			<DominanceZoneMove>true</DominanceZoneMove>
-			<Priority>103</Priority>
 		</Row>
 		<Row>
 			<Type>TACTICAL_POSTURE_SHORE_BOMBARDMENT</Type>
@@ -239,7 +203,6 @@
 		<Row>
 			<Type>TACTICAL_MOVE_OPERATIONS</Type>
 			<OperationsCanRecruit>false</OperationsCanRecruit>
-			<DominanceZoneMove>false</DominanceZoneMove>
 			<Priority>80</Priority>
 		</Row>
 		<Row>
@@ -247,18 +210,6 @@
 			<OperationsCanRecruit>false</OperationsCanRecruit>
 			<DominanceZoneMove>true</DominanceZoneMove>
 			<Priority>200</Priority>
-		</Row>
-		<Row>
-			<Type>TACTICAL_ATTACK_EMBARKED_MILITARY_UNIT</Type>
-			<OperationsCanRecruit>false</OperationsCanRecruit>
-			<OffenseFlavorWeight>100</OffenseFlavorWeight>
-			<Priority>110</Priority>
-		</Row>
-		<Row>
-			<Type>TACTICAL_ATTACK_EMBARKED_CIVILIAN</Type>
-			<OperationsCanRecruit>false</OperationsCanRecruit>
-			<OffenseFlavorWeight>100</OffenseFlavorWeight>
-			<Priority>70</Priority>
 		</Row>
 		<Row>
 			<Type>TACTICAL_ATTACK_VERY_HIGH_PRIORITY_CIVILIAN</Type>
@@ -283,6 +234,94 @@
 			<OperationsCanRecruit>false</OperationsCanRecruit>
 			<OffenseFlavorWeight>100</OffenseFlavorWeight>
 			<Priority>30</Priority>
+		</Row>
+		<Row>
+			<Type>TACTICAL_ESCORT_EMBARKED_UNIT</Type>
+			<OperationsCanRecruit>true</OperationsCanRecruit>
+			<DefenseFlavorWeight>100</DefenseFlavorWeight>
+			<Priority>10</Priority>
+		</Row>
+		<Row>
+			<Type>TACTICAL_PLUNDER_TRADE_UNIT</Type>
+			<OperationsCanRecruit>false</OperationsCanRecruit>
+			<Priority>100</Priority>
+		</Row>
+		<Row>
+			<Type>TACTICAL_PARK_ON_TRADE_ROUTE</Type>
+			<OperationsCanRecruit>false</OperationsCanRecruit>
+			<Priority>8</Priority>
+		</Row>
+		<Row>
+			<Type>TACTICAL_OFFENSIVE_POSTURE_MOVES</Type>
+			<OperationsCanRecruit>false</OperationsCanRecruit>
+			<DominanceZoneMove>true</DominanceZoneMove>
+			<Priority>105</Priority>
+		</Row>
+		<Row>
+			<Type>TACTICAL_POSTURE_SIT_AND_BOMBARD</Type>
+			<OperationsCanRecruit>false</OperationsCanRecruit>
+			<Priority>-1</Priority>
+		</Row>
+		<Row>
+			<Type>TACTICAL_POSTURE_ATTRIT_FROM_RANGE</Type>
+			<OperationsCanRecruit>false</OperationsCanRecruit>
+			<Priority>-1</Priority>
+		</Row>
+		<Row>
+			<Type>TACTICAL_POSTURE_EXPLOIT_FLANKS</Type>
+			<OperationsCanRecruit>false</OperationsCanRecruit>
+			<Priority>-1</Priority>
+		</Row>
+		<Row>
+			<Type>TACTICAL_POSTURE_STEAMROLL</Type>
+			<OperationsCanRecruit>false</OperationsCanRecruit>
+			<Priority>-1</Priority>
+		</Row>
+		<Row>
+			<Type>TACTICAL_POSTURE_SURGICAL_CITY_STRIKE</Type>
+			<OperationsCanRecruit>false</OperationsCanRecruit>
+			<Priority>-1</Priority>
+		</Row>
+		<Row>
+			<Type>TACTICAL_POSTURE_COUNTERATTACK</Type>
+			<OperationsCanRecruit>false</OperationsCanRecruit>
+			<Priority>-1</Priority>
+		</Row>
+		<Row>
+			<Type>TACTICAL_DEFENSIVE_AIRLIFT</Type>
+			<OperationsCanRecruit>false</OperationsCanRecruit>
+			<DominanceZoneMove>true</DominanceZoneMove>
+			<Priority>42</Priority>
+		</Row>
+		<Row>
+			<Type>TACTICAL_PILLAGE_CITADEL</Type>
+			<OperationsCanRecruit>false</OperationsCanRecruit>
+			<OffenseFlavorWeight>100</OffenseFlavorWeight>
+			<Priority>125</Priority>
+		</Row>
+		<Row>
+			<Type>TACTICAL_PILLAGE_RESOURCE</Type>
+			<OperationsCanRecruit>false</OperationsCanRecruit>
+			<OffenseFlavorWeight>100</OffenseFlavorWeight>
+			<Priority>35</Priority>
+		</Row>
+		<Row>
+			<Type>TACTICAL_PILLAGE_CITADEL_NEXT_TURN</Type>
+			<OperationsCanRecruit>false</OperationsCanRecruit>
+			<OffenseFlavorWeight>100</OffenseFlavorWeight>
+			<Priority>25</Priority>
+		</Row>
+		<Row>
+			<Type>TACTICAL_PILLAGE_RESOURCE_NEXT_TURN</Type>
+			<OperationsCanRecruit>false</OperationsCanRecruit>
+			<OffenseFlavorWeight>100</OffenseFlavorWeight>
+			<Priority>15</Priority>
+		</Row>
+		<Row>
+			<Type>TACTICAL_PILLAGE_NEXT_TURN</Type>
+			<OperationsCanRecruit>false</OperationsCanRecruit>
+			<OffenseFlavorWeight>100</OffenseFlavorWeight>
+			<Priority>10</Priority>
 		</Row>
 	</TacticalMoves>
 </GameData>

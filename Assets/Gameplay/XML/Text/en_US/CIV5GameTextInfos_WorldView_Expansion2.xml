@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_TP_HAPPINESS_LEAGUES">
+			<Text>{1_Happiness} from World Congress.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_UNHAPPINESS_PUBLIC_OPINION">
+			<Text>{1_Num} from Public Opinion (the desire for a new Ideology).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_FROM_ITR">
+			<Text>{1_Num} from [ICON_TURNS_REMAINING] Trade Routes between your Cities and other civilization's cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_FROM_TRAITS">
+			<Text>{1_Num} from Traits.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_ITR">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] from [ICON_TURNS_REMAINING] Trade Routes between your Cities and other civilization's cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_FROM_BONUS_TURNS">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] from a recent World Congress project (Turns left: {2_TurnsLeft}).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CULTURE_CITY_COST">
+			<Text>Each City you own will increase Social Policy costs by {1_Num}%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_TECH_CITY_COST">
+			<Text>Each City or [ICON_PUPPET] Puppeted City you own will increase Technology costs by {1_Num}%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_CARNIVAL_EFFECT">
+			<Text>Because of your unique Carnival bonus, Tourism output is currently +100% with all civilizations and you are earning Great Writers, Artists, and Musicians 50% faster.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_FROM_CITY_CONNECTIONS">
+			<Text>{1_Num} from [ICON_CONNECTED] City Connections between your Cities and your [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY">
+			<Text>Because [ICON_HAPPINESS_4] Unhappiness has reached 20, the Empire is is in revolt! Cities may abandon your empire and flip to the civilization that is most culturally influential over your people.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_EMPIRE_VERY_UNHAPPY">
+			<Text>Because [ICON_HAPPINESS_4] Unhappiness has reached 10, the Empire is in unrest! Uprisings may occur with rebel (barbarian) units appearing in your territory. This will occur every few turns until you correct this situation!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_EMPIRE_UNHAPPY">
+			<Text>Cities will only grow at 1/4 normal speed while empire is [ICON_HAPPINESS_3] unhappy! [NEWLINE][ICON_GOLD] Gold and [ICON_PRODUCTION] Production output is reduced by 2% for each point of Unhappiness. The same penalty applies to Units in combat!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_ANARCHY">
+			<Text>[COLOR_NEGATIVE_TEXT]The empire is in Anarchy due to a change in Ideology for {1_Turns} more turn(s). During Anarchy, the empire will not gain any [ICON_RESEARCH] Science, [ICON_GOLD] Gold, [ICON_CULTURE] Culture, or [ICON_PEACE] Faith, and cities have no [ICON_PRODUCTION] Production to build anything[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_SLOT_ART_ARTIFACT_EMPTY_TOOLTIP">
+			<Text>Empty Great Work of Art or Artifact Slot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_SLOT_LITERATURE_EMPTY_TOOLTIP">
+			<Text>Empty Great Work of Writing Slot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_WORK_SLOT_MUSIC_EMPTY_TOOLTIP">
+			<Text>Empty Great Work of Music Slot</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_CITY_SAPPED">
+			<Text>Supported by Siege Tower</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_EMPIRE_VERY_UNHAPPY_PENALTY">
+			<Text>Empire [ICON_HAPPINESS_4] Very Unhappy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_EMPIRE_UNHAPPY_PENALTY">
+			<Text>Empire [ICON_HAPPINESS_3] Unhappy</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIQUE_GOLDEN_AGE_ANNOUNCE">
+			<Text>Carnival!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_BLOCKED_NOT_IN_CITY_STATE_TERRITORY">
+			<Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {@1_ImprovementName}} can only be constructed in a City-State's territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_BLOCKED_NO_ADJACENT_LUXURY">
+			<Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {@1_ImprovementName}} must be built adjacent to a tile with a Luxury resource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILD_BLOCKED_CANNOT_BE_ADJACENT">
+			<Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {@1_ImprovementName}} cannot be constructed next to another {@1_ImprovementName} (that is either complete or partially built).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PLOTROLL_TRADE_ROUTE">
+			<Text>City Connection</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SV_OVERLAY_TRADE_ROUTES">
+			<Text>City Connections</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_GOLD_FROM_TR">
+			<Text>{1_Num} from [ICON_CONNECTED] City Connections between your Cities and your [ICON_CAPITAL] Capital.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_CONNECTED">
+			<Text>City has a [ICON_CONNECTED] City Connection with the [ICON_CAPITAL] Capital!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_TOURISM_STRENGTH_TT">
+			<Text>This indicates the strength of the unit when performing a concert tour. The strength is based on the [ICON_TOURISM] Tourism output of the civilization when the Musician was born.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_CARGO_CAPACITY">
+			<Text>Cargo Capacity</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UPANEL_CARGO_CAPACITY_TT">
+			<Text>Number of units that can be transported by the {1_UnitName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING1">
+			<Text>[COLOR_YELLOW]Interception by fighter or[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING2">
+			<Text>[COLOR_YELLOW]anti-air will boost damage[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EUPANEL_VISIBLE_AA_UNITS">
+			<Text>[COLOR_WARNING_TEXT]Known Enemy Anti-Air Units: {1_Number}[ENDCOLOR]</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

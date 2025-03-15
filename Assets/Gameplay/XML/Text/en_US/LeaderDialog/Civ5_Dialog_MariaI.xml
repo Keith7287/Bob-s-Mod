@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+
+<GameData>
+    <Language_en_US>
+        <!--General phrases -->
+        <!--Greeting (first time meeting) -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_FIRSTGREETING_1">
+            <Text>I am Maria, Queen of Portugal, have we met? You seem familiar...or maybe not.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_FIRSTGREETING_2">
+            <Text>You stand before the Queen of Portugal, and she finds herself wondering why you are here?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_FIRSTGREETING_3">
+            <Text>I am Maria, who are you? Why are you here? Who told you to come?</Text>
+        </Row>
+        <!--Reacts to his bluff being called -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_WARBLUFF_1">
+            <Text>Am I meant to take your threats seriously?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_WARBLUFF_2">
+            <Text>You are playing a dangerous game.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_WARBLUFF_3">
+            <Text>I hear many things, and your bluster is simply not important.</Text>
+        </Row>
+        <!--Gloats after winning a war -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_WINWAR_1">
+            <Text>How glorious a day! Perhaps you will learn not to underestimate the power of a queen!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_WINWAR_2">
+            <Text>How glorious a day! Perhaps you will learn not to underestimate the power of a queen!</Text>
+        </Row>
+        <!--Submissive after losing a war -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_LOSEWAR_1">
+            <Text>We were at war? I don't recall any conflict of significance. I'll have to consult my regent, good day!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_LOSEWAR_2">
+            <Text>We were at war? I don't recall any conflict of significance. I'll have to consult my regent, good day!</Text>
+        </Row>
+        <!--Defeated and removed from game -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_DEFEATED_1">
+            <Text>Well I certainly wasn't expecting that...maybe next time.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_DEFEATED_2">
+            <Text>I hope you will treat my people with the respect they deserve.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_DEFEATED_3">
+            <Text>How dreadful! These conflicts don't suit me at all!</Text>
+        </Row>
+
+        <!--Neutral -->
+        <!--Greetings (subsequent meetings) -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_GREETING_1">
+            <Text>Welcome.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_GREETING_2">
+            <Text>Hail!</Text>
+        </Row>
+        <!--Goodbye -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_GOODBYE_1">
+            <Text>Be gone.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_GOODBYE_2">
+            <Text>That is all.</Text>
+        </Row>
+        <!--Trade offer from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADE_YES_NEUTRAL">
+            <Text>That seems fair.</Text>
+        </Row>
+        <!--Trade offer from player - sweeten the deal -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADE_NEEDMORE_NEUTRAL_1">
+            <Text>I think there is still room for improvement in your offer.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADE_NEEDMORE_NEUTRAL_2">
+            <Text>Can you do a little better?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADE_NEEDMORE_NEUTRAL_3">
+            <Text>Almost...</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADE_NEEDMORE_NEUTRAL_4">
+            <Text>That’s not quite good enough.</Text>
+        </Row>
+        <!--Trade offer from player - no -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADE_NO_NEUTRAL">
+            <Text>I couldn't do that.</Text>
+        </Row>
+        <!--Demand for tribute from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRIBUTE_YES_NEUTRAL">
+            <Text>I will provide for you, just this once.</Text>
+        </Row>
+        <!--Demand for tribute from player - no -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRIBUTE_NO_NEUTRAL">
+            <Text>I have better things to do than listen to such nonsense.</Text>
+        </Row>
+        <!--Requests a trade -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADEREQUEST_NEUTRAL">
+            <Text>Would you take this offer under consideration?</Text>
+        </Row>
+        <!--Demands tribute -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_DEMANDTRIBUTE_NEUTRAL">
+            <Text>I think you should give this to me, but the choice is yours.</Text>
+        </Row>
+        <!--Agrees -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_AGREE_SHORT_1">
+            <Text>All right.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_AGREE_SHORT_2">
+            <Text>Very Well.</Text>
+        </Row>
+        <!--Disagrees -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_DISAGREE_SHORT_1">
+            <Text>I must refuse.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_DISAGREE_SHORT_2">
+            <Text>No, of course not.</Text>
+        </Row>
+        <!--Let's hear it -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_LETSHEARIT_1">
+            <Text>Let's hear it.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_LETSHEARIT_2">
+            <Text>Go ahead.</Text>
+        </Row>
+
+        <!--Happy -->
+        <!--Greetings (subsequent meetings) -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_GREETING_3">
+            <Text>Greetings.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_GREETING_4">
+            <Text>Well?</Text>
+        </Row>
+        <!--Goodbye -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_GOODBYE_3">
+            <Text>Our business here is done.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_GOODBYE_4">
+            <Text>Goodbye.</Text>
+        </Row>
+        <!--Trade offer from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADE_YES_HAPPY">
+            <Text>Of course we'll trade!</Text>
+        </Row>
+        <!--Trade offer from player - sweeten the deal -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADE_NEEDMORE_HAPPY_1">
+            <Text>I always have the best interests of my people in mind - you must do better.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADE_NEEDMORE_HAPPY_2">
+            <Text>Is that the best you can do?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADE_NEEDMORE_HAPPY_3">
+            <Text>You're almost there...</Text>
+        </Row>
+        <!--Trade offer from player - no -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADE_NO_HAPPY">
+            <Text>I'm so sorry, but no.</Text>
+        </Row>
+        <!--Demand for tribute from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRIBUTE_YES_HAPPY">
+            <Text>The Kingdom of Portugal welcomes the chance to help.</Text>
+        </Row>
+        <!--Demand for tribute from player - no -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRIBUTE_NO_HAPPY">
+            <Text>I doubt my regent would approve of such generosity.</Text>
+        </Row>
+        <!--Requests a trade -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADEREQUEST_HAPPY">
+            <Text>Would you consider this trade for a friend?</Text>
+        </Row>
+        <!--Demands tribute -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_DEMANDTRIBUTE_HAPPY">
+            <Text>Surely you can see fit to help a queen and her people?</Text>
+        </Row>
+        <!--Agrees -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_AGREE_SHORT_3">
+            <Text>Certainly.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_AGREE_SHORT_4">
+            <Text>It is agreed.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_AGREE_SHORT_5">
+            <Text>Excellent.</Text>
+        </Row>
+        <!--Disagrees -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_DISAGREE_SHORT_3">
+            <Text>Certainly not.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_DISAGREE_SHORT_4">
+            <Text>We must decline.</Text>
+        </Row>
+        <!--Let's hear it -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_LETSHEARIT_3">
+            <Text>I'm listening.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_LETSHEARIT_4">
+            <Text>Yes?</Text>
+        </Row>
+
+        <!--Angry -->
+        <!--Greetings (subsequent meetings) -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_GREETING_5">
+            <Text>What do you want?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_GREETING_6">
+            <Text>What do you want?</Text>
+        </Row>
+        <!--Goodbye -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_GOODBYE_5">
+            <Text>That is all.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_GOODBYE_6">
+            <Text>We are done here.</Text>
+        </Row>
+        <!--Trade offer from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADE_YES_ANGRY">
+            <Text>If you insist.</Text>
+        </Row>
+        <!--Trade offer from player - sweeten the deal -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADE_NEEDMORE_ANGRY_1">
+            <Text>Do you take me for a fool?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADE_NEEDMORE_ANGRY_2">
+            <Text>That will not be enough.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADE_NEEDMORE_ANGRY_3">
+            <Text>You must do better than that.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADE_NEEDMORE_ANGRY_4">
+            <Text>What an insulting proposal.</Text>
+        </Row>
+        <!--Trade offer from player - no -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADE_NO_ANGRY">
+            <Text>Who sent you?! Why are you here!? Be gone!</Text>
+        </Row>
+        <!--Demand for tribute from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRIBUTE_YES_ANGRY">
+            <Text>I  will agree to your reprehensible demands.</Text>
+        </Row>
+        <!--Demand for tribute from player - no -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRIBUTE_NO_ANGRY">
+            <Text>Did you hear something? I certainly didn't hear anyone making demands of me!</Text>
+        </Row>
+        <!--Requests a trade -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_TRADEREQUEST_ANGRY">
+            <Text>What has the world come to, having to trade with the likes of you!</Text>
+        </Row>
+        <!--Demands tribute -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_DEMANDTRIBUTE_ANGRY">
+            <Text>You! I require this, give it to me at once!</Text>
+        </Row>
+        <!--Disagrees -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_DISAGREE_SHORT_5">
+            <Text>I beg your pardon?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_DISAGREE_SHORT_6">
+            <Text>That's unacceptable.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_DISAGREE_SHORT_7">
+            <Text>You cannot be serious!</Text>
+        </Row>
+        <!--Let's hear it -->
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_LETSHEARIT_5">
+            <Text>You were saying?</Text>
+        </Row>
+
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_DECLAREWAR_1">
+            <Text>I'm afraid I can't allow your kingdom to exist any longer, I hope you don't mind.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_DECLAREWAR_2">
+            <Text>Oh, uh, yes I just thought you should know...we'll be declaring war on you now.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_DECLAREWAR_3">
+            <Text>We just don't seem to be on the same page…perhaps a war then?</Text>
+        </Row>
+
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_ATTACKED_1">
+            <Text>You can't be serious! Well...then I'll have you dealt with!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_ATTACKED_2">
+            <Text>How dare you! Do you know who I am?!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_MARIA_I_ATTACKED_3">
+            <Text>You attack me?! No! I will attack you!</Text>
+        </Row>
+    </Language_en_US>
+</GameData>

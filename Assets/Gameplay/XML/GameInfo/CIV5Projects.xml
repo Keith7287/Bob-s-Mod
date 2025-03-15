@@ -137,20 +137,6 @@
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>35</PortraitIndex>
 		</Row>
-		<Row>
-			<Type>PROJECT_UTOPIA_PROJECT</Type>
-			<Description>TXT_KEY_PROJECT_UTOPIA_PROJECT</Description>
-			<Help>TXT_KEY_PROJECT_UTOPIA_PROJECT_HELP</Help>
-			<Civilopedia>TXT_KEY_PROJECT_UTOPIA_PROJECT_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_PROJECT_UTOPIA_PROJECT_STRATEGY</Strategy>
-			<VictoryPrereq>VICTORY_CULTURAL</VictoryPrereq>
-			<MaxGlobalInstances>-1</MaxGlobalInstances>
-			<MaxTeamInstances>1</MaxTeamInstances>
-			<Cost>1500</Cost>
-			<CultureBranchesRequired>5</CultureBranchesRequired>
-			<IconAtlas>BW_ATLAS_2</IconAtlas>
-			<PortraitIndex>43</PortraitIndex>
-		</Row>
 	</Projects>
 	<Project_Prereqs>
 		<Row>
@@ -199,11 +185,6 @@
 			<Threshold>3</Threshold>
 			<MinThreshold>3</MinThreshold>
 		</Row>
-		<Row>
-			<ProjectType>PROJECT_UTOPIA_PROJECT</ProjectType>
-			<VictoryType>VICTORY_CULTURAL</VictoryType>
-			<Threshold>1</Threshold>
-		</Row>
 	</Project_VictoryThresholds>
 	<Project_Flavors>
 		<Row>
@@ -221,25 +202,20 @@
 			<FlavorType>FLAVOR_SCIENCE</FlavorType>
 			<Flavor>25</Flavor>
 		</Row>
-    <Row>
-      <ProjectType>PROJECT_UTOPIA_PROJECT</ProjectType>
-      <FlavorType>FLAVOR_CULTURE</FlavorType>
-      <Flavor>1000</Flavor>
-    </Row>
-    <Row>
-      <ProjectType>PROJECT_MANHATTAN_PROJECT</ProjectType>
-      <FlavorType>FLAVOR_NUKE</FlavorType>
-      <Flavor>250</Flavor>
-    </Row>
-    <Row>
-      <ProjectType>PROJECT_MANHATTAN_PROJECT</ProjectType>
-      <FlavorType>FLAVOR_OFFENSE</FlavorType>
-      <Flavor>20</Flavor>
-    </Row>
-    <Row>
-      <ProjectType>PROJECT_MANHATTAN_PROJECT</ProjectType>
-      <FlavorType>FLAVOR_DEFENSE</FlavorType>
-      <Flavor>20</Flavor>
-    </Row>
-  </Project_Flavors>
+		<Row>
+			<ProjectType>PROJECT_MANHATTAN_PROJECT</ProjectType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>250</Flavor>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_MANHATTAN_PROJECT</ProjectType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<ProjectType>PROJECT_MANHATTAN_PROJECT</ProjectType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Project_Flavors>
 </GameData>

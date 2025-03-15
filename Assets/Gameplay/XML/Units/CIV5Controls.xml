@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
 <GameData>
 	<!-- Table definition -->
 	<Table name="Controls">
@@ -674,6 +674,38 @@
 			<AltDown>0</AltDown>
 			<ShiftDown>0</ShiftDown>
 			<CtrlDown>0</CtrlDown>
+			<HotKeyPriority>0</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+		</Row>
+		<Row>
+			<Type>CONTROL_ESPIONAGE_OVERVIEW</Type>
+			<Description>TXT_KEY_EO_TITLE</Description>
+			<Help/>
+			<DisabledHelp/>
+			<HotKey>KB_E</HotKey>
+			<AltDown>0</AltDown>
+			<ShiftDown>0</ShiftDown>
+			<CtrlDown>1</CtrlDown>
+			<HotKeyPriority>0</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+		</Row>
+		<Row>
+			<Type>CONTROL_RELIGION_OVERVIEW</Type>
+			<Description>TXT_KEY_RELIGION_OVERVIEW</Description>
+			<Help/>
+			<DisabledHelp/>
+			<HotKey>KB_P</HotKey>
+			<AltDown>0</AltDown>
+			<ShiftDown>0</ShiftDown>
+			<CtrlDown>1</CtrlDown>
 			<HotKeyPriority>0</HotKeyPriority>
 			<HotKeyAlt/>
 			<AltDownAlt>0</AltDownAlt>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+
+<GameData>
+    <Language_en_US>
+        <!--General phrases -->
+        <!--Greeting (first time meeting) -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_FIRSTGREETING_1">
+            <Text>I am Ashurbanipal of Assyria, who is this that stands before me?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_FIRSTGREETING_2">
+            <Text>I welcome you to the great kingdom of Assyria...have you come to view my library?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_FIRSTGREETING_3">
+            <Text>Greetings from Assyria! I hope to learn the histories of your people.</Text>
+        </Row>
+        <!--Reacts to his bluff being called -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_WARBLUFF_1">
+            <Text>You are full of bluster; I hope you've prepared yourself for what is to come.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_WARBLUFF_2">
+            <Text>I admire your audacity, although history tells us this is not a wise decision.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_WARBLUFF_3">
+            <Text>You are playing a dangerous game.</Text>
+        </Row>
+        <!--Gloats after winning a war -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_WINWAR_1">
+            <Text>So shall it be written, today we are the victors!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_WINWAR_2">
+            <Text>So shall it be written, today we are the victors!</Text>
+        </Row>
+        <!--Submissive after losing a war -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_LOSEWAR_1">
+            <Text>We may be defeated, but our legacy will live on in the written word!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_LOSEWAR_2">
+            <Text>We may be defeated, but our legacy will live on in the written word!</Text>
+        </Row>
+        <!--Defeated and removed from game -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_DEFEATED_1">
+            <Text>You have bested my forces...perhaps it was I that underestimated you.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_DEFEATED_2">
+            <Text>The ancient texts did not prepare me for this outcome...</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_DEFEATED_3">
+            <Text>History will note your victory...although it should only be a very short reference.</Text>
+        </Row>
+
+        <!--Neutral -->
+        <!--Greetings (subsequent meetings) -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_GREETING_1">
+            <Text>Welcome.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_GREETING_2">
+            <Text>Hail!</Text>
+        </Row>
+        <!--Goodbye -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_GOODBYE_1">
+            <Text>Be gone.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_GOODBYE_2">
+            <Text>That is all.</Text>
+        </Row>
+        <!--Trade offer from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADE_YES_NEUTRAL">
+            <Text>Your offer is fair, I accept.</Text>
+        </Row>
+        <!--Trade offer from player - sweeten the deal -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADE_NEEDMORE_NEUTRAL_1">
+            <Text>You underestimate our needs...you'll have to do better.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADE_NEEDMORE_NEUTRAL_2">
+            <Text>Can you do a little better?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADE_NEEDMORE_NEUTRAL_3">
+            <Text>Almost...</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADE_NEEDMORE_NEUTRAL_4">
+            <Text>That’s not quite good enough. </Text>
+        </Row>
+        <!--Trade offer from player - no -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADE_NO_NEUTRAL">
+            <Text> I don’t think you’ve thought this through...</Text>
+        </Row>
+        <!--Demand for tribute from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRIBUTE_YES_NEUTRAL">
+            <Text>I find your simple request amusing...take what you need, this time.</Text>
+        </Row>
+        <!--Demand for tribute from player - no -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRIBUTE_NO_NEUTRAL">
+            <Text>I have no time for your foolish requests.</Text>
+        </Row>
+        <!--Requests a trade -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADEREQUEST_NEUTRAL">
+            <Text>Would you consider a trade?</Text>
+        </Row>
+        <!--Demands tribute -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_DEMANDTRIBUTE_NEUTRAL">
+            <Text>I will always remember those who choose to assist in a time of need.</Text>
+        </Row>
+        <!--Agrees -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_AGREE_SHORT_1">
+            <Text>Very Well.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_AGREE_SHORT_2">
+            <Text>Alright.</Text>
+        </Row>
+        <!--Disagrees -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_DISAGREE_SHORT_1">
+            <Text>No.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_DISAGREE_SHORT_2">
+            <Text>Certainly Not.</Text>
+        </Row>
+        <!--Let's hear it -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_LETSHEARIT_1">
+            <Text>Go ahead.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_LETSHEARIT_2">
+            <Text>Proceed.</Text>
+        </Row>
+
+        <!--Happy -->
+        <!--Greetings (subsequent meetings) -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_GREETING_3">
+            <Text>Greetings.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_GREETING_4">
+            <Text>Well?</Text>
+        </Row>
+        <!--Goodbye -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_GOODBYE_3">
+            <Text>Our business here is done.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_GOODBYE_4">
+            <Text>Goodbye.</Text>
+        </Row>
+        <!--Trade offer from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADE_YES_HAPPY">
+            <Text>It would be an honor to trade with you.</Text>
+        </Row>
+        <!--Trade offer from player - sweeten the deal -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADE_NEEDMORE_HAPPY_1">
+            <Text>Come now! I know you can do better than that!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADE_NEEDMORE_HAPPY_2">
+            <Text>Is that the best you can do?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADE_NEEDMORE_HAPPY_3">
+            <Text>You're almost there...</Text>
+        </Row>
+        <!--Trade offer from player - no -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADE_NO_HAPPY">
+            <Text>Even for a friend, I cannot accept.</Text>
+        </Row>
+        <!--Demand for tribute from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRIBUTE_YES_HAPPY">
+            <Text>You shall receive a generous bounty… I have little time for petty negotiations.</Text>
+        </Row>
+        <!--Demand for tribute from player - no -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRIBUTE_NO_HAPPY">
+            <Text>Even someone as great as I cannot be so generous.</Text>
+        </Row>
+        <!--Requests a trade -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADEREQUEST_HAPPY">
+            <Text>Will you help my kingdom, friend?</Text>
+        </Row>
+        <!--Demands tribute -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_DEMANDTRIBUTE_HAPPY">
+            <Text>Certainly you can see fit to assist a friend?</Text>
+        </Row>
+        <!--Agrees -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_AGREE_SHORT_3">
+            <Text>Certainly.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_AGREE_SHORT_4">
+            <Text>It is agreed.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_AGREE_SHORT_5">
+            <Text>Excellent.</Text>
+        </Row>
+        <!--Disagrees -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_DISAGREE_SHORT_3">
+            <Text>We decline.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_DISAGREE_SHORT_4">
+            <Text>Of course not.</Text>
+        </Row>
+        <!--Let's hear it -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_LETSHEARIT_3">
+            <Text>I'm listening.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_LETSHEARIT_4">
+            <Text>Yes?</Text>
+        </Row>
+
+        <!--Angry -->
+        <!--Greetings (subsequent meetings) -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_GREETING_5">
+            <Text>What do you want?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_GREETING_6">
+            <Text>Oh, it's you.</Text>
+        </Row>
+        <!--Goodbye -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_GOODBYE_5">
+            <Text>Go away now.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_GOODBYE_6">
+            <Text>We are done here.</Text>
+        </Row>
+        <!--Trade offer from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADE_YES_ANGRY">
+            <Text>If you insist.</Text>
+        </Row>
+        <!--Trade offer from player - sweeten the deal -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADE_NEEDMORE_ANGRY_1">
+            <Text>Your offer insults me.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADE_NEEDMORE_ANGRY_2">
+            <Text>That will not be enough.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADE_NEEDMORE_ANGRY_3">
+            <Text>Do not waste my time!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADE_NEEDMORE_ANGRY_4">
+            <Text>What an insulting proposal.</Text>
+        </Row>
+        <!--Trade offer from player - no -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADE_NO_ANGRY">
+            <Text>Your offer is an insult to my entire kingdom. No.</Text>
+        </Row>
+        <!--Demand for tribute from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRIBUTE_YES_ANGRY">
+            <Text>If we must, then so be it…but you will regret asking me for such a thing.</Text>
+        </Row>
+        <!--Demand for tribute from player - no -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRIBUTE_NO_ANGRY">
+            <Text>You are treading a dangerous path asking for that.</Text>
+        </Row>
+        <!--Requests a trade -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_TRADEREQUEST_ANGRY">
+            <Text>I have no choice but to offer you a trade.</Text>
+        </Row>
+        <!--Demands tribute -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_DEMANDTRIBUTE_ANGRY">
+            <Text>My people need this, and you should feel obligated to provide it!</Text>
+        </Row>
+        <!--Disagrees -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_DISAGREE_SHORT_5">
+            <Text>I beg your pardon?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_DISAGREE_SHORT_6">
+            <Text>That's unacceptable.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_DISAGREE_SHORT_7">
+            <Text>You cannot be serious!</Text>
+        </Row>
+        <!--Let's hear it -->
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_LETSHEARIT_5">
+            <Text>You were saying?</Text>
+        </Row>
+
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_DECLAREWAR_1">
+            <Text>I fear there is no other choice but to remove you from this world.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_DECLAREWAR_2">
+            <Text>After careful consideration, I'm afraid you have to go. Prepare for war!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_DECLAREWAR_3">
+            <Text>I can no longer tolerate your presence, the only option is war!</Text>
+        </Row>
+
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_ATTACKED_1">
+            <Text>I think you will come to regret this decision…most unwise.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_ATTACKED_2">
+            <Text>A foolish choice indeed! You must be misinformed.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ASHURBANIPAL_ATTACKED_3">
+            <Text>What a grand error you’ve made! I shall enjoy seeing the outcome.</Text>
+        </Row>
+    </Language_en_US>
+</GameData>

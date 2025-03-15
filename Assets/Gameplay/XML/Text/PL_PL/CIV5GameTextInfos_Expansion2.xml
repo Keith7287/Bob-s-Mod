@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_PL_PL>
+    <Row Tag="TXT_KEY_CULTURE_FROM_GREAT_WORKS">
+      <Text>{1_Num} [ICON_CULTURE] z wielkich dzieł</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_FROM_LEAGUES">
+      <Text>{1_Num} [ICON_CULTURE] z Kongresu Światowego</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_FROM_TRADE_ROUTES">
+      <Text>{1_perTurn:number "#.##"} [ICON_CULTURE] ze szlaków handlowych prowadzących do tego miasta.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_DIPLOMAT_WAIT_TT">
+      <Text>Nie możesz zobaczyć ekranu miasta {1_CityName}.[NEWLINE][NEWLINE]Mamy w tym mieście dyplomatę, ale ekran miasta zobaczysz dopiero, gdy tam się zadomowi.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_ENABLED_DIPOLOMAT_TT">
+      <Text>Kliknij, żeby zobaczyć ekran miasta {1_CityName}.[NEWLINE][NEWLINE]Możesz zobaczyć ekran miasta innego gracza, jeśli twój szpieg jest dyplomatą i węszy w [ICON_CAPITAL] stolicy.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_PUBLIC_OPINION_UNHAPPINESS">
+      <Text>Opinia Publiczna</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_0_ABBREV">
+      <Text>I</Text>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_0_SHORT">
+      <Text>Starożytność|Starożytności|Starożytności|Starożytność|Starożytnością|Starożytności|starożytnej|epoki starożytnej</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_1_ABBREV">
+      <Text>II</Text>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_1_SHORT">
+      <Text>Klasyka|Klasyki|Klasyce|Klasykę|Klasyką|Klasyce|klasycznej|epoki klasycznej</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_2_ABBREV">
+      <Text>III</Text>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_2_SHORT">
+      <Text>Średniowiecze|Średniowiecza|Średniowieczu|Średniowiecze|Średniowieczem|Średniowieczu|średniowiecznej|epoki średniowiecznej</Text>
+      <Gender>neuter</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_3_ABBREV">
+      <Text>IV</Text>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_3_SHORT">
+      <Text>Renesans|Renesansu|Renesansowi|Renesans|Renesansem|Renesansie|renesansowej|epoki renesansowej</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_4_ABBREV">
+      <Text>V</Text>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_4_SHORT">
+      <Text>Industrializm|Industrializmu|Industrializmowi|Industrializm|Industrializmem|Industrializmie|przemysłowej|epoki przemysłowej</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_5_ABBREV">
+      <Text>VI</Text>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_5_SHORT">
+      <Text>Modernizm|Modernizmu|Modernizmowi|Modernizm|Modernizmem|Modernizmie|nowoczesnej|epoki nowoczesnej</Text>
+      <Gender>masculine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_6_ABBREV">
+      <Text>VII</Text>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_6_SHORT">
+      <Text>Epoka atomu|Epoki atomu|Epoce atomu|Epokę atomu|Epoką atomu|Epoce atomu|epoki atomu|epoki atomu</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_7_ABBREV">
+      <Text>VIII</Text>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_7_SHORT">
+      <Text>Epoka informacji|Epoki informacji|Epoce informacjii|Epokę informacji|Epoką informacji|Epoce informacji|epoki informacji|epoki informacji</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FAITH_FROM_TRADE_ROUTES">
+      <Text>{1_perTurn:number "#.##"} [ICON_FAITH] ze szlaków handlowych stworzonych z tym miastem.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FOOD_FROM_TRADE_ROUTES">
+      <Text>{1_perTurn:number "#.##"} [ICON_FOOD] ze szlaków handlowych stworzonych z tym miastem.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_NO_CULTURE_OVERVIEW_UI">
+      <Text>Wyłącz interfejs użytkownika przeglądu kultury</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_NO_CULTURE_OVERVIEW_UI_HELP">
+      <Text>Wyłącza ekran przeglądu kultury. Wpływa tylko na interfejs użytkownika i nie zmienia podstaw mechaniki gry.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_NO_LEAGUES">
+      <Text>Wyłącz Kongres Światowy</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_NO_LEAGUES_HELP">
+      <Text>Wyłącza system Kongresu Światowego. Nie odbędą się sesje i nie zostaną przedłożone żadne propozycje, a zwycięstwo dyplomatyczne nie będzie możliwe.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOLD_FROM_TRADE_ROUTES">
+      <Text>{1_perTurn:number "#.##"} [ICON_GOLD] ze szlaków handlowych biegnących przez to miasto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_INSTRUCTIONS">
+      <Text>Wybierz miasto, do którego ma się udać {1_SpyRank[7]} {2_SpyName}, by rozpocząć działalność.[NEWLINE][NEWLINE][NEWLINE]Jeśli wyślesz szpiega do [ICON_CAPITAL] stolicy przeciwnika, możesz wyznaczyć go na dyplomatę.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_CITY_AT_AIR_CAPACITY">
+      <Text>[NEWLINE]W mieście znajduje się maksymalna liczba jednostek powietrznych.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_NUKES_BY_RESOLUTION">
+      <Text>[NEWLINE]Konstruowanie broni jądrowej jest zakazane przez rezolucję Kongresu Światowego o nierozprzestrzenianiu broni jądrowej.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ADMIRAL_FROM_FAITH">
+      <Text>Wielki admirał może zostać wybrany jedynie po rozpoczęciu drzewa eksploracji.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ARTIST_FROM_FAITH">
+      <Text>Wielki artysta może zostać wybrany jedynie po rozpoczęciu drzewa estetyki.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ENGINEER_FROM_FAITH">
+      <Text>Wielki inżynier może zostać wybrany jedynie po rozpoczęciu drzewa tradycji.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_GENERAL_FROM_FAITH">
+      <Text>Wielki generał może zostać wybrany jedynie po rozpoczęciu drzewa honoru.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_MUSICIAN_FROM_FAITH">
+      <Text>Wielki muzyk może zostać wybrany jedynie po rozpoczęciu drzewa estetyki.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_WRITER_FROM_FAITH">
+      <Text>Wielki pisarz może zostać wybrany jedynie po rozpoczęciu drzewa estetyki.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_REVOLT">
+      <Text>Ponieważ nasze imperium ma co najmniej 20 punktów [ICON_HAPPINESS_4] niezadowolenia, a nasza ludność nie jest szczęśliwa, miasto {1_CityName} zbuntowało się i dołączyło do cywilizacji {2_CivName[2]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_REVOLT_SUMMARY">
+      <Text>Bunt miasta!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_CITY_REVOLT">
+      <Text>{1_CivAdjective[4]} miasto {2_CityName} zbuntowało się i dołączyło do {3_CivName[2]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLT">
+      <Text>Ponieważ nasze imperium ma co najmniej 20 punktów [ICON_HAPPINESS_4] niezadowolenia, a nasza ludność nie jest szczęśliwa, za kilka tur ({1_Turns}) zbuntuje się miasto. W oparciu o obecne poziomy niezadowolenia i nacisk wywierany przez pobliskie ideologie można wywnioskować, że najprawdopodobniej zbuntuje się miasto {2_CityName} i dołączy do cywilizacji {3_CivName}. Postaraj się jak najszybciej zwiększyć szczęście naszych obywateli!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLT_SUMMARY">
+      <Text>Szykuje się bunt miasta</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_REBELS">
+      <Text>Ponieważ imperium ma co najmniej 10 punktów [ICON_HAPPINES_4] niezadowolenia, na naszym terytorium wybuchło powstanie!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POPUP_GOLD_AND_CULTURE_CITY_CAPTURE">
+      <Text>Zdobywasz {1_Num} [ICON_GOLD], {2_Num} [ICON_CULTURE] i {3_Num} [ICON_GREAT_WORK] za zajęcie tego miasta ({@4_CityName})!!!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_BUILDING_TOURISM">
+      <Text>[ICON_TOURISM] Turystyka: +{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_FROM_TRADE_ROUTES">
+      <Text>{1_perTurn:number "#.##"} [ICON_PRODUCTION] ze szlaków handlowych utworzonych przez to miasto.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCIENCE_FROM_TRADE_ROUTES">
+      <Text>{1_perTurn:number "#.##"} [ICON_RESEARCH] ze szlaków handlowych poprowadzonych z tego miasta.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_BE_DIPLOMAT">
+      <Text>Czy chcesz, by ten szpieg został dyplomatą? Możesz to zrobić, jeśli umieścisz go w stolicy innej cywilizacji, z którą nie toczysz wojny (po jej wypowiedzeniu twój szpieg ucieknie z miasta). Dyplomata nie będzie próbował wykradać technologii innemu graczowi, lecz nadal będzie zapewniał intrygę. Gdy obraduje Kongres Światowy, będziesz mieć możliwość sprawdzenia, co dana cywilizacja sądzi na temat propozycji rezolucji oraz, w razie potrzeby, wykupienia sobie jej poparcia. Jeśli wyznajecie różne ideologie, dyplomaci przeprowadzą również automatycznie działania propagandowe, które zapewniają premię do [ICON_TOURISM] turystyki docelowej cywilizacji.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_MAKING_INTRODUCTIONS">
+      <Text>Zapoznawanie się</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_MAKING_INTRODUCTIONS_TT">
+      <Text>{1_RankName} {2_SpyName} próbuje uzyskać odpowiednie kontakty w mieście {3_CityName} jako dyplomata. Gdy już pozna wszystkie odpowiednie osoby, będzie mógł zacząć bywać na salonach.[NEWLINE][NEWLINE]Szpieg może zostać dyplomatą, jeśli umieścisz go w stolicy innej cywilizacji. Dyplomata nie będzie próbował wykradać technologii innemu graczowi, lecz nadal będzie zapewniał intrygę. Gdy obraduje Kongres Światowy, a dyplomata rozpoczął bywanie na salonach, będziesz mieć możliwość sprawdzenia, co dana cywilizacja sądzi na temat propozycji rezolucji oraz, w razie potrzeby, wykupienia sobie jej poparcia.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_SCHMOOZING">
+      <Text>Bywanie na salonach</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_SCHMOOZING_TT">
+      <Text>{1_RankName} {2_SpyName} bywa na salonach w mieście {3_CityName} jako {2_SpyName: gender masculine?dyplomata; feminine?dyplomatka;}.[NEWLINE][NEWLINE]Szpieg może zostać dyplomatą, jeśli umieścisz go w stolicy innej cywilizacji, z którą nie toczysz wojny (po jej wypowiedzeniu twój szpieg ucieknie z miasta). Dyplomata nie będzie próbował wykradać technologii innemu graczowi, lecz nadal będzie zapewniał intrygę. Gdy obraduje Kongres Światowy, a dyplomata bywa na salonach, będziesz mieć możliwość sprawdzenia, co dana cywilizacja sądzi na temat propozycji rezolucji oraz, w razie potrzeby, wykupienia sobie jej poparcia. Dyplomaci prowadzą również działania propagandowe, które zapewniają premię do [ICON_TOURISM] turystyki docelowej cywilizacji.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VENETIAN_MERCHANT_BOUGHT_CITY_STATE">
+      <Text>Twój kupiec wenecki kupił państwo-miasto!</Text>
+    </Row>
+  </Language_PL_PL>
+</GameData>

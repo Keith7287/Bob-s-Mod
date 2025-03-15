@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
 <GameData>
 	<!-- Table definition -->
 	<Table name="BuildingClasses">
@@ -120,9 +120,9 @@
 			<Description>TXT_KEY_BUILDING_MONUMENT</Description>
 		</Row>
 		<Row>
-			<Type>BUILDINGCLASS_TEMPLE</Type>
-			<DefaultBuilding>BUILDING_TEMPLE</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_TEMPLE</Description>
+			<Type>BUILDINGCLASS_AMPHITHEATER</Type>
+			<DefaultBuilding>BUILDING_AMPHITHEATER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_AMPHITHEATER</Description>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_OPERA_HOUSE</Type>
@@ -138,6 +138,16 @@
 			<Type>BUILDINGCLASS_BROADCAST_TOWER</Type>
 			<DefaultBuilding>BUILDING_BROADCAST_TOWER</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_BROADCAST_TOWER</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_SHRINE</Type>
+			<DefaultBuilding>BUILDING_SHRINE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SHRINE</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_TEMPLE</Type>
+			<DefaultBuilding>BUILDING_TEMPLE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TEMPLE</Description>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_BARRACKS</Type>
@@ -477,6 +487,10 @@
 			<Type>BUILDINGCLASS_STONE_WORKS</Type>
 			<DefaultBuilding>BUILDING_STONE_WORKS</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_STONE_WORKS</Description>
-		</Row>		
+		</Row>
+		<!-- Remove UN Wonder-->
+		<Delete Type="BUILDINGCLASS_UNITED_NATIONS"/>
 	</BuildingClasses>
+	<!-- Remove UN Wonder-->
+	<DeleteMissingReferences table="BuildingClasses" column="Type"/>
 </GameData>

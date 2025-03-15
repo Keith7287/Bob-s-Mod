@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Scott Lewis (Firaxis Games) -->
+<GameData>
+	<!-- Expansion table data -->
+	<InterfaceModes>
+		<Update>
+			<Where Type="INTERFACEMODE_AIRLIFT"/>
+			<Set>
+				<OrderPriority>198</OrderPriority>
+			</Set>
+		</Update>
+		<!--<Row>
+			<Type>INTERFACEMODE_ESTABLISH_TRADE_ROUTE</Type>
+			<Description>TXT_KEY_INTERFACEMODE_ESTABLISH_TRADE_ROUTE</Description>
+			<Help>TXT_KEY_INTERFACEMODE_ESTABLISH_TRADE_ROUTE</Help>
+			<CursorType>CURSOR_ROUTE_TO</CursorType>
+			<Visible>1</Visible>
+			<HighlightPlot>1</HighlightPlot>
+			<OrderPriority>198</OrderPriority>
+			<Mission>MISSION_ESTABLISH_TRADE_ROUTE</Mission>
+		</Row>-->
+	</InterfaceModes>
+</GameData>

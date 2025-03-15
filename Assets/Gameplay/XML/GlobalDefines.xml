@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
 <!-- Global Defines -->
 <GameData>
 	<Table name="Defines">
@@ -26,6 +26,9 @@
 		</Row>
 		<Row Name="WEEKS_PER_MONTHS">
 			<Value>4</Value>
+		</Row>
+		<Row Name="HIDDEN_START_TURN_OFFSET">
+			<Value>0</Value>
 		</Row>
 		<Row Name="RECON_VISIBILITY_RANGE">
 			<Value>6</Value>
@@ -88,7 +91,7 @@
 			<Value>3</Value>
 		</Row>
 		<Row Name="NUM_AND_TECH_PREREQS">
-			<Value>4</Value>
+			<Value>6</Value>
 		</Row>
 		<Row Name="NUM_UNIT_AND_TECH_PREREQS">
 			<Value>3</Value>
@@ -119,6 +122,9 @@
 		</Row>
 		<Row Name="INITIAL_CITY_POPULATION">
 			<Value>1</Value>
+		</Row>
+		<Row Name="BASE_CITY_AIR_STACKING">
+			<Value>6</Value>
 		</Row>
 		<Row Name="CITY_CAPTURE_POPULATION_PERCENT">
 			<Value>50</Value>
@@ -169,29 +175,44 @@
 		<Row Name="VERY_UNHAPPY_THRESHOLD">
 			<Value>-10</Value>
 		</Row>
-		<Row Name="VERY_UNHAPPY_COMBAT_PENALTY">
-			<Value>-33</Value>
+		<Row Name="VERY_UNHAPPY_COMBAT_PENALTY_PER_UNHAPPY">
+			<Value>-2</Value>
+		</Row>
+		<Row Name="VERY_UNHAPPY_MAX_COMBAT_PENALTY">
+			<Value>-40</Value>
 		</Row>
 		<Row Name="STRATEGIC_RESOURCE_EXHAUSTED_PENALTY">
 			<Value>-50</Value>
 		</Row>
-		<Row Name="VERY_UNHAPPY_PRODUCTION_PENALTY">
-			<Value>-50</Value>
+		<Row Name="VERY_UNHAPPY_PRODUCTION_PENALTY_PER_UNHAPPY">
+			<Value>-2</Value>
+		</Row>
+		<Row Name="VERY_UNHAPPY_MAX_PRODUCTION_PENALTY">
+			<Value>-40</Value>
+		</Row>
+		<Row Name="VERY_UNHAPPY_GOLD_PENALTY_PER_UNHAPPY">
+			<Value>-2</Value>
+		</Row>
+		<Row Name="VERY_UNHAPPY_MAX_GOLD_PENALTY">
+			<Value>-40</Value>
 		</Row>
 		<Row Name="SUPER_UNHAPPY_THRESHOLD">
 			<Value>-20</Value>
 		</Row>
-		<Row Name="REVOLT_COUNTER_MIN">
+		<Row Name="UPRISING_COUNTER_MIN">
 			<Value>4</Value>
 		</Row>
-		<Row Name="REVOLT_COUNTER_POSSIBLE">
+		<Row Name="UPRISING_COUNTER_POSSIBLE">
 			<Value>3</Value>
 		</Row>
-		<Row Name="REVOLT_NUM_BASE">
+		<Row Name="UPRISING_NUM_BASE">
 			<Value>100</Value>
 		</Row>
-		<Row Name="REVOLT_NUM_CITY_COUNT">
+		<Row Name="UPRISING_NUM_CITY_COUNT">
 			<Value>20</Value>
+		</Row>
+		<Row Name="REVOLT_COUNTER_MIN">
+			<Value>5</Value>
 		</Row>
 		<Row Name="WLTKD_GROWTH_MULTIPLIER">
 			<Value>25</Value>
@@ -216,13 +237,13 @@
 			<Value>2</Value>
 		</Row>
 		<Row Name="GREAT_GENERAL_STRENGTH_MOD">
-			<Value>20</Value>
+			<Value>15</Value>
 		</Row>
 		<Row Name="BONUS_PER_ADJACENT_FRIEND">
 			<Value>10</Value>
 		</Row>
 		<Row Name="POLICY_ATTACK_BONUS_MOD">
-			<Value>20</Value>
+			<Value>25</Value>
 		</Row>
 		<Row Name="CONSCRIPT_MIN_CITY_POPULATION">
 			<Value>5</Value>
@@ -237,10 +258,10 @@
 			<Value>20</Value>
 		</Row>
 		<Row Name="NONCOMBAT_UNIT_RANGED_DAMAGE">
-			<Value>4</Value>
+			<Value>40</Value>
 		</Row>
 		<Row Name="NAVAL_COMBAT_DEFENDER_STRENGTH_MULTIPLIER">
-			<Value>40</Value>
+			<Value>100</Value>
 		</Row>
 		<Row Name="QUICKSAVE">
 			<Value>QuickSave</Value>
@@ -325,6 +346,9 @@
 		<Row Name="MIN_UNIT_GOLDEN_AGE_TURNS">
 			<Value>3</Value>
 		</Row>
+		<Row Name="GOLDEN_AGE_CULTURE_MODIFIER">
+			<Value>20</Value>
+		</Row>
 		<Row Name="HILLS_EXTRA_MOVEMENT">
 			<Value>1</Value>
 		</Row>
@@ -341,7 +365,7 @@
 			<Value>1</Value>
 		</Row>
 		<Row Name="FORTIFY_MODIFIER_PER_TURN">
-			<Value>25</Value>
+			<Value>20</Value>
 		</Row>
 		<Row Name="MAX_FORTIFY_TURNS">
 			<Value>2</Value>
@@ -350,13 +374,13 @@
 			<Value>50</Value>
 		</Row>
 		<Row Name="NUKE_UNIT_DAMAGE_BASE">
-			<Value>3</Value>
+			<Value>30</Value>
 		</Row>
 		<Row Name="NUKE_UNIT_DAMAGE_RAND_1">
-			<Value>4</Value>
+			<Value>40</Value>
 		</Row>
 		<Row Name="NUKE_UNIT_DAMAGE_RAND_2">
-			<Value>4</Value>
+			<Value>40</Value>
 		</Row>
 		<Row Name="NUKE_NON_COMBAT_DEATH_THRESHOLD">
 			<Value>6</Value>
@@ -458,7 +482,7 @@
 			<Value>50</Value>
 		</Row>
 		<Row Name="BARBARIAN_CITY_ATTACK_MODIFIER">
-			<Value>-25</Value>
+			<Value>0</Value>
 		</Row>
 		<Row Name="BUILDING_PRODUCTION_DECAY_TIME">
 			<Value>50</Value>
@@ -504,6 +528,9 @@
 		</Row>
 		<Row Name="RESEARCH_AGREEMENT_TIMER">
 			<Value>20</Value>
+		</Row>
+		<Row Name="RESEARCH_AGREEMENT_BOOST_DIVISOR">
+			<Value>3</Value>
 		</Row>
 		<Row Name="SCORE_POPULATION_FACTOR">
 			<!--Score you get if you have the 'maximum' population possible on the current map-->
@@ -604,6 +631,18 @@
 		<Row Name="PATH_DAMAGE_WEIGHT">
 			<Value>0</Value>
 		</Row>
+		<Row Name="PUPPET_SCIENCE_MODIFIER">
+			<Value>-25</Value>
+		</Row>
+		<Row Name="PUPPET_CULTURE_MODIFIER">
+			<Value>-25</Value>
+		</Row>
+		<Row Name="PUPPET_GOLD_MODIFIER">
+			<Value>0</Value>
+		</Row>
+		<Row Name="PUPPET_FAITH_MODIFIER">
+			<Value>0</Value>
+		</Row>
 		<!-- Policy Cost -->
 		<!-- Mod for city count is in Worlds.xml -->
 		<Row Name="BASE_POLICY_COST">
@@ -619,7 +658,10 @@
 			<Value>5</Value>
 		</Row>
 		<Row Name="SWITCH_POLICY_BRANCHES_ANARCHY_TURNS">
-			<Value>1</Value>
+			<Value>2</Value>
+		</Row>
+		<Row Name="SWITCH_POLICY_BRANCHES_TENETS_LOST">
+			<Value>2</Value>
 		</Row>
 		<Row Name="POLICY_COST_DISCOUNT_MAX">
 			<Value>-75</Value>
@@ -647,7 +689,7 @@
 			<Value>3</Value>
 		</Row>
 		<Row Name="INFLUENCE_HILL_COST">
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 		<Row Name="INFLUENCE_RIVER_COST">
 			<Value>1</Value>
@@ -703,12 +745,6 @@
 		<Row Name="BARBARIAN_UNIT_GOLD_RANSOM">
 			<Value>100</Value>
 		</Row>
-		<Row Name="EMBARKED_UNIT_COMBAT_STRENGTH">
-			<Value>0</Value>
-		</Row>
-		<Row Name="EMBARKED_NOT_CIVILIAN_COMBAT_STRENGTH">
-			<Value>500</Value>
-		</Row>
 		<Row Name="EMBARKED_UNIT_MOVEMENT">
 			<Value>2</Value>
 		</Row>
@@ -739,11 +775,18 @@
 		<Row Name="CULTURE_BOMB_MINOR_FRIENDSHIP_CHANGE">
 			<Value>-50</Value>
 		</Row>
+		<Row Name="LANDMARK_MINOR_FRIENDSHIP_CHANGE">
+			<Value>50</Value>
+		</Row>
 		<Row Name="POST_COMBAT_TEXT_DELAY">
 			<Value>1.0</Value>
 		</Row>
 		<Row Name="UNIT_AUTO_EXPLORE_DISABLED">
 			<!--Is auto-explore disabled for units? (but not hidden)-->
+			<Value>0</Value>
+		</Row>
+		<Row Name="UNIT_AUTO_EXPLORE_FULL_DISABLED">
+			<!--Is auto-explore disabled for units? (and hidden)-->
 			<Value>0</Value>
 		</Row>
 		<Row Name="UNIT_WORKER_AUTOMATION_DISABLED">
@@ -785,6 +828,9 @@
 		<Row Name="START_AREA_SCIENCE_MULTIPLIER">
 			<Value>1</Value>
 		</Row>
+		<Row Name="START_AREA_FAITH_MULTIPLIER">
+			<Value>1</Value>
+		</Row>
 		<Row Name="START_AREA_RESOURCE_MULTIPLIER">
 			<Value>1</Value>
 		</Row>
@@ -804,9 +850,12 @@
 			<Value>3</Value>
 		</Row>
 		<Row Name="SETTLER_GOLD_MULTIPLIER">
-			<Value>2</Value>
+			<Value>3</Value>
 		</Row>
 		<Row Name="SETTLER_SCIENCE_MULTIPLIER">
+			<Value>1</Value>
+		</Row>
+		<Row Name="SETTLER_FAITH_MULTIPLIER">
 			<Value>1</Value>
 		</Row>
 		<Row Name="SETTLER_RESOURCE_MULTIPLIER">
@@ -816,22 +865,28 @@
 			<Value>1</Value>
 		</Row>
 		<Row Name="SETTLER_BUILD_ON_COAST_PERCENT">
-			<Value>25</Value>
+			<Value>40</Value>
 		</Row>
 		<Row Name="CITY_RING_1_MULTIPLIER">
-			<Value>12</Value>
+			<Value>6</Value>
 		</Row>
 		<Row Name="CITY_RING_2_MULTIPLIER">
-			<Value>6</Value>
+			<Value>3</Value>
 		</Row>
 		<Row Name="CITY_RING_3_MULTIPLIER">
 			<Value>2</Value>
 		</Row>
+		<Row Name="CITY_RING_4_MULTIPLIER">
+			<Value>1</Value>
+		</Row>
+		<Row Name="CITY_RING_5_MULTIPLIER">
+			<Value>1</Value>
+		</Row>
 		<Row Name="SETTLER_EVALUATION_DISTANCE">
-			<Value>20</Value>
+			<Value>24</Value>
 		</Row>
 		<Row Name="SETTLER_DISTANCE_DROPOFF_MODIFIER">
-			<Value>75</Value>
+			<Value>67</Value>
 		</Row>
 		<Row Name="BUILD_ON_RESOURCE_PERCENT">
 			<Value>-50</Value>
@@ -882,8 +937,29 @@
 		<Row Name="MINOR_GOLD_GIFT_SMALL">
 			<Value>250</Value>
 		</Row>
+		<Row Name="MINOR_CIV_TILE_IMPROVEMENT_GIFT_COST">
+			<Value>200</Value>
+		</Row>
+		<Row Name="MINOR_CIV_BUYOUT_COST">
+			<Value>500</Value>
+		</Row>
+		<Row Name="MINOR_CIV_BUYOUT_TURNS">
+			<Value>5</Value>
+		</Row>
 		<Row Name="MINOR_FRIENDSHIP_FROM_TRADE_MISSION">
 			<Value>30</Value>
+		</Row>
+		<Row Name="MINOR_FRIENDSHIP_ANCHOR_DEFAULT">
+			<Value>0</Value>
+		</Row>
+		<Row Name="MINOR_FRIENDSHIP_ANCHOR_MOD_PROTECTED">
+			<Value>5</Value>
+		</Row>
+		<Row Name="MINOR_FRIENDSHIP_ANCHOR_MOD_WARY_OF">
+			<Value>-20</Value>
+		</Row>
+		<Row Name="MINOR_UNIT_GIFT_TRAVEL_TURNS">
+			<Value>3</Value>
 		</Row>
 		<!-- Unit/Combat Defines -->
 		<Row Name="PLOT_UNIT_LIMIT">
@@ -896,16 +972,16 @@
 			<Value>1</Value>
 		</Row>
 		<Row Name="MAX_HIT_POINTS">
-			<Value>10</Value>
+			<Value>100</Value>
 		</Row>
 		<Row Name="MAX_CITY_HIT_POINTS">
-			<Value>25</Value>
+			<Value>200</Value>
 		</Row>
 		<Row Name="CITY_HIT_POINTS_HEALED_PER_TURN">
-			<Value>2</Value>
+			<Value>20</Value>
 		</Row>
 		<Row Name="FLAT_LAND_EXTRA_DEFENSE">
-			<Value>-10</Value>
+			<Value>0</Value>
 		</Row>
 		<Row Name="HILLS_EXTRA_DEFENSE">
 			<Value>25</Value>
@@ -917,81 +993,84 @@
 			<Value>-50</Value>
 		</Row>
 		<Row Name="ENEMY_HEAL_RATE">
-			<Value>1</Value>
+			<Value>10</Value>
 		</Row>
 		<Row Name="NEUTRAL_HEAL_RATE">
-			<Value>1</Value>
+			<Value>10</Value>
 		</Row>
 		<Row Name="FRIENDLY_HEAL_RATE">
-			<Value>2</Value>
+			<Value>20</Value>
 		</Row>
-		<Row Name="CITY_HEAL_RATE">
-			<Value>3</Value>
-		</Row>
-		<Row Name="ATTACK_SAME_STRENGTH_MIN_DAMAGE">
-			<Value>400</Value>
-		</Row>
-		<Row Name="RANGE_ATTACK_RANGED_DEFENDER_MOD">
-			<Value>125</Value>
-		</Row>
-		<!-- Note: this will actually produce between 0.00 and 3.99 damage (rounded down to 0-3 typically) -->
-		<Row Name="ATTACK_SAME_STRENGTH_POSSIBLE_EXTRA_DAMAGE">
-			<Value>400</Value>
-		</Row>
-		<Row Name="RANGE_ATTACK_SAME_STRENGTH_MIN_DAMAGE">
-			<Value>200</Value>
-		</Row>
-		<!-- Note: this will actually produce between 0.00 and 3.99 damage (rounded down to 0-2 typically) -->
-		<Row Name="RANGE_ATTACK_SAME_STRENGTH_POSSIBLE_EXTRA_DAMAGE">
-			<Value>400</Value>
-		</Row>
-		<Row Name="AIR_STRIKE_SAME_STRENGTH_MIN_DEFENSE_DAMAGE">
-			<Value>200</Value>
-		</Row>
-		<!-- Note: this will actually produce between 0.00 and 1.99 damage (rounded down to 0-1 typically) -->
-		<Row Name="AIR_STRIKE_SAME_STRENGTH_POSSIBLE_EXTRA_DEFENSE_DAMAGE">
-			<Value>200</Value>
-		</Row>
-		<Row Name="INTERCEPTION_SAME_STRENGTH_MIN_DAMAGE">
-			<Value>400</Value>
-		</Row>
-		<!-- Note: this will actually produce between 0.00 and 2.99 damage (rounded down to 0-2 typically) -->
-		<Row Name="INTERCEPTION_SAME_STRENGTH_POSSIBLE_EXTRA_DAMAGE">
-			<Value>300</Value>
-		</Row>
-		<Row Name="AIR_SWEEP_INTERCEPTION_DAMAGE_MOD">
-			<Value>75</Value>
-		</Row>
-		<Row Name="WOUNDED_DAMAGE_MULTIPLIER">
+		<Row Name="INSTA_HEAL_RATE">
 			<Value>50</Value>
 		</Row>
+		<Row Name="CITY_HEAL_RATE">
+			<Value>25</Value>
+		</Row>
+		<Row Name="ATTACK_SAME_STRENGTH_MIN_DAMAGE">
+			<Value>2400</Value>
+		</Row>
+		<Row Name="RANGE_ATTACK_RANGED_DEFENDER_MOD">
+			<Value>100</Value>
+		</Row>
+		<!-- Note: this will actually produce something between 0.00 and the listed number in damage -->
+		<Row Name="ATTACK_SAME_STRENGTH_POSSIBLE_EXTRA_DAMAGE">
+			<Value>1200</Value>
+		</Row>
+		<Row Name="RANGE_ATTACK_SAME_STRENGTH_MIN_DAMAGE">
+			<Value>2400</Value>
+		</Row>
+		<!-- Note: this will actually produce something between 0.00 and the listed number in damage -->
+		<Row Name="RANGE_ATTACK_SAME_STRENGTH_POSSIBLE_EXTRA_DAMAGE">
+			<Value>1200</Value>
+		</Row>
+		<Row Name="AIR_STRIKE_SAME_STRENGTH_MIN_DEFENSE_DAMAGE">
+			<Value>2400</Value>
+		</Row>
+		<!-- Note: this will actually produce something between 0.00 and the listed number in damage -->
+		<Row Name="AIR_STRIKE_SAME_STRENGTH_POSSIBLE_EXTRA_DEFENSE_DAMAGE">
+			<Value>1200</Value>
+		</Row>
+		<Row Name="INTERCEPTION_SAME_STRENGTH_MIN_DAMAGE">
+			<Value>2400</Value>
+		</Row>
+		<!-- Note: this will actually produce something between 0.00 and the listed number in damage -->
+		<Row Name="INTERCEPTION_SAME_STRENGTH_POSSIBLE_EXTRA_DAMAGE">
+			<Value>1200</Value>
+		</Row>
+		<Row Name="AIR_SWEEP_INTERCEPTION_DAMAGE_MOD">
+			<Value>0</Value>
+		</Row>
+		<Row Name="WOUNDED_DAMAGE_MULTIPLIER">
+			<Value>33</Value>
+		</Row>
 		<Row Name="TRAIT_WOUNDED_DAMAGE_MOD">
-			<Value>-50</Value>
+			<Value>-33</Value>
 		</Row>
 		<!-- City Combat Defines -->
 		<Row Name="CITY_STRENGTH_DEFAULT">
-			<Value>600</Value>
+			<Value>800</Value>
 		</Row>
 		<Row Name="CITY_STRENGTH_POPULATION_CHANGE">
-			<Value>25</Value>
+			<Value>40</Value>
 		</Row>
 		<Row Name="CITY_STRENGTH_UNIT_DIVISOR">
 			<Value>500</Value>
 		</Row>
 		<Row Name="CITY_STRENGTH_TECH_BASE">
-			<Value>5</Value>
+			<Value>5.5</Value>
 		</Row>
 		<Row Name="CITY_STRENGTH_TECH_EXPONENT">
-			<Value>2.0</Value>
+			<Value>2.8</Value>
 		</Row>
 		<Row Name="CITY_STRENGTH_TECH_MULTIPLIER">
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
-		<Row Name="CITY_STRENGTH_HILL_MOD">
-			<Value>15</Value>
+		<Row Name="CITY_STRENGTH_HILL_CHANGE">
+			<Value>500</Value>
 		</Row>
 		<Row Name="CITY_ATTACKING_DAMAGE_MOD">
-			<Value>50</Value>
+			<Value>100</Value>
 		</Row>
 		<Row Name="ATTACKING_CITY_MELEE_DAMAGE_MOD">
 			<Value>100</Value>
@@ -1003,10 +1082,10 @@
 			<Value>1</Value>
 		</Row>
 		<Row Name="CITY_RANGED_ATTACK_STRENGTH_MULTIPLIER">
-			<Value>50</Value>
+			<Value>75</Value>
 		</Row>
 		<Row Name="MIN_CITY_STRIKE_DAMAGE">
-			<Value>1</Value>
+			<Value>10</Value>
 		</Row>
 		<Row Name="CITY_CAPTURE_DAMAGE_PERCENT">
 			<Value>50</Value>
@@ -1141,8 +1220,14 @@
 		<Row Name="MAXIMUM_ACQUIRE_PLOT_DISTANCE">
 			<Value>5</Value>
 		</Row>
+		<Row Name="PLOT_INFLUENCE_BASE_MULTIPLIER">
+			<Value>100</Value>
+		</Row>
 		<Row Name="PLOT_INFLUENCE_DISTANCE_MULTIPLIER">
 			<Value>100</Value>
+		</Row>
+		<Row Name="PLOT_INFLUENCE_DISTANCE_DIVISOR">
+			<Value>3</Value>
 		</Row>
 		<Row Name="PLOT_INFLUENCE_RING_COST">
 			<Value>100</Value>
@@ -1174,7 +1259,7 @@
 		<Row Name="PLOT_INFLUENCE_NO_ADJACENT_OWNED_COST">
 			<Value>1000</Value>
 		</Row>
-		<!-- DIPLOMACY VICTORY -->
+		<!--Old Diplomacy Victory-->
 		<Row Name="UNITED_NATIONS_COUNTDOWN_TURNS">
 			<Value>10</Value>
 		</Row>
@@ -1192,6 +1277,19 @@
 		</Row>
 		<Row Name="DIPLO_VICTORY_DEFAULT_VOTE_PERCENT">
 			<Value>67</Value>
+		</Row>
+		<!--New Diplomacy Victory.  Desired values were calculated using logarithmic regression.  Number of Delegates needed to win = CivCoefficient * ln(numCivs) + CivConstant + CSCoefficient * ln(numCityStates) + CSConstant-->
+		<Row Name="DIPLO_VICTORY_CIV_DELEGATES_COEFFICIENT">
+			<Value>1.443</Value>
+		</Row>
+		<Row Name="DIPLO_VICTORY_CIV_DELEGATES_CONSTANT">
+			<Value>7.000</Value>
+		</Row>
+		<Row Name="DIPLO_VICTORY_CS_DELEGATES_COEFFICIENT">
+			<Value>16.023</Value>
+		</Row>
+		<Row Name="DIPLO_VICTORY_CS_DELEGATES_CONSTANT">
+			<Value>-13.758</Value>
 		</Row>
 		<!-- Civ 5 Score -->
 		<Row Name="SCORE_CITY_MULTIPLIER">
@@ -1212,8 +1310,156 @@
 		<Row Name="SCORE_FUTURE_TECH_MULTIPLIER">
 			<Value>10</Value>
 		</Row>
+		<Row Name="SCORE_POLICY_MULTIPLIER">
+			<Value>4</Value>
+		</Row>
+		<Row Name="SCORE_GREAT_WORK_MULTIPLIER">
+			<Value>4</Value>
+		</Row>
+		<Row Name="SCORE_BELIEF_MULTIPLIER">
+			<Value>20</Value>
+		</Row>
+		<Row Name="SCORE_RELIGION_CITIES_MULTIPLIER">
+			<Value>1</Value>
+		</Row>
+		<!--Religion-->
+		<Row Name="RELIGION_MIN_FAITH_FIRST_PANTHEON">
+			<Value>10</Value>
+		</Row>
+		<Row Name="RELIGION_MIN_FAITH_FIRST_PROPHET">
+			<Value>200</Value>
+		</Row>
+		<Row Name="RELIGION_MIN_FAITH_FIRST_GREAT_PERSON">
+			<Value>1000</Value>
+		</Row>
+		<Row Name="RELIGION_GAME_FAITH_DELTA_NEXT_PANTHEON">
+			<Value>5</Value>
+		</Row>
+		<Row Name="RELIGION_FAITH_DELTA_NEXT_PROPHET">
+			<Value>100</Value>
+		</Row>
+		<Row Name="RELIGION_FAITH_DELTA_NEXT_GREAT_PERSON">
+			<Value>500</Value>
+		</Row>
+		<Row Name="RELIGION_BASE_CHANCE_PROPHET_SPAWN">
+			<Value>100</Value>
+		</Row>
+		<Row Name="RELIGION_ATHEISM_PRESSURE_PER_POP">
+			<Value>1000</Value>
+		</Row>
+		<Row Name="RELIGION_INITIAL_FOUNDING_CITY_PRESSURE">
+			<Value>5000</Value>
+		</Row>
+		<Row Name="RELIGION_PER_TURN_FOUNDING_CITY_PRESSURE">
+			<Value>5</Value>
+		</Row>
+		<Row Name="RELIGION_MISSIONARY_PRESSURE_MULTIPLIER">
+			<Value>10</Value>
+		</Row>
+		<Row Name="RELIGION_ADJACENT_CITY_DISTANCE">
+			<Value>10</Value>
+		</Row>
+		<Row Name="RELIGION_DIPLO_HIT_INITIAL_CONVERT_FRIENDLY_CITY">
+			<Value>1</Value>
+		</Row>
+		<Row Name="RELIGION_DIPLO_HIT_RELIGIOUS_FLIP_FRIENDLY_CITY">
+			<Value>3</Value>
+		</Row>
+		<Row Name="RELIGION_DIPLO_HIT_CONVERT_HOLY_CITY">
+			<Value>25</Value>
+		</Row>
+		<Row Name="RELIGION_DIPLO_HIT_THRESHOLD">
+			<Value>5</Value>
+		</Row>
+		<!--Espionage-->
+		<Row Name="ESPIONAGE_GATHERING_INTEL_COST_PERCENT">
+			<Value>125</Value>
+		</Row>
+		<Row Name="ESPIONAGE_GATHERING_INTEL_RATE_BY_SPY_RANK_PERCENT">
+			<Value>25</Value>
+		</Row>
+		<Row Name="ESPIONAGE_GATHERING_INTEL_RATE_BASE_PERCENT">
+			<Value>100</Value>
+		</Row>
+		<Row Name="ESPIONAGE_TURNS_BETWEEN_CITY_STATE_ELECTIONS">
+			<Value>15</Value>
+		</Row>
+		<Row Name="ESPIONAGE_INFLUENCE_GAINED_FOR_RIGGED_ELECTION">
+			<Value>20</Value>
+		</Row>
+		<Row Name="ESPIONAGE_INFLUENCE_LOST_FOR_RIGGED_ELECTION">
+			<Value>5</Value>
+		</Row>
+		<Row Name="ESPIONAGE_SURVEILLANCE_SIGHT_RANGE">
+			<Value>1</Value>
+		</Row>
+		<Row Name="ESPIONAGE_COUP_OTHER_PLAYERS_INFLUENCE_DROP">
+			<Value>20</Value>
+		</Row>
+		<Row Name="ESPIONAGE_COUP_NOBODY_BONUS">
+			<Value>0.5</Value>
+		</Row>
+		<Row Name="ESPIONAGE_COUP_MULTIPLY_CONSTANT">
+			<Value>3.0</Value>
+		</Row>
+		<Row Name="ESPIONAGE_COUP_SPY_LEVEL_DELTA_ZERO">
+			<Value>0.0</Value>
+		</Row>
+		<Row Name="ESPIONAGE_COUP_SPY_LEVEL_DELTA_ONE">
+			<Value>1.5</Value>
+		</Row>
+		<Row Name="ESPIONAGE_COUP_SPY_LEVEL_DELTA_TWO">
+			<Value>2.25</Value>
+		</Row>
+		<Row Name="ESPIONAGE_COUP_SPY_LEVEL_DELTA_THREE">
+			<Value>2.60</Value>
+		</Row>
+		<Row Name="ESPIONAGE_COUP_SPY_LEVEL_DELTA_FOUR">
+			<Value>2.80</Value>
+		</Row>
+		<!--International Trade-->
+		<Row Name="INTERNATIONAL_TRADE_BASE">
+			<Value>100</Value>
+		</Row>
+		<Row Name="INTERNATIONAL_TRADE_EXCLUSIVE_CONNECTION">
+			<Value>0</Value>
+		</Row>
+		<Row Name="INTERNATIONAL_TRADE_CITY_GPT_DIVISOR">
+			<Value>20</Value>
+		</Row>
+		<!--New Diplomacy Victory and Leagues-->
+		<Row Name="LEAGUE_SESSION_INTERVAL_BASE_TURNS">
+			<Value>12</Value>
+		</Row>
+		<Row Name="LEAGUE_SESSION_SOON_WARNING_TURNS">
+			<Value>5</Value>
+		</Row>
+		<Row Name="LEAGUE_MEMBER_PROPOSALS_BASE">
+			<Value>1</Value>
+		</Row>
+		<Row Name="LEAGUE_MEMBER_VOTES_BASE">
+			<Value>1</Value>
+		</Row>
+		<Row Name="LEAGUE_MEMBER_VOTES_FOR_HOST">
+			<Value>1</Value>
+		</Row>
+		<Row Name="LEAGUE_MEMBER_VOTES_PER_CITY_STATE_ALLY">
+			<Value>1</Value>
+		</Row>
+		<Row Name="LEAGUE_PROJECT_REWARD_TIER_1_THRESHOLD">
+			<Value>0.5</Value>
+		</Row>
+		<Row Name="LEAGUE_PROJECT_REWARD_TIER_2_THRESHOLD">
+			<Value>1.0</Value>
+		</Row>
 		<!-- NEW STUFF WITH NO CATEGORY -->
 		<Row Name="VICTORY_POINTS_PER_ERA">
+			<Value>1</Value>
+		</Row>
+		<Row Name="PILLAGE_HEAL_AMOUNT">
+			<Value>25</Value>
+		</Row>
+		<Row Name="CITY_CONNECTIONS_CONNECT_TO_CAPITAL">
 			<Value>1</Value>
 		</Row>
 		<Row Name="MIN_GAME_TURNS_ELAPSED_TO_TEST_VICTORY">
@@ -1270,6 +1516,99 @@
 		<Row Name="ALLOW_EXTENDED_PLAY">
 			<Value>1</Value>
 		</Row>
+		<Row Name="COMBAT_CAPTURE_HEALTH">
+			<Value>50</Value>
+		</Row>
+		<Row Name="COMBAT_CAPTURE_MIN_CHANCE">
+			<Value>10</Value>
+		</Row>
+		<Row Name="COMBAT_CAPTURE_MAX_CHANCE">
+			<Value>80</Value>
+		</Row>
+		<Row Name="COMBAT_CAPTURE_RATIO_MULTIPLIER">
+			<Value>40</Value>
+		</Row>
+		<Row Name="UNRESEARCHED_TECH_BONUS_FROM_KILLS_SLOPE">
+			<Value>9.68</Value>
+		</Row>
+		<Row Name="UNRESEARCHED_TECH_BONUS_FROM_KILLS_INTERCEPT">
+			<Value>-114.07</Value>
+		</Row>
+		<Row Name="BASE_CULTURE_PER_GREAT_WORK">
+			<Value>2</Value>
+		</Row>
+		<Row Name="BASE_TOURISM_PER_GREAT_WORK">
+			<Value>2</Value>
+		</Row>
+		<Row Name="TOURISM_MODIFIER_SHARED_RELIGION">
+			<Value>25</Value>
+		</Row>
+		<Row Name="TOURISM_MODIFIER_TRADE_ROUTE">
+			<Value>25</Value>
+		</Row>
+		<Row Name="TOURISM_MODIFIER_OPEN_BORDERS">
+			<Value>25</Value>
+		</Row>
+		<Row Name="TOURISM_MODIFIER_DIFFERENT_IDEOLOGIES">
+			<Value>-34</Value>
+		</Row>
+		<Row Name="TOURISM_MODIFIER_DIPLOMAT">
+			<Value>25</Value>
+		</Row>
+		<Row Name="MINIUMUM_TOURISM_BLAST_STRENGTH">
+			<Value>100</Value>
+		</Row>
+		<Row Name="CULTURE_LEVEL_EXOTIC">
+			<Value>10</Value>
+		</Row>
+		<Row Name="CULTURE_LEVEL_FAMILIAR">
+			<Value>30</Value>
+		</Row>
+		<Row Name="CULTURE_LEVEL_POPULAR">
+			<Value>60</Value>
+		</Row>
+		<Row Name="CULTURE_LEVEL_INFLUENTIAL">
+			<Value>100</Value>
+		</Row>
+		<Row Name="CULTURE_LEVEL_DOMINANT">
+			<Value>200</Value>
+		</Row>
+		<Row Name="MIN_DIG_SITES_PER_MAJOR_CIV">
+			<Value>5</Value>
+		</Row>
+		<Row Name="MAX_DIG_SITES_PER_MAJOR_CIV">
+			<Value>8</Value>
+		</Row>
+		<Row Name="PERCENT_SITES_HIDDEN">
+			<Value>30</Value>
+		</Row>
+		<Row Name="PERCENT_HIDDEN_SITES_WRITING">
+			<Value>30</Value>
+		</Row>
+		<Row Name="SAPPED_CITY_ATTACK_MODIFIER">
+			<Value>50</Value>
+		</Row>
+		<Row Name="SAPPER_BONUS_RANGE">
+			<Value>2</Value>
+		</Row>
+		<Row Name="EXOTIC_GOODS_GOLD_MIN">
+			<Value>100</Value>
+		</Row>
+		<Row Name="EXOTIC_GOODS_GOLD_MAX">
+			<Value>400</Value>
+		</Row>
+		<Row Name="EXOTIC_GOODS_XP_MIN">
+			<Value>10</Value>
+		</Row>
+		<Row Name="EXOTIC_GOODS_XP_MAX">
+			<Value>30</Value>
+		</Row>
+		<Row Name="TEMPORARY_CULTURE_BOOST_MOD">
+			<Value>100</Value>
+		</Row>
+		<Row Name="TEMPORARY_TOURISM_BOOST_MOD">
+			<Value>100</Value>
+		</Row>
 	</Defines>
 	<!-- Post defines are references to rows in tables after everything has been loaded. -->
 	<!-- The Type of the post define and the ROWID it points to is added to Defines. -->
@@ -1293,6 +1632,14 @@
 		<Row Name="NUKE_FEATURE">
 			<Key>FEATURE_FALLOUT</Key>
 			<Table>Features</Table>
+		</Row>
+		<Row Name="ARTIFACT_RESOURCE">
+			<Key>RESOURCE_ARTIFACTS</Key>
+			<Table>Resources</Table>
+		</Row>
+		<Row Name="HIDDEN_ARTIFACT_RESOURCE">
+			<Key>RESOURCE_HIDDEN_ARTIFACTS</Key>
+			<Table>Resources</Table>
 		</Row>
 		<Row Name="CAPITAL_BUILDINGCLASS">
 			<Key>BUILDINGCLASS_PALACE</Key>
@@ -1405,7 +1752,7 @@
 		<Row Name="PROMOTION_EMBARKATION">
 			<Key>PROMOTION_EMBARKATION</Key>
 			<Table>UnitPromotions</Table>
-		</Row>		
+		</Row>
 		<Row Name="PROMOTION_DEFENSIVE_EMBARKATION">
 			<Key>PROMOTION_DEFENSIVE_EMBARKATION</Key>
 			<Table>UnitPromotions</Table>
@@ -1426,10 +1773,10 @@
 			<Key>PROMOTION_ONLY_DEFENSIVE</Key>
 			<Table>UnitPromotions</Table>
 		</Row>
-    <Row Name="PROMOTION_UNWELCOME_EVANGELIST">
-      <Key>PROMOTION_UNWELCOME_EVANGELIST</Key>
-      <Table>UnitPromotions</Table>
-    </Row>
+		<Row Name="PROMOTION_UNWELCOME_EVANGELIST">
+			<Key>PROMOTION_UNWELCOME_EVANGELIST</Key>
+			<Table>UnitPromotions</Table>
+		</Row>
 		<Row Name="BARBARIAN_CAMP_IMPROVEMENT">
 			<Key>IMPROVEMENT_BARBARIAN_CAMP</Key>
 			<Table>Improvements</Table>
@@ -1437,6 +1784,22 @@
 		<Row Name="WALLS_BUILDINGCLASS">
 			<Key>BUILDINGCLASS_WALLS</Key>
 			<Table>BuildingClasses</Table>
+		</Row>
+		<Row Name="PROMOTION_GOODY_HUT_PICKER">
+			<Key>PROMOTION_GOODY_HUT_PICKER</Key>
+			<Table>UnitPromotions</Table>
+		</Row>
+		<Row Name="POLICY_BRANCH_FREEDOM">
+			<Key>POLICY_BRANCH_FREEDOM</Key>
+			<Table>PolicyBranchTypes</Table>
+		</Row>
+		<Row Name="POLICY_BRANCH_AUTOCRACY">
+			<Key>POLICY_BRANCH_AUTOCRACY</Key>
+			<Table>PolicyBranchTypes</Table>
+		</Row>
+		<Row Name="POLICY_BRANCH_ORDER">
+			<Key>POLICY_BRANCH_ORDER</Key>
+			<Table>PolicyBranchTypes</Table>
 		</Row>
 	</PostDefines>
 </GameData>

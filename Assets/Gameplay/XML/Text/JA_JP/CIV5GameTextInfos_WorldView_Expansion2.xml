@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_JA_JP>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_CANNOT_BE_ADJACENT">
+      <Text>{@1_ImprovementName}は他の{@1_ImprovementName}(完成・未完成にかかわらず)のとなりには建設できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_NO_ADJACENT_LUXURY">
+      <Text>{@1_ImprovementName}は高級資源に隣接したタイルにしか建設できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_NOT_IN_CITY_STATE_TERRITORY">
+      <Text>{TXT_KEY_GRAMMAR_UPPER_A_AN &lt;&lt; {@1_ImprovementName}}は都市国家の領土内にしか建設できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_CONNECTED">
+      <Text>[ICON_CAPITAL]首都との間に[ICON_CONNECTED]都市の結びつきがある！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING1">
+      <Text>[COLOR_YELLOW]戦闘機あるいは対空ユニット[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING2">
+      <Text>[COLOR_YELLOW]の迎撃によりダメージが増加[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_CITY_SAPPED">
+      <Text>攻城塔が支援</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EMPIRE_UNHAPPY_PENALTY">
+      <Text>帝国の[ICON_HAPPINESS_3] 不満</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EMPIRE_VERY_UNHAPPY_PENALTY">
+      <Text>国家 [ICON_HAPPINESS_3] 極度の不満</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_VISIBLE_AA_UNITS">
+      <Text>[COLOR_WARNING_TEXT]既知の敵対空ユニット: {1_Number}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_ART_ARTIFACT_EMPTY_TOOLTIP">
+      <Text>空き傑作芸術・文化遺産スロット</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_LITERATURE_EMPTY_TOOLTIP">
+      <Text>空き傑作書物スロット</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_MUSIC_EMPTY_TOOLTIP">
+      <Text>空き傑作音楽スロット</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_TRADE_ROUTE">
+      <Text>都市の結びつき</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_TRADE_ROUTES">
+      <Text>都市の結びつき</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_ANARCHY">
+      <Text>[COLOR_NEGATIVE_TEXT]思想の変更により、国家が無政府状態に陥っている。無政府状態はあと{1_Turns}ターン継続する。無政府状態の間、国家は[ICON_RESEARCH]科学力、[ICON_CULTURE]文化力、[ICON_GOLD]ゴールド、[ICON_PEACE]信仰力を一切獲得できない。また、都市は何かを作るのに必要な[ICON_PRODUCTION]生産力を失ってしまう[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CARNIVAL_EFFECT">
+      <Text>現在、文明に固有のカーニバルボーナスのおかげで、すべての文明に対する観光力の産出量が+100%になっている。さらに、大著述家、大芸術家、大音楽家の獲得速度も50%アップしている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_CITY_COST">
+      <Text>所有する都市1つにつき社会制度のコストが{1_Num}%上がる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_FROM_BONUS_TURNS">
+      <Text>[ICON_BULLET]世界議会の最近のプロジェクトから[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR]（残りターン数：{2_TurnsLeft}）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY">
+      <Text>帝国内の[ICON_HAPPINESS_4]不満度が20に達したため、国内で反乱が勃発した！　都市は帝国から離反し、国民に対して最も文化的影響力が大きい文明に寝返る。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_UNHAPPY">
+      <Text>帝国が[ICON_HAPPINESS_3]不満状態にある間は都市の成長速度が4分の1になる。[NEWLINE][ICON_GOLD]ゴールドと[ICON_PRODUCTION]生産物の産出は不満度1ポイントにつき2%減少する。戦闘中のユニットにも同じペナルティーが課せられる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_VERY_UNHAPPY">
+      <Text>[ICON_HAPPINESS_4]不満度が10に達したため、帝国は不穏な情勢になっている。反乱（蛮族）ユニットが自国の領土内に出現し、反乱が勃発する恐れがある。状況が改善されない限り、数ターンごとにこうした事態が発生する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_CITY_CONNECTIONS">
+      <Text>自文明の都市と[ICON_CAPITAL]首都による[ICON_CONNECTED]都市の結びつきから{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_ITR">
+      <Text>自文明の都市と他文明の都市をつなぐ[ICON_TURNS_REMAINING]交易路から{1_Num}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_TR">
+      <Text>自文明の都市と[ICON_CAPITAL]首都による[ICON_CONNECTED]都市の結びつきから{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_TRAITS">
+      <Text>特色から{1_Num}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_LEAGUES">
+      <Text>世界議会から{1_Happiness}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE_FROM_ITR">
+      <Text>自文明の都市と他文明の都市をつなぐ[ICON_TURNS_REMAINING]交易路から[COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR][ICON_RESEARCH]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TECH_CITY_COST">
+      <Text>所有する都市および[ICON_PUPPET]傀儡都市1つにつきテクノロジーのコストが{1_Num}%上がる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_PUBLIC_OPINION">
+      <Text>世論から{1_Num}（新たな思想を求めている）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIQUE_GOLDEN_AGE_ANNOUNCE">
+      <Text>カーニバルだ！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CARGO_CAPACITY">
+      <Text>収容能力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CARGO_CAPACITY_TT">
+      <Text>{1_UnitName}が輸送できるユニットの数。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_TOURISM_STRENGTH_TT">
+      <Text>コンサートツアーを行うときのユニットの強さを示す。強さは音楽家が誕生したときのその文明の[ICON_TOURISM]観光力の産出量によって決まる。</Text>
+    </Row>
+  </Language_JA_JP>
+</GameData>

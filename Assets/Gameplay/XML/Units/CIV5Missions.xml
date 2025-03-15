@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
 <GameData>
 	<!-- Table definition -->
 	<Table name="Missions">
@@ -146,7 +146,6 @@
 			<Visible>1</Visible>
 			<IconIndex>2</IconIndex>
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
-			
 		</Row>
 		<Row>
 			<Type>MISSION_FORTIFY</Type>
@@ -461,8 +460,8 @@
 			<Type>MISSION_DISCOVER</Type>
 			<Description>TXT_KEY_MISSION_DISCOVER_TECH</Description>
 			<Help>TXT_KEY_MISSION_DISCOVER_TECH_HELP</Help>
-      <DisabledHelp>TXT_KEY_MISSION_DISCOVER_TECH_DISABLED_HELP</DisabledHelp>
-      <EntityEventType>ENTITY_EVENT_GREAT_EVENT</EntityEventType>
+			<DisabledHelp>TXT_KEY_MISSION_DISCOVER_TECH_DISABLED_HELP</DisabledHelp>
+			<EntityEventType>ENTITY_EVENT_GREAT_EVENT</EntityEventType>
 			<Time>25</Time>
 			<Target>0</Target>
 			<Build>0</Build>
@@ -532,6 +531,55 @@
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
 		</Row>
 		<Row>
+			<Type>MISSION_BUY_CITY_STATE</Type>
+			<Description>TXT_KEY_MISSION_BUY_CITY_STATE</Description>
+			<Help>TXT_KEY_MISSION_BUY_CITY_STATE_HELP</Help>
+			<DisabledHelp>TXT_KEY_MISSION_BUY_CITY_STATE_DISABLED_HELP</DisabledHelp>
+			<EntityEventType>ENTITY_EVENT_GREAT_EVENT</EntityEventType>
+			<Time>25</Time>
+			<Target>0</Target>
+			<Build>0</Build>
+			<Sound>0</Sound>
+			<HotKey/>
+			<AltDown>0</AltDown>
+			<ShiftDown>0</ShiftDown>
+			<CtrlDown>0</CtrlDown>
+			<HotKeyPriority>0</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+			<OrderPriority>199</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>UNIT_ACTION_BUY_CITYSTATE</IconAtlas>
+		</Row>
+		<Row>
+			<Type>MISSION_REPAIR_FLEET</Type>
+			<Description>TXT_KEY_MISSION_REPAIR_FLEET</Description>
+			<Help>TXT_KEY_MISSION_REPAIR_FLEET_HELP</Help>
+			<EntityEventType>ENTITY_EVENT_GREAT_EVENT</EntityEventType>
+			<Time>25</Time>
+			<Target>0</Target>
+			<Build>0</Build>
+			<Sound>0</Sound>
+			<HotKey/>
+			<AltDown>0</AltDown>
+			<ShiftDown>0</ShiftDown>
+			<CtrlDown>0</CtrlDown>
+			<HotKeyPriority>0</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+			<OrderPriority>199</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>3</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS_RELIGION</IconAtlas>
+		</Row>
+		<Row>
 			<Type>MISSION_SPACESHIP</Type>
 			<Description>TXT_KEY_MISSION_BUILD_SPACESHIP</Description>
 			<Help>TXT_KEY_MISSION_BUILD_SPACESHIP_HELP</Help>
@@ -580,6 +628,31 @@
 			<Visible>1</Visible>
 			<IconIndex>53</IconIndex>
 			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>MISSION_FOUND_RELIGION</Type>
+			<Description>TXT_KEY_MISSION_FOUND_RELIGION</Description>
+			<Help>TXT_KEY_MISSION_FOUND_RELIGION_HELP</Help>
+			<DisabledHelp>TXT_KEY_MISSION_FOUND_RELIGION_DISABLED_HELP</DisabledHelp>
+			<EntityEventType>ENTITY_EVENT_GREAT_EVENT</EntityEventType>
+			<Time>20</Time>
+			<Target>0</Target>
+			<Build>0</Build>
+			<Sound>0</Sound>
+			<HotKey/>
+			<AltDown>0</AltDown>
+			<ShiftDown>0</ShiftDown>
+			<CtrlDown>0</CtrlDown>
+			<HotKeyPriority>0</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+			<OrderPriority>199</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS_RELIGION</IconAtlas>
 		</Row>
 		<Row>
 			<Type>MISSION_GOLDEN_AGE</Type>
@@ -785,6 +858,240 @@
 			<Target>0</Target>
 			<Build>0</Build>
 			<Sound>0</Sound>
+		</Row>
+		<Row>
+			<Type>MISSION_SPREAD_RELIGION</Type>
+			<Description>TXT_KEY_MISSION_SPREAD_RELIGION</Description>
+			<Help>TXT_KEY_MISSION_SPREAD_RELIGION_HELP</Help>
+			<DisabledHelp>TXT_KEY_MISSION_SPREAD_RELIGION_DISABLED_HELP</DisabledHelp>
+			<EntityEventType>ENTITY_EVENT_GREAT_EVENT</EntityEventType>
+			<Time>20</Time>
+			<Target>0</Target>
+			<Build>0</Build>
+			<Sound>0</Sound>
+			<HotKey/>
+			<AltDown>0</AltDown>
+			<ShiftDown>0</ShiftDown>
+			<CtrlDown>0</CtrlDown>
+			<HotKeyPriority>0</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+			<OrderPriority>199</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>1</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS_RELIGION</IconAtlas>
+		</Row>
+		<Row>
+			<Type>MISSION_ENHANCE_RELIGION</Type>
+			<Description>TXT_KEY_MISSION_ENHANCE_RELIGION</Description>
+			<Help>TXT_KEY_MISSION_ENHANCE_RELIGION_HELP</Help>
+			<DisabledHelp>TXT_KEY_MISSION_ENHANCE_RELIGION_DISABLED_HELP</DisabledHelp>
+			<EntityEventType>ENTITY_EVENT_GREAT_EVENT</EntityEventType>
+			<Time>20</Time>
+			<Target>0</Target>
+			<Build>0</Build>
+			<Sound>0</Sound>
+			<HotKey/>
+			<AltDown>0</AltDown>
+			<ShiftDown>0</ShiftDown>
+			<CtrlDown>0</CtrlDown>
+			<HotKeyPriority>0</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+			<OrderPriority>199</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>2</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS_RELIGION</IconAtlas>
+		</Row>
+		<Row>
+			<Type>MISSION_REMOVE_HERESY</Type>
+			<Description>TXT_KEY_MISSION_REMOVE_HERESY</Description>
+			<Help>TXT_KEY_MISSION_REMOVE_HERESY_HELP</Help>
+			<DisabledHelp>TXT_KEY_MISSION_REMOVE_HERESY_DISABLED_HELP</DisabledHelp>
+			<EntityEventType>ENTITY_EVENT_GREAT_EVENT</EntityEventType>
+			<Time>20</Time>
+			<Target>0</Target>
+			<Build>0</Build>
+			<Sound>0</Sound>
+			<HotKey/>
+			<AltDown>0</AltDown>
+			<ShiftDown>0</ShiftDown>
+			<CtrlDown>0</CtrlDown>
+			<HotKeyPriority>0</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+			<OrderPriority>199</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>1</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS_RELIGION</IconAtlas>
+		</Row>
+		<Row>
+			<Type>MISSION_ESTABLISH_TRADE_ROUTE</Type>
+			<Description>TXT_KEY_MISSION_ESTABLISH_TRADE_ROUTE</Description>
+			<Help>TXT_KEY_MISSION_ESTABLISH_TRADE_ROUTE_HELP</Help>
+			<Time>30</Time>
+			<Target>0</Target>
+			<Build>0</Build>
+			<Sound>0</Sound>
+			<Visible>1</Visible>
+			<OrderPriority>199</OrderPriority>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS_TRADE</IconAtlas>
+		</Row>
+		<Row>
+			<Type>MISSION_PLUNDER_TRADE_ROUTE</Type>
+			<Description>TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE</Description>
+			<Help>TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_HELP</Help>
+			<DisabledHelp>TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_DISABLED_HELP</DisabledHelp>
+			<Time>20</Time>
+			<Target>0</Target>
+			<Build>0</Build>
+			<Sound>1</Sound>
+			<AltDown>0</AltDown>
+			<ShiftDown>1</ShiftDown>
+			<CtrlDown>0</CtrlDown>
+			<HotKeyPriority>0</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+			<OrderPriority>199</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS_PLUNDER_TRADE</IconAtlas>
+		</Row>
+		<Row>
+			<Type>MISSION_ONE_SHOT_TOURISM</Type>
+			<Description>TXT_KEY_MISSION_ONE_SHOT_TOURISM</Description>
+			<Help>TXT_KEY_MISSION_ONE_SHOT_TOURISM_HELP</Help>
+			<DisabledHelp>TXT_KEY_MISSION_ONE_SHOT_TOURISM_DISABLED_HELP</DisabledHelp>
+			<EntityEventType>ENTITY_EVENT_GREAT_EVENT</EntityEventType>
+			<Time>20</Time>
+			<Target>0</Target>
+			<Build>0</Build>
+			<Sound>0</Sound>
+			<HotKey/>
+			<AltDown>0</AltDown>
+			<ShiftDown>0</ShiftDown>
+			<CtrlDown>0</CtrlDown>
+			<HotKeyPriority>0</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+			<OrderPriority>199</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>UNIT_ACTION_PERFORM_CONCERT</IconAtlas>
+		</Row>
+		<Row>
+			<Type>MISSION_CREATE_GREAT_WORK</Type>
+			<Description>TXT_KEY_MISSION_CREATE_GREAT_WORK</Description>
+			<Help>TXT_KEY_MISSION_CREATE_GREAT_WORK_HELP</Help>
+			<DisabledHelp>TXT_KEY_MISSION_CREATE_GREAT_WORK_DISABLED_HELP</DisabledHelp>
+			<Time>20</Time>
+			<Target>0</Target>
+			<Build>0</Build>
+			<Sound>0</Sound>
+			<AltDown>0</AltDown>
+			<ShiftDown>0</ShiftDown>
+			<CtrlDown>0</CtrlDown>
+			<HotKeyPriority>0</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+			<OrderPriority>202</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS_GREATWORK</IconAtlas>
+		</Row>
+		<Row>
+			<Type>MISSION_CHANGE_TRADE_UNIT_HOME_CITY</Type>
+			<Description>TXT_KEY_MISSION_CHANGE_TRADE_UNIT_HOME_CITY</Description>
+			<Help>TXT_KEY_MISSION_CHANGE_TRADE_UNIT_HOME_CITY_HELP</Help>
+			<Time>30</Time>
+			<Target>0</Target>
+			<Build>0</Build>
+			<Sound>0</Sound>
+			<Visible>1</Visible>
+			<OrderPriority>198</OrderPriority>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>UNIT_ACTION_CHANGE_HOME_CITY</IconAtlas>
+		</Row>
+		<Row>
+			<Type>MISSION_SELL_EXOTIC_GOODS</Type>
+			<Description>TXT_KEY_MISSION_SELL_EXOTIC_GOODS</Description>
+			<Help>TXT_KEY_MISSION_SELL_EXOTIC_GOODS_HELP</Help>
+			<DisabledHelp>TXT_KEY_MISSION_SELL_EXOTIC_GOODS_DISABLED_HELP</DisabledHelp>
+			<EntityEventType>ENTITY_EVENT_GREAT_EVENT</EntityEventType>
+			<Time>20</Time>
+			<Target>0</Target>
+			<Build>0</Build>
+			<Sound>0</Sound>
+			<HotKey/>
+			<AltDown>0</AltDown>
+			<ShiftDown>0</ShiftDown>
+			<CtrlDown>0</CtrlDown>
+			<HotKeyPriority>0</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+			<OrderPriority>199</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>16</IconIndex>
+			<IconAtlas>UNIT_ACTION_ATLAS</IconAtlas>
+		</Row>
+		<Row>
+			<Type>MISSION_GIVE_POLICIES</Type>
+			<Description>TXT_KEY_MISSION_GIVE_POLICIES</Description>
+			<Help>TXT_KEY_MISSION_GIVE_POLICIES_HELP</Help>
+			<EntityEventType>ENTITY_EVENT_GREAT_EVENT</EntityEventType>
+			<Time>20</Time>
+			<Target>0</Target>
+			<Build>0</Build>
+			<Sound>0</Sound>
+			<HotKey/>
+			<AltDown>0</AltDown>
+			<ShiftDown>0</ShiftDown>
+			<CtrlDown>0</CtrlDown>
+			<HotKeyPriority>0</HotKeyPriority>
+			<HotKeyAlt/>
+			<AltDownAlt>0</AltDownAlt>
+			<ShiftDownAlt>0</ShiftDownAlt>
+			<CtrlDownAlt>0</CtrlDownAlt>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+			<OrderPriority>199</OrderPriority>
+			<Visible>1</Visible>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>UNIT_ACTION_WRITE_TREATISE</IconAtlas>
+		</Row>
+		<Row>
+			<Type>MISSION_CHANGE_ADMIRAL_PORT</Type>
+			<Description>TXT_KEY_MISSION_CHANGE_ADMIRAL_PORT</Description>
+			<Help>TXT_KEY_MISSION_CHANGE_ADMIRAL_PORT_HELP</Help>
+			<Time>30</Time>
+			<Target>0</Target>
+			<Build>0</Build>
+			<Sound>0</Sound>
+			<Visible>1</Visible>
+			<OrderPriority>198</OrderPriority>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>UNIT_ACTION_CHANGE_HOME_CITY</IconAtlas>
 		</Row>
 	</Missions>
 </GameData>

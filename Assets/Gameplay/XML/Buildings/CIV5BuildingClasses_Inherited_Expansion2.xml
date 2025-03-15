@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<BuildingClasses>
+    
+    <!-- DLC 6 Statue of Zeus -->
+    <InsertOrAbort>
+      <Type>BUILDINGCLASS_STATUE_ZEUS</Type>
+      <DefaultBuilding>BUILDING_STATUE_ZEUS</DefaultBuilding>
+      <Description>TXT_KEY_BUILDING_STATUE_ZEUS</Description>
+      <MaxGlobalInstances>1</MaxGlobalInstances>
+    </InsertOrAbort>
+    
+		<!-- Religion Buildings -->
+		<Replace>
+			<Type>BUILDINGCLASS_CATHEDRAL</Type>
+			<DefaultBuilding>BUILDING_CATHEDRAL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CATHEDRAL</Description>
+		</Replace>
+		<Replace>
+			<Type>BUILDINGCLASS_MOSQUE</Type>
+			<DefaultBuilding>BUILDING_MOSQUE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MOSQUE</Description>
+		</Replace>
+		<Replace>
+			<Type>BUILDINGCLASS_PAGODA</Type>
+			<DefaultBuilding>BUILDING_PAGODA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_PAGODA</Description>
+		</Replace>
+		<!-- Normal Buildings -->
+		<Replace>
+			<Type>BUILDINGCLASS_RECYCLING_CENTER</Type>
+			<DefaultBuilding>BUILDING_RECYCLING_CENTER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_RECYCLING_CENTER</Description>
+			<MaxPlayerInstances>5</MaxPlayerInstances>
+		</Replace>
+		<Replace>
+			<Type>BUILDINGCLASS_BOMB_SHELTER</Type>
+			<DefaultBuilding>BUILDING_BOMB_SHELTER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BOMB_SHELTER</Description>
+		</Replace>
+		<Replace>
+			<Type>BUILDINGCLASS_CONSTABLE</Type>
+			<DefaultBuilding>BUILDING_CONSTABLE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CONSTABLE</Description>
+		</Replace>
+		<Replace>
+			<Type>BUILDINGCLASS_POLICE_STATION</Type>
+			<DefaultBuilding>BUILDING_POLICE_STATION</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_POLICE_STATION</Description>
+		</Replace>
+		<!-- National Wonder -->
+		<Replace>
+			<Type>BUILDINGCLASS_INTELLIGENCE_AGENCY</Type>
+			<DefaultBuilding>BUILDING_INTELLIGENCE_AGENCY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_INTELLIGENCE_AGENCY</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Replace>
+		<Replace>
+			<Type>BUILDINGCLASS_GRAND_TEMPLE</Type>
+			<DefaultBuilding>BUILDING_GRAND_TEMPLE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_GRAND_TEMPLE</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Replace>
+		<!-- Wonders -->
+		<Replace>
+			<Type>BUILDINGCLASS_ALHAMBRA</Type>
+			<DefaultBuilding>BUILDING_ALHAMBRA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ALHAMBRA</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Replace>
+		<Replace>
+			<Type>BUILDINGCLASS_CN_TOWER</Type>
+			<DefaultBuilding>BUILDING_CN_TOWER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CN_TOWER</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Replace>
+		<Replace>
+			<Type>BUILDINGCLASS_HUBBLE</Type>
+			<DefaultBuilding>BUILDING_HUBBLE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_HUBBLE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Replace>
+		<Replace>
+			<Type>BUILDINGCLASS_LEANING_TOWER</Type>
+			<DefaultBuilding>BUILDING_LEANING_TOWER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_LEANING_TOWER</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Replace>
+		<Replace>
+			<Type>BUILDINGCLASS_MOSQUE_OF_DJENNE</Type>
+			<DefaultBuilding>BUILDING_MOSQUE_OF_DJENNE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MOSQUE_OF_DJENNE</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Replace>
+		<Replace>
+			<Type>BUILDINGCLASS_NEUSCHWANSTEIN</Type>
+			<DefaultBuilding>BUILDING_NEUSCHWANSTEIN</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_NEUSCHWANSTEIN</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Replace>
+		<Replace>
+			<Type>BUILDINGCLASS_PETRA</Type>
+			<DefaultBuilding>BUILDING_PETRA</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_PETRA</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Replace>
+		<Replace>
+			<Type>BUILDINGCLASS_TERRACOTTA_ARMY</Type>
+			<DefaultBuilding>BUILDING_TERRACOTTA_ARMY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TERRACOTTA_ARMY</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Replace>
+		<Replace>
+			<Type>BUILDINGCLASS_GREAT_FIREWALL</Type>
+			<DefaultBuilding>BUILDING_GREAT_FIREWALL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_GREAT_FIREWALL</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Replace>
+	</BuildingClasses>
+</GameData>

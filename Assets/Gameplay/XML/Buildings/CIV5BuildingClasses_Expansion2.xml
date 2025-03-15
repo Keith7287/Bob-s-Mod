@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<BuildingClasses>
+		<!-- National Wonder -->
+		<Row>
+			<Type>BUILDINGCLASS_TOURIST_CENTER</Type>
+			<DefaultBuilding>BUILDING_TOURIST_CENTER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TOURIST_CENTER</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<!-- Culture Guilds-->
+		<Row>
+			<Type>BUILDINGCLASS_WRITERS_GUILD</Type>
+			<DefaultBuilding>BUILDING_WRITERS_GUILD</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_WRITERS_GUILD</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_ARTISTS_GUILD</Type>
+			<DefaultBuilding>BUILDING_ARTISTS_GUILD</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_ARTISTS_GUILD</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_MUSICIANS_GUILD</Type>
+			<DefaultBuilding>BUILDING_MUSICIANS_GUILD</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MUSICIANS_GUILD</Description>
+			<MaxPlayerInstances>1</MaxPlayerInstances>
+		</Row>
+		<!-- Normal Buildings -->
+		<Row>
+			<Type>BUILDINGCLASS_HOTEL</Type>
+			<DefaultBuilding>BUILDING_HOTEL</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_HOTEL</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_CARAVANSARY</Type>
+			<DefaultBuilding>BUILDING_CARAVANSARY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_CARAVANSARY</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_AIRPORT</Type>
+			<DefaultBuilding>BUILDING_AIRPORT</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_AIRPORT</Description>
+		</Row>
+		<!-- Wonders -->
+		<Row>
+			<Type>BUILDINGCLASS_UFFIZI</Type>
+			<DefaultBuilding>BUILDING_UFFIZI</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_UFFIZI</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_GLOBE_THEATER</Type>
+			<DefaultBuilding>BUILDING_GLOBE_THEATER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_GLOBE_THEATER</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_BROADWAY</Type>
+			<DefaultBuilding>BUILDING_BROADWAY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BROADWAY</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_RED_FORT</Type>
+			<DefaultBuilding>BUILDING_RED_FORT</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_RED_FORT</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_PRORA_RESORT</Type>
+			<DefaultBuilding>BUILDING_PRORA_RESORT</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_PRORA_RESORT</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_BOROBUDUR</Type>
+			<DefaultBuilding>BUILDING_BOROBUDUR</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_BOROBUDUR</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_PARTHENON</Type>
+			<DefaultBuilding>BUILDING_PARTHENON</DefaultBuilding>
+			<Description>TXT_KEY_PARTHENON</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+		<!-- League Projects-->
+		<Row>
+			<Type>BUILDINGCLASS_INTERNATIONAL_SPACE_STATION</Type>
+			<DefaultBuilding>BUILDING_INTERNATIONAL_SPACE_STATION</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+		</Row>
+	</BuildingClasses>
+</GameData>
