@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_PL_PL>
+    <Row Tag="TXT_KEY_ALLOWS_EMBASSY">
+      <Text>Umożliwia budowę ambasad w stolicach innych cywilizacji.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_PANTHEON_TITLE">
+      <Text>Załóż panteon</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_ALREADY_FOUNDED">
+      <Text>{@1_ReligionName} {@1_ReligionName: gender masculine?został już założony; feminine?została już założona; other?zostało już założone;} przez {@2_CivName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_AVAILABLE_LATER">
+      <Text>Dostępne później, po rozwinięciu religii</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_BONUS_BELIEF">
+      <Text>Dodatkowe wierzenie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_BYZANTINES_ONLY">
+      <Text>Dostępne jedynie dla Bizantyjczyków</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_CHANGE_NAME">
+      <Text>Zmień nazwę.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_CONFIRM">
+      <Text>Czy na pewno chcesz założyć {@1_ReligionName[4]}?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_CONFIRM_ENHANCE">
+      <Text>Czy na pewno chcesz rozwinąć {@1_ReligionName[4]}?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_ENTER_NAME">
+      <Text>Wpisz nową nazwę.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_ERROR_NAME_EMPTY">
+      <Text>Nazwa nie może być pusta.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_FOLLOWER_BELIEF">
+      <Text>Wierzenie wyznawców</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_FOLLOWER_BELIEF2">
+      <Text>Drugie wierzenie wyznawców</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_FOUNDED_IN">
+      <Text>Założono w roku {1_DateYear}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_FOUNDER_BELIEF">
+      <Text>Wierzenie założyciela</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_NAME_LABEL">
+      <Text>{1_ReligionName} [COLOR_GREEN](Kliknij, by zmienić nazwę)[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_OK_BUTTON">
+      <Text>Załóż religię</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_OK_BUTTON_ENHANCE">
+      <Text>Rozwiń religię</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_PANTHEON_BELIEF">
+      <Text>Wierzenie panteonu</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_BONUS_BELIEF">
+      <Text>Wybierz dodatkowe wierzenie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_FOLLOWER_BELIEF">
+      <Text>Wybierz wierzenie wyznawców (premia dla każdego miasta wyznającego religię).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_FOLLOWER_BELIEF2">
+      <Text>Wybierz wierzenie wyznawców.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_FOUNDER_BELIEF">
+      <Text>Wybierz wierzenie założyciela (premię dla cywilizacji założyciela).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_ICON">
+      <Text>Wybierz ikonę religii</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_PANTHEON_BELIEF">
+      <Text>Wybierz wierzenie panteonu.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SELECT_SPREAD_BELIEF">
+      <Text>Wybierz wierzenie rozwijające.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_SPREAD_BELIEF">
+      <Text>Wierzenie rozwijające</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_TITLE">
+      <Text>Załóż religię</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_TITLE_ENHANCE">
+      <Text>Rozwiń religię</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_RELIGION_UNMET_PLAYER">
+      <Text>nieznany gracz</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_GP_MOD">
+      <Text>[ICON_BULLET] Premie miasta: +{1_num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_HAS_SPY_TT">
+      <Text>{1_SpyName} zajmuje to miasto.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EGI_TRADE_ROUTE_MOD_INFO">
+      <Text>{1_Num}% modyfikator złota</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_ACTIVITY">
+      <Text>Działanie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_AGENTS">
+      <Text>Agenci</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_BUILDINGS">
+      <Text>[ICON_PLUS] Glob. zadowolenie z budynków</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_BUILDINGS_COLLAPSE">
+      <Text>[ICON_MINUS] Glob. zadowolenie z budynków</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CIVILIZATION">
+      <Text>Cywilizacja</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_COUP">
+      <Text>Przewrót</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_COUP_TT">
+      <Text>Szpieg dokona próby przewrotu, byśmy stali się sojusznikami państwa-miasta. Musi ono być już sprzymierzone z jakąś cywilizacją.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCOME_RELIGION">
+      <Text>Przychód z religii</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INTRIGUE_FROM">
+      <Text>Od</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INTRIGUE_MSG">
+      <Text>Wiadomość</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INTRIGUE_TURN">
+      <Text>Tura</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_KIA">
+      <Text>ŚMIERĆ W AKCJI</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_LOCAL_CITY">
+      <Text>[ICON_PLUS] Zadowolenie pobliskich miast</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_LOCAL_CITY_COLLAPSE">
+      <Text>[ICON_MINUS] Zadowolenie pobliskich miast</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_LOCATION">
+      <Text>Lokalizacja</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_NAME">
+      <Text>Nazwa</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_NAME_RANK">
+      <Text>Imię</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL">
+      <Text>Potencjał</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_RELIGION">
+      <Text>Religia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_RELOCATE">
+      <Text>Ruch</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_RELOCATE_SPY_QUESTION">
+      <Text>Przemieścić szpiega?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_RELOCATE_TOOLTIP">
+      <Text>Przemieszczenie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_STAGE_COUP_QUESTION">
+      <Text>{1_SpyRank} {2_SpyName} może spróbować dokonać przewrotu w {@3_CityName[6]}, dając władzę grupie pragnącej się z tobą sprzymierzyć. Frakcja rządząca, której poparciem {@4_CivShortDesc: plural 1?cieszy; 2?cieszą;} się {@4_CivShortDesc}, zostanie usunięta, a {@4_CivShortDesc: plural 1?{@4_CivShortDesc: gender masculine?jego; feminine?jej; other?jego;}; 2?ich;} wpływy zmniejszone.[NEWLINE][NEWLINE][COLOR_HIGHLIGHT_TEXT]Operacja ma {5_PERCENT}% szans na powodzenie.[ENDCOLOR] Jeśli zakończy się sukcesem, zostaniesz sojusznikiem państwa-miasta {@6_CityName[2]}, a wpływy, jakie {@7_CivShortDesc: plural 1?ma; 2?mają;} w nim {@7_CivShortDesc}, spadną. Jeśli zaś szpieg odniesie porażkę lub zostanie zabity, twoje wpływy w {@8_CityName[6]} spadną.[NEWLINE][NEWLINE]Czy chcesz by {9_SpyRank} {@10_SpyName} {@10_SpyName: gender masculine?dokonał; feminine?dokonała;} próby przewrotu w państwie-mieście {11_CityName}?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_THEIR_CITIES">
+      <Text>Ich miasta</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_TITLE">
+      <Text>Przegląd wywiadu</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_VIEW">
+      <Text>Podgląd</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_VIEW_TOOLTIP">
+      <Text>Podgląd miasta</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_YOUR_CITIES">
+      <Text>Twoje miasta</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FREE_PROMOTION_FROM_TECH">
+      <Text>Daje awans „[COLOR_POSITIVE_TEXT]{@1_PromotionName}[ENDCOLOR]” wybranym jednostkom.[NEWLINE][NEWLINE]({@2_PromotionHelp})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_22">
+      <Text>Wywiad</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_23">
+      <Text>Religia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MINOR_TRAIT_MERCANTILE">
+      <Text>Kupieckie państwa-miasta</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MINOR_TRAIT_RELIGIOUS">
+      <Text>Religijne państwa-miasta</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MO_ADMIRAL_TT">
+      <Text>{1_current}/{2_needed}[NEWLINE]Uzyskanie kolejnego wielkiego admirała zależy od punktów doświadczenia zdobytych przez jednostki morskie w trakcie walki.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MO_GA_PROGRESS">
+      <Text>Postęp wielkiego admirała</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MO_GENERAL_TT">
+      <Text>{1_current}/{2_needed}[NEWLINE]Im więcej doświadczenia zdobywają jednostki lądowe, tym częściej twoja cywilizacja może poszczycić się wielkimi generałami.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_FAITH_LABEL">
+      <Text>Wiara:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLAYER_GP_MOD">
+      <Text>[ICON_BULLET] Premie imperium: +{1_num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_OVERVIEW">
+      <Text>Przegląd religii</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_BUILDING">
+      <Text>Zakup budynku</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_GREAT_PERSON">
+      <Text>Zachowanie na {@1_GreatPersonType[4]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_INQUISITOR">
+      <Text>Zakup inkwizytora</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_MISSIONARY">
+      <Text>Zakup misjonarza</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_PROMPT">
+      <Text>Przypomnij mi później.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_PROPHET">
+      <Text>Zachowanie na wielkiego proroka</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_PURCHASE">
+      <Text>Autom. kupno za [ICON_PEACE] wiarę:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_PURCHASE_GREAT_PERSON">
+      <Text>Kup: {1_GreatPersonType}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_AUTO_FAITH_PURCHASE_PROPHET">
+      <Text>Zakup wielkiego proroka</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_B_BELIEFS">
+      <Text>Wierzenia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_B_BONUS">
+      <Text>Bonus</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_B_NO_BELIEFS">
+      <Text>Nie ma aktywnych wierzeń.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_B_RELIGION">
+      <Text>Religia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_B_TYPE">
+      <Text>Typ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_PANTHEON">
+      <Text>{@1_CivAdj} panteon</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_TYPE_ENHANCER">
+      <Text>Rozwinięcie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_TYPE_FOLLOWER">
+      <Text>Wyznawca</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_TYPE_FOUNDER">
+      <Text>Założyciel</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_TYPE_PANTHEON">
+      <Text>Panteon</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_UNKNOWN_PANTHEON">
+      <Text>Nieznany panteon</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEFS">
+      <Text>Wierzenia:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEFS_NONE">
+      <Text>Brak</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_FAITH">
+      <Text>[ICON_PEACE] WIARA: {1_NumFaith}/{2_MinFaithForProphet}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_FAITH_TOOLTIP">
+      <Text>Potrzeba przynajmniej {1_MinFaith} [ICON_PEACE] wiary, aby otrzymać kolejnego wielkiego proroka.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_NO_WORLD_RELIGIONS">
+      <Text>Nie ma religii światowych.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_POSSIBLE_GP">
+      <Text>Potencjalni wielcy ludzie:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_RELIGIOUS_STATUS">
+      <Text>Twój status religijny:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_STATUS_CAN_CREATE_PANTHEON">
+      <Text>Możesz teraz stworzyć panteon!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_STATUS_CREATED_PANTHEON">
+      <Text>Stworzono panteon.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_STATUS_FOUNDER">
+      <Text>Założono {@1_ReligionName[4]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_STATUS_NEED_FAITH">
+      <Text>Potrzeba {1_NumFaith} [ICON_PEACE] wiary, aby stworzyć panteon.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_STATUS_TOO_LATE">
+      <Text>Za późno, aby stworzyć panteon.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_TAB_BELIEFS">
+      <Text>Wierzenia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_TAB_WORLD_RELIGIONS">
+      <Text>Religie światowe</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_TAB_YOUR_RELIGION">
+      <Text>Twoja religia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_FOUNDER">
+      <Text>Założyciel</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_HOLY_CITY">
+      <Text>Święte miasto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_NUM_AVAIL_RELIGIONS">
+      <Text>Liczba religii, które mogą zostać założone: {1_NumAvailReligions}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_NUMBER_OF_CITIES">
+      <Text>Liczba miast</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_OVERALL_STATUS">
+      <Text>OGÓLNY STATUS</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_RELIGION">
+      <Text>Religia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_UNKNOWN_CIV">
+      <Text>Nieznana cywilizacja</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_WR_UNKNOWN_HOLY_CITY">
+      <Text>Nieznane miasto</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_YR_NO_GREAT_PEOPLE">
+      <Text>Brak</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_RELIGION_OFF">
+      <Text>Religia: WYŁĄCZONA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_RELIGION_OFF_TOOLTIP">
+      <Text>System religijny jest wyłączony w tym scenariuszu. Nie zyskuje się wiary. Panteony oraz religie nie mogą być zakładane.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_BASE_HEAL_MOD">
+      <Text>Podstawowa szybkość leczenia jednostek rośnie o [COLOR_POSITIVE_TEXT]{1_UnitHealingPercent}%[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_FORTIFICATION_MOD">
+      <Text>Zapewniana przez fortyfikację premia bojowa wzrasta o [COLOR_POSITIVE_TEXT]{1_UnitFortificationPercent}%[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_CS_VOTES_COL_TT_ALT">
+      <Text>Aktualna liczba sojuszniczych państw-miast</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_CS_VOTES_TT_ALT">
+      <Text>{@1_CivName} {@1_CivName: plural 1?ma; 2?mają;} następujących sojuszników:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_LIBERATED_CIV_COL_TT_ALT">
+      <Text>Na którą cywilizację głosowano w poprzednich wyborach. (Nie można głosować na siebie.)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_LIBERATED_CIV_TITLE_ALT">
+      <Text>Ostatnie głosowanie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_LIBERATED_CIV_TT_ALT">
+      <Text>W ostatnich wyborach cywilizacja {@1_VotingCivName} głosowała na cywilizację {@2_RecipientCivName}, ponieważ łączyły je najlepsze stosunki.[NEWLINE][NEWLINE]Aktualnie ich nastawienie ku tobie: {@3_MoodTowardsYou}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_LIBERATED_VOTES_COL_TT_ALT">
+      <Text>Aktualna liczba wyzwolonych państw-miast</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_LIBERATED_VOTES_TT_ALT">
+      <Text>{@1_CivName} - ostatnie wyzwolenia:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_ALT">
+      <Text>Przewidywane głosy na ciebie:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_COL_TT_ALT">
+      <Text>Przewidywana liczba głosów oddanych na każdego gracza w wyborach ONZ. Właściwa liczba głosów uzależniona jest od wydarzeń w grze, do których dojdzie między chwilą obecną a terminem wyborów.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_TITLE_ALT">
+      <Text>Przewidywane głosy</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_TT_CITYSTATES_ALT">
+      <Text>{@1_CivName} {@1_CivName: plural 1?otrzyma; 2?otrzymają;} {2_NumVotesFromMinorCivs} głosów od państw-miast, jeśli stosunki z nimi pozostaną takie jak obecnie. Państwa-miasta oddadzą głosy na cywilizacje, które wyzwoliły je jako ostatnie, lub na aktualnych sojuszników, jeśli nie mają żadnych wyzwolicieli.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_TT_CIVS_ALT">
+      <Text>W poprzednich wyborach cywilizacje oddały {2_NumVotesFromCivs} głosy (głosów) na {@1_CivName[4]}. W najbliższych wyborach może to ulec zmianie w zależności od stosunków międzynarodowych. Cywilizacje oddadzą głosy na cywilizację, z którą mają najlepsze relacje.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_TT_SUMMARY_ALT">
+      <Text>{@1_CivName} - przewidywana liczba głosów: {2_NumProjectedVotes}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_MY_VOTES_TT_UN_ALT">
+      <Text>{@1_CivName} - dodatkowy głos za zbudowanie ONZ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_SELF_VOTES_COL_TT_ALT">
+      <Text>Liczba głosów innych cywilizacji otrzymanych w ostatnich wyborach</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_SELF_VOTES_TITLE_ALT">
+      <Text>Cywilizacje</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_SELF_VOTES_TT_ALT">
+      <Text>{@1_CivName} - głosy otrzymane w ostatnich wyborach ONZ od cywilizacji z najlepszymi stosunkami:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_SUBTITLE_ALT">
+      <Text>Przewidywane wyniki następnych wyborów ONZ:</Text>
+    </Row>
+  </Language_PL_PL>
+</GameData>

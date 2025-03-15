@@ -1,0 +1,1236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_JA_JP>
+    <Row Tag="TXT_KEY_ACTIVE_DEAL_RESOURCE">
+      <Text>{2_ResourceIcon} {3_ResourceName} {1_Amount}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADDITIONAL_INTERNATIONAL_TRADE_ROUTE">
+      <Text>さらなる交易路を開設できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALLOWS_WORLD_CONGRESS">
+      <Text>すべての文明が出会うと、世界議会の創設が可能になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ANTIQUITY_SITES_TO_EXCAVATE">
+      <Text>まだ発掘していない史跡:{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ART_OTHERS_SLOT">
+      <Text>{1_CivShortDesc}は、この傑作芸術を別の傑作芸術と交換してもよいと思っている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ART_OTHERS_SLOT_EMPTY">
+      <Text>{1_CivShortDesc}は交換可能な傑作芸術を展示していない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ART_SLOT_EMPTY">
+      <Text>空き（芸術）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ART_SLOT_TT">
+      <Text>クリックすると、交換しても構わない傑作芸術を変更できる。傑作芸術は別の傑作芸術としか交換できない。他の文明とアイテムを交換すると、手に入れたアイテムは元のアイテムと同じ建築物や遺産のスロットに収められる。交換によって手に入れたアイテムを、同じターン中に再度交換することはできない。[NEWLINE][NEWLINE]スロットに収める傑作芸術を選択し、交換をしないまま自分のターンを終えると、他文明のターンにその傑作が許可なく交換される可能性がある！手放しても良いアイテムだけを展示すること！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ARTIFACT_OTHERS_SLOT">
+      <Text>{1_CivShortDesc}は、この文化遺産を別の文化遺産と交換してもよいと思っている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ARTIFACT_OTHERS_SLOT_EMPTY">
+      <Text>{1_CivShortDesc} は交換可能な文化遺産を展示していない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ARTIFACT_SLOT_EMPTY">
+      <Text>空き（文化遺産）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ARTIFACT_SLOT_TT">
+      <Text>クリックすると、交換しても構わない文化遺産を変更できる。文化遺産は別の文化遺産としか交換できない。他の文明とアイテムを交換すると、手に入れたアイテムは元のアイテムと同じ建築物や遺産のスロットに収められる。交換によって手に入れたアイテムを、同じターン中に再度交換することはできない。[NEWLINE][NEWLINE]スロットに収める文化遺産を選択し、交換をしないまま自分のターンを終えると、他文明のターンにその傑作が許可なく交換される可能性がある！手放しても良いアイテムだけを展示すること！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHANGE_ADMIRAL_PORT_ADMIRAL">
+      <Text>提督: {1_UnitName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHANGE_ADMIRAL_PORT_ITEM_CITY">
+      <Text>{1_CityName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHANGE_ADMIRAL_PORT_STARTING_CITY">
+      <Text>出発港: {1_CityName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHANGE_ADMIRAL_PORT_TITLE">
+      <Text>提督の港を変更</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHANGE_TRADE_UNIT_HOME_CITY_ITEM_CITY">
+      <Text>{1_CityName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHANGE_TRADE_UNIT_HOME_CITY_STARTING_CITY">
+      <Text>出発する都市: {1_CityName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHANGE_TRADE_UNIT_HOME_CITY_TITLE">
+      <Text>交易ユニットの拠点都市を変更</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHANGE_TRADE_UNIT_HOME_CITY_TRADE_UNIT">
+      <Text>交易ユニット: {1_UnitName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_ARTIFACT_HEADER">
+      <Text>{1_String}文化遺産の創造</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_ARTIFACT_RESULT">
+      <Text>文化遺産は最寄りの傑作芸術スロットに配置される。文化遺産は[ICON_CULTURE]文化力+2と[ICON_TOURISM]観光力+2をもたらす。考古学者が消費される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_ARTIFACT_TYPE1">
+      <Text>名高き射撃武器</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_ARTIFACT_TYPE2">
+      <Text>名高き白兵武器</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_ARTIFACT_TYPE3">
+      <Text>蛮族の居留地の名残</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_ARTIFACT_TYPE4">
+      <Text>略奪された古代遺跡</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_ARTIFACT_TYPE5">
+      <Text>焼き討ちされた都市</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_ARTIFACT_TYPE6">
+      <Text>古代の書物</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_ATTACKER">
+      <Text>攻め手:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_AUTHOR">
+      <Text>著作：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_CONQUEROR">
+      <Text>征服者:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_DEFENDER">
+      <Text>守り手:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_FOUNDER">
+      <Text>創設者:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_LANDMARK_HEADER">
+      <Text>ランドマークを築く</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_LANDMARK_MAJOR_CIV">
+      <Text>[NEWLINE][COLOR_POSITIVE_TEXT]他文明の領土内にランドマークを建設すると、その国に対する外交力が恒久的に高まる。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_LANDMARK_MINOR_CIV">
+      <Text>[NEWLINE][COLOR_POSITIVE_TEXT]都市国家の領土内にランドマークを建設すると、その都市国家に対する影響力が大幅に高まる（効果はランドマーク1つにつき1回）。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_LANDMARK_RESULT">
+      <Text>ランドマークを利用すると、その古さに応じた[ICON_CULTURE]文化力がもたらされる。この文明の現在の時代より1つ時代が下がるごとに[ICON_CULTURE]文化力+1。考古学者が消費される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_LEAD_IN">
+      <Text>考古学者による発見があった…</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_NO_SLOTS">
+      <Text>[COLOR_RED]傑作芸術のスロットがない！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_OPTIONS">
+      <Text>以下から選んでください:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_PLUNDERER">
+      <Text>略奪者:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_RENAISSANCE_HEADER">
+      <Text>文芸復興を開始する</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_RENAISSANCE_RESULT">
+      <Text>書物系文化遺産を消費することで、文明の[ICON_CULTURE]文化力を大幅に高める（効果は書物系文化遺産1つにつき1回）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_WRITING_HEADER">
+      <Text>{1_String}書物の創造</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCH_WRITTEN_ARTIFACT_RESULT">
+      <Text>古代の書物が最寄りの傑作書物スロットに配置される。書物は[ICON_CULTURE]文化力+2と[ICON_TOURISM]観光力+2をもたらす。考古学者が消費される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_ARCHAEOLOGY_TITLE">
+      <Text>考古学的発見</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_GOODY_HUT_BONUS_DESCRIPTION">
+      <Text>リストから古代遺跡ボーナスを選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_GOODY_HUT_BONUS_TITLE">
+      <Text>古代遺跡ボーナスの選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_ADOPTED_BY">
+      <Text>採用者:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_ADOPTED_BY_NOBODY">
+      <Text>[COLOR_POSITIVE_TEXT]皆無[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_BEST_VICTORY_TYPES">
+      <Text>最高の勝利のタイプ:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_CONFIRM">
+      <Text>本当に[COLOR_POSITIVE_TEXT]{@1_PolicyName}[ENDCOLOR]を採用しますか？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_NUM_FREE_POLICIES">
+      <Text>初期選択者が無償で選べる制度: {1_NumFreePolicies}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_OPTIONS">
+      <Text>以下の思想から1つを選んでください:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_IDEOLOGY_TITLE">
+      <Text>思想の選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_CULTURE">
+      <Text>[ICON_CULTURE]文化力{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}/ターン </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_DOMAIN_SEA_MODIFIER">
+      <Text>海路: {1_Num}x</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_FAITH">
+      <Text> [ICON_FAITH]信仰力{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}/ターン</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_FOOD">
+      <Text>[ICON_FOOD]食物{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}/ターン</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_GOLD">
+      <Text>[ICON_GOLD]ゴールド{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}/ターン</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_GPT_THEM">
+      <Text>相手国: [ICON_GOLD]ゴールド+{1_Num: number #}/ターン</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_GPT_YOU">
+      <Text>自国: [ICON_GOLD]ゴールド+{1_Num: number #} [ICON_GOLD]/ターン</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_PRODUCTION">
+      <Text>[ICON_PRODUCTION]生産力{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}/ターン</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_RELIGIOUS_PRESSURE">
+      <Text>{1_ReligionIcon}圧力+{2_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_SCIENCE">
+      <Text>[ICON_RESEARCH]科学力{1_Num: number \"'+'##;'[COLOR_RED]-'##\"}/ターン</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_BASE">
+      <Text>基本ゴールド: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_BUILDING">
+      <Text>{1_CityName}にある建築物のゴールド・ボーナス: {2_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_EXCLUSIVE_CONNECTION">
+      <Text>独占的な結びつきによるボーナス: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_GPT_THEIRS">
+      <Text>{1_CityName}のターン毎のゴールド: {2_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_GPT_YOURS">
+      <Text>{1_CityName}のターン毎のゴールド: {2_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_OTHER_TRAIT">
+      <Text>{1_CivAdj}特色によるもの: {2_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_POLICIES">
+      <Text>社会制度によるボーナス: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_RESOURCE_DIFFERENT">
+      <Text>{1_ResourceIcon} {2_ResourceName:textkey}: {3_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_RESOURCE_HEADER">
+      <Text>異なる資源</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_RIVER_MODIFIER">
+      <Text>川に隣接: +{1_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_REVENUE">
+      <Text>相手国の収入</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_SCIENCE_EXPLAINED">
+      <Text>我が国は{2_CivName}にはない技術を{1_Num}個獲得している。我が国に及ぼす文化的影響力により、かの国はこの交易路を通じて[ICON_RESEARCH]科学力{3_Num}を得る。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_SCIENCE_GAIN">
+      <Text>相手国の科学力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_THEIR_SCIENCE_TOTAL">
+      <Text>{1_CivName}の合計: {2_Num} [ICON_RESEARCH]科学力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_TOTAL">
+      <Text>合計: {1_Num} [ICON_GOLD]ゴールド</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_TRADEE_TOTAL">
+      <Text>{1_CivName}の合計: {2_Num} [ICON_GOLD]ゴールド</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_REVENUE">
+      <Text>自国の収入</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_EXPLAINED">
+      <Text>{1_CivName}は我が国にはない技術を{2_Num}個獲得している。かの国に及ぼす文化的影響力により、我が国はこの交易路を通じて[ICON_RESEARCH]科学力{3_Num}を得る。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_GAIN">
+      <Text>自国の科学力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_ITEM_TT_YOUR_SCIENCE_TOTAL">
+      <Text>合計: {1_Num}[ICON_RESEARCH]科学力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_PREV_ROUTE">
+      <Text>以前のルート</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_RANGE">
+      <Text>到達可能距離: {1_Num}タイル</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_CITYNAME">
+      <Text>都市名</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_CIVNAME">
+      <Text>文明名</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_MAX_GOLD">
+      <Text>最高ゴールド</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_MAX_GOLD_DELTA">
+      <Text>最高ゴールド差</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_MAX_SCIENCE">
+      <Text>最高科学力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_SORT_MAX_SCIENCE_DELTA">
+      <Text>最高科学力差</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_STARTING_CITY">
+      <Text>出発する都市: {1_CityName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_TITLE">
+      <Text>交易路の設立</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_INTERNATIONAL_TRADE_ROUTE_TRADE_UNIT">
+      <Text>交易ユニット: {1_UnitName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_REFORMATION_BELIEF_TITLE">
+      <Text>改革の信仰の証を追加</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_TRADE_ROUTE_CITY_STATES">
+      <Text>[ICON_MINUS]都市国家</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_TRADE_ROUTE_CITY_STATES_COLLAPSED">
+      <Text>[ICON_PLUS]都市国家</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_TRADE_ROUTE_MAJOR_CIVS">
+      <Text>[ICON_MINUS]主要文明</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_TRADE_ROUTE_MAJOR_CIVS_COLLAPSED">
+      <Text>[ICON_PLUS]主要文明</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_TRADE_ROUTE_TRADE_OVERVIEW">
+      <Text>交易の概要</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_TRADE_ROUTE_YOUR_CITIES">
+      <Text>[ICON_MINUS]自文明の都市</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CHOOSE_TRADE_ROUTE_YOUR_CITIES_COLLAPSED">
+      <Text>[ICON_PLUS]自文明の都市</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_DIPLOMAT_OTHER_CIV_TT">
+      <Text>{1_SpyRank}{2_SpyName}が{3_CityName}で外交官として行動している。市内にいる間、{4_SpyRank}{5_SpyName}は内偵を行い、滞在先の文明が世界議会でどう投票しようとしているかを報告してくれる。また、{6_SpyRank}{7_SpyName}は、滞在中に陰謀を発見すると、その情報も提供してくれる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYVIEW_TOURISM_TEXT">
+      <Text>観光力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CLEAR_BUTTON">
+      <Text>クリア</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CLEAR_BUTTON_TT">
+      <Text>提案した傑作の交換をリセットする。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_BUILDING_BONUS">
+      <Text>{2_BuildingName}を保有していることにより+{1_Num}%のボーナス</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_CARNIVAL_BONUS">
+      <Text>カーニバル期間中により+{1_Num}%のボーナス</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_COMMON_FOE_BONUS">
+      <Text>共通の敵と交戦中のため+{1_Num}%のボーナス:[NEWLINE]   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_DIFFERENT_IDEOLOGY_PENALTY">
+      <Text>思想が異なることにより{1_Num}%のペナルティー:[NEWLINE]   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_FAITH_BUILDINGS">
+      <Text>[ICON_PEACE]信仰力によって建設された建物から{1_Num}の [ICON_TOURISM]観光力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_GREAT_WORKS">
+      <Text>{2_Num}つの[ICON_GREAT_WORK]傑作があることにより[ICON_TOURISM]観光力{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_LEAGUES_BONUS">
+      <Text>世界的宗教の聖都となっていることにより+{1_Num}%のボーナス</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_LESS_HAPPY_BONUS">
+      <Text>相手の[ICON_HAPPINESS_1]幸福度が低いため+{1_Num}%のボーナス:[NEWLINE]   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_OPEN_BORDERS_BONUS">
+      <Text>国境の開放により+{1_Num}%のボーナス:[NEWLINE]   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_RELIGION_BONUS">
+      <Text>共通の宗教により+{1_Num}%のボーナス:[NEWLINE]   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_RELIGIOUS_ART">
+      <Text>宗教芸術の信仰の証から{1_Num}の[ICON_TOURISM]観光力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_SHARED_IDEOLOGY_BONUS">
+      <Text>共通の思想により+{1_Num}%のボーナス:[NEWLINE]   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_TECH_BONUS">
+      <Text>技術から+{1_Num}%のボーナス</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_TECH_ENHANCED">
+      <Text>建築物から{1_Num}の[ICON_TOURISM]観光力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_THEMING_BONUSES">
+      <Text>博物館と遺産のテーマ化により[ICON_TOURISM]観光力{1_Num} </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_TILES">
+      <Text>世界遺産、自然遺産、資源活用施設による[ICON_CULTURE]文化力{2_Num}%により[ICON_TOURISM]観光力{1_Num} </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CITY_TOURISM_TRADE_ROUTE_BONUS">
+      <Text>交易路により+{1_Num}%のボーナス:[NEWLINE]   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CIVILIZATION_HEADER">
+      <Text>文明</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CLICK_TO_MOVE">
+      <Text>クリックで移動</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CLICK_TO_MOVE_TT">
+      <Text>傑作を左クリックすると、別の場所に移せる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CLICK_TO_VIEW">
+      <Text>クリックで表示</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CLICK_TO_VIEW_TT">
+      <Text>傑作を左クリックするとそれが表示される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_CULTURE_HEADER_TT">
+      <Text>この都市が生み出す[ICON_CULTURE]文化力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_DOMINANT">
+      <Text>[COLOR_MAGENTA]支配的[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_EXOTIC">
+      <Text>[COLOR_WHITE]興味[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_FALLING">
+      <Text>[COLOR_RED]下降中[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_FAMILIAR">
+      <Text>[COLOR_WHITE]親しみ[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_GREAT_WORK_HEADER">
+      <Text>[ICON_GREAT_WORK]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_GREAT_WORK_HEADER_TT">
+      <Text>都市にある[ICON_GREAT_WORK]傑作</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_GREAT_WORK_SLOTS_TT">
+      <Text>書物: {1_String}[NEWLINE]芸術: {2_String}[NEWLINE]音楽: {3_String}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_GREAT_WORK_SLOTS_TT_ENTRY">
+      <Text>{1_Num}/{2_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_GREAT_WORK_TT">
+      <Text>書物: {1_String}[NEWLINE]芸術: {2_String}[NEWLINE]音楽: {3_String}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_INFLUENCE_BONUSES_DOMINANT">
+      <Text>発生するボーナス：[NEWLINE]- 影響下にある文明へのすべての交易路:[NEWLINE][ICON_RESEARCH]科学力+4[NEWLINE]- 影響下にある文明の都市や、その文明と同盟関係にある都市国家では、[ICON_SPY]スパイが1ターンで内偵を行えるうえ、スパイのランクが2つ上がる[NEWLINE]- 影響下にある文明の都市を征服する場合:[NEWLINE]「不穏」期間や人口の喪失がない</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_INFLUENCE_BONUSES_FAMILIAR">
+      <Text>[NEWLINE][NEWLINE]発生するボーナス：[NEWLINE]- 影響下にある文明へのすべての交易路:[NEWLINE][ICON_RESEARCH]科学力+1[NEWLINE]- [ICON_SPY]スパイが内偵を1ターンで行う[NEWLINE]- 影響下にある文明の都市を征服する場合:[NEWLINE]「不穏」期間と人口の喪失が25%軽減される</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_INFLUENCE_BONUSES_INFLUENTIAL">
+      <Text>[NEWLINE][NEWLINE]発生するボーナス：[NEWLINE]- 影響下にある文明へのすべての交易路:[NEWLINE][ICON_RESEARCH]科学力+3[NEWLINE]- 影響下にある文明の都市や、その文明と同盟関係にある都市国家では、[ICON_SPY]スパイが1ターンで内偵を行えるうえ、スパイのランクが1つ上がる[NEWLINE]- 影響下にある文明の都市を征服する場合:[NEWLINE]「不穏」期間と人口の喪失が75%軽減される</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_INFLUENCE_BONUSES_POPULAR">
+      <Text>[NEWLINE][NEWLINE]発生するボーナス：[NEWLINE]- 影響下にある文明へのすべての交易路:[NEWLINE][ICON_RESEARCH]科学力+2[NEWLINE]- 影響下にある文明と同盟関係にある都市国家では、[ICON_SPY]スパイが1ターンで内偵を行えるうえ、スパイのランクが1つ上がる[NEWLINE]- 影響下にある文明の都市を征服する場合:[NEWLINE]「不穏」期間と人口の喪失が50%軽減される</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_INFLUENCE_LEVEL_HEADER_TT">
+      <Text>取りえる値:[NEWLINE]- 不明[NEWLINE]- 興味[NEWLINE]- 親しみ[NEWLINE]- 人気[NEWLINE]- 影響力大[NEWLINE]- 支配的[NEWLINE][NEWLINE]影響力のレベルが「親しみ」以上の場合に発生する、影響下にある文明に対するボーナス:[NEWLINE] 1. 交易路から[ICON_RESEARCH]科学力ボーナスが得られる[NEWLINE] 2. [ICON_SPY]スパイが強化される[NEWLINE] 3. 征服した都市の支配が容易になる</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_INFLUENCE_MODIFIERS_HEADER_TT">
+      <Text>目標となる都市の[ICON_TOURISM]観光力への修正</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_INFLUENCE_PERCENT_HEADER_TT">
+      <Text>目標文明の生涯[ICON_CULTURE]文化力に対する生涯[ICON_TOURISM]観光力の割合</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_INFLUENCE_TOURISM_HEADER_TT">
+      <Text>修正後の観光力[ICON_TOURISM]産出量</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_INFLUENCE_TREND_HEADER_TT">
+      <Text>上昇または下降インジケーター[NEWLINE]（上昇中の場合は、カーソルを合わせることで「影響力大」までのターン数がわかる）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_INFLUENTIAL">
+      <Text>[COLOR_MAGENTA]影響力大[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_INFLUENTIAL_HEADER">
+      <Text>影響力大</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_INFLUENTIAL_HEADER_TT">
+      <Text>文化による勝利の達成に必要な総数に対する文化が「影響力大」に達した文明の数</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_INFLUENTIAL_TURNS_TT">
+      <Text>「影響力大」になるまであと{1_Num}ターン（観光力の産出量に変化がない場合）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_LEVEL_HEADER">
+      <Text>レベル</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_MODIFIERS_HEADER">
+      <Text>+/- %</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_NO_THEME">
+      <Text>テーマ化ボーナスなし</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_OPINION_TT_FOR_AUTOCRACY">
+      <Text>[NEWLINE][COLOR_POSITIVE_TEXT]独裁政治[ENDCOLOR]:[NEWLINE]{1_String}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_OPINION_TT_FOR_FREEDOM">
+      <Text>[NEWLINE][COLOR_POSITIVE_TEXT]自由[ENDCOLOR]:[NEWLINE]{1_String}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_OPINION_TT_FOR_ORDER">
+      <Text>[NEWLINE][COLOR_POSITIVE_TEXT]秩序[ENDCOLOR]:[NEWLINE]{1_String}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_OPINION_TT_INFLUENCED_BY">
+      <Text>他文明が選択している思想からの影響:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_OPINION_TT_INFLUENCED_WORLD_IDEOLOGY">
+      <Text>世界議会が選んだ世界的思想による影響</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_OPINION_TT_NOT_INFLUENCED">
+      <Text>他文明の思想には影響されていない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_OPINION_TT_OVERVIEW">
+      <Text>世論は思想を採用すると形成され、自分たちの思想の他文明に対する影響力と、他文明の思想の自分たちの文明に対する影響力の相対的な強さに基づいて算定される。[NEWLINE][NEWLINE]他の思想の圧力が、現在の自分たちの思想の圧力を上回ると、世論は[COLOR_POSITIVE_TEXT]「満足」[ENDCOLOR]ではなくなり[ICON_HAPPINESS_4]不満度が上がってしまう。以下に示すのは思想の圧力の単位の概要である。[NEWLINE][NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_OPINION_TT_PREFERRED_IDEOLOGY">
+      <Text>[NEWLINE][NEWLINE]親和的思想: [COLOR_POSITIVE_TEXT]{1_String}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_OPINION_TT_UNHAPPINESS_LINE1">
+      <Text>世論が[ICON_HAPPINESS_4]{1_Num}を創出</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_OPINION_TT_UNHAPPINESS_LINE2">
+      <Text>[NEWLINE]より大きい方:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_OPINION_TT_UNHAPPINESS_LINE3">
+      <Text>[NEWLINE]   都市ごとに[ICON_HAPPINESS_4]{1_Num}、または</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_OPINION_TT_UNHAPPINESS_LINE4">
+      <Text>[NEWLINE]   人口{1_Num}ごとに[ICON_HAPPINESS_4]1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PERCENT_HEADER">
+      <Text>[ICON_TOURISM] vs. [ICON_CULTURE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PLAYER_PULLDOWN">
+      <Text>プレイヤーを選択</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PLAYER_TOURISM_CARNIVAL">
+      <Text>カーニバル期間中により+{1_Num}%のボーナス[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PLAYER_TOURISM_COMMON_FOE">
+      <Text>共通の敵と交戦中のため+{1_Num}%のボーナス[NEWLINE]   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PLAYER_TOURISM_DIFFERENT_IDEOLOGIES">
+      <Text>思想が異なることにより{1_Num}%のペナルティー[NEWLINE]   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PLAYER_TOURISM_LESS_HAPPY">
+      <Text>相手国の[ICON_HAPPINESS_1]幸福度が低いため+{1_Num}%のボーナス[NEWLINE]   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PLAYER_TOURISM_OPEN_BORDERS">
+      <Text>国境の開放により+{1_Num}%のボーナス[NEWLINE]   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PLAYER_TOURISM_PROPAGANDA">
+      <Text>外交官のプロパガンダから+{1_Num}%のボーナス[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PLAYER_TOURISM_RELIGION_NOTE">
+      <Text>共通の宗教から+{1_Num}%のボーナス[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PLAYER_TOURISM_SHARED_IDEOLOGY">
+      <Text>共通の思想により+{1_Num}%のボーナス[NEWLINE]   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PLAYER_TOURISM_TRADE_ROUTE">
+      <Text>交易路により+{1_Num}%のボーナス[NEWLINE]   </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_POPULAR">
+      <Text>[COLOR_WHITE]人気[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PUBLIC_OPINION_CIVIL_RESISTANCE">
+      <Text>[COLOR_YELLOW]国民の抵抗[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PUBLIC_OPINION_CONTENT">
+      <Text>[COLOR_POSITIVE_TEXT]満足[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PUBLIC_OPINION_DISSIDENTS">
+      <Text>不同意</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PUBLIC_OPINION_HAPPINESS">
+      <Text>[COLOR_POSITIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PUBLIC_OPINION_REVOLUTIONARY_WAVE">
+      <Text>[COLOR_NEGATIVE_TEXT]革命の波[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_PUBLIC_OPINION_UNHAPPINESS">
+      <Text>[COLOR_NEGATIVE_TEXT]{1_Num}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_RISING">
+      <Text>[COLOR_GREEN]上昇中[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_RISING_SLOWLY">
+      <Text>[COLOR_PLAYER_LIGHT_GREEN_TEXT]徐々に上昇中[COLOR_PLAYER_LIGHT_GREEN_TEXT]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_STATIC">
+      <Text>[COLOR_WHITE]停滞[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_TAB_CULTURE_VICTORY">
+      <Text>文化による勝利</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_TAB_PLAYER_INFLUENCE">
+      <Text>プレイヤーの影響</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_TAB_SWAP_GREAT_WORKS">
+      <Text>傑作の交換</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_TAB_YOUR_CULTURE">
+      <Text>自文明</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_THIRD_PARTY_CULTURE_INFLUENCE">
+      <Text>{1_Civ}の{3_Civ}に対する影響力は{2_Num: number #.#}%です。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_THIRD_PARTY_CULTURE_INFLUENCE_UNMET">
+      <Text>未知の文明に対する{1_Civ}の影響力は{2_Num: number #.#}%である。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_TOURISM_HEADER">
+      <Text>[ICON_TOURISM]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_TOURISM_HEADER_TT">
+      <Text>この都市が生み出す[ICON_TOURISM]観光力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_TOURISM_OUTPUT">
+      <Text>現在の[ICON_TOURISM]観光力生産量: </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_TOURISM_PERCENT_TT">
+      <Text>{1_String}[NEWLINE]{3_Num}%到達で次のレベル:{2_String}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_TREND_HEADER">
+      <Text>傾向</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_UNKNOWN">
+      <Text>[COLOR_GREY]不明[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_VICTORY_EXCESS_HAPPINESS_HEADER">
+      <Text>全体の [ICON_HAPPINESS_1]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_VICTORY_EXCESS_HAPPINESS_HEADER_TT">
+      <Text>現在の総合的な[ICON_HAPPINESS_1]幸福度レベル[NEWLINE][NEWLINE]この合計には、世論の生み出す不満度も含まれている。この値が-20以下になると、反乱が起きて文明は都市の支配権を失い始める。また、文明の思想が国民にとっての親和的思想に切り替わる場合がある（親和的思想は世論のツールヒントで確認できる）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_VICTORY_IDEOLOGY_HEADER">
+      <Text>思想</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_VICTORY_IDEOLOGY_HEADER_TT">
+      <Text>この文明が選択している思想</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_VICTORY_INFLUENTIAL_OF">
+      <Text>全{2_TotalCivs}中{1_NumInfluentialCivs}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_VICTORY_PUBLIC_OPINION_HEADER">
+      <Text>世論</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_VICTORY_PUBLIC_OPINION_HEADER_TT">
+      <Text>選択している思想に対する文明の満足度。[NEWLINE][NEWLINE]取りえる値:[NEWLINE][COLOR_POSITIVE_TEXT]- 満足[ENDCOLOR][NEWLINE]- 不同意[NEWLINE][COLOR_YELLOW]- 国民の抵抗[ENDCOLOR][NEWLINE][COLOR_NEGATIVE_TEXT]- 革命の波[ENDCOLOR][NEWLINE][NEWLINE]この満足度レベルが[COLOR_POSITIVE_TEXT]満足[ENDCOLOR]でない場合には[ICON_HAPPINESS_4]不満が生じる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_VICTORY_PUBLIC_OPINION_UNHAPPINESS_HEADER">
+      <Text>[ICON_HAPPINESS_4]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_VICTORY_PUBLIC_OPINION_UNHAPPINESS_HEADER_TT">
+      <Text>世論による現在の[ICON_HAPPINESS_4]不満度。[NEWLINE][NEWLINE]指導者が選択した思想を、この文明の民がどの程度支持しているかの目安とされる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_VICTORY_TOURISM_HEADER_TT">
+      <Text>この文明が生み出す[ICON_TOURISM]観光力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CO_WORLD_MUSEUM">
+      <Text>世界</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_CHOOSE_TRADE_ROUTE">
+      <Text>よろしいですか？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_OVERVIEW">
+      <Text>文化の概要</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_OVERVIEW_TT">
+      <Text>文化の概要</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DECLARE_WAR_ACTIVE_DEALS">
+      <Text>同意中の取引</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DECLARE_WAR_ALLIED_CITYSTATES">
+      <Text>同盟都市国家</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DECLARE_WAR_ALLIES_HEADER">
+      <Text>同盟している都市国家</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DECLARE_WAR_DEALS_FROM_OTHER">
+      <Text>{1_CivName}から</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DECLARE_WAR_DEALS_FROM_YOU">
+      <Text>我が国から</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DECLARE_WAR_DEALS_HEADER">
+      <Text>{1_CivName}との取引</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DECLARE_WAR_DEALS_TURNS_LEFT">
+      <Text>残り{1_Num}ターン</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DECLARE_WAR_NAME_DESC">
+      <Text>{1_PlayerName} ({2_EraName})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DECLARE_WAR_NO">
+      <Text>いいえ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DECLARE_WAR_TOP">
+      <Text>本当に{1_CivName}に宣戦布告してもよろしいですか？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DECLARE_WAR_TRADE_ROUTES">
+      <Text>交易路</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DECLARE_WAR_TRADE_ROUTES_HEADER">
+      <Text>交易路</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DECLARE_WAR_TRADES_FROM_THEM">
+      <Text>敵国から:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DECLARE_WAR_TRADES_FROM_YOU">
+      <Text>我が国から:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DECLARE_WAR_UNDER_PROTECTION_OF">
+      <Text>次の勢力の庇護下にある：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DECLARE_WAR_YES">
+      <Text>はい</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MY_SCORE_GREAT_WORKS">
+      <Text>傑作から{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MY_SCORE_POLICIES">
+      <Text>制度から{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MY_SCORE_RELIGION">
+      <Text>宗教から{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOMAT_PICKER_DIPLOMAT">
+      <Text>外交官</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOMAT_PICKER_SPY">
+      <Text>スパイ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DOUBLE_TOURISM">
+      <Text>[ICON_TOURISM]観光力の産出が2倍になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_DIPLOMACY_AND_LEAGUE_SESSION">
+      <Text>外交[NEWLINE][NEWLINE]世界議会召集までのターン数: {1_Num}[NEWLINE][NEWLINE]時代の進展にともない、間隔は次第に短くなっていく。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_DIPLOMACY_AND_VICTORY_SESSION">
+      <Text>外交[NEWLINE][NEWLINE]国連が召集されるまで:{1_TurnsUntilSession}ターン[NEWLINE][NEWLINE]次に[COLOR_POSITIVE_TEXT]世界の指導者[ENDCOLOR]の選出が提案されるまで:{2_TurnsUntilVictorySession}ターン[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]外交による勝利[ENDCOLOR]を収めることが可能になった。勝利するには、[COLOR_POSITIVE_TEXT]世界の指導者[ENDCOLOR]の選出が提案されたとき、十分な数の代表から支持されなくてはならない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCOME_TRADE">
+      <Text>都市の結びつき</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCOME_TRADE_DETAILS">
+      <Text>[ICON_PLUS]都市の結びつき</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCOME_TRADE_DETAILS_COLLAPSE">
+      <Text>[ICON_MINUS]都市の結びつき</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_TRADE">
+      <Text>都市の結びつき</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_TRADE_ROUTES">
+      <Text>[ICON_PLUS]都市の結びつき</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_TRADE_ROUTES_COLLAPSE">
+      <Text>[ICON_MINUS]都市の結びつき</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXTENDS_LAND_TRADE_ROUTE_RANGE">
+      <Text>陸上交易路の到達可能距離が伸びる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXTENDS_SEA_TRADE_ROUTE_RANGE">
+      <Text>海上交易路の到達可能距離が伸びる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXTRA_VOTES_FROM_DIPLOMATS">
+      <Text>他文明の[ICON_CAPITAL]首都に[ICON_DIPLOMAT]外交官として潜入しているスパイ1につき世界議会で代表を+{1_DelegatesPerDiplomat}獲得。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_24">
+      <Text>交易</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_CONCEPT_SECTION_25">
+      <Text>世界議会</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOLDENAGE_GP_MOD">
+      <Text>[ICON_BULLET]カーニバルのボーナス: +{1_num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_POPUP_WRITTEN_ARTIFACT">
+      <Text>書物系文化遺産</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_ART_ARTIFACT_SLOTS_TOOLTIP">
+      <Text>[ICON_GREAT_WORK]傑作芸術・文化遺産スロット: {1_NumSlots}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_LITERATURE_SLOTS_TOOLTIP">
+      <Text>[ICON_GREAT_WORK]傑作書物スロット: {1_NumSlots}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_MUSIC_SLOTS_TOOLTIP">
+      <Text>[ICON_GREAT_WORK]傑作音楽スロット: {1_NumSlots}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HAPPINESS_FROM_LEAGUES">
+      <Text>世界議会</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HIDDEN_SITES_TO_EXCAVATE">
+      <Text>まだ発掘されていない隠された史跡: {1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MUSIC_OTHERS_SLOT">
+      <Text> {1_CivShortDesc}は、この傑作音楽を別の傑作音楽と交換してもよいと思っている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MUSIC_OTHERS_SLOT_EMPTY">
+      <Text>{1_CivShortDesc}は交換可能な傑作音楽を展示していない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MUSIC_SLOT_EMPTY">
+      <Text>空き（音楽）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MUSIC_SLOT_TT">
+      <Text>クリックすると、傑作音楽と交換しても構わないアイテムを変更できる。傑作音楽は別の傑作音楽としか交換できない。他の文明とアイテムを交換すると、手に入れたアイテムは元のアイテムと同じ建築物や遺産のスロットに収められる。交換によって手に入れたアイテムを、同じターン中に再度交換することはできない。[NEWLINE][NEWLINE]スロットに収める傑作音楽を選択し、交換をしないまま自分のターンを終えると、他文明のターンにその傑作が許可なく交換される可能性がある！手放しても良い傑作や文化遺産だけを展示すること！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_SWAPPING">
+      <Text>クリア</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_SWAPPING_TT">
+      <Text>このスロットはクリアされ、自分のターンで他のものと交換できなくなる。また、スロットが空きになっている場合は、他の文明もこのタイプのアイテムを交換できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TUTORIAL_NEW_TO_XP">
+      <Text>「神々と諸王」用</Text>
+    </Row>
+    <Row Tag="TXT_KEY_OPSCREEN_TUTORIAL_NEW_TO_XP2">
+      <Text>「素晴らしき新世界」用</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PEDIA_SPEC_HELP_TEXT">
+      <Text>周囲の世界を一変させるような人々の登場により、人類の歴史は変遷を続けてきた。芸術家、科学者、将軍、商人など、肩書きはさまざまだが、彼らはみな並外れた才能に恵まれている。新時代を切り開くこうした人々を、このゲームでは“偉人”と呼んでいる。[NEWLINE][NEWLINE]本作では、大商人、大芸術家、大音楽家、大著述家、大科学者、大技術者、大将軍、大提督、大預言者という9種類の偉人と出会うことができる。彼らはそれぞれ特殊な能力を備えている。[NEWLINE][NEWLINE]偉人を獲得するには、特定の建築物や遺産を建設し、そこに“専門家”（都市で暮らす市民のうち、畑や鉱山で働くことをやめた者）を配置する必要がある。専門家は都市のタイルを活用することはできないが、偉人の誕生を大幅に早めてくれる。必要な生産力や食料を維持しつつ、偉人の誕生を促すのは容易ではないが、この舵取りが都市運営の醍醐味でもある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_GP_MOD">
+      <Text>[ICON_BULLET]社会制度ボーナス：+{1_num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_CITY_TOURISM">
+      <Text>皆が訪れたい都市</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_CITY_TOURISM_TT">
+      <Text>[ICON_TOURISM]観光力の産出量で都市をランク付けする。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_CULTURAL_INFLUENCE">
+      <Text>皆が会いに行きたい人々</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROGRESS_SCREEN_CULTURAL_INFLUENCE_TT">
+      <Text>どの文明の[ICON_CULTURE]文化が「影響力大」になったかでプレイヤーをランク付けする。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RO_BELIEF_TYPE_REFORMATION">
+      <Text>改革</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_BONUS_CITY_STATE">
+      <Text>[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]この都市国家は、貴国の強い文化的影響下にある文明と同盟を結んでいるため、スパイの活動は通常よりも{1_SpyBonus}ランク強まっている。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_BONUS_MAJOR_CIV">
+      <Text>[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]この文明は貴国の強い文化的影響力を受けているため、スパイの活動は通常よりも{1_SpyBonus}ランク強まっている。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SWAP_ART_HEADER">
+      <Text>芸術</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SWAP_ARTIFACT_HEADER">
+      <Text>文化遺産</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SWAP_BUTTON">
+      <Text>交換</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SWAP_BUTTON_DISABLED_TT">
+      <Text>傑作や文化遺産を交換するには、まず自分の所有するアイテムを選択し、他の文明の同種のアイテムを選択すること（傑作書物は別の傑作書物としか交換できない）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SWAP_BUTTON_TT">
+      <Text>自国の傑作や文化遺産を別の文明の傑作や文化遺産と交換する。自国のアイテムが相手の都市の1つに移動し、そのアイテムが入っていたスロットに相手のアイテムが入る。アイテムの交換は1ターンに1度しか行えない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SWAP_CLEAR_SPOT">
+      <Text>この場所を空にする</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SWAP_MUSIC_HEADER">
+      <Text>音楽</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SWAP_NAME">
+      <Text>交戦中の文明を除いて、どの文明とも傑作や文化遺産の交換ができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SWAP_THEIRS">
+      <Text>相手国</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SWAP_THIS">
+      <Text>選択{1_String}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SWAP_WRITING_HEADER">
+      <Text>筆記</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SWAP_YOURS">
+      <Text>自国</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TO_AVAILABLE_TR_TT">
+      <Text>開設できる交易路の一覧（すでに開設したものも含む）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TO_EXISTING_TR_TT">
+      <Text>あなたが他の都市に向けて開設した交易路の一覧。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TO_OTHERS_TR_TT">
+      <Text>他文明があなたの都市に向けて開設した交易路の一覧。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_INTERNATIONAL_TRADE_ROUTES">
+      <Text>[ICON_TURNS_REMAINING] {1_TradeRoutesUsedNum} / {2_TradeRoutesAvailable}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_INTERNATIONAL_TRADE_ROUTES_TT">
+      <Text>現在の交易ユニット数は{1_TradeRoutesUsedNum}。[NEWLINE]{2_TradeRoutesAvailableNum}本の交易路が利用可能。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_INTERNATIONAL_TRADE_ROUTES_TT_UNASSIGNED">
+      <Text>任務を割り当てていない{2_UnitName}が{1_Num}ある。[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_CITY_STATE_TT">
+      <Text>都市国家</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_CULTURE_YIELD_TT">
+      <Text>[ICON_CULTURE]文化力{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_ESTABLISHED_BY_OTHER_TT">
+      <Text>他文明があなたの文明に向けて開設した交易路</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_ESTABLISHED_BY_PLAYER_TT">
+      <Text>あなたの開設した交易路</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_FAITH_YIELD_TT">
+      <Text>[ICON_FAITH]信仰力{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_FOOD_YIELD_TT">
+      <Text>[ICON_FOOD]食物{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_GOLD_YIELD_TT">
+      <Text>[ICON_GOLD]ゴールド{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_INTERNAL_YOUR_ROUTE_BOTH_TT">
+      <Text>{1_CityName} ({2_ResourcesStr}) [ICON_TURNS_REMAINING] {3_CityName} ({4_ResourcesStr})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_INTERNAL_YOUR_ROUTE_ONLY_DEST_TT">
+      <Text>{1_CityName} [ICON_TURNS_REMAINING] {2_CityName} ({3_ResourcesStr})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_INTERNAL_YOUR_ROUTE_ONLY_ORIGIN_TT">
+      <Text>{1_CityName} ({2_ResourcesStr}) [ICON_TURNS_REMAINING] {3_CityName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_PRODUCTION_YIELD_TT">
+      <Text>[ICON_PRODUCTION]生産力{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_SCIENCE_YIELD_TT">
+      <Text>[ICON_RESEARCH]科学力{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_TO_YOU_ROUTE_BOTH_TT">
+      <Text>({1_CivName}) {2_CityName} ({3_ResourcesStr}) [ICON_TURNS_REMAINING] {4_CityName} ({5_ResourcesStr})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_TO_YOU_ROUTE_ONLY_DEST_TT">
+      <Text>({1_CivName}) {2_CityName} [ICON_TURNS_REMAINING] {3_CityName} ({4_ResourcesStr})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_TO_YOU_ROUTE_ONLY_ORIGIN_TT">
+      <Text>({1_CivName}) {2_CityName} ({3_ResourcesStr}) [ICON_TURNS_REMAINING] {4_CityName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_YOUR_ROUTE_BOTH_TT">
+      <Text>{1_CityName} ({2_ResourcesStr}) [ICON_TURNS_REMAINING] ({3_CivName}) {4_CityName} ({5_ResourcesStr})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_YOUR_ROUTE_ONLY_DEST_TT">
+      <Text>{1_CityName} [ICON_TURNS_REMAINING] ({2_CivName}) {3_CityName} ({4_ResourcesStr})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_ITR_YOUR_ROUTE_ONLY_ORIGIN_TT">
+      <Text>{1_CityName} ({2_ResourcesStr}) [ICON_TURNS_REMAINING] ({3_CivName}) {4_CityName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_TOURISM_TOOLTIP_1">
+      <Text>使用中の[ICON_GREAT_WORK]傑作スロット：{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_TOURISM_TOOLTIP_2">
+      <Text>空いている[ICON_GREAT_WORK]傑作スロット：{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TOP_PANEL_TOURISM_TOOLTIP_3">
+      <Text>文化による勝利を収めるには{1_XofYString}つの文明に対して「影響力大」になる</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_ROUTE_OVERVIEW">
+      <Text>交易路の概要</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_ROUTE_TT_PLOT_CARAVAN">
+      <Text>{1_CivAdj}隊商</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_ROUTE_TT_PLOT_CARGO_SHIP">
+      <Text>{1_CivAdj}貨物船</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_ROUTE_TT_PLOT_HEADING">
+      <Text>交易路：[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_ROUTE_TT_PLOT_MAJOR_MAJOR">
+      <Text>{1_CityName} ({2_CivName}) [ICON_TURNS_REMAINING] {3_CityName} ({4_CivName})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_ROUTE_TT_PLOT_MAJOR_MINOR">
+      <Text>{1_CityName} ({2_CivName}) [ICON_TURNS_REMAINING] {3_CityName}（都市国家）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_UNIT_CONSTRUCTION_NO_EXTRA_SLOTS">
+      <Text>[NEWLINE][NEWLINE]交易ユニットの上限に達しているため、交易ユニットは生産できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_UNIT_CONSTRUCTION_NONE_OF_TYPE_LAND">
+      <Text>[NEWLINE][NEWLINE]利用できる陸上交易路がないため、この交易ユニットは生産できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRADE_UNIT_CONSTRUCTION_NONE_OF_TYPE_SEA">
+      <Text>[NEWLINE][NEWLINE]利用できる海上交易路がないため、この交易ユニットは生産できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_DOMAIN">
+      <Text>[ICON_INTERNATIONAL_TRADE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_DOMAIN_TT">
+      <Text>交易ユニットには、陸上を移動するもの（隊商）と海上を移動するもの（貨物船）がある。[NEWLINE][NEWLINE]クリックすると交易路の種類（陸上/海上）で並べ替える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_FROM_CITY">
+      <Text>[ICON_ARROW_LEFT]都市</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_FROM_CITY_TT">
+      <Text>クリックすると、交易路の出発地である都市で並べ替える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_FROM_CIV_TT">
+      <Text>クリックすると、交易路の出発地である文明で並べ替える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_FROM_GPT">
+      <Text>[ICON_ARROW_LEFT][ICON_GOLD]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_FROM_GPT_TT">
+      <Text>クリックすると、交易路を設けた文明がこの交易路から得る[ICON_GOLD]ゴールドの額で並べ替える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_FROM_RELIGION">
+      <Text>[ICON_ARROW_LEFT][ICON_RELIGION]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_FROM_RELIGION_TT">
+      <Text>クリックすると、交易路の出発地である都市が目的地である都市から受ける宗教的圧力で並べ替える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_FROM_SCIENCE">
+      <Text>[ICON_ARROW_LEFT][ICON_RESEARCH]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_FROM_SCIENCE_TT">
+      <Text>クリックすると、交易路を設けた文明がこの交易路から得る[ICON_RESEARCH]科学力の量で並べ替える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_FROM_TOURISM">
+      <Text>[ICON_ARROW_LEFT][ICON_TOURISM]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_TO_CITY">
+      <Text>[ICON_ARROW_RIGHT]都市</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_TO_CITY_TT">
+      <Text>クリックすると、交易路の目的地である都市で並べ替える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_TO_CIV_TT">
+      <Text>クリックすると、交易路の目的地である文明で並べ替える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_TO_FOOD">
+      <Text>[ICON_ARROW_RIGHT][ICON_FOOD]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_TO_FOOD_TT">
+      <Text>クリックすると、目的地である都市がこの交易路から得る[ICON_FOOD]食物の量で並べ替える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_TO_GPT">
+      <Text>[ICON_ARROW_RIGHT][ICON_GOLD]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_TO_GPT_TT">
+      <Text>クリックすると、目的地である文明がこの交易路から得る[ICON_GOLD]ゴールドの額で並べ替える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_TO_PRODUCTION">
+      <Text>[ICON_ARROW_RIGHT][ICON_PRODUCTION]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_TO_PRODUCTION_TT">
+      <Text>クリックすると、目的地である都市がこの交易路から得る[ICON_PRODUCTION]生産力の量で並べ替える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_TO_RELIGION">
+      <Text>[ICON_ARROW_RIGHT][ICON_RELIGION]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_TO_RELIGION_TT">
+      <Text>クリックすると、交易路の目的地である都市が出発地である都市から受ける宗教的圧力で並べ替える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_TO_SCIENCE">
+      <Text>[ICON_ARROW_RIGHT][ICON_RESEARCH]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_TO_SCIENCE_TT">
+      <Text>クリックすると、目的地である文明がこの交易路から得る[ICON_RESEARCH]科学力の量で並べ替える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_TO_TOURISM">
+      <Text>[ICON_ARROW_RIGHT][ICON_TOURISM]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_TURNS_REMAINING">
+      <Text>[ICON_TURNS_REMAINING]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_COL_TURNS_REMAINING_TT">
+      <Text>クリックすると、交易路上での残りターン数で並べ替える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_GPT_ENTRY">
+      <Text>{1_Num: number #.#}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_LAND_DOMAIN_TT">
+      <Text>隊商</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_RELIGIOUS_PRESSURE_ENTRY">
+      <Text>{1_ReligionIcon} +{2_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_SEA_DOMAIN_TT">
+      <Text>貨物船</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_TAB_AVAILABLE_TR">
+      <Text>利用可能な交易路</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_TAB_EXISTING_TR">
+      <Text>自文明の交易路</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRO_TAB_TR_WITH_YOU">
+      <Text>自文明への交易路</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORYSCREEN_CULTURAL">
+      <Text>[ICON_VICTORY_CULTURE]文化による勝利</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORYSCREEN_DIPLOMATIC">
+      <Text>[ICON_VICTORY_DIPLOMACY]外交による勝利</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORYSCREEN_DOMINATION">
+      <Text>[ICON_VICTORY_DOMINATION]制圧による勝利</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VICTORYSCREEN_SPACE_RACE">
+      <Text>[ICON_VICTORY_SPACE]科学による勝利</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_CULTURE_INFLUENCE">
+      <Text>あなたの{2_Civ}に対する影響力は{1_Num: number #.#}%です。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_CULTURE_INFLUENCE_UNMET">
+      <Text>未知の文明に対するあなたの影響力は{1_Num: number #.#}%です。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_CAPITALS_ACTIVE_PLAYER_LEADING">
+      <Text>
+        あなたは{1_num}文明の本来の[ICON_CAPITAL]首都を支配し、トップに立っている。
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_CAPITALS_PLAYER_LEADING">
+      <Text>
+        {1_player}が{2_num}文明の本来の[ICON_CAPITAL]首都を支配している。
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_CAPITALS_TEAM_LEADING">
+      <Text>
+        チーム{1_Team}が{2_num}文明の本来の[ICON_CAPITAL]首都を支配している。
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_CAPITALS_UNMET_PLAYER_LEADING">
+      <Text>
+        未知のプレイヤーが{1_num}文明の本来の[ICON_CAPITAL]首都を支配している。
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_DELEGATES_CONTROLLED">
+      <Text>支配下にある代表:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_DELEGATES_IN_WORLD">
+      <Text>選択可能な代表数:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_DELEGATES_NEEDED">
+      <Text>「世界の指導者」の提案に勝利するのに必要な代表数:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_NEW_CAPITALS_REMAINING">
+      <Text>
+        すべてのプレイヤーが、まだ自分の本来の[ICON_CAPITAL]首都を支配している。
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_SOMEONE_WON">
+      <Text>{1_CivName} が世界の指導者に選出された。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_TT_KNOWN_NO_CAPITAL">
+      <Text>{1_PlayerName}はまだ首都を建設していない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_TT_OTHER_PLAYER_CONTROLS_OTHER_PLAYER_CAPITAL">
+      <Text>
+        {3_CivName}の本来の[ICON_CAPITAL]首都である{2_CityName}を{1_PlayerName}が支配している。
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_TT_OTHER_PLAYER_CONTROLS_UNMET_PLAYER_CAPITAL">
+      <Text>
+        未知の文明の本来の[ICON_CAPITAL]首都を{1_PlayerName}が支配している。
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_TT_OTHER_PLAYER_CONTROLS_YOUR_CAPITAL">
+      <Text>
+        あなたの本来の[ICON_CAPITAL]首都である{2_CityName}を{1_PlayerName}が支配している。
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_TT_SOMEONE_CONTROLS_THEIR_CAPITAL">
+      <Text>
+        {1_PlayerName}は自分の本来の[ICON_CAPITAL]首都である{2_CityName}を支配している。
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_TT_UNKNOWN_NO_CAPITAL">
+      <Text>未知のプレイヤーはまだ首都を建設していない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_TT_UNMET_CONTROLS_THEIR_CAPITAL">
+      <Text>
+        未知の文明は自分たちの本来の[ICON_CAPITAL]首都を支配している。
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_TT_UNMET_PLAYER_CONTROLS_OTHER_PLAYER_CAPITAL">
+      <Text>
+        {2_CivName}の本来の[ICON_CAPITAL]首都である{1_CityName}を未知のプレイヤーが支配している。
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_TT_UNMET_PLAYER_CONTROLS_UNMET_PLAYER_CAPITAL">
+      <Text>
+        未知の文明の本来の[ICON_CAPITAL]首都を別の未知のプレイヤーが支配している。
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_TT_YOU_CONTROL_OTHER_PLAYER_CAPITAL">
+      <Text>
+        {2_CivName}の本来の[ICON_CAPITAL]首都である{1_CityName}をあなたが支配している。
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_TT_YOU_CONTROL_YOUR_CAPITAL">
+      <Text>
+        あなたは自分の本来の[ICON_CAPITAL]首都である{1_CityName}を支配している。
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_TT_YOU_NO_CAPITAL">
+      <Text>あなたはまだ首都を建設していない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_TURNS_UNTIL_SESSION">
+      <Text>「世界の指導者」の再提案までのターン数: </Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_UN_ACTIVE">
+      <Text>国際連合はすでに活動しており、勝利は可能です。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_DIPLO_UN_INACTIVE">
+      <Text>国際連合はまだ活動していません。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_GREAT_WORKS">
+      <Text>傑作</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_POLICIES">
+      <Text>制度</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_RELIGION">
+      <Text>宗教</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_SCENARIO1">
+      <Text>シナリオ勝利ポイント1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_SCENARIO2">
+      <Text>シナリオ勝利ポイント2</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_SCENARIO3">
+      <Text>シナリオ勝利ポイント3</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VP_SCENARIO4">
+      <Text>シナリオ勝利ポイント4</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WORLD_CONGRESS_NEGATIVE_GP_MOD">
+      <Text>[ICON_BULLET] 世界議会ペナルティー: {1_num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WORLD_CONGRESS_POSITIVE_GP_MOD">
+      <Text>[ICON_BULLET] 世界議会ボーナス: {1_num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WRITING_OTHERS_SLOT">
+      <Text>{1_CivShortDesc}は、この傑作書物を別の傑作書物と交換してもよいと思っている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WRITING_OTHERS_SLOT_EMPTY">
+      <Text>{1_CivShortDesc}は交換可能な傑作書物を展示していない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WRITING_SLOT_EMPTY">
+      <Text>空き（書物）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WRITING_SLOT_TT">
+      <Text>クリックすると、交換しても構わない傑作書物を変更できる。傑作書物は別の傑作書物としか交換できない。他の文明とアイテムを交換すると、手に入れたアイテムは元のアイテムと同じ建築物や遺産のスロットに収められる。交換によって手に入れたアイテムを、同じターン中に再度交換することはできない。[NEWLINE][NEWLINE]スロットに収める傑作書物を選択し、交換をしないまま自分のターンを終えると、他文明のターンにその傑作が許可なく交換される可能性がある！手放しても良いアイテムだけを展示すること！</Text>
+    </Row>
+  </Language_JA_JP>
+</GameData>

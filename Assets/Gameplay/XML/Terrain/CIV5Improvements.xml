@@ -5,9 +5,9 @@
 	<Table name="Improvements">
 		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
 		<Column name="Type" type="text" notnull="true" unique="true"/>
-		<Column name="Description" type="text"/>
-		<Column name="Civilopedia" type="text"/>
-		<Column name="Help" type="text"/>
+		<Column name="Description" type="text" reference="Language_en_US(Tag)" />
+		<Column name="Civilopedia" type="text" reference="Language_en_US(Tag)" />
+		<Column name="Help" type="text" reference="Language_en_US(Tag)" />
 		<Column name="ArtDefineTag" type="text"/>
 		<Column name="WorldSoundscapeAudioScript" type="text"/>
 		<Column name="ImprovementPillage" type="text" reference="Improvements(Type)" default="NULL"/>
@@ -21,17 +21,26 @@
 		<Column name="RequiresFlatlands" type="boolean" default="false"/>
 		<Column name="RequiresFlatlandsOrFreshWater" type="boolean" default="false"/>
 		<Column name="RequiresFeature" type="boolean" default="false"/>
+		<Column name="RequiresImprovement" type="boolean" default="false"/>
+		<Column name="RemovesResource" type="boolean" default="false"/>
+		<Column name="PromptWhenComplete" type="boolean" default="false"/>
 		<Column name="Coastal" type="boolean" default="false"/>
 		<Column name="Water" type="boolean" default="false"/>
 		<Column name="DestroyedWhenPillaged" type="boolean" default="false"/>
+		<Column name="DisplacePillager" type="boolean" default="false"/>
 		<Column name="BuildableOnResources" type="boolean" default="false"/>
 		<Column name="BarbarianCamp" type="boolean" default="false"/>
 		<Column name="Goody" type="boolean" default="false"/>
 		<Column name="Permanent" type="boolean" default="false"/>
 		<Column name="OutsideBorders" type="boolean" default="false"/>
+		<Column name="InAdjacentFriendly" type="boolean" default="false"/>
+		<Column name="IgnoreOwnership" type="boolean" default="false"/>
+		<Column name="OnlyCityStateTerritory" type="boolean" default="false"/>
 		<Column name="GraphicalOnly" type="boolean" default="false"/>
 		<Column name="CreatedByGreatPerson" type="boolean" default="false"/>
-		<Column name="Culture" type="integer" default="0"/>
+		<Column name="NoTwoAdjacent" type="boolean" default="false"/>
+		<Column name="AdjacentLuxury" type="boolean" default="false"/>
+		<Column name="AllowsWalkWater" type="boolean" default="false"/>
 		<Column name="CultureAdjacentSameType" type="integer" default="0"/>
 		<Column name="TilesPerGoody" type="integer" default="0"/>
 		<Column name="GoodyRange" type="integer" default="0"/>
@@ -45,7 +54,10 @@
 		<Column name="NearbyEnemyDamage" type="integer" default="0"/>
 		<Column name="PillageGold" type="integer" default="0"/>
 		<Column name="ResourceExtractionMod" type="integer" default="0"/>
+		<Column name="LuxuryCopiesSiphonedFromMinor" type="integer" default="0"/>
 		<Column name="GoldMaintenance" type="integer" default="0"/>
+		<Column name="CultureBombRadius" type="integer" default="0"/>
+		<Column name="RequiresXAdjacentLand" type="integer" default="-1"/>
 		<Column name="PortraitIndex" type="integer" default="-1"/>
 		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
 	</Table>
@@ -55,6 +67,11 @@
 		<Column name="Flavor" type="integer" notnull="true"/>
 	</Table>
 	<Table name="Improvement_Yields">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer" default="0"/>
+	</Table>
+	<Table name="Improvement_YieldPerEra">
 		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
 		<Column name="YieldType" type="text" reference="Yields(Type)"/>
 		<Column name="Yield" type="integer" default="0"/>
@@ -101,6 +118,10 @@
 	<Table name="Improvement_ValidFeatures">
 		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
 		<Column name="FeatureType" type="text" reference="Features(Type)"/>
+	</Table>
+	<Table name="Improvement_ValidImprovements">
+		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
+		<Column name="PrereqImprovement" type="text" reference="Improvements(Type)"/>
 	</Table>
 	<Table name="Improvement_ResourceTypes">
 		<Column name="ImprovementType" type="text" reference="Improvements(Type)"/>
@@ -295,10 +316,9 @@
 			<Description>TXT_KEY_IMPROVEMENT_LANDMARK</Description>
 			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_LANDMARK_TEXT</Civilopedia>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_MONOLITH_EURO</ArtDefineTag>
-			<Culture>6</Culture>
-			<BuildableOnResources>true</BuildableOnResources>
+			<RequiresImprovement>true</RequiresImprovement>
+			<IgnoreOwnership>true</IgnoreOwnership>
 			<PillageGold>20</PillageGold>
-			<CreatedByGreatPerson>true</CreatedByGreatPerson>
 			<PortraitIndex>36</PortraitIndex>
 			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
 		</Row>
@@ -342,8 +362,10 @@
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_CITADEL</ArtDefineTag>
 			<BuildableOnResources>true</BuildableOnResources>
 			<DefenseModifier>100</DefenseModifier>
+			<InAdjacentFriendly>true</InAdjacentFriendly>
+			<CultureBombRadius>1</CultureBombRadius>
 			<CreatedByGreatPerson>true</CreatedByGreatPerson>
-			<NearbyEnemyDamage>3</NearbyEnemyDamage>
+			<NearbyEnemyDamage>30</NearbyEnemyDamage>
 			<PortraitIndex>35</PortraitIndex>
 			<IconAtlas>TERRAIN_ATLAS</IconAtlas>
 		</Row>
@@ -372,7 +394,7 @@
 		<Row>
 			<ImprovementType>IMPROVEMENT_ACADEMY</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>6</Yield>
+			<Yield>8</Yield>
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
@@ -385,6 +407,13 @@
 			<Yield>4</Yield>
 		</Row>
 	</Improvement_Yields>
+	<Improvement_YieldPerEra>
+		<Row>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_YieldPerEra>
 	<Improvement_HillsYields>
 		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
@@ -471,26 +500,6 @@
 		</Row>
 		<Row>
 			<ImprovementType>IMPROVEMENT_FORT</ImprovementType>
-			<TerrainType>TERRAIN_SNOW</TerrainType>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
-			<TerrainType>TERRAIN_GRASS</TerrainType>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
-			<TerrainType>TERRAIN_PLAINS</TerrainType>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
-			<TerrainType>TERRAIN_DESERT</TerrainType>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
-			<TerrainType>TERRAIN_TUNDRA</TerrainType>
-		</Row>
-		<Row>
-			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
 			<TerrainType>TERRAIN_SNOW</TerrainType>
 		</Row>
 		<Row>
@@ -718,30 +727,6 @@
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 		<Row>
-			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
-			<ResourceType>RESOURCE_HORSE</ResourceType>
-		</Row>							
-		<Row>
-			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-		</Row>					
-		<Row>
-			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
-			<ResourceType>RESOURCE_COAL</ResourceType>
-		</Row>					
-		<Row>
-			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>		
-		<Row>
-			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
-			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
-		</Row>			
-		<Row>
-			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
-			<ResourceType>RESOURCE_URANIUM</ResourceType>
-		</Row>	
-		<Row>
 			<ImprovementType>IMPROVEMENT_CUSTOMS_HOUSE</ImprovementType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 		</Row>
@@ -837,7 +822,11 @@
 			<ImprovementType>IMPROVEMENT_MANUFACTORY</ImprovementType>
 			<ResourceType>RESOURCE_URANIUM</ResourceType>
 		</Row>
-	</Improvement_ResourceTypes>
+    <Row>
+      <ImprovementType>IMPROVEMENT_ARCHAEOLOGICAL_DIG</ImprovementType>
+      <ResourceType>RESOURCE_HIDDEN_ARTIFACTS</ResourceType>
+    </Row>
+  </Improvement_ResourceTypes>
 	<Improvement_ResourceType_Yields>
 		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>

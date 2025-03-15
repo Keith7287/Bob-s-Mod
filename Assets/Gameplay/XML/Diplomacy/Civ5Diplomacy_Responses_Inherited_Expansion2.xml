@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Diplomacy_Responses>
+    <Delete LeaderType="LEADER_SELASSIE" />
+    <Row LeaderType="LEADER_SELASSIE">
+      <ResponseType>RESPONSE_FIRST_GREETING</ResponseType>
+      <Response>TXT_KEY_LEADER_SELASSIE_FIRSTGREETING%</Response>
+    </Row>
+    <Row LeaderType="LEADER_SELASSIE">
+      <ResponseType>RESPONSE_DEFEATED</ResponseType>
+      <Response>TXT_KEY_LEADER_SELASSIE_DEFEATED%</Response>
+    </Row>
+    <Row LeaderType="LEADER_SELASSIE">
+      <ResponseType>RESPONSE_GREETING_POLITE_HELLO</ResponseType>
+      <Response>TXT_KEY_LEADER_SELASSIE_GREETING_POLITE_HELLO%</Response>
+    </Row>
+    <Row LeaderType="LEADER_SELASSIE">
+      <ResponseType>RESPONSE_GREETING_NEUTRAL_HELLO</ResponseType>
+      <Response>TXT_KEY_LEADER_SELASSIE_GREETING_NEUTRAL_HELLO%</Response>
+    </Row>
+    <Row LeaderType="LEADER_SELASSIE">
+      <ResponseType>RESPONSE_GREETING_HOSTILE_HELLO</ResponseType>
+      <Response>TXT_KEY_LEADER_SELASSIE_GREETING_HOSTILE_HELLO%</Response>
+    </Row>
+    <Row LeaderType="LEADER_SELASSIE">
+      <ResponseType>RESPONSE_HOSTILE_AGGRESSIVE_MILITARY_WARNING</ResponseType>
+      <Response>TXT_KEY_SELASSIE_HOSTILE_AGGRESSIVE_MILITARY_WARNING%</Response>
+    </Row>
+    <Row LeaderType="LEADER_SELASSIE">
+      <ResponseType>RESPONSE_EXPANSION_SERIOUS_WARNING</ResponseType>
+      <Response>TXT_KEY_SELASSIE_EXPANSION_SERIOUS_WARNING%</Response>
+    </Row>
+    <Row LeaderType="LEADER_SELASSIE">
+      <ResponseType>RESPONSE_REQUEST</ResponseType>
+      <Response>TXT_KEY_LEADER_SELASSIE_RESPONSE_REQUEST%</Response>
+    </Row>
+    <Row LeaderType="LEADER_SELASSIE">
+      <ResponseType>RESPONSE_LUXURY_TRADE</ResponseType>
+      <Response>TXT_KEY_LEADER_SELASSIE_LUXURY_TRADE%</Response>
+    </Row>
+	</Diplomacy_Responses>
+</GameData>

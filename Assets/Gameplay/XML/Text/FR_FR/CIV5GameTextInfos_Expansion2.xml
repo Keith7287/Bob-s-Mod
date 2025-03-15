@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_FR_FR>
+    <Row Tag="TXT_KEY_CULTURE_FROM_GREAT_WORKS">
+      <Text>{1_Num} [ICON_CULTURE] (chefs-d'oeuvre)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_FROM_LEAGUES">
+      <Text>{1_Num} [ICON_CULTURE] (Congrès mondial)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CULTURE_FROM_TRADE_ROUTES">
+      <Text>{1_perTurn:number "#.##"} [ICON_CULTURE] (routes commerciales établies avec la ville)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_DIPLOMAT_WAIT_TT">
+      <Text>Vous n'êtes pas autorisé à voir l'écran de ville {@1: gender *:vowel?d'; other?de ;}{1_CityName}. [NEWLINE][NEWLINE]Vous disposez d'un diplomate dans cette ville, mais vous devez attendre qu'il ait terminé de se présenter pour pouvoir consulter l'écran de ville.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_ENABLED_DIPOLOMAT_TT">
+      <Text>Cliquez pour voir l'écran de ville {@1: gender *:vowel?d'; other?de ;}{1_CityName}. [NEWLINE][NEWLINE]Vous pouvez consulter l'écran de ville d'un autre joueur si votre espion est diplomate et soigne ses relations dans la [ICON_CAPITAL] capitale de la civilisation en question.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_PUBLIC_OPINION_UNHAPPINESS">
+      <Text>Opinion Publique</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_0_ABBREV">
+      <Text>I</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_0_SHORT">
+      <Text>Antique</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_1_ABBREV">
+      <Text>II</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_1_SHORT">
+      <Text>Classique</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_2_ABBREV">
+      <Text>III</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_2_SHORT">
+      <Text>Médiévale</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_3_ABBREV">
+      <Text>IV</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_3_SHORT">
+      <Text>Renaissance</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_4_ABBREV">
+      <Text>V</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_4_SHORT">
+      <Text>Industrielle</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_5_ABBREV">
+      <Text>VI</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_5_SHORT">
+      <Text>Moderne</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_6_ABBREV">
+      <Text>VII</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_6_SHORT">
+      <Text>Ère atomique</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_7_ABBREV">
+      <Text>VIII</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_ERA_7_SHORT">
+      <Text>Ère de l'info.</Text>
+      <Gender>feminine</Gender>
+      <Plurality>1</Plurality>
+    </Row>
+    <Row Tag="TXT_KEY_FAITH_FROM_TRADE_ROUTES">
+      <Text>{1_perTurn:number "#.##"} [ICON_FAITH] (routes commerciales établies avec la ville)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FOOD_FROM_TRADE_ROUTES">
+      <Text>{1_perTurn:number "#.##"} [ICON_FOOD] (routes commerciales établies avec la ville)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_NO_CULTURE_OVERVIEW_UI">
+      <Text>Désactiver interface portail culturel</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_NO_CULTURE_OVERVIEW_UI_HELP">
+      <Text>Désactive l'écran du portail culturel. Cela n'affectera que l'interface et ne modifiera en rien le système de jeu.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_NO_LEAGUES">
+      <Text>Désactiver Congrès mondial</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GAME_OPTION_NO_LEAGUES_HELP">
+      <Text>Désactive le système de Congrès mondial. Aucune proposition ni session n'interviendra, et la victoire diplomatique sera impossible.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOLD_FROM_TRADE_ROUTES">
+      <Text>{1_perTurn:number "#.##"} [ICON_GOLD] (routes commerciales établies avec la ville)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_INSTRUCTIONS">
+      <Text>Choisissez une ville pour que {2_SpyName} ({1_SpyRank}) s'y installe et commence des opérations. [NEWLINE][NEWLINE][NEWLINE]Envoyez un espion dans une [ICON_CAPITAL] capitale adverse pour pouvoir le nommer diplomate.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_CITY_AT_AIR_CAPACITY">
+      <Text>[NEWLINE]Nombre maximal d'unités aériennes atteint pour la ville.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ACTION_NUKES_BY_RESOLUTION">
+      <Text>[NEWLINE]La construction d'armes nucléaires est interdite par la résolution de non-prolifération des armes nucléaires adoptée par le Congrès mondial.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ADMIRAL_FROM_FAITH">
+      <Text>Pour pouvoir sélectionner un amiral illustre, vous devez avoir commencé la catégorie de doctrines de l'exploration.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ARTIST_FROM_FAITH">
+      <Text>Pour pouvoir sélectionner un artiste illustre, vous devez avoir commencé la catégorie de doctrines de l'esthétique.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_ENGINEER_FROM_FAITH">
+      <Text>Pour pouvoir sélectionner un ingénieur illustre, vous devez avoir commencé la catégorie de doctrines de la tradition.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_GENERAL_FROM_FAITH">
+      <Text>Pour pouvoir sélectionner un général illustre, vous devez avoir commencé la catégorie de doctrines de l'honneur.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_MUSICIAN_FROM_FAITH">
+      <Text>Pour pouvoir sélectionner un musicien illustre, vous devez avoir commencé la catégorie de doctrines de l'esthétique.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_WRITER_FROM_FAITH">
+      <Text>Pour pouvoir sélectionner un écrivain illustre, vous devez avoir commencé la catégorie de doctrines de l'esthétique.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_REVOLT">
+      <Text>L'empire a plus de 20 points de [ICON_HAPPINESS_4] mécontentement et l'opinion publique n'est pas satisfaite ! {1_CityName} s'est révoltée et a rejoint {@2: plural 1?{@2: gender *:no_article?; *:vowel?l'; m?le ; f?la ;}; 2?les ;}{2_CivName} !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_REVOLT_SUMMARY">
+      <Text>Une ville se révolte !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_CITY_REVOLT">
+      <Text>{2_CityName}, une ville de l'empire {1_CivAdjective}, s'est révoltée et rejoint {@3: plural 1?{@3: gender *:no_article?; *:vowel?l'; m?le ; f?la ;}; 2?les ;}{3_CivName} !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLT">
+      <Text>L'empire a plus de 20 points de [ICON_HAPPINESS_4] mécontentement et l'opinion publique n'est pas satisfaite ! Une révolte éclatera dans l'une de vos villes dans {1_Turns} tour(s). D'après les niveaux actuels de mécontentement et la pression des idéologies voisines, {2_CityName} est la ville la plus propice à une révolte, et elle rejoindra {@3: plural 1?{@3: gender *:no_article?; *:vowel?l'; m?le ; f?la ;}; 2?les ;}{3_CivName}. Essayez de faire remonter le niveau de bonheur de votre empire au plus vite !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLT_SUMMARY">
+      <Text>La révolte gronde dans la ville !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_REBELS">
+      <Text>L'empire a plus de 10 points de [ICON_HAPPINESS_4] mécontentement ! Une révolte a éclaté sur nos terres !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POPUP_GOLD_AND_CULTURE_CITY_CAPTURE">
+      <Text>Vous avez pillé {1_Num} [ICON_GOLD], {2_Num} [ICON_CULTURE] et {3_Num} [ICON_GREAT_WORK] en prenant le contrôle {@4: plural 1?{@4: gender *:vowel?d'; other?de ;}; 2?des ;}{@4_CityName} !</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_BUILDING_TOURISM">
+      <Text>[ICON_TOURISM] Tourisme : +{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PRODUCTION_FROM_TRADE_ROUTES">
+      <Text>{1_perTurn:number "#.##"} [ICON_PRODUCTION] (routes commerciales établies avec la ville)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SCIENCE_FROM_TRADE_ROUTES">
+      <Text>{1_perTurn:number "#.##"} [ICON_RESEARCH] (routes commerciales établies avec la ville)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_BE_DIPLOMAT">
+      <Text>Vous souhaitez faire de cet espion un diplomate ? Pour devenir diplomate, un espion doit être envoyé dans la capitale d'une civilisation avec laquelle vous n'êtes pas en guerre. (Si la guerre venait à être déclarée, votre espion fuirait la ville.) Un diplomate ne tentera pas de voler la technologie d'un autre joueur, mais sera toujours source de conspiration. Lorsque le Congrès mondial se réunira, vous serez en mesure de découvrir l'opinion des relations de votre diplomate concernant les différentes propositions, et de négocier leur soutien le cas échéant. Si vous ne partagez pas la même idéologie, les diplomates se livreront automatiquement à de la propagande, une activité améliorant la production de [ICON_TOURISM] tourisme de la civilisation cible.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_MAKING_INTRODUCTIONS">
+      <Text>Présentations</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_MAKING_INTRODUCTIONS_TT">
+      <Text>{2_SpyName} ({1_RankName}) tente de se faire des relations utiles à {3_CityName} en qualité de diplomate. Une fois que {2_SpyName} aura procédé aux présentations d'usage, il lui sera possible de soigner ses relations. [NEWLINE][NEWLINE]Pour devenir diplomate, un espion doit être envoyé dans la capitale d'une autre civilisation. Un diplomate ne tentera pas de voler la technologie d'un autre joueur, mais sera toujours source de conspiration. Lorsque le Congrès mondial se réunit et que votre diplomate commence à soigner ses relations, vous êtes en mesure de découvrir la position des personnes qu'il côtoie quant aux différentes propositions, et de négocier leur soutien le cas échéant.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_SCHMOOZING">
+      <Text>Soigner ses relations</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_SCHMOOZING_TT">
+      <Text>{2_SpyName} ({1_RankName}) soigne ses relations à {3_CityName} en qualité de diplomate. [NEWLINE][NEWLINE]Pour devenir diplomate, un espion doit être envoyé dans la capitale d'une civilisation avec laquelle vous n'êtes pas en guerre. (Si la guerre venait à être déclarée, votre espion fuirait la ville.) Un diplomate ne tentera pas de voler la technologie d'un autre joueur, mais sera toujours source de conspiration. Lorsque le Congrès mondial se réunit et que votre diplomate commence à soigner ses relations, vous êtes en mesure de découvrir la position des personnes qu'il côtoie quant aux différentes propositions, et de négocier leur soutien le cas échéant. Les diplomates se livrent également à de la propagande, une activité améliorant la production de [ICON_TOURISM] tourisme de la civilisation cible.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_VENETIAN_MERCHANT_BOUGHT_CITY_STATE">
+      <Text>Votre marchand de Venise a acheté une cité-état !</Text>
+    </Row>
+  </Language_FR_FR>
+</GameData>

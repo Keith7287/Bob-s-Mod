@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<!-- Table data -->
+	<Builds>
+    <InsertOrAbort>
+      <Type>BUILD_HOLY_SITE</Type>
+      <ImprovementType>IMPROVEMENT_HOLY_SITE</ImprovementType>
+      <Description>TXT_KEY_BUILD_HOLY_SITE</Description>
+      <Help>TXT_KEY_BUILD_HOLY_SITE_HELP</Help>
+      <Kill>1</Kill>
+      <EntityEvent>ENTITY_EVENT_MINE</EntityEvent>
+      <HotKey>KB_L</HotKey>
+      <OrderPriority>96</OrderPriority>
+      <IconIndex>1</IconIndex>
+      <IconAtlas>EXPANSION_UNIT_ACTION_ATLAS</IconAtlas>
+    </InsertOrAbort>
+	</Builds>
+	<BuildFeatures>
+    <Delete BuildType="BUILD_HOLY_SITE" />
+    <InsertOrAbort>
+			<BuildType>BUILD_HOLY_SITE</BuildType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+			<Remove>true</Remove>
+		</InsertOrAbort>
+    <InsertOrAbort>
+      <BuildType>BUILD_HOLY_SITE</BuildType>
+      <FeatureType>FEATURE_FOREST</FeatureType>
+      <PrereqTech>TECH_MINING</PrereqTech>
+      <Production>20</Production>
+      <Remove>true</Remove>
+    </InsertOrAbort>
+    <InsertOrAbort>
+      <BuildType>BUILD_HOLY_SITE</BuildType>
+      <FeatureType>FEATURE_MARSH</FeatureType>
+      <PrereqTech>TECH_MASONRY</PrereqTech>
+      <Remove>true</Remove>
+    </InsertOrAbort>
+	</BuildFeatures>
+	<IconTextureAtlases>
+    <Delete Atlas="EXPANSION_UNIT_ACTION_ATLAS" />
+		<InsertOrAbort>
+			<Atlas>EXPANSION_UNIT_ACTION_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>UnitAction45_Expansion.dds</Filename>
+			<IconsPerRow>3</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</InsertOrAbort>
+    <InsertOrAbort>
+			<Atlas>EXPANSION_UNIT_ACTION_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>UnitAction64_Expansion.dds</Filename>
+			<IconsPerRow>3</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</InsertOrAbort>
+	</IconTextureAtlases>
+</GameData>

@@ -11,7 +11,6 @@
 	<Table name="AIMilitaryStrategies">
 		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
 		<Column name="Type" type="text" notnull="true" unique="true"/>
-		<Column name="DontUpdateCityFlavors" type="boolean" default="false"/>
 		<Column name="NoMinorCivs" type="boolean" default="false"/>
 		<Column name="OnlyMinorCivs" type="boolean" default="false"/>
 		<Column name="UpdateCitySpecializations" type="boolean" default="false"/>
@@ -25,7 +24,12 @@
 		<Column name="AdvisorCounsel" type="text"/>
 		<Column name="AdvisorCounselImportance" type="integer" default="1"/>
 	</Table>
-	<Table name="AIMilitaryStrategy_Flavors">
+	<Table name="AIMilitaryStrategy_Player_Flavors">
+		<Column name="AIMilitaryStrategyType" type="text" reference="AIMilitaryStrategies(Type)"/>
+		<Column name="FlavorType" type="text" reference="Flavors(Type)"/>
+		<Column name="Flavor" type="integer"/>
+	</Table>
+	<Table name="AIMilitaryStrategy_City_Flavors">
 		<Column name="AIMilitaryStrategyType" type="text" reference="AIMilitaryStrategies(Type)"/>
 		<Column name="FlavorType" type="text" reference="Flavors(Type)"/>
 		<Column name="Flavor" type="integer"/>
@@ -149,10 +153,10 @@
 		<Row>
 			<Type>MILITARYAISTRATEGY_ERADICATE_BARBARIANS</Type>
 			<CheckTriggerTurnCount>5</CheckTriggerTurnCount>
-			<MinimumNumTurnsExecuted>5</MinimumNumTurnsExecuted>
-			<FirstTurnExecuted>25</FirstTurnExecuted>
+			<MinimumNumTurnsExecuted>10</MinimumNumTurnsExecuted>
+			<FirstTurnExecuted>20</FirstTurnExecuted>
 			<NoMinorCivs>true</NoMinorCivs>
-			<WeightThreshold>75</WeightThreshold>
+			<WeightThreshold>200</WeightThreshold>
 			<Advisor>MILITARY</Advisor>
 			<AdvisorCounsel>TXT_KEY_MILITARYAISTRATEGY_ERADICATE_BARBARIANS</AdvisorCounsel>
 			<AdvisorCounselImportance>1</AdvisorCounselImportance>
@@ -227,8 +231,346 @@
 			<FirstTurnExecuted>25</FirstTurnExecuted>
 			<TechPrereq>TECH_RADIO</TechPrereq>
 		</Row>
+		<Row>
+			<Type>MILITARYAISTRATEGY_NEED_AIR_CARRIER</Type>
+			<CheckTriggerTurnCount>2</CheckTriggerTurnCount>
+			<MinimumNumTurnsExecuted>2</MinimumNumTurnsExecuted>
+			<TechPrereq>TECH_FLIGHT</TechPrereq>
+		</Row>
 	</AIMilitaryStrategies>
-	<AIMilitaryStrategy_Flavors>
+	<AIMilitaryStrategy_Player_Flavors>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_EMPIRE_DEFENSE</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_EMPIRE_DEFENSE</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_EMPIRE_DEFENSE</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_EMPIRE_DEFENSE</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_EMPIRE_DEFENSE_CRITICAL</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_EMPIRE_DEFENSE_CRITICAL</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>60</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_EMPIRE_DEFENSE_CRITICAL</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_EMPIRE_DEFENSE_CRITICAL</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_EMPIRE_DEFENSE_CRITICAL</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_EMPIRE_DEFENSE_CRITICAL</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_EMPIRE_DEFENSE_CRITICAL</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_ENOUGH_NAVAL_UNITS</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_NAVAL_UNITS</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_NAVAL_UNITS</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_NAVAL_UNITS_CRITICAL</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_NAVAL_UNITS_CRITICAL</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_NAVAL_UNITS_CRITICAL</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_NAVAL_UNITS_CRITICAL</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_AT_WAR</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_AT_WAR</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_AT_WAR</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_AT_WAR</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_AT_WAR</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_AT_WAR</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_AT_WAR</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_AT_WAR</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_AT_WAR</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>-20</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_WAR_MOBILIZATION</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_WAR_MOBILIZATION</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_WAR_MOBILIZATION</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_WAR_MOBILIZATION</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_WAR_MOBILIZATION</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_WAR_MOBILIZATION</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_WAR_MOBILIZATION</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_WAR_MOBILIZATION</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_WAR_MOBILIZATION</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_WAR_MOBILIZATION</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_RANGED_EARLY</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_MINOR_CIV_GENERAL_DEFENSE</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_MINOR_CIV_GENERAL_DEFENSE</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_MINOR_CIV_THREAT_ELEVATED</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_MINOR_CIV_THREAT_ELEVATED</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_MINOR_CIV_THREAT_CRITICAL</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_MINOR_CIV_THREAT_CRITICAL</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_MINOR_CIV_THREAT_CRITICAL</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_ERADICATE_BARBARIANS</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_ERADICATE_BARBARIANS</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_ERADICATE_BARBARIANS</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_ERADICATE_BARBARIANS</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_WINNING_WARS</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_WINNING_WARS</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>-5</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_LOSING_WARS</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>-5</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_LOSING_WARS</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_LOSING_WARS</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_LOSING_WARS</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>-25</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_LOSING_WARS</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>-25</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_RANGED</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_ENOUGH_RANGED</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>-15</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_MOBILE</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_ENOUGH_MOBILE</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>-15</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_AIR</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_NUKE</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_ENOUGH_AIR</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_ANTIAIR</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_ENOUGH_ANTIAIR</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
+			<Flavor>-5</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_AIR_CARRIER</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</AIMilitaryStrategy_Player_Flavors>
+	<AIMilitaryStrategy_City_Flavors>
 		<Row>
 			<AIMilitaryStrategyType>MILITARYAISTRATEGY_ENOUGH_MILITARY_UNITS</AIMilitaryStrategyType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
@@ -332,7 +674,7 @@
 		<Row>
 			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_NAVAL_UNITS</AIMilitaryStrategyType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>40</Flavor>
+			<Flavor>50</Flavor>
 		</Row>
 		<Row>
 			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_NAVAL_UNITS</AIMilitaryStrategyType>
@@ -348,6 +690,16 @@
 			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_NAVAL_UNITS</AIMilitaryStrategyType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_NAVAL_UNITS</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_NAVAL_UNITS</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>-5</Flavor>
 		</Row>
 		<Row>
 			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_NAVAL_UNITS_CRITICAL</AIMilitaryStrategyType>
@@ -367,6 +719,11 @@
 		<Row>
 			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_NAVAL_UNITS_CRITICAL</AIMilitaryStrategyType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>-20</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_NAVAL_UNITS_CRITICAL</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
 			<Flavor>-20</Flavor>
 		</Row>
 		<Row>
@@ -412,6 +769,11 @@
 		<Row>
 			<AIMilitaryStrategyType>MILITARYAISTRATEGY_AT_WAR</AIMilitaryStrategyType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>-20</Flavor>
+		</Row>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_AT_WAR</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>-20</Flavor>
 		</Row>
 		<Row>
@@ -483,6 +845,12 @@
 			<AIMilitaryStrategyType>MILITARYAISTRATEGY_MINOR_CIV_GENERAL_DEFENSE</AIMilitaryStrategyType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
 			<Flavor>10</Flavor>
+		</Row>
+		<!-- Keep minor borders from expanding too much, they'll still always get monuments -->
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_MINOR_CIV_GENERAL_DEFENSE</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>-25</Flavor>
 		</Row>
 		<Row>
 			<AIMilitaryStrategyType>MILITARYAISTRATEGY_MINOR_CIV_THREAT_ELEVATED</AIMilitaryStrategyType>
@@ -617,7 +985,7 @@
 		<Row>
 			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_NUKE</AIMilitaryStrategyType>
 			<FlavorType>FLAVOR_NUKE</FlavorType>
-			<Flavor>200</Flavor>
+			<Flavor>150</Flavor>
 		</Row>
 		<Row>
 			<AIMilitaryStrategyType>MILITARYAISTRATEGY_ENOUGH_AIR</AIMilitaryStrategyType>
@@ -632,9 +1000,14 @@
 		<Row>
 			<AIMilitaryStrategyType>MILITARYAISTRATEGY_ENOUGH_ANTIAIR</AIMilitaryStrategyType>
 			<FlavorType>FLAVOR_ANTIAIR</FlavorType>
-			<Flavor>-100</Flavor>
+			<Flavor>-50</Flavor>
 		</Row>
-	</AIMilitaryStrategy_Flavors>
+		<Row>
+			<AIMilitaryStrategyType>MILITARYAISTRATEGY_NEED_AIR_CARRIER</AIMilitaryStrategyType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>75</Flavor>
+		</Row>
+	</AIMilitaryStrategy_City_Flavors>
 	<AIMilitaryStrategy_PersonalityFlavorThresholdMods>
 		<Row>
 			<AIMilitaryStrategyType>MILITARYAISTRATEGY_ERADICATE_BARBARIANS</AIMilitaryStrategyType>

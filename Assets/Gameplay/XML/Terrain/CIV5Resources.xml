@@ -5,20 +5,23 @@
 	<Table name="Resources">
 		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
 		<Column name="Type" type="text" notnull="true" unique="true"/>
-		<Column name="Description" type="text"/>
-		<Column name="Civilopedia" type="text"/>
-		<Column name="Help" type="text"/>
+		<Column name="Description" type="text" reference="Language_en_US(Tag)"/>
+		<Column name="Civilopedia" type="text" reference="Language_en_US(Tag)"/>
+		<Column name="Help" type="text" reference="Language_en_US(Tag)"/>
 		<Column name="ResourceClassType" type="text"/>
 		<Column name="ArtDefineTag" type="text"/>
 		<Column name="AltArtDefineTag" type="text"/>
 		<Column name="ArtDefineTagHeavy" type="text" default=""/>
 		<Column name="AltArtDefineTagHeavy" type="text" default=""/>
 		<Column name="TechReveal" type="text" default="NULL" reference="Technologies(Type)"/>
+		<Column name="PolicyReveal" type="text" default="NULL" reference="Policies(Type)"/>
 		<Column name="TechCityTrade" type="text" default="NULL" reference="Technologies(Type)"/>
 		<Column name="TechObsolete" type="text" default="NULL" reference="Technologies(Type)"/>
 		<Column name="AIStopTradingEra" type="text" default="NULL"/>
+		<Column name="CivilizationType" type="text" reference="Civilizations(Type)" default="NULL"/>
 		<Column name="Happiness" type="integer" default="0"/>
 		<Column name="WonderProductionMod" type="integer" default="0"/>
+		<Column name="WonderProductionModObsoleteEra" type="text" default="NULL" reference="Eras(Type)"/>
 		<Column name="StartingResourceQuantity" type="integer" default="0"/>
 		<Column name="AITradeModifier" type="integer" default="0"/>
 		<Column name="AIObjective" type="integer" default="0"/>
@@ -44,6 +47,7 @@
 		<Column name="Flatlands" type="boolean" default="false"/>
 		<Column name="NoRiverSide" type="boolean" default="false"/>
 		<Column name="Normalize" type="boolean" default="false"/>
+		<Column name="OnlyMinorCivs" type="boolean" default="false"/>
 		<Column name="IconString" type="text"/>
 		<Column name="PortraitIndex" type="integer" default="-1"/>
 		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
@@ -79,9 +83,9 @@
 		<Row>
 			<ID>0</ID>
 			<Type>RESOURCE_IRON</Type>
-			<TechReveal>TECH_IRON_WORKING</TechReveal>
-			<TechCityTrade>TECH_IRON_WORKING</TechCityTrade>
-			<AIStopTradingEra>ERA_INDUSTRIAL</AIStopTradingEra>
+			<TechReveal>TECH_BRONZE_WORKING</TechReveal>
+			<TechCityTrade>TECH_BRONZE_WORKING</TechCityTrade>
+			<AIStopTradingEra>ERA_POSTMODERN</AIStopTradingEra>
 			<Description>TXT_KEY_RESOURCE_IRON</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_IRON_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_IRON_HELP</Help>
@@ -109,7 +113,7 @@
 			<Type>RESOURCE_HORSE</Type>
 			<TechReveal>TECH_ANIMAL_HUSBANDRY</TechReveal>
 			<TechCityTrade>TECH_ANIMAL_HUSBANDRY</TechCityTrade>
-			<AIStopTradingEra>ERA_MODERN</AIStopTradingEra>
+			<AIStopTradingEra>ERA_POSTMODERN</AIStopTradingEra>
 			<Description>TXT_KEY_RESOURCE_HORSES</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_HORSE_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_HORSES_HELP</Help>
@@ -132,8 +136,8 @@
 		</Row>
 		<Row>
 			<Type>RESOURCE_COAL</Type>
-			<TechReveal>TECH_SCIENTIFIC_THEORY</TechReveal>
-			<TechCityTrade>TECH_SCIENTIFIC_THEORY</TechCityTrade>
+			<TechReveal>TECH_INDUSTRIALIZATION</TechReveal>
+			<TechCityTrade>TECH_INDUSTRIALIZATION</TechCityTrade>
 			<Description>TXT_KEY_RESOURCE_COAL</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_COAL_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_COAL_HELP</Help>
@@ -505,7 +509,8 @@
 			<ArtDefineTag>ART_DEF_RESOURCE_MARBLE</ArtDefineTag>
 			<AltArtDefineTag>ART_DEF_RESOURCE_MARBLE</AltArtDefineTag>
 			<WonderProductionMod>15</WonderProductionMod>
-      <PlacementOrder>3</PlacementOrder>
+			<WonderProductionModObsoleteEra>ERA_MEDIEVAL</WonderProductionModObsoleteEra>
+			<PlacementOrder>3</PlacementOrder>
 			<ConstAppearance>50</ConstAppearance>
 			<MinAreaSize>3</MinAreaSize>
 			<MaxLatitude>90</MaxLatitude>

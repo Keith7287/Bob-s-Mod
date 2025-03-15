@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_IT_IT>
+    <Row Tag="TXT_KEY_CITY_SPY_CITY_STATE_TT">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, si trova nella città di {3_CityName}. Quando si trova in una città-stato, una spia per prima cosa stabilisce una sorveglianza, dopodiché cerca di manipolare le elezioni per aumentare la tua Influenza sulla città-stato stessa. Se sono presenti anche altre spie, potresti non riuscire a manipolare ogni elezione.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_SPY_OTHER_CIV_TT">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, si trova nella città di {3_CityName}. Quando si trova in una città, una spia per prima cosa stabilisce una sorveglianza, dopodiché cerca di rubare qualsiasi tecnologia la civiltà conosca e tu no. Inoltre ti informerà di qualsiasi intrigo venga a conoscenza.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_SPY_YOUR_CITY_TT">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, si trova nella città di {3_CityName}. Quando si trova in una delle tue città, una spia esegue operazioni di contro-spionaggio nel tentativo di catturare e uccidere le spie nemiche che cercano di rubare le tue tecnologie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_CIV_CITY_STATE_TT">
+      <Text>{1_CityName} è una città-stato [COLOR_POSITIVE_TEXT]{2_CityStateTraitAdj}[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_CIV_TT">
+      <Text>{1_CityName} è controllata {@2_CivShortDesc[5]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_NAME_CITY_STATE_TT">
+      <Text>{1_CityName} è una città-stato [COLOR_POSITIVE_TEXT]{2_CityStateTraitAdj}[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_NAME_TT">
+      <Text>{1_CityName} è controllata {@2_CivShortDesc[5]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_ONCE_KNOWN_POTENTIAL_TT">
+      <Text>L'ultimo Potenziale conosciuto di {1_CityName} è {2_Num}.[NEWLINE][NEWLINE]Questa è l'ultima stima del Potenziale della città eseguita da una delle tue spie. Per una stima più aggiornata, sposta una delle tue spie nella città.[NEWLINE][NEWLINE]Il Potenziale indica quanto velocemente è possibile rubare tecnologie da una città: più alto è il valore, più veloce sarà il furto. Il valore base deriva dalla quantità di Scienza generata dalla città, ma può diminuire in presenza di edifici difensivi come il Constabulario e la Stazione di polizia. Il Potenziale può anche aumentare quando utilizzi una spia di grado più elevato per rubare tecnologie nella città.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_POPULATION_TT">
+      <Text>La popolazione di {1_CityName} è {2_Num}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_POTENTIAL_CANNOT_STEAL_TT">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, non può rubare a {3_CityName} perché quella civiltà non dispone di alcuna tecnologia a te sconosciuta.[NEWLINE][NEWLINE]Il Potenziale base di {4_CityName} è {5_Num}.[NEWLINE][NEWLINE]Il Potenziale indica la velocità con cui è possibile rubare tecnologie da una città: più alto è il valore, più veloce sarà il furto. Il valore base deriva dalla quantità di Scienza generata dalla città, ma può diminuire in presenza di edifici difensivi come il Constabulario e la Stazione di polizia. Il Potenziale può anche aumentare quando utilizzi una spia di grado più elevato per rubare tecnologie nella città.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_POTENTIAL_TT">
+      <Text>{1_SpyRank} {2_SpyName} sta rubando {3_Num} Potenziale a {4_CityName}.[NEWLINE]Il Potenziale base di {5_CityName} è {6_Num}.[NEWLINE][NEWLINE]Il Potenziale indica quanto velocemente è possibile rubare tecnologie da una città: più alto è il valore, più veloce sarà il furto. Il valore base deriva dalla quantità di Scienza generata dalla città, ma può diminuire in presenza di edifici difensivi come il Constabulario e la Stazione di polizia. Il Potenziale può anche aumentare quando utilizzi una spia di grado più elevato per rubare tecnologie nella città.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_SORT_TT">
+      <Text>Nome della città.[NEWLINE][NEWLINE]Clicca per ordinare le città in base al nome.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_STATE_ELECTION">
+      <Text>In tutte le città-stato del mondo si tengono simultaneamente elezioni ogni {1_Num} turni. Le prossime elezioni si terranno tra {2_Num} turni.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_STATE_POTENTIAL_TT">
+      <Text>Non è possibile rubare tecnologie alle città-stato, che quindi non hanno Potenziale.[NEWLINE][NEWLINE]Inviare una spia in una città-stato aumenterà la tua Influenza su di essa grazie a elezioni pilotate. Se nella città c'è più di una spia, quella di grado più alto, e che è rimasta nella città più a lungo, ha più possibilità di pilotare le elezioni. Una spia che si trova in una città-stato alleata con un'altra civiltà può anche tentare un colpo di stato.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_NO_CITY_TT">
+      <Text>Per vedere la schermata della città devi prima inviarci una delle tue spie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_TT">
+      <Text>Non puoi vedere la schermata della città di {1_CityName}.[NEWLINE][NEWLINE]Se vuoi farlo, inviaci una delle tue spie e aspetta che stabilisca una sorveglianza.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_WAIT_TT">
+      <Text>Non puoi ancora vedere la schermata della città di {1_CityName}.[NEWLINE][NEWLINE]Hai inviato una delle tue spie nella città, ma devi ancora aspettare che stabilisca una sorveglianza.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_YOUR_CITY_TT">
+      <Text>Non è necessario che tu acceda alla schermata della città di {1_CityName} attraverso gli occhi di una spia.[NEWLINE][NEWLINE]Questa città ti appartiene, e non hai certo bisogno di una spia per sapere cosa contiene.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_ENABLED_TT">
+      <Text>Clicca per vedere la schermata della città di {1_CityName}.[NEWLINE][NEWLINE]Puoi visualizzare le schermate delle città che appartengono ad altri giocatori solo se una delle tue spie vi ha stabilito una sorveglianza o se il tuo Diplomatico vi sta chiacchierando.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_ENABLED_YOUR_CITY_TT">
+      <Text>Clicca per vedere la schermata della città di {1_CityName}.[NEWLINE][NEWLINE]Puoi sempre vedere le schermate delle città che ti appartengono.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CIVILIZATION_SORT_TT">
+      <Text>Quale civiltà controlla la città.[NEWLINE][NEWLINE]Clicca per ordinare le città in base alla civiltà.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY_THEM">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} adottato la Politica Sociale {2_SocialPolicyName}, che aumenta del {3_Num}% la probabilità di scoprire le spie nemiche.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY_YOU">
+      <Text>Hai adottato la Politica Sociale {1_SocialPolicyName}, che aumenta del {2_Num}% la probabilità di scoprire le spie nemiche.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INTRIGUE">
+      <Text>Intrigo</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INTRIGUE_TT">
+      <Text>La schermata degli intrighi mostra quello che hai appreso dalle tue spie e dalle altre civiltà circa i piani degli altri giocatori.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_MOVE_SPY_TO_HIDEOUT_CHECK">
+      <Text>Sei sicuro di voler spostare la tua spia, {1_SpyRank} {2_SpyName}, nel rifugio?[NEWLINE][NEWLINE]Qualsiasi attività svolta attualmente dalla spia sarà annullata. Quando si trova nel rifugio una spia non può fare nulla per te, ma d'altro canto non può neppure essere uccisa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_NO_INTRIGUE_AVAILABLE">
+      <Text>Nessun intrigo disponibile</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_OVERVIEW">
+      <Text>Panoramica</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_OVERVIEW_TT">
+      <Text>La schermata della Panoramica ti permette di seguire l'attività delle tue spie e di spostarle nelle varie città del mondo per stabilire sorveglianze, rubare tecnologie, scoprire intrighi o manipolare le elezioni nelle città-stato.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_OWN_CITY_POTENTIAL_TT">
+      <Text>Il Potenziale di {1_CityName} è {2_Num}.[NEWLINE][NEWLINE]Il Potenziale delle proprie città è sempre noto. Se sei in una posizione di vantaggio tecnologico dovresti considerare la possibilità di proteggere le tue città dal Potenziale più alto. Ci sono due modi per farlo: innanzitutto puoi spostare una delle tue spie nella città per eseguire azioni di controspionaggio che potrebbero portare alla cattura o addirittura all'uccisione delle spie nemiche prima che esse riescano a rubarti una tecnologia. Alternativamente, puoi rallentare l'azione delle spie nemiche costruendo edifici come il Constabulario e la Stazione di polizia o la Meraviglia Grande Firewall.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POPULATION_SORT_TT">
+      <Text>La popolazione di una città. Più grande è la popolazione, più è probabile che produca molta Scienza. Più Scienza una città produce, maggiore sarà il suo Potenziale.[NEWLINE][NEWLINE]Clicca per ordinare le città in base alla popolazione.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_BUILDING_MOD_ENTRY">
+      <Text>{1_BuildingName}: {2_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_BUILDING_MOD_TITLE">
+      <Text>Modifiche dovute a edifici o Meraviglie:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_POLICY_MOD_ENTRY">
+      <Text>{1_SocialPolicyName}: {2_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_POLICY_MOD_TITLE">
+      <Text>Modifiche dovute alle Politiche Sociali:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_SORT_TT">
+      <Text>Il Potenziale indica quanto velocemente è possibile rubare tecnologie da una città: più alto è il valore, più veloce sarà il furto. Il valore base deriva dalla quantità di Scienza generata dalla città, ma può diminuire in presenza di edifici difensivi come il Constabulario e la Stazione di polizia. Il Potenziale può anche aumentare quando utilizzi una spia di grado più elevato per rubare tecnologie nella città.[NEWLINE][NEWLINE]Clicca per ordinare le città in base al loro Potenziale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_WONDER_MOD_ENTRY">
+      <Text>{1_WonderName}: {2_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_WONDER_MOD_TITLE">
+      <Text>Modifiche dovute a Meraviglie in altre città:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_BUTTON_DISABLED_SPY_DEAD_TT">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, è morta. Che riposi in pace.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_POLICY_TT">
+      <Text>La probabilità di uccidere le spie nemiche aumenta del {1_Num}% a causa della politica Stato di polizia.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_SPY_RANK_TT">
+      <Text>La probabilità di uccidere le spie nemiche aumenta del {1_Num}% a causa del grado della spia, {2_RankName} {3_SpyName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_SUM_TT">
+      <Text>La probabilità totale di uccidere una spia nemica è pari al {1_Num}%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_TT">
+      <Text>La tua spia, {1_RankName} {2_SpyName}, sta conducendo operazioni di controspionaggio a {3_CityName}.[NEWLINE][NEWLINE]Se una spia nemica cerca di rubare una tecnologia in una città in cui tu stesso hai una spia, il furto sarà certamente scoperto. Inoltre la tua spia avrà la possibilità di determinare chi ha rubato le informazioni e addirittura di uccidere la spia nemica. Più alto è il grado della tua spia, maggiore sarà la probabilità di uccidere una spia nemica che tenta un furto.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_NO_ALLY_TT">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, non può tentare un colpo di stato a {3_CityName} perché in questo momento nessuna civiltà è alleata con {4_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_WAIT_TT">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName} non può tentare un colpo di stato a {3_CityName} perché non vi ha ancora stabilito una sorveglianza.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_YOU_ALLY_TT">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName} non può tentare un colpo di stato a {3_CityName} perché in questo momento la città-stato è tua alleata!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUP_ENABLED_TT">
+      <Text>Clicca per far sì che la tua spia, {1_SpyRank} {2_SpyName}, tenti un colpo di stato a {3_CityName} per rovesciare i simpatizzanti {@4_CivAdjective[3]} al governo.[NEWLINE][NEWLINE]La probabilità di successo è pari al {5_Num}%. Se la tua spia dovesse aver successo, {8_CityName} diventerà tua alleata e l'influenza {@9_CivShortDesc[2]} sarà ridotta al tuo livello attuale, dopodiché anche l'influenza di tutti gli altri giocatori sarà ridotta. Se la tua spia dovesse fallire, sarà uccisa e la tua Influenza su {12_CityName} subirà un grave colpo.[NEWLINE][NEWLINE]Per aumentare le tue probabilità di successo puoi aumentare la tua Influenza sulla città-stato, usare una spia di grado superiore o attendere che l'Influenza della civiltà alleata scemi con il tempo.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_GATHERING_INTEL_TT">
+      <Text>La tua spia, {1_RankName} {2_SpyName}, sta raccogliendo informazioni a {3_CityName} per rubare una tecnologia.[NEWLINE][NEWLINE]Una tua spia può cercare di rubare una tecnologia solo se la civiltà obiettivo ne conosce almeno una che tu non conosci.[NEWLINE][NEWLINE]Se l'altra civiltà ha una propria spia nella sua città, la tua spia rischia di essere scoperta e forse addirittura uccisa quando tenta il furto!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_LOCATION_TT">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, si trova attualmente a {3_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_MOVE_TT">
+      <Text>Clicca per inviare la tua spia, {1_SpyRank} {2_SpyName}, in una nuova città.[NEWLINE][NEWLINE]Quando sposti una spia, ci vuole un certo numero di turni perché diventi pienamente operativa.[NEWLINE][NEWLINE]Una spia in una città amica comincerà a eseguire azioni di controspionaggio per scoprire e uccidere le spie nemiche.[NEWLINE][NEWLINE]Una spia inviata nella capitale di una civiltà avversaria ha l'opzione di diventare un [ICON_DIPLOMAT] Diplomatico, nel qual caso ti permette di scambiare con quella civiltà i voti dei Delegati al Congresso Mondiale.[NEWLINE][NEWLINE]Una spia che raggiunge una città straniera e sceglie di non essere un [ICON_DIPLOMAT] Diplomatico tenterà di rubare una tecnologia. Una spia può cercare di rubare una tecnologia solo se la civiltà obiettivo ne conosce almeno una che la sua civiltà ignora. Se l'altra civiltà ha una propria spia nella città, la spia che tenta il furto rischia di essere scoperta e uccisa. Questo potrebbe avere un effetto negativo sulle relazioni diplomatiche![NEWLINE][NEWLINE]Se una tua spia si sposta in una città-stato, cercherà di manipolare le elezioni per far sì che la tua Influenza nei suoi confronti aumenti.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_NAMEPLATE_TT">
+      <Text>Questa è la tua spia, {1_SpyRank} {2_SpyName}.[NEWLINE][NEWLINE]Per avere effetto le spie devono essere inviate in una città.[NEWLINE][NEWLINE]Una spia che si trova in una tua città esegue operazioni di contro-spionaggio nel tentativo di catturare e uccidere le spie nemiche che cercano di rubare le tue tecnologie.[NEWLINE][NEWLINE]Se si trova in una città che appartiene a un'altra civiltà, la spia cercherà di rubare una tecnologia. Inoltre segnalerà ogni intrigo di cui viene a conoscenza, come i preparativi per eseguire attacchi a sorpresa contro di te o contro un'altra civiltà.[NEWLINE][NEWLINE]In una città-stato, la tua spia cercherà di manipolare le elezioni per far sì che la tua Influenza nei suoi confronti aumenti.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_NEEDS_ASSIGNMENT_TT">
+      <Text>Invia la tua spia in una città, così che possa cominciare a eseguire i suoi sporchi intrighi.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_RANK_TT">
+      <Text>{1_SpyName} ha ottenuto il grado di {2_RankName}.[NEWLINE][NEWLINE]Le spie possono avere tre gradi: Recluta, Agente e Agente speciale. Ogni volta che passa di livello la spia diventa più efficiente nel suo lavoro. Una spia di grado elevato sarà più veloce a rubare tecnologie, scoprirà e ucciderà le spie nemiche che cercano di rubare le tue con maggior frequenza, influenzerà più efficacemente le elezioni nelle città-stato e avrà più possibilità di eseguire con successo un colpo di stato in una città-stato alleata con un'altra civiltà.[NEWLINE][NEWLINE]Le spie passano di livello quando rubano una tecnologia alle altre civiltà o quando uccidono una spia nemica che sta cercando di eseguire un furto.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_RIGGING_ELECTIONS_TT">
+      <Text>La tua spia, {1_RankName} {2_SpyName}, sta cercando di manipolare le elezioni a {3_CityName} per aumentare la tua Influenza nei suoi confronti.[NEWLINE][NEWLINE]Solo una civiltà può alterare con successo un'elezione. Se in una città-stato c'è più di una spia, quella di grado più alto, e che è rimasta nella città più a lungo, ha più possibilità di pilotare le elezioni.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_SURVEILLANCE_TT">
+      <Text>La tua spia, {1_RankName} {2_SpyName}, sta stabilendo una sorveglianza a {3_CityName}.[NEWLINE][NEWLINE]Una volta stabilita la sorveglianza in una città, una spia può cominciare a eseguire operazioni avanzate. La sorveglianza ti permette anche di guardare la schermata della città di altre civiltà (ma non delle città-stato).[NEWLINE][NEWLINE]Infine, la sorveglianza permette a una spia di venire a conoscenza di eventuali intrighi, ad esempio i preparativi per un attacco a sorpresa ai danni di qualcuno. Simili informazioni possono essere molto importanti!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_TRAVELLING_TT">
+      <Text>La tua spia, {1_RankName} {2_SpyName}, si sta spostando a {3_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_UNASSIGNED_TT">
+      <Text>La tua spia, {1_RankName} {2_SpyName}, se ne sta spaparanzata nel rifugio senza fare nulla.[NEWLINE][NEWLINE]Inviala in qualche città dove possa dedicarsi alle sue attività spregevoli!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_UNASSIGNED_SPIES_TT">
+      <Text>Hai {1_Num: plural 1?una spia non assegnata; other?{1_Num} spie non assegnate;} ad alcun compito.[NEWLINE][NEWLINE]Le spie possono rubare tecnologie o scoprire gli intrighi delle altre civiltà e aumentare la tua Influenza nelle città-stato manipolando le elezioni locali. Impartisci ordini alle tue spie nella schermata della Panoramica sullo spionaggio in modo che si mettano all'opera!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_UNKNOWN_POTENTIAL">
+      <Text>?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_UNKNOWN_POTENTIAL_TT">
+      <Text>Il Potenziale di questa città è sconosciuto. Per conoscerlo, invia una spia in questa città affinché vi stabilisca una sorveglianza.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ESPIONAGE_NOT_STARTED_YET">
+      <Text>Lo spionaggio ha inizio quando qualcuno entra nell'Epoca rinascimentale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_BUILDING_AMPHIBIOUS_ARMY">
+      <Text>{@1_PlayerName[4]} {1: plural 1?sta;other?stanno;} allestendo un esercito con una scorta di navi per lanciare un attacco a sorpresa contro un'altra civiltà.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_BUILDING_ARMY">
+      <Text>{@1_PlayerName[4]} {1: plural 1?sta;other?stanno;} allestendo un esercito per lanciare un attacco a sorpresa contro un'altra civiltà.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_CONSTRUCT_WONDER">
+      <Text>{@1_PlayerName[4]} {1: plural 1?sta;other?stanno;} costruendo {@2_WonderOrProject[3]} a {3_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_CONSTRUCT_WONDER_WO_CITY">
+      <Text>{@1_PlayerName[4]} {1: plural 1?sta;other?stanno;} costruendo {@2_WonderOrProject[3]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_PLOTTING_AGAINST_KNOWN">
+      <Text>{@1_PlayerName[4]} {1: plural 1?sta;other?stanno;} segretamente complottando contro {@2_PlayerName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_PLOTTING_AGAINST_UNKNOWN">
+      <Text>{@1_PlayerName[4]} {1: plural 1?sta;other?stanno;} segretamente complottando contro una civiltà che non abbiamo ancora incontrato.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_PLOTTING_AGAINST_YOU">
+      <Text>{@1_PlayerName[4]} {1: plural 1?sta;other?stanno;} segretamente complottando contro di te.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_KNOWN">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} lanciato un attacco anfibio a sorpresa contro la città {@2_CivAdj[2]} di {3_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_UNKNOWN">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} lanciato un attacco anfibio a sorpresa contro {@2_PlayerName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_SOMEONE">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} lanciato un attacco anfibio a sorpresa contro un altro giocatore.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_UNKNOWN">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} lanciato un attacco anfibio a sorpresa contro un giocatore che non hai ancora incontrato.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_KNOWN">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} lanciato un attacco anfibio a sorpresa contro la tua città di {2_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_UNKNOWN">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} lanciato un attacco anfibio a sorpresa contro di te.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_KNOWN">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} lanciato un attacco a sorpresa contro la città {@2_CivAdj[2]} di {3_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_UNKNOWN">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} lanciato un attacco a sorpresa contro {@2_PlayerName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_SOMEONE">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} lanciato un attacco a sorpresa contro un'altra civiltà.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_UNKNOWN">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} lanciato un attacco a sorpresa contro una civiltà che non hai ancora incontrato.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_KNOWN">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} lanciato un attacco a sorpresa contro la tua città di {2_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_UNKNOWN">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} lanciato un attacco a sorpresa contro di te.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_CANCEL">
+      <Text>Annulla</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_CANCEL_TT">
+      <Text>Annulla il movimento della spia e la fa restare nella posizione attuale.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_HIDEOUT_BUTTON">
+      <Text>Raggiungi il rifugio</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_HIDEOUT_BUTTON_TT">
+      <Text>Toglie la spia dal servizio attivo e la invia in un rifugio segreto dove rimarrà a giocare a freccette lanciando coltelli appuntiti, in attesa dell'incarico successivo.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_MORE_SPIES">
+      <Text>Tutte le tue spie sono state uccise.[NEWLINE]I rimpiazzi sono in fase di reclutamento.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_AMPHIBIOUS_ARMY">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha scoperto che {@3_PlayerName[4]} {1: plural 1?sta;other?stanno;} allestendo un esercito con una scorta di navi per lanciare un attacco a sorpresa contro un'altra civiltà.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_AMPHIBIOUS_ARMY_S">
+      <Text>{@1_PlayerName[4]} {1: plural 1?sta;other?stanno;} preparando un attacco anfibio a sorpresa!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_ARMY">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha scoperto che {@3_PlayerName[4]} {1: plural 1?sta;other?stanno;} allestendo un esercito per lanciare un attacco a sorpresa contro un'altra civiltà.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_ARMY_S">
+      <Text>{@1_PlayerName[4]} {1: plural 1?sta;other?stanno;} preparando un attacco a sorpresa!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_CONSTRUCT_WONDER">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha scoperto che {@3_PlayerName[4]} {3: plural 1?sta;other?stanno;} costruendo {4_WonderOrProject[3]} a {5_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_CONSTRUCT_WONDER_S">
+      <Text>{@1_PlayerName[4]} {1: plural 1?sta;other?stanno;} costruendo {@2_WonderOrProject[3]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_KNOWN">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, nella città di {3_CityName} ha scoperto che {@4_PlayerName[4]} {1: plural 1?sta;other?stanno;} segretamente complottando contro {@5_PlayerName[4]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_KNOWN_S">
+      <Text>{@1_PlayerName[4]} {1: plural 1?sta;other?stanno;} complottando contro {@2_PlayerName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_UNKNOWN">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, che si trova nella città di {3_CityName}, ha scoperto che {@4_PlayerName[4]} {1: plural 1?sta;other?stanno;} segretamente complottando contro una civiltà che non abbiamo ancora incontrato.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_UNKNOWN_S">
+      <Text>{@1_PlayerName[4]} {1: plural 1?sta;other?stanno;} complottando contro qualcuno.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_YOU">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, che si trova nella città di {3_CityName}, ha scoperto che {@4_PlayerName[4]} {1: plural 1?sta;other?stanno;} segretamente complottando contro di te!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_YOU_S">
+      <Text>{@1_PlayerName[4]} {1: plural 1?sta;other?stanno;} complottando contro di te!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_KNOWN">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha scoperto che un esercito {@3_CivAdj[1]} con scorta navale sta dirigendosi verso la città {@4_CivAdj[2]} di {5_CityName} per lanciare un attacco a sorpresa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_KNOWN_S">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} imbarcato truppe per attaccare a sorpresa {2_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_UNKNOWN">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha scoperto che un esercito {@3_CivAdj[1]} con scorta navale sta dirigendosi verso {@4_CivDesc[4]} per lanciare un attacco a sorpresa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_UNKNOWN_S">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} imbarcato truppe per attaccare a sorpresa {@2_PlayerName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_SOMEONE">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha scoperto che un esercito {@3_CivAdj[1]} con una scorta di navi sta per lanciare un attacco a sorpresa. Non sappiamo quale civiltà intenda aggredire.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_SOMEONE_S">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} imbarcato truppe per attaccare a sorpresa un'altra civiltà.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_UNKNOWN">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha scoperto che un esercito {@3_CivAdj[1]} con scorta navale sta dirigendosi verso una civiltà che non abbiamo ancora incontrato per lanciare un attacco a sorpresa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_UNKNOWN_S">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} imbarcato truppe per attaccare a sorpresa una civiltà che non hai ancora incontrato.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_KNOWN">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha scoperto che un esercito {@3_CivAdj[1]} con scorta navale sta dirigendosi verso la tua città di {4_CityName} per lanciare un attacco a sorpresa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_KNOWN_S">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} imbarcato truppe per attaccare a sorpresa la tua città di {2_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_UNKNOWN">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha scoperto che un esercito {@3_CivAdj[1]} con scorta navale sta dirigendosi verso di te per lanciare un attacco a sorpresa!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_UNKNOWN_S">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} imbarcato truppe per attaccarti di sorpresa!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_KNOWN">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha scoperto che un esercito {@3_CivAdj[1]} sta marciando verso la città {@4_CivAdj[2]} di {5_CityName} per lanciare un attacco a sorpresa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_KNOWN_S">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} lanciato un attacco a sorpresa contro {2_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_UNKNOWN">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha scoperto che un esercito {@3_CivAdj[1]} sta marciando verso {@4_CivDesc[4]} per lanciare un attacco a sorpresa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_UNKNOWN_S">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} lanciato un attacco a sorpresa contro {@2_PlayerName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_SOMEONE">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha scoperto che un esercito {@3_CivAdj[1]} si è messo in marcia per lanciare un attacco a sorpresa. Non sappiamo quale civiltà intenda aggredire.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_SOMEONE_S">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} lanciato un attacco a sorpresa contro un'altra civiltà.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_UNKNOWN">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha scoperto che un esercito {@3_CivAdj[1]} sta marciando contro una civiltà che non abbiamo ancora incontrato per lanciare un attacco a sorpresa.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_UNKNOWN_S">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} lanciato un attacco a sorpresa contro una civiltà che non hai ancora incontrato.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_KNOWN">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha scoperto che un esercito {@3_CivAdj[1]} sta marciando verso la tua città di {4_CityName} per lanciare un attacco a sorpresa!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_KNOWN_S">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} lanciato un attacco a sorpresa contro la tua città di {2_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_UNKNOWN">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha scoperto che un esercito {@3_CivAdj[1]} sta marciando contro di te per lanciare un attacco a sorpresa!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_UNKNOWN_S">
+      <Text>{@1_PlayerName[4]} {1: plural 1?ha;other?hanno;} lanciato un attacco a sorpresa contro di te!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha ucciso una spia {@3_CivAdj[2]} nella città di {4_CityName} mentre questa cercava di rubare una tecnologia!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY_S">
+      <Text>Una spia è stata uccisa!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_TECH">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, non può rubare tecnologie {@3_CivShortName[5]} perché la nostra ricerca scientifica ha completamente eclissato la loro!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_TECH_S">
+      <Text>Non puoi rubare {@1_CivShortName[5]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_CREATED">
+      <Text>Abbiamo reclutato una nuova spia: {1_SpyName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_CONQUEST">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, è fuggita da {3_CityName} quando la città è stata conquistata {@4_CivShortName[5]}. Puoi assegnarle nuovi ordini.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_CONQUEST_S">
+      <Text>Spia fuggita da una città catturata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_CONQUEST_YOU">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, è fuggita da {3_CityName} quando hai catturato la città. Puoi assegnarle nuovi ordini.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_TRADE">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, è tornata da {3_CityName} perché la città è passata {@4_CivShortName[3]}. Puoi assegnarle nuovi ordini.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_TRADE_S">
+      <Text>Una spia ha lasciato una città</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_TRADE_YOU">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, è tornata da {3_CityName} perché la città è passata al tuo impero. Puoi assegnarle nuovi ordini.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_PROMOTED">
+      <Text>La tua spia {1_SpyName} è stata promossa da {@2_RankName} a {@3_RankName}.[NEWLINE]Le spie di grado superiore sono più veloci a rubare tecnologie e più efficaci nella cattura delle spie nemiche se usate difensivamente.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_REVIVED">
+      <Text>Una nuova spia, {1_SpyRank} {2_SpyName}, sostituisce una spia che è stata uccisa in azione.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_REVIVED_S">
+      <Text>Una spia sostituiva è stata reclutata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_ALERT">
+      <Text>In seguito alle recenti elezioni, la tua influenza è sorprendentemente diminuita a {1_CityName}. Probabilmente questo indica che una spia nemica le ha manipolate.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_ALERT_S">
+      <Text>Brogli elettorali a {1_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_FAILURE">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, non è riuscita a manipolare le elezioni locali di {3_CityName}. L'operazione è invece riuscita {@4_CivShortDesc[3]}, la cui Influenza sulla città-stato è aumentata.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_FAILURE_S">
+      <Text>Elezioni pilotate fallite a {1_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_SUCCESS">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, è riuscita a manipolare le elezioni locali di {3_CityName}, aumentando la tua Influenza nella città-stato e diminuendo quella delle altre civiltà.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_SUCCESS_S">
+      <Text>Elezioni pilotate con successo a {1_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_FAILURE">
+      <Text>{@1_CivShortDesc[4]} {1: plural 1?ha;other?hanno;} tentato un colpo di stato a {2_CityName}, senza però riuscire a rovesciare i simpatizzanti {@3_CivAdj[3]} che sostengono l'attuale alleanza della città-stato.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_FAILURE_S">
+      <Text>Colpo di stato {@1_CivAdj[1]} a {2_CityName} fallito</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_SUCCESS">
+      <Text>{@1_CivName[4]} {1: plural 1?ha;other?hanno;} organizzato un colpo di stato a {2_CityName}, deposto i simpatizzanti {@3_CivAdj[3]} e installato un nuovo governo alleato con loro.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_SUCCESS_S">
+      <Text>Colpo di stato {@1_CivAdj[1]} a {2_CityName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_BLOCKING">
+      <Text>RUBA TECNOLOGIA</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_BLOCKING_TT">
+      <Text>La tua spia ha raccolto informazioni sufficienti per rubare una tecnologia. Scegli la tecnologia che desideri rubare.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_TECH">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha raccolto informazioni sufficienti a {3_CityName} per rubare una tecnologia {@4_CivShortName[3]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_TECH_S">
+      <Text>Ruba tecnologia</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, è stata uccisa da un agente del controspionaggio {@3_CivAdj[2]} mentre cercava di rubare una tecnologia a {4_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_S">
+      <Text>La spia {1_SpyName} è stata uccisa!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_FAILURE">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha tentato un colpo di stato a {3_CityName} ma non è riuscita a rovesciare i simpatizzanti {@4_CivShortDesc[3]} che governavano la città. La spia è morta nel tentativo.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_FAILURE_S">
+      <Text>Colpo di stato fallito a {1_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_SUCCESS">
+      <Text>La tua spia, {1_SpyRank} {2_SpyName}, ha organizzato un colpo di stato a {3_CityName} e ha rovesciato i simpatizzanti {@4_CivShortDesc[3]} che la governavano. Ora la città è alleata con te.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_SUCCESS_S">
+      <Text>Colpo di stato riuscito a {1_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SPY_CREATED">
+      <Text>Una spia è stata reclutata!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SPY_PROMOTED">
+      <Text>La spia {1_SpyName} è stata promossa!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED">
+      <Text>Una spia non identificata ha rubato il segreto della tecnologia {1_Tech} a {2_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_S">
+      <Text>La tecnologia {1_Tech} è stata rubata!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_W_TIP">
+      <Text>Una spia non identificata ha rubato il segreto della tecnologia {1_Tech} a {2_CityName}![NEWLINE]Forse è meglio che piazzi una delle tue spie in questa città per proteggerla da ulteriori furti.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_WO_TECH">
+      <Text>Una spia non identificata ha rubato segreti tecnologici a {1_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_WO_TECH_S">
+      <Text>Tecnologia rubata</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_WO_TECH_W_TIP">
+      <Text>Una spia non identificata ha rubato segreti tecnologici a {1_CityName}![NEWLINE]Forse è meglio che piazzi una delle tue spie in questa città per proteggerla da ulteriori furti.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED">
+      <Text>Una spia {@1_CivAdj[2]} ha rubato il segreto della tecnologia {2_Tech} a {3_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_S">
+      <Text>{@1_CivShortDesc[4]} {@1_CivShortDesc: plural 1?ha; other?hanno;} rubato la tecnologia: {2_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_W_TIP">
+      <Text>Una spia {@1_CivAdj[2]} ha rubato il segreto della tecnologia {2_Tech} a {3_CityName}![NEWLINE]Forse è meglio che piazzi una delle tue spie in questa città per proteggerla da ulteriori furti.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_WO_TECH">
+      <Text>Una spia {@1_CivAdj[2]} ha rubato segreti tecnologici a {2_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_WO_TECH_S">
+      <Text>{@1_CivShortDesc[4]} {1: plural 1?ha;other?hanno;} rubato una tecnologia!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_WO_TECH_W_TIP">
+      <Text>Una spia {@1_CivAdj[2]} ha rubato segreti tecnologici a {2_CityName}![NEWLINE]Forse è meglio che piazzi una delle tue spie in questa città per proteggerla da ulteriori furti.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_FULL_NAME">
+      <Text>{1_RankName} {2_AgentName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_LOCATION_UNASSIGNED">
+      <Text>Attende ordini</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_OCCUPYING_CITY">
+      <Text>{1_AgentName} sta occupando questa città.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_RANK_0">
+      <Text>Recluta</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_RANK_1">
+      <Text>Agente</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_RANK_2">
+      <Text>Agente speciale</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_COUNTER_INTEL">
+      <Text>Controspionaggio</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_DEAD">
+      <Text>Ucciso in azione</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_ESTABLISHED_SURVEILLANCE">
+      <Text>Sta sorvegliando l'attività</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_ESTABLISHED_SURVEILLANCE_PROGRESS_BAR">
+      <Text>Niente da rubare</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_GATHERING_INTEL">
+      <Text>Sta raccogliendo informazioni</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_RIGGING_ELECTION">
+      <Text>Manipola un'elezione</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_SURVEILLANCE">
+      <Text>Sta stabilendo una sorveglianza</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_TRAVELLING">
+      <Text>In viaggio</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_UNASSIGNED">
+      <Text>Senza ordini</Text>
+    </Row>
+  </Language_IT_IT>
+</GameData>

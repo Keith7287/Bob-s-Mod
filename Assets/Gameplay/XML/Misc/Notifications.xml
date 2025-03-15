@@ -417,13 +417,13 @@
 		<Row>
 			<NotificationType>NOTIFICATION_REQUEST_RESOURCE</NotificationType>
 		</Row>
-    <Row>
-      <NotificationType>NOTIFICATION_LIBERATED_MAJOR_CITY</NotificationType>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_RESURRECTED_MAJOR_CIV</NotificationType>
-    </Row>
-    <Row>
+		<Row>
+			<NotificationType>NOTIFICATION_LIBERATED_MAJOR_CITY</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_RESURRECTED_MAJOR_CIV</NotificationType>
+		</Row>
+		<Row>
 			<NotificationType>NOTIFICATION_ADD_REFORMATION_BELIEF</NotificationType>
 		</Row>
 		<Row>
@@ -432,24 +432,24 @@
 		<Row>
 			<NotificationType>NOTIFICATION_CHOOSE_ARCHAEOLOGY</NotificationType>
 		</Row>
-    <Row>
-      <NotificationType>NOTIFICATION_LEAGUE_CALL_FOR_VOTES</NotificationType>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_CHOOSE_IDEOLOGY</NotificationType>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_IDEOLOGY_CHOSEN</NotificationType>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_DIPLOMAT_EJECTED</NotificationType>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_INTERNATIONAL_TRADE_UNIT_PLUNDERED_TRADER</NotificationType>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_INTERNATIONAL_TRADE_UNIT_PLUNDERED_TRADEE</NotificationType>
-    </Row>   
+		<Row>
+			<NotificationType>NOTIFICATION_LEAGUE_CALL_FOR_VOTES</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_CHOOSE_IDEOLOGY</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_IDEOLOGY_CHOSEN</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_DIPLOMAT_EJECTED</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_INTERNATIONAL_TRADE_UNIT_PLUNDERED_TRADER</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_INTERNATIONAL_TRADE_UNIT_PLUNDERED_TRADEE</NotificationType>
+		</Row>
 		<Row>
 			<NotificationType>NOTIFICATION_REFORMATION_BELIEF_ADDED_ACTIVE_PLAYER</NotificationType>
 			<Welcomeness>1</Welcomeness>
@@ -467,52 +467,58 @@
 		<Row>
 			<NotificationType>NOTIFICATION_LEAGUE_VOTING_SOON</NotificationType>
 		</Row>
-    <Row>
-      <NotificationType>NOTIFICATION_CULTURE_VICTORY_SOMEONE_INFLUENTIAL</NotificationType>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_CULTURE_VICTORY_WITHIN_TWO</NotificationType>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_CULTURE_VICTORY_WITHIN_TWO_ACTIVE_PLAYER</NotificationType>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_CULTURE_VICTORY_WITHIN_ONE</NotificationType>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_CULTURE_VICTORY_WITHIN_ONE_ACTIVE_PLAYER</NotificationType>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_CULTURE_VICTORY_NO_LONGER_INFLUENTIAL</NotificationType>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_PLAYER_RECONNECTED</NotificationType>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_PLAYER_DISCONNECTED</NotificationType>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_TURN_MODE_SEQUENTIAL</NotificationType>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_TURN_MODE_SIMULTANEOUS</NotificationType>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_HOST_MIGRATION</NotificationType>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_PLAYER_CONNECTING</NotificationType>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_CITY_REVOLT_POSSIBLE</NotificationType>
-      <Welcomeness>-1</Welcomeness>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_CITY_REVOLT</NotificationType>
-      <Welcomeness>-1</Welcomeness>
-    </Row>
-    <Row>
-      <NotificationType>NOTIFICATION_PLAYER_KICKED</NotificationType>
-    </Row>
-  </Notifications>
+		<Row>
+			<NotificationType>NOTIFICATION_CULTURE_VICTORY_SOMEONE_INFLUENTIAL</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_CULTURE_VICTORY_WITHIN_TWO</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_CULTURE_VICTORY_WITHIN_TWO_ACTIVE_PLAYER</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_CULTURE_VICTORY_WITHIN_ONE</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_CULTURE_VICTORY_WITHIN_ONE_ACTIVE_PLAYER</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_CULTURE_VICTORY_NO_LONGER_INFLUENTIAL</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_PLAYER_RECONNECTED</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_PLAYER_DISCONNECTED</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_TURN_MODE_SEQUENTIAL</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_TURN_MODE_SIMULTANEOUS</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_HOST_MIGRATION</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_PLAYER_CONNECTING</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_CITY_REVOLT_POSSIBLE</NotificationType>
+			<Welcomeness>-1</Welcomeness>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_CITY_REVOLT</NotificationType>
+			<Welcomeness>-1</Welcomeness>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_PLAYER_KICKED</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_LEAGUE_PROJECT_COMPLETE</NotificationType>
+		</Row>
+		<Row>
+			<NotificationType>NOTIFICATION_LEAGUE_PROJECT_PROGRESS</NotificationType>
+		</Row>
+	</Notifications>
 </GameData>

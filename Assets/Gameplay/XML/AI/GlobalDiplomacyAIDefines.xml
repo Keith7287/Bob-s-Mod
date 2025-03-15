@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
 <!-- Global Defines -->
 <GameData>
 	<Defines>
@@ -127,17 +128,50 @@
 		<Row Name="OPINION_WEIGHT_ASKED_NO_SETTLE">
 			<Value>20</Value>
 		</Row>
+		<Row Name="OPINION_WEIGHT_ASKED_STOP_SPYING">
+			<Value>10</Value>
+		</Row>
 		<Row Name="OPINION_WEIGHT_MADE_DEMAND_OF_US">
 			<Value>20</Value>
 		</Row>
 		<Row Name="OPINION_WEIGHT_RETURNED_CIVILIAN">
 			<Value>-20</Value>
 		</Row>
-    <Row Name="OPINION_WEIGHT_RESURRECTED">
-      <Value>-200</Value>
+    <Row Name="OPINION_WEIGHT_BUILT_LANDMARK">
+      <Value>-20</Value>
     </Row>
-    <Row Name="OPINION_WEIGHT_CULTURE_BOMBED">
+    <Row Name="OPINION_WEIGHT_RESURRECTED">
+			<Value>-200</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_LIBERATED_ONE_CITY">
+			<Value>-30</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_LIBERATED_TWO_CITIES">
+			<Value>-50</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_LIBERATED_THREE_CITIES">
+			<Value>-60</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_EMBASSY">
+			<Value>-1</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_CULTURE_BOMBED">
 			<Value>30</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_PER_NEGATIVE_CONVERSION">
+			<Value>2</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_ADOPTING_HIS_RELIGION">
+			<Value>-5</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_ADOPTING_MY_RELIGION">
+			<Value>-3</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_SAME_LATE_POLICIES">
+			<Value>-5</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_DIFFERENT_LATE_POLICIES">
+			<Value>5</Value>
 		</Row>
 		<Row Name="OPINION_WEIGHT_BROKEN_MILITARY_PROMISE">
 			<Value>40</Value>
@@ -164,19 +198,49 @@
 			<Value>40</Value>
 		</Row>
 		<Row Name="OPINION_WEIGHT_BROKEN_CITY_STATE_PROMISE_WORLD">
-			<Value>15</Value>
+			<Value>0</Value>
 		</Row>
 		<Row Name="OPINION_WEIGHT_IGNORED_CITY_STATE_PROMISE">
 			<Value>15</Value>
 		</Row>
+		<Row Name="OPINION_WEIGHT_BROKEN_SPY_PROMISE">
+			<Value>20</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_IGNORED_SPY_PROMISE">
+			<Value>10</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_FORGAVE_FOR_SPYING">
+			<Value>-10</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_BROKEN_NO_CONVERT_PROMISE">
+			<Value>8</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_IGNORED_NO_CONVERT_PROMISE">
+			<Value>4</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_BROKEN_NO_DIG_PROMISE">
+			<Value>30</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_IGNORED_NO_DIG_PROMISE">
+			<Value>20</Value>
+		</Row>
 		<Row Name="OPINION_WEIGHT_BROKEN_COOP_WAR_PROMISE">
 			<Value>20</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_KILLED_PROTECTED_MINOR_NUM_TURNS_UNTIL_FORGIVEN">
+			<Value>50</Value>
 		</Row>
 		<Row Name="OPINION_WEIGHT_KILLED_PROTECTED_MINOR">
 			<Value>40</Value>
 		</Row>
 		<Row Name="OPINION_WEIGHT_KILLED_MANY_PROTECTED_MINORS">
-			<Value>50</Value>
+			<Value>10</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_ATTACKED_PROTECTED_MINOR_NUM_TURNS_UNTIL_FORGIVEN">
+			<Value>30</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_ATTACKED_PROTECTED_MINOR_RECENTLY_NUM_TURNS">
+			<Value>20</Value>
 		</Row>
 		<Row Name="OPINION_WEIGHT_ATTACKED_PROTECTED_MINOR_RECENTLY">
 			<Value>20</Value>
@@ -185,7 +249,28 @@
 			<Value>15</Value>
 		</Row>
 		<Row Name="OPINION_WEIGHT_ATTACKED_MANY_PROTECTED_MINORS">
-			<Value>35</Value>
+			<Value>15</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_BULLIED_PROTECTED_MINOR_NUM_TURNS_UNTIL_FORGIVEN">
+			<Value>30</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_BULLIED_PROTECTED_MINOR_RECENTLY_NUM_TURNS">
+			<Value>20</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_BULLIED_PROTECTED_MINOR_RECENTLY">
+			<Value>15</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_BULLIED_PROTECTED_MINOR_WHILE_AGO">
+			<Value>10</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_BULLIED_MANY_PROTECTED_MINORS">
+			<Value>10</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_SIDED_WITH_THEIR_MINOR_NUM_TURNS_UNTIL_FORGIVEN">
+			<Value>10</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_SIDED_WITH_THEIR_MINOR">
+			<Value>5</Value>
 		</Row>
 		<Row Name="OPINION_WEIGHT_DOF">
 			<Value>-35</Value>
@@ -232,57 +317,144 @@
 		<Row Name="OPINION_WEIGHT_RECKLESS_EXPANDER">
 			<Value>35</Value>
 		</Row>
-    <Row Name="OPINION_WEIGHT_TRADE_MAX">
-      <Value>-30</Value>
-    </Row>
-    <Row Name="OPINION_WEIGHT_COMMON_FOE_MAX">
-      <Value>-50</Value>
-    </Row>
-    <Row Name="OPINION_WEIGHT_ASSIST_MAX">
-      <Value>-30</Value>
-    </Row>
-    <Row Name="OPINION_WEIGHT_LIBERATED_CAPITAL">
-      <Value>-80</Value>
-    </Row>
-    <Row Name="OPINION_WEIGHT_LIBERATED_CITY">
-      <Value>-40</Value>
-    </Row>
-    <Row Name="OPINION_WEIGHT_GAVE_ASSISTANCE">
-      <Value>20</Value>
-    </Row>
-    <Row Name="OPINION_WEIGHT_PAID_TRIBUTE">
-      <Value>30</Value>
-    </Row>
-    <Row Name="OPINION_WEIGHT_NUKED_MAX">
-      <Value>100</Value>
-    </Row>
-    <Row Name="OPINION_WEIGHT_CAPTURED_CAPITAL">
-      <Value>80</Value>
-    </Row>
-		<Row Name="OPINION_THRESHOLD_UNFORGIVABLE">
-			<Value>50</Value>
-		</Row>
-		<Row Name="OPINION_THRESHOLD_ENEMY">
-			<Value>30</Value>
-		</Row>
-		<Row Name="OPINION_THRESHOLD_COMPETITOR">
-			<Value>10</Value>
-		</Row>
-		<Row Name="OPINION_THRESHOLD_FAVORABLE">
-			<Value>-10</Value>
-		</Row>
-		<Row Name="OPINION_THRESHOLD_FRIEND">
+		<Row Name="OPINION_WEIGHT_TRADE_MAX">
 			<Value>-30</Value>
 		</Row>
-		<Row Name="OPINION_THRESHOLD_ALLY">
+		<Row Name="OPINION_WEIGHT_COMMON_FOE_MAX">
 			<Value>-50</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_ASSIST_MAX">
+			<Value>30</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_LIBERATED_CAPITAL">
+			<Value>-80</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_LIBERATED_CITY">
+			<Value>-40</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_GAVE_ASSISTANCE">
+			<Value>20</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_PAID_TRIBUTE">
+			<Value>30</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_NUKED_MAX">
+			<Value>50</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_ROBBED_BY">
+			<Value>20</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_INTRIGUE_SHARED_BY">
+			<Value>-10</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_CAPTURED_CAPITAL">
+			<Value>80</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_WE_LIKED_THEIR_PROPOSAL">
+			<Value>-15</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_WE_LIKED_THEIR_PROPOSAL_NUM_TURNS">
+			<Value>45</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_WE_DISLIKED_THEIR_PROPOSAL">
+			<Value>15</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_WE_DISLIKED_THEIR_PROPOSAL_NUM_TURNS">
+			<Value>45</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_THEY_SUPPORTED_OUR_PROPOSAL">
+			<Value>-20</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_THEY_SUPPORTED_OUR_PROPOSAL_NUM_TURNS">
+			<Value>45</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_THEY_FOILED_OUR_PROPOSAL">
+			<Value>20</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_THEY_FOILED_OUR_PROPOSAL_NUM_TURNS">
+			<Value>45</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_THEY_SUPPORTED_OUR_HOSTING">
+			<Value>-20</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_THEY_SUPPORTED_OUR_HOSTING_NUM_TURNS">
+			<Value>45</Value>
+		</Row>
+		<Row Name="OPINION_THRESHOLD_UNFORGIVABLE">
+			<Value>80</Value>
+		</Row>
+		<Row Name="OPINION_THRESHOLD_ENEMY">
+			<Value>40</Value>
+		</Row>
+		<Row Name="OPINION_THRESHOLD_COMPETITOR">
+			<Value>15</Value>
+		</Row>
+		<Row Name="OPINION_THRESHOLD_FAVORABLE">
+			<Value>-15</Value>
+		</Row>
+		<Row Name="OPINION_THRESHOLD_FRIEND">
+			<Value>-40</Value>
+		</Row>
+		<Row Name="OPINION_THRESHOLD_ALLY">
+			<Value>-80</Value>
+		</Row>
+		<Row Name="EXPANSION_BICKER_TIMEOUT">
+			<Value>10</Value>
+		</Row>
+		<Row Name="EXPANSION_PROMISE_TURNS_EFFECTIVE">
+			<Value>50</Value>
+		</Row>
+		<Row Name="EXPANSION_PROMISE_BROKEN_PER_TURN_DECAY">
+			<Value>40</Value>
+		</Row>
+		<Row Name="BROKEN_EXPANSION_PROMISE_PER_OPINION_WEIGHT">
+			<Value>1</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_EXPANSION_PROMISE_BROKE_MAX">
+			<Value>20</Value>
+		</Row>
+		<Row Name="EXPANSION_PROMISE_IGNORED_PER_TURN_DECAY">
+			<Value>30</Value>
+		</Row>
+		<Row Name="IGNORED_EXPANSION_PROMISE_PER_OPINION_WEIGHT">
+			<Value>1</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_EXPANSION_PROMISE_IGNORED_MAX">
+			<Value>15</Value>
+		</Row>
+		<Row Name="BORDER_PROMISE_TURNS_EFFECTIVE">
+			<Value>50</Value>
+		</Row>
+		<Row Name="BORDER_PROMISE_BROKEN_PER_TURN_DECAY">
+			<Value>40</Value>
+		</Row>
+		<Row Name="BROKEN_BORDER_PROMISE_PER_OPINION_WEIGHT">
+			<Value>1</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_BORDER_PROMISE_BROKE_MAX">
+			<Value>20</Value>
+		</Row>
+		<Row Name="BORDER_PROMISE_IGNORED_PER_TURN_DECAY">
+			<Value>30</Value>
+		</Row>
+		<Row Name="IGNORED_BORDER_PROMISE_PER_OPINION_WEIGHT">
+			<Value>1</Value>
+		</Row>
+		<Row Name="OPINION_WEIGHT_BORDER_PROMISE_IGNORED_MAX">
+			<Value>15</Value>
+		</Row>
+		<Row Name="DECLARED_WAR_ON_FRIEND_PER_TURN_DECAY">
+			<Value>80</Value>
+		</Row>
+		<Row Name="DECLARED_WAR_ON_FRIEND_PER_OPINION_WEIGHT">
+			<Value>1</Value>
 		</Row>
 		<!--Major Civ Approach-->
 		<Row Name="APPROACH_NEUTRAL_DEFAULT">
-			<Value>4</Value>
+			<Value>8</Value>
 		</Row>
 		<Row Name="APPROACH_BIAS_FOR_CURRENT">
-			<Value>3</Value>
+			<Value>5</Value>
 		</Row>
 		<Row Name="APPROACH_WAR_CURRENTLY_DECEPTIVE">
 			<Value>2</Value>
@@ -345,7 +517,7 @@
 			<Value>-5</Value>
 		</Row>
 		<Row Name="APPROACH_OPINION_FAVORABLE_DECEPTIVE">
-			<Value>0</Value>
+			<Value>2</Value>
 		</Row>
 		<Row Name="APPROACH_OPINION_FAVORABLE_FRIENDLY">
 			<Value>4</Value>
@@ -623,10 +795,10 @@
 			<Value>2</Value>
 		</Row>
 		<Row Name="APPROACH_WAR_PROJECTION_DESTRUCTION_PERCENT">
-			<Value>45</Value>
+			<Value>33</Value>
 		</Row>
 		<Row Name="APPROACH_WAR_PROJECTION_DEFEAT_PERCENT">
-			<Value>60</Value>
+			<Value>50</Value>
 		</Row>
 		<Row Name="APPROACH_WAR_PROJECTION_STALEMATE_PERCENT">
 			<Value>80</Value>
@@ -684,13 +856,13 @@
 			<Value>1</Value>
 		</Row>
 		<Row Name="MINOR_APPROACH_BIAS_FOR_CURRENT">
-			<Value>2</Value>
+			<Value>4</Value>
 		</Row>
 		<Row Name="MINOR_APPROACH_IGNORE_CURRENTLY_WAR">
 			<Value>3</Value>
 		</Row>
 		<Row Name="MINOR_APPROACH_WAR_CONQUEST_GRAND_STRATEGY">
-			<Value>10</Value>
+			<Value>8</Value>
 		</Row>
 		<Row Name="MINOR_APPROACH_PROTECTIVE_CONQUEST_GRAND_STRATEGY">
 			<Value>-15</Value>
@@ -798,7 +970,7 @@
 			<Value>-2</Value>
 		</Row>
 		<Row Name="MINOR_APPROACH_CONQUEST_PERSONALITY_HOSTILE">
-			<Value>1</Value>
+			<Value>2</Value>
 		</Row>
 		<Row Name="MINOR_APPROACH_FRIENDLY_PERSONALITY_IRRATIONAL">
 			<Value>0</Value>
@@ -807,7 +979,7 @@
 			<Value>0</Value>
 		</Row>
 		<Row Name="MINOR_APPROACH_WAR_PLANNING_WAR_WITH_ANOTHER_PLAYER">
-			<Value>-20</Value>
+			<Value>-15</Value>
 		</Row>
 		<Row Name="MINOR_APPROACH_PROTECTIVE_WITH_ANOTHER_PLAYER">
 			<Value>-2</Value>
@@ -1008,13 +1180,25 @@
 			<Value>180</Value>
 		</Row>
 		<Row Name="PEACE_WILLINGNESS_OFFER_THRESHOLD_CAPITULATION">
+			<Value>150</Value>
+		</Row>
+		<Row Name="PEACE_WILLINGNESS_OFFER_THRESHOLD_CESSION">
 			<Value>120</Value>
 		</Row>
 		<Row Name="PEACE_WILLINGNESS_OFFER_THRESHOLD_SURRENDER">
+			<Value>95</Value>
+		</Row>
+		<Row Name="PEACE_WILLINGNESS_OFFER_THRESHOLD_SUBMISSION">
 			<Value>70</Value>
 		</Row>
-		<Row Name="PEACE_WILLINGNESS_OFFER_THRESHOLD_ARMISTICE">
+		<Row Name="PEACE_WILLINGNESS_OFFER_THRESHOLD_BACKDOWN">
+			<Value>55</Value>
+		</Row>
+		<Row Name="PEACE_WILLINGNESS_OFFER_THRESHOLD_SETTLEMENT">
 			<Value>40</Value>
+		</Row>
+		<Row Name="PEACE_WILLINGNESS_OFFER_THRESHOLD_ARMISTICE">
+			<Value>20</Value>
 		</Row>
 		<Row Name="PEACE_WILLINGNESS_ACCEPT_PROJECTION_DESTRUCTION">
 			<Value>-50</Value>
@@ -1053,13 +1237,25 @@
 			<Value>150</Value>
 		</Row>
 		<Row Name="PEACE_WILLINGNESS_ACCEPT_THRESHOLD_CAPITULATION">
+			<Value>115</Value>
+		</Row>
+		<Row Name="PEACE_WILLINGNESS_ACCEPT_THRESHOLD_CESSION">
 			<Value>80</Value>
 		</Row>
 		<Row Name="PEACE_WILLINGNESS_ACCEPT_THRESHOLD_SURRENDER">
+			<Value>65</Value>
+		</Row>
+		<Row Name="PEACE_WILLINGNESS_ACCEPT_THRESHOLD_SUBMISSION">
 			<Value>50</Value>
 		</Row>
-		<Row Name="PEACE_WILLINGNESS_ACCEPT_THRESHOLD_ARMISTICE">
+		<Row Name="PEACE_WILLINGNESS_ACCEPT_THRESHOLD_BACKDOWN">
+			<Value>35</Value>
+		</Row>
+		<Row Name="PEACE_WILLINGNESS_ACCEPT_THRESHOLD_SETTLEMENT">
 			<Value>20</Value>
+		</Row>
+		<Row Name="PEACE_WILLINGNESS_ACCEPT_THRESHOLD_ARMISTICE">
+			<Value>10</Value>
 		</Row>
 		<Row Name="ARMISTICE_GPT_DIVISOR">
 			<Value>3</Value>
@@ -1223,34 +1419,34 @@
 			<Value>0</Value>
 		</Row>
 		<Row Name="WAR_PROJECTION_WAR_DAMAGE_US_MINOR">
-			<Value>-10</Value>
+			<Value>-15</Value>
 		</Row>
 		<Row Name="WAR_PROJECTION_WAR_DAMAGE_US_MAJOR">
-			<Value>-20</Value>
-		</Row>
-		<Row Name="WAR_PROJECTION_WAR_DAMAGE_US_SERIOUS">
 			<Value>-30</Value>
 		</Row>
+		<Row Name="WAR_PROJECTION_WAR_DAMAGE_US_SERIOUS">
+			<Value>-45</Value>
+		</Row>
 		<Row Name="WAR_PROJECTION_WAR_DAMAGE_US_CRIPPLED">
-			<Value>-40</Value>
+			<Value>-60</Value>
 		</Row>
 		<Row Name="WAR_PROJECTION_WAR_DAMAGE_THEM_NONE">
 			<Value>0</Value>
 		</Row>
 		<Row Name="WAR_PROJECTION_WAR_DAMAGE_THEM_MINOR">
-			<Value>5</Value>
-		</Row>
-		<Row Name="WAR_PROJECTION_WAR_DAMAGE_THEM_MAJOR">
 			<Value>10</Value>
 		</Row>
+		<Row Name="WAR_PROJECTION_WAR_DAMAGE_THEM_MAJOR">
+			<Value>20</Value>
+		</Row>
 		<Row Name="WAR_PROJECTION_WAR_DAMAGE_THEM_SERIOUS">
-			<Value>15</Value>
+			<Value>30</Value>
 		</Row>
 		<Row Name="WAR_PROJECTION_WAR_DAMAGE_THEM_CRIPPLED">
-			<Value>20</Value>
+			<Value>40</Value>
 		</Row>
 		<Row Name="WAR_PROJECTION_WAR_DURATION_SCORE_CAP">
-			<Value>20</Value>
+			<Value>25</Value>
 		</Row>
 		<!--War State-->
 		<Row Name="WAR_STATE_CALM_THRESHOLD_FOREIGN_FORCES">
@@ -1273,19 +1469,19 @@
 			<Value>67</Value>
 		</Row>
 		<Row Name="WAR_DAMAGE_LEVEL_THRESHOLD_SERIOUS">
-			<Value>50</Value>
+			<Value>45</Value>
 		</Row>
 		<Row Name="WAR_DAMAGE_LEVEL_THRESHOLD_MAJOR">
 			<Value>25</Value>
 		</Row>
 		<Row Name="WAR_DAMAGE_LEVEL_THRESHOLD_MINOR">
-			<Value>10</Value>
+			<Value>5</Value>
 		</Row>
 		<Row Name="WAR_DAMAGE_LEVEL_CITY_WEIGHT">
 			<Value>150</Value>
 		</Row>
 		<Row Name="WAR_DAMAGE_LEVEL_INVOLVED_CITY_POP_MULTIPLIER">
-			<Value>100</Value>
+			<Value>150</Value>
 		</Row>
 		<Row Name="WAR_DAMAGE_LEVEL_UNINVOLVED_CITY_POP_MULTIPLIER">
 			<Value>120</Value>
@@ -1423,10 +1619,10 @@
 			<Value>0</Value>
 		</Row>
 		<Row Name="TARGET_FAR">
-			<Value>20</Value>
+			<Value>30</Value>
 		</Row>
 		<Row Name="TARGET_DISTANT">
-			<Value>60</Value>
+			<Value>80</Value>
 		</Row>
 		<Row Name="TARGET_MINOR_BACKUP_PATHETIC">
 			<Value>0</Value>
@@ -1594,25 +1790,28 @@
 			<Value>200</Value>
 		</Row>
 		<Row Name="WARMONGER_THREAT_SEVERE_THRESHOLD">
-			<Value>150</Value>
-		</Row>
-		<Row Name="WARMONGER_THREAT_MAJOR_THRESHOLD">
 			<Value>100</Value>
 		</Row>
-		<Row Name="WARMONGER_THREAT_MINOR_THRESHOLD">
+		<Row Name="WARMONGER_THREAT_MAJOR_THRESHOLD">
 			<Value>50</Value>
 		</Row>
+		<Row Name="WARMONGER_THREAT_MINOR_THRESHOLD">
+			<Value>20</Value>
+		</Row>
 		<Row Name="WARMONGER_THREAT_MINOR_ATTACKED_WEIGHT">
-			<Value>5</Value>
+			<Value>125</Value>
 		</Row>
 		<Row Name="WARMONGER_THREAT_MINOR_CONQUERED_WEIGHT">
-			<Value>10</Value>
+			<Value>1000</Value>
 		</Row>
 		<Row Name="WARMONGER_THREAT_MAJOR_ATTACKED_WEIGHT">
-			<Value>5</Value>
+			<Value>250</Value>
 		</Row>
 		<Row Name="WARMONGER_THREAT_MAJOR_CONQUERED_WEIGHT">
-			<Value>10</Value>
+			<Value>1000</Value>
+		</Row>
+		<Row Name="WARMONGER_THREAT_PER_TURN_DECAY">
+			<Value>-5</Value>
 		</Row>
 		<Row Name="WARMONGER_THREAT_PERSONALITY_MOD">
 			<Value>10</Value>
@@ -1623,7 +1822,10 @@
 		<Row Name="WARMONGER_THREAT_SEVERE_PERCENT_THRESHOLD">
 			<Value>25</Value>
 		</Row>
-		<!--Issues of Dispute-->
+    <Row Name="WARMONGER_ON_CITY_STATE_MULTIPLIER">
+      <Value>50</Value>
+    </Row>
+    <!--Issues of Dispute-->
 		<Row Name="LAND_DISPUTE_FIERCE_THRESHOLD">
 			<Value>400</Value>
 		</Row>
@@ -1839,6 +2041,9 @@
 		<Row Name="DOF_TURN_BUFFER">
 			<Value>20</Value>
 		</Row>
+		<Row Name="DOF_THRESHOLD">
+			<Value>12</Value>
+		</Row>
 		<!--Diplomatic Memory-->
 		<Row Name="DENUNCIATION_EXPIRATION_TIME">
 			<Value>50</Value>
@@ -1846,25 +2051,28 @@
 		<Row Name="DOF_EXPIRATION_TIME">
 			<Value>50</Value>
 		</Row>
+		<Row Name="STOP_SPYING_MEMORY_TURN_EXPIRATION">
+			<Value>50</Value>
+		</Row>
 		<!--Diplomacy Trade-->
 		<Row Name="EACH_GOLD_VALUE_PERCENT">
 			<Value>100</Value>
 		</Row>
 		<Row Name="EACH_GOLD_PER_TURN_VALUE_PERCENT">
-			<Value>75</Value>
+			<Value>85</Value>
 		</Row>
-    <Row Name="DEAL_VALUE_PER_TURN_DECAY">
-      <Value>3</Value>
-    </Row>
-    <Row Name="DEAL_VALUE_PER_OPINION_WEIGHT">
-      <Value>10</Value>
-    </Row>
-    <Row Name="COMMON_FOE_VALUE_PER_TURN_DECAY">
-      <Value>25</Value>
-    </Row>
-    <Row Name="COMMON_FOE_VALUE_PER_OPINION_WEIGHT">
-      <Value>50</Value>
-    </Row>
+		<Row Name="DEAL_VALUE_PER_TURN_DECAY">
+			<Value>3</Value>
+		</Row>
+		<Row Name="DEAL_VALUE_PER_OPINION_WEIGHT">
+			<Value>10</Value>
+		</Row>
+		<Row Name="COMMON_FOE_VALUE_PER_TURN_DECAY">
+			<Value>25</Value>
+		</Row>
+		<Row Name="COMMON_FOE_VALUE_PER_OPINION_WEIGHT">
+			<Value>50</Value>
+		</Row>
 		<!--Other Interaction (Demands, Research Agreements, etc.)-->
 		<Row Name="WANT_RESEARCH_AGREEMENT_RAND">
 			<Value>8</Value>

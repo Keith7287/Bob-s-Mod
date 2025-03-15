@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+
+<GameData>
+    <Language_en_US>
+        <!--General phrases -->
+        <!--Greeting (first time meeting) -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_FIRSTGREETING_1">
+            <Text>I am Shaka! Ruler of the Zulu Kingdom! Why have you come?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_FIRSTGREETING_2">
+            <Text>I stand before you as a warrior...can you say the same?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_FIRSTGREETING_3">
+            <Text>The mighty Zulu Kingdom approaches...choose your words carefully!</Text>
+        </Row>
+        <!--Reacts to his bluff being called -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_WARBLUFF_1">
+            <Text>You are playing a dangerous game.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_WARBLUFF_2">
+            <Text>I admire your courage.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_WARBLUFF_3">
+            <Text>You may live to regret this.</Text>
+        </Row>
+        <!--Gloats after winning a war -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_WINWAR_1">
+            <Text>The fact that you still live is a testament to my restraint.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_WINWAR_2">
+            <Text>The fact that you still live is a testament to my restraint.</Text>
+        </Row>
+        <!--Submissive after losing a war -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_LOSEWAR_1">
+            <Text>We will shift our tactics...this will not be the end!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_LOSEWAR_2">
+            <Text>We will shift our tactics...this will not be the end!</Text>
+        </Row>
+        <!--Defeated and removed from game -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_DEFEATED_1">
+            <Text>My warriors have failed, and so have I failed them.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_DEFEATED_2">
+            <Text>You have bested me, but my people will always remember my will.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_DEFEATED_3">
+            <Text>Today you are the victor, but perhaps someday you will not be so lucky.</Text>
+        </Row>
+
+        <!--Neutral -->
+        <!--Greetings (subsequent meetings) -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_GREETING_1">
+            <Text>Welcome.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_GREETING_2">
+            <Text>Hail!</Text>
+        </Row>
+        <!--Goodbye -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_GOODBYE_1">
+            <Text>Be gone.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_GOODBYE_2">
+            <Text>That is all.</Text>
+        </Row>
+        <!--Trade offer from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADE_YES_NEUTRAL">
+            <Text>Your offer is fair, I accept.</Text>
+        </Row>
+        <!--Trade offer from player - sweeten the deal -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADE_NEEDMORE_NEUTRAL_1">
+            <Text>You underestimate our needs...you'll have to do better?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADE_NEEDMORE_NEUTRAL_2">
+            <Text>Can you do a little better?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADE_NEEDMORE_NEUTRAL_3">
+            <Text>Almost...</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADE_NEEDMORE_NEUTRAL_4">
+            <Text>That’s not quite good enough.</Text>
+        </Row>
+        <!--Trade offer from player - no -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADE_NO_NEUTRAL">
+            <Text>Your offer is as weak as you are.</Text>
+        </Row>
+        <!--Demand for tribute from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRIBUTE_YES_NEUTRAL">
+            <Text>We will comply, but you may come to regret your greed.</Text>
+        </Row>
+        <!--Demand for tribute from player - no -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRIBUTE_NO_NEUTRAL">
+            <Text>I have no time for your foolish requests.</Text>
+        </Row>
+        <!--Requests a trade -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADEREQUEST_NEUTRAL">
+            <Text>Would you consider a trade?</Text>
+        </Row>
+        <!--Demands tribute -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_DEMANDTRIBUTE_NEUTRAL">
+            <Text>Give me what I want - it's in your best interests.</Text>
+        </Row>
+        <!--Agrees -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_AGREE_SHORT_1">
+            <Text>All right.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_AGREE_SHORT_2">
+            <Text>Very Well.</Text>
+        </Row>
+        <!--Disagrees -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_DISAGREE_SHORT_1">
+            <Text>I must refuse.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_DISAGREE_SHORT_2">
+            <Text>No, of course not.</Text>
+        </Row>
+        <!--Let's hear it -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_LETSHEARIT_1">
+            <Text>Let's hear it.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_LETSHEARIT_2">
+            <Text>Go ahead.</Text>
+        </Row>
+
+        <!--Happy -->
+        <!--Greetings (subsequent meetings) -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_GREETING_3">
+            <Text>Greetings.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_GREETING_4">
+            <Text>Well?</Text>
+        </Row>
+        <!--Goodbye -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_GOODBYE_3">
+            <Text>Our business here is done.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_GOODBYE_4">
+            <Text>Goodbye.</Text>
+        </Row>
+        <!--Trade offer from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADE_YES_HAPPY">
+            <Text>It would be an honor to trade with you.</Text>
+        </Row>
+        <!--Trade offer from player - sweeten the deal -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADE_NEEDMORE_HAPPY_1">
+            <Text>My people would rebel if I accepted such an offer...</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADE_NEEDMORE_HAPPY_2">
+            <Text>Is that the best you can do?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADE_NEEDMORE_HAPPY_3">
+            <Text>You're almost there...</Text>
+        </Row>
+        <!--Trade offer from player - no -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADE_NO_HAPPY">
+            <Text>Even for a friend, I cannot accept.</Text>
+        </Row>
+        <!--Demand for tribute from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRIBUTE_YES_HAPPY">
+            <Text>My kingdom welcomes the opportunity to assist a friend.</Text>
+        </Row>
+        <!--Demand for tribute from player - no -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRIBUTE_NO_HAPPY">
+            <Text>Even someone as great as I cannot be so generous.</Text>
+        </Row>
+        <!--Requests a trade -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADEREQUEST_HAPPY">
+            <Text>Will you help my kingdom, friend?</Text>
+        </Row>
+        <!--Demands tribute -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_DEMANDTRIBUTE_HAPPY">
+            <Text>You have something I need — perhaps you can help, friend?</Text>
+        </Row>
+        <!--Agrees -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_AGREE_SHORT_3">
+            <Text>Certainly.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_AGREE_SHORT_4">
+            <Text>It is agreed.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_AGREE_SHORT_5">
+            <Text>Excellent.</Text>
+        </Row>
+        <!--Disagrees -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_DISAGREE_SHORT_3">
+            <Text>Certainly not.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_DISAGREE_SHORT_4">
+            <Text>We must decline.</Text>
+        </Row>
+        <!--Let's hear it -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_LETSHEARIT_3">
+            <Text>I'm listening.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_LETSHEARIT_4">
+            <Text>Yes?</Text>
+        </Row>
+
+        <!--Angry -->
+        <!--Greetings (subsequent meetings) -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_GREETING_5">
+            <Text>What do you want?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_GREETING_6">
+            <Text>What do you want?</Text>
+        </Row>
+        <!--Goodbye -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_GOODBYE_5">
+            <Text>That is all.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_GOODBYE_6">
+            <Text>We are done here.</Text>
+        </Row>
+        <!--Trade offer from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADE_YES_ANGRY">
+            <Text>If you insist.</Text>
+        </Row>
+        <!--Trade offer from player - sweeten the deal -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADE_NEEDMORE_ANGRY_1">
+            <Text>Your offer insults me.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADE_NEEDMORE_ANGRY_2">
+            <Text>That will not be enough.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADE_NEEDMORE_ANGRY_3">
+            <Text>You must do better than that.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADE_NEEDMORE_ANGRY_4">
+            <Text>What an insulting proposal.</Text>
+        </Row>
+        <!--Trade offer from player - no -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADE_NO_ANGRY">
+            <Text>Your offer is an insult to my entire kingdom. No.</Text>
+        </Row>
+        <!--Demand for tribute from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRIBUTE_YES_ANGRY">
+            <Text>If we must, then so be it. You will pay for this.</Text>
+        </Row>
+        <!--Demand for tribute from player - no -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRIBUTE_NO_ANGRY">
+            <Text>You risk your life asking me for such a thing!</Text>
+        </Row>
+        <!--Requests a trade -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_TRADEREQUEST_ANGRY">
+            <Text>I have no choice but to offer you a trade.</Text>
+        </Row>
+        <!--Demands tribute -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_DEMANDTRIBUTE_ANGRY">
+            <Text>Give us what we want, or you will be the next in line to fall.</Text>
+        </Row>
+        <!--Disagrees -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_DISAGREE_SHORT_5">
+            <Text>I beg your pardon?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_DISAGREE_SHORT_6">
+            <Text>That's unacceptable.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_DISAGREE_SHORT_7">
+            <Text>You cannot be serious!</Text>
+        </Row>
+        <!--Let's hear it -->
+        <Row Tag="TXT_KEY_LEADER_SHAKA_LETSHEARIT_5">
+            <Text>You were saying?</Text>
+        </Row>
+
+        <Row Tag="TXT_KEY_LEADER_SHAKA_DECLAREWAR_1">
+            <Text>None will slow our progress, not even you! Prepare for War!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_DECLAREWAR_2">
+            <Text>This world isn't big enough for the both of us, and I'm not going anywhere!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_DECLAREWAR_3">
+            <Text>Our spears are parched, and I will quench their thirst with your blood!</Text>
+        </Row>
+
+        <Row Tag="TXT_KEY_LEADER_SHAKA_ATTACKED_1">
+            <Text>Your arrogance will only lead you to defeat!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_ATTACKED_2">
+            <Text>Your treachery will not go unpunished!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_SHAKA_ATTACKED_3">
+            <Text>A foolish choice! Now you must suffer the consequences.</Text>
+        </Row>
+    </Language_en_US>
+</GameData>

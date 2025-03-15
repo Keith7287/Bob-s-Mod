@@ -19,6 +19,10 @@
 		<Column name="Combat" type="integer" default="0"/>
 		<Column name="RangedCombat" type="integer" default="0"/>
 		<Column name="Cost" type="integer" default="0"/>
+		<Column name="FaithCost" type="integer" default="0"/>
+		<Column name="RequiresFaithPurchaseEnabled" type="boolean" default="false"/>
+		<Column name="PurchaseOnly" type="boolean" default="false"/>
+		<Column name="MoveAfterPurchase" type="boolean" default="false"/>
 		<Column name="Moves" type="integer" default="0"/>
 		<Column name="Immobile" type="boolean" default="false"/>
 		<Column name="Range" type="integer" default="0"/>
@@ -36,10 +40,14 @@
 		<Column name="MilitarySupport" type="boolean" default="false"/>
 		<Column name="MilitaryProduction" type="boolean" default="false"/>
 		<Column name="Pillage" type="boolean" default="false"/>
+		<Column name="PillagePrereqTech" type="text" reference="Technologies(Type)" default="NULL"/>
 		<Column name="Found" type="boolean" default="false"/>
 		<Column name="FoundAbroad" type="boolean" default="false"/>
 		<Column name="CultureBombRadius" type="integer" default="0"/>
 		<Column name="GoldenAgeTurns" type="integer" default="0"/>
+		<Column name="FreePolicies" type="integer" default="0"/>
+		<Column name="OneShotTourism" type="integer" default="0"/>
+		<Column name="OneShotTourismPercentOthers" type="integer" default="0"/>
 		<Column name="IgnoreBuildingDefense" type="boolean" default="false"/>
 		<Column name="PrereqResources" type="boolean" default="false"/>
 		<Column name="Mechanized" type="boolean" default="false"/>
@@ -51,20 +59,32 @@
 		<Column name="HurryCostModifier" type="integer" default="0"/>
 		<Column name="AdvancedStartCost" type="integer" default="0"/>
 		<Column name="MinAreaSize" type="integer" default="-1"/>
+		<Column name="AirInterceptRange" type="integer" default="0"/>
 		<Column name="AirUnitCap" type="integer" default="0"/>
 		<Column name="NukeDamageLevel" type="integer" default="-1"/>
 		<Column name="WorkRate" type="integer" default="0"/>
 		<Column name="NumFreeTechs" type="integer" default="0"/>
+		<Column name="BaseBeakersTurnsToCount" type="integer" default="0"/>
+		<Column name="BaseCultureTurnsToCount" type="integer" default="0"/>
 		<Column name="RushBuilding" type="boolean" default="false"/>
 		<Column name="BaseHurry" type="integer" default="0"/>
 		<Column name="HurryMultiplier" type="integer" default="0"/>
 		<Column name="BaseGold" type="integer" default="0"/>
 		<Column name="NumGoldPerEra" type="integer" default="0"/>
 		<Column name="SpreadReligion" type="boolean" default="false"/>
-		<Column name="IsReligious" type="boolean" default="false"/>
+		<Column name="RemoveHeresy" type="boolean" default="false"/>
+		<Column name="ReligionSpreads" type="integer" default="0"/>
+		<Column name="ReligiousStrength" type="integer" default="0"/>
+		<Column name="FoundReligion" type="boolean" default="false"/>
+		<Column name="RequiresEnhancedReligion" type="boolean" default="false"/>
+		<Column name="ProhibitsSpread" type="boolean" default="false"/>
+		<Column name="CanBuyCityState" type="boolean" default="false"/>
 		<Column name="CombatLimit" type="integer" default="100"/>
 		<Column name="RangeAttackOnlyInDomain" type="boolean" default="false"/>
 		<Column name="RangeAttackIgnoreLOS" type="boolean" default="false"/>
+		<Column name="Trade" type="boolean" default="false"/>
+		<Column name="NumExoticGoods" type="integer" default="0"/>
+		<Column name="PolicyType" type="text" reference="Policies(Type)" default="NULL"/>
 		<Column name="RangedCombatLimit" type="integer" default="0"/>
 		<Column name="XPValueAttack" type="integer" default="0"/>
 		<Column name="XPValueDefense" type="integer" default="0"/>
@@ -135,6 +155,12 @@
 	<Table name="Unit_UniqueNames">
 		<Column name="UnitType" type="text" reference="Units(Type)"/>
 		<Column name="UniqueName" type="text" notnull="true" reference="Language_en_US(Tag)"/>
+		<Column name="GreatWorkType" type="text" reference="GreatWorks(type)"/>
+	</Table>
+	<Table name="Unit_YieldFromKills">
+		<Column name="UnitType" type="text" reference="Units(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
 	</Table>
 	<!-- Potentially unused tables -->
 	<Table name="Unit_NotAITypes">
@@ -258,13 +284,13 @@
 			<AdvancedStartCost>-1</AdvancedStartCost>
 			<WorkRate>1</WorkRate>
 			<CombatLimit>0</CombatLimit>
-			<CultureBombRadius>1</CultureBombRadius>
 			<GoldenAgeTurns>8</GoldenAgeTurns>
 			<UnitArtInfo>ART_DEF_UNIT_ARTIST</UnitArtInfo>
 			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
-			<UnitFlagIconOffset>88</UnitFlagIconOffset>
-			<PortraitIndex>44</PortraitIndex>
-			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
+			<UnitFlagAtlas>EXPANSION2_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>6</UnitFlagIconOffset>
+			<IconAtlas>EXPANSION2_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>6</PortraitIndex>
 			<MoveRate>GREAT_PERSON</MoveRate>
 		</Row>
 		<Row>
@@ -281,9 +307,8 @@
 			<Strategy>TXT_KEY_UNIT_GREAT_SCIENTIST_STRATEGY</Strategy>
 			<AdvancedStartCost>-1</AdvancedStartCost>
 			<WorkRate>1</WorkRate>
+			<BaseBeakersTurnsToCount>8</BaseBeakersTurnsToCount>
 			<CombatLimit>0</CombatLimit>
-			<GoldenAgeTurns>8</GoldenAgeTurns>
-			<NumFreeTechs>1</NumFreeTechs>
 			<UnitArtInfo>ART_DEF_UNIT_SCIENTIST</UnitArtInfo>
 			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
 			<UnitFlagIconOffset>91</UnitFlagIconOffset>
@@ -306,9 +331,8 @@
 			<AdvancedStartCost>-1</AdvancedStartCost>
 			<WorkRate>1</WorkRate>
 			<CombatLimit>0</CombatLimit>
-			<GoldenAgeTurns>8</GoldenAgeTurns>
-			<BaseGold>350</BaseGold>
-			<NumGoldPerEra>50</NumGoldPerEra>
+			<BaseGold>300</BaseGold>
+			<NumGoldPerEra>100</NumGoldPerEra>
 			<UnitArtInfo>ART_DEF_UNIT_MERCHANT</UnitArtInfo>
 			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
 			<UnitFlagIconOffset>92</UnitFlagIconOffset>
@@ -331,7 +355,6 @@
 			<AdvancedStartCost>-1</AdvancedStartCost>
 			<WorkRate>1</WorkRate>
 			<CombatLimit>0</CombatLimit>
-			<GoldenAgeTurns>8</GoldenAgeTurns>
 			<BaseHurry>300</BaseHurry>
 			<HurryMultiplier>30</HurryMultiplier>
 			<UnitArtInfo>ART_DEF_UNIT_ENGINEER</UnitArtInfo>
@@ -356,7 +379,6 @@
 			<AdvancedStartCost>-1</AdvancedStartCost>
 			<WorkRate>1</WorkRate>
 			<CombatLimit>0</CombatLimit>
-			<GoldenAgeTurns>8</GoldenAgeTurns>
 			<DontShowYields>true</DontShowYields>
 			<UnitArtInfo>ART_DEF_UNIT_GENERAL</UnitArtInfo>
 			<UnitArtInfoEraVariation>true</UnitArtInfoEraVariation>
@@ -369,7 +391,7 @@
 			<Class>UNITCLASS_SS_STASIS_CHAMBER</Class>
 			<Type>UNIT_SS_STASIS_CHAMBER</Type>
 			<PrereqTech>TECH_NANOTECHNOLOGY</PrereqTech>
-			<Cost>750</Cost>
+			<Cost>3000</Cost>
 			<Moves>2</Moves>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -393,7 +415,7 @@
 			<Class>UNITCLASS_SS_ENGINE</Class>
 			<Type>UNIT_SS_ENGINE</Type>
 			<PrereqTech>TECH_PARTICLE_PHYSICS</PrereqTech>
-			<Cost>750</Cost>
+			<Cost>3000</Cost>
 			<Moves>2</Moves>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -417,7 +439,7 @@
 			<Class>UNITCLASS_SS_COCKPIT</Class>
 			<Type>UNIT_SS_COCKPIT</Type>
 			<PrereqTech>TECH_SATELLITES</PrereqTech>
-			<Cost>750</Cost>
+			<Cost>3000</Cost>
 			<Moves>2</Moves>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -440,8 +462,8 @@
 		<Row>
 			<Class>UNITCLASS_SS_BOOSTER</Class>
 			<Type>UNIT_SS_BOOSTER</Type>
-			<PrereqTech>TECH_ROBOTICS</PrereqTech>
-			<Cost>500</Cost>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
+			<Cost>3000</Cost>
 			<Moves>2</Moves>
 			<CivilianAttackPriority>CIVILIAN_ATTACK_PRIORITY_HIGH</CivilianAttackPriority>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -465,14 +487,15 @@
 			<Class>UNITCLASS_MISSILE_CRUISER</Class>
 			<Type>UNIT_MISSILE_CRUISER</Type>
 			<PrereqTech>TECH_ROBOTICS</PrereqTech>
-			<Combat>60</Combat>
-			<RangedCombat>25</RangedCombat>
+			<Combat>80</Combat>
+			<RangedCombat>100</RangedCombat>
 			<Cost>425</Cost>
 			<Moves>7</Moves>
 			<Range>3</Range>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<AirInterceptRange>3</AirInterceptRange>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_MISSILE_CRUISER</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MODERN_MISSLECRUISER_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_MISSILE_CRUISER_STRATEGY</Strategy>
@@ -483,7 +506,7 @@
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
-			<MinAreaSize>20</MinAreaSize>
+			<MinAreaSize>10</MinAreaSize>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
@@ -497,15 +520,15 @@
 		<Row>
 			<Class>UNITCLASS_NUCLEAR_SUBMARINE</Class>
 			<Type>UNIT_NUCLEAR_SUBMARINE</Type>
-			<PrereqTech>TECH_COMPUTERS</PrereqTech>
-			<Combat>30</Combat>
-			<RangedCombat>70</RangedCombat>
+			<PrereqTech>TECH_TELECOM</PrereqTech>
+			<Combat>50</Combat>
+			<RangedCombat>85</RangedCombat>
 			<Cost>425</Cost>
 			<Moves>6</Moves>
 			<Range>3</Range>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
-			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_NUCLEAR_SUBMARINE</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MODERN_NUCLEARSUBMARINE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_NUCLEAR_SUBMARINE_STRATEGY</Strategy>
@@ -516,7 +539,7 @@
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
-			<MinAreaSize>20</MinAreaSize>
+			<MinAreaSize>10</MinAreaSize>
 			<RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -531,11 +554,11 @@
 		<Row>
 			<Class>UNITCLASS_CARRIER</Class>
 			<Type>UNIT_CARRIER</Type>
-			<PrereqTech>TECH_FLIGHT</PrereqTech>
-			<Combat>30</Combat>
+			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
+			<Combat>40</Combat>
 			<Cost>375</Cost>
 			<Moves>5</Moves>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_CARRIER</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_CARRIER_SEA</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_CARRIER</Description>
@@ -548,7 +571,7 @@
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
-			<MinAreaSize>20</MinAreaSize>
+			<MinAreaSize>10</MinAreaSize>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<SpecialCargo>SPECIALUNIT_FIGHTER</SpecialCargo>
@@ -562,15 +585,15 @@
 		<Row>
 			<Class>UNITCLASS_BATTLESHIP</Class>
 			<Type>UNIT_BATTLESHIP</Type>
-			<PrereqTech>TECH_TELEGRAPH</PrereqTech>
-			<Combat>60</Combat>
-			<RangedCombat>32</RangedCombat>
+			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
+			<Combat>55</Combat>
+			<RangedCombat>65</RangedCombat>
 			<Cost>375</Cost>
-			<Moves>4</Moves>
+			<Moves>5</Moves>
 			<Range>3</Range>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_BATTLESHIP</Description>
 			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_BATTLESHIP_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_BATTLESHIP_STRATEGY</Strategy>
@@ -581,7 +604,7 @@
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
-			<MinAreaSize>20</MinAreaSize>
+			<MinAreaSize>10</MinAreaSize>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_BATTLESHIP</UnitArtInfo>
@@ -594,14 +617,14 @@
 			<Class>UNITCLASS_SUBMARINE</Class>
 			<Type>UNIT_SUBMARINE</Type>
 			<PrereqTech>TECH_REFRIGERATION</PrereqTech>
-			<Combat>25</Combat>
+			<Combat>35</Combat>
 			<RangedCombat>60</RangedCombat>
-			<Cost>375</Cost>
+			<Cost>325</Cost>
 			<Moves>5</Moves>
-			<Range>3</Range>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<Range>2</Range>
+			<CombatClass>UNITCOMBAT_SUBMARINE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
-			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_SUBMARINE</Description>
 			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_SUBMARINE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_SUBMARINE_STRATEGY</Strategy>
@@ -610,9 +633,10 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<ObsoleteTech>TECH_TELECOM</ObsoleteTech>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
-			<MinAreaSize>20</MinAreaSize>
+			<MinAreaSize>10</MinAreaSize>
 			<RangeAttackOnlyInDomain>true</RangeAttackOnlyInDomain>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -626,14 +650,13 @@
 			<Class>UNITCLASS_DESTROYER</Class>
 			<Type>UNIT_DESTROYER</Type>
 			<PrereqTech>TECH_COMBUSTION</PrereqTech>
-			<Combat>35</Combat>
-			<RangedCombat>22</RangedCombat>
+			<Combat>55</Combat>
 			<Cost>375</Cost>
-			<Moves>8</Moves>
-			<Range>2</Range>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<Moves>6</Moves>
+			<AirInterceptRange>2</AirInterceptRange>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
-			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_DESTROYER</Description>
 			<Civilopedia>TXT_KEY_CIV5_INDUSTRIAL_DESTROYER_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_DESTROYER_STRATEGY</Strategy>
@@ -644,7 +667,7 @@
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>60</AdvancedStartCost>
-			<MinAreaSize>20</MinAreaSize>
+			<MinAreaSize>10</MinAreaSize>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_DESTROYER</UnitArtInfo>
@@ -657,14 +680,12 @@
 			<Class>UNITCLASS_IRONCLAD</Class>
 			<Type>UNIT_IRONCLAD</Type>
 			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
-			<Combat>35</Combat>
-			<RangedCombat>18</RangedCombat>
-			<Cost>270</Cost>
-			<Moves>4</Moves>
-			<Range>2</Range>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<Combat>45</Combat>
+			<Cost>250</Cost>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
-			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_IRONCLAD</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_IRONCLAD_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_IRONCLAD_STRATEGY</Strategy>
@@ -673,10 +694,10 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<ObsoleteTech>TECH_TELEGRAPH</ObsoleteTech>
+			<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>50</AdvancedStartCost>
-			<MinAreaSize>20</MinAreaSize>
+			<MinAreaSize>10</MinAreaSize>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_IRONCLAD</UnitArtInfo>
@@ -689,15 +710,15 @@
 			<Class>UNITCLASS_FRIGATE</Class>
 			<Type>UNIT_FRIGATE</Type>
 			<PrereqTech>TECH_NAVIGATION</PrereqTech>
-			<Combat>30</Combat>
-			<RangedCombat>15</RangedCombat>
+			<Combat>20</Combat>
+			<RangedCombat>20</RangedCombat>
 			<Cost>185</Cost>
 			<Moves>5</Moves>
 			<HurryCostModifier>20</HurryCostModifier>
 			<Range>2</Range>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
-			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_FRIGATE</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_FRIGATE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_FRIGATE_STRATEGY</Strategy>
@@ -705,10 +726,10 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_ELECTRONICS</ObsoleteTech>
 			<Mechanized>true</Mechanized>
-			<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
 			<AdvancedStartCost>50</AdvancedStartCost>
-			<MinAreaSize>20</MinAreaSize>
+			<MinAreaSize>10</MinAreaSize>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_FRIGATE</UnitArtInfo>
@@ -721,15 +742,15 @@
 			<Class>UNITCLASS_FRIGATE</Class>
 			<Type>UNIT_ENGLISH_SHIPOFTHELINE</Type>
 			<PrereqTech>TECH_NAVIGATION</PrereqTech>
-			<Combat>30</Combat>
-			<RangedCombat>17</RangedCombat>
-			<Cost>170</Cost>
+			<Combat>25</Combat>
+			<RangedCombat>25</RangedCombat>
+			<Cost>200</Cost>
 			<Moves>5</Moves>
 			<HurryCostModifier>20</HurryCostModifier>
 			<Range>2</Range>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALRANGED</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
-			<DefaultUnitAI>UNITAI_RESERVE_SEA</DefaultUnitAI>
+			<DefaultUnitAI>UNITAI_ASSAULT_SEA</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_ENGLISH_SHIPOFTHELINE</Description>
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_RENAISSANCE_SHIPOFTHELINE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_ENGLISH_SHIPOFTHELINE_STRATEGY</Strategy>
@@ -737,10 +758,10 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_ELECTRONICS</ObsoleteTech>
 			<Mechanized>true</Mechanized>
-			<ObsoleteTech>TECH_ELECTRICITY</ObsoleteTech>
 			<AdvancedStartCost>50</AdvancedStartCost>
-			<MinAreaSize>20</MinAreaSize>
+			<MinAreaSize>10</MinAreaSize>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_U_ENGLISH_SHIPOFTHELINE</UnitArtInfo>
@@ -753,13 +774,11 @@
 			<Class>UNITCLASS_CARAVEL</Class>
 			<Type>UNIT_CARAVEL</Type>
 			<PrereqTech>TECH_ASTRONOMY</PrereqTech>
-			<Combat>15</Combat>
-			<RangedCombat>7</RangedCombat>
+			<Combat>20</Combat>
 			<Cost>120</Cost>
-			<Moves>6</Moves>
+			<Moves>4</Moves>
 			<HurryCostModifier>30</HurryCostModifier>
-			<Range>2</Range>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_EXPLORE_SEA</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_CARAVEL</Description>
@@ -770,9 +789,9 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<Mechanized>true</Mechanized>
-			<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
+			<ObsoleteTech>TECH_STEAM_POWER</ObsoleteTech>
 			<AdvancedStartCost>50</AdvancedStartCost>
-			<MinAreaSize>20</MinAreaSize>
+			<MinAreaSize>10</MinAreaSize>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_CARAVEL</UnitArtInfo>
@@ -785,12 +804,10 @@
 			<Class>UNITCLASS_TRIREME</Class>
 			<Type>UNIT_TRIREME</Type>
 			<PrereqTech>TECH_SAILING</PrereqTech>
-			<Combat>6</Combat>
-			<RangedCombat>4</RangedCombat>
-			<Cost>56</Cost>
+			<Combat>10</Combat>
+			<Cost>45</Cost>
 			<Moves>4</Moves>
-			<Range>2</Range>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_TRIREME</Description>
@@ -801,9 +818,9 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<Mechanized>true</Mechanized>
-			<ObsoleteTech>TECH_NAVIGATION</ObsoleteTech>
+			<ObsoleteTech>TECH_ASTRONOMY</ObsoleteTech>
 			<AdvancedStartCost>30</AdvancedStartCost>
-			<MinAreaSize>20</MinAreaSize>
+			<MinAreaSize>10</MinAreaSize>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_TRIREME</UnitArtInfo>
@@ -817,8 +834,10 @@
 			<Type>UNIT_MECH</Type>
 			<PrereqTech>TECH_NUCLEAR_FUSION</PrereqTech>
 			<Combat>150</Combat>
-			<Cost>425</Cost>
-			<Moves>3</Moves>
+			<Cost>550</Cost>
+			<FaithCost>1100</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>5</Moves>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -863,6 +882,7 @@
 			<Suicide>true</Suicide>
 			<AdvancedStartCost>80</AdvancedStartCost>
 			<NukeDamageLevel>2</NukeDamageLevel>
+			<AirUnitCap>1</AirUnitCap>
 			<RangedCombatLimit>100</RangedCombatLimit>
 			<CombatLimit>0</CombatLimit>
 			<XPValueDefense>2</XPValueDefense>
@@ -876,10 +896,10 @@
 			<Class>UNITCLASS_STEALTH_BOMBER</Class>
 			<Type>UNIT_STEALTH_BOMBER</Type>
 			<PrereqTech>TECH_STEALTH</PrereqTech>
-			<Special>SPECIALUNIT_STEALTH</Special>
-			<RangedCombat>80</RangedCombat>
+			<RangedCombat>85</RangedCombat>
 			<Cost>425</Cost>
 			<Moves>2</Moves>
+			<Special>SPECIALUNIT_STEALTH</Special>
 			<Immobile>true</Immobile>
 			<Range>20</Range>
 			<CombatClass>UNITCOMBAT_BOMBER</CombatClass>
@@ -909,11 +929,12 @@
 			<Class>UNITCLASS_JET_FIGHTER</Class>
 			<Type>UNIT_JET_FIGHTER</Type>
 			<PrereqTech>TECH_LASERS</PrereqTech>
-			<RangedCombat>60</RangedCombat>
+			<RangedCombat>75</RangedCombat>
 			<Cost>425</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
 			<Range>10</Range>
+			<AirInterceptRange>10</AirInterceptRange>
 			<Special>SPECIALUNIT_FIGHTER</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
@@ -941,7 +962,7 @@
 		<Row>
 			<Class>UNITCLASS_GUIDED_MISSILE</Class>
 			<Type>UNIT_GUIDED_MISSILE</Type>
-			<PrereqTech>TECH_SATELLITES</PrereqTech>
+			<PrereqTech>TECH_ADVANCED_BALLISTICS</PrereqTech>
 			<RangedCombat>60</RangedCombat>
 			<Cost>150</Cost>
 			<Moves>2</Moves>
@@ -961,6 +982,7 @@
 			<Mechanized>true</Mechanized>
 			<Suicide>true</Suicide>
 			<AdvancedStartCost>40</AdvancedStartCost>
+			<AirUnitCap>1</AirUnitCap>
 			<RangedCombatLimit>100</RangedCombatLimit>
 			<CombatLimit>0</CombatLimit>
 			<XPValueDefense>2</XPValueDefense>
@@ -974,8 +996,10 @@
 			<Class>UNITCLASS_MODERN_ARMOR</Class>
 			<Type>UNIT_MODERN_ARMOR</Type>
 			<PrereqTech>TECH_LASERS</PrereqTech>
-			<Combat>80</Combat>
+			<Combat>100</Combat>
 			<Cost>425</Cost>
+			<FaithCost>850</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>5</Moves>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1001,8 +1025,8 @@
 		<Row>
 			<Class>UNITCLASS_HELICOPTER_GUNSHIP</Class>
 			<Type>UNIT_HELICOPTER_GUNSHIP</Type>
-			<PrereqTech>TECH_ROCKETRY</PrereqTech>
-			<Combat>50</Combat>
+			<PrereqTech>TECH_COMPUTERS</PrereqTech>
+			<Combat>60</Combat>
 			<Cost>425</Cost>
 			<Moves>6</Moves>
 			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
@@ -1028,11 +1052,14 @@
 		<Row>
 			<Class>UNITCLASS_MOBILE_SAM</Class>
 			<Type>UNIT_MOBILE_SAM</Type>
-			<PrereqTech>TECH_COMPUTERS</PrereqTech>
-			<Combat>40</Combat>
+			<PrereqTech>TECH_ROCKETRY</PrereqTech>
+			<Combat>65</Combat>
 			<Cost>425</Cost>
-			<Moves>4</Moves>
+			<FaithCost>850</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
 			<Range>2</Range>
+			<AirInterceptRange>2</AirInterceptRange>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
@@ -1058,10 +1085,12 @@
 			<Class>UNITCLASS_ROCKET_ARTILLERY</Class>
 			<Type>UNIT_ROCKET_ARTILLERY</Type>
 			<PrereqTech>TECH_ROCKETRY</PrereqTech>
-			<Combat>23</Combat>
-			<RangedCombat>46</RangedCombat>
+			<Combat>45</Combat>
+			<RangedCombat>60</RangedCombat>
 			<Cost>425</Cost>
-			<Moves>3</Moves>
+			<FaithCost>850</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>2</Moves>
 			<Range>3</Range>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1087,9 +1116,11 @@
 		<Row>
 			<Class>UNITCLASS_MECHANIZED_INFANTRY</Class>
 			<Type>UNIT_MECHANIZED_INFANTRY</Type>
-			<PrereqTech>TECH_ELECTRONICS</PrereqTech>
-			<Combat>50</Combat>
+			<PrereqTech>TECH_MOBILE_TACTICS</PrereqTech>
+			<Combat>90</Combat>
 			<Cost>375</Cost>
+			<FaithCost>750</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>3</Moves>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1135,6 +1166,7 @@
 			<Suicide>true</Suicide>
 			<AdvancedStartCost>60</AdvancedStartCost>
 			<NukeDamageLevel>1</NukeDamageLevel>
+			<AirUnitCap>1</AirUnitCap>
 			<RangedCombatLimit>100</RangedCombatLimit>
 			<CombatLimit>0</CombatLimit>
 			<XPValueDefense>2</XPValueDefense>
@@ -1148,7 +1180,7 @@
 			<Class>UNITCLASS_BOMBER</Class>
 			<Type>UNIT_BOMBER</Type>
 			<PrereqTech>TECH_RADAR</PrereqTech>
-			<RangedCombat>50</RangedCombat>
+			<RangedCombat>65</RangedCombat>
 			<Cost>375</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
@@ -1181,7 +1213,7 @@
 			<Class>UNITCLASS_BOMBER</Class>
 			<Type>UNIT_AMERICAN_B17</Type>
 			<PrereqTech>TECH_RADAR</PrereqTech>
-			<RangedCombat>50</RangedCombat>
+			<RangedCombat>70</RangedCombat>
 			<Cost>375</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
@@ -1213,12 +1245,13 @@
 		<Row>
 			<Class>UNITCLASS_FIGHTER</Class>
 			<Type>UNIT_FIGHTER</Type>
-			<PrereqTech>TECH_FLIGHT</PrereqTech>
-			<RangedCombat>40</RangedCombat>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+			<RangedCombat>45</RangedCombat>
 			<Cost>375</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
 			<Range>8</Range>
+			<AirInterceptRange>8</AirInterceptRange>
 			<Special>SPECIALUNIT_FIGHTER</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
@@ -1246,12 +1279,13 @@
 		<Row>
 			<Class>UNITCLASS_FIGHTER</Class>
 			<Type>UNIT_JAPANESE_ZERO</Type>
-			<PrereqTech>TECH_FLIGHT</PrereqTech>
-			<RangedCombat>40</RangedCombat>
+			<PrereqTech>TECH_RADAR</PrereqTech>
+			<RangedCombat>45</RangedCombat>
 			<Cost>375</Cost>
 			<Moves>2</Moves>
 			<Immobile>true</Immobile>
 			<Range>8</Range>
+			<AirInterceptRange>8</AirInterceptRange>
 			<Special>SPECIALUNIT_FIGHTER</Special>
 			<CombatClass>UNITCOMBAT_FIGHTER</CombatClass>
 			<Domain>DOMAIN_AIR</Domain>
@@ -1280,8 +1314,10 @@
 			<Class>UNITCLASS_PARATROOPER</Class>
 			<Type>UNIT_PARATROOPER</Type>
 			<PrereqTech>TECH_RADAR</PrereqTech>
-			<Combat>40</Combat>
+			<Combat>65</Combat>
 			<Cost>375</Cost>
+			<FaithCost>750</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1306,9 +1342,11 @@
 		<Row>
 			<Class>UNITCLASS_TANK</Class>
 			<Type>UNIT_TANK</Type>
-			<PrereqTech>TECH_COMBUSTION</PrereqTech>
-			<Combat>50</Combat>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+			<Combat>70</Combat>
 			<Cost>375</Cost>
+			<FaithCost>750</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>5</Moves>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1335,9 +1373,11 @@
 		<Row>
 			<Class>UNITCLASS_TANK</Class>
 			<Type>UNIT_GERMAN_PANZER</Type>
-			<PrereqTech>TECH_COMBUSTION</PrereqTech>
-			<Combat>60</Combat>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+			<Combat>80</Combat>
 			<Cost>375</Cost>
+			<FaithCost>750</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>6</Moves>
 			<CombatClass>UNITCOMBAT_ARMOR</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1365,9 +1405,11 @@
 			<Class>UNITCLASS_ARTILLERY</Class>
 			<Type>UNIT_ARTILLERY</Type>
 			<PrereqTech>TECH_DYNAMITE</PrereqTech>
-			<Combat>16</Combat>
-			<RangedCombat>32</RangedCombat>
-			<Cost>320</Cost>
+			<Combat>21</Combat>
+			<RangedCombat>28</RangedCombat>
+			<Cost>250</Cost>
+			<FaithCost>500</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<Range>3</Range>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
@@ -1395,11 +1437,14 @@
 		<Row>
 			<Class>UNITCLASS_ANTI_AIRCRAFT_GUN</Class>
 			<Type>UNIT_ANTI_AIRCRAFT_GUN</Type>
-			<PrereqTech>TECH_RADIO</PrereqTech>
-			<Combat>32</Combat>
+			<PrereqTech>TECH_BALLISTICS</PrereqTech>
+			<Combat>50</Combat>
 			<Cost>375</Cost>
+			<FaithCost>750</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<Range>2</Range>
+			<AirInterceptRange>2</AirInterceptRange>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
@@ -1409,6 +1454,7 @@
 			<Help>TXT_KEY_UNIT_HELP_ANTI_AIRCRAFT_GUN</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_ROCKETRY</ObsoleteTech>
 			<Pillage>true</Pillage>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_MOBILE_SAM</GoodyHutUpgradeUnitClass>
@@ -1425,9 +1471,11 @@
 		<Row>
 			<Class>UNITCLASS_ANTI_TANK_GUN</Class>
 			<Type>UNIT_ANTI_TANK_GUN</Type>
-			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
-			<Combat>32</Combat>
-			<Cost>270</Cost>
+			<PrereqTech>TECH_COMBINED_ARMS</PrereqTech>
+			<Combat>50</Combat>
+			<Cost>300</Cost>
+			<FaithCost>600</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1454,9 +1502,11 @@
 		<Row>
 			<Class>UNITCLASS_INFANTRY</Class>
 			<Type>UNIT_INFANTRY</Type>
-			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
-			<Combat>36</Combat>
-			<Cost>320</Cost>
+			<PrereqTech>TECH_PLASTIC</PrereqTech>
+			<Combat>70</Combat>
+			<Cost>375</Cost>
+			<FaithCost>750</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1467,6 +1517,7 @@
 			<Help>TXT_KEY_UNIT_HELP_INFANTRY</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
+			<ObsoleteTech>TECH_MOBILE_TACTICS</ObsoleteTech>
 			<Pillage>true</Pillage>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_MECHANIZED_INFANTRY</GoodyHutUpgradeUnitClass>
@@ -1474,17 +1525,19 @@
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<Conscription>6</Conscription>
-			<UnitArtInfo>ART_DEF_UNIT_INFANTRY</UnitArtInfo>
+			<UnitArtInfo>ART_DEF_UNIT_WW2_INFANTRY</UnitArtInfo>
 			<UnitFlagIconOffset>54</UnitFlagIconOffset>
 			<IconAtlas>UNIT_ATLAS_2</IconAtlas>
 			<PortraitIndex>11</PortraitIndex>
 		</Row>
 		<Row>
-			<Class>UNITCLASS_INFANTRY</Class>
+			<Class>UNITCLASS_GREAT_WAR_INFANTRY</Class>
 			<Type>UNIT_FRENCH_FOREIGNLEGION</Type>
 			<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
-			<Combat>36</Combat>
+			<Combat>42</Combat>
 			<Cost>320</Cost>
+			<FaithCost>640</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1497,7 +1550,8 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_MECHANIZED_INFANTRY</GoodyHutUpgradeUnitClass>
+			<ObsoleteTech>TECH_PLASTIC</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_INFANTRY</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>35</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -1511,9 +1565,11 @@
 			<Class>UNITCLASS_CAVALRY</Class>
 			<Type>UNIT_CAVALRY</Type>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
-			<Combat>25</Combat>
+			<Combat>34</Combat>
 			<Cost>225</Cost>
-			<Moves>3</Moves>
+			<FaithCost>450</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>4</Moves>
 			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
@@ -1526,7 +1582,7 @@
 			<Pillage>true</Pillage>
 			<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_TANK</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_WWI_TANK</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>30</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -1540,9 +1596,11 @@
 			<Class>UNITCLASS_CAVALRY</Class>
 			<Type>UNIT_RUSSIAN_COSSACK</Type>
 			<PrereqTech>TECH_MILITARY_SCIENCE</PrereqTech>
-			<Combat>25</Combat>
+			<Combat>34</Combat>
 			<Cost>225</Cost>
-			<Moves>3</Moves>
+			<FaithCost>450</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>4</Moves>
 			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
@@ -1555,7 +1613,7 @@
 			<Pillage>true</Pillage>
 			<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_TANK</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_WWI_TANK</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>30</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -1569,8 +1627,10 @@
 			<Class>UNITCLASS_RIFLEMAN</Class>
 			<Type>UNIT_RIFLEMAN</Type>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
-			<Combat>25</Combat>
+			<Combat>34</Combat>
 			<Cost>225</Cost>
+			<FaithCost>450</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1584,7 +1644,7 @@
 			<Pillage>true</Pillage>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
 			<ObsoleteTech>TECH_REPLACEABLE_PARTS</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_INFANTRY</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_GREAT_WAR_INFANTRY</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>30</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -1598,8 +1658,10 @@
 			<Class>UNITCLASS_LANCER</Class>
 			<Type>UNIT_LANCER</Type>
 			<PrereqTech>TECH_METALLURGY</PrereqTech>
-			<Combat>22</Combat>
+			<Combat>25</Combat>
 			<Cost>185</Cost>
+			<FaithCost>370</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>4</Moves>
 			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1611,7 +1673,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
+			<ObsoleteTech>TECH_COMBINED_ARMS</ObsoleteTech>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_ANTI_TANK_GUN</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>30</AdvancedStartCost>
@@ -1627,8 +1689,10 @@
 			<Class>UNITCLASS_LANCER</Class>
 			<Type>UNIT_OTTOMAN_SIPAHI</Type>
 			<PrereqTech>TECH_METALLURGY</PrereqTech>
-			<Combat>22</Combat>
+			<Combat>25</Combat>
 			<Cost>185</Cost>
+			<FaithCost>370</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>5</Moves>
 			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1639,7 +1703,7 @@
 			<Help>TXT_KEY_UNIT_HELP_SIPAHI</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
-			<ObsoleteTech>TECH_COMBUSTION</ObsoleteTech>
+			<ObsoleteTech>TECH_COMBINED_ARMS</ObsoleteTech>
 			<Pillage>true</Pillage>
 			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_ANTI_TANK_GUN</GoodyHutUpgradeUnitClass>
@@ -1656,9 +1720,11 @@
 			<Class>UNITCLASS_CANNON</Class>
 			<Type>UNIT_CANNON</Type>
 			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
-			<Combat>13</Combat>
-			<RangedCombat>26</RangedCombat>
+			<Combat>14</Combat>
+			<RangedCombat>20</RangedCombat>
 			<Cost>185</Cost>
+			<FaithCost>370</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
@@ -1687,8 +1753,10 @@
 			<Class>UNITCLASS_MUSKETMAN</Class>
 			<Type>UNIT_MUSKETMAN</Type>
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
-			<Combat>16</Combat>
+			<Combat>24</Combat>
 			<Cost>150</Cost>
+			<FaithCost>300</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1716,8 +1784,10 @@
 			<Class>UNITCLASS_MUSKETMAN</Class>
 			<Type>UNIT_AMERICAN_MINUTEMAN</Type>
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
-			<Combat>16</Combat>
+			<Combat>24</Combat>
 			<Cost>150</Cost>
+			<FaithCost>300</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1745,8 +1815,10 @@
 			<Class>UNITCLASS_MUSKETMAN</Class>
 			<Type>UNIT_FRENCH_MUSKETEER</Type>
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
-			<Combat>20</Combat>
+			<Combat>28</Combat>
 			<Cost>150</Cost>
+			<FaithCost>300</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1774,8 +1846,10 @@
 			<Class>UNITCLASS_MUSKETMAN</Class>
 			<Type>UNIT_OTTOMAN_JANISSARY</Type>
 			<PrereqTech>TECH_GUNPOWDER</PrereqTech>
-			<Combat>16</Combat>
+			<Combat>24</Combat>
 			<Cost>150</Cost>
+			<FaithCost>300</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_GUN</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1803,8 +1877,10 @@
 			<Class>UNITCLASS_LONGSWORDSMAN</Class>
 			<Type>UNIT_LONGSWORDSMAN</Type>
 			<PrereqTech>TECH_STEEL</PrereqTech>
-			<Combat>16</Combat>
+			<Combat>21</Combat>
 			<Cost>120</Cost>
+			<FaithCost>240</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1816,8 +1892,8 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_RIFLEMAN</GoodyHutUpgradeUnitClass>
+			<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_MUSKETMAN</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>25</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -1831,8 +1907,10 @@
 			<Class>UNITCLASS_LONGSWORDSMAN</Class>
 			<Type>UNIT_JAPANESE_SAMURAI</Type>
 			<PrereqTech>TECH_STEEL</PrereqTech>
-			<Combat>16</Combat>
+			<Combat>21</Combat>
 			<Cost>120</Cost>
+			<FaithCost>240</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1845,9 +1923,10 @@
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
 			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_RIFLEMAN</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_MUSKETMAN</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>25</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
+			<WorkRate>100</WorkRate>
 			<XPValueDefense>3</XPValueDefense>
 			<Conscription>3</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_U_JAPANESE_SAMURAI</UnitArtInfo>
@@ -1859,9 +1938,11 @@
 			<Class>UNITCLASS_TREBUCHET</Class>
 			<Type>UNIT_TREBUCHET</Type>
 			<PrereqTech>TECH_PHYSICS</PrereqTech>
-			<Combat>8</Combat>
-			<RangedCombat>16</RangedCombat>
+			<Combat>12</Combat>
+			<RangedCombat>14</RangedCombat>
 			<Cost>120</Cost>
+			<FaithCost>240</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_SIEGE</CombatClass>
@@ -1890,9 +1971,11 @@
 			<Class>UNITCLASS_KNIGHT</Class>
 			<Type>UNIT_KNIGHT</Type>
 			<PrereqTech>TECH_CHIVALRY</PrereqTech>
-			<Combat>18</Combat>
+			<Combat>20</Combat>
 			<Cost>120</Cost>
-			<Moves>3</Moves>
+			<FaithCost>240</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>4</Moves>
 			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
@@ -1918,10 +2001,12 @@
 			<Class>UNITCLASS_KNIGHT</Class>
 			<Type>UNIT_ARABIAN_CAMELARCHER</Type>
 			<PrereqTech>TECH_CHIVALRY</PrereqTech>
-			<Combat>10</Combat>
-			<RangedCombat>15</RangedCombat>
+			<Combat>17</Combat>
+			<RangedCombat>21</RangedCombat>
 			<Cost>120</Cost>
-			<Moves>3</Moves>
+			<FaithCost>240</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>4</Moves>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -1948,9 +2033,11 @@
 			<Class>UNITCLASS_KNIGHT</Class>
 			<Type>UNIT_SIAMESE_WARELEPHANT</Type>
 			<PrereqTech>TECH_CHIVALRY</PrereqTech>
-			<Combat>22</Combat>
+			<Combat>25</Combat>
 			<Cost>120</Cost>
-			<Moves>2</Moves>
+			<FaithCost>240</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>3</Moves>
 			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
@@ -1976,9 +2063,11 @@
 			<Class>UNITCLASS_KNIGHT</Class>
 			<Type>UNIT_SONGHAI_MUSLIMCAVALRY</Type>
 			<PrereqTech>TECH_CHIVALRY</PrereqTech>
-			<Combat>18</Combat>
-			<Cost>120</Cost>
-			<Moves>3</Moves>
+			<Combat>20</Combat>
+			<Cost>110</Cost>
+			<FaithCost>220</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
+			<Moves>4</Moves>
 			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
@@ -2004,9 +2093,11 @@
 			<Class>UNITCLASS_CROSSBOWMAN</Class>
 			<Type>UNIT_CROSSBOWMAN</Type>
 			<PrereqTech>TECH_MACHINERY</PrereqTech>
-			<Combat>10</Combat>
-			<RangedCombat>15</RangedCombat>
+			<Combat>13</Combat>
+			<RangedCombat>18</RangedCombat>
 			<Cost>120</Cost>
+			<FaithCost>240</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
@@ -2019,8 +2110,8 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_RIFLEMAN</GoodyHutUpgradeUnitClass>
+			<ObsoleteTech>TECH_INDUSTRIALIZATION</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_GATLINGGUN</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>20</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2033,9 +2124,11 @@
 			<Class>UNITCLASS_CROSSBOWMAN</Class>
 			<Type>UNIT_CHINESE_CHUKONU</Type>
 			<PrereqTech>TECH_MACHINERY</PrereqTech>
-			<Combat>10</Combat>
-			<RangedCombat>11</RangedCombat>
+			<Combat>13</Combat>
+			<RangedCombat>14</RangedCombat>
 			<Cost>120</Cost>
+			<FaithCost>240</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
@@ -2048,8 +2141,8 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_RIFLEMAN</GoodyHutUpgradeUnitClass>
+			<ObsoleteTech>TECH_INDUSTRIALIZATION</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_GATLINGGUN</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>20</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2062,9 +2155,11 @@
 			<Class>UNITCLASS_CROSSBOWMAN</Class>
 			<Type>UNIT_ENGLISH_LONGBOWMAN</Type>
 			<PrereqTech>TECH_MACHINERY</PrereqTech>
-			<Combat>10</Combat>
-			<RangedCombat>15</RangedCombat>
+			<Combat>13</Combat>
+			<RangedCombat>18</RangedCombat>
 			<Cost>120</Cost>
+			<FaithCost>240</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
@@ -2077,8 +2172,8 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_RIFLEMAN</GoodyHutUpgradeUnitClass>
+			<ObsoleteTech>TECH_INDUSTRIALIZATION</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_GATLINGGUN</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>20</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2091,8 +2186,10 @@
 			<Class>UNITCLASS_PIKEMAN</Class>
 			<Type>UNIT_PIKEMAN</Type>
 			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
-			<Combat>10</Combat>
+			<Combat>16</Combat>
 			<Cost>90</Cost>
+			<FaithCost>180</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -2104,8 +2201,8 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_RIFLEMAN</GoodyHutUpgradeUnitClass>
+			<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>20</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2116,10 +2213,10 @@
 			<PortraitIndex>33</PortraitIndex>
 		</Row>
 		<Row>
-			<Class>UNITCLASS_PIKEMAN</Class>
+			<Class>UNITCLASS_LANDSKNECHT</Class>
 			<Type>UNIT_GERMAN_LANDSKNECHT</Type>
 			<PrereqTech>TECH_CIVIL_SERVICE</PrereqTech>
-			<Combat>10</Combat>
+			<Combat>16</Combat>
 			<Cost>45</Cost>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
@@ -2129,14 +2226,16 @@
 			<Civilopedia>TXT_KEY_CIVILOPEDIA_UNITS_MEDIEVAL_LANDSKNECHT_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_GERMAN_LANDSKNECHT_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_LANDSKNECHT</Help>
+			<PurchaseOnly>true</PurchaseOnly>
+			<MoveAfterPurchase>true</MoveAfterPurchase>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_RIFLING</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_RIFLEMAN</GoodyHutUpgradeUnitClass>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_LANCER</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>20</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
+			<PolicyType>POLICY_TRADE_UNIONS</PolicyType>
 			<Conscription>3</Conscription>
 			<UnitArtInfo>ART_DEF_UNIT_U_GERMAN_LANDSKNECHT</UnitArtInfo>
 			<UnitFlagIconOffset>33</UnitFlagIconOffset>
@@ -2147,9 +2246,11 @@
 			<Class>UNITCLASS_CATAPULT</Class>
 			<Type>UNIT_CATAPULT</Type>
 			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
-			<Combat>5</Combat>
-			<RangedCombat>11</RangedCombat>
+			<Combat>7</Combat>
+			<RangedCombat>8</RangedCombat>
 			<Cost>75</Cost>
+			<FaithCost>150</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<HurryCostModifier>20</HurryCostModifier>
 			<Range>2</Range>
@@ -2179,9 +2280,11 @@
 			<Class>UNITCLASS_CATAPULT</Class>
 			<Type>UNIT_ROMAN_BALLISTA</Type>
 			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
-			<Combat>5</Combat>
-			<RangedCombat>14</RangedCombat>
+			<Combat>8</Combat>
+			<RangedCombat>10</RangedCombat>
 			<Cost>75</Cost>
+			<FaithCost>150</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<HurryCostModifier>20</HurryCostModifier>
 			<Range>2</Range>
@@ -2211,8 +2314,10 @@
 			<Class>UNITCLASS_HORSEMAN</Class>
 			<Type>UNIT_HORSEMAN</Type>
 			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
-			<Combat>10</Combat>
+			<Combat>12</Combat>
 			<Cost>75</Cost>
+			<FaithCost>150</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>4</Moves>
 			<HurryCostModifier>20</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
@@ -2225,7 +2330,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
+			<ObsoleteTech>TECH_CHIVALRY</ObsoleteTech>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_KNIGHT</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>20</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
@@ -2240,8 +2345,10 @@
 			<Class>UNITCLASS_HORSEMAN</Class>
 			<Type>UNIT_GREEK_COMPANIONCAVALRY</Type>
 			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
-			<Combat>12</Combat>
+			<Combat>14</Combat>
 			<Cost>75</Cost>
+			<FaithCost>150</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>5</Moves>
 			<HurryCostModifier>20</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MOUNTED</CombatClass>
@@ -2254,7 +2361,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_METALLURGY</ObsoleteTech>
+			<ObsoleteTech>TECH_CHIVALRY</ObsoleteTech>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_KNIGHT</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>20</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
@@ -2269,8 +2376,10 @@
 			<Class>UNITCLASS_SWORDSMAN</Class>
 			<Type>UNIT_SWORDSMAN</Type>
 			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
-			<Combat>11</Combat>
+			<Combat>14</Combat>
 			<Cost>75</Cost>
+			<FaithCost>150</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<HurryCostModifier>20</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
@@ -2283,7 +2392,7 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_GUNPOWDER</ObsoleteTech>
+			<ObsoleteTech>TECH_STEEL</ObsoleteTech>
 			<GoodyHutUpgradeUnitClass>UNITCLASS_LONGSWORDSMAN</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>20</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
@@ -2299,8 +2408,10 @@
 			<Class>UNITCLASS_SWORDSMAN</Class>
 			<Type>UNIT_IROQUOIAN_MOHAWKWARRIOR</Type>
 			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
-			<Combat>11</Combat>
+			<Combat>14</Combat>
 			<Cost>75</Cost>
+			<FaithCost>150</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<HurryCostModifier>20</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
@@ -2328,8 +2439,10 @@
 			<Class>UNITCLASS_SWORDSMAN</Class>
 			<Type>UNIT_ROMAN_LEGION</Type>
 			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
-			<Combat>13</Combat>
+			<Combat>17</Combat>
 			<Cost>75</Cost>
+			<FaithCost>150</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<HurryCostModifier>20</HurryCostModifier>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
@@ -2359,9 +2472,11 @@
 			<Class>UNITCLASS_CHARIOT_ARCHER</Class>
 			<Type>UNIT_CHARIOT_ARCHER</Type>
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
-			<Combat>4</Combat>
-			<RangedCombat>7</RangedCombat>
+			<Combat>6</Combat>
+			<RangedCombat>10</RangedCombat>
 			<Cost>56</Cost>
+			<FaithCost>112</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>4</Moves>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
@@ -2389,9 +2504,11 @@
 			<Class>UNITCLASS_CHARIOT_ARCHER</Class>
 			<Type>UNIT_EGYPTIAN_WARCHARIOT</Type>
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
-			<Combat>4</Combat>
-			<RangedCombat>7</RangedCombat>
+			<Combat>6</Combat>
+			<RangedCombat>10</RangedCombat>
 			<Cost>56</Cost>
+			<FaithCost>112</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>5</Moves>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
@@ -2419,9 +2536,11 @@
 			<Class>UNITCLASS_CHARIOT_ARCHER</Class>
 			<Type>UNIT_INDIAN_WARELEPHANT</Type>
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
-			<Combat>6</Combat>
-			<RangedCombat>8</RangedCombat>
+			<Combat>9</Combat>
+			<RangedCombat>11</RangedCombat>
 			<Cost>70</Cost>
+			<FaithCost>140</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>3</Moves>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
@@ -2449,8 +2568,10 @@
 			<Class>UNITCLASS_SPEARMAN</Class>
 			<Type>UNIT_SPEARMAN</Type>
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
-			<Combat>7</Combat>
+			<Combat>11</Combat>
 			<Cost>56</Cost>
+			<FaithCost>112</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -2477,8 +2598,10 @@
 			<Class>UNITCLASS_SPEARMAN</Class>
 			<Type>UNIT_GREEK_HOPLITE</Type>
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
-			<Combat>9</Combat>
+			<Combat>13</Combat>
 			<Cost>56</Cost>
+			<FaithCost>112</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -2505,8 +2628,10 @@
 			<Class>UNITCLASS_SPEARMAN</Class>
 			<Type>UNIT_PERSIAN_IMMORTAL</Type>
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
-			<Combat>8</Combat>
+			<Combat>12</Combat>
 			<Cost>56</Cost>
+			<FaithCost>112</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -2533,9 +2658,11 @@
 			<Class>UNITCLASS_ARCHER</Class>
 			<Type>UNIT_ARCHER</Type>
 			<PrereqTech>TECH_ARCHERY</PrereqTech>
-			<Combat>4</Combat>
-			<RangedCombat>6</RangedCombat>
+			<Combat>5</Combat>
+			<RangedCombat>7</RangedCombat>
 			<Cost>40</Cost>
+			<FaithCost>80</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<Range>2</Range>
 			<CombatClass>UNITCOMBAT_ARCHER</CombatClass>
@@ -2548,8 +2675,8 @@
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
 			<Pillage>true</Pillage>
-			<ObsoleteTech>TECH_MACHINERY</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_CROSSBOWMAN</GoodyHutUpgradeUnitClass>
+			<ObsoleteTech>TECH_CONSTRUCTION</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_COMPOSITE_BOWMAN</GoodyHutUpgradeUnitClass>
 			<AdvancedStartCost>15</AdvancedStartCost>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
@@ -2561,8 +2688,10 @@
 		<Row>
 			<Class>UNITCLASS_SCOUT</Class>
 			<Type>UNIT_SCOUT</Type>
-			<Combat>4</Combat>
+			<Combat>5</Combat>
 			<Cost>25</Cost>
+			<FaithCost>50</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_RECON</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -2588,8 +2717,10 @@
 		<Row>
 			<Class>UNITCLASS_WARRIOR</Class>
 			<Type>UNIT_WARRIOR</Type>
-			<Combat>6</Combat>
+			<Combat>8</Combat>
 			<Cost>40</Cost>
+			<FaithCost>80</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -2615,8 +2746,10 @@
 		<Row>
 			<Class>UNITCLASS_WARRIOR</Class>
 			<Type>UNIT_AZTEC_JAGUAR</Type>
-			<Combat>6</Combat>
+			<Combat>8</Combat>
 			<Cost>40</Cost>
+			<FaithCost>80</FaithCost>
+			<RequiresFaithPurchaseEnabled>true</RequiresFaithPurchaseEnabled>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
 			<Domain>DOMAIN_LAND</Domain>
@@ -2642,7 +2775,7 @@
 		<Row>
 			<Class>UNITCLASS_WARRIOR</Class>
 			<Type>UNIT_BARBARIAN_WARRIOR</Type>
-			<Combat>6</Combat>
+			<Combat>8</Combat>
 			<Cost>20</Cost>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
@@ -2667,12 +2800,10 @@
 		<Row>
 			<Class>UNITCLASS_GALLEY</Class>
 			<Type>UNIT_GALLEY</Type>
-			<Combat>5</Combat>
-			<RangedCombat>3</RangedCombat>
-			<Cost>50</Cost>
+			<Combat>7</Combat>
+			<Cost>40</Cost>
 			<Moves>3</Moves>
-			<Range>2</Range>
-			<CombatClass>UNITCOMBAT_NAVAL</CombatClass>
+			<CombatClass>UNITCOMBAT_NAVALMELEE</CombatClass>
 			<Domain>DOMAIN_SEA</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK_SEA</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_GALLEY</Description>
@@ -2683,7 +2814,7 @@
 			<Pillage>true</Pillage>
 			<Mechanized>true</Mechanized>
 			<AdvancedStartCost>10</AdvancedStartCost>
-			<MinAreaSize>20</MinAreaSize>
+			<MinAreaSize>10</MinAreaSize>
 			<XPValueAttack>3</XPValueAttack>
 			<XPValueDefense>3</XPValueDefense>
 			<UnitArtInfo>ART_DEF_UNIT_BARBARIAN_GALLEY</UnitArtInfo>
@@ -2722,7 +2853,7 @@
 			<Class>UNITCLASS_SPEARMAN</Class>
 			<Type>UNIT_BARBARIAN_SPEARMAN</Type>
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
-			<Combat>7</Combat>
+			<Combat>10</Combat>
 			<Cost>56</Cost>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
@@ -2749,7 +2880,7 @@
 			<Class>UNITCLASS_SWORDSMAN</Class>
 			<Type>UNIT_BARBARIAN_SWORDSMAN</Type>
 			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
-			<Combat>11</Combat>
+			<Combat>14</Combat>
 			<Cost>75</Cost>
 			<Moves>2</Moves>
 			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
@@ -3057,6 +3188,10 @@
 		<Row>
 			<UnitType>UNIT_JAPANESE_SAMURAI</UnitType>
 			<UnitAIType>UNITAI_DEFENSE</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_SAMURAI</UnitType>
+			<UnitAIType>UNITAI_WORKER_SEA</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MUSKETMAN</UnitType>
@@ -3380,7 +3515,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_FRIGATE</UnitType>
-			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FRIGATE</UnitType>
@@ -3390,15 +3525,9 @@
 			<UnitType>UNIT_FRIGATE</UnitType>
 			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
 		</Row>
-		<!--
-    <Row>
-			<UnitType>UNIT_FRIGATE</UnitType>
-			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
-		</Row>
-    -->
 		<Row>
 			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
-			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
@@ -3409,16 +3538,16 @@
 			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
-			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_IRONCLAD</UnitType>
 			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_IRONCLAD</UnitType>
 			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IRONCLAD</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_DESTROYER</UnitType>
@@ -3438,15 +3567,19 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_BATTLESHIP</UnitType>
-			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_BATTLESHIP</UnitType>
 			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
 		</Row>
 		<Row>
+			<UnitType>UNIT_BATTLESHIP</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
+		</Row>
+		<Row>
 			<UnitType>UNIT_SUBMARINE</UnitType>
-			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SUBMARINE</UnitType>
@@ -3455,10 +3588,6 @@
 		<Row>
 			<UnitType>UNIT_SUBMARINE</UnitType>
 			<UnitAIType>UNITAI_EXPLORE_SEA</UnitAIType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SUBMARINE</UnitType>
-			<UnitAIType>UNITAI_MISSILE_CARRIER_SEA</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CARRIER</UnitType>
@@ -3466,7 +3595,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
-			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
@@ -3482,11 +3611,15 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
-			<UnitAIType>UNITAI_ATTACK_SEA</UnitAIType>
+			<UnitAIType>UNITAI_ASSAULT_SEA</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
 			<UnitAIType>UNITAI_RESERVE_SEA</UnitAIType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+			<UnitAIType>UNITAI_ESCORT_SEA</UnitAIType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
@@ -3529,12 +3662,6 @@
 			<UnitAIType>UNITAI_SPACESHIP_PART</UnitAIType>
 		</Row>
 	</Unit_AITypes>
-	<Unit_Buildings>
-		<Row>
-			<UnitType>UNIT_GREAT_GENERAL</UnitType>
-			<BuildingType>BUILDING_MILITARY_ACADEMY</BuildingType>
-		</Row>
-	</Unit_Buildings>
 	<Unit_Builds>
 		<Row>
 			<UnitType>UNIT_WORKER</UnitType>
@@ -3629,10 +3756,6 @@
 			<BuildType>BUILD_FORT</BuildType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<BuildType>BUILD_LANDMARK</BuildType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_SCIENTIST</UnitType>
 			<BuildType>BUILD_ACADEMY</BuildType>
 		</Row>
@@ -3648,19 +3771,23 @@
 			<UnitType>UNIT_GREAT_GENERAL</UnitType>
 			<BuildType>BUILD_CITADEL</BuildType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_JAPANESE_SAMURAI</UnitType>
+			<BuildType>BUILD_FISHING_BOATS_NO_KILL</BuildType>
+		</Row>
 	</Unit_Builds>
 	<Unit_ClassUpgrades>
 		<Row>
 			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
-			<UnitClassType>UNITCLASS_DESTROYER</UnitClassType>
+			<UnitClassType>UNITCLASS_BATTLESHIP</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FRIGATE</UnitType>
-			<UnitClassType>UNITCLASS_DESTROYER</UnitClassType>
+			<UnitClassType>UNITCLASS_BATTLESHIP</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CARAVEL</UnitType>
-			<UnitClassType>UNITCLASS_DESTROYER</UnitClassType>
+			<UnitClassType>UNITCLASS_IRONCLAD</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SUBMARINE</UnitType>
@@ -3668,7 +3795,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_TRIREME</UnitType>
-			<UnitClassType>UNITCLASS_FRIGATE</UnitClassType>
+			<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GALLEY</UnitType>
@@ -3688,11 +3815,11 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_ARCHER</UnitType>
-			<UnitClassType>UNITCLASS_CROSSBOWMAN</UnitClassType>
+			<UnitClassType>UNITCLASS_COMPOSITE_BOWMAN</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_BARBARIAN_ARCHER</UnitType>
-			<UnitClassType>UNITCLASS_CROSSBOWMAN</UnitClassType>
+			<UnitClassType>UNITCLASS_COMPOSITE_BOWMAN</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SPEARMAN</UnitType>
@@ -3772,11 +3899,11 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_CAVALRY</UnitType>
-			<UnitClassType>UNITCLASS_TANK</UnitClassType>
+			<UnitClassType>UNITCLASS_WWI_TANK</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
-			<UnitClassType>UNITCLASS_TANK</UnitClassType>
+			<UnitClassType>UNITCLASS_WWI_TANK</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
@@ -3788,23 +3915,23 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_CROSSBOWMAN</UnitType>
-			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+			<UnitClassType>UNITCLASS_GATLINGGUN</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CHINESE_CHUKONU</UnitType>
-			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+			<UnitClassType>UNITCLASS_GATLINGGUN</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
-			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+			<UnitClassType>UNITCLASS_GATLINGGUN</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_PIKEMAN</UnitType>
-			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+			<UnitClassType>UNITCLASS_LANCER</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GERMAN_LANDSKNECHT</UnitType>
-			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+			<UnitClassType>UNITCLASS_LANCER</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_TREBUCHET</UnitType>
@@ -3812,7 +3939,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_LONGSWORDSMAN</UnitType>
-			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_JAPANESE_SAMURAI</UnitType>
@@ -3840,11 +3967,11 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_RIFLEMAN</UnitType>
-			<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+			<UnitClassType>UNITCLASS_GREAT_WAR_INFANTRY</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_IRONCLAD</UnitType>
-			<UnitClassType>UNITCLASS_BATTLESHIP</UnitClassType>
+			<UnitClassType>UNITCLASS_DESTROYER</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_INFANTRY</UnitType>
@@ -3852,7 +3979,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_FRENCH_FOREIGNLEGION</UnitType>
-			<UnitClassType>UNITCLASS_MECHANIZED_INFANTRY</UnitClassType>
+			<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ARTILLERY</UnitType>
@@ -3889,6 +4016,14 @@
 		<Row>
 			<UnitType>UNIT_AMERICAN_B17</UnitType>
 			<UnitClassType>UNITCLASS_STEALTH_BOMBER</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MODERN_ARMOR</UnitType>
+			<UnitClassType>UNITCLASS_MECH</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PARATROOPER</UnitType>
+			<UnitClassType>UNITCLASS_XCOM_SQUAD</UnitClassType>
 		</Row>
 	</Unit_ClassUpgrades>
 	<Unit_Flavors>
@@ -4149,13 +4284,8 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_CATAPULT</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CATAPULT</UnitType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
-			<Flavor>8</Flavor>
+			<Flavor>4</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ROMAN_BALLISTA</UnitType>
@@ -4170,7 +4300,7 @@
 		<Row>
 			<UnitType>UNIT_ROMAN_BALLISTA</UnitType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
-			<Flavor>16</Flavor>
+			<Flavor>7</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_KNIGHT</UnitType>
@@ -4299,13 +4429,8 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_TREBUCHET</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_TREBUCHET</UnitType>
 			<FlavorType>FLAVOR_RANGED</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>6</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_LONGSWORDSMAN</UnitType>
@@ -4331,6 +4456,11 @@
 			<UnitType>UNIT_JAPANESE_SAMURAI</UnitType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_WORKBOAT</UnitType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>9</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MUSKETMAN</UnitType>
@@ -4465,22 +4595,22 @@
 		<Row>
 			<UnitType>UNIT_INFANTRY</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>12</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_INFANTRY</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>12</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FRENCH_FOREIGNLEGION</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>18</Flavor>
+			<Flavor>24</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FRENCH_FOREIGNLEGION</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>12</Flavor>
+			<Flavor>16</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ARTILLERY</UnitType>
@@ -4500,32 +4630,32 @@
 		<Row>
 			<UnitType>UNIT_TANK</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>12</Flavor>
+			<Flavor>14</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_TANK</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>9</Flavor>
+			<Flavor>11</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_TANK</UnitType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>12</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GERMAN_PANZER</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>18</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GERMAN_PANZER</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>9</Flavor>
+			<Flavor>11</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GERMAN_PANZER</UnitType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>12</Flavor>
+			<Flavor>14</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ANTI_TANK_GUN</UnitType>
@@ -4560,7 +4690,12 @@
 		<Row>
 			<UnitType>UNIT_PARATROOPER</UnitType>
 			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>3</Flavor>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_PARATROOPER</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FIGHTER</UnitType>
@@ -4648,14 +4783,19 @@
 			<Flavor>16</Flavor>
 		</Row>
 		<Row>
+			<UnitType>UNIT_ATOMIC_BOMB</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
 			<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>8</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>9</Flavor>
+			<Flavor>8</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ROCKET_ARTILLERY</UnitType>
@@ -4685,17 +4825,17 @@
 		<Row>
 			<UnitType>UNIT_MODERN_ARMOR</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>25</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MODERN_ARMOR</UnitType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>12</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MODERN_ARMOR</UnitType>
 			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>12</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
@@ -4730,7 +4870,12 @@
 		<Row>
 			<UnitType>UNIT_GUIDED_MISSILE</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>7</Flavor>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GUIDED_MISSILE</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GUIDED_MISSILE</UnitType>
@@ -4740,7 +4885,7 @@
 		<Row>
 			<UnitType>UNIT_GUIDED_MISSILE</UnitType>
 			<FlavorType>FLAVOR_AIR</FlavorType>
-			<Flavor>7</Flavor>
+			<Flavor>2</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_JET_FIGHTER</UnitType>
@@ -4793,6 +4938,11 @@
 			<Flavor>24</Flavor>
 		</Row>
 		<Row>
+			<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
 			<UnitType>UNIT_MECH</UnitType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>25</Flavor>
@@ -4814,188 +4964,83 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_TRIREME</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>1</Flavor>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>6</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_TRIREME</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>1</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_TRIREME</UnitType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_TRIREME</UnitType>
-			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
-			<Flavor>1</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CARAVEL</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>1</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CARAVEL</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>1</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CARAVEL</UnitType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CARAVEL</UnitType>
-			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
-			<Flavor>8</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FRIGATE</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FRIGATE</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FRIGATE</UnitType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FRIGATE</UnitType>
-			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>12</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
-			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
-			<Flavor>8</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_IRONCLAD</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>3</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_IRONCLAD</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_IRONCLAD</UnitType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>5</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_DESTROYER</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_DESTROYER</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_DESTROYER</UnitType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_DESTROYER</UnitType>
-			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
-			<Flavor>4</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_BATTLESHIP</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>9</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_BATTLESHIP</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>9</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_BATTLESHIP</UnitType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>9</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SUBMARINE</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SUBMARINE</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>8</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SUBMARINE</UnitType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>8</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_SUBMARINE</UnitType>
 			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
 			<Flavor>2</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_CARRIER</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>9</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CARRIER</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<UnitType>UNIT_CARAVEL</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
 			<Flavor>4</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_CARRIER</UnitType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>7</Flavor>
+			<UnitType>UNIT_CARAVEL</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>8</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_CARRIER</UnitType>
-			<FlavorType>FLAVOR_AIR</FlavorType>
+			<UnitType>UNIT_FRIGATE</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_FRIGATE</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
 			<Flavor>3</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>7</Flavor>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>24</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>8</Flavor>
+			<UnitType>UNIT_ENGLISH_SHIPOFTHELINE</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_IRONCLAD</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DESTROYER</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_DESTROYER</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_BATTLESHIP</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>27</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUBMARINE</UnitType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUBMARINE</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_CARRIER</UnitType>
+			<FlavorType>FLAVOR_AIR_CARRIER</FlavorType>
+			<Flavor>40</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>8</Flavor>
+			<Flavor>35</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
@@ -5003,19 +5048,14 @@
 			<Flavor>3</Flavor>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>6</Flavor>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>9</Flavor>
+			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>8</Flavor>
+			<Flavor>23</Flavor>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
@@ -5095,32 +5135,24 @@
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ARCHER</UnitType>
-			<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_BARBARIAN_ARCHER</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_BARBARIAN_ARCHER</UnitType>
-			<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_SPEARMAN</UnitType>
-			<PromotionType>PROMOTION_ANTI_MOUNTED_II</PromotionType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_BARBARIAN_SPEARMAN</UnitType>
-			<PromotionType>PROMOTION_ANTI_MOUNTED_II</PromotionType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GREEK_HOPLITE</UnitType>
-			<PromotionType>PROMOTION_ANTI_MOUNTED_II</PromotionType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
-			<PromotionType>PROMOTION_ANTI_MOUNTED_II</PromotionType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
@@ -5139,10 +5171,6 @@
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_CHARIOT_ARCHER</UnitType>
-			<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_EGYPTIAN_WARCHARIOT</UnitType>
 			<PromotionType>PROMOTION_ROUGH_TERRAIN_ENDS_TURN</PromotionType>
 		</Row>
@@ -5155,20 +5183,12 @@
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_EGYPTIAN_WARCHARIOT</UnitType>
-			<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_INDIAN_WARELEPHANT</UnitType>
 			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_INDIAN_WARELEPHANT</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_INDIAN_WARELEPHANT</UnitType>
-			<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
@@ -5208,7 +5228,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_CATAPULT</UnitType>
-			<PromotionType>PROMOTION_CITY_ASSAULT</PromotionType>
+			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CATAPULT</UnitType>
@@ -5228,7 +5248,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_ROMAN_BALLISTA</UnitType>
-			<PromotionType>PROMOTION_CITY_ASSAULT</PromotionType>
+			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ROMAN_BALLISTA</UnitType>
@@ -5265,10 +5285,6 @@
 		<Row>
 			<UnitType>UNIT_ARABIAN_CAMELARCHER</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARABIAN_CAMELARCHER</UnitType>
-			<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SIAMESE_WARELEPHANT</UnitType>
@@ -5299,20 +5315,12 @@
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_CROSSBOWMAN</UnitType>
-			<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_CHINESE_CHUKONU</UnitType>
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CHINESE_CHUKONU</UnitType>
 			<PromotionType>PROMOTION_SECOND_ATTACK</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CHINESE_CHUKONU</UnitType>
-			<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
@@ -5323,16 +5331,20 @@
 			<PromotionType>PROMOTION_RANGE</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ENGLISH_LONGBOWMAN</UnitType>
-			<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_PIKEMAN</UnitType>
-			<PromotionType>PROMOTION_ANTI_MOUNTED_II</PromotionType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GERMAN_LANDSKNECHT</UnitType>
-			<PromotionType>PROMOTION_ANTI_MOUNTED_II</PromotionType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GERMAN_LANDSKNECHT</UnitType>
+			<PromotionType>PROMOTION_FREE_PILLAGE_MOVES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_GERMAN_LANDSKNECHT</UnitType>
+			<PromotionType>PROMOTION_DOUBLE_PLUNDER</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_TREBUCHET</UnitType>
@@ -5340,7 +5352,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_TREBUCHET</UnitType>
-			<PromotionType>PROMOTION_CITY_ASSAULT</PromotionType>
+			<PromotionType>PROMOTION_CITY_SIEGE</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_TREBUCHET</UnitType>
@@ -5369,6 +5381,10 @@
 		<Row>
 			<UnitType>UNIT_AMERICAN_MINUTEMAN</UnitType>
 			<PromotionType>PROMOTION_DRILL_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AMERICAN_MINUTEMAN</UnitType>
+			<PromotionType>PROMOTION_GOLDEN_AGE_POINTS</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_OTTOMAN_JANISSARY</UnitType>
@@ -5400,11 +5416,11 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_LANCER</UnitType>
-			<PromotionType>PROMOTION_DEFENSE_PENALTY</PromotionType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_LANCER</UnitType>
-			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_LANCER</UnitType>
@@ -5412,19 +5428,11 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_LANCER</UnitType>
-			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
-			<PromotionType>PROMOTION_DEFENSE_PENALTY</PromotionType>
+			<PromotionType>PROMOTION_FORMATION_1</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
 			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
-			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
@@ -5436,11 +5444,15 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
 			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_CAVALRY</UnitType>
-			<PromotionType>PROMOTION_MOUNTED_PENALTY</PromotionType>
+			<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
+			<PromotionType>PROMOTION_FORMATION_1</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CAVALRY</UnitType>
@@ -5453,10 +5465,6 @@
 		<Row>
 			<UnitType>UNIT_CAVALRY</UnitType>
 			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
-			<PromotionType>PROMOTION_MOUNTED_PENALTY</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
@@ -5504,19 +5512,11 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_TANK</UnitType>
-			<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_TANK</UnitType>
 			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_TANK</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GERMAN_PANZER</UnitType>
-			<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GERMAN_PANZER</UnitType>
@@ -5539,12 +5539,12 @@
 			<PromotionType>PROMOTION_ANTI_AIR</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_ANTI_AIRCRAFT_GUN</UnitType>
-			<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
+			<UnitType>UNIT_PARATROOPER</UnitType>
+			<PromotionType>PROMOTION_PARADROP</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_PARATROOPER</UnitType>
-			<PromotionType>PROMOTION_PARADROP</PromotionType>
+			<PromotionType>PROMOTION_FREE_PILLAGE_MOVES</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FIGHTER</UnitType>
@@ -5556,15 +5556,11 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_FIGHTER</UnitType>
-			<PromotionType>PROMOTION_WEAK_RANGED</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_FIGHTER</UnitType>
 			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FIGHTER</UnitType>
-			<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
+			<PromotionType>PROMOTION_ANTI_AIR_II</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_JAPANESE_ZERO</UnitType>
@@ -5580,24 +5576,16 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_JAPANESE_ZERO</UnitType>
-			<PromotionType>PROMOTION_WEAK_RANGED</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_JAPANESE_ZERO</UnitType>
 			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_JAPANESE_ZERO</UnitType>
-			<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
+			<PromotionType>PROMOTION_ANTI_AIR_II</PromotionType>
 		</Row>
-		<Row>
+		<!--<Row>
 			<UnitType>UNIT_BOMBER</UnitType>
-			<PromotionType>PROMOTION_NAVAL_PENALTY</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_AMERICAN_B17</UnitType>
-			<PromotionType>PROMOTION_NAVAL_PENALTY</PromotionType>
-		</Row>
+			<PromotionType>PROMOTION_HEAVY_PAYLOAD</PromotionType>
+		</Row>-->
 		<Row>
 			<UnitType>UNIT_AMERICAN_B17</UnitType>
 			<PromotionType>PROMOTION_EVASION</PromotionType>
@@ -5606,6 +5594,10 @@
 			<UnitType>UNIT_AMERICAN_B17</UnitType>
 			<PromotionType>PROMOTION_AIR_SIEGE_1</PromotionType>
 		</Row>
+		<!--<Row>
+			<UnitType>UNIT_AMERICAN_B17</UnitType>
+			<PromotionType>PROMOTION_HEAVY_PAYLOAD</PromotionType>
+		</Row>-->
 		<Row>
 			<UnitType>UNIT_ATOMIC_BOMB</UnitType>
 			<PromotionType>PROMOTION_EVASION_I</PromotionType>
@@ -5632,10 +5624,6 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_MODERN_ARMOR</UnitType>
-			<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MODERN_ARMOR</UnitType>
 			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
 		</Row>
 		<Row>
@@ -5644,7 +5632,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
-			<PromotionType>PROMOTION_IGNORE_TERRAIN_COST</PromotionType>
+			<PromotionType>PROMOTION_FLAT_MOVEMENT_COST</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
@@ -5671,10 +5659,6 @@
 			<PromotionType>PROMOTION_ANTI_AIR</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MOBILE_SAM</UnitType>
-			<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_GUIDED_MISSILE</UnitType>
 			<PromotionType>PROMOTION_EVASION_II</PromotionType>
 		</Row>
@@ -5688,19 +5672,11 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_JET_FIGHTER</UnitType>
-			<PromotionType>PROMOTION_WEAK_RANGED</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_JET_FIGHTER</UnitType>
 			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_JET_FIGHTER</UnitType>
-			<PromotionType>PROMOTION_ANTI_HELICOPTER</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
-			<PromotionType>PROMOTION_NAVAL_PENALTY</PromotionType>
+			<PromotionType>PROMOTION_ANTI_AIR_II</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
@@ -5710,13 +5686,13 @@
 			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
 			<PromotionType>PROMOTION_AIR_RECON</PromotionType>
 		</Row>
+		<!--<Row>
+			<UnitType>UNIT_STEALTH_BOMBER</UnitType>
+			<PromotionType>PROMOTION_HEAVY_PAYLOAD</PromotionType>
+		</Row>-->
 		<Row>
 			<UnitType>UNIT_NUCLEAR_MISSILE</UnitType>
 			<PromotionType>PROMOTION_EVASION_I</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MECH</UnitType>
-			<PromotionType>PROMOTION_CITY_PENALTY</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MECH</UnitType>
@@ -5735,24 +5711,16 @@
 			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_GALLEY</UnitType>
-			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_TRIREME</UnitType>
 			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_TRIREME</UnitType>
-			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+			<UnitType>UNIT_CARAVEL</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CARAVEL</UnitType>
-			<PromotionType>PROMOTION_EXTRA_SIGHT_II</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_CARAVEL</UnitType>
-			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+			<PromotionType>PROMOTION_WITHDRAW_BEFORE_MELEE</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_FRIGATE</UnitType>
@@ -5768,24 +5736,16 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_IRONCLAD</UnitType>
-			<PromotionType>PROMOTION_OCEAN_IMPASSABLE</PromotionType>
+			<PromotionType>PROMOTION_STEAM_POWERED</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_IRONCLAD</UnitType>
-			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_DESTROYER</UnitType>
-			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+			<PromotionType>PROMOTION_FIRE_SUPPORT</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_DESTROYER</UnitType>
 			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
 		</Row>
-		<!--<Row>
-			<UnitType>UNIT_DESTROYER</UnitType>
-			<PromotionType>PROMOTION_EXTRA_SIGHT_III</PromotionType>
-		</Row>-->
 		<Row>
 			<UnitType>UNIT_DESTROYER</UnitType>
 			<PromotionType>PROMOTION_INTERCEPTION_II</PromotionType>
@@ -5796,7 +5756,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_DESTROYER</UnitType>
-			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
+			<PromotionType>PROMOTION_WITHDRAW_BEFORE_MELEE</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_SUBMARINE</UnitType>
@@ -5815,6 +5775,10 @@
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>
 		<Row>
+			<UnitType>UNIT_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_SILENT_HUNTER</PromotionType>
+		</Row>
+		<Row>
 			<UnitType>UNIT_BATTLESHIP</UnitType>
 			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
 		</Row>
@@ -5824,7 +5788,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_CARRIER</UnitType>
-			<PromotionType>PROMOTION_CARGO_III</PromotionType>
+			<PromotionType>PROMOTION_CARGO_II</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_CARRIER</UnitType>
@@ -5844,10 +5808,6 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
-			<PromotionType>PROMOTION_ANTI_SUBMARINE_I</PromotionType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
 			<PromotionType>PROMOTION_CAN_MOVE_IMPASSABLE</PromotionType>
 		</Row>
 		<Row>
@@ -5855,8 +5815,20 @@
 			<PromotionType>PROMOTION_ONLY_DEFENSIVE</PromotionType>
 		</Row>
 		<Row>
+			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_SILENT_HUNTER</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+		</Row>
+		<Row>
 			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
-			<PromotionType>PROMOTION_INDIRECT_FIRE</PromotionType>
+			<PromotionType>PROMOTION_SEE_INVISIBLE_SUBMARINE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+			<PromotionType>PROMOTION_ANTI_SUBMARINE_II</PromotionType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
@@ -5885,14 +5857,6 @@
 			<ResourceType>RESOURCE_IRON</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_BARBARIAN_SWORDSMAN</UnitType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-		</Row>
-		<!--<Row>
-			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-		</Row>-->
-		<Row>
 			<UnitType>UNIT_ROMAN_LEGION</UnitType>
 			<ResourceType>RESOURCE_IRON</ResourceType>
 		</Row>
@@ -5905,14 +5869,6 @@
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_CATAPULT</UnitType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ROMAN_BALLISTA</UnitType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
-		</Row>
-		<Row>
 			<UnitType>UNIT_KNIGHT</UnitType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 		</Row>
@@ -5923,10 +5879,6 @@
 		<Row>
 			<UnitType>UNIT_SONGHAI_MUSLIMCAVALRY</UnitType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_TREBUCHET</UnitType>
-			<ResourceType>RESOURCE_IRON</ResourceType>
 		</Row>
 		<Row>
 			<UnitType>UNIT_LONGSWORDSMAN</UnitType>
@@ -5962,10 +5914,6 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_FIGHTER</UnitType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>
-		<Row>
-			<UnitType>UNIT_JAPANESE_ZERO</UnitType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
 		<Row>
@@ -6025,164 +5973,24 @@
 			<UnitType>UNIT_BATTLESHIP</UnitType>
 			<ResourceType>RESOURCE_OIL</ResourceType>
 		</Row>
-		<!--<Row>
-			<UnitType>UNIT_CARRIER</UnitType>
-			<ResourceType>RESOURCE_OIL</ResourceType>
-		</Row>-->
 		<Row>
-			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+			<UnitType>UNIT_SS_STASIS_CHAMBER</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MISSILE_CRUISER</UnitType>
+			<UnitType>UNIT_SS_ENGINE</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SS_COCKPIT</UnitType>
+			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SS_BOOSTER</UnitType>
 			<ResourceType>RESOURCE_ALUMINUM</ResourceType>
 		</Row>
 	</Unit_ResourceQuantityRequirements>
 	<Unit_UniqueNames>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_HOMER</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_THESPIS</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_LING_LUN</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_WANG_XIZHI</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_VALMIKI</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_VIRGIL</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_KALIDAS</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_LI_PO</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_DU_FU</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_JALAL_ALDIN_RUMI</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_DANTE_ALIGHIERI</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_YUNUS_EMRE</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_AMIR_KHUSRO</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_IBN_MUQLAH</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_MICHAELANGELO</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_RAPHAEL</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_WILLIAM_SHAKESPEARE</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_MIGUEL_DE_CERVANTES</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_REMBRANDT</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_JOHANNES_VERMEER</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_JS_BACH</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_WOLFGANG_MOZART</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_JOHANN_GOETHE</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_LUDWIG_VAN_BEETHOVEN</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_VICTOR_HUGO</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_VINCENT_VAN_GOGH</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_JOHANNES_BRAHMS</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_DVORAK</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_MARK_TWAIN</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_CLAUDE_MONET</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_JOSEPH_CONRAD</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_FRANK_KAFKA</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_LOUIS_ARMSTRONG</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_DUKE_ELLINGTON</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_PABLO_PICASSO</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_ARTIST</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_MILES_DAVIS</UniqueName>
-		</Row>
 		<Row>
 			<UnitType>UNIT_SCIENTIST</UnitType>
 			<UniqueName>TXT_KEY_GREAT_PERSON_MERIT_PTAH</UniqueName>
@@ -6348,11 +6156,11 @@
 			<UniqueName>TXT_KEY_GREAT_PERSON_HARKUF</UniqueName>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MERCHANT</UnitType>
+			<UnitType>UNIT_GREAT_ADMIRAL</UnitType>
 			<UniqueName>TXT_KEY_GREAT_PERSON_HANNO</UniqueName>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MERCHANT</UnitType>
+			<UnitType>UNIT_GREAT_ADMIRAL</UnitType>
 			<UniqueName>TXT_KEY_GREAT_PERSON_PYTHEAS</UniqueName>
 		</Row>
 		<Row>
@@ -6365,19 +6173,7 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_MERCHANT</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_LEIF_ERICKSON</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MERCHANT</UnitType>
 			<UniqueName>TXT_KEY_GREAT_PERSON_WANG_ANSHI</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MERCHANT</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_ENRICO_DANDOLO</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_MERCHANT</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_MARCO_POLO</UniqueName>
 		</Row>
 		<Row>
 			<UnitType>UNIT_MERCHANT</UnitType>
@@ -6392,23 +6188,23 @@
 			<UniqueName>TXT_KEY_GREAT_PERSON_GIOVANNI_DE_MEDICI</UniqueName>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MERCHANT</UnitType>
+			<UnitType>UNIT_GREAT_ADMIRAL</UnitType>
 			<UniqueName>TXT_KEY_GREAT_PERSON_ZHENG_HE</UniqueName>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MERCHANT</UnitType>
+			<UnitType>UNIT_GREAT_ADMIRAL</UnitType>
 			<UniqueName>TXT_KEY_GREAT_PERSON_VASCO_DA_GAMA</UniqueName>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MERCHANT</UnitType>
+			<UnitType>UNIT_GREAT_ADMIRAL</UnitType>
 			<UniqueName>TXT_KEY_GREAT_PERSON_CHRISTOPHER_COLUMBUS</UniqueName>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MERCHANT</UnitType>
+			<UnitType>UNIT_GREAT_ADMIRAL</UnitType>
 			<UniqueName>TXT_KEY_GREAT_PERSON_FERDINAND_MAGELLAN</UniqueName>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MERCHANT</UnitType>
+			<UnitType>UNIT_GREAT_ADMIRAL</UnitType>
 			<UniqueName>TXT_KEY_GREAT_PERSON_JACQUES_CARTIER</UniqueName>
 		</Row>
 		<Row>
@@ -6432,7 +6228,7 @@
 			<UniqueName>TXT_KEY_GREAT_PERSON_ADAM_SMITH</UniqueName>
 		</Row>
 		<Row>
-			<UnitType>UNIT_MERCHANT</UnitType>
+			<UnitType>UNIT_GREAT_ADMIRAL</UnitType>
 			<UniqueName>TXT_KEY_GREAT_PERSON_JAMES_COOK</UniqueName>
 		</Row>
 		<Row>
@@ -6693,14 +6489,6 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_GREAT_GENERAL</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_GUSTAVUS_ADOLPHUS</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GREAT_GENERAL</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_MICHIEL_DE_RUYTER</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GREAT_GENERAL</UnitType>
 			<UniqueName>TXT_KEY_GREAT_PERSON_CROMWELL</UniqueName>
 		</Row>
 		<Row>
@@ -6709,19 +6497,11 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_GREAT_GENERAL</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_LORD_NELSON</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GREAT_GENERAL</UnitType>
 			<UniqueName>TXT_KEY_GREAT_PERSON_GERONIMO</UniqueName>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GREAT_GENERAL</UnitType>
 			<UniqueName>TXT_KEY_GREAT_PERSON_ROBERT_LEE</UniqueName>
-		</Row>
-		<Row>
-			<UnitType>UNIT_GREAT_GENERAL</UnitType>
-			<UniqueName>TXT_KEY_GREAT_PERSON_YAMAMOTO</UniqueName>
 		</Row>
 		<Row>
 			<UnitType>UNIT_GREAT_GENERAL</UnitType>

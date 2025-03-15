@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_RU_RU>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_CANNOT_BE_ADJACENT">
+      <Text>{@1_ImprovementName[4]} нельзя построить рядом с другим {@1_ImprovementName[5]} (уже построено или строится).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_NO_ADJACENT_LUXURY">
+      <Text>{@1_ImprovementName[4]} можно построить только рядом с редким ресурсом.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_NOT_IN_CITY_STATE_TERRITORY">
+      <Text>{@1_ImprovementName[4]} можно строить только на территории городов-государств.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_CONNECTED">
+      <Text>В городе есть [ICON_CONNECTED] торговый путь в [ICON_CAPITAL] столицу!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING1">
+      <Text>[COLOR_YELLOW]Урон увеличен: грозит перехват[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING2">
+      <Text>[COLOR_YELLOW]истребителями или ПВО[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_CITY_SAPPED">
+      <Text>Поддерживается осадной башней</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EMPIRE_UNHAPPY_PENALTY">
+      <Text>Империя [ICON_HAPPINESS_3] недовольна</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EMPIRE_VERY_UNHAPPY_PENALTY">
+      <Text>Империя испытывает [ICON_HAPPINESS_4] крайнее недовольство</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_VISIBLE_AA_UNITS">
+      <Text>[COLOR_WARNING_TEXT]Известно вражеских юнитов ПВО: {1_Number}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_ART_ARTIFACT_EMPTY_TOOLTIP">
+      <Text>Пустая ячейка шедевра изобразительного искусства или артефакта</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_LITERATURE_EMPTY_TOOLTIP">
+      <Text>Пустая ячейка литературного шедевра</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_MUSIC_EMPTY_TOOLTIP">
+      <Text>Пустая ячейка музыкального шедевра</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_TRADE_ROUTE">
+      <Text>Торговый путь</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_TRADE_ROUTES">
+      <Text>Торговые пути</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_ANARCHY">
+      <Text>[COLOR_NEGATIVE_TEXT]Империя будет находиться в состоянии анархии из-за смены идеологии еще {1_Turns} {1_Num: plural 1?ход; 2?хода; 3?ходов;}. В периоды анархии держава не получает очков [ICON_RESEARCH] науки, [ICON_GOLD] золота, [ICON_CULTURE] культуры, а также [ICON_PEACE] веры. Кроме того, нет очков [ICON_PRODUCTION] производства, нельзя ничего построить[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CARNIVAL_EFFECT">
+      <Text>Из-за вашего уникального карнавала, показатели туризма для всех держав увеличиваются на 100%, и вы будете получать великих писателей, художников и музыкантов на 50% быстрее.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_CITY_COST">
+      <Text>Каждый ваш город будет увеличивать стоимость общественных институтов на {1_Num}%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_FROM_BONUS_TURNS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] за счет последнего Всемирного конгресса (Ходов осталось: {2_TurnsLeft}).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY">
+      <Text>Поскольку [ICON_HAPPINESS_4] недовольство достигло уровня 20, в империи начинается восстание! Города могут покидать вашу империю и присоединяться к державе, чья культура для вашего народа является наиболее влиятельной.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_UNHAPPY">
+      <Text>Города будут расти в четыре раза медленнее обычного, если население державы [ICON_HAPPINESS_3] недовольно! [NEWLINE][ICON_GOLD] Поступление золота и очков [ICON_PRODUCTION] производства сокращается на 25% за каждое очко недовольства. Тот же штраф относится и к боевым юнитам!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_VERY_UNHAPPY">
+      <Text>Поскольку [ICON_HAPPINESS_4] недовольство достигло уровня 10, в империи начинаются беспорядки! Могут случаться восстания, в этом случае на вашей территории будут появляться варварские юниты. Это будет происходить каждые несколько ходов, пока вы не справитесь с ситуацией!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_CITY_CONNECTIONS">
+      <Text>{1_Num} от [ICON_CONNECTED] торговых путей между вашими городами и вашей [ICON_CAPITAL] столицей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_ITR">
+      <Text>{1_Num} от [ICON_TURNS_REMAINING] торговых путей между вашими городами и городами других цивилизаций.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_TR">
+      <Text>{1_Num} от [ICON_CONNECTED] торговых путей между вашими городами и вашей [ICON_CAPITAL] столицей.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_TRAITS">
+      <Text>{1_Num} от умений.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_LEAGUES">
+      <Text>{1_Happiness} от Всемирного конгресса.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE_FROM_ITR">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] от [ICON_TURNS_REMAINING] торговых путей между вашими городами и городами других цивилизаций.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TECH_CITY_COST">
+      <Text>Каждый ваш город или [ICON_PUPPET] город-марионетка будут увеличивать стоимость технологий на {1_Num}%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_PUBLIC_OPINION">
+      <Text>{1_Num} от общественного мнения (желание сменить идеологию).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIQUE_GOLDEN_AGE_ANNOUNCE">
+      <Text>Карнавал!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CARGO_CAPACITY">
+      <Text>Вместимость грузовых кораблей</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CARGO_CAPACITY_TT">
+      <Text>Количество юнитов, которые может перевозить {1_UnitName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_TOURISM_STRENGTH_TT">
+      <Text>Показывает силу юнита, совершающего концертный тур. Сила базируется на показателях [ICON_TOURISM] туризма в державе, где был рожден музыкант.</Text>
+    </Row>
+  </Language_RU_RU>
+</GameData>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+
+<GameData>
+    <Language_en_US>
+        <!--General phrases -->
+        <!--Greeting (first time meeting) -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_FIRSTGREETING_1">
+            <Text>Welcome to Venice! I am Doge Enrico Dandolo...do we have business together today?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_FIRSTGREETING_2">
+            <Text>Welcome traveller, I am Enrico Dandolo of Venice. What brings you to my fair city?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_FIRSTGREETING_3">
+            <Text>I am Doge Enrico Dandolo of Venice...have you come to trade?</Text>
+        </Row>
+        <!--Reacts to his bluff being called -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_WARBLUFF_1">
+            <Text>I have little concern for such obvious bluster.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_WARBLUFF_2">
+            <Text>My experience tells me that you are not as confident as you appear.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_WARBLUFF_3">
+            <Text>You are playing a dangerous game.</Text>
+        </Row>
+        <!--Gloats after winning a war -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_WINWAR_1">
+            <Text>It's a wonderful feeling when a plan finally comes to fruition.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_WINWAR_2">
+            <Text>It's a wonderful feeling when a plan finally comes to fruition.</Text>
+        </Row>
+        <!--Submissive after losing a war -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_LOSEWAR_1">
+            <Text>This was but one one of my many plans, you haven't seen the last of me!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_LOSEWAR_2">
+            <Text>This was but one one of my many plans, you haven't seen the last of me!</Text>
+        </Row>
+        <!--Defeated and removed from game -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_DEFEATED_1">
+            <Text>A miscalculation on my part...it won't be repeated.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_DEFEATED_2">
+            <Text>Occasionally my ambitions get the better of me.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_DEFEATED_3">
+            <Text>What can I say...some dreams prosper, others are squashed.</Text>
+        </Row>
+
+        <!--Neutral -->
+        <!--Greetings (subsequent meetings) -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_GREETING_1">
+            <Text>Welcome.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_GREETING_2">
+            <Text>Hail!</Text>
+        </Row>
+        <!--Goodbye -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_GOODBYE_1">
+            <Text>Be gone.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_GOODBYE_2">
+            <Text>That is all.</Text>
+        </Row>
+        <!--Trade offer from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADE_YES_NEUTRAL">
+            <Text>I concur.</Text>
+        </Row>
+        <!--Trade offer from player - sweeten the deal -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADE_NEEDMORE_NEUTRAL_1">
+            <Text>I'm afraid that won't be possible as offered.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADE_NEEDMORE_NEUTRAL_2">
+            <Text>Can you do a little better?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADE_NEEDMORE_NEUTRAL_3">
+            <Text>Almost...</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADE_NEEDMORE_NEUTRAL_4">
+            <Text>That’s not quite good enough. </Text>
+        </Row>
+        <!--Trade offer from player - no -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADE_NO_NEUTRAL">
+            <Text>That wouldn't be in my best interests.</Text>
+        </Row>
+        <!--Demand for tribute from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRIBUTE_YES_NEUTRAL">
+            <Text>Agreed.</Text>
+        </Row>
+        <!--Demand for tribute from player - no -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRIBUTE_NO_NEUTRAL">
+            <Text>I have no time to consider such things.</Text>
+        </Row>
+        <!--Requests a trade -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADEREQUEST_NEUTRAL">
+            <Text>This offer will not be open long…think about it.</Text>
+        </Row>
+        <!--Demands tribute -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_DEMANDTRIBUTE_NEUTRAL">
+            <Text>It's a reasonable request…think it over.</Text>
+        </Row>
+        <!--Agrees -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_AGREE_SHORT_1">
+            <Text>All right.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_AGREE_SHORT_2">
+            <Text>Very Well.</Text>
+        </Row>
+        <!--Disagrees -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_DISAGREE_SHORT_1">
+            <Text>I must refuse.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_DISAGREE_SHORT_2">
+            <Text>No, of course not.</Text>
+        </Row>
+        <!--Let's hear it -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_LETSHEARIT_1">
+            <Text>Let's hear it.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_LETSHEARIT_2">
+            <Text>Go ahead.</Text>
+        </Row>
+
+        <!--Happy -->
+        <!--Greetings (subsequent meetings) -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_GREETING_3">
+            <Text>Greetings.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_GREETING_4">
+            <Text>Well?</Text>
+        </Row>
+        <!--Goodbye -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_GOODBYE_3">
+            <Text>Our business here is done.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_GOODBYE_4">
+            <Text>Goodbye.</Text>
+        </Row>
+        <!--Trade offer from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADE_YES_HAPPY">
+            <Text>Of course! I'm always open to a fair trade.</Text>
+        </Row>
+        <!--Trade offer from player - sweeten the deal -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADE_NEEDMORE_HAPPY_1">
+            <Text>Your terms could be slightly more favorable.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADE_NEEDMORE_HAPPY_2">
+            <Text>Is that the best you can do?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADE_NEEDMORE_HAPPY_3">
+            <Text>You're almost there...</Text>
+        </Row>
+        <!--Trade offer from player - no -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADE_NO_HAPPY">
+            <Text>My generosity has it's limits, even amongst friends.</Text>
+        </Row>
+        <!--Demand for tribute from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRIBUTE_YES_HAPPY">
+            <Text>I always look after my friends.</Text>
+        </Row>
+        <!--Demand for tribute from player - no -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRIBUTE_NO_HAPPY">
+            <Text>I cannot afford to be so generous.</Text>
+        </Row>
+        <!--Requests a trade -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADEREQUEST_HAPPY">
+            <Text>Put your trust in my expertise...it's a lucrative offer.</Text>
+        </Row>
+        <!--Demands tribute -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_DEMANDTRIBUTE_HAPPY">
+            <Text>In the spirit of friendship, could you do me this favor?</Text>
+        </Row>
+        <!--Agrees -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_AGREE_SHORT_3">
+            <Text>Certainly.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_AGREE_SHORT_4">
+            <Text>It is agreed.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_AGREE_SHORT_5">
+            <Text>Excellent.</Text>
+        </Row>
+        <!--Disagrees -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_DISAGREE_SHORT_3">
+            <Text>Certainly not.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_DISAGREE_SHORT_4">
+            <Text>We must decline.</Text>
+        </Row>
+        <!--Let's hear it -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_LETSHEARIT_3">
+            <Text>I'm listening.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_LETSHEARIT_4">
+            <Text>Yes?</Text>
+        </Row>
+
+        <!--Angry -->
+        <!--Greetings (subsequent meetings) -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_GREETING_5">
+            <Text>What do you want?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_GREETING_6">
+            <Text>What do you want?</Text>
+        </Row>
+        <!--Goodbye -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_GOODBYE_5">
+            <Text>That is all.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_GOODBYE_6">
+            <Text>We are done here.</Text>
+        </Row>
+        <!--Trade offer from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADE_YES_ANGRY">
+            <Text>It pains me to trade with the likes of you.</Text>
+        </Row>
+        <!--Trade offer from player - sweeten the deal -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADE_NEEDMORE_ANGRY_1">
+            <Text>Proposterous! Have you forgotten who you are speaking with?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADE_NEEDMORE_ANGRY_2">
+            <Text>That will not be enough.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADE_NEEDMORE_ANGRY_3">
+            <Text>You must do better than that.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADE_NEEDMORE_ANGRY_4">
+            <Text>What an insulting proposal.</Text>
+        </Row>
+        <!--Trade offer from player - no -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADE_NO_ANGRY">
+            <Text>I do not trade with lowly wretches!</Text>
+        </Row>
+        <!--Demand for tribute from player - yes -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRIBUTE_YES_ANGRY">
+            <Text>You risk much by asking for such a thing…but I will comply, this time.</Text>
+        </Row>
+        <!--Demand for tribute from player - no -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRIBUTE_NO_ANGRY">
+            <Text>You must be mistaken, why would I ever consider that?</Text>
+        </Row>
+        <!--Requests a trade -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_TRADEREQUEST_ANGRY">
+            <Text>Trading with me might elevate your measly status in this world...</Text>
+        </Row>
+        <!--Demands tribute -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_DEMANDTRIBUTE_ANGRY">
+            <Text>Trust me...It would be unwise of you to deny me this request.</Text>
+        </Row>
+        <!--Disagrees -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_DISAGREE_SHORT_5">
+            <Text>I beg your pardon?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_DISAGREE_SHORT_6">
+            <Text>That's unacceptable.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_DISAGREE_SHORT_7">
+            <Text>You cannot be serious!</Text>
+        </Row>
+        <!--Let's hear it -->
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_LETSHEARIT_5">
+            <Text>You were saying?</Text>
+        </Row>
+
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_DECLAREWAR_1">
+            <Text>I've weighed my options carefully...and war with you should pay out nicely!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_DECLAREWAR_2">
+            <Text>I had a number of plans in mind…but in this case, war is the simplest means to an end.</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_DECLAREWAR_3">
+            <Text>With you gone, there's so much more for me!</Text>
+        </Row>
+
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_ATTACKED_1">
+            <Text>You've revealed your hand too soon my friend!</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_ATTACKED_2">
+            <Text>Do you think I was unprepared for this eventuality?</Text>
+        </Row>
+        <Row Tag="TXT_KEY_LEADER_ENRICO_DANDOLO_ATTACKED_3">
+            <Text>Your recklessness will be your undoing!</Text>
+        </Row>
+    </Language_en_US>
+</GameData>

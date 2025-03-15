@@ -1,0 +1,560 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_PL_PL>
+    <Row Tag="TXT_KEY_CITY_SPY_CITY_STATE_TT">
+      <Text>{1_SpyRank} {2_SpyName} jest w {@3_CityName[6]}. Gdy {@4_SpyRank[7]} {5_SpyName} jest w państwie-mieście, po ustanowieniu obserwacji będzie próbować sfałszować wybory, by zwiększyć twoje wpływy. Jeśli są tam inni szpiedzy, nie za każdym razem {@2_SpyName: gender masculine?mu; feminine?jej;} się to powiedzie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_SPY_OTHER_CIV_TT">
+      <Text>{1_SpyRank} {2_SpyName} jest w {@3_CityName[6]}. Gdy {@4_SpyRank[7]} {5_SpyName} jest w mieście, po ustanowieniu obserwacji będzie próbować ukraść jedną z technologii, których twoja cywilizacja nie posiada. {6_SpyRank} {7_SpyName} poinformuje cię też o każdym spisku, który odkryje w trakcie swoich działań.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_SPY_YOUR_CITY_TT">
+      <Text>{1_SpyRank} {2_SpyName} jest w mieście {@3_CityName[6]}. Gdy {4_SpyRank[7]} {5_SpyName} jest w twoim mieście, będzie wykonywać operacje kontrwywiadowcze i zabijać szpiegów innych nacji próbujących wykraść twoje technologie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_CIV_CITY_STATE_TT">
+      <Text>{1_CityName} to [COLOR_POSITIVE_TEXT]{2_CityStateTraitAdj[2]}[ENDCOLOR] państwo-miasto.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_CIV_TT">
+      <Text>{@2_CivShortDesc} {@2_CivShortDesc: plural 1?kontroluje; 2?kontrolują;} {@1_CityName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_NAME_CITY_STATE_TT">
+      <Text>{1_CityName} to [COLOR_POSITIVE_TEXT]{2_CityStateTraitAdj[2]}[ENDCOLOR] państwo-miasto.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_NAME_TT">
+      <Text>{@2_CivShortDesc} {@2_CivShortDesc: plural 1?kontroluje; 2?kontrolują;} {@1_CityName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_ONCE_KNOWN_POTENTIAL_TT">
+      <Text>Potencjał {1_CityName[2]} wynosił ostatnio {2_Num}.[NEWLINE][NEWLINE]To ostatnia ocena potencjału tego miasta, jaką wysłał jeden z twoich szpiegów. By uzyskać bardziej aktualne dane, wyślij do tego miasta szpiega.[NEWLINE][NEWLINE]Potencjał wskazuje, jak szybko można wykradać z miasta technologie. Im wyższa jego wartość, tym szybciej się to odbywa. Wartość bazowa obliczana jest na podstawie generowanej przez miasto nauki. Mogą go obniżyć budynki obronne miasta, takie jak policja okręgowa i posterunek policji. Potencjał może wzrosnąć, gdy do wykradania technologii użyjesz szpiega o wysokim poziomie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_POPULATION_TT">
+      <Text>Populacja {@1_CityName[2]} wynosi {2_Num}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_POTENTIAL_CANNOT_STEAL_TT">
+      <Text>{1_SpyRank} {2_SpyName} nie może wykraść technologii {@3_CityName[3]}, ponieważ nie ma tam takich, których nie posiadasz.[NEWLINE][NEWLINE]Potencjał podstawowy {@4_CityName[2]} wynosi {5_Num}.[NEWLINE][NEWLINE]Potencjał określa, jak szybko można wykradać technologie z tego miasta. Im wyższa wartość, tym krócej trwa kradzież. Wartość podstawowa opiera się na ilości nauki generowanej w mieście. Potencjał może zostać zmniejszony przez budowle obronne, na przykład przez policję okręgową i posterunek policji. Potencjał może się zwiększyć, gdy z miasta technologie wykrada szpieg wyższego poziomu.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_POTENTIAL_TT">
+      <Text>{1_SpyRank} {2_SpyName} kradnie {@4_CityName[3]} {3_Num} pkt. potencjału.[NEWLINE]Bazowy potencjał {@5_CityName[2]} wynosi {6_Num}.[NEWLINE][NEWLINE]Potencjał wskazuje, jak szybko można wykradać z miasta technologie. Im wyższa jego wartość, tym szybciej się to odbywa. Wartość bazowa obliczana jest na podstawie generowanej przez miasto nauki. Mogą go obniżyć budynki obronne miasta, takie jak policja okręgowa i posterunek policji. Potencjał może wzrosnąć, gdy do wykradania technologii użyjesz szpiega o wysokim poziomie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_SORT_TT">
+      <Text>Nazwa miasta.[NEWLINE][NEWLINE]Kliknij, by posortować miasta wg nazwy.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_STATE_ELECTION">
+      <Text>Wszystkie państwa-miasta świata przeprowadzają równocześnie wybory co {1_Num} {1_Num: plural 1?turę; 2?tury; 3?tur;}. Kolejne wybory odbędą się za {2_Num} {2_Num: plural 1?turę; 2?tury; 3?tur;}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_STATE_POTENTIAL_TT">
+      <Text>Państwom-miastom nie można wykradać technologii, nie mają więc żadnego potencjału.[NEWLINE][NEWLINE]Szpieg wysłany do państwa-miasta zwiększy twoje wpływy poprzez fałszowanie w nim wyborów. Jeśli w mieście jest więcej niż jeden szpieg, największą szansę na udane fałszerstwo ma szpieg o najwyższym poziomie i ten, który najdłużej jest w państwie-mieście. Szpiedzy w państwach-miastach mogą również spróbować dokonać przewrotu, jeśli z miastem tym sprzymierzona jest inna cywilizacja.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_NO_CITY_TT">
+      <Text>Musisz mieć szpiega w mieście, by móc zobaczyć jego ekran.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_TT">
+      <Text>Nie możesz zobaczyć ekranu {@1_CityName[2]}.[NEWLINE][NEWLINE]Jeśli chcesz zobaczyć ekran miasta, wyślij do niego szpiega i poczekaj, aż ustanowi obserwację.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_WAIT_TT">
+      <Text>Nie możesz zobaczyć ekranu {@1_CityName[2]}.[NEWLINE][NEWLINE]W mieście jest twój szpieg, musisz jednak poczekać, aż ustanowi obserwację.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_YOUR_CITY_TT">
+      <Text>Nie musisz patrzeć na ekran {@1_CityName[2]} oczyma szpiega.[NEWLINE][NEWLINE]To miasto należy do ciebie, nie potrzebujesz szpiega, żeby dowiedzieć się, co tam się znajduje.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_ENABLED_TT">
+      <Text>Kliknij, by zobaczyć ekran {1_CityName[2]}.[NEWLINE][NEWLINE]Możesz zobaczyć ekran miasta innego gracza, jeśli twój szpieg ustanowił obserwację lub twój dyplomata prowadzi rozmowy w tym mieście.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CITY_VIEW_ENABLED_YOUR_CITY_TT">
+      <Text>Kliknij, by zobaczyć ekran {@1_CityName[2]}.[NEWLINE][NEWLINE]Zawsze możesz oglądać własne miasta.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_CIVILIZATION_SORT_TT">
+      <Text>Która cywilizacja kontroluje miasto.[NEWLINE][NEWLINE]Kliknij, by posortować miasta wg cywilizacji.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY_THEM">
+      <Text>{1_PlayerName} ma wprowadzony ustrój „{2_SocialPolicyName}”, który zwiększa szanse schwytania obcego szpiega o {3_Num}%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INCREASED_CHANCE_TO_CATCH_SPY_YOU">
+      <Text>Wprowadziliśmy ustrój „{1_SocialPolicyName}”, który zwiększa szanse schwytania obcego szpiega o {2_Num}%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INTRIGUE">
+      <Text>Spiski</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_INTRIGUE_TT">
+      <Text>Ekran spisków pokazuje, co przekazali nam szpiedzy i inne cywilizacje o knowaniach innych państw.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_MOVE_SPY_TO_HIDEOUT_CHECK">
+      <Text>Czy {@1_SpyRank[7]} {2_SpyName} na pewno ma przenieść się do kryjówki?[NEWLINE][NEWLINE]Wszelkie działania tego szpiega zostaną anulowane, gdy uda się on do kryjówki. Szpiedzy nie mogą ci pomagać, gdy przebywają w kryjówce, ale też nie można ich tam zabić.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_NO_INTRIGUE_AVAILABLE">
+      <Text>Brak dostępnych spisków</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_OVERVIEW">
+      <Text>Ogólny</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_OVERVIEW_TT">
+      <Text>Ekran ogólny pozwala ci zobaczyć listę swoich szpiegów i przydzielać ich do miast na całym świecie, by prowadzili obserwacje, kradli technologie, odkrywali spiski lub fałszowali wybory w państwach-miastach.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_OWN_CITY_POTENTIAL_TT">
+      <Text>Potencjał {@1_CityName[2]} wynosi {2_Num}.[NEWLINE][NEWLINE]Zawsze znasz potencjał swoich miast. Jeśli jesteś w czołówce badań, musisz chronić swoje miasta o wysokim potencjale. Są na to dwa sposoby - możesz wysłać tam własnych szpiegów, by działali jako kontrwywiadowcy, którzy wyłapują i eliminują wrogich szpiegów, nim zdążą oni cokolwiek ukraść. Możesz też spowolnić tempo kradzieży technologii, konstruując budynki takie jak policja okręgowa, posterunek policji czy Wielka Zapora.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POPULATION_SORT_TT">
+      <Text>Populacja miasta. Im jest większa, tym bardziej prawdopodobne, że miasto jest ważnym ośrodkiem badawczym. Im więcej nauki generuje miasto, tym większy może być jego potencjał.[NEWLINE][NEWLINE]Kliknij, by posortować miasta według populacji.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_BUILDING_MOD_ENTRY">
+      <Text>{1_BuildingName}: {2_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_BUILDING_MOD_TITLE">
+      <Text>Zmiana od budynków i cudów:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_POLICY_MOD_ENTRY">
+      <Text>{1_SocialPolicyName}: {2_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_POLICY_MOD_TITLE">
+      <Text>Zmiana od ustrojów społecznych:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_SORT_TT">
+      <Text>Potencjał wskazuje, jak szybko można wykradać z miasta technologie. Im wyższa jego wartość, tym szybciej się to odbywa. Wartość bazowa obliczana jest na podstawie generowanej przez miasto nauki. Mogą go obniżyć budynki obronne miasta, takie jak policja okręgowa i posterunek policji. Potencjał może wzrosnąć, gdy do wykradania technologii użyjesz szpiega o wysokim poziomie.[NEWLINE][NEWLINE]Kliknij, by posortować miasta według potencjału.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_WONDER_MOD_ENTRY">
+      <Text>{1_WonderName}: {2_Num}%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_POTENTIAL_WONDER_MOD_TITLE">
+      <Text>Zmiana od cudów w innych miastach:</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_BUTTON_DISABLED_SPY_DEAD_TT">
+      <Text>{1_SpyRank} {@2_SpyName} nie żyje. Dajmy {@2_SpyName: gender masculine?mu; feminine?jej;} spokój.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_POLICY_TT">
+      <Text>{1_Num}% większa szansa zabicia wrogiego szpiega dzięki ustrojowi państwa policyjnego.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_SPY_RANK_TT">
+      <Text>{1_Num}% większa szansa zabicia wrogiego szpiega dzięki poziomowi {@2_RankName[8]}, który {@3_SpyName: gender masculine?osiągnął; feminine?osiągnęła;} {@3_SpyName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_SUM_TT">
+      <Text>{1_Num}% szans na zabicie wrogiego szpiega.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUNTER_INTEL_TT">
+      <Text>{1_RankName} {2_SpyName} wykonuje działania kontrwywiadowcze w mieście {3_CityName}.[NEWLINE][NEWLINE]Jeśli wrogi szpieg spróbuje wykraść technologię z miasta, w którym znajduje się twój agent, dopilnuje on, by kradzież została wykryta. Ma również szansę ustalenia, która cywilizacja wykradła informację. Może również zabić złodzieja na miejscu. Im wyższy poziom twojego szpiega, tym większe jest prawdopodobieństwo, że zabije wrogiego szpiega podczas wykradania twoich technologii.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_NO_ALLY_TT">
+      <Text>{1_SpyRank} {@2_SpyName} nie może dokonać próby przewrotu w państwie-mieście {@3_CityName[6]}, gdyż nie {@2_SpyName: gender masculine?ustanowił; feminine?ustanowiła;} tam jeszcze obserwacji.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_WAIT_TT">
+      <Text>{1_SpyRank} {2_SpyName} nie może dokonać próby przewrotu w państwie-mieście {@3_CityName[6]}, gdyż nikt nie jest z nim sprzymierzony.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUP_DISABLED_YOU_ALLY_TT">
+      <Text>{1_SpyRank} {2_SpyName} nie może dokonać próby przewrotu w państwie-mieście {@3_CityName[6]}, gdyż jesteście obecnie sojusznikami!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_COUP_ENABLED_TT">
+      <Text>Kliknij, by {@1_SpyRank[7]} {@2_SpyName} {@2_SpyName: gender masculine?dokonał; feminine?dokonała;} próby przewrotu w państwie-mieście {@3_CityName[6]} i obalenia sympatyków, których ma cywilizacja {@4_CivAdjective[6]}.[NEWLINE][NEWLINE]Ma {5_Num}% szans na powodzenie. Jeśli {@6_SpyRank[7]} {7_SpyName} odniesie sukces, ty i państwo-miasto staniecie się sojusznikami {@8_CityName[2]}, a wpływy {@9_CivShortDesc[2]} spadną do poziomu, który obecnie posiadasz. Następnie zmaleją wpływy wszystkich graczy. Jeśli {@10_SpyRank[7]} {11_SpyName} poniesie porażkę lub zginie, twoje wpływy w państwie-mieście {@12_CityName[6]} znacząco się zmniejszą.[NEWLINE][NEWLINE]Aby zwiększyć swoją szansę na powodzenie, możesz zwiększyć swoje wpływy w państwie-mieście, użyć szpiega wyższego poziomu lub poczekać na spadek wpływów obecnego sojusznika.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_GATHERING_INTEL_TT">
+      <Text>{1_RankName} {2_SpyName} zbiera w mieście {@3_CityName[6]} materiały wywiadowcze w celu kradzieży technologii.[NEWLINE][NEWLINE]Szpieg może ukraść technologię jedynie wtedy, gdy cywilizacja będąca jego celem odkryła taką, której jego państwo nie posiada.[NEWLINE][NEWLINE]Jeśli właściciel miasta ma w mieście własnego szpiega, istnieje szansa, że wykryje on twojego agenta i zabije go podczas próby kradzieży technologii!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_LOCATION_TT">
+      <Text>{1_SpyRank} {2_SpyName} jest obecnie w mieście {@3_CityName[6]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_MOVE_TT">
+      <Text>Kliknij, by wybrać nowe miejsce, do którego ma udać się {@1_SpyRank[7]} {2_SpyName}.[NEWLINE][NEWLINE]Gdy szpieg zostanie skierowany do nowego miasta, osiągnięcie pełnej efektywności zajmuje mu kilka tur.[NEWLINE][NEWLINE]Jeśli szpieg zostanie przeniesiony do miasta własnego państwa, rozpocznie działania kontrwywiadowcze, by odnajdywać i zabijać wrogich szpiegów.[NEWLINE][NEWLINE]Jeśli szpieg wchodzi do obcej stolicy, może stać się [ICON_DIPLOMAT] dyplomatą, a ty podczas Kongresu Światowego otrzymasz możliwość handlu głosami  z cywilizacją, u której gości.[NEWLINE][NEWLINE]Jeśli szpieg skończy ruch w obcym mieście i nie zechcesz, by został [ICON_DIPLOMAT] dyplomatą, rozpocznie on próbę wykradnięcia technologii. Jeśli właściciel miasta ma w nim własnego szpiega, twój agent może zostać odkryty i zamordowany. Może to doprowadzić do kryzysu dyplomatycznego![NEWLINE][NEWLINE]Jeśli szpieg zostanie przeniesiony do państwa-miasta, spróbuje on sfałszować wybory, by zwiększyć w nim twoje wpływy.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_NAMEPLATE_TT">
+      <Text>To twój szpieg, {@1_SpyRank[7]} {2_SpyName}.[NEWLINE][NEWLINE]Szpiedzy muszą zostać wysłani do miast, by mogli działać.[NEWLINE][NEWLINE]Jeśli szpieg jest w jednym z twoich miast, łapie i zabija wrogich szpiegów usiłujących wykraść technologie.[NEWLINE][NEWLINE]Jeśli twój szpieg jest w mieście innej cywilizacji, będzie próbował wykraść jej technologie. Będzie również meldować o wszelkich spiskach, o których się dowie, takich jak niezapowiedziane ataki na ciebie lub inne kraje.[NEWLINE][NEWLINE]Jeśli twój szpieg jest w państwie-mieście, będzie próbował sfałszować wybory, zwiększając tym samym twoje w nim wpływy.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_NEEDS_ASSIGNMENT_TT">
+      <Text>Przenieś szpiega do miasta, by mógł zacząć czynić swe niecne sprawki.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_RANK_TT">
+      <Text>{1_SpyName} osiąga poziom [COLOR_GREEN]{@2_RankName[8]}[ENDCOLOR].[NEWLINE][NEWLINE]Istnieją trzy poziomy szpiegów: rekrut, agent i agent specjalny. Każdy kolejny poziom sprawia, że szpieg staje się bardziej efektywny. Szpieg na wysokim poziome szybciej wykrada technologie, częściej wykrywa i zabija wrogich szpiegów, którzy próbują wykradać je tobie, efektywniej fałszuje wybory w państwach-miastach i ma większe szanse na dokonanie w nim przewrotu, jeśli jest sprzymierzone z wrogą cywilizacją.[NEWLINE][NEWLINE]Szpiedzy awansują, gdy uda im się ukraść technologię innemu państwu lub gdy zabiją wrogiego szpiega próbującego wykraść ją tobie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_RIGGING_ELECTIONS_TT">
+      <Text>{1_RankName} {2_SpyName} próbuje sfałszować wybory w mieście {@3_CityName[6]}, by zwiększyć tam nasze wpływy.[NEWLINE][NEWLINE]Tylko jedna cywilizacja może sfałszować dane wybory. Jeśli w państwie-mieście jest więcej niż jeden szpieg, największą szansę na dokonanie tego ma ten na najwyższym poziomie, który najdłużej się w nim znajduje.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_SURVEILLANCE_TT">
+      <Text>{1_RankName} {2_SpyName} ustanawia obserwację w mieście {3_CityName}.[NEWLINE][NEWLINE]Po ustanowieniu obserwacji szpieg może rozpocząć wykonywanie w mieście bardziej zaawansowanych operacji. Obserwacja pozwala ci również oglądać ekrany miast innych cywilizacji (lecz nie państw-miast).[NEWLINE][NEWLINE]Obserwacja pozwala też szpiegowi na odkrywanie spisków, takich jak plany niespodziewanych ataków na inne cywilizacje. To często ważne informacje!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_TRAVELLING_TT">
+      <Text>{1_RankName} {2_SpyName} przenosi się obecnie do miasta {@3_CityName[2]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_SPY_UNASSIGNED_TT">
+      <Text>{1_RankName} {@2_SpyName} siedzi obecnie w kryjówce i do niczego się nie przydaje.[NEWLINE][NEWLINE]Przenieś {@2_SpyName: gender masculine?go; feminine?ją;} do miasta, żeby {@2_SpyName: gender masculine?zaczął; feminine?zaczęła;} coś knuć!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_UNASSIGNED_SPIES_TT">
+      <Text>Masz {1_Num} {1_Num: plural 1?szpiega, któremu; other?szpiegów, którym;} nie zostały przydzielone żadne zadania.[NEWLINE][NEWLINE]Szpiedzy potrafią wykradać technologie innym cywilizacjom, odkrywać spiski przez nie knute oraz zwiększać twoje wpływy w państwach-miastach poprzez fałszowanie wyborów. Przydziel im zadania na ekranie przeglądu wywiadu, by zaczęli pracę!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_UNKNOWN_POTENTIAL">
+      <Text>?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EO_UNKNOWN_POTENTIAL_TT">
+      <Text>Potencjał tego miasta nie jest znany. Aby go poznać, wyślij do niego szpiega, by ustanowił obserwację.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ESPIONAGE_NOT_STARTED_YET">
+      <Text>Wywiad powstaje, gdy ktoś wkroczy w epokę renesansu.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_BUILDING_AMPHIBIOUS_ARMY">
+      <Text>{1_PlayerName} buduje armię i eskortę wodną, by zaatakować inną cywilizację.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_BUILDING_ARMY">
+      <Text>{1_PlayerName} buduje armię, by zaatakować inną cywilizację.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_CONSTRUCT_WONDER">
+      <Text>{1_PlayerName} buduje {2_WonderOrProject[4]} w {3_CityName[6]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_CONSTRUCT_WONDER_WO_CITY">
+      <Text>{1_PlayerName} buduje {2_WonderOrProject[4]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_PLOTTING_AGAINST_KNOWN">
+      <Text>{1_PlayerName} potajemnie spiskuje przeciwko {2_PlayerName[3]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_PLOTTING_AGAINST_UNKNOWN">
+      <Text>{1_PlayerName} potajemnie spiskuje przeciwko cywilizacji, której jeszcze nie znasz.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_PLOTTING_AGAINST_YOU">
+      <Text>{1_PlayerName} potajemnie spiskuje przeciwko tobie.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_KNOWN">
+      <Text>Armia, którą dowodzi {1_PlayerName}, wyruszyła drogą morską, by zaatakować {@2_CivAdj[8]} miasto {3_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_UNKNOWN">
+      <Text>Armia, którą dowodzi {1_PlayerName}, wyruszyła drogą morską, by zaatakować gracza {2_PlayerName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_SOMEONE">
+      <Text>{1_PlayerName} rozpoczyna niespodziewany desant morski na innego gracza.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_UNKNOWN">
+      <Text>Armia, którą dowodzi {1_PlayerName}, wyruszyła drogą morską, by zaatakować gracza, z którym nie mamy jeszcze kontaktu.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_KNOWN">
+      <Text>Armia, którą dowodzi {1_PlayerName}, wyruszyła drogą morską, by zaatakować należące do nas miasto, {@2_CityName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_UNKNOWN">
+      <Text>Armia, którą dowodzi {1_PlayerName}, wyruszyła drogą morską, by nas zaatakować.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_KNOWN">
+      <Text>Armia, którą dowodzi {1_PlayerName}, wyruszyła, by zaatakować {@2_CivAdj[8]} miasto {3_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_UNKNOWN">
+      <Text>{@1_PlayerName} niespodziewanie {@1_PlayerName: plural 1?{@1_PlayerName: gender masculine?zaatakował; feminine?zaatakowała; other?zaatakowało;}; 2?{@1_PlayerName: gender masculine?zaatakowali; other?zaatakowały;};} {@2_CityName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_SOMEONE">
+      <Text>{1_PlayerName} niespodziewanie atakuje inną cywilizację</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_UNKNOWN">
+      <Text>{@1_PlayerName} niespodziewanie {@1_PlayerName: plural 1?{@1_PlayerName: gender masculine?zaatakował; feminine?zaatakowała; other?zaatakowało;}; 2?{@1_PlayerName: gender masculine?zaatakowali; other?zaatakowały;};} nieznaną cywilizację.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_KNOWN">
+      <Text>Armia, którą dowodzi {1_PlayerName}, wyruszyła, by zaatakować należące do nas miasto, {@2_CityName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_UNKNOWN">
+      <Text>Armia, którą dowodzi {1_PlayerName}, wyruszyła, by nas znienacka zaatakować.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_CANCEL">
+      <Text>Anuluj</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_CANCEL_TT">
+      <Text>Kliknięcie tego przycisku przerwie ruch szpiega, nakazując mu pozostać tam, gdzie jest.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_HIDEOUT_BUTTON">
+      <Text>Ukryj się</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVE_SPY_HIDEOUT_BUTTON_TT">
+      <Text>Kliknięcie tego przycisku sprawi, że szpieg przyczai się w swojej kryjówce, zbijając bąki, póki nie wyznaczysz mu nowego zadania.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NO_MORE_SPIES">
+      <Text>Wszyscy twoi szpiedzy zostali zabici[NEWLINE]Trwa rekrutacja nowych.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_AMPHIBIOUS_ARMY">
+      <Text>{1_SpyRank} {@2_SpyName} {@2_SpyName: gender masculine?odkrył; feminine?odkryła;}, że {@3_PlayerName} {@3_PlayerName: plural 1?tworzy; 2?tworzą;} armię i okręty eskortowe, szykując się do ataku na inną cywilizację.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_AMPHIBIOUS_ARMY_S">
+      <Text>{1_PlayerName} szykuje marynarkę do zdradzieckiego ataku!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_ARMY">
+      <Text>{1_SpyRank} {@2_SpyName} {@2_SpyName: gender masculine?odkrył; feminine?odkryła;}, że {@3_PlayerName} {@3_PlayerName: plural 1?tworzy; 2?tworzą;} armię, szykując się do ataku na inną cywilizację.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_BUILDING_ARMY_S">
+      <Text>{1_PlayerName} szykuje się do zdradzieckiego ataku!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_CONSTRUCT_WONDER">
+      <Text>{1_SpyRank} {2_SpyName} odkrywa, że {3_PlayerName} buduje {4_WonderOrProject[4]} w {5_CityName[6]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_CONSTRUCT_WONDER_S">
+      <Text>{1_PlayerName} buduje {2_WonderOrProject[4]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_KNOWN">
+      <Text>{1_SpyRank} {2_SpyName} odkrył w {@3_CityName[6]}, że {4_PlayerName} potajemnie spiskuje przeciwko {5_PlayerName[3]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_KNOWN_S">
+      <Text>{1_PlayerName} spiskuje przeciw {2_PlayerName[3]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_UNKNOWN">
+      <Text>{1_SpyRank} {2_SpyName} w {@3_CityName[6]} odkrył, że {4_PlayerName} potajemnie spiskuje przeciwko nieznanej cywilizacji.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_UNKNOWN_S">
+      <Text>{1_PlayerName} {1_PlayerName: plural 1?spiskuje; 2?spiskują;} przeciwko komuś</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_YOU">
+      <Text>{1_SpyRank} {2_SpyName} {@2_SpyName: gender masculine?odkrył; feminine?odkryła;} w {@3_CityName[6]}, że {4_PlayerName} spiskuje przeciwko tobie!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_PLOTTING_AGAINST_YOU_S">
+      <Text>{1_PlayerName} spiskuje przeciwko tobie!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_KNOWN">
+      <Text>{1_SpyRank} {2_SpyName} {@2_SpyName: gender masculine?odkrył; feminine?odkryła;}, że {3_CivAdj[5]} korpus ekspedycyjny i jego morska eskorta wyruszyły. Celem ataku będzie {4_CityName[8]} miasto {5_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_KNOWN_S">
+      <Text>{1_PlayerName} szykuje armię. Celem będzie {2_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_UNKNOWN">
+      <Text>{1_SpyRank} {2_SpyName} {@2_SpyName: gender masculine?odkrył; feminine?odkryła;}, że {3_CivAdj[5]} korpus ekspedycyjny i jego morska eskorta wyruszyły na wojnę. Celem ataku {@4_CivDesc: plural 1?będzie; 2?będą;} {@4_CivDesc}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_KNOWN_CITY_UNKNOWN_S">
+      <Text>{1_PlayerName} wysyła swoje siły na wojnę. Celem ataku będzie {2_PlayerName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_SOMEONE">
+      <Text>{1_SpyRank} {2_SpyName} {@2_SpyName: gender masculine?odkrył; feminine?odkryła;}, że {3_CivAdj[6]} armia w eskorcie okrętów wojennych wypłynęła, by dokonać niespodziewanego ataku. Nie wiemy, jakie miasto jest ich celem.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_SOMEONE_S">
+      <Text>{1_PlayerName} wysyła wojska do niespodziewanego ataku na inną cywilizację.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_UNKNOWN">
+      <Text>{1_SpyRank} {2_SpyName} {@2_SpyName: gender masculine?odkrył; feminine?odkryła;}, że {3_CivAdj[5]} korpus ekspedycyjny i jego morska eskorta płyną ku ziemiom nieznanej ci cywilizacji.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_UNKNOWN_S">
+      <Text>{1_PlayerName} wysyła swoje siły na wojnę. Celem ataku będzie nieznana ci cywilizacja.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_KNOWN">
+      <Text>{1_SpyRank} {2_SpyName} {@2_SpyName: gender masculine?odkrył; feminine?odkryła;}, że {3_CivAdj[5]} korpus ekspedycyjny i jego morska eskorta wyruszyły w stronę twoich ziem. Celem ataku {@4_CityName: plural 1?będzie; 2?będą;} {4_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_KNOWN_S">
+      <Text>{1_PlayerName} szykuje armię. Celem będzie {2_CityName}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_UNKNOWN">
+      <Text>{1_SpyRank} {@2_SpyName} {@2_SpyName: gender masculine?odkrył; feminine?odkryła;}, że {3_CivAdj[5]} korpus ekspedycyjny zmierza w stronę twoich ziem. Nieprzyjaciel chce cię zaatakować!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_AMPHIB_AGAINST_YOU_CITY_UNKNOWN_S">
+      <Text>{1_PlayerName} wysyła swoje siły na wojnę z twym krajem!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_KNOWN">
+      <Text>{1_SpyRank} {@2_SpyName} {@2_SpyName: gender masculine?odkrył; feminine?odkryła;}, że {3_CivAdj[5]} korpus ekspedycyjny maszeruje prosto na {4_CivAdj[8]} miasto {5_CityName}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_KNOWN_S">
+      <Text>{@1_PlayerName} niespodziewanie {@1_PlayerName: plural 1?{@1_PlayerName: gender masculine?zaatakował; feminine?zaatakowała; other?zaatakowało;}; 2?{@1_PlayerName: gender masculine?zaatakowali; other?zaatakowały;};} {@2_CityName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_UNKNOWN">
+      <Text>{1_SpyRank} {@2_SpyName} {@2_SpyName: gender masculine?odkrył; feminine?odkryła;}, że {3_CivAdj[5]} korpus ekspedycyjny maszeruje na wojnę. Jego celem będzie {4_CivDesc}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_KNOWN_CITY_UNKNOWN_S">
+      <Text>{@1_PlayerName} niespodziewanie {@1_PlayerName: plural 1?{@1_PlayerName: gender masculine?zaatakował; feminine?zaatakowała; other?zaatakowało;}; 2?{@1_PlayerName: gender masculine?zaatakowali; other?zaatakowały;};} {@2_CityName[4]}.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_SOMEONE">
+      <Text>{1_SpyRank} {2_SpyName} odkrywa, że {@3_CivAdj[6]} armia właśnie maszeruje, by dokonać niespodziewanego ataku na inną cywilizację. Nie wiemy, jakie miasto jest ich celem.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_SOMEONE_S">
+      <Text>{1_PlayerName} niespodziewanie atakuje inną cywilizację</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_UNKNOWN">
+      <Text>{1_SpyRank} {@2_SpyName} {@2_SpyName: gender masculine?odkrył; feminine?odkryła;}, że {3_CivAdj[5]} korpus ekspedycyjny maszeruje na wojnę z cywilizacją, której nie znasz.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_UNKNOWN_S">
+      <Text>{@1_PlayerName} niespodziewanie {@1_PlayerName: plural 1?{@1_PlayerName: gender masculine?zaatakował; feminine?zaatakowała; other?zaatakowało;}; 2?{@1_PlayerName: gender masculine?zaatakowali; other?zaatakowały;};} nieznaną cywilizację.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_KNOWN">
+      <Text>{1_SpyRank} {@2_SpyName} {@2_SpyName: gender masculine?odkrył; feminine?odkryła;}, że {3_CivAdj[5]} korpus ekspedycyjny maszeruje prosto na twoje miasto, {@4_CityName[4]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_KNOWN_S">
+      <Text>{1_PlayerName} atakuje {2_CityName[4]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_UNKNOWN">
+      <Text>{1_SpyRank} {@2_SpyName} {@2_SpyName: gender masculine?odkrył; feminine?odkryła;}, że {3_CivAdj[5]} korpus ekspedycyjny maszeruje w stronę twych ziem. Szykuj się do wojny!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_INTRIGUE_SNEAK_ATTACK_ARMY_AGAINST_YOU_CITY_UNKNOWN_S">
+      <Text>{@1_PlayerName} niespodziewanie {@1_PlayerName: plural 1?{@1_PlayerName: gender masculine?zaatakował; feminine?zaatakowała; other?zaatakowało;}; 2?{@1_PlayerName: gender masculine?zaatakowali; other?zaatakowały;};} twoje ziemie!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY">
+      <Text>Twój szpieg, {@1_SpyRank[7]} {@2_SpyName}, {@2_SpyName: gender masculine?złapał; feminine?złapała;} wrogiego agenta w trakcie próby kradzieży technologii w {@4_CityName[6]}. {3_CivAdj} szpieg został wyeliminowany!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_KILLED_A_SPY_S">
+      <Text>{1_CivAdj} szpieg został zabity!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_TECH">
+      <Text>{1_SpyRank} {2_SpyName} nie może wykraść technologii od {@3_CivShortName[2]}, ponieważ prześcignęliśmy ich w badaniach!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_CANT_STEAL_TECH_S">
+      <Text>Nie da się okraść {@1_CivShortName[2]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_CREATED">
+      <Text>{1_SpyName} to nowo zwerbowany szpieg.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_CONQUEST">
+      <Text>Twój szpieg, {@1_SpyRank[7]} {2_SpyName}, {@2_SpyName: gender masculine?uciekł; feminine?uciekła;} z {@3_CityName[2]}, gdy miasto to zostało przejęte przez {@4_CivShortName[4]}. Szpieg może być teraz przydzielony gdzie indziej.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_CONQUEST_S">
+      <Text>Szpieg uciekł z niewoli w mieście</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_CONQUEST_YOU">
+      <Text>Twój szpieg, {@1_SpyRank[7]} {@2_SpyName}, {@2_SpyName: gender masculine?uciekł; feminine?uciekła;} z {@3_CityName[2]}, gdy miasto to zostało przez ciebie podbite. Szpieg może być teraz przydzielony gdzie indziej.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_TRADE">
+      <Text>Twój szpieg, {@1_SpyRank[7]} {@2_SpyName}, {@2_SpyName: gender masculine?powrócił; feminine?powróciła;} z {@3_CityName[2]}, ponieważ miasto to zostało sprzedane {@4_CivShortName[3]}. Szpieg może teraz zostać przydzielony gdzieś indziej.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_TRADE_S">
+      <Text>Szpieg opuścił miasto.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_EVICTED_TRADE_YOU">
+      <Text>Twój szpieg, {@1_SpyRank[7]} {@2_SpyName}, {@2_SpyName: gender masculine?powrócił; feminine?powróciła;} z {@3_CityName[2]}, ponieważ miasto to zostało ci sprzedane. Szpieg może teraz zostać przydzielony gdzieś indziej.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_PROMOTED">
+      <Text>{1_SpyName} zostaje {@1_SpyName: gender masculine?awansowany; feminine?awansowana;} z {@2_RankName[8]} na {@3_RankName[10]}.[NEWLINE]Awansowani szpiedzy są szybsi w wykradaniu technologii w trybie ofensywnym i lepsi w wykrywaniu wrogich szpiegów w trybie defensywnym.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_REVIVED">
+      <Text>{1_SpyRank} {2_SpyName} zastępuje szpiega zabitego w akcji.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_REVIVED_S">
+      <Text>Szpieg-zastępca został zwerbowany</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_ALERT">
+      <Text>Twoje stosunki z {@1_CityName[5]} uległy nieoczekiwanemu oziębieniu po ostatnich wyborach członków rady miejskiej. Prawdopodobnie stoją za tym szpiedzy nieprzyjaciela.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_ALERT_S">
+      <Text>Cyrk wyborczy w {1_CityName[6]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_FAILURE">
+      <Text>{1_SpyRank} {@2_SpyName} nie {@2_SpyName: gender masculine?zdołał; feminine?zdołała;} sfałszować wyników wyborów w {@3_CityName[6]}. Udało się to jednak {@4_CivShortDesc[3]}, {@4_CivShortDesc: plural 1?{@4_CivShortDesc: gender masculine?który zdobył; feminine?która zdobyła; other?które zdobyło;}; 2?{@4_CivShortDesc: gender masculine?którzy zdobyli; other?które zdobyły;};} tam w ten sposób wpływy.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_FAILURE_S">
+      <Text>Skandal wyborczy w {1_CityName[6]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_SUCCESS">
+      <Text>{1_SpyRank} {@2_SpyName} {@2_SpyName: gender masculine?zdołał; feminine?zdołała;} sfałszować wyniki wyborów w {@3_CityName[6]}. Nowa rada miejska będzie ci sprzyjać.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_RIG_ELECTION_SUCCESS_S">
+      <Text>Przekręt wyborczy w {1_CityName[6]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_FAILURE">
+      <Text>{@1_CivShortDesc} {@1_CivShortDesc: plural 1?{@1_CivShortDesc: gender masculine?próbował; feminine?próbowała; other?próbowało;}; 2?{@1_CivShortDesc: gender masculine?próbowali; other?próbowały;};} zorganizować przewrót w {@2_CityName[6]}, lecz {@3_CivAdj[7]} zwolennicy tego państwa-miasta okazali się zbyt silni.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_FAILURE_S">
+      <Text>Klęska {1_CivAdj[5]}ego przewrotu w {@2_CityName[6]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_SUCCESS">
+      <Text>{@1_CivShortDesc} {@1_CivShortDesc: plural 1?{@1_CivShortDesc: gender masculine?zorganizował; feminine?zorganizowała; other?zorganizowało;}; 2?{@1_CivShortDesc: gender masculine?zorganizowali; other?zorganizowały;};} przewrót w {@2_CityName[6]}, obalając stary reżim i zapewniając sobie lojalność nowych władz.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STAGE_COUP_SUCCESS_S">
+      <Text>{1_CivAdj} przewrót w {@2_CityName[6]}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_BLOCKING">
+      <Text>WYKRADNIJ TECHNOLOGIĘ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_BLOCKING_TT">
+      <Text>Twój szpieg zebrał wystarczająco dużo informacji, aby wykraść technologię od wroga. Wybierz, którą technologię ma wykraść.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_TECH">
+      <Text>{1_SpyRank} {@2_SpyName} {@2_SpyName: gender masculine?zebrał; feminine?zebrała;} w {3_CityName[5]} wystarczająco dużo informacji, aby wykraść {4_CivShortName[3]} technologię!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_STEAL_TECH_S">
+      <Text>Wykradnij technologię.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED">
+      <Text>Twój szpieg, {@1_SpyRank[7]} {@2_SpyName} {@2_SpyName: gender masculine?został zabity; feminine?została zabita;} przez {3_CivAdj[5]}ego kontrszpiega w trakcie próby wykradzenia technologii w {@4_CityName[6]}! </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_WAS_KILLED_S">
+      <Text>{1_SpyName} nie żyje!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_FAILURE">
+      <Text>{1_SpyRank} {@2_SpyName} {@2_SpyName: gender masculine?próbował; feminine?próbowała;} zorganizować przewrót w {@3_CityName[6]}, ale siły rebeliantów nie zdołały pokonać zwolenników rządu {4_CivShortDesc}ego. {1_SpyRank} {2_SpyName} {@2_SpyName: gender masculine?zginął; feminine?zginęła;} w trakcie powstania.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_FAILURE_S">
+      <Text>{1_CityName}: nieudany przewrót!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_SUCCESS">
+      <Text>{1_SpyRank} {@2_SpyName} {@2_SpyName: gender masculine?zorganizował; feminine?zorganizowała;} przewrót w {@3_CityName[6]}, obalając {4_CivShortDesc}ch zwolenników rządów twojego rywala.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SPY_YOU_STAGE_COUP_SUCCESS_S">
+      <Text>{1_CityName}: przewrót wojskowy!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SPY_CREATED">
+      <Text>Zrekrutowano szpiega!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_SPY_PROMOTED">
+      <Text>{1_SpyName} otrzymuje awans!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED">
+      <Text>Niezidentyfikowany szpieg wykradł tajemnice {@1_Tech[2]} z {@2_CityName[2]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_S">
+      <Text>Wykradziono {@1_Tech[4]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_W_TIP">
+      <Text>Niezidentyfikowany szpieg wykradł tajemnice {@1_Tech[2]} z {@2_CityName[2]}![NEWLINE]Możesz umieścić w tym mieście jednego ze swoich szpiegów, aby chronić je w przyszłości.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_WO_TECH">
+      <Text>Niezidentyfikowany szpieg wykradł tajemnice z {@1_CityName[2]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_WO_TECH_S">
+      <Text>Technologia wykradziona!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_DETECTED_WO_TECH_W_TIP">
+      <Text>Niezidentyfikowany szpieg wykradł tajemnice technologiczne z {@1_CityName[2]}![NEWLINE]Możesz umieścić w tym mieście jednego ze swoich szpiegów, aby chronić je w przyszłości.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED">
+      <Text>{@1_CivAdj} szpieg wykradł tajemnice {@2_Tech[2]} z {@3_CityName[2]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_S">
+      <Text>{@1_CivShortDesc[3]} udało się ukraść {@2_CityName[4]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_W_TIP">
+      <Text>{@1_CivAdj} szpieg wykradł tajemnice {@2_Tech[2]} z {@3_CityName[2]}![NEWLINE]Możesz umieścić w tym mieście jednego ze swoich szpiegów, aby chronić je w przyszłości.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_WO_TECH">
+      <Text>{@1_CivAdj} szpieg wykradł tajemnice technologiczne z {@2_CityName[2]}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_WO_TECH_S">
+      <Text>{@1_CivShortDesc[3]} udało się wykraść technologię!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TECH_STOLEN_SPY_IDENTIFIED_WO_TECH_W_TIP">
+      <Text>{@1_CivAdj} szpieg wykradł tajemnice technologiczne z {@2_CityName[2]}![NEWLINE]Możesz umieścić w tym mieście jednego ze swoich szpiegów, aby chronić je w przyszłości.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_FULL_NAME">
+      <Text>{1_RankName} {2_AgentName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_LOCATION_UNASSIGNED">
+      <Text>Wymaga misji</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_OCCUPYING_CITY">
+      <Text>{1_AgentName} zajmuje to miasto.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_RANK_0">
+      <Text>Rekrut|Rekruta|Rekrutowi|Rekruta|Rekrutem|Rekrucie|rekrut|rekruta|rekrutowi|rekruta|rekrutem|rekrucie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_RANK_1">
+      <Text>Agent|Agenta|Agentowi|Agenta|Agentem|Agencie|agent|agenta|agentowi|agenta|agentem|agencie</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_RANK_2">
+      <Text>Agent specjalny|Agenta specjalnego|Agentowi specjalnemu|Agenta specjalnego|Agentem specjalnym|Agencie specjalnym|agent specjalny|agenta specjalnego|agentowi specjalnemu|agenta specjalnego|agentem specjalnym|agencie specjalnym</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_COUNTER_INTEL">
+      <Text>Kontrwywiad</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_DEAD">
+      <Text>Śmierć w akcji</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_ESTABLISHED_SURVEILLANCE">
+      <Text>Obserwacja aktywności</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_ESTABLISHED_SURVEILLANCE_PROGRESS_BAR">
+      <Text>Brak tech. do wykradz.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_GATHERING_INTEL">
+      <Text>Zbieranie informacji</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_RIGGING_ELECTION">
+      <Text>Przekręt wyborczy</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_SURVEILLANCE">
+      <Text>Rozpocz. obserwacji</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_TRAVELLING">
+      <Text>Podróż</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPY_STATE_UNASSIGNED">
+      <Text>Brak działania</Text>
+    </Row>
+  </Language_PL_PL>
+</GameData>

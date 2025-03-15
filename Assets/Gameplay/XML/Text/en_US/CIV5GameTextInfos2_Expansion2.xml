@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_MEDIC_GENERAL_HELP">
+			<Text>This unit and all others in adjacent tiles [COLOR_POSITIVE_TEXT]Heal 15 Additional HP[ENDCOLOR] per turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ACTION_AUTOMATE_TRADE">
+			<Text>Trade (Automated)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_YOU_REGAINED_CAPITAL">
+			<Text>You regained your [ICON_CAPITAL] Capital City!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_ADD_REFORMATION_BELIEF">
+			<Text>You have adopted the Reformation social policy and can now add a belief to your religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ADD_REFORMATION_BELIEF">
+			<Text>ADD REFORMATION BELIEF</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_PLUNDERED_TRADER_SUMMARY">
+			<Text>Trade route plundered</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_PLUNDERED_TRADER_KNOWN">
+			<Text>{1_PlayerName} plundered the trade route you established between {2_CityName} and {3_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_PLUNDERED_TRADER_UNKNOWN">
+			<Text>An unmet player plundered the trade route you established between {1_CityName} and {2_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_PLUNDERED_TRADER_BARBARIAN">
+			<Text>Filthy barbarians plundered the trade route you established between {1_CityName} and {2_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_PLUNDERED_TRADEE_SUMMARY">
+			<Text>Friendly trade route plundered</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_PLUNDERED_TRADEE_KNOWN">
+			<Text>{1_PlayerName} plundered the trade route {2_PlayerName} established between {3_CityName} and {4_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_PLUNDERED_TRADEE_UNKNOWN">
+			<Text>An unmet player plundered the trade route {1_PlayerName} established between {2_CityName} and {3_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_TRADE_UNIT_PLUNDERED_TRADEE_BARBARIANS">
+			<Text>Barbarians plundered the trade route {1_PlayerName} established between {2_CityName} and {3_CityName}.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_SOMEONE_INFLUENTIAL">
+			<Text>First Influential Culture</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_SOMEONE_INFLUENTIAL_TT">
+			<Text>{1_CivName} {1_CivName: plural 1?is; other?are;} the first civilization to achieve a culture that is Influential with another player.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_UNMET_INFLUENTIAL_TT">
+			<Text>An unmet civilization is the first civilization to achieve a culture that is Influential with another player.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_NO_LONGER_INFLUENTIAL">
+			<Text>No Longer Influential</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_NO_LONGER_INFLUENTIAL_TT">
+			<Text>Your culture is no longer Influential with one or more civs.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_SOMEONE_INFLUENTIAL_ACTIVE_PLAYER_TT">
+			<Text>You are the first civilization to achieve a culture that is Influential with another player.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_WITHIN_ONE_ACTIVE_PLAYER">
+			<Text>Culture Victory Imminent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_WITHIN_ONE_ACTIVE_PLAYER_TT">
+			<Text>Your culture only needs to become Influential with 1 more civilization to win a Culture Victory!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_WITHIN_ONE">
+			<Text>Culture Victory Threat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_WITHIN_ONE_TT">
+			<Text>{1_CivName} only needs their culture to become Influential with 1 more civilization to win a Culture Victory!</Text>
+		</Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_WITHIN_ONE_UNMET_TT">
+      <Text>An unmet civilization only needs their culture to become Influential with 1 more civilization to win a Culture Victory!</Text>
+    </Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_WITHIN_TWO_ACTIVE_PLAYER">
+			<Text>Culture Victory In Reach</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_WITHIN_TWO_ACTIVE_PLAYER_TT">
+			<Text>Your culture only needs to become Influential with 2 more civilizations to win a Culture Victory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_WITHIN_TWO">
+			<Text>Culture Victory Contender</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_WITHIN_TWO_TT">
+			<Text>{1_CivName} only needs their culture to become Influential with 2 more civilizations to win a Culture Victory.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CULTURE_VICTORY_WITHIN_TWO_UNMET_TT">
+      <Text>An unmet civilization only needs their culture to become Influential with 2 more civilizations to win a Culture Victory.</Text>
+    </Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_VENETIAN_GALLEASS">
+			<Text>A brutally powerful Medieval Era Naval Unit used to wrest control of the seas with its ranged attack. Better at attacking and defending than the normal Galleass it replaces, but more expensive. May only be built by Venice.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SHOSHONE_PATHFINDER">
+			<Text>Excellent at exploring and fearsome in combat, this Shoshone Unique Unit replaces the Scout. It possesses a promotion that allows it to choose the benefit when uncovering an ancient ruin.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SHOSHONE_COMANCHE_RIDERS">
+			<Text>Mounted unit that specializes in quick attacks. May only be built by the Shoshone.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_INDONESIAN_KRIS_SWORDSMAN">
+			<Text>Classical Era Melee unit that has a mystical weapon whose abilities will be discovered the first time it is used in combat. May only be build by Indonesia.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_BAZOOKA">
+			<Text>Atomic era ranged Unit that must be adjacent to an enemy to strike.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_AXMAN">
+			<Text>The Barbarians' replacement of the Chariot Archer.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ARCHAEOLOGIST">
+			<Text>Archaeologists are a special subtype of Worker that are used to excavate Antiquity Sites to either create Landmark improvements or to extract Artifacts to fill in Great Work of Art slots in Museums, Palaces, Hermitages, and selected Wonders. Archaeologists may work in territory owned by any player. They are consumed once they complete an Archaeological Dig at an Antiquity Site. Archaeologists may not be purchased with [ICON_GOLD] Gold and may only be built in a city with a University.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ZULU_IMPI">
+			<Text>Specialized in defeating Knights and other mounted units. Only the Zulu may build it. Also performs a first-strike ranged attack before combat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ASSYRIAN_SIEGE_TOWER">
+			<Text>Powerful melee siege unit which grants a city attack bonus to nearby units when next to an enemy city. May only be built by the Assyrians.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_BRAZILIAN_PRACINHA">
+			<Text>Modern Era infantry unit that earns points toward a [ICON_GOLDEN_AGE] Golden Age when it defeats an enemy. May only be built by Brazil.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_LANDSKNECHT">
+			<Text>This unit is much cheaper than the Pikeman, and can pillage without using any movement points. Steals gold when attacking a city. Unlocked through the Mercenary Army social policy, these units may not be built; they must be purchased through gold. May move immediately after purchase.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_WINGED_HUSSAR">
+			<Text>Heavy Mounted Unit specialized in defeating enemy mounted units. This unit is faster and more powerful than the Lancer, which it replaces. Forces defenders to retreat when it inflicts more damage than it receives. May only be built by the Polish.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PORTUGUESE_NAU">
+			<Text>Melee naval unit which excels at sea exploration. It has more [ICON_MOVES] Movement than the Caravel, which it replaces, and can perform a one-time ability next to foreign lands to earn [ICON_GOLD] Gold and XP. May only be built by the Portuguese.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_PARATROOPER">
+			<Text>Strong infantry Unit capable of paradropping up to 9 tiles from friendly territory. Paratrooper can also move and pillage after paradropping, but cannot enter combat until the following turn.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_SAMURAI">
+			<Text>Powerful Medieval infantry Unit. Only the Japanese may build it. This Unit fights more effectively and helps produce Great Generals more quickly than the Longswordsman, which it replaces. Embarked Samurai can build Fishing Boats in one turn without being consumed (which makes them useful even in times of peace).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_PARATROOPER_STRATEGY">
+			<Text>The Paratrooper is a late-game infantryman. It is somewhat weaker than a mechanized infantry unit; however, it can parachute up to 9 tiles away (when starting in friendly territory). This allows the paratrooper to literally jump over enemy positions and destroy road networks, pillage vital resources and so forth, wrecking havoc behind his lines. The Paratrooper is at great risk when on such missions, so make sure the target is worth it!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_BERBER_CAVALRY">
+			<Text>Mounted unit that specializes in Desert warfare and protecting Moroccan lands. Receives combat bonuses when fighting both in Desert tiles and Moroccan territory. May only be built by Morocco.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CARGO_SHIP">
+			<Text>Establishes sea-based Trade Routes between two civilizations that yields [ICON_GOLD] Gold. Can also be used to deliver [ICON_FOOD] Food or [ICON_PRODUCTION] Production within your own borders after building a Granary or a Workshop.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_CARAVAN">
+			<Text>Establishes land-based Trade Routes between two civilizations that yields [ICON_GOLD] Gold. Can also be used to deliver [ICON_FOOD] Food or [ICON_PRODUCTION] Production within your own borders after building a Granary or a Workshop.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_XCOM_SQUAD">
+			<Text>Futuristic infantry unit skilled at dropping into danger from far across the world. Squad can move and pillage after landing but cannot enter combat until the following turn.[NEWLINE][NEWLINE][COLOR_CYAN]Good Luck, Commander![ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_FOREIGN_LEGION">
+			<Text>Special Infantry Unit of the Modern Era. May only be received through adopting the Volunteer Army tenet of the Freedom Ideology. This Unit has a combat bonus outside of friendly territory but is otherwise very similar to Great War Infantry.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_ZERO">
+			<Text>Air Unit designed to wrest control of the skies and intercept incoming enemy aircraft. Only the Japanese may build it. This Unit has a bonus against other Fighters and does not require Oil.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_VENETIAN_MERCHANT">
+			<Text>This Venetian unique Great Person replaces the Great Merchant. Aside from the ability to Conduct a Trade Mission, the Merchant of Venice can purchase City-States outright, bringing them under Venetian control as a Puppet.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_MUSICIAN_DETAILS">
+			<Text>[ICON_PLUS] Great Musicians</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_MUSICIAN_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] Great Musicians</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_WRITER_DETAILS">
+			<Text>[ICON_PLUS] Great Writers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GP_WRITER_DETAILS_COLLAPSE">
+			<Text>[ICON_MINUS] Great Writers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_DOES_THIS_MEAN_WAR_PLUS_PILLAGE_UPSET">
+			<Text>Does this mean WAR?!? (vs. {1_Team})[NEWLINE]This will also upset {2_Team} because you are plundering a trade route connected to them.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POPUP_PLUNDER_WARNING">
+			<Text>Plundering this trade route will upset {1_Team} because it connects to their city. Are you sure you want to plunder the trade route and upset them?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE">
+			<Text>Plunder Trade Route</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_CREATE_GREAT_WORK">
+			<Text>Create Great Work</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_SELL_EXOTIC_GOODS">
+			<Text>Sell Exotic Goods</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_GIVE_POLICIES">
+			<Text>Write Political Treatise</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_ONE_SHOT_TOURISM">
+			<Text>Perform Concert Tour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_BUY_CITY_STATE">
+			<Text>Buy City-State</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_BUY_CITY_STATE_HELP">
+			<Text>The Merchant of Venice will use his considerable wealth to purchase a City State and put it under control of Venice as a puppeted city. You gain control of all of the minor civilization's existing units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_BUY_CITY_STATE_DISABLED_HELP">
+			<Text>Unit must be in a City State's territory that you're not at war with.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_CATHEDRALS">
+			<Text>Use [ICON_PEACE] Faith to purchase Cathedrals (+1 [ICON_PEACE] Faith, +1 [ICON_CULTURE] Culture, +1 [ICON_HAPPINESS_1] Happiness, 1 Great Work of Art slot)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_TEXTS">
+			<Text>Religion spreads 25% faster (50% with Printing Press)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_RELIGION_TOOLTIP_LINE_WITH_TRADE">
+			<Text>{1_ReligionIcon} {2_NumFollowers} Followers {3_PressureString} ({4_Num} trade routes)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_WARRIOR">
+			<Text>Recruit a Warrior from the lost tribe.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_POPULATION">
+			<Text>Convince the remaining population to join one of your cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_CULTURE">
+			<Text>Use this contact with the lost tribe to enhance your [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_REVEAL_NEARBY_BARBS">
+			<Text>Use information from the tribe to locate nearby barbarian camps.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_GOLD">
+			<Text>Trade with the lost tribe for [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_MAP">
+			<Text>Have a look at their maps.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_TECH">
+			<Text>Study their tools to discover a new technology.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_REVEAL_RESOURCE">
+			<Text>Ask for directions to a nearby reseource.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_UPGRADE_UNIT">
+			<Text>Use equipment around the tribe to upgrade your unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_BARBARIANS">
+			<Text>Tell these people that they are barbarians. Repeatedly.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_SETTLER">
+			<Text>Convince the lost tribe to become a Settler for your civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_SCOUT">
+			<Text>Convince the lost tribe to become a Scout for your civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_WORKER">
+			<Text>Convince the lost tribe to become a Worker for your civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_EXPERIENCE">
+			<Text>Study with the lost tribe to have your unit gain experience.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_HEALING">
+			<Text>Drink the native potions to heal your unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_FAITH">
+			<Text>Study the lost tribe's religion.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOODY_CHOOSE_PROPHET_FAITH">
+			<Text>Discover a Great Prophet!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_ESTABLISH_TRADE_ROUTE">
+			<Text>Establish Trade Route</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_ESTABLISH_TRADE_ROUTE_HELP">
+			<Text>Establish a Trade Route with this unit from this city to another city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_CHANGE_TRADE_UNIT_HOME_CITY">
+			<Text>Change Home City</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MISSION_CHANGE_TRADE_UNIT_HOME_CITY_HELP">
+			<Text>Change the home city of this trade unit. It will arrive at the other city next turn. This allows it to make trade routes from its new home city.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_MISSION_CHANGE_ADMIRAL_PORT">
+      <Text>Move to New Port</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_CHANGE_ADMIRAL_PORT_HELP">
+      <Text>Move this Admiral to another port city under your control. It can be moved out of the other port next turn.</Text>
+    </Row>
+		<Row Tag="TXT_KEY_POPUP_ARE_YOU_SURE_IMPROVEMENT_REBUILD_WARN_TRADE_ROUTE">
+			<Text>Are you sure you want to {@1_ActionName}?[NEWLINE]The current Tile Improvement will be replaced and a city connection may be disconnected.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_MESSENGER_GODS">
+			<Text>+1 [ICON_PEACE] Faith and +2 [ICON_RESEARCH] Science in cities with a [ICON_CONNECTED] City Connection</Text>
+		</Row>
+		<!-- PROMOTIONS -->
+		<Row Tag="TXT_KEY_PROMOTION_NAVAL_TRADITION">
+			<Text>Exploration</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SAPPER">
+			<Text>Sapper</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SAPPER_HELP">
+			<Text>When next to an enemy city, other units within 2 tiles get a 50% Bonus when attacking the city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_SIEGE_II">
+			<Text>Bonus vs Cities (250)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_CITY_SIEGE_II_HELP">
+			<Text>+250% Bonus vs Cities.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GOLDEN_AGE_POINTS">
+			<Text>Golden Age from Victories</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GOLDEN_AGE_POINTS_HELP">
+			<Text>Earn points toward a Golden Age for each enemy killed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FAST_GENERAL_HELP">
+			<Text>+3 [ICON_MOVES] Movement.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_NATIONALISM">
+			<Text>Patriotic War</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUFFALO_HORNS_HELP">
+			<Text>+1 Movement. Flank attack bonus increased by 25%. +10% [COLOR_POSITIVE_TEXT]Defense[ENDCOLOR] against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUFFALO_CHEST_HELP">
+			<Text>+10% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]OPEN[ENDCOLOR] Terrain. (NO Hills, Forest or Jungle). Flank attack bonus increased by 25%. +10% [COLOR_POSITIVE_TEXT]Defense[ENDCOLOR] against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUFFALO_LOINS_HELP">
+			<Text>+10% [ICON_STRENGTH] Combat Strength. Flank attack bonus increased by 25%. +10% [COLOR_POSITIVE_TEXT]Defense[ENDCOLOR] against all [COLOR_POSITIVE_TEXT]Ranged Attacks[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TRADE_MISSION_BONUS_HELP">
+			<Text>+100% more [ICON_GOLD] Gold and +100% more city-state influence than a normal Trade Mission.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEAVY_CHARGE_HELP">
+			<Text>Forces defender to retreat if it inflicts more damage than it receives. A defender who cannot retreat takes extra damage.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_GUNPOWDER_HELP">
+			<Text>Before engaging in melee, this unit has an extra attack.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUFFALO_CHEST">
+			<Text>Buffalo Chest</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUFFALO_HORNS">
+			<Text>Buffalo Horns</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_BUFFALO_LOINS">
+			<Text>Buffalo Loins</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_TRADE_MISSION_BONUS">
+			<Text>Trade Mission Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEAVY_CHARGE">
+			<Text>Heavy Charge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ANTI_GUNPOWDER">
+			<Text>Spear Throw</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HOMELAND_GUARDIAN">
+			<Text>Homeland Guardian</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HOMELAND_GUARDIAN_HELP">
+			<Text>+25% Bonus in combat in your territory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HOMELAND_GUARDIAN_BOOGALOO">
+			<Text>Pride of the Ancestors</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HOMELAND_GUARDIAN_BOOGALOO_HELP">
+			<Text>+15% Bonus in combat in your territory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DESERT_WARRIOR">
+			<Text>Desert Warrior</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DESERT_WARRIOR_HELP">
+			<Text>+50% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]Desert[ENDCOLOR]</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOON_STRIKER">
+			<Text>Full Moon Striker</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MOON_STRIKER_HELP">
+			<Text>+1 Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GOODY_HUT_PICKER">
+			<Text>Native Tongue</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_GOODY_HUT_PICKER_HELP">
+			<Text>May choose benefit when discovering Ancient Ruins.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ALTITUDE_TRAINING">
+			<Text>Altitude Training</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ALTITUDE_TRAINING_HELP">
+			<Text>Double movement in hill. +10% [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]Hill[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MYSTIC_BLADE">
+			<Text>Mystic Blade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_MYSTIC_BLADE_HELP">
+			<Text>Promotion is replaced with a randomly chosen new promotion after the unit completes its first combat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INVULNERABIILITY">
+			<Text>Invulnerability</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_INVULNERABIILITY_HELP">
+			<Text>+30% Combat Bonus when defending. +20 Hit Points when healing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SNEAK_ATTACK">
+			<Text>Sneak Attack</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SNEAK_ATTACK_HELP">
+			<Text>Flank attack bonus increased by 50%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEROISM">
+			<Text>Heroism</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_HEROISM_HELP">
+			<Text>Unit awards combat bonus to nearby units as if it is a Great General</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMBITION">
+			<Text>Ambition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_AMBITION_HELP">
+			<Text>+50% Combat Bonus when attacking. -20% penalty when defending</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RESTLESSNESS">
+			<Text>Restlessness</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RESTLESSNESS_HELP">
+			<Text>May Attack Twice. 1 Extra Movement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECRUITMENT">
+			<Text>Recruitment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_RECRUITMENT_HELP">
+			<Text>Heals All Damage If Kills Non-Barbarian Unit</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENEMY_BLADE">
+			<Text>Enemy Blade</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ENEMY_BLADE_HELP">
+			<Text>Takes 20 Damage If Ends Turn in Enemy Territory</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVIL_SPIRITS">
+			<Text>Evil Spirits</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EVIL_SPIRITS_HELP">
+			<Text>-10% penalty when attacking. -30% penalty when defending</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EXTENDED_PARADROP">
+			<Text>Skyranger</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_EXTENDED_PARADROP_HELP">
+			<Text>May paradrop with extended range (40 hexes)</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE">
+			<Text>Lightning Warfare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_LIGHTNING_WARFARE_HELP">
+			<Text>+15% Combat Bonus when attacking. +1 [ICON_MOVES] Movement. Ignore enemy Zones of Control.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOLFPACK_1">
+			<Text>Wolfpack I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOLFPACK_1_HELP">
+			<Text>+25% Combat Bonus when attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOLFPACK_2">
+			<Text>Wolfpack II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOLFPACK_2_HELP">
+			<Text>+25% Combat Bonus when attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOLFPACK_3">
+			<Text>Wolfpack III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_WOLFPACK_3_HELP">
+			<Text>+25% Combat Bonus when attacking.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FLIGHT_DECK_1">
+			<Text>Flight Deck I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FLIGHT_DECK_1_HELP">
+			<Text>Can carry 1 extra air unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FLIGHT_DECK_2">
+			<Text>Flight Deck II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FLIGHT_DECK_2_HELP">
+			<Text>Can carry 1 extra air unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FLIGHT_DECK_3">
+			<Text>Flight Deck III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_FLIGHT_DECK_3_HELP">
+			<Text>Can carry 1 extra air unit.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ARMOR_PLATING_1">
+			<Text>Armor Plating I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ARMOR_PLATING_1_HELP">
+			<Text>+25% Combat Bonus when defending.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ARMOR_PLATING_2">
+			<Text>Armor Plating II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ARMOR_PLATING_2_HELP">
+			<Text>+25% Combat Bonus when defending.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ARMOR_PLATING_3">
+			<Text>Armor Plating III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_ARMOR_PLATING_3_HELP">
+			<Text>+25% Combat Bonus when defending.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SELL_EXOTIC_GOODS">
+			<Text>Exotic Cargo</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_SELL_EXOTIC_GOODS_HELP">
+			<Text>May Sell Exotic Goods when adjacent to a foreign tile to gain [ICON_GOLD] Gold and XP based on distance from capital, but only once.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOUBLE_PLUNDER">
+			<Text>City Plunder</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_DOUBLE_PLUNDER_HELP">
+			<Text>Steals [ICON_GOLD] Gold equal to 100% of the damage inflicted on a city.</Text>
+		</Row>
+		<!-- BUILDINGS HELP -->
+		<Row Tag="TXT_KEY_BUILDING_AIRPORT_HELP">
+			<Text>Allows airlifts to or from this city. [COLOR_POSITIVE_TEXT]Increases air unit capacity of the city from 6 to 10.[ENDCOLOR] 50% of the [ICON_CULTURE] Culture from World Wonders, Natural Wonders, and Improvements (Landmarks, Moai, Chateau) is added to the [ICON_TOURISM] Tourism output of the city. [ICON_TOURISM] Tourism output from Great Works +50%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ARTISTS_GUILD_HELP">
+			<Text>Provides 2 [ICON_GREAT_PEOPLE] Great Person Points (GPP) towards a Great Artist. Add up to two specialists to this building to gain [ICON_CULTURE] Culture and increase the rate of Great Artist acquisition (3 [ICON_CULTURE] Culture and 3 [ICON_GREAT_PEOPLE] GPP per specialist).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_BAZAAR_HELP">
+			<Text>Provides 1 extra copy of each improved luxury resource near this City.  Each source of [ICON_RES_OIL] Oil and each Oasis provides +2 [ICON_GOLD] Gold. Trade routes other players make to a city with a Bazaar will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CANDI_HELP">
+			<Text>Unique Indonesian Garden replacement. +25% [ICON_GREAT_PEOPLE] Great People generation in this City, and +2 [ICON_PEACE] Faith for each World Religion that has at least 1 follower in the city.[NEWLINE][NEWLINE]Unlike the Garden the Candi does not have to be built next to a River or Lake.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_CARAVANSARY_HELP">
+			<Text>Land trade routes originating from this city have a 50% increase in range and produce an additional 2 [ICON_GOLD] Gold when connecting to another civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_DUCAL_STABLE_HELP">
+			<Text>Unique Polish Stable replacement. +15% [ICON_PRODUCTION] Production and  +15 XP for Mounted Units.[NEWLINE][NEWLINE]Each Pasture worked by this City produces +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_GRANARY_HELP">
+			<Text>Each source of [ICON_RES_WHEAT] Wheat [ICON_RES_BANANA] Bananas [ICON_RES_DEER] Deer and [ICON_RES_BISON] Bison worked by this City produce +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]Allows [ICON_FOOD] Food to be moved from this city along trade routes inside your civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HANSE_HELP">
+			<Text>Unique German Bank replacement. +5% [ICON_PRODUCTION] Production for each Trade Route your civilization has with a City-State. Trade routes other players make to a city with a Hanse will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODMOD_YIELD_HANSE">
+			<Text>[NEWLINE][ICON_BULLET]Modifier for Hanse: {1_Num}%</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HARBOR_HELP">
+			<Text>Forms a [ICON_CONNECTED] City Connection with the [ICON_CAPITAL] Capital over water (if they're not already [ICON_CONNECTED] connected by land). Sea trade routes originating from this city have a 50% increase in range and produce an additional 1 [ICON_GOLD] Gold when connecting to another civilization.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_HOTEL_HELP">
+			<Text>50% of the [ICON_CULTURE] Culture from World Wonders, Natural Wonders, and Improvements (Landmarks, Moai, Chateau) is added to the [ICON_TOURISM] Tourism output of the city. [ICON_TOURISM] Tourism output from Great Works +50%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_IKANDA_HELP">
+			<Text>Unique Zulu Barracks replacement. Grants unique promotions to pre-gunpowder melee units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_LIGHTHOUSE_HELP">
+			<Text>+1 [ICON_FOOD] Food from Coast and Ocean Tiles. +1 [ICON_PRODUCTION] Production from Sea Resources worked by this City.[NEWLINE][NEWLINE]Each source of [ICON_RES_FISH] Fish worked by this City produces +1 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must be built on the coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MUSICIANS_GUILD_HELP">
+			<Text>Provides 3 [ICON_GREAT_PEOPLE] Great Person Points (GPP) towards a Great Musician. Add up to two specialists to this building to gain [ICON_CULTURE] Culture and increase the rate of Great Musician acquisition (3 [ICON_CULTURE] Culture and 3 [ICON_GREAT_PEOPLE] GPP per specialist).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_NATIONAL_TREASURY_HELP">
+			<Text>Must have built a Market in all Cities. The cost goes up the more cities there are in the empire. Trade routes other players make to a city with an East India Company will generate an extra 4 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 2 [ICON_GOLD] Gold for the trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_ROYAL_LIBRARY_HELP">
+			<Text>Unique Assyrian Library replacement. +1 [ICON_RESEARCH] Science for every 2 [ICON_CITIZEN] Citizens in this City. Also has a slot for a Great Work of Writing which, when filled, gives extra XP to trained Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SATRAPS_COURT_HELP">
+			<Text>City must have a Market. Trade routes other players make to a city with a Satraps Court will generate an extra 1 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_TOURIST_CENTER_HELP">
+			<Text>Must have built a Hotel in all Cities. The cost goes up the more cities there are in the empire. 100% of the [ICON_CULTURE] Culture from World Wonders, Natural Wonders, and Improvements (Landmarks, Moai, Chateau) is added to the [ICON_TOURISM] Tourism output of the city. [ICON_TOURISM] Tourism output from Great Works +100%.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_UNIVERSITY_HELP">
+			<Text>+2 [ICON_RESEARCH] Science from Jungle tiles worked by this City. Allows Archaeologists to be built in this city.[NEWLINE][NEWLINE]City must have a Library.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WORKSHOP_HELP">
+			<Text>Allows [ICON_PRODUCTION] Production to be moved from this city along trade routes inside your civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_WRITERS_GUILD_HELP">
+			<Text>Provides 1 [ICON_GREAT_PEOPLE] Great Person Point (GPP) towards a Great Writer. Add up to two specialists to this building to gain [ICON_CULTURE] Culture and increase the rate of Great Writer acquisition (3 [ICON_CULTURE] Culture and 3 [ICON_GREAT_PEOPLE] GPP per specialist).</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_STADIUM_HELP">
+			<Text> It cannot provide more [ICON_HAPPINESS_1] Happiness than there are [ICON_CITIZEN] Citizens in a city. City must have a Zoo.</Text>
+		</Row>
+		<!-- IMPROVEMENTS HELP -->
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_BRAZILWOOD_CAMP_HELP">
+			<Text>A Brazilwood Camp can only be built on a Jungle tile.  It provides additional [ICON_GOLD] Gold. After the Acoustics technology is researched it also provides extra [ICON_CULTURE] Culture.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_FEITORIA_HELP">
+			<Text>A Feitoria can only be built in a City-State's lands, on a coastal tile without a resource.  It provides to you one copy of each Luxury Resource type that City-State has connected, regardless of your status with that City-State, but that copy cannot be traded.  It also provides the same +50% defense bonus as a Fort. Can only be built by the Portuguese.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_KASBAH_HELP">
+			<Text>A Kasbah can only be built on a Desert tile.  It provides one additional [ICON_FOOD] Food, [ICON_PRODUCTION] Production, and [ICON_GOLD] Gold. It also provides the same +50% defense bonus as a Fort. Must be built in Moroccan territory.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_HELP">
+			<Text>A Chateau must be built adjacent to a Luxury resource.  It may not be adjacent to another Chateau. It provides the same +50% defense bonus as a Fort. Must be built in French territory. When Flight is researched its [ICON_CULTURE] Culture yield increases by 1 and its [ICON_GOLD] Gold output rises by 2.</Text>
+		</Row>
+		<!-- WONDERS HELP -->
+		<Row Tag="TXT_KEY_WONDER_BOROBUDUR_HELP">
+			<Text>Must be built in a Holy City. 3 free Missionaries appear.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_COLOSSUS_HELP">
+			<Text>Gains an additional trade route slot and a Cargo Ship appears in the city. Trade routes other players make to a city with the Colossus will generate an extra 2 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route.  City must be built on the coast.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_RED_FORT_HELP">
+			<Text>Defensive Buildings in all Cities are 25% more effective.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_KREMLIN_HELP">
+			<Text>Requires Order. +50% [ICON_PRODUCTION] Production when building Armor Units. 1 Free Social Policy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_PARTHENON_HELP">
+			<Text>Contains a prebuilt Great Work of Art in the Great Work Slot.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_PETRA_HELP">
+			<Text>+1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production for all desert tiles worked by this city (except Flood Plains). Gains an additional trade route slot and a Caravan appears in the city. +6 [ICON_CULTURE] Culture once Archaeology is discovered. City must be built on or next to Desert. </Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_PRORA_RESORT_HELP">
+			<Text>Requires Autocracy. In addition to the +2 [ICON_HAPPINESS_1] Happiness, the Prora Resort also provides +1 more [ICON_HAPPINESS_1] Happiness for every 2 Policies you have adopted. 1 Free Social Policy. Must be constructed in a coastal city.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_STATUE_OF_LIBERTY_HELP">
+			<Text>Requires Freedom. +1 [ICON_PRODUCTION] Production from Specialists in every city. 1 Free Social Policy.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_WONDER_TERRA_COTTA_ARMY_HELP">
+			<Text>Creates a copy of each type of military land unit you control and places the unit near the city where the Terracotta Army is constructed.</Text>
+		</Row>
+		<!-- NATURAL WONDERS HELP -->
+		<Row Tag="TXT_KEY_CIV5_FEATURES_KILIMANJARO_HELP">
+			<Text>All units that are next to it move at double speed through Hills and receive a combat bonus on Hills for the rest of the game.</Text>
+		</Row>
+		<!-- TECH HELP -->
+		<Row Tag="TXT_KEY_TECH_COMPASS_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Galleass[ENDCOLOR], the first ranged naval unit. Also allows you to build the [COLOR_POSITIVE_TEXT]Harbor[ENDCOLOR], which creates city connections from cities to the capital over the water, producing [ICON_GOLD] Gold. Additionally, the [ICON_GOLD] Gold yield from Fishing Boats is increased.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_NUCLEAR_FISSION_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Bazooka[ENDCOLOR], the most powerful ranged Unit and [COLOR_POSITIVE_TEXT]Atomic Bombs[ENDCOLOR], the first nuclear weapon in the game (note: you must first have completed the Manhattan Project and have [ICON_RES_URANIUM] Uranium available). Also allows you to build the [COLOR_POSITIVE_TEXT]Nuclear Plant[ENDCOLOR], a building which requires [ICON_RES_URANIUM] Uranium and increases the [ICON_PRODUCTION] Production of a City.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_INTERNET_HELP">
+			<Text>The Internet automatically doubles the [ICON_TOURISM] Tourism output of all your cities, helping you advance toward a [COLOR_POSITIVE_TEXT]Cultural Victory[ENDCOLOR].</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TECH_PRINTING_PRESS_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Zoo[ENDCOLOR], a building which increases [ICON_HAPPINESS_1] Happiness in the empire and makes [ICON_GOLDEN_AGE] Golden Ages more likely. Also unlocks the ability to found the World Congress.</Text>
+		</Row>
+		<!-- THEMING BONUS STRINGS-->
+		<Row Tag="TXT_KEY_SISTINE_CHAPEL_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure the Great Work Slots are all filled with Art from the same Era and Civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LOUVRE_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure the Great Work Slots are filled with 2 Great Works of Art and 2 Artifacts with all 4 being from different Eras and different Civilizations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UFFIZI_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure the Great Work Slots are all filled with Art from the same Era and Civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_HERMITAGE_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure the Great Work Slots are all filled with Art from different Eras and different Civilizations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_OXFORD_UNIVERSITY_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure the Great Work Slots are all filled with Writings from different Eras and from Civilizations other than the city owner.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MUSEUM_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure both Great Works are of the same type (both Art or both Artifact), both from the same Era, and either both from the city's civilization, or both from civilizations other than the city owner.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GLOBE_THEATER_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure the Great Work Slots are all filled with Writings from the same Era and Civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BROADWAY_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure the Great Work Slots are all filled with Music from the same Era and Civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GREAT_LIBRARY_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure the Great Work Slots are all filled with Writings from different Eras and different Civilizations.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SYDNEY_OPERA_HOUSE_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure the Great Work Slots are all filled with Music from different Eras but the same Civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_MUSEUM_1">
+			<Text>Museum of {1_EraAdjective} {2_CivAdjective} Art</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_MUSEUM_2">
+			<Text>Museum of {1_EraAdjective} {2_CivAdjective} Warfare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_MUSEUM_3">
+			<Text>Museum of {1_EraAdjective} Art</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_MUSEUM_4">
+			<Text>Museum of {1_EraAdjective} Warfare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_MUSEUM_5">
+			<Text>{1_CivAdjective} Museum of the {2_EraAdjective} Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_MUSEUM_6">
+			<Text>World Museum of the {1_EraAdjective} Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_MUSEUM_7">
+			<Text>Museum of {1_CivAdjective} Art</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_MUSEUM_8">
+			<Text>Museum of {1_CivAdjective} Warfare</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_HERMITAGE">
+			<Text>Museum of World Art</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_SISTINE_CHAPEL">
+			<Text>Chapel of {1_Era} {2_CivAdjective} Art</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_OXFORD_UNIVERSITY">
+			<Text>Library of World Literature</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_LOUVRE">
+			<Text>World's Most Visited Museum</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_UFFIZI">
+			<Text>Museum of {1_Era} {2_CivAdjective} Art</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_GLOBE_THEATER">
+			<Text>Theater of {1_Era} {2_CivAdjective} Literature</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_BROADWAY">
+			<Text>Showplace for {1_Era} {2_CivAdjective} Music</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_GREAT_LIBRARY">
+			<Text>Library of Ancient Knowledge</Text>
+		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_SYDNEY_OPERA_HOUSE">
+			<Text>Center for the {2_CivAdjective} Musical Arts</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEGAL_BODY">
+			<Text>© 1991-2013 Take-Two Interactive Software and its subsidiaries.  Developed by Firaxis Games.  Sid Meier's Civilization V, Civ, Civilization, 2K Games, Firaxis Games, Take-Two Interactive Software and their respective logos are all trademarks of Take-Two interactive Software, Inc.  Fork Copyright © 2010 Fork Particle, Inc. Rapid XML Copyright © 2006-2010 Marcin Kalicinski. Lua Copyright © 1994-2010 Lua.org, PUC-Rio. Uses Granny Animation. Copyright © 1999-2010 by RAD Game Tools, Inc. Uses Miles Sound System. Copyright © 1991-2010 by RAD Game Tools, Inc. The ratings icon is a trademark of the Entertainment Software Association.  All other marks and trademarks are the property of their respective owners.  All rights reserved.  The content of this videogame is fictional and is not intended to represent or depict an actual record of the events, persons or entities in the game's historical setting.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

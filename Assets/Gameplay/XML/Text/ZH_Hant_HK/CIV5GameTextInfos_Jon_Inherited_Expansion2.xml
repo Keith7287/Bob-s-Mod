@@ -1,0 +1,830 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_ZH_Hant_HK>
+    <Row Tag="TXT_KEY_AFRAID">
+      <Text>畏懼</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ALLIES_CSTATE_TT">
+      <Text>對{1_CityStateName:textkey}的[ICON_INFLUENCE]影響力已超過其他所有玩家，因此您與其結為[COLOR_POSITIVE_TEXT]盟友[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ANGRY_CSTATE_TT">
+      <Text>您的行為激怒了{1_CityStateName:textkey}，這類行為包括要求進貢、穿越該城邦邊界或宣戰等。您可以完成委託或贈與[ICON_GOLD]金幣當做禮物來化解對方的不快。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CITADEL_HELP">
+      <Text>任何駐紮此單元格的單位+100%[ICON_STRENGTH]防禦力。而任何在要塞旁結束回合的敵方單位，都將遭受30點傷害（損傷不會與其他要塞傷害疊加）。修建要塞可將文化邊界擴展至周圍的要塞，且將消耗該單位。如果新的文化邊界佔用了其他文明所擁有的格位，您就會受到外交減益。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CULTURE_REC">
+      <Text>其可增加該單元格提供的[ICON_CULTURE]文化值，擴大我們的邊境並使我們獲得更多社會政策。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_HOLY_SITE">
+      <Text>建造聖地</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_HOLY_SITE_HELP">
+      <Text>單位將被消耗。[NEWLINE][NEWLINE]大型單元格改良設施將把本單元格之戰略資源與貿易網路連結起來。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_ALLY_ACTIVE_PLAYER_TT">
+      <Text>您目前是他們的盟友，可獲得額外的加成及城邦擁有的奢侈品和戰略資源。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_ALLY_NOBODY_TT">
+      <Text>目前他們沒有盟友。您增加{1_NumInfluence}[ICON_INFLUENCE]影響力便可成為他們的盟友。[NEWLINE][NEWLINE]如果玩家成為城邦的盟友，將獲得基於城邦自身特點的額外加成與其擁有的奢侈品和戰略資源。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_ALLY_TT">
+      <Text>{1_CivName:textkey}目前是他們的盟友。您還需要{2_NumInfluence}[ICON_INFLUENCE]影響力方可取代{1CivName:textkey}並成為其新盟友。[NEWLINE][NEWLINE]如果玩家成為城邦的盟友，將獲得基於城邦自身特點的額外加成與其擁有的奢侈品和戰略資源。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_ALLY_UNKNOWN_TT">
+      <Text>他們目前的盟友是一個您未曾謀面的文明。您還需要{1_NumInfluence}[ICON_INFLUENCE]影響力方可取代這位素不相識的對手成為其同盟。[NEWLINE][NEWLINE]如果玩家成為城邦的盟友，將獲得基於城邦自身特點的額外加成與其擁有的奢侈品和戰略資源。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_PEACE_PROTECTED">
+      <Text>您持久的保護讓我們舒適無比。那我們能為您做點什麼呢？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_HELLO_QUEST_MESSAGE">
+      <Text>很好，信使及時把消息傳遞給您了。您可能會對我們的新委託感興趣。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_JUST_BULLIED">
+      <Text>看來我們別無他選。請收下金幣吧，只要別傷害我們就好。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_JUST_BULLIED_WORKER">
+      <Text>什麼？你簡直膽大包天！總有一天你會為此付出代價。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_JUST_REVOKED_PROTECTION">
+      <Text>很好，沒有你我們也死不了。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_DIPLO_JUST_SUPPORTED">
+      <Text>哇，這正是我們想要的，感謝您的幫助。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GIFT_FAITH_FIRST">
+      <Text>他們贈與您彌足珍貴的宗教聖物，帶給您[COLOR_POSITIVE_TEXT]{1_NumFaith}[ICON_PEACE]信仰值[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GIFT_FAITH_OTHER">
+      <Text>他們與您分享了宗教儀式的知識，帶給您[COLOR_POSITIVE_TEXT]{1_NumFaith}[ICON_PEACE]信仰值[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GREETING_MERCANTILE">
+      <Text>我國是[COLOR_POSITIVE_TEXT]商業[ENDCOLOR]城邦，我們的奢侈品能讓您的子民心情愉快。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_GREETING_RELIGIOUS">
+      <Text>我國是[COLOR_POSITIVE_TEXT]宗教[ENDCOLOR]城邦，能幫助您孕育宗教傳統。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_MERCANTILE_TT">
+      <Text>與其成為朋友後，[COLOR_POSITIVE_TEXT]商業[ENDCOLOR]城邦可為帝國帶來額外的[ICON_HAPPINESS_1]幸福度，並可產出無法用其他方式獲取的特殊奢侈品資源。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_MILITARISTIC_NO_UU_TT">
+      <Text>與其成為朋友後，[COLOR_POSITIVE_TEXT]尚武[ENDCOLOR]城邦可不時為您提供軍事單位。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_MILITARISTIC_TT">
+      <Text>與其成為朋友後，[COLOR_POSITIVE_TEXT]尚武[ENDCOLOR]城邦可不時為您為您提供軍事單位。[NEWLINE][NEWLINE]此外他們還知曉[COLOR_POSITIVE_TEXT]{@1_UniqueUnitName}的秘密[ENDCOLOR]。如果您成為其盟友並完成{@2_PrereqTech}的研究，他們便會提供此單位作為獻禮。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_BULLY_CITY_STATE">
+      <Text>希望您能給我們的敵方城邦一點顏色看看，讓他們明白規矩二字。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_BULLY_CITY_STATE_FORMAL">
+      <Text>他們希望您向{1_TargetName:textkey}索取貢品。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE">
+      <Text>我們的藝術工作者希望得到文化力量的啟發進行創作。如果您的文化增長在未來數年內超過其他文明，我們會給與您回報。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_FORMAL">
+      <Text>他們將回報文化值成長最高的玩家。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_LOSING_FORMAL">
+      <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_FORMAL}截至目前，領跑者的分數為[ICON_CULTURE]{1_LeaderScore}，而您的分數為[ICON_CULTURE][COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_WINNING_FORMAL">
+      <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_CULTURE_FORMAL}截至目前，您的領先分數為[ICON_CULTURE][COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH">
+      <Text>我們將回報信仰值成長最高的玩家。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL">
+      <Text>他們將回報信仰值成長最高的玩家。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_LOSING_FORMAL">
+      <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL}截至目前，領跑者的分數為[ICON_PEACE]{1_LeaderScore}，而您的分數為[ICON_PEACE][COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_WINNING_FORMAL">
+      <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_FAITH_FORMAL}截至目前，您的領先分數為[ICON_PEACE][COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS">
+      <Text>我們將回報解鎖科技數量最多的玩家。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL">
+      <Text>他們將回報解鎖科技數量最多的玩家。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_LOSING_FORMAL">
+      <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL}截至目前，領先者有{1_LeaderScore}種科技，而您的數量為[COLOR_POSITIVE_TEXT]{2_PlayerScore}[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_WINNING_FORMAL">
+      <Text>{TXT_KEY_CITY_STATE_QUEST_CONTEST_TECHS_FORMAL}截至目前，您的領先的科技數量為[COLOR_POSITIVE_TEXT]{1_PlayerScore}[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_DENOUNCE_MAJOR">
+      <Text>希望您能譴責最近騎在我們頭上作威作福的文明，讓全世界都知道他們的惡行。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_DENOUNCE_MAJOR_FORMAL">
+      <Text>他們希望您譴責{1_TargetName:textkey}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_GIVE_GOLD">
+      <Text>在{1_CivName:textkey}威逼我們納貢後，我國國情不容樂觀。如果您可以提供金幣幫助我們復興，您的大恩大德將會被永世銘記。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_GIVE_GOLD_FORMAL">
+      <Text>他們希望您贈送金幣。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_INVADING_BARBS">
+      <Text>希望您能幫助我們肅清入侵的蠻族。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_INVADING_BARBS_FORMAL">
+      <Text>他們希望您消滅入侵其領土的蠻族。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_INVEST">
+      <Text>目前贈送金幣效果較好。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_INVEST_FORMAL">
+      <Text>目前贈送金幣效果較好。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_KILL_CAMP_FORMAL">
+      <Text>他們將回報摧毀位於其附近蠻族營地的玩家。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_NONE">
+      <Text>無</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_NONE_FORMAL">
+      <Text>這個城邦目前沒有委託，他們將定期向您提出委託。但如果您最近曾欺辱他們的話，便有可能不會提出。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_PLEDGE_TO_PROTECT">
+      <Text>我們已經對{1_CivName:textkey}的欺壓忍無可忍。如果您公開承諾為我們提供庇護，或許下次他們便不會如此囂張。當然，我們不會白白麻煩您的。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_PLEDGE_TO_PROTECT_FORMAL">
+      <Text>他們希望您承諾給予庇護。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_SPREAD_RELIGION">
+      <Text>希望您能將宗教傳播到我國。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_SPREAD_RELIGION_FORMAL">
+      <Text>他們希望{@1_ReligionName}成為其城市的首要宗教。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_TURNS_REMAINING_FORMAL">
+      <Text>（城邦委託剩餘回合數：{1_TurnsRemaining}）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_RELIGIOUS_TT">
+      <Text>與其成為朋友後，[COLOR_POSITIVE_TEXT]宗教[ENDCOLOR]城邦可增加您的[ICON_PEACE]信仰值，透過新的信條與單位來壯大您的宗教。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_BULLY">
+      <Text>您確定要向{1_MinorCivName:textkey}要求進貢？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_BULLY_PROTECTED_CITY_STATE">
+      <Text>您確定要向{@1_MinorCivName}要求進貢？其當前的庇護者為：{@2_CivName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_BULLY_PROTECTED_CITY_STATE_MULTIPLE">
+      <Text>您確定要向{@1_MinorCivName}要求進貢？其當前的庇護者為：{2_ListOfCivs}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_CAN_BULLY">
+      <Text>他們清楚您的軍事實力，並且願意向您進貢。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_CANNOT_BULLY">
+      <Text>他們不懼怕您的軍隊，因此拒絕向您進貢。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_CULTURE_BONUS">
+      <Text>您每回合從他們那裡獲得[COLOR_POSITIVE_TEXT]{1_CultureBonus}[ICON_CULTURE]文化值[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_FAITH_BONUS">
+      <Text>您每回合從他們那裡獲得[COLOR_POSITIVE_TEXT]{1_Num}[ICON_PEACE]信仰值[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_HAPPINESS_BONUS">
+      <Text>您每回合從他們那裡獲得[COLOR_POSITIVE_TEXT]{1_FlatBonus}[ICON_HAPPINESS_1]幸福度[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ADOPTING_HIS_RELIGION">
+      <Text>[COLOR_POSITIVE_TEXT]您已在您多數城市中信奉了他們的宗教[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ADOPTING_MY_RELIGION">
+      <Text>[COLOR_POSITIVE_TEXT]他們很樂意在其多數城市中信奉您的宗教[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY">
+      <Text>接受大使館</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_HAVE">
+      <Text>[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]我們已在其首都建有大使館！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_TECH_OTHER_PLAYER">
+      <Text>[NEWLINE][NEWLINE]他們沒有建立大使館所需的科技（書寫）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_NO_TECH_PLAYER">
+      <Text>[NEWLINE][NEWLINE]您沒有建立大使館所需的科技（書寫）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_THEY_HAVE">
+      <Text>[NEWLINE][NEWLINE][COLOR_NEGATIVE_TEXT]他們已在我們的首都建有大使館！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_ALLOW_EMBASSY_TT">
+      <Text>允許開放邊境並簽署防禦協定。也允許您掌握另一名玩家首都的位置。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BOTH_NEED_EMBASSY_TT">
+      <Text>[NEWLINE][NEWLINE]雙方都需要建有大使館才可以交易此物品。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BULLY_CITY_STATE_PROMISE_BROKEN">
+      <Text>[COLOR_NEGATIVE_TEXT]您曾承諾不再向他們保護的城邦索取貢品，但您未遵守諾言！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_BULLY_CITY_STATE_PROMISE_IGNORED">
+      <Text>[COLOR_NEGATIVE_TEXT]他們曾要求您停止向他們保護的城邦索取貢品，但您選擇了置之不理！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CAUGHT_STEALING">
+      <Text>[COLOR_NEGATIVE_TEXT]您的間諜在竊取科技時遭逮捕。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_CITY_STATE_PROMISE_BROKEN_WITH_OTHERS">
+      <Text>[COLOR_NEGATIVE_TEXT]您曾承諾不會攻擊他們保護的城邦，但您未準守諾言！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DEF_PACT_NO_TECH">
+      <Text>[NEWLINE][NEWLINE]雙方均無達成這項交易所需科技（騎士制度）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DENOUNCED_BY_PEOPLE_WE_TRUST_MORE">
+      <Text>[COLOR_NEGATIVE_TEXT]其他關係跟我們比較好的文明譴責了您！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_CAUGHT_DECLARE_WAR">
+      <Text>對{1_LeaderName}宣戰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_CAUGHT_DEMAND_STOP_SPYING">
+      <Text>我們要求你停止對我們的間諜行動。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_CAUGHT_DENOUNCE_FOR_SPYING">
+      <Text>公開譴責{1_LeaderName}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_CAUGHT_FORGIVE_SPYING">
+      <Text>我們決定饒恕你這次的惡行。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_DONT_FORGIVE_SPYING">
+      <Text>我無法容忍這冒犯行為。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_DONT_STOP_CONVERSIONS">
+      <Text>我們的傳教士和預言家想去哪裡就去哪裡。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_FORGIVE_SPYING">
+      <Text>我寬恕你。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_SHARE_INTRIGUE">
+      <Text>與{1_LeaderName}分享密報。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_SHARE_INTRIGUE_TT">
+      <Text>與{1_LeaderName}分享己方間諜所收集到的密報。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_STOP_SPREADING_RELIGION">
+      <Text>讓你的傳教士和預言家離我城市遠點。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_STOP_SPYING">
+      <Text>讓你的間諜滾出去！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_NOT_SORRY_FOR_SPY_CAUGHT">
+      <Text>我的探員想去哪里就去哪里。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_NOT_SORRY_FOR_SPY_KILLED">
+      <Text>就連死亡也阻擋不了我的雄心！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_PROTECTED_MINOR_DISPUTE_TT">
+      <Text>保持與{2_MinorCivName:textkey}的關係，但您會暫時激怒{1_CivName:textkey}，並可能擴大至戰爭。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_PROTECTED_MINOR_FORGIVE_TT">
+      <Text>保持與{1_CivName:textkey}的關係，但是您必須撤回保護{2_MinorCivName:textkey}的承諾，並且失去{3_InfluenceLoss}[ICON_INFLUENCE]影響力。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_FOR_BULLYING">
+      <Text>很抱歉。我們不會插手他們的事。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_FOR_SPY_CAUGHT">
+      <Text>我保證不會再對您採取間諜行為。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_SORRY_FOR_SPY_KILLED">
+      <Text>我保證不會再對您採取間諜行為。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_STOP_CONVERSIONS">
+      <Text>我們會將傳教士和預言家送到其他地方去。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_FORGAVE_FOR_SPYING">
+      <Text>[COLOR_POSITIVE_TEXT]您寬恕他們的間諜行為[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_HAS_EMBASSY">
+      <Text>[COLOR_POSITIVE_TEXT]他們在您首都建有大使館。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_MILITARY_PROMISE_BROKEN_WITH_OTHERS">
+      <Text>[COLOR_NEGATIVE_TEXT]您曾承諾將您的軍隊撤離其他文明的邊境，但您未遵守諾言！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NEED_DOF_TT">
+      <Text>[NEWLINE][NEWLINE]交易此物品需發表友好宣言（除非此交易為議和條件）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NEED_DOF_TT_ONE_LINE">
+      <Text>交易此物品需發表友好宣言（除非此交易為議和條件）。或考慮進行回合金幣交易。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_CONVERT_PROMISE_BROKEN">
+      <Text>[COLOR_NEGATIVE_TEXT]您曾承諾停止奉勸他們的城市皈依，但您未遵守諾言！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_CONVERT_PROMISE_IGNORED">
+      <Text>[COLOR_NEGATIVE_TEXT]他們要求您停止奉勸其的城市皈依，但您選擇置之不理！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_LAND_DISPUTE">
+      <Text>您沒有爭議性邊境。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_OPEN_BORDERS_NO_TECH">
+      <Text>[NEWLINE][NEWLINE]雙方均無達成這項交易所需的科技（行政事務）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PEACE_TREATY">
+      <Text>和平條約（{1_Turns}回合）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PEACE_TREATY_TURNS">
+      <Text>和平條約（{1_Turns}回合）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PROTECTED_MINORS_BULLIED">
+      <Text>[COLOR_NEGATIVE_TEXT]您已向他們保護的城邦索取貢品！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELATION_EMBASSY_SHARED">
+      <Text>互相建立大使館</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELATION_EMBASSY_THEIR">
+      <Text>對方首都內的大使館</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELATION_EMBASSY_YOUR">
+      <Text>己方首都內的大使館</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELATION_OPEN_BORDERS_SHARED">
+      <Text>互相開放邊境</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELATION_OPEN_BORDERS_THEIR">
+      <Text>他們向您開放的邊境</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELATION_OPEN_BORDERS_YOUR">
+      <Text>您向他們開放的邊境</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RELIGIOUS_CONVERSIONS">
+      <Text>[COLOR_NEGATIVE_TEXT]他們還在傳播自己的宗教，但您已使他們一些城市皈依了您的宗教。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_RESCH_AGREEMENT_NO_TECH">
+      <Text>[NEWLINE][NEWLINE]雙方均無達成這項交易所需科技（教育）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SHARED_INTRIGUE">
+      <Text>[COLOR_POSITIVE_TEXT]您選擇與他們分享間諜收集的密報。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SIDED_WITH_MINOR">
+      <Text>[COLOR_NEGATIVE_TEXT]他們肆掠了您所保護的城邦，您也已將一切看見。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SPY_PROMISE_BROKEN">
+      <Text>[COLOR_NEGATIVE_TEXT]您曾承諾會停止對他們的間諜行為，但您未遵守諾言！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SPY_PROMISE_IGNORED">
+      <Text>[COLOR_NEGATIVE_TEXT]他們要求您停止對其的間諜行為，但您選擇置之不理！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_STOP_SPYING_ASKED">
+      <Text>[COLOR_NEGATIVE_TEXT]您要求他們停止對您的間諜行為。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_THEY_NEED_EMBASSY_TT">
+      <Text>[NEWLINE][NEWLINE]他們需要在您文明中修建大使館才可交易此物品。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_YOU_NEED_EMBASSY_TT">
+      <Text>[NEWLINE][NEWLINE]您需要在該文明內修建大使館才可交易此物品。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FRIENDS_CSTATE_TT">
+      <Text>您與{1_CityStateName:textkey}是[COLOR_POSITIVE_TEXT]朋友[ENDCOLOR]。要成為朋友，您對其的[ICON_INFLUENCE]影響力必須大於其他玩家。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOODY_FAITH">
+      <Text>您發現了一座古老的祭司神殿。祭司向您揭示了神的啟示，賜予您祝福。您已獲得{1_Num}點[ICON_PEACE]信仰值。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GOODY_PROPHET_FAITH">
+      <Text>您發現了一處秘密的宗教社區。傳教士預言了大預言家的降臨。您已獲得{1_Num}點[ICON_PEACE]信仰值。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_GIFT_TILE_IMPROVEMENT_HELP">
+      <Text>在單元格上為此城邦建造一個單元格改良設施，並讓城邦得以取得資源。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_ENHANCE_RELIGION_DISABLED_HELP">
+      <Text>此宗教需單位進駐聖城！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_ENHANCE_RELIGION_HELP">
+      <Text>此指令將消耗偉人，同時允許您向您宗教內添加兩項新信條。您也可選擇購買異端審問官來捍衛宗教。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_FOUND_RELIGION_DISABLED_HELP">
+      <Text>單位需進入您其中一座城市。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_FOUND_RELIGION_HELP">
+      <Text>此指令將消耗偉人，創立新宗教。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_MAJORITY_RELIGION">
+      <Text>此城首要宗教將是[COLOR_POSITIVE_TEXT]{1_ReligionName}[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_MAJORITY_RELIGION_NONE">
+      <Text>此城將無首要宗教。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_REMOVE_HERESY_DISABLED_HELP">
+      <Text>單位須進駐或鄰接於友方城市。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_REMOVE_HERESY_HELP">
+      <Text>此指令將移除鄰近友方城市中的其他宗教信仰者，同時消耗異端審問官。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_REPAIR_FLEET_HELP">
+      <Text>此指令將消耗海軍上將，以修復您所有在此單元格或鄰近單元格中的海上及海運單位。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SPREAD_RELIGION_DISABLED_HELP">
+      <Text>單位需進駐或鄰接與城市（不需是友方城市）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SPREAD_RELIGION_HELP">
+      <Text>此指令將使鄰近城市的市民皈依該單位的宗教。若為該單位的最後一次傳教行動，其將被消耗。使用大預言家進行傳教還可移除其他宗教的影響。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SPREAD_RELIGION_RESULT">
+      <Text>此行動後，[COLOR_POSITIVE_TEXT]{2_NumFollowers}[ENDCOLOR]市民將信奉[COLOR_POSITIVE_TEXT]{1_ReligionName}[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_START_GOLDENAGE_HELP">
+      <Text>此指令將消耗掉大藝術家，並開啟一個[ICON_GOLDEN_AGE]黃金時代（獲得{1_Num}回合額外的[ICON_PRODUCTION]、[ICON_GOLD]、[ICON_CULTURE]）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NEUTRAL_CSTATE_TT">
+      <Text>{1_CityStateName:textkey}既不喜歡也不討厭您。完成委託或贈送[ICON_GOLD]金幣將改善彼此的關係。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_BORDER_PROMISE_EXPIRED">
+      <Text>多年來您均未在{1_CivDesc}附近開拓邊界。您已兌現承諾。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_BORDER_PROMISE_EXPIRED_S">
+      <Text>您信守邊界之約。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_EXPANSION_PROMISE_EXPIRED">
+      <Text>多年來您均未在{1_CivDesc}附近建立城市。您已兌現承諾。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_EXPANSION_PROMISE_EXPIRED_S">
+      <Text>您信守擴張之約。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FAITH_GREAT_PERSON">
+      <Text>信仰極高，偉人誕生！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FAITH_GREAT_PERSON_TT">
+      <Text>您已累積足夠的信仰值，可任選一位偉人！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GREAT_ARTIST_STOLE_PLOT">
+      <Text>{1_CivName:textkey}用大將軍偷走了您的一些領土！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MAYA_LONG_COUNT">
+      <Text>馬雅長紀曆加成</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MAYA_LONG_COUNT_TT">
+      <Text>馬雅長紀曆的伯克盾當前週期已結束。為慶祝馬雅歷史上里程碑的到來，您可選擇一項加成！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT">
+      <Text>{@2_MinorCivName}經由聯姻與{@1_CivName}結盟！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT_TT_1">
+      <Text>一名來自{@1_CivName}的美麗公主嫁給了{@2_MinorCivName}的貴族。經由政治聯姻，{@2_MinorCivName}已被永久納入{@1_CivName}的領土。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_BUYOUT_TT_2">
+      <Text>一名來自{@1_CivName}的英俊王子娶{@2_MinorCivName}的貴婦為妻。經由政治聯姻，{@2_MinorCivName}已被永久納入{@1_CivName}的領土。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_MERCANTILE">
+      <Text>（{1_NumHappiness}[ICON_HAPPINESS_1]幸福度）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_LOST_RELIGIOUS">
+      <Text>（每回合損失{1_NumFaith}點[ICON_PEACE]信仰值 ） </Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MERCANTILE">
+      <Text>作為[COLOR_POSITIVE_TEXT]商業[ENDCOLOR]城邦，其異國商品在您帝國內大行其道！（+{1_NumHappiness}[ICON_HAPPINESS_1]幸福度）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_MILITARISTIC">
+      <Text>作為[COLOR_POSITIVE_TEXT]尚武[ENDCOLOR]城邦，其將定期為您提供軍事單位。有時甚至會提供您通常無法生產的特色單位。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_ALLIES_RELIGIOUS">
+      <Text>作為[COLOR_POSITIVE_TEXT]宗教[ENDCOLOR]城邦，其贈與您價值連城的宗教遺物！（每回合+{1_NumFaith}點[ICON_PEACE]信仰值）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_MERCANTILE">
+      <Text>作為[COLOR_POSITIVE_TEXT]商業[ENDCOLOR]城邦，其將為您的子民供應異國商品。（+{1_NumHappiness}點[ICON_HAPPINESS_1]幸福度）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_NOW_FRIENDS_RELIGIOUS">
+      <Text>作為[COLOR_POSITIVE_TEXT]宗教[ENDCOLOR]城邦，其將會與您分享有關宗教儀式的知識！（每回合+{1_NumFaith}點[ICON_PEACE]信仰值）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINORS_NOW_WARY">
+      <Text>城邦江河日下</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINORS_NOW_WARY_TT">
+      <Text>您對周邊弱小鄰邦的欺淩已引起公憤。對這些城邦[ICON_INFLUENCE]的影響力減少[COLOR_NEGATIVE_TEXT]{1_InfluenceMinimum}[ENDCOLOR]；要繼續維持友誼，必須付出更高的代價：[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED">
+      <Text>{@1_CivName}已開始尊崇萬神殿眾神。他們已選擇下列信條：{2_BeliefName}（{@3_BeliefDesc}）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED_ACTIVE_PLAYER">
+      <Text>您的子民已開始尊崇萬神殿眾神。他們已選如下信條：{1_BeliefName}（{@2_BeliefDesc}）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED_S">
+      <Text>萬神殿已建立</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_FOUNDED_UNKNOWN">
+      <Text>一個未曾謀面的文明已開始尊崇萬神殿眾神。他們已選如下信條：{1_BeliefName}（{@2_BeliefDesc}）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_BULLY_CITY_STATE">
+      <Text>{2_MinorCivName:textkey}的領袖一直對其他城邦的繁盛景況保持高度關注，並希望您出手幫助確認這些潛在對手的具體狀況。若您向{1_TargetName:textkey}要求任何形式的回報，他們皆會設法滿足。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_BULLY_CITY_STATE">
+      <Text>瞭解到對手{1_TargetName:textkey}侷促不安並放棄艱難獲得的資源，{2_MinorCivName:textkey}幸災樂禍地笑了。您對其[ICON_INFLUENCE]影響力增加了[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONNECT_RESOURCE">
+      <Text>應{2_MinorCivName:textkey}要求，您已成功將{1_ResourceName}連接至貿易網中！該國商人樂不可支，而您對其[ICON_INFLUENCE]影響力增加了[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONSTRUCT_WONDER">
+      <Text>應{2_MinorCivName:textkey}要求，您已成功建造了{1_WonderName}！您對其[ICON_INFLUENCE]影響力增加了[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_CULTURE">
+      <Text>您的文化讓{1_MinorCivName:textkey}五體投地！他們對其他文明的文化視若無睹，而您對他們的[ICON_INFLUENCE]影響力增加了[COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR]。成功影響的文明（包括平手）：[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_FAITH">
+      <Text>您的虔誠讓{1_MinorCivName:textkey}的神職人員深受感動。他們無視其他文明的次級信仰，而您對他們的[ICON_INFLUENCE]影響力增加了[COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR]。成功影響的文明（包括平手）：[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_CONTEST_TECHS">
+      <Text>您高速發展的科技讓{1_MinorCivName:textkey}感到驚嘆不已！他們的科學家和知識份子均認為其他文明的科技發展停滯不前，而您對他們的[ICON_INFLUENCE]影響力增加了[COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR]。成功影響的文明（包括平手）：[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_DENOUNCE_MAJOR">
+      <Text>{2_MinorCivName:textkey}對於世界列強已瞭解他們遭受{1_TargetName:textkey}的不公義對待一事感到安心。您對他們的[ICON_INFLUENCE]影響力增加[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_NATURAL_WONDER">
+      <Text>您新發現的自然奇觀上啟發了{1_MinorCivName:textkey}的人民！由於您的努力，您對他們的[ICON_INFLUENCE]影響力增加了[COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_FIND_PLAYER">
+      <Text>您對{1_TargetName:textkey}的發現讓{2_MinorCivName:textkey}的商人欣喜萬分。您對他們的[ICON_INFLUENCE]影響力增加了[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_GIVE_GOLD">
+      <Text>您餽贈的金幣使得{2_MinorCivName:textkey}向{1_BullyName:textkey}納貢後恢復了元氣！您對他們的[ICON_INFLUENCE]影響力增加了[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]，而其也會對將來的納貢要求持抵觸態度。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_GREAT_PERSON">
+      <Text>應{2_MinorCivName:textkey}要求，您已成功誕生了偉人{1_UnitName}！他們的飽學之士頂禮膜拜，您對他們的[ICON_INFLUENCE]影響力增加了[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_INVEST">
+      <Text>{1_MinorCivName:textkey}已順利完成工程！贈送金幣獲得的[ICON_INFLUENCE]影響力恢復為正常值。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CAMP">
+      <Text>您已應{1_MinorCivName:textkey}要求消滅了蠻族營地！您對他們的[ICON_INFLUENCE]影響力增加了[COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_KILL_CITY_STATE">
+      <Text>您消滅了{1_TargetName:textkey}後，{2_MinorCivName:textkey}喜上眉梢！他們對您提供的協助不勝感激，您對其[ICON_INFLUENCE]影響力增加了[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_PLEDGE_TO_PROTECT">
+      <Text>您承諾為{2_MinorCivName:textkey}提供庇護，幫助其向{1_BullyName:textkey}納貢後恢復元氣！您對他們的[ICON_INFLUENCE]影響力增加了[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]，而其也會對將來的納貢要求持抵觸態度。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_SPREAD_RELIGION">
+      <Text>{@2_MinorCivName}的市民笑顏逐開地看到{@1_ReligionName}傳播到其城市里並成為主要宗教。您對他們的[ICON_INFLUENCE]影響力增加了[COLOR_POSITIVE_TEXT]{3_InfluenceReward}[ENDCOLOR]！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONTEST_CULTURE">
+      <Text>{3_MinorCivName:textkey}的藝術呈欣欣向榮之勢，其正尋求文化嚮導。在{2_TurnsDuration}回合內產出最多[ICON_CULTURE]文化值的國家將會提高對其的[ICON_INFLUENCE]影響力。餘下[COLOR_POSITIVE_TEXT]{1_TurnsRemaining}回合。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONTEST_FAITH">
+      <Text>{3_MinorCivName:textkey}的人民正在世界範圍內尋求宗教嚮導。在{2_TurnsDuration}回合內累積最多[ICON_PEACE]信仰值的國家將提高對其的[ICON_INFLUENCE]影響力。餘下[COLOR_POSITIVE_TEXT]{1_TurnsRemaining}回合。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_CONTEST_TECHS">
+      <Text>{3_MinorCivName:textkey}的頂尖科技人才希望能和有實力快速取得科學新發現的文明建立更緊密的關係。在{2_TurnsDuration}回合內解鎖最多科技將提高對其的[ICON_INFLUENCE]影響力。餘下[COLOR_POSITIVE_TEXT]{1_TurnsRemaining}回合。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_DENOUNCE_MAJOR">
+      <Text>{2_MinorCivName:textkey}最近遭到{1_TargetName:textkey}的百般凌辱後，正尋找讓世界列強對此事引起關注的方法。若您譴責{1_TargetName:textkey}，他們將非常感激並給與您回報。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_CULTURE">
+      <Text>另一個文明的文化已讓{1_MinorCivName:textkey}過目不忘。您的文化成長仍不足，因此對其的[ICON_INFLUENCE]影響力維持不變。成功達成的文明（包括平手）：[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_FAITH">
+      <Text>另一個文明以其信仰讓{1_MinorCivName:textkey}自歎不如。您的信仰成長仍不足，因此對其的[ICON_INFLUENCE]影響力維持不變。成功達成的文明（包括平手）：[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_CONTEST_TECHS">
+      <Text>另一個文明以其尖端科技讓{1_MinorCivName:textkey}豔羨不已。您的科技發明仍不足，因此對其的[ICON_INFLUENCE]影響力維持不變。成功的文明（包括平手）：[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_INVEST">
+      <Text>{1_MinorCivName:textkey}已完成其工程！透過贈送金幣提高的[ICON_INFLUENCE]影響力恢復為正常值。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_OTHER">
+      <Text>在長時間的等待後，{1_MinorCivName:textkey}的領袖決定取消先前向您提出的委託。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_ENDED_REVOKED">
+      <Text>因為您向{1_MinorCivName:textkey}要求納貢，他們已收回先前向您提出的委託。必須經過一段時間後他們才會重新提出委託。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_GIVE_GOLD">
+      <Text>{2_MinorCivName:textkey}最近被迫向{1_BullyName:textkey}納貢，以致國庫空虛。為恢復元氣，他們向您提出資金援助請求。若滿足此請求，他們將會與您回報並會對將來的納貢要求持抵觸態度。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_GIVEN_CONDENSED">
+      <Text>可開始滿足城邦的新委託。若您順利達成，便可獲得對此城邦的[ICON_INFLUENCE]影響力（請至「外交」選單中的「城邦」欄位中查看所有委託）。[NEWLINE][NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_INVEST">
+      <Text>{3_MinorCivName:textkey}正在進行一項大規模的公共工程。在此期間贈與的每枚金幣均意義非凡，提供額外[COLOR_POSITIVE_TEXT]{2_BoostPercentage}%[ENDCOLOR]的[ICON_INFLUENCE]影響力。餘下[COLOR_POSITIVE_TEXT]{1_TurnsRemaining}回合。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_PLEDGE_TO_PROTECT">
+      <Text>{2_MinorCivName:textkey}最近被迫向{1_BullyName:textkey}納貢，因此尋求列強的庇護。若您承諾對他們進行保護，將會獲得回報。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_SPREAD_RELIGION">
+      <Text>{@2_MinorCivName}的一部分公民已聽聞{@1_ReligionName}的教義並希望您能將此宗教傳播到他們的城市中。如果{@1_ReligionName}成為主要宗教，您對他們的[ICON_INFLUENCE]影響力將會上升。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_ENHANCED">
+      <Text>{1_CivName}已納入了新的信條以強化其宗教{@2_ReligionName}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_ENHANCED_ACTIVE_PLAYER">
+      <Text>您已納入新的信條以強化宗教{@1_ReligionName}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_ENHANCED_S">
+      <Text>宗教強化</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_ENHANCED_UNKNOWN">
+      <Text>一個未曾謀面的文明已納入新的信條以強化其宗教{@1_ReligionName}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED">
+      <Text>{1_CivName}已於聖城{@3_CityName}中創立了新宗教{@2_ReligionName}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED_ACTIVE_PLAYER">
+      <Text>您已在聖城{@2_CityName}中創立了新宗教{@1_ReligionName}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED_S">
+      <Text>已創立宗教</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_FOUNDED_UNKNOWN">
+      <Text>一個未曾謀面的文明已在其城市中創立了新宗教{@1_ReligionName}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_SPREAD_ACTIVE_PLAYER">
+      <Text>{1_CityName}已改信其他宗教！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_SPREAD_ACTIVE_PLAYER_S">
+      <Text>您的城市已改變信仰！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_SPREAD_INITIAL_CONVERSION">
+      <Text>{1_CityName}信奉了一種宗教！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_SPREAD_INITIAL_CONVERSION_S">
+      <Text>您的城市已有信仰</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_BULLY_CITY_STATE">
+      <Text>{2_MinorCivName:textkey}希望{1_TargetName:textkey}被欺凌。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_BULLY_CITY_STATE">
+      <Text>為{2_MinorCivName:textkey}欺凌{1_TargetName:textkey}！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONTEST_CULTURE">
+      <Text>{1_MinorCivName:textkey}敬畏您！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONTEST_FAITH">
+      <Text>{1_MinorCivName:textkey}敬畏您！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_CONTEST_TECHS">
+      <Text>{1_MinorCivName:textkey}敬畏您！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_DENOUNCE_MAJOR">
+      <Text>為{2_MinorCivName:textkey}譴責{1_TargetName:textkey}！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_GIVE_GOLD">
+      <Text>金幣援助{1_MinorCivName:textkey}！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_INVEST">
+      <Text>{1_MinorCivName:textkey}不再需要投資者了</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_PLEDGE_TO_PROTECT">
+      <Text>承諾保護{1_MinorCivName:textkey}!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_SPREAD_RELIGION">
+      <Text>{@1_ReligionName}已傳到{@2_MinorCivName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONTEST_CULTURE">
+      <Text>{1_MinorCivName:textkey}渴望文化值！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONTEST_FAITH">
+      <Text>{1_MinorCivName:textkey}需要信仰值！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_CONTEST_TECHS">
+      <Text>{1_MinorCivName:textkey}尋求科技值！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_DENOUNCE_MAJOR">
+      <Text>{2_MinorCivName:textkey}尋求正義以對抗{1_TargetName:textkey}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONTEST_CULTURE">
+      <Text>{1_MinorCivName:textkey}轉向他處找尋</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONTEST_FAITH">
+      <Text>{1_MinorCivName:textkey}轉向他處追尋</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_CONTEST_TECHS">
+      <Text>{1_MinorCivName:textkey}已無需投資者</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_INVEST">
+      <Text>{1_MinorCivName:textkey}不再需要投資者了</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_OTHER">
+      <Text>{1_MinorCivName:textkey}取消任務</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_ENDED_REVOKED">
+      <Text>{1_MinorCivName:textkey}撤銷任務</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_GIVE_GOLD">
+      <Text>{1_MinorCivName:textkey}破產了！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_GIVEN_CONDENSED">
+      <Text>城邦新委託</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_INVEST">
+      <Text>{1_MinorCivName:textkey}尋找投資人！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_PLEDGE_TO_PROTECT">
+      <Text>{1_MinorCivName:textkey}尋求保護！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_SPREAD_RELIGION">
+      <Text>{@2_MinorCivName}想信仰{@1_ReligionName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_CANCEL">
+      <Text>您與{1_CivName:textkey}的研究協定已取消。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NTFN_RA_FREE_TECH_CANCEL_S">
+      <Text>研究協定已取消！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_AESTHETICS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]領事館[ENDCOLOR][NEWLINE]對所有城邦的基礎[ICON_INFLUENCE]影響力增加20。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_AUTOCRACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]獨裁政策[ENDCOLOR]適用於夢想征服世界的好戰文明。[NEWLINE][NEWLINE]選擇獨裁政策可使單位的[ICON_GOLD]維護費用減少33%，使國家能建立更龐大的軍隊。被佔領的城市產出的每點[ICON_CULTURE]文化值，可相對應提供給玩家10點[ICON_CULTURE]文化值。[NEWLINE][NEWLINE]採用獨裁政策中所有條目後，可使所有軍事單位持續50回合獲得25%的攻擊加成。[NEWLINE][NEWLINE]可消耗[ICON_PEACE]信仰值來購買大將軍與海軍上將。[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]此分支不可與自由政策或秩序政策同時啟用。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_FREEDOM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]自由政策[ENDCOLOR]適用於小型而有側重點的國家。該政策分支可提供[ICON_GREAT_PEOPLE]偉人和專業人員的獎勵。[NEWLINE][NEWLINE]選擇自由政策可使[ICON_GREAT_PEOPLE]偉人誕生速度增加25%。[NEWLINE][NEWLINE]採用自由政策的中所有條目後，可使單元格的大型改良設施的產出增加100%，並使[ICON_GOLDEN_AGE]黃金時代的持續時間延長50%。[NEWLINE][NEWLINE]可消耗[ICON_PEACE]信仰值可購買大藝術家。[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]此分支不可與獨裁或秩序政策同時啟用。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_ORDER_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]秩序政策[ENDCOLOR]適用於疆域遼闊並不斷擴張的帝國。該政策分支可視帝國城市數量而增加帝國的實力。[NEWLINE][NEWLINE]選擇秩序政策後，每座城市會+1[ICON_HAPPINESS_1]幸福度。[NEWLINE][NEWLINE]採用秩序政策中所有條目後，可使每座城[ICON_FOOD]食物、[ICON_PRODUCTION]生產力、[ICON_RESEARCH]科技值、[ICON_GOLD]金幣及[ICON_CULTURE]文化值產出全部+2。[NEWLINE][NEWLINE]可消耗[ICON_PEACE]信仰值來購買大工程師。[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]此分支不可與自由政策或獨裁政策同時啟用。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_COMMUNISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]共產主義[ENDCOLOR][NEWLINE]每座城市的[ICON_PRODUCTION]生產力+2，每座礦場或採石場的[ICON_PRODUCTION]生產力+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DISCIPLINE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]軍事紀律[ENDCOLOR][NEWLINE]與其他軍事單位相鄰的近戰單位+15%[ICON_STRENGTH]戰鬥力。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FASCISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]法西斯主義[ENDCOLOR][NEWLINE]戰略資源產量增加100%。所有大將軍的[ICON_MOVES]移動值+2。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FREE_RELIGION">
+      <Text>宗教寬容</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCANTILISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]重商主義[ENDCOLOR][NEWLINE]在城內購買單位或建築的費用減少25%[ICON_GOLD]金幣。每間鑄幣廠、市場、銀行與證券交易所能提供+1[ICON_RESEARCH]科技值。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MILITARY_CASTE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]軍人階層[ENDCOLOR][NEWLINE]每座有駐軍的城市[ICON_HAPPINESS_1]幸福度+1，[ICON_CULTURE]文化值+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_OLIGARCHY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]寡頭政治[ENDCOLOR][NEWLINE]駐軍單位無需維護費，而有駐軍的城市+50%[ICON_RANGE_STRENGTH]遠程戰鬥力。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ORGANIZED_RELIGION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]組織化宗教[ENDCOLOR][NEWLINE]每間神龕與神廟提供+1[ICON_PEACE]信仰值。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PLANNED_ECONOMY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]計畫經濟[ENDCOLOR][NEWLINE]工廠提高使城市的[ICON_RESEARCH]生產力提高25%。建造工廠所需時間減半。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PROTECTIONISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]貿易保護主義[ENDCOLOR][NEWLINE]每種奢侈品資源提供的[ICON_HAPPINESS_1]幸福度+2。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SCIENTIFIC_REVOLUTION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]科學革命[ENDCOLOR][NEWLINE]使研究協定產生的[ICON_RESEARCH]科技值增加50%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SOVEREIGNTY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]主權[ENDCOLOR][NEWLINE][ICON_RESEARCH]科技建築提供+1[ICON_GOLD]金幣。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TOTAL_WAR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]全面戰爭[ENDCOLOR][NEWLINE]生產新的軍事單位時[ICON_PRODUCTION]生產力+25%；新生產的軍事單位初始即可獲得15點經驗值。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_ALLIED_WITH">
+      <Text>盟友：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY">
+      <Text>要求進貢</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_TT">
+      <Text>城邦可提供[ICON_GOLD]金幣與單位，如果強行獲取將降低您對其的[ICON_INFLUENCE]影響力。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT">
+      <Text>政治聯姻</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT_DISABLED_ALLY_TT">
+      <Text>您可以消耗{3_BuyoutCost}[ICON_GOLD]金幣以透過政治联姻獲得此城邦，使其及其單位成為您帝國的一部分。此舉不會導致如同征服城邦時出現的外交減益與不滿度減益。但您將失去與城邦的友誼所帶來的加成及世界議會代表席次。[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]您必須與之結盟{1_NumTurns}回合（目前已{2_TurnsAllied}回合）並擁有{3_BuyoutCost}[ICON_GOLD]金幣以獲得此城邦。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT_DISABLED_TT">
+      <Text>您可以消耗{2_BuyoutCost}[ICON_GOLD]金幣以透過政治联姻獲得此城邦，使其及其單位成為您帝國的一部分。此舉不會導致如同征服城邦時出現的外交減益與不滿度減益。但您將失去與城邦的友誼所帶來的加成及世界議會代表席次。[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]您必須與之結盟{1_NumTurns}回合並擁有{2_BuyoutCost}[ICON_GOLD]金幣以獲得此城邦。[ENDCOLOR] </Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BUYOUT_TT">
+      <Text>您可以消耗{1_BuyoutCost}[ICON_GOLD]金幣以透過政治联姻獲得此城邦，使其及其單位成為您帝國的一部分。此舉不會導致如同征服城邦時出現的外交減益與不滿度減益。但您將失去與城邦的友誼所帶來的加成及世界議會代表席次。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_FIND_ON_MAP">
+      <Text>在地圖中定位</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_INFLUENCE_TT">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]您必須處於和平狀態，並有{1_InfluenceNeededToPledge}或更多的[ICON_INFLUENCE]影響力作出承諾。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_DISABLED_MISTRUST_TT">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]因為您並未遵守之前的承諾，此城邦不再信任您。您需等待{1_TurnsUntilPledgeAvailable}才可再次作出承諾。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_PLEDGE_TT">
+      <Text>承諾保護城邦可使其他主要國家瞭解您將保護該城邦免於受襲與進貢。此舉可能會讓那些不願冒險與您發送衝突的玩家打消攻擊的念頭，但城邦將期望在其被欺凌或受襲的時候與其共處一線。[NEWLINE][NEWLINE]在保護其間，您對城邦的剩餘[ICON_INFLUENCE]影響力將增加{1_InfluenceMinimum}。在承諾{2_TurnsMinimum}回合後，才可撤銷保護。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_QUESTS">
+      <Text>任務：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_RESOURCES">
+      <Text>資源：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_REVOKE_PROTECTION">
+      <Text>撤銷保護</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_REVOKE_PROTECTION_DISABLED_COMMITTED_TT">
+      <Text>[NEWLINE][NEWLINE][COLOR_WARNING_TEXT]您已承諾提供至少{1_TurnsRemaining}回合的保護，在此之前無法進行撤銷。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_REVOKE_PROTECTION_TT">
+      <Text>您無法取消對此城邦的保護承諾。其他主要國家將主義到此事，並可能因此調整對此城邦的行動。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES">
+      <Text>友好城邦提供的[ICON_FOOD]食物、[ICON_CULTURE]文化值和[ICON_PEACE]信仰值皆提高50%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
+      <Text>所有海上近戰單位均擁有獎賞船隻的強化能力，使其可俘獲所擊敗的船隻。海上單位的維護費用為正常值的三分之一。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT">
+      <Text>所有海上單位[ICON_MOVES]移動力+2。額外獲得1個間諜。</Text>
+    </Row>
+  </Language_ZH_Hant_HK>
+</GameData>

@@ -5,10 +5,10 @@
 	<Table name="MinorCivilizations">
 		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
 		<Column name="Type" type="text" notnull="true" unique="true"/>
-		<Column name="Description" type="text"/>
-		<Column name="Civilopedia" type="text"/>
-		<Column name="ShortDescription" type="text"/>
-		<Column name="Adjective" type="text"/>
+		<Column name="Description" type="text" reference="Language_en_US(Tag)"/>
+		<Column name="Civilopedia" type="text" reference="Language_en_US(Tag)"/>
+		<Column name="ShortDescription" type="text" reference="Language_en_US(Tag)"/>
+		<Column name="Adjective" type="text" reference="Language_en_US(Tag)"/>
 		<Column name="ArtDefineTag" type="text"/>
 		<Column name="DefaultPlayerColor" type="text" default="NULL"/>
 		<Column name="ArtStyleType" type="text" default="NULL"/>
@@ -28,43 +28,29 @@
 	<!-- Table data -->
 	<MinorCivilizations>
 		<Row>
-			<ID>0</ID>
-			<Type>MINOR_CIV_WARSAW</Type>
-			<Description>TXT_KEY_CITYSTATE_WARSAW</Description>
-			<ShortDescription>TXT_KEY_CITYSTATE_WARSAW</ShortDescription>
-			<Adjective>TXT_KEY_CITYSTATE_WARSAW_ADJ</Adjective>
-			<Civilopedia>TXT_KEY_CIV5_WARSAW_TEXT</Civilopedia>
+			<Type>MINOR_CIV_BRATISLAVA</Type>
+			<Description>TXT_KEY_CITYSTATE_BRATISLAVA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_BRATISLAVA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_BRATISLAVA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_BRATISLAVA_TEXT</Civilopedia>
 			<DefaultPlayerColor>PLAYERCOLOR_MINOR_WHITE</DefaultPlayerColor>
 			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
 			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
-			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
 			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
 			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
 		</Row>
 		<Row>
-			<Type>MINOR_CIV_EDINBURGH</Type>
-			<Description>TXT_KEY_CITYSTATE_EDINBURGH</Description>
-			<ShortDescription>TXT_KEY_CITYSTATE_EDINBURGH</ShortDescription>
-			<Adjective>TXT_KEY_CITYSTATE_EDINBURGH_ADJ</Adjective>
-			<Civilopedia>TXT_KEY_CIV5_EDINBURGH_TEXT</Civilopedia>
+			<Type>MINOR_CIV_BUDAPEST</Type>
+			<Description>TXT_KEY_CITYSTATE_BUDAPEST</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_BUDAPEST</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_BUDAPEST_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_BUDAPEST_TEXT</Civilopedia>
 			<DefaultPlayerColor>PLAYERCOLOR_MINOR_GRAY</DefaultPlayerColor>
 			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
 			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
 			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
 			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
-			<MinorCivTrait>MINOR_TRAIT_MILITARISTIC</MinorCivTrait>
-		</Row>
-		<Row>
-			<Type>MINOR_CIV_DUBLIN</Type>
-			<Description>TXT_KEY_CITYSTATE_DUBLIN</Description>
-			<ShortDescription>TXT_KEY_CITYSTATE_DUBLIN</ShortDescription>
-			<Adjective>TXT_KEY_CITYSTATE_DUBLIN_ADJ</Adjective>
-			<Civilopedia>TXT_KEY_CIV5_DUBLIN_TEXT</Civilopedia>
-			<DefaultPlayerColor>PLAYERCOLOR_MINOR_BLUE</DefaultPlayerColor>
-			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
-			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
-			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
-			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
 			<MinorCivTrait>MINOR_TRAIT_MILITARISTIC</MinorCivTrait>
 		</Row>
 		<Row>
@@ -78,18 +64,18 @@
 			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
 			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
 			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
-			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+			<MinorCivTrait>MINOR_TRAIT_RELIGIOUS</MinorCivTrait>
 		</Row>
 		<Row>
-			<Type>MINOR_CIV_VENICE</Type>
-			<Description>TXT_KEY_CITYSTATE_VENICE</Description>
-			<ShortDescription>TXT_KEY_CITYSTATE_VENICE</ShortDescription>
-			<Adjective>TXT_KEY_CITYSTATE_VENICE_ADJ</Adjective>
-			<Civilopedia>TXT_KEY_CIV5_VENICE_TEXT</Civilopedia>
+			<Type>MINOR_CIV_RIGA</Type>
+			<Description>TXT_KEY_CITYSTATE_RIGA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_RIGA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_RIGA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_RIGA_TEXT</Civilopedia>
 			<DefaultPlayerColor>PLAYERCOLOR_MINOR_CYAN</DefaultPlayerColor>
 			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
-			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
-			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
 			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
 			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
 		</Row>
@@ -104,7 +90,7 @@
 			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
 			<ArtStyleSuffix>_MED</ArtStyleSuffix>
 			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
-			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+			<MinorCivTrait>MINOR_TRAIT_MERCANTILE</MinorCivTrait>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_FLORENCE</Type>
@@ -133,10 +119,10 @@
 			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
 		</Row>
 		<Row>
-			<Type>MINOR_CIV_COPENHAGEN</Type>
-			<Description>TXT_KEY_CIV5_COPENHAGEN_TITLE</Description>
-			<ShortDescription>TXT_KEY_CIV5_COPENHAGEN_TITLE</ShortDescription>
-			<Adjective>TXT_KEY_CIV5_COPENHAGEN_TITLE</Adjective>
+			<Type>MINOR_CIV_SYDNEY</Type>
+			<Description>TXT_KEY_CITYSTATE_SYDNEY</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_SYDNEY</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_SYDNEY_ADJ</Adjective>
 			<Civilopedia>TXT_KEY_CIV5_COPENHAGEN_TEXT</Civilopedia>
 			<DefaultPlayerColor>PLAYERCOLOR_MINOR_MIDDLE_BLUE</DefaultPlayerColor>
 			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
@@ -146,38 +132,12 @@
 			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
 		</Row>
 		<Row>
-			<Type>MINOR_CIV_OSLO</Type>
-			<Description>TXT_KEY_CIV5_OSLO_TITLE</Description>
-			<ShortDescription>TXT_KEY_CIV5_OSLO_TITLE</ShortDescription>
-			<Adjective>TXT_KEY_CIV5_OSLO_TITLE</Adjective>
+			<Type>MINOR_CIV_QUEBEC_CITY</Type>
+			<Description>TXT_KEY_CITYSTATE_QUEBEC_CITY</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_QUEBEC_CITY</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_QUEBEC_CITY_ADJ</Adjective>
 			<Civilopedia>TXT_KEY_CIV5_OSLO_TEXT</Civilopedia>
 			<DefaultPlayerColor>PLAYERCOLOR_MINOR_BLUE</DefaultPlayerColor>
-			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
-			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
-			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
-			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
-			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
-		</Row>
-		<Row>
-			<Type>MINOR_CIV_STOCKHOLM</Type>
-			<Description>TXT_KEY_CITYSTATE_STOCKHOLM</Description>
-			<ShortDescription>TXT_KEY_CITYSTATE_STOCKHOLM</ShortDescription>
-			<Adjective>TXT_KEY_CITYSTATE_STOCKHOLM_ADJ</Adjective>
-			<Civilopedia>TXT_KEY_CIV5_STOCKHOLM_TEXT</Civilopedia>
-			<DefaultPlayerColor>PLAYERCOLOR_MINOR_MIDDLE_BLUE</DefaultPlayerColor>
-			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
-			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
-			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
-			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
-			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
-		</Row>
-		<Row>
-			<Type>MINOR_CIV_HELSINKI</Type>
-			<Description>TXT_KEY_CITYSTATE_HELSINKI</Description>
-			<ShortDescription>TXT_KEY_CITYSTATE_HELSINKI</ShortDescription>
-			<Adjective>TXT_KEY_CITYSTATE_HELSINKI_ADJ</Adjective>
-			<Civilopedia>TXT_KEY_CIV5_HELSINKI_TEXT</Civilopedia>
-			<DefaultPlayerColor>PLAYERCOLOR_MINOR_GREEN</DefaultPlayerColor>
 			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
 			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
 			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
@@ -198,19 +158,6 @@
 			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
 		</Row>
 		<Row>
-			<Type>MINOR_CIV_BUDAPEST</Type>
-			<Description>TXT_KEY_CITYSTATE_BUDAPEST</Description>
-			<ShortDescription>TXT_KEY_CITYSTATE_BUDAPEST</ShortDescription>
-			<Adjective>TXT_KEY_CITYSTATE_BUDAPEST_ADJ</Adjective>
-			<Civilopedia>TXT_KEY_CIV5_BUDAPEST_TEXT</Civilopedia>
-			<DefaultPlayerColor>PLAYERCOLOR_MINOR_PEACH</DefaultPlayerColor>
-			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
-			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
-			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
-			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
-			<MinorCivTrait>MINOR_TRAIT_MILITARISTIC</MinorCivTrait>
-		</Row>
-		<Row>
 			<Type>MINOR_CIV_BELGRADE</Type>
 			<Description>TXT_KEY_CITYSTATE_BELGRADE</Description>
 			<ShortDescription>TXT_KEY_CITYSTATE_BELGRADE</ShortDescription>
@@ -222,19 +169,6 @@
 			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
 			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
 			<MinorCivTrait>MINOR_TRAIT_MILITARISTIC</MinorCivTrait>
-		</Row>
-		<Row>
-			<Type>MINOR_CIV_VIENNA</Type>
-			<Description>TXT_KEY_CITYSTATE_VIENNA</Description>
-			<ShortDescription>TXT_KEY_CITYSTATE_VIENNA</ShortDescription>
-			<Adjective>TXT_KEY_CITYSTATE_VIENNA_ADJ</Adjective>
-			<Civilopedia>TXT_KEY_CIV5_VIENNA_TEXT</Civilopedia>
-			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_GREEN</DefaultPlayerColor>
-			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
-			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
-			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
-			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
-			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_BRUSSELS</Type>
@@ -263,17 +197,17 @@
 			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
 		</Row>
 		<Row>
-			<Type>MINOR_CIV_SEOUL</Type>
-			<Description>TXT_KEY_CIV5_SEOUL_TITLE</Description>
-			<ShortDescription>TXT_KEY_CIV5_SEOUL_TITLE</ShortDescription>
-			<Adjective>TXT_KEY_CIV5_SEOUL_TITLE</Adjective>
+			<Type>MINOR_CIV_KATHMANDU</Type>
+			<Description>TXT_KEY_CITYSTATE_KATHMANDU</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_KATHMANDU</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_KATHMANDU_ADJ</Adjective>
 			<Civilopedia>TXT_KEY_CIV5_SEOUL_TEXT</Civilopedia>
 			<DefaultPlayerColor>PLAYERCOLOR_MINOR_MIDDLE_PURPLE</DefaultPlayerColor>
 			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
 			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
 			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
 			<ArtStylePrefix>ASIAN </ArtStylePrefix>
-			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+			<MinorCivTrait>MINOR_TRAIT_RELIGIOUS</MinorCivTrait>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_HANOI</Type>
@@ -294,12 +228,12 @@
 			<ShortDescription>TXT_KEY_CITYSTATE_LHASA</ShortDescription>
 			<Adjective>TXT_KEY_CITYSTATE_LHASA_ADJ</Adjective>
 			<Civilopedia>TXT_KEY_CIV5_LHASA_TEXT</Civilopedia>
-			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_PURPLE</DefaultPlayerColor>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_GREEN</DefaultPlayerColor>
 			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
 			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
 			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
 			<ArtStylePrefix>ASIAN </ArtStylePrefix>
-			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+			<MinorCivTrait>MINOR_TRAIT_RELIGIOUS</MinorCivTrait>
 		</Row>
 		<Row>
 			<Type>MINOR_CIV_ALMATY</Type>
@@ -338,14 +272,14 @@
 			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
 			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
 			<ArtStylePrefix>ASIAN </ArtStylePrefix>
-			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+			<MinorCivTrait>MINOR_TRAIT_MERCANTILE</MinorCivTrait>
 		</Row>
 		<Row>
-			<Type>MINOR_CIV_RIO_DE_JANEIRO</Type>
-			<Description>TXT_KEY_CITYSTATE_RIO_DE_JANEIRO</Description>
-			<ShortDescription>TXT_KEY_CITYSTATE_RIO_DE_JANEIRO</ShortDescription>
-			<Adjective>TXT_KEY_CITYSTATE_RIO_DE_JANEIRO</Adjective>
-			<Civilopedia>TXT_KEY_CIV5_RIODEJANEIRO_TEXT</Civilopedia>
+			<Type>MINOR_CIV_PANAMA_CITY</Type>
+			<Description>TXT_KEY_CITYSTATE_PANAMA_CITY</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_PANAMA_CITY</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_PANAMA_CITY</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_PANAMA_CITY_TEXT</Civilopedia>
 			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_YELLOW</DefaultPlayerColor>
 			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
 			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
@@ -354,7 +288,7 @@
 			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
 		</Row>
 		<Row>
-			<Type>MINOR_CAPE_TOWN</Type>
+			<Type>MINOR_CIV_CAPE_TOWN</Type>
 			<Description>TXT_KEY_CITYSTATE_CAPE_TOWN</Description>
 			<ShortDescription>TXT_KEY_CITYSTATE_CAPE_TOWN</ShortDescription>
 			<Adjective>TXT_KEY_CITYSTATE_CAPE_TOWN_ADJ</Adjective>
@@ -367,7 +301,7 @@
 			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
 		</Row>
 		<Row>
-			<Type>MINOR_SIDON</Type>
+			<Type>MINOR_CIV_SIDON</Type>
 			<Description>TXT_KEY_CITYSTATE_SIDON</Description>
 			<ShortDescription>TXT_KEY_CITYSTATE_SIDON</ShortDescription>
 			<Adjective>TXT_KEY_CITYSTATE_SIDON_ADJ</Adjective>
@@ -380,7 +314,7 @@
 			<MinorCivTrait>MINOR_TRAIT_MILITARISTIC</MinorCivTrait>
 		</Row>
 		<Row>
-			<Type>MINOR_TYRE</Type>
+			<Type>MINOR_CIV_TYRE</Type>
 			<Description>TXT_KEY_CITYSTATE_TYRE</Description>
 			<ShortDescription>TXT_KEY_CITYSTATE_TYRE</ShortDescription>
 			<Adjective>TXT_KEY_CITYSTATE_TYRE_ADJ</Adjective>
@@ -390,29 +324,480 @@
 			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
 			<ArtStyleSuffix>_AFRI</ArtStyleSuffix>
 			<ArtStylePrefix>AFRICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MERCANTILE</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_ANTWERP</Type>
+			<Description>TXT_KEY_CITYSTATE_ANTWERP</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_ANTWERP</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_ANTWERP_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_ANTWERP_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MERCANTILE</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_CAHOKIA</Type>
+			<Description>TXT_KEY_CITYSTATE_CAHOKIA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_CAHOKIA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_CAHOKIA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_CAHOKIA_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_WHITE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MERCANTILE</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_COLOMBO</Type>
+			<Description>TXT_KEY_CITYSTATE_COLOMBO</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_COLOMBO</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_COLOMBO_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_COLOMBO_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MERCANTILE</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_HONG_KONG</Type>
+			<Description>TXT_KEY_CITYSTATE_HONG_KONG</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_HONG_KONG</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_HONG_KONG_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_HONG_KONG_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MERCANTILE</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_ORMUS</Type>
+			<Description>TXT_KEY_CITYSTATE_ORMUS</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_ORMUS</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_ORMUS_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_ORMUS_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_GRAY</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_JERUSALEM</Type>
+			<Description>TXT_KEY_CITYSTATE_JERUSALEM</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_JERUSALEM</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_JERUSALEM_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_JERUSALEM_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_WHITE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_RELIGIOUS</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_LA_VENTA</Type>
+			<Description>TXT_KEY_CITYSTATE_LA_VENTA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_LA_VENTA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_LA_VENTA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_LA_VENTA_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_CYAN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_RELIGIOUS</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_VANCOUVER</Type>
+			<Description>TXT_KEY_CITYSTATE_VANCOUVER</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_VANCOUVER</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_VANCOUVER_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_VANCOUVER_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_MANILA</Type>
+			<Description>TXT_KEY_CITYSTATE_MANILA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_MANILA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_MANILA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_MANILA_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_GREEN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_ANTANANARIVO</Type>
+			<Description>TXT_KEY_CITYSTATE_ANTANANARIVO</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_ANTANANARIVO</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_ANTANANARIVO_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_ANTANANARIVO_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_PEACH</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
+			<ArtStyleSuffix>_AFRI</ArtStyleSuffix>
+			<ArtStylePrefix>AFRICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MERCANTILE</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_MILAN</Type>
+			<Description>TXT_KEY_CITYSTATE_MILAN</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_MILAN</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_MILAN_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_MILAN_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_ORANGE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_MED</ArtStyleSuffix>
+			<ArtStylePrefix>MEDITERRANEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_MOMBASA</Type>
+			<Description>TXT_KEY_CITYSTATE_MOMBASA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_MOMBASA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_MOMBASA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_MOMBASA_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_GREEN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
+			<ArtStyleSuffix>_AFRI</ArtStyleSuffix>
+			<ArtStylePrefix>AFRICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_PRAGUE</Type>
+			<Description>TXT_KEY_CITYSTATE_PRAGUE</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_PRAGUE</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_PRAGUE_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_PRAGUE_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_VALLETTA</Type>
+			<Description>TXT_KEY_CITYSTATE_VALLETTA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_VALLETTA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_VALLETTA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_VALLETTA_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
 			<MinorCivTrait>MINOR_TRAIT_MILITARISTIC</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_VATICAN_CITY</Type>
+			<Description>TXT_KEY_CITYSTATE_VATICAN_CITY</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_VATICAN_CITY</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_VATICAN_CITY_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_VATICAN_CITY_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_YELLOW</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_GRECO_ROMAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_RELIGIOUS</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_WITTENBERG</Type>
+			<Description>TXT_KEY_CITYSTATE_WITTENBERG</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_WITTENBERG</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_WITTENBERG_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_WITTENBERG_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_RELIGIOUS</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_YEREVAN</Type>
+			<Description>TXT_KEY_CITYSTATE_YEREVAN</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_YEREVAN</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_YEREVAN_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_YEREVAN_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_PEACH</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_ZANZIBAR</Type>
+			<Description>TXT_KEY_CITYSTATE_ZANZIBAR</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_ZANZIBAR</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_ZANZIBAR_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_ZANZIBAR_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_AFRI</ArtStyleSuffix>
+			<ArtStylePrefix>AFRICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MERCANTILE</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_ZURICH</Type>
+			<Description>TXT_KEY_CITYSTATE_ZURICH</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_ZURICH</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_ZURICH_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_ZURICH_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_GRAY</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MERCANTILE</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_SAMARKAND</Type>
+			<Description>TXT_KEY_CITYSTATE_SAMARKAND</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_SAMARKAND</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_SAMARKAND_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_SAMARKAND_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_MIDDLE_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MERCANTILE</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_MALACCA</Type>
+			<Description>TXT_KEY_CITYSTATE_MALACCA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_MALACCA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_MALACCA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_MALACCA_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_CYAN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MERCANTILE</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_MOGADISHU</Type>
+			<Description>TXT_KEY_CITYSTATE_MOGADISHU</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_MOGADISHU</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_MOGADISHU_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_MOGADISHU_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
+			<ArtStyleSuffix>_AFRI</ArtStyleSuffix>
+			<ArtStylePrefix>AFRICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_BYBLOS</Type>
+			<Description>TXT_KEY_CITYSTATE_BYBLOS</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_BYBLOS</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_BYBLOS_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_BYBLOS_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_MIDDLE_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
+			<ArtStyleSuffix>_AFRI</ArtStyleSuffix>
+			<ArtStylePrefix>AFRICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_KYZYL</Type>
+			<Description>TXT_KEY_CITYSTATE_KYZYL</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_KYZYL</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_KYZYL_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_KYZYL_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_MIDDLE_CYAN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_IFE</Type>
+			<Description>TXT_KEY_CITYSTATE_IFE</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_IFE</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_IFE_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_IFE_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_GRAY</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
+			<ArtStyleSuffix>_AFRI</ArtStyleSuffix>
+			<ArtStylePrefix>AFRICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_RELIGIOUS</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_KIEV</Type>
+			<Description>TXT_KEY_CITYSTATE_KIEV</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_KIEV</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_KIEV_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_KIEV_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_BLUE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_BUENOS_AIRES</Type>
+			<Description>TXT_KEY_CITYSTATE_BUENOS_AIRES</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_BUENOS_AIRES</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_BUENOS_AIRES_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_BUENOS_AIRES_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_MBANZA_KONGO</Type>
+			<Description>TXT_KEY_CITYSTATE_MBANZA_KONGO</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_MBANZA_KONGO</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_MBANZA_KONGO_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_MBANZA_KONGO_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_CYAN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
+			<ArtStyleSuffix>_AFRI</ArtStyleSuffix>
+			<ArtStylePrefix>AFRICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MILITARISTIC</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_KABUL</Type>
+			<Description>TXT_KEY_CITYSTATE_KABUL</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_KABUL</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_KABUL_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_KABUL_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_GREEN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_ASIAN</ArtStyleType>
+			<ArtStyleSuffix>_ASIA</ArtStyleSuffix>
+			<ArtStylePrefix>ASIAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_SOFIA</Type>
+			<Description>TXT_KEY_CITYSTATE_SOFIA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_SOFIA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_SOFIA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_SOFIA_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_GREEN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MILITARISTIC</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_UR</Type>
+			<Description>TXT_KEY_CITYSTATE_UR</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_UR</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_UR_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_UR_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
+			<ArtStyleSuffix>_AFRI</ArtStyleSuffix>
+			<ArtStylePrefix>AFRICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_MELBOURNE</Type>
+			<Description>TXT_KEY_CITYSTATE_MELBOURNE</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_MELBOURNE</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_MELBOURNE_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_MELBOURNE_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_GREEN</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MERCANTILE</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_BOGOTA</Type>
+			<Description>TXT_KEY_CITYSTATE_BOGOTA</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_BOGOTA</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_BOGOTA_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_BOGOTA_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_MIDDLE_PURPLE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_SOUTH_AMERICA</ArtStyleType>
+			<ArtStyleSuffix>_AMER</ArtStyleSuffix>
+			<ArtStylePrefix>AMERICAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_CULTURED</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_VILNIUS</Type>
+			<Description>TXT_KEY_CITYSTATE_VILNIUS</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_VILNIUS</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_VILNIUS_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_VILNIUS_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_LIGHT_ORANGE</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MERCANTILE</MinorCivTrait>
+		</Row>
+		<Row>
+			<Type>MINOR_CIV_WELLINGTON</Type>
+			<Description>TXT_KEY_CITYSTATE_WELLINGTON</Description>
+			<ShortDescription>TXT_KEY_CITYSTATE_WELLINGTON</ShortDescription>
+			<Adjective>TXT_KEY_CITYSTATE_WELLINGTON_ADJ</Adjective>
+			<Civilopedia>TXT_KEY_CIV5_WELLINGTON_TEXT</Civilopedia>
+			<DefaultPlayerColor>PLAYERCOLOR_MINOR_PEACH</DefaultPlayerColor>
+			<ArtDefineTag>ART_DEF_CIVILIZATION_MINOR</ArtDefineTag>
+			<ArtStyleType>ARTSTYLE_EUROPEAN</ArtStyleType>
+			<ArtStyleSuffix>_EURO</ArtStyleSuffix>
+			<ArtStylePrefix>EUROPEAN </ArtStylePrefix>
+			<MinorCivTrait>MINOR_TRAIT_MARITIME</MinorCivTrait>
 		</Row>
 	</MinorCivilizations>
 	<MinorCivilization_CityNames>
 		<Row>
-			<MinorCivType>MINOR_CIV_WARSAW</MinorCivType>
-			<CityName>TXT_KEY_CITYSTATE_WARSAW</CityName>
+			<MinorCivType>MINOR_CIV_BRATISLAVA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_BRATISLAVA</CityName>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_EDINBURGH</MinorCivType>
-			<CityName>TXT_KEY_CITYSTATE_EDINBURGH</CityName>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_DUBLIN</MinorCivType>
-			<CityName>TXT_KEY_CITYSTATE_DUBLIN</CityName>
+			<MinorCivType>MINOR_CIV_BUDAPEST</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_BUDAPEST</CityName>
 		</Row>
 		<Row>
 			<MinorCivType>MINOR_CIV_GENEVA</MinorCivType>
 			<CityName>TXT_KEY_CITYSTATE_GENEVA</CityName>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_VENICE</MinorCivType>
-			<CityName>TXT_KEY_CITYSTATE_VENICE</CityName>
+			<MinorCivType>MINOR_CIV_RIGA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_RIGA</CityName>
 		</Row>
 		<Row>
 			<MinorCivType>MINOR_CIV_GENOA</MinorCivType>
@@ -427,36 +812,20 @@
 			<CityName>TXT_KEY_CITYSTATE_RAGUSA</CityName>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_COPENHAGEN</MinorCivType>
-			<CityName>TXT_KEY_CIV5_COPENHAGEN_TITLE</CityName>
+			<MinorCivType>MINOR_CIV_SYDNEY</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_SYDNEY</CityName>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_OSLO</MinorCivType>
-			<CityName>TXT_KEY_CIV5_OSLO_TITLE</CityName>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_STOCKHOLM</MinorCivType>
-			<CityName>TXT_KEY_CITYSTATE_STOCKHOLM</CityName>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_HELSINKI</MinorCivType>
-			<CityName>TXT_KEY_CITYSTATE_HELSINKI</CityName>
+			<MinorCivType>MINOR_CIV_QUEBEC_CITY</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_QUEBEC_CITY</CityName>
 		</Row>
 		<Row>
 			<MinorCivType>MINOR_CIV_BUCHAREST</MinorCivType>
 			<CityName>TXT_KEY_CITYSTATE_BUCHAREST</CityName>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_BUDAPEST</MinorCivType>
-			<CityName>TXT_KEY_CITYSTATE_BUDAPEST</CityName>
-		</Row>
-		<Row>
 			<MinorCivType>MINOR_CIV_BELGRADE</MinorCivType>
 			<CityName>TXT_KEY_CITYSTATE_BELGRADE</CityName>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_VIENNA</MinorCivType>
-			<CityName>TXT_KEY_CITYSTATE_VIENNA</CityName>
 		</Row>
 		<Row>
 			<MinorCivType>MINOR_CIV_BRUSSELS</MinorCivType>
@@ -467,8 +836,8 @@
 			<CityName>TXT_KEY_CITYSTATE_MONACO</CityName>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_SEOUL</MinorCivType>
-			<CityName>TXT_KEY_CIV5_SEOUL_TITLE</CityName>
+			<MinorCivType>MINOR_CIV_KATHMANDU</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_KATHMANDU</CityName>
 		</Row>
 		<Row>
 			<MinorCivType>MINOR_CIV_HANOI</MinorCivType>
@@ -491,117 +860,222 @@
 			<CityName>TXT_KEY_CITYSTATE_SINGAPORE</CityName>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_RIO_DE_JANEIRO</MinorCivType>
-			<CityName>TXT_KEY_CITYSTATE_RIO_DE_JANEIRO</CityName>
+			<MinorCivType>MINOR_CIV_PANAMA_CITY</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_PANAMA_CITY</CityName>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CAPE_TOWN</MinorCivType>
+			<MinorCivType>MINOR_CIV_CAPE_TOWN</MinorCivType>
 			<CityName>TXT_KEY_CITYSTATE_CAPE_TOWN</CityName>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_SIDON</MinorCivType>
+			<MinorCivType>MINOR_CIV_SIDON</MinorCivType>
 			<CityName>TXT_KEY_CITYSTATE_SIDON</CityName>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_TYRE</MinorCivType>
+			<MinorCivType>MINOR_CIV_TYRE</MinorCivType>
 			<CityName>TXT_KEY_CITYSTATE_TYRE</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ANTWERP</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_ANTWERP</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CAHOKIA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_CAHOKIA</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_COLOMBO</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_COLOMBO</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HONG_KONG</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_HONG_KONG</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ORMUS</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_ORMUS</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_JERUSALEM</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_JERUSALEM</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_LA_VENTA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_LA_VENTA</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VANCOUVER</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_VANCOUVER</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MANILA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_MANILA</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ANTANANARIVO</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_ANTANANARIVO</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MILAN</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_MILAN</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MOMBASA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_MOMBASA</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PRAGUE</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_PRAGUE</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VALLETTA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_VALLETTA</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VATICAN_CITY</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_VATICAN_CITY</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_WITTENBERG</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_WITTENBERG</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_YEREVAN</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_YEREVAN</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ZANZIBAR</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_ZANZIBAR</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ZURICH</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_ZURICH</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SAMARKAND</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_SAMARKAND</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MALACCA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_MALACCA</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MOGADISHU</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_MOGADISHU</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BYBLOS</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_BYBLOS</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KYZYL</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_KYZYL</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_IFE</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_IFE</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KIEV</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_KIEV</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BUENOS_AIRES</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_BUENOS_AIRES</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MBANZA_KONGO</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_MBANZA_KONGO</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KABUL</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_KABUL</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SOFIA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_SOFIA</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_UR</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_UR</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MELBOURNE</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_MELBOURNE</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BOGOTA</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_BOGOTA</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VILNIUS</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_VILNIUS</CityName>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_WELLINGTON</MinorCivType>
+			<CityName>TXT_KEY_CITYSTATE_WELLINGTON</CityName>
 		</Row>
 	</MinorCivilization_CityNames>
 	<MinorCivilization_Flavors>
 		<Row>
-			<MinorCivType>MINOR_CIV_WARSAW</MinorCivType>
+			<MinorCivType>MINOR_CIV_BRATISLAVA</MinorCivType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_WARSAW</MinorCivType>
+			<MinorCivType>MINOR_CIV_BRATISLAVA</MinorCivType>
 			<FlavorType>FLAVOR_NUKE</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_WARSAW</MinorCivType>
+			<MinorCivType>MINOR_CIV_BRATISLAVA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BRATISLAVA</MinorCivType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_WARSAW</MinorCivType>
-			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>0</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_WARSAW</MinorCivType>
+			<MinorCivType>MINOR_CIV_BRATISLAVA</MinorCivType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_EDINBURGH</MinorCivType>
+			<MinorCivType>MINOR_CIV_BUDAPEST</MinorCivType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_EDINBURGH</MinorCivType>
+			<MinorCivType>MINOR_CIV_BUDAPEST</MinorCivType>
 			<FlavorType>FLAVOR_NUKE</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_EDINBURGH</MinorCivType>
+			<MinorCivType>MINOR_CIV_BUDAPEST</MinorCivType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
 			<Flavor>7</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_EDINBURGH</MinorCivType>
+			<MinorCivType>MINOR_CIV_BUDAPEST</MinorCivType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>7</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_EDINBURGH</MinorCivType>
+			<MinorCivType>MINOR_CIV_BUDAPEST</MinorCivType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>7</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_EDINBURGH</MinorCivType>
+			<MinorCivType>MINOR_CIV_BUDAPEST</MinorCivType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>7</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_EDINBURGH</MinorCivType>
+			<MinorCivType>MINOR_CIV_BUDAPEST</MinorCivType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>0</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_DUBLIN</MinorCivType>
-			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>0</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_DUBLIN</MinorCivType>
-			<FlavorType>FLAVOR_NUKE</FlavorType>
-			<Flavor>0</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_DUBLIN</MinorCivType>
-			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_DUBLIN</MinorCivType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_DUBLIN</MinorCivType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_DUBLIN</MinorCivType>
-			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>0</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_DUBLIN</MinorCivType>
-			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
-			<Flavor>7</Flavor>
 		</Row>
 		<Row>
 			<MinorCivType>MINOR_CIV_GENEVA</MinorCivType>
@@ -620,31 +1094,31 @@
 		</Row>
 		<Row>
 			<MinorCivType>MINOR_CIV_GENEVA</MinorCivType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_VENICE</MinorCivType>
+			<MinorCivType>MINOR_CIV_RIGA</MinorCivType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_VENICE</MinorCivType>
+			<MinorCivType>MINOR_CIV_RIGA</MinorCivType>
 			<FlavorType>FLAVOR_NUKE</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_VENICE</MinorCivType>
+			<MinorCivType>MINOR_CIV_RIGA</MinorCivType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_VENICE</MinorCivType>
+			<MinorCivType>MINOR_CIV_RIGA</MinorCivType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
 			<Flavor>8</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_VENICE</MinorCivType>
+			<MinorCivType>MINOR_CIV_RIGA</MinorCivType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>8</Flavor>
 		</Row>
@@ -665,13 +1139,8 @@
 		</Row>
 		<Row>
 			<MinorCivType>MINOR_CIV_GENOA</MinorCivType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>8</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_GENOA</MinorCivType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>8</Flavor>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<MinorCivType>MINOR_CIV_FLORENCE</MinorCivType>
@@ -719,102 +1188,52 @@
 			<Flavor>8</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_COPENHAGEN</MinorCivType>
+			<MinorCivType>MINOR_CIV_SYDNEY</MinorCivType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_COPENHAGEN</MinorCivType>
+			<MinorCivType>MINOR_CIV_SYDNEY</MinorCivType>
 			<FlavorType>FLAVOR_NUKE</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_COPENHAGEN</MinorCivType>
+			<MinorCivType>MINOR_CIV_SYDNEY</MinorCivType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_COPENHAGEN</MinorCivType>
+			<MinorCivType>MINOR_CIV_SYDNEY</MinorCivType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
 			<Flavor>8</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_COPENHAGEN</MinorCivType>
+			<MinorCivType>MINOR_CIV_SYDNEY</MinorCivType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>8</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_OSLO</MinorCivType>
+			<MinorCivType>MINOR_CIV_QUEBEC_CITY</MinorCivType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_OSLO</MinorCivType>
+			<MinorCivType>MINOR_CIV_QUEBEC_CITY</MinorCivType>
 			<FlavorType>FLAVOR_NUKE</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_OSLO</MinorCivType>
+			<MinorCivType>MINOR_CIV_QUEBEC_CITY</MinorCivType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_OSLO</MinorCivType>
+			<MinorCivType>MINOR_CIV_QUEBEC_CITY</MinorCivType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
 			<Flavor>8</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_OSLO</MinorCivType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>8</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_STOCKHOLM</MinorCivType>
-			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>0</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_STOCKHOLM</MinorCivType>
-			<FlavorType>FLAVOR_NUKE</FlavorType>
-			<Flavor>0</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_STOCKHOLM</MinorCivType>
-			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>0</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_STOCKHOLM</MinorCivType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>8</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_STOCKHOLM</MinorCivType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>8</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_HELSINKI</MinorCivType>
-			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>0</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_HELSINKI</MinorCivType>
-			<FlavorType>FLAVOR_NUKE</FlavorType>
-			<Flavor>0</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_HELSINKI</MinorCivType>
-			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>0</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_HELSINKI</MinorCivType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>8</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_HELSINKI</MinorCivType>
+			<MinorCivType>MINOR_CIV_QUEBEC_CITY</MinorCivType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>8</Flavor>
 		</Row>
@@ -837,36 +1256,6 @@
 			<MinorCivType>MINOR_CIV_BUCHAREST</MinorCivType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_BUDAPEST</MinorCivType>
-			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>0</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_BUDAPEST</MinorCivType>
-			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_BUDAPEST</MinorCivType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_BUDAPEST</MinorCivType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_BUDAPEST</MinorCivType>
-			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>0</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_BUDAPEST</MinorCivType>
-			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
-			<Flavor>7</Flavor>
 		</Row>
 		<Row>
 			<MinorCivType>MINOR_CIV_BELGRADE</MinorCivType>
@@ -904,26 +1293,6 @@
 			<Flavor>7</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_VIENNA</MinorCivType>
-			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>0</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_VIENNA</MinorCivType>
-			<FlavorType>FLAVOR_NUKE</FlavorType>
-			<Flavor>0</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_VIENNA</MinorCivType>
-			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>0</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_VIENNA</MinorCivType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
 			<MinorCivType>MINOR_CIV_BRUSSELS</MinorCivType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>0</Flavor>
@@ -964,23 +1333,23 @@
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_SEOUL</MinorCivType>
+			<MinorCivType>MINOR_CIV_KATHMANDU</MinorCivType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_SEOUL</MinorCivType>
+			<MinorCivType>MINOR_CIV_KATHMANDU</MinorCivType>
 			<FlavorType>FLAVOR_NUKE</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_SEOUL</MinorCivType>
+			<MinorCivType>MINOR_CIV_KATHMANDU</MinorCivType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_SEOUL</MinorCivType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<MinorCivType>MINOR_CIV_KATHMANDU</MinorCivType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
@@ -1035,7 +1404,7 @@
 		</Row>
 		<Row>
 			<MinorCivType>MINOR_CIV_LHASA</MinorCivType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
@@ -1050,6 +1419,11 @@
 		</Row>
 		<Row>
 			<MinorCivType>MINOR_CIV_ALMATY</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ALMATY</MinorCivType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
 			<Flavor>7</Flavor>
 		</Row>
@@ -1062,11 +1436,6 @@
 			<MinorCivType>MINOR_CIV_ALMATY</MinorCivType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_ALMATY</MinorCivType>
-			<FlavorType>FLAVOR_WONDER</FlavorType>
-			<Flavor>0</Flavor>
 		</Row>
 		<Row>
 			<MinorCivType>MINOR_CIV_ALMATY</MinorCivType>
@@ -1110,133 +1479,898 @@
 		</Row>
 		<Row>
 			<MinorCivType>MINOR_CIV_SINGAPORE</MinorCivType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>8</Flavor>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_SINGAPORE</MinorCivType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>8</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_CIV_RIO_DE_JANEIRO</MinorCivType>
+			<MinorCivType>MINOR_CIV_PANAMA_CITY</MinorCivType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_RIO_DE_JANEIRO</MinorCivType>
+			<MinorCivType>MINOR_CIV_PANAMA_CITY</MinorCivType>
 			<FlavorType>FLAVOR_NUKE</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_RIO_DE_JANEIRO</MinorCivType>
+			<MinorCivType>MINOR_CIV_PANAMA_CITY</MinorCivType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_RIO_DE_JANEIRO</MinorCivType>
+			<MinorCivType>MINOR_CIV_PANAMA_CITY</MinorCivType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
 			<Flavor>8</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CIV_RIO_DE_JANEIRO</MinorCivType>
+			<MinorCivType>MINOR_CIV_PANAMA_CITY</MinorCivType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>8</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CAPE_TOWN</MinorCivType>
+			<MinorCivType>MINOR_CIV_CAPE_TOWN</MinorCivType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CAPE_TOWN</MinorCivType>
+			<MinorCivType>MINOR_CIV_CAPE_TOWN</MinorCivType>
 			<FlavorType>FLAVOR_NUKE</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CAPE_TOWN</MinorCivType>
+			<MinorCivType>MINOR_CIV_CAPE_TOWN</MinorCivType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CAPE_TOWN</MinorCivType>
+			<MinorCivType>MINOR_CIV_CAPE_TOWN</MinorCivType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
 			<Flavor>8</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_CAPE_TOWN</MinorCivType>
+			<MinorCivType>MINOR_CIV_CAPE_TOWN</MinorCivType>
 			<FlavorType>FLAVOR_GROWTH</FlavorType>
 			<Flavor>8</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_SIDON</MinorCivType>
+			<MinorCivType>MINOR_CIV_SIDON</MinorCivType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_SIDON</MinorCivType>
+			<MinorCivType>MINOR_CIV_SIDON</MinorCivType>
 			<FlavorType>FLAVOR_NUKE</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_SIDON</MinorCivType>
+			<MinorCivType>MINOR_CIV_SIDON</MinorCivType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
 			<Flavor>7</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_SIDON</MinorCivType>
+			<MinorCivType>MINOR_CIV_SIDON</MinorCivType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
 			<Flavor>7</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_SIDON</MinorCivType>
+			<MinorCivType>MINOR_CIV_SIDON</MinorCivType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>7</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_SIDON</MinorCivType>
+			<MinorCivType>MINOR_CIV_SIDON</MinorCivType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_SIDON</MinorCivType>
+			<MinorCivType>MINOR_CIV_SIDON</MinorCivType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>7</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_TYRE</MinorCivType>
+			<MinorCivType>MINOR_CIV_TYRE</MinorCivType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_TYRE</MinorCivType>
+			<MinorCivType>MINOR_CIV_TYRE</MinorCivType>
 			<FlavorType>FLAVOR_NUKE</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_TYRE</MinorCivType>
-			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_TYRE</MinorCivType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_TYRE</MinorCivType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>7</Flavor>
-		</Row>
-		<Row>
-			<MinorCivType>MINOR_TYRE</MinorCivType>
+			<MinorCivType>MINOR_CIV_TYRE</MinorCivType>
 			<FlavorType>FLAVOR_WONDER</FlavorType>
 			<Flavor>0</Flavor>
 		</Row>
 		<Row>
-			<MinorCivType>MINOR_TYRE</MinorCivType>
+			<MinorCivType>MINOR_CIV_TYRE</MinorCivType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ANTWERP</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ANTWERP</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ANTWERP</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ANTWERP</MinorCivType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CAHOKIA</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CAHOKIA</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CAHOKIA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_CAHOKIA</MinorCivType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_COLOMBO</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_COLOMBO</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_COLOMBO</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_COLOMBO</MinorCivType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HONG_KONG</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HONG_KONG</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HONG_KONG</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_HONG_KONG</MinorCivType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ORMUS</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ORMUS</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ORMUS</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ORMUS</MinorCivType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ORMUS</MinorCivType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_JERUSALEM</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_JERUSALEM</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_JERUSALEM</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_JERUSALEM</MinorCivType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_LA_VENTA</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_LA_VENTA</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_LA_VENTA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_LA_VENTA</MinorCivType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VANCOUVER</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VANCOUVER</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VANCOUVER</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VANCOUVER</MinorCivType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VANCOUVER</MinorCivType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MANILA</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MANILA</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MANILA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MANILA</MinorCivType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MANILA</MinorCivType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ANTANANARIVO</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ANTANANARIVO</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ANTANANARIVO</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ANTANANARIVO</MinorCivType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MILAN</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MILAN</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MILAN</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MILAN</MinorCivType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MOMBASA</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MOMBASA</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MOMBASA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MOMBASA</MinorCivType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MOMBASA</MinorCivType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PRAGUE</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PRAGUE</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PRAGUE</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_PRAGUE</MinorCivType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VALLETTA</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VALLETTA</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VALLETTA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VALLETTA</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VALLETTA</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VALLETTA</MinorCivType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VALLETTA</MinorCivType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
 			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VATICAN_CITY</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VATICAN_CITY</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VATICAN_CITY</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VATICAN_CITY</MinorCivType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_WITTENBERG</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_WITTENBERG</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_WITTENBERG</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_WITTENBERG</MinorCivType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_YEREVAN</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_YEREVAN</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_YEREVAN</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_YEREVAN</MinorCivType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ZANZIBAR</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ZANZIBAR</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ZANZIBAR</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ZANZIBAR</MinorCivType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ZURICH</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ZURICH</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ZURICH</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_ZURICH</MinorCivType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SAMARKAND</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SAMARKAND</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SAMARKAND</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SAMARKAND</MinorCivType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MALACCA</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MALACCA</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MALACCA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MALACCA</MinorCivType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MOGADISHU</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MOGADISHU</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MOGADISHU</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MOGADISHU</MinorCivType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MOGADISHU</MinorCivType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BYBLOS</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BYBLOS</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BYBLOS</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BYBLOS</MinorCivType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BYBLOS</MinorCivType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KYZYL</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KYZYL</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KYZYL</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KYZYL</MinorCivType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_IFE</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_IFE</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_IFE</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_IFE</MinorCivType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KIEV</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KIEV</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KIEV</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KIEV</MinorCivType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BUENOS_AIRES</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BUENOS_AIRES</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BUENOS_AIRES</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BUENOS_AIRES</MinorCivType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MBANZA_KONGO</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MBANZA_KONGO</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MBANZA_KONGO</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MBANZA_KONGO</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MBANZA_KONGO</MinorCivType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MBANZA_KONGO</MinorCivType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MBANZA_KONGO</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KABUL</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KABUL</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KABUL</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_KABUL</MinorCivType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SOFIA</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SOFIA</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SOFIA</MinorCivType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SOFIA</MinorCivType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SOFIA</MinorCivType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SOFIA</MinorCivType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>7</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_SOFIA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_UR</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_UR</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_UR</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_UR</MinorCivType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_UR</MinorCivType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MELBOURNE</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MELBOURNE</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MELBOURNE</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_MELBOURNE</MinorCivType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BOGOTA</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BOGOTA</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BOGOTA</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_BOGOTA</MinorCivType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VILNIUS</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VILNIUS</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+			<Row>
+			<MinorCivType>MINOR_CIV_VILNIUS</MinorCivType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_VILNIUS</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_WELLINGTON</MinorCivType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_WELLINGTON</MinorCivType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_WELLINGTON</MinorCivType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>0</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_WELLINGTON</MinorCivType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<MinorCivType>MINOR_CIV_WELLINGTON</MinorCivType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>8</Flavor>
 		</Row>
 	</MinorCivilization_Flavors>
 </GameData>

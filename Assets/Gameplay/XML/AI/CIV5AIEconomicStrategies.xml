@@ -12,7 +12,6 @@
 	<Table name="AIEconomicStrategies">
 		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
 		<Column name="Type" type="text" notnull="true" unique="true"/>
-		<Column name="DontUpdateCityFlavors" type="boolean" default="false"/>
 		<Column name="NoMinorCivs" type="boolean" default="false"/>
 		<Column name="CheckTriggerTurnCount" type="integer" default="0"/>
 		<Column name="MinimumNumTurnsExecuted" type="integer" default="0"/>
@@ -24,7 +23,12 @@
 		<Column name="AdvisorCounsel" type="text"/>
 		<Column name="AdvisorCounselImportance" type="integer" default="1"/>
 	</Table>
-	<Table name="AIEconomicStrategy_Flavors">
+	<Table name="AIEconomicStrategy_Player_Flavors">
+		<Column name="AIEconomicStrategyType" type="text" reference="AIEconomicStrategies(Type)"/>
+		<Column name="FlavorType" type="text" reference="Flavors(Type)"/>
+		<Column name="Flavor" type="integer"/>
+	</Table>
+	<Table name="AIEconomicStrategy_City_Flavors">
 		<Column name="AIEconomicStrategyType" type="text" reference="AIEconomicStrategies(Type)"/>
 		<Column name="FlavorType" type="text" reference="Flavors(Type)"/>
 		<Column name="Flavor" type="integer"/>
@@ -88,7 +92,7 @@
 		</Row>
 		<Row>
 			<Type>ECONOMICAISTRATEGY_ENOUGH_EXPANSION</Type>
-			<WeightThreshold>2</WeightThreshold>
+			<WeightThreshold>1</WeightThreshold>
 			<NoMinorCivs>true</NoMinorCivs>
 			<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
 			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
@@ -117,7 +121,6 @@
 		<Row>
 			<Type>ECONOMICAISTRATEGY_CITIES_NEED_NAVAL_GROWTH</Type>
 			<WeightThreshold>25</WeightThreshold>
-			<DontUpdateCityFlavors>true</DontUpdateCityFlavors>
 			<MinimumNumTurnsExecuted>15</MinimumNumTurnsExecuted>
 			<CheckTriggerTurnCount>5</CheckTriggerTurnCount>
 			<Advisor>ECONOMIC</Advisor>
@@ -127,7 +130,6 @@
 		<Row>
 			<Type>ECONOMICAISTRATEGY_CITIES_NEED_NAVAL_TILE_IMPROVEMENT</Type>
 			<WeightThreshold>25</WeightThreshold>
-			<DontUpdateCityFlavors>true</DontUpdateCityFlavors>
 			<MinimumNumTurnsExecuted>5</MinimumNumTurnsExecuted>
 			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
 			<Advisor>ECONOMIC</Advisor>
@@ -153,7 +155,6 @@
 		<Row>
 			<Type>ECONOMICAISTRATEGY_NEED_IMPROVEMENT_FOOD</Type>
 			<WeightThreshold>10</WeightThreshold>
-			<DontUpdateCityFlavors>true</DontUpdateCityFlavors>
 			<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
 			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
 			<FirstTurnExecuted>20</FirstTurnExecuted>
@@ -164,7 +165,6 @@
 		<Row>
 			<Type>ECONOMICAISTRATEGY_NEED_IMPROVEMENT_PRODUCTION</Type>
 			<WeightThreshold>10</WeightThreshold>
-			<DontUpdateCityFlavors>true</DontUpdateCityFlavors>
 			<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
 			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
 			<FirstTurnExecuted>20</FirstTurnExecuted>
@@ -219,6 +219,14 @@
 		<Row>
 			<Type>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</Type>
 			<WeightThreshold>50</WeightThreshold>
+			<NoMinorCivs>true</NoMinorCivs>
+			<MinimumNumTurnsExecuted>25</MinimumNumTurnsExecuted>
+			<CheckTriggerTurnCount>10</CheckTriggerTurnCount>
+			<TechPrereq>TECH_OPTICS</TechPrereq>
+		</Row>
+		<Row>
+			<Type>ECONOMICAISTRATEGY_REALLY_EXPAND_TO_OTHER_CONTINENTS</Type>
+			<WeightThreshold>100</WeightThreshold>
 			<NoMinorCivs>true</NoMinorCivs>
 			<MinimumNumTurnsExecuted>25</MinimumNumTurnsExecuted>
 			<CheckTriggerTurnCount>10</CheckTriggerTurnCount>
@@ -301,17 +309,80 @@
 			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
 			<FirstTurnExecuted>1</FirstTurnExecuted>
 		</Row>
+		<!-- This Map is marked as a Offshore Expansion Map (this was split out of Naval Map)-->
+		<Row>
+			<Type>ECONOMICAISTRATEGY_OFFSHORE_EXPANSION_MAP</Type>
+			<NoMinorCivs>true</NoMinorCivs>
+			<MinimumNumTurnsExecuted>10</MinimumNumTurnsExecuted>
+			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
+			<FirstTurnExecuted>1</FirstTurnExecuted>
+		</Row>
+		<!-- Developing a religion -->
+		<Row>
+			<Type>ECONOMICAISTRATEGY_DEVELOPING_RELIGION</Type>
+			<NoMinorCivs>true</NoMinorCivs>
+			<MinimumNumTurnsExecuted>50</MinimumNumTurnsExecuted>
+			<CheckTriggerTurnCount>10</CheckTriggerTurnCount>
+			<FirstTurnExecuted>50</FirstTurnExecuted>
+			<TechPrereq>TECH_POTTERY</TechPrereq>
+			<TechObsolete>TECH_INDUSTRIALIZATION</TechObsolete>
+		</Row>
+		<!--I'm a tech leader! So watch out for people stealing from me-->
+		<Row>
+			<Type>ECONOMICAISTRATEGY_TECH_LEADER</Type>
+			<NoMinorCivs>true</NoMinorCivs>
+			<MinimumNumTurnsExecuted>25</MinimumNumTurnsExecuted>
+			<CheckTriggerTurnCount>10</CheckTriggerTurnCount>
+			<FirstTurnExecuted>5</FirstTurnExecuted>
+		</Row>
+		<!--XP2-->
+		<Row>
+			<Type>ECONOMICAISTRATEGY_NEED_ARCHAEOLOGISTS</Type>
+			<NoMinorCivs>true</NoMinorCivs>
+			<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
+			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
+			<FirstTurnExecuted>10</FirstTurnExecuted>
+		</Row>
+		<Row>
+			<Type>ECONOMICAISTRATEGY_ENOUGH_ARCHAEOLOGISTS</Type>
+			<NoMinorCivs>true</NoMinorCivs>
+			<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
+			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
+			<FirstTurnExecuted>10</FirstTurnExecuted>
+		</Row>
+		<Row>
+			<Type>ECONOMICAISTRATEGY_NEED_MUSEUMS</Type>
+			<NoMinorCivs>true</NoMinorCivs>
+			<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
+			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
+			<FirstTurnExecuted>10</FirstTurnExecuted>
+		</Row>
+		<Row>
+			<Type>ECONOMICAISTRATEGY_NEED_GUILDS</Type>
+			<NoMinorCivs>true</NoMinorCivs>
+			<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
+			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
+			<FirstTurnExecuted>10</FirstTurnExecuted>
+		</Row>
+		<Row>
+			<Type>ECONOMICAISTRATEGY_CONCERT_TOUR</Type>
+			<NoMinorCivs>true</NoMinorCivs>
+			<WeightThreshold>10</WeightThreshold>
+			<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
+			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
+		</Row>
+		<Row>
+			<Type>ECONOMICAISTRATEGY_STARTED_PIETY</Type>
+			<NoMinorCivs>true</NoMinorCivs>
+			<MinimumNumTurnsExecuted>1</MinimumNumTurnsExecuted>
+			<CheckTriggerTurnCount>1</CheckTriggerTurnCount>
+		</Row>
 	</AIEconomicStrategies>
-	<AIEconomicStrategy_Flavors>
+	<AIEconomicStrategy_Player_Flavors>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_RECON</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_RECON</FlavorType>
-			<Flavor>100</Flavor>
-		</Row>
-		<Row>
-			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ENOUGH_RECON</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_RECON</FlavorType>
-			<Flavor>-25</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_RECON_SEA</AIEconomicStrategyType>
@@ -321,52 +392,27 @@
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_REALLY_NEED_RECON_SEA</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
-			<Flavor>500</Flavor>
+			<Flavor>50</Flavor>
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_REALLY_NEED_RECON_SEA</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>100</Flavor>
-		</Row>
-		<Row>
-			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ENOUGH_RECON_SEA</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
-			<Flavor>-200</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EARLY_EXPANSION</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
-			<Flavor>-5</Flavor>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EARLY_EXPANSION</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>75</Flavor>
-		</Row>
-		<Row>
-			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EARLY_EXPANSION</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
-			<Flavor>-4</Flavor>
-		</Row>
-		<Row>
-			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EARLY_EXPANSION</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
-			<Flavor>-4</Flavor>
-		</Row>
-		<Row>
-			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EARLY_EXPANSION</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_SCIENCE</FlavorType>
-			<Flavor>-4</Flavor>
-		</Row>
-		<Row>
-			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EARLY_EXPANSION</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>-4</Flavor>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ENOUGH_EXPANSION</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>-30</Flavor>
+			<Flavor>-10</Flavor>
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_HAPPINESS</AIEconomicStrategyType>
@@ -386,12 +432,12 @@
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_HAPPINESS_CRITICAL</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
-			<Flavor>150</Flavor>
+			<Flavor>250</Flavor>
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_HAPPINESS_CRITICAL</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>-100</Flavor>
+			<Flavor>-10</Flavor>
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_HAPPINESS_CRITICAL</AIEconomicStrategyType>
@@ -406,7 +452,7 @@
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_CITIES_NEED_NAVAL_TILE_IMPROVEMENT</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
-			<Flavor>200</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_IMPROVEMENT_FOOD</AIEconomicStrategyType>
@@ -437,51 +483,6 @@
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_LOSING_MONEY</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>25</Flavor>
-		</Row>
-		<Row>
-			<AIEconomicStrategyType>ECONOMICAISTRATEGY_LOSING_MONEY</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>-10</Flavor>
-		</Row>
-		<Row>
-			<AIEconomicStrategyType>ECONOMICAISTRATEGY_LOSING_MONEY</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>-10</Flavor>
-		</Row>
-		<Row>
-			<AIEconomicStrategyType>ECONOMICAISTRATEGY_HALT_GROWTH_BUILDINGS</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_GROWTH</FlavorType>
-			<Flavor>-15</Flavor>
-		</Row>
-		<Row>
-			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_OFFENSE</FlavorType>
-			<Flavor>-30</Flavor>
-		</Row>
-		<Row>
-			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>-30</Flavor>
-		</Row>
-		<Row>
-			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>-30</Flavor>
-		</Row>
-		<Row>
-			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_RANGED</FlavorType>
-			<Flavor>-30</Flavor>
-		</Row>
-		<Row>
-			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_MOBILE</FlavorType>
-			<Flavor>-30</Flavor>
-		</Row>
-		<Row>
-			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_RECON</FlavorType>
-			<Flavor>-50</Flavor>
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
@@ -516,7 +517,7 @@
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ISLAND_START</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>100</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ISLAND_START</AIEconomicStrategyType>
@@ -545,23 +546,13 @@
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ISLAND_START</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
-			<Flavor>-5</Flavor>
-		</Row>
-		<Row>
-			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ISLAND_START</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_RECON</FlavorType>
 			<Flavor>-20</Flavor>
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>15</Flavor>
-		</Row>
-		<Row>
-			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
-			<Flavor>5</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
@@ -576,17 +567,47 @@
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>50</Flavor>
+			<Flavor>75</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>-10</Flavor>
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_RECON</FlavorType>
-			<Flavor>-10</Flavor>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_REALLY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_REALLY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_LIKE_CRAZY</AIEconomicStrategyType>
@@ -725,6 +746,11 @@
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_SPACESHIP</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_SPACESHIP</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
@@ -761,24 +787,566 @@
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NAVAL_MAP</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
-			<Flavor>25</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NAVAL_MAP</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_NAVAL</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NAVAL_MAP</AIEconomicStrategyType>
-			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>20</Flavor>
 		</Row>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NAVAL_MAP</AIEconomicStrategyType>
 			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_OFFSHORE_EXPANSION_MAP</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_OFFSHORE_EXPANSION_MAP</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
-	</AIEconomicStrategy_Flavors>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_OFFSHORE_EXPANSION_MAP</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_OFFSHORE_EXPANSION_MAP</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_DEVELOPING_RELIGION</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TECH_LEADER</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_STARTED_PIETY</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</AIEconomicStrategy_Player_Flavors>
+	<AIEconomicStrategy_City_Flavors>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_RECON</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ENOUGH_RECON</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>-25</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_RECON_SEA</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_REALLY_NEED_RECON_SEA</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>500</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_REALLY_NEED_RECON_SEA</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ENOUGH_RECON_SEA</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>-200</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EARLY_EXPANSION</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>-5</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EARLY_EXPANSION</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EARLY_EXPANSION</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>75</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EARLY_EXPANSION</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>-4</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EARLY_EXPANSION</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>-4</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EARLY_EXPANSION</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>-4</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EARLY_EXPANSION</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>-4</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ENOUGH_EXPANSION</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>-250</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_HAPPINESS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_HAPPINESS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_HAPPINESS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>-5</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_HAPPINESS_CRITICAL</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>250</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_HAPPINESS_CRITICAL</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>-100</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_HAPPINESS_CRITICAL</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>-100</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ONE_OR_FEWER_COASTAL_CITIES</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_LOSING_MONEY</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_LOSING_MONEY</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_I_LAND_TRADE_ROUTE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_LOSING_MONEY</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_I_SEA_TRADE_ROUTE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_LOSING_MONEY</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_LOSING_MONEY</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_HALT_GROWTH_BUILDINGS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>-15</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>-30</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>-30</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>-30</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_RANGED</FlavorType>
+			<Flavor>-30</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>-30</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>-50</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TOO_MANY_UNITS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ISLAND_START</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ISLAND_START</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ISLAND_START</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ISLAND_START</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ISLAND_START</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>-5</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ISLAND_START</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>-5</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ISLAND_START</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>-5</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ISLAND_START</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>-20</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_TO_OTHER_CONTINENTS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>-20</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_EXPAND_LIKE_CRAZY</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GROW_LIKE_CRAZY</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CULTURE</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>45</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CULTURE</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CULTURE</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CULTURE</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CULTURE</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CULTURE</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CULTURE</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CULTURE</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CULTURE</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CULTURE</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CONQUEST</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CONQUEST</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CONQUEST</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CONQUEST</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CONQUEST</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_AIR</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CONQUEST</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NUKE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CONQUEST</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CONQUEST</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>-10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_DIPLOMACY</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_DIPLOMACY</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_SPACESHIP</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_SPACESHIP</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_SPACESHIP</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_SPACESHIP</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_SPACESHIP_HOMESTRETCH</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_SPACESHIP_HOMESTRETCH</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_SPACESHIP</FlavorType>
+			<Flavor>250</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_MOSTLY_ON_THE_COAST</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_MOSTLY_ON_THE_COAST</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_MOSTLY_ON_THE_COAST</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NAVAL_MAP</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NAVAL_MAP</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NAVAL_MAP</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NAVAL_MAP</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_OFFSHORE_EXPANSION_MAP</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_NAVAL_RECON</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_OFFSHORE_EXPANSION_MAP</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_OFFSHORE_EXPANSION_MAP</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_WATER_CONNECTION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_DEVELOPING_RELIGION</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_TECH_LEADER</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_ARCHAEOLOGISTS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_ARCHAEOLOGY</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_ENOUGH_ARCHAEOLOGISTS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_ARCHAEOLOGY</FlavorType>
+			<Flavor>-200</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_MUSEUMS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_GUILDS</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_STARTED_PIETY</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+	</AIEconomicStrategy_City_Flavors>
 	<AIEconomicStrategy_PersonalityFlavorThresholdMods>
 		<Row>
 			<AIEconomicStrategyType>ECONOMICAISTRATEGY_NEED_RECON</AIEconomicStrategyType>

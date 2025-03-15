@@ -1,0 +1,1664 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_JA_JP>
+    <Row Tag="TXT_KEY_ADVISOR_CHOOSE_TECH_TO_STEAL_BODY">
+      <Text>[COLOR_ADVISOR_HIGHLIGHT_TEXT]テクノロジーを盗む[/COLOR]のに必要な情報が集まったとスパイが言ってきております。目下、どのテクノロジーを盗めばいいか、指示を待っているところです。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_CHOOSE_TECH_TO_STEAL_DISPLAY">
+      <Text>テクノロジーを１つ盗めます！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_ACTIVATE_BUTTON">
+      <Text>{TXT_KEY_ADVISOR_FIRST_SPY_ACTIVATE_BUTTON}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_BODY">
+      <Text>スパイの報告により、標的の文明には我が国が必要とするテクノロジーがないことが明らかになりました。もっとテクノロジーの進んだ文明にスパイを移動させた方が良いでしょう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_DISPLAY">
+      <Text>我が国に必要なものはありません。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_QUESTION">
+      <Text>盗めるテクノロジーがない場合は？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_SUMMARY">
+      <Text>スパイは内偵を一通り終了させると、自動的に「情報の収集中」という行動に移ります。盗めるテクノロジーがない場合はその旨の報告が行なわれますので、スパイを移動させてもっとテクノロジーの進んだ文明を標的にしたり、スパイを移動させずにその国の陰謀の監視に当たらせたりすると良いでしょう。手に入れた陰謀の情報は他の文明に知らせることができます。たとえば、アラビアがエジプトへの侵略を企んでいた場合、アラビアにスパイを置いておけばその情報を入手することができます。入手した情報をエジプトに教えてやれば、エジプトとの関係を深めることができます。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_CANT_STEAL_ANYMORE_TOPIC">
+      <Text>後進文明</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_OVERVIEW_BODY">
+      <Text>諜報画面を開けば情報網の全体像が見渡せます。各スパイの現在の活動状況を確認するのに使うとよいでしょう。同時にこれは、[COLOR_ADVISOR_HIGHLIGHT_TEXT]スパイに指示を出す司令本部[/COLOR]でもありますから、他の都市に移動させる、調査を開始させる、テクノロジーを盗ませるといった指示はここから行うことになります。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_OVERVIEW_DISPLAY">
+      <Text>これはスパイ活動の概要です！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_ACTIVATE_BUTTON">
+      <Text>{TXT_KEY_ADVISOR_FIRST_SPY_ACTIVATE_BUTTON}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_BODY">
+      <Text>スパイにテクノロジーを盗まれました！　警察署などの防衛施設を建てるか、自国のスパイに防諜活動を行わせて対策を講じると良いでしょう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_DISPLAY">
+      <Text>裏切り者！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_QUESTION">
+      <Text>スパイを使ってテクノロジーを盗むには？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_SUMMARY">
+      <Text>スパイを使って、自国より進んだ文明からテクノロジーを盗むことができます。まず、ターゲットとする他文明の都市にスパイを移動します。スパイの移動が終わると、しばらくの間、スパイの状況が「内偵中」(「活動」欄に表示される)になります。内偵が終わると、盗めるテクノロジーの有無が判明します。盗めるものがあった場合、その都市の科学力の産出量とスパイのレベルをもとに、テクノロジーを盗むのに必要な時間が算出されます。スパイのレベルが高いほど、より素早く盗むことができます。また、科学力の産出量が多いほど、スパイの仕事が早くなります。[NEWLINE][NEWLINE]テクノロジーを盗むのに必要な時間に影響を及ぼすものとしては、その他に、警察署や遺産のグレート・ファイアウォールがあります。グレート・ファイアウォールのある都市からテクノロジーを盗むことはできません。また、ターゲットとなる都市に敵のスパイが置かれていた場合、こちらのスパイが拘束されたり排除(数ターン行動不能になる)されたりする可能性があります。そうなれば当然、その文明との外交関係は悪化します。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_ESPIONAGE_TECH_STOLEN_TOPIC">
+      <Text>テクノロジーを盗む</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_FAITH_POINT_BODY">
+      <Text>最初の[ICON_PEACE]信仰力を獲得しました。[ICON_PEACE]信仰力はパンテオン信仰を開始したり大預言者を誕生させたりするのに使えるほか、宗教の創始後は、伝道師、審問官、宗教施設の購入にも使えます。次の段階に進むのに必要な[ICON_PEACE]信仰力を確認するには、画面上端のメニューバーにある[ICON_PEACE]信仰力アイコンにマウスを重ねてください。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_FAITH_POINT_DISPLAY">
+      <Text>信仰力を獲得しました！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_GREAT_PROPHET_BODY">
+      <Text>市民の揺るぎない信仰により大預言者が現れました！[NEWLINE][NEWLINE]最初の大預言者は [COLOR_ADVISOR_HIGHLIGHT_TEXT]宗教の創始[/COLOR]に使うのを強くお勧めします。そのほうが宗教から得られる信仰の証を好きに選べます。創始できる宗教の数は1ゲームごとに限られているので、できるだけ早く創始することをお勧めします。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_GREAT_PROPHET_DISPLAY">
+      <Text>大預言者が誕生しました！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_SPY_ACTIVATE_BUTTON">
+      <Text>スパイ活動の概要</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_SPY_BODY">
+      <Text>スパイは攻撃にも防御にも使えます。スパイに指示を出すには、画面右上、追加情報ボタンの下にある諜報画面を開いてください。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_FIRST_SPY_DISPLAY">
+      <Text>スパイを獲得しました！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GREAT_PROPHET_SPAWN_BODY">
+      <Text>大預言者は宗教の創始（すでにパンテオン信仰を開始していることが条件）、既存の宗教の強化、他の都市への伝播や[ICON_PEACE]信仰力を生み出す特殊施設の建設に使えます。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_GREAT_PROPHET_SPAWN_DISPLAY">
+      <Text>大預言者が誕生しました！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RELIGION_FOUND_PANTHEON_BODY">
+      <Text>民が喜んでいます！[COLOR_ADVISOR_HIGHLIGHT_TEXT]パンテオン信仰の開始[/COLOR]に必要な[ICON_PEACE]信仰力が貯まりました。パンテオン信仰の開始は宗教を創始するための最初の一歩です。[NEWLINE][NEWLINE]通知をクリックすると、選択可能なパンテオン信仰の一覧が左側に表示されます。周辺の環境を考慮して、文明の育成に役立つと考えられるものを選ぶと良いでしょう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RELIGION_FOUND_PANTHEON_DISPLAY">
+      <Text>パンテオン信仰を選択してください！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RELIGION_FOUND_RELIGION_BODY">
+      <Text>大預言者が人々に説いてまわったおかげで、[COLOR_ADVISOR_HIGHLIGHT_TEXT]宗教の創始[/COLOR]ができるようになりました。名前とシンボルを選択してください。そうすれば、新たに2つの信仰の証、創始者の信仰の証(その宗教を創始したプレイヤーに与えられるプレイヤーレベルボーナス)と、信徒の信仰の証(その宗教が伝播したすべての都市に与えられる都市レベルボーナス)を選択できるようになります。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RELIGION_FOUND_RELIGION_DISPLAY">
+      <Text>宗教を創始できます！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RELIGION_OVERVIEW_BODY">
+      <Text>この概要には3つの項目が含まれます。1つ目は宗教の項目。ここでは宗教のステータスや選択した信仰の証を確認したり、[ICON_PEACE]信仰力の購入を自動化したりすることができます。2つ目の項目では他の世界の宗教の概要を見ることができ、3つ目の項目では誰がどの信仰の証を所有しているかを見ることができます。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_RELIGION_OVERVIEW_DISPLAY">
+      <Text>これは宗教の概要です！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SPY_SPAWN_BODY">
+      <Text>画面右上の追加情報ボタンにある諜報画面を使ってスパイを活用しましょう。スパイは攻撃（外国での情報収集とテクノロジーの奪取）にも防御（支配下の都市とテクノロジーの防衛）にも使えますぞ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_ADVISOR_SPY_SPAWN_DISPLAY">
+      <Text>スパイを獲得しました！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_ANCESTOR_WORSHIP">
+      <Text>神殿より[ICON_CULTURE]文化力+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_ASCETISM">
+      <Text>信徒が3人いる都市に神殿があれば[ICON_HAPPINESS_1]幸福度+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_CEREMONIAL_BURIAL">
+      <Text>この宗教を信奉している都市2つにつき[ICON_HAPPINESS_1]大域的幸福度+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_CHORAL_MUSIC">
+      <Text>信徒が5人いる都市に寺院があれば[ICON_CULTURE]文化力+2</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_CHURCH_PROPERTY">
+      <Text>この宗教を信奉している都市1つにつき[ICON_GOLD]ゴールド+2</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_DANCE_AURORA">
+      <Text>森林のないツンドラより[ICON_PEACE]信仰力+1 </Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_DEFENDER_FAITH">
+      <Text>この宗教を信奉している近隣の友好的な都市に[ICON_STRENGTH]戦闘力+20%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_DESERT_FOLKLORE">
+      <Text>砂漠タイルより[ICON_PEACE]信仰力+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_DIVINE_INSPIRATION">
+      <Text>都市にある世界文化遺産1つにつき[ICON_PEACE]信仰力+2</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_FAITH_HEALERS">
+      <Text>友好的な都市に隣接していれば、1ターンに回復する体力が+30</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_FEED_WORLD">
+      <Text>都市に神殿と寺院があれば、それぞれ[ICON_FOOD]食料+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_FERTILITY_RITES">
+      <Text>[ICON_FOOD]の成長速度が10%向上</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_FLOURISHING_OF_ARTS">
+      <Text>戦争中でなければ[ICON_CULTURE]文化力が+10%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_FORMAL_LITURGY">
+      <Text>金と銀、それぞれにつき[ICON_CULTURE]文化力+1および[ICON_PEACE]信仰力+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_GOD_CRAFTSMEN">
+      <Text>人口が3+の都市の[ICON_PRODUCTION]生産力+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_GOD_FESTIVALS">
+      <Text>ワインと香料、それぞれにつき[ICON_CULTURE]文化力+1および[ICON_PEACE]信仰力+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_GOD_SEA">
+      <Text>漁船から[ICON_PRODUCTION]生産力+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_GOD_WAR">
+      <Text>自分の都市から4タイル以内で戦闘に勝利すれば[ICON_PEACE]信仰力を獲得</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_GODDESS_HUNT">
+      <Text>野営地より[ICON_FOOD]食料+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_GODDESS_LOVE">
+      <Text>人口が6+である都市より[ICON_HAPPINESS_1]幸福度+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_GODDESS_STRATEGY">
+      <Text>都市の[ICON_RANGE_STRENGTH]遠隔戦闘力が30%上昇</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_GURUSHIP">
+      <Text>都市に専門家がいれば[ICON_PRODUCTION]生産力+2</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_HARVEST_FESTIVAL">
+      <Text>Placeholder</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_HOLY_ORDER">
+      <Text>伝道師と審問官の購入に必要な[ICON_PEACE]信仰力が30%軽減</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_HOLY_WARRIORS">
+      <Text>[ICON_PEACE]信仰力で産業革命以前の陸上ユニットを購入する</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_INITIATION_RITES">
+      <Text>都市が初めてこの宗教に改宗するたびに[ICON_GOLD]ゴールド+100</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_INTERFAITH_DIALOGUE">
+      <Text>他の宗教を信奉している都市に、伝道師、もしくは預言者がこの宗教を広めることで[ICON_RESEARCH]科学力を獲得</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_ITINERANT_PREACHERS">
+      <Text>更に30%離れた都市に宗教が伝播</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_JUST_WAR">
+      <Text>この宗教を信奉している敵対的な都市に近ければ[ICON_STRENGTH]戦闘力+20%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_LITURGICAL_DRAMA">
+      <Text>信徒が3人いる都市に円形競技場があれば[ICON_PEACE]信仰力+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_MESSIAH">
+      <Text>預言者を25%強化、および預言者の獲得に必要な[ICON_PEACE]信仰力を25%軽減</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_MISSIONARY_ZEAL">
+      <Text>伝道師の改宗力が+25%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_MONASTERIES">
+      <Text>[ICON_PEACE]信仰力で修道院を購入([ICON_PEACE]信仰力+2、[ICON_CULTURE]文化力+2、 [ICON_RES_WINE]ワインもしくは[ICON_RES_INCENSE]香料があれば産出量が増加)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_MONUMENT_GODS">
+      <Text>古代/古典遺産の[ICON_PRODUCTION]生産力+15%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_MOSQUES">
+      <Text>[ICON_PEACE]信仰力でモスクを購入([ICON_PEACE]信仰力+3、[ICON_CULTURE]文化力+2、[ICON_HAPPINESS_1]幸福度+1)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_ONE_WITH_NATURE">
+      <Text>自然遺産より[ICON_PEACE]信仰力+4</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_OPEN_SKY">
+      <Text>牧草地より[ICON_CULTURE]文化力+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_ORAL_TRADITION">
+      <Text>大規模農場より[ICON_CULTURE]文化力+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_PAGODAS">
+      <Text>[ICON_PEACE]信仰力でパゴダを購入([ICON_PEACE]信仰力+2、[ICON_CULTURE]文化力+2、[ICON_HAPPINESS_1]幸福度+2)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_PAPAL_PRIMACY">
+      <Text>この宗教を信奉している都市国家への[ICON_INFLUENCE]影響力+15</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_PEACE_GARDENS">
+      <Text>都市に庭園があれば[ICON_HAPPINESS_1]幸福度+2</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_PEACE_LOVING">
+      <Text>この宗教を信奉している敵対していない都市の信徒8人につき[ICON_HAPPINESS_1]大域的幸福度+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_PILGRIMAGE">
+      <Text>この宗教を信奉している都市1つにつき[ICON_PEACE]信仰力+2</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_RELIGIOUS_CENTER">
+      <Text>信徒が5人いる都市に寺院があれば[ICON_HAPPINESS_1]幸福度+2</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_RELIGIOUS_COMMUNITY">
+      <Text>信徒1人につき[ICON_PRODUCTION]生産力+1% (最大+15%)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS">
+      <Text>国境の拡張速度が15%向上</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_RELIGIOUS_UNITY">
+      <Text>友好的な都市国家への宗教の伝播速度が2倍に上昇</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_RELIQUARY">
+      <Text>偉人を1人消費するたびに[ICON_PEACE]信仰力を50獲得</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_SACRED_ANIMALS">
+      <Text>Placeholder</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_SACRED_PATH">
+      <Text>ジャングルのタイルより[ICON_CULTURE]文化力+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_SACRED_WATERS">
+      <Text>川辺の都市より[ICON_HAPPINESS_1]幸福度+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_STONE_CIRCLES">
+      <Text>採石場より[ICON_PEACE]信仰力+2</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_SWORD_PLOWSHARES">
+      <Text>戦争中でなければ都市の[ICON_FOOD]成長速度が15%上昇</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_TITHE">
+      <Text>この宗教の信徒4人につき[ICON_GOLD]ゴールド+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BELIEF_WORLD_CHURCH">
+      <Text>この宗教を信奉している他文明の信徒5人につき[ICON_CULTURE]文化力+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_ARSENAL_STRATEGY">
+      <Text>兵器庫はゲーム中盤に登場する軍事施設である。兵器庫は都市の防御力を9増加させ、ヒットポイントを25増加させることで、敵に占領されにくくする。城のない都市には建設できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BOMB_SHELTER_HELP">
+      <Text>核攻撃による人口減少を75%軽減する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_BOMB_SHELTER_STRATEGY">
+      <Text>耐爆壕は核攻撃によるこの都市の人口減少を75%軽減。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CASTLE_STRATEGY">
+      <Text>城は中世の建造物であり、都市の防御力を7上昇させ、ヒットポイントを25上昇させる。城壁のない都市には建設できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CONSTABLE_HELP">
+      <Text>敵スパイが盗むスピードを25%減少させる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_CONSTABLE_STRATEGY">
+      <Text>警察庁は敵スパイが都市からテクノロジーを盗むスピードを減少させる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GRAND_TEMPLE_HELP">
+      <Text>この都市からの宗教的圧力が2倍になる。[NEWLINE][NEWLINE]聖都のある都市に建てることができる。全都市に寺院が建築されていなければならない。帝国内の都市数が多いほど建築コストが高くなる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GRAND_TEMPLE_STRATEGY">
+      <Text>人口の多い都市をあまり持たない帝国が、自国の宗教の拡大を目指す際に重要となる建造物。聖都のある都市に建てることができる。この建造物を建てると、その都市からの宗教的圧力が2倍になる。大寺院を建てるには、全都市に寺院があることが前提条件となる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_GREAT_FIREWALL_HELP">
+      <Text>これを築いた都市における敵スパイの活動効率が99.9%減少する。また、この文明に属する他の都市すべてでスパイの活動効率が25%減少する。 他のプレイヤーのインターネット技術による[ICON_TOURISM]観光力ボーナスを無効にする。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_HELP">
+      <Text>新たに1人スパイを供給するとともに、既存のスパイをレベルアップさせる。また、敵スパイの活動効率を15%減少させる。建設には全都市に警察署が必要。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_STRATEGY">
+      <Text>テクノロジーを求める文明にとって重要な防御的国家遺産。国家情報局は新たに1人スパイを供給するとともに、既存のスパイをレベルアップさせ、敵スパイの活動効率を15%減少させる。国家情報局の建設には全都市に警察署が必要。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MILITARY_BASE_STRATEGY">
+      <Text>軍事基地はゲーム中盤に登場する建造物で、都市の防御力を12上昇させ、ヒットポイントを25上昇させる。軍事基地を建設するには、その都市に兵器庫が必要である。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MONASTERY_HELP">
+      <Text>その都市が活用している[ICON_RES_INCENSE]香料と[ICON_RES_WINE]ワイン、それぞれにつき[ICON_PEACE]信仰力+1および[ICON_CULTURE]文化力+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MONASTERY_STRATEGY">
+      <Text>修道院は都市の[ICON_PEACE]信仰力と[ICON_CULTURE]文化力を向上させる。その都市が香料とワインのどちらか一方(または両方)の近隣にあり、それらを活用していれば、修道院の効果はさらに高まる。修道院は、信仰の証「修道院」を有する宗教を信奉している都市にのみ建設でき、[ICON_PEACE]信仰力を使って購入すると建設される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_POLICE_STATION_HELP">
+      <Text>敵スパイがテクノロジーを盗む速度を25%低下させる。[NEWLINE][NEWLINE]都市に警察庁が必要。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_POLICE_STATION_STRATEGY">
+      <Text>警察署は敵スパイが都市からテクノロジーを盗む速度を低下させる。警察署の建設には都市に警察庁が必要。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_RECYCLING_CENTER_HELP">
+      <Text>[ICON_RES_ALUMINUM]アルミニウムを2つ供給する。帝国内に最大5つまで建設できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_RECYCLING_CENTER_STRATEGY">
+      <Text>リサイクル工場は[ICON_RES_ALUMINUM]アルミニウムを2つ供給する。帝国内に最大5つまで建設できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_SHRINE_STRATEGY">
+      <Text>神殿は都市が生み出す[ICON_PEACE]信仰力を増大させる最初の建造物で、宗教の創始と伝播を可能にする。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_STELE_STRATEGY">
+      <Text>ステッレは古代エチオピア特有の建造物で、モニュメントに取って代わる。都市の[ICON_CULTURE]文化力および[ICON_PEACE]信仰力を増大させ、都市の領土拡張を促進するともに、文明の社会制度獲得および宗教の獲得を早める。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_TEMPLE_STRATEGY">
+      <Text>寺院は都市の[ICON_PEACE]信仰力を向上させるとともに、宗教の創始速度や伝播速度を上昇させる。寺院を建設するには、その都市に神殿またはピラミッドが必要である。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_WALLS_STRATEGY">
+      <Text>城壁は都市の防御力を5上昇させ、ヒットポイントを50上昇させることで、敵に占領されにくくする。文明の辺境に位置する都市にはきわめて有用である。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDINGS_PREREQUISITES_HEADING2_BODY">
+      <Text>
+        ゲーム開始時から無条件で建てられるモニュメントは例外だが、建築物を建てるには特定のテクノロジーに関する知識が必要だ。例えば、「青銅器」を研究しなければ兵舎を建設することはできない。[NEWLINE][NEWLINE]また、一部の建築物は特定の資源も必要とする。例えばサーカスは、馬か象牙の資源が近くで活用されている都市にしか建設できない。[NEWLINE][NEWLINE]さらに、他の建築物を建てていることが建設条件となる場合もある。神殿を建てていない都市には寺院を建てることができない、という具合である。
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITIES_CITYBANNER_HEADING2_BODY">
+      <Text>都市の旗はメインマップ上に出現する。旗でその都市の現状を知ることができる。[NEWLINE][TAB][TAB][TAB][TAB] 名前[NEWLINE][TAB][TAB][TAB][TAB] 防御力 [NEWLINE][TAB][TAB][TAB][TAB] 駐屯するユニット[NEWLINE][TAB][TAB][TAB][TAB] 建設中のアイテム*[NEWLINE][TAB][TAB][TAB][TAB] 建設完了までのターン数*[NEWLINE][TAB][TAB][TAB][TAB] 都市の大きさ [NEWLINE][TAB][TAB][TAB][TAB] 都市が成長するまでのターン数*[NEWLINE][TAB][TAB][TAB][TAB] 都市の宗教**[NEWLINE][TAB][TAB][TAB][TAB] *都市名の後には、自文明の影響力レベルを示す数字が表示される。たとえば(0/30)など。[NEWLINE][TAB][TAB][TAB][TAB] *他の都市には表示されない。[NEWLINE][TAB][TAB][TAB][TAB] **都市にパンテオン信仰か宗教が出現するまで表示されない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITIES_SPECIALISTS_HEADING2_BODY">
+      <Text>
+        専門家とは、都市に建設された建築物での労働を命じられた市民である。『シヴィライゼーション5』には、科学者、商人、芸術家、技術者という4種類の専門家が登場する。例えば、博物館には1～2人の市民を割り当て、芸術家として働かせることができる。ただし、すべての建築物に専門家が割り当てられるわけではない。詳しくは各建築物の項目を参照のこと。
+      </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYIMPROVEMENTSTRATEGY_PLUG_UP_RESOURCES_HAVE_ZERO">
+      <Text>まだ自国にはない{1_ResourceName:textkey}の資源が、{2_CityName:textkey}の近くにある。労働者(陸上)か作業船(海上)を派遣してそのタイルに資源活用施設を建設すれば、資源を有効活用できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_PERMANENTWAR_HEADING4_BODY">
+      <Text>都市国家を完全に怒らせてしまったことで、警戒心を抱かれるようになった。この状態は、周辺の都市国家に対する宣戦布告の回数が限度を超えると発生する。この噂は世界中に広まり、都市国家群に対する影響力レベルの下限が恒久的に0から-20になる(つまり影響力が0以下になる可能性がある)。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_PERMANENTWAR_HEADING4_TITLE">
+      <Text>警戒</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_TYPES_HEADING2_BODY">
+      <Text>都市国家は「性格」の違いで5つに分類される。都市国家と友好関係や同盟を結んだりすることで得られる利益も、この「性格」ごとに異なる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_WAR_HEADING4_BODY">
+      <Text>都市国家と敵対関係にあると、その都市国家に対するあなたの影響力がマイナスとなり、彼らから何の援助も受けられなくなる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATE_WAROFTHE_HEADING2_BODY">
+      <Text>都市国家にはいつでも宣戦布告できる。外交画面からだけでなく、自国ユニットで相手のユニットや都市に攻撃を仕掛けても宣戦を布告したとみなされる。和平の呼びかけは外交画面を通して、または都市国家をクリックして行う。[NEWLINE][NEWLINE]ただし、都市国家に対する宣戦布告の回数が限度を超えると、多数の都市国家から警戒されるようになり、彼らに対する影響力レベルの下限が恒久的に0から-20になる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATES_GREATPROPHET_ADV_QUEST">
+      <Text>大預言者とは？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATES_GREATPROPHET_BODY">
+      <Text>大預言者は[ICON_PEACE]信仰力を集めることによって獲得できる。大預言者は、宗教の創始や強化ができる唯一のユニットである。必要となる量(通常のゲームスピードでは最低で200)の[ICON_PEACE]信仰力が貯まると大預言者が出現させることができるようになる。大預言者を出現させれば、その「宗教の創始」の能力を使ってオリジナルの宗教を創り出すことができる。大預言者は他の偉人と同様に、黄金時代を開始するなど様々な能力を持っている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITYSTATES_GREATPROPHET_TITLE">
+      <Text>大預言者</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_BABYLON_WALLS_STRATEGY">
+      <Text>バビロンの城壁はバビロニアに特有の建造物であり、普通の城壁に取って代わる。都市の防御力を6上昇させ、ヒットポイントを100上昇させる(どちらの効果も普通の城壁よりはるかに優れている)。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CIV5_GREATPROPHETS_TEXT">
+      <Text>「大預言者」は信仰の限界を探り、文明が道徳的・倫理的な決断を下す際には、そのユニークな見地から助言を行う。大預言者は、宗教を創始し、神の言葉を広め、人々に信仰をもたらす。国家が未曾有の苦難に見舞われた時でさえも、人々に希望を与えてくれるのだ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_CITYHITPOINTS_HEADING4_BODY">
+      <Text>無傷の都市にはヒットポイントが200ある。ダメージを受けるとヒットポイントが減少する。ヒットポイントが0になると、敵ユニットはそのタイルに入ることで都市を占領できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_COMBATDAMAGE_HEADING2_BODY">
+      <Text>無傷のユニットには「ヒットポイント(HP)」が100ある。戦闘中にダメージを受けるとユニットはHPを失い、HPが0になるとユニットは破壊される。[NEWLINE][NEWLINE]ダメージを受けたユニットは無傷のユニットよりも弱く、破壊されやすい。したがって、可能であればダメージを負ったユニットはいったん戦闘から外し、回復させてから再度投入するようにしたほうが良い。もちろん、それが可能でないときもある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_GARRISONINCITIES_HEADING3_BODY">
+      <Text>都市の所有者は、軍事ユニットを駐留させることで都市の防御を固めることができる。駐留を行っているユニットの戦闘力の一部が、都市の戦闘力に加算される。都市を攻撃されても駐留しているユニットはダメージを負わないが、都市を占領されると、その都市に駐留していたユニットは破壊されてしまう。[NEWLINE][NEWLINE]駐留中のユニットは、都市に対する駐留ボーナスを失うことなく、都市の周りにいる敵ユニットを攻撃することができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_HEALTINGDAMAGE_HEADING3_BODY">
+      <Text>ユニットがダメージを回復するには、1ターンの間何もせずにじっとしていなければならない。ダメージの回復量はユニットがいる場所によって異なる。[NEWLINE][NEWLINE]都市にいるときは1ターンに25HP回復する。[NEWLINE]友好的な領土にいるときは1ターンに20HP回復する。[NEWLINE]中立領土または敵領土にいるときは1ターンに10HP回復する。[NEWLINE][NEWLINE]レベルアップの中にはユニットの回復速度を速めるものがあることに留意のこと。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_HITPOINTS_HEADING3_BODY">
+      <Text>ユニットの状態は「ヒットポイント」で表される。無傷の場合、すべての戦闘ユニットはヒットポイントを100有する。ダメージを受けると、ユニットはヒットポイントを失う。ヒットポイントが0になると、そのユニットは破壊される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_NAVALDAMAGE_HEADING3_BODY">
+      <Text>海軍ユニットは友好的な領海にいなければ回復できない。友好的な領海にいる場合は、1ターンに20HP回復する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_COMBAT_RANGESTAT_HEADING3_BODY">
+      <Text>ユニットが持つ「射程」ステータスは、そのユニットが遠隔攻撃を行うことができる距離を表している。たとえば射程が「2」であれば、自身に隣接しているか、自身から1タイルの距離にいるユニットを攻撃目標にできる。射程が「1」なら、隣接しているユニットしか攻撃目標にできない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_BULLYING_ADVISOR_QUESTION">
+      <Text>貢ぎ物を要求する方法は？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_BULLYING_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_CITY_STATE_BULLYING_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_BULLYING_SUMMARY">
+      <Text>都市国家を脅迫して、貢ぎ物を要求することができる。貢ぎ物の内容は、労働者か一括払いのゴールドである。都市国家を脅迫する方法は2つあり、1つはあなたの国と他国との軍事力の差によって行う方法、もう1つは都市国家に隣接するタイルに軍事ユニットを置くことによって行う方法である。[NEWLINE][NEWLINE]都市国家への貢ぎ物の要求は、都市国家外交画面の「貢ぎ物の要求」をクリックして行う。それに続く選択肢が赤色になっている場合、その都市国家はあなたの国を脅威とは考えていないため、要求に応じることはない。脅迫に成功すれば貢ぎ物を獲得できるが、その都市国家に対する影響力が下がる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_BULLYING_TOPIC">
+      <Text>貢ぎ物の要求</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_MERCANTILE_ADVISOR_QUESTION">
+      <Text>都市国家が「商業的」であるとはどういうことか？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_MERCANTILE_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_CITY_STATE_MERCANTILE_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_MERCANTILE_SUMMARY">
+      <Text>商業都市国家はあなたの文明に他では入手できない高級アイテムをもたらすとともに、あなたの文明の幸福度の向上に役立つ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_MERCANTILE_TOPIC">
+      <Text>商業的</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_RELIGIOUS_ADVISOR_QUESTION">
+      <Text>都市国家が「宗教的」であるとはどういうことか？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_RELIGIOUS_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_CITY_STATE_RELIGIOUS_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_RELIGIOUS_SUMMARY">
+      <Text>宗教都市国家はあなたの文明に信仰力をもたらす。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_RELIGIOUS_TOPIC">
+      <Text>宗教</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_SPREAD_RELIGION_ADVISOR_QUESTION">
+      <Text>宗教を都市国家に広めるメリットとは？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_SPREAD_RELIGION_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_CITY_STATE_SPREAD_RELIGION_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_SPREAD_RELIGION_SUMMARY">
+      <Text>創始した宗教が都市国家の多数派宗教になると、影響力の低下速度が25%減少する。影響力がマイナスであれば、その回復速度が50%増加する。[NEWLINE][NEWLINE]また、都市国家は特定の宗教を自分たちの間に広めてほしいと依頼してくることがある。この望みを叶えると、見返りとして影響力が大幅に上昇する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_CITY_STATE_SPREAD_RELIGION_TOPIC">
+      <Text>都市国家における影響力と宗教</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_EMBASSY_ADVISOR_QUESTION">
+      <Text>大使館を開設するには？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_EMBASSY_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_DIPLOMACY_EMBASSY_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_EMBASSY_SUMMARY">
+      <Text>大使館の開設は他の文明と接触してからできるようになる最初期の外交行動で、筆記を習得することで選択可能になる。大使館は国境開放や防衛条約、それに研究協定の締結に必須であり、開設すると相手プレイヤーの首都の場所が明らかになる。相手が筆記のテクノロジーを持っていない場合でも、こちら側だけ大使館を開設することが可能。ただし、相手は大使館を置く見返りとして、少額のゴールドを要求してくる可能性がある。戦争が始まると敵の大使館は即座に閉鎖される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_DIPLOMACY_EMBASSY_TOPIC">
+      <Text>大使館の開設</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_ADVISOR_QUESTION">
+      <Text>スパイ活動をやめさせる方法は？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_SUMMARY">
+      <Text>防諜活動を行うことで、敵のスパイから情報を守ることができる。防諜活動は、敵のスパイに狙われていると考えられる都市(通常は最も科学力の高い都市)にスパイを置くことで行う。こうすることで、敵のスパイを一定の確率で発見できるようになる。なお、スパイのランクが高いほど、敵のスパイを発見できる可能性が高くなる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_COUNTER_INTEL_TOPIC">
+      <Text>防諜活動</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GETTING_CAUGHT_ADVISOR_QUESTION">
+      <Text>スパイ活動中の敵を見つけるには？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GETTING_CAUGHT_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_GETTING_CAUGHT_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GETTING_CAUGHT_SUMMARY">
+      <Text>スパイが技術を盗む時に、低確率でそのスパイを捕まえることができる。ターゲットにされた都市で防諜活動を行っていない場合は「異常なし」、「身元不明者を発見」、「スパイを発見」のいずれかの結果になる。一方、防諜活動を行っていた場合は「身元不明者を発見」、「スパイを発見」、「スパイを排除した」のいずれかになる。なお自分のスパイが、ターゲットにした国の捜査により、「スパイを発見」や「スパイを排除した」とされた場合、ターゲットにした国との関係が悪化する。自分のスパイが排除されると、数ターン経過後に新しいスパイを獲得できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GETTING_CAUGHT_TOPIC">
+      <Text>侵入者の捜査</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GREAT_FIREWALL_ADVISOR_QUESTION">
+      <Text>敵のスパイ活動の進行を遅らせるには？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GREAT_FIREWALL_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_GREAT_FIREWALL_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GREAT_FIREWALL_SUMMARY">
+      <Text>グレート・ファイアウォールの遺産は、これを築いた都市における敵スパイの活動効率を99.9%低下させ、この文明に属するすべての都市における敵スパイの活動効率を25%低下させる。さらにインターネット技術による他のプレイヤーの[ICON_TOURISM]観光力のボーナスを無効にする。 </Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_GREAT_FIREWALL_TOPIC">
+      <Text>グレート・ファイアウォール</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MORE_ADVISOR_QUESTION">
+      <Text>スパイの数を増やすには？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MORE_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_MORE_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MORE_SUMMARY">
+      <Text>最初は1人きりのスパイだが、その人数は新しい時代が幕を開けるたびに増えていく。また、国家情報局の国家遺産を建設することで、新たにスパイを1人獲得できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MORE_TOPIC">
+      <Text>スパイの数を増やす</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MOVING_SPIES_ADVISOR_QUESTION">
+      <Text>スパイの移動方法は？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MOVING_SPIES_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_MOVING_SPIES_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MOVING_SPIES_SUMMARY">
+      <Text>スパイの移動は「スパイ活動概要」画面を開き、移動させたいスパイの横にある「移動」ボタンをクリックすることで行う。「移動」をクリックした後は、画面右側にある都市名(自国都市かターゲットとなる文明)をクリックして、移動先を指定する。すると、そのスパイの状況が「活動中」から「移動中」に変化し、目的地までの到着時間が表示される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_MOVING_SPIES_TOPIC">
+      <Text>スパイの移動</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE_ADVISOR_QUESTION">
+      <Text>スパイを追加するには？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE_SUMMARY">
+      <Text>国家情報局の国家遺産は、新たに1人スパイを供給するとともに、既存のスパイをレベルアップさせる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_NATIONAL_INTELLIGENCE_TOPIC">
+      <Text>国家情報局</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_ADVISOR_QUESTION">
+      <Text>敵のスパイ活動の進行を遅らせるには？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_SUMMARY">
+      <Text>都市に警察署を建設することで、敵のスパイ活動の進行を遅らせることができる。都市に警察署があると、技術を盗むのに必要な時間が警察署1つにつき25%増加する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_POLICE_STATION_TOPIC">
+      <Text>警察署</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_PROMOTIONS_ADVISOR_QUESTION">
+      <Text>スパイは経験値を獲得するのか？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_PROMOTIONS_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_PROMOTIONS_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_PROMOTIONS_SUMMARY">
+      <Text>任務に成功するたびに、スパイは経験値を獲得して「レベルアップ」する。レベルが高くなるにつれて、任務をこなす速さと信頼性が上昇する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_PROMOTIONS_TOPIC">
+      <Text>スパイの経験値</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_ADVISOR_QUESTION">
+      <Text>都市国家に対するスパイの使いかたとは？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_SUMMARY">
+      <Text>スパイを使って、都市国家での影響力を上昇させることができる。選挙を「操作」したり、政変を仕掛けたりするのである。それにはまず、ターゲットとなる都市国家にスパイを移動する。スパイの移動が終わると、しばらくの間、スパイの状況が「内偵中」(「活動」欄に表示される)になる。内偵が終わると、さまざまな諜報活動が選択可能になる。受動的に機能する能力である「選挙を操作する」は、スパイがその都市国家にいる間、15ターンに1度出現する。その都市国家にいるスパイがそのスパイ1人だけであれば、こちらの影響力は上昇し、他のプレイヤー全員の影響力は低下する。敵スパイ、特にこちらよりも高いランクのスパイがいる場合は、この任務は失敗する可能性がある。もっとも、選挙の操作に失敗してもスパイに危険が及ぶわけではないので、特に心配することはない。[NEWLINE][NEWLINE]政変を仕掛ければ、選挙工作よりも大きな効果を得ることができる。その代わり、危険性もはるかに高いものとなっている。政変を仕掛けることに成功すれば、その都市国家の同盟相手の地位を、他文明から「かすめ取る」ことが可能になる。政変を仕掛けるには、他のプレイヤーと同盟を結んでいる都市国家に狙いを定め、そこに選挙の操作と同じようにスパイを移動する。内偵が終わると「政変」というボタンが選択可能になる。これをクリックするとポップアップメッセージが現れ、この任務の成功確率を教えてくれる。ターゲットとなる文明の影響力とこちらの影響力との差が小さいほど、成功確率は上昇する。ただし、失敗するとスパイは処刑されてしまう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_RIG_ELECTION_TOPIC">
+      <Text>スパイと都市国家</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SPIES_ADVISOR_QUESTION">
+      <Text>スパイや外交官とは？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SPIES_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_SPIES_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SPIES_SUMMARY">
+      <Text>ゲーム中に文明がルネサンス時代に入ると、最初のスパイを獲得できる。スパイを他文明の都市に配置することで、テクノロジーを盗んだり、情報を集めたりすることが可能。スパイを自国の都市に配置すれば、敵のスパイを一定の確率で妨害、発見、排除することができる。[NEWLINE][NEWLINE]他の文明の首都にスパイを配置する際は、外交官として配置することもできる。外交官は技術やテクノロジーを盗まず、情報収集のみを行う。一方、相手文明が異なる思想を信奉している場合、外交官はプロパガンダの拡散に着手し、その文明における自文明の[ICON_TOURISM]観光力ボーナスを増大させる。外交官はあくまでも外交官なので、他のスパイによって排除される心配はない。世界議会が創設されると外交官の有用性はいっそう高まる。それは、投票に関して他の文明がどのような意向を持っているか調べ、外交を通じて票をやり取りできるようになるからである。[NEWLINE][NEWLINE]最初のスパイや外交官の配置は、「追加情報」メニューの「スパイ活動概要」から行う。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SPIES_TOPIC">
+      <Text>スパイと外交官</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_STEALING_TECHS_SUMMARY">
+      <Text>スパイを使って、自国より進んだ文明からテクノロジーを盗むことができます。まず、ターゲットとする他文明の都市にスパイを移動します。スパイの移動が終わると、しばらくの間、スパイの状況が「内偵中」(「活動」欄に表示される)になります。内偵が終わると、盗めるテクノロジーの有無が判明します。盗めるものがあった場合、その都市の科学力の産出量とスパイのレベルをもとに、テクノロジーを盗むのに必要な時間が算出されます。スパイのレベルが高いほど、より素早く盗むことができます。また、科学力の産出量が多いほど、スパイの仕事が早くなります。[NEWLINE][NEWLINE]テクノロジーを盗むのに必要な時間に影響を及ぼすものとしては、その他に、警察署や遺産のグレート・ファイアウォールがあります。グレート・ファイアウォールのある都市からテクノロジーを盗むことはできません。また、ターゲットとなる都市に敵のスパイが置かれていた場合、こちらのスパイが拘束されたり排除(数ターン行動不能になる)されたりする可能性があります。そうなれば当然、その文明との外交関係は悪化します。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SURVEILLANCE_ADVISOR_QUESTION">
+      <Text>内偵を行うには？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SURVEILLANCE_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_ESPIONAGE_SURVEILLANCE_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SURVEILLANCE_SUMMARY">
+      <Text>内偵はまず、ターゲットとなる都市にスパイを移動することから行う。スパイが移動し終えると、しばらくの間スパイの状況が「内偵中」(「行動」欄に表示される)になる。内偵が終わると、盗めるテクノロジーの有無が判明する。また、敵の都市の内部を見ることも可能で、重要な情報(侵略の準備など)を盗める場合もある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_ESPIONAGE_SURVEILLANCE_TOPIC">
+      <Text>内偵中</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_BELIEFS_ADVISOR_QUESTION">
+      <Text>信仰の証とは？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_BELIEFS_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_BELIEFS_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_BELIEFS_SUMMARY">
+      <Text>パンテオン信仰を開始したり、ゲーム後半で宗教を創始または強化したりすることで、さまざまな信仰の証を選択できるようになる。選択できる信仰の証の種類には、パンテオンの信仰の証、創始者の信仰の証、信徒の信仰の証、拡大の信仰の証がある。また、追加で信仰の証を選ぶことのできる固有能力を持つ文明もある。[NEWLINE][NEWLINE]信仰の証の選択は早い者勝ちとなるため、他の文明が既に獲得している信仰の証は、宗教の創始時または強化時に選択できないようになっている。つまり、最初に信仰の証を選択できるようにすることが非常に重要となる。[NEWLINE][NEWLINE]信仰の証の全リストはシヴィロペディアの宗教の項目を参照のこと。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_BELIEFS_TOPIC">
+      <Text>信仰の証</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_BUILDINGS_ADVISOR_QUESTION">
+      <Text>宗教に関係のある建造物とは？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_BUILDINGS_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_BUILDINGS_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_BUILDINGS_SUMMARY">
+      <Text>宗教に関係する建造物は2種類に分けることができる。1つは[ICON_PEACE]信仰力をもたらす建物であり、建設に必要なテクノロジーを獲得していれば、他の建造物と同じように都市画面から建設できるようになる。もう1つは信徒の信仰の証を通して建設できるようになる建造物であり、[ICON_PEACE]信仰力を使って都市に建築を行う。ただし、建設できる施設の種類は、その都市の市民の過半数が信仰する宗教のものに限られる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_BUILDINGS_TOPIC">
+      <Text>宗教施設</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_DEFENDING_ADVISOR_QUESTION">
+      <Text>宗教の伝播を防ぐには？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_DEFENDING_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_DEFENDING_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_DEFENDING_SUMMARY">
+      <Text>敵の伝道師や大預言者による都市の改宗を防ぐには、審問官の購入が必要となる。このユニットを都市に置くことで、都市の改宗を防ぐことができる。また、受動的に機能する改宗の禁止に加え、自国都市に隣接するタイルで審問官を消費することにより、都市に伝播している他の宗教を全て排除することができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_DEFENDING_TOPIC">
+      <Text>宗教の伝播の禁止</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCER_ADVISOR_QUESTION">
+      <Text>拡大の信仰の証とは？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCER_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_ENHANCER_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCER_SUMMARY">
+      <Text>これらは宗教の伝播を促進する。促進の方法はどの信仰の証を選択しているかによって異なり、より強力な宗教ユニットによって促進される場合もあれば、自然に伝播の勢いが増す場合もある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCER_TOPIC">
+      <Text>拡大の信仰の証</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCING_RELIGION_ADVISOR_QUESTION">
+      <Text>宗教を強化するには？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCING_RELIGION_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_ENHANCING_RELIGION_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCING_RELIGION_SUMMARY">
+      <Text>宗教を創始していれば、次に現れた大預言者を、その宗教の強化に使用することができる。宗教の強化は創始と同じ方法で行うが、強化により、信徒の信仰の証と拡大の信仰の証を新たに選択できるようになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_ENHANCING_RELIGION_TOPIC">
+      <Text>宗教の強化</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_ADVISOR_QUESTION">
+      <Text>信仰力を獲得するには？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_SUMMARY">
+      <Text>[ICON_PEACE]信仰力とは、パンテオン信仰の開始や大預言者の出現、宗教的なユニットや建造物の購入に使用できる「通貨」である。[NEWLINE][NEWLINE][ICON_PEACE]信仰力の供給源はいくつかある。たとえば、建造物や遺産には、自分の都市に建設されていればある程度の[ICON_PEACE]信仰力をもたらすものがある。また自然遺産にも、活用されていれば[ICON_PEACE]信仰力を生み出すものがある。[ICON_PEACE]信仰力は古代遺跡で見つけることができる。一方、宗教的な都市国家と友好関係を結んでいると、通常の贈り物に加えて[ICON_PEACE]信仰力も受け取ることができる。さらに、大預言者が建設できる聖地の特殊施設もまた、[ICON_PEACE]信仰力の源である。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_EARNING_TOPIC">
+      <Text>信仰力の獲得</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_SPENDING_ADVISOR_QUESTION">
+      <Text>信仰力とは？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_SPENDING_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_FAITH_SPENDING_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_SPENDING_SUMMARY">
+      <Text>[ICON_PEACE]信仰力は宗教ユニットや宗教施設の購入だけでなく、大預言者の誕生にも利用できる。また、産業時代以降は、信仰力によって他の種類の偉人を誕生させることもできるようになる。[NEWLINE][NEWLINE]獲得した[ICON_PEACE]信仰力が一定量に達すると、それ以降に獲得した信仰力は自動的に大預言者の出現に利用される(確認はステータスバーにある[ICON_PEACE]アイコンにマウスカーソルを合わせることで行う)。産業時代以降は大預言者以外の偉人を出現させられるようになるが、選択できる偉人は、どの社会制度を採用しているかによって変化する。[NEWLINE][NEWLINE]また、貯めた[ICON_PEACE]信仰力はユニットや建造物の購入に利用することもできる。ユニットなどの獲得は都市画面の購入メニューから行う。伝道師と審問官は宗教さえ伝播していればどの都市でも購入することができるが、宗教施設の場合は、その都市の多数派宗教が、施設の購入を許可する信仰の証を選択していることが必要となる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FAITH_SPENDING_TOPIC">
+      <Text>信仰力の利用</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOLLOWER_ADVISOR_QUESTION">
+      <Text>信徒の信仰の証とは？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOLLOWER_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_FOLLOWER_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOLLOWER_SUMMARY">
+      <Text>都市レベルで機能するボーナスであり、この宗教の信徒が多数派となっている都市で自動的に機能する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOLLOWER_TOPIC">
+      <Text>信徒の信仰の証</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDER_ADVISOR_QUESTION">
+      <Text>創始者の信仰の証とは？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDER_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_FOUNDER_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDER_SUMMARY">
+      <Text>プレイヤーレベルで機能するボーナスであり、宗教を創始したプレイヤーが聖都(その宗教を創始した都市)を統治している間は、このボーナスの恩恵にあずかることができる。このボーナスの大半はその宗教の伝播力に直接関係しているため、宗教の創始者はその宗教を拡大させる上で非常に有利となる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDER_TOPIC">
+      <Text>創始者の信仰の証</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDING_RELIGION_ADVISOR_QUESTION">
+      <Text>宗教を創始するには？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDING_RELIGION_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_FOUNDING_RELIGION_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDING_RELIGION_SUMMARY">
+      <Text>パンテオン信仰を開始していれば、獲得した大預言者を使用して宗教を創始することが可能。この操作は、まず大預言者を選択し(大預言者が都市にいることを確認)、ユニット画面の「宗教の創始」アイコンをクリックして行う。オプションが表示されたら、自分の文明に必要な宗教を選択する。宗教のシンボルと名前を選択したら、創始者と信徒の信仰の証も選択する。選択した創始者と信徒の信仰の証により、得られる恩恵が決定する。選択した内容に間違いがなければ、選択画面の右下にある[ICON_RELIGION]宗教の創始をクリックする。[NEWLINE][NEWLINE]1ゲーム中に創始できる宗教の上限数はマップのサイズによって変動する。上限数は通常、そのゲーム中の最初の文明数より少ない。つまり、宗教を創始できない文明が必ず生じることになる。
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_FOUNDING_RELIGION_TOPIC">
+      <Text>宗教の創始</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_MAJORITY_ADVISOR_QUESTION">
+      <Text>特定の宗教を多数派宗教にするには？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_MAJORITY_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_MAJORITY_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_MAJORITY_SUMMARY">
+      <Text>都市の市民の1人1人が、無神論者か特定の宗教の信徒になる。市民は宗教の自然な伝播や布教を通して改宗を行うようになる。特定の宗教の信徒が都市の市民の過半数を超えると、その都市はその宗教を信仰する都市と見なされ、それ以降はその宗教の宗教ユニットと宗教施設を都市画面から購入できる。[NEWLINE][NEWLINE]市民の過半数が特定の宗教の信徒になると、その宗教のシンボルが都市の旗に表示される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_MAJORITY_TOPIC">
+      <Text>多数派宗教</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEON_BELIEFS_ADVISOR_QUESTION">
+      <Text>パンテオンの信仰の証とは？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEON_BELIEFS_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_PANTHEON_BELIEFS_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEON_BELIEFS_SUMMARY">
+      <Text>特にゲーム序盤で(産出量の増加などに)役立つ特殊なボーナスであり、パンテオン信仰、または主要な宗教の信徒が多数派となっている都市で機能する。ゲーム後半ではパンテオン信仰をもとに宗教を創始する文明が出てくるため、このボーナスは主要な宗教に取り込まれる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEON_BELIEFS_TOPIC">
+      <Text>パンテオンの信仰の証</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEONS_ADVISOR_QUESTION">
+      <Text>パンテオン信仰とは？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEONS_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_PANTHEONS_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEONS_SUMMARY">
+      <Text>パンテオン信仰は宗教創始の第一歩となる教えである。ゲーム開始後に一定の[ICON_PEACE]信仰力が貯まることで、パンテオンの信仰の証を選択できるようになる。パンテオンの信仰の証は、やがて創始できるようになるあらゆる宗教の土台となるため、ゲームを通して効果が持続するように賢い選択を行うとよい。パンテオン信仰の開始に必要な[ICON_PEACE]信仰力は、マップ全体に存在するパンテオン信仰の数に比例する。[NEWLINE][NEWLINE]パンテオン信仰は宗教の第一歩となるため、宗教の創始状況によっては、初期の時代以降はパンテオン信仰を開始できない場合がある。一度パンテオン信仰を選択すると、ただちに文明全体で開始可能となり、主要な宗教を創始するまで自動的に他の都市に広まる。他のプレイヤーがすでに宗教を強化している場合、新たにパンテオン信仰を創始することはできない。アクティブなパンテオン信仰の数は、現在のゲームで創始可能な宗教数と同等か、それ以上となる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_PANTHEONS_TOPIC">
+      <Text>パンテオン信仰</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_SPREADING_RELIGION_ADVISOR_QUESTION">
+      <Text>宗教を広めるには？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_SPREADING_RELIGION_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_SPREADING_RELIGION_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_SPREADING_RELIGION_SUMMARY">
+      <Text>宗教の拡大方法には、聖都や宗教都市からの自然な伝播による方法と、プレイヤーが都市を意図的に改宗させる方法とがある。[NEWLINE][NEWLINE]宗教の自然な伝播は、比較的単純な仕組である。多数派宗教(市民半数以上が信仰している宗教)がある都市は、最大10タイル先までその宗教を信仰するよう圧力をかける。この10タイルの範囲内に他の都市があり、その都市に多数派宗教がまだ無い場合、圧力によってその都市の市民はしだいに改宗していく。10タイル以内の都市に多数派宗教がすでにある場合、2つ以上の都市から圧力をかけなければ効果はない。圧力をかけている都市が多いほど改宗の速度が上がる。都市の旗にある宗教のアイコンにカーソルを合わせると、外部に対する宗教的圧力と、外部からの宗教的圧力を確認することができる（すでにパンテオン信仰か宗教が存在している場合のみ）。[NEWLINE][NEWLINE]宗教の拡大を早めたい場合は、次の操作を行う。多数派宗教として広めたい宗教を信仰している都市で、[ICON_PEACE]信仰力を使用して伝道師を購入する。購入は都市画面の左下にある購入ボタンをクリックし、開いた購入メニューから行う。購入に必要な[ICON_PEACE]信仰力が足りない場合は、伝道師の項目が灰色に表示される。伝道師を手に入れたら、改宗させたい都市の中または隣に伝道師を移動し、アクションメニューにある「布教」ボタンをクリックする。通常、布教を2回行った伝道師は消滅する。[NEWLINE][NEWLINE]大預言者も同様の方法で宗教を広めることができるが、大預言者の場合は布教と同時に、ターゲットの都市に広まっている宗教を廃止に追い込む。この能力は、大預言者が消滅するまで何回でも使用することができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_SPREADING_RELIGION_TOPIC">
+      <Text>宗教の拡大</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_UNITS_ADVISOR_QUESTION">
+      <Text>宗教に関係のあるユニットとは？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_UNITS_DESCRIPTION">
+      <Text>{TXT_KEY_CONCEPT_RELIGION_UNITS_TOPIC}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_UNITS_SUMMARY">
+      <Text>宗教に影響を与えるユニットは、大預言者、伝道師、審問官の3種類である。大預言者と伝道師は宗教を拡大する際に使用し、審問官は他の宗教の伝播を防ぐ際に使用する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONCEPT_RELIGION_UNITS_TOPIC">
+      <Text>宗教ユニット</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CONFIRM_PANTHEON">
+      <Text>[COLOR_GREEN]{1_BeliefName}[ENDCOLOR]を選択しますか?</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOMACY_DISCUSS_HEADING3_BODY">
+      <Text>このボタンを押すことで様々な事柄について会談を開くことができる。会談の内容はその時の状況に応じて次のなかから選択することができる。相手国の指導者は、こちらとの関係や自国の利益を考慮した上で回答を行う。[NEWLINE]・友好宣言を締結することを提案する。[NEWLINE]・他の文明に対して宣戦布告をするよう提案する。[NEWLINE]・他の指導者と共謀する。[NEWLINE]・こちらの領土の近くにこれ以上都市を建てないよう要求する。[NEWLINE]・特定の不快な指導者に対して非難声明を出すよう要請する。[NEWLINE]・スパイ行為をやめるよう要求する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLOMACY_OPENBORDERS_HEADING3_BODY">
+      <Text>あなたの文明が官吏を発見していれば、あなたが大使館を開設しているどの文明とも国境開放の合意を結ぶことができる(都市国家とは国境開放の合意を結べない)。相手が官吏を発見していれば、あなたの文明が官吏を発見している必要はない。国境開放の合意が有効になっている間は、相手方のユニットがあなたの領土に入っても自動的に戦争が開始されることはない。合意が相互的なものであれば、両者のユニットが相手方の領土に自由に入ることができるが、国境開放の合意は必ずしも相互的なものである必要はない。文明は他文明に対し、見返りなしに(自動的に相手からも国境開放を認められることなく）国境開放を認めることができる。[NEWLINE][NEWLINE]国境開放の合意は、20ターン継続する。20ターンが経過すると合意の更新が必要となり、更新しないと合意は失効する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GA_PROGRESS">
+      <Text>大提督の功績</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HAPPINESS_CAUSES_HEADING2_BODY">
+      <Text>以下のものは人々の幸福度を上昇させる。[NEWLINE][NEWLINE]自然遺産:自然遺産は一度発見されると、永久に文明の幸福度を向上させる。[NEWLINE][NEWLINE]高級資源:領土内の高級資源は自分で活用する以外に、他の文明との取引材料にも使うことができる。各高級資源は自文明の人々の幸福度を上昇させる(ただし、同じ高級資源を複数持っていても、そのぶん余計に幸福度が上昇するわけではない)。[NEWLINE][NEWLINE]建造物:人々の幸福度を上昇させるものがある。コロシアムやサーカス、劇場などがそうだ。これらは文明内のどの場所にいくつ建てられていても、その1つ1つが文明全体の幸福度を向上させる(高級資源と異なり、コロシアムが2つあれば、1つだけの時の2倍幸福度が上昇する)。[NEWLINE][NEWLINE]遺産:ノートルダム大聖堂やプローラといった遺産は、幸福度を大幅に上昇させる。[NEWLINE][NEWLINE]社会制度:幸福度を専門とする分岐はないが、各分岐内に幸福度の上昇や不満の減少に特化した社会制度がいくつかある。[NEWLINE][NEWLINE]テクノロジー:テクノロジー自体は、幸福をもたらさないが、テクノロジーにより、幸福度を上昇させる建造物、遺産、資源、社会制度が選択可能になる。[NEWLINE][NEWLINE]宗教:宗教には幸福をもたらすものがある。また、[ICON_PEACE]信仰力を消費して購入できる宗教的建造物にも幸福をもたらすものがある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_HOLY_CITY_TOOLTIP_LINE">
+      <Text>{1_ReligionIcon}{2_ReligionName}の聖都</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_GIFT_TILE_IMPROVEMENT">
+      <Text>資源活用施設献上モード</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_ISLANDS_HELP">
+      <Text>大小の島々で構成されたマップです。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_NARROW_CONTINENTS_HELP">
+      <Text>狭く標高の高い大陸で構成されたマップです。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_SMALL_ISLANDS_HELP">
+      <Text>小さな島々で構成されたマップです。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MAP_WIDE_CONTINENTS_HELP">
+      <Text>広大な大陸で構成されたマップです。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_MADE_PEACE_WITH_MINOR_ALLIES">
+      <Text>{1_CivName:textkey}が都市国家と和平交渉を行った:[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_MADE_PEACE_WITH_MINOR_ALLIES_SUMMARY">
+      <Text>{1_CivName:textkey}が都市国家と和平を結ぶ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_MINOR_ALLIES_DECLARED_WAR_ON_YOU">
+      <Text>[COLOR_NEGATIVE_TEXT]{1_CivName:textkey}と同盟を結んでいる都市国家から宣戦布告された！[ENDCOLOR][NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_MINOR_ALLIES_DECLARED_WAR_ON_YOU_SUMMARY">
+      <Text>都市国家から宣戦布告された！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_YOUR_MINOR_ALLIES_DECLARED_WAR">
+      <Text>同盟を結んでいる都市国家が{1_CivName:textkey}に宣戦布告した:[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_YOUR_MINOR_ALLIES_DECLARED_WAR_SUMMARY">
+      <Text>同盟を結んでいる都市国家が宣戦布告した！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_YOUR_MINOR_ALLIES_MADE_PEACE">
+      <Text>同盟を結んでいる都市国家が{1_CivName:textkey}と和平を結んだ:[NEWLINE]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_YOUR_MINOR_ALLIES_MADE_PEACE_SUMMARY">
+      <Text>同盟を結んでいる都市国家が和平を結ぶ</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_ENHANCE_RELIGION">
+      <Text>宗教の強化</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_FOUND_RELIGION">
+      <Text>宗教を創始する</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_REMOVE_HERESY">
+      <Text>異端信仰の排除</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_REPAIR_FLEET">
+      <Text>艦船の修理</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SPREAD_RELIGION">
+      <Text>布教</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MOVEMENT_EMBARKING_HEADING3_BODY">
+      <Text>陸上ユニットの場合、ゲーム開始直後は水タイルに進入できないが、光学のテクノロジーを習得して「出航」のレベルアップを獲得することで近海タイルに入れるようになる。ユニットの出航は、沿岸タイルにユニットを移動させてからアクションボックス内の「出航」をクリックして行う。出航中に移動できるのは水上のみとなる。(光学のテクノロジー習得で移動できるようになるのは近海タイルのみ。後に登場する天文学のテクノロジーによって外洋の航行が可能となる)[NEWLINE][NEWLINE]出航を行ったユニットは、移動速度が遅い上、ほぼ無防備な状態となる。敵の攻撃からある程度身を守ることはできるが、自分から攻撃することはできないため、外洋上ではあまり長く単独行動をさせないほうが良い。出航を行った陸上ユニットには、必ず強力な海軍ユニットを同行させるようにしたい。[NEWLINE][NEWLINE]出航中のユニットを陸タイルに隣接させることで、アクションボックス内にある「下船」をクリックできるようになる。下船を実行するとユニットは陸上へと戻る。また、陸タイルを右クリックしてユニットを移動させれば、ユニットは自動的に下船を行い、そのタイルへと上陸する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ALREADY_CREATED_PANTHEON">
+      <Text>すでにパンテオン信仰を開始しています。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ALREADY_CREATED_RELIGION">
+      <Text>すでに宗教を1つ創始しています。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_AUTOMATIC_FAITH_PURCHASE">
+      <Text>{2_City}で{1_Name}を購入した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_LIBERATED">
+      <Text>{1_PlayerName}が{2_CityName}を占領し、{3_CivAdj}主権を回復した。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CIV_LIBERATED_SHORT">
+      <Text>{1_CityName}が{2_PlayerName}に返還された</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CIV_RESURRECTED">
+      <Text>{1_PlayerName}が{2_CityName}を占領し、{3_CivAdj}主権を回復した。失われてしまった{4_CivName}の火が、再び灯された。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CIV_RESURRECTED_SHORT">
+      <Text>{1_PlayerName}が{2_PlayerName}によって解放された</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DISCOVER_FREE_TECH">
+      <Text>好きなテクノロジーを1つ、無償で獲得することができます！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ENHANCE_RELIGION">
+      <Text>新たな信仰の証が追加できるようになりました</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ENHANCED_RELIGION_IN_USE">
+      <Text>他のプレイヤーによって宗教が強化された。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ENOUGH_FAITH_FOR_MISSIONARY">
+      <Text>[ICON_PEACE]信仰力が貯まったことで伝道師や建造物を購入できるようになりました。購入は、自分に必要な宗教を信仰している都市で行ってください。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ENOUGH_FAITH_FOR_PANTHEON">
+      <Text>信仰力が貯まったことでパンテオン信仰を開始できるようになりました！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FOUND_RELIGION">
+      <Text>宗教を創始できます！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_NEED_NEW_AUTOMATIC_FAITH_SELECTION">
+      <Text>信仰力による自動購入で選択していたアイテム({1_SelectionText})が購入できなくなりました。宗教概要画面で他のアイテムに変更することができます。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_NO_RELIGIONS_AVAILABLE">
+      <Text>このゲームではこれ以上宗教を創始できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_NOT_ENOUGH_FAITH_FOR_PANTHEON">
+      <Text>現在の信仰力ではパンテオン信仰を開始できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_PANTHEON_BELIEF_IN_USE">
+      <Text>この信仰の証はすでに他のプレイヤーによって使用されている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_IN_USE">
+      <Text>この宗教はすでに他のプレイヤーによって創始されている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_RELIGION_NAME_IN_USE">
+      <Text>この宗教名はすでに他のプレイヤーによって使用されている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ALREADY_CREATED_PANTHEON">
+      <Text>パンテオン信仰はすでに開始されている</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ALREADY_CREATED_RELIGION">
+      <Text>創始済みの宗教</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_AUTOMATIC_FAITH_PURCHASE">
+      <Text>信仰力による自動購入</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_DISCOVER_FREE_TECH">
+      <Text>無償のテクノロジーを発見</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ENHANCE_RELIGION">
+      <Text>宗教の強化</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ENHANCED_RELIGION_IN_USE">
+      <Text>強化された宗教がある</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ENOUGH_FAITH_FOR_MISSIONARY">
+      <Text>信仰力による購入が可能</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_ENOUGH_FAITH_FOR_PANTHEON">
+      <Text>パンテオン信仰の開始</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_FOUND_RELIGION">
+      <Text>宗教の創始</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_NEED_NEW_AUTOMATIC_FAITH_SELECTION">
+      <Text>信仰力による自動購入の選択が必要</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_NO_RELIGIONS_AVAILABLE">
+      <Text>創始できる宗教はない</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_NOT_ENOUGH_FAITH_FOR_PANTHEON">
+      <Text>信仰力が足りない</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_PANTHEON_BELIEF_IN_USE">
+      <Text>使用されている信仰の証</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_RELIGION_IN_USE">
+      <Text>創始された宗教</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_RELIGION_NAME_IN_USE">
+      <Text>使用中の宗教名</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ACCURACY_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]平坦な[ENDCOLOR]地形(丘陵、森林、ジャングルは不可)にいるユニットに対する[ICON_RANGE_STRENGTH]遠隔戦闘力+15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ACCURACY_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]平坦な[ENDCOLOR]地形(丘陵、森林、ジャングルは不可)にいるユニットに対する[ICON_RANGE_STRENGTH]遠隔戦闘力+15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ACCURACY_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]平坦な[ENDCOLOR]地形(丘陵、森林、ジャングルは不可)にいるユニットに対する[ICON_RANGE_STRENGTH]遠隔戦闘力+15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_AMBUSH_1">
+      <Text>航空奇襲 I</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_AMBUSH_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]機甲[ENDCOLOR]ユニットに対する[ICON_STRENGTH]戦闘力+33%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_AMBUSH_2">
+      <Text>航空奇襲 II</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_REPAIR">
+      <Text>空中修復 </Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]都市[ENDCOLOR]に対する[ICON_STRENGTH]戦闘力+33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]都市[ENDCOLOR]に対する[ICON_STRENGTH]戦闘力+33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_SIEGE_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]都市[ENDCOLOR]に対する[ICON_STRENGTH]戦闘力+34%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1">
+      <Text>航空索敵 I</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]海軍[ENDCOLOR]ユニットに対する[ICON_STRENGTH]戦闘力+33%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2">
+      <Text>航空索敵 II</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AMBUSH_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]機甲[ENDCOLOR]ユニットに対する[ICON_STRENGTH]戦闘力+33%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_AMBUSH_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]機甲[ENDCOLOR]ユニットに対する[ICON_STRENGTH]戦闘力+33%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_AIR">
+      <Text>対航空機・ヘリコプターボーナス(150)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_AIR_II">
+      <Text>対爆撃機・ヘリコプターボーナス(150)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_FIGHTER">
+      <Text>対戦闘機ボーナス(33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_SUBMARINE_I">
+      <Text>対潜水艦攻撃(33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_SUBMARINE_II">
+      <Text>対潜水艦攻撃(100)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ANTI_TANK">
+      <Text>対戦車ボーナス(100)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BARRAGE_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]起伏に富んだ[ENDCOLOR]地形(丘陵、森林、ジャングルは不可)にいるユニットに対する[ICON_RANGE_STRENGTH]遠隔戦闘力+15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BARRAGE_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]起伏に富んだ[ENDCOLOR]地形(丘陵、森林、ジャングルは不可)にいるユニットに対する[ICON_RANGE_STRENGTH]遠隔戦闘力+15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BARRAGE_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]起伏に富んだ[ENDCOLOR]地形(丘陵、森林、ジャングルは不可)にいるユニットに対する[ICON_RANGE_STRENGTH]遠隔戦闘力+15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BLITZ_HELP">
+      <Text>1ターンにつき1回、追加攻撃を行える。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_1">
+      <Text>乗船部隊 I</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]海軍ユニット[ENDCOLOR]との白兵戦で[ICON_STRENGTH]戦闘力が15%上昇。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_2">
+      <Text>乗船部隊 II</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]海軍ユニット[ENDCOLOR]との白兵戦で[ICON_STRENGTH]戦闘力が15%上昇。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_3">
+      <Text>乗船部隊 III</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOARDING_PARTY_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]海軍ユニット[ENDCOLOR]との白兵戦で[ICON_STRENGTH]戦闘力が15%上昇。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]陸上ユニット[ENDCOLOR]に対する[ICON_STRENGTH]戦闘力+33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]陸上ユニット[ENDCOLOR]に対する[ICON_STRENGTH]戦闘力+33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_BOMBARDMENT_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]陸上ユニット[ENDCOLOR]に対する[ICON_STRENGTH]戦闘力+34%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CHARGE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]損傷したユニット[ENDCOLOR]に対する[ICON_STRENGTH]戦闘力+33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CITY_ASSUALT">
+      <Text>対都市ボーナス(300)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CITY_ASSUALT_HELP">
+      <Text>対都市ボーナス+300%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CITY_SIEGE">
+      <Text>対都市ボーナス(200)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_CITY_SIEGE_HELP">
+      <Text>対都市ボーナス+200%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_1">
+      <Text>沿岸襲撃 I</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]都市[ENDCOLOR]攻撃時に[ICON_STRENGTH]戦闘力が20%上昇。都市に与えたダメージの33%と同量のゴールドを盗む。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_2">
+      <Text>沿岸襲撃 II</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]都市[ENDCOLOR]攻撃時に[ICON_STRENGTH]戦闘力が20%上昇。都市に与えたダメージの33%と同量のゴールドを盗む。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_3">
+      <Text>沿岸襲撃 III</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COASTAL_RAIDER_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]都市[ENDCOLOR]攻撃時に[ICON_STRENGTH]戦闘力が20%上昇。都市に与えたダメージの34%と同量のゴールドを盗む。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COVER_1_HELP">
+      <Text>すべての[COLOR_POSITIVE_TEXT]遠隔攻撃[ENDCOLOR]に対する[COLOR_POSITIVE_TEXT]防御[ENDCOLOR]+33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_COVER_2_HELP">
+      <Text>すべての[COLOR_POSITIVE_TEXT]遠隔攻撃[ENDCOLOR]に対する[COLOR_POSITIVE_TEXT]防御[ENDCOLOR]+33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DEFEND_NEAR_CAPITAL">
+      <Text>首都近郊ボーナス</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DEFEND_NEAR_CAPITAL_HELP">
+      <Text>都市駐留時に戦闘力が30%上昇する。都市から離れるにつれてボーナスは減少する</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DEFENSE_PENALTY">
+      <Text>防御ペナルティ(33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DEFENSE_PENALTY_HELP">
+      <Text>防御ペナルティ33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DEFENSIVE_EMBARKATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]水タイル[ENDCOLOR]に進入できる。出航中は防御が2倍。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DISCIPLINE_HELP">
+      <Text>味方ユニットに隣接している場合に[ICON_STRENGTH]戦闘力+15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]掃射[ENDCOLOR]を行う際に[ICON_STRENGTH]戦闘力+33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]掃射[ENDCOLOR]を行う際に[ICON_STRENGTH]戦闘力+33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DOGFIGHTING_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]掃射[ENDCOLOR]を行う際に[ICON_STRENGTH]戦闘力+34%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DRILL_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]起伏に富んだ[ENDCOLOR]地形(丘陵、森林、ジャングル)での戦闘時に[ICON_STRENGTH]戦闘力+15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DRILL_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]起伏に富んだ[ENDCOLOR]地形(丘陵、森林、ジャングル)での戦闘時に[ICON_STRENGTH]戦闘力+15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_DRILL_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]起伏に富んだ[ENDCOLOR]地形(丘陵、森林、ジャングル)での戦闘時に[ICON_STRENGTH]戦闘力+15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_EMBARKATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]水タイル[ENDCOLOR]に進入できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_EMBARKED_SIGHT">
+      <Text>出航中の視界上昇</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_EMBARKED_SIGHT_HELP">
+      <Text>通常のユニットより出航時の視界が広い</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FAST_ADMIRAL">
+      <Text>提督の機動力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FAST_ADMIRAL_HELP">
+      <Text>[ICON_MOVES]移動ポイント+2</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FAST_GENERAL">
+      <Text>将軍の機動力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FEARED_ELEPHANT">
+      <Text>怯える象</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FEARED_ELEPHANT_HELP">
+      <Text>このレベルアップを持つユニットに近接する敵ユニットの[ICON_STRENGTH]戦闘力が10%低下する</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FIRE_SUPPORT">
+      <Text>対都市ボーナス(33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS">
+      <Text>強化型側面攻撃</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FLANK_ATTACK_BONUS_HELP">
+      <Text>側面攻撃ボーナスが50%増加</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FORMATION_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]騎乗[ENDCOLOR]ユニットに対する[ICON_STRENGTH]戦闘力+33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_FORMATION_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]騎乗[ENDCOLOR]ユニットに対する[ICON_STRENGTH]戦闘力+33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_GENERAL_STACKING">
+      <Text>大将軍戦闘ボーナス</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_GENERAL_STACKING_HELP">
+      <Text>大将軍と同じタイルにいるときに戦闘力が15%上昇</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_GREAT_ADMIRAL">
+      <Text>海軍の指導力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_GREAT_ADMIRAL_HELP">
+      <Text>近くにいる海軍ユニットの戦闘効率が向上する</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_GREAT_GENERAL_HELP">
+      <Text>近くにいる陸上ユニットの戦闘効率が向上する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY">
+      <Text>ユニットを倒すとダメージが50回復</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY_HELP">
+      <Text>蛮族以外のユニットを倒すとダメージが50回復する</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HEAL_INSTANTLY_HELP">
+      <Text>このユニットのヒットポイントを50[COLOR_POSITIVE_TEXT]回復[ENDCOLOR]する。ただし、レベルアップを選ぶ[COLOR_POSITIVE_TEXT]この機会を見送る[ENDCOLOR]ことになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HEAVY_PAYLOAD">
+      <Text>対都市ボーナス(50)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HELI_AMBUSH_1">
+      <Text>対機甲ユニットボーナス(25)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HELI_AMBUSH_2">
+      <Text>対機甲ユニットボーナス(25)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_HOVERING_UNIT_HELP">
+      <Text>山岳は越えられるが、山岳の上でターンを終了するとダメージを受ける。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_1_HELP">
+      <Text>敵機を迎撃する際に[ICON_STRENGTH]戦闘力+33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_2_HELP">
+      <Text>敵機を迎撃する際に[ICON_STRENGTH]戦闘力+33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_INTERCEPTION_3_HELP">
+      <Text>敵機を[COLOR_POSITIVE_TEXT]迎撃[ENDCOLOR]する際に[ICON_STRENGTH]戦闘力+34%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_JAGUAR">
+      <Text>森林/ジャングルで戦闘ボーナス(33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_JAGUAR_HELP">
+      <Text>森林/ジャングルで戦闘ボーナス+33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MEDIC_HELP">
+      <Text>近接する全ユニットのHPが1ターンにつき[COLOR_POSITIVE_TEXT]5ポイント多く回復[ENDCOLOR]。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MEDIC_II">
+      <Text>衛生兵 II</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MEDIC_II_HELP">
+      <Text>近接する全ユニットのHPが1ターンにつき[COLOR_POSITIVE_TEXT]5ポイント回復[ENDCOLOR]する。[COLOR_POSITIVE_TEXT]友好的な土地以外[ENDCOLOR]で、このユニットのHPが1ターンにつき[COLOR_POSITIVE_TEXT]5ポイント回復[ENDCOLOR]する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOHAWK">
+      <Text>森林/ジャングルで戦闘ボーナス(33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOHAWK_HELP">
+      <Text>森林/ジャングルで戦闘ボーナス+33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOUNTED_PENALTY">
+      <Text>対騎乗ペナルティ(33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOVEMENT_TO_GENERAL">
+      <Text>将軍との行軍</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_MOVEMENT_TO_GENERAL_HELP">
+      <Text>ターン開始時、大将軍とこのユニットがスタックしていると、大将軍の移動速度がこのユニットと同じになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NATIONALISM_HELP">
+      <Text>自友国領内における攻撃ボーナス+15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NAVAL_BONUS">
+      <Text>対海軍ボーナス</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NAVAL_BONUS_HELP">
+      <Text>対海軍ボーナス(50)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_NAVAL_PENALTY">
+      <Text>対海軍ペナルティ(50)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ONLY_ATTACKS_CITIES">
+      <Text>都市攻撃限定</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_ONLY_ATTACKS_CITIES_HELP">
+      <Text>都市攻撃専門となり、ユニットを攻撃できなくなる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY">
+      <Text>ユニットを倒すとダメージが25回復</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_PRIZE_SHIPS">
+      <Text>無償の船</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_PRIZE_SHIPS_HELP">
+      <Text>倒した海軍ユニットが味方になる場合がある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SCOUTING_2_HELP">
+      <Text>射程+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SCOUTING_3_HELP">
+      <Text>移動+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SENTRY_HELP">
+      <Text>射程+1</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SHOCK_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]平坦な[ENDCOLOR]地形(丘陵、森林、ジャングルは不可)での戦闘時に[ICON_RANGE_STRENGTH]遠隔戦闘力+15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SHOCK_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]平坦な[ENDCOLOR]地形(丘陵、森林、ジャングルは不可)での戦闘時に[ICON_RANGE_STRENGTH]遠隔戦闘力+15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SHOCK_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]平坦な[ENDCOLOR]地形(丘陵、森林、ジャングルは不可)での戦闘時に[ICON_RANGE_STRENGTH]遠隔戦闘力+15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SIEGE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]都市[ENDCOLOR]に対する[ICON_STRENGTH]戦闘力+50%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SILENT_HUNTER">
+      <Text>攻撃時に戦闘力ボーナス(75)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_STEAM_POWERED">
+      <Text>近海タイルでの移動速度が2倍</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_STRONGER_VS_DAMAGED">
+      <Text>ダメージを受けた敵へのボーナス(33)</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SUPPLY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]自友国領外[ENDCOLOR]で回復が可能。1ターンにつき15HP回復。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_1_HELP">
+      <Text>自友国領外で1ターンにつき+5HP回復。防御+25%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_2_HELP">
+      <Text>自友国領外で1ターンにつき+5HP回復。防御+25%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_SURVIVALISM_3_HELP">
+      <Text>別の行動を起こした場合でも[COLOR_POSITIVE_TEXT]毎ターン回復[ENDCOLOR]する。白兵攻撃に対して回避行動を取る。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_TARGETING_1_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]海軍ユニット[ENDCOLOR]に対する[ICON_STRENGTH]戦闘力+15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_TARGETING_2_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]海軍ユニット[ENDCOLOR]に対する[ICON_STRENGTH]戦闘力+15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_TARGETING_3_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]海軍ユニット[ENDCOLOR]に対する[ICON_STRENGTH]戦闘力+15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_UNWELCOME_EVANGELIST">
+      <Text>歓迎されない福音伝道者</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_UNWELCOME_EVANGELIST_HELP">
+      <Text>国境解放条約を結ばなくても敵の領土に入ることができるが、敵の領土内でターンを終了するたびに最大宗教力の25%を失う。宗教力が0になると消滅する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_VOLLEY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]守りを固めたユニット[ENDCOLOR]と[COLOR_POSITIVE_TEXT]都市[ENDCOLOR]に対する[ICON_STRENGTH]戦闘力+50%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_WAR_CANOES">
+      <Text>軍用カヌー</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_WAR_CANOES_HELP">
+      <Text>出航時の防御力が2倍になり、視界が通常より広くなる</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE">
+      <Text>近接攻撃を回避する</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROMOTION_WITHDRAW_BEFORE_MELEE_HELP">
+      <Text>近接攻撃を受けそうになったユニットが、その攻撃を回避する。相手が機動力の高いユニットである場合や、退却可能なタイルが背後に十分にない場合には、攻撃の回避率が下がる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_NO_FOLLOWERS">
+      <Text>この都市では誰も宗教を信仰していない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGION_TOOLTIP_LINE">
+      <Text>{1_ReligionIcon}の信徒{2_NumFollowers}人{3_PressureString}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RELIGIOUS_PRESSURE_STRING">
+      <Text>(圧力+{1_Pressure})</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_ABILITIES_HEADING3_BODY">
+      <Text>偉人はそれぞれ2種類の能力(大提督については別記参照)を持っている。[NEWLINE]・偉人を消費することで特殊な建造物を建てられる。[NEWLINE]・その他の特殊な能力を使用できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_CITADEL_HEADING4_BODY">
+      <Text>城塞を建設するとそれに隣接するタイルが自国領になり、文化圏が城塞の周辺まで拡大する。また、城塞に駐留するユニットには非常に大きな防御ボーナスが付与され、城塞に隣接するタイルでターンを終えた敵にはダメージを与える(複数の城塞に隣接していても受けるダメージ量は城塞1つ分と同じ)。ただし、この能力は自国領外では発動しない。近くの都市が占領されて敵の文化圏に城塞が取り込まれれば、その城塞は新たな指導者の下で能力を発揮するようになる。城塞によって広がる文化圏上のタイルを他の文明がすでに所持していた場合は、外交ペナルティを受けることになる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_COMBATBONUS_HEADING4_BODY">
+      <Text>大将軍は2タイル以内にいる友軍の全陸上ユニットに15%の戦闘ボーナスを付与する。このボーナスは全陸上戦闘ユニット(白兵戦ユニット、遠隔攻撃ユニット、防衛ユニットなど)に適用される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_CULTUREBOMB_HEADING4_BODY">
+      <Text>大芸術家は文明の生産力が飛躍的に高まる「黄金時代」を開始することができる。この期間中は、ゴールドを産出するタイルが通常よりも1多くゴールドを生み出し、各都市の生産力(ハンマー)が20%増加し、文明全体の[ICON_CULTURE]文化力が20%向上する。黄金時代の長さはゲームの難易度と速度によって変化する。黄金時代を発生させると大芸術家は消滅する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_CULTUREBOMB_HEADING4_TITLE">
+      <Text>特殊能力: 黄金時代</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY_ADV_QUEST">
+      <Text>大提督の能力とは？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY_BODY">
+      <Text>大提督は2タイル以内にいる自国の全海軍ユニットに15%の戦闘力ボーナスを付与する。このボーナスは全海軍ユニット(白兵戦ユニット、遠隔攻撃ユニット、防衛ユニットなど)に適用される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY_TITLE">
+      <Text>特殊能力: 戦闘力ボーナス</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY2_ADV_QUEST">
+      <Text>{TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY_ADV_QUEST}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY2_BODY">
+      <Text>{TXT_KEY_MISSION_REPAIR_FLEET_HELP}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ABILITY2_TITLE">
+      <Text>特殊能力: 艦船の修理</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_ADV_QUEST">
+      <Text>大提督とは？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_BODY">
+      <Text>大提督の基本的な能力は大将軍を踏襲したものとなっている。大提督は専門家によって都市に誕生するのではなく、海軍ユニットの戦闘によって誕生する。海軍ユニットが経験値(XP)を獲得すると、そのユニットが所属する国に大提督ポイントが加算され(蛮族との戦闘は除く)、必要なポイントに達すると大提督が誕生する。大提督が誕生すると、次の大提督を誕生させるのに必要なコストは上昇する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATADMIRAL_TITLE">
+      <Text>大提督</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_ABILITY_ADV_QUEST">
+      <Text>大預言者の能力とは？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_ABILITY_BODY">
+      <Text>大預言者は4回まで布教することが可能。大預言者は布教と同時にその都市に伝播していた他の宗教を排除する。布教を4回行うと大預言者は消滅する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_ABILITY_TITLE">
+      <Text>特殊能力: 布教</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_ADV_QUEST">
+      <Text>大預言者とは？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_BODY">
+      <Text>大預言者は[ICON_PEACE]信仰力を貯めることによって誕生する偉人であり、宗教の創始と強化を行うことができる唯一のユニットである。必要となる量(通常のゲームスピードでは最低で200)の[ICON_PEACE]信仰力が貯まると大預言者が出現する。大預言者の能力である「宗教の創始」を行うことで、独自の宗教を作ることができる。大預言者は他の偉人と同様に様々な能力(特殊施設の建設など)を持っている。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_IMPROVEMENT_ADV_QUEST">
+      <Text>大預言者は資源活用施設を建てられるのか？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_IMPROVEMENT_BODY">
+      <Text>大預言者は聖地を作ることができる。聖地は活用されると[ICON_PEACE]信仰力を産出する。この能力を使うと大預言者は消滅する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_IMPROVEMENT_TITLE">
+      <Text>特殊施設: 聖地</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_GREATPROPHET_TITLE">
+      <Text>大預言者</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_LEARNNEWTECH_HEADING4_BODY">
+      <Text>大科学者を消費することで、直前の8ターンで自国が産出した科学力の1ターン当たりの平均と同じ量の科学力が手に入る。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_LEARNNEWTECH_HEADING4_TITLE">
+      <Text>特殊能力: 無償の科学力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SPECIALISTSANDGP_MOVINGGREATPEOPLE_HEADING2_BODY">
+      <Text>偉人も他のユニットと同じようにマップ上を移動することができる。非戦闘ユニットであるため他の非戦闘ユニット(労働者や開拓者)と同じタイルに置くことはできないが、戦闘ユニットであれば、1体まで同一タイルにスタックさせることができる。敵ユニットが偉人のいるタイルに入ってきた場合、その偉人は自動的に消滅する(敵国の所有にはならない)。ただし、大預言者だけは例外として敵国に捕まってしまう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TECH_GREATSCIENTIST_HEADING4_BODY">
+      <Text>大科学者を消費することで、次に研究を行うテクノロジーの獲得が大幅に早くなり、アカデミーの建設が可能となる。アカデミーのあるタイルで市民を働かせれば、1ターンにつきビーカーが産出される。詳細については偉人の項目を参照のこと。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_DESERT_HEADING3_BODY">
+      <Text>砂漠タイルは通常、きわめて有用性に乏しい。砂漠タイルは都市にまったく利益をもたらさない(砂漠にオアシスなどの資源や、新鮮な水がある場合を除く)。また、砂漠に駐留するユニットには戦闘時に高い防御ペナルティが課せられる。[NEWLINE][NEWLINE]産出物: なし[NEWLINE]移動コスト: 1[NEWLINE]戦闘力補正: 0%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_GRASSLAND_HEADING3_BODY">
+      <Text>草原は通常、他のどの地形よりも食料を多く生産する。草原の周辺に建設された都市は他の場所にある都市よりも早く発展する傾向にある。[NEWLINE][NEWLINE]産出物: 食料2[NEWLINE]移動コスト: 1[NEWLINE]戦闘力補正: 0%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_MOUNTAIN_HEADING3_BODY">
+      <Text>山岳は大きく隆起した地形を持つタイルで、航空ユニット以外は通行不能となっている（カルタゴは例外）。侵攻に対する防壁という役目を除けば、文明にとっては余り利益にならない土地である。[NEWLINE][NEWLINE]産出物: なし[NEWLINE]移動コスト: 通行不能（航空ユニットとカルタゴは例外）[NEWLINE]戦闘力補正: 25%の防御ボーナス</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_PLAINS_HEADING3_BODY">
+      <Text>平原は近隣の都市に食料と生産力をもたらす。草原に囲まれた都市よりも発展の速度は遅いが、平原に囲まれた都市の方が生産力ははるかに高くなる。[NEWLINE][NEWLINE]産出物: 食料1、生産力1[NEWLINE]移動コスト: 1[NEWLINE]戦闘力補正: 0%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_SNOW_HEADING3_BODY">
+      <Text>氷土は非常に生産性に乏しく、近隣都市の利益となるような食料や生産物を産出しない。もちろん氷土タイルにも役立つ資源が存在する場合はあるが、それを除けば、たんに寒くて不毛な大地でしかない。[NEWLINE][NEWLINE]産出物: なし[NEWLINE]移動コスト: 1[NEWLINE]戦闘力補正: 0%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TERRAIN_TUNDRA_HEADING3_BODY">
+      <Text>ツンドラとは、寒冷地域に広がる半分凍った土地のことである。ツンドラは平原や草原に比べると有用性が低いが、砂漠よりはわずかに利用価値がある。よほど資源に飢えていない限り(あるいは他に行き場がない限り)ツンドラに都市を建設する者などいない。[NEWLINE][NEWLINE]産出物: 食料1[NEWLINE]移動コスト: 1[NEWLINE]戦闘力補正: 0%</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CARAVEL_STRATEGY">
+      <Text>キャラベル船は、文明の海軍力を飛躍的に上昇させる白兵ユニットである。三段櫂船よりも強力で航行能力が高く、外洋タイルに入ることもできる。その機動力の高さにより最初からレベルアップが付与されており、敵に近接攻撃を仕掛けられる前に高確率で後退することができる。また、広い視界を持っているため、ゲーム中盤の海軍ユニットの目や耳にもなる。駆逐艦にアップグレードされると視界ボーナスは消失する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_COMPOSITE_BOWMAN_STRATEGY">
+      <Text>戦闘弓射手は弓兵よりも強力なユニットである。遠隔攻撃ユニットであるため白兵戦を行うことはできないが、最大で2タイル先の敵に大きなダメージを与えることができる。防衛のために都市に駐留させたり、移動時には他のユニットの援護に当たらせたりすると良い。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_CROSSBOWMAN_STRATEGY">
+      <Text>弩兵は戦闘弓射手よりも強力な遠隔攻撃ユニットである。最大で2タイル先にいる他の中世ユニットに大ダメージを与えることができるが、白兵戦を苦手とする。通常時は都市の防衛に当たらせ、移動時には他の白兵ユニットを同行させるようにしたい。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_DESTROYER_STRATEGY">
+      <Text>駆逐艦は潜水艦の索敵や破壊、対空戦の補助に特化した海軍白兵ユニットである。駆逐艦は、敵機や敵潜水艦の射程内に入った出航ユニット、戦艦、航空母艦の護衛を主な任務としている。その機動力の高さにより最初からレベルアップを保持しており、敵に近接攻撃を仕掛けられる前に一定の確率で後退することができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GALLEASS_STRATEGY">
+      <Text>ガレアス船はゲーム内で初めて登場する遠隔攻撃海軍ユニットで、ほとんどの文明が作成できる。これ以前の海軍ユニットよりもはるかに強力だが、移動速度は遅く、白兵戦を行うこともできない。浅瀬にいる敵船を一掃するのに役に立つ。ポリネシア以外のガレアス船は外洋には入れない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GALLEY_STRATEGY">
+      <Text>ガレー船は蛮族ユニットの1つで、近海タイルに留まりながら出航したユニットを虎視眈々と狙う。他の海軍ユニットに比べればはるかに弱いユニットだが、集団で来られるとやっかいな存在となる。また、遠隔攻撃を持たない白兵ユニットであり、海にいるユニットや都市に攻撃を仕掛けてくる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GATLINGGUN_STRATEGY">
+      <Text>ガトリング砲はゲーム中盤で登場する非攻城遠隔攻撃ユニットである。弩兵をはじめとするこれ以前の遠隔攻撃ユニットよりもはるかに強力な攻撃力を持つ。攻撃範囲は2タイルまでながら、反撃を受けることなく大きなダメージを与えることができる。ガトリング砲は都市に配置しておくと良い。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_ADMIRAL_STRATEGY">
+      <Text>大提督は、自分と同じタイルとそれに近接するタイルにいる全海軍ユニットと全出航ユニットを即座に修理することが可能。この能力を使用すると大提督は消滅する。また、2タイル以内にいる自国の全海軍ユニットに15%の戦闘力ボーナスを付与する。このボーナスは大提督を消費することなく付与される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_ENGINEER_STRATEGY">
+      <Text>大技術者は特殊施設である製造所を建設することができる。この施設で市民を働かせると、都市の[ICON_PRODUCTION]生産力が飛躍的に伸びる。また、大技術者を消費することで、ユニットや建造物、遺産を都市で緊急生産することができるようになる。上記のどれかを実行した大技術者はその場で消滅する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_GENERAL_STRATEGY">
+      <Text>大将軍は特殊施設である城塞を建設することができる。駐留するユニットに非常に大きな防御ボーナスを付与して、脇を通る敵にダメージを与え、隣接するタイルを自国領にする。城塞の建設を行った大将軍はその場で消滅する。大将軍はまた、周囲2タイル以内にいる自国の全陸上ユニットに15%の戦闘ボーナスを付与 する。ボーナスの付与は大将軍を消費することなく行える。
+</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_MERCHANT_STRATEGY">
+      <Text>大商人は特殊施設である税関を建設することができる。この施設で市民を働かせると、都市の[ICON_GOLD]ゴールド産出量が飛躍的に増加する。また、都市国家の領土で「通商任務」を遂行することで、[ICON_GOLD]ゴールドとその都市国家に対する影響力ポイントを大量に得ることができる。上記のどれかを実行した大商人はその場で消滅する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_PROPHET_STRATEGY">
+      <Text>宗教の創始や強化を行えるのは大預言者だけである。大預言者を活用することで、大量の[ICON_PEACE]信仰力を生み出す聖都を建てることができる。また、布教(それ以前に都市に伝播していた宗教を消滅させる効果も伴う)を4回まで行うことができる。上記のいずれかを実行すると大預言者は消滅する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_SCIENTIST_STRATEGY">
+      <Text>大科学者は特殊施設であるアカデミーを建設することができる。この施設で市民を働かせると、都市の[ICON_RESEARCH]科学力が飛躍的に伸びる。また、大科学者を消費することで、自文明が生み出した科学力を基に算出された科学力ポイントを即座に入手することができる。上記のいずれかを実行した大科学者はその場で消滅する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_GREAT_WAR_INFANTRY_STRATEGY">
+      <Text>第1次大戦歩兵は現代の基本的な軍事ユニットであり、その前身であるライフル兵よりもはるかに強い。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_BATTLESHIP">
+      <Text>ミサイル巡洋艦の登場までは最強の海軍ユニットである。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CARAVEL">
+      <Text>機動力のあるルネサンス時代の探索ユニット。視界が広いため、外洋タイルに入ることができる。海軍白兵ユニット。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CAVALRY">
+      <Text>現代の歩兵ユニットにも対抗できる騎乗ユニット。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_CHARIOR_ARCHER">
+      <Text>機動力のある遠隔攻撃ユニットであり、平地で特に高い能力を発揮する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_COMPOSITE_BOWMAN">
+      <Text>古典時代の遠隔攻撃歩兵ユニット。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_COSSACK">
+      <Text>現代の歩兵ユニットにも対抗できる騎乗ユニット。[NEWLINE][NEWLINE]ロシアのみが生産可能。ダメージを受けている敵との戦闘時に戦闘ボーナスを得ることができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_DESTROYER">
+      <Text>ゲームの後半に登場する海軍ユニット。機動力があるため、偵察に非常に適している。敵の潜水艦を索敵して破壊することもできる。海軍白兵ユニット。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_EGYPTIAN_WAR_CHARIOT">
+      <Text>機動力のある遠隔攻撃ユニット。エジプトのみ生産可能。代替元である戦車弓兵とは異なり、生産に[ICON_RES_HORSE]馬を必要としない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_GALLEASS">
+      <Text>中世の海軍ユニット。その遠隔攻撃力で制海権を奪うことができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_GATLINGGUN">
+      <Text>ゲーム中盤に登場する遠隔攻撃歩兵ユニット。敵ユニットに隣接していなければ攻撃できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_GREAT_WAR_INFANTRY">
+      <Text>現代の基本的な歩兵ユニット。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP">
+      <Text>現代機甲部隊や戦車との戦闘に特化したユニット。山岳の上をホバリングする能力を持つが、山岳でターンを終了するとダメージを受ける。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_INFANTRY">
+      <Text>機械化歩兵が登場するまで最強の歩兵ユニット。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_INQUISITOR">
+      <Text>都市から他の宗教を排除することができる。[ICON_PEACE]信仰力で購入することができるユニット。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_IRONCLAD">
+      <Text>非常に強力な海軍白兵ユニット。装甲艦の高い戦闘力は、洋上タイルでの機動力を犠牲にして得たものである。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_LANCER">
+      <Text>対騎乗ユニット戦に特化した騎乗ユニット。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MACHINE_GUN">
+      <Text>ゲーム終盤に登場する遠隔攻撃ユニット。敵に近接していなければ攻撃できない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MARINE">
+      <Text>原子力時代のユニット。特に海の向こう側の国を侵略する際に役に立つ。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MECH">
+      <Text>防御ボーナスを得ることはできないが、それ以外の面では本ゲーム最強の軍事ユニット。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MEHAL_SEFARI">
+      <Text>強力な最前線陸上ユニット。起伏に富んだ地形での戦闘と、エチオピアの首都近郊での防衛戦を得意とする。エチオピアだけが作成できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MISSILE_CRUISER">
+      <Text>航空ユニットの撃退に特化した海軍ユニット。ミサイルを3機まで搭載できる。敵の潜水艦の索敵と破壊に使用すると良い。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MISSIONARY">
+      <Text>都市に布教を行える。[ICON_PEACE]信仰力で購入することが可能。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MODERN_ARMOR">
+      <Text>ゲーム後半に登場する機動力のある強力なユニット。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_MUSLIM_CAVALRY">
+      <Text>中世の強力な騎乗ユニットで、長槍兵を苦手としている。ソンガイのみが生産可能。代替元である騎士とは異なり、都市攻撃時にペナルティを受けない。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_NUCLEAR_SUBMARINE">
+      <Text>攻撃を仕掛けたり他のユニットに隣接されたりしなければ、ほとんどのユニット(駆逐艦、ミサイル巡洋艦、潜水艦を除く)からは不可視のユニット。対海軍ユニット戦に特化しており、ミサイルを2機まで搭載することができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_PANZER">
+      <Text>ゲーム後半に登場する機動力のある強力なユニット。[NEWLINE][NEWLINE]ドイツのみが生産可能。代替元である戦車よりも移動ポイントが1多い。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_PRIVATEER">
+      <Text>沿岸都市を襲ってゴールドを入手したり、敵の船を捕らえたりすることのできる海軍ユニット。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SEA_BEGGAR">
+      <Text>沿岸都市を襲ってゴールドを入手したり、敵の船を捕らえたりすることのできる海軍ユニット。オランダだけが作成できる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SIPAHI">
+      <Text>対騎乗ユニット戦に特化した騎乗ユニット。オスマンのみが生産可能。代替元である槍騎兵よりも機動力が高く、視界が広い。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_SUBMARINE">
+      <Text>攻撃を仕掛けたり他のユニットに隣接されたりしなければ、ほとんどのユニット(駆逐艦、ミサイル巡洋艦、潜水艦を除く)からは不可視のユニット。敵に察知されることなく射程内に入れば、敵の艦船に大ダメージを与えることができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_TANK">
+      <Text>ゲーム後半に登場する機動力の高い強力なユニット。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_TRIPLANE">
+      <Text>初期の航空ユニット。敵の航空ユニットの攻撃を妨害することができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_TRIREME">
+      <Text>制海権の確保に使用できる太古の強力な海軍ユニット。ユニットや都市に対して白兵攻撃を仕掛けることができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_WWI_BOMBER">
+      <Text>初期の航空ユニット。敵のユニットや都市を空から爆撃することができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_HELP_WWI_TANK">
+      <Text>ゲーム終盤に登場する、それまでの歴史で類を見ないほど強力なユニット。攻撃後にも移動することができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_INFANTRY_STRATEGY">
+      <Text>歩兵は前身のユニットである第1次大戦歩兵よりもはるかに戦闘力が高い。現代戦が複雑化する中でも歩兵は生身のままであるため、空からの銃撃や大砲による攻撃、戦車からの砲撃に弱い。可能であれば、大砲、戦車、航空ユニット(もしくは対空ユニット)を同行させておきたい。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_INQUISITOR_STRATEGY">
+      <Text>強化を行った宗教が多数派となっている都市であれば、[ICON_PEACE]信仰力を使って購入することができる。自国の都市に伝播した他宗教を(審問官を消費して)排除することができる。また、都市に配置することで、伝道師や預言者による他宗教の伝播から都市を守ることができる。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_IRONCLAD_STRATEGY">
+      <Text>海軍白兵ユニットである装甲艦は、蒸気機関を採用した船の中で最初に使用できるようになるユニットである。他の艦船ユニットよりも撃沈されにくく、戦闘力も高い。主に近海の防衛に当たらせると良い。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_MARINE_STRATEGY">
+      <Text>海兵は歩兵の代わりとなるユニットである。コストは歩兵よりも若干高いが、出航時に視界と戦闘力が上がるレベルアップを所持している。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_MEHAL_SEFARI_STRATEGY">
+      <Text>マハール・セファリはエチオピア軍の主軸となるユニットである。最初からレベルアップを所持しており、起伏の多い地形と土地の近くの戦闘でボーナスを得ることができる。代替元のユニットであるライフル兵よりも若干コストが安い。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_MISSIONARY_STRATEGY">
+      <Text>多数派宗教を持つ都市で[ICON_PEACE]信仰力を使って購入することができる。都市に隣接させることで、そのユニットの宗教を布教することができる。布教を2度行うと伝道師は消滅する。国境が開放されていない文明に入ると、ターンごとに伝道師の宗教力が低下し、宗教力が0になると、伝道師は消滅する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_PRIVATEER_STRATEGY">
+      <Text>海軍の白兵ユニット。「沿岸襲撃」のレベルアップを保有しているため、沿岸都市を攻撃してゴールドを入手することが可能。また、敵の海軍ユニットを倒すことで、そのユニットを捕らえられる場合がある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_SEA_BEGGAR_STRATEGY">
+      <Text>沿岸都市を襲ってゴールドを入手したり、敵の船を捕らえたりすることのできる海軍ユニット。オランダだけが作成でき、友好的な領土外でも受けたダメージが回復する。「沿岸襲撃」のレベルアップを2段階目まで所持しているため、沿岸都市を攻撃してゴールドを入手することができる。また、敵の海軍ユニットを倒すことで、そのユニットを捕らえられる場合がある。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_TRIPLANE_STRATEGY">
+      <Text>三葉飛行機は初期の航空ユニットとして登場する。自国の都市と航空母艦を基地にすることができる。都市から都市への移動が可能で、5タイル以内であれば「ミッション」を遂行することができる。敵の航空機や地上ユニットに攻撃を仕掛けたり、敵の位置を探ったり、敵の航空機に対して防衛戦を展開したりすることができる。詳細については航空ユニットのルールを参照のこと。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_TRIREME_STRATEGY">
+      <Text>本ゲームでは三段櫂船が文明初の海軍ユニットとして登場する。三段櫂船は白兵ユニットであり、海上のユニットや都市に攻撃を仕掛けることができる。三段櫂船は領海内にいる蛮族船の始末や、大陸周辺の海域の探索に有用である(ポリネシア以外の三段櫂船は領土外の外洋タイルには入れない)。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_WWI_BOMBER_STRATEGY">
+      <Text>第1次世界大戦爆撃機は初期の航空ユニットとして登場する。地上のターゲットに対して力を発揮するが、海軍ユニットに対しては効果が薄く、敵の航空機を弱点としている。自国の都市と、航空母艦を基地にすることができる。基地から基地への移動が可能で、「6タイル」以内であればミッションを遂行することができる。敵のユニットや都市に対する攻撃に使うと良い。可能であれば、そのターンの対空ユニットの迎撃回数を「使い切らせる」ために、先に三葉飛行機か戦闘機で攻撃を仕掛けておくと良い。詳細については航空ユニットのルールを参照のこと。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIT_WWI_TANK_STRATEGY">
+      <Text>陸上船は機動力の高い強力な陸上ユニットである。攻撃後でも移動できるため、敵の前線に巨大な風穴を開けたあとに、空になったタイルへと進軍することが可能。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNITS_MOVEMENT_HEADING2_BODY">
+      <Text>ほとんどのユニットの移動は、タイルからタイルへと移ることで行われる。新しいタイルへ足を踏み入れる際には、「移動コスト」を支払わなければならない。ユニットにはスタック制限というものがある。すなわち、 2体の軍事ユニットが同じタイルにいる状態でターンを終了させることはできず、これは2体の非戦闘ユニットでも同様だが、1体の軍事ユニットと1体の非戦闘ユニットであれば同じタイルに配置したままターンを終了させることができる。また、出航ユニットや大将軍、大提督は非戦闘ユニットとみなされるため、このユニットを守るために軍事ユニットをスタックさせることができる。[NEWLINE][NEWLINE]また、ほぼすべてのユニットは、移動できる場所を制限されている。陸上ユニットは山岳タイルに入ることができず、海軍ユニットは(沿岸都市があるタイルを除き)陸タイルを利用できない。道路や鉄道などによって土地を改善すると、陸を移動するユニットの機動力が上昇する。[NEWLINE][NEWLINE]詳細については移動の項目を参照のこと。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNITS_NONCOMBAT_HEADING2_BODY">
+      <Text>非戦闘ユニットには、開拓者、労働者、作業船、偉人、宇宙船の部品、宗教ユニットの6種類があり、それぞれが文明の明暗を分けるほどの力を持っている。[NEWLINE]「非戦闘」の名が示しているように、このタイプのユニットは戦闘を行うことができない。タイルに単独でいるときに敵ユニットに攻撃されると、自動的に拘束されるか破壊される。このことから、非戦闘ユニットを未開の地へ送り出す際には、軍事ユニットを同行させておくのが正解と言えるだろう。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_ALHAMBRA_HELP">
+      <Text>この都市で新しく訓練されたすべてのユニット(航空ユニットを除く)に、[COLOR_POSITIVE_TEXT]起伏に富んだ[ENDCOLOR]地形で[ICON_STRENGTH]戦闘力が増加する[COLOR_POSITIVE_TEXT]訓練 I[ENDCOLOR]のレベルアップが付与される。また、この遺産を建てた都市には城が無償で供給され、[ICON_CULTURE]文化力の産出量が20%増加する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_CN_TOWER_HELP">
+      <Text>全都市に無償で放送塔を供給。各都市の[ICON_CITIZEN]人口+1、都市1つにつき[ICON_HAPPINESS_1]幸福度+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_HAGIA_SOPHIA_HELP">
+      <Text>無償で大預言者が出現する。この遺産が建てられた都市には無償で寺院が提供される。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_HUBBLE_HELP">
+      <Text>この遺産を建てた都市の近くに、大科学者が2人出現する。この遺産を持つ都市には無償で宇宙船工場が供給される。宇宙船のパーツ生産時に[ICON_PRODUCTION]生産力+25%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_LEANING_TOWER_HELP">
+      <Text>全都市で[ICON_GREAT_PEOPLE]偉人の誕生速度が25%上昇。自分で選択した偉人が[ICON_CAPITAL]首都の近くに出現する。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_NEUSCHWANSTEIN_HELP">
+      <Text>城1つにつき[ICON_GOLD]ゴールド+3、[ICON_CULTURE]文化力+2、[ICON_HAPPINESS_1]幸福度+1。[NEWLINE][NEWLINE]自国領内の山岳から2タイル以内にある都市にのみ建設できる。</Text>
+    </Row>
+  </Language_JA_JP>
+</GameData>

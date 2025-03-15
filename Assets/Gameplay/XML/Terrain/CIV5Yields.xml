@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
 <GameData>
 	<Table name="Yields">
 		<Column name="ID" type="integer" primarykey="true" autoincrement="true"/>
@@ -15,8 +15,8 @@
 		<Column name="MinCity" type="integer"/>
 		<Column name="GoldenAgeYield" type="integer" default="0"/>
 		<Column name="GoldenAgeYieldThreshold" type="integer" default="0"/>
-    <Column name="GoldenAgeYieldMod" type="integer" default="0"/>
-    <Column name="AIWeightPercent" type="integer"/>
+		<Column name="GoldenAgeYieldMod" type="integer" default="0"/>
+		<Column name="AIWeightPercent" type="integer"/>
 	</Table>
 	<Yields>
 		<Row>
@@ -54,6 +54,22 @@
 			<Type>YIELD_SCIENCE</Type>
 			<Description>TXT_KEY_YIELD_SCIENCE</Description>
 			<IconString>[ICON_RESEARCH]</IconString>
+			<MinCity>0</MinCity>
+			<AIWeightPercent>80</AIWeightPercent>
+		</Row>
+		<Row>
+			<ID>4</ID>
+			<Type>YIELD_CULTURE</Type>
+			<Description>TXT_KEY_YIELD_CULTURE</Description>
+			<IconString>[ICON_CULTURE]</IconString>
+			<MinCity>0</MinCity>
+			<AIWeightPercent>80</AIWeightPercent>
+		</Row>
+		<Row>
+			<ID>5</ID>
+			<Type>YIELD_FAITH</Type>
+			<Description>TXT_KEY_YIELD_FAITH</Description>
+			<IconString>[ICON_PEACE]</IconString>
 			<MinCity>0</MinCity>
 			<AIWeightPercent>80</AIWeightPercent>
 		</Row>

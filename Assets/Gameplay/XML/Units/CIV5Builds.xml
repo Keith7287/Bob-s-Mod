@@ -29,13 +29,18 @@
 		<Column name="Kill" type="boolean" default="false"/>
 		<Column name="Repair" type="boolean" default="false"/>
 		<Column name="RemoveRoute" type="boolean" default="false"/>
+		<Column name="Water" type="boolean" default="false"/>
+		<Column name="CanBeEmbarked" type="boolean" default="false"/>
 		<Column name="PrereqTech" type="text" default="NULL"/>
 		<Column name="ImprovementType" type="text" default="NULL"/>
 		<Column name="RouteType" type="text" default="NULL"/>
 		<Column name="EntityEvent" type="text" default="NULL"/>
 		<Column name="IconIndex" type="integer" default="-1"/>
-		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
+    <Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)" />
+    <Column name="ShowInPedia" type="boolean" default="true" />
+    <Column name="ShowInTechTree" type="boolean" default="true" />
 	</Table>
+  
 	<Table name="BuildFeatures">
 		<Column name="BuildType" type="text" reference="Builds(Type)"/>
 		<Column name="FeatureType" type="text"/>
@@ -44,6 +49,11 @@
 		<Column name="Production" type="integer" default="0"/>
 		<Column name="Cost" type="integer" default="0"/>
 		<Column name="Remove" type="boolean" default="false"/>
+	</Table>
+	<Table name="Build_TechTimeChanges">
+		<Column name="BuildType" type="text" reference="Builds(Type)"/>
+		<Column name="TechType" type="text"/>
+		<Column name="TimeChange" type="integer" default="0"/>
 	</Table>
 	<!-- Table data -->
 	<Builds>
@@ -104,7 +114,7 @@
 		</Row>
 		<Row>
 			<Type>BUILD_TRADING_POST</Type>
-			<PrereqTech>TECH_TRAPPING</PrereqTech>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
 			<Time>700</Time>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<Description>TXT_KEY_BUILD_TRADING_POST</Description>
@@ -193,7 +203,8 @@
 			<ImprovementType>IMPROVEMENT_OFFSHORE_PLATFORM</ImprovementType>
 			<Description>TXT_KEY_BUILD_OFFSHORE_PLATFORM</Description>
 			<Help>TXT_KEY_BUILD_CONSUMED_HELP</Help>
-			<Kill>true</Kill>
+			<Kill>1</Kill>
+			<Water>true</Water>
 			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
 			<HotKey>KB_O</HotKey>
 			<OrderPriority>98</OrderPriority>
@@ -207,6 +218,7 @@
 			<Description>TXT_KEY_BUILD_FISHING_BOATS</Description>
 			<Help>TXT_KEY_BUILD_CONSUMED_HELP</Help>
 			<Kill>1</Kill>
+			<Water>true</Water>
 			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
 			<HotKey>KB_F</HotKey>
 			<OrderPriority>98</OrderPriority>
@@ -522,6 +534,7 @@
 			<FeatureType>FEATURE_JUNGLE</FeatureType>
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<Time>700</Time>
+			<Production>20</Production>
 			<Remove>true</Remove>
 		</Row>
 		<Row>

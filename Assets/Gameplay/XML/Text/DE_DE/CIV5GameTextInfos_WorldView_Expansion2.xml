@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_DE_DE>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_CANNOT_BE_ADJACENT">
+      <Text>Die Modernisierung {@1_ImprovementName} kann nicht neben einer weiteren Modernisierung {@1_ImprovementName} errichtet werden, die entweder teilweise oder vollständig fertiggestellt ist.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_NO_ADJACENT_LUXURY">
+      <Text>Die Modernisierung {@1_ImprovementName} muss neben einem Geländefeld mit einer Luxusressource errichtet werden.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BLOCKED_NOT_IN_CITY_STATE_TERRITORY">
+      <Text>Die Modernisierung {@1_ImprovementName} kann nur im Territorium eines Stadtstaates gebaut werden.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_CONNECTED">
+      <Text>Die Stadt hat eine [ICON_CONNECTED] Stadtverbindung zur [ICON_CAPITAL] Hauptstadt!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING1">
+      <Text>[COLOR_YELLOW]Abfangen durch Jäger oder[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_AIR_INTERCEPT_WARNING2">
+      <Text>[COLOR_YELLOW]Flugabwehr steigert Schaden[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_CITY_SAPPED">
+      <Text>Unterstützt durch Belagerungsturm</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EMPIRE_UNHAPPY_PENALTY">
+      <Text>Reich [ICON_HAPPINESS_3] unzufrieden</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_EMPIRE_VERY_UNHAPPY_PENALTY">
+      <Text>Reich [ICON_HAPPINESS_4] sehr unzufrieden</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EUPANEL_VISIBLE_AA_UNITS">
+      <Text>[COLOR_WARNING_TEXT]Bekannte feindliche Flugabwehr-Einheiten: {1_Number}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_ART_ARTIFACT_EMPTY_TOOLTIP">
+      <Text>Leerer Platz für Großes Kunstwerk oder Artefakt</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_LITERATURE_EMPTY_TOOLTIP">
+      <Text>Leerer Platz für Großes Literaturwerk</Text>
+    </Row>
+    <Row Tag="TXT_KEY_GREAT_WORK_SLOT_MUSIC_EMPTY_TOOLTIP">
+      <Text>Leerer Platz für Großes Musikwerk</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PLOTROLL_TRADE_ROUTE">
+      <Text>Stadtverbindung</Text>
+    </Row>
+    <Row Tag="TXT_KEY_SV_OVERLAY_TRADE_ROUTES">
+      <Text>Stadtverbindungen</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_ANARCHY">
+      <Text>[COLOR_NEGATIVE_TEXT]Im Reich herrscht aufgrund eines Ideologiewechsels {1_Turns} weitere Runde(n) lang Anarchie. Während der Anarchie erhält das Reich keine [ICON_RESEARCH] Wissenschaft, kein [ICON_GOLD] Gold, keine [ICON_CULTURE] Kultur und keinen [ICON_PEACE] Glauben, die Städte haben keine [ICON_PRODUCTION] Produktionsfähigkeit[ENDCOLOR].</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CARNIVAL_EFFECT">
+      <Text>Durch Euren einmaligen Karnevalbonus ist die Tourismusproduktion bei allen Zivilisationen +100% und Große Schriftsteller, Künstler und Musiker tauchen 50% schneller auf.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_CITY_COST">
+      <Text>Jede Eurer Städte erhöht die Kosten für Sozialpolitiken um {1_Num}%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_CULTURE_FROM_BONUS_TURNS">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] durch ein kürzliches Weltkongress-Projekt (Verbleibende Runden: {2_TurnsLeft}).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_SUPER_UNHAPPY">
+      <Text>Da die [ICON_HAPPINESS_4] Unzufriedenheit den Wert 20 erreicht hat, ist das Reich in Aufruhr! Städte können sich von Eurem Reich abwenden und zu der Zivilisation wechseln, die den größten kulturellen Einfluss auf Euer Volk hat.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_UNHAPPY">
+      <Text>Städte wachsen nur mit 1/4 der normalen Geschwindigkeit, wenn im Reich [ICON_HAPPINESS_3] Unzufriedenheit herrscht! [NEWLINE]Der [ICON_GOLD] Goldertrag und die [ICON_PRODUCTION] Produktion sind um 2% pro Unzufriedenheitspunkt reduziert. Der gleiche Malus gilt für Einheiten im Kampf!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_EMPIRE_VERY_UNHAPPY">
+      <Text>Da die [ICON_HAPPINESS_4] Unzufriedenheit den Wert 10 erreicht hat, ist das Reich in Unruhe! Es kann zu Aufständen kommen und rebellische (Barbaren-)Einheiten erscheinen in Eurem Territorium. Dies geschieht alle paar Runden, bis Ihr die Lage verbessert habt!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_CITY_CONNECTIONS">
+      <Text>{1_Num} von [ICON_CONNECTED] Stadtverbindungen zwischen Euren Städten und Eurer [ICON_CAPITAL] Hauptstadt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_ITR">
+      <Text>{1_Num} von [ICON_TURNS_REMAINING] Handelswegen zwischen Euren Städten und Städten anderer Zivilisationen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_TR">
+      <Text>{1_Num} von [ICON_CONNECTED] Stadtverbindungen zwischen Euren Städten und Eurer [ICON_CAPITAL] Hauptstadt.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_GOLD_FROM_TRAITS">
+      <Text>{1_Num} durch Eigenschaften.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_HAPPINESS_LEAGUES">
+      <Text>{1_Happiness} vom Weltkongress.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_SCIENCE_FROM_ITR">
+      <Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] durch [ICON_TURNS_REMAINING] Handelswege zwischen Euren Städten und Städten anderer Zivilisationen.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_TECH_CITY_COST">
+      <Text>Jede Eurer oder von Euch zur [ICON_PUPPET] Marionette gemachten Städte erhöht die Technologiekosten um {1_Num}%.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TP_UNHAPPINESS_PUBLIC_OPINION">
+      <Text>{1_Num} durch öffentliche Meinung (dem Wunsch nach einer neuen Ideologie).</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UNIQUE_GOLDEN_AGE_ANNOUNCE">
+      <Text>Karneval!</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CARGO_CAPACITY">
+      <Text>Frachtkapazität</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_CARGO_CAPACITY_TT">
+      <Text>Anzahl der Einheiten, die von der Einheit {1_UnitName} transportiert werden können.</Text>
+    </Row>
+    <Row Tag="TXT_KEY_UPANEL_TOURISM_STRENGTH_TT">
+      <Text>Gibt die Stärke der Einheit an, wenn sie eine Konzertreise unternimmt. Die Stärke hängt von der [ICON_TOURISM] Tourismusproduktion der Zivilisation bei Geburt des Musikers ab.</Text>
+    </Row>
+  </Language_DE_DE>
+</GameData>

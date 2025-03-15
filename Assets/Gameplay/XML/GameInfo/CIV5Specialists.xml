@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
 <GameData>
 	<!-- Table definition -->
 	<Table name="Specialists">
@@ -54,6 +54,19 @@
 			<PortraitIndex>5</PortraitIndex>
 		</Row>
 		<Row>
+			<Type>SPECIALIST_WRITER</Type>
+			<Description>TXT_KEY_SPECIALIST_WRITER</Description>
+			<Strategy>TXT_KEY_SPECIALIST_WRITER_STRATEGY</Strategy>
+			<GreatPeopleTitle>TXT_KEY_SPECIALIST_WRITER_TITLE</GreatPeopleTitle>
+			<Visible>true</Visible>
+			<Cost>0</Cost>
+			<GreatPeopleUnitClass>UNITCLASS_WRITER</GreatPeopleUnitClass>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>
+			<CulturePerTurn>3</CulturePerTurn>
+			<IconAtlas>CITIZEN_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+		<Row>
 			<Type>SPECIALIST_ARTIST</Type>
 			<Description>TXT_KEY_SPECIALIST_ARTIST</Description>
 			<Strategy>TXT_KEY_SPECIALIST_ARTIST_STRATEGY</Strategy>
@@ -61,6 +74,19 @@
 			<Visible>true</Visible>
 			<Cost>0</Cost>
 			<GreatPeopleUnitClass>UNITCLASS_ARTIST</GreatPeopleUnitClass>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>
+			<CulturePerTurn>3</CulturePerTurn>
+			<IconAtlas>CITIZEN_ATLAS</IconAtlas>
+			<PortraitIndex>4</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>SPECIALIST_MUSICIAN</Type>
+			<Description>TXT_KEY_SPECIALIST_MUSICIAN</Description>
+			<Strategy>TXT_KEY_SPECIALIST_MUSICIAN_STRATEGY</Strategy>
+			<GreatPeopleTitle>TXT_KEY_SPECIALIST_MUSICIAN_TITLE</GreatPeopleTitle>
+			<Visible>true</Visible>
+			<Cost>0</Cost>
+			<GreatPeopleUnitClass>UNITCLASS_MUSICIAN</GreatPeopleUnitClass>
 			<GreatPeopleRateChange>3</GreatPeopleRateChange>
 			<CulturePerTurn>3</CulturePerTurn>
 			<IconAtlas>CITIZEN_ATLAS</IconAtlas>

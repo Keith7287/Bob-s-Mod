@@ -1,0 +1,956 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Generated with LocalizationBuddy.-->
+<!--Copyright Firaxis Games 2010-->
+<!--All Rights Reserved-->
+<GameData>
+  <Language_ZH_Hant_HK>
+    <Row Tag="TXT_KEY_AESTHETICS_TITLE">
+      <Text>{2_CivName:textkey}的主人{1_PlayerName:textkey}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_ARCHAEOLOGY_DIG_HELP">
+      <Text>將歷史古蹟轉為考古挖掘工地，其將會出土文物巨作或轉為地標。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_ARCHAEOLOGY_DIG_REC">
+      <Text>會得到文物巨作或是轉換成地標。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BRAZILWOOD_CAMP_HELP">
+      <Text>當保持叢林完好時，建造巴西紅木林場能增加此單元格的[ICON_GOLD]金幣。一旦完成聲學研究後便能提供[ICON_CULTURE]文化值。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_BRAZILWOOD_CAMP_REC">
+      <Text>當叢林保持完好時，其能增加此單元格的[ICON_GOLD]金幣。一旦完成聲學研究後便能提供[ICON_CULTURE]文化值。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CHATEAU_HELP">
+      <Text>建造法國古堡以增加該單元格的文化值和金幣產出。也能提供防禦加成。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_CHATEAU_REC">
+      <Text>法國古堡必須建在奢侈品資源單元格旁。不能鄰近另一個法國古堡。[NEWLINE][NEWLINE]能增加該單元格的文化值和金幣產出。也能提供防禦加成。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_FEITORIA_HELP">
+      <Text>在城邦的土地內建造商站。不論你與該城邦的關係如何，都能位你提供該城邦所連到的每一種奢侈品資源。也能提供防禦加成。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_FEITORIA_REC">
+      <Text>不論你與該城邦的關係如何，都能位你提供該城邦所連到的每一種奢侈品資源。也能提供防禦加成。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_KASBAH_HELP">
+      <Text>建造北非古堡能增加此單元格的[ICON_FOOD]食物、[ICON_PRODUCTION]生產力和[ICON_GOLD]金幣。也能提供防禦加成。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_KASBAH_REC">
+      <Text>將會增加此單元格的[ICON_FOOD]食物、[ICON_PRODUCTION]生產力和[ICON_GOLD]金幣。也能提供防禦加成。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILD_LANDMARK_HELP">
+      <Text>單位將被消耗。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_AMPHITHEATER_STRATEGY">
+      <Text>圓形劇場可以提高城市的[ICON_CULTURE]文化值，從而加快城市領土的擴張以及新類型社會政策的採取速度。在建造圓形劇場前，城市中必須已建成紀念碑或石碑。擁有1個文學巨作的席位。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_HERMITAGE_HELP">
+      <Text>該城市的[ICON_CULTURE]文化值+50%。擁有3個藝術巨作的席位。[NEWLINE][NEWLINE]所有城市都必須建成歌劇院。帝國的城市愈多，成本也會愈越高。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_HEROIC_EPIC_HELP">
+      <Text>該城內新生產的所有非空中單位都會獲得[COLOR_POSITIVE_TEXT]強化士氣[ENDCOLOR]的能力，[ICON_STRENGTH]戰鬥力+15%。擁有1個文學巨作的席位。[NEWLINE][NEWLINE]所有城市都必須建成軍營。帝國的城市愈多，成本也會愈高。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_INTERNATIONAL_SPACE_STATION_HELP">
+      <Text>源自科學家的[ICON_PRODUCTION]生產力+1，源自工程師的[ICON_RESEARCH]科技值+1。大科學家用以研發新科技時，能額外提供33%[ICON_RESEARCH]科技值。只可透過世界議會合作建造。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_HELP">
+      <Text>研究航空技術後提供+2[ICON_TOURISM]旅遊業績。[NEWLINE][NEWLINE]城市必須已建成城牆。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_MUSEUM_STRATEGY">
+      <Text>博物館是遊戲中期的建築，它能提高城市的[ICON_CULTURE]文化值產出。城市在建造博物館前必須先擁有歌劇院或蓋爾宴會廳。擁有2個藝術巨作的席位。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_NATIONAL_EPIC_HELP">
+      <Text>該城市的[ICON_GREAT_PEOPLE]偉人誕生速度+25%。擁有1個文學巨作的席位。[NEWLINE][NEWLINE]所有城市都必須建成紀念碑。帝國的城市愈多，成本也會愈高。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_OPERA_HOUSE_STRATEGY">
+      <Text>歌劇院是文藝復興時代的建築，它可以提高城市的[ICON_CULTURE]文化值。城市在建造歌劇院前必須先擁有圓形劇場。擁有1個音樂巨作的席位。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_OXFORD_UNIVERSITY_HELP">
+      <Text>獲得1項無償科技。擁有2個文學巨作席位。[NEWLINE][NEWLINE]所有城市都必須建成大學。帝國的城市愈多，成本也會愈高。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_BUILDING_PALACE_HELP">
+      <Text>指定這座城市為帝國的[ICON_CAPITAL]首都。有1個藝術巨作的席位。[NEWLINE][NEWLINE][ICON_CONNECTED]用道路將其他城市與[ICON_CAPITAL]首都連接，會產出額外的[ICON_GOLD]金幣。[NEWLINE][NEWLINE][ICON_PRODUCTION]生產力+3，[ICON_RESEARCH]科技值+3，[ICON_GOLD]金幣+3。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_FIND_PLAYER">
+      <Text>我們正在尋找連接到{1_CivName:textkey}的路線。或您你能幫助我們。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_GIFT_UNIT">
+      <Text>我們希望您投入兵力來援助我們的戰事。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_GIFT_UNIT_FORMAL">
+      <Text>他們希望您投入兵力來援助我們的戰事。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_TRADE_ROUTE">
+      <Text>我們希望您建立一條商路。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CITY_STATE_QUEST_TRADE_ROUTE_FORMAL">
+      <Text>他們希望您建立一條連接至其城市的陸上或海上商路。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_CSTATE_INFLUENCE_RATE">
+      <Text>每回合，您對其的[ICON_INFLUENCE]影響力都會改變{1_InfluenceRate}點，直至達到{2_InfluenceAnchor}點。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DIFFERENT_LATE_POLICY_TREES">
+      <Text>[COLOR_NEGATIVE_TEXT]您選擇採用了{1_YourPolicyTree}政策，但他們卻採用{2_TheirPolicyTree}。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISCUSS_MESSAGE_STOP_DIGGING">
+      <Text>別再挖掘我的文物。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_DISLIKED_OUR_PROPOSAL">
+      <Text>[COLOR_WARNING_TEXT]他們厭惡我們在世界議會的提案。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_FOILED_THEIR_PROPOSAL">
+      <Text>[COLOR_WARNING_TEXT]我們促使他們在世界議會的提議無法通過。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_LANDMARKS_BUILT">
+      <Text>[COLOR_POSITIVE_TEXT]您在對方的領土中建造了地標。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_LIKED_OUR_PROPOSAL">
+      <Text>[COLOR_POSITIVE_TEXT]他們喜歡我們在世界議會的提議。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_DIG_PROMISE_BROKEN">
+      <Text>[COLOR_NEGATIVE_TEXT]您在他們的土地上挖掘出了文物！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_NO_DIG_PROMISE_IGNORED">
+      <Text>[COLOR_NEGATIVE_TEXT]他們要求您停止挖掘他們的文物，但選擇置之不理！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_PLUNDERING_OUR_TRADE_ROUTES">
+      <Text>[COLOR_NEGATIVE_TEXT]您劫掠了他們的商路！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SAME_LATE_POLICY_TREES">
+      <Text>[COLOR_POSITIVE_TEXT]您兩次都選擇採用{1_PolicyTree}政策。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_HOSTING">
+      <Text>[COLOR_POSITIVE_TEXT]我們協助將世界議會交由他們舉辦。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_SUPPORTED_THEIR_PROPOSAL">
+      <Text>[COLOR_POSITIVE_TEXT]我們協助他們在世界議會的提案得到通過。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_CRITICAL">
+      <Text>[COLOR_NEGATIVE_TEXT]他們害怕您的好戰將使世界再次陷入黑暗時代！[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_MAJOR">
+      <Text>[COLOR_NEGATIVE_TEXT]他們很清楚您的好戰所帶來的潛在威脅。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_MINOR">
+      <Text>[COLOR_WARNING_TEXT]他們對您的好戰感到些許不安。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_DIPLO_WARMONGER_THREAT_SEVERE">
+      <Text>[COLOR_NEGATIVE_TEXT]他們認為您的好戰已成為全球問題。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_EXPLORATION_TITLE">
+      <Text>{2_CivName:textkey}的船長{1_PlayerName:textkey}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_FREE_TENETS_LABEL">
+      <Text>無償原則數目：{1_Num}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_INTERFACEMODE_AIRLIFT_HELP">
+      <Text>此指令可讓單位移防至擁有機場的友好城市內，或是與該城接鄰的某個地面單元格。目標單元格無法佔領，或與敵方單位接鄰。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIBERATION_PREVIEW_EXTREME">
+      <Text>如您解放該城市，將獲得[COLOR_POSITIVE_TEXT]極多[ENDCOLOR]的解放加成（可消除先前遭受的好戰減益）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIBERATION_PREVIEW_MAJOR">
+      <Text>如您解放該城市，將獲得[COLOR_POSITIVE_TEXT]大量[ENDCOLOR]的解放加成（可消除先前遭受的好戰減益）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_LIBERATION_PREVIEW_MINOR">
+      <Text>如您解放該城市，將獲得[COLOR_POSITIVE_TEXT]少量[ENDCOLOR]的解放加成（可消除先前遭受的好戰減益）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_DISCOVERED_ARTIFACTS_NEAR">
+      <Text>您在{@1_CityName}附近發現了一處[COLOR_HIGHLIGHT_TEXT]歷史古蹟[ENDCOLOR]！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISC_DISCOVERED_HIDDEN_ARTIFACTS_NEAR">
+      <Text>您在{@1_CityName}附近發現了一處[COLOR_HIGHLIGHT_TEXT]湮沒的歷史古蹟[ENDCOLOR]！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_CREATE_GREAT_WORK_DISABLED_HELP">
+      <Text>單位須在您城市內或與其鄰接，而您的帝國內需有合適的巨作席位。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_CREATE_GREAT_WORK_HELP">
+      <Text>此指令將消耗偉人，並在最近城市的合適類型的巨作席位中創作巨作。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_CREATE_GREAT_WORK_RESULT">
+      <Text>該巨作會放置在{2_CityName}的{1_BuildingName}裡。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_GIVE_POLICIES_HELP">
+      <Text>此指令將消耗偉人，並提供大量[ICON_CULTURE]文化值。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_HEAL_DISABLED_HELP">
+      <Text>此單位無法在友方領土外或船運時進行回復。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_ONE_SHOT_TOURISM_DISABLED_HELP">
+      <Text>單位須在另一主要文明擁有的單元格內。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_ONE_SHOT_TOURISM_HELP">
+      <Text>此指令將消耗偉人，並向音樂家所在文明傳播大量[ICON_TOURISM]旅遊業績。其他遊戲中的文明也將收到此[ICON_TOURISM]旅遊業績的20%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_DISABLED_HELP">
+      <Text>您必須滿足對商路擁有者的宣戰條件。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_PLUNDER_TRADE_ROUTE_HELP">
+      <Text>摧毀這條商路以獲得[ICON_GOLD]金幣。[NEWLINE][NEWLINE]如果您與商路的擁有者並未交戰，那您需在劫掠前向其宣戰。如果商路與另一文明連結，而您與該文明並未交戰，那麼劫掠商路將損害您與其的關係。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SELL_EXOTIC_GOODS_DISABLED_HELP">
+      <Text>單位必須與其他文明或城邦所屬的單元格鄰接，且尚未使用該技能。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_MISSION_SELL_EXOTIC_GOODS_HELP">
+      <Text>該單位會將貨物出售，以獲得[ICON_GOLD]金幣和經驗值。出售的地點離您首都越遠，獲得的就越多。該單位只能執行一次此行動。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_ARTIFACT_SWAP">
+      <Text>{1_LeaderName}用文物「{3_Work2Name}」交換了您的文物「{2_Work1Name}」。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CHOOSE_ARCHAEOLOGY">
+      <Text>已在歷史古蹟建立考古挖掘工地。接著選擇如何在此處使用您的考古學家。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_ERA">
+      <Text>您已進入工業時代其後的時代。工業革命的真理已與您的社會完美融合。您的人民渴求您能為您的文明選擇一項意識形態。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CHOOSE_IDEOLOGY_FACTORIES">
+      <Text>您成功地在3座城內建造了工廠。工業革命的真理已與您的社會完美融合。您的人民渴求您能為您的文明選擇一項意識形態。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_CITY_RESOURCE_WONDER_MOD">
+      <Text>現在{1_CityName:textkey}已可利用{2_ResourceName:textkey}！在該城內建造遠古及古典時代奇跡時，可增加{3_Num}%的[ICON_PRODUCTION]生產力。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DIPLOMAT_EJECTED">
+      <Text>外交官撤離！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_DIPLOMAT_EJECTED_TT">
+      <Text>{1_SpyRank}{2_SpyName}因選擇而從{3_CityName}逃至您的避難所。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FOUND_ARTIFACTS">
+      <Text>您發現了[COLOR_HIGHLIGHT_TEXT]歷史古蹟[ENDCOLOR]！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FOUND_HIDDEN_ARTIFACTS">
+      <Text>您發現了[COLOR_HIGHLIGHT_TEXT]湮沒的歷史古蹟[ENDCOLOR]！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_FREE_POLICY">
+      <Text>您可選擇一項無償的社會政策或意識形態原則！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GREAT_WORK_ART_SWAP">
+      <Text>{1_LeaderName}用藝術巨作「{3_Work2Name}」交換了您的巨作「{2_Work1Name}」。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GREAT_WORK_MUSIC_SWAP">
+      <Text>{1_LeaderName}用音樂巨作「{3_Work2Name}」交換了您的巨作「{2_Work1Name}」。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_GREAT_WORK_WRITING_SWAP">
+      <Text>{1_LeaderName}用文學巨作「{2_Work1Name}」交換了您的巨作「{3_Work2Name}」。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_HEATHEN_CONVERTS">
+      <Text>一支蠻族單位加入您的軍隊！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_IDEOLOGY_CHANGE">
+      <Text>{1_CivName}的人民起義並強迫其領袖採用了{2_TheirPolicyTree}意識型態！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_IDEOLOGY_CHANGE_UNMET">
+      <Text>一個未曾謀面的文明因人民的起義而被迫採用{1_TheirPolicyTree}意識型態。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_IDEOLOGY_CHOSEN">
+      <Text>{1_CivName}已採用{2_TheirPolicyTree}意識型態。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_IDEOLOGY_CHOSEN_UNMET">
+      <Text>一個未曾謀面的文明採用了{1_TheirPolicyTree}意識型態。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_MINOR_WAR_UNIT_HELP">
+      <Text>{@1_MinorCivName}在與{@2_CivName}的交戰中尋求幫助。在其交戰時贈送其單位可獲得比平時更多的[ICON_INFLUENCE]信仰值。贈送可遠距離執行，使用城邦外交視窗或直接將單位移動至城邦領土並選擇合適行動。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_COMPLETE_TRADE_ROUTE">
+      <Text>{@1_MinorCivName}的市民很高興看到有商路連結。您對其的[ICON_INFLUENCE]影響力增加[COLOR_POSITIVE_TEXT]{2_InfluenceReward}[ENDCOLOR]！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_QUEST_START_TRADE_ROUTE">
+      <Text>{@1_MinorCivName}的市民認為我們可以從商路中共榮。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED">
+      <Text>{1_CivName}已將改良的信條納入宗教{@2_ReligionName}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED_ACTIVE_PLAYER">
+      <Text>您已將一項改革信條納入您的{@1_ReligionName}宗教。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED_S">
+      <Text>增加改革信條</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_REFORMATION_BELIEF_ADDED_UNKNOWN">
+      <Text>一個未曾謀面的文明已納入改革信條以強化其宗教{@1_ReligionName}。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_ARCHAEOLOGY">
+      <Text>選擇考古學</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_CHOOSE_IDEOLOGY">
+      <Text>選擇意識型態</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_GREAT_WORK_SWAP">
+      <Text>交換巨作</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_HEATHEN_CONVERTS">
+      <Text>異教徒皈依</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_IDEOLOGY_CHANGE">
+      <Text>革命！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_IDEOLOGY_CHOSEN">
+      <Text>已採用意識形態</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_MINOR_WAR_UNIT_HELP">
+      <Text>{@1_MinorCivName}需要單位</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_COMPLETE_TRADE_ROUTE">
+      <Text>已為{@1_MinorCivName}建立商路！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_QUEST_START_TRADE_ROUTE">
+      <Text>{@1_MinorCivName}渴求商路</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_TRADE_ROUTE_BROKEN">
+      <Text>[ICON_CONNECTED]城市連結中斷！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_SUMMARY_TRADE_ROUTE_ESTABLISHED">
+      <Text>[ICON_CONNECTED]城市連結已建立！</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TRADE_ROUTE_BROKEN">
+      <Text>一條連結{1_CityName:textkey}與您的{2_CityName:textkey}首都間的[ICON_CONNECTED]城市連結中斷了。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_NOTIFICATION_TRADE_ROUTE_ESTABLISHED">
+      <Text>在{1_CityName:textkey}與您首都{2_CityName:textkey}之間的一條[ICON_CONNECTED]城市連結已建立完成。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES">
+      <Text>科學院</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ACADEMY_SCIENCES_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]科學院[ENDCOLOR][NEWLINE]每間天文臺、公立學校及研究實驗室+1[ICON_HAPPINESS_1]當地幸福度。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY">
+      <Text>民主兵工廠</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]民主兵工廠[ENDCOLOR][NEWLINE]生產軍事單位時[ICON_PRODUCTION]生產力+15%。向城邦贈送軍事單位時[ICON_INFLUENCE]影響力+15。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS">
+      <Text>藝術天才</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]藝術天才[ENDCOLOR][NEWLINE]立即獲得一位大藝術家。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS">
+      <Text>美學政策</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_CAP">
+      <Text>美學政策</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]美學政策[ENDCOLOR]能提高市民生產[ICON_CULTURE]文化值的能力。[NEWLINE][NEWLINE]選擇美學政策可使大作家、大藝術家和大音樂家的誕生速度加快25%，並解鎖奇跡：烏菲茲美術館。[NEWLINE][NEWLINE]採用美學政策中所有條目後，可使博物館及奇跡的主題性獎勵翻倍。進入工業時代後，可使用[ICON_PEACE]信仰值來購買大作家、大藝術家或大音樂家。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_CANNOT_UNLOCK_RELIGION">
+      <Text>[COLOR_WARNING_TEXT]遊戲中該分支需要宗教以解鎖。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]商業政策[ENDCOLOR]為專注於[ICON_GOLD]經濟發展的帝國提供加成。[NEWLINE][NEWLINE]啟用商業政策能使[ICON_CAPITAL]首都提高25%[ICON_GOLD]金幣產出。解鎖奇跡：大笨鐘。[NEWLINE][NEWLINE]採用所有商業政策樹內的政策後，每個交易站的[ICON_GOLD]金幣產出+1。還能讓您在進入工業時代後，可以使用[ICON_PEACE]信仰值來購買大商業家。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION">
+      <Text>探索政策</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION_CAP">
+      <Text>探索</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]探索政策[ENDCOLOR]強化帝國拓展海外領域的能力。[NEWLINE][NEWLINE]選擇探索政策可使海上單位的[ICON_MOVES]移動力+1，以及海上戰鬥單位的視野+1，並解鎖奇跡：羅浮宮。[NEWLINE][NEWLINE]採用探索政策中所有條目後，可探明湮沒的歷史古蹟。進入工業時代後，可使用[ICON_PEACE]信仰值來購買海軍上將。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_HONOR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]榮譽政策[ENDCOLOR]可多方面提升軍隊效率。[NEWLINE][NEWLINE]選擇榮譽政策，可在與蠻族交戰時獲得+33%的戰鬥加成，且在已探明地圖區域出現新蠻族營地時得到通知。每殲滅一個蠻族單位，帝國即可獲得[ICON_CULTURE]文化值。此政策可解鎖奇跡：宙斯神像。[NEWLINE][NEWLINE]採用榮譽政策中所有條目後，每殲滅一個敵方單位可獲得[ICON_GOLD]金幣。在進入工業時代後，可使用[ICON_PEACE]信仰值購買大將軍。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_LIBERTY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]自主政策[ENDCOLOR]適用於那些渴望快速發展的國家。[NEWLINE][NEWLINE]選擇自主政策可為每座城市提供1點[ICON_CULTURE]文化值並解鎖奇跡：大金字塔。[NEWLINE][NEWLINE]採用自主政策中所有政策條目後，可在[ICON_CAPITAL]首都附近獲得一名無償偉人（類型可選）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_PATRONAGE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]贊助政策[ENDCOLOR]可增加與城邦的友誼而得到的獎勵。[NEWLINE][NEWLINE]選擇贊助政策可使城邦[ICON_INFLUENCE]影響力下降速度將比正常減緩25%，並解鎖奇跡：紫禁城。[NEWLINE][NEWLINE]採用贊助政策中所有條目後，城邦會不定期贈送您[ICON_GREAT_PEOPLE]偉人。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]虔誠政策[ENDCOLOR]可提高帝國的[ICON_PEACE]信仰值。[NEWLINE][NEWLINE]選擇虔誠政策，可使神龕與神廟的建造時間減半並解鎖奇跡：傑內大清真寺。[NEWLINE][NEWLINE]採用虔誠政策中所有條目後，可獲得一位大預言家；同時聖地將提供+3[ICON_CULTURE]文化值。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]理性政策[ENDCOLOR]可提升利用與產生[ICON_RESEARCH]科技值的能力。[NEWLINE][NEWLINE]選擇理性政策後，在帝國處於[ICON_HAPPINESS_1]幸福時，可獲得10%[ICON_RESEARCH]科技值，並解鎖奇跡：大報恩寺塔。[NEWLINE][NEWLINE]採用理性政策中所有條目後，可無償獲得一項科技。進入工業時代後，可使用[ICON_PEACE]信仰值購買大科學家。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_BRANCH_TRADITION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]傳統政策[ENDCOLOR]適用於小型帝國。[NEWLINE][NEWLINE]採用傳統政策可提升城市邊界擴張率，並使[ICON_CAPITAL]首都+3[ICON_CULTURE]文化值，還能解鎖奇跡：空中花園。[NEWLINE][NEWLINE]採用傳統政策中所有政策條目後，可為您提供+15%[ICON_FOOD]食物增長及在您的前4座城市內提供無償的引水渠。進入工業時代後，可使用[ICON_PEACE]信仰值來購買大工程師。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CAPITALISM">
+      <Text>資本主義</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CAPITALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]資本主義[ENDCOLOR][NEWLINE]每個鑄幣廠、銀行與證券交易所提供+1[ICON_HAPPINESS_1]當地幸福度。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CARAVANS">
+      <Text>馬車隊</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CARAVANS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]馬車隊[ENDCOLOR][NEWLINE]所有陸上商路產出的[ICON_GOLD]金幣+2。道路和鐵路維護費用減少50%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]集體統治[ENDCOLOR][NEWLINE][ICON_CAPITAL]首都生產[COLOR_POSITIVE_TEXT]開拓者[ENDCOLOR]時加速50%，且在[ICON_CAPITAL]首都附近可無償獲得一名開拓者（威尼斯將獲得威尼斯商人）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CONSULATES">
+      <Text>領事館</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CONSULATES_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]領事館[ENDCOLOR][NEWLINE]對所有城邦的基礎[ICON_INFLUENCE]影響力增加20。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_COVERT_ACTION">
+      <Text>秘密行動</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_COVERT_ACTION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]秘密行動[ENDCOLOR][NEWLINE]操縱城邦選舉的成功率加倍。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION">
+      <Text>創意表達</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]創意表達[ENDCOLOR][NEWLINE]每一著作提供+1[ICON_CULTURE]文化值（但[ICON_TOURISM]旅遊業績不變）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULT_PERSONALITY">
+      <Text>個人崇拜</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULT_PERSONALITY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]個人崇拜[ENDCOLOR][NEWLINE]對與同一個敵人作戰的文明輸出的[ICON_TOURISM]旅遊業績+50%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULTURAL_CENTERS">
+      <Text>文化中心</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULTURAL_CENTERS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]文化中心[ENDCOLOR][NEWLINE]使建造紀念碑、圓形劇場、歌劇院、博物館及廣播塔的速度+50%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION">
+      <Text>文化大革命</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_CULTURAL_REVOLUTION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]文化大革命[ENDCOLOR][NEWLINE]向其他秩序意識形態的文明輸出的[ICON_TOURISM]旅遊業績+34%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT">
+      <Text>無產階級專政</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DICTATORSHIP_PROLETARIAT_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]無產階級專政[ENDCOLOR][NEWLINE][ICON_HAPPINESS_1]對幸福度較低的文明輸出的[ICON_TOURISM]旅遊業績+34%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DOUBLE_AGENTS">
+      <Text>雙面間諜</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_DOUBLE_AGENTS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]雙面間諜[ENDCOLOR][NEWLINE]抓捕試圖竊取科技的敵方間諜成功率翻倍。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ECONOMIC_UNION">
+      <Text>經濟聯盟</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ECONOMIC_UNION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]經濟聯盟[ENDCOLOR][NEWLINE]與採用自由意識形態的文明相連結的所有商路產出的[ICON_GOLD]金幣+3。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ELITE_FORCES">
+      <Text>精銳部隊</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ELITE_FORCES_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]精銳部隊[ENDCOLOR][NEWLINE]較普通單位，受損單位攻擊造成的傷害+25%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP">
+      <Text>企業家精神</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]企業家精神[ENDCOLOR][NEWLINE]大商業家的培育速度加快25%。大商業家執行貿易任務時賺取的[ICON_GOLD]金幣加倍。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ETHICS">
+      <Text>文化交流</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_ETHICS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]文化交流[ENDCOLOR][NEWLINE]使共同宗教、商路和開放邊境的旅遊業績修正值各增加15%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FINE_ARTS">
+      <Text>美術</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FINE_ARTS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]美術[ENDCOLOR][NEWLINE]將每回合多餘[ICON_HAPPINESS_1]幸福度的50%加至可用來採用社會政策的[ICON_CULTURE]文化值中。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FIVE_YEAR_PLAN">
+      <Text>五年計畫</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FIVE_YEAR_PLAN_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]五年計畫[ENDCOLOR][NEWLINE]每座城市的[ICON_PRODUCTION]生產力+1，每座礦場與採石場的[ICON_PRODUCTION]生產力+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FLOURISHING_OF_ARTS">
+      <Text>藝術繁榮</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FLOURISHING_OF_ARTS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]藝術繁榮[ENDCOLOR][NEWLINE]所有建造了世界奇跡的城市+33%[ICON_CULTURE]文化值，並且帝國立即開啟[ICON_GOLDEN_AGE]黃金時代。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FORTIFIED_BORDERS">
+      <Text>強化邊界</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FORTIFIED_BORDERS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]強化邊界[ENDCOLOR][NEWLINE]每座城堡、兵工廠及軍事基地提供+1[ICON_HAPPINESS_1]當地幸福度。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FREE_RELIGION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]宗教寬容[ENDCOLOR][NEWLINE]已信仰首要宗教的城市，也能獲得次要宗教的萬神殿信條加成。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FUTURISM">
+      <Text>未來主義</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_FUTURISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]未來主義[ENDCOLOR][NEWLINE]每當一個大作家、大藝術家或大音樂家誕生時，所有已知文明的[ICON_TOURISM]旅遊業績都會+250。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_GUNBOAT_DIPLOMACY">
+      <Text>炮艦外交</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_GUNBOAT_DIPLOMACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]炮艦外交[ENDCOLOR][NEWLINE]每回合對您能要求進貢的城邦增加6點[ICON_INFLUENCE]影響力（在標準遊戲速度下）。您的軍事力量對城邦增加50%的威嚇作用。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE">
+      <Text>人民英雄</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]人民英雄[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE]偉人的誕生速度提升25%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_HUMANISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]人文主義[ENDCOLOR][NEWLINE]大科學家的誕生速度加快25%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE">
+      <Text>商業間諜</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_INDUSTRIAL_ESPIONAGE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]商業間諜[ENDCOLOR][NEWLINE]間諜竊取科技的速度加倍。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_IRON_CURTAIN">
+      <Text>鐵幕</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_IRON_CURTAIN_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]鐵幕[ENDCOLOR][NEWLINE]佔領城市時獲得無償的法院。國內商路提供額外50%的[ICON_FOOD]食物或[ICON_PRODUCTION]生產力。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE">
+      <Text>閃電戰</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_LIGHTNING_WARFARE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]閃電戰[ENDCOLOR][NEWLINE]大將軍的[ICON_MOVES]移動力+3。裝甲單位的攻擊力+15%且[ICON_MOVES]移動力+1，並無視敵方控制區。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MANDATE_OF_HEAVEN_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]天命[ENDCOLOR][NEWLINE]所有使用[ICON_PEACE]信仰值購買的宗教單位及建築的費用減少20%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE">
+      <Text>海事基礎設施</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]海事基礎設施[ENDCOLOR][NEWLINE]所有沿海城市的[ICON_PRODUCTION]生產力+3。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MEDIA_CULTURE">
+      <Text>媒體文化</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MEDIA_CULTURE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]媒體文化[ENDCOLOR][NEWLINE]建有廣播塔的城市，其產出的[ICON_TOURISM]旅遊業績+34%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY">
+      <Text>商人邦聯</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]商人邦聯[ENDCOLOR][NEWLINE]與城邦相連的商路產出的[ICON_GOLD]金幣+2。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_TEXT">
+      <Text>商人邦聯更常被稱為商業聯盟或貿易公會，它是用來保護商人在各城市和國家裡擁有經濟利益和外交特權。雖然這些商人邦聯並不具官方地位，但很多都擁有重大的經濟影響力，並曾長時期控制特定的商路，像是倫敦商人冒險家公司（於1407年成立），以及更具權勢的漢薩同盟（約於1356年成立）。在文藝復興初期，在威尼斯和熱那亞等城邦內會成立商人邦聯，是商人在國外時，可以保護某些商品利益的組織。這些商人邦聯在15和16世紀時達到鼎盛，但之後因為各國政府和國家特許的公司逐漸取得這些邦聯擁有的監管和外交責任後，它們就開始式微。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MERCHANT_NAVY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]商船艦隊[ENDCOLOR][NEWLINE]每個港口、海運碼頭或燈塔都能為您提供+1[ICON_GOLD]金幣。東印度公司所在的城市+4[ICON_PRODUCTION]生產力與+4[ICON_CULTURE]文化值。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MILITARISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]軍國主義[ENDCOLOR][NEWLINE]每個軍營、軍械庫與軍校提供+2[ICON_HAPPINESS_1]當地幸福度。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MOBILIZATION">
+      <Text>軍事動員</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_MOBILIZATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]軍事動員[ENDCOLOR][NEWLINE]購買單位所需[ICON_GOLD]金幣減少33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NATIONALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]國家主義[ENDCOLOR][NEWLINE]單位維護費用所需的[ICON_GOLD]金幣減少33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NAVAL_TRADITION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]海上傳統[ENDCOLOR][NEWLINE]每個港口、海運碼頭或燈塔提供+1[ICON_HAPPINESS_1]幸福度。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NAVIGATION_SCHOOL">
+      <Text>航海學校</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NAVIGATION_SCHOOL_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]航海學校[ENDCOLOR][NEWLINE]立即獲得一位海軍上將。所有海軍上將的[ICON_MOVES]移動力+2。海軍上將的誕生速度加快50%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NEW_DEAL">
+      <Text>新政</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NEW_DEAL_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]新政[ENDCOLOR][NEWLINE]地標與偉人改良設施相關的產出+4。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NEW_ORDER">
+      <Text>克勞塞維茲遺著</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_NEW_ORDER_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]克勞塞維茲遺著[ENDCOLOR][NEWLINE]採用政策後，所有軍事單位在前50回合可獲得+25%攻擊加成。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_OPEN_SOCIETY">
+      <Text>前衛</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_OPEN_SOCIETY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]前衛[ENDCOLOR][NEWLINE][ICON_GREAT_PEOPLE]偉人的誕生速度提升25%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP">
+      <Text>黨的領導</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PARTY_LEADERSHIP_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]黨的領導[ENDCOLOR][NEWLINE]每座城市的[ICON_FOOD]食物、[ICON_PRODUCTION]生產力、[ICON_RESEARCH]科技值、[ICON_GOLD]金幣，以及[ICON_CULTURE]文化值各+1。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PATRIOTIC_WAR">
+      <Text>衛國戰爭</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]衛國戰爭[ENDCOLOR][NEWLINE]在友好領土內作戰時可獲得+15%攻擊加成。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_POLICE_STATE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]警察國家[ENDCOLOR][NEWLINE]法院提供+1[ICON_HAPPINESS_1]當地幸福度。建造法院所需時間減半。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]職業軍隊[ENDCOLOR][NEWLINE]晉升軍事單位所需的[ICON_GOLD]金幣減少33%，建造軍營、軍械庫及軍校的速度+50%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_REFORMATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]宗教改革[ENDCOLOR][NEWLINE]創立宗教後，可以額外獲得一項改革信條。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_RESETTLEMENT">
+      <Text>人口遷徙</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]人口遷徙[ENDCOLOR][NEWLINE]新城市一開始就有額外3單位的[ICON_CITIZEN]人口。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SKYSCRAPERS">
+      <Text>摩天大樓</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SKYSCRAPERS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]摩天大樓[ENDCOLOR][NEWLINE]購買建築物花費的[ICON_GOLD]金幣減少33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SOCIALIST_REALISM">
+      <Text>社會寫實主義</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SOCIALIST_REALISM_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]社會寫實主義[ENDCOLOR][NEWLINE]紀念碑+2[ICON_HAPPINESS_1]當地幸福度。建造紀念碑所需的時間減半。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS">
+      <Text>太空計畫採購案</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]太空計畫採購案[ENDCOLOR][NEWLINE]可用[ICON_GOLD]金幣購買太空船部件。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SPACEFLIGHT_PIONEERS">
+      <Text>航天先鋒</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_SPACEFLIGHT_PIONEERS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]航天先鋒[ENDCOLOR][NEWLINE]可使用大工程師加速生產太空船部件。[ICON_CAPITAL]首都附近獲得一名大工程師與一名大科學家。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_THEIR_FINEST_HOUR">
+      <Text>光榮時刻</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_THEIR_FINEST_HOUR_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]光榮時刻[ENDCOLOR][NEWLINE]城市[ICON_STRENGTH]戰鬥力增加33%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_THEOCRACY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]神權政體[ENDCOLOR][NEWLINE]神廟可使城市的[ICON_GOLD]金幣產出增加25%。聖地提供+3[ICON_GOLD]金幣收入。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE">
+      <Text>第三選擇</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]第三選擇[ENDCOLOR][NEWLINE]戰略資源產量增加100%。[ICON_CAPITAL]首都產出的[ICON_FOOD]食物+5、[ICON_RESEARCH]科技值+5。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TRADE_UNIONS">
+      <Text>傭兵軍團</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]傭兵軍團[ENDCOLOR][NEWLINE]允許您購買自由傭兵。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TREASURE_FLEETS">
+      <Text>財寶艦隊</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TREASURE_FLEETS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]財寶艦隊[ENDCOLOR][NEWLINE]所有海上商路+4[ICON_GOLD]金幣收入。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION">
+      <Text>公約組織</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]公約組織[ENDCOLOR][NEWLINE]每回合對與您有商路連結的城邦增加4點[ICON_INFLUENCE]影響力（在標準遊戲速度下）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNITED_FRONT_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]統一陣線[ENDCOLOR][NEWLINE]與共同敵人交戰時，尚武城邦提供單位的頻率加倍。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE">
+      <Text>全民健保</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]全民健保[ENDCOLOR][NEWLINE]每座國家奇跡提供+1當地[ICON_HAPPINESS_1]幸福度。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_UNIVERSAL_SUFFRAGE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]普選權[ENDCOLOR][NEWLINE]城市中專家產生的[ICON_HAPPINESS_4]不滿度減半。[ICON_GOLDEN_AGE]黃金時代時間延長50%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_URBANIZATION">
+      <Text>都市化</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_URBANIZATION_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]都市化[ENDCOLOR][NEWLINE]每座水力磨坊、醫院與醫學實驗室提供+1[ICON_HAPPINESS_1]當地幸福度。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY">
+      <Text>志願軍</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]志願軍[ENDCOLOR][NEWLINE]6個單位免維護費用。立即獲得6個外籍兵團步兵單位。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_WARRIOR_CODE_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]尚武精神[ENDCOLOR][NEWLINE]生產近戰單位時[ICON_PRODUCTION]生產力+15%，在[ICON_CAPITAL]首都附近獲得一位大將軍。大將軍的誕生速度加快50%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_WORKERS_FACULTIES">
+      <Text>勞工學院</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]勞工學院[ENDCOLOR][NEWLINE]工廠可使城市的[ICON_RESEARCH]科技值產出+25%。建造工廠所需的時間減半。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_YOUNG_PIONEERS">
+      <Text>少年先鋒隊</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICY_YOUNG_PIONEERS_HELP">
+      <Text>[COLOR_POSITIVE_TEXT]少年先鋒隊[ENDCOLOR][NEWLINE]每座工作坊、工廠，以及太陽能/核能發電廠/水力發電廠提供+1[ICON_HAPPINESS_1]當地幸福度。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_ADD_TENET">
+      <Text>點擊以加入原則</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_CHANGE_IDEOLOGY">
+      <Text>變更意識型態</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_CHANGE_IDEOLOGY_DISABLED_TT">
+      <Text>人民處於[COLOR_POSITIVE_TEXT]滿意[ENDCOLOR]狀態時無法變更意識形態。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_CHANGE_IDEOLOGY_TT">
+      <Text>點選此按鈕可變更為人民傾向的意識形態：[COLOR_POSITIVE_TEXT]{1_IdeologyName}[ENDCOLOR]。[NEWLINE][NEWLINE]您可獲得{2_HappinessGain}[ICON_HAPPINESS_1]幸福度，但新意識形態的原則將減少{3_TenetLoss}條。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_CHOOSE_TENET">
+      <Text>選擇原則</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_CONFIRM_CHANGE_IDEOLOGY">
+      <Text>意識型態的改變將導致所有城市進入{1_AnarchyTurns}回合的無政府狀態，其將停止產出[ICON_PRODUCTION]生產力、[ICON_GOLD]金幣、[ICON_RESEARCH]科技值、[ICON_CULTURE]文化值或[ICON_PEACE]信仰值。您原本在{3_CurrentIdeologyTree}中的{2_CurrentIdeologyTenets}條原則，將在當前{5_NewIdeologyTree}中縮減為{4_NewIdeologyTenets}條原則。[NEWLINE][NEWLINE]但您可獲得{6_HappinessGain}[ICON_HAPPINESS_1]民意幸福度。[NEWLINE]（注意，在您為新意識形態選擇原則前，您可能暫時會失去來自{3_CurrentIdeologyTree}中已損失的原則的[ICON_HAPPINESS_1]幸福度。[NEWLINE][NEWLINE]是否確定要變更為[COLOR_GREEN]{5_NewIdeologyName}[ENDCOLOR]意識形態？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_CONFIRM_TENET">
+      <Text>您確定要採用[COLOR_GREEN]{1_TenetName}[ENDCOLOR]嗎？</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGIES_TAB">
+      <Text>意識形態原則</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_DISABLED">
+      <Text>此劇本中無法使用意識形態。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_L1TENETS">
+      <Text>第1等級原則：[COLOR_GREEN]{1_NumTenets}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_L2TENETS">
+      <Text>第2等級原則：[COLOR_GREEN]{1_NumTenets}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_L3TENETS">
+      <Text>第3等級原則：[COLOR_GREEN]{1_NumTenets}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_LEVEL1">
+      <Text>第1等級</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_LEVEL2">
+      <Text>第2等級</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_LEVEL3">
+      <Text>第3等級</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_NOT_STARTED">
+      <Text>您必須先選擇意識形態，才能購買意識形態原則。當您建造了第三座工廠或進入了現代（無論先後），便可選擇意識形態。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGY_TITLE">
+      <Text>{1_CivAdjective}{2_IdeologyName}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_IDEOLOGYPANEL_TITLE">
+      <Text>意識形態</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_L1_TENET">
+      <Text>第1等級</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_L2_TENET">
+      <Text>第2等級</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_L3_TENET">
+      <Text>第3等級</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_NEED_L1_TENETS_TOOLTIP">
+      <Text>[COLOR_NEGATIVE_TEXT]還需選擇一條第1等級的原則才可解鎖選擇此第2等級原則。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_NEED_L2_TENETS_TOOLTIP">
+      <Text>[COLOR_NEGATIVE_TEXT]還需選擇一條第2等級的原則才可解鎖選擇此第3等級原則。[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_SOCIAL_POLICIES_TAB">
+      <Text>社會政策</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_TENETS">
+      <Text>意識形態原則</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POLICYSCREEN_TO_IDEOLOGY_BUTTON">
+      <Text>進入意識形態[ICON_ARROW_RIGHT]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_AFRAID">
+      <Text>他們目前處於[COLOR_POSITIVE_TEXT]畏懼[ENDCOLOR]狀態（+{1_FactorScore}）：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_ALLIES">
+      <Text>有盟友</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_BASE_RELUCTANCE">
+      <Text>基礎拒絕值</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_RECENTLY">
+      <Text>之前才向您進貢</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_BULLIED_VERY_RECENTLY">
+      <Text>最近才向您進貢</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_GLOBAL_MILITARY">
+      <Text>整體軍力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_GUNBOAT_DIPLOMACY">
+      <Text>炮艦外交原則</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_HOSTILE">
+      <Text>敵對特性</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_LOW_INFLUENCE">
+      <Text>影響力[ICON_INFLUENCE]極低</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_LOW_POPULATION">
+      <Text>低人口</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_MILITARISTIC">
+      <Text>尚武型</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_MILITARY_PRESENCE">
+      <Text>城邦附近有軍隊</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_NEGATIVE">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_WARNING_TEXT]（{1_FactorScore}）{@2_FactorDescription}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_PLEDGES_TO_PROTECT">
+      <Text>已獲保護承諾</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_POSITIVE">
+      <Text>[NEWLINE][ICON_BULLET][COLOR_POSITIVE_TEXT]（+{1_FactorScore}）{@2_FactorDescription}[ENDCOLOR]</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_FACTOR_UNIT_RELUCTANCE">
+      <Text>贈送一支單位</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_GOLD_TT">
+      <Text>如果城邦對您的感受更多是[COLOR_POSITIVE_TEXT]畏懼[ENDCOLOR]而不是[COLOR_WARNING_TEXT]容忍[ENDCOLOR]，您就能向對方索取貢品[ICON_GOLD]金幣，但您對其的[ICON_INFLUENCE]影響力將下降。{1_FearLevel}{2_FactorDetails}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_RESILIENT">
+      <Text>其目前處於[COLOR_WARNING_TEXT]容忍[ENDCOLOR]狀態（{1_FactorScore}）：</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_BULLY_UNIT_TT">
+      <Text>如果城邦對您的感受更多是[COLOR_POSITIVE_TEXT]畏懼[ENDCOLOR]而不是[COLOR_WARNING_TEXT]容忍[ENDCOLOR]，您就能要求對方進貢{@3_Unit}，但您對其的[ICON_INFLUENCE]影響力將下降。{1_FearLevel}{2_FactorDetails}</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GIFT_TILE_IMPROVEMENT_TT">
+      <Text>您可提供[ICON_GOLD]金幣以改良該城邦的戰略或奢侈品資源。城邦可獲得此資源，並將資源提供給其盟友（若該城邦有盟友）。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GIFT_UNIT">
+      <Text>贈送單位 - 將獲得{1_Influence}[ICON_INFLUENCE]影響力</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POP_CSTATE_GIFT_UNIT_TT">
+      <Text>您可以將您在地圖上任何位置的戰鬥單位贈送給該城邦。單位將在{1_TurnsUntilArrival}回合內到達城邦，在此之前您不可再次贈送禮物。單位抵達後，您可獲得{2_Influence}[ICON_INFLUENCE]影響力。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_POPUP_ARE_YOU_SURE_FOUND_ON_DIG_SITE">
+      <Text>您確定要{@1_ActionName}？[NEWLINE]當前歷史估計將永久移除。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESS_INTERNATIONAL_SPACE_STATION_HELP">
+      <Text>對此城市投注於國際太空站計畫的[ICON_PRODUCTION]生產力上做出貢獻。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESS_WORLD_FAIR_HELP">
+      <Text>對此城市投注於世界博覽會計畫的[ICON_PRODUCTION]生產力上做出貢獻。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_PROCESS_WORLD_GAMES_HELP">
+      <Text>對此城市投注於國際賽事計畫的[ICON_PRODUCTION]生產力上做出貢獻。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_ARTIFACTS_HELP">
+      <Text>對歷史古蹟進行考古挖掘，將出土可放入藝術巨作席位的文物；或是將其轉換成地標。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_CLOVES_HELP">
+      <Text>印尼城市中獨特的奢侈貨品</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_HIDDEN_ARTIFACTS_HELP">
+      <Text>對湮沒的歷史古蹟進行考古挖掘，將出土可放入藝術巨作席位的文物，或是將其轉換成地標。唯有採用探索政策所有條目的文明才能看到湮沒的歷史古蹟。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_NUTMEG_HELP">
+      <Text>印尼城市中獨特的奢侈貨品</Text>
+    </Row>
+    <Row Tag="TXT_KEY_RESOURCE_PEPPER_HELP">
+      <Text>印尼城市中獨特的奢侈貨品</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST">
+      <Text>單位可以如同在道路上行進一樣穿越位於友好領土的森林和叢林。在研究車輪前這些單元格就可以建造[ICON_CONNECTED]商路。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD">
+      <Text>每條[ICON_CONNECTED]城市連結獲得+1[ICON_GOLD]金幣，且[ICON_RES_OIL]石油資源產量加倍。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_HATE_HIGH">
+      <Text>（他們仇視好戰者！）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_HATE_LOW">
+      <Text>（對方無視中等的好戰行為。）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_HATE_MID">
+      <Text>（他們不喜歡好戰者。）</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_PREVIEW_EXTREME">
+      <Text>如您佔領該城市，將受到[COLOR_NEGATIVE_TEXT]極多[ENDCOLOR]的好戰減益。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_PREVIEW_MAJOR">
+      <Text>如您佔領該城市，將受到[COLOR_NEGATIVE_TEXT]大量[ENDCOLOR]的好戰減益。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WARMONGER_PREVIEW_MINOR">
+      <Text>如您佔領該城市，將受到[COLOR_NEGATIVE_TEXT]少量[ENDCOLOR]的好戰減益。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_BIG_BEN_HELP">
+      <Text>需求商業政策。在所有城市內進行購買時，所需[ICON_GOLD]金幣減少15 %。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_BROADWAY_HELP">
+      <Text>該奇跡所在的城市附近獲得1位無償的大音樂家。包含3個音樂巨作席位。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_CHICHEN_ITZA_HELP">
+      <Text>需求自主政策。單元格改良設施建造速度增加25%，所在城市附近獲得2名工人。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_EIFFEL_TOWER_HELP">
+      <Text>除了可以提高[ICON_HAPPINESS_1]幸福度和[ICON_CULTURE]文化值外，艾菲爾鐵塔還能提供+12[ICON_TOURISM]旅遊業績。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_FORBIDDEN_PALACE_HELP">
+      <Text>需贊助政策分支。在世界議會中獲得額外2名代表。源自非佔領城市[ICON_CITIZEN]市民人數的[ICON_HAPPINESS_4]不滿度減少10%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_GLOBE_THEATER_HELP">
+      <Text>在建造奇跡的城市附近，可獲得1位無償的大作家。該奇跡包含2個文學巨作席位。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_GREAT_LIBRARY_HELP">
+      <Text>獲得一項無償的科技。為所在城市提供一所無償的圖書館。擁有2個文學巨作的席位。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_HANGING_GARDEN_HELP">
+      <Text>需要「傳統」政策。為所在城市提供一座無償的花園。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_LOUVRE_HELP">
+      <Text>要求探索政策分支。該奇跡建成時城市附近出現一位無償的大藝術家。擁有4個藝術巨作席位。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_MACHU_PICHU_HELP">
+      <Text>[ICON_CONNECTED]城市連結所產出的[ICON_GOLD]金幣+25%。[NEWLINE][NEWLINE]城市附近兩格內必須有山嶽且位於您的領土內。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP">
+      <Text>需要「虔誠」政策分支。所有該城市生產的傳教士可以傳播三次宗教。可為所在城市提供一座無償的清真寺。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_PORCELAIN_TOWER_HELP">
+      <Text>要求理性政策分支。當該奇跡建成時城市附近出現一位大科學家。從研究協定中獲得的[ICON_RESEARCH]科技值增加50%。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_SISTINE_CHAPEL_HELP">
+      <Text>所有城市+25%[ICON_CULTURE]文化值。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP">
+      <Text>獲得一項無償的社會政策，同時該城市+50％[ICON_CULTURE]文化值。必須建造於海濱城市。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_UFFIZI_HELP">
+      <Text>要求美學政策分支。建成該奇跡的城市附近出現1位無償的大藝術家。擁有3個藝術巨作的席位。</Text>
+    </Row>
+    <Row Tag="TXT_KEY_WONDER_UNITED_NATIONS_HELP">
+      <Text>世界議會已升級為聯合國，因此可以開始投票決定外交勝利。擁有聯合國的文明額外獲得3名代表。</Text>
+    </Row>
+  </Language_ZH_Hant_HK>
+</GameData>

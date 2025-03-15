@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Scott Lewis (Firaxis Games) -->
+<!--Sid Meier's Civilization V -->
+<!--Copyright Firaxis Games 2010 -->
+<!--File created by Paul Murphy-->
+<GameData>
+	<Language_en_US>
+		<Row Tag="TXT_KEY_NO_WRITER_FROM_FAITH">
+			<Text>A Great Writer may only be selected if you have started the Aesthetics policy tree.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ARTIST_FROM_FAITH">
+			<Text>A Great Artist may only be selected if you have started the Aesthetics policy tree.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_MUSICIAN_FROM_FAITH">
+			<Text>A Great Musician may only be selected if you have started the Aesthetics policy tree.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_GENERAL_FROM_FAITH">
+			<Text>A Great General may only be selected if you have started the Honor policy tree.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ADMIRAL_FROM_FAITH">
+			<Text>A Great Admiral may only be selected if you have started the Exploration policy tree.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ENGINEER_FROM_FAITH">
+			<Text>A Great Engineer may only be selected if you have started the Tradition policy tree.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_FROM_GREAT_WORKS">
+			<Text>{1_Num} [ICON_CULTURE] from Great Works</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_FROM_LEAGUES">
+			<Text>{1_Num} [ICON_CULTURE] from World Congress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FOOD_FROM_TRADE_ROUTES">
+			<Text>{1_perTurn:number "#.##"} [ICON_FOOD] from Trade Routes established with this city</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_FROM_TRADE_ROUTES">
+			<Text>{1_perTurn:number "#.##"} [ICON_PRODUCTION] from Trade Routes established with this city</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GOLD_FROM_TRADE_ROUTES">
+			<Text>{1_perTurn:number "#.##"} [ICON_GOLD] from Trade Routes established with this city</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SCIENCE_FROM_TRADE_ROUTES">
+			<Text>{1_perTurn:number "#.##"} [ICON_RESEARCH] from Trade Routes established with this city</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CULTURE_FROM_TRADE_ROUTES">
+			<Text>{1_perTurn:number "#.##"} [ICON_CULTURE] from Trade Routes established with this city</Text>
+		</Row>
+		<Row Tag="TXT_KEY_FAITH_FROM_TRADE_ROUTES">
+			<Text>{1_perTurn:number "#.##"} [ICON_FAITH] from Trade Routes established with this city</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NO_ACTION_NUKES_BY_RESOLUTION">
+			<Text>[NEWLINE]Constructing nuclear weapons is forbidden by the Nuclear Non-Proliferation resolution of the World Congress.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_NO_ACTION_CITY_AT_AIR_CAPACITY">
+      <Text>[NEWLINE]City at maximum capacity for air units.</Text>
+    </Row>
+		<Row Tag="TXT_KEY_POPUP_GOLD_AND_CULTURE_CITY_CAPTURE">
+			<Text>You have pillaged {1_Num} [ICON_GOLD], {2_Num} [ICON_CULTURE], and {3_Num} [ICON_GREAT_WORK] from the capture of {@4_CityName}!!!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_LEAGUES">
+			<Text>Disable World Congress</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_LEAGUES_HELP">
+			<Text>Disables the World Congress system. No proposals or sessions will happen, and Diplomatic Victory will not be possible.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_CULTURE_OVERVIEW_UI">
+			<Text>Disable Culture Overview UI</Text>
+		</Row>
+		<Row Tag="TXT_KEY_GAME_OPTION_NO_CULTURE_OVERVIEW_UI_HELP">
+			<Text>Disables the Culture Overview Screen.  This affects only the UI and does not alter any of the core game mechanics.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_MOVE_SPY_INSTRUCTIONS">
+			<Text>Choose a city to move {1_SpyRank} {2_SpyName} into to begin operations.[NEWLINE][NEWLINE][NEWLINE]When you move a spy into an opponent's [ICON_CAPITAL] Capital, you will be able to designate them as a diplomat.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_BE_DIPLOMAT">
+			<Text>Do you want this spy to be a diplomat? A spy can be a diplomat if they are placed in the capital of another civilization you are not at war with. (If war is declared, your spy will escape the city.) A diplomat will not attempt to steal technology from the other player but will still provide intrigue. Once the World Congress convenes, you will be able to determine their opinion on proposals and trade for their support if needed. If you have differing Ideologies, Diplomats will automatically conduct propaganda that provides a boost to [ICON_TOURISM] Tourism output to the target civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_STATE_MAKING_INTRODUCTIONS">
+			<Text>Making Introductions</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_STATE_MAKING_INTRODUCTIONS_TT">
+			<Text>{1_RankName} {2_SpyName} is trying to make all the right connections in  {3_CityName} as a diplomat. After they have made their introductions, he will be able to schmooze.[NEWLINE][NEWLINE]A spy can be a diplomat if they are placed in the capital of another civilization. A diplomat will not attempt to steal technology from the other player but will still provide intrigue. Once the World Congress convenes and the diplomat has begun schmoozing, you will be able to determine their opinion on proposals and trade for their support if needed.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_STATE_SCHMOOZING">
+			<Text>Schmoozing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_STATE_SCHMOOZING_TT">
+			<Text>{1_RankName} {2_SpyName} is schmoozing in {3_CityName} as a diplomat.[NEWLINE][NEWLINE]A spy can be a diplomat if they are placed in the capital of another civilization you are not at war with. (If war is declared, your spy will escape the city.) A diplomat will not attempt to steal technology from the other player but will still provide intrigue. Once the World Congress convenes and the diplomat has begun schmoozing, you will be able to determine their opinion on proposals and trade for their support if needed. Diplomats also conduct propaganda that provides a boost to [ICON_TOURISM] Tourism output to the target civilization.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_VIEW_DISABLED_DIPLOMAT_WAIT_TT">
+			<Text>You may not see the city screen of {1_CityName}.[NEWLINE][NEWLINE]You have a diplomat in this city, but you must wait for it to finish making introductions before you can see the city screen.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_EO_CITY_VIEW_ENABLED_DIPOLOMAT_TT">
+			<Text>Click to view the city screen of {1_CityName}.[NEWLINE][NEWLINE]You may see the other player's city screen if your spy is a diplomat and is schmoozing around the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+    <Row Tag="TXT_KEY_EO_PUBLIC_OPINION_UNHAPPINESS">
+      <Text>Public Opinion</Text>
+    </Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_REBELS">
+			<Text>Because the empire has at least 10 [ICON_HAPPINESS_4] Unhappiness, an uprising has occurred in our territory!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_REVOLT_SUMMARY">
+			<Text>A City Revolts!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_CITY_REVOLT">
+			<Text>Because the empire has at least 20 [ICON_HAPPINESS_4] Unhappiness and our public opinion is not Content, the city of {1_CityName} has revolted and joined {2_CivName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_OTHER_PLAYER_CITY_REVOLT">
+			<Text>The {1_CivAdjective} city of {2_CityName} has revolted and joined {3_CivName}!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLT_SUMMARY">
+			<Text>City Revolt Brewing</Text>
+		</Row>
+		<Row Tag="TXT_KEY_NOTIFICATION_POSSIBLE_CITY_REVOLT">
+			<Text>Because the empire has at least 20 [ICON_HAPPINESS_4] Unhappiness and our public opinion is not Content, a city will revolt in {1_Turns} turns. Based on current Unhappiness levels and pressure from nearby ideologies, the city most likely to revolt is {2_CityName} and it will join {3_CivName}. Try to get your empire's Happiness level out of this range as soon as possible!</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_0_SHORT">
+			<Text>Ancient</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_1_SHORT">
+			<Text>Classical</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_2_SHORT">
+			<Text>Medieval</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_3_SHORT">
+			<Text>Renaissance</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_4_SHORT">
+			<Text>Industrial</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_5_SHORT">
+			<Text>Modern</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_6_SHORT">
+			<Text>Atomic Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_7_SHORT">
+			<Text>Information Era</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_0_ABBREV">
+			<Text>I</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_1_ABBREV">
+			<Text>II</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_2_ABBREV">
+			<Text>III</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_3_ABBREV">
+			<Text>IV</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_4_ABBREV">
+			<Text>V</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_5_ABBREV">
+			<Text>VI</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_6_ABBREV">
+			<Text>VII</Text>
+		</Row>
+		<Row Tag="TXT_KEY_ERA_7_ABBREV">
+			<Text>VIII</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PRODUCTION_BUILDING_TOURISM">
+			<Text>[ICON_TOURISM] Tourism: +{1_Num}</Text>
+		</Row>
+		<Row Tag="TXT_KEY_VENETIAN_MERCHANT_BOUGHT_CITY_STATE">
+			<Text>Your Merchant of Venice bought a city-state!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>

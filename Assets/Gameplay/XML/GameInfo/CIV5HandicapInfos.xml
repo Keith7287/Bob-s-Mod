@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Jon Shafer (Firaxis Games) -->
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
 <GameData>
 	<!-- Table definition -->
 	<Table name="HandicapInfos">
@@ -64,6 +64,8 @@
 		<Column name="AIInflationPercent" type="integer" default="100"/>
 		<Column name="AIPerEraModifier" type="integer" default="0"/>
 		<Column name="AIAdvancedStartPercent" type="integer" default="0"/>
+		<Column name="AIFreeXP" type="integer" default="0"/>
+		<Column name="AIFreeXPPercent" type="integer" default="0"/>
 		<Column name="PortraitIndex" type="integer" default="-1"/>
 		<Column name="IconAtlas" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
 	</Table>
@@ -112,8 +114,8 @@
 			<TechTradeKnownModifier>-100</TechTradeKnownModifier>
 			<BarbCampGold>50</BarbCampGold>
 			<BarbSpawnMod>8</BarbSpawnMod>
-			<BarbarianBonus>75</BarbarianBonus>
-			<AIBarbarianBonus>45</AIBarbarianBonus>
+			<BarbarianBonus>70</BarbarianBonus>
+			<AIBarbarianBonus>75</AIBarbarianBonus>
 			<EarliestBarbarianReleaseTurn>10000</EarliestBarbarianReleaseTurn>
 			<BarbarianLandTargetRange>2</BarbarianLandTargetRange>
 			<BarbarianSeaTargetRange>4</BarbarianSeaTargetRange>
@@ -165,8 +167,8 @@
 			<TechTradeKnownModifier>-50</TechTradeKnownModifier>
 			<BarbCampGold>40</BarbCampGold>
 			<BarbSpawnMod>5</BarbSpawnMod>
-			<BarbarianBonus>50</BarbarianBonus>
-			<AIBarbarianBonus>50</AIBarbarianBonus>
+			<BarbarianBonus>60</BarbarianBonus>
+			<AIBarbarianBonus>70</AIBarbarianBonus>
 			<EarliestBarbarianReleaseTurn>60</EarliestBarbarianReleaseTurn>
 			<BarbarianLandTargetRange>3</BarbarianLandTargetRange>
 			<BarbarianSeaTargetRange>6</BarbarianSeaTargetRange>
@@ -216,8 +218,8 @@
 			<TechTradeKnownModifier>-25</TechTradeKnownModifier>
 			<BarbCampGold>30</BarbCampGold>
 			<BarbSpawnMod>3</BarbSpawnMod>
-			<BarbarianBonus>40</BarbarianBonus>
-			<AIBarbarianBonus>55</AIBarbarianBonus>
+			<BarbarianBonus>50</BarbarianBonus>
+			<AIBarbarianBonus>60</AIBarbarianBonus>
 			<EarliestBarbarianReleaseTurn>20</EarliestBarbarianReleaseTurn>
 			<BarbarianLandTargetRange>4</BarbarianLandTargetRange>
 			<BarbarianSeaTargetRange>8</BarbarianSeaTargetRange>
@@ -267,7 +269,7 @@
 			<NoTechTradeModifier>70</NoTechTradeModifier>
 			<BarbCampGold>25</BarbCampGold>
 			<BarbSpawnMod>0</BarbSpawnMod>
-			<BarbarianBonus>33</BarbarianBonus>
+			<BarbarianBonus>40</BarbarianBonus>
 			<AIBarbarianBonus>60</AIBarbarianBonus>
 			<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn>
 			<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
@@ -318,7 +320,7 @@
 			<NoTechTradeModifier>50</NoTechTradeModifier>
 			<BarbCampGold>25</BarbCampGold>
 			<BarbSpawnMod>0</BarbSpawnMod>
-			<BarbarianBonus>25</BarbarianBonus>
+			<BarbarianBonus>30</BarbarianBonus>
 			<AIBarbarianBonus>60</AIBarbarianBonus>
 			<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn>
 			<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
@@ -326,7 +328,7 @@
 			<AIStartingDefenseUnits>1</AIStartingDefenseUnits>
 			<AIDeclareWarProb>100</AIDeclareWarProb>
 			<AIWorkRateModifier>20</AIWorkRateModifier>
-			<AIUnhappinessPercent>90</AIUnhappinessPercent>
+			<AIUnhappinessPercent>100</AIUnhappinessPercent>
 			<AIGrowthPercent>90</AIGrowthPercent>
 			<AITrainPercent>85</AITrainPercent>
 			<AIWorldTrainPercent>100</AIWorldTrainPercent>
@@ -337,10 +339,11 @@
 			<AIBuildingCostPercent>85</AIBuildingCostPercent>
 			<AIUnitCostPercent>80</AIUnitCostPercent>
 			<AIUnitSupplyPercent>30</AIUnitSupplyPercent>
-			<AIUnitUpgradePercent>50</AIUnitUpgradePercent>
+			<AIUnitUpgradePercent>45</AIUnitUpgradePercent>
 			<!--<AIInflationPercent>80</AIInflationPercent>-->
 			<AIPerEraModifier>-2</AIPerEraModifier>
 			<AIAdvancedStartPercent>120</AIAdvancedStartPercent>
+			<AIFreeXP>10</AIFreeXP>
 			<IconAtlas>DIFFICULTY_ATLAS</IconAtlas>
 			<PortraitIndex>4</PortraitIndex>
 		</Row>
@@ -381,21 +384,23 @@
 			<AIStartingExploreUnits>1</AIStartingExploreUnits>
 			<AIDeclareWarProb>100</AIDeclareWarProb>
 			<AIWorkRateModifier>50</AIWorkRateModifier>
-			<AIUnhappinessPercent>85</AIUnhappinessPercent>
-			<AIGrowthPercent>85</AIGrowthPercent>
+			<AIUnhappinessPercent>90</AIUnhappinessPercent>
+			<AIGrowthPercent>80</AIGrowthPercent>
 			<AITrainPercent>80</AITrainPercent>
 			<AIWorldTrainPercent>100</AIWorldTrainPercent>
-			<AIConstructPercent>80</AIConstructPercent>
+			<AIConstructPercent>75</AIConstructPercent>
 			<AIWorldConstructPercent>100</AIWorldConstructPercent>
 			<AICreatePercent>80</AICreatePercent>
 			<AIWorldCreatePercent>100</AIWorldCreatePercent>
 			<AIBuildingCostPercent>80</AIBuildingCostPercent>
 			<AIUnitCostPercent>75</AIUnitCostPercent>
 			<AIUnitSupplyPercent>30</AIUnitSupplyPercent>
-			<AIUnitUpgradePercent>50</AIUnitUpgradePercent>
+			<AIUnitUpgradePercent>40</AIUnitUpgradePercent>
 			<!--<AIInflationPercent>80</AIInflationPercent>-->
 			<AIPerEraModifier>-3</AIPerEraModifier>
 			<AIAdvancedStartPercent>135</AIAdvancedStartPercent>
+			<AIFreeXP>10</AIFreeXP>
+			<AIFreeXPPercent>25</AIFreeXPPercent>
 			<IconAtlas>DIFFICULTY_ATLAS</IconAtlas>
 			<PortraitIndex>5</PortraitIndex>
 		</Row>
@@ -437,21 +442,23 @@
 			<AIStartingExploreUnits>1</AIStartingExploreUnits>
 			<AIDeclareWarProb>100</AIDeclareWarProb>
 			<AIWorkRateModifier>75</AIWorkRateModifier>
-			<AIUnhappinessPercent>75</AIUnhappinessPercent>
-			<AIGrowthPercent>75</AIGrowthPercent>
+			<AIUnhappinessPercent>85</AIUnhappinessPercent>
+			<AIGrowthPercent>70</AIGrowthPercent>
 			<AITrainPercent>65</AITrainPercent>
 			<AIWorldTrainPercent>100</AIWorldTrainPercent>
-			<AIConstructPercent>65</AIConstructPercent>
+			<AIConstructPercent>60</AIConstructPercent>
 			<AIWorldConstructPercent>100</AIWorldConstructPercent>
 			<AICreatePercent>65</AICreatePercent>
 			<AIWorldCreatePercent>100</AIWorldCreatePercent>
 			<AIBuildingCostPercent>65</AIBuildingCostPercent>
 			<AIUnitCostPercent>65</AIUnitCostPercent>
 			<AIUnitSupplyPercent>40</AIUnitSupplyPercent>
-			<AIUnitUpgradePercent>50</AIUnitUpgradePercent>
+			<AIUnitUpgradePercent>35</AIUnitUpgradePercent>
 			<!--<AIInflationPercent>80</AIInflationPercent>-->
 			<AIPerEraModifier>-4</AIPerEraModifier>
 			<AIAdvancedStartPercent>150</AIAdvancedStartPercent>
+			<AIFreeXP>30</AIFreeXP>
+			<AIFreeXPPercent>50</AIFreeXPPercent>
 			<IconAtlas>DIFFICULTY_ATLAS</IconAtlas>
 			<PortraitIndex>6</PortraitIndex>
 		</Row>
@@ -494,8 +501,8 @@
 			<AIStartingExploreUnits>1</AIStartingExploreUnits>
 			<AIDeclareWarProb>100</AIDeclareWarProb>
 			<AIWorkRateModifier>100</AIWorkRateModifier>
-			<AIUnhappinessPercent>60</AIUnhappinessPercent>
-			<AIGrowthPercent>60</AIGrowthPercent>
+			<AIUnhappinessPercent>75</AIUnhappinessPercent>
+			<AIGrowthPercent>55</AIGrowthPercent>
 			<AITrainPercent>50</AITrainPercent>
 			<AIWorldTrainPercent>100</AIWorldTrainPercent>
 			<AIConstructPercent>50</AIConstructPercent>
@@ -505,12 +512,62 @@
 			<AIBuildingCostPercent>50</AIBuildingCostPercent>
 			<AIUnitCostPercent>50</AIUnitCostPercent>
 			<AIUnitSupplyPercent>50</AIUnitSupplyPercent>
-			<AIUnitUpgradePercent>50</AIUnitUpgradePercent>
+			<AIUnitUpgradePercent>30</AIUnitUpgradePercent>
 			<!--<AIInflationPercent>80</AIInflationPercent>-->
 			<AIPerEraModifier>-5</AIPerEraModifier>
 			<AIAdvancedStartPercent>170</AIAdvancedStartPercent>
+			<AIFreeXP>30</AIFreeXP>
+			<AIFreeXPPercent>100</AIFreeXPPercent>
 			<IconAtlas>DIFFICULTY_ATLAS</IconAtlas>
 			<PortraitIndex>7</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>HANDICAP_AI_DEFAULT</Type>
+			<Description>TXT_KEY_HANDICAP_AI_DEFAULT</Description>
+			<Help>TXT_KEY_HANDICAP_AI_DEFAULT_HELP</Help>
+			<StartingLocPercent>50</StartingLocPercent>
+			<AdvancedStartPointsMod>100</AdvancedStartPointsMod>
+			<HappinessDefault>15</HappinessDefault>
+			<NumCitiesUnhappinessMod>90</NumCitiesUnhappinessMod>
+			<PopulationUnhappinessMod>90</PopulationUnhappinessMod>
+			<Gold>0</Gold>
+			<GoldFreeUnits>0</GoldFreeUnits>
+			<ProductionFreeUnits>7</ProductionFreeUnits>
+			<ProductionFreeUnitsPopulationPercent>50</ProductionFreeUnitsPopulationPercent>
+			<ProductionFreeUnitsPerCity>3</ProductionFreeUnitsPerCity>
+			<RouteCostPercent>50</RouteCostPercent>
+			<UnitCostPercent>75</UnitCostPercent>
+			<BuildingCostPercent>75</BuildingCostPercent>
+			<ResearchPercent>85</ResearchPercent>
+			<PolicyPercent>75</PolicyPercent>
+			<ImprovementCostPercent>100</ImprovementCostPercent>
+			<CityProductionNumOptionsConsidered>2</CityProductionNumOptionsConsidered>
+			<TechNumOptionsConsidered>2</TechNumOptionsConsidered>
+			<PolicyNumOptionsConsidered>2</PolicyNumOptionsConsidered>
+			<AttitudeChange>-1</AttitudeChange>
+			<NoTechTradeModifier>70</NoTechTradeModifier>
+			<BarbCampGold>25</BarbCampGold>
+			<BarbSpawnMod>0</BarbSpawnMod>
+			<BarbarianBonus>40</BarbarianBonus>
+			<AIBarbarianBonus>60</AIBarbarianBonus>
+			<EarliestBarbarianReleaseTurn>0</EarliestBarbarianReleaseTurn>
+			<BarbarianLandTargetRange>5</BarbarianLandTargetRange>
+			<BarbarianSeaTargetRange>10</BarbarianSeaTargetRange>
+			<AIDeclareWarProb>100</AIDeclareWarProb>
+			<AIUnhappinessPercent>100</AIUnhappinessPercent>
+			<AIGrowthPercent>100</AIGrowthPercent>
+			<AITrainPercent>100</AITrainPercent>
+			<AIWorldTrainPercent>100</AIWorldTrainPercent>
+			<AIConstructPercent>100</AIConstructPercent>
+			<AIWorldConstructPercent>100</AIWorldConstructPercent>
+			<AICreatePercent>100</AICreatePercent>
+			<AIWorldCreatePercent>100</AIWorldCreatePercent>
+			<AIBuildingCostPercent>100</AIBuildingCostPercent>
+			<AIUnitCostPercent>85</AIUnitCostPercent>
+			<AIUnitSupplyPercent>20</AIUnitSupplyPercent>
+			<AIUnitUpgradePercent>50</AIUnitUpgradePercent>
+			<AIAdvancedStartPercent>100</AIAdvancedStartPercent>
+			<IconAtlas>DIFFICULTY_ATLAS</IconAtlas>
 		</Row>
 	</HandicapInfos>
 	<HandicapInfo_AIFreeTechs>
@@ -527,6 +584,10 @@
 			<TechType>TECH_POTTERY</TechType>
 		</Row>
 		<Row>
+			<HandicapType>HANDICAP_EMPEROR</HandicapType>
+			<TechType>TECH_MINING</TechType>
+		</Row>
+		<Row>
 			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
 			<TechType>TECH_MINING</TechType>
 		</Row>
@@ -537,6 +598,10 @@
 		<Row>
 			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
 			<TechType>TECH_POTTERY</TechType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
+			<TechType>TECH_ARCHERY</TechType>
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_DEITY</HandicapType>
@@ -554,6 +619,10 @@
 			<HandicapType>HANDICAP_DEITY</HandicapType>
 			<TechType>TECH_POTTERY</TechType>
 		</Row>
+		<Row>
+			<HandicapType>HANDICAP_DEITY</HandicapType>
+			<TechType>TECH_ARCHERY</TechType>
+		</Row>
 	</HandicapInfo_AIFreeTechs>
 	<HandicapInfo_Goodies>
 		<Row>
@@ -563,6 +632,14 @@
 		<Row>
 			<HandicapType>HANDICAP_SETTLER</HandicapType>
 			<GoodyType>GOODY_CULTURE</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_SETTLER</HandicapType>
+			<GoodyType>GOODY_PANTHEON_FAITH</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_SETTLER</HandicapType>
+			<GoodyType>GOODY_PROPHET_FAITH</GoodyType>
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_SETTLER</HandicapType>
@@ -602,6 +679,14 @@
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_CHIEFTAIN</HandicapType>
+			<GoodyType>GOODY_PANTHEON_FAITH</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_CHIEFTAIN</HandicapType>
+			<GoodyType>GOODY_PROPHET_FAITH</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_CHIEFTAIN</HandicapType>
 			<GoodyType>GOODY_GOLD</GoodyType>
 		</Row>
 		<Row>
@@ -630,6 +715,14 @@
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_WARLORD</HandicapType>
+			<GoodyType>GOODY_PANTHEON_FAITH</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_WARLORD</HandicapType>
+			<GoodyType>GOODY_PROPHET_FAITH</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_WARLORD</HandicapType>
 			<GoodyType>GOODY_GOLD</GoodyType>
 		</Row>
 		<Row>
@@ -658,6 +751,14 @@
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_PRINCE</HandicapType>
+			<GoodyType>GOODY_PANTHEON_FAITH</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_PRINCE</HandicapType>
+			<GoodyType>GOODY_PROPHET_FAITH</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_PRINCE</HandicapType>
 			<GoodyType>GOODY_GOLD</GoodyType>
 		</Row>
 		<Row>
@@ -686,6 +787,14 @@
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_KING</HandicapType>
+			<GoodyType>GOODY_PANTHEON_FAITH</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_KING</HandicapType>
+			<GoodyType>GOODY_PROPHET_FAITH</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_KING</HandicapType>
 			<GoodyType>GOODY_GOLD</GoodyType>
 		</Row>
 		<Row>
@@ -714,6 +823,14 @@
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_EMPEROR</HandicapType>
+			<GoodyType>GOODY_PANTHEON_FAITH</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_EMPEROR</HandicapType>
+			<GoodyType>GOODY_PROPHET_FAITH</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_EMPEROR</HandicapType>
 			<GoodyType>GOODY_GOLD</GoodyType>
 		</Row>
 		<Row>
@@ -742,6 +859,14 @@
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
+			<GoodyType>GOODY_PANTHEON_FAITH</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
+			<GoodyType>GOODY_PROPHET_FAITH</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
 			<GoodyType>GOODY_GOLD</GoodyType>
 		</Row>
 		<Row>
@@ -770,6 +895,14 @@
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_DEITY</HandicapType>
+			<GoodyType>GOODY_PANTHEON_FAITH</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_DEITY</HandicapType>
+			<GoodyType>GOODY_PROPHET_FAITH</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_DEITY</HandicapType>
 			<GoodyType>GOODY_GOLD</GoodyType>
 		</Row>
 		<Row>
@@ -786,6 +919,42 @@
 		</Row>
 		<Row>
 			<HandicapType>HANDICAP_DEITY</HandicapType>
+			<GoodyType>GOODY_UPGRADE_UNIT</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_AI_DEFAULT</HandicapType>
+			<GoodyType>GOODY_POPULATION</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_AI_DEFAULT</HandicapType>
+			<GoodyType>GOODY_CULTURE</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_AI_DEFAULT</HandicapType>
+			<GoodyType>GOODY_PANTHEON_FAITH</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_AI_DEFAULT</HandicapType>
+			<GoodyType>GOODY_PROPHET_FAITH</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_AI_DEFAULT</HandicapType>
+			<GoodyType>GOODY_GOLD</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_AI_DEFAULT</HandicapType>
+			<GoodyType>GOODY_MAP</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_AI_DEFAULT</HandicapType>
+			<GoodyType>GOODY_TECH</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_AI_DEFAULT</HandicapType>
+			<GoodyType>GOODY_REVEAL_NEARBY_BARBS</GoodyType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_AI_DEFAULT</HandicapType>
 			<GoodyType>GOODY_UPGRADE_UNIT</GoodyType>
 		</Row>
 	</HandicapInfo_Goodies>
