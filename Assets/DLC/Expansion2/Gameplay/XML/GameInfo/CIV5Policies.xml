@@ -448,7 +448,6 @@
 			<GridX>3</GridX>
 			<GridY>1</GridY>
 			<GarrisonedCityRangeStrikeModifier>50</GarrisonedCityRangeStrikeModifier>
-			<GarrisonFreeMaintenance>false</GarrisonFreeMaintenance>
 			<PortraitIndex>56</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -516,8 +515,8 @@
 			<PolicyBranchType>POLICY_BRANCH_HONOR</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
-			<GridX>2</GridX>
-			<GridY>1</GridY>
+			<GridX>4</GridX>
+			<GridY>3</GridY>
 			<GreatGeneralRateModifier>50</GreatGeneralRateModifier>
 			<PortraitIndex>19</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
@@ -530,8 +529,10 @@
 			<Help>TXT_KEY_POLICY_DISCIPLINE_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_HONOR</PolicyBranchType>
 			<CultureCost>10</CultureCost>
+			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
 			<GridX>4</GridX>
 			<GridY>1</GridY>
+			<GreatGeneralRateModifier>50</GreatGeneralRateModifier>
 			<PortraitIndex>20</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -544,7 +545,7 @@
 			<PolicyBranchType>POLICY_BRANCH_HONOR</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<GridX>2</GridX>
-			<GridY>2</GridY>
+			<GridY>1</GridY>
 			<ExpModifier>50</ExpModifier>
 			<PortraitIndex>21</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
@@ -557,10 +558,11 @@
 			<Help>TXT_KEY_POLICY_MILITARY_CASTE_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_HONOR</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<GridX>4</GridX>
+			<GridX>2</GridX>
 			<GridY>2</GridY>
 			<HappinessPerGarrisonedUnit>1</HappinessPerGarrisonedUnit>
 			<CulturePerGarrisonedUnit>2</CulturePerGarrisonedUnit>
+			<GarrisonFreeMaintenance>true</GarrisonFreeMaintenance>
 			<PortraitIndex>22</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -573,7 +575,7 @@
 			<PolicyBranchType>POLICY_BRANCH_HONOR</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<GridX>4</GridX>
-			<GridY>3</GridY>
+			<GridY>2</GridY>
 			<UnitUpgradeCostMod>-33</UnitUpgradeCostMod>
 			<PortraitIndex>23</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
@@ -2504,7 +2506,12 @@
 		<Row>
 			<PolicyType>POLICY_LIBERTY</PolicyType>
 			<FlavorType>FLAVOR_EXPANSION</FlavorType>
-			<Flavor>20</Flavor>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LIBERTY</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_COLLECTIVE_RULE</PolicyType>
@@ -2537,9 +2544,19 @@
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
+			<PolicyType>POLICY_REPRESENTATION</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
 			<PolicyType>POLICY_MERITOCRACY</PolicyType>
 			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
 			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MERITOCRACY</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_MERITOCRACY</PolicyType>
@@ -2569,11 +2586,6 @@
 		<Row>
 			<PolicyType>POLICY_OLIGARCHY</PolicyType>
 			<FlavorType>FLAVOR_DEFENSE</FlavorType>
-			<Flavor>10</Flavor>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_OLIGARCHY</PolicyType>
-			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
@@ -2614,10 +2626,10 @@
 		<Row>
 			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
 			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
-			<Flavor>10</Flavor>
+			<Flavor>15</Flavor>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
@@ -2654,6 +2666,11 @@
 		<Row>
 			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
@@ -3444,16 +3461,16 @@
 			<PrereqPolicy>POLICY_LEGALISM</PrereqPolicy>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_MILITARY_TRADITION</PolicyType>
-			<PrereqPolicy>POLICY_WARRIOR_CODE</PrereqPolicy>
-		</Row>
-		<Row>
 			<PolicyType>POLICY_MILITARY_CASTE</PolicyType>
-			<PrereqPolicy>POLICY_DISCIPLINE</PrereqPolicy>
+			<PrereqPolicy>POLICY_MILITARY_TRADITION</PrereqPolicy>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
-			<PrereqPolicy>POLICY_MILITARY_CASTE</PrereqPolicy>
+			<PrereqPolicy>POLICY_DISCIPLINE</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<PrereqPolicy>POLICY_PROFESSIONAL_ARMY</PrereqPolicy>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_THEOCRACY</PolicyType>
@@ -3574,12 +3591,77 @@
 		<Row>
 			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
 			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-			<ProductionModifier>15</ProductionModifier>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
+			<ProductionModifier>10</ProductionModifier>
 		</Row>
 	</Policy_UnitCombatProductionModifiers>
 	<Policy_FreeUnitClasses>
 		<Row>
-			<PolicyType>POLICY_WARRIOR_CODE</PolicyType>
+			<PolicyType>POLICY_DISCIPLINE</PolicyType>
 			<UnitClassType>UNITCLASS_GREAT_GENERAL</UnitClassType>
 			<Count>1</Count>
 		</Row>
