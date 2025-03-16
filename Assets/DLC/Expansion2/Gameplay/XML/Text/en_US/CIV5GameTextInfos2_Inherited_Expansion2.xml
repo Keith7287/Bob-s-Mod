@@ -342,7 +342,7 @@
 			<Text>A fast Ranged Unit highly effective on flat ground.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_HELP_EGYPTIAN_WAR_CHARIOT">
-			<Text>A fast Ranged Unit. Only the Egyptians may build it. This Unit does not require [ICON_RES_HORSE] Horses to be built, unlike the Chariot Archer which it replaces.</Text>
+			<Text>A fast Ranged Unit. Only the Egyptians may build it. This Unit requires [ICON_RES_HORSE] Horses to be built, and replaces the Chariot Archer.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_UNIT_CROSSBOWMAN_STRATEGY">
 			<Text>The Crossbowman is more powerful than the Composite Bowman. As a Ranged unit it can deal significant damage to other Medieval Era units up to two hexes away, but it is vulnerable to melee attack. Put Crossbowmen in your city for defense, and guard them with melee units when on the move.</Text>
@@ -1681,4 +1681,6 @@
 </GameData>
 _en_US>
 </GameData>
+ameData>
+ameData>
 ameData>

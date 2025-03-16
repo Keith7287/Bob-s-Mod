@@ -2516,7 +2516,7 @@
 			<DefaultUnitAI>UNITAI_RANGED</DefaultUnitAI>
 			<Description>TXT_KEY_UNIT_EGYPT_WARCHARIOT</Description>
 			<Civilopedia>TXT_KEY_CIV5_ANTIQUITY_WARCHARIOT_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_EGYPTIAN_WARCHARIOT_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_UNIT_EGYPTIAN_WARCHARIOfT_STRATEGY</Strategy>
 			<Help>TXT_KEY_UNIT_HELP_EGYPTIAN_WAR_CHARIOT</Help>
 			<MilitarySupport>true</MilitarySupport>
 			<MilitaryProduction>true</MilitaryProduction>
@@ -5890,6 +5890,10 @@
 		</Row>
 		<Row>
 			<UnitType>UNIT_LANCER</UnitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_EGYPTIAN_WARCHARIOT</UnitType>
 			<ResourceType>RESOURCE_HORSE</ResourceType>
 		</Row>
 		<Row>
