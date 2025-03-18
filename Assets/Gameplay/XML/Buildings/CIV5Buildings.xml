@@ -2246,10 +2246,12 @@
 			<Civilopedia>TXT_KEY_BUILDING_SYDNEY_OPERA_HOUSE_PEDIA</Civilopedia>
 			<ArtDefineTag>SYDNEY OPERA HOUSE</ArtDefineTag>
 			<Quote>TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_QUOTE</Quote>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<Water>true</Water>
 			<HurryCostModifier>-1</HurryCostModifier>
-			<CultureRateModifier>50</CultureRateModifier>
+			<GlobalCultureRateModifier>50</GlobalCultureRateModifier>
 			<MinAreaSize>10</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<FreePolicies>1</FreePolicies>

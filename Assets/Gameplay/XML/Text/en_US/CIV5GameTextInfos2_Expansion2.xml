@@ -598,7 +598,7 @@
 		</Row>
 		<!-- WONDERS HELP -->
 		<Row Tag="TXT_KEY_WONDER_BOROBUDUR_HELP">
-			<Text>Must be built in a Holy City. 3 free Missionaries appear.</Text>
+			<Text>Free Garden in city and must be built in a Holy City. 3 free Missionaries appear and 1 Great Engineer point.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_COLOSSUS_HELP">
 			<Text>Gains an additional trade route slot and a Cargo Ship appears in the city. Trade routes other players make to a city with the Colossus will generate an extra 2 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route.  City must be built on the coast.</Text>
@@ -616,7 +616,7 @@
 			<Text>+1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production for all desert tiles worked by this city (except Flood Plains). Gains an additional trade route slot and a Caravan appears in the city. +6 [ICON_CULTURE] Culture once Archaeology is discovered. City must be built on or next to Desert. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_PRORA_RESORT_HELP">
-			<Text>Requires Autocracy. In addition to the +2 [ICON_HAPPINESS_1] Happiness, the Prora Resort also provides +1 more [ICON_HAPPINESS_1] Happiness for every 2 Policies you have adopted. 1 Free Social Policy. Must be constructed in a coastal city.</Text>
+			<Text>Requires Autocracy. In addition to the +2 [ICON_HAPPINESS_1] Happiness, the Prora Resort also provides +1 more [ICON_HAPPINESS_1] Happiness for every 2 Policies you have adopted. 1 Free Social Policy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_STATUE_OF_LIBERTY_HELP">
 			<Text>Requires Freedom. +1 [ICON_PRODUCTION] Production from Specialists in every city. 1 Free Social Policy.</Text>
@@ -711,6 +711,9 @@
 		<Row Tag="TXT_KEY_THEMING_BONUS_UFFIZI">
 			<Text>Museum of {1_Era} {2_CivAdjective} Art</Text>
 		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_PARTHENON">
+			<Text>Art dedicated to the goddess Athena</Text>
+		</Row>
 		<Row Tag="TXT_KEY_THEMING_BONUS_GLOBE_THEATER">
 			<Text>Theater of {1_Era} {2_CivAdjective} Literature</Text>
 		</Row>
@@ -726,5 +729,8 @@
 		<Row Tag="TXT_KEY_LEGAL_BODY">
 			<Text>© 1991-2013 Take-Two Interactive Software and its subsidiaries.  Developed by Firaxis Games.  Sid Meier's Civilization V, Civ, Civilization, 2K Games, Firaxis Games, Take-Two Interactive Software and their respective logos are all trademarks of Take-Two interactive Software, Inc.  Fork Copyright © 2010 Fork Particle, Inc. Rapid XML Copyright © 2006-2010 Marcin Kalicinski. Lua Copyright © 1994-2010 Lua.org, PUC-Rio. Uses Granny Animation. Copyright © 1999-2010 by RAD Game Tools, Inc. Uses Miles Sound System. Copyright © 1991-2010 by RAD Game Tools, Inc. The ratings icon is a trademark of the Entertainment Software Association.  All other marks and trademarks are the property of their respective owners.  All rights reserved.  The content of this videogame is fictional and is not intended to represent or depict an actual record of the events, persons or entities in the game's historical setting.</Text>
 		</Row>
+	</Language_en_US>
+</GameData>
+Row>
 	</Language_en_US>
 </GameData>

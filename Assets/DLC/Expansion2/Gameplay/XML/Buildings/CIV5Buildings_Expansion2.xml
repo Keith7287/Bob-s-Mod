@@ -282,6 +282,8 @@
 			<Help>TXT_KEY_WONDER_UFFIZI_HELP</Help>
 			<ThemingBonusHelp>TXT_KEY_UFFIZI_THEMING_BONUS_HELP</ThemingBonusHelp>
 			<ArtDefineTag>ART_DEF_BUILDING_UFFIZI</ArtDefineTag>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -306,6 +308,8 @@
 			<ThemingBonusHelp>TXT_KEY_GLOBE_THEATER_THEMING_BONUS_HELP</ThemingBonusHelp>
 			<ArtDefineTag>ART_DEF_BUILDING_GLOBE_THEATER</ArtDefineTag>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -329,6 +333,8 @@
 			<Help>TXT_KEY_WONDER_BROADWAY_HELP</Help>
 			<ThemingBonusHelp>TXT_KEY_BROADWAY_THEMING_BONUS_HELP</ThemingBonusHelp>
 			<ArtDefineTag>ART_DEF_BUILDING_BROADWAY</ArtDefineTag>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -398,7 +404,6 @@
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PRORA_RESORT_TEXT</Civilopedia>
 			<Help>TXT_KEY_WONDER_PRORA_RESORT_HELP</Help>
 			<ArtDefineTag>ART_DEF_BUILDING_PRORA</ArtDefineTag>
-			<Water>true</Water>
 			<HappinessPerXPolicies>2</HappinessPerXPolicies>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -423,12 +428,15 @@
 			<Help>TXT_KEY_WONDER_BOROBUDUR_HELP</Help>
 			<ArtDefineTag>ART_DEF_BUILDING_BOROBUDUR</ArtDefineTag>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<DisplayPosition>4</DisplayPosition>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<HolyCity>true</HolyCity>
 			<ConquestProb>100</ConquestProb>
+			<FreeBuildingThisCity>BUILDINGCLASS_GARDEN</FreeBuildingThisCity>
 			<IconAtlas>EXPANSION2_WONDER_ATLAS</IconAtlas>
 			<PortraitIndex>5</PortraitIndex>
 			<WonderSplashImage>WonderConceptBorobudur.dds</WonderSplashImage>
@@ -443,15 +451,18 @@
 			<Quote>TXT_KEY_BUILDING_PARTHENON_QUOTE</Quote>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PARTHENON_TEXT</Civilopedia>
 			<Help>TXT_KEY_WONDER_PARTHENON_HELP</Help>
+			<ThemingBonusHelp>TXT_KEY_PARTHENON_THEMING_BONUS_HELP</ThemingBonusHelp>
 			<ArtDefineTag>ART_DEF_BUILDING_PARTHENON</ArtDefineTag>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<DisplayPosition>2</DisplayPosition>
 			<ConquestProb>100</ConquestProb>
 			<GreatWorkSlotType>GREAT_WORK_SLOT_ART_ARTIFACT</GreatWorkSlotType>
-			<GreatWorkCount>1</GreatWorkCount>
+			<GreatWorkCount>2</GreatWorkCount>
 			<FreeGreatWork>GREAT_WORK_PARTHENON_FRIEZE</FreeGreatWork>
 			<IconAtlas>EXPANSION2_WONDER_ATLAS</IconAtlas>
 			<PortraitIndex>10</PortraitIndex>
@@ -860,6 +871,15 @@
 			<BuildingType>BUILDING_UFFIZI</BuildingType>
 			<Description>TXT_KEY_THEMING_BONUS_UFFIZI</Description>
 			<Bonus>3</Bonus>
+			<SameEra>true</SameEra>
+			<MustBeArt>true</MustBeArt>
+			<RequiresSamePlayer>true</RequiresSamePlayer>
+			<AIPriority>6</AIPriority>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_PARTHENON</BuildingType>
+			<Description>TXT_KEY_THEMING_BONUS_PARTHENON</Description>
+			<Bonus>1</Bonus>
 			<SameEra>true</SameEra>
 			<MustBeArt>true</MustBeArt>
 			<RequiresSamePlayer>true</RequiresSamePlayer>

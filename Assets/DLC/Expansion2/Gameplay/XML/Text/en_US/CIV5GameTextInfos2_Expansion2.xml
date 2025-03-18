@@ -598,7 +598,7 @@
 		</Row>
 		<!-- WONDERS HELP -->
 		<Row Tag="TXT_KEY_WONDER_BOROBUDUR_HELP">
-			<Text>Must be built in a Holy City. 3 free Missionaries appear.</Text>
+			<Text>Free Garden in city and must be built in a Holy City. 3 free Missionaries appear and 1 Great Engineer point.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_COLOSSUS_HELP">
 			<Text>Gains an additional trade route slot and a Cargo Ship appears in the city. Trade routes other players make to a city with the Colossus will generate an extra 2 [ICON_GOLD] Gold for the city owner and the trade route owner gains an additional 1 [ICON_GOLD] Gold for the trade route.  City must be built on the coast.</Text>
@@ -616,7 +616,7 @@
 			<Text>+1 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production for all desert tiles worked by this city (except Flood Plains). Gains an additional trade route slot and a Caravan appears in the city. +6 [ICON_CULTURE] Culture once Archaeology is discovered. City must be built on or next to Desert. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_PRORA_RESORT_HELP">
-			<Text>Requires Autocracy. In addition to the +2 [ICON_HAPPINESS_1] Happiness, the Prora Resort also provides +1 more [ICON_HAPPINESS_1] Happiness for every 2 Policies you have adopted. 1 Free Social Policy. Must be constructed in a coastal city.</Text>
+			<Text>Requires Autocracy. In addition to the +2 [ICON_HAPPINESS_1] Happiness, the Prora Resort also provides +1 more [ICON_HAPPINESS_1] Happiness for every 2 Policies you have adopted. 1 Free Social Policy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_STATUE_OF_LIBERTY_HELP">
 			<Text>Requires Freedom. +1 [ICON_PRODUCTION] Production from Specialists in every city. 1 Free Social Policy.</Text>
@@ -665,6 +665,10 @@
 		</Row>
 		<Row Tag="TXT_KEY_BROADWAY_THEMING_BONUS_HELP">
 			<Text>To maximize your bonus, make sure the Great Work Slots are all filled with Music from the same Era and Civilization.</Text>
+		</Row>
+		</Row>
+		<Row Tag="TXT_KEY_PARTHENON_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure the Great Work Slots are all filled with Art from the same Era and Civilization.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_GREAT_LIBRARY_THEMING_BONUS_HELP">
 			<Text>To maximize your bonus, make sure the Great Work Slots are all filled with Writings from different Eras and different Civilizations.</Text>

@@ -1962,6 +1962,8 @@
 			<Quote>TXT_KEY_WONDER_SISTINECHAPEL_QUOTE</Quote>
 			<ArtDefineTag>SISTINE CHAPEL</ArtDefineTag>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -2082,6 +2084,8 @@
 			<Civilopedia>TXT_KEY_WONDER_LOUVRE_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_LOUVRE_QUOTE</Quote>
 			<ArtDefineTag>LOUVRE</ArtDefineTag>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<GreatPeopleRateChange>2</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -2154,6 +2158,7 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
+			<FreePolicies>1</FreePolicies>
 			<PolicyCostModifier>-10</PolicyCostModifier>
 			<DisplayPosition>4</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
@@ -2245,10 +2250,12 @@
 			<Civilopedia>TXT_KEY_BUILDING_SYDNEY_OPERA_HOUSE_PEDIA</Civilopedia>
 			<ArtDefineTag>SYDNEY OPERA HOUSE</ArtDefineTag>
 			<Quote>TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_QUOTE</Quote>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<Water>true</Water>
 			<HurryCostModifier>-1</HurryCostModifier>
-			<CultureRateModifier>50</CultureRateModifier>
+			<GlobalCultureRateModifier>50</GlobalCultureRateModifier>
 			<MinAreaSize>10</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<FreePolicies>1</FreePolicies>
@@ -2462,6 +2469,11 @@
 			<BuildingType>BUILDING_LOUVRE</BuildingType>
 			<UnitType>UNIT_ARTIST</UnitType>
 			<NumUnits>1</NumUnits>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LOUVRE</BuildingType>
+			<UnitType>UNIT_ARCHAEOLOGIST</UnitType>
+			<NumUnits>2</NumUnits>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PYRAMID</BuildingType>
@@ -4588,7 +4600,7 @@
 		<Row>
 			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>3</Yield>
+			<Yield>5</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>

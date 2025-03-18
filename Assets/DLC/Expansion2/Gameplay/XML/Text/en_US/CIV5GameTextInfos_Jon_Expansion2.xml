@@ -76,6 +76,12 @@
 		<Row Tag="TXT_KEY_POLICY_FINE_ARTS">
 			<Text>Fine Arts</Text>
 		</Row>
+		<Row Tag="TXT_KEY_THEMING_BONUS_PARTHENON">
+			<Text>Art dedicated to the goddess Athena</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PARTHENON_THEMING_BONUS_HELP">
+			<Text>To maximize your bonus, make sure the Great Work Slots are all filled with Art from the same Era and Civilization.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_POLICY_FINE_ARTS_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Fine Arts[ENDCOLOR][NEWLINE]50% of excess [ICON_HAPPINESS_1] Happiness added each turn to the amount of [ICON_CULTURE] Culture that may be spent on Social Policies.</Text>
 		</Row>
@@ -777,7 +783,7 @@
 			<Text>1 Free Technology. Provides a free Library in the city in which it is built.  Contains 2 slots for Great Works of Writing.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_LOUVRE_HELP">
-			<Text>Requires Exploration. 1 free Great Artist appears near the City where the Wonder was built. Contains 4 slots for Great Works of Art.</Text>
+			<Text>Requires Exploration. 1 free Great Artist and 2 free Archaeologists appears near the City where the Wonder was built. Contains 4 slots for Great Works of Art.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_UFFIZI_HELP">
 			<Text>Requires Aesthetics. 1 free Great Artist appears near the City where the Wonder was built. Contains 3 slots for Great Works of Art.</Text>
@@ -786,13 +792,13 @@
 			<Text>1 free Great Writer appears near the City where the Wonder was built. Contains 2 slots for Great Works of Writing.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_BROADWAY_HELP">
-			<Text>1 free Great Musician appears near the City where the Wonder was built. Contains 3 slots for Great Works of Music.</Text>
+			<Text>+3 Great Person Points towards a Great Musician. 1 free Great Musician appears near the City where the Wonder was built. Contains 3 slots for Great Works of Music.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_SISTINE_CHAPEL_HELP">
 			<Text>+25% [ICON_CULTURE] Culture in all Cities. Contains 2 slots for Great Works of Art.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP">
-			<Text>1 Free Social Policy and +50% [ICON_CULTURE] Culture in this city.  Contains 2 slots for Great Works of Music. Must be constructed in a coastal city.</Text>
+			<Text>1 Free Social Policy and +50% [ICON_CULTURE] Culture in all cities.  Contains 2 slots for Great Works of Music. Must be constructed in a coastal city.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_WONDER_UNITED_NATIONS_HELP">
 			<Text>The World Congress becomes the UN, and begins the voting for Diplomatic Victory.  Possession of the UN gives the owner 3 additional Delegates.</Text>
@@ -955,6 +961,16 @@
 		</Row>
 		<Row Tag="TXT_KEY_MISC_DISCOVERED_HIDDEN_ARTIFACTS_NEAR">
 			<Text>You have discovered a [COLOR_HIGHLIGHT_TEXT]Hidden Antiquity Site[ENDCOLOR] near {@1_CityName}!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
+tiquity Site[ENDCOLOR] near {@1_CityName}!</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
+S>
+</GameData>
+ear {@1_CityName}!</Text>
 		</Row>
 	</Language_en_US>
 </GameData>

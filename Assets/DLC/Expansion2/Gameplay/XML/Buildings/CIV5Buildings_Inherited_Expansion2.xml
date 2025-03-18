@@ -196,8 +196,8 @@
 			<Civilopedia>TXT_KEY_WONDER_CN_TOWER_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_CN_TOWER_QUOTE</Quote>
 			<ArtDefineTag>CN TOWER</ArtDefineTag>
-			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-			<GreatPeopleRateChange>1</GreatPeopleRateChange>
+			<SpecialistType>SPECIALIST_MUSICIAN</SpecialistType>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>
 			<FreeBuilding>BUILDINGCLASS_BROADCAST_TOWER</FreeBuilding>
 			<HappinessPerCity>1</HappinessPerCity>
 			<GlobalPopulationChange>1</GlobalPopulationChange>
@@ -222,8 +222,7 @@
 			<Quote>TXT_KEY_WONDER_HUBBLE_QUOTE</Quote>
 			<ArtDefineTag>HUBBLE</ArtDefineTag>
 			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-			<GreatPeopleRateChange>1</GreatPeopleRateChange>
-			<GlobalSpaceProductionModifier>25</GlobalSpaceProductionModifier>
+			<GreatPeopleRateChange>3</GreatPeopleRateChange>
 			<FreeBuildingThisCity>BUILDINGCLASS_SPACESHIP_FACTORY</FreeBuildingThisCity>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -1049,6 +1048,10 @@
 			<BuildingType>BUILDING_TERRACOTTA_ARMY</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+</GameData>
+		<Yield>1</Yield>
 		</Row>
 	</Building_YieldChanges>
 </GameData>
