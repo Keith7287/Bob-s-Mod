@@ -1638,7 +1638,7 @@
 			<Quote>TXT_KEY_WONDER_GREATLIBRARY_QUOTE</Quote>
 			<ArtDefineTag>THE GREAT LIBRARY</ArtDefineTag>
 			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
-			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
 			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -4904,3 +4904,4 @@
 	<!-- Remove UN Wonder-->
 	<DeleteMissingReferences table="Buildings" column="Type"/>
 </GameData>
+>
