@@ -2478,6 +2478,12 @@ bool CvCity::canConstruct(BuildingTypes eBuilding, bool bContinue, bool bTestVis
 		return false;
 	}
 
+	// Check if the building has a required feature (e.g., Angkor Wat needs jungle)
+	if (!IsFeatureValidForBuilding(eBuilding))
+	{
+    return false;
+	}
+
 	// Local Resource requirements met?
 	if(!IsBuildingLocalResourceValid(eBuilding, bTestVisible, toolTipSink))
 	{
@@ -14146,6 +14152,36 @@ bool CvCity::isValidBuildingLocation(BuildingTypes eBuilding) const
 }
 
 
+//	--------------------------------------------------------------------------------
+bool CvCity::IsFeatureValidForBuilding(BuildingTypes eBuilding) const
+{
+    // Retrieve the ID for Angkor Wat dynamically
+    static BuildingTypes eAngkorWat = static_cast<BuildingTypes>(GC.getInfoTypeForString("BUILDING_ANGKOR_WAT", true));
+
+    // Check if the building being constructed is Angkor Wat
+    if (eBuilding == eAngkorWat)
+    {
+        int iRange = 1; // Define the range to check around the city
+        for (int iDX = -iRange; iDX <= iRange; iDX++)
+        {
+            for (int iDY = -iRange; iDY <= iRange; iDY++)
+            {
+                CvPlot* pLoopPlot = plotXYWithRangeCheck(getX(), getY(), iDX, iDY, iRange);
+                if (pLoopPlot != NULL)
+                {
+                    // Check if there is a jungle feature around the city
+                    if (pLoopPlot->getFeatureType() == FEATURE_JUNGLE)
+                    {
+                        return true; // City qualifies
+                    }
+                }
+            }
+        }
+        return false; // No jungle found
+    }
+
+    return true; // If it's not Angkor Wat, allow construction
+}
 // CACHE: cache frequently used values
 ///////////////////////////////////////
 
