@@ -1505,13 +1505,17 @@
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_EAST_INDIA_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_EAST_INDIA_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_TREASURY</ArtDefineTag>
+			<EnhancedYieldTech>TECH_ECONOMICS</EnhancedYieldTech>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
 			<NukeImmune>true</NukeImmune>
 			<NumCityCostMod>30</NumCityCostMod>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
-			<TradeRouteRecipientBonus>4</TradeRouteRecipientBonus>
-			<TradeRouteTargetBonus>2</TradeRouteTargetBonus>
 			<NeverCapture>true</NeverCapture>
+			<TradeRouteSeaDistanceModifier>50</TradeRouteSeaDistanceModifier>
+			<TradeRouteSeaGoldBonus>200</TradeRouteSeaGoldBonus>
+			<TradeRouteLandDistanceModifier>50</TradeRouteLandDistanceModifier>
+			<TradeRouteLandGoldBonus>200</TradeRouteLandGoldBonus>
 			<IconAtlas>EXPANSION2_WONDER_ATLAS</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
@@ -2415,7 +2419,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HERMITAGE</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
@@ -3892,6 +3896,13 @@
 			<Flavor>5</Flavor>
 		</Row>
 	</Building_Flavors>
+	<Building_TechEnhancedYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
+	</Building_TechEnhancedYieldChanges>
 	<Building_HurryModifiers>
 		<Row>
 			<BuildingType>BUILDING_BIG_BEN</BuildingType>
@@ -3985,7 +3996,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HERMITAGE</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
 			<NumBuildingNeeded>-1</NumBuildingNeeded>
 		</Row>
 	</Building_PrereqBuildingClasses>
@@ -4622,6 +4633,11 @@
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>3</Yield>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>4</Yield>
+		</Row>
 	</Building_YieldChanges>
 	<Building_ThemingBonuses>
 		<Row>
@@ -4914,6 +4930,11 @@
 			<Yield>50</Yield>
 		</Row>
 	</Building_YieldModifiers>
+	<!-- Remove UN Wonder-->
+	<DeleteMissingReferences table="Buildings" column="Type"/>
+</GameData>
+>
+fiers>
 	<!-- Remove UN Wonder-->
 	<DeleteMissingReferences table="Buildings" column="Type"/>
 </GameData>

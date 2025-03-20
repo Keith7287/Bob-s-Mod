@@ -529,7 +529,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_INTELLIGENCE_AGENCY</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_POLICE_STATION</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_CONSTABLE</BuildingClassType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GRAND_TEMPLE</BuildingType>
@@ -882,6 +882,11 @@
 			<UnitType>UNIT_CARAVAN</UnitType>
 			<NumUnits>1</NumUnits>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_GRAND_TEMPLE</BuildingType>
+			<UnitType>UNIT_MISSIONARY</UnitType>
+			<NumUnits>2</NumUnits>
+		</Row>
 	</Building_FreeUnits>
 	<Building_TerrainYieldChanges>
 		<Delete BuildingType="BUILDING_PETRA"/>
@@ -911,7 +916,7 @@
 		<Delete BuildingType="BUILDING_GRAND_TEMPLE"/>
 		<Row>
 			<BuildingType>BUILDING_INTELLIGENCE_AGENCY</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_POLICE_STATION</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_CONSTABLE</BuildingClassType>
 			<NumBuildingNeeded>-1</NumBuildingNeeded>
 		</Row>
 		<Row>
