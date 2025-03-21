@@ -221,6 +221,7 @@ public:
 	int conscriptMinCityPopulation() const;
 	bool canConscript() const;
 	void conscript();
+	void ApplyHeroicEpicPromotion(CvUnit* pUnit) const;
 
 	int getResourceYieldRateModifier(YieldTypes eIndex, ResourceTypes eResource) const;
 

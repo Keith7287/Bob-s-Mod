@@ -12042,6 +12042,9 @@ int CvCity::CreateUnit(UnitTypes eUnitType, UnitAITypes eAIType, bool bUseToSati
 
 	addProductionExperience(pUnit);
 
+	//  Apply Heroic Epic Promotion here! 
+    ApplyHeroicEpicPromotion(pUnit);
+
 	CvPlot* pRallyPlot = getRallyPlot();
 	if(pRallyPlot != NULL)
 	{
@@ -12132,6 +12135,49 @@ bool CvCity::CreateBuilding(BuildingTypes eBuildingType)
 	}
 
 	m_pCityBuildings->SetNumRealBuilding(eBuildingType, m_pCityBuildings->GetNumRealBuilding(eBuildingType) + 1);
+
+	// Ensure Heroic Epic Promotion is Applied
+    static BuildingTypes eHeroicEpic = static_cast<BuildingTypes>(GC.getInfoTypeForString("BUILDING_HEROIC_EPIC", true));
+
+    if (eBuildingType == eHeroicEpic)
+    {
+        // Apply to all adjacent military units
+        int iRange = 1; // Check adjacent tiles
+        for (int iDX = -iRange; iDX <= iRange; iDX++)
+        {
+            for (int iDY = -iRange; iDY <= iRange; iDY++)
+            {
+                CvPlot* pLoopPlot = plotXYWithRangeCheck(getX(), getY(), iDX, iDY, iRange);
+                if (pLoopPlot != NULL)
+                {
+                    for (int i = 0; i < pLoopPlot->getNumUnits(); i++)
+                    {
+                        CvUnit* pAdjacentUnit = pLoopPlot->getUnitByIndex(i);
+                        if (pAdjacentUnit != NULL && pAdjacentUnit->getOwner() == getOwner() && pAdjacentUnit->IsCombatUnit())
+                        {
+                            ApplyHeroicEpicPromotion(pAdjacentUnit);
+
+							// Force an update so promotion is applied immediately
+                            pAdjacentUnit->setMoves(pAdjacentUnit->maxMoves());  
+                            pAdjacentUnit->finishMoves();
+
+                        }
+                    }
+                }
+            }
+        }
+
+        // Apply to the city's garrisoned unit, if any
+        CvUnit* pGarrison = GetGarrisonedUnit();
+        if (pGarrison != NULL && pGarrison->IsCombatUnit())
+        {
+            ApplyHeroicEpicPromotion(pGarrison);
+
+            // Force an update for the garrisoned unit
+            pGarrison->setMoves(pGarrison->maxMoves());
+            pGarrison->finishMoves();
+        }
+    }
 
 	//Achievements
 	if(kPlayer.isHuman() && !GC.getGame().isGameMultiPlayer())
@@ -14182,6 +14228,73 @@ bool CvCity::IsFeatureValidForBuilding(BuildingTypes eBuilding) const
 
     return true; // If it's not Angkor Wat, allow construction
 }
+
+//	--------------------------------------------------------------------------------
+void CvCity::ApplyHeroicEpicPromotion(CvUnit* pUnit) const
+{
+    if (!pUnit) return;
+
+    // Retrieve the ID for Heroic Epic dynamically
+    static BuildingTypes eHeroicEpic = static_cast<BuildingTypes>(GC.getInfoTypeForString("BUILDING_HEROIC_EPIC", true));
+
+    // Retrieve the promotion ID dynamically
+    static PromotionTypes eHeroicEpicPromotion = static_cast<PromotionTypes>(GC.getInfoTypeForString("PROMOTION_MORALE", true)); 
+
+    // Ensure the unit is a combat unit (not a civilian like a worker or settler)
+    if (!pUnit->IsCombatUnit()) 
+    {
+        return;
+    }
+
+    // Check if the city has Heroic Epic
+    if (m_pCityBuildings->GetNumRealBuilding(eHeroicEpic) > 0)
+    {
+        // Apply to the unit being trained
+        if (!pUnit->isHasPromotion(eHeroicEpicPromotion))
+        {
+            pUnit->setHasPromotion(eHeroicEpicPromotion, true);
+        }
+
+        // Apply to adjacent military units
+        int iRange = 1; // Check adjacent tiles
+        for (int iDX = -iRange; iDX <= iRange; iDX++)
+        {
+            for (int iDY = -iRange; iDY <= iRange; iDY++)
+            {
+                CvPlot* pLoopPlot = plotXYWithRangeCheck(getX(), getY(), iDX, iDY, iRange);
+                if (pLoopPlot != NULL)
+                {
+                    for (int i = 0; i < pLoopPlot->getNumUnits(); i++)
+                    {
+                        CvUnit* pAdjacentUnit = pLoopPlot->getUnitByIndex(i);
+                        if (pAdjacentUnit != NULL && pAdjacentUnit->getOwner() == getOwner())
+                        {
+                            // Ensure only military units get the promotion
+                            if (pAdjacentUnit->IsCombatUnit() && !pAdjacentUnit->isHasPromotion(eHeroicEpicPromotion))
+                            {
+                                pAdjacentUnit->setHasPromotion(eHeroicEpicPromotion, true);
+
+								 // Force an update so the promotion applies immediately!
+								pUnit->setMoves(pUnit->maxMoves());  
+								pUnit->finishMoves();
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // Apply to the city's garrisoned unit, if any (without recursion)
+        CvUnit* pGarrison = GetGarrisonedUnit();
+        if (pGarrison != NULL && pGarrison->IsCombatUnit() && !pGarrison->isHasPromotion(eHeroicEpicPromotion))
+        {
+            pGarrison->setHasPromotion(eHeroicEpicPromotion, true);
+        }
+    }
+}
+//	--------------------------------------------------------------------------------
+
 // CACHE: cache frequently used values
 ///////////////////////////////////////
 

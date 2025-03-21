@@ -1426,7 +1426,6 @@
 			<Civilopedia>TXT_KEY_BUILDING_HEROIC_EPIC_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_HEROIC_EPIC_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_HEROIC_EPIC</ArtDefineTag>
-			<TrainedFreePromotion>PROMOTION_MORALE</TrainedFreePromotion>
 			<NukeImmune>true</NukeImmune>
 			<NumCityCostMod>30</NumCityCostMod>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -4937,5 +4936,8 @@
 fiers>
 	<!-- Remove UN Wonder-->
 	<DeleteMissingReferences table="Buildings" column="Type"/>
+</GameData>
+>
+singReferences table="Buildings" column="Type"/>
 </GameData>
 >

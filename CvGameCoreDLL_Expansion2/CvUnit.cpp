@@ -13149,6 +13149,23 @@ void CvUnit::setXY(int iX, int iY, bool bGroup, bool bUpdate, bool bShow, bool b
 
 	CvAssertMsg(plot() == pNewPlot, "plot is expected to equal pNewPlot");
 
+	// Check if the unit is adjacent to a city with Heroic Epic
+    for (int iDX = -1; iDX <= 1; iDX++)
+    {
+        for (int iDY = -1; iDY <= 1; iDY++)
+        {
+            CvPlot* pAdjacentPlot = plotXYWithRangeCheck(getX(), getY(), iDX, iDY, 1);
+            if (pAdjacentPlot && pAdjacentPlot->isCity())
+            {
+                CvCity* pAdjacentCity = pAdjacentPlot->getPlotCity();
+                if (pAdjacentCity && pAdjacentCity->getOwner() == getOwner())
+                {
+                    pAdjacentCity->ApplyHeroicEpicPromotion(this); // Apply promotion instantly on move
+                }
+            }
+        }
+    }
+
 	if(pNewPlot != NULL)
 	{
 		//update facing direction
