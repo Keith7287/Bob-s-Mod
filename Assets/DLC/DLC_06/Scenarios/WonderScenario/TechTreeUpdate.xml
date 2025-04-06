@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<!-- Created by ModBuddy on 11/16/2010 1:15:41 PM -->
+<GameData>
+	<Defines>
+		<Update>
+			<Where Name="SCORE_WONDER_MULTIPLIER"/>
+			<Set>
+				<Value>500</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where Name="SCORE_FUTURE_TECH_MULTIPLIER"/>
+			<Set>
+				<Value>250</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where Name="POLICY_WEIGHT_PERCENT_DROP_NEW_BRANCH"/>
+			<Set>
+				<Value>0</Value>
+			</Set>
+		</Update>
+	</Defines>
+	<Eras>
+		<Update>
+			<Where Type="ERA_ANCIENT"/>
+			<Set>
+				<ResearchAgreementCost>300</ResearchAgreementCost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="ERA_CLASSICAL"/>
+			<Set>
+				<ResearchAgreementCost>400</ResearchAgreementCost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="ERA_MEDIEVAL"/>
+			<Set>
+				<ResearchAgreementCost>500</ResearchAgreementCost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="ERA_RENAISSANCE"/>
+			<Set>
+				<ResearchAgreementCost>500</ResearchAgreementCost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="ERA_INDUSTRIAL"/>
+			<Set>
+				<ResearchAgreementCost>600</ResearchAgreementCost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="ERA_MODERN"/>
+			<Set>
+				<ResearchAgreementCost>700</ResearchAgreementCost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="ERA_FUTURE"/>
+			<Set>
+				<ResearchAgreementCost>700</ResearchAgreementCost>
+			</Set>
+		</Update>
+	</Eras>
+	<Technologies>
+		<Update>
+			<Where Type="TECH_OPTICS"/>
+			<Set>
+				<Cost>105</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_PHILOSOPHY"/>
+			<Set>
+				<Cost>130</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_HORSEBACK_RIDING"/>
+			<Set>
+				<Cost>130</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_MATHEMATICS"/>
+			<Set>
+				<Cost>130</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_CONSTRUCTION"/>
+			<Set>
+				<Cost>130</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_IRON_WORKING"/>
+			<Set>
+				<Cost>200</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_THEOLOGY"/>
+			<Set>
+				<Cost>550</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_CIVIL_SERVICE"/>
+			<Set>
+				<Cost>880</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_CURRENCY"/>
+			<Set>
+				<Cost>550</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_ENGINEERING"/>
+			<Set>
+				<Cost>550</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_METAL_CASTING"/>
+			<Set>
+				<Cost>550</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_COMPASS"/>
+			<Set>
+				<Cost>750</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_EDUCATION"/>
+			<Set>
+				<Cost>970</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_CHIVALRY"/>
+			<Set>
+				<Cost>970</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_MACHINERY"/>
+			<Set>
+				<Cost>970</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_PHYSICS"/>
+			<Set>
+				<Cost>970</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_STEEL"/>
+			<Set>
+				<Cost>970</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_ASTRONOMY"/>
+			<Set>
+				<Cost>1080</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_ACOUSTICS"/>
+			<Set>
+				<Cost>1080</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_BANKING"/>
+			<Set>
+				<Cost>1080</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_PRINTING_PRESS"/>
+			<Set>
+				<Cost>1080</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="TECH_GUNPOWDER"/>
+			<Set>
+				<Cost>1080</Cost>
+			</Set>
+		</Update>
+	</Technologies>
+	<BuildingClasses>
+		<Delete Type="BUILDINGCLASS_STONEHENGE"/>
+		<Delete Type="BUILDINGCLASS_GREAT_WALL"/>
+		<Delete Type="BUILDINGCLASS_ANGKOR_WAT"/>
+		<Delete Type="BUILDINGCLASS_HAGIA_SOPHIA"/>
+		<Delete Type="BUILDINGCLASS_CHICHEN_ITZA"/>
+		<Delete Type="BUILDINGCLASS_MACHU_PICHU"/>
+		<Delete Type="BUILDINGCLASS_NOTRE_DAME"/>
+		<Delete Type="BUILDINGCLASS_PORCELAIN_TOWER"/>
+		<Delete Type="BUILDINGCLASS_HIMEJI_CASTLE"/>
+		<Delete Type="BUILDINGCLASS_SISTINE_CHAPEL"/>
+		<Delete Type="BUILDINGCLASS_KREMLIN"/>
+		<Delete Type="BUILDINGCLASS_FORBIDDEN_PALACE"/>
+		<Delete Type="BUILDINGCLASS_TAJ_MAHAL"/>
+		<Delete Type="BUILDINGCLASS_BIG_BEN"/>
+		<Delete Type="BUILDINGCLASS_LOUVRE"/>
+		<Delete Type="BUILDINGCLASS_BRANDENBURG_GATE"/>
+		<Delete Type="BUILDINGCLASS_STATUE_OF_LIBERTY"/>
+		<Delete Type="BUILDINGCLASS_CRISTO_REDENTOR"/>
+		<Delete Type="BUILDINGCLASS_EIFFEL_TOWER"/>
+		<Delete Type="BUILDINGCLASS_PENTAGON"/>
+		<Delete Type="BUILDINGCLASS_UNITED_NATIONS"/>
+		<Delete Type="BUILDINGCLASS_SYDNEY_OPERA_HOUSE"/>
+	</BuildingClasses>
+	<DeleteMissingReferences table="BuildingClasses" column="Type"/>
+	<Buildings>
+		<Delete Type="BUILDING_STONEHENGE"/>
+		<Delete Type="BUILDING_GREAT_WALL"/>
+		<Delete Type="BUILDING_ANGKOR_WAT"/>
+		<Delete Type="BUILDING_HAGIA_SOPHIA"/>
+		<Delete Type="BUILDING_CHICHEN_ITZA"/>
+		<Delete Type="BUILDING_MACHU_PICHU"/>
+		<Delete Type="BUILDING_NOTRE_DAME"/>
+		<Delete Type="BUILDING_PORCELAIN_TOWER"/>
+		<Delete Type="BUILDING_HIMEJI_CASTLE"/>
+		<Delete Type="BUILDING_SISTINE_CHAPEL"/>
+		<Delete Type="BUILDING_KREMLIN"/>
+		<Delete Type="BUILDING_FORBIDDEN_PALACE"/>
+		<Delete Type="BUILDING_TAJ_MAHAL"/>
+		<Delete Type="BUILDING_BIG_BEN"/>
+		<Delete Type="BUILDING_LOUVRE"/>
+		<Delete Type="BUILDING_BRANDENBURG_GATE"/>
+		<Delete Type="BUILDING_STATUE_OF_LIBERTY"/>
+		<Delete Type="BUILDING_CRISTO_REDENTOR"/>
+		<Delete Type="BUILDING_EIFFEL_TOWER"/>
+		<Delete Type="BUILDING_PENTAGON"/>
+		<Delete Type="BUILDING_UNITED_NATIONS"/>
+		<Delete Type="BUILDING_SYDNEY_OPERA_HOUSE"/>
+		<Delete Type="BUILDING_BURIAL_TOMB"/>
+		<Delete Type="BUILDING_BAZAAR"/>
+		<Update>
+			<Where Type="BUILDING_SATRAPS_COURT"/>
+			<Set>
+				<BuildingClass>BUILDINGCLASS_MARKET</BuildingClass>
+				<PrereqTech>TECH_CURRENCY</PrereqTech>
+				<Cost>120</Cost>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_ORACLE"/>
+			<Set>
+				<PrereqTech/>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_PYRAMID"/>
+			<Set>
+				<PrereqTech/>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_MAUSOLEUM_HALICARNASSUS"/>
+			<Set>
+				<PrereqTech/>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_TEMPLE_ARTEMIS"/>
+			<Set>
+				<PrereqTech/>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_COLOSSUS"/>
+			<Set>
+				<PrereqTech/>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_HANGING_GARDEN"/>
+			<Set>
+				<PrereqTech/>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GREAT_LIBRARY"/>
+			<Set>
+				<PrereqTech/>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_STATUE_ZEUS"/>
+			<Set>
+				<PrereqTech/>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="BUILDING_GREAT_LIGHTHOUSE"/>
+			<Set>
+				<PrereqTech/>
+			</Set>
+		</Update>
+		<Row>
+			<Type>BUILDING_NILOMETER</Type>
+			<BuildingClass>BUILDINGCLASS_WATERMILL</BuildingClass>
+			<Cost>70</Cost>
+			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
+			<Description>TXT_KEY_BUILDING_NILOMETER</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_NILOMETER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_NILOMETER_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_NILOMETER_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_WATERMILL</ArtDefineTag>
+			<River>true</River>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>WONDER_BUILDING_ATLAS</IconAtlas>
+			<PortraitIndex>2</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_ZIGGURAT</Type>
+			<BuildingClass>BUILDINGCLASS_TEMPLE</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>120</Cost>
+			<GoldMaintenance>2</GoldMaintenance>
+			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_ZIGGURAT</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ZIGGURAT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ZIGGURAT_STRATEGY</Strategy>
+			<ArtDefineTag>TEMPLE</ArtDefineTag>
+			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<Culture>3</Culture>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>WONDER_BUILDING_ATLAS</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_LIONS_GATE</Type>
+			<BuildingClass>BUILDINGCLASS_WALLS</BuildingClass>
+			<Cost>80</Cost>
+			<PrereqTech>TECH_MASONRY</PrereqTech>
+			<Description>TXT_KEY_BUILDING_LIONS_GATE</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_LIONS_GATE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_LIONS_GATE_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_LIONS_GATE_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<Defense>400</Defense>
+			<CityWall>true</CityWall>
+			<PlotCultureCostModifier>-25</PlotCultureCostModifier>
+			<PlotBuyCostModifier>-25</PlotBuyCostModifier>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>WONDER_BUILDING_ATLAS</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>1</PortraitIndex>
+		</Row>
+	</Buildings>
+	<DeleteMissingReferences table="Buildings" column="Type"/>
+	<Building_ClassesNeededInCity>
+		<Delete BuildingType="BUILDING_SATRAPS_COURT"/>
+		<Row>
+			<BuildingType>BUILDING_ZIGGURAT</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_NILOMETER</BuildingType>
+			<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+	<Building_Flavors>
+		<!--Increase wonder flavor for Ancient Wonders, decrease for National Wonders-->
+		<Update>
+			<Where BuildingType="BUILDING_ORACLE" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>40</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_GREAT_LIGHTHOUSE" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>40</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_GREAT_LIBRARY" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>40</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_PYRAMID" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>40</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_COLOSSUS" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>40</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_HANGING_GARDEN" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>40</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_STATUE_ZEUS" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>40</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_TEMPLE_ARTEMIS" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>40</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_MAUSOLEUM_HALICARNASSUS" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>40</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_NATIONAL_COLLEGE" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>10</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_NATIONAL_EPIC" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>10</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_NATIONAL_TREASURY" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>10</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where BuildingType="BUILDING_CIRCUS_MAXIMUS" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>10</Flavor>
+			</Set>
+		</Update>
+		<Row>
+			<BuildingType>BUILDING_NILOMETER</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>35</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NILOMETER</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ZIGGURAT</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ZIGGURAT</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LIONS_GATE</BuildingType>
+			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LIONS_GATE</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_LIONS_GATE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_LIONS_GATE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_ZIGGURAT</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>25</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_NILOMETER</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>15</Yield>
+		</Row>
+	</Building_YieldModifiers>
+	<Units>
+		<Delete Type="UNIT_OTTOMAN_JANISSARY"/>
+		<Delete Type="UNIT_OTTOMAN_SIPAHI"/>
+		<Delete Type="UNIT_ARABIAN_CAMELARCHER"/>
+		<Row>
+			<Class>UNITCLASS_SPEARMAN</Class>
+			<Type>UNIT_SUMERIAN_PHALANX</Type>
+			<PrereqTech>TECH_MINING</PrereqTech>
+			<Combat>8</Combat>
+			<Cost>56</Cost>
+			<Moves>2</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_COUNTER</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_SUMERIAN_PHALANX</Description>
+			<Civilopedia>TXT_KEY_CIV5_SUMERIAN_PHALANX_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SUMERIAN_PHALANX_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_SUMERIAN_PHALANX_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_CIVIL_SERVICE</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_PIKEMAN</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<Conscription>2</Conscription>
+			<UnitArtInfo>ART_DEF_UNIT_U_SUMERIAN_PHALANX</UnitArtInfo>
+			<UnitFlagAtlas>WONDER_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>0</UnitFlagIconOffset>
+			<IconAtlas>WONDER_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+		<Row>
+			<Class>UNITCLASS_CHARIOT_ARCHER</Class>
+			<Type>UNIT_HITTITE_WARCHARIOT</Type>
+			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
+			<Combat>12</Combat>
+			<Cost>100</Cost>
+			<Moves>3</Moves>
+			<CombatClass>UNITCOMBAT_MELEE</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_HITTITE_WARCHARIOT</Description>
+			<Civilopedia>TXT_KEY_CIV5_HITTITE_WARCHARIOT_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_HITTITE_WARCHARIOT_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_HITTITE_WARCHARIOT_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>true</Pillage>
+			<ObsoleteTech>TECH_MACHINERY</ObsoleteTech>
+			<GoodyHutUpgradeUnitClass>UNITCLASS_KNIGHT</GoodyHutUpgradeUnitClass>
+			<AdvancedStartCost>15</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_U_HITTITE_WARCHARIOT</UnitArtInfo>
+			<UnitFlagAtlas>WONDER_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<UnitFlagIconOffset>1</UnitFlagIconOffset>
+			<IconAtlas>WONDER_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>1</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+		</Row>
+	</Units>
+	<DeleteMissingReferences table="Units" column="Type"/>
+	<Unit_ClassUpgrades>
+		<Row>
+			<UnitType>UNIT_SUMERIAN_PHALANX</UnitType>
+			<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HITTITE_WARCHARIOT</UnitType>
+			<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
+		</Row>
+	</Unit_ClassUpgrades>
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_SUMERIAN_PHALANX</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_SUMERIAN_PHALANX</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HITTITE_WARCHARIOT</UnitType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>8</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HITTITE_WARCHARIOT</UnitType>
+			<FlavorType>FLAVOR_DEFENSE</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HITTITE_WARCHARIOT</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+	</Unit_Flavors>
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SUMERIAN_PHALANX</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_II</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HITTITE_WARCHARIOT</UnitType>
+			<PromotionType>PROMOTION_SHOCK_1</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HITTITE_WARCHARIOT</UnitType>
+			<PromotionType>PROMOTION_ROUGH_TERRAIN_ENDS_TURN</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HITTITE_WARCHARIOT</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HITTITE_WARCHARIOT</UnitType>
+			<PromotionType>PROMOTION_SMALL_CITY_PENALTY</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HITTITE_WARCHARIOT</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_HITTITE_WARCHARIOT</UnitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>WONDER_UNIT_FLAG_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>UnitFlagAtlas32_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_UNIT_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>UnitPortraits256_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_UNIT_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>UnitPortraits128_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_UNIT_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>UnitPortraits80_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_UNIT_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>UnitPortraits64_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_UNIT_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>UnitPortraits45_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_BUILDING_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>BuildingPortraits256_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_BUILDING_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>BuildingPortraits128_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_BUILDING_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>BuildingPortraits64_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_BUILDING_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>BuildingPortraits45_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	<!--AI adjustments-->
+	<Defines>
+		<Update>
+			<Where Name="AI_CITY_SPECIALIZATION_REEVALUATION_INTERVAL"/>
+			<Set>
+				<Value>3</Value>
+			</Set>
+		</Update>
+	</Defines>
+	<AIMilitaryStrategies>
+		<Update>
+			<Where Type="MILITARYAISTRATEGY_EMPIRE_DEFENSE_CRITICAL"/>
+			<Set>
+				<FirstTurnExecuted>50</FirstTurnExecuted>
+				<TechPrereq>TECH_FUTURE_TECH</TechPrereq>
+			</Set>
+		</Update>
+	</AIMilitaryStrategies>
+	<AIMilitaryStrategy_Flavors>
+		<Update>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_WAR_MOBILIZATION" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>-10</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where AIMilitaryStrategyType="MILITARYAISTRATEGY_LOSING_WARS" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>-10</Flavor>
+			</Set>
+		</Update>
+	</AIMilitaryStrategy_Flavors>
+	<!--In this scenario, Conquest is the only valid victory type.  For AI flavor purposes, it will act as the building Wonders victory condition.  Based on testing, all civs adopt this strategy as soon as it is available.-->
+	<AIEconomicStrategies>
+		<Update>
+			<Where Type="ECONOMICAISTRATEGY_GS_CONQUEST"/>
+			<Set>
+				<FirstTurnExecuted>25</FirstTurnExecuted>
+			</Set>
+		</Update>
+	</AIEconomicStrategies>
+	<AIEconomicStrategy_Flavors>
+		<!--
+		<Delete AIEconomicStrategyType="ECONOMICAISTRATEGY_GS_CONQUEST"/>
+		<Row>
+			<AIEconomicStrategyType>ECONOMICAISTRATEGY_GS_CONQUEST</AIEconomicStrategyType>
+			<FlavorType>FLAVOR_WONDER</FlavorType>
+			<Flavor>30</Flavor>
+		</Row>
+		-->
+		<Update>
+			<Where AIMilitaryStrategyType="ECONOMICAISTRATEGY_GS_CONQUEST" FlavorType="FLAVOR_OFFENSE"/>
+			<Set>
+				<Flavor>0</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where AIMilitaryStrategyType="ECONOMICAISTRATEGY_GS_CONQUEST" FlavorType="FLAVOR_DEFENSE"/>
+			<Set>
+				<Flavor>0</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where AIMilitaryStrategyType="ECONOMICAISTRATEGY_GS_CONQUEST" FlavorType="FLAVOR_NAVAL"/>
+			<Set>
+				<Flavor>0</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where AIMilitaryStrategyType="ECONOMICAISTRATEGY_GS_CONQUEST" FlavorType="FLAVOR_MILITARY_TRAINING"/>
+			<Set>
+				<Flavor>0</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where AIMilitaryStrategyType="ECONOMICAISTRATEGY_GS_CONQUEST" FlavorType="FLAVOR_AIR"/>
+			<Set>
+				<Flavor>0</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where AIMilitaryStrategyType="ECONOMICAISTRATEGY_GS_CONQUEST" FlavorType="FLAVOR_NUKE"/>
+			<Set>
+				<Flavor>0</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where AIMilitaryStrategyType="ECONOMICAISTRATEGY_GS_CONQUEST" FlavorType="FLAVOR_SPACESHIP"/>
+			<Set>
+				<Flavor>0</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where AIMilitaryStrategyType="ECONOMICAISTRATEGY_GS_CONQUEST" FlavorType="FLAVOR_PRODUCTION"/>
+			<Set>
+				<Flavor>0</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where AIMilitaryStrategyType="ECONOMICAISTRATEGY_GS_CONQUEST" FlavorType="FLAVOR_DIPLOMACY"/>
+			<Set>
+				<Flavor>0</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where AIMilitaryStrategyType="ECONOMICAISTRATEGY_GS_CONQUEST" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>30</Flavor>
+			</Set>
+		</Update>
+	</AIEconomicStrategy_Flavors>
+	<!--Score tiers for endgame ranking screen-->
+	<HistoricRankings>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_1"/>
+			<Set>
+				<LeaderScore>7000</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_2"/>
+			<Set>
+				<LeaderScore>6500</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_3"/>
+			<Set>
+				<LeaderScore>6000</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_4"/>
+			<Set>
+				<LeaderScore>5500</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_5"/>
+			<Set>
+				<LeaderScore>5000</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_6"/>
+			<Set>
+				<LeaderScore>4500</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_7"/>
+			<Set>
+				<LeaderScore>4000</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_8"/>
+			<Set>
+				<LeaderScore>3500</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_9"/>
+			<Set>
+				<LeaderScore>3000</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_10"/>
+			<Set>
+				<LeaderScore>2750</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_11"/>
+			<Set>
+				<LeaderScore>2500</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_12"/>
+			<Set>
+				<LeaderScore>2250</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_13"/>
+			<Set>
+				<LeaderScore>2000</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_14"/>
+			<Set>
+				<LeaderScore>1750</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_15"/>
+			<Set>
+				<LeaderScore>1500</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_16"/>
+			<Set>
+				<LeaderScore>1250</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_17"/>
+			<Set>
+				<LeaderScore>1000</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_18"/>
+			<Set>
+				<LeaderScore>750</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_19"/>
+			<Set>
+				<LeaderScore>500</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_20"/>
+			<Set>
+				<LeaderScore>250</LeaderScore>
+			</Set>
+		</Update>
+		<Update>
+			<Where HistoricLeader="TXT_KEY_DQ_LEADER_NAME_21"/>
+			<Set>
+				<LeaderScore>0</LeaderScore>
+			</Set>
+		</Update>
+	</HistoricRankings>
+</GameData>

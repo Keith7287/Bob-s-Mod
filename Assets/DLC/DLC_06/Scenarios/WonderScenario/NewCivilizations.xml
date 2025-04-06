@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameData>
+	<!-- Table data -->
+	<Civilizations>
+		<Delete Type="CIVILIZATION_AMERICA"/>
+		<Delete Type="CIVILIZATION_AZTEC"/>
+		<Delete Type="CIVILIZATION_BABYLON"/>
+		<Delete Type="CIVILIZATION_CHINA"/>
+		<Delete Type="CIVILIZATION_DENMARK"/>
+		<Delete Type="CIVILIZATION_ENGLAND"/>
+		<Delete Type="CIVILIZATION_FRANCE"/>
+		<Delete Type="CIVILIZATION_GERMANY"/>
+		<Delete Type="CIVILIZATION_INCA"/>
+		<Delete Type="CIVILIZATION_INDIA"/>
+		<Delete Type="CIVILIZATION_IROQUOIS"/>
+		<Delete Type="CIVILIZATION_JAPAN"/>
+		<Delete Type="CIVILIZATION_MONGOL"/>
+		<Delete Type="CIVILIZATION_POLYNESIA"/>
+		<Delete Type="CIVILIZATION_ROME"/>
+		<Delete Type="CIVILIZATION_RUSSIA"/>
+		<Delete Type="CIVILIZATION_SONGHAI"/>
+		<Delete Type="CIVILIZATION_SIAM"/>
+		<Delete Type="CIVILIZATION_SPAIN"/>
+		<Delete Type="CIVILIZATION_KOREA"/>
+		<Update>
+			<Where Type="CIVILIZATION_EGYPT"/>
+			<Set>
+				<DawnOfManQuote>TXT_KEY_WONDER_SCENARIO_CIV5_DAWN_EGYPT_TEXT</DawnOfManQuote>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="CIVILIZATION_PERSIA"/>
+			<Set>
+				<DawnOfManQuote>TXT_KEY_WONDER_SCENARIO_CIV5_DAWN_PERSIA_TEXT</DawnOfManQuote>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="CIVILIZATION_GREECE"/>
+			<Set>
+				<DawnOfManQuote>TXT_KEY_WONDER_SCENARIO_CIV5_DAWN_GREECE_TEXT</DawnOfManQuote>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="CIVILIZATION_ARABIA"/>
+			<Set>
+				<DefaultPlayerColor>PLAYERCOLOR_SUMER</DefaultPlayerColor>
+				<DawnOfManQuote>TXT_KEY_WONDER_SCENARIO_CIV5_DAWN_ARABIA_TEXT</DawnOfManQuote>
+				<DawnOfManImage>DOM_Gilgamesh.dds</DawnOfManImage>
+				<MapImage>MapSumeria360x410.dds</MapImage>
+				<CivilopediaTag>TXT_KEY_WONDER_SCENARIO_CIV_SUMERIA</CivilopediaTag>
+				<PortraitIndex>1</PortraitIndex>
+				<IconAtlas>WONDER_CIV_COLOR_ATLAS</IconAtlas>
+				<AlphaIconAtlas>WONDER_CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="CIVILIZATION_OTTOMAN"/>
+			<Set>
+				<DefaultPlayerColor>PLAYERCOLOR_HITTITE</DefaultPlayerColor>
+				<DawnOfManQuote>TXT_KEY_WONDER_SCENARIO_CIV5_DAWN_OTTOMANS_TEXT</DawnOfManQuote>
+				<DawnOfManImage>DOM_Muwatallis.dds</DawnOfManImage>
+				<MapImage>MapHittite360x410.dds</MapImage>
+				<PortraitIndex>0</PortraitIndex>
+				<CivilopediaTag>TXT_KEY_WONDER_SCENARIO_CIV_HITTITES</CivilopediaTag>
+				<IconAtlas>WONDER_CIV_COLOR_ATLAS</IconAtlas>
+				<AlphaIconAtlas>WONDER_CIV_ALPHA_ATLAS</AlphaIconAtlas>
+			</Set>
+		</Update>
+	</Civilizations>
+	<Civilization_BuildingClassOverrides>
+		<Delete CivilizationType="CIVILIZATION_AMERICA"/>
+		<Delete CivilizationType="CIVILIZATION_AZTEC"/>
+		<Delete CivilizationType="CIVILIZATION_BABYLON"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA"/>
+		<Delete CivilizationType="CIVILIZATION_DENMARK"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND"/>
+		<Delete CivilizationType="CIVILIZATION_FRANCE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY"/>
+		<Delete CivilizationType="CIVILIZATION_INCA"/>
+		<Delete CivilizationType="CIVILIZATION_INDIA"/>
+		<Delete CivilizationType="CIVILIZATION_IROQUOIS"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN"/>
+		<Delete CivilizationType="CIVILIZATION_MONGOL"/>
+		<Delete CivilizationType="CIVILIZATION_POLYNESIA"/>
+		<Delete CivilizationType="CIVILIZATION_ROME"/>
+		<Delete CivilizationType="CIVILIZATION_RUSSIA"/>
+		<Delete CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Delete CivilizationType="CIVILIZATION_SIAM"/>
+		<Delete CivilizationType="CIVILIZATION_SPAIN"/>
+		<Delete CivilizationType="CIVILIZATION_KOREA"/>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_PERSIA"/>
+			<Set>
+				<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+			</Set>
+		</Update>
+		<Row>
+			<CivilizationType>CIVILIZATION_EGYPT</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_WATERMILL</BuildingClassType>
+			<BuildingType>BUILDING_NILOMETER</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_ARABIA</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_ZIGGURAT</BuildingType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+			<BuildingType>BUILDING_LIONS_GATE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	<Civilization_UnitClassOverrides>
+		<Delete CivilizationType="CIVILIZATION_AMERICA"/>
+		<Delete CivilizationType="CIVILIZATION_AZTEC"/>
+		<Delete CivilizationType="CIVILIZATION_BABYLON"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA"/>
+		<Delete CivilizationType="CIVILIZATION_DENMARK"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND"/>
+		<Delete CivilizationType="CIVILIZATION_FRANCE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY"/>
+		<Delete CivilizationType="CIVILIZATION_INCA"/>
+		<Delete CivilizationType="CIVILIZATION_INDIA"/>
+		<Delete CivilizationType="CIVILIZATION_IROQUOIS"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN"/>
+		<Delete CivilizationType="CIVILIZATION_MONGOL"/>
+		<Delete CivilizationType="CIVILIZATION_POLYNESIA"/>
+		<Delete CivilizationType="CIVILIZATION_ROME"/>
+		<Delete CivilizationType="CIVILIZATION_RUSSIA"/>
+		<Delete CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Delete CivilizationType="CIVILIZATION_SIAM"/>
+		<Delete CivilizationType="CIVILIZATION_SPAIN"/>
+		<Delete CivilizationType="CIVILIZATION_KOREA"/>
+		<Row>
+			<CivilizationType>CIVILIZATION_ARABIA</CivilizationType>
+			<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
+			<UnitType>UNIT_SUMERIAN_PHALANX</UnitType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType>
+			<UnitClassType>UNITCLASS_CHARIOT_ARCHER</UnitClassType>
+			<UnitType>UNIT_HITTITE_WARCHARIOT</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+	<Civilization_CityNames>
+		<Delete CivilizationType="CIVILIZATION_AMERICA"/>
+		<Delete CivilizationType="CIVILIZATION_AZTEC"/>
+		<Delete CivilizationType="CIVILIZATION_BABYLON"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA"/>
+		<Delete CivilizationType="CIVILIZATION_DENMARK"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND"/>
+		<Delete CivilizationType="CIVILIZATION_FRANCE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY"/>
+		<Delete CivilizationType="CIVILIZATION_INCA"/>
+		<Delete CivilizationType="CIVILIZATION_INDIA"/>
+		<Delete CivilizationType="CIVILIZATION_IROQUOIS"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN"/>
+		<Delete CivilizationType="CIVILIZATION_MONGOL"/>
+		<Delete CivilizationType="CIVILIZATION_POLYNESIA"/>
+		<Delete CivilizationType="CIVILIZATION_ROME"/>
+		<Delete CivilizationType="CIVILIZATION_RUSSIA"/>
+		<Delete CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Delete CivilizationType="CIVILIZATION_SIAM"/>
+		<Delete CivilizationType="CIVILIZATION_SPAIN"/>
+		<Delete CivilizationType="CIVILIZATION_KOREA"/>
+	</Civilization_CityNames>
+	<Civilization_FreeBuildingClasses>
+		<Delete CivilizationType="CIVILIZATION_AMERICA"/>
+		<Delete CivilizationType="CIVILIZATION_AZTEC"/>
+		<Delete CivilizationType="CIVILIZATION_BABYLON"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA"/>
+		<Delete CivilizationType="CIVILIZATION_DENMARK"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND"/>
+		<Delete CivilizationType="CIVILIZATION_FRANCE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY"/>
+		<Delete CivilizationType="CIVILIZATION_INCA"/>
+		<Delete CivilizationType="CIVILIZATION_INDIA"/>
+		<Delete CivilizationType="CIVILIZATION_IROQUOIS"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN"/>
+		<Delete CivilizationType="CIVILIZATION_MONGOL"/>
+		<Delete CivilizationType="CIVILIZATION_POLYNESIA"/>
+		<Delete CivilizationType="CIVILIZATION_ROME"/>
+		<Delete CivilizationType="CIVILIZATION_RUSSIA"/>
+		<Delete CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Delete CivilizationType="CIVILIZATION_SIAM"/>
+		<Delete CivilizationType="CIVILIZATION_SPAIN"/>
+		<Delete CivilizationType="CIVILIZATION_KOREA"/>
+	</Civilization_FreeBuildingClasses>
+	<Civilization_FreeTechs>
+		<Delete CivilizationType="CIVILIZATION_AMERICA"/>
+		<Delete CivilizationType="CIVILIZATION_AZTEC"/>
+		<Delete CivilizationType="CIVILIZATION_BABYLON"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA"/>
+		<Delete CivilizationType="CIVILIZATION_DENMARK"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND"/>
+		<Delete CivilizationType="CIVILIZATION_FRANCE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY"/>
+		<Delete CivilizationType="CIVILIZATION_INCA"/>
+		<Delete CivilizationType="CIVILIZATION_INDIA"/>
+		<Delete CivilizationType="CIVILIZATION_IROQUOIS"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN"/>
+		<Delete CivilizationType="CIVILIZATION_MONGOL"/>
+		<Delete CivilizationType="CIVILIZATION_POLYNESIA"/>
+		<Delete CivilizationType="CIVILIZATION_ROME"/>
+		<Delete CivilizationType="CIVILIZATION_RUSSIA"/>
+		<Delete CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Delete CivilizationType="CIVILIZATION_SIAM"/>
+		<Delete CivilizationType="CIVILIZATION_SPAIN"/>
+		<Delete CivilizationType="CIVILIZATION_KOREA"/>
+	</Civilization_FreeTechs>
+	<Civilization_FreeUnits>
+		<Delete CivilizationType="CIVILIZATION_AMERICA"/>
+		<Delete CivilizationType="CIVILIZATION_AZTEC"/>
+		<Delete CivilizationType="CIVILIZATION_BABYLON"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA"/>
+		<Delete CivilizationType="CIVILIZATION_DENMARK"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND"/>
+		<Delete CivilizationType="CIVILIZATION_FRANCE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY"/>
+		<Delete CivilizationType="CIVILIZATION_INCA"/>
+		<Delete CivilizationType="CIVILIZATION_INDIA"/>
+		<Delete CivilizationType="CIVILIZATION_IROQUOIS"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN"/>
+		<Delete CivilizationType="CIVILIZATION_MONGOL"/>
+		<Delete CivilizationType="CIVILIZATION_POLYNESIA"/>
+		<Delete CivilizationType="CIVILIZATION_ROME"/>
+		<Delete CivilizationType="CIVILIZATION_RUSSIA"/>
+		<Delete CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Delete CivilizationType="CIVILIZATION_SIAM"/>
+		<Delete CivilizationType="CIVILIZATION_SPAIN"/>
+		<Delete CivilizationType="CIVILIZATION_KOREA"/>
+	</Civilization_FreeUnits>
+	<Civilization_Leaders>
+		<Delete CivilizationType="CIVILIZATION_AMERICA"/>
+		<Delete CivilizationType="CIVILIZATION_AZTEC"/>
+		<Delete CivilizationType="CIVILIZATION_BABYLON"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA"/>
+		<Delete CivilizationType="CIVILIZATION_DENMARK"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND"/>
+		<Delete CivilizationType="CIVILIZATION_FRANCE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY"/>
+		<Delete CivilizationType="CIVILIZATION_INCA"/>
+		<Delete CivilizationType="CIVILIZATION_INDIA"/>
+		<Delete CivilizationType="CIVILIZATION_IROQUOIS"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN"/>
+		<Delete CivilizationType="CIVILIZATION_MONGOL"/>
+		<Delete CivilizationType="CIVILIZATION_POLYNESIA"/>
+		<Delete CivilizationType="CIVILIZATION_ROME"/>
+		<Delete CivilizationType="CIVILIZATION_RUSSIA"/>
+		<Delete CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Delete CivilizationType="CIVILIZATION_SIAM"/>
+		<Delete CivilizationType="CIVILIZATION_SPAIN"/>
+		<Delete CivilizationType="CIVILIZATION_KOREA"/>
+	</Civilization_Leaders>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_HITTITE_ICON</Type>
+			<Red>.3608</Red>
+			<Green>.1725</Green>
+			<Blue>.1725</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_HITTITE_BACKGROUND</Type>
+			<Red>0.7843</Red>
+			<Green>0.6941</Green>
+			<Blue>0.3804</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_SUMER_ICON</Type>
+			<Red>0.8980</Red>
+			<Green>0.4353</Green>
+			<Blue>0.3412</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_SUMER_BACKGROUND</Type>
+			<Red>0.1529</Red>
+			<Green>0.1647</Green>
+			<Blue>0.3176</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+	<!-- The player color for the civ -->
+	<PlayerColors>
+		<Row>
+			<Type>PLAYERCOLOR_HITTITE</Type>
+			<PrimaryColor>COLOR_PLAYER_HITTITE_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_HITTITE_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<Row>
+			<Type>PLAYERCOLOR_SUMER</Type>
+			<PrimaryColor>COLOR_PLAYER_SUMER_ICON</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_SUMER_BACKGROUND</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<!-- Texture atlases for this Civ -->
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>WONDER_CIV_COLOR_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>CivSymbolsColor256_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_CIV_COLOR_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>CivSymbolsColor128_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_CIV_COLOR_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>CivSymbolsColor80_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_CIV_COLOR_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>CivSymbolsColor64_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_CIV_COLOR_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>CivSymbolsColor45_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_CIV_COLOR_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>CivSymbolsColor32_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_CIV_ALPHA_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>CivSymbolWhite128_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_CIV_ALPHA_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>CivSymbolWhite64_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_CIV_ALPHA_ATLAS</Atlas>
+			<IconSize>48</IconSize>
+			<Filename>CivSymbolWhite48_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_CIV_ALPHA_ATLAS</Atlas>
+			<IconSize>32</IconSize>
+			<Filename>CivSymbolWhite32_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_CIV_ALPHA_ATLAS</Atlas>
+			<IconSize>24</IconSize>
+			<Filename>CivSymbolWhite24_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>WONDER_CIV_ALPHA_ATLAS</Atlas>
+			<IconSize>16</IconSize>
+			<Filename>CivSymbolWhite16_DLC_WonderPack.dds</Filename>
+			<IconsPerRow>2</IconsPerRow>
+			<IconsPerColumn>2</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+	<Civilization_Start_Along_Ocean>
+		<Delete CivilizationType="CIVILIZATION_AMERICA"/>
+		<Delete CivilizationType="CIVILIZATION_AZTEC"/>
+		<Delete CivilizationType="CIVILIZATION_BABYLON"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA"/>
+		<Delete CivilizationType="CIVILIZATION_DENMARK"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND"/>
+		<Delete CivilizationType="CIVILIZATION_FRANCE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY"/>
+		<Delete CivilizationType="CIVILIZATION_INCA"/>
+		<Delete CivilizationType="CIVILIZATION_INDIA"/>
+		<Delete CivilizationType="CIVILIZATION_IROQUOIS"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN"/>
+		<Delete CivilizationType="CIVILIZATION_MONGOL"/>
+		<Delete CivilizationType="CIVILIZATION_POLYNESIA"/>
+		<Delete CivilizationType="CIVILIZATION_ROME"/>
+		<Delete CivilizationType="CIVILIZATION_RUSSIA"/>
+		<Delete CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Delete CivilizationType="CIVILIZATION_SIAM"/>
+		<Delete CivilizationType="CIVILIZATION_SPAIN"/>
+		<Delete CivilizationType="CIVILIZATION_KOREA"/>
+	</Civilization_Start_Along_Ocean>
+	<Civilization_Start_Along_River>
+		<Delete CivilizationType="CIVILIZATION_AMERICA"/>
+		<Delete CivilizationType="CIVILIZATION_AZTEC"/>
+		<Delete CivilizationType="CIVILIZATION_BABYLON"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA"/>
+		<Delete CivilizationType="CIVILIZATION_DENMARK"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND"/>
+		<Delete CivilizationType="CIVILIZATION_FRANCE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY"/>
+		<Delete CivilizationType="CIVILIZATION_INCA"/>
+		<Delete CivilizationType="CIVILIZATION_INDIA"/>
+		<Delete CivilizationType="CIVILIZATION_IROQUOIS"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN"/>
+		<Delete CivilizationType="CIVILIZATION_MONGOL"/>
+		<Delete CivilizationType="CIVILIZATION_POLYNESIA"/>
+		<Delete CivilizationType="CIVILIZATION_ROME"/>
+		<Delete CivilizationType="CIVILIZATION_RUSSIA"/>
+		<Delete CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Delete CivilizationType="CIVILIZATION_SIAM"/>
+		<Delete CivilizationType="CIVILIZATION_SPAIN"/>
+		<Delete CivilizationType="CIVILIZATION_KOREA"/>
+	</Civilization_Start_Along_River>
+	<Civilization_Start_Region_Priority>
+		<Delete CivilizationType="CIVILIZATION_AMERICA"/>
+		<Delete CivilizationType="CIVILIZATION_AZTEC"/>
+		<Delete CivilizationType="CIVILIZATION_BABYLON"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA"/>
+		<Delete CivilizationType="CIVILIZATION_DENMARK"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND"/>
+		<Delete CivilizationType="CIVILIZATION_FRANCE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY"/>
+		<Delete CivilizationType="CIVILIZATION_INCA"/>
+		<Delete CivilizationType="CIVILIZATION_INDIA"/>
+		<Delete CivilizationType="CIVILIZATION_IROQUOIS"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN"/>
+		<Delete CivilizationType="CIVILIZATION_MONGOL"/>
+		<Delete CivilizationType="CIVILIZATION_POLYNESIA"/>
+		<Delete CivilizationType="CIVILIZATION_ROME"/>
+		<Delete CivilizationType="CIVILIZATION_RUSSIA"/>
+		<Delete CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Delete CivilizationType="CIVILIZATION_SIAM"/>
+		<Delete CivilizationType="CIVILIZATION_SPAIN"/>
+		<Delete CivilizationType="CIVILIZATION_KOREA"/>
+	</Civilization_Start_Region_Priority>
+	<Civilization_Start_Region_Avoid>
+		<Delete CivilizationType="CIVILIZATION_AMERICA"/>
+		<Delete CivilizationType="CIVILIZATION_AZTEC"/>
+		<Delete CivilizationType="CIVILIZATION_BABYLON"/>
+		<Delete CivilizationType="CIVILIZATION_CHINA"/>
+		<Delete CivilizationType="CIVILIZATION_DENMARK"/>
+		<Delete CivilizationType="CIVILIZATION_ENGLAND"/>
+		<Delete CivilizationType="CIVILIZATION_FRANCE"/>
+		<Delete CivilizationType="CIVILIZATION_GERMANY"/>
+		<Delete CivilizationType="CIVILIZATION_INCA"/>
+		<Delete CivilizationType="CIVILIZATION_INDIA"/>
+		<Delete CivilizationType="CIVILIZATION_IROQUOIS"/>
+		<Delete CivilizationType="CIVILIZATION_JAPAN"/>
+		<Delete CivilizationType="CIVILIZATION_MONGOL"/>
+		<Delete CivilizationType="CIVILIZATION_POLYNESIA"/>
+		<Delete CivilizationType="CIVILIZATION_ROME"/>
+		<Delete CivilizationType="CIVILIZATION_RUSSIA"/>
+		<Delete CivilizationType="CIVILIZATION_SONGHAI"/>
+		<Delete CivilizationType="CIVILIZATION_SIAM"/>
+		<Delete CivilizationType="CIVILIZATION_SPAIN"/>
+		<Delete CivilizationType="CIVILIZATION_KOREA"/>
+	</Civilization_Start_Region_Avoid>
+	<!-- Color definitions the civ uses -->
+	<Colors>
+  	</Colors>
+	<!-- The player color for the civ -->
+	<PlayerColors>
+  	</PlayerColors>
+	<!-- Texture atlases for this Civ -->
+	<!-- NOTE TO MODDERS: Both single and multiple entries for Region Priority (per Civ) are supported! -->
+	<!-- If a Civ has one Priority, then on maps without a region of that type, fallback methods apply. -->
+	<!-- The fallback methods will match the given civ with a region that has the most tiles of the priority terrain type. -->
+	<!-- For instance, if Russia is set for Tundra priority but a map has no Tundra regions, they will look for a region that has some tundra. -->
+	<!-- If a Civ is given multiple priorities, fallbacks are not used: the bias isn't applied when a map has none of those region types. -->
+	<!-- NOTE TO MODDERS: Each Civ can belong to only one of the four Start Bias categories, listed below. -->
+	<!-- If a Civ has entries in any of the four following tables, any entries in later tables will end up being ignored. -->
+	<!-- So... Coastal bias trumps River bias trumps Region Priority trumps Region Avoid. -->
+	<!-- The best practice is to pick only one of the four types (or none), for each civilization. -->
+	<Civilization_Start_Along_Ocean>
+  	</Civilization_Start_Along_Ocean>
+	<!-- NOTE TO MODDERS: Both single and multiple entries for Region Priority (per Civ) are supported! -->
+	<!-- If a Civ has one Priority, then on maps without a region of that type, fallback methods apply. -->
+	<!-- The fallback methods will match the given civ with a region that has the most tiles of the priority terrain type. -->
+	<!-- For instance, if Russia is set for Tundra priority but a map has no Tundra regions, they will look for a region that has some tundra. -->
+	<!-- If a Civ is given multiple priorities, fallbacks are not used: the bias isn't applied when a map has none of those region types. -->
+	<Civilization_Start_Region_Priority>
+  	</Civilization_Start_Region_Priority>
+	<Leaders>
+		<Update>
+			<Where Type="LEADER_HARUN_AL_RASHID"/>
+			<Set>
+				<CivilopediaTag>TXT_KEY_WONDER_SCENARIO_LEADER_GILGAMESH</CivilopediaTag>
+				<WonderCompetitiveness>10</WonderCompetitiveness>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="LEADER_SULEIMAN"/>
+			<Set>
+				<CivilopediaTag>TXT_KEY_WONDER_SCENARIO_LEADER_MUWATALLIS</CivilopediaTag>
+				<WonderCompetitiveness>10</WonderCompetitiveness>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="LEADER_ALEXANDER"/>
+			<Set>
+				<WonderCompetitiveness>10</WonderCompetitiveness>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="LEADER_DARIUS"/>
+			<Set>
+				<WonderCompetitiveness>10</WonderCompetitiveness>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="LEADER_RAMESSES"/>
+			<Set>
+				<WonderCompetitiveness>10</WonderCompetitiveness>
+			</Set>
+		</Update>
+	</Leaders>
+	<Leader_Flavors>
+		<Update>
+			<Where LeaderType="LEADER_RAMESSES" FlavorType="FLAVOR_OFFENSE"/>
+			<Set>
+				<Flavor>10</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMESSES" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>20</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_RAMESSES" FlavorType="FLAVOR_CULTURE"/>
+			<Set>
+				<Flavor>10</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HARUN_AL_RASHID" FlavorType="FLAVOR_OFFENSE"/>
+			<Set>
+				<Flavor>10</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HARUN_AL_RASHID" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>20</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HARUN_AL_RASHID" FlavorType="FLAVOR_SCIENCE"/>
+			<Set>
+				<Flavor>10</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_DARIUS" FlavorType="FLAVOR_OFFENSE"/>
+			<Set>
+				<Flavor>10</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_DARIUS" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>20</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_SULEIMAN" FlavorType="FLAVOR_OFFENSE"/>
+			<Set>
+				<Flavor>15</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_SULEIMAN" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>20</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_OFFENSE"/>
+			<Set>
+				<Flavor>10</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_WONDER"/>
+			<Set>
+				<Flavor>20</Flavor>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_ALEXANDER" FlavorType="FLAVOR_NAVAL"/>
+			<Set>
+				<Flavor>10</Flavor>
+			</Set>
+		</Update>
+	</Leader_Flavors>
+	<Leader_Traits>
+		<Update>
+			<Where LeaderType="LEADER_RAMESSES"/>
+			<Set>
+				<TraitType>TRAIT_CULT_OSIRIS</TraitType>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_HARUN_AL_RASHID"/>
+			<Set>
+				<TraitType>TRAIT_TWO_RIVERS</TraitType>
+			</Set>
+		</Update>
+		<Update>
+			<Where LeaderType="LEADER_SULEIMAN"/>
+			<Set>
+				<TraitType>TRAIT_FIRST_2_IRON</TraitType>
+			</Set>
+		</Update>
+	</Leader_Traits>
+	<Traits>
+		<Row>
+			<Type>TRAIT_CULT_OSIRIS</Type>
+			<Description>TXT_KEY_TRAIT_CULT_OSIRIS</Description>
+			<ShortDescription>TXT_KEY_TRAIT_CULT_OSIRIS_SHORT</ShortDescription>
+			<CultureBuildingYieldChange>1</CultureBuildingYieldChange>
+		</Row>
+		<Row>
+			<Type>TRAIT_TWO_RIVERS</Type>
+			<Description>TXT_KEY_TRAIT_TWO_RIVERS</Description>
+			<ShortDescription>TXT_KEY_TRAIT_TWO_RIVERS_SHORT</ShortDescription>
+			<FreeUnit>UNITCLASS_SCIENTIST</FreeUnit>
+			<FreeUnitPrereqTech>TECH_WRITING</FreeUnitPrereqTech>
+			<FasterAlongRiver>true</FasterAlongRiver>
+		</Row>
+		<Row>
+			<Type>TRAIT_FIRST_2_IRON</Type>
+			<Description>TXT_KEY_TRAIT_FIRST_2_IRON</Description>
+			<ShortDescription>TXT_KEY_TRAIT_FIRST_2_IRON_SHORT</ShortDescription>
+		</Row>
+	</Traits>
+	<Trait_ResourceQuantityModifiers>
+		<Row>
+			<TraitType>TRAIT_FIRST_2_IRON</TraitType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FIRST_2_IRON</TraitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<ResourceQuantityModifier>100</ResourceQuantityModifier>
+		</Row>
+	</Trait_ResourceQuantityModifiers>
+	<Trait_YieldChangesStrategicResources>
+		<Row>
+			<TraitType>TRAIT_FIRST_2_IRON</TraitType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_YieldChangesStrategicResources>
+</GameData>

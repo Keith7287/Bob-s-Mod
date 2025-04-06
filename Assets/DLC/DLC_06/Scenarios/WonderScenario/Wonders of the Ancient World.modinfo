@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<Mod id="2968ab37-29a3-4de7-8b84-ece688231e40" version="1">
+	<Properties>
+		<Name>Wonders of the Ancient World</Name>
+		<Stability>Alpha</Stability>
+		<Teaser>Which civ will be known for the Wonders of the Ancient World?</Teaser>
+		<Description>Wonder scenario for DLC 05</Description>
+		<Authors>Ed Beach</Authors>
+		<HideSetupGame>1</HideSetupGame>
+		<AffectsSavedGames>1</AffectsSavedGames>
+		<MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+		<SupportsSinglePlayer>1</SupportsSinglePlayer>
+		<SupportsMultiplayer>0</SupportsMultiplayer>
+    <SupportsLeaderboards>1</SupportsLeaderboards>
+		<SupportsMac>1</SupportsMac>
+		<ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+		<ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+		<ReloadUnitSystem>0</ReloadUnitSystem>
+		<FiraxisScenario>1</FiraxisScenario>
+		<Custom_Background_TXT_KEY_WONDER_SCENARIO_TITLE>Scenario_AncientWonders_Small.dds</Custom_Background_TXT_KEY_WONDER_SCENARIO_TITLE>
+		<Custom_Foreground_TXT_KEY_WONDER_SCENARIO_TITLE>Scenario_AncientWonders_Symbols.dds</Custom_Foreground_TXT_KEY_WONDER_SCENARIO_TITLE>
+	</Properties>
+	<Dependencies>
+		<Dlc id="8871E748-29A4-4910-8C57-8C99E32D0167" minversion="0" maxversion="9999"/>
+		<Dlc id="BBB0D085-A0B1-4475-B007-3E549CF3ADC3" minversion="0" maxversion="9999"/>
+	</Dependencies>
+	<References/>
+	<Blocks>
+		<Dlc id="*" minversion="0" maxversion="9999"/>
+	</Blocks>
+	<Files>
+		<File md5="D6334556D6A692C9B04EEB2B5E299243" import="0">ChangeTurnIncrement.xml</File>
+		<File md5="5F51AFC41AA3AD8F447F19ABE1FAD65C" import="0">NewCivilizations.xml</File>
+		<File md5="50D0EAC2C252E02070C08D95D6343742" import="0">NewMajorCivCities.xml</File>
+		<File md5="E8EC94A5B24506E70BAB6FDAF0E3420B" import="0">NewCityStates.xml</File>
+		<File md5="FA937D40890982388F21A8DE4DBDB66C" import="0">ScenarioText.sql</File>
+		<File md5="1A393E4027F1209D0B086F9FAD6ABD76" import="0">TechTreeUpdate.xml</File>
+		<File md5="FFAF2C8D91D7DE5851573426773ADEB8" import="0">TurnsRemaining.lua</File>
+		<File md5="F23FE19BF8E420C6E93B4778DBF972F7" import="0">TurnsRemaining.xml</File>
+		<File md5="BE50DEAF6A73A3F496E0FDADF5530E93" import="0">WonderScenario.Civ5Map</File>
+		<File md5="283573CA825A3980B66ED9EF37F209C1" import="0">WonderScenarioInlandSeaMapScript.lua</File>
+		<File md5="CDB5F8D3317EEAF14384BB5CCD614BCF" import="0">WonderScenarioLoadScreen.lua</File>
+		<File md5="2079AA44A7FAB13E3A6B2587A39B8771" import="0">WonderScenarioLoadScreen.xml</File>
+		<File md5="028F3C8921618693A44C4CB72BE89161" import="1">WonderStatus.lua</File>
+		<File md5="130A4A3E7B99E5172097BA0490019402" import="1">WonderStatus.xml</File>
+    <File md5="130A4A3E7B99E5172097BA0490019402" import="0">UnitUISounds_AncientWonders.xml</File>
+
+  </Files>
+	<Actions>
+		<OnModActivated>
+			<UpdateDatabase>ChangeTurnIncrement.xml</UpdateDatabase>
+			<UpdateDatabase>NewCityStates.xml</UpdateDatabase>
+			<UpdateDatabase>ScenarioText.sql</UpdateDatabase>
+			<UpdateDatabase>NewCivilizations.xml</UpdateDatabase>
+			<UpdateDatabase>NewMajorCivCities.xml</UpdateDatabase>
+			<UpdateDatabase>TechTreeUpdate.xml</UpdateDatabase>
+		</OnModActivated>
+	</Actions>
+	<EntryPoints>
+		<EntryPoint type="InGameUIAddin" file="TurnsRemaining.xml">
+			<Name>Turns Remaining</Name>
+			<Description>Turns remaining counter</Description>
+		</EntryPoint>
+		<EntryPoint type="Custom" file="WonderScenarioLoadScreen.xml">
+			<Name>TXT_KEY_WONDER_SCENARIO_TITLE</Name>
+			<Description>TXT_KEY_WONDER_SCENARIO_DESC</Description>
+		</EntryPoint>
+	</EntryPoints>
+</Mod>

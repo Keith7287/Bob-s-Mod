@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<!-- Created by ModBuddy on 11/16/2010 12:16:20 PM -->
+<Context ColorSet="Beige_Black" Font="TwCenMT20" FontStyle="Shadow">
+	<Grid ID="Grid" Offset="0,-10" Anchor="C,T" Size="400,120" Color="White.256" Style="Grid9DetailSix140" Padding="70,60" ConsumeMouse="0">
+		<Label Anchor="L,C" Offset="25,0" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="TurnsRemainingLabel">
+			<GridButton Offset="10, 0" Font="TwCenMT16" Anchor="R,B" AnchorSide="o,i" Size="100,27" Style="SmallButton" String="TXT_KEY_WONDER_SCENARIO_BRIEFING" ID="BriefingButton"/>
+		</Label>
+		<Label Anchor="L,C" Offset="25,30" Font="TwCenMT20" ColorSet="Beige_Black_Alpha" FontStyle="Shadow" ID="WonderStatusLabel">
+			<GridButton Offset="0, 0" Font="TwCenMT16" Anchor="R,B" AnchorSide="o,i" Size="120,27" Style="SmallButton" String="TXT_KEY_WONDER_SCENARIO_WONDER_STATUS" ID="WonderStatusButton"/>
+		</Label>
+	</Grid>
+
+	<LuaContext FileName="WonderStatus" ID="WonderStatus" Hidden="1" />
+</Context>
