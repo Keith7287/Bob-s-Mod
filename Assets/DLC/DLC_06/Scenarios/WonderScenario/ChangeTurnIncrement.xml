@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<!-- Created by ModBuddy on 1/20/2011 9:24:48 AM -->
+<GameData>
+	<!-- TODO: Insert table creation example here. -->
+	<!-- TODO: Insert table data example here.-->
+	<!-- Enter your Game Data here. -->
+	<GameSpeeds>
+		<Update>
+			<Where Type="GAMESPEED_STANDARD"/>
+			<Set>
+				<ResearchPercent>200</ResearchPercent>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="GAMESPEED_STANDARD"/>
+			<Set>
+				<CulturePercent>200</CulturePercent>
+			</Set>
+		</Update>
+	</GameSpeeds>
+	<GameSpeed_Turns>
+		<Delete GameSpeedType="GAMESPEED_STANDARD"/>
+	</GameSpeed_Turns>
+	<GameSpeed_Turns>
+		<Row>
+			<GameSpeedType>GAMESPEED_STANDARD</GameSpeedType>
+			<MonthIncrement>240</MonthIncrement>
+			<TurnsPerIncrement>150</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_STANDARD</GameSpeedType>
+			<MonthIncrement>120</MonthIncrement>
+			<TurnsPerIncrement>100</TurnsPerIncrement>
+		</Row>
+		<Row>
+			<GameSpeedType>GAMESPEED_STANDARD</GameSpeedType>
+			<MonthIncrement>60</MonthIncrement>
+			<TurnsPerIncrement>300</TurnsPerIncrement>
+		</Row>
+	</GameSpeed_Turns>
+	<Defines>
+		<Update>
+			<Where Name="BARBARIAN_CAMP_ODDS_OF_NEW_CAMP_SPAWNING"/>
+			<Set>
+				<Value>1</Value>
+			</Set>
+		</Update>
+		<Update>
+			<Where Name="BARBARIAN_CAMP_MINIMUM_DISTANCE_ANOTHER_CAMP"/>
+			<Set>
+				<Value>12</Value>
+			</Set>
+		</Update>
+	</Defines>
+</GameData>
