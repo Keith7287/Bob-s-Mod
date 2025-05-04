@@ -644,7 +644,6 @@
 			<ConquestProb>66</ConquestProb>
 			<Happiness>2</Happiness>
 			<HurryCostModifier>25</HurryCostModifier>
-			<ExtraLeagueVotes>2</ExtraLeagueVotes>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<PortraitIndex>44</PortraitIndex>
 		</Row>
@@ -1426,6 +1425,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_HEROIC_EPIC_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_HEROIC_EPIC_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_HEROIC_EPIC</ArtDefineTag>
+			<TrainedFreePromotion>PROMOTION_MORALE</TrainedFreePromotion>
 			<NukeImmune>true</NukeImmune>
 			<NumCityCostMod>30</NumCityCostMod>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -1504,17 +1504,13 @@
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_EAST_INDIA_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_EAST_INDIA_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_NATIONAL_TREASURY</ArtDefineTag>
-			<EnhancedYieldTech>TECH_ECONOMICS</EnhancedYieldTech>
-			<NumTradeRouteBonus>1</NumTradeRouteBonus>
 			<NukeImmune>true</NukeImmune>
 			<NumCityCostMod>30</NumCityCostMod>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
+			<TradeRouteRecipientBonus>4</TradeRouteRecipientBonus>
+			<TradeRouteTargetBonus>2</TradeRouteTargetBonus>
 			<NeverCapture>true</NeverCapture>
-			<TradeRouteSeaDistanceModifier>50</TradeRouteSeaDistanceModifier>
-			<TradeRouteSeaGoldBonus>200</TradeRouteSeaGoldBonus>
-			<TradeRouteLandDistanceModifier>50</TradeRouteLandDistanceModifier>
-			<TradeRouteLandGoldBonus>200</TradeRouteLandGoldBonus>
 			<IconAtlas>EXPANSION2_WONDER_ATLAS</IconAtlas>
 			<PortraitIndex>0</PortraitIndex>
 		</Row>
@@ -1641,7 +1637,7 @@
 			<Quote>TXT_KEY_WONDER_GREATLIBRARY_QUOTE</Quote>
 			<ArtDefineTag>THE GREAT LIBRARY</ArtDefineTag>
 			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
-			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
@@ -1800,6 +1796,8 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
+			<GlobalPlotCultureCostModifier>-25</GlobalPlotCultureCostModifier>
+			<GlobalPlotBuyCostModifier>-25</GlobalPlotBuyCostModifier>
 			<DisplayPosition>2</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>9</PortraitIndex>
@@ -1846,7 +1844,7 @@
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
 			<Happiness>4</Happiness>
-			<GoldenAgeModifier>25</GoldenAgeModifier>
+			<GoldenAgeModifier>50</GoldenAgeModifier>
 			<DisplayPosition>4</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>12</PortraitIndex>
@@ -1889,13 +1887,13 @@
 			<Quote>TXT_KEY_WONDER_NOTREDAME_QUOTE</Quote>
 			<ArtDefineTag>NOTRE DAME</ArtDefineTag>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<UnmoddedHappiness>8</UnmoddedHappiness>
+			<UnmoddedHappiness>10</UnmoddedHappiness>
 			<DisplayPosition>1</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>10</PortraitIndex>
@@ -1965,8 +1963,6 @@
 			<Quote>TXT_KEY_WONDER_SISTINECHAPEL_QUOTE</Quote>
 			<ArtDefineTag>SISTINE CHAPEL</ArtDefineTag>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<GreatPeopleRateChange>1</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -2042,8 +2038,7 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<Happiness>8</Happiness>
-			<GoldenAgeModifier>50</GoldenAgeModifier>
+			<Happiness>4</Happiness>
 			<GoldenAge>true</GoldenAge>
 			<DisplayPosition>2</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
@@ -2087,8 +2082,6 @@
 			<Civilopedia>TXT_KEY_WONDER_LOUVRE_DESC</Civilopedia>
 			<Quote>TXT_KEY_WONDER_LOUVRE_QUOTE</Quote>
 			<ArtDefineTag>LOUVRE</ArtDefineTag>
-			<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-			<GreatPeopleRateChange>2</GreatPeopleRateChange>
 			<NukeImmune>true</NukeImmune>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
@@ -2161,7 +2154,6 @@
 			<HurryCostModifier>-1</HurryCostModifier>
 			<MinAreaSize>-1</MinAreaSize>
 			<ConquestProb>100</ConquestProb>
-			<FreePolicies>1</FreePolicies>
 			<PolicyCostModifier>-10</PolicyCostModifier>
 			<DisplayPosition>4</DisplayPosition>
 			<IconAtlas>BW_ATLAS_2</IconAtlas>
@@ -2418,7 +2410,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HERMITAGE</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HEROIC_EPIC</BuildingType>
@@ -2472,11 +2464,6 @@
 			<BuildingType>BUILDING_LOUVRE</BuildingType>
 			<UnitType>UNIT_ARTIST</UnitType>
 			<NumUnits>1</NumUnits>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_LOUVRE</BuildingType>
-			<UnitType>UNIT_ARCHAEOLOGIST</UnitType>
-			<NumUnits>2</NumUnits>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PYRAMID</BuildingType>
@@ -3511,13 +3498,13 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
-			<FlavorType>FLAVOR_RELIGION</FlavorType>
-			<Flavor>25</Flavor>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>12</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
-			<Flavor>25</Flavor>
+			<Flavor>8</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
@@ -3895,13 +3882,6 @@
 			<Flavor>5</Flavor>
 		</Row>
 	</Building_Flavors>
-	<Building_TechEnhancedYieldChanges>
-		<Row>
-			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
-		</Row>
-	</Building_TechEnhancedYieldChanges>
 	<Building_HurryModifiers>
 		<Row>
 			<BuildingType>BUILDING_BIG_BEN</BuildingType>
@@ -3995,7 +3975,7 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_HERMITAGE</BuildingType>
-			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
 			<NumBuildingNeeded>-1</NumBuildingNeeded>
 		</Row>
 	</Building_PrereqBuildingClasses>
@@ -4200,18 +4180,6 @@
 			<FeatureType>FEATURE_OASIS</FeatureType>
 			<YieldType>YIELD_GOLD</YieldType>
 			<Yield>2</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<YieldType>YIELD_CULTURE</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
-			<FeatureType>FEATURE_JUNGLE</FeatureType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
 		</Row>
 	</Building_FeatureYieldChanges>
 	<Building_UnitCombatProductionModifiers>
@@ -4498,11 +4466,6 @@
 			<Yield>1</Yield>
 		</Row>
 		<Row>
-			<BuildingType>BUILDING_ANGKOR_WAT</BuildingType>
-			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
 			<BuildingType>BUILDING_CHICHEN_ITZA</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
@@ -4610,7 +4573,7 @@
 		<Row>
 			<BuildingType>BUILDING_HAGIA_SOPHIA</BuildingType>
 			<YieldType>YIELD_FAITH</YieldType>
-			<Yield>5</Yield>
+			<Yield>3</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MACHU_PICHU</BuildingType>
@@ -4631,11 +4594,6 @@
 			<BuildingType>BUILDING_SPACESHIP_FACTORY</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>3</Yield>
-		</Row>
-		<Row>
-			<BuildingType>BUILDING_NATIONAL_TREASURY</BuildingType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>4</Yield>
 		</Row>
 	</Building_YieldChanges>
 	<Building_ThemingBonuses>
@@ -4932,12 +4890,3 @@
 	<!-- Remove UN Wonder-->
 	<DeleteMissingReferences table="Buildings" column="Type"/>
 </GameData>
->
-fiers>
-	<!-- Remove UN Wonder-->
-	<DeleteMissingReferences table="Buildings" column="Type"/>
-</GameData>
->
-singReferences table="Buildings" column="Type"/>
-</GameData>
->
