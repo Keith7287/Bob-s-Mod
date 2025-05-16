@@ -51,6 +51,9 @@ public:
 	void setupWonderGraphics();
 	void setupBuildingGraphics();
 	void setupSpaceshipGraphics();
+	void ApplySecondaryReligionFollowerBeliefs();
+	int m_iSecondaryReligionHappiness; // from follower beliefs like Asceticism
+
 
 
 	void kill();

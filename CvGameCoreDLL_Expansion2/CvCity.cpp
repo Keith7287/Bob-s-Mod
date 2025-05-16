@@ -6240,6 +6240,129 @@ void CvCity::processSpecialist(SpecialistTypes eSpecialist, int iChange)
 }
 
 //	--------------------------------------------------------------------------------
+/// Process the second most popular religion
+void CvCity::ApplySecondaryReligionFollowerBeliefs()
+{
+	const CvPlayer& kPlayer = GET_PLAYER(getOwner());
+
+	// Only apply if Religious Tolerance is active
+	PolicyTypes eReligiousTolerance = (PolicyTypes)GC.getInfoTypeForString("POLICY_RELIGIOUS_TOLERANCE");
+	if (!kPlayer.GetPlayerPolicies()->HasPolicy(eReligiousTolerance))
+		return;
+
+	ReligionTypes eSecondReligion = GetCityReligions()->GetSecondaryReligion();
+	if (eSecondReligion == NO_RELIGION)
+		return;
+
+	const CvReligion* pReligion = GC.getGame().GetGameReligions()->GetReligion(eSecondReligion, NO_PLAYER);
+	if (!pReligion)
+		return;
+
+	const CvReligionBeliefs& kBeliefs = pReligion->m_Beliefs;
+	const int iFollowers = GetCityReligions()->GetNumFollowers(eSecondReligion);
+	const int iPopulation = getPopulation();
+
+	// Reset happiness from secondary religion
+	m_iSecondaryReligionHappiness = 0;
+
+	// 1. City Yield Changes
+	for (int iYield = 0; iYield < NUM_YIELD_TYPES; ++iYield)
+	{
+		YieldTypes eYield = (YieldTypes)iYield;
+		int iAmount = 0;
+
+		iAmount += kBeliefs.GetCityYieldChange(iPopulation, eYield);
+		iAmount += kBeliefs.GetYieldChangeAnySpecialist(eYield);
+		iAmount += kBeliefs.GetYieldChangeTradeRoute(eYield);
+		iAmount += kBeliefs.GetYieldChangeWorldWonder(eYield);
+
+		if (eYield == YIELD_GOLD)
+		{
+			int iGoldPerX = kBeliefs.GetGoldPerXFollowers();
+			if (iGoldPerX > 0)
+			{
+				iAmount += (iFollowers / iGoldPerX);
+			}
+		}
+
+		if (iAmount != 0)
+		{
+			ChangeBaseYieldRateFromReligion(eYield, iAmount);
+		}
+	}
+
+	// 2. Building Yield Effects (e.g., Choral Music, Feed the World)
+	for (int iClass = 0; iClass < GC.getNumBuildingClassInfos(); ++iClass)
+	{
+		BuildingClassTypes eClass = (BuildingClassTypes)iClass;
+		BuildingTypes eBuilding = (BuildingTypes)kPlayer.getCivilizationInfo().getCivilizationBuildings(eClass);
+		if (eBuilding == NO_BUILDING || !GetCityBuildings()->GetNumBuilding(eBuilding))
+			continue;
+
+		for (int iYield = 0; iYield < NUM_YIELD_TYPES; ++iYield)
+		{
+			YieldTypes eYield = (YieldTypes)iYield;
+			int iBonus = kBeliefs.GetBuildingClassYieldChange(eClass, eYield, iFollowers);
+			if (iBonus != 0)
+			{
+				ChangeBaseYieldRateFromReligion(eYield, iBonus);
+			}
+		}
+	}
+
+	// 3. Growth Modifier (Swords into Plowshares)
+	//if (!GET_TEAM(kPlayer.getTeam()).isAtWarAny())
+	//{
+		//int iGrowthMod = kBeliefs.GetCityGrowthModifier(true);
+		//if (iGrowthMod > 0)
+		//{
+			//changeFoodKeptPercent(iGrowthMod);
+		//}
+	//}
+
+	// 4. Specialist Bonus (Guruship)
+	if (GetCityCitizens()->GetTotalSpecialistCount() > 0)
+	{
+		ChangeBaseYieldRateFromReligion(YIELD_PRODUCTION, kBeliefs.GetYieldChangeAnySpecialist(YIELD_PRODUCTION));
+	}
+
+	// 5. Happiness from Buildings (Asceticism, Religious Center, Peace Gardens)
+	for (int iClass = 0; iClass < GC.getNumBuildingClassInfos(); ++iClass)
+	{
+		BuildingClassTypes eClass = (BuildingClassTypes)iClass;
+		BuildingTypes eBuilding = (BuildingTypes)kPlayer.getCivilizationInfo().getCivilizationBuildings(eClass);
+		if (eBuilding == NO_BUILDING || !GetCityBuildings()->GetNumBuilding(eBuilding))
+			continue;
+
+		int iBonus = kBeliefs.GetBuildingClassHappiness(eClass, iFollowers);
+		if (iBonus > 0)
+		{
+			m_iSecondaryReligionHappiness += iBonus;
+		}
+	}
+
+	// 6. Asceticism: Shrine +1 Happiness if city has 3+ followers
+	if (iFollowers >= 3)
+	{
+		BuildingTypes eShrine = (BuildingTypes)GC.getInfoTypeForString("BUILDING_SHRINE");
+		if (eShrine != NO_BUILDING && GetCityBuildings()->GetNumBuilding(eShrine) > 0)
+		{
+			m_iSecondaryReligionHappiness += 1;
+		}
+	}
+
+	// 7. Religious Center: Temple +2 Happiness if city has 5+ followers
+	if (iFollowers >= 5)
+	{
+		BuildingTypes eTemple = (BuildingTypes)GC.getInfoTypeForString("BUILDING_TEMPLE");
+		if (eTemple != NO_BUILDING && GetCityBuildings()->GetNumBuilding(eTemple) > 0)
+		{
+			m_iSecondaryReligionHappiness += 2;
+		}
+	}
+}
+
+//	--------------------------------------------------------------------------------
 /// Process the majority religion changing for a city
 void CvCity::UpdateReligion(ReligionTypes eNewMajority)
 {
@@ -6248,6 +6371,7 @@ void CvCity::UpdateReligion(ReligionTypes eNewMajority)
 	// Reset city level yields
 	m_iJONSCulturePerTurnFromReligion = 0;
 	m_iFaithPerTurnFromReligion = 0;
+	m_iSecondaryReligionHappiness = 0;
 	for(int iYield = 0; iYield <= YIELD_SCIENCE; iYield++)
 	{
 		m_aiBaseYieldRateFromReligion[iYield] = 0;
@@ -6378,9 +6502,12 @@ void CvCity::UpdateReligion(ReligionTypes eNewMajority)
 						}
 					}
 				}
+
 			}
 		}
 	}
+
+	ApplySecondaryReligionFollowerBeliefs();
 
 	GET_PLAYER(getOwner()).UpdateReligion();
 }
@@ -12461,155 +12588,198 @@ bool CvCity::IsCanPurchase(bool bTestPurchaseCost, bool bTestTrainable, UnitType
 
 		// Does this city have a majority religion?
 		ReligionTypes eReligion = GetCityReligions()->GetReligiousMajority();
-		if(eReligion <= RELIGION_PANTHEON)
+		if (eReligion <= RELIGION_PANTHEON)
 		{
 			return false;
 		}
 
 		// Unit
-		if(eUnitType != NO_UNIT)
+		if (eUnitType != NO_UNIT)
 		{
 			iFaithCost = GetFaithPurchaseCost(eUnitType, true);
-			if(iFaithCost < 1)
+			if (iFaithCost < 1)
 			{
 				return false;
 			}
 
 			CvUnitEntry* pkUnitInfo = GC.getUnitInfo(eUnitType);
-			if(pkUnitInfo)
+			if (pkUnitInfo)
 			{
 				if (pkUnitInfo->IsRequiresEnhancedReligion() && !(GC.getGame().GetGameReligions()->GetReligion(eReligion, NO_PLAYER)->m_bEnhanced))
 				{
 					return false;
 				}
 
-				
 				if (pkUnitInfo->IsRequiresFaithPurchaseEnabled())
 				{
 					TechTypes ePrereqTech = (TechTypes)pkUnitInfo->GetPrereqAndTech();
+
+					bool bCanFaithBuy = false;
+
 					if (ePrereqTech == -1)
 					{
-						const CvReligion *pReligion = GC.getGame().GetGameReligions()->GetReligion(eReligion, m_eOwner);
-						if (!pReligion->m_Beliefs.IsFaithBuyingEnabled((EraTypes)0)) // Ed?
+						const CvReligion* pReligion = GC.getGame().GetGameReligions()->GetReligion(eReligion, m_eOwner);
+						if (pReligion && pReligion->m_Beliefs.IsFaithBuyingEnabled((EraTypes)0))
 						{
-							return false;
+							bCanFaithBuy = true;
 						}
-						if(!canTrain(eUnitType, false, !bTestTrainable, false /*bIgnoreCost*/, true /*bWillPurchase*/))
+						else
 						{
-							return false;
+							PolicyTypes eReligiousTolerance = (PolicyTypes)GC.getInfoTypeForString("POLICY_RELIGIOUS_TOLERANCE");
+							if (GET_PLAYER(getOwner()).GetPlayerPolicies()->HasPolicy(eReligiousTolerance))
+							{
+								ReligionTypes eSecondaryReligion = GetCityReligions()->GetSecondaryReligion();
+								if (eSecondaryReligion != NO_RELIGION && eSecondaryReligion != eReligion)
+								{
+									const CvReligion* pSecondaryReligion = GC.getGame().GetGameReligions()->GetReligion(eSecondaryReligion, NO_PLAYER);
+									if (pSecondaryReligion && pSecondaryReligion->m_Beliefs.IsFaithBuyingEnabled((EraTypes)0))
+									{
+										bCanFaithBuy = true;
+									}
+								}
+							}
 						}
 					}
 					else
 					{
-						CvTechEntry *pkTechInfo = GC.GetGameTechs()->GetEntry(ePrereqTech);
+						CvTechEntry* pkTechInfo = GC.GetGameTechs()->GetEntry(ePrereqTech);
 						if (!pkTechInfo)
 						{
 							return false;
 						}
+
+						const CvReligion* pReligion = GC.getGame().GetGameReligions()->GetReligion(eReligion, m_eOwner);
+						if (pReligion && pReligion->m_Beliefs.IsFaithBuyingEnabled((EraTypes)pkTechInfo->GetEra()))
+						{
+							bCanFaithBuy = true;
+						}
 						else
 						{
-							const CvReligion *pReligion = GC.getGame().GetGameReligions()->GetReligion(eReligion, m_eOwner);
-							if (!pReligion->m_Beliefs.IsFaithBuyingEnabled((EraTypes)pkTechInfo->GetEra()))
+							PolicyTypes eReligiousTolerance = (PolicyTypes)GC.getInfoTypeForString("POLICY_RELIGIOUS_TOLERANCE");
+							if (GET_PLAYER(getOwner()).GetPlayerPolicies()->HasPolicy(eReligiousTolerance))
 							{
-								return false;
-							}
-							if(!canTrain(eUnitType, false, !bTestTrainable, false /*bIgnoreCost*/, true /*bWillPurchase*/))
-							{
-								return false;
+								ReligionTypes eSecondaryReligion = GetCityReligions()->GetSecondaryReligion();
+								if (eSecondaryReligion != NO_RELIGION && eSecondaryReligion != eReligion)
+								{
+									const CvReligion* pSecondaryReligion = GC.getGame().GetGameReligions()->GetReligion(eSecondaryReligion, NO_PLAYER);
+									if (pSecondaryReligion && pSecondaryReligion->m_Beliefs.IsFaithBuyingEnabled((EraTypes)pkTechInfo->GetEra()))
+									{
+										bCanFaithBuy = true;
+									}
+								}
 							}
 						}
+					}
+
+					if (!bCanFaithBuy)
+					{
+						return false;
+					}
+
+					if (!canTrain(eUnitType, false, !bTestTrainable, false, true))
+					{
+						return false;
 					}
 				}
 			}
 		}
 		// Building
-		else if(eBuildingType != NO_BUILDING)
+		else if (eBuildingType != NO_BUILDING)
 		{
 			CvBuildingEntry* pkBuildingInfo = GC.GetGameBuildings()->GetEntry(eBuildingType);
- 
-			// Religion-enabled building
-			if(pkBuildingInfo && pkBuildingInfo->IsUnlockedByBelief())
+
+			if (pkBuildingInfo && pkBuildingInfo->IsUnlockedByBelief())
 			{
 				ReligionTypes eMajority = GetCityReligions()->GetReligiousMajority();
-				if(eMajority <= RELIGION_PANTHEON)
+				if (eMajority <= RELIGION_PANTHEON)
 				{
 					return false;
 				}
 				const CvReligion* pReligion = GC.getGame().GetGameReligions()->GetReligion(eMajority, getOwner());
-				if(pReligion == NULL || !pReligion->m_Beliefs.IsBuildingClassEnabled((BuildingClassTypes)pkBuildingInfo->GetBuildingClassType()))
+				bool bCanFaithBuy = false;
+
+				if (pReligion && pReligion->m_Beliefs.IsBuildingClassEnabled((BuildingClassTypes)pkBuildingInfo->GetBuildingClassType()))
+				{
+					bCanFaithBuy = true;
+				}
+				else
+				{
+					PolicyTypes eReligiousTolerance = (PolicyTypes)GC.getInfoTypeForString("POLICY_RELIGIOUS_TOLERANCE");
+					if (GET_PLAYER(getOwner()).GetPlayerPolicies()->HasPolicy(eReligiousTolerance))
+					{
+						ReligionTypes eSecondaryReligion = GetCityReligions()->GetSecondaryReligion();
+						if (eSecondaryReligion != NO_RELIGION && eSecondaryReligion != eMajority)
+						{
+							const CvReligion* pSecondaryReligion = GC.getGame().GetGameReligions()->GetReligion(eSecondaryReligion, NO_PLAYER);
+							if (pSecondaryReligion && pSecondaryReligion->m_Beliefs.IsBuildingClassEnabled((BuildingClassTypes)pkBuildingInfo->GetBuildingClassType()))
+							{
+								bCanFaithBuy = true;
+							}
+						}
+					}
+				}
+
+				if (!bCanFaithBuy)
 				{
 					return false;
 				}
 
-				if(!canConstruct(eBuildingType, false, !bTestTrainable, true /*bIgnoreCost*/))
+				if (!canConstruct(eBuildingType, false, !bTestTrainable, true))
 				{
 					return false;
 				}
 
-				if(GetCityBuildings()->GetNumBuilding(eBuildingType) > 0)
+				if (GetCityBuildings()->GetNumBuilding(eBuildingType) > 0)
 				{
 					return false;
 				}
 
 				TechTypes ePrereqTech = (TechTypes)pkBuildingInfo->GetPrereqAndTech();
-				if(ePrereqTech != NO_TECH)
+				if (ePrereqTech != NO_TECH)
 				{
-					CvTechEntry *pkTechInfo = GC.GetGameTechs()->GetEntry(ePrereqTech);
+					CvTechEntry* pkTechInfo = GC.GetGameTechs()->GetEntry(ePrereqTech);
 					if (pkTechInfo && !GET_TEAM(GET_PLAYER(getOwner()).getTeam()).GetTeamTechs()->HasTech(ePrereqTech))
 					{
 						return false;
 					}
 				}
 
-				// Does this city have prereq buildings?
 				int iNumBuildingClassInfos = GC.getNumBuildingClassInfos();
-				BuildingTypes ePrereqBuilding;
-				for(int iI = 0; iI < iNumBuildingClassInfos; iI++)
+				for (int iI = 0; iI < iNumBuildingClassInfos; iI++)
 				{
 					CvBuildingClassInfo* pkBuildingClassInfo = GC.getBuildingClassInfo((BuildingClassTypes)iI);
-					if(!pkBuildingClassInfo)
-					{
+					if (!pkBuildingClassInfo)
 						continue;
-					}
 
-					if(pkBuildingInfo->IsBuildingClassNeededInCity(iI))
+					if (pkBuildingInfo->IsBuildingClassNeededInCity(iI))
 					{
 						CvCivilizationInfo& thisCivInfo = getCivilizationInfo();
-						ePrereqBuilding = ((BuildingTypes)(thisCivInfo.getCivilizationBuildings(iI)));
-
-						if(ePrereqBuilding != NO_BUILDING)
+						BuildingTypes ePrereqBuilding = (BuildingTypes)(thisCivInfo.getCivilizationBuildings(iI));
+						if (ePrereqBuilding != NO_BUILDING && GetCityBuildings()->GetNumBuilding(ePrereqBuilding) == 0)
 						{
-							if(0 == m_pCityBuildings->GetNumBuilding(ePrereqBuilding))
-							{
-								return false;
-							}
+							return false;
 						}
 					}
 				}
 			}
 
 			iFaithCost = GetFaithPurchaseCost(eBuildingType);
-			if(iFaithCost < 1) return false;
+			if (iFaithCost < 1)
+				return false;
 		}
 
-		if(iFaithCost > 0)
+		if (iFaithCost > 0)
 		{
-			if(bTestPurchaseCost)
+			if (bTestPurchaseCost && iFaithCost > GET_PLAYER(getOwner()).GetFaith())
 			{
-				// Trying to buy something when you don't have enough faith!!
-				if(iFaithCost > GET_PLAYER(getOwner()).GetFaith())
-				{
-					return false;
-				}
+				return false;
 			}
 		}
 	}
 	break;
 	}
-
 	return true;
 }
-
 //	--------------------------------------------------------------------------------
 // purchase something at the city
 void CvCity::Purchase(UnitTypes eUnitType, BuildingTypes eBuildingType, ProjectTypes eProjectType, YieldTypes ePurchaseYield)
