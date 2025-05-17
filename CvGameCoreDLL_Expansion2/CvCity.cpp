@@ -6272,7 +6272,6 @@ void CvCity::ApplySecondaryReligionFollowerBeliefs()
 		int iAmount = 0;
 
 		iAmount += kBeliefs.GetCityYieldChange(iPopulation, eYield);
-		iAmount += kBeliefs.GetYieldChangeAnySpecialist(eYield);
 		iAmount += kBeliefs.GetYieldChangeTradeRoute(eYield);
 		iAmount += kBeliefs.GetYieldChangeWorldWonder(eYield);
 
