@@ -6241,7 +6241,7 @@ void CvCity::processSpecialist(SpecialistTypes eSpecialist, int iChange)
 
 //	--------------------------------------------------------------------------------
 /// Process the second most popular religion
-void CvCity::ApplySecondaryReligionFollowerBeliefs()
+/*void CvCity::ApplySecondaryReligionFollowerBeliefs()
 {
 	const CvPlayer& kPlayer = GET_PLAYER(getOwner());
 
@@ -6291,23 +6291,64 @@ void CvCity::ApplySecondaryReligionFollowerBeliefs()
 	}
 
 	// 2. Building Yield Effects (e.g., Choral Music, Feed the World)
-	for (int iClass = 0; iClass < GC.getNumBuildingClassInfos(); ++iClass)
-	{
-		BuildingClassTypes eClass = (BuildingClassTypes)iClass;
-		BuildingTypes eBuilding = (BuildingTypes)kPlayer.getCivilizationInfo().getCivilizationBuildings(eClass);
-		if (eBuilding == NO_BUILDING || !GetCityBuildings()->GetNumBuilding(eBuilding))
-			continue;
+	//for (int iClass = 0; iClass < GC.getNumBuildingClassInfos(); ++iClass)
+	//{
+		//BuildingClassTypes eClass = (BuildingClassTypes)iClass;
+		//BuildingTypes eBuilding = (BuildingTypes)kPlayer.getCivilizationInfo().getCivilizationBuildings(eClass);
+		//if (eBuilding == NO_BUILDING || !GetCityBuildings()->GetNumBuilding(eBuilding))
+		//	continue;
 
-		for (int iYield = 0; iYield < NUM_YIELD_TYPES; ++iYield)
-		{
-			YieldTypes eYield = (YieldTypes)iYield;
-			int iBonus = kBeliefs.GetBuildingClassYieldChange(eClass, eYield, iFollowers);
-			if (iBonus != 0)
-			{
-				ChangeBaseYieldRateFromReligion(eYield, iBonus);
-			}
-		}
-	}
+		//for (int iYield = 0; iYield < NUM_YIELD_TYPES; ++iYield)
+		//{
+		//	YieldTypes eYield = (YieldTypes)iYield;
+			//int iBonus = kBeliefs.GetBuildingClassYieldChange(eClass, eYield, iFollowers);
+		//	if (iBonus != 0)
+			//{
+			//	ChangeBaseYieldRateFromReligion(eYield, iBonus);
+			//}
+		//}
+//	}
+
+	// Buildings
+    for(int jJ = 0; jJ < GC.getNumBuildingClassInfos(); jJ++)
+    {
+        BuildingClassTypes eBuildingClass = (BuildingClassTypes)jJ;
+
+        CvBuildingClassInfo* pkBuildingClassInfo = GC.getBuildingClassInfo(eBuildingClass);
+        if(!pkBuildingClassInfo)
+        {
+            continue;
+        }
+
+        CvCivilizationInfo& playerCivilizationInfo = getCivilizationInfo();
+        BuildingTypes eBuilding = (BuildingTypes)playerCivilizationInfo.getCivilizationBuildings(eBuildingClass);
+
+        if(eBuilding != NO_BUILDING)
+        {
+            if(GetCityBuildings()->GetNumBuilding(eBuilding) > 0)
+            {
+                int iYieldFromBuilding = pReligion->m_Beliefs.GetBuildingClassYieldChange(eBuildingClass, (YieldTypes)iYield, iFollowers);
+
+                if (isWorldWonderClass(*pkBuildingClassInfo))
+                {
+                    iYieldFromBuilding += pReligion->m_Beliefs.GetYieldChangeWorldWonder((YieldTypes)iYield);
+                }
+
+                switch(iYield)
+                {
+                case YIELD_CULTURE:
+                    ChangeJONSCulturePerTurnFromReligion(iYieldFromBuilding);
+                    break;
+                case YIELD_FAITH:
+                    ChangeFaithPerTurnFromReligion(iYieldFromBuilding);
+                    break;
+                default:
+                    ChangeBaseYieldRateFromReligion((YieldTypes)iYield, iYieldFromBuilding);
+                    break;
+                }
+            }
+        }
+    }
 
 	// 3. Growth Modifier (Swords into Plowshares)
 	//if (!GET_TEAM(kPlayer.getTeam()).isAtWarAny())
@@ -6359,6 +6400,176 @@ void CvCity::ApplySecondaryReligionFollowerBeliefs()
 			m_iSecondaryReligionHappiness += 2;
 		}
 	}
+}*/
+
+
+//	--------------------------------------------------------------------------------
+/// Process the second most popular religion
+void CvCity::ApplySecondaryReligionFollowerBeliefs()
+{
+	const CvPlayer& kPlayer = GET_PLAYER(getOwner());
+
+	// Only apply if Religious Tolerance is active
+	PolicyTypes eReligiousTolerance = (PolicyTypes)GC.getInfoTypeForString("POLICY_RELIGIOUS_TOLERANCE");
+	if (!kPlayer.GetPlayerPolicies()->HasPolicy(eReligiousTolerance))
+		return;
+
+	ReligionTypes eSecondReligion = GetCityReligions()->GetSecondaryReligion();
+	if (eSecondReligion == NO_RELIGION)
+		return;
+
+	const CvReligion* pReligion = GC.getGame().GetGameReligions()->GetReligion(eSecondReligion, NO_PLAYER);
+	if (!pReligion)
+		return;
+
+	const CvReligionBeliefs& kBeliefs = pReligion->m_Beliefs;
+	const int iFollowers = GetCityReligions()->GetNumFollowers(eSecondReligion);
+	const int iPopulation = getPopulation();
+
+	updateYield();
+
+	// Reset city level yields
+	m_iJONSCulturePerTurnFromReligion = 0;
+	m_iFaithPerTurnFromReligion = 0;
+	m_iSecondaryReligionHappiness = 0;
+	for(int iYield = 0; iYield <= YIELD_SCIENCE; iYield++)
+	{
+		m_aiBaseYieldRateFromReligion[iYield] = 0;
+	}
+
+	for(int iYield = 0; iYield < NUM_YIELD_TYPES; iYield++)
+	{
+		int iYieldPerReligion = GetYieldPerReligionTimes100((YieldTypes)iYield);
+		if (iYieldPerReligion > 0)
+		{
+			switch(iYield)
+			{
+				case YIELD_CULTURE:
+					ChangeJONSCulturePerTurnFromReligion((GetCityReligions()->GetNumReligionsWithFollowers() * iYieldPerReligion) / 100);
+					break;
+				case YIELD_FAITH:
+					ChangeFaithPerTurnFromReligion((GetCityReligions()->GetNumReligionsWithFollowers() * iYieldPerReligion) / 100);
+					break;
+				default:
+					ChangeBaseYieldRateFromReligion((YieldTypes)iYield, (GetCityReligions()->GetNumReligionsWithFollowers() * iYieldPerReligion) / 100);
+					break;
+			}
+		}
+
+		if(eSecondReligion != NO_RELIGION)
+		{
+			const CvReligion* pReligion = GC.getGame().GetGameReligions()->GetReligion(eSecondReligion, getOwner());
+			if(pReligion)
+			{
+				int iFollowers = GetCityReligions()->GetNumFollowers(eSecondReligion);
+
+				int iReligionYieldChange = pReligion->m_Beliefs.GetCityYieldChange(getPopulation(), (YieldTypes)iYield);
+				BeliefTypes eSecondaryPantheon = GetCityReligions()->GetSecondaryReligionPantheonBelief();
+				if (eSecondaryPantheon != NO_BELIEF && getPopulation() >= GC.GetGameBeliefs()->GetEntry(eSecondaryPantheon)->GetMinPopulation())
+				{
+					iReligionYieldChange += GC.GetGameBeliefs()->GetEntry(eSecondaryPantheon)->GetCityYieldChange((YieldTypes)iYield);
+				}
+
+				switch(iYield)
+				{
+				case YIELD_CULTURE:
+					ChangeJONSCulturePerTurnFromReligion(iReligionYieldChange);
+					break;
+				case YIELD_FAITH:
+					ChangeFaithPerTurnFromReligion(iReligionYieldChange);
+					break;
+				default:
+					ChangeBaseYieldRateFromReligion((YieldTypes)iYield, iReligionYieldChange);
+					break;
+				}
+
+				if(IsRouteToCapitalConnected())
+				{
+					int iReligionChange = pReligion->m_Beliefs.GetYieldChangeTradeRoute((YieldTypes)iYield);
+					//BeliefTypes eSecondaryPantheon = GetCityReligions()->GetSecondaryReligionPantheonBelief();
+					if (eSecondaryPantheon != NO_BELIEF)
+					{
+						iReligionChange += GC.GetGameBeliefs()->GetEntry(eSecondaryPantheon)->GetYieldChangeTradeRoute((YieldTypes)iYield);
+					}
+
+					switch(iYield)
+					{
+					case YIELD_CULTURE:
+						ChangeJONSCulturePerTurnFromReligion(iReligionChange);
+						break;
+					case YIELD_FAITH:
+						ChangeFaithPerTurnFromReligion(iReligionChange);
+						break;
+					default:
+						ChangeBaseYieldRateFromReligion((YieldTypes)iYield, iReligionChange);
+						break;
+					}
+				}
+				
+				if (GetCityCitizens()->GetTotalSpecialistCount() > 0)
+				{
+					switch(iYield)
+					{
+					case YIELD_CULTURE:
+						ChangeJONSCulturePerTurnFromReligion(pReligion->m_Beliefs.GetYieldChangeAnySpecialist((YieldTypes)iYield));
+						break;
+					case YIELD_FAITH:
+						ChangeFaithPerTurnFromReligion(pReligion->m_Beliefs.GetYieldChangeAnySpecialist((YieldTypes)iYield));
+						break;
+					default:
+						ChangeBaseYieldRateFromReligion((YieldTypes)iYield, pReligion->m_Beliefs.GetYieldChangeAnySpecialist((YieldTypes)iYield));
+						break;
+					}
+				}
+
+				// Buildings
+				for(int jJ = 0; jJ < GC.getNumBuildingClassInfos(); jJ++)
+				{
+					BuildingClassTypes eBuildingClass = (BuildingClassTypes)jJ;
+
+					CvBuildingClassInfo* pkBuildingClassInfo = GC.getBuildingClassInfo(eBuildingClass);
+					if(!pkBuildingClassInfo)
+					{
+						continue;
+					}
+
+					CvCivilizationInfo& playerCivilizationInfo = getCivilizationInfo();
+					BuildingTypes eBuilding = (BuildingTypes)playerCivilizationInfo.getCivilizationBuildings(eBuildingClass);
+
+					if(eBuilding != NO_BUILDING)
+					{
+						if(GetCityBuildings()->GetNumBuilding(eBuilding) > 0)
+						{
+							int iYieldFromBuilding = pReligion->m_Beliefs.GetBuildingClassYieldChange(eBuildingClass, (YieldTypes)iYield, iFollowers);
+
+							if (isWorldWonderClass(*pkBuildingClassInfo))
+							{
+								iYieldFromBuilding += pReligion->m_Beliefs.GetYieldChangeWorldWonder((YieldTypes)iYield);
+							}
+
+							switch(iYield)
+							{
+							case YIELD_CULTURE:
+								ChangeJONSCulturePerTurnFromReligion(iYieldFromBuilding);
+								break;
+							case YIELD_FAITH:
+								ChangeFaithPerTurnFromReligion(iYieldFromBuilding);
+								break;
+							default:
+								ChangeBaseYieldRateFromReligion((YieldTypes)iYield, iYieldFromBuilding);
+								break;
+							}
+						}
+					}
+				}
+
+			}
+		}
+	}
+
+	ApplySecondaryReligionFollowerBeliefs();
+
+	GET_PLAYER(getOwner()).UpdateReligion();
 }
 
 //	--------------------------------------------------------------------------------
