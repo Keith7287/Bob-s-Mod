@@ -896,7 +896,6 @@
 			<OneShot>true</OneShot>
 			<GridX>2</GridX>
 			<GridY>1</GridY>
-			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
 			<MedianTechPercentChange>25</MedianTechPercentChange>
 			<PortraitIndex>53</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
@@ -3723,11 +3722,6 @@
 			<Count>1</Count>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_SCIENTIFIC_REVOLUTION</PolicyType>
-			<UnitClassType>UNITCLASS_SCIENTIST</UnitClassType>
-			<Count>1</Count>
-		</Row>
-		<Row>
 			<PolicyType>POLICY_COLLECTIVE_RULE</PolicyType>
 			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
 			<Count>1</Count>
@@ -3767,6 +3761,17 @@
 		<Row>
 			<PolicyType>POLICY_FUTURISM</PolicyType>
 			<UnitClassType>UNITCLASS_MUSICIAN</UnitClassType>
+			<Tourism>250</Tourism>
+		</Row>
+	</Policy_TourismOnUnitCreation>
+</GameData>
+/Row>
+	</Policy_TourismOnUnitCreation>
+</GameData>
+Row>
+	</Policy_TourismOnUnitCreation>
+</GameData>
+SICIAN</UnitClassType>
 			<Tourism>250</Tourism>
 		</Row>
 	</Policy_TourismOnUnitCreation>
