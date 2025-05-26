@@ -479,7 +479,7 @@
 			<CultureCost>10</CultureCost>
 			<GridX>2</GridX>
 			<GridY>3</GridY>
-			<CapitalGrowthMod>5</CapitalGrowthMod>
+			<CapitalGrowthMod>3</CapitalGrowthMod>
 			<PortraitIndex>58</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -828,7 +828,6 @@
 			<Description>TXT_KEY_POLICY_BRANCH_RATIONALISM</Description>
 			<Civilopedia>TXT_KEY_POLICY_RATIONALISM_TEXT</Civilopedia>
 			<Help>TXT_KEY_POLICY_RATIONALISM_HELP</Help>
-			<HappinessToScience>10</HappinessToScience>
 			<PortraitIndex>48</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -841,7 +840,7 @@
 			<PolicyBranchType>POLICY_BRANCH_RATIONALISM</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<GridX>2</GridX>
-			<GridY>1</GridY>
+			<GridY>3</GridY>
 			<PortraitIndex>49</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -869,6 +868,7 @@
 			<CultureCost>10</CultureCost>
 			<GridX>4</GridX>
 			<GridY>2</GridY>
+			<HappinessToScience>10</HappinessToScience>
 			<PortraitIndex>51</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -895,7 +895,8 @@
 			<CultureCost>10</CultureCost>
 			<OneShot>true</OneShot>
 			<GridX>2</GridX>
-			<GridY>3</GridY>
+			<GridY>1</GridY>
+			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
 			<MedianTechPercentChange>25</MedianTechPercentChange>
 			<PortraitIndex>53</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
@@ -904,7 +905,7 @@
 		<Row>
 			<Type>POLICY_TRADITION_FINISHER</Type>
 			<Description>TXT_KEY_POLICY_BRANCH_TRADITION</Description>
-			<CityGrowthMod>5</CityGrowthMod>
+			<CityGrowthMod>2</CityGrowthMod>
 			<NumCitiesFreeFoodBuilding>4</NumCitiesFreeFoodBuilding>
 		</Row>
 		<Row>
@@ -2102,6 +2103,31 @@
 			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
 			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RATIONALISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RATIONALISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RATIONALISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PUBLIC_SCHOOL</BuildingClassType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RATIONALISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_OBSERVATORY</BuildingClassType>
+			<ProductionModifier>25</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_RATIONALISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
+			<ProductionModifier>25</ProductionModifier>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_SOCIALIST_REALISM</PolicyType>
@@ -3565,12 +3591,16 @@
 			<PrereqPolicy>POLICY_HUMANISM</PrereqPolicy>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_SOVEREIGNTY</PolicyType>
-			<PrereqPolicy>POLICY_SECULARISM</PrereqPolicy>
+			<PolicyType>POLICY_SECULARISM</PolicyType>
+			<PrereqPolicy>POLICY_SOVEREIGNTY</PrereqPolicy>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_SCIENTIFIC_REVOLUTION</PolicyType>
-			<PrereqPolicy>POLICY_SOVEREIGNTY</PrereqPolicy>
+			<PolicyType>POLICY_SECULARISM</PolicyType>
+			<PrereqPolicy>POLICY_FREE_THOUGHT</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_SOVEREIGNTY</PolicyType>
+			<PrereqPolicy>POLICY_SCIENTIFIC_REVOLUTION</PrereqPolicy>
 		</Row>
 	</Policy_PrereqPolicies>
 	<Policy_FreePromotions>
@@ -3693,6 +3723,11 @@
 			<Count>1</Count>
 		</Row>
 		<Row>
+			<PolicyType>POLICY_SCIENTIFIC_REVOLUTION</PolicyType>
+			<UnitClassType>UNITCLASS_SCIENTIST</UnitClassType>
+			<Count>1</Count>
+		</Row>
+		<Row>
 			<PolicyType>POLICY_COLLECTIVE_RULE</PolicyType>
 			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
 			<Count>1</Count>
@@ -3737,5 +3772,8 @@
 	</Policy_TourismOnUnitCreation>
 </GameData>
 /Row>
+	</Policy_TourismOnUnitCreation>
+</GameData>
+Row>
 	</Policy_TourismOnUnitCreation>
 </GameData>
