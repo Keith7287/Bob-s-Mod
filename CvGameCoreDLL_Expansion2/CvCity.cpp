@@ -6384,7 +6384,7 @@ void CvCity::UpdateReligion(ReligionTypes eNewMajority)
 	}
 
 	// Process secondary religion follower beliefs if player has Religious Tolerance
-	PolicyTypes eTolerance = (PolicyTypes)GC.getInfoTypeForString("POLICY_RELIGIOUS_TOLERANCE");
+	/*PolicyTypes eTolerance = (PolicyTypes)GC.getInfoTypeForString("POLICY_RELIGIOUS_TOLERANCE");
 	if (GET_PLAYER(getOwner()).GetPlayerPolicies()->HasPolicy(eTolerance))
 	{
 		ReligionTypes eSecondary = GetCityReligions()->GetSecondaryReligion();
@@ -6486,7 +6486,7 @@ void CvCity::UpdateReligion(ReligionTypes eNewMajority)
 				}
 			}
 		}
-	}
+	}*/
 
 	GET_PLAYER(getOwner()).UpdateReligion();
 }
