@@ -1462,10 +1462,12 @@ bool CvUnit::getCaptureDefinition(CvUnitCaptureDefinition* pkCaptureDef, PlayerT
 	// Barbs captured this unit, or a player capturing this unit from the barbs
 	else if(isBarbarian() || (kCaptureDef.eCapturingPlayer != NO_PLAYER && GET_PLAYER(kCaptureDef.eCapturingPlayer).isBarbarian()))
 	{
-		// Must be able to capture this unit normally... don't want the barbs picking up Workboats, Generals, etc.
-		if(kCaptureDef.eCapturingPlayer != NO_PLAYER && getCaptureUnitType(GET_PLAYER(kCaptureDef.eCapturingPlayer).getCivilizationType()) != NO_UNIT)
-			// Unit type is the same as what it was
-			kCaptureDef.eCaptureUnitType = getUnitType();
+		if(kCaptureDef.eCapturingPlayer != NO_PLAYER)
+		{
+			UnitTypes eCaptureType = getCaptureUnitType(GET_PLAYER(kCaptureDef.eCapturingPlayer).getCivilizationType());
+			if(eCaptureType != NO_UNIT)
+				kCaptureDef.eCaptureUnitType = eCaptureType;
+		}
 	}
 
 	// Barbs not involved
@@ -1505,132 +1507,127 @@ bool CvUnit::getCaptureDefinition(CvUnitCaptureDefinition* pkCaptureDef, PlayerT
 {
 	CvUnit* pkCapturedUnit = NULL;
 
-	if(kCaptureDef.eCapturingPlayer != NO_PLAYER && kCaptureDef.eCaptureUnitType != NO_UNIT)
+	// Guard against invalid capture definitions
+	if (kCaptureDef.eCapturingPlayer == NO_PLAYER || kCaptureDef.eCaptureUnitType == NO_UNIT)
+		return NULL;
+
+	CvPlot* pkPlot = GC.getMap().plot(kCaptureDef.iX , kCaptureDef.iY);
+	if (pkPlot)
 	{
-		CvPlot* pkPlot = GC.getMap().plot(kCaptureDef.iX , kCaptureDef.iY);
-		if(pkPlot)
+		CvPlayerAI& kCapturingPlayer = GET_PLAYER(kCaptureDef.eCapturingPlayer);
+		if (kCapturingPlayer.isHuman() || kCapturingPlayer.AI_captureUnit(kCaptureDef.eCaptureUnitType, pkPlot) || GC.getAI_CAN_DISBAND_UNITS() == 0)
 		{
-			CvPlayerAI& kCapturingPlayer = GET_PLAYER(kCaptureDef.eCapturingPlayer);
-			if(kCapturingPlayer.isHuman() || kCapturingPlayer.AI_captureUnit(kCaptureDef.eCaptureUnitType, pkPlot) || 0 == GC.getAI_CAN_DISBAND_UNITS())
+			pkCapturedUnit = kCapturingPlayer.initUnit(kCaptureDef.eCaptureUnitType, kCaptureDef.iX, kCaptureDef.iY);
+
+			if (pkCapturedUnit != NULL)
 			{
-				pkCapturedUnit = kCapturingPlayer.initUnit(kCaptureDef.eCaptureUnitType, kCaptureDef.iX, kCaptureDef.iY);
+				pkCapturedUnit->GetReligionData()->SetReligion(kCaptureDef.eReligion);
+				pkCapturedUnit->GetReligionData()->SetReligiousStrength(kCaptureDef.iReligiousStrength);
+				pkCapturedUnit->GetReligionData()->SetSpreadsLeft(kCaptureDef.iSpreadsLeft);
 
-				if(pkCapturedUnit != NULL)
+				pkCapturedUnit->SetOriginalOwner(kCaptureDef.eOriginalOwner);
+
+				if (GC.getLogging() && GC.getAILogging())
 				{
-					pkCapturedUnit->GetReligionData()->SetReligion(kCaptureDef.eReligion);
-					pkCapturedUnit->GetReligionData()->SetReligiousStrength(kCaptureDef.iReligiousStrength);
-					pkCapturedUnit->GetReligionData()->SetSpreadsLeft(kCaptureDef.iSpreadsLeft);
+					CvString szMsg;
+					szMsg.Format("Captured: %s, Enemy was: %s",
+						GC.getUnitInfo(kCaptureDef.eOldType)->GetDescription(),
+						kCapturingPlayer.getCivilizationShortDescription());
+					GET_PLAYER(kCaptureDef.eOldPlayer).GetTacticalAI()->LogTacticalMessage(szMsg, true);
+				}
 
-					pkCapturedUnit->SetOriginalOwner(kCaptureDef.eOriginalOwner);
-
-					if(GC.getLogging() && GC.getAILogging())
+				if (kCaptureDef.bEmbarked)
+				{
+					auto_ptr<ICvUnit1> pDllUnit(new CvDllUnit(pkCapturedUnit));
+					gDLL->GameplayUnitEmbark(pDllUnit.get(), true);
+					pkCapturedUnit->setEmbarked(true);
+					if (!pkCapturedUnit->jumpToNearestValidPlot())
 					{
-						CvString szMsg;
-						szMsg.Format("Captured: %s, Enemy was: %s", GC.getUnitInfo(kCaptureDef.eOldType)->GetDescription(), kCapturingPlayer.getCivilizationShortDescription());
-						GET_PLAYER(kCaptureDef.eOldPlayer).GetTacticalAI()->LogTacticalMessage(szMsg, true /*bSkipLogDominanceZone*/);
+						pkCapturedUnit->kill(true);
+						pkCapturedUnit = NULL;
 					}
+				}
 
-					if(kCaptureDef.bEmbarked)
+				bool bDisbanded = false;
+				if (pkCapturedUnit != NULL)
+				{
+					pkCapturedUnit->finishMoves();
+
+					// Minor civs can't capture settlers
+					if (!bDisbanded &&
+						GET_PLAYER(pkCapturedUnit->getOwner()).isMinorCiv() &&
+						(pkCapturedUnit->isFound() || pkCapturedUnit->IsFoundAbroad()))
 					{
-						auto_ptr<ICvUnit1> pDllUnit(new CvDllUnit(pkCapturedUnit));
-						gDLL->GameplayUnitEmbark(pDllUnit.get(), true);
-						pkCapturedUnit->setEmbarked(true);
-						if (!pkCapturedUnit->jumpToNearestValidPlot())
-						{
-							pkCapturedUnit->kill(true);
-							pkCapturedUnit = NULL;
-						}
+						bDisbanded = true;
+						pkCapturedUnit->kill(false);
+						pkCapturedUnit = NULL;
 					}
+				}
 
-					bool bDisbanded = false;
-					if (pkCapturedUnit != NULL)
+				// Handle return to owner popup
+				if (!kCaptureDef.bAsIs && pkCapturedUnit != NULL)
+				{
+					bool bShowHumanPopup = true;
+					bool bShowActivePlayerPopup = true;
+
+					if (GC.getGame().getActivePlayer() != kCaptureDef.eCapturingPlayer)
+						bShowActivePlayerPopup = false;
+
+					if (!GET_PLAYER(kCaptureDef.eOriginalOwner).isAlive())
+						bShowHumanPopup = false;
+					else if (kCaptureDef.eOriginalOwner == kCaptureDef.eCapturingPlayer)
+						bShowHumanPopup = false;
+					else if (GET_TEAM(GET_PLAYER(kCaptureDef.eOriginalOwner).getTeam()).isAtWar(kCapturingPlayer.getTeam()))
+						bShowHumanPopup = false;
+					else if (!GET_TEAM(GET_PLAYER(kCaptureDef.eOriginalOwner).getTeam()).isHasMet(kCapturingPlayer.getTeam()))
+						bShowHumanPopup = false;
+
+					if (bShowHumanPopup && bShowActivePlayerPopup)
 					{
-						pkCapturedUnit->finishMoves();
-
-						// Minor civs can't capture settlers, ever!
-						if(!bDisbanded && GET_PLAYER(pkCapturedUnit->getOwner()).isMinorCiv() && (pkCapturedUnit->isFound() || pkCapturedUnit->IsFoundAbroad()))
-						{
-							bDisbanded = true;
-							pkCapturedUnit->kill(false);
-							pkCapturedUnit = NULL;
-						}
+						CvPopupInfo kPopupInfo(BUTTONPOPUP_RETURN_CIVILIAN,
+							kCaptureDef.eCapturingPlayer,
+							kCaptureDef.eOriginalOwner,
+							pkCapturedUnit->GetID());
+						DLLUI->AddPopup(kPopupInfo);
+						if (kCapturingPlayer.isLocalPlayer())
+							CancelActivePlayerEndTurn();
 					}
-
-					// Captured civilian who could be returned?
-					if(!kCaptureDef.bAsIs)
+					else if (!bShowHumanPopup && !bDisbanded && !pkCapturedUnit->isBarbarian())
 					{
-						bool bShowingHumanPopup = true;
-						bool bShowingActivePlayerPopup = true;
+						if (kCaptureDef.eCapturingPlayer != kCaptureDef.eOriginalOwner)
+							kCapturingPlayer.DoCivilianReturnLogic(false, kCaptureDef.eOriginalOwner, pkCapturedUnit->GetID());
+					}
+					else if (kCapturingPlayer.GetPlayerTraits()->IsNoAnnexing())
+					{
+						if (kCaptureDef.eCapturingPlayer != kCaptureDef.eOriginalOwner)
+							kCapturingPlayer.DoCivilianReturnLogic(false, kCaptureDef.eOriginalOwner, pkCapturedUnit->GetID());
+					}
+				}
+				else if (pkCapturedUnit != NULL)
+				{
+					int iCapturedHealth = (pkCapturedUnit->GetMaxHitPoints() * GC.getCOMBAT_CAPTURE_HEALTH()) / 100;
+					pkCapturedUnit->setDamage(iCapturedHealth);
+				}
 
-						// Only active player gets the choice
-						if(GC.getGame().getActivePlayer() != kCaptureDef.eCapturingPlayer)
-						{
-							bShowingActivePlayerPopup = false;
-						}
-
-						// Original owner is dead!
-						if(!GET_PLAYER(kCaptureDef.eOriginalOwner).isAlive())
-							bShowingHumanPopup = false;
-
-						// If original owner
-						else if(kCaptureDef.eOriginalOwner == kCaptureDef.eCapturingPlayer)
-							bShowingHumanPopup = false;
-
-						// Players at war
-						else if(GET_TEAM(GET_PLAYER(kCaptureDef.eOriginalOwner).getTeam()).isAtWar(kCapturingPlayer.getTeam()))
-							bShowingHumanPopup = false;
-
-						// Players haven't met
-						else if(!GET_TEAM(GET_PLAYER(kCaptureDef.eOriginalOwner).getTeam()).isHasMet(kCapturingPlayer.getTeam()))
-							bShowingHumanPopup = false;
-
-						// Show the popup
-						if(bShowingHumanPopup && bShowingActivePlayerPopup && pkCapturedUnit)
-						{
-							CvPopupInfo kPopupInfo(BUTTONPOPUP_RETURN_CIVILIAN, kCaptureDef.eCapturingPlayer, kCaptureDef.eOriginalOwner, pkCapturedUnit->GetID());
-							DLLUI->AddPopup(kPopupInfo);
-							// We are adding a popup that the player must make a choice in, make sure they are not in the end-turn phase.
-							if (kCapturingPlayer.isLocalPlayer())
-								CancelActivePlayerEndTurn();
-						}
-
-						// Take it automatically!
-						else if(!bShowingHumanPopup && !bDisbanded && pkCapturedUnit != NULL && !pkCapturedUnit->isBarbarian())	// Don't process if the AI decided to disband the unit, or the barbs captured something
-						{
-							// If the unit originally belonged to us, we've already done what we needed to do
-							if(kCaptureDef.eCapturingPlayer != kCaptureDef.eOriginalOwner)
-								kCapturingPlayer.DoCivilianReturnLogic(false, kCaptureDef.eOriginalOwner, pkCapturedUnit->GetID());
-						}
-						// if Venice
-						else if (kCapturingPlayer.GetPlayerTraits()->IsNoAnnexing())
-						{
-							// If the unit originally belonged to us, we've already done what we needed to do
-							if(kCaptureDef.eCapturingPlayer != kCaptureDef.eOriginalOwner)
-								kCapturingPlayer.DoCivilianReturnLogic(false, kCaptureDef.eOriginalOwner, pkCapturedUnit->GetID());
-						}
+				if (kCaptureDef.eCapturingPlayer == GC.getGame().getActivePlayer() && pkCapturedUnit != NULL)
+				{
+					CvString strBuffer;
+					if (kCaptureDef.eOriginalOwner == kCaptureDef.eCapturingPlayer)
+					{
+						strBuffer = GetLocalizedText("TXT_KEY_MISC_YOU_RECAPTURED_UNIT",
+							GC.getUnitInfo(kCaptureDef.eCaptureUnitType)->GetTextKey());
 					}
 					else
 					{
-						// restore combat units at some percentage of their original health
-						if (pkCapturedUnit != NULL)
-						{
-							int iCapturedHealth = (pkCapturedUnit->GetMaxHitPoints() * GC.getCOMBAT_CAPTURE_HEALTH()) / 100;
-							pkCapturedUnit->setDamage(iCapturedHealth);
-						}
+						strBuffer = GetLocalizedText("TXT_KEY_MISC_YOU_CAPTURED_UNIT",
+							GC.getUnitInfo(kCaptureDef.eCaptureUnitType)->GetTextKey());
 					}
-
-					if(kCaptureDef.eCapturingPlayer == GC.getGame().getActivePlayer())
-					{
-						CvString strBuffer;
-						if(kCaptureDef.eOriginalOwner == kCaptureDef.eCapturingPlayer){
-							//player recaptured a friendly unit
-							strBuffer = GetLocalizedText("TXT_KEY_MISC_YOU_RECAPTURED_UNIT", GC.getUnitInfo(kCaptureDef.eCaptureUnitType)->GetTextKey());
-						}
-						else{
-							strBuffer = GetLocalizedText("TXT_KEY_MISC_YOU_CAPTURED_UNIT", GC.getUnitInfo(kCaptureDef.eCaptureUnitType)->GetTextKey());
-						}
-						DLLUI->AddUnitMessage(0, IDInfo(kCaptureDef.eCapturingPlayer, pkCapturedUnit->GetID()), kCaptureDef.eCapturingPlayer, true, GC.getEVENT_MESSAGE_TIME(), strBuffer/*, "AS2D_UNITCAPTURE", MESSAGE_TYPE_INFO, GC.getUnitInfo(eCaptureUnitType)->GetButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pPlot->getX(), pPlot->getY()*/);
-					}
+					DLLUI->AddUnitMessage(0,
+						IDInfo(kCaptureDef.eCapturingPlayer, pkCapturedUnit->GetID()),
+						kCaptureDef.eCapturingPlayer,
+						true,
+						GC.getEVENT_MESSAGE_TIME(),
+						strBuffer);
 				}
 			}
 		}
@@ -9432,19 +9429,57 @@ bool CvUnit::IsGreatPerson() const
 }
 
 //	--------------------------------------------------------------------------------
-UnitTypes CvUnit::getCaptureUnitType(CivilizationTypes eCivilization) const
+void CvUnit::LogPioneerCapture(const char* szMessage) const
 {
-	VALIDATE_OBJECT
-	CvAssert(eCivilization != NO_CIVILIZATION);
-	CvCivilizationInfo* pkCivilizationInfo = GC.getCivilizationInfo(eCivilization);
-	if(pkCivilizationInfo == NULL)
+	if (GC.getLogging())
 	{
-		return NO_UNIT;
+		FILogFile* pLog = LOGFILEMGR.GetLog("PioneerCaptureLog.csv", FILogFile::kDontTimeStamp);
+		if (pLog)
+		{
+			pLog->Msg(szMessage);
+		}
 	}
-
-	return ((m_pUnitInfo->GetUnitCaptureClassType() == NO_UNITCLASS) ? NO_UNIT : (UnitTypes)pkCivilizationInfo->getCivilizationUnits(getUnitInfo().GetUnitCaptureClassType()));
 }
 
+//	--------------------------------------------------------------------------------
+UnitTypes CvUnit::getCaptureUnitType(CivilizationTypes eCiv) const
+{
+	CvAssert(eCiv != NO_CIVILIZATION);
+	const CvCivilizationInfo* pkCiv = GC.getCivilizationInfo(eCiv);
+	if (!pkCiv)
+		return (UnitTypes)NO_UNIT;
+
+	if (getUnitType() == GC.getInfoTypeForString("UNIT_PIONEER"))
+	{
+		PlayerTypes eCapturingPlayer = getCapturingPlayer();
+		PlayerTypes eOriginalOwner = GetOriginalOwner();
+		PlayerTypes eCurrentOwner = getOwner();
+
+		if (eCapturingPlayer == NO_PLAYER)
+			return (UnitTypes)NO_UNIT;
+
+		const CvPlayer& kCapturingPlayer = GET_PLAYER(eCapturingPlayer);
+
+		if (eCapturingPlayer == eOriginalOwner || kCapturingPlayer.isBarbarian())
+		{
+			return (UnitTypes)GC.getInfoTypeForString("UNIT_PIONEER");
+		}
+
+		return (UnitTypes)kCapturingPlayer.getCivilizationInfo().getCivilizationUnits(GC.getInfoTypeForString("UNITCLASS_WORKER"));
+	}
+	else
+	{
+		const CvUnitEntry* pInfo = GC.getUnitInfo(getUnitType());
+		if (!pInfo)
+			return (UnitTypes)NO_UNIT;
+
+		UnitClassTypes eCaptureClass = (UnitClassTypes)pInfo->GetUnitCaptureClassType();
+		if (eCaptureClass == NO_UNITCLASS)
+			return (UnitTypes)NO_UNIT;
+
+		return (UnitTypes)pkCiv->getCivilizationUnits(eCaptureClass);
+	}
+}
 
 //	--------------------------------------------------------------------------------
 UnitCombatTypes CvUnit::getUnitCombatType() const
@@ -9872,19 +9907,19 @@ bool CvUnit::isBlastTourism() const
 bool CvUnit::canCoexistWithEnemyUnit(TeamTypes eTeam) const
 {
 	VALIDATE_OBJECT
-	if(NO_TEAM == eTeam)
+
+	if (NO_TEAM == eTeam)
 	{
 		return false;
 	}
 
-	if(isInvisible(eTeam, false))
+	if (isInvisible(eTeam, false))
 	{
 		return true;
 	}
 
 	return false;
 }
-
 
 //	--------------------------------------------------------------------------------
 int CvUnit::getMustSetUpToRangedAttackCount() const

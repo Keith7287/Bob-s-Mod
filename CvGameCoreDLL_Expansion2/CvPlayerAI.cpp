@@ -345,15 +345,20 @@ void CvPlayerAI::AI_conquerCity(CvCity* pCity, PlayerTypes eOldOwner)
 	}
 }
 
-bool CvPlayerAI::AI_captureUnit(UnitTypes, CvPlot* pPlot)
+bool CvPlayerAI::AI_captureUnit(UnitTypes eUnit, CvPlot* pPlot)
 {
 	CvCity* pNearestCity;
 
 	CvAssert(!isHuman());
 
-	// Barbs always capture
+	// Force barbs to capture Pioneers
 	if (isBarbarian())
-		return true;
+	{
+		if (eUnit == GC.getInfoTypeForString("UNIT_PIONEER"))
+			return true;
+
+		return true; // fallback for other units
+	}
 
 	// we own it
 	if (pPlot->getTeam() == getTeam())

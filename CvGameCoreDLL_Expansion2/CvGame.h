@@ -73,6 +73,8 @@ public:
 	void updateSelectionList();
 	void updateTestEndTurn();
 
+	void logMsg(const char* szMsg) const;
+
 	CvUnit* getPlotUnit(CvPlot* pPlot, int iIndex);
 	void getPlotUnits(CvPlot* pPlot, std::vector<CvUnit*>& plotUnits);
 

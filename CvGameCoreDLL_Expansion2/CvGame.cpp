@@ -11172,6 +11172,19 @@ void CalculateDigSiteWeights(int iGridSize, FFastVector<CvArchaeologyData, true,
 }
 
 //	--------------------------------------------------------------------------------
+void CvGame::logMsg(const char* szMsg) const
+{
+	FILE* pLog;
+	fopen_s(&pLog, "Logs\\PioneerCaptureLog.csv", "a");
+
+	if (pLog)
+	{
+		fprintf(pLog, "%s\n", szMsg);
+		fclose(pLog);
+	}
+}
+
+//	--------------------------------------------------------------------------------
 int CvGame::GetNumArchaeologySites() const
 {
 	if (!IsArchaeologyTriggered())

@@ -264,6 +264,19 @@ void CvUnitCombat::GenerateMeleeCombatInfo(CvUnit& kAttacker, CvUnit* pkDefender
 	GC.GetEngineUserInterface()->setDirty(UnitInfo_DIRTY_BIT, true);
 }
 
+// Helper for Pioneer capture logic
+void HandlePioneerCapture(CvUnit* pkDefender, PlayerTypes eAttackerOwner)
+{
+	if (pkDefender == NULL || eAttackerOwner == NO_PLAYER)
+		return;
+
+	if (pkDefender->getUnitType() != GC.getInfoTypeForString("UNIT_PIONEER"))
+		return;
+
+	pkDefender->setCapturingPlayer(eAttackerOwner);
+
+}
+
 //	---------------------------------------------------------------------------
 void CvUnitCombat::ResolveMeleeCombat(const CvCombatInfo& kCombatInfo, uint uiParentEventID)
 {
@@ -388,10 +401,12 @@ void CvUnitCombat::ResolveMeleeCombat(const CvCombatInfo& kCombatInfo, uint uiPa
 
 			ApplyPostCombatTraitEffects(pkAttacker, pkDefender);
 
-			// If defender captured, mark who captured him
+			// Handle Pioneer capture logic before killing
+			HandlePioneerCapture(pkDefender, pkAttacker->getOwner());
+
+			// If defender captured normally (e.g., Worker), use default logic
 			if (kCombatInfo.getDefenderCaptured())
 			{
-				pkDefender->setCapturingPlayer(pkAttacker->getOwner());
 				pkDefender->SetCapturedAsIs(true);
 			}
 		}
@@ -724,7 +739,7 @@ void CvUnitCombat::ResolveRangedUnitVsCombat(const CvCombatInfo& kCombatInfo, ui
 						if(pkAttacker->getOwner() == GC.getGame().getActivePlayer())
 						{
 							strBuffer = GetLocalizedText("TXT_KEY_MISC_YOU_ATTACK_BY_AIR_AND_DEATH", pkAttacker->getNameKey(), pkDefender->getNameKey());
-							pkDLLInterface->AddMessage(uiParentEventID, pkAttacker->getOwner(), true, GC.getEVENT_MESSAGE_TIME(), strBuffer/*, "AS2D_COMBAT", MESSAGE_TYPE_INFO, pkDefender->getUnitInfo().GetButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pkTargetPlot->getX(), pkTargetPlot->getY()*/);
+							pkDLLInterface->AddMessage(uiParentEventID, pkAttacker->getOwner(), true, GC.getEVENT_MESSAGE_TIME(), strBuffer);
 						}
 
 						strBuffer = GetLocalizedText("TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR_AND_DEATH", pkDefender->getNameKey(), pkAttacker->getNameKey());
@@ -747,7 +762,16 @@ void CvUnitCombat::ResolveRangedUnitVsCombat(const CvCombatInfo& kCombatInfo, ui
 							pkDefender->DoTestBarbarianThreatToMinorsWithThisUnitsDeath(pkAttacker->getOwner());
 						}
 
-						//One Hit
+						// Pioneer capture logic
+						if (pkDefender->getUnitType() == GC.getInfoTypeForString("UNIT_PIONEER"))
+						{
+							HandlePioneerCapture(pkDefender, pkAttacker->getOwner());
+
+							// Let the game finish the turn and kill naturally
+							pkDefender->setDamage(GC.getMAX_HIT_POINTS(), pkAttacker->getOwner());
+						}
+
+						// One Hit
 						if(pkDefender->GetCurrHitPoints() == GC.getMAX_HIT_POINTS() && pkAttacker->isHuman() && !GC.getGame().isGameMultiPlayer())
 						{
 							gDLL->UnlockAchievement(ACHIEVEMENT_ONEHITKILL);

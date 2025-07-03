@@ -1107,6 +1107,7 @@ public:
 	CvPlot* GetTacticalAIPlot() const;
 
 	void LogWorkerEvent(BuildTypes eBuildType, bool bStartingConstruction);
+	void LogPioneerCapture(const char* szMessage) const;
 
 	int GetPower() const;
 
