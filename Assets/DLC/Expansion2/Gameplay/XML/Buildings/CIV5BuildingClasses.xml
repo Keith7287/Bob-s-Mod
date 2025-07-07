@@ -22,11 +22,20 @@
 	<!-- Table data -->
 	<BuildingClasses>
 		<!-- Special Buildings -->
+		
 		<Row>
 			<ID>0</ID>
 			<Type>BUILDINGCLASS_COURTHOUSE</Type>
 			<DefaultBuilding>BUILDING_COURTHOUSE</DefaultBuilding>
 			<Description>TXT_KEY_BUILDING_COURTHOUSE</Description>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_JAPAN_SHRINE_TOURISM</Type>
+			<DefaultBuilding>BUILDING_JAPAN_SHRINE_TOURISM</DefaultBuilding>
+		</Row>
+		<Row>
+			<Type>BUILDINGCLASS_JAPAN_TEMPLE_TOURISM</Type>
+			<DefaultBuilding>BUILDING_JAPAN_TEMPLE_TOURISM</DefaultBuilding>
 		</Row>
 		<Row>
 			<Type>BUILDINGCLASS_SEAPORT</Type>

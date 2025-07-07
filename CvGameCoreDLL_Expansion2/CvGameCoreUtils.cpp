@@ -154,6 +154,23 @@ bool atWar(TeamTypes eTeamA, TeamTypes eTeamB)
 	return GET_TEAM(eTeamA).isAtWar(eTeamB);
 }
 
+bool CreateDatabase(CvDatabaseUtility& kUtility)
+{
+	Database::Connection* pDB = GC.GetGameDatabase();
+	if (pDB)
+	{
+		pDB->Execute(
+			"CREATE TABLE IF NOT EXISTS Trait_BuildingYieldChanges ("
+			"TraitType TEXT REFERENCES Traits(Type), "
+			"BuildingType TEXT REFERENCES Buildings(Type), "
+			"YieldType TEXT REFERENCES Yields(Type), "
+			"Yield INTEGER);"
+		);
+	}
+
+	return true;
+}
+
 bool isPotentialEnemy(TeamTypes, TeamTypes)
 {
 	return false;

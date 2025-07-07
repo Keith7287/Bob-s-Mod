@@ -5721,6 +5721,9 @@ void CvCity::processBuilding(BuildingTypes eBuilding, int iChange, bool bFirst, 
 	if(pBuildingInfo == NULL)
 		return;
 
+	OutputDebugString(">>> ENTERED processBuilding()\n");
+	OutputDebugString(CvString::format(">>> Processing building: %s\n", GC.getBuildingInfo(eBuilding)->GetType()).c_str());
+
 	BuildingClassTypes eBuildingClass = (BuildingClassTypes) pBuildingInfo->GetBuildingClassType();
 
 	CvPlayer& owningPlayer = GET_PLAYER(getOwner());
@@ -6133,6 +6136,23 @@ void CvCity::processBuilding(BuildingTypes eBuilding, int iChange, bool bFirst, 
 				else
 				{
 					ChangeBaseYieldRateFromBuildings(eYield, iBuildingClassBonus * iChange);
+				}
+			}
+
+			int iTraitYield = GET_PLAYER(getOwner()).GetPlayerTraits()->GetBuildingYieldChange(eBuilding, eYield);
+			if (iTraitYield != 0)
+			{
+				if (eYield == YIELD_CULTURE)
+				{
+					ChangeJONSCulturePerTurnFromBuildings(iTraitYield * iChange);
+				}
+				else if (eYield == YIELD_FAITH)
+				{
+					ChangeFaithPerTurnFromBuildings(iTraitYield * iChange);
+				}
+				else
+				{
+					ChangeBaseYieldRateFromBuildings(eYield, iTraitYield * iChange);
 				}
 			}
 		}
