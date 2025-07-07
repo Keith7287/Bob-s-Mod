@@ -315,6 +315,22 @@
 			<AudioIntroHeader>AS2D_HEADING_TECH_OPTICS</AudioIntroHeader>
 		</Row>
 		<Row>
+			<Type>TECH_DRAMA</Type>
+			<Cost>105</Cost>
+			<Description>TXT_KEY_TECH_DRAMA_TITLE</Description>
+			<Civilopedia>TXT_KEY_TECH_DRAMA_DESC</Civilopedia>
+			<Help>TXT_KEY_TECH_DRAMA_HELP</Help>
+			<Era>ERA_CLASSICAL</Era>
+			<Trade>true</Trade>
+			<GridX>3</GridX>
+			<GridY>2</GridY>
+			<Quote>TXT_KEY_TECH_DRAMA_QUOTE</Quote>
+			<PortraitIndex>4</PortraitIndex>
+			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
+			<AudioIntro>AS2D_TECH_DRAMA</AudioIntro>
+			<AudioIntroHeader>AS2D_HEADING_TECH_DRAMA</AudioIntroHeader>
+		</Row>
+		<Row>
 			<Type>TECH_HORSEBACK_RIDING</Type>
 			<Cost>105</Cost>
 			<Description>TXT_KEY_TECH_HORSEBACK_RIDING_TITLE</Description>
@@ -378,22 +394,6 @@
 			<IconAtlas>TECH_ATLAS_1</IconAtlas>
 			<AudioIntro>AS2D_TECH_PHILOSOPHY</AudioIntro>
 			<AudioIntroHeader>AS2D_HEADING_TECH_PHILOSOPHY</AudioIntroHeader>
-		</Row>
-		<Row>
-			<Type>TECH_DRAMA</Type>
-			<Cost>175</Cost>
-			<Description>TXT_KEY_TECH_DRAMA_TITLE</Description>
-			<Civilopedia>TXT_KEY_TECH_DRAMA_DESC</Civilopedia>
-			<Help>TXT_KEY_TECH_DRAMA_HELP</Help>
-			<Era>ERA_CLASSICAL</Era>
-			<Trade>true</Trade>
-			<GridX>4</GridX>
-			<GridY>2</GridY>
-			<Quote>TXT_KEY_TECH_DRAMA_QUOTE</Quote>
-			<PortraitIndex>4</PortraitIndex>
-			<IconAtlas>EXPANSION_TECH_ATLAS_1</IconAtlas>
-			<AudioIntro>AS2D_TECH_DRAMA</AudioIntro>
-			<AudioIntroHeader>AS2D_HEADING_TECH_DRAMA</AudioIntroHeader>
 		</Row>
 		<Row>
 			<Type>TECH_CURRENCY</Type>
@@ -2688,7 +2688,7 @@
 		</Row>
 		<Row>
 			<TechType>TECH_PHILOSOPHY</TechType>
-			<PrereqTech>TECH_WRITING</PrereqTech>
+			<PrereqTech>TECH_DRAMA</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_HORSEBACK_RIDING</TechType>
@@ -2737,10 +2737,6 @@
 		<Row>
 			<TechType>TECH_THEOLOGY</TechType>
 			<PrereqTech>TECH_PHILOSOPHY</PrereqTech>
-		</Row>
-		<Row>
-			<TechType>TECH_THEOLOGY</TechType>
-			<PrereqTech>TECH_DRAMA</PrereqTech>
 		</Row>
 		<Row>
 			<TechType>TECH_GUILDS</TechType>
