@@ -945,9 +945,6 @@
 			<Description>TXT_KEY_POLICY_AESTHETICS</Description>
 			<Civilopedia>TXT_KEY_POLICY_AESTHETICS_TEXT</Civilopedia>
 			<Help>TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP</Help>
-			<GreatWriterRateModifier>25</GreatWriterRateModifier>
-			<GreatArtistRateModifier>25</GreatArtistRateModifier>
-			<GreatMusicianRateModifier>25</GreatMusicianRateModifier>
 			<PortraitIndex>6</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -959,6 +956,9 @@
 			<Help>TXT_KEY_POLICY_CULTURAL_CENTERS_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_AESTHETICS</PolicyBranchType>
 			<CultureCost>10</CultureCost>
+			<GreatWriterRateModifier>50</GreatWriterRateModifier>
+			<GreatArtistRateModifier>50</GreatArtistRateModifier>
+			<GreatMusicianRateModifier>50</GreatMusicianRateModifier>
 			<GridX>2</GridX>
 			<GridY>1</GridY>
 			<PortraitIndex>2</PortraitIndex>
@@ -974,7 +974,7 @@
 			<CultureCost>10</CultureCost>
 			<GridX>4</GridX>
 			<GridY>1</GridY>
-			<HappinessToCulture>50</HappinessToCulture>
+			<HappinessToCulture>100</HappinessToCulture>
 			<PortraitIndex>4</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS_EXP2</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS_EXP2</IconAtlasAchieved>
@@ -989,7 +989,6 @@
 			<GridX>2</GridX>
 			<GridY>2</GridY>
 			<GoldenAgeTurns>10</GoldenAgeTurns>
-			<CultureWonderMultiplier>33</CultureWonderMultiplier>
 			<PortraitIndex>5</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS_EXP2</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS_EXP2</IconAtlasAchieved>
@@ -1002,6 +1001,7 @@
 			<PolicyBranchType>POLICY_BRANCH_AESTHETICS</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
+			<GreatArtistRateModifier>50</GreatArtistRateModifier>
 			<GridX>4</GridX>
 			<GridY>2</GridY>
 			<PortraitIndex>0</PortraitIndex>
@@ -1028,6 +1028,7 @@
 			<Type>POLICY_AESTHETICS_FINISHER</Type>
 			<Description>TXT_KEY_POLICY_BRANCH_AESTHETICS</Description>
 			<ThemingBonusMultiplier>100</ThemingBonusMultiplier>
+			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
 		</Row>
 		<Row>
 			<Type>POLICY_EXPLORATION</Type>
@@ -1900,6 +1901,36 @@
 			<YieldChange>4</YieldChange>
 		</Row>
 		<Row>
+			<PolicyType>POLICY_FLOURISHING_OF_ARTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FLOURISHING_OF_ARTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FLOURISHING_OF_ARTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FLOURISHING_OF_ARTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FLOURISHING_OF_ARTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
 			<PolicyType>POLICY_SOVEREIGNTY</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -2064,31 +2095,6 @@
 			<ProductionModifier>100</ProductionModifier>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
-			<ProductionModifier>50</ProductionModifier>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
-			<ProductionModifier>50</ProductionModifier>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
-			<ProductionModifier>50</ProductionModifier>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
-			<ProductionModifier>50</ProductionModifier>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_CULTURAL_CENTERS</PolicyType>
-			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
-			<ProductionModifier>50</ProductionModifier>
-		</Row>
-		<Row>
 			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
 			<ProductionModifier>50</ProductionModifier>
@@ -2101,6 +2107,31 @@
 		<Row>
 			<PolicyType>POLICY_PROFESSIONAL_ARMY</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_MILITARY_ACADEMY</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AESTHETICS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AESTHETICS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+	        </Row>
+	        <Row>
+			<PolicyType>POLICY_AESTHETICS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AESTHETICS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AESTHETICS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
 			<ProductionModifier>50</ProductionModifier>
 		</Row>
 		<Row>
@@ -2149,6 +2180,11 @@
 			<PolicyType>POLICY_MEDIA_CULTURE</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
 			<TourismModifier>34</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FLOURISHING_OF_ARTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<TourismModifier>25</TourismModifier>
 		</Row>
 	</Policy_BuildingClassTourismModifiers>
 	<Policy_BuildingClassHappiness>
@@ -2813,6 +2849,11 @@
 			<PolicyType>POLICY_FLOURISHING_OF_ARTS</PolicyType>
 			<FlavorType>FLAVOR_CULTURE</FlavorType>
 			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FLOURISHING_OF_ARTS</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>30</Flavor>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_ARTISTIC_GENIUS</PolicyType>
@@ -3714,6 +3755,21 @@
 		<Row>
 			<PolicyType>POLICY_ARTISTIC_GENIUS</PolicyType>
 			<UnitClassType>UNITCLASS_ARTIST</UnitClassType>
+			<Count>2</Count>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AESTHETICS_FINISHER</PolicyType>
+			<UnitClassType>UNITCLASS_WRITER</UnitClassType>
+			<Count>1</Count>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AESTHETICS_FINISHER</PolicyType>
+			<UnitClassType>UNITCLASS_ARTIST</UnitClassType>
+			<Count>1</Count>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_AESTHETICS_FINISHER</PolicyType>
+			<UnitClassType>UNITCLASS_MUSICIAN</UnitClassType>
 			<Count>1</Count>
 		</Row>
 		<Row>
