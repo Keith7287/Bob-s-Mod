@@ -131,7 +131,7 @@
 			<Text>Exploration</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Exploration[ENDCOLOR] enhances your abilties to spread your empire over the seas.[NEWLINE][NEWLINE]Adopting Exploration gives +1 [ICON_MOVES] Movement for Naval units and +1 Sight for Naval combat units. Unlocks building the Louvre.[NEWLINE][NEWLINE]Adopting all policies allows you to see Hidden Antiquity Sites. It also allows the purchase of Great Admirals with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Exploration[ENDCOLOR] enhances your abilties to spread your empire over the seas.[NEWLINE][NEWLINE]Adopting Exploration causes 3 Archaeologists to appear. Unlocks building the Louvre.[NEWLINE][NEWLINE]Adopting all policies gives +8 [ICON_HAPPINESS] Happiness to the palace. It also allows the purchase of Great Admirals with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE">
 			<Text>Maritime Infrastructure</Text>
@@ -149,13 +149,13 @@
 			<Text>Navigation School</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_NAVIGATION_SCHOOL_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Navigation School[ENDCOLOR][NEWLINE]A Great Admiral appears. +2 [ICON_MOVES] Movement for all Great Admirals. Great Admirals are earned 50% faster.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Navigation School[ENDCOLOR][NEWLINE]+1 [ICON_MOVES] Movement for Naval units and +1 Sight for Naval combat units. A Great Admiral appears. +2 [ICON_MOVES] Movement for all Great Admirals. Great Admirals are earned 50% faster.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_TREASURE_FLEETS">
-			<Text>Treasure Fleets</Text>
+			<Text>Archaeological Discovery</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_TREASURE_FLEETS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Treasure Fleets[ENDCOLOR][NEWLINE]+4 [ICON_GOLD] Gold from all your sea trade routes.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Archaeological Discovery[ENDCOLOR][NEWLINE]Reveals Hidden Antiquity Sites.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Rationalism[ENDCOLOR] improves the ability to use and generate [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Adopting Rationalism will grant +25% [ICON_PRODUCTION] Production when building Libraries, Univerisities, Observatories, Public Schools and Research Labs. Unlocks building the Porcelain Tower.[NEWLINE][NEWLINE]Adopting all Policies in the Rationalism tree will grant a free Technology. It also allows the purchase of Great Scientists with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
@@ -741,7 +741,7 @@
 			<Text>When improved with an Archaeological Dig, an Antiquity Site can then yield an Artifact that can be placed in a Great Work of Art slot, or be transformed into a Landmark improvement.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_HIDDEN_ARTIFACTS_HELP">
-			<Text>When improved with an Archaeological Dig, a Hidden Antiquity Site can then yield an Artifact that can be placed in a Great Work of Art slot, or be transformed into a Landmark improvement. Hidden Antiquity Sites are only visible to civs that have all the policies in the Exploration policy tree.</Text>
+			<Text>When improved with an Archaeological Dig, a Hidden Antiquity Site can then yield an Artifact that can be placed in a Great Work of Art slot, or be transformed into a Landmark improvement. Hidden Antiquity Sites are only visible to civs that have the Archaelogical Discovery policy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_NUTMEG_HELP">
 			<Text>Appears as a unique luxury good in an Indonesian city.</Text>

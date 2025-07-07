@@ -1035,6 +1035,7 @@
 			<Description>TXT_KEY_POLICY_BRANCH_EXPLORATION</Description>
 			<Civilopedia>TXT_KEY_POLICY_EXPLORATION_TEXT</Civilopedia>
 			<Help>TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP</Help>
+			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
 			<PortraitIndex>6</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -1047,7 +1048,7 @@
 			<PolicyBranchType>POLICY_BRANCH_EXPLORATION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<GridX>2</GridX>
-			<GridY>1</GridY>
+			<GridY>2</GridY>
 			<PortraitIndex>6</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS_EXP2</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS_EXP2</IconAtlasAchieved>
@@ -1059,8 +1060,8 @@
 			<Help>TXT_KEY_POLICY_NAVAL_TRADITION_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_EXPLORATION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<GridX>4</GridX>
-			<GridY>1</GridY>
+			<GridX>2</GridX>
+			<GridY>3</GridY>
 			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -1072,8 +1073,8 @@
 			<Help>TXT_KEY_POLICY_MERCHANT_NAVY_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_EXPLORATION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<GridX>2</GridX>
-			<GridY>2</GridY>
+			<GridX>4</GridX>
+			<GridY>1</GridY>
 			<PortraitIndex>10</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -1101,11 +1102,10 @@
 			<PolicyBranchType>POLICY_BRANCH_EXPLORATION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<GridX>2</GridX>
-			<GridY>3</GridY>
+			<GridY>1</GridY>
 			<PortraitIndex>8</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS_EXP2</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS_EXP2</IconAtlasAchieved>
-			<SeaTradeRouteGoldChange>200</SeaTradeRouteGoldChange>
 		</Row>
 		<Row>
 			<Type>POLICY_EXPLORATION_FINISHER</Type>
@@ -2493,6 +2493,11 @@
 			<BuildingClassType>BUILDINGCLASS_TOURIST_CENTER</BuildingClassType>
 			<Happiness>1</Happiness>
 		</Row>
+		<Row>
+			<PolicyType>POLICY_EXPLORATION_FINISHER</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_PALACE</BuildingClassType>
+			<Happiness>8</Happiness>
+		</Row>
 	</Policy_BuildingClassHappiness>
 	<Policy_ImprovementYieldChanges>
 		<Row>
@@ -3611,19 +3616,19 @@
 			<PrereqPolicy>POLICY_ENTREPRENEURSHIP</PrereqPolicy>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_MERCHANT_NAVY</PolicyType>
-			<PrereqPolicy>POLICY_NAVAL_TRADITION</PrereqPolicy>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_MERCHANT_NAVY</PolicyType>
+			<PolicyType>POLICY_NAVAL_TRADITION</PolicyType>
 			<PrereqPolicy>POLICY_MARITIME_INFRASTRUCTURE</PrereqPolicy>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_NAVIGATION_SCHOOL</PolicyType>
-			<PrereqPolicy>POLICY_NAVAL_TRADITION</PrereqPolicy>
+			<PolicyType>POLICY_MARITIME_INFRASTRUCTURE</PolicyType>
+			<PrereqPolicy>POLICY_MERCHANT_NAVY</PrereqPolicy>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_TREASURE_FLEETS</PolicyType>
+			<PolicyType>POLICY_MARITIME_INFRASTRUCTURE</PolicyType>
+			<PrereqPolicy>POLICY_TREASURE_FLEETS</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_NAVIGATION_SCHOOL</PolicyType>
 			<PrereqPolicy>POLICY_MERCHANT_NAVY</PrereqPolicy>
 		</Row>
 		<Row>
@@ -3649,7 +3654,7 @@
 			<PromotionType>PROMOTION_ADJACENT_BONUS</PromotionType>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_EXPLORATION</PolicyType>
+			<PolicyType>POLICY_NAVIGATION_SCHOOL</PolicyType>
 			<PromotionType>PROMOTION_NAVAL_TRADITION</PromotionType>
 		</Row>
 		<Row>
@@ -3771,6 +3776,11 @@
 			<PolicyType>POLICY_AESTHETICS_FINISHER</PolicyType>
 			<UnitClassType>UNITCLASS_MUSICIAN</UnitClassType>
 			<Count>1</Count>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_EXPLORATION</PolicyType>
+			<UnitClassType>UNITCLASS_ARCHAEOLOGIST</UnitClassType>
+			<Count>3</Count>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_NAVIGATION_SCHOOL</PolicyType>
