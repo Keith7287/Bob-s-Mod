@@ -57,6 +57,7 @@ public:
 	int GetGreatPeopleRateModifier() const;
 	int GetGreatScientistRateModifier() const;
 	int GetGreatGeneralRateModifier() const;
+	int GetGreatEngineerRateModifier() const;
 	int GetGreatGeneralExtraBonus() const;
 	int GetGreatPersonGiftInfluence() const;
 	int GetMaxGlobalBuildingProductionModifier() const;
@@ -180,6 +181,7 @@ protected:
 	int m_iGreatPeopleRateModifier;
 	int m_iGreatScientistRateModifier;
 	int m_iGreatGeneralRateModifier;
+	int m_iGreatEngineerRateModifier;
 	int m_iGreatGeneralExtraBonus;
 	int m_iGreatPersonGiftInfluence;
 	int m_iMaxGlobalBuildingProductionModifier;
@@ -363,6 +365,10 @@ public:
 	int GetGreatGeneralRateModifier() const
 	{
 		return m_iGreatGeneralRateModifier;
+	};
+	int GetGreatEngineerRateModifier() const
+	{
+		return m_iGreatEngineerRateModifier;
 	};
 	int GetGreatGeneralExtraBonus() const
 	{
@@ -786,6 +792,7 @@ private:
 	int m_iGreatPeopleRateModifier;
 	int m_iGreatScientistRateModifier;
 	int m_iGreatGeneralRateModifier;
+	int m_iGreatEngineerRateModifier;
 	int m_iGreatGeneralExtraBonus;
 	int m_iGreatPersonGiftInfluence;
 	int m_iLevelExperienceModifier;

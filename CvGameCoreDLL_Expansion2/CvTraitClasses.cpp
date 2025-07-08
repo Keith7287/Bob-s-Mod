@@ -24,6 +24,7 @@ CvTraitEntry::CvTraitEntry() :
 	m_iGreatPeopleRateModifier(0),
 	m_iGreatScientistRateModifier(0),
 	m_iGreatGeneralRateModifier(0),
+	m_iGreatEngineerRateModifier(0),
 	m_iGreatGeneralExtraBonus(0),
 	m_iGreatPersonGiftInfluence(0),
 	m_iMaxGlobalBuildingProductionModifier(0),
@@ -158,6 +159,12 @@ int CvTraitEntry::GetGreatScientistRateModifier() const
 int CvTraitEntry::GetGreatGeneralRateModifier() const
 {
 	return m_iGreatGeneralRateModifier;
+}
+
+/// Accessor:: Great engineer generation rate change
+int CvTraitEntry::GetGreatEngineerRateModifier() const
+{
+	return m_iGreatEngineerRateModifier;
 }
 
 /// Accessor:: Great general additional combat bonus
@@ -864,6 +871,7 @@ bool CvTraitEntry::CacheResults(Database::Results& kResults, CvDatabaseUtility& 
 	m_iLevelExperienceModifier				= kResults.GetInt("LevelExperienceModifier");
 	m_iGreatPeopleRateModifier				= kResults.GetInt("GreatPeopleRateModifier");
 	m_iGreatScientistRateModifier			= kResults.GetInt("GreatScientistRateModifier");
+	m_iGreatEngineerRateModifier			= kResults.GetInt("GreatEngineerRateModifier");
 	m_iGreatGeneralRateModifier				= kResults.GetInt("GreatGeneralRateModifier");
 	m_iGreatGeneralExtraBonus				= kResults.GetInt("GreatGeneralExtraBonus");
 	m_iGreatPersonGiftInfluence				= kResults.GetInt("GreatPersonGiftInfluence");
@@ -1351,6 +1359,7 @@ void CvPlayerTraits::InitPlayerTraits()
 			m_iGreatPeopleRateModifier += trait->GetGreatPeopleRateModifier();
 			m_iGreatScientistRateModifier += trait->GetGreatScientistRateModifier();
 			m_iGreatGeneralRateModifier += trait->GetGreatGeneralRateModifier();
+			m_iGreatEngineerRateModifier += trait->GetGreatEngineerRateModifier();
 			m_iGreatGeneralExtraBonus += trait->GetGreatGeneralExtraBonus();
 			m_iGreatPersonGiftInfluence += trait->GetGreatPersonGiftInfluence();
 			m_iLevelExperienceModifier += trait->GetLevelExperienceModifier();
@@ -1604,6 +1613,7 @@ void CvPlayerTraits::Reset()
 
 	m_iGreatPeopleRateModifier = 0;
 	m_iGreatScientistRateModifier = 0;
+	m_iGreatEngineerRateModifier = 0;
 	m_iGreatGeneralRateModifier = 0;
 	m_iGreatGeneralExtraBonus = 0;
 	m_iGreatPersonGiftInfluence = 0;
@@ -2553,6 +2563,7 @@ void CvPlayerTraits::Read(FDataStream& kStream)
 	kStream >> m_iGreatPeopleRateModifier;
 	kStream >> m_iGreatScientistRateModifier;
 	kStream >> m_iGreatGeneralRateModifier;
+	kStream >> m_iGreatEngineerRateModifier;
 	kStream >> m_iGreatGeneralExtraBonus;
 
 	kStream >> m_iGreatPersonGiftInfluence;
@@ -2935,6 +2946,7 @@ void CvPlayerTraits::Write(FDataStream& kStream)
 	kStream << m_iGreatPeopleRateModifier;
 	kStream << m_iGreatScientistRateModifier;
 	kStream << m_iGreatGeneralRateModifier;
+	kStream << m_iGreatEngineerRateModifier;
 	kStream << m_iGreatGeneralExtraBonus;
 	kStream << m_iGreatPersonGiftInfluence;
 	kStream << m_iLevelExperienceModifier;

@@ -11,6 +11,7 @@
 		<Column name="GreatPeopleRateModifier" type="integer" default="0"/>
 		<Column name="GreatScientistRateModifier" type="integer" default="0"/>
 		<Column name="GreatGeneralRateModifier" type="integer" default="0"/>
+		<Column name="GreatEngineerRateModifier" type="integer" default="0"/>
 		<Column name="GreatGeneralExtraBonus" type="integer" default="0"/>
 		<Column name="GreatPersonGiftInfluence" type="integer" default="0"/>
 		<Column name="MaxGlobalBuildingProductionModifier" type="integer" default="0"/>
@@ -276,10 +277,9 @@
 		</Row>
 		<Row>
 			<Type>TRAIT_CONVERTS_LAND_BARBARIANS</Type>
-			<Description>TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS</Description>
-			<ShortDescription>TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS_SHORT</ShortDescription>
-			<LandBarbarianConversionPercent>67</LandBarbarianConversionPercent>
-			<LandUnitMaintenanceModifier>-25</LandUnitMaintenanceModifier>
+			<Description>+1 [ICON_RESEARCH] Science and [ICON_PRODUCTION] Production from Workshops, Windmills, Factories and Hydro Plants. +33% faster Great Engineer generation.</Description>
+			<ShortDescription>German Engineering</ShortDescription>
+			<GreatEngineerRateModifier>33</GreatEngineerRateModifier>
 		</Row>
 		<Row>
 			<Type>TRAIT_CONVERTS_SEA_BARBARIANS</Type>
@@ -553,6 +553,54 @@
     			<TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
     			<BuildingType>BUILDING_TEMPLE</BuildingType>
     			<YieldType>YIELD_CULTURE</YieldType>
+    			<Yield>1</Yield>
+  		</Row>
+		<Row>
+    			<TraitType>TRAIT_CONVERTS_LAND_BARBARIANS</TraitType>
+    			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+    			<YieldType>YIELD_SCIENCE</YieldType>
+    			<Yield>1</Yield>
+  		</Row>
+		<Row>
+    			<TraitType>TRAIT_CONVERTS_LAND_BARBARIANS</TraitType>
+    			<BuildingType>BUILDING_WORKSHOP</BuildingType>
+    			<YieldType>YIELD_PRODUCTION</YieldType>
+    			<Yield>1</Yield>
+  		</Row>
+		<Row>
+    			<TraitType>TRAIT_CONVERTS_LAND_BARBARIANS</TraitType>
+    			<BuildingType>BUILDING_WINDMILL</BuildingType>
+    			<YieldType>YIELD_SCIENCE</YieldType>
+    			<Yield>1</Yield>
+  		</Row>
+		<Row>
+    			<TraitType>TRAIT_CONVERTS_LAND_BARBARIANS</TraitType>
+    			<BuildingType>BUILDING_WINDMILL</BuildingType>
+    			<YieldType>YIELD_PRODUCTION</YieldType>
+    			<Yield>1</Yield>
+  		</Row>
+		<Row>
+    			<TraitType>TRAIT_CONVERTS_LAND_BARBARIANS</TraitType>
+    			<BuildingType>BUILDING_FACTORY</BuildingType>
+    			<YieldType>YIELD_SCIENCE</YieldType>
+    			<Yield>1</Yield>
+  		</Row>
+		<Row>
+    			<TraitType>TRAIT_CONVERTS_LAND_BARBARIANS</TraitType>
+    			<BuildingType>BUILDING_FACTORY</BuildingType>
+    			<YieldType>YIELD_PRODUCTION</YieldType>
+    			<Yield>1</Yield>
+  		</Row>
+		<Row>
+    			<TraitType>TRAIT_CONVERTS_LAND_BARBARIANS</TraitType>
+    			<BuildingType>BUILDING_HYDRO_PLANT</BuildingType>
+    			<YieldType>YIELD_SCIENCE</YieldType>
+    			<Yield>1</Yield>
+  		</Row>
+		<Row>
+    			<TraitType>TRAIT_CONVERTS_LAND_BARBARIANS</TraitType>
+    			<BuildingType>BUILDING_HYDRO_PLANT</BuildingType>
+    			<YieldType>YIELD_PRODUCTION</YieldType>
     			<Yield>1</Yield>
   		</Row>
 	</Trait_BuildingYieldChanges>

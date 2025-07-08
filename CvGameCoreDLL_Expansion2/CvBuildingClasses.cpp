@@ -3233,7 +3233,7 @@ int CvCityBuildings::GetCityStateTradeRouteProductionModifier() const
 					if (pkEntry)
 					{
 						int iProductionModifier = pkEntry->GetCityStateTradeRouteProductionModifier();
-						int iCityStates = GET_PLAYER(m_pCity->getOwner()).GetTrade()->GetNumberOfCityStateTradeRoutes();
+						int iCityStates = GET_PLAYER(m_pCity->getOwner()).GetTrade()->GetNumberOfAllTradeRoutes();
 						if (iProductionModifier > 0  && iCityStates > 0)
 						{
 							iRtnValue = iProductionModifier * iCityStates;

@@ -2729,6 +2729,29 @@ int CvPlayerTrade::GetNumberOfCityStateTradeRoutes()
 	return iNumConnections;
 }
 
+// Returns the number of trade routes owned by the player, regardless of destination
+int CvPlayerTrade::GetNumberOfAllTradeRoutes()
+{
+	CvGameTrade* pTrade = GC.getGame().GetGameTrade();
+	int iNumConnections = 0;
+
+	for (uint i = 0; i < pTrade->m_aTradeConnections.size(); ++i)
+	{
+		TradeConnection* pConnection = &(pTrade->m_aTradeConnections[i]);
+
+		// Skip empty slots
+		if (pTrade->IsTradeRouteIndexEmpty(i))
+			continue;
+
+		if (pConnection->m_eOriginOwner == m_pPlayer->GetID())
+		{
+			++iNumConnections;
+		}
+	}
+
+	return iNumConnections;
+}
+
 //	--------------------------------------------------------------------------------
 bool CvPlayerTrade::IsPreviousTradeRoute(CvCity* pOriginCity, CvCity* pDestCity, DomainTypes eDomain, TradeConnectionType eConnectionType)
 {
