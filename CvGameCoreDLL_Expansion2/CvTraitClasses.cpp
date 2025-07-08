@@ -116,7 +116,8 @@ CvTraitEntry::CvTraitEntry() :
 	m_piResourceQuantityModifiers(NULL),
 	m_ppiImprovementYieldChanges(NULL),
 	m_ppiSpecialistYieldChanges(NULL),
-	m_ppiUnimprovedFeatureYieldChanges(NULL)
+	m_ppiUnimprovedFeatureYieldChanges(NULL),
+	m_ppiBuildingYieldChanges (NULL)
 {
 }
 
@@ -126,12 +127,19 @@ CvTraitEntry::~CvTraitEntry()
 	CvDatabaseUtility::SafeDelete2DArray(m_ppiImprovementYieldChanges);
 	CvDatabaseUtility::SafeDelete2DArray(m_ppiSpecialistYieldChanges);
 	CvDatabaseUtility::SafeDelete2DArray(m_ppiUnimprovedFeatureYieldChanges);
+	CvDatabaseUtility::SafeDelete2DArray(m_ppiBuildingYieldChanges);
 }
 
 /// Accessor:: Modifier to experience needed for new level
 int CvTraitEntry::GetLevelExperienceModifier() const
 {
 	return m_iLevelExperienceModifier;
+}
+
+/// Accessor:: Building yield changes
+int CvTraitEntry::GetBuildingYieldChanges(BuildingTypes eBuilding, YieldTypes eYield) const
+{
+	return m_ppiBuildingYieldChanges ? m_ppiBuildingYieldChanges[eBuilding][eYield] : 0;
 }
 
 /// Accessor:: Great person generation rate change
@@ -1018,6 +1026,30 @@ bool CvTraitEntry::CacheResults(Database::Results& kResults, CvDatabaseUtility& 
 		}
 	}
 
+	// BuildingYieldChanges
+	kUtility.Initialize2DArray(m_ppiBuildingYieldChanges, "Buildings", "Yields");
+
+	std::string strKey("Trait_BuildingYieldChanges");
+	Database::Results* pResults = kUtility.GetResults(strKey);
+	if(pResults == NULL)
+	{
+		pResults = kUtility.PrepareResults(strKey,
+			"SELECT Buildings.ID AS BuildingID,  Yields.ID AS YieldID, Yield FROM Trait_BuildingYieldChanges "
+			"INNER JOIN Buildings ON Buildings.Type = BuildingType "
+			"INNER JOIN Yields ON Yields.Type = YieldType WHERE TraitType = ?");
+	}
+
+	pResults->Bind(1, GetType());
+
+	while(pResults->Step())
+	{
+		const int iBuilding = pResults->GetInt("BuildingID");
+		const int iYield = pResults->GetInt("YieldID");
+		const int iValue = pResults->GetInt("Yield");
+
+		m_ppiBuildingYieldChanges[iBuilding][iYield] = iValue;
+	}
+
 	//Populate m_FreePromotionUnitCombats
 	{
 		std::string sqlKey = "FreePromotionUnitCombats";
@@ -1381,13 +1413,13 @@ void CvPlayerTraits::InitPlayerTraits()
 			m_iTradeReligionModifier += trait->GetTradeReligionModifier();
 			m_iTradeBuildingModifier += trait->GetTradeBuildingModifier();
 
-			if(trait->IsFightWellDamaged())
-			{
-				m_bFightWellDamaged = true;
+			//if(trait->IsFightWellDamaged())
+			//{
+				//m_bFightWellDamaged = true;
 				// JON: Changing the way this works. Above line can/should probably be removed at some point
-				int iWoundedUnitDamageMod = /*-50*/ GC.getTRAIT_WOUNDED_DAMAGE_MOD();
-				m_pPlayer->ChangeWoundedUnitDamageMod(iWoundedUnitDamageMod);
-			}
+				//int iWoundedUnitDamageMod = /*-50*/ GC.getTRAIT_WOUNDED_DAMAGE_MOD();
+				//m_pPlayer->ChangeWoundedUnitDamageMod(iWoundedUnitDamageMod);
+			//}
 			if(trait->IsMoveFriendlyWoodsAsRoad())
 			{
 				m_bMoveFriendlyWoodsAsRoad = true;
@@ -1822,6 +1854,24 @@ int CvPlayerTraits::GetMovesChangeUnitCombat(const int unitCombatID) const
 	return m_paiMovesChangeUnitCombat[unitCombatID];
 }
 
+///Extra yield from this building
+int CvPlayerTraits::GetBuildingYieldChange(BuildingTypes eBuilding, YieldTypes eYield) const
+{
+	int iTotal = 0;
+	for (int i = 0; i < GC.getNumTraitInfos(); i++)
+	{
+		if (HasTrait((TraitTypes)i))
+		{
+			const CvTraitEntry* pTrait = GC.getTraitInfo((TraitTypes)i);
+			if (pTrait)
+			{
+				iTotal += pTrait->GetBuildingYieldChanges(eBuilding, eYield);
+			}
+		}
+	}
+	return iTotal;
+}
+
 /// Maintenance modifier for this combat class
 int CvPlayerTraits::GetMaintenanceModifierUnitCombat(const int unitCombatID) const
 {
@@ -1838,15 +1888,31 @@ int CvPlayerTraits::GetMaintenanceModifierUnitCombat(const int unitCombatID) con
 /// Extra yield from this improvement
 int CvPlayerTraits::GetImprovementYieldChange(ImprovementTypes eImprovement, YieldTypes eYield) const
 {
-	CvAssertMsg(eImprovement < GC.getNumImprovementInfos(),  "Invalid eImprovement parameter in call to CvPlayerTraits::GetImprovementYieldChange()");
-	CvAssertMsg(eYield < NUM_YIELD_TYPES,  "Invalid eYield parameter in call to CvPlayerTraits::GetImprovementYieldChange()");
+	CvAssertMsg(eImprovement < GC.getNumImprovementInfos(), "Invalid eImprovement parameter in call to CvPlayerTraits::GetImprovementYieldChange()");
+	CvAssertMsg(eYield < NUM_YIELD_TYPES, "Invalid eYield parameter in call to CvPlayerTraits::GetImprovementYieldChange()");
 
-	if(eImprovement == NO_IMPROVEMENT)
+	if (eImprovement == NO_IMPROVEMENT)
 	{
 		return 0;
 	}
 
-	return m_ppaaiImprovementYieldChange[(int)eImprovement][(int)eYield];
+	int iBase = m_ppaaiImprovementYieldChange[(int)eImprovement][(int)eYield];
+
+	// Industrial Era bonuses
+	if (eYield == YIELD_CULTURE &&
+		m_pPlayer->GetCurrentEra() >= GC.getInfoTypeForString("ERA_INDUSTRIAL"))
+	{
+		if (eImprovement == GC.getInfoTypeForString("IMPROVEMENT_LANDMARK"))
+		{
+			iBase += 2; // +2 more, on top of base XML
+		}
+		else if (eImprovement == GC.getInfoTypeForString("IMPROVEMENT_FISHING_BOATS"))
+		{
+			iBase += 1; // +1 more, on top of +1 base
+		}
+	}
+
+	return iBase;
 }
 
 /// Extra yield from this specialist
@@ -1866,15 +1932,25 @@ int CvPlayerTraits::GetSpecialistYieldChange(SpecialistTypes eSpecialist, YieldT
 /// Extra yield from a feature without improvement
 int CvPlayerTraits::GetUnimprovedFeatureYieldChange(FeatureTypes eFeature, YieldTypes eYield) const
 {
-	CvAssertMsg(eFeature < GC.getNumFeatureInfos(),  "Invalid eImprovement parameter in call to CvPlayerTraits::GetUnimprovedFeatureYieldChange()");
-	CvAssertMsg(eYield < NUM_YIELD_TYPES,  "Invalid eYield parameter in call to CvPlayerTraits::GetUnimprovedFeatureYieldChange()");
+	CvAssertMsg(eFeature < GC.getNumFeatureInfos(), "Invalid eImprovement parameter in call to CvPlayerTraits::GetUnimprovedFeatureYieldChange()");
+	CvAssertMsg(eYield < NUM_YIELD_TYPES, "Invalid eYield parameter in call to CvPlayerTraits::GetUnimprovedFeatureYieldChange()");
 
-	if(eFeature == NO_FEATURE)
+	if (eFeature == NO_FEATURE)
 	{
 		return 0;
 	}
 
-	return m_ppaaiUnimprovedFeatureYieldChange[(int)eFeature][(int)eYield];
+	int iBase = m_ppaaiUnimprovedFeatureYieldChange[(int)eFeature][(int)eYield];
+
+	// Add +2 Culture from Atolls in Industrial Era (to reach +4 total)
+	if (eYield == YIELD_CULTURE &&
+		m_pPlayer->GetCurrentEra() >= GC.getInfoTypeForString("ERA_INDUSTRIAL") &&
+		eFeature == GC.getInfoTypeForString("FEATURE_ATOLL"))
+	{
+		iBase += 2;
+	}
+
+	return iBase;
 }
 
 /// Do all new units get a specific promotion?

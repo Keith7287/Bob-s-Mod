@@ -1412,6 +1412,44 @@ void CvPlayer::initFreeUnits(CvGameInitialItemsOverrides& /*kOverrides*/)
 	}
 }
 
+//	--------------------------------------------------------------------------------
+void CvPlayer::ApplyJapanShrineTempleTourismBonus()
+{
+	if (!isAlive())
+		return;
+
+	if (getCivilizationType() != GC.getInfoTypeForString("CIVILIZATION_JAPAN"))
+		return;
+
+	if (GetCurrentEra() < GC.getInfoTypeForString("ERA_INDUSTRIAL"))
+		return;
+
+	const BuildingTypes eShrine = (BuildingTypes)GC.getInfoTypeForString("BUILDING_SHRINE");
+	const BuildingTypes eTemple = (BuildingTypes)GC.getInfoTypeForString("BUILDING_TEMPLE");
+	const BuildingTypes eDummyShrine = (BuildingTypes)GC.getInfoTypeForString("BUILDING_JAPAN_SHRINE_TOURISM");
+	const BuildingTypes eDummyTemple = (BuildingTypes)GC.getInfoTypeForString("BUILDING_JAPAN_TEMPLE_TOURISM");
+
+	if (eDummyShrine == NO_BUILDING || eDummyTemple == NO_BUILDING)
+	{
+		OutputDebugString("Dummy building(s) not found!\n");
+		return;
+	}
+
+	int iLoop;
+	for (CvCity* pCity = firstCity(&iLoop); pCity != NULL; pCity = nextCity(&iLoop))
+	{
+		if (!pCity) continue;
+
+		CvCityBuildings* pBuildings = pCity->GetCityBuildings();
+		if (!pBuildings) continue;
+
+		bool hasShrine = pBuildings->GetNumRealBuilding(eShrine) > 0;
+		bool hasTemple = pBuildings->GetNumRealBuilding(eTemple) > 0;
+
+		pBuildings->SetNumRealBuilding(eDummyShrine, hasShrine ? 1 : 0);
+		pBuildings->SetNumRealBuilding(eDummyTemple, hasTemple ? 1 : 0);
+	}
+}
 
 //	--------------------------------------------------------------------------------
 void CvPlayer::addFreeUnitAI(UnitAITypes eUnitAI, int iCount)
@@ -4063,6 +4101,8 @@ void CvPlayer::doTurn()
 
 	DoUpdateUprisings();
 	DoUpdateCityRevolts();
+
+	ApplyJapanShrineTempleTourismBonus();
 
 	if(GetPlayerTraits()->IsEndOfMayaLongCount())
 	{

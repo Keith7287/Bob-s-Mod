@@ -144,6 +144,7 @@ public:
 	ArtStyleTypes getArtStyleType() const;
 
 	void doTurn();
+	void ApplyJapanShrineTempleTourismBonus();
 	void doTurnPostDiplomacy();
 	void doTurnUnits();
 	void SetAllUnitsUnprocessed();

@@ -398,6 +398,38 @@
 			<PortraitIndex>58</PortraitIndex>
 		</Row>
 		<Row>
+			<Type>BUILDING_JAPAN_SHRINE_TOURISM</Type>
+			<BuildingClass>BUILDINGCLASS_JAPAN_SHRINE_TOURISM</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<NeverCapture>True</NeverCapture>
+			<Description>Shrine Tourism</Description>
+			<ArtDefineTag>ART_DEF_BUILDING_TEMPLE</ArtDefineTag>
+			<IconAtlas>EXPANSION_BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>9</PortraitIndex>
+			<GreatWorkCount>0</GreatWorkCount>
+			<ConquestProb>0</ConquestProb>
+			<HurryCostModifier>0</HurryCostModifier>
+			<EnhancedYieldTech>TECH_AGRICULTURE</EnhancedYieldTech>
+			<TechEnhancedTourism>2</TechEnhancedTourism>
+		</Row>
+		<Row>
+			<Type>BUILDING_JAPAN_TEMPLE_TOURISM</Type>
+    			<BuildingClass>BUILDINGCLASS_JAPAN_TEMPLE_TOURISM</BuildingClass>
+    			<Cost>-1</Cost>
+    			<FaithCost>-1</FaithCost>
+    			<NeverCapture>true</NeverCapture>
+			<Description>Temple Tourism</Description>
+			<ArtDefineTag>ART_DEF_BUILDING_TEMPLE</ArtDefineTag>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>37</PortraitIndex>
+			<GreatWorkCount>0</GreatWorkCount>
+			<ConquestProb>0</ConquestProb>
+			<HurryCostModifier>0</HurryCostModifier>
+			<EnhancedYieldTech>TECH_AGRICULTURE</EnhancedYieldTech>
+			<TechEnhancedTourism>2</TechEnhancedTourism>
+  		</Row>
+		<Row>
 			<Type>BUILDING_MUGHAL_FORT</Type>
 			<BuildingClass>BUILDINGCLASS_CASTLE</BuildingClass>
 			<Cost>150</Cost>
@@ -1204,6 +1236,26 @@
 			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
 			<Help>TXT_KEY_BUILDING_FACTORY_HELP</Help>
 			<Description>TXT_KEY_BUILDING_FACTORY</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_FACTORY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_FACTORY_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_FACTORY</ArtDefineTag>
+			<XBuiltTriggersIdeologyChoice>3</XBuiltTriggersIdeologyChoice>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>0</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>3</PortraitIndex>
+		</Row>
+		<Row>
+			<Type>BUILDING_SHALE_PLANT</Type>
+			<BuildingClass>BUILDINGCLASS_FACTORY</BuildingClass>
+			<Cost>360</Cost>
+			<GoldMaintenance>3</GoldMaintenance>
+			<PrereqTech>TECH_INDUSTRIALIZATION</PrereqTech>
+			<Help>TXT_KEY_BUILDING_SHALE_PLANT_HELP</Help>
+			<Description>TXT_KEY_BUILDING_SHALE_PLANT</Description>
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_FACTORY_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_FACTORY_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_FACTORY</ArtDefineTag>
@@ -2352,6 +2404,10 @@
 			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_SHALE_PLANT</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_SOLAR_PLANT</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 		</Row>
@@ -2975,6 +3031,21 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHALE_PLANT</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>4</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHALE_PLANT</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>100</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHALE_PLANT</BuildingType>
 			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
 			<Flavor>5</Flavor>
 		</Row>
@@ -4342,6 +4413,11 @@
 			<Yield>4</Yield>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_SHALE_PLANT</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>4</Yield>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_SOLAR_PLANT</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>5</Yield>
@@ -4864,6 +4940,11 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_FACTORY</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SHALE_PLANT</BuildingType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>10</Yield>
 		</Row>

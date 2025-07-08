@@ -3034,6 +3034,9 @@
 		<Row Tag="TXT_KEY_BUILDING_FACTORY_HELP">
 			<Text>Requires 1 [ICON_RES_COAL] Coal.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SHALE_PLANT_HELP">
+			<Text>Does not require Coal.</Text>
+		</Row>
 		<Row Tag="TXT_KEY_BUILDING_HYDRO_PLANT_HELP">
 			<Text>+1 [ICON_PRODUCTION] Production in every tile next to a River. Requires 1 [ICON_RES_ALUMINUM] Aluminum.[NEWLINE][NEWLINE]City must be built next to a River.</Text>
 		</Row>
@@ -3261,10 +3264,10 @@
 			<Text>City-State [ICON_INFLUENCE] Influence degrades at half and recovers at twice the normal rate.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED_SHORT">
-			<Text>Bushido</Text>
+			<Text>Sakoku</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_FIGHT_WELL_DAMAGED">
-			<Text>Units fight as though they were at full strength even when damaged.</Text>
+			<Text>idk</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS_SHORT">
 			<Text>Furor Teutonicus</Text>
@@ -3393,4 +3396,13 @@ ge_en_US>
 n_US>
 </GameData>
 meData>
+
+>
+ata>
+ge_en_US>
+</GameData>
+n_US>
+</GameData>
+meData>
+
 

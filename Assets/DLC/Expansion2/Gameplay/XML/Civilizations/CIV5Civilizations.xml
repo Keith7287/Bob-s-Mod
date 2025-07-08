@@ -1104,6 +1104,11 @@
 			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
 			<BuildingType>BUILDING_MUD_PYRAMID_MOSQUE</BuildingType>
 		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+			<BuildingType>BUILDING_SHALE_PLANT</BuildingType>
+		</Row>
 	</Civilization_BuildingClassOverrides>
 	<Civilization_CityNames>
 		<Row>
@@ -6147,11 +6152,6 @@
 			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
 			<UnitClassType>UNITCLASS_LONGSWORDSMAN</UnitClassType>
 			<UnitType>UNIT_JAPANESE_SAMURAI</UnitType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_JAPAN</CivilizationType>
-			<UnitClassType>UNITCLASS_FIGHTER</UnitClassType>
-			<UnitType>UNIT_JAPANESE_ZERO</UnitType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType>

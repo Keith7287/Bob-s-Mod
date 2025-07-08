@@ -98,6 +98,13 @@
 		<Column name="ObsoleteTech" type="text" reference="Technologies(Type)" default="NULL"/>
 		<Column name="PrereqTech" type="text" reference="Technologies(Type)" default="NULL"/>
 	</Table>
+	<Table name="Trait_BuildingYieldChanges">
+  		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+  		<Column name="BuildingType" type="text" reference="Buildings(Type)"/>
+  		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+  		<Column name="Yield" type="integer"/>
+	</Table>
+
 	<Table name="Trait_ExtraYieldThresholds">
 		<Column name="TraitType" type="text" reference="Traits(Type)"/>
 		<Column name="YieldType" type="text" reference="Yields(Type)"/>
@@ -516,6 +523,12 @@
 	<Trait_ImprovementYieldChanges>
 		<Row>
 			<TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+			<ImprovementType>IMPROVEMENT_LANDMARK</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
 			<ImprovementType>IMPROVEMENT_FISHING_BOATS</ImprovementType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>1</Yield>
@@ -529,4 +542,18 @@
 			<Yield>2</Yield>
 		</Row>
 	</Trait_UnimprovedFeatureYieldChanges>
+	<Trait_BuildingYieldChanges>
+  		<Row>
+    			<TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+    			<BuildingType>BUILDING_SHRINE</BuildingType>
+    			<YieldType>YIELD_CULTURE</YieldType>
+    			<Yield>1</Yield>
+  		</Row>
+  		<Row>
+    			<TraitType>TRAIT_FIGHT_WELL_DAMAGED</TraitType>
+    			<BuildingType>BUILDING_TEMPLE</BuildingType>
+    			<YieldType>YIELD_CULTURE</YieldType>
+    			<Yield>1</Yield>
+  		</Row>
+	</Trait_BuildingYieldChanges>
 </GameData>
