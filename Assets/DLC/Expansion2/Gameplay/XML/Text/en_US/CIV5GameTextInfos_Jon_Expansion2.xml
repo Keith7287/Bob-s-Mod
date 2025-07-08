@@ -29,7 +29,7 @@
 			<Text>[COLOR_POSITIVE_TEXT]Conscription[ENDCOLOR][NEWLINE]+10% [ICON_PRODUCTION] Production when training all Military units.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_PROFESSIONAL_ARMY_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Professional Army[ENDCOLOR][NEWLINE][ICON_GOLD] Gold cost of upgrading Military Units reduced by 33% and construct Barracks, Armories, and Military Academies 50% faster.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Professional Army[ENDCOLOR][NEWLINE][ICON_GOLD] Gold cost of upgrading Military Units reduced by 33% and +50% [ICON_PRODUCTION] towards constructing Barracks, Armories, and Military Academies.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_BRANCH_PIETY_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Piety[ENDCOLOR] increases the [ICON_PEACE] Faith of empires.[NEWLINE][NEWLINE]Adopting Piety provides +100% [ICON_PRODUCTION] Production when building Shrines and Temples. Unlocks building the Great Mosque of Djenne.[NEWLINE][NEWLINE]Adopting all Policies in the Piety tree causes a Great Prophet to appear and Holy Sites provide +3 [ICON_CULTURE] Culture.</Text>
@@ -65,13 +65,13 @@
 			<Text>Aesthetics</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Aesthetics[ENDCOLOR] improves the civilization's ability to generate [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]Adopting Aesthetics allows you to earn Great Writers, Artists, and Musicians 25% faster. Unlocks building the Uffizi.[NEWLINE][NEWLINE]Adopting all policies doubles the theming bonus you receive from Museums and Wonders. It also allows the purchase of Great Writers, Artists, or Musicians with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Aesthetics[ENDCOLOR] improves the civilization's ability to generate [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]Adopting Aesthetics grants +50% [ICON_PRODUCTION] towards constructing Monuments, Amphitheaters, Opera Houses, Museums and Broadcast Towers. Unlocks building the Uffizi.[NEWLINE][NEWLINE]Adopting all policies doubles the theming bonus you receive from Museums and Wonders and a Great Artist, Writer and Musician appears. It also allows the purchase of Great Writers, Artists, or Musicians with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_POLICY_CULTURAL_CENTERS">
-			<Text>Cultural Centers</Text>
+		<Row Tag="TXT_KEY_POLICY_CULTURAL_CENTERS">Construct Monuments, Amphitheaters, Opera Houses, Museums and Broadcast Towers 50% faster.
+			<Text>Artistic Collaboration</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_CULTURAL_CENTERS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Cultural Centers[ENDCOLOR][NEWLINE]Construct Monuments, Amphitheaters, Opera Houses, Museums and Broadcast Towers 50% faster.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Artistic Collaboration[ENDCOLOR][NEWLINE]Earn Great Writers, Artists, and Musicians 50% faster.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_FINE_ARTS">
 			<Text>Fine Arts</Text>
@@ -80,19 +80,19 @@
 			<Text>Art dedicated to the goddess Athena</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_FINE_ARTS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Fine Arts[ENDCOLOR][NEWLINE]50% of excess [ICON_HAPPINESS_1] Happiness added each turn to the amount of [ICON_CULTURE] Culture that may be spent on Social Policies.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Fine Arts[ENDCOLOR][NEWLINE]100% of excess [ICON_HAPPINESS_1] Happiness added each turn to the amount of [ICON_CULTURE] Culture that may be spent on Social Policies.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS">
 			<Text>Artistic Genius</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_ARTISTIC_GENIUS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Artistic Genius[ENDCOLOR][NEWLINE]A Great Artist appears.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Artistic Genius[ENDCOLOR][NEWLINE]2 Great Artists appears. Earn Great Artists 50% faster.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_FLOURISHING_OF_ARTS">
-			<Text>Flourishing of the Arts</Text>
+			<Text>Cultural Tourism</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_FLOURISHING_OF_ARTS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Flourishing of the Arts[ENDCOLOR][NEWLINE][ICON_CULTURE] Culture increased by 33% in all cities which have built a World Wonder and the empire immediately enters a [ICON_GOLDEN_AGE] Golden Age.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Cultural Tourism[ENDCOLOR][NEWLINE][ICON_TOURISM] Tourism increased by 25% in all cities which have built a monument. Gain +2 [ICON_GOLD] Gold for each cultural building and the empire immediately enters a [ICON_GOLDEN_AGE] Golden Age.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_ETHICS">
 			<Text>Cultural Exchange</Text>
@@ -101,25 +101,25 @@
 			<Text>[COLOR_POSITIVE_TEXT]Cultural Exchange[ENDCOLOR][NEWLINE]Increases the tourism modifier for shared religion, trade routes, and open borders by 15% each.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_BRANCH_COMMERCE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Commerce[ENDCOLOR] provides bonuses to empires focused on [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Adopting Commerce will boost [ICON_GOLD] Gold output in [ICON_CAPITAL] Capital City by 25%. Unlocks building Big Ben.[NEWLINE][NEWLINE]Adopting all Policies in the Commerce tree will grant +1 [ICON_GOLD] Gold from every Trading Post. It also allows the purchase of Great Merchants with [ICON_PEACE] Faith starting in the Industrial Era</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Commerce[ENDCOLOR] provides bonuses to empires focused on [ICON_GOLD] Gold.[NEWLINE][NEWLINE]Adopting Commerce will boost [ICON_GOLD] Gold output in [ICON_CAPITAL] Capital City by 25% and allows the purchasing of Landsknechts. Unlocks building Big Ben.[NEWLINE][NEWLINE]Adopting all Policies in the Commerce tree will grant +1 [ICON_GOLD] Gold from every Trading Post. It also allows the purchase of Great Merchants with [ICON_PEACE] Faith starting in the Industrial Era</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP">
 			<Text>Entrepreneurship</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Entrepreneurship[ENDCOLOR][NEWLINE]Great Merchants are earned 25% faster. Receive double [ICON_GOLD] Gold from Great Merchant trade missions.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Entrepreneurship[ENDCOLOR][NEWLINE]+4 [ICON_GOLD] Gold from all of your trade routes. Building maintenance is decreased by 25%.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_CARAVANS">
-			<Text>Wagon Trains</Text>
+			<Text>Business Districts</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_CARAVANS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Wagon Trains[ENDCOLOR][NEWLINE]+2 [ICON_GOLD] Gold from all your land trade routes. Maintenance paid on Roads and Railroads reduced by 50%.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Business Districts[ENDCOLOR][NEWLINE]+50% [ICON_PRODUCTION] Production when constructing Markets, Mints, Banks and Stock Exchanges.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_TRADE_UNIONS">
-			<Text>Mercenary Army</Text>
+			<Text>Logistic Networks</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_TRADE_UNIONS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Mercenary Army[ENDCOLOR][NEWLINE]Allows the purchasing of Landsknechts.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Logistic Networks[ENDCOLOR][NEWLINE]+4 [ICON_GOLD] Gold from all of your trade routes. +1 [ICON_GOLD] Gold from all Harbors and maintenance paid on Roads and Railroads reduced by 50%. </Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION_CAP">
 			<Text>EXPLORATION</Text>
@@ -131,7 +131,7 @@
 			<Text>Exploration</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Exploration[ENDCOLOR] enhances your abilties to spread your empire over the seas.[NEWLINE][NEWLINE]Adopting Exploration gives +1 [ICON_MOVES] Movement for Naval units and +1 Sight for Naval combat units. Unlocks building the Louvre.[NEWLINE][NEWLINE]Adopting all policies allows you to see Hidden Antiquity Sites. It also allows the purchase of Great Admirals with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Exploration[ENDCOLOR] enhances your abilties to spread your empire over the seas.[NEWLINE][NEWLINE]Adopting Exploration causes 3 Archaeologists to appear. Unlocks building the Louvre.[NEWLINE][NEWLINE]Adopting all policies gives +8 [ICON_HAPPINESS] Happiness to the palace. It also allows the purchase of Great Admirals with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_MARITIME_INFRASTRUCTURE">
 			<Text>Maritime Infrastructure</Text>
@@ -149,13 +149,13 @@
 			<Text>Navigation School</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_NAVIGATION_SCHOOL_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Navigation School[ENDCOLOR][NEWLINE]A Great Admiral appears. +2 [ICON_MOVES] Movement for all Great Admirals. Great Admirals are earned 50% faster.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Navigation School[ENDCOLOR][NEWLINE]+1 [ICON_MOVES] Movement for Naval units and +1 Sight for Naval combat units. A Great Admiral appears. +2 [ICON_MOVES] Movement for all Great Admirals. Great Admirals are earned 50% faster.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_TREASURE_FLEETS">
-			<Text>Treasure Fleets</Text>
+			<Text>Archaeological Discovery</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_TREASURE_FLEETS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Treasure Fleets[ENDCOLOR][NEWLINE]+4 [ICON_GOLD] Gold from all your sea trade routes.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Archaeological Discovery[ENDCOLOR][NEWLINE]Reveals Hidden Antiquity Sites.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_BRANCH_RATIONALISM_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Rationalism[ENDCOLOR] improves the ability to use and generate [ICON_RESEARCH] Science.[NEWLINE][NEWLINE]Adopting Rationalism will grant +25% [ICON_PRODUCTION] Production when building Libraries, Univerisities, Observatories, Public Schools and Research Labs. Unlocks building the Porcelain Tower.[NEWLINE][NEWLINE]Adopting all Policies in the Rationalism tree will grant a free Technology. It also allows the purchase of Great Scientists with [ICON_PEACE] Faith starting in the Industrial Era.</Text>
@@ -741,7 +741,7 @@
 			<Text>When improved with an Archaeological Dig, an Antiquity Site can then yield an Artifact that can be placed in a Great Work of Art slot, or be transformed into a Landmark improvement.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_HIDDEN_ARTIFACTS_HELP">
-			<Text>When improved with an Archaeological Dig, a Hidden Antiquity Site can then yield an Artifact that can be placed in a Great Work of Art slot, or be transformed into a Landmark improvement. Hidden Antiquity Sites are only visible to civs that have all the policies in the Exploration policy tree.</Text>
+			<Text>When improved with an Archaeological Dig, a Hidden Antiquity Site can then yield an Artifact that can be placed in a Great Work of Art slot, or be transformed into a Landmark improvement. Hidden Antiquity Sites are only visible to civs that have the Archaelogical Discovery policy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_NUTMEG_HELP">
 			<Text>Appears as a unique luxury good in an Indonesian city.</Text>
