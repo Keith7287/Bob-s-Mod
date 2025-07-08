@@ -160,6 +160,7 @@
 		<Column name="IconAtlasAchieved" type="text" default="NULL" reference="IconTextureAtlases(Atlas)"/>
 		<Column name="FaithPurchaseAllGreatPeople" type="boolean" default="false"/>
 		<Column name="ExtraLeagueVotes" type="integer" default="0"/>
+		<Column name="NumTradeRouteBonus" type="integer" default="0"/>
 	</Table>
 	<Table name="Policy_CityYieldChanges">
 		<Column name="PolicyType" type="text" reference="Policies(Type)"/>
@@ -759,11 +760,14 @@
 			<Help>TXT_KEY_POLICY_TRADE_UNIONS_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_COMMERCE</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<GridX>4</GridX>
-			<GridY>1</GridY>
-			<PortraitIndex>0</PortraitIndex>
-			<IconAtlas>EXPANSIONPATCH_POLICY_ATLAS</IconAtlas>
-			<IconAtlasAchieved>EXPANSIONPATCH_POLICY_ACHIEVED_ATLAS</IconAtlasAchieved>
+			<GridX>2</GridX>
+			<GridY>2</GridY>
+			<PortraitIndex>9</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS_EXP2</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS_EXP2</IconAtlasAchieved>
+            		<LandTradeRouteGoldChange>400</LandTradeRouteGoldChange>
+            		<SeaTradeRouteGoldChange>400</SeaTradeRouteGoldChange>
+            		<RouteGoldMaintenanceMod>-50</RouteGoldMaintenanceMod>
 		</Row>
 		<Row>
 			<Type>POLICY_ENTREPRENEURSHIP</Type>
@@ -772,11 +776,12 @@
 			<Help>TXT_KEY_POLICY_ENTREPRENEURSHIP_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_COMMERCE</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<EmbarkedExtraMoves>1</EmbarkedExtraMoves>
-			<GridX>2</GridX>
-			<GridY>2</GridY>
-			<GreatMerchantRateModifier>25</GreatMerchantRateModifier>
-			<TradeMissionGoldModifier>100</TradeMissionGoldModifier>
+			<GridX>4</GridX>
+			<GridY>3</GridY>
+			<NumTradeRouteBonus>2</NumTradeRouteBonus>	
+            		<LandTradeRouteGoldChange>400</LandTradeRouteGoldChange>
+            		<SeaTradeRouteGoldChange>400</SeaTradeRouteGoldChange>	
+			<BuildingGoldMaintenanceMod>-25</BuildingGoldMaintenanceMod>
 			<PortraitIndex>3</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS_EXP2</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS_EXP2</IconAtlasAchieved>
@@ -789,10 +794,10 @@
 			<PolicyBranchType>POLICY_BRANCH_COMMERCE</PolicyBranchType>
 			<CultureCost>10</CultureCost>
 			<GridX>4</GridX>
-			<GridY>2</GridY>
-			<PortraitIndex>9</PortraitIndex>
-			<IconAtlas>POLICY_ATLAS</IconAtlas>
-			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+			<GridY>1</GridY>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>EXPANSIONPATCH_POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>EXPANSIONPATCH_POLICY_ACHIEVED_ATLAS</IconAtlasAchieved>
 		</Row>
 		<Row>
 			<Type>POLICY_CARAVANS</Type>
@@ -804,10 +809,8 @@
 			<GridX>2</GridX>
 			<GridY>1</GridY>
 			<PortraitIndex>9</PortraitIndex>
-			<IconAtlas>POLICY_ATLAS_EXP2</IconAtlas>
-			<IconAtlasAchieved>POLICY_A_ATLAS_EXP2</IconAtlasAchieved>
-			<LandTradeRouteGoldChange>200</LandTradeRouteGoldChange>
-			<RouteGoldMaintenanceMod>-50</RouteGoldMaintenanceMod>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
 		</Row>
 		<Row>
 			<Type>POLICY_PROTECTIONISM</Type>
@@ -818,7 +821,7 @@
 			<CultureCost>10</CultureCost>
 			<ExtraHappinessPerLuxury>2</ExtraHappinessPerLuxury>
 			<GridX>4</GridX>
-			<GridY>3</GridY>
+			<GridY>2</GridY>
 			<PortraitIndex>11</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -1931,6 +1934,12 @@
 			<YieldChange>2</YieldChange>
 		</Row>
 		<Row>
+			<PolicyType>POLICY_TRADE_UNIONS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>1</YieldChange>
+	        </Row>
+		<Row>
 			<PolicyType>POLICY_SOVEREIGNTY</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
@@ -2132,6 +2141,26 @@
 		<Row>
 			<PolicyType>POLICY_AESTHETICS</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CARAVANS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CARAVANS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CARAVANS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
+			<ProductionModifier>50</ProductionModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CARAVANS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClassType>
 			<ProductionModifier>50</ProductionModifier>
 		</Row>
 		<Row>
@@ -3600,20 +3629,20 @@
 			<PrereqPolicy>POLICY_FLOURISHING_OF_ARTS</PrereqPolicy>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_ENTREPRENEURSHIP</PolicyType>
-			<PrereqPolicy>POLICY_CARAVANS</PrereqPolicy>
-		</Row>
-		<Row>
-			<PolicyType>POLICY_MERCANTILISM</PolicyType>
-			<PrereqPolicy>POLICY_TRADE_UNIONS</PrereqPolicy>
-		</Row>
-		<Row>
 			<PolicyType>POLICY_PROTECTIONISM</PolicyType>
 			<PrereqPolicy>POLICY_MERCANTILISM</PrereqPolicy>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_PROTECTIONISM</PolicyType>
-			<PrereqPolicy>POLICY_ENTREPRENEURSHIP</PrereqPolicy>
+			<PolicyType>POLICY_TRADE_UNIONS</PolicyType>
+			<PrereqPolicy>POLICY_CARAVANS</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ENTREPRENEURSHIP</PolicyType>
+			<PrereqPolicy>POLICY_TRADE_UNIONS</PrereqPolicy>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_ENTREPRENEURSHIP</PolicyType>
+			<PrereqPolicy>POLICY_PROTECTIONISM</PrereqPolicy>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_NAVAL_TRADITION</PolicyType>
