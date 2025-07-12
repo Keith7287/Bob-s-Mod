@@ -936,6 +936,8 @@
 		<Row>
 			<Type>POLICY_COMMERCE_FINISHER</Type>
 			<Description>TXT_KEY_POLICY_BRANCH_COMMERCE</Description>
+			<GreatMerchantRateModifier>25</GreatMerchantRateModifier>
+			<TradeMissionGoldModifier>100</TradeMissionGoldModifier>
 		</Row>
 		<Row>
 			<Type>POLICY_RATIONALISM_FINISHER</Type>
@@ -1038,7 +1040,6 @@
 			<Description>TXT_KEY_POLICY_BRANCH_EXPLORATION</Description>
 			<Civilopedia>TXT_KEY_POLICY_EXPLORATION_TEXT</Civilopedia>
 			<Help>TXT_KEY_POLICY_BRANCH_EXPLORATION_HELP</Help>
-			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
 			<PortraitIndex>6</PortraitIndex>
 			<IconAtlas>POLICY_ATLAS</IconAtlas>
 			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
@@ -1104,6 +1105,7 @@
 			<Help>TXT_KEY_POLICY_TREASURE_FLEETS_HELP</Help>
 			<PolicyBranchType>POLICY_BRANCH_EXPLORATION</PolicyBranchType>
 			<CultureCost>10</CultureCost>
+			<IncludesOneShotFreeUnits>true</IncludesOneShotFreeUnits>
 			<GridX>2</GridX>
 			<GridY>1</GridY>
 			<PortraitIndex>8</PortraitIndex>
@@ -2536,12 +2538,6 @@
 			<Yield>3</Yield>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_COMMERCE_FINISHER</PolicyType>
-			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>1</Yield>
-		</Row>
-		<Row>
 			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
 			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
 			<YieldType>YIELD_SCIENCE</YieldType>
@@ -3807,7 +3803,7 @@
 			<Count>1</Count>
 		</Row>
 		<Row>
-			<PolicyType>POLICY_EXPLORATION</PolicyType>
+			<PolicyType>POLICY_TREASURE_FLEETS</PolicyType>
 			<UnitClassType>UNITCLASS_ARCHAEOLOGIST</UnitClassType>
 			<Count>3</Count>
 		</Row>
