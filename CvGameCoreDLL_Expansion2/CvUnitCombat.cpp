@@ -270,11 +270,20 @@ void HandlePioneerCapture(CvUnit* pkDefender, PlayerTypes eAttackerOwner)
 	if (pkDefender == NULL || eAttackerOwner == NO_PLAYER)
 		return;
 
-	if (pkDefender->getUnitType() != GC.getInfoTypeForString("UNIT_PIONEER"))
+	UnitTypes ePioneer = (UnitTypes)GC.getInfoTypeForString("UNIT_PIONEER", false);
+	if (ePioneer == NO_UNIT)
 		return;
 
-	pkDefender->setCapturingPlayer(eAttackerOwner);
+	// Only handle actual Pioneers
+	if (pkDefender->getUnitType() != ePioneer)
+		return;
 
+	// NEVER capture Pioneers while embarked - they should just die at sea
+	if (pkDefender->isEmbarked())
+		return;
+
+	// Land case: mark them as captured; kill() + getCaptureDefinition() will do the rest
+	pkDefender->setCapturingPlayer(eAttackerOwner);
 }
 
 //	---------------------------------------------------------------------------
@@ -401,13 +410,17 @@ void CvUnitCombat::ResolveMeleeCombat(const CvCombatInfo& kCombatInfo, uint uiPa
 
 			ApplyPostCombatTraitEffects(pkAttacker, pkDefender);
 
-			// Handle Pioneer capture logic before killing
-			HandlePioneerCapture(pkDefender, pkAttacker->getOwner());
-
-			// If defender captured normally (e.g., Worker), use default logic
+			// Prize ship capture (Privateer etc.)
 			if (kCombatInfo.getDefenderCaptured())
 			{
+				// Must be set before kill/capture resolution code runs
+				pkDefender->setCapturingPlayer(pkAttacker->getOwner());
 				pkDefender->SetCapturedAsIs(true);
+			}
+			else
+			{
+				// Only do Pioneer special conversion if NOT a prize capture
+				HandlePioneerCapture(pkDefender, pkAttacker->getOwner());
 			}
 		}
 		// Nobody died
@@ -768,7 +781,7 @@ void CvUnitCombat::ResolveRangedUnitVsCombat(const CvCombatInfo& kCombatInfo, ui
 							HandlePioneerCapture(pkDefender, pkAttacker->getOwner());
 
 							// Let the game finish the turn and kill naturally
-							pkDefender->setDamage(GC.getMAX_HIT_POINTS(), pkAttacker->getOwner());
+							//pkDefender->setDamage(GC.getMAX_HIT_POINTS(), pkAttacker->getOwner());
 						}
 
 						// One Hit

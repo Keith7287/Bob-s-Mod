@@ -1464,9 +1464,59 @@ bool CvUnit::getCaptureDefinition(CvUnitCaptureDefinition* pkCaptureDef, PlayerT
 	{
 		if(kCaptureDef.eCapturingPlayer != NO_PLAYER)
 		{
-			UnitTypes eCaptureType = getCaptureUnitType(GET_PLAYER(kCaptureDef.eCapturingPlayer).getCivilizationType());
-			if(eCaptureType != NO_UNIT)
-				kCaptureDef.eCaptureUnitType = eCaptureType;
+			PlayerTypes eCapturingPlayer = kCaptureDef.eCapturingPlayer;
+			CivilizationTypes eCapturingCiv = GET_PLAYER(eCapturingPlayer).getCivilizationType();
+
+			UnitTypes eThisUnitType = getUnitType();
+			UnitTypes ePioneer = (UnitTypes)GC.getInfoTypeForString("UNIT_PIONEER", false);
+			CivilizationTypes eAmerica = (CivilizationTypes)GC.getInfoTypeForString("CIVILIZATION_AMERICA", false);
+
+			// Special handling if the captured unit is a Pioneer
+			if(ePioneer != NO_UNIT && eThisUnitType == ePioneer)
+			{
+				// Case A: Barbarians are capturing the Pioneer from someone
+				if(GET_PLAYER(eCapturingPlayer).isBarbarian())
+				{
+					// Only allow barbs to keep it if this unit is generally capturable
+					if(getCaptureUnitType(eCapturingCiv) != NO_UNIT)
+					{
+						// Barbs keep the Pioneer as-is
+						kCaptureDef.eCaptureUnitType = eThisUnitType;
+					}
+				}
+				// Case B: Someone is capturing a Pioneer FROM the barbarians
+				else if(isBarbarian())
+				{
+					// America exception: original owner recapturing from barbs gets the Pioneer back
+					if(eAmerica != NO_CIVILIZATION &&
+					   eCapturingPlayer == kCaptureDef.eOriginalOwner &&
+					   GET_PLAYER(eCapturingPlayer).getCivilizationType() == eAmerica)
+					{
+						kCaptureDef.eCaptureUnitType = eThisUnitType;   // give back Pioneer
+					}
+					else
+					{
+						// Any other civ capturing Pioneer from barbs gets their Worker (via <Capture>UNITCLASS_WORKER</Capture>)
+						UnitTypes eConvertType = getCaptureUnitType(eCapturingCiv);
+						if(eConvertType != NO_UNIT)
+						{
+							kCaptureDef.eCaptureUnitType = eConvertType;
+						}
+						// If NO_UNIT, we leave it as NO_UNIT and the capture will fail, falling back to kill.
+					}
+				}
+				// If we somehow get here with neither side barbarian, the outer 'else if' wouldn't have matched.
+			}
+			// Non-Pioneer units: use original barbarian logic
+			else
+			{
+				// Must be able to capture this unit normally... don't want the barbs picking up Workboats, Generals, etc.
+				if(getCaptureUnitType(eCapturingCiv) != NO_UNIT)
+				{
+					// Unit type is the same as what it was
+					kCaptureDef.eCaptureUnitType = eThisUnitType;
+				}
+			}
 		}
 	}
 
@@ -2484,11 +2534,40 @@ bool CvUnit::canMoveInto(const CvPlot& plot, byte bMoveFlags) const
 		return false;
 	}
 
+	// Prevent ranged units from "walking onto" enemy Pioneers and auto-capturing them
+	{
+		UnitTypes ePioneer = (UnitTypes)GC.getInfoTypeForString("UNIT_PIONEER", false);
+		if (ePioneer != NO_UNIT && isRanged())
+		{
+			// plot is const, but getNumUnits/getUnitByIndex are non-const
+			CvPlot& kNonConstPlot = const_cast<CvPlot&>(plot);
+
+			const int iNumUnits = kNonConstPlot.getNumUnits();
+			for (int i = 0; i < iNumUnits; ++i)
+			{
+				CvUnit* pUnit = kNonConstPlot.getUnitByIndex(i);
+				if (pUnit != NULL)
+				{
+					// Enemy Pioneer present?
+					if (pUnit->getUnitType() == ePioneer &&
+						pUnit->getOwner() != getOwner() &&
+						!pUnit->isDelayedDeath())
+					{
+						// Don't allow moving onto this tile - player must use ranged attack instead
+						return false;
+					}
+				}
+			}
+		}
+	}
+
 	// Cannot move around in unrevealed land freely
 	if(!(bMoveFlags & MOVEFLAG_PRETEND_UNEMBARKED) && isNoRevealMap() && willRevealByMove(plot))
 	{
 		return false;
 	}
+
+	// ...rest of canMoveInto as it was...
 
 	// Barbarians have special restrictions early in the game
 	if(isBarbarian() && (GC.getGame().getGameTurn() < GC.getGame().GetBarbarianReleaseTurn()) && (plot.isOwned()))
@@ -9442,43 +9521,16 @@ void CvUnit::LogPioneerCapture(const char* szMessage) const
 }
 
 //	--------------------------------------------------------------------------------
-UnitTypes CvUnit::getCaptureUnitType(CivilizationTypes eCiv) const
+UnitTypes CvUnit::getCaptureUnitType(CivilizationTypes eCivilization) const
 {
-	CvAssert(eCiv != NO_CIVILIZATION);
-	const CvCivilizationInfo* pkCiv = GC.getCivilizationInfo(eCiv);
-	if (!pkCiv)
-		return (UnitTypes)NO_UNIT;
-
-	if (getUnitType() == GC.getInfoTypeForString("UNIT_PIONEER"))
+	CvCivilizationInfo* pkCivilizationInfo = GC.getCivilizationInfo(eCivilization);
+	if(pkCivilizationInfo == NULL)
 	{
-		PlayerTypes eCapturingPlayer = getCapturingPlayer();
-		PlayerTypes eOriginalOwner = GetOriginalOwner();
-		PlayerTypes eCurrentOwner = getOwner();
-
-		if (eCapturingPlayer == NO_PLAYER)
-			return (UnitTypes)NO_UNIT;
-
-		const CvPlayer& kCapturingPlayer = GET_PLAYER(eCapturingPlayer);
-
-		if (eCapturingPlayer == eOriginalOwner || kCapturingPlayer.isBarbarian())
-		{
-			return (UnitTypes)GC.getInfoTypeForString("UNIT_PIONEER");
-		}
-
-		return (UnitTypes)kCapturingPlayer.getCivilizationInfo().getCivilizationUnits(GC.getInfoTypeForString("UNITCLASS_WORKER"));
+		return NO_UNIT;
 	}
-	else
-	{
-		const CvUnitEntry* pInfo = GC.getUnitInfo(getUnitType());
-		if (!pInfo)
-			return (UnitTypes)NO_UNIT;
 
-		UnitClassTypes eCaptureClass = (UnitClassTypes)pInfo->GetUnitCaptureClassType();
-		if (eCaptureClass == NO_UNITCLASS)
-			return (UnitTypes)NO_UNIT;
-
-		return (UnitTypes)pkCiv->getCivilizationUnits(eCaptureClass);
-	}
+	return ((m_pUnitInfo->GetUnitCaptureClassType() == NO_UNITCLASS) ? NO_UNIT :
+		(UnitTypes)pkCivilizationInfo->getCivilizationUnits(getUnitInfo().GetUnitCaptureClassType()));
 }
 
 //	--------------------------------------------------------------------------------
