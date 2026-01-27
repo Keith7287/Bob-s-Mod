@@ -1908,23 +1908,17 @@ int CvPlayerTraits::GetImprovementYieldChange(ImprovementTypes eImprovement, Yie
 
 	int iBase = m_ppaaiImprovementYieldChange[(int)eImprovement][(int)eYield];
 
-	// Industrial Era bonuses
-	if (eYield == YIELD_CULTURE &&
+	// Industrial Era bonuses (Japan only, via trait)
+	if (m_bFightWellDamaged &&
+		eYield == YIELD_CULTURE &&
 		m_pPlayer->GetCurrentEra() >= GC.getInfoTypeForString("ERA_INDUSTRIAL"))
 	{
 		if (eImprovement == GC.getInfoTypeForString("IMPROVEMENT_LANDMARK"))
-		{
-			iBase += 2; // +2 more, on top of base XML
-		}
+			iBase += 2;
 		else if (eImprovement == GC.getInfoTypeForString("IMPROVEMENT_FISHING_BOATS"))
-		{
-			iBase += 1; // +1 more, on top of +1 base
-		}
+			iBase += 1;
 	}
-
-	return iBase;
 }
-
 /// Extra yield from this specialist
 int CvPlayerTraits::GetSpecialistYieldChange(SpecialistTypes eSpecialist, YieldTypes eYield) const
 {
@@ -1952,8 +1946,9 @@ int CvPlayerTraits::GetUnimprovedFeatureYieldChange(FeatureTypes eFeature, Yield
 
 	int iBase = m_ppaaiUnimprovedFeatureYieldChange[(int)eFeature][(int)eYield];
 
-	// Add +2 Culture from Atolls in Industrial Era (to reach +4 total)
-	if (eYield == YIELD_CULTURE &&
+	// Add +2 Culture from Atolls in Industrial Era (Japan trait only)
+	if (m_bFightWellDamaged &&
+		eYield == YIELD_CULTURE &&
 		m_pPlayer->GetCurrentEra() >= GC.getInfoTypeForString("ERA_INDUSTRIAL") &&
 		eFeature == GC.getInfoTypeForString("FEATURE_ATOLL"))
 	{
