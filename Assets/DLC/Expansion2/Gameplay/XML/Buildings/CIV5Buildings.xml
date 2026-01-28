@@ -416,7 +416,27 @@
 			<IconAtlas>GREECE_ATLAS</IconAtlas>
 			<PortraitIndex>15</PortraitIndex>
 		</Row>
-
+		<Row>
+			<Type>BUILDING_COTHON</Type>
+			<BuildingClass>BUILDINGCLASS_LIGHTHOUSE</BuildingClass>
+			<FreeStartEra>ERA_RENAISSANCE</FreeStartEra>
+			<Cost>75</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_OPTICS</PrereqTech>
+			<Help>TXT_KEY_BUILDING_LIGHTHOUSE_HELP</Help>
+			<Description>Cothon</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_LIGHTHOUSE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_LIGHTHOUSE_STRATEGY</Strategy>
+			<ArtDefineTag>LIGHTHOUSE</ArtDefineTag>
+			<Water>true</Water>
+			<MinAreaSize>10</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>25</HurryCostModifier>
+			<ArtInfoEraVariation>true</ArtInfoEraVariation>
+			<DisplayPosition>8</DisplayPosition>
+			<IconAtlas>GREECE_ATLAS</IconAtlas>
+			<PortraitIndex>13</PortraitIndex>
+		</Row>
 		<Row>
 			<Type>BUILDING_JAPAN_SHRINE_TOURISM</Type>
 			<BuildingClass>BUILDINGCLASS_JAPAN_SHRINE_TOURISM</BuildingClass>
@@ -2725,6 +2745,26 @@
 			<Flavor>10</Flavor>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_COTHON</BuildingType>
+			<FlavorType>FLAVOR_NAVAL_GROWTH</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COTHON</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>18</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COTHON</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COTHON</BuildingType>
+			<FlavorType>FLAVOR_NAVAL_TILE_IMPROVEMENT</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_HARBOR</BuildingType>
 			<FlavorType>FLAVOR_GOLD</FlavorType>
 			<Flavor>20</Flavor>
@@ -4384,6 +4424,11 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_GRANARY</BuildingType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_COTHON</BuildingType>
 			<YieldType>YIELD_FOOD</YieldType>
 			<Yield>2</Yield>
 		</Row>

@@ -219,6 +219,11 @@
 			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
 			<BuildingType>BUILDING_HIPPODROME</BuildingType>
 		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_CARTHAGE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
+			<BuildingType>BUILDING_COTHON</BuildingType>
+		</Row>
 	</Civilization_BuildingClassOverrides>
 	<Civilization_FreeBuildingClasses>
 		<Row>
@@ -898,11 +903,6 @@
 			<CivilizationType>CIVILIZATION_CARTHAGE</CivilizationType>
 			<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
 			<UnitType>UNIT_CARTHAGINIAN_FOREST_ELEPHANT</UnitType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_CARTHAGE</CivilizationType>
-			<UnitClassType>UNITCLASS_TRIREME</UnitClassType>
-			<UnitType>UNIT_CARTHAGINIAN_QUINQUEREME</UnitType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_CELTS</CivilizationType>
