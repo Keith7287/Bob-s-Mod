@@ -398,6 +398,26 @@
 			<PortraitIndex>58</PortraitIndex>
 		</Row>
 		<Row>
+			<Type>BUILDING_HIPPODROME</Type>
+			<BuildingClass>BUILDINGCLASS_AMPHITHEATER</BuildingClass>
+			<Cost>100</Cost>
+			<GoldMaintenance>1</GoldMaintenance>
+			<PrereqTech>TECH_DRAMA</PrereqTech>
+			<Description>Hippodrome</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_AMPHITHEATER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AMPHITHEATER_STRATEGY</Strategy>
+			<ArtDefineTag>COLESSEUM</ArtDefineTag>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<ConquestProb>100</ConquestProb>
+			<Happiness>1</Happiness>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>GREECE_ATLAS</IconAtlas>
+			<PortraitIndex>15</PortraitIndex>
+		</Row>
+
+		<Row>
 			<Type>BUILDING_JAPAN_SHRINE_TOURISM</Type>
 			<BuildingClass>BUILDINGCLASS_JAPAN_SHRINE_TOURISM</BuildingClass>
 			<Cost>-1</Cost>
@@ -2384,6 +2404,11 @@
 			<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_HIPPODROME</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+		</Row>
+
+		<Row>
 			<BuildingType>BUILDING_MILITARY_BASE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_ARSENAL</BuildingClassType>
 		</Row>
@@ -2778,6 +2803,36 @@
 			<BuildingType>BUILDING_CASTLE</BuildingType>
 			<FlavorType>FLAVOR_CITY_DEFENSE</FlavorType>
 			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HIPPODROME</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HIPPODROME</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>2</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HIPPODROME</BuildingType>
+			<FlavorType>FLAVOR_EXPANSION</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HIPPODROME</BuildingType>
+			<FlavorType>FLAVOR_GROWTH</FlavorType>
+			<Flavor>3</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HIPPODROME</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HIPPODROME</BuildingType>
+			<FlavorType>FLAVOR_RELIGION</FlavorType>
+			<Flavor>40</Flavor>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_MUGHAL_FORT</BuildingType>
@@ -4311,6 +4366,16 @@
 			<BuildingType>BUILDING_PALACE</BuildingType>
 			<YieldType>YIELD_SCIENCE</YieldType>
 			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HIPPODROME</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HIPPODROME</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>

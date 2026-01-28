@@ -214,6 +214,11 @@
 			<BuildingClassType>BUILDINGCLASS_SHRINE</BuildingClassType>
 			<BuildingType>BUILDING_MAYA_PYRAMID</BuildingType>
 		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_BYZANTIUM</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<BuildingType>BUILDING_HIPPODROME</BuildingType>
+		</Row>
 	</Civilization_BuildingClassOverrides>
 	<Civilization_FreeBuildingClasses>
 		<Row>
@@ -888,11 +893,6 @@
 			<CivilizationType>CIVILIZATION_BYZANTIUM</CivilizationType>
 			<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
 			<UnitType>UNIT_BYZANTINE_CATAPHRACT</UnitType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_BYZANTIUM</CivilizationType>
-			<UnitClassType>UNITCLASS_TRIREME</UnitClassType>
-			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_CARTHAGE</CivilizationType>
