@@ -438,6 +438,25 @@
 			<PortraitIndex>13</PortraitIndex>
 		</Row>
 		<Row>
+			<Type>BUILDING_ODEON</Type>
+			<BuildingClass>BUILDINGCLASS_AMPHITHEATER</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_DRAMA</PrereqTech>
+			<Description>Odeon</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_AMPHITHEATER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_AMPHITHEATER_STRATEGY</Strategy>
+			<ArtDefineTag>COLESSEUM</ArtDefineTag>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<SpecialistType>SPECIALIST_WRITER</SpecialistType>
+			<SpecialistCount>1</SpecialistCount>
+			<ConquestProb>100</ConquestProb>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>GREECE_ATLAS</IconAtlas>
+			<PortraitIndex>14</PortraitIndex>
+		</Row>
+		<Row>
 			<Type>BUILDING_JAPAN_SHRINE_TOURISM</Type>
 			<BuildingClass>BUILDINGCLASS_JAPAN_SHRINE_TOURISM</BuildingClass>
 			<Cost>-1</Cost>
@@ -4416,6 +4435,16 @@
 			<BuildingType>BUILDING_HIPPODROME</BuildingType>
 			<YieldType>YIELD_CULTURE</YieldType>
 			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ODEON</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ODEON</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_PAPER_MAKER</BuildingType>

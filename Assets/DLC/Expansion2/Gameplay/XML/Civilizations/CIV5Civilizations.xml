@@ -1109,6 +1109,11 @@
 			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 			<BuildingType>BUILDING_SHALE_PLANT</BuildingType>
 		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<BuildingType>BUILDING_ODEON</BuildingType>
+		</Row>
 	</Civilization_BuildingClassOverrides>
 	<Civilization_CityNames>
 		<Row>
@@ -6127,11 +6132,6 @@
 			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
 			<UnitClassType>UNITCLASS_TANK</UnitClassType>
 			<UnitType>UNIT_GERMAN_PANZER</UnitType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
-			<UnitClassType>UNITCLASS_HORSEMAN</UnitClassType>
-			<UnitType>UNIT_GREEK_COMPANIONCAVALRY</UnitType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
