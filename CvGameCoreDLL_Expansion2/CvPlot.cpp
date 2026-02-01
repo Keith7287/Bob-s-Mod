@@ -7434,11 +7434,16 @@ int CvPlot::calculateYield(YieldTypes eYield, bool bDisplay)
 			{
 				if (pkResourceInfo->getPolicyReveal() == NO_POLICY || GET_PLAYER(ePlayer).GetPlayerPolicies()->HasPolicy((PolicyTypes)pkResourceInfo->getPolicyReveal()))
 				{
-					// Extra yield from resources
+					// Extra yield from resources (city-based bonuses: pantheon/buildings/policies/etc.)
 					if(pWorkingCity != NULL)
+					{
 						iYield += pWorkingCity->GetResourceExtraYield(eResource, eYield);
+					}
 
-					// Extra yield from Trait
+					// Extra yield from Trait_ResourceYieldChanges (your Ottoman table)
+					iYield += GET_PLAYER(ePlayer).GetPlayerTraits()->GetResourceYieldChange(eResource, eYield);
+
+					// Extra yield from Trait (Russia-style blanket strategic yield)
 					if(pkResourceInfo->getResourceUsage() == RESOURCEUSAGE_STRATEGIC)
 					{
 						iYield += GET_PLAYER(ePlayer).GetPlayerTraits()->GetYieldChangeStrategicResources(eYield);
@@ -10171,6 +10176,13 @@ int CvPlot::getYieldWithBuild(BuildTypes eBuild, YieldTypes eYield, bool bWithUp
 					// Extra yield from Resources with Trait
 					if(pkResourceInfo->getResourceUsage() == RESOURCEUSAGE_STRATEGIC)
 						iYield += GET_PLAYER(ePlayer).GetPlayerTraits()->GetYieldChangeStrategicResources(eYield);
+					
+					// Extra yield from specific resources via Trait_ResourceYieldChanges
+					ResourceTypes eRes = getResourceType(GET_PLAYER(ePlayer).getTeam());
+					if (eRes != NO_RESOURCE)
+					{
+						iYield += GET_PLAYER(ePlayer).GetPlayerTraits()->GetResourceYieldChange(eRes, eYield);
+					}
 				}
 			}
 		}

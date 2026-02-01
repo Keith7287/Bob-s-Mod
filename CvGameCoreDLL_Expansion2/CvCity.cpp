@@ -5019,6 +5019,16 @@ int CvCity::getProductionModifier(UnitTypes eUnit, CvString* toolTipSink) const
 			GC.getGame().BuildProdModHelpText(toolTipSink, "TXT_KEY_PRODMOD_MILITARY", iTempMod);
 		}
 	}
+	// Trait-based unitcombat production modifiers (Trait_UnitCombatProductionModifiers)
+	int iTraitMod = GET_PLAYER(getOwner()).GetPlayerTraits()->GetUnitCombatProductionModifier(eUnitCombatType);
+	if (iTraitMod != 0)
+	{
+		iMultiplier += iTraitMod;
+		if (toolTipSink)
+		{
+			GC.getGame().BuildProdModHelpText(toolTipSink, "TXT_KEY_PRODMOD_UNIT_COMBAT_TYPE", iTraitMod);
+		}
+	}
 
 	// City Space mod
 	if(pkUnitInfo->GetSpaceshipProject() != NO_PROJECT)
@@ -6276,7 +6286,7 @@ void CvCity::UpdateReligion(ReligionTypes eNewMajority)
 
 	for(int iYield = 0; iYield < NUM_YIELD_TYPES; iYield++)
 	{
-		int iYieldPerReligion = GetYieldPerReligionTimes100((YieldTypes)iYield);
+		/*int iYieldPerReligion = GetYieldPerReligionTimes100((YieldTypes)iYield);
 		if (iYieldPerReligion > 0)
 		{
 			switch(iYield)
@@ -6291,7 +6301,7 @@ void CvCity::UpdateReligion(ReligionTypes eNewMajority)
 					ChangeBaseYieldRateFromReligion((YieldTypes)iYield, (GetCityReligions()->GetNumReligionsWithFollowers() * iYieldPerReligion) / 100);
 					break;
 			}
-		}
+		}*/
 
 		if(eNewMajority != NO_RELIGION)
 		{

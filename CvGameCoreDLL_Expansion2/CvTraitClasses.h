@@ -119,6 +119,8 @@ public:
 	int GetLandTradeRouteRangeBonus() const;
 	int GetTradeReligionModifier() const;
 	int GetTradeBuildingModifier() const;
+	int** m_ppiResourceYieldChanges;              // [Resource][Yield]
+	int*  m_piUnitCombatProductionModifiers;      // [UnitCombat]
 
 	TechTypes GetFreeUnitPrereqTech() const;
 	ImprovementTypes GetCombatBonusImprovement() const;
@@ -166,6 +168,8 @@ public:
 	int GetSpecialistYieldChanges(SpecialistTypes eIndex1, YieldTypes eIndex2) const;
 	int GetUnimprovedFeatureYieldChanges(FeatureTypes eIndex1, YieldTypes eIndex2) const;
 	int GetBuildingYieldChanges(BuildingTypes eBuilding, YieldTypes eYield) const;
+	int GetResourceYieldChange(ResourceTypes eResource, YieldTypes eYield) const;
+	int GetUnitCombatProductionModifier(UnitCombatTypes eUnitCombat) const;
 	FreeResourceXCities GetFreeResourceXCities(ResourceTypes eResource) const;
 
 	bool IsFreePromotionUnitCombat(const int promotionID, const int unitCombatID) const;
@@ -508,6 +512,8 @@ public:
 	};
 	int GetFirstFreeUnit(TechTypes eTech);
 	int GetNextFreeUnit();
+	int GetResourceYieldChange(ResourceTypes eResource, YieldTypes eYield) const;
+	int GetUnitCombatProductionModifier(UnitCombatTypes eUnitCombat) const;
 	int GetNaturalWonderFirstFinderGold() const
 	{
 		return m_iNaturalWonderFirstFinderGold;
@@ -789,6 +795,8 @@ private:
 	CvPlayer* m_pPlayer;
 
 	// Cached data about this player's traits
+	int** m_ppiResourceYieldChanges;        // [Resource][Yield]
+	int*  m_piUnitCombatProductionModifiers; // [UnitCombat]
 	int m_iGreatPeopleRateModifier;
 	int m_iGreatScientistRateModifier;
 	int m_iGreatGeneralRateModifier;
@@ -912,7 +920,10 @@ private:
 	std::vector< Firaxis::Array<int, NUM_YIELD_TYPES > > m_ppaaiImprovementYieldChange;
 	std::vector< Firaxis::Array<int, NUM_YIELD_TYPES > > m_ppaaiSpecialistYieldChange;
 	std::vector< Firaxis::Array<int, NUM_YIELD_TYPES > > m_ppaaiUnimprovedFeatureYieldChange;
-
+	// Resource -> Yield -> flat change (ex: +1 Production on Iron)
+	std::vector< Firaxis::Array<int, NUM_YIELD_TYPES> > m_ppaaiResourceYieldChange;
+	// UnitCombat -> production % (ex: +15% for Siege/Gun)
+	std::vector<int> m_aiUnitCombatProductionModifier;
 	std::vector<FreeResourceXCities> m_aFreeResourceXCities;
 };
 

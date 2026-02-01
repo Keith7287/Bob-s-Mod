@@ -118,6 +118,8 @@ CvTraitEntry::CvTraitEntry() :
 	m_ppiImprovementYieldChanges(NULL),
 	m_ppiSpecialistYieldChanges(NULL),
 	m_ppiUnimprovedFeatureYieldChanges(NULL),
+	m_ppiResourceYieldChanges(NULL),
+	m_piUnitCombatProductionModifiers(NULL),
 	m_ppiBuildingYieldChanges (NULL)
 {
 }
@@ -129,12 +131,49 @@ CvTraitEntry::~CvTraitEntry()
 	CvDatabaseUtility::SafeDelete2DArray(m_ppiSpecialistYieldChanges);
 	CvDatabaseUtility::SafeDelete2DArray(m_ppiUnimprovedFeatureYieldChanges);
 	CvDatabaseUtility::SafeDelete2DArray(m_ppiBuildingYieldChanges);
+	CvDatabaseUtility::SafeDelete2DArray(m_ppiResourceYieldChanges);
+	SAFE_DELETE_ARRAY(m_piUnitCombatProductionModifiers);
 }
 
 /// Accessor:: Modifier to experience needed for new level
 int CvTraitEntry::GetLevelExperienceModifier() const
 {
 	return m_iLevelExperienceModifier;
+}
+
+/// Accessor:: Resource yield change 
+int CvTraitEntry::GetResourceYieldChange(ResourceTypes eResource, YieldTypes eYield) const
+{
+	return (m_ppiResourceYieldChanges ? m_ppiResourceYieldChanges[(int)eResource][(int)eYield] : 0);
+}
+
+///Accessor:: Unit combat production modifier
+int CvTraitEntry::GetUnitCombatProductionModifier(UnitCombatTypes eUnitCombat) const
+{
+	return (m_piUnitCombatProductionModifiers ? m_piUnitCombatProductionModifiers[(int)eUnitCombat] : 0);
+}
+
+///Accessor:: Trait resource & combat change
+int CvPlayerTraits::GetResourceYieldChange(ResourceTypes eResource, YieldTypes eYield) const
+{
+	if (eResource == NO_RESOURCE || eYield < 0 || eYield >= NUM_YIELD_TYPES)
+		return 0;
+
+	if ((int)eResource < 0 || (int)eResource >= (int)m_ppaaiResourceYieldChange.size())
+		return 0;
+
+	return m_ppaaiResourceYieldChange[(int)eResource][(int)eYield];
+}
+
+int CvPlayerTraits::GetUnitCombatProductionModifier(UnitCombatTypes eUnitCombat) const
+{
+	if (eUnitCombat == NO_UNITCOMBAT)
+		return 0;
+
+	if ((int)eUnitCombat < 0 || (int)eUnitCombat >= (int)m_aiUnitCombatProductionModifier.size())
+		return 0;
+
+	return m_aiUnitCombatProductionModifier[(int)eUnitCombat];
 }
 
 /// Accessor:: Building yield changes
@@ -1033,6 +1072,65 @@ bool CvTraitEntry::CacheResults(Database::Results& kResults, CvDatabaseUtility& 
 			m_piStrategicResourceQuantityModifier[iTerrainID] = iStrategicResourceQuantityModifier;
 		}
 	}
+	
+	// Trait_ResourceYieldChanges
+	{
+		kUtility.Initialize2DArray(m_ppiResourceYieldChanges, "Resources", "Yields");
+
+		std::string strKey("Trait_ResourceYieldChanges");
+		Database::Results* pResults = kUtility.GetResults(strKey);
+		if(pResults == NULL)
+		{
+			pResults = kUtility.PrepareResults(strKey,
+				"SELECT Resources.ID AS ResourceID, Yields.ID AS YieldID, Yield "
+				"FROM Trait_ResourceYieldChanges "
+				"INNER JOIN Resources ON Resources.Type = ResourceType "
+				"INNER JOIN Yields ON Yields.Type = YieldType "
+				"WHERE TraitType = ?;");
+		}
+
+		pResults->Bind(1, szTraitType);
+
+		while(pResults->Step())
+		{
+			const int iRes = pResults->GetInt("ResourceID");
+			const int iYld = pResults->GetInt("YieldID");
+			const int iVal = pResults->GetInt("Yield");
+			m_ppiResourceYieldChanges[iRes][iYld] = iVal;
+		}
+
+		pResults->Reset();
+	}
+
+	// Trait_UnitCombatProductionModifiers
+	{
+		const int iNumUnitCombats = kUtility.MaxRows("UnitCombatInfos");
+		kUtility.InitializeArray(m_piUnitCombatProductionModifiers, iNumUnitCombats, 0);
+
+		std::string strKey("Trait_UnitCombatProductionModifiers");
+		Database::Results* pResults = kUtility.GetResults(strKey);
+		if(pResults == NULL)
+		{
+			pResults = kUtility.PrepareResults(strKey,
+				"SELECT UnitCombatInfos.ID AS UnitCombatID, Modifier "
+				"FROM Trait_UnitCombatProductionModifiers "
+				"INNER JOIN UnitCombatInfos ON UnitCombatInfos.Type = UnitCombatType "
+				"WHERE TraitType = ?;");
+		}
+
+		pResults->Bind(1, szTraitType);
+
+		while(pResults->Step())
+		{
+			const int iUC = pResults->GetInt("UnitCombatID");
+			CvAssert(iUC > -1 && iUC < iNumUnitCombats);
+
+			const int iMod = pResults->GetInt("Modifier");
+			m_piUnitCombatProductionModifiers[iUC] = iMod;
+		}
+
+		pResults->Reset();
+	}
 
 	// BuildingYieldChanges
 	kUtility.Initialize2DArray(m_ppiBuildingYieldChanges, "Buildings", "Yields");
@@ -1429,6 +1527,29 @@ void CvPlayerTraits::InitPlayerTraits()
 				//int iWoundedUnitDamageMod = /*-50*/ GC.getTRAIT_WOUNDED_DAMAGE_MOD();
 				//m_pPlayer->ChangeWoundedUnitDamageMod(iWoundedUnitDamageMod);
 			//}
+			// --- accumulate Trait_ResourceYieldChanges
+			for (int iRes = 0; iRes < GC.getNumResourceInfos(); iRes++)
+			{
+				for (int iY = 0; iY < NUM_YIELD_TYPES; iY++)
+				{
+					int iChange = trait->GetResourceYieldChange((ResourceTypes)iRes, (YieldTypes)iY);
+					if (iChange != 0)
+					{
+						Firaxis::Array<int, NUM_YIELD_TYPES> yields = m_ppaaiResourceYieldChange[iRes];
+						yields[iY] = yields[iY] + iChange;
+						m_ppaaiResourceYieldChange[iRes] = yields;
+					}
+				}
+			}
+			// --- accumulate Trait_UnitCombatProductionModifiers
+			for (int iUC = 0; iUC < GC.getNumUnitCombatClassInfos(); iUC++)
+			{
+				int iMod = trait->GetUnitCombatProductionModifier((UnitCombatTypes)iUC);
+				if (iMod != 0)
+				{
+					m_aiUnitCombatProductionModifier[iUC] += iMod;
+				}
+			}
 			if(trait->IsMoveFriendlyWoodsAsRoad())
 			{
 				m_bMoveFriendlyWoodsAsRoad = true;
@@ -1604,6 +1725,8 @@ void CvPlayerTraits::Uninit()
 	m_ppaaiSpecialistYieldChange.clear();
 	m_ppaaiUnimprovedFeatureYieldChange.clear();
 	m_aFreeResourceXCities.clear();
+	m_ppaaiResourceYieldChange.clear();
+	m_aiUnitCombatProductionModifier.clear();
 }
 
 /// Reset data members
@@ -1776,6 +1899,26 @@ void CvPlayerTraits::Reset()
 	{
 		FreeResourceXCities temp;
 		m_aFreeResourceXCities.push_back(temp);
+	}
+
+	// --- Trait_ResourceYieldChanges cache (Resource x Yield)
+	m_ppaaiResourceYieldChange.clear();
+	m_ppaaiResourceYieldChange.resize(GC.getNumResourceInfos());
+	for (int iRes = 0; iRes < GC.getNumResourceInfos(); iRes++)
+	{
+		Firaxis::Array<int, NUM_YIELD_TYPES> yield;
+		for (int iY = 0; iY < NUM_YIELD_TYPES; iY++)
+			yield[iY] = 0;
+
+		m_ppaaiResourceYieldChange[iRes] = yield;
+	}
+
+	// --- Trait_UnitCombatProductionModifiers cache (UnitCombat -> %)
+	m_aiUnitCombatProductionModifier.clear();
+	m_aiUnitCombatProductionModifier.resize(GC.getNumUnitCombatClassInfos());
+	for (int iUC = 0; iUC < GC.getNumUnitCombatClassInfos(); iUC++)
+	{
+		m_aiUnitCombatProductionModifier[iUC] = 0;
 	}
 }
 

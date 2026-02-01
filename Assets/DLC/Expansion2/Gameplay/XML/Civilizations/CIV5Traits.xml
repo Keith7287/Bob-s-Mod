@@ -105,7 +105,18 @@
   		<Column name="YieldType" type="text" reference="Yields(Type)"/>
   		<Column name="Yield" type="integer"/>
 	</Table>
+	<Table name="Trait_UnitCombatProductionModifiers">
+  		<Column name="TraitType" type="text" reference="Traits(Type)" notnull="true"/>
+  		<Column name="UnitCombatType" type="text" reference="UnitCombatInfos(Type)" notnull="true"/>
+  		<Column name="Modifier" type="integer" default="0"/>
+	</Table>
 
+	<Table name="Trait_ResourceYieldChanges">
+  		<Column name="TraitType" type="text" reference="Traits(Type)" notnull="true"/>
+  		<Column name="ResourceType" type="text" reference="Resources(Type)" notnull="true"/>
+  		<Column name="YieldType" type="text" reference="Yields(Type)" notnull="true"/>
+  		<Column name="Yield" type="integer" default="0"/>
+	</Table>
 	<Table name="Trait_ExtraYieldThresholds">
 		<Column name="TraitType" type="text" reference="Traits(Type)"/>
 		<Column name="YieldType" type="text" reference="Yields(Type)"/>
@@ -283,9 +294,8 @@
 		</Row>
 		<Row>
 			<Type>TRAIT_CONVERTS_SEA_BARBARIANS</Type>
-			<Description>TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS</Description>
+			<Description>+1 [ICON_PRODUCTION] Production for each source of Iron, Copper, and coal in the empire. +15% [ICON_PRODUCTION] production for all siege and gunpowder units.</Description>
 			<ShortDescription>TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT</ShortDescription>
-			<NavalUnitMaintenanceModifier>-66</NavalUnitMaintenanceModifier>
 		</Row>
 		<Row>
 			<Type>TRAIT_IGNORE_TERRAIN_IN_FOREST</Type>
@@ -345,6 +355,38 @@
 			<GoldenAgeCombatModifier>10</GoldenAgeCombatModifier>
 		</Row>
 	</Traits>
+	<Trait_ResourceYieldChanges>
+  	<Row>
+    		<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
+    		<ResourceType>RESOURCE_IRON</ResourceType>
+    		<YieldType>YIELD_PRODUCTION</YieldType>
+    		<Yield>1</Yield>
+  	</Row>
+  	<Row>
+    		<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
+    		<ResourceType>RESOURCE_COAL</ResourceType>
+    		<YieldType>YIELD_PRODUCTION</YieldType>
+    		<Yield>1</Yield>
+  	</Row>
+  	<Row>
+    		<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
+    		<ResourceType>RESOURCE_COPPER</ResourceType>
+    		<YieldType>YIELD_PRODUCTION</YieldType>
+    		<Yield>1</Yield>
+  	</Row>
+	</Trait_ResourceYieldChanges>
+	<Trait_UnitCombatProductionModifiers>
+  	<Row>
+    		<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
+    		<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+    		<Modifier>15</Modifier>
+  	</Row>
+  	<Row>
+    		<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
+    		<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+    		<Modifier>15</Modifier>
+  	</Row>
+	</Trait_UnitCombatProductionModifiers>
 	<Trait_ExtraYieldThresholds>
 		<Row>
 			<TraitType>TRAIT_FINANCIAL</TraitType>
@@ -367,11 +409,6 @@
 		</Row>
 	</Trait_YieldChangesStrategicResources>
 	<Trait_FreePromotionUnitCombats>
-		<Row>
-			<TraitType>TRAIT_CONVERTS_SEA_BARBARIANS</TraitType>
-			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
-			<PromotionType>PROMOTION_PRIZE_SHIPS</PromotionType>
-		</Row>
 		<Row>
 			<TraitType>TRAIT_OCEAN_MOVEMENT</TraitType>
 			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>

@@ -1661,13 +1661,13 @@
 			<Text>[COLOR_POSITIVE_TEXT]Protectionism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from each Luxury resource.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_SECULARISM_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Secularism[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Specialist.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Secularism[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from every Specialist.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_SOVEREIGNTY_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Sovereignty[ENDCOLOR][NEWLINE]+15% [ICON_RESEARCH] Science while the empire is [ICON_HAPPINESS_1] Happy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_FREE_THOUGHT_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Free Thought[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from every Trading Post and +17% [ICON_RESEARCH] Science from Universities. Provides +10% [ICON_RESEARCH] Science while the empire is [ICON_HAPPINESS_1] Happy.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Free Thought[ENDCOLOR][NEWLINE]+1 [ICON_RESEARCH] Science from every Trading Post and +12% [ICON_RESEARCH] Science from Universities. Provides +10% [ICON_RESEARCH] Science while the empire is [ICON_HAPPINESS_1] Happy.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_POLICY_HUMANISM_HELP">
 			<Text>[COLOR_POSITIVE_TEXT]Humanism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from every University, Observatory and Public School.</Text>
@@ -3088,6 +3088,9 @@
 		<Row Tag="TXT_KEY_BUILDING_MUD_PYRAMID_MOSQUE_HELP">
 			<Text>Requires no [ICON_GOLD] Gold maintenance.</Text>
 		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MILLET_COURT_HELP">
+			<Text>+1 [ICON_GOLD] gold for each religion in the city</Text>
+		</Row>
 		<Row Tag="TXT_KEY_BUILDING_BURIAL_TOMB_HELP">
 			<Text>Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]Should this city be captured, the amount of [ICON_GOLD] Gold plundered by the enemy is doubled.</Text>
 		</Row>
@@ -3276,10 +3279,10 @@
 			<Text>Upon defeating a Barbarian unit inside an encampment, there is a 50% chance you earn 25 [ICON_GOLD] Gold and they join your side. Pay 25% less for land unit maintenance.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT">
-			<Text>Barbary Corsairs</Text>
+			<Text>Gunpowder Empire</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
-			<Text>50% chance of converting an adjacent Barbarian naval unit to your side and earning 25 [ICON_GOLD] Gold. Pay only one-third the usual cost for naval unit maintenance.</Text>
+			<Text>+1 [ICON_PRODUCTION] Production for each source of Iron, Copper, and coal in the empire. +15% [ICON_PRODUCTION] production for all siege and gunpowder units.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST_SHORT">
 			<Text>The Great Warpath</Text>
@@ -3404,5 +3407,12 @@ ge_en_US>
 n_US>
 </GameData>
 meData>
+
+
+a>
+
+
+
+a>
 
 

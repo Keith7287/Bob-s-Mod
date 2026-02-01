@@ -2172,10 +2172,14 @@ int CvPlayerTrade::GetTradeConnectionOtherTraitValueTimes100(const TradeConnecti
 //	--------------------------------------------------------------------------------
 int CvPlayerTrade::GetTradeConnectionDomainValueModifierTimes100(const TradeConnection& kTradeConnection, YieldTypes eYield)
 {
-	// unnecessary code to make it compile for now
-	if (eYield != NO_YIELD)
+	// We only want domain (sea/land) to matter for international routes (gold, etc).
+	// Internal food/production should be identical between Caravan and Cargo Ship.
+	if (kTradeConnection.m_eConnectionType != TRADE_CONNECTION_INTERNATIONAL)
 	{
-		eYield = eYield;
+		if (eYield == YIELD_FOOD || eYield == YIELD_PRODUCTION)
+		{
+			return 0;
+		}
 	}
 
 	return GC.getGame().GetGameTrade()->GetDomainModifierTimes100(kTradeConnection.m_eDomain);

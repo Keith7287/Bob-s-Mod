@@ -816,10 +816,10 @@
 			<Type>POLICY_PROTECTIONISM</Type>
 			<Description>TXT_KEY_POLICY_PROTECTIONISM</Description>
 			<Civilopedia>TXT_KEY_POLICY_PROTECTIONISM_TEXT</Civilopedia>
-			<Help>TXT_KEY_POLICY_PROTECTIONISM_HELP</Help>
+			<Help>[COLOR_POSITIVE_TEXT]Protectionism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from each Luxury resource.</Help>
 			<PolicyBranchType>POLICY_BRANCH_COMMERCE</PolicyBranchType>
 			<CultureCost>10</CultureCost>
-			<ExtraHappinessPerLuxury>2</ExtraHappinessPerLuxury>
+			<ExtraHappinessPerLuxury>1</ExtraHappinessPerLuxury>
 			<GridX>4</GridX>
 			<GridY>2</GridY>
 			<PortraitIndex>11</PortraitIndex>
@@ -1815,7 +1815,7 @@
 		<Row>
 			<PolicyType>POLICY_SECULARISM</PolicyType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<Yield>2</Yield>
+			<Yield>1</Yield>
 		</Row>
 	</Policy_SpecialistExtraYields>
 	<Policy_BuildingClassYieldModifiers>
@@ -1823,7 +1823,7 @@
 			<PolicyType>POLICY_FREE_THOUGHT</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
 			<YieldType>YIELD_SCIENCE</YieldType>
-			<YieldMod>17</YieldMod>
+			<YieldMod>12</YieldMod>
 		</Row>
 		<Row>
 			<PolicyType>POLICY_THEOCRACY</PolicyType>

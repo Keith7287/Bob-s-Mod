@@ -177,10 +177,10 @@
 		</Row>
 		<Row>
 			<Type>BELIEF_FERTILITY_RITES</Type>
-			<Description>TXT_KEY_BELIEF_FERTILITY_RITES</Description>
+			<Description>5% faster [ICON_FOOD] Growth Rate</Description>
 			<ShortDescription>TXT_KEY_BELIEF_FERTILITY_RITES_SHORT</ShortDescription>
 			<Pantheon>true</Pantheon>
-			<CityGrowthModifier>10</CityGrowthModifier>
+			<CityGrowthModifier>5</CityGrowthModifier>
 		</Row>
 		<Row>
 			<Type>BELIEF_GOD_CRAFTSMEN</Type>
@@ -240,10 +240,10 @@
 		</Row>
 		<Row>
 			<Type>BELIEF_SWORD_PLOWSHARES</Type>
-			<Description>TXT_KEY_BELIEF_SWORD_PLOWSHARES</Description>
+			<Description>10% faster [ICON_FOOD] Growth Rate for city if not at war</Description>
 			<ShortDescription>TXT_KEY_BELIEF_SWORD_PLOWSHARES_SHORT</ShortDescription>
 			<Follower>true</Follower>
-			<CityGrowthModifier>15</CityGrowthModifier>
+			<CityGrowthModifier>10</CityGrowthModifier>
 			<RequiresPeace>true</RequiresPeace>
 		</Row>
 		<Row>

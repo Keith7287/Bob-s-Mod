@@ -1050,6 +1050,12 @@
 			<BuildingType/>
 		</Row>
 		<Row>
+			<CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
+			<BuildingType>BUILDING_MILLET_COURT</BuildingType>
+		</Row>
+
+		<Row>
 			<CivilizationType>CIVILIZATION_INDIA</CivilizationType>
 			<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
 			<BuildingType>BUILDING_MUGHAL_FORT</BuildingType>
@@ -6157,11 +6163,6 @@
 			<CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType>
 			<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
 			<UnitType>UNIT_OTTOMAN_JANISSARY</UnitType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_OTTOMAN</CivilizationType>
-			<UnitClassType>UNITCLASS_LANCER</UnitClassType>
-			<UnitType>UNIT_OTTOMAN_SIPAHI</UnitType>
 		</Row>
 		<Row>
 			<CivilizationType>CIVILIZATION_PERSIA</CivilizationType>
