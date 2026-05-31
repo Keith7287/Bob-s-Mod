@@ -12662,6 +12662,7 @@ bool CvCity::IsCanPurchase(bool bTestPurchaseCost, bool bTestTrainable, UnitType
 						{
 							bCanFaithBuy = true;
 						}
+						/*
 						else
 						{
 							PolicyTypes eReligiousTolerance = (PolicyTypes)GC.getInfoTypeForString("POLICY_RELIGIOUS_TOLERANCE");
@@ -12678,8 +12679,9 @@ bool CvCity::IsCanPurchase(bool bTestPurchaseCost, bool bTestTrainable, UnitType
 								}
 							}
 						}
+						*/
 					}
-
+					
 					if (!bCanFaithBuy)
 					{
 						return false;
@@ -12711,6 +12713,7 @@ bool CvCity::IsCanPurchase(bool bTestPurchaseCost, bool bTestTrainable, UnitType
 				{
 					bCanFaithBuy = true;
 				}
+				/*
 				else
 				{
 					PolicyTypes eReligiousTolerance = (PolicyTypes)GC.getInfoTypeForString("POLICY_RELIGIOUS_TOLERANCE");
@@ -12727,6 +12730,7 @@ bool CvCity::IsCanPurchase(bool bTestPurchaseCost, bool bTestTrainable, UnitType
 						}
 					}
 				}
+				*/
 
 				if (!bCanFaithBuy)
 				{

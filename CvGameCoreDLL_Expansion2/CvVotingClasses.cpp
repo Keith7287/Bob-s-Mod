@@ -3272,6 +3272,41 @@ int CvLeague::CalculateStartingVotesForMember(PlayerTypes ePlayer, bool bForceUp
 		}
 		iVotes += iCityStateVotes;
 
+		// Owned original Capitals - Patronage finisher
+		int iOwnedCapitalVotes = 0;
+
+		PolicyBranchTypes ePatronageBranch = (PolicyBranchTypes)GC.getInfoTypeForString("POLICY_BRANCH_PATRONAGE", true);
+
+		if (ePatronageBranch != NO_POLICY_BRANCH_TYPE &&
+			GET_PLAYER(ePlayer).GetPlayerPolicies()->IsPolicyBranchFinished(ePatronageBranch))
+		{
+			for (int i = 0; i < MAX_MAJOR_CIVS; i++)
+			{
+				PlayerTypes eMajor = (PlayerTypes)i;
+
+				if (GET_PLAYER(eMajor).isEverAlive())
+				{
+					int iX = GET_PLAYER(eMajor).GetOriginalCapitalX();
+					int iY = GET_PLAYER(eMajor).GetOriginalCapitalY();
+
+					if (iX != -1 && iY != -1)
+					{
+						CvPlot* pPlot = GC.getMap().plot(iX, iY);
+						if (pPlot != NULL && pPlot->isCity())
+						{
+							CvCity* pCity = pPlot->getPlotCity();
+							if (pCity != NULL && pCity->getOwner() == ePlayer)
+							{
+								iOwnedCapitalVotes += 2;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		iVotes += iOwnedCapitalVotes;
+
 		// Diplomats after Globalization tech
 		int iDiplomatVotes = 0;
 		for (int i = 0; i < MAX_MAJOR_CIVS; i++)
@@ -3352,6 +3387,12 @@ int CvLeague::CalculateStartingVotesForMember(PlayerTypes ePlayer, bool bForceUp
 				Localization::String sTemp = Localization::Lookup("TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_WORLD_IDEOLOGY_VOTES");
 				sTemp << iWorldIdeologyVotes;
 				pMember->sVoteSources += sTemp.toUTF8();
+			}
+			if (iOwnedCapitalVotes > 0)
+			{
+				CvString strTemp;
+				strTemp.Format("[NEWLINE][ICON_BULLET]Owned Capitals: %d Delegates", iOwnedCapitalVotes);
+				pMember->sVoteSources += strTemp;
 			}
 		}
 	}

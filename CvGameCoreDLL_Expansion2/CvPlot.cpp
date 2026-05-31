@@ -6620,11 +6620,23 @@ void CvPlot::DoFindCityToLinkResourceTo(CvCity* pCityToExclude)
 		SetResourceLinkedCity(pBestCity);
 
 		// Already have a valid improvement here?
-		if(isCity() || getImprovementType() != NO_IMPROVEMENT)
+		if(isCity())
 		{
-			if(isCity() || GC.getImprovementInfo(getImprovementType())->IsImprovementResourceTrade(getResourceType()))
+			SetResourceLinkedCityActive(true);
+		}
+		else if(getImprovementType() != NO_IMPROVEMENT && !IsImprovementPillaged())
+		{
+			ResourceTypes eResource = getResourceType(getTeam());
+
+			if(eResource != NO_RESOURCE)
 			{
-				SetResourceLinkedCityActive(true);
+				if(GET_TEAM(getTeam()).GetTeamTechs()->HasTech((TechTypes)GC.getResourceInfo(eResource)->getTechCityTrade()))
+				{
+					if(GC.getImprovementInfo(getImprovementType())->IsImprovementResourceTrade(eResource))
+					{
+						SetResourceLinkedCityActive(true);
+					}
+				}
 			}
 		}
 	}

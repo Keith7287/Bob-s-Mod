@@ -1520,8 +1520,10 @@ void CvPlayerTraits::InitPlayerTraits()
 			m_iTradeReligionModifier += trait->GetTradeReligionModifier();
 			m_iTradeBuildingModifier += trait->GetTradeBuildingModifier();
 
-			//if(trait->IsFightWellDamaged())
-			//{
+			if (trait->IsFightWellDamaged())
+			{
+				m_bFightWellDamaged = true;
+			}
 				//m_bFightWellDamaged = true;
 				// JON: Changing the way this works. Above line can/should probably be removed at some point
 				//int iWoundedUnitDamageMod = /*-50*/ GC.getTRAIT_WOUNDED_DAMAGE_MOD();
@@ -2041,26 +2043,27 @@ int CvPlayerTraits::GetMaintenanceModifierUnitCombat(const int unitCombatID) con
 /// Extra yield from this improvement
 int CvPlayerTraits::GetImprovementYieldChange(ImprovementTypes eImprovement, YieldTypes eYield) const
 {
-	CvAssertMsg(eImprovement < GC.getNumImprovementInfos(), "Invalid eImprovement parameter in call to CvPlayerTraits::GetImprovementYieldChange()");
-	CvAssertMsg(eYield < NUM_YIELD_TYPES, "Invalid eYield parameter in call to CvPlayerTraits::GetImprovementYieldChange()");
+    CvAssertMsg(eImprovement < GC.getNumImprovementInfos(), "Invalid eImprovement parameter in call to CvPlayerTraits::GetImprovementYieldChange()");
+    CvAssertMsg(eYield < NUM_YIELD_TYPES, "Invalid eYield parameter in call to CvPlayerTraits::GetImprovementYieldChange()");
 
-	if (eImprovement == NO_IMPROVEMENT)
-	{
-		return 0;
-	}
+    if (eImprovement == NO_IMPROVEMENT)
+    {
+        return 0;
+    }
 
-	int iBase = m_ppaaiImprovementYieldChange[(int)eImprovement][(int)eYield];
+    int iBase = m_ppaaiImprovementYieldChange[(int)eImprovement][(int)eYield];
 
-	// Industrial Era bonuses (Japan only, via trait)
-	if (m_bFightWellDamaged &&
-		eYield == YIELD_CULTURE &&
-		m_pPlayer->GetCurrentEra() >= GC.getInfoTypeForString("ERA_INDUSTRIAL"))
-	{
-		if (eImprovement == GC.getInfoTypeForString("IMPROVEMENT_LANDMARK"))
-			iBase += 2;
-		else if (eImprovement == GC.getInfoTypeForString("IMPROVEMENT_FISHING_BOATS"))
-			iBase += 1;
-	}
+    if (m_bFightWellDamaged &&
+        eYield == YIELD_CULTURE &&
+        m_pPlayer->GetCurrentEra() >= GC.getInfoTypeForString("ERA_INDUSTRIAL"))
+    {
+        if (eImprovement == GC.getInfoTypeForString("IMPROVEMENT_LANDMARK"))
+            iBase += 2;
+        else if (eImprovement == GC.getInfoTypeForString("IMPROVEMENT_FISHING_BOATS"))
+            iBase += 1;
+    }
+
+    return iBase;
 }
 /// Extra yield from this specialist
 int CvPlayerTraits::GetSpecialistYieldChange(SpecialistTypes eSpecialist, YieldTypes eYield) const
