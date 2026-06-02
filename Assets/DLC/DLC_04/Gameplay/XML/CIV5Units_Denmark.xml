@@ -34,36 +34,6 @@
 			<PortraitIndex>0</PortraitIndex>
 			<MoveRate>HEAVY_BIPED</MoveRate>
 		</Row>
-		<Row>
-			<Class>UNITCLASS_RIFLEMAN</Class>
-			<Type>UNIT_DANISH_SKI_INFANTRY</Type>
-			<PrereqTech>TECH_RIFLING</PrereqTech>
-			<Combat>25</Combat>
-			<Cost>225</Cost>
-			<Moves>2</Moves>
-			<CombatClass>UNITCOMBAT_GUN</CombatClass>
-			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_DEFENSE</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_DANISH_SKI_INFANTRY</Description>
-			<Civilopedia>TXT_KEY_CIV5_DENMARK_SKI_INFANTRY_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_CIV5_DENMARK_SKI_INFANTRY_STRATEGY</Strategy>
-			<Help>TXT_KEY_CIV5_DENMARK_SKI_INFANTRY_HELP</Help>
-			<MilitarySupport>true</MilitarySupport>
-			<MilitaryProduction>true</MilitaryProduction>
-			<Pillage>true</Pillage>
-			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
-			<ObsoleteTech>TECH_REPLACEABLE_PARTS</ObsoleteTech>
-			<GoodyHutUpgradeUnitClass>UNITCLASS_INFANTRY</GoodyHutUpgradeUnitClass>
-			<AdvancedStartCost>30</AdvancedStartCost>
-			<XPValueAttack>3</XPValueAttack>
-			<XPValueDefense>3</XPValueDefense>
-			<Conscription>5</Conscription>
-			<UnitArtInfo>ART_DEF_UNIT_U_DANISH_SKI_INFANTRY</UnitArtInfo>
-			<IconAtlas>HARALD_UNIT_ATLAS</IconAtlas>
-			<UnitFlagAtlas>HARALD_UNIT_FLAG_ATLAS</UnitFlagAtlas>
-			<UnitFlagIconOffset>1</UnitFlagIconOffset>
-			<PortraitIndex>1</PortraitIndex>
-		</Row>
 	</Units>
 	<Unit_AITypes>
 		<Row>

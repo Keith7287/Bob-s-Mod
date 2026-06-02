@@ -554,6 +554,8 @@ void CvUnit::initWithNameOffset(int iID, UnitTypes eUnit, int iNameOffset, UnitA
 		}
 	}
 
+	ApplyDenmarkSailingEmbark();
+
 	// Any exotic goods that can be sold? (Portuguese unique unit mission)
 	if (getUnitInfo().GetNumExoticGoods() > 0)
 	{
@@ -691,6 +693,68 @@ void CvUnit::initWithNameOffset(int iID, UnitTypes eUnit, int iNameOffset, UnitA
 
 }
 
+void CvUnit::ApplyDenmarkSailingEmbark()
+{
+	CvPlayer& kPlayer = GET_PLAYER(getOwner());
+
+	CivilizationTypes eDenmark = (CivilizationTypes)GC.getInfoTypeForString("CIVILIZATION_DENMARK");
+	TechTypes eSailing = (TechTypes)GC.getInfoTypeForString("TECH_SAILING");
+
+	if(eDenmark == NO_CIVILIZATION || eSailing == NO_TECH)
+	{
+		return;
+	}
+
+	if(kPlayer.getCivilizationType() != eDenmark)
+	{
+		return;
+	}
+
+	if(!GET_TEAM(getTeam()).GetTeamTechs()->HasTech(eSailing))
+	{
+		return;
+	}
+
+	// Denmark after Sailing: allow embarked land units to enter ocean
+	if(GetEmbarkAllWaterCount() <= 0)
+	{
+		ChangeEmbarkAllWaterCount(1);
+	}
+
+	PromotionTypes ePromotionEmbarkation = kPlayer.GetEmbarkationPromotion();
+
+	bool bGivePromotion = false;
+
+	if(getDomainType() == DOMAIN_LAND)
+	{
+		if(!IsCombatUnit())
+		{
+			bGivePromotion = true;
+		}
+	}
+
+	if(!bGivePromotion && ::IsPromotionValidForUnitCombatType(ePromotionEmbarkation, getUnitType()))
+	{
+		bGivePromotion = true;
+	}
+
+	if(bGivePromotion)
+	{
+		setHasPromotion(ePromotionEmbarkation, true);
+	}
+
+	PromotionTypes ePromotionOceanImpassable = (PromotionTypes)GC.getPROMOTION_OCEAN_IMPASSABLE();
+	if(isHasPromotion(ePromotionOceanImpassable))
+	{
+		setHasPromotion(ePromotionOceanImpassable, false);
+	}
+
+	PromotionTypes ePromotionOceanImpassableUntilAstronomy = (PromotionTypes)GC.getPROMOTION_OCEAN_IMPASSABLE_UNTIL_ASTRONOMY();
+	if(isHasPromotion(ePromotionOceanImpassableUntilAstronomy))
+	{
+		setHasPromotion(ePromotionOceanImpassableUntilAstronomy, false);
+	}
+}
 
 //	--------------------------------------------------------------------------------
 void CvUnit::uninit()
@@ -1825,7 +1889,6 @@ bool CvUnit::isActionRecommended(int iAction)
 
 	return false;
 }
-
 
 //	--------------------------------------------------------------------------------
 bool CvUnit::isBetterDefenderThan(const CvUnit* pDefender, const CvUnit* pAttacker) const

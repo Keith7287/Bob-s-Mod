@@ -4487,6 +4487,8 @@ void CvPlayer::DoUnitReset()
 
 	for(pLoopUnit = firstUnit(&iLoop); pLoopUnit != NULL; pLoopUnit = nextUnit(&iLoop))
 	{
+		pLoopUnit->ApplyDenmarkSailingEmbark();
+
 		// HEAL UNIT?
 		if(!pLoopUnit->isEmbarked())
 		{
