@@ -16,10 +16,9 @@
 		</Row>
 		<Row>
 			<Type>TRAIT_DIPLOMACY_GREAT_PEOPLE</Type>
-			<Description>TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE</Description>
+			<Description>City states periodically gift a Great Person when allied.</Description>
 			<ShortDescription>TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE_SHORT</ShortDescription>
-			<GreatPersonGiftInfluence>90</GreatPersonGiftInfluence>
-			<DOFGreatPersonModifier>10</DOFGreatPersonModifier>
+			<MinorGreatPeopleAllies>true</MinorGreatPeopleAllies>
 		</Row>
 		<Row>
 			<Type>TRAIT_RAZE_AND_HORSES</Type>
@@ -75,6 +74,10 @@
 			<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
+		</Row>
+	</Trait_ImprovementYieldChanges>
+</GameData>
+
 		</Row>
 	</Trait_ImprovementYieldChanges>
 </GameData>

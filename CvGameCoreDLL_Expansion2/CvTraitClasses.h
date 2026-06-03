@@ -146,6 +146,7 @@ public:
 	bool IsUniqueLuxuryRequiresNewArea() const;
 	bool IsRiverTradeRoad() const;
 	bool IsAngerFreeIntrusionOfCityStates() const;
+	bool IsMinorGreatPeopleAllies() const;
 
 	const char* getShortDescription() const;
 	void setShortDescription(const char* szVal);
@@ -274,6 +275,7 @@ protected:
 	bool m_bUniqueLuxuryRequiresNewArea;
 	bool m_bRiverTradeRoad;
 	bool m_bAngerFreeIntrusionOfCityStates;
+	bool m_bMinorGreatPeopleAllies;
 
 	CvString m_strShortDescription;
 
@@ -622,7 +624,6 @@ public:
 	{
 		return m_iTradeBuildingModifier;
 	}
-
 	bool IsFightWellDamaged() const
 	{
 		return m_bFightWellDamaged;
@@ -670,6 +671,10 @@ public:
 	bool IsAbleToAnnexCityStates() const
 	{
 		return m_bAbleToAnnexCityStates;
+	};
+	bool IsMinorGreatPeopleAllies() const
+	{
+		return m_bMinorGreatPeopleAllies;
 	};
 	bool IsCrossesMountainsAfterGreatGeneral() const
 	{
@@ -877,6 +882,7 @@ private:
 	bool m_bFaithFromUnimprovedForest;
 	bool m_bBonusReligiousBelief;
 	bool m_bAbleToAnnexCityStates;
+	bool m_bMinorGreatPeopleAllies;
 	bool m_bCrossesMountainsAfterGreatGeneral;
 	bool m_bMayaCalendarBonuses;
 	bool m_bNoAnnexing;

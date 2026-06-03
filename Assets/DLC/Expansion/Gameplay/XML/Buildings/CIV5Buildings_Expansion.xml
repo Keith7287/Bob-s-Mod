@@ -137,6 +137,29 @@
 			<IconAtlas>EXPANSION_BW_ATLAS_2</IconAtlas>
 			<PortraitIndex>12</PortraitIndex>
 		</Row>
+		<Row>
+			<Type>BUILDING_STOCKHOLM_HALL</Type>
+			<BuildingClass>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClass>
+			<Cost>125</Cost>
+			<PrereqTech>TECH_RADIO</PrereqTech>
+			<Help>For each unique Great Person expended, gain +1 Delegates</Help>
+			<Description>Stockholm City Hall</Description>
+			<Civilopedia>TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_INTELLIGENCE_AGENCY_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_INTELLIGENCE_AGENCY</ArtDefineTag>
+			<NukeImmune>true</NukeImmune>
+			<NumCityCostMod>30</NumCityCostMod>
+			<GlobalEspionageModifier>-15</GlobalEspionageModifier>
+			<ExtraSpies>1</ExtraSpies>
+			<Espionage>true</Espionage>
+			<SpyRankChange>1</SpyRankChange>
+			<InstantSpyRankChange>1</InstantSpyRankChange>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<IconAtlas>BAD_CIVS_ATLAS</IconAtlas>
+			<PortraitIndex>18</PortraitIndex>
+		</Row>
 		<!-- Wonders -->
 		<Row>
 			<Type>BUILDING_ALHAMBRA</Type>
@@ -545,6 +568,10 @@
 			<BuildingClassType>BUILDINGCLASS_POLICE_STATION</BuildingClassType>
 		</Row>
 		<Row>
+			<BuildingType>BUILDING_STOCKHOLM_HALL</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CONSTABULARY</BuildingClassType>
+		</Row>
+		<Row>
 			<BuildingType>BUILDING_GRAND_TEMPLE</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_TEMPLE</BuildingClassType>
 		</Row>
@@ -637,6 +664,21 @@
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_INTELLIGENCE_AGENCY</BuildingType>
+			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STOCKHOLM_HALL</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STOCKHOLM_HALL</BuildingType>
+			<FlavorType>FLAVOR_DIPLOMACY</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STOCKHOLM_HALL</BuildingType>
 			<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
@@ -909,6 +951,11 @@
 		<Row>
 			<BuildingType>BUILDING_INTELLIGENCE_AGENCY</BuildingType>
 			<BuildingClassType>BUILDINGCLASS_POLICE_STATION</BuildingClassType>
+			<NumBuildingNeeded>-1</NumBuildingNeeded>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_STOCKHOLM_HALL</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CONSTABULARY</BuildingClassType>
 			<NumBuildingNeeded>-1</NumBuildingNeeded>
 		</Row>
 		<Row>

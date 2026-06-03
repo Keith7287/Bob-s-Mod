@@ -224,6 +224,11 @@
 			<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
 			<BuildingType>BUILDING_COTHON</BuildingType>
 		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_SWEDEN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_INTELLIGENCE_AGENCY</BuildingClassType>
+			<BuildingType>BUILDING_STOCKHOLM_HALL</BuildingType>
+		</Row>
 	</Civilization_BuildingClassOverrides>
 	<Civilization_FreeBuildingClasses>
 		<Row>
@@ -938,11 +943,6 @@
 			<CivilizationType>CIVILIZATION_SWEDEN</CivilizationType>
 			<UnitClassType>UNITCLASS_LANCER</UnitClassType>
 			<UnitType>UNIT_SWEDISH_HAKKAPELIITTA</UnitType>
-		</Row>
-		<Row>
-			<CivilizationType>CIVILIZATION_SWEDEN</CivilizationType>
-			<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
-			<UnitType>UNIT_SWEDISH_CAROLEAN</UnitType>
 		</Row>
 		<Delete CivilizationType="CIVILIZATION_SPAIN"/>
 		<Replace>

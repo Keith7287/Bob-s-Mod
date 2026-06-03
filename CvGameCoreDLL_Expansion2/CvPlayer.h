@@ -504,6 +504,7 @@ public:
 
 	int GetExtraLeagueVotes() const;
 	void ChangeExtraLeagueVotes(int iChange);
+	int GetStockholmCityHallDelegateBonus() const;
 
 	int GetWoundedUnitDamageMod() const;
 	void SetWoundedUnitDamageMod(int iValue);
@@ -666,6 +667,7 @@ public:
 
 	// Great People Expenditure
 	void DoGreatPersonExpended(UnitTypes eGreatPersonUnit);
+	void DoStockholmCityHallGreatPersonDelegate(UnitTypes eGreatPersonUnit);
 	int GetGreatPersonExpendGold() const;
 	void ChangeGreatPersonExpendGold(int iChange);
 
@@ -1603,6 +1605,7 @@ protected:
 	int m_iEspionageModifier;
 	int m_iSpyStartingRank;
 	int m_iExtraLeagueVotes;
+	int m_iStockholmCityHallGPExpendedMask;
 	FAutoVariable<int, CvPlayer> m_iAdvancedStartPoints;
 	FAutoVariable<int, CvPlayer> m_iAttackBonusTurns;
 	int m_iCultureBonusTurns;

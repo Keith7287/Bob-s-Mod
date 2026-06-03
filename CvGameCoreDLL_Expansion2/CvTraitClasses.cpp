@@ -105,6 +105,7 @@ CvTraitEntry::CvTraitEntry() :
 	m_bNoAnnexing(false),
 	m_bTechFromCityConquer(false),
 	m_bUniqueLuxuryRequiresNewArea(false),
+	m_bMinorGreatPeopleAllies(false),
 
 	m_paiExtraYieldThreshold(NULL),
 	m_paiYieldChange(NULL),
@@ -139,6 +140,12 @@ CvTraitEntry::~CvTraitEntry()
 int CvTraitEntry::GetLevelExperienceModifier() const
 {
 	return m_iLevelExperienceModifier;
+}
+
+/// Accessor: allied city-states periodically gift Great People
+bool CvTraitEntry::IsMinorGreatPeopleAllies() const
+{
+	return m_bMinorGreatPeopleAllies;
 }
 
 /// Accessor:: Resource yield change 
@@ -1035,6 +1042,7 @@ bool CvTraitEntry::CacheResults(Database::Results& kResults, CvDatabaseUtility& 
 	m_bUniqueLuxuryRequiresNewArea = kResults.GetBool("UniqueLuxuryRequiresNewArea");
 	m_bRiverTradeRoad = kResults.GetBool("RiverTradeRoad");
 	m_bAngerFreeIntrusionOfCityStates = kResults.GetBool("AngerFreeIntrusionOfCityStates");
+	m_bMinorGreatPeopleAllies = kResults.GetBool("MinorGreatPeopleAllies");
 
 	//Arrays
 	const char* szTraitType = GetType();
@@ -1596,6 +1604,10 @@ void CvPlayerTraits::InitPlayerTraits()
 			{
 				m_bAbleToAnnexCityStates = true;
 			}
+			if(trait->IsMinorGreatPeopleAllies())
+			{
+				m_bMinorGreatPeopleAllies = true;
+			}
 			if(trait->IsCrossesMountainsAfterGreatGeneral())
 			{
 				m_bCrossesMountainsAfterGreatGeneral = true;
@@ -1814,6 +1826,7 @@ void CvPlayerTraits::Reset()
 	m_bFaithFromUnimprovedForest = false;
 	m_bBonusReligiousBelief = false;
 	m_bAbleToAnnexCityStates = false;
+	m_bMinorGreatPeopleAllies = false;
 	m_bCrossesMountainsAfterGreatGeneral = false;
 	m_bMayaCalendarBonuses = false;
 	m_bNoAnnexing = false;

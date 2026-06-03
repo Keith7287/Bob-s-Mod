@@ -5668,24 +5668,13 @@ void CvMinorCivAI::SetAlly(PlayerTypes eNewAlly)
 			}
 		}
 
-		for(int iPolicyLoop = 0; iPolicyLoop < GC.getNumPolicyInfos(); iPolicyLoop++)
+		// Trait version of old Patronage finisher: allied city-states gift Great People
+		if(kNewAlly.GetPlayerTraits()->IsMinorGreatPeopleAllies())
 		{
-			const PolicyTypes eLoopPolicy = static_cast<PolicyTypes>(iPolicyLoop);
-			CvPolicyEntry* pkPolicyInfo = GC.getPolicyInfo(eLoopPolicy);
-			if(pkPolicyInfo)
-			{
-				if(kNewAlly.GetPlayerPolicies()->HasPolicy(eLoopPolicy) && !kNewAlly.GetPlayerPolicies()->IsPolicyBlocked(eLoopPolicy))
-				{
-					// This is the policy we want!
-					if(pkPolicyInfo->IsMinorGreatPeopleAllies())
-					{
-						if(kNewAlly.GetGreatPeopleSpawnCounter() <= 0)
-							kNewAlly.DoSeedGreatPeopleSpawnCounter();
-						else
-							kNewAlly.DoApplyNewAllyGPBonus();
-					}
-				}
-			}
+			if(kNewAlly.GetGreatPeopleSpawnCounter() <= 0)
+				kNewAlly.DoSeedGreatPeopleSpawnCounter();
+			else
+				kNewAlly.DoApplyNewAllyGPBonus();
 		}
 
 		//Achievement Test

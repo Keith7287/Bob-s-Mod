@@ -62,7 +62,7 @@
 // Version 1 
 //	 * CvPlayer save version reset for expansion pack 2.
 //------------------------------------------------------------------------------
-const int g_CurrentCvPlayerVersion = 16;
+const int g_CurrentCvPlayerVersion = 17;
 
 //Simply empty check utility.
 bool isEmpty(const char* szString)
@@ -158,6 +158,7 @@ CvPlayer::CvPlayer() :
 	, m_iEspionageModifier(0)
 	, m_iSpyStartingRank(0)
 	, m_iExtraLeagueVotes(0)
+	, m_iStockholmCityHallGPExpendedMask(0)
 	, m_iSpecialPolicyBuildingHappiness("CvPlayer::m_iSpecialPolicyBuildingHappiness", m_syncArchive)
 	, m_iWoundedUnitDamageMod("CvPlayer::m_iWoundedUnitDamageMod", m_syncArchive)
 	, m_iUnitUpgradeCostMod("CvPlayer::m_iUnitUpgradeCostMod", m_syncArchive)
@@ -11956,6 +11957,20 @@ int CvPlayer::GetExtraLeagueVotes() const
 }
 
 //	--------------------------------------------------------------------------------
+int CvPlayer::GetStockholmCityHallDelegateBonus() const
+{
+	int iCount = 0;
+
+	for(int iI = 0; iI < 32; iI++)
+	{
+		if((m_iStockholmCityHallGPExpendedMask & (1 << iI)) != 0)
+		{
+			iCount++;
+		}
+	}
+
+	return iCount;
+}
 /// Extra league votes
 void CvPlayer::ChangeExtraLeagueVotes(int iChange)
 {
@@ -12970,7 +12985,11 @@ void CvPlayer::DoGreatPersonExpended(UnitTypes eGreatPersonUnit)
 		}
 	}
 
+	// Sweden Stockholm City Hall: +1 delegate for each unique GP type expended
+	DoStockholmCityHallGreatPersonDelegate(eGreatPersonUnit);
+
 	ICvEngineScriptSystem1* pkScriptSystem = gDLL->GetScriptSystem();
+
 	if (pkScriptSystem)
 	{
 		CvLuaArgsHandle args;
@@ -13136,7 +13155,7 @@ void CvPlayer::SetGreatGeneralCombatBonus(int iValue)
 // Figures out how long before we spawn a free Great Person for ePlayer
 void CvPlayer::DoSeedGreatPeopleSpawnCounter()
 {
-	int iNumTurns = /*37*/ GC.getMINOR_TURNS_GREAT_PEOPLE_SPAWN_BASE();
+	int iNumTurns = 35;
 
 	// Start at -1 since if we only have one ally we don't want to add any more
 	int iExtraAllies = -1;
@@ -13144,9 +13163,8 @@ void CvPlayer::DoSeedGreatPeopleSpawnCounter()
 	PlayerTypes eMinor;
 	for(int iMinorLoop = MAX_MAJOR_CIVS; iMinorLoop < MAX_CIV_PLAYERS; iMinorLoop++)
 	{
-		eMinor = (PlayerTypes) iMinorLoop;
+		eMinor = (PlayerTypes)iMinorLoop;
 
-		// Not alive
 		if(!GET_PLAYER(eMinor).isAlive())
 			continue;
 
@@ -13156,26 +13174,22 @@ void CvPlayer::DoSeedGreatPeopleSpawnCounter()
 
 	if(iExtraAllies > 0)
 	{
-		int iExtraAlliesChange = iExtraAllies* /*-1*/ GC.getMINOR_ADDITIONAL_ALLIES_GP_CHANGE();
-
-		iExtraAlliesChange = max(/*-10*/ GC.getMAX_MINOR_ADDITIONAL_ALLIES_GP_CHANGE(), iExtraAlliesChange);
-
+		int iExtraAlliesChange = iExtraAllies * -1;
+		iExtraAlliesChange = max(-5, iExtraAlliesChange);
 		iNumTurns += iExtraAlliesChange;
 	}
 
-	int iRand = /*7*/ GC.getMINOR_TURNS_GREAT_PEOPLE_SPAWN_RAND();
-	iNumTurns += GC.getGame().getJonRandNum(iRand, "Rand turns for Friendly Minor GreatPeople spawn");
+	iNumTurns += GC.getGame().getJonRandNum(10, "Rand turns for Friendly Minor GreatPeople spawn");
 
-	// If we're biasing the result then decrease the number of turns
+	// First time only: old Patronage bias, halves first spawn timer
 	if(!IsAlliesGreatPersonBiasApplied())
 	{
-		iNumTurns *= /*50*/ GC.getMINOR_TURNS_GREAT_PEOPLE_SPAWN_BIAS_MULTIPLY();
+		iNumTurns *= 50;
 		iNumTurns /= 100;
 
 		SetAlliesGreatPersonBiasApplied(true);
 	}
 
-	// Modify for Game Speed
 	iNumTurns *= GC.getGame().getGameSpeedInfo().getGreatPeoplePercent();
 	iNumTurns /= 100;
 
@@ -13189,11 +13203,79 @@ void CvPlayer::DoSeedGreatPeopleSpawnCounter()
 /// We're now allies with someone, what happens with the GP bonus?
 void CvPlayer::DoApplyNewAllyGPBonus()
 {
-	int iChange = /*-2*/ GC.getMINOR_ADDITIONAL_ALLIES_GP_CHANGE();
+	int iChange = -1;
+
 	ChangeGreatPeopleSpawnCounter(iChange);
 
 	if(GetGreatPeopleSpawnCounter() < 1)
 		SetGreatPeopleSpawnCounter(1);
+}
+
+//	--------------------------------------------------------------------------------
+/// Sweden Stockholm City Hall: +1 delegate for each unique Great Person class expended after construction
+void CvPlayer::DoStockholmCityHallGreatPersonDelegate(UnitTypes eGreatPersonUnit)
+{
+	if(eGreatPersonUnit == NO_UNIT)
+	{
+		return;
+	}
+
+	CvUnitEntry* pkUnitInfo = GC.getUnitInfo(eGreatPersonUnit);
+	if(pkUnitInfo == NULL)
+	{
+		return;
+	}
+
+	// Must currently own Stockholm City Hall
+	BuildingTypes eStockholmCityHall = (BuildingTypes)GC.getInfoTypeForString("BUILDING_STOCKHOLM_HALL", true);
+	if(eStockholmCityHall == NO_BUILDING)
+	{
+		return;
+	}
+
+	if(countNumBuildings(eStockholmCityHall) <= 0)
+	{
+		return;
+	}
+
+	UnitClassTypes eUnitClass = (UnitClassTypes)pkUnitInfo->GetUnitClassType();
+
+	int iBit = -1;
+
+	if(eUnitClass == (UnitClassTypes)GC.getInfoTypeForString("UNITCLASS_SCIENTIST", true))
+		iBit = 0;
+	else if(eUnitClass == (UnitClassTypes)GC.getInfoTypeForString("UNITCLASS_ENGINEER", true))
+		iBit = 1;
+	else if(eUnitClass == (UnitClassTypes)GC.getInfoTypeForString("UNITCLASS_MERCHANT", true))
+		iBit = 2;
+	else if(eUnitClass == (UnitClassTypes)GC.getInfoTypeForString("UNITCLASS_WRITER", true))
+		iBit = 3;
+	else if(eUnitClass == (UnitClassTypes)GC.getInfoTypeForString("UNITCLASS_ARTIST", true))
+		iBit = 4;
+	else if(eUnitClass == (UnitClassTypes)GC.getInfoTypeForString("UNITCLASS_MUSICIAN", true))
+		iBit = 5;
+	else if(eUnitClass == (UnitClassTypes)GC.getInfoTypeForString("UNITCLASS_GREAT_GENERAL", true))
+		iBit = 6;
+	else if(eUnitClass == (UnitClassTypes)GC.getInfoTypeForString("UNITCLASS_GREAT_ADMIRAL", true))
+		iBit = 7;
+	else if(eUnitClass == (UnitClassTypes)GC.getInfoTypeForString("UNITCLASS_PROPHET", true))
+		iBit = 8;
+
+	if(iBit == -1)
+	{
+		return;
+	}
+
+	int iMask = (1 << iBit);
+
+	// Already got the delegate from this GP class
+	if((m_iStockholmCityHallGPExpendedMask & iMask) != 0)
+	{
+		return;
+	}
+
+	m_iStockholmCityHallGPExpendedMask |= iMask;
+	ChangeExtraLeagueVotes(1);
 }
 
 //	--------------------------------------------------------------------------------
@@ -13339,50 +13421,61 @@ void CvPlayer::DoSpawnGreatPerson(PlayerTypes eMinor)
 }
 
 //	--------------------------------------------------------------------------------
-/// Time to spawn a GreatPeople?
 void CvPlayer::DoGreatPeopleSpawnTurn()
 {
-	// Tick down
-	if(GetGreatPeopleSpawnCounter() > 0)
+	if(!GetPlayerTraits()->IsMinorGreatPeopleAllies())
 	{
-		AI_PERF_FORMAT("AI-perf.csv", ("CvPlayer::DoGreatPeopleSpawnTurn, Turn %03d, %s", GC.getGame().getElapsedGameTurns(), getCivilizationShortDescription()) );
-		ChangeGreatPeopleSpawnCounter(-1);
+		return;
+	}
 
-		// Time to spawn! - Pick a random allied minor
-		if(GetGreatPeopleSpawnCounter() == 0)
+	// If we have no counter yet, seed once if we have an allied city-state
+	if(GetGreatPeopleSpawnCounter() <= 0)
+	{
+		bool bHasMinorAlly = false;
+
+		for(int iMinorLoop = MAX_MAJOR_CIVS; iMinorLoop < MAX_CIV_PLAYERS; iMinorLoop++)
 		{
-			PlayerTypes eBestMinor = NO_PLAYER;
-			int iBestScore = -1;
-			int iScore;
+			PlayerTypes eMinor = (PlayerTypes)iMinorLoop;
 
-			PlayerTypes eMinor;
-			for(int iMinorLoop = MAX_MAJOR_CIVS; iMinorLoop < MAX_CIV_PLAYERS; iMinorLoop++)
+			if(!GET_PLAYER(eMinor).isAlive())
+				continue;
+
+			if(GET_PLAYER(eMinor).GetMinorCivAI()->GetAlly() == GetID())
 			{
-				eMinor = (PlayerTypes) iMinorLoop;
-
-				// Not alive
-				if(!GET_PLAYER(eMinor).isAlive())
-					continue;
-
-				// Not an ally
-				if(GET_PLAYER(eMinor).GetMinorCivAI()->GetAlly() != GetID())
-					continue;
-
-				iScore = GC.getGame().getJonRandNum(100, "Random minor great person gift location.");
-
-				// Best ally yet?
-				if(eBestMinor == NO_PLAYER || iScore > iBestScore)
-				{
-					eBestMinor = eMinor;
-					iBestScore = iScore;
-				}
+				bHasMinorAlly = true;
+				break;
 			}
+		}
 
-			if(eBestMinor != NO_PLAYER)
-				DoSpawnGreatPerson(eBestMinor);
-
-			// Reseed counter
+		if(bHasMinorAlly)
+		{
 			DoSeedGreatPeopleSpawnCounter();
+		}
+		else
+		{
+			return;
+		}
+	}
+
+	// Tick down existing counter
+	ChangeGreatPeopleSpawnCounter(-1);
+
+	if(GetGreatPeopleSpawnCounter() <= 0)
+	{
+		// Pick the city-state that is allied to us
+		for(int iMinorLoop = MAX_MAJOR_CIVS; iMinorLoop < MAX_CIV_PLAYERS; iMinorLoop++)
+		{
+			PlayerTypes eMinor = (PlayerTypes)iMinorLoop;
+
+			if(!GET_PLAYER(eMinor).isAlive())
+				continue;
+
+			if(GET_PLAYER(eMinor).GetMinorCivAI()->GetAlly() == GetID())
+			{
+				DoSpawnGreatPerson(eMinor);
+				DoSeedGreatPeopleSpawnCounter();
+				break;
+			}
 		}
 	}
 }
@@ -21553,12 +21646,6 @@ void CvPlayer::processPolicies(PolicyTypes ePolicy, int iChange)
 		}
 	}
 
-	// Great People bonus from Allied city-states
-	if(pPolicy->IsMinorGreatPeopleAllies())
-	{
-		DoAdoptedGreatPersonCityStatePolicy();
-	}
-
 	// Add a Reformation belief if eligible
 	if (isHuman() && pPolicy->IsAddReformationBelief() && GetReligions()->HasCreatedReligion() && !GetReligions()->HasAddedReformationBelief())
 	{
@@ -21873,6 +21960,14 @@ void CvPlayer::Read(FDataStream& kStream)
 	else
 	{
 		m_iExtraLeagueVotes = 0;
+	}
+	if (uiVersion >= 17)
+	{
+		kStream >> m_iStockholmCityHallGPExpendedMask;
+	}
+	else
+	{
+		m_iStockholmCityHallGPExpendedMask = 0;
 	}
 	kStream >> m_iSpecialPolicyBuildingHappiness;
 	kStream >> m_iWoundedUnitDamageMod;
@@ -22422,6 +22517,7 @@ void CvPlayer::Write(FDataStream& kStream) const
 	kStream << m_iEspionageModifier;
 	kStream << m_iSpyStartingRank;
 	kStream << m_iExtraLeagueVotes;
+	kStream << m_iStockholmCityHallGPExpendedMask;
 	kStream << m_iSpecialPolicyBuildingHappiness;
 	kStream << m_iWoundedUnitDamageMod;
 	kStream << m_iUnitUpgradeCostMod;

@@ -3322,8 +3322,15 @@ int CvLeague::CalculateStartingVotesForMember(PlayerTypes ePlayer, bool bForceUp
 		}
 		iVotes += iDiplomatVotes;
 
-		// Wonders
+		// Wonders / extra league votes
 		int iWonderVotes = GET_PLAYER(ePlayer).GetExtraLeagueVotes();
+		int iStockholmCityHallVotes = GET_PLAYER(ePlayer).GetStockholmCityHallDelegateBonus();
+		int iOtherWonderVotes = iWonderVotes - iStockholmCityHallVotes;
+		if(iOtherWonderVotes < 0)
+		{
+			iOtherWonderVotes = 0;
+		}
+
 		iVotes += iWonderVotes;
 
 		// World Religion
@@ -3370,11 +3377,18 @@ int CvLeague::CalculateStartingVotesForMember(PlayerTypes ePlayer, bool bForceUp
 				sTemp << GET_PLAYER(ePlayer).GetExtraVotesPerDiplomat();
 				pMember->sVoteSources += sTemp.toUTF8();
 			}
-			if (iWonderVotes > 0)
+			if (iOtherWonderVotes > 0)
 			{
 				Localization::String sTemp = Localization::Lookup("TXT_KEY_LEAGUE_OVERVIEW_MEMBER_DETAILS_WONDER_VOTES");
-				sTemp << iWonderVotes;
+				sTemp << iOtherWonderVotes;
 				pMember->sVoteSources += sTemp.toUTF8();
+			}
+
+			if (iStockholmCityHallVotes > 0)
+			{
+				CvString strTemp;
+				strTemp.Format("[NEWLINE][ICON_BULLET]Stockholm City Hall: %d Delegates", iStockholmCityHallVotes);
+				pMember->sVoteSources += strTemp;
 			}
 			if (iWorldReligionVotes > 0)
 			{

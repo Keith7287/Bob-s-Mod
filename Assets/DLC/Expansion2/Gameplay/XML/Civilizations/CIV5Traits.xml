@@ -91,6 +91,7 @@
 		<Column name="UniqueLuxuryRequiresNewArea" type="boolean" default="false"/>
 		<Column name="RiverTradeRoad" type="boolean" default="false"/>
 		<Column name="AngerFreeIntrusionOfCityStates" type="boolean" default="false"/>
+		<Column name="MinorGreatPeopleAllies" type="boolean" default="false"/>
 		<Column name="FreeUnit" type="text" reference="UnitClasses(Type)" default="NULL"/>
 		<Column name="FreeUnitPrereqTech" type="text" reference="Technologies(Type)" default="NULL"/>
 		<Column name="CombatBonusImprovement" type="text" reference="Improvements(Type)" default="NULL"/>
