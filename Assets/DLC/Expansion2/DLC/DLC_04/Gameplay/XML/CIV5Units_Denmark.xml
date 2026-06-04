@@ -70,6 +70,10 @@
 			<UnitType>UNIT_DANISH_BERSERKER</UnitType>
 			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
 		</Row>
+		<Row>
+			<UnitType>UNIT_DANISH_BERSERKER</UnitType>
+			<PromotionType>PROMOTION_BERSERKER_FURY</PromotionType>
+		</Row>
 	</Unit_FreePromotions>
 	<Unit_ResourceQuantityRequirements>
 		<Row>
@@ -122,4 +126,19 @@
 			<IconsPerColumn>2</IconsPerColumn>
 		</Row>
 	</IconTextureAtlases>
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_BERSERKER_FURY</Type>
+			<Description>Berserker Fury</Description>
+			<Help>Nearby enemy units get -10% Combat Strength</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<NearbyEnemyCombatMod>-10</NearbyEnemyCombatMod>
+			<NearbyEnemyCombatRange>1</NearbyEnemyCombatRange>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_HAKA_WAR_DANCE</PediaEntry>
+		</Row>
+	</UnitPromotions>
 </GameData>
